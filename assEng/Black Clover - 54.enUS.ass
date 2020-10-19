@@ -1,0 +1,378 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H00F7FCFD,&H000000FF,&H00070805,&H000D1728,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0080,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_11079_109_Golden_Dawn_Vice,Times New Roman,20,&H00F7FBFA,&H000000FF,&H001D1C1B,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_11579_99_This_is_his_own_,Times New Roman,30,&H00F7FBFA,&H000000FF,&H001D1C1B,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0080,1
+Style: sign_12489_108_You_only_eat_bar,Times New Roman,30,&H00F7FBFA,&H000000FF,&H001D1C1B,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_14106_130_I_have_something,Times New Roman,30,&H00F7FBFA,&H000000FF,&H001D1C1B,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0135,1
+Style: sign_23304_228_I_want_to_hurry_,Times New Roman,30,&H00F7FBFA,&H000000FF,&H001D1C1B,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0125,1
+Style: sign_23382_229_Our_bond_will_ge,Times New Roman,24,&H00F7FBFA,&H000000FF,&H001D1C1B,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0080,1
+Style: sign_23779_235_A_Beginner_s_Gui,Times New Roman,18,&H00F7FBFA,&H000000FF,&H001D1C1B,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0080,1
+Style: sign_24224_241_Grey,Times New Roman,30,&H00F7FBFA,&H000000FF,&H001D1C1B,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0105,0070,1
+Style: sign_32543_296__Question_1__Wha,Trebuchet MS,22,&H00000000,&H000000FF,&H00C6DFEB,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_32867_306_Murder_him,Comic Sans MS,26,&H00000100,&H000000FF,&H00C9E5ED,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0150,1
+Style: sign_33561_323__Let_s_take_good,Trebuchet MS,30,&H00030200,&H000000FF,&H00FDFAFB,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33690_325_Let_s_concentrat,Trebuchet MS,18,&H00000000,&H000000FF,&H00C6DFEB,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_33773_326_100_Spells_to_He,Trebuchet MS,30,&H00000000,&H000000FF,&H00F5F7F8,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:06.61,0:00:10.94,italics,nar,0000,0000,0000,,It appeared as though humanity \Nwould be destroyed by the demons.
+Dialogue: 0,0:00:14.95,0:00:19.16,italics,Nar,0000,0000,0000,,But a single mage saved them all.
+Dialogue: 0,0:00:26.39,0:00:31.46,italics,Nar,0000,0000,0000,,He was called the Wizard King,\Nand he became a legend.
+Dialogue: 0,0:00:35.08,0:00:37.34,italics,Nar,0000,0000,0000,,While the members of the \NGolden Dawn were stopping
+Dialogue: 0,0:00:37.34,0:00:40.36,italics,Nar,0000,0000,0000,,the Diamond troops from invading Kiten,
+Dialogue: 0,0:00:41.21,0:00:47.19,italics,Nar,0000,0000,0000,,Yami asked Vangeance something that had \Nbeen bothering him for a long time.
+Dialogue: 0,0:00:47.19,0:00:48.73,main,Yami,0000,0000,0000,,Vangeance...
+Dialogue: 0,0:00:48.73,0:00:52.82,main,Yami,0000,0000,0000,,Could you take off that mask?
+Dialogue: 0,0:00:54.93,0:01:01.08,main,Yami,0000,0000,0000,,Yami, you suspect that I may be the leader of\Nthe Eye of the Midnight Sun, don't you?
+Dialogue: 0,0:01:02.83,0:01:04.08,main,William,0000,0000,0000,,Very well.
+Dialogue: 0,0:01:21.51,0:01:23.85,main,Yami,0000,0000,0000,,Sorry about that.
+Dialogue: 0,0:01:23.85,0:01:30.19,italics,Nar,0000,0000,0000,,As Asta and Yuno were reunited during \Nthis battle and renewed their ambitions...
+Dialogue: 0,0:01:30.19,0:01:33.19,main,Both,0000,0000,0000,,We're both working to \Nbecome the Wizard King!
+Dialogue: 0,0:01:34.04,0:01:39.61,italics,Nar,0000,0000,0000,,...a new threat from the Diamond Kingdom \Nwas planning its next move.
+Dialogue: 0,0:01:53.25,0:01:56.72,Ep Title,Sign,0000,0000,0000,,{\fad(1023,1)}Never Again
+Dialogue: 0,0:03:26.04,0:03:28.57,main,Owen,0000,0000,0000,,Sounds like a lively bunch has arrived.
+Dialogue: 0,0:03:30.04,0:03:34.17,main,Yami,0000,0000,0000,,Are you just not satisfied unless \Nyou're fighting something? Huh?
+Dialogue: 0,0:03:30.26,0:03:32.13,top,Asta,0000,0000,0000,,My head! It's going to crack!
+Dialogue: 0,0:03:32.13,0:03:34.17,top,Asta,0000,0000,0000,,It's going to break!
+Dialogue: 0,0:03:34.17,0:03:36.36,main,Yami,0000,0000,0000,,Is that what's wrong with you?
+Dialogue: 0,0:03:36.36,0:03:38.94,main,Asta,0000,0000,0000,,My body is moving on its own?!
+Dialogue: 0,0:03:39.36,0:03:42.99,main,Yami,0000,0000,0000,,Well, whatever. You fought \Ndespite how broken you are.
+Dialogue: 0,0:03:39.70,0:03:42.99,top,Asta,0000,0000,0000,,Captain Yami, I can't! Please!
+Dialogue: 0,0:03:42.99,0:03:45.61,top,Asta,0000,0000,0000,,Spare me, please!
+Dialogue: 0,0:03:42.99,0:03:46.17,main,Yami,0000,0000,0000,,Have him take a look at you and your head.
+Dialogue: 0,0:03:46.17,0:03:48.83,main,Asta,0000,0000,0000,,I think my head's being affected \Nmore now than it usually is!
+Dialogue: 0,0:03:48.83,0:03:51.83,main,Owen,0000,0000,0000,,Hey, Yami. Come on in.
+Dialogue: 0,0:03:52.36,0:03:54.08,main,Asta,0000,0000,0000,,Who are you?
+Dialogue: 0,0:03:54.08,0:03:56.79,main,Yami,0000,0000,0000,,This guy, who looks completely \Nout of place in this tower,
+Dialogue: 0,0:03:56.79,0:04:00.90,main,Yami,0000,0000,0000,,is the kingdom's best quack doctor.\NYou might've gathered that from how he looks.
+Dialogue: 0,0:04:00.90,0:04:02.02,main,Owen,0000,0000,0000,,That's so rude!
+Dialogue: 0,0:04:02.02,0:04:05.37,main,Yami,0000,0000,0000,,He managed to reattach one of my \Narms after it almost fell off before,
+Dialogue: 0,0:04:05.37,0:04:07.50,main,Yami,0000,0000,0000,,so he's a great recovery mage.
+Dialogue: 0,0:04:07.50,0:04:09.47,main,Yami,0000,0000,0000,,Have him check you out.
+Dialogue: 0,0:04:11.35,0:04:12.98,main,Asta,0000,0000,0000,,I'm gonna get even more injured!
+Dialogue: 0,0:04:14.31,0:04:15.57,top,Owen,0000,0000,0000,,Are you all right?
+Dialogue: 0,0:04:14.54,0:04:20.48,sign_11079_109_Golden_Dawn_Vice,Sign,0000,0000,0000,,{\fad(965,1)}Recovery Mage Who Works Directly Under the Wizard King\N{\fs30}Owen
+Dialogue: 0,0:04:15.57,0:04:19.36,top,Owen,0000,0000,0000,,I'm Owen, a recovery mage who \Nworks directly under the Wizard King.
+Dialogue: 0,0:04:19.36,0:04:20.48,top,Owen,0000,0000,0000,,Pleasure to meet you.
+Dialogue: 0,0:04:20.80,0:04:23.24,main,Asta,0000,0000,0000,,I'm Asta! Thanks for seeing me!
+Dialogue: 0,0:04:23.24,0:04:27.67,main,Owen,0000,0000,0000,,I hear all about you when \NI go out drinking with Yami.
+Dialogue: 0,0:04:27.67,0:04:29.11,main,Asta,0000,0000,0000,,Really?!
+Dialogue: 0,0:04:29.11,0:04:33.04,main,Owen,0000,0000,0000,,Yeah. I heard that you can nullify magic.
+Dialogue: 0,0:04:33.04,0:04:35.75,main,Owen,0000,0000,0000,,Who knew such magic existed?
+Dialogue: 0,0:04:36.17,0:04:39.51,italics,Asta,0000,0000,0000,,He works directly under the Wizard King?\NEven I know what that means!
+Dialogue: 0,0:04:39.51,0:04:42.26,italics,Asta,0000,0000,0000,,He must be an incredible quack doctor!
+Dialogue: 0,0:04:42.59,0:04:46.01,main,Yami,0000,0000,0000,,Welp, I've got something \NI gotta take care of.
+Dialogue: 0,0:04:46.74,0:04:49.56,main,Yami,0000,0000,0000,,I've got a good feeling that\N I'm gonna win today.
+Dialogue: 0,0:04:49.56,0:04:51.27,main,Owen,0000,0000,0000,,You're going gambling, aren't you?
+Dialogue: 0,0:04:51.61,0:04:53.20,main,Asta,0000,0000,0000,,May Lady Luck be with you!
+Dialogue: 0,0:04:53.20,0:04:59.22,main,Owen,0000,0000,0000,,Jeez... Yami's younger than me, \Nbut he's much bolder. It's so irritating.
+Dialogue: 0,0:04:59.22,0:05:01.62,main,Owen,0000,0000,0000,,He's not a bad guy, though.
+Dialogue: 0,0:05:01.62,0:05:02.47,main,Asta,0000,0000,0000,,Yup!
+Dialogue: 0,0:05:02.47,0:05:04.31,main,Owen,0000,0000,0000,,Well, have a seat.
+Dialogue: 0,0:05:04.31,0:05:05.53,main,Asta,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:05:06.07,0:05:08.28,main,Owen,0000,0000,0000,,Now, then... Let's see.
+Dialogue: 0,0:05:15.48,0:05:18.88,main,Owen,0000,0000,0000,,Water Recovery Magic: Qualle Operation.
+Dialogue: 0,0:05:18.88,0:05:22.36,main,Owen,0000,0000,0000,,Wow, they got you good, didn't they?
+Dialogue: 0,0:05:22.36,0:05:27.65,main,Owen,0000,0000,0000,,But don't you worry. My spell sees through \Nthe body of the person it envelops,
+Dialogue: 0,0:05:27.65,0:05:30.72,main,Owen,0000,0000,0000,,so I can get a clear look at the affected \Narea and heal it with precision.
+Dialogue: 0,0:05:32.28,0:05:36.33,main,Owen,0000,0000,0000,,Yami's amazing, but you've got \Nsome amazing muscles yourself.
+Dialogue: 0,0:05:36.33,0:05:37.90,main,Asta,0000,0000,0000,,I work out!
+Dialogue: 0,0:05:37.90,0:05:40.61,main,Owen,0000,0000,0000,,Now for some mana to promote healing...
+Dialogue: 0,0:05:45.48,0:05:48.57,main,Finral,0000,0000,0000,,Man, I finally got out of Kiten.
+Dialogue: 0,0:05:48.57,0:05:51.83,main,Finral,0000,0000,0000,,Just how many captives \Ndid the Golden Dawn take?
+Dialogue: 0,0:05:51.83,0:05:53.79,main,Finral,0000,0000,0000,,Let's see, where's Asta...
+Dialogue: 0,0:05:53.79,0:05:55.71,main,Finral,0000,0000,0000,,Whoa, what the heck is that?!
+Dialogue: 0,0:05:55.71,0:05:58.62,main,Finral,0000,0000,0000,,Jellyfish... recovery magic?
+Dialogue: 0,0:06:05.73,0:06:06.92,main,Owen,0000,0000,0000,,Asta...
+Dialogue: 0,0:06:31.78,0:06:34.49,main,Asta,0000,0000,0000,,Oh, hey, Finral. Sorry to keep you waiting.
+Dialogue: 0,0:06:34.84,0:06:37.21,main,Finral,0000,0000,0000,,Oh, hey, Asta. No worries.
+Dialogue: 0,0:06:37.21,0:06:39.36,main,Finral,0000,0000,0000,,Yami should show up any minute now.
+Dialogue: 0,0:06:39.36,0:06:41.05,main,Yami,0000,0000,0000,,Hey!
+Dialogue: 0,0:06:42.46,0:06:44.89,main,Asta,0000,0000,0000,,Captain Yami, did you...
+Dialogue: 0,0:06:46.07,0:06:48.66,main,Yami,0000,0000,0000,,I was on fire today!
+Dialogue: 0,0:06:48.66,0:06:50.76,main,Finral,0000,0000,0000,,What's with the huge bag?
+Dialogue: 0,0:06:50.76,0:06:53.21,main,Yami,0000,0000,0000,,Huh? Forget it. Let's just go home.
+Dialogue: 0,0:06:53.21,0:06:55.39,main,Yami,0000,0000,0000,,Hurry up with the spatial magic, Finral.
+Dialogue: 0,0:06:55.39,0:06:56.60,main,Finral,0000,0000,0000,,Okay...
+Dialogue: 0,0:07:05.90,0:07:07.93,main,Yami,0000,0000,0000,,All right, listen up.
+Dialogue: 0,0:07:07.93,0:07:09.70,main,Yami,0000,0000,0000,,I'm pretty sure some of you noticed,
+Dialogue: 0,0:07:10.03,0:07:15.16,main,Yami,0000,0000,0000,,but we've earned so many stars lately \Nthat we're actually out of the hole.
+Dialogue: 0,0:07:15.16,0:07:19.54,main,Yami,0000,0000,0000,,This is all thanks to you \Ndumbasses working hard.
+Dialogue: 0,0:07:21.54,0:07:23.89,main,Yami,0000,0000,0000,,So eat all this meat!
+Dialogue: 0,0:07:26.29,0:07:27.30,main,Charmy,0000,0000,0000,,Swoosh!
+Dialogue: 0,0:07:27.30,0:07:29.08,main,Charmy,0000,0000,0000,,Swooshy, whooshy, whooshy, whoosh!
+Dialogue: 0,0:07:29.08,0:07:30.92,main,Charmy,0000,0000,0000,,Meat! Here! There!
+Dialogue: 0,0:07:30.92,0:07:34.07,main,Charmy,0000,0000,0000,,Everywhere! All of the meat!
+Dialogue: 0,0:07:37.60,0:07:39.89,main,Charmy,0000,0000,0000,,So good!
+Dialogue: 0,0:07:39.89,0:07:43.45,main,Magna,0000,0000,0000,,Mister Yami's actually treating us!\N Today's a damn holiday!
+Dialogue: 0,0:07:43.45,0:07:45.77,main,Magna,0000,0000,0000,,I'm gonna eat a lifetime's worth of meat!
+Dialogue: 0,0:07:46.45,0:07:50.49,main,Gauche,0000,0000,0000,,Marie, I'll only serve you the best meat.
+Dialogue: 0,0:07:51.41,0:07:52.48,main,Gauche,0000,0000,0000,,Here you go, Marie.
+Dialogue: 0,0:07:52.48,0:07:56.16,main,Gauche,0000,0000,0000,,I've cooked this meat to just above \N55 degrees Celsius, just high enough
+Dialogue: 0,0:07:56.16,0:07:59.32,main,Gauche,0000,0000,0000,,to make sure you don't get food poisoning, \Nbut below 60 degrees Celsius,
+Dialogue: 0,0:07:59.32,0:08:00.89,main,Gauche,0000,0000,0000,,since that would make it tough.
+Dialogue: 0,0:08:00.89,0:08:02.92,main,Gauche,0000,0000,0000,,It's the best-cooked meat possible.
+Dialogue: 0,0:08:02.93,0:08:04.92,sign_11579_99_This_is_his_own_,Sign,0000,0000,0000,,This is his own personal opinion
+Dialogue: 0,0:08:04.92,0:08:07.01,main,Gauche,0000,0000,0000,,Say, "Aah."
+Dialogue: 0,0:08:11.73,0:08:12.93,main,Marie,0000,0000,0000,,It's so good!
+Dialogue: 0,0:08:16.85,0:08:20.35,main,Luck,0000,0000,0000,,Magna, wanna kill each other \Nover this hunk of meat?
+Dialogue: 0,0:08:20.35,0:08:21.30,main,Magna,0000,0000,0000,,Of course not, you idiot!
+Dialogue: 0,0:08:21.30,0:08:23.27,main,Luck,0000,0000,0000,,Aw, come on!
+Dialogue: 0,0:08:25.99,0:08:30.12,main,Vanessa,0000,0000,0000,,Is there anything more blissful \Nthan this? I can barely stand it.
+Dialogue: 0,0:08:31.70,0:08:34.37,main,Grey,0000,0000,0000,,It's so hot! But so good!
+Dialogue: 0,0:08:35.80,0:08:40.04,main,Grey,0000,0000,0000,,P-Pwease dun mook at muh ben \NI'm meating! It's embarrassing!
+Dialogue: 0,0:08:40.89,0:08:43.68,sign_12489_108_You_only_eat_bar,Gordon/Subs,0000,0000,0000,,You only eat barbecue with\N those who are special to you.
+Dialogue: 0,0:08:43.68,0:08:46.63,sign_12489_108_You_only_eat_bar,Gordon/subs,0000,0000,0000,,Asta and I are special friends\N who share the same meat...
+Dialogue: 0,0:08:47.25,0:08:50.42,main,Noelle,0000,0000,0000,,Asta, you can't eat with \Nyour arms like that, right?
+Dialogue: 0,0:08:50.42,0:08:54.09,main,Noelle,0000,0000,0000,,Y-You're so helpless. I'll just \Nhave to feed you myself...
+Dialogue: 0,0:08:54.88,0:08:58.21,main,Asta,0000,0000,0000,,Woohoo! I can eat with my feet now!
+Dialogue: 0,0:08:58.21,0:08:59.84,main,Asta,0000,0000,0000,,I guess people can learn to do anything!
+Dialogue: 0,0:09:00.35,0:09:02.02,main,Noelle,0000,0000,0000,,You filthy peasant!
+Dialogue: 0,0:09:04.84,0:09:07.48,main,Yami,0000,0000,0000,,All right, Finral! Show us a trick!
+Dialogue: 0,0:09:07.79,0:09:09.86,main,Finral,0000,0000,0000,,Huh? O-Oh, sure...
+Dialogue: 0,0:09:09.86,0:09:12.29,main,Finral,0000,0000,0000,,Secret Technique: Stop Hitting Yourself!
+Dialogue: 0,0:09:13.59,0:09:16.36,main,Yami,0000,0000,0000,,All right! You're next, Charmy!
+Dialogue: 0,0:09:16.36,0:09:19.07,main,Yami,0000,0000,0000,,Secret Technique: Instant Disappearing Meat!
+Dialogue: 0,0:09:19.45,0:09:21.70,main,Charmy,0000,0000,0000,,La, la, la...
+Dialogue: 0,0:09:22.79,0:09:25.59,main,Yami,0000,0000,0000,,All you did was eat it instantly!
+Dialogue: 0,0:09:27.29,0:09:28.57,main,Yami,0000,0000,0000,,All right, Grey! You're next!
+Dialogue: 0,0:09:28.57,0:09:29.67,main,Yami,0000,0000,0000,,Do something!
+Dialogue: 0,0:09:30.74,0:09:32.64,main,Grey,0000,0000,0000,,I can't!
+Dialogue: 0,0:09:32.64,0:09:33.71,main,Yami,0000,0000,0000,,Shut up and do something!
+Dialogue: 0,0:09:35.29,0:09:37.68,main,Grey,0000,0000,0000,,S-Secret Technique: M****** ****xe!
+Dialogue: 0,0:09:41.94,0:09:44.42,main,Yami,0000,0000,0000,,You just turned into what \Nyou usually turn into!
+Dialogue: 0,0:09:45.54,0:09:46.87,sign_12489_108_You_only_eat_bar,Gordon/subs,0000,0000,0000,,Wow, everyone's so amazing.
+Dialogue: 0,0:09:46.87,0:09:48.33,sign_12489_108_You_only_eat_bar,Gordon/subs,0000,0000,0000,,Everyone has their own special skill.
+Dialogue: 0,0:09:48.33,0:09:50.58,sign_12489_108_You_only_eat_bar,Gordon/subs,0000,0000,0000,,I have something that\NI've been secretly practicing.
+Dialogue: 0,0:09:50.58,0:09:51.77,sign_12489_108_You_only_eat_bar,Gordon/subs,0000,0000,0000,,Do you mind if I show you guys?
+Dialogue: 0,0:09:51.77,0:09:55.78,main,Luck,0000,0000,0000,,Special Technique: Crackling Magna Typhoon!
+Dialogue: 0,0:09:56.17,0:09:58.95,main,Charmy,0000,0000,0000,,Secret Technique: Meaty Sheepy Peacock!
+Dialogue: 0,0:10:00.28,0:10:02.49,main,Asta,0000,0000,0000,,Next, I'll work out!
+Dialogue: 0,0:10:02.49,0:10:04.49,main,Magna,0000,0000,0000,,That's not a special trick at all!
+Dialogue: 0,0:10:06.73,0:10:11.84,main,Asta,0000,0000,0000,,Man, I'm exhausted. \NI'm gonna call it a night!
+Dialogue: 0,0:10:11.84,0:10:15.38,main,Magna,0000,0000,0000,,Well, all right. Make sure \Nyou get plenty of rest!
+Dialogue: 0,0:10:15.77,0:10:18.25,main,Asta,0000,0000,0000,,Great work, everyone!
+Dialogue: 0,0:10:21.89,0:10:24.51,main,Noelle,0000,0000,0000,,Isn't Asta acting a bit weird?
+Dialogue: 0,0:10:24.51,0:10:29.69,main,Magna,0000,0000,0000,,Yeah... I mean, when does he ever get tired?
+Dialogue: 0,0:10:30.15,0:10:34.69,italics,Noelle,0000,0000,0000,,Exactly. He just seems off today.
+Dialogue: 0,0:10:37.57,0:10:40.28,main,Vanessa,0000,0000,0000,,Maybe I'll go cheer him up.
+Dialogue: 0,0:10:40.28,0:10:42.66,main,Luck,0000,0000,0000,,Maybe if we try to kill \Neach other, he'll feel better.
+Dialogue: 0,0:10:42.66,0:10:45.95,main,Charmy,0000,0000,0000,,He'll feel better if he eats \Nsome more meat, la!
+Dialogue: 0,0:10:45.95,0:10:48.25,main,Grey,0000,0000,0000,,I wonder if something happened.
+Dialogue: 0,0:10:49.30,0:10:51.42,main,Grey,0000,0000,0000,,F-F-Forget I said anything!
+Dialogue: 0,0:10:51.65,0:10:54.27,sign_12489_108_You_only_eat_bar,Gordon/subs,0000,0000,0000,,Now that you mention it,\N the angle of his smile
+Dialogue: 0,0:10:54.27,0:10:55.98,sign_12489_108_You_only_eat_bar,Gordon/subs,0000,0000,0000,,seemed a little lower than usual...
+Dialogue: 0,0:10:55.98,0:10:57.26,main,Gauche,0000,0000,0000,,Marie...
+Dialogue: 0,0:10:59.51,0:11:01.43,main,Finral,0000,0000,0000,,Guys, I have something to tell you.
+Dialogue: 0,0:11:03.13,0:11:06.56,main,Finral,0000,0000,0000,,I overheard something when \NAsta was getting healed.
+Dialogue: 0,0:11:07.56,0:11:09.25,main,Finral,0000,0000,0000,,The doctor said that Asta's arms
+Dialogue: 0,0:11:10.84,0:11:13.00,main,Finral,0000,0000,0000,,will never go back to normal.
+Dialogue: 0,0:11:17.56,0:11:18.74,main,Vanessa,0000,0000,0000,,What?
+Dialogue: 0,0:11:18.74,0:11:21.03,main,Magna,0000,0000,0000,,What... are you saying?
+Dialogue: 0,0:11:26.26,0:11:30.12,flashback,Owen,0000,0000,0000,,It looks like some kind of ancient \Ncurse has been placed upon them.
+Dialogue: 0,0:11:30.65,0:11:33.58,flashback,Owen,0000,0000,0000,,On top of that, the bones are shattered.
+Dialogue: 0,0:11:34.23,0:11:38.28,flashback,Owen,0000,0000,0000,,I'm very sorry, but I won't be able to \Nheal you with the magic I have now.
+Dialogue: 0,0:11:42.25,0:11:44.76,main,Yami,0000,0000,0000,,A curse, huh?
+Dialogue: 0,0:11:45.17,0:11:49.56,flashback,Vetto,0000,0000,0000,,Impressive... You managed \Nto draw me out, human.
+Dialogue: 0,0:11:50.13,0:11:53.68,main,Yami,0000,0000,0000,,If that's what the best recovery \Nmage in the Clover Kingdom said,
+Dialogue: 0,0:11:53.68,0:11:54.94,main,Yami,0000,0000,0000,,then there's no doubt about it.
+Dialogue: 0,0:11:56.81,0:11:58.44,main,Noelle,0000,0000,0000,,No...
+Dialogue: 0,0:12:01.14,0:12:05.95,main,Finral,0000,0000,0000,,Just when I thought I'd \Nfound the ultimate partner...
+Dialogue: 0,0:12:07.14,0:12:09.12,main,Magna,0000,0000,0000,,This is way too harsh.
+Dialogue: 0,0:12:09.91,0:12:14.96,main,Vanessa,0000,0000,0000,,The boy has no magic... and now \Nhe can't even use his only weapon?
+Dialogue: 0,0:12:16.26,0:12:18.50,main,Charmy,0000,0000,0000,,La...
+Dialogue: 0,0:12:18.50,0:12:20.17,main,Gordon,0000,0000,0000,,Unbelievable...
+Dialogue: 0,0:12:21.53,0:12:22.60,main,Noelle,0000,0000,0000,,Asta...
+Dialogue: 0,0:12:32.37,0:12:36.65,flashbackitalics,Owen,0000,0000,0000,,You will never be able to \Nswing your sword again.
+Dialogue: 0,0:12:50.52,0:12:54.00,flashbackitalics,Owen,0000,0000,0000,,You will never be able to \Nswing your sword again.
+Dialogue: 0,0:13:00.98,0:13:02.51,main,Noelle,0000,0000,0000,,Asta...
+Dialogue: 0,0:13:06.02,0:13:09.76,main,Asta,0000,0000,0000,,Like hell I'm gonna give up!
+Dialogue: 0,0:13:10.17,0:13:13.30,main,Asta,0000,0000,0000,,You just had to mess with \Nme again, didn't you, fate?!
+Dialogue: 0,0:13:13.30,0:13:16.52,main,Asta,0000,0000,0000,,But you're just firing me \Nup more, you bastard!
+Dialogue: 0,0:13:16.93,0:13:20.69,main,Asta,0000,0000,0000,,I'm gonna find a way to fix \Nthese arms, no matter what!
+Dialogue: 0,0:13:20.69,0:13:25.11,main,Asta,0000,0000,0000,,Or I'll find some kind of strength \Nthat lets me fight without my arms!
+Dialogue: 0,0:13:30.28,0:13:33.62,flashback,Revchi,0000,0000,0000,,And you have no magic whatsoever.
+Dialogue: 0,0:13:33.62,0:13:35.50,flashback,Revchi,0000,0000,0000,,You must've been born that way.
+Dialogue: 0,0:13:35.50,0:13:40.50,flashbackitalics,Asta,0000,0000,0000,,Then no matter how hard I try, \NI won't be able to use magic?
+Dialogue: 0,0:13:40.50,0:13:42.88,flashback,Revchi,0000,0000,0000,,Just give up on everything.
+Dialogue: 0,0:13:42.88,0:13:45.63,flashback,Revchi,0000,0000,0000,,You were born a loser!
+Dialogue: 0,0:13:46.39,0:13:50.05,flashbackitalics,Asta,0000,0000,0000,,I'm just going to give...
+Dialogue: 0,0:13:51.56,0:13:53.83,main,Asta,0000,0000,0000,,That one time was the very last time
+Dialogue: 0,0:13:53.83,0:13:55.68,main,Asta,0000,0000,0000,,I'm ever going to feel depressed!
+Dialogue: 0,0:13:55.68,0:13:59.49,main,Asta,0000,0000,0000,,Just you wait, you bastard!
+Dialogue: 0,0:13:59.49,0:14:00.45,main,Noelle,0000,0000,0000,,Asta...
+Dialogue: 0,0:14:00.45,0:14:03.73,top,Asta,0000,0000,0000,,Now that that's settled, time to train!
+Dialogue: 0,0:14:00.98,0:14:02.99,main,Yami,0000,0000,0000,,Damn straight, kid.
+Dialogue: 0,0:14:02.99,0:14:06.08,main,Magna,0000,0000,0000,,That's one hot-blooded guy, damn it!
+Dialogue: 0,0:14:06.08,0:14:07.45,main,Luck,0000,0000,0000,,Way to go, Asta.
+Dialogue: 0,0:14:07.45,0:14:08.52,main,Finral,0000,0000,0000,,Yup!
+Dialogue: 0,0:14:08.52,0:14:11.30,main,Charmy,0000,0000,0000,,I'm gonna share my snacks with him later, la.
+Dialogue: 0,0:14:11.30,0:14:14.31,main,Grey,0000,0000,0000,,H-His optimism is absolutely amazing!
+Dialogue: 0,0:14:14.31,0:14:16.13,main,Gordon,0000,0000,0000,,I believe in you.
+Dialogue: 0,0:14:16.13,0:14:19.94,main,Gauche,0000,0000,0000,,His courage is admirable,\N but I won't let him near Marie.
+Dialogue: 0,0:14:19.94,0:14:21.79,main,Gauche,0000,0000,0000,,Admirable courage, though.
+Dialogue: 0,0:14:20.97,0:14:24.29,top,Asta,0000,0000,0000,,Just you wait, Yuno!
+Dialogue: 0,0:14:22.47,0:14:25.93,italics,Vanessa,0000,0000,0000,,That's right. You can't give up, boy.
+Dialogue: 0,0:14:25.93,0:14:29.62,italics,Vanessa,0000,0000,0000,,Magic from that country \Nmight be able to save you!
+Dialogue: 0,0:14:38.18,0:14:41.19,main,Asta,0000,0000,0000,,Good morning, everyone!
+Dialogue: 0,0:14:42.15,0:14:43.03,main,Asta,0000,0000,0000,,Huh?
+Dialogue: 0,0:14:44.53,0:14:47.30,italics,Asta,0000,0000,0000,,There's usually someone in \Nhere making things lively...
+Dialogue: 0,0:14:47.30,0:14:49.74,italics,Asta,0000,0000,0000,,Did something about the base change again?
+Dialogue: 0,0:14:50.11,0:14:52.82,main,Asta,0000,0000,0000,,Did everyone already head \Nout somewhere for the day?
+Dialogue: 0,0:14:52.82,0:14:54.03,main,Yami,0000,0000,0000,,Hell if I know.
+Dialogue: 0,0:14:55.22,0:14:57.21,italics,Asta,0000,0000,0000,,Is everyone just slacking off?
+Dialogue: 0,0:14:57.21,0:14:59.40,italics,Asta,0000,0000,0000,,They were partying \Npretty hard yesterday...
+Dialogue: 0,0:15:00.60,0:15:05.34,main,Asta,0000,0000,0000,,I sense someone's ki.\NYou can't hide from me!
+Dialogue: 0,0:15:07.40,0:15:09.42,main,Asta,0000,0000,0000,,That's Noelle and Finral.
+Dialogue: 0,0:15:09.42,0:15:10.59,main,Asta,0000,0000,0000,,What're they up to?
+Dialogue: 0,0:15:11.03,0:15:14.43,main,Noelle,0000,0000,0000,,Okay, we were able to send \Nbasically everyone off.
+Dialogue: 0,0:15:14.43,0:15:17.03,main,Finral,0000,0000,0000,,I wish they'd all stop being so secretive.
+Dialogue: 0,0:15:17.03,0:15:19.48,main,Finral,0000,0000,0000,,Asking me to send them places \Nbecause something came up,
+Dialogue: 0,0:15:19.48,0:15:22.67,main,Finral,0000,0000,0000,,or they suddenly remembered \Nthey had to be somewhere...
+Dialogue: 0,0:15:22.67,0:15:26.52,main,Finral,0000,0000,0000,,I know they're all sneaking away \Nto try and find a cure for Asta.
+Dialogue: 0,0:15:26.52,0:15:27.81,main,Asta,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:27.81,0:15:30.79,main,Finral,0000,0000,0000,,Though I guess since they're not \Ntechnically going on missions,
+Dialogue: 0,0:15:30.79,0:15:32.46,main,Finral,0000,0000,0000,,Yami might get mad at them.
+Dialogue: 0,0:15:32.46,0:15:34.54,main,Noelle,0000,0000,0000,,Not to mention, Asta would \Nprobably say something like,
+Dialogue: 0,0:15:34.54,0:15:38.37,main,Noelle,0000,0000,0000,,"Forget about me! \NPlease put any missions first!"
+Dialogue: 0,0:15:53.47,0:15:56.35,main,Magna,0000,0000,0000,,Well, this place looks pretty rough.
+Dialogue: 0,0:15:56.35,0:15:58.45,main,Luck,0000,0000,0000,,You scared, Magna?
+Dialogue: 0,0:15:58.45,0:16:01.43,main,Magna,0000,0000,0000,,Like hell I am! I'm actually super excited!
+Dialogue: 0,0:16:01.78,0:16:05.84,main,Finral,0000,0000,0000,,Magna and Luck went to search some dungeon \Nin a barren part of the Forsaken Realm.
+Dialogue: 0,0:16:05.84,0:16:07.94,main,,0000,0000,0000,,Just you wait, Asta!
+Dialogue: 0,0:16:07.94,0:16:11.97,main,Finral,0000,0000,0000,,Gauche and Gordon are researching \Nhexes at the royal library.
+Dialogue: 0,0:16:11.97,0:16:15.22,sign_12489_108_You_only_eat_bar,Gordon/subs,0000,0000,0000,,I want to hurry up and fix Asta's\Narms so I can hold his hand.
+Dialogue: 0,0:16:15.22,0:16:17.80,sign_12489_108_You_only_eat_bar,Gordon/subs,0000,0000,0000,,Our bond will get even stronger \Nif I can heal his wounds.
+Dialogue: 0,0:16:17.80,0:16:19.33,sign_12489_108_You_only_eat_bar,Gordon/subs,0000,0000,0000,,We'll be friends forever.
+Dialogue: 0,0:16:19.33,0:16:19.70,sign_12489_108_You_only_eat_bar,Gordon/subs,0000,0000,0000,,Yes, BFFs...
+Dialogue: 0,0:16:19.70,0:16:22.68,main,Gauche,0000,0000,0000,,Stop mumbling and search, damn it.
+Dialogue: 0,0:16:23.67,0:16:27.60,main,Gauche,0000,0000,0000,,"{\i1}100 Spells That'll Help You Become an Older \NBrother Your Little Sister Will Adore{\i0}."
+Dialogue: 0,0:16:27.60,0:16:28.61,main,,0000,0000,0000,,Marie...
+Dialogue: 0,0:16:31.78,0:16:34.26,sign_23779_235_A_Beginner_s_Gui,Sign,0000,0000,0000,,A Beginner's Guide to Ancient Hexes That Even a Monkey Could Understand
+Dialogue: 0,0:16:35.09,0:16:36.59,main,Gauche,0000,0000,0000,,Well...
+Dialogue: 0,0:16:36.59,0:16:40.06,main,Gauche,0000,0000,0000,,I guess it might make Marie \Nsad if he doesn't get better.
+Dialogue: 0,0:16:40.33,0:16:43.66,sign_12489_108_You_only_eat_bar,Gordon/subs,0000,0000,0000,,Gauche is actually putting someone\Nelse before his sister for once.
+Dialogue: 0,0:16:43.66,0:16:44.81,sign_12489_108_You_only_eat_bar,Gordon/subs,0000,0000,0000,,I need to work harder.
+Dialogue: 0,0:16:48.66,0:16:53.55,top,Finral,0000,0000,0000,,Charmy and Grey went to search for some \Nunknown ingredients that work against curses.
+Dialogue: 0,0:16:50.34,0:16:54.80,sign_24224_241_Grey,Sign,0000,0000,0000,,{\fad(461,537)}Grey
+Dialogue: 0,0:16:53.55,0:16:55.27,top,Charmy,0000,0000,0000,,Just you wait, Asta!
+Dialogue: 0,0:16:55.27,0:16:59.03,main,Charmy,0000,0000,0000,,I'll find you something that'll cure your \Ncurse, fill your tummy, {\i1}and{\i0} be yummy!
+Dialogue: 0,0:17:00.12,0:17:04.57,main,Charmy,0000,0000,0000,,That's... I have no idea what \Nit is, but it smells delicious, la!
+Dialogue: 0,0:17:05.01,0:17:07.33,main,Charmy,0000,0000,0000,,But I have to hold back!
+Dialogue: 0,0:17:07.33,0:17:08.79,main,Grey,0000,0000,0000,,La!
+Dialogue: 0,0:17:08.79,0:17:10.13,main,Charmy,0000,0000,0000,,La!
+Dialogue: 0,0:17:12.61,0:17:13.72,main,Both,0000,0000,0000,,La!
+Dialogue: 0,0:17:13.72,0:17:17.11,main,Charmy,0000,0000,0000,,Cotton Creation Magic: Sheep Bondage!
+Dialogue: 0,0:17:20.06,0:17:21.85,main,Both,0000,0000,0000,,La!
+Dialogue: 0,0:17:21.85,0:17:24.80,main,Charmy,0000,0000,0000,,All right! Let's keep moving forward, la!
+Dialogue: 0,0:17:24.80,0:17:25.60,main,Grey,0000,0000,0000,,La!
+Dialogue: 0,0:17:29.29,0:17:32.13,main,Finral,0000,0000,0000,,Who would've thought that the \Nmembers of the worst, lowest,
+Dialogue: 0,0:17:32.13,0:17:35.35,main,Finral,0000,0000,0000,,and crudest squad would be \Nworking so hard for one newbie?
+Dialogue: 0,0:17:35.35,0:17:38.09,main,Noelle,0000,0000,0000,,No kidding. Especially for \Nsuch a dumb, reckless,
+Dialogue: 0,0:17:38.09,0:17:40.95,main,Noelle,0000,0000,0000,,vulgar, no-magic peasant like him.
+Dialogue: 0,0:17:43.13,0:17:46.42,flashback,Sekke,0000,0000,0000,,You don't have to try so hard anymore,
+Dialogue: 0,0:17:46.42,0:17:49.38,flashback,Sekke,0000,0000,0000,,you filthy little rat that \Nwandered into the wrong place.
+Dialogue: 0,0:17:49.38,0:17:53.13,flashback,Koza,0000,0000,0000,,What the heck is that peasant \Nfrom the boonies saying?
+Dialogue: 0,0:17:53.13,0:17:57.13,flashback,Revchi,0000,0000,0000,,You can't do a thing in this world.
+Dialogue: 0,0:17:59.25,0:18:01.27,main,Finral,0000,0000,0000,,Even though he doesn't have any magic,
+Dialogue: 0,0:18:01.27,0:18:03.56,main,Finral,0000,0000,0000,,he just refuses to give up.
+Dialogue: 0,0:18:03.92,0:18:05.88,main,Noelle,0000,0000,0000,,Even though he doesn't have any magic,
+Dialogue: 0,0:18:05.88,0:18:10.61,main,Noelle,0000,0000,0000,,he's the first one into the battle,\Nand he fights harder than anyone else.
+Dialogue: 0,0:18:38.28,0:18:39.86,main,Noelle,0000,0000,0000,,And because he's like that,
+Dialogue: 0,0:18:40.43,0:18:44.14,main,Noelle,0000,0000,0000,,Asta was able to give us \Nthe strength to fight.
+Dialogue: 0,0:18:44.14,0:18:48.15,main,Noelle,0000,0000,0000,,Now, it's our turn to help him fight!
+Dialogue: 0,0:19:14.09,0:19:17.34,main,Asta,0000,0000,0000,,I... wasn't blessed with any magic.
+Dialogue: 0,0:19:18.38,0:19:20.61,main,Asta,0000,0000,0000,,That always frustrated me.
+Dialogue: 0,0:19:22.79,0:19:26.36,main,Asta,0000,0000,0000,,But I sure was blessed \Nwith amazing friends...
+Dialogue: 0,0:19:36.20,0:19:38.26,main,Yami,0000,0000,0000,,Those dumbasses.
+Dialogue: 0,0:19:38.26,0:19:41.95,main,Yami,0000,0000,0000,,If only they'd work this hard \Nat their regular jobs.
+Dialogue: 0,0:19:42.29,0:19:43.84,main,Finral,0000,0000,0000,,All right, Noelle!
+Dialogue: 0,0:19:43.84,0:19:47.70,main,Finral,0000,0000,0000,,Why don't we also go look for somewhere \Npromising together— Crunch.
+Dialogue: 0,0:19:48.13,0:19:51.54,main,Noelle,0000,0000,0000,,Sorry, but there's somewhere \NI'd like you to take me.
+Dialogue: 0,0:19:51.54,0:19:53.94,main,Noelle,0000,0000,0000,,You can go wherever you want on your own.
+Dialogue: 0,0:19:53.94,0:19:55.67,main,Finral,0000,0000,0000,,What? Where are you going?
+Dialogue: 0,0:19:58.49,0:20:04.52,main,Finral,0000,0000,0000,,I see! They might know \Nsomething that we don't.
+Dialogue: 0,0:20:04.97,0:20:05.89,main,Finral,0000,0000,0000,,Come to think of it...
+Dialogue: 0,0:20:06.32,0:20:08.39,main,Finral,0000,0000,0000,,Where the heck did Vanessa go?
+Dialogue: 0,0:20:10.66,0:20:12.81,main,Finral,0000,0000,0000,,She disappeared before anyone else.
+Dialogue: 0,0:20:12.81,0:20:16.93,main,Noelle,0000,0000,0000,,Maybe she has some kind of lead herself.
+Dialogue: 0,0:20:16.93,0:20:20.44,main,Noelle,0000,0000,0000,,I don't have any time to waste, either.\N Hurry up and take me.
+Dialogue: 0,0:20:21.57,0:20:25.48,main,Finral,0000,0000,0000,,Maybe remember you're asking your senior \Nfor a favor... But, yeah, okay.
+Dialogue: 0,0:20:36.33,0:20:37.67,main,Fanzell,0000,0000,0000,,Coming.
+Dialogue: 0,0:20:39.11,0:20:40.67,main,Noelle,0000,0000,0000,,Looks like he's home.
+Dialogue: 0,0:20:41.16,0:20:42.42,main,Noelle,0000,0000,0000,,I'm coming in!
+Dialogue: 0,0:20:43.03,0:20:45.72,main,Fanzell,0000,0000,0000,,Oh, hey. I just got out of the bath—
+Dialogue: 0,0:22:22.82,0:22:27.28,sign_33083_276_Petit_Clover_,Sign,0000,0000,0000,,{\fad(1,520)}Pe{\c&H3BC020&}t{\c&HE2AF0F&}i{\c&H3BC020&}t C{\c&HE2AF0F&}l{\c&H3BC020&}o{\c&H0E42D4&}ve{\c&H3BC020&}r
+Dialogue: 0,0:22:23.57,0:22:26.47,main,All,0000,0000,0000,,Petit Clover!
+Dialogue: 0,0:22:26.78,0:22:30.78,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}100 Spells That'll Help You\NBecome an Older Brother \NYour Little Sister Will Adore
+Dialogue: 0,0:22:27.25,0:22:30.78,main,Gauche,0000,0000,0000,,"100 Spells That'll Help You Become an Older \NBrother Your Little Sister Will Adore."
+Dialogue: 0,0:22:32.41,0:22:34.98,main,Gauche,0000,0000,0000,,"First, please evaluate yourself."
+Dialogue: 0,0:22:34.98,0:22:37.29,main,Gauche,0000,0000,0000,,"What type of older brother are you?"
+Dialogue: 0,0:22:37.29,0:22:42.04,sign_32543_296__Question_1__Wha,Sign,0000,0000,0000,,[Question 1]\NWhat would you do if your sister\Nfell in love with someone?
+Dialogue: 0,0:22:37.88,0:22:42.05,main,Gauche,0000,0000,0000,,"Question 1: What would you do if your \Nsister fell in love with someone?"
+Dialogue: 0,0:22:42.04,0:22:44.34,sign_32543_296__Question_1__Wha,Sign,0000,0000,0000,,A, Watch over them from the shadows
+Dialogue: 0,0:22:42.05,0:22:44.38,main,Gauche,0000,0000,0000,,"A: Watch over them from the shadows."
+Dialogue: 0,0:22:44.34,0:22:47.34,sign_32543_296__Question_1__Wha,Sign,0000,0000,0000,,B, Aggressively try to talk to her about it
+Dialogue: 0,0:22:44.38,0:22:46.79,main,Gauche,0000,0000,0000,,"B: Aggressively try to\N talk to her about it."
+Dialogue: 0,0:22:47.23,0:22:49.65,main,Gauche,0000,0000,0000,,"C: Absolutely refuse to allow \Nthis relationship to happen."
+Dialogue: 0,0:22:47.34,0:22:49.76,sign_32543_296__Question_1__Wha,Sign,0000,0000,0000,,C, Absolutely refuse to allow this relationship to happen
+Dialogue: 0,0:22:49.65,0:22:50.99,main,Gauche,0000,0000,0000,,"D: Other."
+Dialogue: 0,0:22:49.76,0:22:51.93,sign_32543_296__Question_1__Wha,Sign,0000,0000,0000,,D, Other (Fill in)
+Dialogue: 0,0:22:50.80,0:22:51.93,sign_32867_306_Murder_him,Sign,0000,0000,0000,,{\fad(528,1)}Murder him
+Dialogue: 0,0:22:52.36,0:22:56.82,main,Gauche,0000,0000,0000,,"Question 2: You see your sister \Nholding hands with another man."
+Dialogue: 0,0:22:56.82,0:22:58.10,main,Gauche,0000,0000,0000,,"What do you do?"
+Dialogue: 0,0:22:58.10,0:23:00.85,sign_32543_296__Question_1__Wha,Sign,0000,0000,0000,,A, Pretend you didn't see it
+Dialogue: 0,0:22:58.68,0:23:00.91,main,Gauche,0000,0000,0000,,"A: Pretend you didn't see it."
+Dialogue: 0,0:23:00.85,0:23:03.48,sign_32543_296__Question_1__Wha,Sign,0000,0000,0000,,B, Greet them quickly, then leave
+Dialogue: 0,0:23:00.91,0:23:03.83,main,Gauche,0000,0000,0000,,"B: Greet them quickly, then leave."
+Dialogue: 0,0:23:03.48,0:23:06.57,sign_32543_296__Question_1__Wha,Sign,0000,0000,0000,,C, Aggressively go talk to them
+Dialogue: 0,0:23:03.83,0:23:06.09,main,Gauche,0000,0000,0000,,"C: Aggressively go talk to them."
+Dialogue: 0,0:23:06.57,0:23:09.40,sign_32543_296__Question_1__Wha,Sign,0000,0000,0000,,D, Other (Fill in)
+Dialogue: 0,0:23:06.69,0:23:08.26,main,Gauche,0000,0000,0000,,"D: Other."
+Dialogue: 0,0:23:08.26,0:23:09.40,sign_32867_306_Murder_him,Sign,0000,0000,0000,,{\fad(528,1)}Murder him
+Dialogue: 0,0:23:11.34,0:23:12.74,sign_32543_296__Question_1__Wha,Sign,0000,0000,0000,,[Evaluation results]
+Dialogue: 0,0:23:11.57,0:23:13.04,main,Gauche,0000,0000,0000,,Evaluation results...
+Dialogue: 0,0:23:12.76,0:23:16.24,sign_32543_296__Question_1__Wha,Sign,0000,0000,0000,,[Evaluation results]\NYou fail as a human being,\Nmuch less a big brother
+Dialogue: 0,0:23:13.04,0:23:16.25,main,Gauche,0000,0000,0000,,"You fail as a human being, \Nmuch less a big brother."
+Dialogue: 0,0:23:17.14,0:23:18.58,main,Gauche,0000,0000,0000,,Reflect Ray!
+Dialogue: 0,0:23:19.77,0:23:22.25,sign_33561_323__Let_s_take_good,Sign,0000,0000,0000,,"Let's take good care\N of library books"
+Dialogue: 0,0:23:23.85,0:23:28.09,sign_32543_296__Question_1__Wha,Sign,0000,0000,0000,,[Evaluation results]
+Dialogue: 0,0:23:25.15,0:23:28.09,sign_33690_325_Let_s_concentrat,Sign,0000,0000,0000,,Let's concentrate on how\Nto enjoy being alone\Ninstead of making friends
+Dialogue: 0,0:23:28.59,0:23:31.59,sign_33773_326_100_Spells_to_He,Sign,0000,0000,0000,,{\fad(526,1)}100 Spells to Help You Make Friends
+Dialogue: 0,0:23:34.22,0:23:38.18,sign_33561_323__Let_s_take_good,Sign,0000,0000,0000,,{\fad(1027,1765)}"Let's take good care\N of library books"
+Dialogue: 0,0:23:39.46,0:23:41.39,main,Magna,0000,0000,0000,,That's right, Asta! You'd better not give up!
+Dialogue: 0,0:23:41.80,0:23:44.88,main,Magna,0000,0000,0000,,Not giving up is our magic!
+Dialogue: 0,0:23:44.88,0:23:48.66,main,Magna,0000,0000,0000,,{\i1}Black Clover{\i0}, Page 55: \N"The Man Named Fanzell."
+Dialogue: 0,0:23:45.65,0:23:54.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 55\N\N{\fs18} The Man Named Fanzell
+Dialogue: 0,0:23:48.66,0:23:53.70,main,Magna,0000,0000,0000,,I don't care if I have to go to the ends of \Nthe earth! I'll find a way to cure you!

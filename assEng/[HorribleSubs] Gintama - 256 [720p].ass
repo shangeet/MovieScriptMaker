@@ -1,0 +1,438 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,40,40,35,1
+Style: Kin Ep Title,Humana Sans Md ITC TT,26,&H0074FFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,3,1,8,0020,0020,0020,0
+Style: Back,Humana Sans Md ITC TT,26,&H00FFFFFF,&H0000FFFF,&H00000000,&H00404040,1,0,0,0,100,100,0,0,1,3,1,8,0020,0020,0020,0
+Style: Main,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,40,40,35,1
+Style: BoardA,Humana Sans Md ITC TT,23,&H00FFFFFF,&H00FFFFFF,&H006B613A,&H006B613A,0,0,0,0,100,100,0,0,1,2,0,9,0020,0060,0015,0
+Style: BoardC,Humana Sans Md ITC TT,23,&H00FFFFFF,&H00FFFFFF,&H006B613A,&H006B613A,0,0,0,0,100,100,0,0,1,2,0,3,0020,0205,0135,0
+Style: BoardB,Humana Sans Md ITC TT,23,&H00FFFFFF,&H00FFFFFF,&H006B613A,&H006B613A,0,0,0,0,100,100,0,0,1,2,0,9,0020,0195,0150,0
+Style: Reunion,Humana Sans Md ITC TT,27,&H00FFFFFF,&H0000FFFF,&H001B1B19,&H00404040,1,0,0,0,100,100,0,0,1,3,1,8,0020,0020,0020,0
+Style: Mantama,Humana Sans Md ITC TT,27,&H00F07334,&H0000FFFF,&H00D0A6EE,&H00000000,1,0,0,0,100,100,0,0,1,3,1,8,0020,0020,0020,0
+Style: Pink,Humana Sans Md ITC TT,27,&H00EC61EF,&H0000FFFF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,3,1,2,0020,0020,0020,0
+Style: Blue,Humana Sans Md ITC TT,27,&H00EC6E56,&H0000FFFF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,3,1,8,0020,0020,0020,0
+Style: Man Ep Title,Humana Sans Md ITC TT,27,&H00EBE6FC,&H0000FFFF,&H00342834,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0020,0
+Style: Wham,Humana Sans Md ITC TT,27,&H007C4CDA,&H0000FFFF,&H0060277E,&H00404040,1,0,0,0,100,100,0,0,1,3,1,8,0020,0020,0020,0
+Style: Gintoki,Humana Sans Md ITC TT,27,&H00FFFFFF,&H00FFFFFF,&H003F432A,&H006B613A,1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Gintama,Humana Sans Md ITC TT,27,&H00FAF7FE,&H0000FFFF,&H00646ED3,&H00404040,1,0,0,0,100,100,0,0,1,3,1,8,0020,0020,0020,0
+Style: Sponsors,Humana Sans Md ITC TT,27,&H00FFFFFF,&H00FFFFFF,&H00000000,&H006B613A,1,0,0,0,100,100,0,0,1,2,0,5,0056,0056,0020,0
+Style: Caution,Humana Sans Md ITC TT,23,&H00ED63E0,&H00FFFFFF,&H00FFDDFF,&H00FF9DFA,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0020,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:02.98,Kin Ep Title,EpTitle,0000,0000,0000,,The Meaning of a Main Character
+Dialogue: 0,0:00:04.48,0:00:05.35,Main,Tojo,0000,0000,0000,,Lady?
+Dialogue: 0,0:00:05.35,0:00:06.29,Main,A,0000,0000,0000,,Boss?
+Dialogue: 0,0:00:06.29,0:00:07.36,Main,B,0000,0000,0000,,Sarutobi-dono?
+Dialogue: 0,0:00:08.42,0:00:10.86,Main,Kin,0000,0000,0000,,You're siding with him?
+Dialogue: 0,0:00:11.18,0:00:14.86,Main,Kin,0000,0000,0000,,You're going to betray \Nyour friends, betray me,
+Dialogue: 0,0:00:14.86,0:00:17.21,Main,Kin,0000,0000,0000,,for a man who attacked your friends?
+Dialogue: 0,0:00:21.78,0:00:23.82,Main,Gin,0000,0000,0000,,What do you think you're doing?
+Dialogue: 0,0:00:23.82,0:00:26.63,Main,Gin,0000,0000,0000,,If you do this...
+Dialogue: 0,0:00:26.63,0:00:28.38,BoardA,Caption,0000,0000,0000,,Field Trip Groups
+Dialogue: 0,0:00:26.63,0:00:28.38,BoardB,Caption,0000,0000,0000,,Boys
+Dialogue: 0,0:00:26.63,0:00:28.38,BoardC,Caption,0000,0000,0000,,Sakata
+Dialogue: 0,0:00:26.63,0:00:28.88,Main,Sa,0000,0000,0000,,Stop it, boys!
+Dialogue: 0,0:00:28.88,0:00:30.91,Main,Sa,0000,0000,0000,,Let Sakata-kun join in!
+Dialogue: 0,0:00:30.91,0:00:32.31,Main,Kyu,0000,0000,0000,,Are you okay, Sakata-kun?
+Dialogue: 0,0:00:32.31,0:00:36.71,Main,Sa,0000,0000,0000,,Teacher, can we let \NSakata-kun join our group?
+Dialogue: 0,0:00:36.71,0:00:39.10,Main,Gin,0000,0000,0000,,...I'll feel like that pathetic \Nleft-out boy who
+Dialogue: 0,0:00:39.10,0:00:42.88,Main,,0000,0000,0000,,ends up in a group of girls \Nout of sympathy!
+Dialogue: 0,0:00:43.79,0:00:46.51,Main,Kyu,0000,0000,0000,,Kintoki, we trusted you.
+Dialogue: 0,0:00:46.51,0:00:47.90,Main,Kyu,0000,0000,0000,,That's why we're here.
+Dialogue: 0,0:00:48.24,0:00:50.78,Main,Tsu,0000,0000,0000,,So trust us.
+Dialogue: 0,0:00:50.78,0:00:53.53,Main,Tsu,0000,0000,0000,,This man isn't what you think he is.
+Dialogue: 0,0:00:53.79,0:00:58.41,Main,Sa,0000,0000,0000,,The Kin-san I know would back off.
+Dialogue: 0,0:00:58.95,0:01:02.91,Main,All,0000,0000,0000,,If you consider us friends...
+Dialogue: 0,0:01:04.25,0:01:05.41,Main,Kin,0000,0000,0000,,I see.
+Dialogue: 0,0:01:05.41,0:01:10.04,Main,Kin,0000,0000,0000,,I suppose you're representing \Nthe Yagyu and Hyakka.
+Dialogue: 0,0:01:11.05,0:01:14.17,Main,Kin,0000,0000,0000,,Get out of this town
+Dialogue: 0,0:01:14.17,0:01:15.55,Main,Kin,0000,0000,0000,,with Gintoki.
+Dialogue: 0,0:01:16.38,0:01:17.55,Main,Tojo,0000,0000,0000,,Kintoki-dono?!
+Dialogue: 0,0:01:17.83,0:01:20.04,Main,Kin,0000,0000,0000,,If you're taking that man's side,
+Dialogue: 0,0:01:20.04,0:01:21.90,Main,Kin,0000,0000,0000,,you're an enemy of this town,
+Dialogue: 0,0:01:21.90,0:01:24.43,Main,,0000,0000,0000,,an enemy of the Kabuki district!
+Dialogue: 0,0:01:25.18,0:01:26.52,Main,Kyu,0000,0000,0000,,I see.
+Dialogue: 0,0:01:26.52,0:01:28.31,Main,Kyu,0000,0000,0000,,Is that your answer?
+Dialogue: 0,0:01:39.03,0:01:39.97,Main,Zura,0000,0000,0000,,In that case...
+Dialogue: 0,0:01:39.97,0:01:42.21,Main,Both,0000,0000,0000,,We also have our answer.
+Dialogue: 0,0:01:43.07,0:01:45.73,Main,Kin,0000,0000,0000,,What do you think you're doing?
+Dialogue: 0,0:01:46.32,0:01:48.56,Main,Kin,0000,0000,0000,,Women are quick to betray you,
+Dialogue: 0,0:01:48.56,0:01:51.71,Main,Kin,0000,0000,0000,,but men are supposed to have honor.
+Dialogue: 0,0:01:52.33,0:01:53.60,Main,Kin,0000,0000,0000,,Aren't we frien—
+Dialogue: 0,0:01:53.60,0:01:54.59,Main,Zura,0000,0000,0000,,We're friends.
+Dialogue: 0,0:01:54.59,0:01:56.34,Main,Mada,0000,0000,0000,,No doubt about it.
+Dialogue: 0,0:01:56.95,0:02:00.74,Main,Zura,0000,0000,0000,,Kintoki, I once made a \Npromise with a friend.
+Dialogue: 0,0:02:00.72,0:02:03.93,Main,Zura,0000,0000,0000,,{\i1}Never change.{\i0}
+Dialogue: 0,0:02:03.93,0:02:07.68,Main,Gin,0000,0000,0000,,{\i1}If you ever change, I'll \Nbe there to cut you down.{\i0}
+Dialogue: 0,0:02:07.67,0:02:11.11,Main,Mada,0000,0000,0000,,Kin-san, a buddy of mine \Nused to smack me around.
+Dialogue: 0,0:02:11.11,0:02:14.86,Main,Gin,0000,0000,0000,,{\i1}Fool! Don't blame everything \Non your sunglasses!{\i0}
+Dialogue: 0,0:02:15.41,0:02:17.07,Main,Mada,0000,0000,0000,,That's who we are.
+Dialogue: 0,0:02:17.79,0:02:21.11,Main,Zura,0000,0000,0000,,When we believe you're \Ntaking the right path,
+Dialogue: 0,0:02:21.11,0:02:24.21,Main,,0000,0000,0000,,we stick with you, \Nno matter how hard it is.
+Dialogue: 0,0:02:24.21,0:02:26.70,Main,Mada,0000,0000,0000,,But if you're taking the wrong path,
+Dialogue: 0,0:02:27.14,0:02:32.08,Main,,0000,0000,0000,,we'll stop you, even if it turns \Nthe whole world against us.
+Dialogue: 0,0:02:32.63,0:02:33.96,Main,Zura,0000,0000,0000,,That friend is...
+Dialogue: 0,0:02:33.96,0:02:35.34,Main,Mada,0000,0000,0000,,That man is...
+Dialogue: 0,0:02:35.34,0:02:36.84,Main,Kyu,0000,0000,0000,,That idiot is...
+Dialogue: 0,0:02:36.84,0:02:38.88,Main,Tsu,0000,0000,0000,,That lazy ass is...
+Dialogue: 0,0:02:38.88,0:02:41.09,Main,Sa,0000,0000,0000,,That sadist is...
+Dialogue: 0,0:02:43.77,0:02:47.11,Main,All,0000,0000,0000,,Our friend, Sakata Gintoki.
+Dialogue: 0,0:02:49.35,0:02:50.01,Main,Tojo,0000,0000,0000,,Huh?
+Dialogue: 0,0:02:50.01,0:02:53.86,Main,Tojo,0000,0000,0000,,I-I kind of went with the flow, \Nbut I can't remember a thing.
+Dialogue: 0,0:02:53.86,0:02:56.61,Main,Gin,0000,0000,0000,,Y-You guys are...
+Dialogue: 0,0:02:56.61,0:02:58.28,Reunion,Caption,0000,0000,0000,,Middle School Class Reunion
+Dialogue: 0,0:02:58.28,0:03:01.08,Main,Zura,0000,0000,0000,,Yo, it's been forever. \NYou been doing okay?
+Dialogue: 0,0:03:01.08,0:03:04.49,Main,Mada,0000,0000,0000,,You still look like a \Nloser. Have a drink.
+Dialogue: 0,0:03:04.49,0:03:08.45,Main,Gin,0000,0000,0000,,...acting all friendly and mature \Nat our class reunion as though
+Dialogue: 0,0:03:08.45,0:03:11.79,Main,,0000,0000,0000,,you never shunned me \Nwhen we were kids.
+Dialogue: 0,0:03:11.79,0:03:13.42,Main,,0000,0000,0000,,Screw you!
+Dialogue: 0,0:03:19.12,0:03:20.25,Main,Gin,0000,0000,0000,,Bastard!
+Dialogue: 0,0:03:20.25,0:03:22.30,Main,Kin,0000,0000,0000,,Impressive, brother.
+Dialogue: 0,0:03:22.55,0:03:25.41,Main,Kin,0000,0000,0000,,So this is the power of \Na bond forged through
+Dialogue: 0,0:03:25.39,0:03:27.01,Main,,0000,0000,0000,,60 volumes of DVDs?
+Dialogue: 0,0:03:27.00,0:03:29.31,Main,Kin,0000,0000,0000,,But it's no use.
+Dialogue: 0,0:03:29.77,0:03:31.40,Main,Kin,0000,0000,0000,,You can try to win them back,
+Dialogue: 0,0:03:31.40,0:03:34.33,Main,Kin,0000,0000,0000,,but I can undo your work \Nwith a wave of my hand.
+Dialogue: 0,0:03:34.33,0:03:35.94,Main,Kin,0000,0000,0000,,Want to know why?
+Dialogue: 0,0:03:36.53,0:03:39.02,Main,Kin,0000,0000,0000,,It's because the main \Ncharacter in this anime...
+Dialogue: 0,0:03:39.69,0:03:41.03,Main,All,0000,0000,0000,,...is Kin-san.
+Dialogue: 0,0:03:43.16,0:03:46.15,Main,Kin,0000,0000,0000,,You thought I couldn't \Nbrainwash people anymore.
+Dialogue: 0,0:03:46.15,0:03:49.16,Main,Kin,0000,0000,0000,,Tama threw away her life for nothing.
+Dialogue: 0,0:03:49.71,0:03:53.33,Main,Kin,0000,0000,0000,,Come on, let's protect our town.
+Dialogue: 0,0:03:53.92,0:03:56.79,Main,Kin,0000,0000,0000,,This sideshow continues to defy
+Dialogue: 0,0:03:56.79,0:03:59.17,Main,,0000,0000,0000,,the main character and his friends.
+Dialogue: 0,0:03:59.52,0:04:00.80,Main,Kin,0000,0000,0000,,Send him packing!
+Dialogue: 0,0:04:06.07,0:04:08.81,Main,Zura,0000,0000,0000,,Go ahead and try!
+Dialogue: 0,0:04:09.24,0:04:11.68,Main,Zura,0000,0000,0000,,But we hold inside us
+Dialogue: 0,0:04:12.82,0:04:16.44,Main,Zura,0000,0000,0000,,ironclad memories of the \Nbattles we fought together!
+Dialogue: 0,0:04:16.75,0:04:19.44,Main,Zura,0000,0000,0000,,A silver sword lies inside our souls!
+Dialogue: 0,0:04:20.27,0:04:22.21,Main,Gin,0000,0000,0000,,If you think you can \Nbreak those swords,
+Dialogue: 0,0:04:24.20,0:04:26.03,Main,Gin,0000,0000,0000,,break them!
+Dialogue: 0,0:04:26.03,0:04:28.70,Main,Gin,0000,0000,0000,,{\i1}My hypnotism isn't working!{\i0}
+Dialogue: 0,0:04:30.14,0:04:32.30,Main,Kin,0000,0000,0000,,Crush them! Beat them down!
+Dialogue: 0,0:04:32.30,0:04:32.87,Main,Zura,0000,0000,0000,,Go!
+Dialogue: 0,0:04:33.24,0:04:34.00,Main,Tsu,0000,0000,0000,,Gintoki!
+Dialogue: 0,0:04:36.02,0:04:38.29,Main,Gin,0000,0000,0000,,Yeah, I'll let you watch my back!
+Dialogue: 0,0:04:40.46,0:04:41.26,Main,Gin,0000,0000,0000,,While...
+Dialogue: 0,0:04:41.78,0:04:45.88,Main,Both,0000,0000,0000,,I handle being the main character!
+Dialogue: 0,0:05:06.35,0:05:07.79,Main,Kin,0000,0000,0000,,I'll obliterate you.
+Dialogue: 0,0:05:07.79,0:05:13.50,Main,Kin,0000,0000,0000,,Erase your memories, your \Nfriends, your very being...
+Dialogue: 0,0:05:13.50,0:05:15.45,Main,Gin,0000,0000,0000,,You're the one who's \Ngetting obliterated.
+Dialogue: 0,0:05:15.95,0:05:19.99,Main,Gin,0000,0000,0000,,Let's see if your memory \Nbank is fried first,
+Dialogue: 0,0:05:19.99,0:05:22.76,Main,Gin,0000,0000,0000,,or if my soul burns out first.
+Dialogue: 0,0:05:23.28,0:05:24.76,Main,Gin,0000,0000,0000,,Let's finish this.
+Dialogue: 0,0:05:26.72,0:05:29.32,Main,Kin,0000,0000,0000,,Whether gold or silver wins \Nthis battle for existence,
+Dialogue: 0,0:05:29.32,0:05:32.65,Main,,0000,0000,0000,,you will be the one who disappears.
+Dialogue: 0,0:05:32.99,0:05:36.06,Main,Kin,0000,0000,0000,,I installed a special program \Nin myself that will activate
+Dialogue: 0,0:05:36.06,0:05:37.98,Main,,0000,0000,0000,,when certain conditions are met.
+Dialogue: 0,0:05:38.47,0:05:40.75,Main,Kin,0000,0000,0000,,This program will cause \Na hypnotic explosion
+Dialogue: 0,0:05:40.75,0:05:43.31,Main,,0000,0000,0000,,that will blanket the \Nentire Kabuki district
+Dialogue: 0,0:05:43.31,0:05:46.49,Main,Kin,0000,0000,0000,,and reset everyone's memory.
+Dialogue: 0,0:05:47.29,0:05:49.34,Main,Kin,0000,0000,0000,,There are two conditions.
+Dialogue: 0,0:05:49.34,0:05:52.94,Main,Kin,0000,0000,0000,,The first is when my core is broken.
+Dialogue: 0,0:05:52.94,0:05:54.12,Main,Kin,0000,0000,0000,,The second
+Dialogue: 0,0:05:54.66,0:05:57.29,Main,Kin,0000,0000,0000,,is about to happen.
+Dialogue: 0,0:05:58.04,0:05:59.92,Main,Otae,0000,0000,0000,,Shin-chan! Kagura-chan!
+Dialogue: 0,0:06:00.24,0:06:02.42,Main,Otae,0000,0000,0000,,What are you doing here?!
+Dialogue: 0,0:06:02.82,0:06:04.66,Main,Otae,0000,0000,0000,,Come on! Pull yourself together!
+Dialogue: 0,0:06:05.23,0:06:06.29,Main,Shin,0000,0000,0000,,Sis...
+Dialogue: 0,0:06:07.97,0:06:10.34,Main,Shin,0000,0000,0000,,We remembered everything.
+Dialogue: 0,0:06:11.39,0:06:13.72,Main,Shin,0000,0000,0000,,Who Sakata Kintoki really is,
+Dialogue: 0,0:06:14.26,0:06:16.52,Main,Shin,0000,0000,0000,,who Sakata Gintoki really is...
+Dialogue: 0,0:06:18.46,0:06:22.44,Main,Shin,0000,0000,0000,,The person who altered our \Nmemories just restored them.
+Dialogue: 0,0:06:22.77,0:06:25.78,Main,Shin,0000,0000,0000,,After that, we lost consciousness.
+Dialogue: 0,0:06:25.78,0:06:30.99,Main,Kag,0000,0000,0000,,Boss lady, we did terrible \Nthings to Gin-chan.
+Dialogue: 0,0:06:30.99,0:06:33.41,Main,Kag,0000,0000,0000,,How do we say we're sorry?
+Dialogue: 0,0:06:33.88,0:06:36.05,Main,Kag,0000,0000,0000,,How can we make up?
+Dialogue: 0,0:06:38.55,0:06:40.54,Main,Otae,0000,0000,0000,,Stand up, you two.
+Dialogue: 0,0:06:41.20,0:06:45.39,Main,Otae,0000,0000,0000,,Let's go back to our leader.
+Dialogue: 0,0:06:45.83,0:06:48.81,Main,Kin,0000,0000,0000,,The second is when the four people
+Dialogue: 0,0:06:48.81,0:06:51.15,Main,,0000,0000,0000,,who started this all appear before me.
+Dialogue: 0,0:06:55.98,0:06:57.61,Main,Kin,0000,0000,0000,,Understand?
+Dialogue: 0,0:06:58.20,0:07:02.03,Main,Kin,0000,0000,0000,,If you defeat me or \Nrecover your friends,
+Dialogue: 0,0:07:03.22,0:07:04.74,Main,Kin,0000,0000,0000,,everything will end.
+Dialogue: 0,0:07:05.39,0:07:07.74,Main,Kin,0000,0000,0000,,That was my true objective.
+Dialogue: 0,0:07:08.27,0:07:11.60,Main,Kin,0000,0000,0000,,You thought I wanted to take \Nover this lousy anime?
+Dialogue: 0,0:07:11.60,0:07:12.99,Main,Kin,0000,0000,0000,,Sorry, but I'm not going
+Dialogue: 0,0:07:12.99,0:07:15.94,Main,,0000,0000,0000,,to be satisfied with \Nyour sloppy seconds.
+Dialogue: 0,0:07:15.94,0:07:17.64,Main,Kin,0000,0000,0000,,I take everything from you
+Dialogue: 0,0:07:17.64,0:07:21.12,Main,,0000,0000,0000,,and become the worst \Nenemy you've ever faced.
+Dialogue: 0,0:07:21.12,0:07:25.07,Main,Kin,0000,0000,0000,,But still, you're able to recover \Nyour friends singlehandedly
+Dialogue: 0,0:07:25.07,0:07:27.92,Main,,0000,0000,0000,,and work together to defeat me.
+Dialogue: 0,0:07:28.33,0:07:33.76,Main,Kin,0000,0000,0000,,Yes, that is what I was hoping \Nto see in this final battle.
+Dialogue: 0,0:07:34.05,0:07:37.26,Main,Kin,0000,0000,0000,,I wanted to give this \Nshow its last episode
+Dialogue: 0,0:07:37.56,0:07:39.56,Main,Kin,0000,0000,0000,,so I could return as the main character
+Dialogue: 0,0:07:39.56,0:07:43.50,Main,,0000,0000,0000,,of a show that was neither \NGintama nor Kintama.
+Dialogue: 0,0:07:44.65,0:07:48.63,Main,Kin,0000,0000,0000,,Sakata Gintoki, this anime returned
+Dialogue: 0,0:07:49.15,0:07:54.03,Main,Kin,0000,0000,0000,,as a tombstone to mark an end \Nto your pathetic existence,
+Dialogue: 0,0:07:54.03,0:07:57.53,Main,,0000,0000,0000,,to this joke of an anime.
+Dialogue: 0,0:07:57.77,0:07:59.67,Main,Kin,0000,0000,0000,,Well done.
+Dialogue: 0,0:07:59.67,0:08:02.53,Main,Kin,0000,0000,0000,,You and your friends have
+Dialogue: 0,0:08:02.53,0:08:06.40,Main,,0000,0000,0000,,made the atmosphere perfect \Nfor a final episode.
+Dialogue: 0,0:08:06.40,0:08:08.52,Main,Kin,0000,0000,0000,,Don't worry about me.
+Dialogue: 0,0:08:08.52,0:08:12.20,Main,Kin,0000,0000,0000,,I've backed up my data \Nand prepared a new body.
+Dialogue: 0,0:08:12.66,0:08:14.80,Main,Kin,0000,0000,0000,,Rest easy.
+Dialogue: 0,0:08:14.80,0:08:17.30,Main,Kin,0000,0000,0000,,The finale will be very soon.
+Dialogue: 0,0:08:18.14,0:08:19.32,Main,Gin,0000,0000,0000,,That's it?
+Dialogue: 0,0:08:20.62,0:08:23.69,Main,Gin,0000,0000,0000,,Is that all you have to say?
+Dialogue: 0,0:08:26.38,0:08:30.19,Main,Gin,0000,0000,0000,,Sorry, you took so long that I \Nmissed half of what you said.
+Dialogue: 0,0:08:32.27,0:08:35.53,Main,Kin,0000,0000,0000,,Y-You'll pay for ignoring my warning!
+Dialogue: 0,0:08:35.53,0:08:36.70,Main,Kin,0000,0000,0000,,If you kill me...
+Dialogue: 0,0:08:36.70,0:08:38.29,Main,Gin,0000,0000,0000,,You're finished, right?
+Dialogue: 0,0:08:41.67,0:08:43.79,Main,Kin,0000,0000,0000,,B-Bastard...
+Dialogue: 0,0:08:44.17,0:08:46.54,Main,Kin,0000,0000,0000,,You think you can end this yourself?
+Dialogue: 0,0:08:47.19,0:08:52.07,Main,Kin,0000,0000,0000,,Without recovering \Neverything you've lost?
+Dialogue: 0,0:08:55.93,0:08:57.51,Main,Gin,0000,0000,0000,,Nothing's going to end.
+Dialogue: 0,0:09:00.06,0:09:01.18,Main,Gin,0000,0000,0000,,Except for
+Dialogue: 0,0:09:03.13,0:09:06.19,Main,Gin,0000,0000,0000,,you and me, brother.
+Dialogue: 0,0:09:06.50,0:09:07.78,Main,Kin,0000,0000,0000,,Seppuku?!
+Dialogue: 0,0:09:07.78,0:09:09.79,Main,Kin,0000,0000,0000,,You'll lose more than your memories!
+Dialogue: 0,0:09:09.79,0:09:10.82,Main,Kin,0000,0000,0000,,You're going to cripple yourself!
+Dialogue: 0,0:09:11.06,0:09:12.97,Main,Gin,0000,0000,0000,,That's just fine.
+Dialogue: 0,0:09:12.97,0:09:15.59,Main,Gin,0000,0000,0000,,Everyone else forgot about me.
+Dialogue: 0,0:09:15.59,0:09:17.53,Main,Gin,0000,0000,0000,,It's my turn to forget.
+Dialogue: 0,0:09:17.53,0:09:18.79,Main,Kin,0000,0000,0000,,Fool!
+Dialogue: 0,0:09:18.79,0:09:21.70,Main,Kin,0000,0000,0000,,Have you forgotten that I've \Nmade a copy of myself?!
+Dialogue: 0,0:09:22.22,0:09:25.35,Main,Gin,0000,0000,0000,,I have my own copies.
+Dialogue: 0,0:09:26.14,0:09:29.00,Main,Gin,0000,0000,0000,,They don't listen to a word I say,
+Dialogue: 0,0:09:29.00,0:09:31.93,Main,,0000,0000,0000,,but they share the same soul.
+Dialogue: 0,0:09:32.35,0:09:34.09,Main,Gin,0000,0000,0000,,Listen up, Kintoki.
+Dialogue: 0,0:09:34.54,0:09:37.22,Main,Gin,0000,0000,0000,,The main character in Gintama
+Dialogue: 0,0:09:37.97,0:09:44.81,Main,Gin,0000,0000,0000,,is every last idiot alive in this show!
+Dialogue: 0,0:09:46.61,0:09:47.73,Main,Kag,0000,0000,0000,,Gin-chan!
+Dialogue: 0,0:09:50.84,0:09:52.73,Main,Gin,0000,0000,0000,,Can I hold him back by myself?!
+Dialogue: 0,0:09:57.20,0:09:59.07,Main,Gin,0000,0000,0000,,{\i1}Sorry, everyone.{\i0}
+Dialogue: 0,0:09:59.57,0:10:01.66,Main,Gin,0000,0000,0000,,{\i1}You finally remembered me,{\i0}
+Dialogue: 0,0:10:02.31,0:10:04.04,Main,,0000,0000,0000,,{\i1}but I doubt we'll be \Nseeing each other again.{\i0}
+Dialogue: 0,0:10:04.66,0:10:07.91,Main,Gin,0000,0000,0000,,{\i1}I was hoping to see your \Nstupid faces one last ti—
+Dialogue: 0,0:10:11.52,0:10:14.82,Main,Shin,0000,0000,0000,,Sorry, Gin-san. We kept you waiting.
+Dialogue: 0,0:10:14.82,0:10:17.68,Main,Kag,0000,0000,0000,,We won't let you go off \Nby yourself, Gin-chan.
+Dialogue: 0,0:10:17.68,0:10:20.59,Main,Kag,0000,0000,0000,,We'll always be together.
+Dialogue: 0,0:10:20.59,0:10:22.22,Main,Otae,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:10:22.22,0:10:23.95,Main,,0000,0000,0000,,We won't forget you this time.
+Dialogue: 0,0:10:24.47,0:10:28.56,Main,Otae,0000,0000,0000,,If you forget about me, I'll punch you.
+Dialogue: 0,0:10:30.16,0:10:32.16,Main,Gin,0000,0000,0000,,Fools...
+Dialogue: 0,0:10:32.96,0:10:36.24,Main,Gin,0000,0000,0000,,Now that you're here, this \Nanime is really going to end!
+Dialogue: 0,0:10:36.24,0:10:37.57,Main,Gin,0000,0000,0000,,And it just started again!
+Dialogue: 0,0:10:38.23,0:10:39.64,Main,Shin,0000,0000,0000,,That's not true.
+Dialogue: 0,0:10:40.16,0:10:41.28,Main,Shin,0000,0000,0000,,You'll be there.
+Dialogue: 0,0:10:41.81,0:10:43.45,Main,Shin,0000,0000,0000,,We'll all be there
+Dialogue: 0,0:10:43.78,0:10:45.58,Main,Shin,0000,0000,0000,,to save the day.
+Dialogue: 0,0:10:50.91,0:10:53.12,Main,Kag,0000,0000,0000,,So it doesn't matter how \Nmany times we forget,
+Dialogue: 0,0:10:53.12,0:10:54.96,Main,,0000,0000,0000,,how many times we're separated.
+Dialogue: 0,0:10:55.75,0:10:57.97,Main,Kag,0000,0000,0000,,Isn't that right, Gin-chan?
+Dialogue: 0,0:10:59.91,0:11:00.74,Main,Gin,0000,0000,0000,,Yeah...
+Dialogue: 0,0:11:02.93,0:11:05.41,Main,Gin,0000,0000,0000,,I'll find you.
+Dialogue: 0,0:11:06.66,0:11:09.32,Main,Gin,0000,0000,0000,,We'll see each other again.
+Dialogue: 0,0:11:45.39,0:11:49.30,Main,Toki,0000,0000,0000,,A sword isn't meant to be \Nsheathed in underwear.
+Dialogue: 0,0:11:49.30,0:11:51.43,Main,Toki,0000,0000,0000,,It belongs in a scabbard.
+Dialogue: 0,0:11:52.03,0:11:56.89,Main,Toki,0000,0000,0000,,I don't think I can be \Nyour scabbard anymore,
+Dialogue: 0,0:11:56.89,0:11:59.01,Main,Toki,0000,0000,0000,,but I'm sure there's a girl out there
+Dialogue: 0,0:11:59.01,0:12:01.13,Main,,0000,0000,0000,,who's worthy of being your scabbard,
+Dialogue: 0,0:12:01.13,0:12:03.45,Main,Toki,0000,0000,0000,,so you must find her \Nso you can be happy.
+Dialogue: 0,0:12:04.60,0:12:05.95,Main,Kin,0000,0000,0000,,I don't wanna.
+Dialogue: 0,0:12:05.95,0:12:08.83,Main,Kin,0000,0000,0000,,I want Tokiko-chan.
+Dialogue: 0,0:12:08.83,0:12:11.01,Main,Toki,0000,0000,0000,,Geez, you're so stupid.
+Dialogue: 0,0:12:12.51,0:12:15.29,Main,Toki,0000,0000,0000,,Will you make me a promise then?
+Dialogue: 0,0:12:15.29,0:12:20.74,Main,Toki,0000,0000,0000,,If I'm reincarnated, \NI'll find you again.
+Dialogue: 0,0:12:20.74,0:12:24.58,Main,Toki,0000,0000,0000,,So promise you'll also find me.
+Dialogue: 0,0:12:24.58,0:12:26.97,Main,Kin,0000,0000,0000,,Uh-huh, I promise.
+Dialogue: 0,0:12:27.41,0:12:30.77,Main,Kin,0000,0000,0000,,I'll find my precious scabbard.
+Dialogue: 0,0:12:48.72,0:12:53.50,Mantama,Caption,0000,0000,0000,,Mantama
+Dialogue: 0,0:13:35.91,0:13:40.92,Pink,Caption,0000,0000,0000,,aren't cute at all.
+Dialogue: 0,0:13:35.91,0:13:40.92,Sponsors,Caption,0000,0000,0000,,Sponsors\N\N\NOedo Expendables\NMatsuo & Kiyo Drugstore\N\N\N{\fs20}*Not real sponsors. We made them up.
+Dialogue: 0,0:13:35.94,0:13:40.92,Blue,Caption,0000,0000,0000,,Gold and silver
+Dialogue: 0,0:13:40.92,0:13:45.97,Blue,Caption,0000,0000,0000,,The new show Mantama
+Dialogue: 0,0:13:40.92,0:13:45.97,Pink,Caption,0000,0000,0000,,begins now.
+Dialogue: 0,0:13:40.92,0:13:45.97,Sponsors,Caption,0000,0000,0000,,Sponsors\N\N\N\N\NAndromeda Sweets Shop\N\N\N{\fs20}*Not real sponsors. We made them up.
+Dialogue: 0,0:13:45.97,0:13:50.93,Man Ep Title,EpTitle,0000,0000,0000,,Episode 1: A Man's Sword
+Dialogue: 0,0:13:50.93,0:13:52.54,Main,Kin,0000,0000,0000,,Love Country.
+Dialogue: 0,0:13:51.70,0:13:57.08,Caution,,0000,0000,0000,,{\fad(709,709)}Be sure to watch Mantama in a well-lit room \Nand sit some distance from the TV!
+Dialogue: 0,0:13:53.22,0:13:55.35,Main,Kin,0000,0000,0000,,There was a time, long ago, when our
+Dialogue: 0,0:13:55.35,0:13:57.56,Main,,0000,0000,0000,,country was called by that name.
+Dialogue: 0,0:13:57.67,0:13:59.54,Sponsors,Kin,0000,0000,0000,,{\an6\fad(167,376)}20 Years Ago
+Dialogue: 0,0:13:57.81,0:14:01.98,Main,Kin,0000,0000,0000,,Twenty years ago, a mysterious \Nbuilding appeared out of nowhere
+Dialogue: 0,0:14:03.07,0:14:06.32,Main,Kin,0000,0000,0000,,and spread a mysterious virus
+Dialogue: 0,0:14:06.74,0:14:09.78,Main,Kin,0000,0000,0000,,that caused every man's \Npride to rot and fall off.
+Dialogue: 0,0:14:11.33,0:14:14.84,Main,Kin,0000,0000,0000,,Where men and women once talked of love,
+Dialogue: 0,0:14:14.84,0:14:17.33,Main,Kin,0000,0000,0000,,we now had trannies and women bitching.
+Dialogue: 0,0:14:17.96,0:14:20.67,Main,Kin,0000,0000,0000,,Where men and women once spoke of love...
+Dialogue: 0,0:14:20.67,0:14:21.75,Main,A,0000,0000,0000,,Fantabulosa!
+Dialogue: 0,0:14:21.75,0:14:22.71,Main,Kin,0000,0000,0000,,...was all that remained.
+Dialogue: 0,0:14:23.80,0:14:27.65,Main,Kin,0000,0000,0000,,However, there was one last samurai \Nwith a resistance to the virus,
+Dialogue: 0,0:14:27.65,0:14:30.47,Main,,0000,0000,0000,,whose sword of steel remained strong.
+Dialogue: 0,0:14:30.99,0:14:32.55,Main,Kin,0000,0000,0000,,Sakata Kintoki.
+Dialogue: 0,0:14:32.55,0:14:35.72,Main,Kin,0000,0000,0000,,Yes, he was the last hope for mankind.
+Dialogue: 0,0:14:36.14,0:14:40.08,Main,Kin,0000,0000,0000,,The man who had the right to \Nclaim every woman on the planet,
+Dialogue: 0,0:14:40.08,0:14:42.49,Main,Kin,0000,0000,0000,,but instead continued to search \Nfor a single scabbard.
+Dialogue: 0,0:14:42.49,0:14:43.52,Main,Kin,0000,0000,0000,,That man was me.
+Dialogue: 0,0:14:44.25,0:14:45.90,Main,A,0000,0000,0000,,Good morning, Sakata-kun!
+Dialogue: 0,0:14:45.90,0:14:47.11,Main,A,0000,0000,0000,,Let's go to school together!
+Dialogue: 0,0:14:47.11,0:14:49.29,Main,B,0000,0000,0000,,I made an extra lunch today.
+Dialogue: 0,0:14:49.29,0:14:50.70,Main,B,0000,0000,0000,,Would you like it?
+Dialogue: 0,0:14:50.70,0:14:54.09,Main,C,0000,0000,0000,,Sakata-kun promised to \Nhave lunch with me!
+Dialogue: 0,0:14:54.09,0:14:55.79,Main,D,0000,0000,0000,,What are you talking about? \NHe promised me, too.
+Dialogue: 0,0:14:56.52,0:14:58.72,Main,Kin,0000,0000,0000,,Sorry, but I don't remember making
+Dialogue: 0,0:14:58.72,0:15:00.44,Main,,0000,0000,0000,,any promises to you girls.
+Dialogue: 0,0:15:00.44,0:15:02.20,Main,Kin,0000,0000,0000,,My promise is to someone else.
+Dialogue: 0,0:15:02.20,0:15:05.17,Main,Kin,0000,0000,0000,,A promise that was made \Nlong before you were born.
+Dialogue: 0,0:15:06.14,0:15:08.37,Main,B,0000,0000,0000,,Huh? What does that mean?
+Dialogue: 0,0:15:09.38,0:15:11.34,Main,Kin,0000,0000,0000,,{\i1}How much time has passed{\i0}
+Dialogue: 0,0:15:11.34,0:15:13.76,Main,,0000,0000,0000,,{\i1}since I started looking for you?{\i0}
+Dialogue: 0,0:15:14.43,0:15:16.35,Main,Kin,0000,0000,0000,,{\i1}To keep my promise to you,{\i0}
+Dialogue: 0,0:15:16.35,0:15:19.35,Main,,0000,0000,0000,,{\i1}I changed my sword, my body, into metal,{\i0}
+Dialogue: 0,0:15:19.35,0:15:22.52,Main,Kin,0000,0000,0000,,{\i1}so I could remain a man, even \Nif I was no longer human.{\i0}
+Dialogue: 0,0:15:23.23,0:15:27.90,Main,Kin,0000,0000,0000,,{\i1}Eventually, the human race will \Ndie and I'll be left alone.{\i0}
+Dialogue: 0,0:15:28.32,0:15:31.32,Main,Kin,0000,0000,0000,,{\i1}But my sword will never break.{\i0}
+Dialogue: 0,0:15:31.32,0:15:33.99,Main,Kin,0000,0000,0000,,{\i1}Even if you're reincarnated \Nas a cockroach,{\i0}
+Dialogue: 0,0:15:33.99,0:15:36.41,Main,Kin,0000,0000,0000,,{\i1}you will still be my precious partner.{\i0}
+Dialogue: 0,0:15:36.41,0:15:37.79,Main,Toki,0000,0000,0000,,Oh no!
+Dialogue: 0,0:15:37.79,0:15:40.83,Main,Toki,0000,0000,0000,,I'm late on my first day \Nat my new school!
+Dialogue: 0,0:15:40.83,0:15:42.12,Wham,SFX,0000,0000,0000,,Wham!
+Dialogue: 0,0:15:42.32,0:15:44.08,Main,All,0000,0000,0000,,Are you okay, Sakata-kun?
+Dialogue: 0,0:15:44.55,0:15:45.91,Main,Kin,0000,0000,0000,,Ow...
+Dialogue: 0,0:15:46.88,0:15:48.78,Main,Toki,0000,0000,0000,,Ouch.
+Dialogue: 0,0:15:48.78,0:15:51.41,Main,Toki,0000,0000,0000,,Oops, I screwed up!
+Dialogue: 0,0:15:53.38,0:15:54.72,Main,Kin,0000,0000,0000,,{\i1}Could it be...{\i0}
+Dialogue: 0,0:15:53.90,0:15:56.55,Main,Toki,0000,0000,0000,,I'm sorry. Are you hurt?
+Dialogue: 0,0:15:54.72,0:15:56.55,Main,Kin,0000,0000,0000,,{\i1}Is it truly...{\i0}
+Dialogue: 0,0:15:56.55,0:15:59.27,Main,Kin,0000,0000,0000,,{\i1}...her reincarnation?{\i0}
+Dialogue: 0,0:15:59.85,0:16:02.60,Main,Toki,0000,0000,0000,,Um, excuse me.
+Dialogue: 0,0:16:03.63,0:16:06.19,Main,Toki,0000,0000,0000,,That's my plastic bottle.
+Dialogue: 0,0:16:06.19,0:16:08.69,Main,Kin,0000,0000,0000,,{\i1}Sh-Shit!{\i0}
+Dialogue: 0,0:16:08.69,0:16:10.96,Main,B,0000,0000,0000,,A plastic bottle is stuck on
+Dialogue: 0,0:16:10.96,0:16:13.20,Main,,0000,0000,0000,,the only sword left in the entire world!
+Dialogue: 0,0:16:13.48,0:16:15.82,Main,Gor,0000,0000,0000,,What's all this fuss about?
+Dialogue: 0,0:16:15.82,0:16:16.83,Main,C,0000,0000,0000,,Ms. Goriko!
+Dialogue: 0,0:16:16.83,0:16:18.25,Main,C,0000,0000,0000,,It's terrible!
+Dialogue: 0,0:16:18.25,0:16:20.14,Main,C,0000,0000,0000,,Look at Sakata-kun's crotch!
+Dialogue: 0,0:16:20.14,0:16:21.01,Main,Gor,0000,0000,0000,,This is...
+Dialogue: 0,0:16:21.42,0:16:22.73,Main,Gor,0000,0000,0000,,Don't touch it!
+Dialogue: 0,0:16:22.73,0:16:25.56,Main,Gor,0000,0000,0000,,If the main character of \Nthis anime loses his crotch,
+Dialogue: 0,0:16:25.56,0:16:26.84,Main,,0000,0000,0000,,his only unique feature,
+Dialogue: 0,0:16:27.13,0:16:28.66,Main,Gor,0000,0000,0000,,Sakata-kun will no longer be
+Dialogue: 0,0:16:28.66,0:16:29.70,Main,,0000,0000,0000,,qualified to be the main character!
+Dialogue: 0,0:16:29.70,0:16:30.77,Main,Kin,0000,0000,0000,,Teach!
+Dialogue: 0,0:16:30.77,0:16:33.53,Main,,0000,0000,0000,,Don't make it sound like my \Ncrotch is all there is to me!
+Dialogue: 0,0:16:33.53,0:16:36.72,Main,Gor,0000,0000,0000,,For now, let's carefully carry \Nhim to the nurse's office.
+Dialogue: 0,0:16:36.72,0:16:38.51,Main,Gor,0000,0000,0000,,Here we go!
+Dialogue: 0,0:16:38.51,0:16:41.35,Main,A,0000,0000,0000,,Teach! Could you {\i1}be{\i0} any less careful?!
+Dialogue: 0,0:16:41.35,0:16:44.56,Main,B,0000,0000,0000,,Look out! There's a \Nball coming your way!
+Dialogue: 0,0:16:45.39,0:16:47.55,Main,E,0000,0000,0000,,Teach! Please go to \Nthe nurse's office!
+Dialogue: 0,0:16:48.61,0:16:49.95,Main,E,0000,0000,0000,,Thanks, Teach!
+Dialogue: 0,0:16:49.95,0:16:51.07,Main,Kin,0000,0000,0000,,Hold on!
+Dialogue: 0,0:16:51.07,0:16:54.11,Main,Kin,0000,0000,0000,,You've got two balls and \Na bat in your mitt now!
+Dialogue: 0,0:16:54.11,0:16:55.10,Main,,0000,0000,0000,,Okay, here I go!
+Dialogue: 0,0:16:55.10,0:16:56.57,Main,Kin,0000,0000,0000,,Wait!
+Dialogue: 0,0:16:56.57,0:16:58.74,Main,Kin,0000,0000,0000,,Those are my balls and bat!
+Dialogue: 0,0:16:58.74,0:16:59.60,Main,E,0000,0000,0000,,Kick off!
+Dialogue: 0,0:16:59.60,0:17:01.20,Main,Kin,0000,0000,0000,,Aren't you playing baseball?!
+Dialogue: 0,0:17:02.01,0:17:03.54,Main,Kin,0000,0000,0000,,She hit the school!
+Dialogue: 0,0:17:04.58,0:17:05.92,Main,Kin,0000,0000,0000,,My sword!
+Dialogue: 0,0:17:06.89,0:17:08.67,Main,F,0000,0000,0000,,What's going on?
+Dialogue: 0,0:17:08.86,0:17:11.77,Main,F,0000,0000,0000,,This came flying into the art room.
+Dialogue: 0,0:17:11.77,0:17:12.69,Main,Kin,0000,0000,0000,,Is it okay?!
+Dialogue: 0,0:17:12.69,0:17:16.27,Main,F,0000,0000,0000,,Yes, there was a broken \Nscrew in the bottle,
+Dialogue: 0,0:17:16.27,0:17:17.83,Main,,0000,0000,0000,,so I repaired it.
+Dialogue: 0,0:17:17.84,0:17:19.80,Main,Kin,0000,0000,0000,,{\i1}Bon voyage!{\i0}
+Dialogue: 0,0:17:20.69,0:17:23.56,Main,A,0000,0000,0000,,Sakata-kun's crotch \Nhas gone bon voyage!
+Dialogue: 0,0:17:25.69,0:17:28.14,Main,Gor,0000,0000,0000,,Okay, let's take attendance!
+Dialogue: 0,0:17:28.94,0:17:29.81,Main,Kin,0000,0000,0000,,{\i1}It's over...{\i0}
+Dialogue: 0,0:17:30.36,0:17:34.44,Main,Kin,0000,0000,0000,,{\i1}I finally found someone who \Nappeared to be her reincarnation,{\i0}
+Dialogue: 0,0:17:34.99,0:17:36.57,Main,Kin,0000,0000,0000,,{\i1}but my scabbard is a plastic bottle,{\i0}
+Dialogue: 0,0:17:36.57,0:17:39.57,Main,Kin,0000,0000,0000,,{\i1}and my sword has set \Nsail for a new world.{\i0}
+Dialogue: 0,0:17:40.91,0:17:43.70,Main,Kin,0000,0000,0000,,{\i1}I can no longer...{\i0}
+Dialogue: 0,0:17:44.29,0:17:45.52,Main,Toki,0000,0000,0000,,Excuse me!
+Dialogue: 0,0:17:45.52,0:17:47.45,Main,Gor,0000,0000,0000,,Hey, what do you think you're doing?
+Dialogue: 0,0:17:47.45,0:17:48.84,Main,Gor,0000,0000,0000,,You're late on your first day.
+Dialogue: 0,0:17:48.84,0:17:50.17,Main,Toki,0000,0000,0000,,I-I'm sorry.
+Dialogue: 0,0:17:54.32,0:17:55.61,Main,Toki,0000,0000,0000,,Nice to meet you.
+Dialogue: 0,0:17:55.61,0:17:57.97,Main,Toki,0000,0000,0000,,I'm a new transfer student.
+Dialogue: 0,0:17:58.44,0:18:00.34,Main,Toki,0000,0000,0000,,Sorry about being late.
+Dialogue: 0,0:18:00.76,0:18:02.47,Main,Toki,0000,0000,0000,,I was looking for something.
+Dialogue: 0,0:18:04.35,0:18:05.31,Main,Toki,0000,0000,0000,,It took forever,
+Dialogue: 0,0:18:05.93,0:18:09.69,Main,Toki,0000,0000,0000,,but I was finally able to find it.
+Dialogue: 0,0:18:10.96,0:18:11.90,Main,Toki,0000,0000,0000,,Find you...
+Dialogue: 0,0:18:14.83,0:18:17.83,Main,Toki,0000,0000,0000,,Sorry it took so long.
+Dialogue: 0,0:18:21.73,0:18:25.08,Main,Kin,0000,0000,0000,,Tokiko-chan!
+Dialogue: 0,0:18:26.13,0:18:27.75,Main,Toki,0000,0000,0000,,You don't need to cry.
+Dialogue: 0,0:18:28.92,0:18:32.21,Main,Toki,0000,0000,0000,,Didn't we promise
+Dialogue: 0,0:18:32.21,0:18:34.84,Main,Gin,0000,0000,0000,,that we would meet again?
+Dialogue: 0,0:18:36.51,0:18:40.30,Gintoki,Caption,0000,0000,0000,,Sakata Gintoki
+Dialogue: 0,0:18:36.54,0:18:38.44,Main,Gin,0000,0000,0000,,Let's start over.
+Dialogue: 0,0:18:38.44,0:18:42.97,Main,Gin,0000,0000,0000,,I'm the new transfer \Nstudent, Sakata Gintoki.
+Dialogue: 0,0:18:43.50,0:18:45.83,Main,Gin,0000,0000,0000,,Hey, what's with the look on your face?
+Dialogue: 0,0:18:45.83,0:18:48.64,Main,Gin,0000,0000,0000,,Did you forget the promise we made?
+Dialogue: 0,0:18:49.36,0:18:51.52,Main,Shin,0000,0000,0000,,Of course not.
+Dialogue: 0,0:18:51.52,0:18:53.15,Main,Shin,0000,0000,0000,,It doesn't matter how \Nmany times we forget...
+Dialogue: 0,0:18:53.47,0:18:54.90,Main,Kag,0000,0000,0000,,How many times we're separated.
+Dialogue: 0,0:18:55.26,0:18:56.90,Main,Otae,0000,0000,0000,,We'll find you.
+Dialogue: 0,0:18:59.87,0:19:01.82,Main,All,0000,0000,0000,,Right, Gin-san?
+Dialogue: 0,0:19:02.37,0:19:04.41,Main,Gin,0000,0000,0000,,There you go, brother.
+Dialogue: 0,0:19:05.01,0:19:09.08,Main,Gin,0000,0000,0000,,Sorry to ruin your main \Ncharacter gig, but Mantama
+Dialogue: 0,0:19:09.08,0:19:11.96,Main,Gin,0000,0000,0000,,was created to be your tombstone.
+Dialogue: 0,0:19:24.47,0:19:28.80,Main,Tama,0000,0000,0000,,Did you enjoy your brief \Nexperience as a main character?
+Dialogue: 0,0:19:28.80,0:19:31.05,Main,Tama,0000,0000,0000,,Did you enjoy having \Neverything important
+Dialogue: 0,0:19:31.05,0:19:32.40,Main,,0000,0000,0000,,to you taken away?
+Dialogue: 0,0:19:33.05,0:19:36.03,Main,Tama,0000,0000,0000,,That's what you were doing.
+Dialogue: 0,0:19:36.52,0:19:37.78,Main,Kin,0000,0000,0000,,I see...
+Dialogue: 0,0:19:37.78,0:19:41.66,Main,,0000,0000,0000,,So that world was a virtual \None that you created.
+Dialogue: 0,0:19:41.66,0:19:46.29,Main,Gen,0000,0000,0000,,When I was repairing you, \NI added a few safety measures.
+Dialogue: 0,0:19:46.67,0:19:48.70,Main,Kin,0000,0000,0000,,That's why they still \Nhave their memories
+Dialogue: 0,0:19:48.70,0:19:51.29,Main,,0000,0000,0000,,after being hit by the \Nhypnotic explosion?
+Dialogue: 0,0:19:51.29,0:19:55.34,Main,Gen,0000,0000,0000,,Heh, they didn't need my help.
+Dialogue: 0,0:19:55.34,0:19:58.55,Main,Gen,0000,0000,0000,,Kintoki, the bond people share
+Dialogue: 0,0:19:58.95,0:20:03.64,Main,Gen,0000,0000,0000,,goes deeper than the memory.
+Dialogue: 0,0:20:04.33,0:20:07.99,Main,Gin,0000,0000,0000,,Tama, I've settled my score with him.
+Dialogue: 0,0:20:08.45,0:20:10.29,Main,Gin,0000,0000,0000,,He's all yours now.
+Dialogue: 0,0:20:10.29,0:20:12.58,Main,Gin,0000,0000,0000,,Boil him, fry him, \Ndo whatever you want.
+Dialogue: 0,0:20:13.81,0:20:15.55,Main,Shin,0000,0000,0000,,Please wait, Tama-san!
+Dialogue: 0,0:20:15.55,0:20:18.19,Main,Kag,0000,0000,0000,,Can you spare him?!
+Dialogue: 0,0:20:18.19,0:20:21.23,Main,Shin,0000,0000,0000,,We were the ones who \Nasked you to make him!
+Dialogue: 0,0:20:21.23,0:20:24.91,Main,Kag,0000,0000,0000,,He was just trying to take \NGin-chan's place as our leader!
+Dialogue: 0,0:20:24.91,0:20:27.65,Main,Kag,0000,0000,0000,,He just went too far!
+Dialogue: 0,0:20:27.65,0:20:31.34,Main,Shin,0000,0000,0000,,We'll join him in begging \Neveryone for forgiveness!
+Dialogue: 0,0:20:31.34,0:20:32.20,Main,Shin,0000,0000,0000,,Please!
+Dialogue: 0,0:20:33.35,0:20:35.78,Main,Tama,0000,0000,0000,,Did you hear that?
+Dialogue: 0,0:20:36.71,0:20:38.84,Main,Kin,0000,0000,0000,,You people are too soft.
+Dialogue: 0,0:20:38.84,0:20:42.34,Main,Kin,0000,0000,0000,,Gintoki, this is the reality \Nof what you've achieved.
+Dialogue: 0,0:20:42.34,0:20:46.35,Main,Kin,0000,0000,0000,,See how your friends are too \Nweak to finish off your enemy.
+Dialogue: 0,0:20:46.63,0:20:50.60,Main,Kin,0000,0000,0000,,See how you were too powerless \Nto do anything alone.
+Dialogue: 0,0:20:51.42,0:20:53.51,Main,Kin,0000,0000,0000,,Your imperfect character was
+Dialogue: 0,0:20:53.51,0:20:56.48,Main,,0000,0000,0000,,destined to fail, even \Nwithout my intervention.
+Dialogue: 0,0:20:56.79,0:20:58.68,Main,Gin,0000,0000,0000,,You're absolutely right.
+Dialogue: 0,0:20:58.68,0:21:00.70,Main,Gin,0000,0000,0000,,I can't do anything alone.
+Dialogue: 0,0:21:01.28,0:21:04.70,Main,Gin,0000,0000,0000,,Everyone here has their \Nflaws and imperfections.
+Dialogue: 0,0:21:04.70,0:21:07.91,Main,Gin,0000,0000,0000,,But that's what drives \Nus to work together
+Dialogue: 0,0:21:07.91,0:21:09.49,Main,,0000,0000,0000,,to make up for those flaws.
+Dialogue: 0,0:21:10.73,0:21:14.33,Main,Gin,0000,0000,0000,,Together, we make the \Nperfect main character.
+Dialogue: 0,0:21:14.96,0:21:17.08,Main,Gin,0000,0000,0000,,If you don't believe me, \Nyou can come back.
+Dialogue: 0,0:21:17.08,0:21:18.81,Main,Gin,0000,0000,0000,,We'll take you on again.
+Dialogue: 0,0:21:19.34,0:21:22.02,Main,Gin,0000,0000,0000,,See ya, imperfect plastic model.
+Dialogue: 0,0:21:22.02,0:21:24.49,Main,Kin,0000,0000,0000,,Wait! Did you say I was imperfect?!
+Dialogue: 0,0:21:24.49,0:21:25.73,Main,Kin,0000,0000,0000,,Take that back!
+Dialogue: 0,0:21:26.85,0:21:30.86,Main,Tama,0000,0000,0000,,No, you are certainly imperfect.
+Dialogue: 0,0:21:31.83,0:21:36.44,Main,Tama,0000,0000,0000,,You were so focused on altering \Nother people's memories,
+Dialogue: 0,0:21:36.44,0:21:40.40,Main,Tama,0000,0000,0000,,you didn't realize that other \Npeople were altering your soul.
+Dialogue: 0,0:21:41.35,0:21:45.42,Main,Tama,0000,0000,0000,,You should treasure the \Nlife your friends spared.
+Dialogue: 0,0:21:50.46,0:21:51.32,Main,Kin,0000,0000,0000,,Gramps...
+Dialogue: 0,0:21:52.53,0:21:55.28,Main,Kin,0000,0000,0000,,Can you polish me up?
+Dialogue: 0,0:21:55.76,0:22:00.21,Main,Gen,0000,0000,0000,,No idea. I can start by \Nmaking you shiny gold.
+Dialogue: 0,0:22:00.70,0:22:03.42,Main,Gen,0000,0000,0000,,No, shiny gold won't do.
+Dialogue: 0,0:22:03.94,0:22:05.88,Main,Sa,0000,0000,0000,,Gin-san!
+Dialogue: 0,0:22:06.38,0:22:11.39,Gintama,Caption,0000,0000,0000,,Gintama
+Dialogue: 0,0:22:08.38,0:22:10.78,Main,All,0000,0000,0000,,Welcome back!
+Dialogue: 0,0:22:11.49,0:22:13.34,Main,Gen,0000,0000,0000,,Let's try making you
+Dialogue: 0,0:22:14.39,0:22:16.89,Back,Caption,0000,0000,0000,,Gintama Episode 256
+Dialogue: 0,0:22:14.74,0:22:16.45,Main,,0000,0000,0000,,shiny silver.
+Dialogue: 0,0:22:16.89,0:22:19.90,Back,Caption,0000,0000,0000,,We're Back

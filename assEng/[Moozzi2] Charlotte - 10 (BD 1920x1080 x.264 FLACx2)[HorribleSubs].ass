@@ -1,0 +1,431 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: B1,Open Sans Semibold,58,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,2,93,93,40,0
+Style: OS,Open Sans Semibold,33,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,8,1,1,20,0
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ep Title,Open Sans Semibold,33,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,3,227,93,27,0
+Style: Copy of Ep Title,Open Sans Semibold,33,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,3,93,301,87,0
+Style: On Top,Open Sans Semibold,36,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,8,27,27,29,0
+Style: Copy of OS,Open Sans Semibold,33,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,9,27,27,27,0
+Style: DefaultLow,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:01.00,0:00:02.58,Default,NTP,0000,0000,0000,,{\i1}-So, do your time-leap, and change this world for us!\N-Big Brother Yu!{\i0}
+Dialogue: 0,0:00:02.58,0:00:04.71,Default,NTP,0000,0000,0000,,{\i1}-Is this world really going to change?\N-Just make sure to time it right.{\i0}
+Dialogue: 0,0:00:04.71,0:00:06.54,Default,NTP,0000,0000,0000,,{\i1}This is the only timing\Nthat the little brother will get serious.{\i0}
+Dialogue: 0,0:00:05.54,0:00:08.09,On Top,NTP,0000,0000,0000,,{\i1}-Take my power of permeation!\N-Can you hear me?{\i0}
+Dialogue: 0,0:00:06.54,0:00:08.09,Default,NTP,0000,0000,0000,,{\i1}It's been a while, Yu.{\i0}
+Dialogue: 0,0:00:08.09,0:00:10.05,Default,NTP,0000,0000,0000,,{\i1}I'm leaving you to do the rest, Big Brother.{\i0}
+Dialogue: 0,0:00:14.22,0:00:19.02,Default,NTP,0000,0000,0000,,Hey, breakfast today was supposed to be\Nyour turn, Big Brother Shunsuke.
+Dialogue: 0,0:00:19.52,0:00:21.06,Default,NTP,0000,0000,0000,,Oh, sorry...
+Dialogue: 0,0:00:21.06,0:00:23.64,Default,NTP,0000,0000,0000,,Geez, you shouldn't break rules.\N
+Dialogue: 0,0:00:23.64,0:00:26.00,Default,,0000,0000,0000,,Tomorrow, you have to make \Nbreakfast, Big Brother.
+Dialogue: 0,0:00:26.02,0:00:28.73,On Top,NTP,0000,0000,0000,,Episode 10 - Looting
+Dialogue: 0,0:00:26.94,0:00:28.73,Default,NTP,0000,0000,0000,,Time to eat!
+Dialogue: 0,0:00:31.03,0:00:34.45,Default,NTP,0000,0000,0000,,Hey, Ayumi. How old are you now?
+Dialogue: 0,0:00:34.45,0:00:35.57,Default,NTP,0000,0000,0000,,I'm eight years old!
+Dialogue: 0,0:00:36.41,0:00:39.41,Default,NTP,0000,0000,0000,,{\i1}That means, we get captured\Nthree years from now...{\i0}
+Dialogue: 0,0:00:41.41,0:00:43.22,Default,NTP,0000,0000,0000,,{\i1}After I made the time-leap,
+Dialogue: 0,0:00:43.22,0:00:46.14,Default,,0000,0000,0000,,I started by becoming friends \Nwith Kumagami and his group.{\i0}
+Dialogue: 0,0:00:46.54,0:00:48.26,Default,NTP,0000,0000,0000,,{\i1}This was so that we would fight together,
+Dialogue: 0,0:00:48.26,0:00:49.68,Default,,0000,0000,0000,,just like how we promised in the future.{\i0}
+Dialogue: 0,0:00:50.59,0:00:52.92,Default,NTP,0000,0000,0000,,{\i1}Kumagami was the one that found me.{\i0}
+Dialogue: 0,0:00:54.13,0:00:56.36,Default,NTP,0000,0000,0000,,Someone with an amazing ability showed up...
+Dialogue: 0,0:00:56.76,0:00:58.41,Default,NTP,0000,0000,0000,,You finally came for me.
+Dialogue: 0,0:00:59.72,0:01:00.87,Default,NTP,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:01:01.02,0:01:04.83,Default,NTP,0000,0000,0000,,We're soul-friends who \Nswore to each other that
+Dialogue: 0,0:01:04.83,0:01:07.25,Default,,0000,0000,0000,,we will make sure to change the world, you!
+Dialogue: 0,0:01:07.61,0:01:09.19,Default,NTP,0000,0000,0000,,Wait, don't come close to me!
+Dialogue: 0,0:01:17.12,0:01:19.08,Default,NTP,0000,0000,0000,,W-What in the world are you?
+Dialogue: 0,0:01:19.08,0:01:21.23,Default,NTP,0000,0000,0000,,You know about my ability, right?
+Dialogue: 0,0:01:21.23,0:01:23.02,Default,,0000,0000,0000,,Then, don't you have a good guess in general?
+Dialogue: 0,0:01:23.91,0:01:26.67,Default,NTP,0000,0000,0000,,Can it be... that we've met \Neach other in the future?
+Dialogue: 0,0:01:26.67,0:01:28.17,Default,NTP,0000,0000,0000,,That's correct!
+Dialogue: 0,0:01:28.17,0:01:30.84,Default,NTP,0000,0000,0000,,We may have met each other in the future,\Nbut for now, we're strangers!
+Dialogue: 0,0:01:30.84,0:01:32.67,Default,NTP,0000,0000,0000,,Don't you get all chummy with me now!
+Dialogue: 0,0:01:34.26,0:01:36.18,Default,NTP,0000,0000,0000,,Man, you're no fun, Pooh.
+Dialogue: 0,0:01:36.18,0:01:37.26,Default,NTP,0000,0000,0000,,Pooh?
+Dialogue: 0,0:01:37.26,0:01:39.51,Default,NTP,0000,0000,0000,,I call you Pooh,\Nafter that bear named Pooh.
+Dialogue: 0,0:01:39.51,0:01:43.18,Default,NTP,0000,0000,0000,,Impossible... I allowed someone\Nto call me by such a nickname?
+Dialogue: 0,0:01:44.81,0:01:49.86,Default,NTP,0000,0000,0000,,{\i1}At this point, Kumagami had already made\Na small group of ability-wielders.{\i0}
+Dialogue: 0,0:01:50.65,0:01:53.77,Default,NTP,0000,0000,0000,,{\i1}I followed Kumagami, and decided to meet
+Dialogue: 0,0:01:53.77,0:01:55.57,Default,,0000,0000,0000,,the members of this group as planned.{\i0}
+Dialogue: 0,0:01:56.49,0:01:59.32,Default,NTP,0000,0000,0000,,This is the one with\Nthe time-leap ability, Shunsuke Otosaka.
+Dialogue: 0,0:01:59.32,0:02:03.66,Default,NTP,0000,0000,0000,,It's been a while! But, you \Nguys don't see it that way.
+Dialogue: 0,0:02:03.66,0:02:07.58,Default,NTP,0000,0000,0000,,Apparently, he's met all three of you\Nalready in the future.
+Dialogue: 0,0:02:07.83,0:02:10.25,Default,NTP,0000,0000,0000,,You expect us to believe that?
+Dialogue: 0,0:02:10.25,0:02:11.25,Default,NTP,0000,0000,0000,,First off, Shichino.
+Dialogue: 0,0:02:12.13,0:02:15.67,Default,NTP,0000,0000,0000,,The wielder of permeation,\Nthe ability to pass through obstacles.
+Dialogue: 0,0:02:15.67,0:02:19.93,Default,NTP,0000,0000,0000,,However, you get tremendously tired\Neven by passing through one wall.
+Dialogue: 0,0:02:19.93,0:02:20.53,Default,NTP,0000,0000,0000,,What?
+Dialogue: 0,0:02:20.93,0:02:21.93,Default,NTP,0000,0000,0000,,Next, Medoki.
+Dialogue: 0,0:02:22.85,0:02:24.89,Default,NTP,0000,0000,0000,,You possess powers of hypnotism.
+Dialogue: 0,0:02:24.89,0:02:28.67,Default,,0000,0000,0000,,You can make someone fall asleep, \Nbut you also fall asleep afterwards.
+Dialogue: 0,0:02:30.19,0:02:31.65,Default,NTP,0000,0000,0000,,Next, Maedomori.
+Dialogue: 0,0:02:31.65,0:02:32.69,Default,NTP,0000,0000,0000,,Yes.
+Dialogue: 0,0:02:32.69,0:02:35.41,Default,NTP,0000,0000,0000,,You're able to erase one memory\Nfrom someone with pin-point accuracy.
+Dialogue: 0,0:02:35.99,0:02:38.88,Default,NTP,0000,0000,0000,,However, you must touch the target
+Dialogue: 0,0:02:38.88,0:02:42.02,Default,,0000,0000,0000,,and take a long time to find that memory.
+Dialogue: 0,0:02:42.45,0:02:43.24,Default,NTP,0000,0000,0000,,That is all.
+Dialogue: 0,0:02:43.24,0:02:45.33,Default,NTP,0000,0000,0000,,Amazing... that's perfect.
+Dialogue: 0,0:02:45.33,0:02:48.75,Default,NTP,0000,0000,0000,,He might have heard all of \Nthat from Kumagami first!
+Dialogue: 0,0:02:48.75,0:02:50.59,Default,NTP,0000,0000,0000,,That will mean that even Kumagami is someone
+Dialogue: 0,0:02:50.59,0:02:52.17,Default,,0000,0000,0000,,we can't trust, but are \Nyou all right with that?
+Dialogue: 0,0:02:53.38,0:02:57.16,Default,NTP,0000,0000,0000,,So, what do you want with us,\Nsince you came to see us from the future?
+Dialogue: 0,0:02:57.76,0:02:59.47,Default,NTP,0000,0000,0000,,Yeah, let me explain.
+Dialogue: 0,0:03:00.30,0:03:03.36,Default,NTP,0000,0000,0000,,{\i1}And so, I explained the tragic endings
+Dialogue: 0,0:03:03.36,0:03:05.57,Default,,0000,0000,0000,,of those with special powers in my future.{\i0}
+Dialogue: 0,0:03:06.31,0:03:09.23,Default,NTP,0000,0000,0000,,{\i1}About myself, and about \Nthe other members present.{\i0}
+Dialogue: 0,0:03:09.23,0:03:10.40,Default,NTP,0000,0000,0000,,{\i1}And then, about the plan
+Dialogue: 0,0:03:10.40,0:03:12.66,Default,,0000,0000,0000,,that I had made with Kumagami \Nand company of the future...{\i0}
+Dialogue: 0,0:03:13.03,0:03:15.00,Default,NTP,0000,0000,0000,,{\i1}There was one means for us to take.{\i0}
+Dialogue: 0,0:03:15.95,0:03:19.45,Default,NTP,0000,0000,0000,,We need to gather those with abilities,\Nand protect ourselves.
+Dialogue: 0,0:03:20.61,0:03:24.47,Default,NTP,0000,0000,0000,,{\i1}And so, we started creating a syndicate\Nof just ability wielders.{\i0}
+Dialogue: 0,0:03:24.91,0:03:26.97,Default,NTP,0000,0000,0000,,{\i1}But, in the end, it was just \Na gathering of children.{\i0}
+Dialogue: 0,0:03:27.44,0:03:29.02,Default,NTP,0000,0000,0000,,{\i1}No matter how many times we started over,
+Dialogue: 0,0:03:29.02,0:03:31.48,Default,,0000,0000,0000,,we weren't able to protect ourselves.{\i0}
+Dialogue: 0,0:03:32.04,0:03:35.69,Default,NTP,0000,0000,0000,,{\i1}In the end, there were members \Nthat went out of control
+Dialogue: 0,0:03:35.69,0:03:38.36,Default,,0000,0000,0000,,and assaulted the lab facility \Nto save their friends.{\i0}
+Dialogue: 0,0:03:38.63,0:03:39.59,Default,NTP,0000,0000,0000,,Dammit!
+Dialogue: 0,0:03:40.26,0:03:43.14,Default,NTP,0000,0000,0000,,We don't have enough power to protect.
+Dialogue: 0,0:03:43.14,0:03:46.01,Default,NTP,0000,0000,0000,,In the first place, this was impossible\Nfor just children to do.
+Dialogue: 0,0:03:46.01,0:03:47.31,Default,NTP,0000,0000,0000,,What should we do?
+Dialogue: 0,0:03:49.73,0:03:51.31,Default,NTP,0000,0000,0000,,Let's get some adult help.
+Dialogue: 0,0:03:51.52,0:03:54.48,Default,NTP,0000,0000,0000,,Adults? There's no way we can rely on them!
+Dialogue: 0,0:03:55.15,0:03:59.90,Default,NTP,0000,0000,0000,,There is no way that adults\Nwho have no abilities will understand us...
+Dialogue: 0,0:04:01.85,0:04:04.11,Default,NTP,0000,0000,0000,,What about those that used to have abilities?
+Dialogue: 0,0:04:04.11,0:04:05.59,Default,,0000,0000,0000,,I know a few that are like that.
+Dialogue: 0,0:04:06.55,0:04:08.93,Default,NTP,0000,0000,0000,,Don't you think it's worth trying out?
+Dialogue: 0,0:04:09.18,0:04:11.35,Default,NTP,0000,0000,0000,,Well, if you say so.
+Dialogue: 0,0:04:11.35,0:04:12.56,Default,NTP,0000,0000,0000,,Let's try it out.
+Dialogue: 0,0:04:13.52,0:04:16.56,Default,NTP,0000,0000,0000,,But, what are we specifically \Ngoing to do, Shunsuke?
+Dialogue: 0,0:04:16.94,0:04:20.82,Default,NTP,0000,0000,0000,,Yeah, let me think about it for a bit, Pooh.
+Dialogue: 0,0:04:21.15,0:04:25.65,Default,NTP,0000,0000,0000,,Big Brother Shun, happy 15th birthday!
+Dialogue: 0,0:04:26.36,0:04:27.36,On Top,NTP,0000,0000,0000,,Happy birthday!
+Dialogue: 0,0:04:26.70,0:04:29.70,Default,NTP,0000,0000,0000,,{\i1}I need to time-leap soon, \Nor I'll get caught...{\i0}
+Dialogue: 0,0:04:32.74,0:04:35.10,Default,NTP,0000,0000,0000,,{\i1}Now's your chance\Nfor the Mega-Jump Fortune Lottery!{\i0}
+Dialogue: 0,0:04:35.46,0:04:37.90,Default,NTP,0000,0000,0000,,{\i1}This year, along with the prizes \Nfor being one number off,
+Dialogue: 0,0:04:37.54,0:04:38.92,On Top,NTP,0000,0000,0000,,600 Million Yen
+Dialogue: 0,0:04:37.90,0:04:39.04,Default,,0000,0000,0000,,the prize total is 600 million yen!{\i0}
+Dialogue: 0,0:04:39.04,0:04:40.88,On Top,NTP,0000,0000,0000,,{\i1}Your lucky chance is right in front of you!
+Dialogue: 0,0:04:39.29,0:04:42.50,Default,NTP,0000,0000,0000,,{\i1}600 million... if we had 600 million,
+Dialogue: 0,0:04:40.88,0:04:43.09,On Top,,0000,0000,0000,,The biggest test of your luck this year!{\i0}
+Dialogue: 0,0:04:42.50,0:04:44.63,Default,,0000,0000,0000,,\Nwe might be able to sway some adults...{\i0}
+Dialogue: 0,0:04:43.09,0:04:45.05,On Top,NTP,0000,0000,0000,,{\i1}Now, to a vendor, let's go!{\i0}
+Dialogue: 0,0:04:45.34,0:04:48.85,Default,NTP,0000,0000,0000,,{\i1}Not just 600 million... if I use my powers...{\i0}
+Dialogue: 0,0:04:50.05,0:04:53.06,Default,NTP,0000,0000,0000,,{\i1}This is it. This is the only way left.{\i0}
+Dialogue: 0,0:04:54.64,0:04:56.10,Default,NTP,0000,0000,0000,,Let's gather some funding.
+Dialogue: 0,0:04:56.10,0:04:56.77,Default,NTP,0000,0000,0000,,Oh?
+Dialogue: 0,0:04:57.14,0:04:59.25,Default,NTP,0000,0000,0000,,I'll leap back to the past, and gather
+Dialogue: 0,0:04:59.25,0:05:01.65,Default,,0000,0000,0000,,all sorts of gambling information, \Nlike horse racing and lotto.
+Dialogue: 0,0:05:01.86,0:05:02.82,Default,NTP,0000,0000,0000,,I see..
+Dialogue: 0,0:05:02.82,0:05:04.07,Default,NTP,0000,0000,0000,,And after that?
+Dialogue: 0,0:05:04.07,0:05:06.15,Default,NTP,0000,0000,0000,,We'll gather even more wielders of abilities,
+Dialogue: 0,0:05:06.15,0:05:08.70,Default,NTP,0000,0000,0000,,and create a syndicate\Nthat the scientists will never be about to touch.
+Dialogue: 0,0:05:08.70,0:05:11.16,Default,NTP,0000,0000,0000,,So we have to follow this guy's orders again?
+Dialogue: 0,0:05:11.16,0:05:13.33,Default,NTP,0000,0000,0000,,Shichino, let's believe in Shunsuke.
+Dialogue: 0,0:05:14.24,0:05:16.33,Default,NTP,0000,0000,0000,,Then, I'll see you again in the past.
+Dialogue: 0,0:05:17.21,0:05:20.25,Default,,0000,0000,0000,,Though it's a pain that I have to \Nexplain all of this from scratch...
+Dialogue: 0,0:05:24.13,0:05:25.92,Default,NTP,0000,0000,0000,,{\i1}The morning that I made the time-leap,
+Dialogue: 0,0:05:25.92,0:05:28.44,Default,,0000,0000,0000,,I looked at the mirror, and \Nnoticed something irregular.{\i0}
+Dialogue: 0,0:05:31.34,0:05:32.93,Default,NTP,0000,0000,0000,,{\i1}This ability...
+Dialogue: 0,0:05:32.93,0:05:35.66,Default,,0000,0000,0000,,takes a bit of vision away \Nfrom me each time I use it...{\i0}
+Dialogue: 0,0:05:36.27,0:05:39.55,Default,NTP,0000,0000,0000,,{\i1}Since then, we added all sorts of comrades,
+Dialogue: 0,0:05:39.55,0:05:42.07,Default,,0000,0000,0000,,and created a path for us to \Ngather a large sum of money.{\i0}
+Dialogue: 0,0:05:42.52,0:05:46.23,Default,NTP,0000,0000,0000,,{\i1}Of course, we tried over many times\Nby my time-leaps.{\i0}
+Dialogue: 0,0:05:46.23,0:05:48.40,Default,NTP,0000,0000,0000,,{\i1}My vision started to gradually fail, too.{\i0}
+Dialogue: 0,0:05:49.03,0:05:53.95,Default,NTP,0000,0000,0000,,{\i1}My ability is to take every object,\Neveryone, every scene...{\i0}
+Dialogue: 0,0:05:53.95,0:05:57.11,Default,NTP,0000,0000,0000,,{\i1}everything I see with my eyes\Nas I rewind to the past.{\i0}
+Dialogue: 0,0:05:57.62,0:06:00.39,Default,NTP,0000,0000,0000,,{\i1}So, if I go blind, I am no \Nlonger able to use the ability.
+Dialogue: 0,0:06:00.39,0:06:01.82,Default,,0000,0000,0000,,I was aware of that.{\i0}
+Dialogue: 0,0:06:03.46,0:06:06.17,Default,NTP,0000,0000,0000,,The research facility\Nwas one step ahead of us once again.
+Dialogue: 0,0:06:06.55,0:06:08.12,Default,NTP,0000,0000,0000,,How many times has this happened now?
+Dialogue: 0,0:06:08.12,0:06:09.60,Default,,0000,0000,0000,,Hasn't this been happening a lot lately?
+Dialogue: 0,0:06:09.60,0:06:11.97,Default,NTP,0000,0000,0000,,At this rate, we're just fighting \Nover the ability wielders.
+Dialogue: 0,0:06:12.47,0:06:15.74,Default,NTP,0000,0000,0000,,Shunsuke, don't we need\Nan environment to protect them?
+Dialogue: 0,0:06:17.27,0:06:20.17,Default,NTP,0000,0000,0000,,Let me think for a while \Nto make a plan, Pooh.
+Dialogue: 0,0:06:23.10,0:06:24.73,Default,NTP,0000,0000,0000,,{\i1}I wonder how many times\NI've celebrated this birthday now...{\i0}
+Dialogue: 0,0:06:25.61,0:06:29.57,Default,NTP,0000,0000,0000,,{\i1}A condition where I can protect them...\Nis there such a thing?{\i0}
+Dialogue: 0,0:06:30.11,0:06:33.24,Default,NTP,0000,0000,0000,,Come to think, Big Brother,\Nit's entrance exam season for you.
+Dialogue: 0,0:06:33.24,0:06:34.58,Default,NTP,0000,0000,0000,,What are you going to do for high school?
+Dialogue: 0,0:06:34.99,0:06:37.83,Default,NTP,0000,0000,0000,,{\i1}I see! I have that option!{\i0}
+Dialogue: 0,0:06:38.20,0:06:41.23,Default,NTP,0000,0000,0000,,Yu! That is a wonderful idea!
+Dialogue: 0,0:06:41.23,0:06:43.67,Default,NTP,0000,0000,0000,,I didn't say anything, did I?
+Dialogue: 0,0:06:45.09,0:06:46.77,Default,NTP,0000,0000,0000,,I'm going to leap one more time, Pooh.
+Dialogue: 0,0:06:47.21,0:06:48.17,Default,NTP,0000,0000,0000,,Why?
+Dialogue: 0,0:06:48.55,0:06:51.05,Default,NTP,0000,0000,0000,,I was able to create a \Nsyndicate to gain funding.
+Dialogue: 0,0:06:51.05,0:06:54.35,Default,,0000,0000,0000,,But, I haven't been able \Nto protect everyone yet.
+Dialogue: 0,0:06:54.35,0:06:56.27,Default,NTP,0000,0000,0000,,But, if you do, you will–
+Dialogue: 0,0:06:56.56,0:07:00.98,Default,NTP,0000,0000,0000,,I know. If I leap one more time,\NI will go blind for sure.
+Dialogue: 0,0:07:01.38,0:07:02.84,Default,,0000,0000,0000,,So, this is my last chance.
+Dialogue: 0,0:07:03.40,0:07:06.73,Default,NTP,0000,0000,0000,,With that last chance,\Nwhat are you planning on doing?
+Dialogue: 0,0:07:08.94,0:07:10.28,Default,NTP,0000,0000,0000,,I'm going to create a school.
+Dialogue: 0,0:07:10.82,0:07:11.86,Default,NTP,0000,0000,0000,,A school?
+Dialogue: 0,0:07:12.36,0:07:13.79,Default,NTP,0000,0000,0000,,I've said this in the past, right?
+Dialogue: 0,0:07:13.79,0:07:16.67,Default,,0000,0000,0000,,That this ability disappears \Nonce you're past adolescence.
+Dialogue: 0,0:07:16.91,0:07:18.76,Default,NTP,0000,0000,0000,,So, we just need to build a school
+Dialogue: 0,0:07:18.76,0:07:21.54,Default,,0000,0000,0000,,that protects those with abilities \Njust for that duration.
+Dialogue: 0,0:07:21.79,0:07:22.94,Default,NTP,0000,0000,0000,,That way, I can protect
+Dialogue: 0,0:07:22.94,0:07:25.80,Default,,0000,0000,0000,,people like Yu and Ayumi before \Nthey develop their abilities.
+Dialogue: 0,0:07:26.21,0:07:30.25,Default,NTP,0000,0000,0000,,I see... but that is truly\Nyour last gamble, you understand?
+Dialogue: 0,0:07:30.59,0:07:32.68,Default,NTP,0000,0000,0000,,You're going to completely lose\Nyour vision, right?
+Dialogue: 0,0:07:33.05,0:07:35.64,Default,NTP,0000,0000,0000,,Well, where there's a will, there's a way.
+Dialogue: 0,0:07:37.47,0:07:40.64,Default,NTP,0000,0000,0000,,In a way... you haven't changed one bit.
+Dialogue: 0,0:07:41.35,0:07:44.68,Default,NTP,0000,0000,0000,,Please make sure to find me\Nafter I've gone completely blind.
+Dialogue: 0,0:07:45.65,0:07:46.64,Default,NTP,0000,0000,0000,,Leave that to me.
+Dialogue: 0,0:07:47.19,0:07:49.70,Default,NTP,0000,0000,0000,,{\i1}I made my very last time-leap.{\i0}
+Dialogue: 0,0:07:54.07,0:07:56.14,Default,NTP,0000,0000,0000,,{\i1}And lost all light in my eyes.{\i0}
+Dialogue: 0,0:07:57.39,0:08:00.92,Default,NTP,0000,0000,0000,,{\i1}From there, I started walking down\Nthe ultimate path, with no light,{\i0}
+Dialogue: 0,0:08:01.33,0:08:03.56,Default,NTP,0000,0000,0000,,{\i1}together with Kumagami and the others.{\i0}
+Dialogue: 0,0:08:05.29,0:08:06.72,Default,NTP,0000,0000,0000,,{\i1}For the final touch,
+Dialogue: 0,0:08:06.72,0:08:09.28,Default,,0000,0000,0000,,we decided to buy out a certain \Nincorporated educational institution.{\i0}
+Dialogue: 0,0:08:09.75,0:08:12.34,Default,NTP,0000,0000,0000,,{\i1}It was a pretty tiresome job,{\i0}
+Dialogue: 0,0:08:12.34,0:08:14.53,Default,NTP,0000,0000,0000,,{\i1}but with how everyone was happy at the end,
+Dialogue: 0,0:08:14.53,0:08:15.97,Default,,0000,0000,0000,,the glum feelings I had all cleared up.{\i0}
+Dialogue: 0,0:08:17.76,0:08:19.47,Default,NTP,0000,0000,0000,,Now, something can be made of this, right?
+Dialogue: 0,0:08:19.76,0:08:24.56,Default,NTP,0000,0000,0000,,Yeah, You did well. Thanks.\NBut, this is where the main part begins.
+Dialogue: 0,0:08:24.56,0:08:29.48,Default,NTP,0000,0000,0000,,I know that. So, Pooh...\NI have two favors to ask of you.
+Dialogue: 0,0:08:30.02,0:08:30.53,Default,NTP,0000,0000,0000,,What are they?
+Dialogue: 0,0:08:31.15,0:08:35.76,Default,NTP,0000,0000,0000,,First one. I want you to erase my existence\Nfrom Yu and Ayumi's memories.
+Dialogue: 0,0:08:36.11,0:08:37.16,Default,NTP,0000,0000,0000,,Why?
+Dialogue: 0,0:08:37.16,0:08:41.16,Default,NTP,0000,0000,0000,,If that doesn't happen, I won't be able\Nto move around freely from hereon.
+Dialogue: 0,0:08:41.62,0:08:43.78,Default,NTP,0000,0000,0000,,I can no longer live in the open.
+Dialogue: 0,0:08:43.78,0:08:47.29,Default,,0000,0000,0000,,I must keep living behind \Nthe scenes from now on.
+Dialogue: 0,0:08:48.12,0:08:49.04,Default,NTP,0000,0000,0000,,I see...
+Dialogue: 0,0:08:49.04,0:08:53.30,Default,NTP,0000,0000,0000,,Second. I want you to create\Nsimilar syndicates all over Japan,
+Dialogue: 0,0:08:53.30,0:08:56.24,Default,NTP,0000,0000,0000,,and build more schools\Nthat can harbor those with abilities.
+Dialogue: 0,0:08:57.09,0:09:00.80,Default,NTP,0000,0000,0000,,Indeed, we need to protect \Nthose with abilities
+Dialogue: 0,0:09:00.80,0:09:02.60,Default,,0000,0000,0000,,even if our eyes can't reach them.
+Dialogue: 0,0:09:03.18,0:09:04.84,Default,NTP,0000,0000,0000,,But if I did such a thing,
+Dialogue: 0,0:09:04.84,0:09:07.45,Default,,0000,0000,0000,,my face will be known all over\Nand it will become dangerous.
+Dialogue: 0,0:09:08.02,0:09:11.69,Default,NTP,0000,0000,0000,,If that's the case, how about you hide your face\Nwith that long hair of yours?
+Dialogue: 0,0:09:12.36,0:09:15.65,Default,NTP,0000,0000,0000,,I see. If I poured water on myself\Non top of that, it would be perfect.
+Dialogue: 0,0:09:23.29,0:09:25.37,Default,NTP,0000,0000,0000,,You really drenched yourself?
+Dialogue: 0,0:09:25.37,0:09:26.37,Default,NTP,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:32.54,0:09:33.55,Default,NTP,0000,0000,0000,,I'm back.
+Dialogue: 0,0:09:35.13,0:09:40.05,Default,NTP,0000,0000,0000,,Big Brother Shun! Where have you been?!\NI was really worried about you!
+Dialogue: 0,0:09:40.43,0:09:44.79,Default,NTP,0000,0000,0000,,I'm sorry. And, furthermore, \NI brought a few friends.
+Dialogue: 0,0:09:45.43,0:09:48.69,Default,NTP,0000,0000,0000,,Hold on just a second! I'll clean the room\Nright now!
+Dialogue: 0,0:09:47.85,0:09:49.39,Default,NTP,0000,0000,0000,,Medoki, please go ahead.
+Dialogue: 0,0:09:48.69,0:09:50.69,On Top,,0000,0000,0000,,Uh, what do I do?
+Dialogue: 0,0:09:52.23,0:09:53.11,Default,NTP,0000,0000,0000,,Ayumi.
+Dialogue: 0,0:09:53.32,0:09:53.94,Default,NTP,0000,0000,0000,,Yes?
+Dialogue: 0,0:10:01.53,0:10:02.49,Default,NTP,0000,0000,0000,,Ayumi!
+Dialogue: 0,0:10:02.99,0:10:03.45,Default,NTP,0000,0000,0000,,Who is it?
+Dialogue: 0,0:10:10.71,0:10:11.46,Default,NTP,0000,0000,0000,,Thank you...
+Dialogue: 0,0:10:12.25,0:10:13.25,Default,NTP,0000,0000,0000,,Maedomori.
+Dialogue: 0,0:10:13.25,0:10:14.09,Default,NTP,0000,0000,0000,,Yes.
+Dialogue: 0,0:10:28.06,0:10:29.21,Default,NTP,0000,0000,0000,,It's over.
+Dialogue: 0,0:10:29.60,0:10:30.81,Default,NTP,0000,0000,0000,,Thank you for the hard work.
+Dialogue: 0,0:10:31.77,0:10:35.52,Default,NTP,0000,0000,0000,,The future from hereon will be fine.\NPlease rest assured and live on...
+Dialogue: 0,0:10:38.90,0:10:41.30,Default,NTP,0000,0000,0000,,I'll always love you. Goodbye.
+Dialogue: 0,0:10:42.28,0:10:43.53,Default,NTP,0000,0000,0000,,So, shall we go?
+Dialogue: 0,0:10:43.53,0:10:44.53,Default,NTP,0000,0000,0000,,Yes.
+Dialogue: 0,0:10:46.79,0:10:51.13,Default,NTP,0000,0000,0000,,{\i1}And so, I left from the \Nlives of you and Ayumi.{\i0}
+Dialogue: 0,0:10:52.50,0:10:54.34,Default,NTP,0000,0000,0000,,There. The end.
+Dialogue: 0,0:10:54.67,0:10:59.23,Default,NTP,0000,0000,0000,,You created the current educational institution\Nby repeatedly time-leaping?
+Dialogue: 0,0:10:59.23,0:11:00.10,Default,,0000,0000,0000,,That's amazing...
+Dialogue: 0,0:11:00.42,0:11:03.60,Default,NTP,0000,0000,0000,,Nao, I'm sorry we didn't make it in time\Nfor your big brother.
+Dialogue: 0,0:11:03.97,0:11:08.22,Default,NTP,0000,0000,0000,,No, he's steadily heading\Ntowards recovery now, so it's all right.
+Dialogue: 0,0:11:08.22,0:11:11.40,Default,NTP,0000,0000,0000,,So an ability had erased\Nmy memory of you, Big Brother?
+Dialogue: 0,0:11:11.73,0:11:13.90,Default,NTP,0000,0000,0000,,Yeah, that's how it was.
+Dialogue: 0,0:11:13.90,0:11:15.36,Default,NTP,0000,0000,0000,,You even lost your eyesight...
+Dialogue: 0,0:11:15.98,0:11:18.87,Default,NTP,0000,0000,0000,,I tried it out, but I couldn't leap anymore.
+Dialogue: 0,0:11:19.65,0:11:21.81,Default,NTP,0000,0000,0000,,But, there is something \NI still have left undone.
+Dialogue: 0,0:11:22.24,0:11:24.94,Default,NTP,0000,0000,0000,,That was supposed to be a promise between us
+Dialogue: 0,0:11:24.94,0:11:26.95,Default,,0000,0000,0000,,that we absolutely have to fulfill, right?
+Dialogue: 0,0:11:27.58,0:11:30.37,Default,NTP,0000,0000,0000,,You can't mean... saving Ayumi...
+Dialogue: 0,0:11:30.70,0:11:32.25,Default,NTP,0000,0000,0000,,But how?
+Dialogue: 0,0:11:32.25,0:11:36.55,Default,NTP,0000,0000,0000,,With your ability to "loot,"\Ntake my "time-leap" as yours.
+Dialogue: 0,0:11:36.96,0:11:39.01,Default,NTP,0000,0000,0000,,"Loot"... come to think, also in the dream...
+Dialogue: 0,0:11:39.38,0:11:41.55,Default,NTP,0000,0000,0000,,Taking the ability of a wielder as your own.
+Dialogue: 0,0:11:42.00,0:11:44.09,Default,,0000,0000,0000,,That is your true power.
+Dialogue: 0,0:11:44.55,0:11:46.05,Default,NTP,0000,0000,0000,,What's up with that?
+Dialogue: 0,0:11:46.05,0:11:48.14,Default,NTP,0000,0000,0000,,Takajo and I were aware of it.
+Dialogue: 0,0:11:48.14,0:11:48.81,Default,NTP,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:49.31,0:11:53.14,Default,NTP,0000,0000,0000,,From the very beginning,\Nhe had seen through your ability.
+Dialogue: 0,0:11:57.73,0:12:01.45,Default,NTP,0000,0000,0000,,His ability... is the looting \Nof special abilities.
+Dialogue: 0,0:12:03.65,0:12:06.91,Default,NTP,0000,0000,0000,,Oh dear, to think such an ability existed...
+Dialogue: 0,0:12:07.03,0:12:08.80,Default,NTP,0000,0000,0000,,It's way too strong...
+Dialogue: 0,0:12:09.24,0:12:12.75,Default,,0000,0000,0000,,we must first investigate on \Nhow the abilities are looted.
+Dialogue: 0,0:12:13.04,0:12:13.88,Default,NTP,0000,0000,0000,,Right.
+Dialogue: 0,0:12:14.25,0:12:17.21,Default,NTP,0000,0000,0000,,We should both act very carefully as well.
+Dialogue: 0,0:12:17.96,0:12:19.90,Default,NTP,0000,0000,0000,,As a result of our investigation,
+Dialogue: 0,0:12:19.90,0:12:23.57,Default,,0000,0000,0000,,we found out that you had misunderstood \Nwhat your ability was.
+Dialogue: 0,0:12:23.97,0:12:26.26,Default,NTP,0000,0000,0000,,It's not that you are merely possessing them.
+Dialogue: 0,0:12:26.55,0:12:30.76,Default,NTP,0000,0000,0000,,The method with which you looted abilities\Nwas by possessing them.
+Dialogue: 0,0:12:31.14,0:12:34.61,Default,NTP,0000,0000,0000,,As proof of that, everyone who \Nyou have possessed until now
+Dialogue: 0,0:12:34.61,0:12:36.11,Default,,0000,0000,0000,,have lost their abilities.
+Dialogue: 0,0:12:36.39,0:12:40.05,Default,NTP,0000,0000,0000,,Wait! Then, you didn't have to make\Nsuch a big deal every time!
+Dialogue: 0,0:12:40.40,0:12:44.53,Default,NTP,0000,0000,0000,,Everything would have been fine\Nif I just possessed the target, right?
+Dialogue: 0,0:12:44.93,0:12:48.80,Default,NTP,0000,0000,0000,,That, even for wielders of special abilities,\Ngoes against human ethics.
+Dialogue: 0,0:12:49.16,0:12:51.77,Default,NTP,0000,0000,0000,,We figured that you needed to know why
+Dialogue: 0,0:12:51.77,0:12:54.50,Default,,0000,0000,0000,,you should not be using that ability.
+Dialogue: 0,0:12:54.66,0:12:58.22,Default,NTP,0000,0000,0000,,Furthermore, how dangerous of an existence
+Dialogue: 0,0:12:58.22,0:13:01.26,Default,,0000,0000,0000,,you become if you keep looting abilities...
+Dialogue: 0,0:13:01.80,0:13:04.63,Default,NTP,0000,0000,0000,,It was fortunate that you \Ndidn't realize this until now.
+Dialogue: 0,0:13:04.63,0:13:07.39,Default,NTP,0000,0000,0000,,Nothing less from Nao! You really got this!
+Dialogue: 0,0:13:07.63,0:13:09.55,Default,NTP,0000,0000,0000,,Then, I...
+Dialogue: 0,0:13:18.77,0:13:21.29,Default,NTP,0000,0000,0000,,My ability itself should not have been lost.
+Dialogue: 0,0:13:21.79,0:13:23.90,Default,,0000,0000,0000,,Loot that, so you can leap \Nto the past, and save Ayumi.
+Dialogue: 0,0:13:27.61,0:13:28.68,Default,NTP,0000,0000,0000,,All right?
+Dialogue: 0,0:13:29.29,0:13:31.94,Default,,0000,0000,0000,,The day you leap to is the day \Nthat Ayumi develops her ability.
+Dialogue: 0,0:13:32.24,0:13:35.40,Default,NTP,0000,0000,0000,,Leap to that day, and loot\Nthe dangerous ability of
+Dialogue: 0,0:13:35.40,0:13:36.96,Default,,0000,0000,0000,,"collapse" from Ayumi.
+Dialogue: 0,0:13:37.50,0:13:40.19,Default,NTP,0000,0000,0000,,Afterwards, come to me who \Nis ignorant of all this,
+Dialogue: 0,0:13:40.19,0:13:42.57,Default,NTP,0000,0000,0000,,and explain to me what is going\Nto happen from thereon.
+Dialogue: 0,0:13:42.99,0:13:43.88,Default,,0000,0000,0000,,Got that?
+Dialogue: 0,0:13:44.38,0:13:47.55,Default,NTP,0000,0000,0000,,{\i1}I can save Ayumi...{\i0}
+Dialogue: 0,0:13:48.93,0:13:50.09,Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:13:50.09,0:13:52.06,Default,NTP,0000,0000,0000,,Good. Then, I'm counting on you.
+Dialogue: 0,0:14:00.56,0:14:02.83,Default,NTP,0000,0000,0000,,I'm leaving you to do the rest, Yu...
+Dialogue: 0,0:14:03.19,0:14:05.40,Default,NTP,0000,0000,0000,,Yeah. To save Ayumi.
+Dialogue: 0,0:14:11.16,0:14:13.49,Default,NTP,0000,0000,0000,,Go!
+Dialogue: 0,0:14:29.26,0:14:30.64,Default,NTP,0000,0000,0000,,Ayumi...
+Dialogue: 0,0:14:32.51,0:14:33.47,Default,NTP,0000,0000,0000,,Today's date is...
+Dialogue: 0,0:14:35.18,0:14:37.26,Default,NTP,0000,0000,0000,,All right, I was able to get back!
+Dialogue: 0,0:14:39.89,0:14:43.07,Default,NTP,0000,0000,0000,,The ability is... collapse.
+Dialogue: 0,0:14:43.21,0:14:44.09,Default,NTP,0000,0000,0000,,{\i1}Here we go!{\i0}
+Dialogue: 0,0:14:44.52,0:14:46.32,Default,NTP,0000,0000,0000,,What kind of ability is that?
+Dialogue: 0,0:14:46.44,0:14:47.67,Default,NTP,0000,0000,0000,,Who knows?
+Dialogue: 0,0:14:47.67,0:14:50.53,Default,,0000,0000,0000,,Probably something like "able to destroy \Nanything he targets" or thereabouts.
+Dialogue: 0,0:14:50.70,0:14:52.11,Default,NTP,0000,0000,0000,,So, where's this guy?
+Dialogue: 0,0:14:52.11,0:14:54.03,Default,NTP,0000,0000,0000,,This is our condo complex\Nthat is attached to this academy.
+Dialogue: 0,0:14:54.03,0:14:55.20,Default,NTP,0000,0000,0000,,Can I have a minute?
+Dialogue: 0,0:14:55.20,0:14:56.12,Default,NTP,0000,0000,0000,,What is it?
+Dialogue: 0,0:14:56.37,0:14:58.25,Default,NTP,0000,0000,0000,,It's probably my little sister.
+Dialogue: 0,0:14:58.25,0:14:59.96,Default,NTP,0000,0000,0000,,What's your basis to say that?
+Dialogue: 0,0:14:59.96,0:15:02.00,Default,NTP,0000,0000,0000,,She's absent from school today with a cold.
+Dialogue: 0,0:15:02.00,0:15:05.09,Default,NTP,0000,0000,0000,,To be at home at this time of the day\Nmeans it has to be my little sister.
+Dialogue: 0,0:15:05.42,0:15:08.51,Default,NTP,0000,0000,0000,,You're unusually sharp...\Nit's not like you to be like this.
+Dialogue: 0,0:15:08.96,0:15:11.59,Default,NTP,0000,0000,0000,,Well, we're no scientists,
+Dialogue: 0,0:15:11.59,0:15:14.97,Default,NTP,0000,0000,0000,,so let's go visit Ayumi, and \Nsee if she really turned into
+Dialogue: 0,0:15:14.97,0:15:17.25,Default,,0000,0000,0000,,a wielder of a special \Nability while we're at it.
+Dialogue: 0,0:15:17.31,0:15:20.73,Default,NTP,0000,0000,0000,,Wait, are all of you going to drop by?\NWe're talking about a sick girl here.
+Dialogue: 0,0:15:21.27,0:15:23.44,Default,NTP,0000,0000,0000,,Tomori, let's keep it to just you visiting.
+Dialogue: 0,0:15:24.86,0:15:29.57,Default,NTP,0000,0000,0000,,I see... you're right...\Nyou're right indeed. Let's do that.
+Dialogue: 0,0:15:32.40,0:15:34.78,Default,NTP,0000,0000,0000,,Come on, both of you, let's go home!
+Dialogue: 0,0:15:35.12,0:15:37.08,Default,NTP,0000,0000,0000,,And Ayucchi, get better soon!
+Dialogue: 0,0:15:38.28,0:15:40.91,Default,NTP,0000,0000,0000,,Elder brother sir, sorry to be so rowdy!
+Dialogue: 0,0:15:42.75,0:15:44.25,Default,NTP,0000,0000,0000,,{\i1}So this is the person...{\i0}
+Dialogue: 0,0:15:49.05,0:15:52.47,Default,NTP,0000,0000,0000,,Then, I'll be going now.\NSorry to have bothered you.
+Dialogue: 0,0:15:52.47,0:15:55.09,Default,NTP,0000,0000,0000,,I am eagerly awaiting your next patronage.
+Dialogue: 0,0:15:56.22,0:15:58.43,Default,NTP,0000,0000,0000,,I'll see her off. I'll be right back.
+Dialogue: 0,0:16:00.68,0:16:01.89,Default,NTP,0000,0000,0000,,It's nothing like that.
+Dialogue: 0,0:16:05.02,0:16:07.37,Default,NTP,0000,0000,0000,,Please ask her what the nightmare was about.
+Dialogue: 0,0:16:07.77,0:16:10.96,Default,,0000,0000,0000,,It might be a clue in figuring out \Nwhat the "collapse" ability is.
+Dialogue: 0,0:16:11.48,0:16:12.91,Default,NTP,0000,0000,0000,,You know, Tomori...
+Dialogue: 0,0:16:13.70,0:16:17.99,Default,NTP,0000,0000,0000,,If I said I time-leaped here from the future,\Nwould you believe me?
+Dialogue: 0,0:16:19.78,0:16:21.00,Default,NTP,0000,0000,0000,,I would believe you.
+Dialogue: 0,0:16:21.20,0:16:24.53,Default,NTP,0000,0000,0000,,If it was for Ayumi's sake, you would\Ndo something of that level.
+Dialogue: 0,0:16:24.94,0:16:26.00,Default,,0000,0000,0000,,I know that.
+Dialogue: 0,0:16:27.42,0:16:29.23,Default,NTP,0000,0000,0000,,Your understanding really saves me here.
+Dialogue: 0,0:16:29.71,0:16:33.51,Default,NTP,0000,0000,0000,,The day after tomorrow...\NAyumi dies from that ability of "collapse."
+Dialogue: 0,0:16:33.92,0:16:38.00,Default,NTP,0000,0000,0000,,I used a time-leap to save her\Nby preventing that from happening.
+Dialogue: 0,0:16:38.39,0:16:40.14,Default,NTP,0000,0000,0000,,So that's how it is...
+Dialogue: 0,0:16:40.60,0:16:45.26,Default,NTP,0000,0000,0000,,Then, I am worried if it's just you,\Nso the student council will help you as well.
+Dialogue: 0,0:16:45.98,0:16:47.54,Default,NTP,0000,0000,0000,,That is so promising...
+Dialogue: 0,0:16:49.44,0:16:50.48,Default,NTP,0000,0000,0000,,You know...
+Dialogue: 0,0:16:50.48,0:16:51.27,Default,NTP,0000,0000,0000,,Yes?
+Dialogue: 0,0:16:51.27,0:16:54.24,Default,NTP,0000,0000,0000,,I think I may have had a \Nmisunderstanding about you.
+Dialogue: 0,0:16:55.40,0:17:00.01,Default,NTP,0000,0000,0000,,After I lost Ayumi once,\NI became reckless and started falling down...
+Dialogue: 0,0:17:01.08,0:17:05.17,Default,NTP,0000,0000,0000,,And the person that saved me\Nfrom that was you, Tomori.
+Dialogue: 0,0:17:06.29,0:17:09.13,Default,NTP,0000,0000,0000,,Since you're talking about the future,\NI don't recall any of this.
+Dialogue: 0,0:17:09.46,0:17:12.84,Default,NTP,0000,0000,0000,,But, if you're saying so,\NI guess that's how things went.
+Dialogue: 0,0:17:14.84,0:17:19.29,Default,NTP,0000,0000,0000,,I saw all sorts of horrible situations,\Nbut you were always correct.
+Dialogue: 0,0:17:19.80,0:17:20.70,Default,NTP,0000,0000,0000,,Sure...
+Dialogue: 0,0:17:21.51,0:17:22.47,Default,NTP,0000,0000,0000,,Thank you.
+Dialogue: 0,0:17:24.47,0:17:27.54,Default,NTP,0000,0000,0000,,Well... you're welcome.
+Dialogue: 0,0:17:29.23,0:17:31.94,Default,NTP,0000,0000,0000,,Then, good night!
+Dialogue: 0,0:17:31.94,0:17:33.41,Default,NTP,0000,0000,0000,,No, hold on a second.
+Dialogue: 0,0:17:33.80,0:17:36.05,Default,,0000,0000,0000,,Let me cast a magic spell that cures colds.
+Dialogue: 0,0:17:36.05,0:17:37.44,Default,NTP,0000,0000,0000,,Y-Yes?
+Dialogue: 0,0:17:42.83,0:17:43.89,Default,NTP,0000,0000,0000,,Are you all right?
+Dialogue: 0,0:17:44.91,0:17:46.71,Default,NTP,0000,0000,0000,,I am fine.
+Dialogue: 0,0:17:47.25,0:17:52.05,Default,NTP,0000,0000,0000,,{\i1}With that, Ayumi's ability\Nis no longer with her... now, one more...{\i0}
+Dialogue: 0,0:17:54.34,0:17:55.01,Default,NTP,0000,0000,0000,,See ya.
+Dialogue: 0,0:17:55.55,0:17:57.14,Default,NTP,0000,0000,0000,,I'll come pick you up to go home.
+Dialogue: 0,0:17:57.56,0:17:59.56,Default,,0000,0000,0000,,You're still recovering, so \Ndon't go out of your way.
+Dialogue: 0,0:17:59.56,0:18:01.76,Default,NTP,0000,0000,0000,,Sure! It is only a temporary farewell!
+Dialogue: 0,0:18:03.72,0:18:06.64,Default,NTP,0000,0000,0000,,{\i1}This now will be the key part...\NI have to act carefully.{\i0}
+Dialogue: 0,0:18:07.02,0:18:08.35,Default,NTP,0000,0000,0000,,Good morning.
+Dialogue: 0,0:18:13.27,0:18:17.70,Default,NTP,0000,0000,0000,,I'm amazed you got a hold of that...\NBut what are you going to be?
+Dialogue: 0,0:18:18.20,0:18:21.41,Default,NTP,0000,0000,0000,,They decided that no matter what I did,\NI wouldn't look like a middle school student!
+Dialogue: 0,0:18:21.41,0:18:23.42,Default,NTP,0000,0000,0000,,So, I'm going to disguise \Nmyself as a teacher!
+Dialogue: 0,0:18:24.74,0:18:27.35,Default,NTP,0000,0000,0000,,Are you all right just the way you are?
+Dialogue: 0,0:18:28.00,0:18:32.00,Default,NTP,0000,0000,0000,,Yeah. I want to show myself\Nin front of her as Ayumi's big brother.
+Dialogue: 0,0:18:32.38,0:18:35.84,Default,NTP,0000,0000,0000,,Wise idea. That totally changes\Nhow imposing you look.
+Dialogue: 0,0:18:37.34,0:18:39.34,Default,NTP,0000,0000,0000,,So everyone, I'm counting on you.
+Dialogue: 0,0:18:39.51,0:18:44.28,Default,NTP,0000,0000,0000,,Yes! Let us make sure to save the life\Nof Otosaka's little sister!
+Dialogue: 0,0:18:44.47,0:18:46.05,Default,NTP,0000,0000,0000,,Yeah!
+Dialogue: 0,0:18:46.26,0:18:49.35,Default,NTP,0000,0000,0000,,By the way, there is no magic \Nspell for saving a life!
+Dialogue: 0,0:18:49.35,0:18:50.27,Default,NTP,0000,0000,0000,,I'm sorry!
+Dialogue: 0,0:18:50.27,0:18:53.61,Default,NTP,0000,0000,0000,,Now, over here. Let's go \Nin from the back entrance.
+Dialogue: 0,0:19:01.99,0:19:04.62,Default,NTP,0000,0000,0000,,Hey, are you a student of this school?
+Dialogue: 0,0:19:04.62,0:19:07.66,Default,NTP,0000,0000,0000,,I am a teacher here, do you have some issues?
+Dialogue: 0,0:19:07.66,0:19:09.91,Default,NTP,0000,0000,0000,,I don't recognize you at all.
+Dialogue: 0,0:19:09.91,0:19:11.57,Default,,0000,0000,0000,,Can you come to the faculty office with me?
+Dialogue: 0,0:19:11.57,0:19:14.58,Default,NTP,0000,0000,0000,,Well, um... sure, I'll go! I totally will go!
+Dialogue: 0,0:19:14.58,0:19:16.84,Default,NTP,0000,0000,0000,,{\i1}I immediately lose one?\N
+Dialogue: 0,0:19:17.32,0:19:19.76,Default,,0000,0000,0000,,But, I still have Tomori and Yusa with me!{\i0}
+Dialogue: 0,0:19:19.88,0:19:22.62,Default,NTP,0000,0000,0000,,Wait, can it be, are you Yusarin?
+Dialogue: 0,0:19:23.09,0:19:24.80,Default,NTP,0000,0000,0000,,No, I'm not!
+Dialogue: 0,0:19:24.80,0:19:26.60,Default,NTP,0000,0000,0000,,No matter how I look at you, you're Yusarin!
+Dialogue: 0,0:19:27.10,0:19:30.52,Default,NTP,0000,0000,0000,,Hey! Yusarin transferred into our school!
+Dialogue: 0,0:19:31.10,0:19:32.09,Default,NTP,0000,0000,0000,,So cute!
+Dialogue: 0,0:19:32.09,0:19:32.77,Default,NTP,0000,0000,0000,,Sing for us!
+Dialogue: 0,0:19:32.77,0:19:34.75,Default,NTP,0000,0000,0000,,She's prettier than when I see her on TV!
+Dialogue: 0,0:19:36.23,0:19:38.11,Default,NTP,0000,0000,0000,,I ain't nothing like Yusarin!
+Dialogue: 0,0:19:38.32,0:19:41.36,Default,NTP,0000,0000,0000,,But no matter how I look at you,\Nyou're Yusarin, right?
+Dialogue: 0,0:19:41.36,0:19:42.78,Default,NTP,0000,0000,0000,,Then, how about this?
+Dialogue: 0,0:19:45.24,0:19:47.50,Default,NTP,0000,0000,0000,,Would a pop idol do something like this?
+Dialogue: 0,0:19:48.02,0:19:50.16,Default,NTP,0000,0000,0000,,This saliva... what should I do with it?
+Dialogue: 0,0:19:50.16,0:19:51.08,Default,NTP,0000,0000,0000,,Such a turn-off!
+Dialogue: 0,0:19:51.41,0:19:53.87,Default,NTP,0000,0000,0000,,Wait, this girl is cute, too!
+Dialogue: 0,0:19:53.87,0:19:55.46,Default,NTP,0000,0000,0000,,Maybe she's a pop idol just like Yusarin!
+Dialogue: 0,0:19:55.71,0:19:57.71,Default,NTP,0000,0000,0000,,Maybe they're filming some show right now!
+Dialogue: 0,0:19:57.71,0:19:59.67,Default,NTP,0000,0000,0000,,But, Yusarin is in high school, right?
+Dialogue: 0,0:20:00.96,0:20:02.05,Default,NTP,0000,0000,0000,,Hey, you!
+Dialogue: 0,0:20:02.47,0:20:03.72,Default,NTP,0000,0000,0000,,Don't you run off by yourself!
+Dialogue: 0,0:20:03.72,0:20:07.89,Default,NTP,0000,0000,0000,,{\i1}Their disguises... none \Nof them meant anything...{\i0}
+Dialogue: 0,0:20:12.02,0:20:13.23,Default,NTP,0000,0000,0000,,{\i1}One hour left...{\i0}
+Dialogue: 0,0:20:18.77,0:20:20.54,Default,NTP,0000,0000,0000,,It's because you showed up...
+Dialogue: 0,0:20:21.41,0:20:22.86,Default,NTP,0000,0000,0000,,Oikawa...
+Dialogue: 0,0:20:23.15,0:20:25.39,Default,NTP,0000,0000,0000,,It's as if he's completely \Nforgotten about me!
+Dialogue: 0,0:20:25.39,0:20:27.54,Default,,0000,0000,0000,,He looks at just you all of the time!
+Dialogue: 0,0:20:35.17,0:20:36.66,Default,NTP,0000,0000,0000,,It's your fault...
+Dialogue: 0,0:20:38.04,0:20:39.54,Default,NTP,0000,0000,0000,,It's your fault...
+Dialogue: 0,0:20:52.43,0:20:53.99,Default,NTP,0000,0000,0000,,It's your fault...
+Dialogue: 0,0:20:54.60,0:20:55.56,Default,NTP,0000,0000,0000,,T-That's not true!
+Dialogue: 0,0:20:55.56,0:20:59.48,Default,NTP,0000,0000,0000,,That's why... you're going to see some pain!
+Dialogue: 0,0:21:02.94,0:21:04.49,Default,NTP,0000,0000,0000,,W-Who is it?
+Dialogue: 0,0:21:05.28,0:21:06.70,Default,NTP,0000,0000,0000,,Big Brother Yu?
+Dialogue: 0,0:21:06.70,0:21:08.45,Default,NTP,0000,0000,0000,,I'm gonna have to scare you a bit.
+Dialogue: 0,0:21:17.58,0:21:18.50,Default,NTP,0000,0000,0000,,W-What the–
+Dialogue: 0,0:21:18.67,0:21:24.09,Default,NTP,0000,0000,0000,,The next time you try to harm my little sister,\Nyou won't get off this easily...
+Dialogue: 0,0:21:24.38,0:21:26.55,Default,NTP,0000,0000,0000,,If you understand that, \Nhurry up and get lost!
+Dialogue: 0,0:21:31.18,0:21:32.39,Default,NTP,0000,0000,0000,,I was so scared!
+Dialogue: 0,0:21:33.14,0:21:35.06,Default,NTP,0000,0000,0000,,I'm glad you were all right...
+Dialogue: 0,0:21:36.56,0:21:38.98,Default,NTP,0000,0000,0000,,You're fine now. Let's go home for today.
+Dialogue: 0,0:21:38.98,0:21:40.44,Default,NTP,0000,0000,0000,,Yup, yup!
+Dialogue: 0,0:21:48.61,0:21:52.68,Default,NTP,0000,0000,0000,,{\i1}I saved her... I was able to save her!\NWe accomplished it!{\i0}
+Dialogue: 0,0:21:53.41,0:21:55.86,Default,NTP,0000,0000,0000,,{\i1}I don't care if people say\NI have a sister complex and stuff.{\i0}
+Dialogue: 0,0:21:56.29,0:21:58.34,Default,NTP,0000,0000,0000,,{\i1}I never want to lose Ayumi ever again...{\i0}
+Dialogue: 0,0:22:08.13,0:22:10.30,Default,NTP,0000,0000,0000,,What, you're already here, Kumagami?
+Dialogue: 0,0:22:10.59,0:22:13.14,Default,NTP,0000,0000,0000,,Oh, so you know about me?
+Dialogue: 0,0:22:13.47,0:22:15.39,Default,NTP,0000,0000,0000,,Yeah, Pooh.
+Dialogue: 0,0:22:16.22,0:22:18.73,Default,NTP,0000,0000,0000,,Well, that makes it easy. \NI want you to come with me.
+Dialogue: 0,0:22:18.73,0:22:20.11,Default,,0000,0000,0000,,Together with your little sister.
+Dialogue: 0,0:22:24.57,0:22:28.49,Default,NTP,0000,0000,0000,,Yeah. Take us to where our big brother is.
+Dialogue: 0,0:22:28.49,0:22:30.49,Default,,0000,0000,0000,,

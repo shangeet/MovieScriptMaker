@@ -1,0 +1,537 @@
+﻿[Script Info]
+Title: fuckoff
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main01,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,20,20,20,1
+Style: Main02,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,20,20,20,1
+Style: On Screen,Humana Sans Md ITC TT,25,&H0072F9FB,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,80,80,15,0
+Style: Card,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,20,20,20,1
+Style: Secondary,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,20,20,20,1
+Style: Chocolate,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:01:31.02,0:01:36.15,On Screen,Caption,0000,0000,0000,,The new Gintama anime has been running for half a year.\NIt's already been half a year? We've finally made it through half a year?
+Dialogue: 0,0:01:36.15,0:01:40.99,On Screen,Caption,0000,0000,0000,,The world may change around us, but \Nwe're still rolling along here.
+Dialogue: 0,0:01:40.99,0:01:42.95,On Screen,Caption,0000,0000,0000,,Kodokan Dojo
+Dialogue: 0,0:01:48.53,0:01:49.60,Main01,Shin,0000,0000,0000,,{\a6}S-Sis...
+Dialogue: 0,0:01:49.60,0:01:50.96,Main01,Shin,0000,0000,0000,,{\a6}I-I...
+Dialogue: 0,0:01:51.32,0:01:54.96,Main01,Shin,0000,0000,0000,,I got myself a g-girlfriend!
+Dialogue: 0,0:01:57.46,0:01:59.97,Main01,Otae,0000,0000,0000,,What? A girlfriend?
+Dialogue: 0,0:02:00.85,0:02:03.72,Main01,Shin,0000,0000,0000,,I'm in a relationship with a girl.
+Dialogue: 0,0:02:04.01,0:02:05.65,Main01,Otae,0000,0000,0000,,R-Really?
+Dialogue: 0,0:02:05.65,0:02:07.06,Main01,Otae,0000,0000,0000,,I-I see...
+Dialogue: 0,0:02:07.06,0:02:09.73,Main01,Otae,0000,0000,0000,,In that case, congratulations, Shin-chan.
+Dialogue: 0,0:02:10.47,0:02:13.35,Main01,Shin,0000,0000,0000,,You approve of our relationship?!
+Dialogue: 0,0:02:13.35,0:02:15.73,Main01,Shin,0000,0000,0000,,I was up all night,\N worrying about telling you.
+Dialogue: 0,0:02:16.07,0:02:19.68,Main01,Shin,0000,0000,0000,,A-Actually, I brought her here \Nso I could introduce you.
+Dialogue: 0,0:02:19.68,0:02:20.20,Main01,Otae,0000,0000,0000,,Huh?
+Dialogue: 0,0:02:20.95,0:02:23.58,Main01,Shin,0000,0000,0000,,Will you meet her?\N I'll tell her to come in!
+Dialogue: 0,0:02:23.98,0:02:26.91,Main01,Otae,0000,0000,0000,,Wait! She's here?
+Dialogue: 0,0:02:27.67,0:02:30.37,Main01,Otae,0000,0000,0000,,Isn't it a little early for this?
+Dialogue: 0,0:02:30.61,0:02:34.25,Main01,Shin,0000,0000,0000,,Don't worry. She's not that \Nfussy about that stuff.
+Dialogue: 0,0:02:34.49,0:02:36.13,Main01,Shin,0000,0000,0000,,Come in, Momo-san.
+Dialogue: 0,0:02:37.60,0:02:38.72,Main01,Shin,0000,0000,0000,,Sis!
+Dialogue: 0,0:02:39.37,0:02:41.71,Main01,Shin,0000,0000,0000,,This is my girlfriend, Momo-san!
+Dialogue: 0,0:02:42.50,0:02:43.64,Main01,Momo,0000,0000,0000,,Hello.
+Dialogue: 0,0:02:43.64,0:02:49.64,On Screen,EpTitle,0000,0000,0000,,Love Is Neither Plus Nor Minus
+Dialogue: 0,0:02:50.24,0:02:53.27,Main01,Kusano,0000,0000,0000,,Right now, Edo is obsessed \Nwith the new game Love Choris.
+Dialogue: 0,0:02:53.80,0:02:55.17,Main01,Kusano,0000,0000,0000,,In this dating sim,
+Dialogue: 0,0:02:55.17,0:02:59.61,Main01,Kusano,0000,0000,0000,,the game is linked to the real world \Nas events progress in real time.
+Dialogue: 0,0:02:59.61,0:03:01.98,Main01,Kusano,0000,0000,0000,,When you start the game in the \Nmorning, she says good morning.
+Dialogue: 0,0:03:01.98,0:03:02.85,Main01,Momo,0000,0000,0000,,Good morning.
+Dialogue: 0,0:03:02.85,0:03:04.78,Main01,Kusano,0000,0000,0000,,At night, she says good evening, \Nand this is only the beginning.
+Dialogue: 0,0:03:04.78,0:03:05.66,Main01,Momo,0000,0000,0000,,Good evening.
+Dialogue: 0,0:03:06.15,0:03:10.39,Main01,Kusano,0000,0000,0000,,This game is made so well that \NEdo is filled with boyfriends
+Dialogue: 0,0:03:10.39,0:03:11.67,Main01,Kusano,0000,0000,0000,,{\an8}who can't bear to
+Dialogue: 0,0:03:11.67,0:03:14.67,Main01,,0000,0000,0000,,{\a6}{\i1}spend a minute away from their little lovers.{\i0}
+Dialogue: 0,0:03:11.67,0:03:14.67,Main01,Shin,0000,0000,0000,,Huh, that's not good.
+Dialogue: 0,0:03:15.11,0:03:17.88,Main01,Shin,0000,0000,0000,,If you waste all your time because
+Dialogue: 0,0:03:17.88,0:03:19.88,Main01,,0000,0000,0000,,you can't distinguish \Nbetween game and reality,
+Dialogue: 0,0:03:19.88,0:03:22.11,Main01,Shin,0000,0000,0000,,you'll never get a real girlfriend.
+Dialogue: 0,0:03:22.50,0:03:24.64,Main01,Shin,0000,0000,0000,,Isn't that right, Momo-san?
+Dialogue: 0,0:03:25.57,0:03:28.06,Main01,Shin,0000,0000,0000,,I wish we could share some \Nof our happiness with them.
+Dialogue: 0,0:03:28.06,0:03:29.77,Main01,Shin,0000,0000,0000,,Here you are.
+Dialogue: 0,0:03:30.38,0:03:35.32,Main01,Gin,0000,0000,0000,,It seems that I'm not wanted \Nhere, so I'll be making my exit.
+Dialogue: 0,0:03:35.32,0:03:36.94,Main01,Otae,0000,0000,0000,,Hey, where are you going?!
+Dialogue: 0,0:03:38.35,0:03:41.48,Main01,Gin,0000,0000,0000,,And I ask you where your brother has gone?
+Dialogue: 0,0:03:41.48,0:03:44.45,Main01,Gin,0000,0000,0000,,He's trapped in some dimension \Nbetween game and reality.
+Dialogue: 0,0:03:44.73,0:03:46.17,Main01,Otae,0000,0000,0000,,He showed up with that thing and said that
+Dialogue: 0,0:03:46.17,0:03:48.11,Main01,Otae,0000,0000,0000,,he wanted to introduce me to his girlfriend,
+Dialogue: 0,0:03:48.11,0:03:49.45,Main01,Otae,0000,0000,0000,,and he's been like this ever since.
+Dialogue: 0,0:03:49.81,0:03:51.09,Main01,Kagura,0000,0000,0000,,It's okay.
+Dialogue: 0,0:03:51.09,0:03:54.93,Main01,Kagura,0000,0000,0000,,When Sadaharu is in heat, he \Nkeeps humping stuffed animals.
+Dialogue: 0,0:03:54.93,0:03:56.46,Main01,Kagura,0000,0000,0000,,After a while, he'll stop.
+Dialogue: 0,0:03:56.67,0:04:00.21,Main01,Otae,0000,0000,0000,,That won't work! Shin-chan \Nis in heat all year round!
+Dialogue: 0,0:04:00.49,0:04:03.52,Main01,Gin,0000,0000,0000,,You girls don't think much \Nof Shinpachi-kun, do you?
+Dialogue: 0,0:04:03.96,0:04:08.16,Main01,Otae,0000,0000,0000,,Are dating sims supposed \Nto turn men into that?
+Dialogue: 0,0:04:08.16,0:04:09.22,Main01,Gin,0000,0000,0000,,I wouldn't know.
+Dialogue: 0,0:04:09.40,0:04:11.77,Main01,Kondo,0000,0000,0000,,You see, Otae-san,
+Dialogue: 0,0:04:12.18,0:04:14.70,Main01,Kondo,0000,0000,0000,,dating sims are games where the
+Dialogue: 0,0:04:14.70,0:04:17.23,Main01,,0000,0000,0000,,goal is to score with the many beautiful girls who show up.
+Dialogue: 0,0:04:17.71,0:04:20.09,Main01,Gin,0000,0000,0000,,Why is this guy showing himself \Nlike nothing is wrong?
+Dialogue: 0,0:04:20.09,0:04:22.07,Main01,Gin,0000,0000,0000,,Why is he acting like he's \Nbeen up there the whole time?
+Dialogue: 0,0:04:22.07,0:04:24.66,Main01,Kondo,0000,0000,0000,,In other words, this is \Nthe only way to enjoy love
+Dialogue: 0,0:04:24.66,0:04:27.99,Main01,Kondo,0000,0000,0000,,for men who have no luck with women.
+Dialogue: 0,0:04:27.99,0:04:30.58,Main01,Kagura,0000,0000,0000,,You would know, wouldn't you?
+Dialogue: 0,0:04:30.80,0:04:33.35,Main01,Kondo,0000,0000,0000,,In other words, the worse \Na guy does with girls,
+Dialogue: 0,0:04:33.35,0:04:36.27,Main01,Kondo,0000,0000,0000,,the more likely he is to \Nget hooked on dating sims.
+Dialogue: 0,0:04:36.27,0:04:38.82,Main01,Kondo,0000,0000,0000,,So a super S-class cherry boy like \NShinpachi-kun will stand no chance.
+Dialogue: 0,0:04:38.82,0:04:41.59,Main01,Kagura,0000,0000,0000,,A super S-class stalker shouldn't be talking.
+Dialogue: 0,0:04:41.81,0:04:45.89,Main01,Kondo,0000,0000,0000,,This game was able to completely \Nhook a veteran date simmer like me.
+Dialogue: 0,0:04:45.89,0:04:48.93,Main01,Kondo,0000,0000,0000,,It is difficult to describe the \Ndestructive powers of this game.
+Dialogue: 0,0:04:48.93,0:04:51.31,Main01,Kondo,0000,0000,0000,,That's what my girlfriend Sayaka-chan said.
+Dialogue: 0,0:04:51.31,0:04:52.07,Main01,Sayaka,0000,0000,0000,,I'm Sayaka.
+Dialogue: 0,0:04:52.07,0:04:54.35,Main01,Gin,0000,0000,0000,,Those destructive powers did a number on you.
+Dialogue: 0,0:04:54.47,0:04:55.84,Main01,Otae,0000,0000,0000,,Th-This can't be!
+Dialogue: 0,0:04:55.84,0:05:00.36,Main01,Otae,0000,0000,0000,,Does that mean Shin-chan might \Nnever return from the dark side?!
+Dialogue: 0,0:05:01.42,0:05:03.94,Main01,Kondo,0000,0000,0000,,Sayaka-chan!
+Dialogue: 0,0:05:04.93,0:05:06.81,Main01,Gin,0000,0000,0000,,Did you try to make contact?
+Dialogue: 0,0:05:06.81,0:05:09.95,Main01,Otae,0000,0000,0000,,Yes, I was looking for a chance \Nto take the game away from him...
+Dialogue: 0,0:05:10.32,0:05:11.79,Main01,Shin,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:05:12.10,0:05:13.95,Main01,Shin,0000,0000,0000,,Please don't touch Momo-san!
+Dialogue: 0,0:05:14.33,0:05:19.46,Main01,Kondo,0000,0000,0000,,He's so mentally unstable that he \Nthinks the game is his girlfriend.
+Dialogue: 0,0:05:19.82,0:05:21.61,Main01,Kondo,0000,0000,0000,,If you want to reach out to him,
+Dialogue: 0,0:05:21.61,0:05:24.26,Main01,,0000,0000,0000,,you must join him in his little world!
+Dialogue: 0,0:05:24.26,0:05:25.84,Main01,Gin,0000,0000,0000,,How do we do that?
+Dialogue: 0,0:05:26.34,0:05:27.47,Main01,Kondo,0000,0000,0000,,That should be obvious.
+Dialogue: 0,0:05:27.47,0:05:29.82,Main01,Game,0000,0000,0000,,Welcome to the world of Love Choris.
+Dialogue: 0,0:05:27.72,0:05:34.52,On Screen,Caption,0000,0000,0000,,{\an7}{\fad(1025,1)}Name
+Dialogue: 0,0:05:27.72,0:05:34.52,On Screen,Caption,0000,0000,0000,,{\an4}{\fad(1025,1)}Birthday
+Dialogue: 0,0:05:27.72,0:05:34.52,On Screen,Caption,0000,0000,0000,,{\an1}{\fad(1025,1)}Blood Type
+Dialogue: 0,0:05:29.82,0:05:31.13,Main01,Game,0000,0000,0000,,Please begin by inputting your name
+Dialogue: 0,0:05:31.13,0:05:33.30,Main01,,0000,0000,0000,,as the name of the main character.
+Dialogue: 0,0:05:34.35,0:05:35.35,On Screen,Caption,0000,0000,0000,,Gintoki Sakata.
+Dialogue: 0,0:05:34.88,0:05:38.45,Main01,Gin,0000,0000,0000,,Hey! Why do I have to play this crap?!
+Dialogue: 0,0:05:38.45,0:05:41.11,Main01,Kondo,0000,0000,0000,,To bring Shinpachi-kun \Nback to the real world.
+Dialogue: 0,0:05:41.11,0:05:42.49,Main01,Gin,0000,0000,0000,,Don't give me that crap!
+Dialogue: 0,0:05:42.49,0:05:43.61,Main01,Gin,0000,0000,0000,,That'll take too long!
+Dialogue: 0,0:05:43.61,0:05:45.49,Main01,Gin,0000,0000,0000,,How am I supposed to get \Nhooked on a kiddie game?!
+Dialogue: 0,0:05:45.92,0:05:48.47,Main01,Kondo,0000,0000,0000,,It doesn't matter if you \Nget hooked on the game.
+Dialogue: 0,0:05:48.47,0:05:50.49,Main01,Kondo,0000,0000,0000,,You just need to be in \Nthe same world as he is.
+Dialogue: 0,0:05:50.49,0:05:52.90,Main01,Gin,0000,0000,0000,,Why don't you go talk to Shinpachi?
+Dialogue: 0,0:05:52.90,0:05:55.46,Main01,Kondo,0000,0000,0000,,You think Shinpachi-kun \Nis going to listen to me?
+Dialogue: 0,0:05:56.69,0:05:59.73,Main01,Kondo,0000,0000,0000,,First, you need to choose \None of the three heroines.
+Dialogue: 0,0:05:59.73,0:06:02.71,Main01,Kondo,0000,0000,0000,,Love Choris is a game where \Nyou win over one of the
+Dialogue: 0,0:06:02.71,0:06:04.96,Main01,Kondo,0000,0000,0000,,heroines and engage in a
+Dialogue: 0,0:06:04.96,0:06:07.51,Main01,,0000,0000,0000,,real-time relationship that \Nis amazingly realistic.
+Dialogue: 0,0:06:08.15,0:06:10.80,Main01,Kondo,0000,0000,0000,,The first heroine is Sayaka Otakai-chan.
+Dialogue: 0,0:06:10.80,0:06:13.12,Main01,Kondo,0000,0000,0000,,She is the captain of the railway \Nclub that you're also in.
+Dialogue: 0,0:06:13.12,0:06:14.72,Main01,Kondo,0000,0000,0000,,An excellent student and athlete
+Dialogue: 0,0:06:14.72,0:06:16.59,Main01,,0000,0000,0000,,who's also Isao Kondo-kun's girlfriend.
+Dialogue: 0,0:06:16.59,0:06:19.25,Main01,Gin,0000,0000,0000,,Why are you part of her description?
+Dialogue: 0,0:06:17.48,0:06:18.89,Main01,Sayaka,0000,0000,0000,,{\an8}I sure like you.
+Dialogue: 0,0:06:19.25,0:06:21.02,Main01,Gin,0000,0000,0000,,You just happened to choose \Nher as your heroine.
+Dialogue: 0,0:06:21.74,0:06:23.82,Main01,Kondo,0000,0000,0000,,The second heroine is Momo Anigasaki-san.
+Dialogue: 0,0:06:23.82,0:06:25.27,Main01,Kondo,0000,0000,0000,,She's one year older than the main character
+Dialogue: 0,0:06:25.27,0:06:27.13,Main01,,0000,0000,0000,,and the helpful older sister type.
+Dialogue: 0,0:06:27.13,0:06:29.23,Main01,Kondo,0000,0000,0000,,Shinpachi-kun chose her as his heroine.
+Dialogue: 0,0:06:29.23,0:06:31.38,Main01,Gin,0000,0000,0000,,Why did he choose an older sister character?
+Dialogue: 0,0:06:31.38,0:06:32.53,Main01,Gin,0000,0000,0000,,That's pretty disgusting.
+Dialogue: 0,0:06:32.77,0:06:33.77,Main01,Kondo,0000,0000,0000,,You don't want to choose
+Dialogue: 0,0:06:33.77,0:06:36.18,Main01,,0000,0000,0000,,the same heroine or people will get jealous.
+Dialogue: 0,0:06:36.77,0:06:40.61,Main01,Kondo,0000,0000,0000,,Which means you're left \Nwith the third character.
+Dialogue: 0,0:06:40.61,0:06:42.04,Main01,Kondo,0000,0000,0000,,Pinko Shiramizu.
+Dialogue: 0,0:06:42.04,0:06:43.59,Main01,Gin,0000,0000,0000,,Wait a sec!
+Dialogue: 0,0:06:43.59,0:06:46.55,Main01,Gin,0000,0000,0000,,This character is noticeably \Ndifferent from the others!
+Dialogue: 0,0:06:46.91,0:06:48.81,Main01,Kondo,0000,0000,0000,,Pinko-chan is the owner \Nof a Chinese restaurant
+Dialogue: 0,0:06:48.81,0:06:50.24,Main01,,0000,0000,0000,,that the main character frequents.
+Dialogue: 0,0:06:50.24,0:06:52.96,Main01,Kondo,0000,0000,0000,,She's a widow who lost her \Nhusband, Takuzo, a while back.
+Dialogue: 0,0:06:52.96,0:06:54.89,Main01,Gin,0000,0000,0000,,This is obviously Pinko!
+Dialogue: 0,0:06:54.89,0:06:56.85,Main01,Gin,0000,0000,0000,,It's like she's from a \Ntotally different world!
+Dialogue: 0,0:06:56.87,0:06:59.18,Main01,Gin,0000,0000,0000,,Give me Sayaka-chan or Momo-san!
+Dialogue: 0,0:06:59.53,0:07:02.51,Main01,Kondo,0000,0000,0000,,Hmm, but they will be very difficult.
+Dialogue: 0,0:07:02.51,0:07:03.64,Main01,Gin,0000,0000,0000,,Doesn't matter.
+Dialogue: 0,0:07:03.64,0:07:06.16,Main01,Gin,0000,0000,0000,,It feels better when you finally land them!
+Dialogue: 0,0:07:06.16,0:07:08.82,Main01,Kondo,0000,0000,0000,,No, that's not what I mean.
+Dialogue: 0,0:07:09.36,0:07:10.73,Main01,Kondo,0000,0000,0000,,To choose a heroine,
+Dialogue: 0,0:07:10.73,0:07:12.41,Main01,,0000,0000,0000,,you have to shoot down the one you want.
+Dialogue: 0,0:07:12.41,0:07:13.66,Main01,Gin,0000,0000,0000,,Why is it a shooting game?!
+Dialogue: 0,0:07:13.66,0:07:16.89,Main01,Kondo,0000,0000,0000,,And it takes a long time before \NSayaka-chan or Momo-chan show up.
+Dialogue: 0,0:07:16.89,0:07:20.34,Main01,Gin,0000,0000,0000,,The hell, it's like I'm \NMaking It Through Pinko!
+Dialogue: 0,0:07:21.83,0:07:23.96,Main01,Kondo,0000,0000,0000,,Oh, now you've done it.
+Dialogue: 0,0:07:23.96,0:07:26.09,Main01,Kondo,0000,0000,0000,,You're stuck on Pinko-chan's route now.
+Dialogue: 0,0:07:26.09,0:07:28.02,Main01,Gin,0000,0000,0000,,There is no other route, is there?
+Dialogue: 0,0:07:28.02,0:07:30.24,Main01,Gin,0000,0000,0000,,How did you guys get normal heroines?!
+Dialogue: 0,0:07:30.24,0:07:32.73,Main01,Gin,0000,0000,0000,,Forget it! Let's just get this over with!
+Dialogue: 0,0:07:32.73,0:07:33.72,Main01,Gin,0000,0000,0000,,I'll just win over Pinko!
+Dialogue: 0,0:07:33.90,0:07:35.72,Main01,Kondo,0000,0000,0000,,But first...
+Dialogue: 0,0:07:36.11,0:07:38.44,Main01,Kondo,0000,0000,0000,,You have to decide what you \Nwant Pinko-chan to call you.
+Dialogue: 0,0:07:38.44,0:07:39.79,Main01,Gin,0000,0000,0000,,I don't give a damn!
+Dialogue: 0,0:07:39.79,0:07:42.94,Main01,Kondo,0000,0000,0000,,It's more fun if you have her call you by that.
+Dialogue: 0,0:07:42.94,0:07:44.15,Main01,Gin,0000,0000,0000,,If she wasn't Pinko, maybe!
+Dialogue: 0,0:07:44.15,0:07:45.69,Main01,Gin,0000,0000,0000,,Forget it! Gintoki will do!
+Dialogue: 0,0:07:45.69,0:07:47.40,Main01,Gin,0000,0000,0000,,This is good enough!
+Dialogue: 0,0:07:48.66,0:07:49.54,Main01,Pinko,0000,0000,0000,,Takuzo.
+Dialogue: 0,0:07:49.54,0:07:51.24,Main01,Gin,0000,0000,0000,,She's completely ignoring me?!
+Dialogue: 0,0:07:51.57,0:07:53.36,Main01,Gin,0000,0000,0000,,She didn't even say my name!
+Dialogue: 0,0:07:53.36,0:07:55.24,Main01,Gin,0000,0000,0000,,She's still stuck on Takuzo!
+Dialogue: 0,0:07:55.60,0:07:58.48,Main01,Kondo,0000,0000,0000,,But you can choose between the pronunciations
+Dialogue: 0,0:07:58.48,0:07:59.91,Main01,,0000,0000,0000,,Takuzo, Takuzo‘!, and Takuzo“!
+Dialogue: 0,0:07:59.91,0:08:01.25,Main01,Gin,0000,0000,0000,,They're all the same!
+Dialogue: 0,0:08:01.62,0:08:03.63,Main01,Kondo,0000,0000,0000,,The ones on the right are Takuzo.
+Dialogue: 0,0:08:03.63,0:08:05.22,Main01,,0000,0000,0000,,The ones on the left are Takuzo“!.
+Dialogue: 0,0:08:05.22,0:08:07.13,Main01,Gin,0000,0000,0000,,Another choice that \Ninvolves a shooting game?!
+Dialogue: 0,0:08:07.13,0:08:09.12,Main01,Gin,0000,0000,0000,,They're all Takuzo!
+Dialogue: 0,0:08:09.12,0:08:10.89,Main01,Gin,0000,0000,0000,,Can I just start this game already?!
+Dialogue: 0,0:08:11.91,0:08:13.88,Main01,Gin,0000,0000,0000,,Okay! I can finally begin!
+Dialogue: 0,0:08:13.88,0:08:15.44,Main01,Kondo,0000,0000,0000,,Right, your next choice is about the
+Dialogue: 0,0:08:15.44,0:08:17.70,Main01,,0000,0000,0000,,catchphrase for Pinko-chan's \Nchild, Enari-kun.
+Dialogue: 0,0:08:17.70,0:08:20.89,Main01,Kondo,0000,0000,0000,,How do you want him to pronounce, \N"That's not helping, okay?"
+Dialogue: 0,0:08:20.89,0:08:22.39,Main01,Gin,0000,0000,0000,,Enough is enough already!
+Dialogue: 0,0:08:22.74,0:08:25.13,Main01,Kondo,0000,0000,0000,,You're going to become his new father.
+Dialogue: 0,0:08:25.13,0:08:27.15,Main01,Kondo,0000,0000,0000,,It's important to build a strong \Nrelationship with her son.
+Dialogue: 0,0:08:27.15,0:08:31.82,On Screen,Caption,0000,0000,0000,,{\an9}{\fad(1,350)}Sengoku BABASAN
+Dialogue: 0,0:08:27.44,0:08:29.19,On Screen,Caption,0000,0000,0000,,{\an6}{\fad(400,400)}That's not helping, okay?
+Dialogue: 0,0:08:27.51,0:08:29.54,Main01,Kondo,0000,0000,0000,,The right castle is "That's \Nnot helping, okay?"
+Dialogue: 0,0:08:29.44,0:08:31.15,On Screen,Caption,0000,0000,0000,,{\an4}{\fad(400,400)}That's not helping, otay?
+Dialogue: 0,0:08:29.54,0:08:31.72,Main01,Kondo,0000,0000,0000,,The left castle is "That's \Nnot helping, otay?"
+Dialogue: 0,0:08:31.15,0:08:31.86,On Screen,Caption,0000,0000,0000,,{\an3}{\fad(1,400)}Proceed
+Dialogue: 0,0:08:31.49,0:08:33.15,On Screen,Caption,0000,0000,0000,,{\fad(350,1)}Secure Weapons\NSecure Provisions
+Dialogue: 0,0:08:31.82,0:08:33.15,Main01,Gin,0000,0000,0000,,There's no way I have to \Nplay a simulation game.
+Dialogue: 0,0:08:33.44,0:08:35.78,Main01,Gin,0000,0000,0000,,I'm not wasting my time on this shit!
+Dialogue: 0,0:08:36.55,0:08:40.72,Main01,Kondo,0000,0000,0000,,Man, you don't know how to treat a lady.
+Dialogue: 0,0:08:41.16,0:08:43.91,Main01,Kondo,0000,0000,0000,,If you turn off the power without saving,
+Dialogue: 0,0:08:43.91,0:08:45.85,Main01,,0000,0000,0000,,your relationship will suffer.
+Dialogue: 0,0:08:45.85,0:08:46.55,Main01,Gin,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:46.55,0:08:49.22,Main01,Kondo,0000,0000,0000,,For example, my game shut down abruptly when
+Dialogue: 0,0:08:49.22,0:08:50.65,Main01,,0000,0000,0000,,Otae-san laid the smack down.
+Dialogue: 0,0:08:51.13,0:08:52.67,Main01,Kondo,0000,0000,0000,,When I restart the game...
+Dialogue: 0,0:08:53.06,0:08:54.20,Main01,Sayaka,0000,0000,0000,,Geez...
+Dialogue: 0,0:08:54.20,0:08:56.18,Main01,Sayaka,0000,0000,0000,,You just turned off the game again.
+Dialogue: 0,0:08:56.39,0:08:58.18,Main01,Sayaka,0000,0000,0000,,{\an8}What was that for?
+Dialogue: 0,0:08:56.39,0:08:58.18,Main01,Gin,0000,0000,0000,,Huh? What is this? What is this?
+Dialogue: 0,0:08:58.40,0:09:02.99,Main01,Sayaka,0000,0000,0000,,I told you to be gentle.
+Dialogue: 0,0:09:02.99,0:09:05.19,Main01,Gin,0000,0000,0000,,What's with her? She's throwing a fit.
+Dialogue: 0,0:09:05.19,0:09:08.19,Main01,Kondo,0000,0000,0000,,Sorry! Forgive me!
+Dialogue: 0,0:09:08.19,0:09:09.19,Main01,Sayaka,0000,0000,0000,,You want me to forgive you?
+Dialogue: 0,0:09:09.97,0:09:13.19,Main01,Sayaka,0000,0000,0000,,Then you have to kiss me ten times.
+Dialogue: 0,0:09:13.28,0:09:14.70,On Screen,Caption,0000,0000,0000,,I'm not jealous or anything.
+Dialogue: 0,0:09:13.94,0:09:18.34,Main01,Kondo,0000,0000,0000,,Sorry! Sorry! Sorry! Sorry! Sorry! \NSorry! Sorry! Sorry! Sorry! Sorry!
+Dialogue: 0,0:09:20.95,0:09:22.76,Main01,Sayaka,0000,0000,0000,,I love you, Isao-kun!
+Dialogue: 0,0:09:22.76,0:09:25.79,Main01,Kondo,0000,0000,0000,,And I love you, Sayaka-chan!
+Dialogue: 0,0:09:26.82,0:09:28.71,Main01,Kondo,0000,0000,0000,,Do you understand the capabilities \Nof Love Choris now?
+Dialogue: 0,0:09:29.16,0:09:32.97,Main01,Kondo,0000,0000,0000,,They're breathing on the \Nother side of the screen.
+Dialogue: 0,0:09:32.97,0:09:35.01,Main01,Gin,0000,0000,0000,,B-But they're 2D.
+Dialogue: 0,0:09:35.01,0:09:37.89,Main01,Gin,0000,0000,0000,,You should look at yourself in the \Nmirror. I guarantee you'll cry.
+Dialogue: 0,0:09:38.49,0:09:39.90,Main01,Kondo,0000,0000,0000,,Don't be so stubborn.
+Dialogue: 0,0:09:39.90,0:09:42.22,Main01,Kondo,0000,0000,0000,,Apologize and patch up your relationship.
+Dialogue: 0,0:09:42.43,0:09:43.64,Main01,Gin,0000,0000,0000,,I-It's not worth it.
+Dialogue: 0,0:09:43.64,0:09:45.52,Main01,Gin,0000,0000,0000,,I mean, my girlfriend is Pinko.
+Dialogue: 0,0:09:45.83,0:09:49.87,Main01,Kondo,0000,0000,0000,,The girls change according \Nto the player's preference.
+Dialogue: 0,0:09:49.87,0:09:52.02,Main01,Kondo,0000,0000,0000,,That's the best thing about Love Choris.
+Dialogue: 0,0:09:52.02,0:09:53.34,Main01,Kondo,0000,0000,0000,,She might be Pinko now,
+Dialogue: 0,0:09:53.34,0:09:56.53,Main01,Kondo,0000,0000,0000,,but eventually, she may turn \Ninto the girl of your dreams.
+Dialogue: 0,0:09:56.53,0:09:59.62,Main01,Gin,0000,0000,0000,,No, no, no. We're talking 2D here.
+Dialogue: 0,0:09:59.62,0:10:00.83,Main01,Gin,0000,0000,0000,,Well, I guess...
+Dialogue: 0,0:10:00.83,0:10:04.54,Main01,Gin,0000,0000,0000,,If you really insist, I \Nmight give it another shot.
+Dialogue: 0,0:10:05.38,0:10:07.62,Main01,Gin,0000,0000,0000,,So, what do I do after I turn it on?
+Dialogue: 0,0:10:08.12,0:10:09.79,Main01,Kondo,0000,0000,0000,,Didn't you see what happened in my case?
+Dialogue: 0,0:10:10.10,0:10:11.61,Main01,Kondo,0000,0000,0000,,My girlfriend gave me the cold shoulder
+Dialogue: 0,0:10:11.61,0:10:14.01,Main01,Kondo,0000,0000,0000,,because I suddenly turned off the game.
+Dialogue: 0,0:10:14.56,0:10:16.85,Main01,Kondo,0000,0000,0000,,You need to do some sucking up.
+Dialogue: 0,0:10:17.14,0:10:20.30,Main01,Pinko,0000,0000,0000,,That was just despicable how \Nyou turned off the game.
+Dialogue: 0,0:10:20.53,0:10:21.19,Main01,Gin,0000,0000,0000,,You're right.
+Dialogue: 0,0:10:21.19,0:10:22.66,Main01,,0000,0000,0000,,She's so mad that she won't even look at me.
+Dialogue: 0,0:10:22.66,0:10:23.72,Main01,Gin,0000,0000,0000,,That's amazing.
+Dialogue: 0,0:10:23.72,0:10:26.81,Main01,Pinko,0000,0000,0000,,It's all your fault... All your fault...
+Dialogue: 0,0:10:26.93,0:10:29.81,On Screen,Caption,0000,0000,0000,,{\fad(900,1)}Her Enari is cold and stiff now.
+Dialogue: 0,0:10:29.81,0:10:30.92,Main01,Gin,0000,0000,0000,,Hey!
+Dialogue: 0,0:10:30.92,0:10:33.54,Main01,Gin,0000,0000,0000,,Cold shoulder?! More like cold Enari!
+Dialogue: 0,0:10:33.54,0:10:36.57,Main01,Gin,0000,0000,0000,,I can't fix this now!
+Dialogue: 0,0:10:37.02,0:10:40.20,Main01,Kondo,0000,0000,0000,,It looks like you were too violent \Nwhen you turned off the game.
+Dialogue: 0,0:10:40.20,0:10:41.32,Main01,Kondo,0000,0000,0000,,Just apologize.
+Dialogue: 0,0:10:41.32,0:10:43.37,Main01,Gin,0000,0000,0000,,Uh, an apology isn't going to help!
+Dialogue: 0,0:10:44.55,0:10:46.12,Main01,Enari,0000,0000,0000,,You want me to forgive you?
+Dialogue: 0,0:10:46.97,0:10:49.06,Main01,Gin,0000,0000,0000,,I-I'm sorry! Please forgive me!
+Dialogue: 0,0:10:49.06,0:10:51.08,Main01,Gin,0000,0000,0000,,I didn't mean any harm!
+Dialogue: 0,0:10:51.81,0:10:56.13,Main01,Pinko,0000,0000,0000,,Then recite the Heart \NSutra one hundred times!
+Dialogue: 0,0:10:56.13,0:10:57.88,Main01,Gin,0000,0000,0000,,No!
+Dialogue: 0,0:10:58.43,0:11:00.83,Main01,Gin,0000,0000,0000,,Why is my Love Choris so different?!
+Dialogue: 0,0:11:00.83,0:11:03.68,Main01,Gin,0000,0000,0000,,This isn't a dating sim! \NThis is Resident Evil!
+Dialogue: 0,0:11:04.23,0:11:06.15,Main01,Gin,0000,0000,0000,,Her son died.
+Dialogue: 0,0:11:06.15,0:11:09.35,Main01,Gin,0000,0000,0000,,You should wait until she's \Ngotten over the loss.
+Dialogue: 0,0:11:09.35,0:11:11.43,Main01,Gin,0000,0000,0000,,Uh, doesn't this game move in real time?!
+Dialogue: 0,0:11:11.43,0:11:12.98,Main01,Gin,0000,0000,0000,,I can't wait two years!
+Dialogue: 0,0:11:13.46,0:11:15.03,Main01,Kondo,0000,0000,0000,,Well, in any case,
+Dialogue: 0,0:11:15.03,0:11:18.19,Main01,Kondo,0000,0000,0000,,keep working on winning \Nthe heart of Pinko-chan.
+Dialogue: 0,0:11:18.37,0:11:21.66,Main01,Kondo,0000,0000,0000,,Do your best to turn her \Ninto your ideal girlfriend.
+Dialogue: 0,0:11:21.85,0:11:22.83,Main01,Gin,0000,0000,0000,,Isn't this enough already?
+Dialogue: 0,0:11:22.83,0:11:26.62,Main01,Gin,0000,0000,0000,,I should be able to communicate \Nwith Shinpachi now.
+Dialogue: 0,0:11:28.50,0:11:30.97,Main01,Kondo,0000,0000,0000,,You really think that this \Nwill be enough to save
+Dialogue: 0,0:11:30.97,0:11:34.38,Main01,Kondo,0000,0000,0000,,Shinpachi-kun from the world of Love Choris?
+Dialogue: 0,0:11:34.63,0:11:39.38,On Screen,Caption,0000,0000,0000,,Love Choris\NThe My Wife World Tournament
+Dialogue: 0,0:11:35.70,0:11:37.77,Main01,Kondo,0000,0000,0000,,You should enter this tournament!
+Dialogue: 0,0:11:37.77,0:11:39.38,Main01,Gin,0000,0000,0000,,Th-This is...
+Dialogue: 0,0:11:39.58,0:11:42.38,Main01,Gin,0000,0000,0000,,The My Wife World Tournament?
+Dialogue: 0,0:11:42.38,0:11:45.00,Main01,Kondo,0000,0000,0000,,Love Choris players from all over the country
+Dialogue: 0,0:11:45.00,0:11:47.89,Main01,Kondo,0000,0000,0000,,will gather to determine \Nwhose girlfriend is the best!
+Dialogue: 0,0:11:48.11,0:11:50.30,Main01,Kondo,0000,0000,0000,,You must defeat Shinpachi-kun \Nin this tournament.
+Dialogue: 0,0:11:50.88,0:11:52.76,Main01,Kondo,0000,0000,0000,,That is the only way to bring him
+Dialogue: 0,0:11:52.76,0:11:54.90,Main01,Kondo,0000,0000,0000,,out of his dream and back to the real world.
+Dialogue: 0,0:11:55.34,0:11:58.90,Main01,Kondo,0000,0000,0000,,You must shatter his fantasy...
+Dialogue: 0,0:11:59.08,0:12:01.40,Main01,Kondo,0000,0000,0000,,...by using your own fantasy!
+Dialogue: 0,0:12:03.95,0:12:06.41,On Screen,Caption,0000,0000,0000,,Odd Jobs Gin-chan
+Dialogue: 0,0:12:05.03,0:12:06.41,Main01,Pinko,0000,0000,0000,,Wake up!
+Dialogue: 0,0:12:06.73,0:12:08.18,Main01,Pinko,0000,0000,0000,,It's morning!
+Dialogue: 0,0:12:08.18,0:12:10.41,Main01,Pinko,0000,0000,0000,,How long are you going to sleep?
+Dialogue: 0,0:12:11.44,0:12:13.99,Main01,Gin,0000,0000,0000,,Why are you so loud every morning?
+Dialogue: 0,0:12:14.44,0:12:17.88,Main01,Gin,0000,0000,0000,,I get to decide when I'm going to wake up.
+Dialogue: 0,0:12:17.88,0:12:22.88,Main01,Pinko,0000,0000,0000,,It must be nice to wake up \Nand go to sleep every day.
+Dialogue: 0,0:12:23.17,0:12:25.08,Main01,Pinko,0000,0000,0000,,But my son...
+Dialogue: 0,0:12:25.93,0:12:27.64,Main01,Pinko,0000,0000,0000,,...will never wake up again!
+Dialogue: 0,0:12:28.56,0:12:32.89,Main01,Gin,0000,0000,0000,,No more! I've had enough!
+Dialogue: 0,0:12:33.51,0:12:34.48,Main01,Kondo,0000,0000,0000,,Listen to me.
+Dialogue: 0,0:12:34.48,0:12:36.75,Main01,Kondo,0000,0000,0000,,You must keep Love Choris \Nby your side at all times,
+Dialogue: 0,0:12:36.75,0:12:38.13,Main01,Kondo,0000,0000,0000,,including when you're eating and sleeping.
+Dialogue: 0,0:12:38.13,0:12:40.21,Main01,Kondo,0000,0000,0000,,This will help strengthen your bond.
+Dialogue: 0,0:12:40.21,0:12:41.83,Main01,Gin,0000,0000,0000,,I did what he said.
+Dialogue: 0,0:12:41.83,0:12:43.69,Main01,Gin,0000,0000,0000,,It's already the day of the tournament,
+Dialogue: 0,0:12:43.69,0:12:45.49,Main01,Gin,0000,0000,0000,,but there hasn't been any improvement.
+Dialogue: 0,0:12:45.49,0:12:47.41,Main01,Gin,0000,0000,0000,,Enari is decomposing in real time!
+Dialogue: 0,0:12:48.08,0:12:51.41,Main01,Gin,0000,0000,0000,,And this woman is cursing me 24/7.
+Dialogue: 0,0:12:48.58,0:12:51.41,Main01,Pinko,0000,0000,0000,,{\an8}I wish you would suffer \Nthe same fate as my son.
+Dialogue: 0,0:12:51.64,0:12:54.12,Main01,Gin,0000,0000,0000,,How is this a dating sim?!
+Dialogue: 0,0:12:54.74,0:12:56.22,Main01,Gin,0000,0000,0000,,No more!
+Dialogue: 0,0:12:56.22,0:12:58.07,Main01,Gin,0000,0000,0000,,Kagura's starting to look at me with disgust.
+Dialogue: 0,0:12:58.07,0:13:01.33,Main01,Gin,0000,0000,0000,,Screw Shinpachi and this tournament!
+Dialogue: 0,0:13:01.63,0:13:03.30,Main01,Pinko,0000,0000,0000,,I feel the same way.
+Dialogue: 0,0:13:04.62,0:13:06.88,Main01,Pinko,0000,0000,0000,,Why would I fall in love with the man
+Dialogue: 0,0:13:06.88,0:13:08.80,Main01,Pinko,0000,0000,0000,,who killed my son?
+Dialogue: 0,0:13:09.41,0:13:11.33,Main01,Pinko,0000,0000,0000,,Honestly, this isn't funny.
+Dialogue: 0,0:13:15.06,0:13:18.06,On Screen,Caption,0000,0000,0000,,Odd Jobs Gin-chan
+Dialogue: 0,0:13:21.56,0:13:24.07,Main01,Kagura,0000,0000,0000,,Gin-chan, Shinpachi wanted \Nto take the day off.
+Dialogue: 0,0:13:24.47,0:13:25.64,Main01,Gin,0000,0000,0000,,Oh, really.
+Dialogue: 0,0:13:25.64,0:13:27.69,Main01,Kagura,0000,0000,0000,,What's going on, anyway?
+Dialogue: 0,0:13:27.69,0:13:30.45,Main01,Kagura,0000,0000,0000,,Aren't you also playing that dating sim, Gin-chan?
+Dialogue: 0,0:13:30.45,0:13:31.04,Main01,Gin,0000,0000,0000,,Uh huh.
+Dialogue: 0,0:13:31.46,0:13:33.08,Main01,Kagura,0000,0000,0000,,Is it really that good?
+Dialogue: 0,0:13:33.40,0:13:36.01,Main01,Gin,0000,0000,0000,,Well, I'm a grown-up now,
+Dialogue: 0,0:13:36.01,0:13:37.62,Main01,Gin,0000,0000,0000,,so I can't really say.
+Dialogue: 0,0:13:37.88,0:13:41.36,Main01,Kagura,0000,0000,0000,,Yeah, it's like not like they're jumping \Nout of the screen or anything.
+Dialogue: 0,0:13:41.36,0:13:43.13,Main01,Kagura,0000,0000,0000,,I don't get it.
+Dialogue: 0,0:13:43.26,0:13:44.57,Main01,Gin,0000,0000,0000,,Yeah...
+Dialogue: 0,0:13:44.55,0:13:47.13,Main01,Gin,0000,0000,0000,,I don't get it either.
+Dialogue: 0,0:13:47.13,0:13:50.46,Main01,Kagura,0000,0000,0000,,This is why men are called herbivores and
+Dialogue: 0,0:13:50.46,0:13:52.64,Main01,Kagura,0000,0000,0000,,considered weaker than women now.
+Dialogue: 0,0:13:53.06,0:13:57.27,Main01,Gin,0000,0000,0000,,I know. Me and my sweet \Ntooth don't get it either.
+Dialogue: 0,0:13:59.15,0:14:00.90,Main01,Kagura,0000,0000,0000,,Sadaharu, pipe down.
+Dialogue: 0,0:14:02.61,0:14:06.36,Main01,Kagura,0000,0000,0000,,This is how he acts when \Nthere are strangers here.
+Dialogue: 0,0:14:06.36,0:14:07.50,Main01,Kagura,0000,0000,0000,,Stop that, Sadaharu!
+Dialogue: 0,0:14:08.32,0:14:10.66,Main01,Kagura,0000,0000,0000,,Gin-chan, Sadaharu won't stop barking.
+Dialogue: 0,0:14:11.49,0:14:12.70,Main01,Kagura,0000,0000,0000,,Ah, Gin-chan!
+Dialogue: 0,0:14:17.25,0:14:18.37,Main01,Gin,0000,0000,0000,,What the hell...
+Dialogue: 0,0:14:18.37,0:14:20.00,Main01,Gin,0000,0000,0000,,What the hell is going on?!
+Dialogue: 0,0:14:20.34,0:14:22.67,Main01,Gin,0000,0000,0000,,Everywhere I go! Everywhere I go!
+Dialogue: 0,0:14:22.67,0:14:25.67,Main01,Gin,0000,0000,0000,,Pinko and Enari are there!
+Dialogue: 0,0:14:26.06,0:14:29.68,Main01,Gin,0000,0000,0000,,It's like I'm really Making \NIt Through with Pinko!
+Dialogue: 0,0:14:30.00,0:14:33.04,Main01,Gin,0000,0000,0000,,Damn, what's wrong with me?
+Dialogue: 0,0:14:33.39,0:14:34.68,Main01,Kondo,0000,0000,0000,,Hey, Odd Jobs!
+Dialogue: 0,0:14:35.00,0:14:36.11,Main01,Gin,0000,0000,0000,,Gorilla!
+Dialogue: 0,0:14:36.11,0:14:37.79,Main01,Kondo,0000,0000,0000,,What are you doing here?
+Dialogue: 0,0:14:37.79,0:14:38.99,Main01,Kondo,0000,0000,0000,,The tournament is today.
+Dialogue: 0,0:14:38.99,0:14:39.69,Main01,Kondo,0000,0000,0000,,Want a ride?
+Dialogue: 0,0:14:40.70,0:14:42.69,Main01,Gin,0000,0000,0000,,S-Sorry, I appreciate this.
+Dialogue: 0,0:14:43.03,0:14:45.19,Main01,Kondo,0000,0000,0000,,What's wrong? Why are you so flustered?
+Dialogue: 0,0:14:45.34,0:14:48.24,Main01,Gin,0000,0000,0000,,Well, there's something \Ncrazy chasing me around.
+Dialogue: 0,0:14:48.24,0:14:49.22,Main01,Kondo,0000,0000,0000,,Something crazy?
+Dialogue: 0,0:14:49.22,0:14:51.20,Main01,Sayaka,0000,0000,0000,,Oh, no! I'm so scared, Isao-kun!
+Dialogue: 0,0:14:51.57,0:14:53.56,Main01,Kondo,0000,0000,0000,,Everything's okay, Sayaka-chan.
+Dialogue: 0,0:14:53.56,0:14:55.20,Main01,Gin,0000,0000,0000,,Hey! What is this?!
+Dialogue: 0,0:14:55.20,0:14:56.33,Main01,Gin,0000,0000,0000,,Hey!
+Dialogue: 0,0:14:56.33,0:14:58.96,Main01,Gin,0000,0000,0000,,Why is your girlfriend out \Nin the real world, too?!
+Dialogue: 0,0:14:59.38,0:15:02.29,Main01,Kondo,0000,0000,0000,,It appears that you can finally see them.
+Dialogue: 0,0:15:02.45,0:15:03.87,Main01,Gin,0000,0000,0000,,I can finally see them?!
+Dialogue: 0,0:15:03.87,0:15:04.69,Main01,Gin,0000,0000,0000,,Don't tell me that...
+Dialogue: 0,0:15:04.69,0:15:07.30,Main01,Kondo,0000,0000,0000,,Of course, I can see Sayaka-chan.
+Dialogue: 0,0:15:07.83,0:15:10.30,Main01,Kondo,0000,0000,0000,,And I can also see your \Ngirlfriend, Pinko-chan.
+Dialogue: 0,0:15:11.70,0:15:14.30,Main01,Kondo,0000,0000,0000,,I knew you could make it to this stage.
+Dialogue: 0,0:15:15.38,0:15:19.45,Main01,Kondo,0000,0000,0000,,Other people may think that \Nwe're just playing a game,
+Dialogue: 0,0:15:17.47,0:15:19.73,Main01,Sayaka,0000,0000,0000,,{\an8}I love you, Isao-kun!
+Dialogue: 0,0:15:19.73,0:15:21.24,Main01,Kondo,0000,0000,0000,,but this world where we can
+Dialogue: 0,0:15:21.24,0:15:23.97,Main01,,0000,0000,0000,,see the manifestations of our girlfriends...
+Dialogue: 0,0:15:23.97,0:15:26.93,Main01,Kondo,0000,0000,0000,,A world only accessible to those \Nwho have mastered Love Choris...
+Dialogue: 0,0:15:26.93,0:15:29.15,Main01,Kondo,0000,0000,0000,,The dimension between game and reality...
+Dialogue: 0,0:15:29.59,0:15:31.22,Main01,Kondo,0000,0000,0000,,Love Choris Hole!
+Dialogue: 0,0:15:31.22,0:15:32.82,Main01,Gin,0000,0000,0000,,We're just insane!
+Dialogue: 0,0:15:32.82,0:15:34.71,Main01,Gin,0000,0000,0000,,Love Choris Hole?!
+Dialogue: 0,0:15:34.71,0:15:36.61,Main01,Gin,0000,0000,0000,,All this means is that \Nwe've spent so much time
+Dialogue: 0,0:15:36.61,0:15:38.34,Main01,Gin,0000,0000,0000,,playing games that we're hallucinating!
+Dialogue: 0,0:15:38.34,0:15:42.23,Main01,Kondo,0000,0000,0000,,You're finally on the same \Nlevel as Shinpachi-kun.
+Dialogue: 0,0:15:42.23,0:15:43.66,Main01,Gin,0000,0000,0000,,That's a bad thing!
+Dialogue: 0,0:15:43.66,0:15:44.89,Main01,Gin,0000,0000,0000,,This ain't funny!
+Dialogue: 0,0:15:44.89,0:15:47.24,Main01,Gin,0000,0000,0000,,This is no longer about saving Shinpachi!
+Dialogue: 0,0:15:47.24,0:15:48.92,Main01,Gin,0000,0000,0000,,Hey, let me out at the hospital!
+Dialogue: 0,0:15:48.92,0:15:51.01,Main01,Kondo,0000,0000,0000,,It's true that from the \Nperspective of the real world,
+Dialogue: 0,0:15:51.01,0:15:53.52,Main01,Kondo,0000,0000,0000,,we have lost our minds.
+Dialogue: 0,0:15:53.52,0:15:56.25,Main01,Kondo,0000,0000,0000,,But where are we heading?
+Dialogue: 0,0:15:56.25,0:15:59.26,Main01,Kondo,0000,0000,0000,,Yes, to an otherworldly \Nbattlefield of warriors who are
+Dialogue: 0,0:15:59.26,0:16:00.39,Main01,,0000,0000,0000,,trapped in their fantasies.
+Dialogue: 0,0:16:00.43,0:16:05.90,On Screen,Caption,0000,0000,0000,,{\fad(490,1)}Love Choris\NThe My Wife World Tournament
+Dialogue: 0,0:16:01.22,0:16:04.09,Main01,Kondo,0000,0000,0000,,There, fantasy becomes reality!
+Dialogue: 0,0:16:05.90,0:16:08.02,Main01,Gin,0000,0000,0000,,This is one creepy tournament!
+Dialogue: 0,0:16:08.02,0:16:10.79,Main01,Gin,0000,0000,0000,,They're all in the Love Choris \NHole like nothing's wrong!
+Dialogue: 0,0:16:10.79,0:16:12.85,Main01,Gin,0000,0000,0000,,They've all been hit by a Dazzle spell!
+Dialogue: 0,0:16:12.85,0:16:15.39,Main01,Kondo,0000,0000,0000,,A person who hasn't reached the Love Choris Hole
+Dialogue: 0,0:16:15.39,0:16:18.41,Main01,Kondo,0000,0000,0000,,is like a Soul Reaper in the Soul \NSociety who can't Bankai.
+Dialogue: 0,0:16:18.75,0:16:20.54,Main01,Gin,0000,0000,0000,,It's supposed to be cool?!
+Dialogue: 0,0:16:20.54,0:16:22.67,Main01,Gin,0000,0000,0000,,In the real world, these people \Nwould be considered total failures!
+Dialogue: 0,0:16:22.96,0:16:25.71,Main01,Kondo,0000,0000,0000,,These people have reached a high level.
+Dialogue: 0,0:16:25.71,0:16:29.23,Main01,Kondo,0000,0000,0000,,They have completed their ideal girlfriends.
+Dialogue: 0,0:16:29.65,0:16:33.13,Main01,Kondo,0000,0000,0000,,But your girlfriend is also standing out.
+Dialogue: 0,0:16:33.13,0:16:35.53,Main01,Gin,0000,0000,0000,,And not in a good way!
+Dialogue: 0,0:16:35.53,0:16:37.05,Main01,Gin,0000,0000,0000,,There's no way I can win!
+Dialogue: 0,0:16:37.34,0:16:42.26,Main01,Enari,0000,0000,0000,,That's not helping, okay?
+Dialogue: 0,0:16:42.26,0:16:42.94,Main01,Gin,0000,0000,0000,,Of course not.
+Dialogue: 0,0:16:42.94,0:16:43.82,Main01,Gin,0000,0000,0000,,Because you're dead.
+Dialogue: 0,0:16:43.82,0:16:45.02,Main01,Gin,0000,0000,0000,,Could you please shut up?
+Dialogue: 0,0:16:45.02,0:16:45.56,Main01,Gin,0000,0000,0000,,You're scaring me.
+Dialogue: 0,0:16:45.91,0:16:50.32,Main01,Kondo,0000,0000,0000,,However, she's gradually approaching \Nyour ideal girlfriend.
+Dialogue: 0,0:16:50.72,0:16:52.39,Main01,Pinko,0000,0000,0000,,Watch your back.
+Dialogue: 0,0:16:52.39,0:16:55.51,Main01,Pinko,0000,0000,0000,,I'm gonna avenge Enari.
+Dialogue: 0,0:16:55.51,0:16:56.32,Main01,Gin,0000,0000,0000,,You sure about that?
+Dialogue: 0,0:16:56.59,0:17:00.11,Main01,Kondo,0000,0000,0000,,I see. This would be that \Nnew yandere fad, right?
+Dialogue: 0,0:17:00.11,0:17:01.40,Main01,Gin,0000,0000,0000,,Hell no!
+Dialogue: 0,0:17:01.40,0:17:04.98,Main01,Gin,0000,0000,0000,,All I see is a psycho old lady \Nand a decomposing Enari-kun!
+Dialogue: 0,0:17:04.98,0:17:08.46,Main01,Gin,0000,0000,0000,,Hey, I'll trade the decomposing \NEnari for your Sayaka-chan.
+Dialogue: 0,0:17:08.46,0:17:10.84,Main01,Sayaka,0000,0000,0000,,No, I like, want Isao-kun.
+Dialogue: 0,0:17:10.84,0:17:12.16,Main01,Kondo,0000,0000,0000,,I know, right?
+Dialogue: 0,0:17:12.16,0:17:14.22,Main01,Gin,0000,0000,0000,,Why is this bitch so cute?
+Dialogue: 0,0:17:14.69,0:17:16.94,Main01,Gin,0000,0000,0000,,Your boyfriend was a \Nyandere in the real world!
+Dialogue: 0,0:17:16.94,0:17:18.93,Main01,Gin,0000,0000,0000,,Couldn't keep a lid on his load!
+Dialogue: 0,0:17:19.21,0:17:21.72,Main01,Kondo,0000,0000,0000,,Hey! Don't say that stuff to Sayaka-chan!
+Dialogue: 0,0:17:22.00,0:17:25.31,Main01,A,0000,0000,0000,,Hey, now. They're starting a fight.
+Dialogue: 0,0:17:26.45,0:17:27.35,Main01,Kyubei,0000,0000,0000,,Stop this.
+Dialogue: 0,0:17:27.80,0:17:30.41,Main01,Kyubei,0000,0000,0000,,This is not a place for being \Njealous of someone else's love.
+Dialogue: 0,0:17:30.69,0:17:32.86,Main01,Kyubei,0000,0000,0000,,It's a place to be proud of your own love.
+Dialogue: 0,0:17:33.28,0:17:34.41,Main01,Gin,0000,0000,0000,,You're...
+Dialogue: 0,0:17:34.41,0:17:35.55,Main01,Kondo,0000,0000,0000,,Is it...
+Dialogue: 0,0:17:35.55,0:17:36.38,Main01,Gin,0000,0000,0000,,Kyubei...
+Dialogue: 0,0:17:36.38,0:17:37.86,Main01,Both,0000,0000,0000,,Who the hell are you?!
+Dialogue: 0,0:17:37.86,0:17:38.56,Main01,Gin,0000,0000,0000,,It's Pinko!
+Dialogue: 0,0:17:38.56,0:17:40.26,Main01,Gin,0000,0000,0000,,A Pinko who's based off Kyubei!
+Dialogue: 0,0:17:40.26,0:17:41.37,Main01,Tojo,0000,0000,0000,,Lady!
+Dialogue: 0,0:17:41.37,0:17:44.37,Main01,Kyubei,0000,0000,0000,,Ayu-tan!
+Dialogue: 0,0:17:44.61,0:17:46.89,Main01,Kyubei,0000,0000,0000,,Where did you go?
+Dialogue: 0,0:17:46.89,0:17:51.88,Main01,Tojo,0000,0000,0000,,You're the one who let go of \Nmy hand, and then I got lost!
+Dialogue: 0,0:17:55.38,0:17:56.30,Main01,Tojo,0000,0000,0000,,Wh-Wh-Wha-
+Dialogue: 0,0:17:56.30,0:17:59.32,Main01,Tojo,0000,0000,0000,,What are you people doing here?!
+Dialogue: 0,0:17:59.32,0:18:00.89,Main01,Gin,0000,0000,0000,,Yeah, that's what I was about to ask.
+Dialogue: 0,0:18:01.35,0:18:03.06,Main01,Gin,0000,0000,0000,,And so...
+Dialogue: 0,0:18:03.06,0:18:04.64,Main01,Gin,0000,0000,0000,,Is that supposed to be Kyubei-kun?
+Dialogue: 0,0:18:04.64,0:18:07.02,Main01,Tojo,0000,0000,0000,,No way! Absolutely not!
+Dialogue: 0,0:18:07.02,0:18:08.19,Main01,Gin,0000,0000,0000,,Uh, it's Kyubei.
+Dialogue: 0,0:18:08.19,0:18:09.87,Main01,Gin,0000,0000,0000,,You obviously failed,
+Dialogue: 0,0:18:09.87,0:18:13.13,Main01,Gin,0000,0000,0000,,but you clearly based this \Nsad monster off of Kyubei.
+Dialogue: 0,0:18:13.13,0:18:14.61,Main01,Tojo,0000,0000,0000,,You're wrong, I say!
+Dialogue: 0,0:18:14.61,0:18:16.99,Main01,Tojo,0000,0000,0000,,I do not have any improper \Nfeelings for the Lady!
+Dialogue: 0,0:18:16.99,0:18:17.82,Main01,Kyubei,0000,0000,0000,,Yeah!
+Dialogue: 0,0:18:17.82,0:18:19.94,Main01,Kyubei,0000,0000,0000,,I'm not Ayu-tan's girlfriend.
+Dialogue: 0,0:18:19.94,0:18:21.32,Main01,Kyubei,0000,0000,0000,,I'm Ayu-tan's mama.
+Dialogue: 0,0:18:21.32,0:18:22.55,Main01,Gin,0000,0000,0000,,Oh, really...
+Dialogue: 0,0:18:22.55,0:18:24.72,Main01,Tojo,0000,0000,0000,,Hey! Stop talking!
+Dialogue: 0,0:18:24.72,0:18:26.79,Main01,Gin,0000,0000,0000,,Usually, you're the one looking after Kyubei,
+Dialogue: 0,0:18:26.79,0:18:28.84,Main01,Gin,0000,0000,0000,,but you actually wanted her to baby you.
+Dialogue: 0,0:18:28.84,0:18:31.04,Main01,Tojo,0000,0000,0000,,You're wrong!
+Dialogue: 0,0:18:31.04,0:18:34.38,Main01,Tojo,0000,0000,0000,,I was playing the game, and \Nthis just kind of happened.
+Dialogue: 0,0:18:31.04,0:18:34.38,Main01,Kyubei,0000,0000,0000,,{\an8}Okay, time to change your diapers.
+Dialogue: 0,0:18:34.38,0:18:36.75,Main01,Gin,0000,0000,0000,,What kind of playing are \Nwe taking about here?
+Dialogue: 0,0:18:36.75,0:18:38.49,Main01,Gin,0000,0000,0000,,This tournament is messed up.
+Dialogue: 0,0:18:38.49,0:18:40.91,Main01,Gin,0000,0000,0000,,People's fetishes are on display.
+Dialogue: 0,0:18:40.91,0:18:44.43,Main01,Gin,0000,0000,0000,,And what do other people think about me?
+Dialogue: 0,0:18:44.81,0:18:47.14,Main01,Gin,0000,0000,0000,,Hey, let's trade girlfriends.
+Dialogue: 0,0:18:47.41,0:18:50.15,Main01,Sayaka,0000,0000,0000,,No, I, like, want Isao-kun.
+Dialogue: 0,0:18:50.15,0:18:51.15,Main01,Kondo,0000,0000,0000,,I know, right?
+Dialogue: 0,0:18:51.15,0:18:52.98,Main01,Gin,0000,0000,0000,,Cut that out, stupid girl!
+Dialogue: 0,0:18:52.98,0:18:54.69,Main01,Gin,0000,0000,0000,,That little act isn't cute!
+Dialogue: 0,0:18:54.69,0:18:55.48,Main01,Gin,0000,0000,0000,,Do it again.
+Dialogue: 0,0:18:55.48,0:18:57.78,Main01,Gin,0000,0000,0000,,Say, I, like, want Gintoki-kun.
+Dialogue: 0,0:18:58.51,0:19:01.49,Main01,Pinko,0000,0000,0000,,I promise to, like, avenge Enari.
+Dialogue: 0,0:19:01.49,0:19:02.71,Main01,Gin,0000,0000,0000,,I wasn't talking to you!
+Dialogue: 0,0:19:02.71,0:19:05.16,Main01,Enari,0000,0000,0000,,That's not, like, helping, okay?
+Dialogue: 0,0:19:05.16,0:19:06.14,Main01,Gin,0000,0000,0000,,I wasn't talking to you either!
+Dialogue: 0,0:19:06.14,0:19:08.60,Main01,Gin,0000,0000,0000,,If you don't stop, I'm gonna beat you down!
+Dialogue: 0,0:19:08.60,0:19:09.92,Main01,Kondo,0000,0000,0000,,Hey, Odd Jobs!
+Dialogue: 0,0:19:10.22,0:19:12.32,Main01,Kondo,0000,0000,0000,,Was there a heroine like that in this game?
+Dialogue: 0,0:19:12.32,0:19:15.59,Main01,Gin,0000,0000,0000,,Huh? Isn't that Sa-chan?
+Dialogue: 0,0:19:15.59,0:19:17.19,Main01,Kondo,0000,0000,0000,,Looks like her.
+Dialogue: 0,0:19:17.19,0:19:19.26,Main01,Kondo,0000,0000,0000,,Did someone want her as a girlfriend?
+Dialogue: 0,0:19:19.26,0:19:22.30,Main01,Gin,0000,0000,0000,,No, nobody would like that sick girl.
+Dialogue: 0,0:19:22.78,0:19:24.30,Main01,Kondo,0000,0000,0000,,But look, there's her boyfriend.
+Dialogue: 0,0:19:24.71,0:19:26.68,Main01,Sa,0000,0000,0000,,Where did you go, Pin-san?
+Dialogue: 0,0:19:26.68,0:19:30.26,Main01,Sa,0000,0000,0000,,Geez, you're not supposed to leave my side.
+Dialogue: 0,0:19:31.06,0:19:32.77,Main01,Gin,0000,0000,0000,,Who the hell is this Pin-san?!
+Dialogue: 0,0:19:33.89,0:19:35.77,Main01,Gin,0000,0000,0000,,Why did you turn Pinko into this?!
+Dialogue: 0,0:19:35.77,0:19:37.82,Main01,Gin,0000,0000,0000,,Isn't this a tournament for \Nshowing off girlfriends!
+Dialogue: 0,0:19:37.82,0:19:41.45,Main01,Sa,0000,0000,0000,,Hmm? I have no idea what \Nyou're talking about.
+Dialogue: 0,0:19:41.45,0:19:45.38,Main01,Sa,0000,0000,0000,,I'm the ideal girlfriend from Pin-san's game.
+Dialogue: 0,0:19:45.38,0:19:47.33,Main01,Sa,0000,0000,0000,,I don't know anything else.
+Dialogue: 0,0:19:47.33,0:19:48.94,Main01,Gin,0000,0000,0000,,What's this game called?
+Dialogue: 0,0:19:48.94,0:19:50.10,Main01,Gin,0000,0000,0000,,How to make annoying girls?
+Dialogue: 0,0:19:50.10,0:19:51.38,Main01,Gin,0000,0000,0000,,AKA Annoying Girl?
+Dialogue: 0,0:19:51.38,0:19:53.76,Main01,Sa,0000,0000,0000,,Could you stop that?
+Dialogue: 0,0:19:53.76,0:19:55.46,Main01,Sa,0000,0000,0000,,My boyfriend is Pin-san.
+Dialogue: 0,0:19:55.87,0:19:58.12,Main01,Sa,0000,0000,0000,,It's too late for you to be jealous.
+Dialogue: 0,0:19:58.12,0:20:00.71,Main01,Sa,0000,0000,0000,,It's your turn to suffer the way I did
+Dialogue: 0,0:20:00.71,0:20:04.27,Main01,Sa,0000,0000,0000,,when the one I loved had \Nbeen stolen by Pinko!
+Dialogue: 0,0:20:05.05,0:20:06.98,Main01,Gin,0000,0000,0000,,Why is she here?
+Dialogue: 0,0:20:06.98,0:20:09.22,Main01,Gin,0000,0000,0000,,She's creating fantasy on top of fantasy.
+Dialogue: 0,0:20:09.42,0:20:13.17,Main01,Sa,0000,0000,0000,,Let's see if your Pinko or my Pinko wins.
+Dialogue: 0,0:20:13.17,0:20:15.04,Main01,Sa,0000,0000,0000,,Sit tighty-whitey!
+Dialogue: 0,0:20:15.04,0:20:16.98,Main01,Gin,0000,0000,0000,,Wait, that's not what \Nthis tournament is about!
+Dialogue: 0,0:20:17.41,0:20:18.41,Main01,Gin,0000,0000,0000,,What's wrong here?
+Dialogue: 0,0:20:18.41,0:20:20.63,Main01,Gin,0000,0000,0000,,Only freaks are using Pinko!
+Dialogue: 0,0:20:20.63,0:20:22.22,Main01,Gin,0000,0000,0000,,Let's trade girlfriends.
+Dialogue: 0,0:20:22.22,0:20:22.92,Main01,Sayaka,0000,0000,0000,,No!
+Dialogue: 0,0:20:22.91,0:20:24.62,Main01,Sayaka,0000,0000,0000,,I, like, want Isao-kun.
+Dialogue: 0,0:20:24.62,0:20:25.49,Main01,Kondo,0000,0000,0000,,I know, right?
+Dialogue: 0,0:20:25.86,0:20:29.24,Main01,Kondo,0000,0000,0000,,Just suck it up and win with your Pinko-chan.
+Dialogue: 0,0:20:29.62,0:20:31.41,Main01,Kondo,0000,0000,0000,,Sayaka-chan will always be mine.
+Dialogue: 0,0:20:31.41,0:20:32.67,Main01,Kondo,0000,0000,0000,,Even after death.
+Dialogue: 0,0:20:33.02,0:20:34.27,Main01,Okita,0000,0000,0000,,Oh, there you are.
+Dialogue: 0,0:20:34.27,0:20:35.67,Main01,Okita,0000,0000,0000,,Finally found you.
+Dialogue: 0,0:20:36.01,0:20:38.34,Main01,Kondo,0000,0000,0000,,Sogo, why are you here?
+Dialogue: 0,0:20:38.34,0:20:40.86,Main01,Okita,0000,0000,0000,,Huh? Kondo-san and the chief.
+Dialogue: 0,0:20:41.15,0:20:43.49,Main01,Kondo,0000,0000,0000,,Are you also participating \Nin this tournament?
+Dialogue: 0,0:20:43.49,0:20:45.34,Main01,Okita,0000,0000,0000,,Huh? So are you?
+Dialogue: 0,0:20:45.34,0:20:46.88,Main01,Kondo,0000,0000,0000,,Of course.
+Dialogue: 0,0:20:46.88,0:20:49.10,Main01,Kondo,0000,0000,0000,,Don't you see my Sayaka-chan here?
+Dialogue: 0,0:20:49.48,0:20:52.10,Main01,Sayaka,0000,0000,0000,,Welcome back, master.
+Dialogue: 0,0:20:52.33,0:20:56.11,Main01,Okita,0000,0000,0000,,How did it feel to serve \Na man you can't stand?
+Dialogue: 0,0:20:56.34,0:20:58.36,Main01,Sayaka,0000,0000,0000,,It was very painful.
+Dialogue: 0,0:20:58.36,0:21:02.43,Main01,Sayaka,0000,0000,0000,,But when I realized that I was \Nbeing my master's loyal slave,
+Dialogue: 0,0:21:02.43,0:21:05.86,Main01,Sayaka,0000,0000,0000,,I began to feel happy deep down.
+Dialogue: 0,0:21:05.86,0:21:08.09,Main01,Okita,0000,0000,0000,,Heh, bitch.
+Dialogue: 0,0:21:08.62,0:21:12.21,Main01,Sayaka,0000,0000,0000,,Please don't send me away again, master.
+Dialogue: 0,0:21:12.21,0:21:13.62,Main01,Okita,0000,0000,0000,,Well, we'll see.
+Dialogue: 0,0:21:15.36,0:21:16.39,Main01,Kondo,0000,0000,0000,,Sakata-kun.
+Dialogue: 0,0:21:16.81,0:21:18.63,Main01,Gin,0000,0000,0000,,I'm not gonna trade girlfriends with you.
+Dialogue: 0,0:21:19.01,0:21:20.10,Main01,Kondo,0000,0000,0000,,Please!
+Dialogue: 0,0:21:20.10,0:21:22.79,Main01,Kondo,0000,0000,0000,,Can you at least give me Enari-kun?!
+Dialogue: 0,0:21:22.79,0:21:23.58,Main01,Enari,0000,0000,0000,,No.
+Dialogue: 0,0:21:23.58,0:21:25.63,Main01,Kondo,0000,0000,0000,,What happened to your catchphrase?!
+Dialogue: 0,0:21:25.95,0:21:27.60,Main01,B,0000,0000,0000,,Wh-Who is that?!
+Dialogue: 0,0:21:28.02,0:21:31.83,Main01,B,0000,0000,0000,,Why is it so bright?!
+Dialogue: 0,0:21:33.42,0:21:36.29,Main01,A,0000,0000,0000,,I-It's a goddess!
+Dialogue: 0,0:21:36.85,0:21:38.50,Main01,B,0000,0000,0000,,Who is her boyfriend?!
+Dialogue: 0,0:21:38.50,0:21:41.53,Main01,B,0000,0000,0000,,How was he able to raise that girlfriend?!
+Dialogue: 0,0:21:42.15,0:21:44.02,Main01,Gin,0000,0000,0000,,Sh-Shinpachi?!
+Dialogue: 0,0:21:44.65,0:21:47.56,Main01,N,0000,0000,0000,,The day has come!
+Dialogue: 0,0:21:47.56,0:21:51.57,Main01,N,0000,0000,0000,,We will choose the best of the best from the
+Dialogue: 0,0:21:51.57,0:21:53.54,Main01,N,0000,0000,0000,,ideal girlfriends everyone has \Npainstakingly raised!
+Dialogue: 0,0:21:53.54,0:21:58.96,Main01,N,0000,0000,0000,,The Love Choris My Wife \NWorld Tournament begins now!
+Dialogue: 0,0:22:00.45,0:22:06.92,Main01,Gin,0000,0000,0000,,Can my puny fantasy defeat his massive one?!
+Dialogue: 0,0:22:07.93,0:22:09.97,On Screen,Caption,0000,0000,0000,,To be continued.
+Dialogue: 0,0:23:39.94,0:23:44.94,On Screen,EpTitle,0000,0000,0000,,Next Episode: Making It Through Love
+Dialogue: 0,0:23:41.21,0:23:42.20,Main01,Gin,0000,0000,0000,,Next time:
+Dialogue: 0,0:23:42.20,0:23:44.94,Main01,Gin,0000,0000,0000,,Making It Through Love.
+Dialogue: 0,0:23:44.94,0:23:49.82,On Screen,Caption,0000,0000,0000,,The My Wife World Tournament finally begins. \NWho feels the greatest love for his girlfriend?
+Dialogue: 0,0:23:49.82,0:23:54.95,On Screen,Caption,0000,0000,0000,,Gintoki is faced by difficult opponents in a battle \Nof fantasies. Will he be able to wake up Shinpachi?!
+Dialogue: 0,3:05:07.70,3:05:28.30,Main01,,0000,0000,0000,,-

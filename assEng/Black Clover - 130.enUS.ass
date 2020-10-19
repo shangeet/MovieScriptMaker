@@ -1,0 +1,480 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: OP_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H00F7FFFB,&H000000FF,&H1900122E,&H000D1728,-1,0,0,0,100,100,0,0,1,1,0,8,0030,0030,0090,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_4757_29_Royal_Capital__M,Times New Roman,30,&H00FEFEFD,&H000000FF,&H3214100F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0080,1
+Style: sign_4918_40_Heart_Kingdom,Trebuchet MS,30,&H19E1E4E9,&H000000FF,&H32121618,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,4,0,2,0030,0370,0270,1
+Style: sign_4918_41_Clover_Kingdom,Trebuchet MS,30,&H19D5DCE3,&H000000FF,&H32253642,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,4,0,2,0360,0030,0170,1
+Style: sign_7000_55_Stage_Zero,Times New Roman,20,&H00D2D2D2,&H000000FF,&H32000000,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0030,0030,0020,1
+Style: sign_8772_80_Father_Nathan,Times New Roman,20,&H00F5F6FA,&H000000FF,&H320B0800,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_9150_79_Awkward,Times New Roman,28,&H00CB93EA,&H000000FF,&H00C3C9CC,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0020,0020,0030,1
+Style: sign_9252_82_Trouble,Verdana,40,&H0034E0E9,&H000000FF,&H00BEC2C9,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,4,0,2,0055,0030,0275,1
+Style: sign_9601_108_Playboy,Verdana,40,&H003D0F9E,&H000000FF,&H00231C31,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0020,1
+Style: sign_9669_112_Failure,Verdana,40,&H005D7926,&H000000FF,&H00231C31,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0020,1
+Style: sign_9747_115_Bad_Habits,Verdana,28,&H00A54A31,&H000000FF,&H003B2B19,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0020,1
+Style: sign_12339_133_Finnes_Calmreich,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_14960_120_The_Apostles_of_,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0100,1
+Style: sign_17907_179_Stage_Zero,Times New Roman,20,&H00E8E8E8,&H000000FF,&H32000000,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_17948_180_Arcane_Stage,Times New Roman,40,&H00D82D86,&H000000FF,&H320E0E0E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,4,0,8,0030,0030,0020,1
+Style: sign_18968_247_Heart_Kingdom,Times New Roman,30,&H00FEFEFD,&H000000FF,&H32303329,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0080,1
+Style: sign_19987_258_Spirit_Guardian_,Times New Roman,20,&H00F5F6FA,&H000000FF,&H320E0F23,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_26668_324_Black_Bulls__Hid,Times New Roman,36,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0040,0125,1
+Style: sign_27919_273_Equinox,Times New Roman,30,&H00FFFFFF,&H000000FF,&H00000302,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_28504_355_Water_Spirit_Und,Times New Roman,20,&H00F5F6FA,&H000000FF,&H32272729,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0259,0259,0110,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:05.39,0:00:07.10,italics,Nar,0000,0000,0000,,The Clover Kingdom.
+Dialogue: 0,0:00:07.63,0:00:09.53,italics,Nar,0000,0000,0000,,In this kingdom where magic is everything,
+Dialogue: 0,0:00:09.53,0:00:12.95,italics,Nar,0000,0000,0000,,there is one boy who can't use magic.
+Dialogue: 0,0:00:13.38,0:00:15.61,italics,Nar,0000,0000,0000,,His name is Asta.
+Dialogue: 0,0:00:16.30,0:00:18.93,italics,Nar,0000,0000,0000,,With guts and hard work, \Nhe made it into the Magic Knights,
+Dialogue: 0,0:00:18.93,0:00:21.81,italics,Nar,0000,0000,0000,,and he never gave up, \Ndespite how much he got hurt.
+Dialogue: 0,0:00:21.81,0:00:24.66,italics,Nar,0000,0000,0000,,He continues to diligently \Naim for the top!
+Dialogue: 0,0:00:25.88,0:00:27.80,italics,Nar,0000,0000,0000,,Even if you are a peasant,
+Dialogue: 0,0:00:27.80,0:00:29.63,italics,Nar,0000,0000,0000,,or even if you're poor...
+Dialogue: 0,0:00:29.63,0:00:32.38,italics,Nar,0000,0000,0000,,Anyone in this world can still shine!
+Dialogue: 0,0:00:32.38,0:00:34.80,italics,Nar,0000,0000,0000,,He's working hard to prove that,
+Dialogue: 0,0:00:35.18,0:00:37.85,italics,Nar,0000,0000,0000,,and to become the Wizard King!
+Dialogue: 0,0:00:58.30,0:01:02.56,Ep Title,Sign,0000,0000,0000,,{\fad(210,1871)\t(210,2419,\fscx120\fscy120)}The New Magic Knights Captain Conference
+Dialogue: 0,0:02:12.65,0:02:14.74,italics,Nar,0000,0000,0000,,The Clover Kingdom.
+Dialogue: 0,0:02:14.74,0:02:17.41,italics,Nar,0000,0000,0000,,Much of the royal capital \Nwas destroyed in an attack
+Dialogue: 0,0:02:17.41,0:02:18.89,italics,Nar,0000,0000,0000,,by the Eye of the Midnight Sun,
+Dialogue: 0,0:02:18.89,0:02:21.02,italics,Nar,0000,0000,0000,,but the repairs are going smoothly.
+Dialogue: 0,0:02:21.85,0:02:25.06,italics,Nar,0000,0000,0000,,The citizens have gathered \Nin the square to prove
+Dialogue: 0,0:02:25.50,0:02:28.50,italics,Nar,0000,0000,0000,,that the threat of the Eye of \Nthe Midnight Sun has passed,
+Dialogue: 0,0:02:28.50,0:02:30.80,italics,Nar,0000,0000,0000,,and that the kingdom is doing
+Dialogue: 0,0:02:30.80,0:02:34.50,italics,Nar,0000,0000,0000,,everything it can to restore peace \Nand get life back to normal.
+Dialogue: 0,0:02:34.99,0:02:36.26,main,Guy,0000,0000,0000,,It's Lord Vangeance!
+Dialogue: 0,0:02:36.26,0:02:37.75,top,Lady,0000,0000,0000,,He's wonderful!
+Dialogue: 0,0:02:36.26,0:02:40.74,sign_19987_258_Spirit_Guardian_,Sign,0000,0000,0000,,{\blur3\fad(1022,998)}Captain of the Golden Dawn\N{\fs30}William Vangeance
+Dialogue: 0,0:02:38.67,0:02:41.01,top,Lady,0000,0000,0000,,He's the hero who saved the kingdom!
+Dialogue: 0,0:02:41.01,0:02:43.51,main,Guy,0000,0000,0000,,They're the pride of the Magic Knights!
+Dialogue: 0,0:02:43.51,0:02:45.42,top,Lady,0000,0000,0000,,Lord Fuegoleon!
+Dialogue: 0,0:02:43.51,0:02:48.04,sign_19987_258_Spirit_Guardian_,Sign,0000,0000,0000,,{\blur3\fad(1029,1004)}Captain of the Crimson Lion Kings\N{\fs30}Fuegoleon Vermillion
+Dialogue: 0,0:02:45.42,0:02:49.27,top,Lady,0000,0000,0000,,Not only has he returned as captain, \Nhe now controls Salamander!
+Dialogue: 0,0:02:49.27,0:02:53.79,sign_19987_258_Spirit_Guardian_,Sign,0000,0000,0000,,{\blur3\fad(1025,1035)}Captain of the Silver Eagles\N{\fs30}Nozel Silva
+Dialogue: 0,0:02:49.72,0:02:52.75,top,Lady,0000,0000,0000,,Lord Nozel's bangs are as charming as ever.
+Dialogue: 0,0:02:52.75,0:02:56.28,top,Guy,0000,0000,0000,,I heard that he was on the \Nfront line of this battle!
+Dialogue: 0,0:02:56.28,0:02:58.35,top,Guy,0000,0000,0000,,Lady Charlotte!
+Dialogue: 0,0:02:56.28,0:03:00.80,sign_19987_258_Spirit_Guardian_,Sign,0000,0000,0000,,{\blur3\fad(980,996)}Captain of the Blue Rose Knights\N{\fs30}Charlotte Roselei
+Dialogue: 0,0:02:58.35,0:03:03.18,top,Guy,0000,0000,0000,,Every rose has its thorns... But I wouldn't\N mind getting pricked by Lady Charlotte.
+Dialogue: 0,0:03:00.05,0:03:03.74,italics,Charlotte,0000,0000,0000,,What in the world are Yami and the \NCaptain of the Praying Mantises doing?
+Dialogue: 0,0:03:03.74,0:03:07.29,italics,Charlotte,0000,0000,0000,,I can't believe they're late on an \Nimportant day like this. Unbelievable.
+Dialogue: 0,0:03:07.29,0:03:08.81,top,Girl,0000,0000,0000,,Rill!
+Dialogue: 0,0:03:07.29,0:03:11.81,sign_19987_258_Spirit_Guardian_,Sign,0000,0000,0000,,{\fad(1106,1037)\blur3}Captain of the Aqua Deer\N{\fs30}Rill Boismortier
+Dialogue: 0,0:03:09.45,0:03:12.79,top,Guy,0000,0000,0000,,I wonder if something's wrong.\N He looks like he's spaced out.
+Dialogue: 0,0:03:12.79,0:03:16.80,main,Guy,0000,0000,0000,,Yeah... He's definitely in love. I can tell.
+Dialogue: 0,0:03:17.23,0:03:21.55,italics,Rill,0000,0000,0000,,Where did that lovely lady go?
+Dialogue: 0,0:03:22.17,0:03:23.93,italics,Walter,0000,0000,0000,,The young master's first love...
+Dialogue: 0,0:03:23.93,0:03:28.45,sign_19987_258_Spirit_Guardian_,Sign,0000,0000,0000,,{\blur3\fad(1024,993)}The Butler of the Boismortier Household\N{\fs30}Walter
+Dialogue: 0,0:03:23.93,0:03:28.87,italicstop,Walter,0000,0000,0000,,Ah, Madam... The young master \Nis slowly becoming an adult.
+Dialogue: 0,0:03:28.87,0:03:32.01,italics,Walter,0000,0000,0000,,I'm sure you'll have a lovely \Ngrandchild any day now.
+Dialogue: 0,0:03:33.22,0:03:35.01,top,Guy,0000,0000,0000,,Look! It's Lady Dorothy!
+Dialogue: 0,0:03:33.54,0:03:38.05,sign_19987_258_Spirit_Guardian_,Sign,0000,0000,0000,,{\blur3\fad(1007,1042)}Captain of the Coral Peacocks\N{\fs30}Dorothy Unsworth
+Dialogue: 0,0:03:35.01,0:03:36.18,top,Lady,0000,0000,0000,,And she's awake?!
+Dialogue: 0,0:03:36.18,0:03:38.25,top,Lady,0000,0000,0000,,I never knew she had such beautiful eyes.
+Dialogue: 0,0:03:38.25,0:03:40.36,main,Dorothy,0000,0000,0000,,Heya! How's everyone doing?
+Dialogue: 0,0:03:40.36,0:03:43.33,top,Guy,0000,0000,0000,,Lord Kaiser looks so dapper for his age!
+Dialogue: 0,0:03:40.36,0:03:44.89,sign_19987_258_Spirit_Guardian_,Sign,0000,0000,0000,,{\blur3\fad(1027,1042)}Captain of the Purple Orcas\N{\fs30}Kaiser Granvorka
+Dialogue: 0,0:03:43.33,0:03:45.70,top,Guy,0000,0000,0000,,But he seems a bit down.
+Dialogue: 0,0:03:46.95,0:03:49.49,main,Lady,0000,0000,0000,,Look! It's Lord Julius!
+Dialogue: 0,0:03:49.49,0:03:51.03,main,,0000,0000,0000,,The Wizard King!
+Dialogue: 0,0:03:52.29,0:03:54.46,main,Lady,0000,0000,0000,,Lord Julius!
+Dialogue: 0,0:03:54.46,0:03:57.96,sign_19987_258_Spirit_Guardian_,Sign,0000,0000,0000,,{\blur3\fad(1025,1)}Wizard King's Advisor\N{\fs30}Marx Francois
+Dialogue: 0,0:03:55.87,0:03:57.96,top,Lady,0000,0000,0000,,Did he get injured?
+Dialogue: 0,0:03:57.96,0:04:00.71,main,Man,0000,0000,0000,,I heard it was actually Lord Julius
+Dialogue: 0,0:04:00.71,0:04:04.42,main,Man,0000,0000,0000,,who saved all of us from that attack \Nby the Eye of the Midnight Sun.
+Dialogue: 0,0:04:04.91,0:04:09.83,main,Lady,0000,0000,0000,,He must have endured an intense \Nbattle to protect us all.
+Dialogue: 0,0:04:09.83,0:04:11.42,main,Lady,0000,0000,0000,,That must be how he got hurt.
+Dialogue: 0,0:04:11.42,0:04:13.31,main,Guy,0000,0000,0000,,He's forever our hero...
+Dialogue: 0,0:04:13.31,0:04:14.65,main,Guy,0000,0000,0000,,The Wizard King!
+Dialogue: 0,0:04:16.01,0:04:18.32,flashbackitalics,Owen,0000,0000,0000,,What? You want me to be the Wizard King?
+Dialogue: 0,0:04:18.91,0:04:19.98,flashback,Marx,0000,0000,0000,,He couldn't possibly—
+Dialogue: 0,0:04:19.98,0:04:24.69,flashback,Julius,0000,0000,0000,,Well, I mean, I can't go strolling \Nout there looking like a kid.
+Dialogue: 0,0:04:24.69,0:04:27.24,flashback,Julius,0000,0000,0000,,And we can't have the king finding out, either.
+Dialogue: 0,0:04:27.24,0:04:30.94,flashback,Julius,0000,0000,0000,,But it'd also be strange if \NI didn't appear on that stage.
+Dialogue: 0,0:04:31.37,0:04:34.08,flashback,Owen,0000,0000,0000,,But it'd be obvious that it was me up there.
+Dialogue: 0,0:04:34.08,0:04:36.41,flashback,Julius,0000,0000,0000,,Oh, don't worry.
+Dialogue: 0,0:04:36.41,0:04:38.59,flashback,Julius,0000,0000,0000,,You just have to stand up there.
+Dialogue: 0,0:04:38.59,0:04:40.89,flashback,Julius,0000,0000,0000,,Here. Conceal your face with this.
+Dialogue: 0,0:04:40.89,0:04:42.21,flashback,Owen,0000,0000,0000,,What?
+Dialogue: 0,0:04:42.91,0:04:47.59,flashbackitalics,Owen,0000,0000,0000,,You obviously look different now, \Nbut I see you haven't changed at all.
+Dialogue: 0,0:04:47.59,0:04:50.70,italics,Owen,0000,0000,0000,,Please don't let them notice... \NPlease don't let them notice...
+Dialogue: 0,0:04:50.70,0:04:51.70,main,William,0000,0000,0000,,Ahem...
+Dialogue: 0,0:04:51.70,0:04:57.86,main,William,0000,0000,0000,,The Wizard King has a sore throat, \Nso he cannot speak to all of you today.
+Dialogue: 0,0:04:57.86,0:04:59.33,main,William,0000,0000,0000,,Please forgive him.
+Dialogue: 0,0:04:59.33,0:05:01.94,main,Lady,0000,0000,0000,,I wanted to hear the Wizard King speak...
+Dialogue: 0,0:05:01.94,0:05:03.26,main,Guy,0000,0000,0000,,He can't help it.
+Dialogue: 0,0:05:03.26,0:05:04.11,main,Lady,0000,0000,0000,,Yeah...
+Dialogue: 0,0:05:04.11,0:05:07.26,main,William,0000,0000,0000,,Now, I'd like you all to \Ngive a big round of applause
+Dialogue: 0,0:05:07.69,0:05:12.08,main,William,0000,0000,0000,,to the valiant hero who \Nbravely faced our enemies.
+Dialogue: 0,0:05:12.08,0:05:14.00,main,William,0000,0000,0000,,Our great king,
+Dialogue: 0,0:05:14.39,0:05:18.94,sign_19987_258_Spirit_Guardian_,Sign,0000,0000,0000,,{\blur3\fad(1050,1081)}King of the Clover Kingdom\N{\fs30}Augustus Kira Clover XIII
+Dialogue: 0,0:05:14.73,0:05:17.93,top,William,0000,0000,0000,,Augustus Kira Clover XIII!
+Dialogue: 0,0:05:17.93,0:05:19.92,top,Lady,0000,0000,0000,,Wow. It's the king.
+Dialogue: 0,0:05:19.92,0:05:21.91,main,Guy,0000,0000,0000,,He's so cool.
+Dialogue: 0,0:05:22.77,0:05:24.92,main,Lady,0000,0000,0000,,I love you, Your Majesty.
+Dialogue: 0,0:05:25.39,0:05:28.93,main,King,0000,0000,0000,,Why are you dawdling?! Pick up the pace!
+Dialogue: 0,0:05:28.93,0:05:31.47,main,King,0000,0000,0000,,This is my time to shine!
+Dialogue: 0,0:05:31.47,0:05:32.43,main,Sekke,0000,0000,0000,,Bah-yes!
+Dialogue: 0,0:05:33.43,0:05:36.11,italics,Sekke,0000,0000,0000,,Wh-Why? I know I just went with the flow,
+Dialogue: 0,0:05:36.11,0:05:39.22,italics,Sekke,0000,0000,0000,,but how did I get stuck\Nas the king's attendant?
+Dialogue: 0,0:05:39.22,0:05:40.98,main,King,0000,0000,0000,,Don't you dare stand next to me!
+Dialogue: 0,0:05:40.98,0:05:42.43,main,Sekke,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:05:42.43,0:05:44.07,main,King,0000,0000,0000,,That goes for you, too!
+Dialogue: 0,0:05:45.13,0:05:46.68,italics,King,0000,0000,0000,,Curse you, Julius.
+Dialogue: 0,0:05:46.68,0:05:48.75,italics,King,0000,0000,0000,,How dare you make me give \Na speech to the people
+Dialogue: 0,0:05:48.75,0:05:52.28,italics,King,0000,0000,0000,,just because a cold made you lose your voice?
+Dialogue: 0,0:05:52.28,0:05:54.51,italics,King,0000,0000,0000,,But this is the perfect chance
+Dialogue: 0,0:05:54.51,0:05:58.45,italics,King,0000,0000,0000,,to show the people my dignity and benevolence.
+Dialogue: 0,0:05:58.45,0:06:03.05,italics,King,0000,0000,0000,,You're a fool if you think your \Npopularity will last forever, Julius.
+Dialogue: 0,0:06:04.55,0:06:07.70,main,King,0000,0000,0000,,Good day, my fine citizens!
+Dialogue: 0,0:06:07.70,0:06:11.85,main,King,0000,0000,0000,,I am your king, Augustus Kira Clover XIII!
+Dialogue: 0,0:06:14.17,0:06:18.99,italics,King,0000,0000,0000,,My majestic presence has \Nleft them at a loss for words.
+Dialogue: 0,0:06:18.99,0:06:20.65,main,Lady,0000,0000,0000,,When will this be over?
+Dialogue: 0,0:06:20.65,0:06:21.45,main,Guy,0000,0000,0000,,Shh!
+Dialogue: 0,0:06:21.45,0:06:26.58,main,William,0000,0000,0000,,Your Majesty, the public awaits your wisdom.
+Dialogue: 0,0:06:26.58,0:06:30.29,main,William,0000,0000,0000,,Please do not make them wait too \Nlong and keep it brief, if possible.
+Dialogue: 0,0:06:30.29,0:06:31.95,main,King,0000,0000,0000,,Oh, of course.
+Dialogue: 0,0:06:31.95,0:06:36.50,italics,King,0000,0000,0000,,Tch! Curse you, Vangeance. \NHow dare you order me around?
+Dialogue: 0,0:06:37.73,0:06:41.81,main,King,0000,0000,0000,,Thanks to my valiant deeds and \Nsome help from the Magic Knights,
+Dialogue: 0,0:06:41.81,0:06:44.82,main,King,0000,0000,0000,,the threat known as the Eye \Nof the Midnight Sun has fled.
+Dialogue: 0,0:06:44.82,0:06:48.26,main,King,0000,0000,0000,,The Clover Kingdom is safe, \Nand peace has been restored.
+Dialogue: 0,0:06:48.26,0:06:52.51,main,King,0000,0000,0000,,This must be a result of my daily good deeds!
+Dialogue: 0,0:06:52.51,0:06:56.03,main,King,0000,0000,0000,,But I'm sure that some of you remain wary.
+Dialogue: 0,0:06:56.03,0:06:58.27,main,King,0000,0000,0000,,What will happen to your everyday lives?
+Dialogue: 0,0:06:58.27,0:07:01.05,main,King,0000,0000,0000,,What if other enemies attack?
+Dialogue: 0,0:07:01.62,0:07:04.02,main,King,0000,0000,0000,,There is nothing to fear!
+Dialogue: 0,0:07:04.02,0:07:06.90,main,King,0000,0000,0000,,Behold! My majestic light magic!
+Dialogue: 0,0:07:07.22,0:07:10.03,main,King,0000,0000,0000,,How brilliant! How valiant!
+Dialogue: 0,0:07:10.03,0:07:15.63,italics,King,0000,0000,0000,,Light Magic: Absolute Monarch \Nof Divine Brilliance!
+Dialogue: 0,0:07:16.22,0:07:18.04,italics,King,0000,0000,0000,,Perfection.
+Dialogue: 0,0:07:18.37,0:07:26.01,main,King,0000,0000,0000,,I give you my word, my adoring public! \NThe Clover Kingdom is in safe hands!
+Dialogue: 0,0:07:26.01,0:07:29.05,main,King,0000,0000,0000,,Leave everything to me!
+Dialogue: 0,0:07:35.42,0:07:39.56,main,Yami,0000,0000,0000,,Tch! You damn beanpole! \NLet's settle things once and for all!
+Dialogue: 0,0:07:40.65,0:07:45.36,main,Jack,0000,0000,0000,,You damn foreigner! Let's see who's stronger!
+Dialogue: 0,0:07:47.03,0:07:48.38,main,Jack,0000,0000,0000,,The hell do you want?!
+Dialogue: 0,0:07:48.38,0:07:49.74,main,Yami,0000,0000,0000,,What're you guys doing?
+Dialogue: 0,0:07:50.15,0:07:51.67,main,William,0000,0000,0000,,Yami, Jack...
+Dialogue: 0,0:07:52.09,0:07:54.11,main,William,0000,0000,0000,,I'm certain I told you that today was
+Dialogue: 0,0:07:54.11,0:07:56.58,main,William,0000,0000,0000,,an important day when we \Nwere going to tell the people
+Dialogue: 0,0:07:56.58,0:08:00.62,main,William,0000,0000,0000,,that we'd taken care of the Eye of \Nthe Midnight Sun and restored peace.
+Dialogue: 0,0:08:00.62,0:08:02.25,main,Yami,0000,0000,0000,,Was that today?
+Dialogue: 0,0:08:03.09,0:08:04.46,main,Jack,0000,0000,0000,,I totally forgot.
+Dialogue: 0,0:08:04.46,0:08:08.34,main,Charlotte,0000,0000,0000,,Not only were you late, but you're \Nfighting over something ridiculous.
+Dialogue: 0,0:08:08.34,0:08:10.62,main,Yami,0000,0000,0000,,Well, he started it.
+Dialogue: 0,0:08:10.62,0:08:14.01,main,Jack,0000,0000,0000,,What? You're the asshole who started it!
+Dialogue: 0,0:08:14.01,0:08:16.39,main,Fuegoleon,0000,0000,0000,,That's enough, you two.
+Dialogue: 0,0:08:16.39,0:08:18.85,main,Nozel,0000,0000,0000,,Remember where you are.
+Dialogue: 0,0:08:18.85,0:08:20.01,main,Both,0000,0000,0000,,Tch...
+Dialogue: 0,0:08:21.01,0:08:24.02,main,Lady,0000,0000,0000,,The Black Bulls and Praying \NMantises are so violent.
+Dialogue: 0,0:08:24.02,0:08:28.98,main,Guy,0000,0000,0000,,I saw in the paper that one of the \NBlack Bulls is possessed by a devil.
+Dialogue: 0,0:08:28.98,0:08:30.68,main,Lady,0000,0000,0000,,I knew there was no way
+Dialogue: 0,0:08:30.68,0:08:33.99,main,Lady,0000,0000,0000,,they should've placed second in \Nstars at the last Star Festival.
+Dialogue: 0,0:08:33.99,0:08:37.07,main,Guy,0000,0000,0000,,Yeah. They're the worst \Npossible squad, after all.
+Dialogue: 0,0:08:37.07,0:08:39.43,main,King,0000,0000,0000,,H-H-How dare you?!
+Dialogue: 0,0:08:39.43,0:08:43.02,main,King,0000,0000,0000,,That was my absolutely invincible light magic!
+Dialogue: 0,0:08:43.02,0:08:43.95,main,Yami,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:43.95,0:08:44.83,main,Jack,0000,0000,0000,,What're you talkin' about?
+Dialogue: 0,0:08:44.83,0:08:46.23,main,King,0000,0000,0000,,You know what I'm talking about!
+Dialogue: 0,0:08:46.23,0:08:49.04,main,King,0000,0000,0000,,How dare you interfere with my spotlight?!
+Dialogue: 0,0:08:49.04,0:08:53.47,main,William,0000,0000,0000,,Your Majesty. Please show \Nthe people your leniency.
+Dialogue: 0,0:08:53.47,0:08:56.43,main,William,0000,0000,0000,,I believe it best to show \Nthem how merciful you are.
+Dialogue: 0,0:08:56.43,0:08:58.29,main,King,0000,0000,0000,,I-Is that so?
+Dialogue: 0,0:08:58.29,0:09:00.54,italics,King,0000,0000,0000,,Tch. Who cares what you think?!
+Dialogue: 0,0:09:00.54,0:09:04.31,italics,King,0000,0000,0000,,Just because people praised you as \Na hero! Get off your high horse!
+Dialogue: 0,0:09:04.31,0:09:07.19,main,King,0000,0000,0000,,Indeed. I-It's wonderful \Nto see how lively you are.
+Dialogue: 0,0:09:07.19,0:09:10.45,main,King,0000,0000,0000,,Continue with your ways.
+Dialogue: 0,0:09:10.45,0:09:12.98,main,King,0000,0000,0000,,Do everything you can for the Clover Kingdom.
+Dialogue: 0,0:09:12.98,0:09:14.07,main,Both,0000,0000,0000,,Sure.
+Dialogue: 0,0:09:14.07,0:09:16.72,main,William,0000,0000,0000,,The king is now taking his leave.
+Dialogue: 0,0:09:16.72,0:09:19.18,main,William,0000,0000,0000,,I ask that you send him off \Nwith a round of applause.
+Dialogue: 0,0:09:20.58,0:09:22.51,main,Sekke,0000,0000,0000,,C-Captain Jack...
+Dialogue: 0,0:09:23.22,0:09:26.83,main,Sekke,0000,0000,0000,,Um, could you call me back to the \NPraying Mantises sometime soon?
+Dialogue: 0,0:09:27.23,0:09:29.46,main,Jack,0000,0000,0000,,Huh? Who the hell are you?
+Dialogue: 0,0:09:29.46,0:09:31.06,main,Sekke,0000,0000,0000,,Bah-ha?!
+Dialogue: 0,0:09:31.06,0:09:33.17,main,King,0000,0000,0000,,What are you doing?! Come here at once!
+Dialogue: 0,0:09:33.17,0:09:35.17,main,Sekke,0000,0000,0000,,B-Bah-yes!
+Dialogue: 0,0:09:35.17,0:09:36.93,main,Yami,0000,0000,0000,,He's one of yours, isn't he?
+Dialogue: 0,0:09:36.93,0:09:39.97,main,Jack,0000,0000,0000,,Like I'd ever choose a guy like that.
+Dialogue: 0,0:09:41.67,0:09:44.35,main,William,0000,0000,0000,,Let us take our leave, as well.
+Dialogue: 0,0:09:44.35,0:09:45.69,main,Rill,0000,0000,0000,,Right...
+Dialogue: 0,0:09:45.69,0:09:46.85,main,Dorothy,0000,0000,0000,,Okay!
+Dialogue: 0,0:09:47.75,0:09:49.86,main,Lady,0000,0000,0000,,Lord Vangeance!
+Dialogue: 0,0:09:49.86,0:09:52.72,italics,Owen,0000,0000,0000,,Good grief. It's finally over.
+Dialogue: 0,0:09:52.72,0:09:56.28,main,Yami,0000,0000,0000,,So... why're you dressed \Nlike that, Old Man Owen?
+Dialogue: 0,0:09:56.28,0:09:57.38,main,Owen,0000,0000,0000,,What?!
+Dialogue: 0,0:10:14.00,0:10:17.51,main,Finral,0000,0000,0000,,A-All of the Magic Knights \NSquad captains are here?
+Dialogue: 0,0:10:17.99,0:10:20.93,main,Mimosa,0000,0000,0000,,I feel immense pressure...
+Dialogue: 0,0:10:20.93,0:10:25.93,main,Noelle,0000,0000,0000,,Wh-Why were we called to a Magic Knights \NSquad captains' meeting, anyway?
+Dialogue: 0,0:10:27.56,0:10:29.69,main,William,0000,0000,0000,,My apologies, Yami.
+Dialogue: 0,0:10:29.69,0:10:34.99,main,William,0000,0000,0000,,It should be your squad receiving \Npraise from the public, not me.
+Dialogue: 0,0:10:34.99,0:10:37.57,main,Yami,0000,0000,0000,,Well, we're used to getting booed.
+Dialogue: 0,0:10:37.57,0:10:38.95,main,William,0000,0000,0000,,I apologize.
+Dialogue: 0,0:10:38.95,0:10:41.91,main,Yami,0000,0000,0000,,It's no big. Don't worry about it.
+Dialogue: 0,0:10:41.91,0:10:45.55,italics,Charlotte,0000,0000,0000,,Calm down. Don't let your \Nheart go aflutter, Charlotte.
+Dialogue: 0,0:10:45.55,0:10:47.45,italics,Charlotte,0000,0000,0000,,Stay calm... perfectly calm...
+Dialogue: 0,0:10:48.37,0:10:53.10,main,Yami,0000,0000,0000,,What's wrong, Prickly Queen? \NYour face is red. You okay?
+Dialogue: 0,0:10:53.10,0:10:54.46,main,Charlotte,0000,0000,0000,,I-I'm perfectly fine!
+Dialogue: 0,0:10:55.12,0:10:56.17,main,Yami,0000,0000,0000,,You know...
+Dialogue: 0,0:10:58.11,0:11:01.09,main,Yami,0000,0000,0000,,If you need to take a dump, \Ngo now! Don't hold it in!
+Dialogue: 0,0:11:01.73,0:11:05.35,main,Charlotte,0000,0000,0000,,Of course that's not it! \NHow are you so devoid of tact?!
+Dialogue: 0,0:11:05.76,0:11:06.68,main,Yami,0000,0000,0000,,I was wrong?!
+Dialogue: 0,0:11:06.68,0:11:08.14,main,Charlotte,0000,0000,0000,,Of course you're wrong!
+Dialogue: 0,0:11:08.14,0:11:10.64,main,Jack,0000,0000,0000,,You just don't get it, Yami.
+Dialogue: 0,0:11:10.64,0:11:13.65,main,Jack,0000,0000,0000,,This is why people say you're \Nso oblivious. Am I right?
+Dialogue: 0,0:11:14.65,0:11:16.15,main,Jack,0000,0000,0000,,You have to take a piss, right?
+Dialogue: 0,0:11:16.15,0:11:17.36,main,Charlotte,0000,0000,0000,,No!
+Dialogue: 0,0:11:17.79,0:11:19.25,italics,Noelle,0000,0000,0000,,The captains...
+Dialogue: 0,0:11:19.25,0:11:21.49,italics,Mimosa,0000,0000,0000,,Are they always like this?
+Dialogue: 0,0:11:21.49,0:11:23.62,italics,Finral,0000,0000,0000,,This is a rare sight to see, in its own way.
+Dialogue: 0,0:11:24.41,0:11:30.41,main,Yami,0000,0000,0000,,Damn that Julius. He's the one who \Ncalled us all here, and he's late again.
+Dialogue: 0,0:11:30.41,0:11:36.31,main,Yami,0000,0000,0000,,He didn't forget he called us all here and \Nthen just wander off somewhere, did he?
+Dialogue: 0,0:11:36.31,0:11:39.67,main,Yami,0000,0000,0000,,Damn that old man... I mean, old brat.
+Dialogue: 0,0:11:39.67,0:11:43.39,main,Nozel,0000,0000,0000,,You know... that might actually \Nbe possible this time.
+Dialogue: 0,0:11:43.39,0:11:45.76,main,Dorothy,0000,0000,0000,,Yeah! Like, totally!
+Dialogue: 0,0:11:45.76,0:11:47.43,italics,All,0000,0000,0000,,Yeah...
+Dialogue: 0,0:11:48.93,0:11:51.08,main,Yami,0000,0000,0000,,So what the hell's wrong with him?
+Dialogue: 0,0:11:51.08,0:11:55.11,main,Dorothy,0000,0000,0000,,No idea. He's apparently been like \Nthis ever since the spell broke.
+Dialogue: 0,0:11:57.74,0:11:59.69,main,Marx,0000,0000,0000,,Sorry to keep you waiting, everyone.
+Dialogue: 0,0:12:00.70,0:12:02.61,main,Julius,0000,0000,0000,,Hey, I see you're all here.
+Dialogue: 0,0:12:03.57,0:12:07.08,sign_12339_133_Finnes_Calmreich,Sign,0000,0000,0000,,{\blur3\fad(778,1)}Damnatio Kira
+Dialogue: 0,0:12:04.19,0:12:05.65,top,Noelle,0000,0000,0000,,He's...
+Dialogue: 0,0:12:05.65,0:12:07.08,top,Mimosa,0000,0000,0000,,It's Damnatio.
+Dialogue: 0,0:12:07.08,0:12:08.87,main,Finral,0000,0000,0000,,He was called here, too?
+Dialogue: 0,0:12:08.87,0:12:10.79,main,Damnatio,0000,0000,0000,,Pardon me.
+Dialogue: 0,0:12:10.79,0:12:12.29,main,Yami,0000,0000,0000,,You jackass...
+Dialogue: 0,0:12:12.89,0:12:15.37,main,Yami,0000,0000,0000,,If you have a problem with \None of my squad members again,
+Dialogue: 0,0:12:15.37,0:12:16.25,main,Yami,0000,0000,0000,,I'll gladly take you o—
+Dialogue: 0,0:12:16.25,0:12:17.64,main,Julius,0000,0000,0000,,Yami.
+Dialogue: 0,0:12:17.64,0:12:20.21,main,Julius,0000,0000,0000,,I'm the one who called Damnatio here.
+Dialogue: 0,0:12:20.21,0:12:22.43,main,Yami,0000,0000,0000,,You did?
+Dialogue: 0,0:12:22.43,0:12:26.66,main,Damnatio,0000,0000,0000,,It appears that what you'll be \Ndiscussing today concerns me, as well.
+Dialogue: 0,0:12:26.66,0:12:29.56,main,Damnatio,0000,0000,0000,,Therefore, I was told that\NI was obligated to be here.
+Dialogue: 0,0:12:31.53,0:12:35.65,main,Marx,0000,0000,0000,,Today, we'll be talking about the devil \Nthat resides in the Spade Kingdom.
+Dialogue: 0,0:12:36.66,0:12:40.71,main,Marx,0000,0000,0000,,The other day, a few of our fellow \Ncitizens went to the Heart Kingdom
+Dialogue: 0,0:12:40.71,0:12:42.65,main,Marx,0000,0000,0000,,to find out more about the devils.
+Dialogue: 0,0:12:42.97,0:12:45.67,main,Marx,0000,0000,0000,,I believe that you have all seen the reports,
+Dialogue: 0,0:12:45.67,0:12:50.72,main,Max,0000,0000,0000,,but I would like to hear from the \Nones who were actually there.
+Dialogue: 0,0:12:50.72,0:12:51.91,main,Marx,0000,0000,0000,,If you would.
+Dialogue: 0,0:12:51.91,0:12:53.01,main,Asta,0000,0000,0000,,Right!
+Dialogue: 0,0:12:53.01,0:12:54.41,main,Noelle,0000,0000,0000,,All right.
+Dialogue: 0,0:12:55.86,0:12:59.50,main,Mimosa,0000,0000,0000,,In the Heart Kingdom, \Nthey measure a mage's strength with
+Dialogue: 0,0:12:59.50,0:13:01.59,main,Mimosa,0000,0000,0000,,a system called magic stages.
+Dialogue: 0,0:13:01.59,0:13:08.14,main,Noelle,0000,0000,0000,,The stages go up in order from nine.\NThe smaller the number, the stronger the mage.
+Dialogue: 0,0:13:02.92,0:13:16.39,sign_7000_55_Stage_Zero,Sign,0000,0000,0000,,Stage Zero\NStage One\NStage Two\NStage Three\NStage Four\NStage Five\NStage Six\NStage Seven\NStage Eight\NStage Nine
+Dialogue: 0,0:13:08.62,0:13:12.61,main,Finral,0000,0000,0000,,According to Queen Loropechika, \Nit's not the total number of mages,
+Dialogue: 0,0:13:12.61,0:13:16.39,main,Finral,0000,0000,0000,,but the number of mages near \Nstage zero that will determine
+Dialogue: 0,0:13:16.82,0:13:18.98,main,Finral,0000,0000,0000,,who is more powerful in a battle among mages.
+Dialogue: 0,0:13:19.31,0:13:22.22,main,Julius,0000,0000,0000,,And this part's really important...
+Dialogue: 0,0:13:22.22,0:13:23.68,main,Julius,0000,0000,0000,,If we're up against a devil,
+Dialogue: 0,0:13:23.68,0:13:27.20,main,Julius,0000,0000,0000,,apparently we won't stand a chance unless\N everyone fighting is stage one or stronger.
+Dialogue: 0,0:13:27.20,0:13:28.94,main,Fuegoleon,0000,0000,0000,,Stage one, eh?
+Dialogue: 0,0:13:31.33,0:13:33.57,main,Julius,0000,0000,0000,,The powerful curse in the Heart Kingdom that
+Dialogue: 0,0:13:33.57,0:13:36.00,main,Julius,0000,0000,0000,,Asta and the others went to investigate
+Dialogue: 0,0:13:36.55,0:13:39.45,main,Julius,0000,0000,0000,,was the one cast upon Queen Loropechika.
+Dialogue: 0,0:13:39.45,0:13:42.75,main,Julius,0000,0000,0000,,It seems the queen only has about \Nanother year to live due to the curse.
+Dialogue: 0,0:13:43.19,0:13:45.13,main,Nozel,0000,0000,0000,,And the one who put that curse on her...
+Dialogue: 0,0:13:45.47,0:13:47.05,main,Julius,0000,0000,0000,,...is the devil Megicula.
+Dialogue: 0,0:13:48.30,0:13:51.18,main,Marx,0000,0000,0000,,And from a separate report from \Nanother group of Black Bulls,
+Dialogue: 0,0:13:51.79,0:13:56.39,main,Marx,0000,0000,0000,,the Diamond Kingdom is currently \Nunder attack by the Spade Kingdom.
+Dialogue: 0,0:13:56.39,0:13:59.94,main,Marx,0000,0000,0000,,In the past few years, the Spade Kingdom\N has become more and more powerful.
+Dialogue: 0,0:14:00.25,0:14:01.44,main,Marx,0000,0000,0000,,It's very likely...
+Dialogue: 0,0:14:01.44,0:14:05.95,main,Fuegoleon,0000,0000,0000,,...that specific devil is helping them out.
+Dialogue: 0,0:14:06.51,0:14:10.74,main,Julius,0000,0000,0000,,What we'll be discussing at this meeting \Nis what we should do to go up against
+Dialogue: 0,0:14:10.74,0:14:12.83,main,Julius,0000,0000,0000,,the Spade Kingdom and this devil.
+Dialogue: 0,0:14:12.83,0:14:15.10,main,Julius,0000,0000,0000,,Queen Loropechika plans to attack
+Dialogue: 0,0:14:15.10,0:14:18.96,main,Julius,0000,0000,0000,,the Spade Kingdom in six months, \Nbefore she becomes weaker.
+Dialogue: 0,0:14:19.35,0:14:23.39,main,Julius,0000,0000,0000,,We are thinking of assisting the \NHeart Kingdom and fighting alongside them.
+Dialogue: 0,0:14:23.96,0:14:28.47,main,Julius,0000,0000,0000,,I would like all of you to train your \Nsquad members as much as you can.
+Dialogue: 0,0:14:28.47,0:14:30.10,main,Julius,0000,0000,0000,,We only have six months,
+Dialogue: 0,0:14:30.10,0:14:33.74,main,Julius,0000,0000,0000,,but do everything you can to \Nraise everyone's magic stages
+Dialogue: 0,0:14:33.74,0:14:39.23,main,Julius,0000,0000,0000,,so that we can face the Spade Kingdom \Nand protect this kingdom.
+Dialogue: 0,0:14:40.31,0:14:43.46,main,Julius,0000,0000,0000,,I've heard from Queen Loropechika \Nthat the Spirit Guardians
+Dialogue: 0,0:14:43.46,0:14:45.98,main,Julius,0000,0000,0000,,will also help us out.
+Dialogue: 0,0:14:46.69,0:14:48.11,main,Julius,0000,0000,0000,,Can I count on all of you?
+Dialogue: 0,0:14:48.11,0:14:49.46,main,Fuegoleon,0000,0000,0000,,Of course.
+Dialogue: 0,0:14:49.46,0:14:50.32,main,Nozel,0000,0000,0000,,Yes.
+Dialogue: 0,0:14:50.32,0:14:52.45,main,Yami,0000,0000,0000,,Like you need to even ask us.
+Dialogue: 0,0:14:52.45,0:14:54.30,main,Yami,0000,0000,0000,,We've already started.
+Dialogue: 0,0:14:54.79,0:14:58.83,main,Yami,0000,0000,0000,,The Black Bulls will be doing as \Nwe please for the next six months.
+Dialogue: 0,0:15:01.03,0:15:02.22,main,Julius,0000,0000,0000,,William?
+Dialogue: 0,0:15:02.90,0:15:04.80,main,William,0000,0000,0000,,I will participate in the fight...
+Dialogue: 0,0:15:04.80,0:15:07.77,main,William,0000,0000,0000,,But after everything I've done,
+Dialogue: 0,0:15:07.77,0:15:12.22,main,William,0000,0000,0000,,I cannot face my squad as the Captain \Nof the Golden Dawn any longer.
+Dialogue: 0,0:15:12.57,0:15:15.97,main,William,0000,0000,0000,,I ask that you relieve me \Nof my duties as captain.
+Dialogue: 0,0:15:15.97,0:15:17.27,main,Asta,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:17.27,0:15:18.15,main,Yami,0000,0000,0000,,Hey!
+Dialogue: 0,0:15:19.30,0:15:22.30,main,William,0000,0000,0000,,Also, I'd like you to assign me a new mission.
+Dialogue: 0,0:15:22.86,0:15:26.57,main,William,0000,0000,0000,,I'd like to put my life on \Nthe line to defeat the devil.
+Dialogue: 0,0:15:26.57,0:15:28.57,main,Mimosa,0000,0000,0000,,C-Captain...
+Dialogue: 0,0:15:28.57,0:15:31.23,main,Charlotte,0000,0000,0000,,In that case, I am also guilty.
+Dialogue: 0,0:15:31.23,0:15:33.99,main,Charlotte,0000,0000,0000,,Though my body was taken over by an elf,
+Dialogue: 0,0:15:33.99,0:15:38.58,main,Charlotte,0000,0000,0000,,the crimes I have committed against the \NClover Kingdom are punishable by death.
+Dialogue: 0,0:15:39.99,0:15:44.08,main,Kaiser,0000,0000,0000,,I agree. I am not worthy of being a captain.
+Dialogue: 0,0:15:44.08,0:15:47.09,main,Dorothy,0000,0000,0000,,It's honestly not bugging me much.
+Dialogue: 0,0:15:47.09,0:15:48.59,main,Yami,0000,0000,0000,,Be a {\i1}little{\i0} bit bugged, at least.
+Dialogue: 0,0:15:48.59,0:15:50.26,main,Julius,0000,0000,0000,,Now, now, just wait a moment.
+Dialogue: 0,0:15:51.26,0:15:55.09,main,Julius,0000,0000,0000,,I understand why you feel guilty,
+Dialogue: 0,0:15:55.09,0:15:59.22,main,Julius,0000,0000,0000,,but I cannot relieve you \Nof your duties as captains.
+Dialogue: 0,0:15:59.62,0:16:02.98,main,Julius,0000,0000,0000,,Besides, what you said \Njust now would end up
+Dialogue: 0,0:16:02.98,0:16:07.02,main,Julius,0000,0000,0000,,involving all the other Magic Knights \Nwho were possessed by elves, too.
+Dialogue: 0,0:16:08.21,0:16:11.28,main,Julius,0000,0000,0000,,And then who would be \Nleft to protect this kingdom?
+Dialogue: 0,0:16:11.28,0:16:14.10,main,Julius,0000,0000,0000,,If you want to atone for what you did,
+Dialogue: 0,0:16:14.10,0:16:16.94,main,Julius,0000,0000,0000,,you have no other option but \Nto forget your positions
+Dialogue: 0,0:16:16.94,0:16:18.66,main,Julius,0000,0000,0000,,and do all you can to \Nprotect this kingdom.
+Dialogue: 0,0:16:20.16,0:16:22.92,main,Julius,0000,0000,0000,,I trust in all of you.
+Dialogue: 0,0:16:22.92,0:16:24.15,main,Charlotte,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:16:24.15,0:16:25.29,main,Kaiser,0000,0000,0000,,Very well.
+Dialogue: 0,0:16:25.29,0:16:26.75,main,Dorothy,0000,0000,0000,,Roger!
+Dialogue: 0,0:16:26.75,0:16:28.29,main,William,0000,0000,0000,,As you wish.
+Dialogue: 0,0:16:29.81,0:16:33.67,main,Julius,0000,0000,0000,,So, Damnatio, does that work for you?
+Dialogue: 0,0:16:33.67,0:16:35.01,main,Damnatio,0000,0000,0000,,Whatever do you mean?
+Dialogue: 0,0:16:36.26,0:16:39.58,main,Julius,0000,0000,0000,,In order to defeat the devil, the Magic Knights
+Dialogue: 0,0:16:39.58,0:16:43.69,main,Julius,0000,0000,0000,,will have to get stronger \Nin the next six months.
+Dialogue: 0,0:16:43.69,0:16:46.50,main,Julius,0000,0000,0000,,I'd like you to think about \Nwhat to do with Asta
+Dialogue: 0,0:16:46.50,0:16:50.44,main,Julius,0000,0000,0000,,after we've taken care of this matter \Nwith the Spade Kingdom, if you would.
+Dialogue: 0,0:16:53.66,0:16:55.32,main,Damnatio,0000,0000,0000,,I have no objections.
+Dialogue: 0,0:16:56.61,0:16:59.00,main,Damnatio,0000,0000,0000,,But do not get the wrong idea.
+Dialogue: 0,0:16:59.00,0:17:01.02,main,Damnatio,0000,0000,0000,,I'm only agreeing to this because
+Dialogue: 0,0:17:01.02,0:17:04.79,main,Damnatio,0000,0000,0000,,doing otherwise at the moment \Nwould not benefit the Clover Kingdom.
+Dialogue: 0,0:17:05.58,0:17:07.79,main,Damnatio,0000,0000,0000,,Now, if you'll excuse me.
+Dialogue: 0,0:17:11.23,0:17:13.81,main,Yami,0000,0000,0000,,That heartless scales bastard.
+Dialogue: 0,0:17:13.81,0:17:17.47,main,Asta,0000,0000,0000,,So, uh, I... Thank you!
+Dialogue: 0,0:17:17.47,0:17:19.05,main,Julius,0000,0000,0000,,No need to thank me.
+Dialogue: 0,0:17:19.53,0:17:21.93,main,Asta,0000,0000,0000,,Right! Thank you very much!
+Dialogue: 0,0:17:23.02,0:17:25.31,main,Julius,0000,0000,0000,,Again, I'm counting on all of you.
+Dialogue: 0,0:17:26.29,0:17:27.69,main,Jack,0000,0000,0000,,Leave it to me!
+Dialogue: 0,0:17:27.69,0:17:30.78,main,Jack,0000,0000,0000,,I wonder how I should sever \Nmy squad members...
+Dialogue: 0,0:17:30.78,0:17:32.74,main,Jack,0000,0000,0000,,I'm getting excited just thinking about it!
+Dialogue: 0,0:17:32.74,0:17:34.10,main,Yami,0000,0000,0000,,Yeah, maybe don't.
+Dialogue: 0,0:17:34.10,0:17:35.85,main,Dorothy,0000,0000,0000,,I can't wait!
+Dialogue: 0,0:17:35.85,0:17:38.62,main,Fuegoleon,0000,0000,0000,,I should go lay out plans \Nfor training immediately.
+Dialogue: 0,0:17:38.62,0:17:41.61,main,Nozel,0000,0000,0000,,Why don't all the squads do this together?
+Dialogue: 0,0:17:41.61,0:17:44.45,main,Charlotte,0000,0000,0000,,That is definitely an option. \NHaving mock battles would also help.
+Dialogue: 0,0:17:45.41,0:17:46.79,main,Jack,0000,0000,0000,,I ain't gonna hold back!
+Dialogue: 0,0:17:46.79,0:17:48.12,main,Yami,0000,0000,0000,,That's my line, asshole.
+Dialogue: 0,0:17:48.12,0:17:52.31,main,Kaiser,0000,0000,0000,,Sounds like we'll need to round \Nup some healing mages, too.
+Dialogue: 0,0:17:53.47,0:17:55.13,main,Julius,0000,0000,0000,,Don't get too carried away, okay?
+Dialogue: 0,0:17:57.09,0:18:00.77,main,Julius,0000,0000,0000,,Oh, right. Marx, you can have him come in.
+Dialogue: 0,0:18:00.77,0:18:01.76,main,Marx,0000,0000,0000,,As you wish.
+Dialogue: 0,0:18:05.41,0:18:06.27,main,Kaiser,0000,0000,0000,,Oho?
+Dialogue: 0,0:18:06.74,0:18:09.08,top,Yami,0000,0000,0000,,Hey, it's Hard Ham.
+Dialogue: 0,0:18:08.12,0:18:12.59,sign_19987_258_Spirit_Guardian_,Sign,0000,0000,0000,,{\blur3\fad(926,1083)}Former Captain of the Purple Orcas\N{\fs30}Gueldre Poizot
+Dialogue: 0,0:18:09.08,0:18:12.59,top,Julius,0000,0000,0000,,I'm sure you're all very familiar with \Nthe former Captain of the Purple Orcas,
+Dialogue: 0,0:18:12.59,0:18:14.57,main,Julius,0000,0000,0000,,Gueldre Poizot.
+Dialogue: 0,0:18:14.57,0:18:18.07,main,Julius,0000,0000,0000,,The other day, while Gueldre \Nwas at the Shadow Palace...
+Dialogue: 0,0:18:18.52,0:18:22.74,main,Julius,0000,0000,0000,,He managed to carry away a load of \Nancient magic items and jewels
+Dialogue: 0,0:18:22.74,0:18:27.07,main,Julius,0000,0000,0000,,with his former senior \Nand Magic Knight, Revchi.
+Dialogue: 0,0:18:29.00,0:18:30.28,main,Yami,0000,0000,0000,,Oh?
+Dialogue: 0,0:18:30.28,0:18:32.29,main,Charlotte,0000,0000,0000,,You heathen. You never learn.
+Dialogue: 0,0:18:32.29,0:18:37.34,main,Jack,0000,0000,0000,,I was planning to keep him whole, \Nbut I can't wait any longer!
+Dialogue: 0,0:18:37.34,0:18:40.84,main,Jack,0000,0000,0000,,I'm gonna turn him into sliced ham right now!
+Dialogue: 0,0:18:40.84,0:18:42.76,main,Julius,0000,0000,0000,,No, wait.
+Dialogue: 0,0:18:43.55,0:18:46.35,main,Julius,0000,0000,0000,,I'm thinking about pardoning Gueldre.
+Dialogue: 0,0:18:46.35,0:18:47.64,main,Asta,0000,0000,0000,,Pardoning him?
+Dialogue: 0,0:18:47.64,0:18:48.94,main,Gueldre,0000,0000,0000,,Huh?
+Dialogue: 0,0:18:48.94,0:18:51.85,main,Julius,0000,0000,0000,,Gueldre has a knack for business.
+Dialogue: 0,0:18:51.85,0:18:54.51,main,Julius,0000,0000,0000,,I'm sure he'll be able to \Nturn an even bigger profit
+Dialogue: 0,0:18:54.51,0:18:58.03,main,Julius,0000,0000,0000,,from the treasures he tried to get away with.
+Dialogue: 0,0:18:59.43,0:19:03.61,main,Julius,0000,0000,0000,,And I'd like him to use that money \Nto help support the kingdom.
+Dialogue: 0,0:19:03.61,0:19:06.58,main,Julius,0000,0000,0000,,You know, since repairs cost quite a bit.
+Dialogue: 0,0:19:07.10,0:19:11.04,main,Julius,0000,0000,0000,,It's not like the kingdom has endless riches.
+Dialogue: 0,0:19:11.04,0:19:13.29,main,Julius,0000,0000,0000,,You'll help us out, right?
+Dialogue: 0,0:19:13.29,0:19:15.04,main,Gueldre,0000,0000,0000,,U-Um...
+Dialogue: 0,0:19:15.46,0:19:19.09,italics,Gueldre,0000,0000,0000,,Suddenly this all depends \Non me turning a profit!
+Dialogue: 0,0:19:19.53,0:19:20.76,main,Julius,0000,0000,0000,,Right?
+Dialogue: 0,0:19:20.76,0:19:24.50,main,Gueldre,0000,0000,0000,,O-Of course! I will do everything \Nthat I possibly can!
+Dialogue: 0,0:19:24.50,0:19:26.51,main,Julius,0000,0000,0000,,That'll help us out quite a bit. Thank you.
+Dialogue: 0,0:19:26.51,0:19:27.89,main,Gueldre,0000,0000,0000,,Y-Yes, sir!
+Dialogue: 0,0:19:27.89,0:19:30.50,italics,Asta,0000,0000,0000,,There was no way he could decline!
+Dialogue: 0,0:19:30.50,0:19:33.40,italics,Finral,0000,0000,0000,,That was a different kind \Nof pressure than Yami uses.
+Dialogue: 0,0:19:33.40,0:19:36.70,main,Yami,0000,0000,0000,,Tch! Make sure you pull your own \Nweight around here, Hard Ham.
+Dialogue: 0,0:19:36.70,0:19:40.07,main,Jack,0000,0000,0000,,Mess this up and I'm gonna \Nsell you as sliced ham.
+Dialogue: 0,0:19:40.50,0:19:42.46,main,Julius,0000,0000,0000,,One last thing.
+Dialogue: 0,0:19:42.46,0:19:46.95,main,Julius,0000,0000,0000,,Like I said, the kingdom \Ndoesn't have endless riches.
+Dialogue: 0,0:19:46.95,0:19:50.60,main,Julius,0000,0000,0000,,So to help out with that, \NI'd like to make your salary as
+Dialogue: 0,0:19:50.60,0:19:53.79,main,Julius,0000,0000,0000,,Magic Knight Squad Captains \Nhalf of what it usually is.
+Dialogue: 0,0:19:53.79,0:19:54.75,main,Yami,0000,0000,0000,,What?!
+Dialogue: 0,0:19:54.75,0:19:57.24,main,Kaiser,0000,0000,0000,,Seems like a logical solution.
+Dialogue: 0,0:19:57.24,0:19:58.42,main,Fuegoleon,0000,0000,0000,,I have no objections.
+Dialogue: 0,0:19:58.42,0:19:59.84,main,Nozel,0000,0000,0000,,Of course, I agree.
+Dialogue: 0,0:19:59.84,0:20:01.33,main,Rill,0000,0000,0000,,Sure...
+Dialogue: 0,0:20:01.33,0:20:02.49,main,Dorothy,0000,0000,0000,,Okay!
+Dialogue: 0,0:20:02.49,0:20:04.01,main,Charlotte,0000,0000,0000,,I'm fine with that.
+Dialogue: 0,0:20:04.37,0:20:06.26,main,William,0000,0000,0000,,It's the least I can do.
+Dialogue: 0,0:20:06.75,0:20:08.30,main,Julius,0000,0000,0000,,Well, I guess that's that.
+Dialogue: 0,0:20:08.30,0:20:09.72,main,Yami,0000,0000,0000,,Now, hang on a second!
+Dialogue: 0,0:20:09.72,0:20:11.27,main,Jack,0000,0000,0000,,You can't be serious!
+Dialogue: 0,0:20:11.27,0:20:12.23,main,Julius,0000,0000,0000,,What's the matter?
+Dialogue: 0,0:20:12.23,0:20:15.30,main,Yami,0000,0000,0000,,Half?! Come on, man! I'm in debt!
+Dialogue: 0,0:20:15.30,0:20:16.99,main,Jack,0000,0000,0000,,You want us to go broke?!
+Dialogue: 0,0:20:17.70,0:20:21.50,main,Julius,0000,0000,0000,,Well, you know, you need to set \Nan example for your subordinates.
+Dialogue: 0,0:20:21.50,0:20:23.03,main,Yami,0000,0000,0000,,I absolutely decline!
+Dialogue: 0,0:20:23.69,0:20:27.20,main,Julius,0000,0000,0000,,Well, majority rules, so...
+Dialogue: 0,0:20:27.20,0:20:29.45,main,Julius,0000,0000,0000,,There you have it.
+Dialogue: 0,0:20:29.78,0:20:33.50,main,Marx,0000,0000,0000,,We now conclude the Magic Knights \NSquad captains' meeting.
+Dialogue: 0,0:20:37.05,0:20:38.74,main,Both,0000,0000,0000,,This is bullshit!
+Dialogue: 0,0:20:39.55,0:20:41.30,sign_12339_133_Finnes_Calmreich,Sign,0000,0000,0000,,{\blur3}Closed for a Private Event
+Dialogue: 0,0:20:44.55,0:20:47.33,main,Charlotte,0000,0000,0000,,How long are you going to carry \Non with your drunken rambling?
+Dialogue: 0,0:20:47.33,0:20:48.93,main,Fuegoleon,0000,0000,0000,,I won't put up with this any longer.
+Dialogue: 0,0:20:48.93,0:20:50.79,main,Yami,0000,0000,0000,,Yeah, go home, you square!
+Dialogue: 0,0:20:50.79,0:20:53.03,main,Yami,0000,0000,0000,,Must be nice...
+Dialogue: 0,0:20:53.03,0:20:55.54,main,Jack,0000,0000,0000,,You assholes always had money.
+Dialogue: 0,0:20:55.54,0:20:59.44,main,Jack,0000,0000,0000,,I'm sure getting your salary \Ncut in half doesn't even sting.
+Dialogue: 0,0:20:59.44,0:21:00.98,main,Both,0000,0000,0000,,Damn it!
+Dialogue: 0,0:21:01.46,0:21:02.78,main,Nozel,0000,0000,0000,,This is nonsense.
+Dialogue: 0,0:21:03.10,0:21:05.85,main,Kaiser,0000,0000,0000,,It's always best to drink in moderation.
+Dialogue: 0,0:21:05.85,0:21:08.24,main,Dorothy,0000,0000,0000,,Ciao! See you later.
+Dialogue: 0,0:21:09.83,0:21:12.50,main,Yami,0000,0000,0000,,Come on, you can hang out a little longer.
+Dialogue: 0,0:21:12.50,0:21:14.12,main,Jack,0000,0000,0000,,Yeah, you have time.
+Dialogue: 0,0:21:14.12,0:21:19.38,main,Yami,0000,0000,0000,,Come on, brave hero who saved \Nthe kingdom. Let's play a little game.
+Dialogue: 0,0:21:19.38,0:21:20.71,main,William,0000,0000,0000,,Game?
+Dialogue: 0,0:21:20.71,0:21:25.24,main,Jack,0000,0000,0000,,We'll get back the salary we \Nlost by taking it from you!
+Dialogue: 0,0:21:25.24,0:21:26.22,main,William,0000,0000,0000,,Very well.
+Dialogue: 0,0:21:26.72,0:21:29.05,main,Both,0000,0000,0000,,We'll take everything you've got!
+Dialogue: 0,0:21:33.98,0:21:35.48,main,William,0000,0000,0000,,Good grief...
+Dialogue: 0,0:21:35.87,0:21:37.98,main,Jack,0000,0000,0000,,I win...
+Dialogue: 0,0:21:38.46,0:21:41.41,main,Yami,0000,0000,0000,,Now I've got three times my salary...
+Dialogue: 0,0:21:42.74,0:21:44.88,main,William,0000,0000,0000,,I'm very grateful to both of you.
+Dialogue: 0,0:21:44.88,0:21:49.11,main,William,0000,0000,0000,,Despite everything that happened, \Nyou continue to treat me the same.
+Dialogue: 0,0:21:50.09,0:21:55.75,main,William,0000,0000,0000,,I promise you that I will do everything \Nin my power to defeat this devil.
+Dialogue: 0,0:21:57.42,0:21:58.75,main,William,0000,0000,0000,,Goodnight.
+Dialogue: 0,0:21:59.54,0:22:02.75,main,William,0000,0000,0000,,Sorry to cause such a fuss, sir.
+Dialogue: 0,0:22:03.62,0:22:05.33,main,Barkeep,0000,0000,0000,,Thank you very much.
+Dialogue: 0,0:23:39.69,0:23:41.98,italics,Nar,0000,0000,0000,,The Magic Knight Squads make \Ntheir move to go up against
+Dialogue: 0,0:23:41.98,0:23:43.45,italics,Nar,0000,0000,0000,,the Spade Kingdom and the devil.
+Dialogue: 0,0:23:43.45,0:23:46.94,italics,Nar,0000,0000,0000,,In the meantime, Asta and Yuno \Nhead back to Hage Village.
+Dialogue: 0,0:23:46.94,0:23:51.03,italics,Some,0000,0000,0000,,Next time on {\i0}Black Clover{\i1}, \NPage 131: "A New Resolve."
+Dialogue: 0,0:23:48.11,0:23:54.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 131\N\N{\fs18} A New Resolve
+Dialogue: 0,0:23:51.03,0:23:53.99,italics,Nar,0000,0000,0000,,They continue on their path \Nto becoming the Wizard King.

@@ -1,0 +1,404 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: OP_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,20,&H00E4E2F0,&H000000FF,&H64070805,&H000D1728,-1,-1,0,0,100,100,0,0,1,0,0,8,0030,0030,0100,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_138_1_Black_Clover_is_,Trebuchet MS,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_1785_19_Vice_Captain_of_,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0070,0275,0090,1
+Style: sign_5516_38_King_of_the_Clov,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0105,1
+Style: sign_6102_39_Vetto_the_Despai,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0108,0362,0129,1
+Style: sign_6102_40_Fana_the_Hateful,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0081,0076,1
+Style: sign_6730_49_Captain_of_the_A,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_7061_51_A_Team_Coral_Pea,Times New Roman,20,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0150,1
+Style: sign_7198_131_Nean,Times New Roman,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0336,0254,0134,1
+Style: sign_7198_132_Common_Realm,Times New Roman,24,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0450,0190,1
+Style: sign_7198_133_Kikka,Times New Roman,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0265,0315,0260,1
+Style: sign_9194_75_Yay____Yay____,Times New Roman,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_10111_106_Venue_for_the_Ro,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_11720_132_Bell_,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0235,0030,0070,1
+Style: sign_12339_133_Finnes_Calmreich,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_13177_157_1st_Class_Interm,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0015,0424,0080,1
+Style: sign_13177_158_4th_Class_Senior,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0230,0250,0080,1
+Style: sign_13177_159_1st_Class_Interm,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0415,0030,0080,1
+Style: sign_14555_151_4_years_ago,Times New Roman,28,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0085,1
+Style: sign_15736_152_Sandler,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0060,0505,0205,1
+Style: sign_15736_154_Solid,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0135,0455,0225,1
+Style: sign_15736_155_O_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0110,0440,0060,1
+Style: sign_15736_156_En___Noelle___Yu,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0070,0205,1
+Style: sign_16031_175_The_Eye_of_the_M,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_16031_176_Sally,Times New Roman,26,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0350,0075,1
+Style: sign_16031_177_Rades,Times New Roman,26,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0335,0030,0075,1
+Style: sign_17323_210_Also_got_in_thro,Times New Roman,24,&H000B0B0B,&H000000FF,&H00FFFFFF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0159,0156,0020,1
+Style: sign_18699_183_Luck_s_High_Mana,Times New Roman,26,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0020,1
+Style: sign_18752_184_High_Mana_Detect,Times New Roman,30,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0195,0030,0130,1
+Style: sign_19376_197_Fate_Manipulatio,Times New Roman,16,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0000,0134,0020,1
+Style: sign_19376_198_Fate_Manipulatio,Times New Roman,30,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0121,0000,0020,1
+Style: sign_19376_197_F_a_t_e___M_a_n_,Times New Roman,19,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0492,0130,0020,1
+Style: sign_19376_201_A_b_s_o_l_u_t_e_,Times New Roman,19,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0100,0477,0018,1
+Style: sign_21447_269_Mage_Attendant_t,Times New Roman,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0310,0095,1
+Style: sign_21447_270_1st_Class_Interm,Times New Roman,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0355,0030,0095,1
+Style: sign_22029_222_Wimpy,Arial,30,&H00171816,&H000000FF,&H00EEEDED,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0040,0030,0040,1
+Style: sign_22078_223_Carefree,Arial,30,&H00171816,&H000000FF,&H00EEEDED,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,6,0040,0030,0020,1
+Style: sign_24182_226_Member_of_the_Pu,Times New Roman,20,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_25640_274_Group_1_En_Ringa,Times New Roman,24,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0040,0030,0125,1
+Style: sign_32950_385_Halt_,Times New Roman,30,&H00332E32,&H000000FF,&H00DADEE2,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0360,0030,0020,1
+Style: sign_32992_374_gLaMoUr_WoRlD,Verdana,30,&H00A787ED,&H000000FF,&H001A1E4B,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0084,0404,0250,1
+Style: sign_33089_334_Bulls,Verdana,30,&H0007A0E4,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,6,0030,0030,0020,1
+Style: sign_33137_335_Hello__we_re_Gor,Trebuchet MS,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33018_294_Sa,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0045,0030,0275,1
+Style: sign_33018_295_Rii,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,1,0480,0030,0130,1
+Style: sign_33090_345_Part_1_,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0262,0262,0275,1
+Style: sign_33126_298_Shi,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0275,1
+Style: sign_33126_299_Rii,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,1,0465,0030,0130,1
+Style: sign_33236_349_Luck,Trebuchet MS,30,&H00000100,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_33248_350_Ahaha_,Verdana,30,&H00161622,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0030,0030,0020,1
+Style: sign_33332_352_Rucksack,Verdana,30,&H00161622,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0030,0030,0020,1
+Style: sign_33427_257_Weaken__Naeru_,Trebuchet MS,30,&H00000100,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_13025_94_That_s_amazing,Trebuchet MS,21,&H001F4D76,&H000000FF,&H32D7E0FE,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,2,0,1,0030,0030,0100,1
+Style: sign_13025_95_That_s_amazing,Trebuchet MS,21,&H004FAD56,&H000000FF,&H32D7E0FE,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,2,0,9,0030,0030,0020,1
+Style: sign_7798_63_High_,Times New Roman,18,&H00F6F4FD,&H000000FF,&H322300BB,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_7798_64_Devil,Times New Roman,24,&H00E4E6E1,&H000000FF,&H32000500,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_7798_67_Royals,Times New Roman,25,&H00EDF6F1,&H000000FF,&H320B0330,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_7839_71_Magic_,Times New Roman,25,&H00FCFCFC,&H000000FF,&H32000003,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_7876_72_Sol,Times New Roman,24,&H00E4E6E1,&H000000FF,&H32000500,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0085,0025,1
+Style: sign_7876_73_Commoners,Times New Roman,25,&H00EDF6F1,&H000000FF,&H321B0780,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0510,0064,1
+Style: sign_7880_74_Magna,Times New Roman,24,&H00E4E6E1,&H000000FF,&H32000500,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0135,0030,0155,1
+Style: sign_7880_75_Kid,Times New Roman,24,&H00E4E6E1,&H000000FF,&H32000500,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0202,0065,1
+Style: sign_7880_76_Bwah_,Verdana,30,&H00EAF9F7,&H000000FF,&H320D1B1B,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_7880_77_Low,Times New Roman,18,&H00F6F4FD,&H000000FF,&H32168FD6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0355,0030,0135,1
+Style: sign_16413_171_First_Wizard_Kin,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0100,1
+Style: sign_19021_200_500_Years_Ago,Times New Roman,30,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0220,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:17.22,0:00:18.94,main,Guy,0000,0000,0000,,What in the world is that creature?!
+Dialogue: 0,0:00:18.94,0:00:20.37,main,Guy 2,0000,0000,0000,,R-Run!
+Dialogue: 0,0:00:20.37,0:00:22.08,main,Lady,0000,0000,0000,,Where are we supposed to run?!
+Dialogue: 0,0:00:37.17,0:00:38.87,main,Lady,0000,0000,0000,,Oh, God...
+Dialogue: 0,0:00:38.87,0:00:40.97,main,Old man,0000,0000,0000,,It's the end of the world.
+Dialogue: 0,0:00:42.73,0:00:47.48,italics,Nar,0000,0000,0000,,It appeared as though the world \Nwould be destroyed by the demon.
+Dialogue: 0,0:00:50.98,0:00:52.99,italics,Nar,0000,0000,0000,,But a single mage...
+Dialogue: 0,0:00:54.77,0:00:56.01,flashbackitalics,Licht,0000,0000,0000,,Lumiere...
+Dialogue: 0,0:00:56.79,0:01:00.37,flashbackitalics,Licht,0000,0000,0000,,Please kill me!
+Dialogue: 0,0:01:01.62,0:01:03.37,italics,Lumiere,0000,0000,0000,,I finally understand...
+Dialogue: 0,0:01:03.37,0:01:06.21,italics,Lumiere,0000,0000,0000,,why I was born with so much...
+Dialogue: 0,0:01:06.86,0:01:07.98,italics,Lumiere,0000,0000,0000,,magical power.
+Dialogue: 0,0:01:09.27,0:01:10.50,italics,Lumiere,0000,0000,0000,,I will not let you...
+Dialogue: 0,0:01:11.09,0:01:12.96,italics,Lumiere,0000,0000,0000,,become a murderer!
+Dialogue: 0,0:02:42.07,0:02:46.70,Ep Title,Sign,0000,0000,0000,,A Reunion Across Time and Space
+Dialogue: 0,0:03:02.62,0:03:03.78,main,Guy,0000,0000,0000,,That's...
+Dialogue: 0,0:03:03.78,0:03:04.89,main,,0000,0000,0000,,The prince!
+Dialogue: 0,0:03:04.89,0:03:06.50,main,Guy,0000,0000,0000,,Prince Lumiere!
+Dialogue: 0,0:03:42.45,0:03:45.42,italics,Secré,0000,0000,0000,,They used a magic item that I created
+Dialogue: 0,0:03:45.89,0:03:48.65,italics,Secré,0000,0000,0000,,to steal the elves' magic...
+Dialogue: 0,0:03:49.97,0:03:53.21,italics,Secré,0000,0000,0000,,It was supposed to be used so \Nthat we can all share magic.
+Dialogue: 0,0:03:54.01,0:03:57.42,italics,Secré,0000,0000,0000,,Prince... Lady Tetia... What should I...
+Dialogue: 0,0:03:57.42,0:03:59.21,italics,Secré,0000,0000,0000,,Is there still something I can do?
+Dialogue: 0,0:04:25.18,0:04:28.21,main,Devil,0000,0000,0000,,What were you even trying to do?
+Dialogue: 0,0:04:28.21,0:04:30.18,main,Devil,0000,0000,0000,,How annoying.
+Dialogue: 0,0:04:30.86,0:04:35.92,main,Devil,0000,0000,0000,,Wouldn't you have been better off \Njust giving me that body of yours?
+Dialogue: 0,0:04:36.54,0:04:39.37,main,Devil,0000,0000,0000,,Of course, if I had taken over your body,
+Dialogue: 0,0:04:39.37,0:04:42.92,main,Devil,0000,0000,0000,,that light magic would've \Nbeen absolutely useless.
+Dialogue: 0,0:04:42.92,0:04:45.43,main,Devil,0000,0000,0000,,But at this rate...
+Dialogue: 0,0:04:46.43,0:04:49.85,main,Devil,0000,0000,0000,,Everything will soon be gone!
+Dialogue: 0,0:04:55.09,0:04:57.60,italics,Lumiere,0000,0000,0000,,The magic stones are amplifying his magic.
+Dialogue: 0,0:04:57.60,0:04:59.50,italics,Lumiere,0000,0000,0000,,Even if I stop him, the kingdom will be...
+Dialogue: 0,0:04:59.50,0:05:02.12,italics,Lumiere,0000,0000,0000,,Can I even stop him?
+Dialogue: 0,0:05:02.12,0:05:03.94,main,Secré,0000,0000,0000,,My prince!
+Dialogue: 0,0:05:05.75,0:05:09.45,main,Secré,0000,0000,0000,,Our magic item! The one we \Nmade for equality and peace!
+Dialogue: 0,0:05:09.45,0:05:11.13,main,Lumiere,0000,0000,0000,,Of course!
+Dialogue: 0,0:05:19.22,0:05:20.98,main,Lumiere,0000,0000,0000,,I'll use the magic item we created...
+Dialogue: 0,0:05:21.93,0:05:23.46,main,Lumiere,0000,0000,0000,,and absorb his magic!
+Dialogue: 0,0:05:24.97,0:05:25.97,main,Secré,0000,0000,0000,,Did that work?
+Dialogue: 0,0:05:33.53,0:05:37.23,italics,Lumiere,0000,0000,0000,,As I suspected... It's impossible \Nfor it to absorb all of the magic!
+Dialogue: 0,0:05:41.47,0:05:42.89,main,Secré,0000,0000,0000,,He stopped...
+Dialogue: 0,0:05:42.89,0:05:44.99,italics,Secré,0000,0000,0000,,The negative mana seems to be subsiding.
+Dialogue: 0,0:05:45.55,0:05:47.25,main,Licht,0000,0000,0000,,Lumi...ere...
+Dialogue: 0,0:05:52.83,0:05:54.15,flashback,Licht,0000,0000,0000,,Lumiere...
+Dialogue: 0,0:05:54.15,0:05:58.45,flashback,Licht,0000,0000,0000,,Soon, I'll marry Tetia and become your brother.
+Dialogue: 0,0:05:59.54,0:06:02.50,flashback,Licht,0000,0000,0000,,I'm sure there will be humans \Nwho look down upon that.
+Dialogue: 0,0:06:03.62,0:06:04.87,flashback,Lumiere,0000,0000,0000,,You're probably right.
+Dialogue: 0,0:06:05.47,0:06:08.01,flashback,Lumiere,0000,0000,0000,,But with you...
+Dialogue: 0,0:06:09.14,0:06:11.94,flashback,Lumiere,0000,0000,0000,,I'll be able to create a \Npeaceful and equal world.
+Dialogue: 0,0:06:12.53,0:06:13.64,flashback,Lumiere,0000,0000,0000,,I truly believe that.
+Dialogue: 0,0:06:15.33,0:06:16.66,flashback,Licht,0000,0000,0000,,I believe that, too.
+Dialogue: 0,0:06:16.91,0:06:17.99,flashbackitalics,Licht,0000,0000,0000,,I'm sure...
+Dialogue: 0,0:06:18.76,0:06:22.55,flashbackitalics,Lumiere,0000,0000,0000,,...it was fate that brought us together.
+Dialogue: 0,0:06:25.41,0:06:26.69,main,Licht,0000,0000,0000,,Now's your chance.
+Dialogue: 0,0:06:27.53,0:06:29.09,main,Licht,0000,0000,0000,,Hurry...
+Dialogue: 0,0:06:30.74,0:06:31.71,main,Lumiere,0000,0000,0000,,Licht...
+Dialogue: 0,0:06:33.26,0:06:35.55,flashback,Licht,0000,0000,0000,,You are the future we believed in.
+Dialogue: 0,0:06:36.18,0:06:38.02,flashback,Licht,0000,0000,0000,,You are hope.
+Dialogue: 0,0:06:38.61,0:06:41.18,main,Lumiere,0000,0000,0000,,I... will stop you!
+Dialogue: 0,0:07:30.45,0:07:32.65,main,Guy,0000,0000,0000,,He defeated that monster!
+Dialogue: 0,0:07:32.65,0:07:36.45,main,Guy,0000,0000,0000,,The prince saved our kingdom!
+Dialogue: 0,0:07:36.45,0:07:39.23,main,Guy,0000,0000,0000,,He's our savior!
+Dialogue: 0,0:08:00.66,0:08:03.01,main,Devil,0000,0000,0000,,You stopped me from obtaining his body,
+Dialogue: 0,0:08:03.01,0:08:05.17,main,Devil,0000,0000,0000,,but that was still quite \Nan entertaining show.
+Dialogue: 0,0:08:05.17,0:08:09.77,main,Devil,0000,0000,0000,,I guess I'll just have to take \Nhis grimoire for the time being.
+Dialogue: 0,0:08:09.77,0:08:10.94,main,Secré,0000,0000,0000,,Stop!
+Dialogue: 0,0:08:12.70,0:08:15.76,main,Secré,0000,0000,0000,,I won't let you have Licht's grimoire!
+Dialogue: 0,0:08:16.33,0:08:17.51,main,Devil,0000,0000,0000,,The magic stones...
+Dialogue: 0,0:08:19.37,0:08:22.20,main,Devil,0000,0000,0000,,You witnessed the end of that elf, didn't you?
+Dialogue: 0,0:08:22.20,0:08:25.29,main,Devil,0000,0000,0000,,If a human like yourself who isn't \Nloved by mana tried to use those,
+Dialogue: 0,0:08:25.29,0:08:26.69,main,Devil,0000,0000,0000,,you wouldn't be able to keep
+Dialogue: 0,0:08:26.69,0:08:29.54,main,Devil,0000,0000,0000,,your form even if you tried to \Nperform a puny little spell.
+Dialogue: 0,0:08:30.23,0:08:34.53,italics,Secré,0000,0000,0000,,Like I care. I'm going to use the \Nmagic stones to increase my magic.
+Dialogue: 0,0:08:35.23,0:08:38.28,main,Secré,0000,0000,0000,,Sealing Magic: Eternal Prison!
+Dialogue: 0,0:08:39.80,0:08:41.30,main,Devil,0000,0000,0000,,This is...
+Dialogue: 0,0:08:43.28,0:08:45.29,italics,Devil,0000,0000,0000,,Confinement magic, eh?
+Dialogue: 0,0:08:47.71,0:08:51.62,italics,Devil,0000,0000,0000,,This girl isn't even concerned about \Nthe effects of using forbidden magic.
+Dialogue: 0,0:08:52.13,0:08:54.85,italics,Devil,0000,0000,0000,,Her seal is a bit vexing,
+Dialogue: 0,0:08:54.85,0:08:57.64,italics,Devil,0000,0000,0000,,but I'll be able to use reincarnation \Nwith the magic stones.
+Dialogue: 0,0:08:57.64,0:08:58.80,italics,Devil,0000,0000,0000,,In that case...
+Dialogue: 0,0:08:59.61,0:09:00.81,main,Devil,0000,0000,0000,,"Come."
+Dialogue: 0,0:09:01.63,0:09:02.56,main,Secré,0000,0000,0000,,What?
+Dialogue: 0,0:09:03.73,0:09:08.55,italics,Devil,0000,0000,0000,,Even more despair and tragedy for \Nthe soul who possesses the four-leaf.
+Dialogue: 0,0:09:08.55,0:09:10.89,italics,Devil,0000,0000,0000,,I guess I'll just have to \Nsow those seeds for him.
+Dialogue: 0,0:09:11.57,0:09:15.32,main,Devil,0000,0000,0000,,Forbidden Magic: Noad Nepesh.
+Dialogue: 0,0:09:22.09,0:09:25.97,main,Devil,0000,0000,0000,,I'll be sure to work slower and \Nmuch more carefully next time.
+Dialogue: 0,0:09:25.97,0:09:29.08,main,Devil,0000,0000,0000,,In an era where you two don't exist.
+Dialogue: 0,0:09:37.06,0:09:38.18,main,Lumiere,0000,0000,0000,,Secré!
+Dialogue: 0,0:09:38.62,0:09:39.85,main,Lumiere,0000,0000,0000,,Are you all right?
+Dialogue: 0,0:09:40.41,0:09:41.72,main,Secré,0000,0000,0000,,My prince!
+Dialogue: 0,0:09:41.72,0:09:45.10,main,Lumiere,0000,0000,0000,,So you managed to seal the devil.
+Dialogue: 0,0:09:45.71,0:09:49.77,main,Secré,0000,0000,0000,,But the seal that I put on \Nthe devil will eventually...
+Dialogue: 0,0:09:51.11,0:09:52.86,main,Secré,0000,0000,0000,,Prince!
+Dialogue: 0,0:09:53.77,0:09:55.36,main,Secré,0000,0000,0000,,No...
+Dialogue: 0,0:09:56.22,0:09:57.87,main,Lumiere,0000,0000,0000,,This is how it should be.
+Dialogue: 0,0:09:58.43,0:10:01.67,main,Lumiere,0000,0000,0000,,I was able to keep my promise to Licht.
+Dialogue: 0,0:10:02.31,0:10:03.37,main,Lumiere,0000,0000,0000,,So...
+Dialogue: 0,0:10:08.25,0:10:12.38,main,Secré,0000,0000,0000,,My prince, I'm going to use \Nthe magic stones to seal you.
+Dialogue: 0,0:10:13.07,0:10:17.79,main,Secré,0000,0000,0000,,It probably won't be complete, but it \Nshould be enough to keep you alive.
+Dialogue: 0,0:10:18.63,0:10:20.38,main,Secré,0000,0000,0000,,If the devil's seal is broken,
+Dialogue: 0,0:10:20.38,0:10:24.12,main,Secré,0000,0000,0000,,the peaceful future we sought \Nwill be taken away from us.
+Dialogue: 0,0:10:24.12,0:10:28.49,main,Lumiere,0000,0000,0000,,Secré, don't. If you use \Nany more forbidden magic,
+Dialogue: 0,0:10:28.49,0:10:30.15,main,Lumiere,0000,0000,0000,,you'll lose your humanity.
+Dialogue: 0,0:10:30.54,0:10:33.35,main,Secré,0000,0000,0000,,I cannot let you die here, Your Highness.
+Dialogue: 0,0:10:33.85,0:10:38.02,main,Secré,0000,0000,0000,,As Licht said, you are our hope for the future.
+Dialogue: 0,0:10:45.18,0:10:48.04,sign_12339_133_Finnes_Calmreich,Sign,0000,0000,0000,,{\fad(500,1)\blur3}Several Years Later
+Dialogue: 0,0:10:53.27,0:10:57.30,italics,Secré,0000,0000,0000,,The prince began his long \Nslumber in the form of a statue,
+Dialogue: 0,0:10:58.30,0:11:01.77,italics,Secré,0000,0000,0000,,and for some reason, I turned into a bird.
+Dialogue: 0,0:11:02.71,0:11:06.56,flashbackitalics,Secré,0000,0000,0000,,I've been spared? But in this form...
+Dialogue: 0,0:11:07.23,0:11:09.66,flashbackitalics,Secré,0000,0000,0000,,I'll need the help of the future mages.
+Dialogue: 0,0:11:14.35,0:11:18.56,italics,Secré,0000,0000,0000,,Five hundred years ago, I was \Nexcluded from the natural realm.
+Dialogue: 0,0:11:18.56,0:11:21.64,italics,Secré,0000,0000,0000,,I started preparing for the day that \Nthe devil's seal would be broken
+Dialogue: 0,0:11:21.64,0:11:24.95,italics,Secré,0000,0000,0000,,as I watched over Licht's \Nfive-leaf grimoire.
+Dialogue: 0,0:11:24.95,0:11:28.95,italics,Secré,0000,0000,0000,,And the one who ended up with that grimoire...
+Dialogue: 0,0:11:28.95,0:11:31.89,italics,Secré,0000,0000,0000,,was a boy who was born without magic.
+Dialogue: 0,0:11:32.54,0:11:34.47,italics,Secré,0000,0000,0000,,There was a sign that things were in motion,
+Dialogue: 0,0:11:34.47,0:11:36.67,italics,Secré,0000,0000,0000,,but once the wheel started turning,\N it proceeded quickly.
+Dialogue: 0,0:11:36.67,0:11:39.42,italics,Secré,0000,0000,0000,,And finally, that day has come.
+Dialogue: 0,0:11:39.94,0:11:43.93,italics,Secré,0000,0000,0000,,Today, we put an end to this long fight!
+Dialogue: 0,0:11:47.18,0:11:50.02,main,Asta,0000,0000,0000,,There you are, you creepy bastard!
+Dialogue: 0,0:11:50.02,0:11:54.99,main,Devil,0000,0000,0000,,Well, well... To think you were \Nable to undo his dark elf form.
+Dialogue: 0,0:11:54.99,0:11:58.36,main,Devil,0000,0000,0000,,I have no interest in toys \NI'm done playing with, though.
+Dialogue: 0,0:11:58.36,0:12:00.02,italics,Devil,0000,0000,0000,,I'm surprised this anti-magic
+Dialogue: 0,0:12:00.02,0:12:03.97,italics,Devil,0000,0000,0000,,was able to undo this spell that \Ncraves the life of whoever it touches.
+Dialogue: 0,0:12:03.97,0:12:06.78,italics,Devil,0000,0000,0000,,It's far more annoying than \NI could've ever imagined.
+Dialogue: 0,0:12:13.54,0:12:16.00,main,Lumiere,0000,0000,0000,,It's been five hundred years \Nsince we last met, devil!
+Dialogue: 0,0:12:16.43,0:12:20.90,main,Devil,0000,0000,0000,,Unbelievable! To think I'd also \Nbe reuniting with you two.
+Dialogue: 0,0:12:31.46,0:12:33.71,main,Asta,0000,0000,0000,,Wait, Yuno, is that...
+Dialogue: 0,0:12:33.71,0:12:34.90,main,Yuno,0000,0000,0000,,Yeah...
+Dialogue: 0,0:12:34.90,0:12:38.40,main,Asta,0000,0000,0000,,The legendary first Wizard King?
+Dialogue: 0,0:12:41.41,0:12:42.82,main,Asta,0000,0000,0000,,Are you the real deal?!
+Dialogue: 0,0:12:42.82,0:12:46.73,main,Asta,0000,0000,0000,,But wait, you can move?! \NWait, what the heck is going on?!
+Dialogue: 0,0:12:45.69,0:12:47.24,top,Yuno,0000,0000,0000,,Calm down, Asta.
+Dialogue: 0,0:12:47.24,0:12:48.99,main,Yuno,0000,0000,0000,,Now's really not the time for that.
+Dialogue: 0,0:12:48.99,0:12:50.83,main,Patlicht,0000,0000,0000,,Wh-What?!
+Dialogue: 0,0:12:51.21,0:12:52.61,main,Lumiere,0000,0000,0000,,Who are they?
+Dialogue: 0,0:12:52.61,0:12:55.01,main,Secré,0000,0000,0000,,An elf revived by forbidden magic
+Dialogue: 0,0:12:55.01,0:12:57.86,main,Secré,0000,0000,0000,,and Magic Knights from \Nthis era who helped with
+Dialogue: 0,0:12:57.86,0:13:00.30,main,Secré,0000,0000,0000,,gathering the magic stones \Nand protecting the kingdom.
+Dialogue: 0,0:13:01.70,0:13:04.47,italics,Asta,0000,0000,0000,,That lady's ki seems kinda familiar.
+Dialogue: 0,0:13:04.47,0:13:07.06,main,Secré,0000,0000,0000,,Prince, we need to help Licht first.
+Dialogue: 0,0:13:11.93,0:13:17.41,main,Secré,0000,0000,0000,,Probably due to the forbidden spell, \Nhe was reincarnated with his soul intact.
+Dialogue: 0,0:13:17.41,0:13:21.55,main,Secré,0000,0000,0000,,His soul is indeed here, \Nbut he's not fully awakened.
+Dialogue: 0,0:13:21.55,0:13:24.74,main,Lumiere,0000,0000,0000,,Licht... Will you be able to wake him up?
+Dialogue: 0,0:13:25.58,0:13:26.86,main,Secré,0000,0000,0000,,Leave it to me.
+Dialogue: 0,0:13:28.17,0:13:32.87,italics,Secré,0000,0000,0000,,Once, my magic could only \Nopen and close things.
+Dialogue: 0,0:13:32.87,0:13:35.37,italics,Secré,0000,0000,0000,,But after spending time with the prince,
+Dialogue: 0,0:13:35.37,0:13:37.64,italics,Secré,0000,0000,0000,,it started to evolve as we \Npursued further opportunities.
+Dialogue: 0,0:13:38.35,0:13:42.88,italics,Secré,0000,0000,0000,,The prince was a genius at figuring \Nout the best potential for my magic.
+Dialogue: 0,0:13:42.88,0:13:47.13,italics,Secré,0000,0000,0000,,My sealing magic in its current \Nstate can release any seal!
+Dialogue: 0,0:13:54.23,0:13:55.10,main,Lumiere,0000,0000,0000,,Licht...
+Dialogue: 0,0:14:03.13,0:14:04.37,main,Licht,0000,0000,0000,,I can finally say
+Dialogue: 0,0:14:04.37,0:14:08.07,main,Licht,0000,0000,0000,,the words I wasn't able to say back then.
+Dialogue: 0,0:14:08.90,0:14:11.22,main,Licht,0000,0000,0000,,Thank you, Lumiere.
+Dialogue: 0,0:14:17.21,0:14:20.25,main,Devil,0000,0000,0000,,Well, it's a good thing you \Nmade it in time in this era.
+Dialogue: 0,0:14:20.25,0:14:23.88,main,Devil,0000,0000,0000,,You had a rather unfortunate \Nfarewell five hundred years ago.
+Dialogue: 0,0:14:23.88,0:14:27.88,main,Devil,0000,0000,0000,,This time, I'll get rid of both of you at once.
+Dialogue: 0,0:14:30.38,0:14:31.64,main,Patlicht,0000,0000,0000,,Licht...
+Dialogue: 0,0:14:31.95,0:14:37.36,main,Licht,0000,0000,0000,,Patry, I saw everything from \Nwithin my soul's deep slumber.
+Dialogue: 0,0:14:37.36,0:14:39.64,main,Patlicht,0000,0000,0000,,Licht, I...
+Dialogue: 0,0:14:40.42,0:14:44.94,main,Licht,0000,0000,0000,,Five hundred years ago, we lost\N to this devil's scheme.
+Dialogue: 0,0:14:45.37,0:14:47.19,main,Licht,0000,0000,0000,,While I was drowning in despair,
+Dialogue: 0,0:14:47.19,0:14:50.04,main,Licht,0000,0000,0000,,the one who kept me from hurting \Neven more innocent people
+Dialogue: 0,0:14:50.04,0:14:53.37,main,Licht,0000,0000,0000,,and causing even more despair
+Dialogue: 0,0:14:53.37,0:14:54.95,main,Licht,0000,0000,0000,,was Lumiere.
+Dialogue: 0,0:14:56.01,0:14:57.70,main,Licht,0000,0000,0000,,Regardless of how it was done,
+Dialogue: 0,0:14:57.70,0:15:01.97,main,Licht,0000,0000,0000,,it appears that someone came to stop you, too.
+Dialogue: 0,0:15:03.19,0:15:07.48,main,Licht,0000,0000,0000,,Patry, even though you believed the \Nblade you wielded was for justice,
+Dialogue: 0,0:15:07.48,0:15:12.01,main,Licht,0000,0000,0000,,for those who were struck by your blade,\N it was an unforgivable crime.
+Dialogue: 0,0:15:13.65,0:15:16.67,main,Licht,0000,0000,0000,,Still, even if you cannot be forgiven,
+Dialogue: 0,0:15:16.67,0:15:18.71,main,Licht,0000,0000,0000,,let me just say this...
+Dialogue: 0,0:15:20.83,0:15:23.31,main,Licht,0000,0000,0000,,I know you did your best.
+Dialogue: 0,0:15:24.74,0:15:25.90,main,Patlicht,0000,0000,0000,,Licht...
+Dialogue: 0,0:15:28.06,0:15:30.11,main,Licht,0000,0000,0000,,What we can do right now
+Dialogue: 0,0:15:30.93,0:15:32.81,main,Licht,0000,0000,0000,,is fight against the next tragedy
+Dialogue: 0,0:15:32.81,0:15:35.37,main,Licht,0000,0000,0000,,that's about to occur without letting \Nour mistakes break our spirits.
+Dialogue: 0,0:15:36.39,0:15:40.29,main,Licht,0000,0000,0000,,Let us finally put an end \Nto our five hundred years.
+Dialogue: 0,0:15:40.29,0:15:41.66,main,Devil,0000,0000,0000,,Yes, indeed.
+Dialogue: 0,0:15:41.66,0:15:45.39,main,Devil,0000,0000,0000,,I'll swallow up your trivial little feelings,\N and that'll be the end of it.
+Dialogue: 0,0:15:47.17,0:15:49.42,italics,Lumiere,0000,0000,0000,,Light Magic: Mana Zone...
+Dialogue: 0,0:15:49.42,0:15:50.92,italics,Lumiere,0000,0000,0000,,Lamp of Avior-Gloria.
+Dialogue: 0,0:15:50.92,0:15:54.18,italics,Licht,0000,0000,0000,,Sword Magic: Origin Flash-Rampage.
+Dialogue: 0,0:16:06.89,0:16:11.53,italics,Devil,0000,0000,0000,,They managed to blow apart my magic, \Nwhich devours this world's magic.
+Dialogue: 0,0:16:11.53,0:16:13.86,italics,Devil,0000,0000,0000,,The one who used the most forbidden spell,
+Dialogue: 0,0:16:13.86,0:16:16.24,italics,Devil,0000,0000,0000,,and the one who absorbed all his magic...
+Dialogue: 0,0:16:16.24,0:16:20.22,italics,Devil,0000,0000,0000,,In other words, they've been \Naffected by {\i0}that{\i1} world.
+Dialogue: 0,0:16:28.49,0:16:29.59,italics,Devil,0000,0000,0000,,They're fast!
+Dialogue: 0,0:16:34.21,0:16:36.51,main,Asta,0000,0000,0000,,H-Holy crap...
+Dialogue: 0,0:16:43.46,0:16:46.31,italics,Lumiere,0000,0000,0000,,If our attacks continue at\N this speed and power...
+Dialogue: 0,0:16:46.31,0:16:48.94,italics,Licht,0000,0000,0000,,He won't be able to counter \Nwith his word soul magic.
+Dialogue: 0,0:16:56.36,0:16:57.78,main,Asta,0000,0000,0000,,They did it!
+Dialogue: 0,0:16:57.78,0:17:00.03,main,Devil,0000,0000,0000,,Douve Nuutra Edde!
+Dialogue: 0,0:17:07.65,0:17:08.50,main,Secré,0000,0000,0000,,My prince!
+Dialogue: 0,0:17:08.50,0:17:09.54,main,Licht,0000,0000,0000,,Lumiere!
+Dialogue: 0,0:17:09.54,0:17:11.88,italics,Licht,0000,0000,0000,,That spear... It breaks down spells.
+Dialogue: 0,0:17:11.88,0:17:15.97,main,Devil,0000,0000,0000,,I commend you for being able \Nto attack me this much.
+Dialogue: 0,0:17:15.97,0:17:19.14,main,Devil,0000,0000,0000,,But no matter how powerful you may be,
+Dialogue: 0,0:17:19.14,0:17:23.31,main,Devil,0000,0000,0000,,you will not be able to kill me now \Nthat I have my body and grimoire!
+Dialogue: 0,0:17:25.74,0:17:26.94,italics,Asta,0000,0000,0000,,Not happening!
+Dialogue: 0,0:17:29.82,0:17:31.27,main,Devil,0000,0000,0000,,Anti-magic?
+Dialogue: 0,0:17:32.06,0:17:32.74,italics,Licht,0000,0000,0000,,As I thought...
+Dialogue: 0,0:17:32.74,0:17:34.07,italics,Secré,0000,0000,0000,,Maybe with anti-magic...
+Dialogue: 0,0:17:36.58,0:17:40.10,italics,Devil,0000,0000,0000,,This spear can break down \Nanything it touches, but he...
+Dialogue: 0,0:17:40.10,0:17:43.16,italics,Devil,0000,0000,0000,,But alone, he's nothing to fear.
+Dialogue: 0,0:17:43.63,0:17:44.66,main,Devil,0000,0000,0000,,"Get back."
+Dialogue: 0,0:17:46.16,0:17:47.97,main,Devil,0000,0000,0000,,"Storm of Blades."
+Dialogue: 0,0:17:51.10,0:17:54.06,main,Asta,0000,0000,0000,,Thanks, everyone!
+Dialogue: 0,0:17:56.23,0:17:58.27,italics,Yuno,0000,0000,0000,,His magic is overwhelmingly vast...
+Dialogue: 0,0:17:58.27,0:17:59.93,italics,Yuno,0000,0000,0000,,But it doesn't feel oppressive at all.
+Dialogue: 0,0:17:59.93,0:18:02.34,italics,Yuno,0000,0000,0000,,It's like a well-honed blade.
+Dialogue: 0,0:18:03.33,0:18:06.06,italics,Yuno,0000,0000,0000,,So this is the awakened elf leader.
+Dialogue: 0,0:18:06.65,0:18:12.07,italics,Yuno,0000,0000,0000,,But what is this warm and nostalgic \Nfeeling that seems to be embracing me?
+Dialogue: 0,0:18:12.44,0:18:14.09,main,Secré,0000,0000,0000,,My prince! Your arm!
+Dialogue: 0,0:18:14.94,0:18:17.57,main,Secré,0000,0000,0000,,I will close the wound and seal the damage.
+Dialogue: 0,0:18:17.57,0:18:20.57,main,Secré,0000,0000,0000,,Sealing Magic: Closed Sorrow.
+Dialogue: 0,0:18:22.16,0:18:24.24,main,Lumiere,0000,0000,0000,,Thanks, Secré.
+Dialogue: 0,0:18:24.24,0:18:25.97,main,Asta,0000,0000,0000,,That's so freakin' cool!
+Dialogue: 0,0:18:25.97,0:18:28.82,main,Asta,0000,0000,0000,,As I'd expect from a friend \Nof the first Wizard King!
+Dialogue: 0,0:18:28.82,0:18:33.35,main,Asta,0000,0000,0000,,But, uh... Somehow, I don't feel like \Nthis is the first time we're meeting.
+Dialogue: 0,0:18:33.35,0:18:35.30,main,Asta,0000,0000,0000,,Hrm...
+Dialogue: 0,0:18:35.30,0:18:36.96,main,Asta,0000,0000,0000,,Like, your ki, your atmosphere,
+Dialogue: 0,0:18:36.96,0:18:39.26,main,Asta,0000,0000,0000,,and your eyes really remind \Nme of someone I know...
+Dialogue: 0,0:18:39.26,0:18:43.56,main,Asta,0000,0000,0000,,Ow, ow, ow, ow, ow! What's \Nthe big idea?! Ow, ow, ow!
+Dialogue: 0,0:18:39.45,0:18:41.27,top,Secré,0000,0000,0000,,Focus on the fight.
+Dialogue: 0,0:18:45.54,0:18:49.56,main,Devil,0000,0000,0000,,That ability of yours is rather convenient.\N It did manage to seal me, after all.
+Dialogue: 0,0:18:50.13,0:18:53.75,main,Devil,0000,0000,0000,,For magic of this world, which is \Nlike a weed and not even powerful
+Dialogue: 0,0:18:53.75,0:18:56.44,main,Devil,0000,0000,0000,,like four-leaf magic, that is.
+Dialogue: 0,0:18:56.80,0:19:01.41,main,Devil,0000,0000,0000,,Though now that I have my body, \Nit's just stunted and worthless magic.
+Dialogue: 0,0:19:01.41,0:19:02.90,main,Secré,0000,0000,0000,,Be quiet.
+Dialogue: 0,0:19:02.90,0:19:07.22,main,Secré,0000,0000,0000,,My prince managed to find \Npossibilities even in magic like mine.
+Dialogue: 0,0:19:07.22,0:19:10.50,main,Secré,0000,0000,0000,,He showed me that there was \Nsomething even I could do!
+Dialogue: 0,0:19:11.25,0:19:13.39,flashback,Lumiere,0000,0000,0000,,I have a four-leaf grimoire and light magic,
+Dialogue: 0,0:19:13.39,0:19:16.57,flashback,Lumiere,0000,0000,0000,,so people say that my magic is amazing,
+Dialogue: 0,0:19:16.57,0:19:21.18,flashback,Lumiere,0000,0000,0000,,but I just think we're all different, \Nand we're all pretty amazing.
+Dialogue: 0,0:19:21.18,0:19:25.12,flashback,Secré,0000,0000,0000,,But my magic can only open and close things.
+Dialogue: 0,0:19:25.12,0:19:26.60,flashback,Secré,0000,0000,0000,,It's practically useless.
+Dialogue: 0,0:19:26.60,0:19:28.15,flashback,Lumiere,0000,0000,0000,,What did I tell you?
+Dialogue: 0,0:19:28.15,0:19:31.22,flashback,Lumiere,0000,0000,0000,,I'm sure there are plenty of \Nuses for your sealing magic
+Dialogue: 0,0:19:31.22,0:19:32.57,flashback,Lumiere,0000,0000,0000,,that you haven't discovered yet.
+Dialogue: 0,0:19:32.57,0:19:36.44,flashback,Lumiere,0000,0000,0000,,There are opportunities for everyone, \Nand things that only they can do.
+Dialogue: 0,0:19:37.18,0:19:38.99,flashback,Secré,0000,0000,0000,,Something only I can do?
+Dialogue: 0,0:19:39.86,0:19:42.36,flashback,Lumiere,0000,0000,0000,,Just like the magic items \Nwe're making right now...
+Dialogue: 0,0:19:42.36,0:19:45.69,flashback,Lumiere,0000,0000,0000,,If everyone tried to use \Ntheir powers for everyone,
+Dialogue: 0,0:19:45.69,0:19:47.61,flashback,Lumiere,0000,0000,0000,,I think this would be a wonderful kingdom.
+Dialogue: 0,0:19:48.78,0:19:52.07,main,Secré,0000,0000,0000,,You exist only to steal from others!
+Dialogue: 0,0:19:52.62,0:19:56.52,main,Secré,0000,0000,0000,,The ones you looked down on, \Nstomped on, and made a mockery of
+Dialogue: 0,0:19:56.52,0:19:58.30,main,Secré,0000,0000,0000,,are going to defeat you today!
+Dialogue: 0,0:19:58.30,0:20:01.13,main,Devil,0000,0000,0000,,Then you should probably hurry it up.
+Dialogue: 0,0:20:01.13,0:20:03.89,main,Devil,0000,0000,0000,,No matter how much you blow away this magic,
+Dialogue: 0,0:20:03.89,0:20:07.14,main,Devil,0000,0000,0000,,it will keep flowing until you defeat me.
+Dialogue: 0,0:20:07.14,0:20:10.19,main,Devil,0000,0000,0000,,Since the exit is on this top floor,
+Dialogue: 0,0:20:10.19,0:20:12.34,main,Devil,0000,0000,0000,,all of your friends in the lower levels
+Dialogue: 0,0:20:12.34,0:20:15.33,main,Devil,0000,0000,0000,,will be swallowed up and die \Nif you keep wasting time.
+Dialogue: 0,0:20:17.15,0:20:18.69,main,Asta,0000,0000,0000,,You bastard!
+Dialogue: 0,0:20:19.10,0:20:22.47,italics,Patlicht,0000,0000,0000,,But even Licht and Lumiere's \Nmagic wasn't able to defeat him.
+Dialogue: 0,0:20:22.91,0:20:25.78,italics,Patlicht,0000,0000,0000,,Anything but a full-fledged attack \Non our part will be useless.
+Dialogue: 0,0:20:26.89,0:20:28.09,main,Licht,0000,0000,0000,,But of course.
+Dialogue: 0,0:20:29.38,0:20:32.38,main,licht,0000,0000,0000,,We will rid this place of this accursed magic
+Dialogue: 0,0:20:32.38,0:20:34.79,main,licht,0000,0000,0000,,with a mighty blow made with \Nthe help of our friends.
+Dialogue: 0,0:20:35.18,0:20:36.04,main,Patlicht,0000,0000,0000,,Licht!
+Dialogue: 0,0:20:36.83,0:20:38.79,main,Licht,0000,0000,0000,,I'll be borrowing your strength.
+Dialogue: 0,0:20:46.74,0:20:50.05,main,Yami,0000,0000,0000,,Tch. This seemed like \Na good idea at the time.
+Dialogue: 0,0:20:50.05,0:20:52.09,main,Charlotte,0000,0000,0000,,Hey, you're far too close to me, human.
+Dialogue: 0,0:20:52.09,0:20:53.94,main,Charlotte,0000,0000,0000,,Can't you make this space wider?
+Dialogue: 0,0:20:53.94,0:20:56.07,main,Yami,0000,0000,0000,,Are you being serious right now?
+Dialogue: 0,0:20:56.07,0:20:58.38,main,Yami,0000,0000,0000,,I just saved your ass, \Nand that's how you thank me?
+Dialogue: 0,0:20:58.38,0:21:01.49,main,Yami,0000,0000,0000,,You're totally still the Prickly Queen, \Ndespite being someone else inside.
+Dialogue: 0,0:21:02.36,0:21:04.98,main,Yami,0000,0000,0000,,Damn it. At this rate, it's just going to
+Dialogue: 0,0:21:04.98,0:21:07.07,main,Yami,0000,0000,0000,,chip away at my magic until it's all gone.
+Dialogue: 0,0:21:07.52,0:21:09.30,main,Yami,0000,0000,0000,,The only bright side to all this
+Dialogue: 0,0:21:09.30,0:21:12.87,main,Yami,0000,0000,0000,,is the fact that you can use \Nrecovery magic. Damn it...
+Dialogue: 0,0:21:13.70,0:21:16.25,main,Charlotte,0000,0000,0000,,You have some nerve. And when I \Nwas kind enough to heal you...
+Dialogue: 0,0:21:16.89,0:21:20.07,main,Yami,0000,0000,0000,,Wait, uh... Why the hell are you shining?
+Dialogue: 0,0:21:20.07,0:21:21.71,main,Yami,0000,0000,0000,,You're blinding me!
+Dialogue: 0,0:21:21.71,0:21:23.26,main,Charlotte,0000,0000,0000,,This is...
+Dialogue: 0,0:21:26.63,0:21:29.15,main,Charmy,0000,0000,0000,,That's what you get for\N wasting my precious food!
+Dialogue: 0,0:21:29.15,0:21:31.51,main,Charmy,0000,0000,0000,,Behold the power of appetite!
+Dialogue: 0,0:21:44.53,0:21:46.36,main,Raia,0000,0000,0000,,Licht...
+Dialogue: 0,0:21:50.47,0:21:53.75,main,Licht,0000,0000,0000,,And now, you will face the \Ntrue wrath of the elves.
+Dialogue: 0,0:21:53.75,0:21:57.71,main,Licht,0000,0000,0000,,Ultimate Sword Magic: Demon-Dweller \NSword-Conquering Eon!
+Dialogue: 0,0:22:23.19,0:22:25.59,main,Asta,0000,0000,0000,,Holy crap!
+Dialogue: 0,0:22:26.22,0:22:28.86,italics,Yuno,0000,0000,0000,,His magic is on a completely \Ndifferent level.
+Dialogue: 0,0:22:29.71,0:22:31.62,main,Secré,0000,0000,0000,,We did it.
+Dialogue: 0,0:22:32.29,0:22:34.83,main,Patlicht,0000,0000,0000,,You're so amazing, Licht!
+Dialogue: 0,0:22:42.67,0:22:46.19,main,Patlicht,0000,0000,0000,,That's... the devil's heart?
+Dialogue: 0,0:22:47.30,0:22:48.67,main,Devil,0000,0000,0000,,"Heal."
+Dialogue: 0,0:22:55.05,0:22:59.94,main,Devil,0000,0000,0000,,I told you! You cannot kill me.
+Dialogue: 0,0:23:00.27,0:23:03.44,italics,Devil,0000,0000,0000,,Not with magic from this world.
+Dialogue: 0,0:23:05.03,0:23:07.97,italics,Patlicht,0000,0000,0000,,He can still regenerate, \Ndespite how powerful that spell was?
+Dialogue: 0,0:23:07.97,0:23:09.20,italics,Patlicht,0000,0000,0000,,How are we supposed to...
+Dialogue: 0,0:23:11.33,0:23:14.95,italics,Asta,0000,0000,0000,,That's the true power of that sword.
+Dialogue: 0,0:23:15.46,0:23:18.33,italics,Asta,0000,0000,0000,,Is there still some power I haven't \Nunlocked in my own sword?
+Dialogue: 0,0:23:18.33,0:23:20.22,italics,Asta,0000,0000,0000,,There might still be a possibility!
+Dialogue: 0,0:23:20.22,0:23:23.66,italics,Asta,0000,0000,0000,,I couldn't erase that spear, \Nbut I was able to block it!
+Dialogue: 0,0:23:23.66,0:23:29.21,italics,Asta,0000,0000,0000,,In that case, it's just that my anti-magic \Nwas weak, but it was still effective!
+Dialogue: 0,0:23:29.21,0:23:31.72,italics,Asta,0000,0000,0000,,If I can fight like them...
+Dialogue: 0,0:23:34.10,0:23:38.17,italics,Asta,0000,0000,0000,,There's a power I can use \Nbecause I've got no magic!
+Dialogue: 0,0:23:40.09,0:23:41.94,main,Asta,0000,0000,0000,,I have no magic.
+Dialogue: 0,0:23:41.94,0:23:44.19,main,Asta,0000,0000,0000,,But that's exactly why there's \Na power only I can use!
+Dialogue: 0,0:23:44.19,0:23:46.40,main,Asta,0000,0000,0000,,Not yet! I'm not done yet!
+Dialogue: 0,0:23:46.82,0:23:50.40,main,Asta,0000,0000,0000,,Next time on {\i1}Black Clover{\i0}, \NPage 119: "The Final Attack."
+Dialogue: 0,0:23:47.94,0:23:54.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 119\N\N{\fs18} The Final Attack
+Dialogue: 0,0:23:50.40,0:23:53.49,main,Asta,0000,0000,0000,,Yuno! Let's shut that guy up together!

@@ -1,0 +1,433 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Chiha-main,Calibri,32,&H00F9F9F9,&HFFFFFFFF,&H002B2B2B,&H96000000,-1,0,0,0,100,110,0,0,1,2.5,0,2,150,150,30,1
+Style: Chiha-overlap,Calibri,32,&H00BAFCF3,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: Chiha-poem,Calibri,32,&H00FFFFFF,&H000000FF,&H00050155,&H00050155,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: Chiha-internal,Calibri,32,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: Chiha-internaloverlap,Calibri,32,&H00BAFCF3,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: Chiha-flashback,Calibri,32,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: Chiha-flashbackinternal,Calibri,32,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: Chiha-flashbackoverlap,Calibri,32,&H00BAFCF3,&H000000FF,&H001E0200,&H00000000,0,1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: Chiha-note,Calibri,29,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0015,0
+Style: Chiha-note2,Calibri,22,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0015,0
+Style: Chiha-Sign-top,Calibri,37,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0010,0
+Style: Chiha-title,Calibri,47,&H00000000,&H000000FF,&H00886418,&H003D3726,1,1,0,0,100,100,0,0,1,0,0,8,0020,0020,0015,0
+Style: Chiha-ep-title-verse,Calibri,37,&H00000000,&H000000FF,&H00FEEBD6,&H00647E8F,0,0,0,0,100,100,0,0,1,2,0,9,0040,0100,0020,0
+Style: Chiha-ep-title-poem,Calibri,42,&H00000000,&H000000FF,&H00FEEBD6,&H00647E8F,0,0,0,0,100,100,0,0,1,2,0,7,0150,0100,0020,0
+Style: Chiha-ep-title-poem-wide,Calibri,42,&H00000000,&H000000FF,&H00BCC7B3,&H00647E8F,0,0,0,0,100,100,0,0,1,2,0,7,0090,0100,0020,0
+Style: Chiha-card-TS,Calibri,29,&H00646A69,&H000000FF,&H00F2F5F2,&H00F2F5F2,0,1,0,0,100,100,0,0,1,2,1,8,0020,0020,0015,0
+Style: Chiha-traditional,Calibri,32,&H00000000,&H000000FF,&H00CACADD,&H008CA695,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Chiha-traditional2-Oe,Calibri,35,&H006C0685,&H000000FF,&H009574D6,&H008CA695,1,0,0,0,100,100,0,0,1,3,0,8,0020,0020,0020,0
+Style: Default,Calibri,32,&H00F9F9F9,&HFFFFFFFF,&H002B2B2B,&H96000000,-1,0,0,0,100,110,0,0,1,2.5,0,2,150,150,30,1
+Style: Class,Calibri,32,&H0045432D,&H000000FF,&H00D1C9B6,&H00000000,1,0,0,0,110,100,0,0,1,4,0,8,0010,0010,0015,0
+Style: handwriting,Calibri,30,&H00151515,&H000000FF,&H00C5C3CF,&H00000000,0,0,0,0,100,100,0,0,1,4,0,9,0020,0100,0030,1
+Style: society,Calibri,32,&H000B0F0E,&H000000FF,&H002E3840,&H000C0522,0,0,0,0,100,100,0,0,1,3,0,4,0040,0020,0100,0
+Style: sign-on-wood,Calibri,30,&H00312D29,&H000000FF,&H009FE1ED,&H00FFFFFF,1,0,0,0,100,100,0,0,1,3,0,7,0020,0020,0020,0
+Style: chalkboard,Calibri,24,&H0093A19B,&H000000FF,&H00C6DDB3,&H00DEF0D7,0,0,0,0,100,100,0,0,1,0,0,8,0020,0020,0065,0
+Style: shirt,Calibri,32,&H00615C59,&H000000FF,&H00FCFCF6,&H00C7CAC8,1,0,0,0,100,100,0,0,1,3,0,7,0030,0020,0020,0
+Style: contest,Calibri,30,&H00485F5E,&H000000FF,&H00D9F9F4,&H00C7CAC8,1,0,0,0,100,100,0,0,1,4,0,7,0020,0020,0020,0
+Style: suihoku,Calibri,32,&H00000000,&H000000FF,&H00C03715,&H00C7CAC8,1,0,0,0,100,100,0,0,1,2,0,3,0020,0030,0090,0
+Style: List,Calibri,32,&H003B3E3C,&H000000FF,&H00E4E7E5,&H00C5AA73,0,0,0,0,100,100,0,0,1,3,0,8,0020,0020,0020,0
+Style: famous,Calibri,32,&H005E07A2,&H000000FF,&H00F6FBF9,&H0043D4E2,1,0,0,0,100,100,0,0,1,0,2,7,0020,0020,0030,0
+Style: Queen,Calibri,29,&H00414DBD,&H000000FF,&H005E5E5F,&H00C7CAC8,1,0,0,0,100,100,0,0,1,0,0,4,0070,0020,0020,0
+Style: karuta,Calibri,27,&H003EA75B,&H000000FF,&H0085B5C2,&H00C7CAC8,1,0,0,0,100,100,0,0,1,4,0,8,0020,0150,0020,0
+Style: college,Calibri,27,&H00FFFFFF,&H000000FF,&H0085B5C2,&H00000000,1,0,0,0,100,100,0,0,1,4,0,9,0002,0200,0030,0
+Style: Scholarship,Calibri,27,&H00C03BCD,&H000000FF,&H0085B5C2,&H0085B5C2,1,0,0,0,100,100,0,0,1,4,0,7,0030,0002,0015,0
+Style: daddybear,Calibri,27,&H004FE2EB,&H000000FF,&H00000000,&H00C7CAC8,1,0,0,0,100,100,0,0,1,0,0,1,0080,0020,0130,0
+Style: heartstrings,Calibri,27,&H00F8EDF6,&H000000FF,&H00BF96F2,&H00D7DCD6,1,0,0,0,100,100,0,0,1,4,0,9,0020,0020,0020,0
+Style: speed,Calibri,32,&H00D7D9E0,&H000000FF,&H002E3A42,&H00D7DCD6,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0015,0
+Style: first,Calibri,25,&H00FFFFFF,&H000000FF,&H002B19CE,&H00D7DCD6,1,0,0,0,100,100,0,0,1,4,0,2,0020,0020,0080,0
+Style: cellphone,Calibri,24,&H00CCA878,&H000000FF,&H00FBF9F5,&H00D7DCD6,0,1,0,0,100,100,0,0,1,4,0,5,0020,0020,0015,0
+Style: cellphone2,Calibri,35,&H00CFB087,&H000000FF,&H00F7FCF5,&H00D7DCD6,0,0,0,0,100,100,0,0,1,4,0,8,0020,0020,0015,0
+Style: cellphone3,Calibri,35,&H00D2A288,&H000000FF,&H00F7FCF5,&H00D7DCD6,0,0,0,0,100,100,0,0,1,4,0,8,0020,0020,0015,0
+Style: disguise,Calibri,27,&H007C8FD7,&H000000FF,&H00C5C3CF,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,0020,0070,0020,1
+Style: genji,Calibri,25,&H0033516A,&H000000FF,&H0051677F,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,5,0020,0080,0020,0
+Style: card1,Calibri,24,&H00494C48,&H000000FF,&H00ECF2F6,&H00D7DCD6,0,1,0,0,100,100,0,0,1,4,0,8,0020,0020,0015,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.53,0:00:03.92,Chiha-main,Default,0000,0000,0000,,Doctor!  Big news!
+Dialogue: 0,0:00:04.12,0:00:06.29,Chiha-main,Default,0000,0000,0000,,What?!  Yamamoto Yumi-san?!
+Dialogue: 0,0:00:06.52,0:00:10.25,Chiha-main,Default,0000,0000,0000,,Yes!  My next opponent \Nis Yamamoto Yumi-san!
+Dialogue: 0,0:00:10.25,0:00:12.22,Chiha-main,Default,0000,0000,0000,,You're really playing against \NYamamoto Yumi-san?!
+Dialogue: 0,0:00:12.22,0:00:13.28,Chiha-main,Default,0000,0000,0000,,From the Suihoku society?!
+Dialogue: 0,0:00:13.28,0:00:13.77,Chiha-main,Default,0000,0000,0000,,Yes!
+Dialogue: 0,0:00:13.77,0:00:15.04,Chiha-main,Default,0000,0000,0000,,Yamamoto Yumi-san!
+Dialogue: 0,0:00:15.04,0:00:17.54,Chiha-main,Default,0000,0000,0000,,Doctor, what should I do?!
+Dialogue: 0,0:00:17.54,0:00:19.57,Chiha-main,Default,0000,0000,0000,,Yamamoto Yumi-san...
+Dialogue: 0,0:00:19.57,0:00:22.13,Chiha-main,Default,0000,0000,0000,,You've got bad luck, Chihaya-chan.
+Dialogue: 0,0:00:22.13,0:00:23.60,Chiha-main,Default,0000,0000,0000,,Okay, let's try this.
+Dialogue: 0,0:00:23.60,0:00:24.49,Chiha-main,Default,0000,0000,0000,,Yamamoto...
+Dialogue: 0,0:00:24.49,0:00:25.94,Chiha-main,Default,0000,0000,0000,,Excuse me, who is Yamamoto-san?
+Dialogue: 0,0:00:27.77,0:00:28.69,List,Default,0000,0000,0000,,Ayase Chihaya
+Dialogue: 0,0:00:28.26,0:00:30.02,Chiha-main,Default,0000,0000,0000,,Yamamoto Yumi.
+Dialogue: 0,0:00:28.69,0:00:33.03,List,Default,0000,0000,0000,,Yamamoto Yumi
+Dialogue: 0,0:00:30.93,0:00:32.64,Chiha-main,Default,0000,0000,0000,,The previous Queen.
+Dialogue: 0,0:00:33.49,0:00:38.78,Chiha-title,Default,0000,0000,0000,,{\fad(1700,0)}Chihaya Furu
+Dialogue: 0,0:01:43.10,0:01:48.14,Chiha-ep-title-verse,Default,0000,0000,0000,,{\fad(900,1000)}Verse 22
+Dialogue: 0,0:01:43.10,0:01:48.14,Chiha-ep-title-poem,Default,0000,0000,0000,,{\fad(900,1000)}Just \NAs\N My\N Beauty\N Has\N Faded
+Dialogue: 0,0:01:51.90,0:01:54.15,Chiha-main,Default,0000,0000,0000,,G-Good luck!
+Dialogue: 0,0:01:55.50,0:01:57.53,Chiha-internal,Default,0000,0000,0000,,Ayase Chihaya-san...
+Dialogue: 0,0:01:57.91,0:01:59.91,Chiha-internal,Default,0000,0000,0000,,She's just as pretty as everyone said.
+Dialogue: 0,0:02:00.67,0:02:04.41,Chiha-internal,Default,0000,0000,0000,,She's nothing like me, \Nwith my plain looks and name.
+Dialogue: 0,0:02:05.58,0:02:06.95,Chiha-internal,Default,0000,0000,0000,,I'm already sick of her.
+Dialogue: 0,0:02:07.36,0:02:10.27,Chiha-internal,Default,0000,0000,0000,,Why are her eyes shining?
+Dialogue: 0,0:02:10.27,0:02:11.44,Chiha-internal,Default,0000,0000,0000,,That just makes it harder.
+Dialogue: 0,0:02:11.81,0:02:14.05,Chiha-main,Default,0000,0000,0000,,We will now proceed with fifteen minutes
+Dialogue: 0,0:02:14.05,0:02:15.68,Chiha-main,Default,0000,0000,0000,,of memorization time for the second round.
+Dialogue: 0,0:02:15.68,0:02:18.43,Chiha-main,Default,0000,0000,0000,,You have until 11:17 by that clock.
+Dialogue: 0,0:02:25.18,0:02:29.74,Chiha-internal,Default,0000,0000,0000,,Why did I enter this tournament again?
+Dialogue: 0,0:02:31.10,0:02:34.10,Chiha-internal,Default,0000,0000,0000,,I'm playing the previous \NQueen, Yamamoto Yumi-san.
+Dialogue: 0,0:02:34.70,0:02:36.19,Chiha-internal,Default,0000,0000,0000,,Th-This is...
+Dialogue: 0,0:02:39.29,0:02:41.73,Chiha-internal,Default,0000,0000,0000,,Five one-syllable cards on her side?!
+Dialogue: 0,0:02:41.73,0:02:43.55,Chiha-internal,Default,0000,0000,0000,,Seven three-syllable cards!
+Dialogue: 0,0:02:43.55,0:02:45.34,Chiha-internal,Default,0000,0000,0000,,Everything else is a two-syllable card!
+Dialogue: 0,0:02:45.86,0:02:47.95,Chiha-internal,Default,0000,0000,0000,,I can attack like crazy!
+Dialogue: 0,0:02:48.34,0:02:49.71,Chiha-internal,Default,0000,0000,0000,,Luck is on my side!
+Dialogue: 0,0:03:02.43,0:03:04.79,Chiha-internal,Default,0000,0000,0000,,I missed the Queen match this year,
+Dialogue: 0,0:03:05.44,0:03:07.30,Chiha-flashback,Default,0000,0000,0000,,but I saw last year's at Dr. Harada's house.
+Dialogue: 0,0:03:08.22,0:03:11.73,Chiha-flashback,Default,0000,0000,0000,,Miss Yamamoto, congratulations \Non your first Queen title.
+Dialogue: 0,0:03:12.30,0:03:14.87,Chiha-flashback,Default,0000,0000,0000,,Your moment of glory comes in \Nyour last year of college.
+Dialogue: 0,0:03:14.87,0:03:16.23,Chiha-flashback,Default,0000,0000,0000,,How do you feel right now?
+Dialogue: 0,0:03:19.21,0:03:20.61,Chiha-flashback,Default,0000,0000,0000,,Coach Kitano...
+Dialogue: 0,0:03:22.89,0:03:26.87,Chiha-flashback,Default,0000,0000,0000,,I really hate Kitano, but he \Nhas a model student here!
+Dialogue: 0,0:03:27.28,0:03:29.38,Chiha-flashback,Default,0000,0000,0000,,When you kids become Master or Queen,
+Dialogue: 0,0:03:29.38,0:03:31.34,Chiha-flashback,Default,0000,0000,0000,,make sure you call my name!
+Dialogue: 0,0:03:32.57,0:03:35.79,Chiha-internal,Default,0000,0000,0000,,I don't really remember \Nhow the match went.
+Dialogue: 0,0:03:36.38,0:03:39.38,Chiha-internal,Default,0000,0000,0000,,Just that she absolutely \Nrefused to give up.
+Dialogue: 0,0:03:40.52,0:03:42.82,Chiha-internal,Default,0000,0000,0000,,That she called her teacher's name.
+Dialogue: 0,0:03:42.82,0:03:44.01,Chiha-internal,Default,0000,0000,0000,,Her tears.
+Dialogue: 0,0:03:45.33,0:03:48.39,Chiha-internal,Default,0000,0000,0000,,A posture that took years to perfect.
+Dialogue: 0,0:03:49.05,0:03:50.67,Chiha-internal,Default,0000,0000,0000,,And the calluses to show for it.
+Dialogue: 0,0:03:51.56,0:03:54.96,Chiha-internal,Default,0000,0000,0000,,She worked hard to make \Nher dream come true.
+Dialogue: 0,0:03:54.96,0:03:57.03,Chiha-internal,Default,0000,0000,0000,,The previous Queen is strong,
+Dialogue: 0,0:03:57.43,0:04:01.15,Chiha-internal,Default,0000,0000,0000,,but you've learned when to \Ngive yourself the go sign.
+Dialogue: 0,0:04:01.85,0:04:05.19,Chiha-internal,Default,0000,0000,0000,,You can control a match \Nagainst the previous queen.
+Dialogue: 0,0:04:12.82,0:04:15.23,Chiha-main,Default,0000,0000,0000,,Is that Ayase's opponent?
+Dialogue: 0,0:04:15.23,0:04:17.47,Chiha-main,Default,0000,0000,0000,,I've seen her before at \Nthe Suihoku society,
+Dialogue: 0,0:04:17.47,0:04:19.75,Chiha-main,Default,0000,0000,0000,,but I've never seen her practice.
+Dialogue: 0,0:04:19.75,0:04:23.38,Chiha-main,Default,0000,0000,0000,,She has an office job, \Nso we're on different schedules.
+Dialogue: 0,0:04:23.38,0:04:25.06,Chiha-main,Default,0000,0000,0000,,Nishida, you've been \Nin the Suihoku society
+Dialogue: 0,0:04:25.06,0:04:26.68,Chiha-main,Default,0000,0000,0000,,since you were little,\N so you should know.
+Dialogue: 0,0:04:27.48,0:04:29.18,Chiha-main,Default,0000,0000,0000,,What's Yamamoto Yuri-san like?
+Dialogue: 0,0:04:31.20,0:04:32.32,Chiha-main,Default,0000,0000,0000,,Wait, what?!
+Dialogue: 0,0:04:32.32,0:04:35.37,Chiha-main,Default,0000,0000,0000,,102, 103, 104...
+Dialogue: 0,0:04:35.89,0:04:37.22,Chiha-main,Default,0000,0000,0000,,I was burned...
+Dialogue: 0,0:04:37.22,0:04:38.94,Chiha-main,Default,0000,0000,0000,,Lost by 20 cards...
+Dialogue: 0,0:04:39.15,0:04:41.44,Chiha-main,Default,0000,0000,0000,,He hasn't recovered from the shock
+Dialogue: 0,0:04:41.44,0:04:43.61,Chiha-main,Default,0000,0000,0000,,of losing to Sudo-san from Hokuo.
+Dialogue: 0,0:04:43.61,0:04:46.03,Chiha-main,Default,0000,0000,0000,,Hey, Nishida.  You okay?
+Dialogue: 0,0:04:46.50,0:04:50.79,Chiha-main,Default,0000,0000,0000,,This was the first time \NI ever met a real sadist.
+Dialogue: 0,0:04:51.45,0:04:53.64,Chiha-main,Default,0000,0000,0000,,It's too bad I don't get to eat you
+Dialogue: 0,0:04:53.64,0:04:55.79,Chiha-main,Default,0000,0000,0000,,after roasting you in a karuta match,
+Dialogue: 0,0:04:56.23,0:04:58.13,Chiha-main,Default,0000,0000,0000,,since it'd be bad for my health.
+Dialogue: 0,0:04:58.41,0:05:01.46,Chiha-main,Default,0000,0000,0000,,I can't believe Ayase actually beat him.
+Dialogue: 0,0:05:01.46,0:05:03.63,Chiha-main,Default,0000,0000,0000,,I'm scared.  Class A is scary.
+Dialogue: 0,0:05:03.63,0:05:06.09,Chiha-main,Default,0000,0000,0000,,There are all these monsters \Nthat I can't beat!
+Dialogue: 0,0:05:06.09,0:05:07.68,Chiha-main,Default,0000,0000,0000,,There, there.
+Dialogue: 0,0:05:07.68,0:05:10.26,Chiha-main,Default,0000,0000,0000,,By the way, what's Yamamoto \NYuri-san's karuta like?
+Dialogue: 0,0:05:10.26,0:05:12.47,Chiha-main,Default,0000,0000,0000,,Yamamoto Yumi!  Yumin!
+Dialogue: 0,0:05:12.47,0:05:14.10,Chiha-main,Default,0000,0000,0000,,Huh?  Sorry.
+Dialogue: 0,0:05:14.47,0:05:15.73,Chiha-main,Default,0000,0000,0000,,Wait, Yumin?
+Dialogue: 0,0:05:16.11,0:05:20.45,Chiha-main,Default,0000,0000,0000,,Yumin's playing style is \Npersistent and stubborn.
+Dialogue: 0,0:05:20.45,0:05:24.49,Chiha-main,Default,0000,0000,0000,,After she became Queen, \Nshe settled down a bit,
+Dialogue: 0,0:05:25.26,0:05:27.49,Chiha-main,Default,0000,0000,0000,,but the real Yumin is...
+Dialogue: 0,0:05:27.49,0:05:29.17,Chiha-main,Default,0000,0000,0000,,Idiot!
+Dialogue: 0,0:05:29.17,0:05:32.48,Chiha-main,Default,0000,0000,0000,,Stop talking with that Shiranami \Nboy and come over here!
+Dialogue: 0,0:05:32.48,0:05:34.12,Chiha-main,Default,0000,0000,0000,,Kana-chan and Komano-kun, too!
+Dialogue: 0,0:05:34.12,0:05:35.06,Chiha-main,Default,0000,0000,0000,,You're with us now!
+Dialogue: 0,0:05:35.06,0:05:35.54,Chiha-main,Default,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:36.12,0:05:37.84,Chiha-main,Default,0000,0000,0000,,Cheer for Yumin!
+Dialogue: 0,0:05:38.33,0:05:40.46,Chiha-main,Default,0000,0000,0000,,Watch her reclaim the title of Queen!
+Dialogue: 0,0:05:42.52,0:05:43.71,Chiha-main,Default,0000,0000,0000,,Cheer her on!
+Dialogue: 0,0:05:44.77,0:05:46.13,Chiha-internal,Default,0000,0000,0000,,Coach...
+Dialogue: 0,0:05:46.47,0:05:54.21,Chiha-poem,Default,0000,0000,0000,,Naniwa Bay, now the flower \Nblooms, but for winter
+Dialogue: 0,0:05:54.96,0:06:01.90,Chiha-poem,Default,0000,0000,0000,,Here comes spring, now the flower blooms
+Dialogue: 0,0:05:55.88,0:05:58.16,Chiha-internal,Default,0000,0000,0000,,It's starting to get warm \Nnow that the sun is out.
+Dialogue: 0,0:05:58.61,0:06:00.98,Chiha-internal,Default,0000,0000,0000,,We'll need to take a \Nbreak to air out the room.
+Dialogue: 0,0:06:00.98,0:06:03.23,Chiha-internal,Default,0000,0000,0000,,The players won't last much longer.
+Dialogue: 0,0:06:04.22,0:06:11.62,Chiha-poem,Default,0000,0000,0000,,Here comes spring, now the flower blooms
+Dialogue: 0,0:06:13.24,0:06:19.56,Chiha-poem,Default,0000,0000,0000,,May the scarlet kadsuras of Mount \NAfusaka live up to their name
+Dialogue: 0,0:06:21.22,0:06:23.34,Chiha-internal,Default,0000,0000,0000,,Her swing is compact and measured.
+Dialogue: 0,0:06:23.96,0:06:26.53,Chiha-internal,Default,0000,0000,0000,,Her body knows how far away each card is.
+Dialogue: 0,0:06:27.01,0:06:27.99,Chiha-internal,Default,0000,0000,0000,,I'm impressed.
+Dialogue: 0,0:06:33.01,0:06:34.76,Chiha-internal,Default,0000,0000,0000,,Even the air feels too warm.
+Dialogue: 0,0:06:35.17,0:06:37.74,Chiha-flashback,Default,0000,0000,0000,,The heat works against \Nus in this tournament.
+Dialogue: 0,0:06:38.37,0:06:40.15,Chiha-internal,Default,0000,0000,0000,,You're absolutely right, Doctor!
+Dialogue: 0,0:06:40.92,0:06:43.47,Chiha-internal,Default,0000,0000,0000,,But... I like it.
+Dialogue: 0,0:06:44.19,0:06:46.29,Chiha-internal,Default,0000,0000,0000,,Normal people can never join us here.
+Dialogue: 0,0:06:46.87,0:06:48.47,Chiha-internal,Default,0000,0000,0000,,The players are all in Class A.
+Dialogue: 0,0:06:49.03,0:06:51.19,Chiha-internal,Default,0000,0000,0000,,Every little sound matters.
+Dialogue: 0,0:06:51.76,0:06:54.06,Chiha-internal,Default,0000,0000,0000,,We all understand how important sound is.
+Dialogue: 0,0:06:51.76,0:06:59.39,Chiha-poem,Default,0000,0000,0000,,and allow us this secret rendezvous
+Dialogue: 0,0:06:54.63,0:06:58.42,Chiha-internal,Default,0000,0000,0000,,Top-class readers are used for \Nthe Master and Queen qualifiers,
+Dialogue: 0,0:07:00.92,0:07:05.92,Chiha-poem,Default,0000,0000,0000,,The hazy early morning light \Ncomes not from the moon
+Dialogue: 0,0:07:03.28,0:07:05.29,Chiha-internal,Default,0000,0000,0000,,and I'm playing against the previous Queen!
+Dialogue: 0,0:07:07.45,0:07:08.42,Chiha-internal,Default,0000,0000,0000,,This is fun!
+Dialogue: 0,0:07:08.66,0:07:09.67,Chiha-internal,Default,0000,0000,0000,,She got it!
+Dialogue: 0,0:07:09.67,0:07:10.78,Chiha-main,Default,0000,0000,0000,,Nice!
+Dialogue: 0,0:07:14.61,0:07:16.06,Chiha-internal,Default,0000,0000,0000,,Stay on the attack!
+Dialogue: 0,0:07:16.06,0:07:17.58,Chiha-poem,Default,0000,0000,0000,,My fear is not...
+Dialogue: 0,0:07:17.58,0:07:18.30,Chiha-internal,Default,0000,0000,0000,,Attack!
+Dialogue: 0,0:07:18.30,0:07:19.79,Chiha-poem,Default,0000,0000,0000,,After I determined...
+Dialogue: 0,0:07:19.79,0:07:20.68,Chiha-internal,Default,0000,0000,0000,,Attack!
+Dialogue: 0,0:07:20.68,0:07:21.75,Chiha-main,Default,0000,0000,0000,,Three in a row!
+Dialogue: 0,0:07:21.75,0:07:23.23,Chiha-main,Default,0000,0000,0000,,She even managed to win \Na three-syllable card!
+Dialogue: 0,0:07:23.91,0:07:25.69,Chiha-internal,Default,0000,0000,0000,,She hasn't committed any faults today.
+Dialogue: 0,0:07:26.25,0:07:27.23,Chiha-internal,Default,0000,0000,0000,,She's on a roll!
+Dialogue: 0,0:07:27.23,0:07:28.20,Chiha-main,Default,0000,0000,0000,,Huh?
+Dialogue: 0,0:07:31.68,0:07:33.88,Chiha-internal,Default,0000,0000,0000,,You're still in good shape, Yumin!
+Dialogue: 0,0:07:33.88,0:07:34.99,Chiha-internal,Default,0000,0000,0000,,You can win!
+Dialogue: 0,0:07:34.99,0:07:37.24,Chiha-internal,Default,0000,0000,0000,,It's time to get stubborn!
+Dialogue: 0,0:07:39.62,0:07:42.99,Chiha-internal,Default,0000,0000,0000,,This girl is in high school, \Nmuch like the Queen.
+Dialogue: 0,0:07:43.53,0:07:46.43,Chiha-internal,Default,0000,0000,0000,,Young, beautiful, and talented at karuta.
+Dialogue: 0,0:07:47.19,0:07:49.26,Chiha-internal,Default,0000,0000,0000,,God is so unfair.
+Dialogue: 0,0:07:51.89,0:07:54.51,Chiha-internal,Default,0000,0000,0000,,All I have is karuta.
+Dialogue: 0,0:07:58.83,0:08:01.58,Chiha-internal,Default,0000,0000,0000,,Karuta has been my life \Nsince I was a child.
+Dialogue: 0,0:08:02.56,0:08:03.60,Chiha-internal,Default,0000,0000,0000,,And yet...
+Dialogue: 0,0:08:07.65,0:08:10.94,Chiha-internal,Default,0000,0000,0000,,After working ten years to \Nearn the title of Queen,
+Dialogue: 0,0:08:10.94,0:08:13.75,Chiha-internal,Default,0000,0000,0000,,I lost that title to Wakamiya \NShinobu a year later.
+Dialogue: 0,0:08:14.94,0:08:18.70,Chiha-internal,Default,0000,0000,0000,,A fifteen-year-old was able to \Nprevent me from playing my karuta.
+Dialogue: 0,0:08:19.87,0:08:23.89,Chiha-internal,Default,0000,0000,0000,,She's probably forgotten \Nabout me already.
+Dialogue: 0,0:08:25.79,0:08:28.67,Chiha-internal,Default,0000,0000,0000,,That's how strong she was.
+Dialogue: 0,0:08:30.41,0:08:33.27,Chiha-internal,Default,0000,0000,0000,,If I win here, I still have \Nto face her in the end...
+Dialogue: 0,0:08:36.99,0:08:38.09,Chiha-internal,Default,0000,0000,0000,,I can't win...
+Dialogue: 0,0:08:39.76,0:08:42.23,Chiha-internal,Default,0000,0000,0000,,It's so hot...  I'm dying...
+Dialogue: 0,0:08:42.59,0:08:44.52,Chiha-internal,Default,0000,0000,0000,,Hey, look at the condensation.
+Dialogue: 0,0:08:44.52,0:08:46.32,Chiha-internal,Default,0000,0000,0000,,How hot is it inside?
+Dialogue: 0,0:08:49.22,0:08:52.19,Chiha-internal,Default,0000,0000,0000,,Why does the window have to fog up?!
+Dialogue: 0,0:08:52.19,0:08:54.74,Chiha-internal,Default,0000,0000,0000,,Yumin won't be able to see us!
+Dialogue: 0,0:08:55.78,0:08:57.99,Chiha-internal,Default,0000,0000,0000,,You can still stage a comeback, Yumin!
+Dialogue: 0,0:08:58.46,0:08:59.19,Chiha-internal,Default,0000,0000,0000,,You can win!
+Dialogue: 0,0:08:59.19,0:09:06.79,Chiha-poem,Default,0000,0000,0000,,is that I have no way \Nto tell you in person
+Dialogue: 0,0:09:08.45,0:09:14.03,Chiha-poem,Default,0000,0000,0000,,While I sigh and lament how the one \NI love does not feel the same,
+Dialogue: 0,0:09:09.75,0:09:11.24,Chiha-main,Default,0000,0000,0000,,Four in a row for Ayase!
+Dialogue: 0,0:09:11.24,0:09:12.55,Chiha-main,Default,0000,0000,0000,,You were so close, Yumin!
+Dialogue: 0,0:09:21.16,0:09:21.93,Chiha-internal,Default,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:27.21,0:09:28.44,Chiha-internal,Default,0000,0000,0000,,Why did she smile?
+Dialogue: 0,0:09:31.98,0:09:33.78,Chiha-internal,Default,0000,0000,0000,,She's played karuta all her life,
+Dialogue: 0,0:09:34.68,0:09:35.78,Chiha-internal,Default,0000,0000,0000,,yet she's leaning back.
+Dialogue: 0,0:09:36.71,0:09:38.16,Chiha-internal,Default,0000,0000,0000,,She isn't following through on her swing.
+Dialogue: 0,0:09:39.17,0:09:40.47,Chiha-internal,Default,0000,0000,0000,,The previous Queen...
+Dialogue: 0,0:09:40.94,0:09:42.47,Chiha-internal,Default,0000,0000,0000,,Someone who achieved her dream...
+Dialogue: 0,0:09:43.05,0:09:44.66,Chiha-internal,Default,0000,0000,0000,,...is losing her passion?
+Dialogue: 0,0:09:47.09,0:09:48.90,Chiha-main,Default,0000,0000,0000,,What's wrong with Yumin?
+Dialogue: 0,0:09:48.90,0:09:49.88,Chiha-main,Default,0000,0000,0000,,Will she be okay?
+Dialogue: 0,0:09:49.88,0:09:51.92,Chiha-main,Default,0000,0000,0000,,Of course she will!
+Dialogue: 0,0:09:51.92,0:09:54.09,Chiha-main,Default,0000,0000,0000,,Yumin's tenacity is about to kick in!
+Dialogue: 0,0:09:59.47,0:10:01.85,Chiha-flashback,Default,0000,0000,0000,,It was an unfortunate ending.
+Dialogue: 0,0:10:01.85,0:10:06.03,Chiha-flashback,Default,0000,0000,0000,,You haven't been practicing as \Nmuch because you have a job now.
+Dialogue: 0,0:10:06.03,0:10:08.56,Chiha-flashback,Default,0000,0000,0000,,Yumin, you can avenge yourself \Nagainst Wakamiya next year.
+Dialogue: 0,0:10:09.14,0:10:12.08,Chiha-flashback,Default,0000,0000,0000,,Eighth place in the national tournament?
+Dialogue: 0,0:10:12.08,0:10:13.73,Chiha-flashback,Default,0000,0000,0000,,That's a pity.
+Dialogue: 0,0:10:13.73,0:10:15.29,Chiha-flashback,Default,0000,0000,0000,,I know you could have placed higher.
+Dialogue: 0,0:10:15.29,0:10:16.98,Chiha-flashback,Default,0000,0000,0000,,What's wrong, Yumin?
+Dialogue: 0,0:10:16.98,0:10:19.21,Chiha-flashback,Default,0000,0000,0000,,You lost in the second round \Nof the Kanezawa tournament?
+Dialogue: 0,0:10:19.21,0:10:21.87,Chiha-flashback,Default,0000,0000,0000,,Yumin, it just wasn't your day!
+Dialogue: 0,0:10:22.39,0:10:23.74,Chiha-flashback,Default,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:10:23.74,0:10:25.25,Chiha-flashback,Default,0000,0000,0000,,In terms of skill, you're number one!
+Dialogue: 0,0:10:26.66,0:10:31.55,Chiha-flashback,Default,0000,0000,0000,,Yes, I'll try my best.
+Dialogue: 0,0:10:34.04,0:10:35.36,Chiha-internal,Default,0000,0000,0000,,She's tired.
+Dialogue: 0,0:10:36.52,0:10:38.47,Chiha-internal,Default,0000,0000,0000,,Not tired of losing.
+Dialogue: 0,0:10:39.38,0:10:42.26,Chiha-internal,Default,0000,0000,0000,,She's tired of failing \Nto meet expectations.
+Dialogue: 0,0:10:49.88,0:10:51.27,Chiha-internal,Default,0000,0000,0000,,It's so hot in this room,
+Dialogue: 0,0:10:51.74,0:10:53.68,Chiha-internal,Default,0000,0000,0000,,but her soul is growing colder.
+Dialogue: 0,0:10:56.49,0:11:00.58,Chiha-flashback,Default,0000,0000,0000,,Chihaya-chan, you've learned when \Nto give yourself the go sign.
+Dialogue: 0,0:11:05.88,0:11:06.91,Chiha-internal,Default,0000,0000,0000,,Dr. Harada...
+Dialogue: 0,0:11:07.92,0:11:12.95,Chiha-internal,Default,0000,0000,0000,,I won't let a person who's given \Nup take a single card off me!
+Dialogue: 0,0:11:19.20,0:11:22.41,Chiha-main,Default,0000,0000,0000,,The condensation's so bad \Nthat we can't see inside.
+Dialogue: 0,0:11:22.87,0:11:25.51,Chiha-main,Default,0000,0000,0000,,It must be really hot in there.
+Dialogue: 0,0:11:25.51,0:11:26.93,Chiha-main,Default,0000,0000,0000,,I wonder if Chihaya-chan is okay.
+Dialogue: 0,0:11:29.06,0:11:31.19,Chiha-internal,Default,0000,0000,0000,,Hang in there, Chihaya!
+Dialogue: 0,0:11:32.01,0:11:33.21,Chiha-main,Default,0000,0000,0000,,Yumin...
+Dialogue: 0,0:11:37.82,0:11:39.04,Chiha-main,Default,0000,0000,0000,,I can't see anything!
+Dialogue: 0,0:11:39.04,0:11:41.18,Chiha-main,Default,0000,0000,0000,,The window's so fogged up \Nthat I can't see a thing!
+Dialogue: 0,0:11:41.18,0:11:43.32,Chiha-main,Default,0000,0000,0000,,Coach Kitano, you have to stay quiet!
+Dialogue: 0,0:11:45.86,0:11:47.08,Chiha-main,Default,0000,0000,0000,,Idiot.
+Dialogue: 0,0:11:55.25,0:11:56.25,Chiha-main,Default,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:56.72,0:11:58.43,Chiha-poem,Default,0000,0000,0000,,Long last we meet...
+Dialogue: 0,0:11:58.43,0:11:59.46,Chiha-internal,Default,0000,0000,0000,,That was a dead card.
+Dialogue: 0,0:11:59.90,0:12:02.22,Chiha-poem,Default,0000,0000,0000,,When the misty bridge...
+Dialogue: 0,0:12:02.22,0:12:04.93,Chiha-internal,Default,0000,0000,0000,,Why is she swinging so \Nhard on a dead card?
+Dialogue: 0,0:12:08.47,0:12:10.14,Chiha-poem,Default,0000,0000,0000,,Gust of wind...
+Dialogue: 0,0:12:11.04,0:12:12.62,Chiha-flashback,Default,0000,0000,0000,,Five in a row for Ayase!
+Dialogue: 0,0:12:13.05,0:12:14.22,Chiha-flashback,Default,0000,0000,0000,,Yumin!
+Dialogue: 0,0:12:14.94,0:12:16.89,Chiha-flashback,Default,0000,0000,0000,,She's going hard after every card?
+Dialogue: 0,0:12:16.89,0:12:17.52,Chiha-flashback,Default,0000,0000,0000,,Why?
+Dialogue: 0,0:12:18.43,0:12:20.28,Chiha-flashback,Default,0000,0000,0000,,She was being careful before.
+Dialogue: 0,0:12:20.83,0:12:23.57,Chiha-flashback,Default,0000,0000,0000,,It's like she thinks she \Ncan dominate this match.
+Dialogue: 0,0:12:27.97,0:12:29.26,Chiha-flashback,Default,0000,0000,0000,,Dominate?
+Dialogue: 0,0:12:31.05,0:12:32.88,Chiha-main,Default,0000,0000,0000,,It's getting hard to see.
+Dialogue: 0,0:12:32.88,0:12:35.51,Chiha-main,Default,0000,0000,0000,,Is it really that much hotter inside?
+Dialogue: 0,0:12:36.14,0:12:38.55,Chiha-main,Default,0000,0000,0000,,Can we get someone to wipe \Nthe windows from the inside?
+Dialogue: 0,0:12:42.09,0:12:44.70,Chiha-main,Default,0000,0000,0000,,Class A matches are incredible.
+Dialogue: 0,0:12:44.70,0:12:45.87,Chiha-main,Default,0000,0000,0000,,Yes,
+Dialogue: 0,0:12:45.87,0:12:49.24,Chiha-main,Default,0000,0000,0000,,but I'm a little sad.
+Dialogue: 0,0:12:49.24,0:12:50.00,Chiha-main,Default,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:50.47,0:12:51.82,Chiha-main,Default,0000,0000,0000,,I mean...
+Dialogue: 0,0:12:52.18,0:12:55.53,Chiha-main,Default,0000,0000,0000,,Nobody is actually \Nlistening to the poems.
+Dialogue: 0,0:12:55.53,0:12:56.52,Chiha-main,Default,0000,0000,0000,,That...
+Dialogue: 0,0:12:57.38,0:12:58.74,Chiha-main,Default,0000,0000,0000,,might be true.
+Dialogue: 0,0:12:59.58,0:13:00.28,Chiha-main,Default,0000,0000,0000,,But...
+Dialogue: 0,0:13:02.04,0:13:08.53,Chiha-poem,Default,0000,0000,0000,,The emotions experienced \Nafter a long-awaited reunion
+Dialogue: 0,0:13:09.36,0:13:16.39,Chiha-poem,Default,0000,0000,0000,,banish any lingering memories of the past
+Dialogue: 0,0:13:16.39,0:13:17.42,Chiha-internal,Default,0000,0000,0000,,Her voice is so clear!
+Dialogue: 0,0:13:19.13,0:13:21.05,Chiha-internal,Default,0000,0000,0000,,Like there isn't a glass \Nwindow between us.
+Dialogue: 0,0:13:22.33,0:13:24.04,Chiha-internal,Default,0000,0000,0000,,Because she's reading poetry...
+Dialogue: 0,0:13:24.92,0:13:26.69,Chiha-internal,Default,0000,0000,0000,,Poetry can transcend any barrier.
+Dialogue: 0,0:13:29.58,0:13:31.73,Chiha-main,Default,0000,0000,0000,,Readers are pretty amazing.
+Dialogue: 0,0:13:32.66,0:13:35.06,Chiha-main,Default,0000,0000,0000,,They have ranks and exams.
+Dialogue: 0,0:13:35.75,0:13:38.46,Chiha-main,Default,0000,0000,0000,,There are less than ten special readers
+Dialogue: 0,0:13:38.46,0:13:40.07,Chiha-main,Default,0000,0000,0000,,qualified for the Master match.
+Dialogue: 0,0:13:41.04,0:13:43.07,Chiha-main,Default,0000,0000,0000,,Special readers...
+Dialogue: 0,0:13:43.74,0:13:46.84,Chiha-main,Default,0000,0000,0000,,How hard is it to become one?
+Dialogue: 0,0:13:51.42,0:13:52.66,Chiha-internal,Default,0000,0000,0000,,Chihaya-chan...
+Dialogue: 0,0:13:53.20,0:13:54.86,Chiha-internal,Default,0000,0000,0000,,Listen to the poems.
+Dialogue: 0,0:13:55.93,0:13:57.85,Chiha-internal,Default,0000,0000,0000,,She thinks that her victory is in sight.
+Dialogue: 0,0:13:58.44,0:14:02.05,Chiha-internal,Default,0000,0000,0000,,What's with them?\N  First, Wakamiya Shinobu, now, this girl...
+Dialogue: 0,0:14:02.05,0:14:04.61,Chiha-internal,Default,0000,0000,0000,,They expect every player to \Nbe oozing with confidence.
+Dialogue: 0,0:14:05.40,0:14:08.05,Chiha-internal,Default,0000,0000,0000,,I lost my confidence a long time ago!
+Dialogue: 0,0:14:08.83,0:14:11.29,Chiha-internal,Default,0000,0000,0000,,But that's why I understand now.
+Dialogue: 0,0:14:11.92,0:14:14.56,Chiha-internal,Default,0000,0000,0000,,You can't let your passion take over.
+Dialogue: 0,0:14:15.56,0:14:17.70,Chiha-poem,Default,0000,0000,0000,,Impassioned was your...
+Dialogue: 0,0:14:20.01,0:14:22.07,Chiha-main,Default,0000,0000,0000,,She went for "Impassionate" \Ninstead of "Impassioned was"!
+Dialogue: 0,0:14:22.48,0:14:25.57,Chiha-main,Default,0000,0000,0000,,Did Chihaya hear wrong?
+Dialogue: 0,0:14:25.87,0:14:27.61,Chiha-main,Default,0000,0000,0000,,And she touched a card \Non the opponent's side
+Dialogue: 0,0:14:27.61,0:14:29.45,Chiha-main,Default,0000,0000,0000,,while the correct one was on her own!
+Dialogue: 0,0:14:29.45,0:14:30.46,Chiha-main,Default,0000,0000,0000,,It's a double fault!
+Dialogue: 0,0:14:31.24,0:14:32.58,Chiha-main,Default,0000,0000,0000,,Chihaya-chan...
+Dialogue: 0,0:14:32.58,0:14:35.45,Chiha-main,Default,0000,0000,0000,,I can't see!  \NI can't see a thing!
+Dialogue: 0,0:14:36.58,0:14:39.14,Chiha-internal,Default,0000,0000,0000,,What am I doing?
+Dialogue: 0,0:14:41.64,0:14:43.33,Chiha-internal,Default,0000,0000,0000,,She made a mistake.
+Dialogue: 0,0:14:43.91,0:14:45.56,Chiha-internal,Default,0000,0000,0000,,Pathetic.
+Dialogue: 0,0:14:45.56,0:14:48.72,Chiha-internal,Default,0000,0000,0000,,The previous Queen needs her \Nopponents to make mistakes.
+Dialogue: 0,0:14:48.80,0:14:52.55,Chiha-card-TS,Default,0000,0000,0000,,the red that is the Tatsuta River
+Dialogue: 0,0:14:50.40,0:14:52.47,Chiha-internal,Default,0000,0000,0000,,From a 7 card lead to a 4 card lead.
+Dialogue: 0,0:14:53.55,0:14:56.00,Chiha-internal,Default,0000,0000,0000,,I've played hundreds \Nof matches, so I know.
+Dialogue: 0,0:14:56.87,0:14:59.03,Chiha-internal,Default,0000,0000,0000,,The match will be determined here.
+Dialogue: 0,0:14:59.52,0:15:00.83,Chiha-internal,Default,0000,0000,0000,,What am I doing?
+Dialogue: 0,0:15:01.32,0:15:03.15,Chiha-internal,Default,0000,0000,0000,,How could I make a mistake now?
+Dialogue: 0,0:15:03.61,0:15:05.61,Chiha-internal,Default,0000,0000,0000,,How could I mess up "Impassionate"?
+Dialogue: 0,0:15:05.61,0:15:06.48,Chiha-internal,Default,0000,0000,0000,,Why?
+Dialogue: 0,0:15:07.96,0:15:09.36,Chiha-internal,Default,0000,0000,0000,,I still have a chance.
+Dialogue: 0,0:15:10.40,0:15:11.61,Chiha-internal,Default,0000,0000,0000,,I can do this.
+Dialogue: 0,0:15:19.07,0:15:20.61,Chiha-main,Default,0000,0000,0000,,Ki-Kitano-san!
+Dialogue: 0,0:15:21.24,0:15:23.45,Chiha-main,Default,0000,0000,0000,,You can't open a window during the match!
+Dialogue: 0,0:15:23.45,0:15:24.59,Chiha-main,Default,0000,0000,0000,,Fool!
+Dialogue: 0,0:15:24.59,0:15:26.92,Chiha-main,Default,0000,0000,0000,,If it's too hot, they're \Ngoing to suffocate!
+Dialogue: 0,0:15:27.31,0:15:29.42,Chiha-main,Default,0000,0000,0000,,You have to let some air in
+Dialogue: 0,0:15:29.42,0:15:31.05,Chiha-main,Default,0000,0000,0000,,or the players will keep suffering!
+Dialogue: 0,0:15:31.36,0:15:33.80,Chiha-main,Default,0000,0000,0000,,You're not supposed to do \Nanything without permission!
+Dialogue: 0,0:15:33.80,0:15:36.06,Chiha-main,Default,0000,0000,0000,,I don't give a damn! \N Wipe the windows!
+Dialogue: 0,0:15:36.44,0:15:37.65,Chiha-internal,Default,0000,0000,0000,,Coach Kitano...
+Dialogue: 0,0:15:38.24,0:15:39.64,Chiha-main,Default,0000,0000,0000,,That feels so good.
+Dialogue: 0,0:15:40.72,0:15:44.81,Chiha-main,Default,0000,0000,0000,,You just helped my opponent recover.
+Dialogue: 0,0:15:44.81,0:15:47.32,Chiha-main,Default,0000,0000,0000,,Come on, Kitano-san!  That's enough!
+Dialogue: 0,0:15:47.98,0:15:49.74,Chiha-main,Default,0000,0000,0000,,You're still in good shape!
+Dialogue: 0,0:15:49.74,0:15:51.32,Chiha-main,Default,0000,0000,0000,,Play your own karuta!
+Dialogue: 0,0:15:53.96,0:15:55.99,Chiha-main,Default,0000,0000,0000,,Enough already!
+Dialogue: 0,0:15:55.99,0:15:57.05,Chiha-main,Default,0000,0000,0000,,I'm going to close the window.
+Dialogue: 0,0:15:57.05,0:15:58.82,Chiha-main,Default,0000,0000,0000,,If you don't want me to \Nopen the window again,
+Dialogue: 0,0:15:58.82,0:16:01.29,Chiha-main,Default,0000,0000,0000,,you better wipe it every ten minutes!
+Dialogue: 0,0:16:02.41,0:16:04.08,Chiha-internal,Default,0000,0000,0000,,Coach Kitano...
+Dialogue: 0,0:16:04.36,0:16:05.36,Chiha-internal,Default,0000,0000,0000,,My own karuta...
+Dialogue: 0,0:16:05.36,0:16:07.02,Chiha-internal,Default,0000,0000,0000,,Yes, my own karuta...
+Dialogue: 0,0:16:07.02,0:16:08.20,Chiha-internal,Default,0000,0000,0000,,My own karuta...
+Dialogue: 0,0:16:08.67,0:16:12.22,Chiha-internal,Default,0000,0000,0000,,He just helped every simple-minded \Nplayer in the room.
+Dialogue: 0,0:16:12.93,0:16:14.46,Chiha-internal,Default,0000,0000,0000,,My own karuta...
+Dialogue: 0,0:16:17.70,0:16:19.35,Chiha-internal,Default,0000,0000,0000,,My own karuta.
+Dialogue: 0,0:16:20.41,0:16:23.24,Chiha-flashback,Default,0000,0000,0000,,Next time, you can avenge \Nyourself against Wakamiya.
+Dialogue: 0,0:16:23.67,0:16:25.61,Chiha-flashback,Default,0000,0000,0000,,You should be excited, Yumin.
+Dialogue: 0,0:16:26.20,0:16:28.48,Chiha-flashback,Default,0000,0000,0000,,You get to be a challenger again!
+Dialogue: 0,0:16:32.96,0:16:34.42,Chiha-internal,Default,0000,0000,0000,,My own karuta.
+Dialogue: 0,0:16:40.30,0:16:41.32,Chiha-internal,Default,0000,0000,0000,,My own...
+Dialogue: 0,0:16:42.52,0:16:44.63,Chiha-internal,Default,0000,0000,0000,,The karuta that comes from all the \Npractice I've done with everyone.
+Dialogue: 0,0:16:46.02,0:16:47.63,Chiha-internal,Default,0000,0000,0000,,I'm going to play...
+Dialogue: 0,0:16:48.14,0:16:49.63,Chiha-internal,Default,0000,0000,0000,,My own karuta!
+Dialogue: 0,0:16:49.63,0:16:57.50,Chiha-poem,Default,0000,0000,0000,,Alas, another autumn has passed in vain
+Dialogue: 0,0:16:59.51,0:17:05.89,Chiha-poem,Default,0000,0000,0000,,I know that my heart is all aflutter
+Dialogue: 0,0:17:00.67,0:17:01.73,Chiha-internal,Default,0000,0000,0000,,Yes!  Got it!
+Dialogue: 0,0:17:01.73,0:17:03.31,Chiha-main,Default,0000,0000,0000,,What?  Please wait.
+Dialogue: 0,0:17:04.12,0:17:06.56,Chiha-main,Default,0000,0000,0000,,I believe that card is mine.
+Dialogue: 0,0:17:06.56,0:17:07.44,Chiha-main,Default,0000,0000,0000,,Huh?
+Dialogue: 0,0:17:09.10,0:17:11.32,Chiha-main,Default,0000,0000,0000,,But I'm the one who hit it...
+Dialogue: 0,0:17:11.32,0:17:13.82,Chiha-main,Default,0000,0000,0000,,You may have knocked it away,
+Dialogue: 0,0:17:13.82,0:17:17.16,Chiha-main,Default,0000,0000,0000,,but my pinky touched it first.
+Dialogue: 0,0:17:17.16,0:17:17.70,Chiha-main,Default,0000,0000,0000,,Like this.
+Dialogue: 0,0:17:17.70,0:17:18.70,Chiha-main,Default,0000,0000,0000,,Huh?
+Dialogue: 0,0:17:19.06,0:17:21.45,Chiha-main,Default,0000,0000,0000,,You just happened to knock it away.
+Dialogue: 0,0:17:22.82,0:17:24.04,Chiha-main,Default,0000,0000,0000,,B-But...
+Dialogue: 0,0:17:24.36,0:17:26.54,Chiha-main,Default,0000,0000,0000,,Are you sure you touched it first?
+Dialogue: 0,0:17:27.09,0:17:28.95,Chiha-main,Default,0000,0000,0000,,I saw everything happen.
+Dialogue: 0,0:17:28.95,0:17:32.37,Chiha-main,Default,0000,0000,0000,,My pinky was on the edge of the card.
+Dialogue: 0,0:17:32.37,0:17:33.87,Chiha-main,Default,0000,0000,0000,,But, um...
+Dialogue: 0,0:17:33.87,0:17:35.64,Chiha-main,Default,0000,0000,0000,,I think I was first...
+Dialogue: 0,0:17:35.64,0:17:39.26,Chiha-main,Default,0000,0000,0000,,After that, you knocked \Nthe card away from above.
+Dialogue: 0,0:17:39.26,0:17:40.13,Chiha-main,Default,0000,0000,0000,,Watch.
+Dialogue: 0,0:17:40.13,0:17:41.06,Chiha-main,Default,0000,0000,0000,,This is what happened.
+Dialogue: 0,0:17:41.41,0:17:43.80,Chiha-main,Default,0000,0000,0000,,U-Um...
+Dialogue: 0,0:17:44.28,0:17:48.06,Chiha-main,Default,0000,0000,0000,,Then you can take it...
+Dialogue: 0,0:17:48.47,0:17:49.48,Chiha-main,Default,0000,0000,0000,,What was that?
+Dialogue: 0,0:17:50.46,0:17:52.32,Chiha-main,Default,0000,0000,0000,,Sh-She's back!
+Dialogue: 0,0:17:52.62,0:17:54.53,Chiha-main,Default,0000,0000,0000,,The legendary Contest Yumi!
+Dialogue: 0,0:17:57.16,0:17:58.24,Chiha-main,Default,0000,0000,0000,,Contest Yumi?
+Dialogue: 0,0:17:58.24,0:17:59.28,Chiha-main,Default,0000,0000,0000,,Yeah.
+Dialogue: 0,0:18:00.15,0:18:06.33,Chiha-main,Default,0000,0000,0000,,She's known for contesting every close call \Nwith absolute confidence.
+Dialogue: 0,0:18:03.83,0:18:06.83,contest,Default,0000,0000,0000,,I touched it first.\NI'm positive!
+Dialogue: 0,0:18:07.37,0:18:11.25,Chiha-main,Default,0000,0000,0000,,While she's arguing, everyone \Nelse has to stop playing,
+Dialogue: 0,0:18:11.25,0:18:13.60,Chiha-main,Default,0000,0000,0000,,so most people frown upon her habit.
+Dialogue: 0,0:18:14.34,0:18:18.76,Chiha-main,Default,0000,0000,0000,,She stopped because it was \Nunfitting for the Queen.
+Dialogue: 0,0:18:20.99,0:18:22.70,Chiha-internal,Default,0000,0000,0000,,That doesn't matter anymore.
+Dialogue: 0,0:18:22.70,0:18:24.77,Chiha-internal,Default,0000,0000,0000,,I'm just a challenger now.
+Dialogue: 0,0:18:24.77,0:18:27.27,Chiha-internal,Default,0000,0000,0000,,Th-This makes it harder...
+Dialogue: 0,0:18:28.83,0:18:31.40,Chiha-main,Default,0000,0000,0000,,Your right hand is on the playing field.
+Dialogue: 0,0:18:31.69,0:18:32.74,Chiha-main,Default,0000,0000,0000,,Huh?
+Dialogue: 0,0:18:32.74,0:18:34.15,Chiha-main,Default,0000,0000,0000,,Oh, I'm sorry!
+Dialogue: 0,0:18:34.83,0:18:36.56,Chiha-internal,Default,0000,0000,0000,,She's making it harder.
+Dialogue: 0,0:18:36.56,0:18:38.97,Chiha-internal,Default,0000,0000,0000,,Focus...  Focus!
+Dialogue: 0,0:18:39.59,0:18:42.66,Chiha-internal,Default,0000,0000,0000,,It might be harder, but I still have \Nto focus on taking the cards I can!
+Dialogue: 0,0:18:43.21,0:18:46.16,Chiha-internal,Default,0000,0000,0000,,There are plenty of my \Nsweet cards on the field!
+Dialogue: 0,0:18:46.71,0:18:53.69,Chiha-poem,Default,0000,0000,0000,,and by no fault of mine
+Dialogue: 0,0:18:55.41,0:18:57.42,Chiha-poem,Default,0000,0000,0000,,Swift waters parted...
+Dialogue: 0,0:19:01.85,0:19:02.68,Chiha-main,Default,0000,0000,0000,,Yes!
+Dialogue: 0,0:19:02.68,0:19:03.68,Chiha-main,Default,0000,0000,0000,,She did it!
+Dialogue: 0,0:19:03.99,0:19:05.68,Chiha-internal,Default,0000,0000,0000,,You seem to be confused.
+Dialogue: 0,0:19:10.48,0:19:14.44,Chiha-internal,Default,0000,0000,0000,,I'm supposed to keep one-syllable \Ncards on my own side.
+Dialogue: 0,0:19:17.54,0:19:19.70,Chiha-internal,Default,0000,0000,0000,,"I won't let her take a \Nsingle card off me."
+Dialogue: 0,0:19:20.96,0:19:22.59,Chiha-internal,Default,0000,0000,0000,,Why would I think that?
+Dialogue: 0,0:19:24.37,0:19:26.98,Chiha-internal,Default,0000,0000,0000,,I'm playing against the previous queen!
+Dialogue: 0,0:19:37.75,0:19:39.47,Chiha-poem,Default,0000,0000,0000,,No matter where...
+Dialogue: 0,0:19:39.87,0:19:41.84,Chiha-poem,Default,0000,0000,0000,,For the cold nights...
+Dialogue: 0,0:19:42.31,0:19:44.85,Chiha-internal,Default,0000,0000,0000,,Karuta is scary...
+Dialogue: 0,0:19:45.52,0:19:48.60,Chiha-internal,Default,0000,0000,0000,,Chihaya has lost all of her confidence.
+Dialogue: 0,0:19:49.28,0:19:51.01,Chiha-internal,Default,0000,0000,0000,,She's freezing up and making mistakes.
+Dialogue: 0,0:19:51.69,0:19:54.20,Chiha-internal,Default,0000,0000,0000,,I didn't realize that mental \Nstrength was so important.
+Dialogue: 0,0:19:55.93,0:19:56.86,Chiha-internal,Default,0000,0000,0000,,Mental strength.
+Dialogue: 0,0:19:59.93,0:20:02.66,Chiha-internal,Default,0000,0000,0000,,How badly you want it...
+Dialogue: 0,0:20:04.06,0:20:04.60,Chiha-main,Default,0000,0000,0000,,Yes!
+Dialogue: 0,0:20:04.60,0:20:05.49,Chiha-main,Default,0000,0000,0000,,Please wait.
+Dialogue: 0,0:20:06.13,0:20:08.42,Chiha-main,Default,0000,0000,0000,,I touched that card before you did.
+Dialogue: 0,0:20:08.42,0:20:09.32,Chiha-main,Default,0000,0000,0000,,What?
+Dialogue: 0,0:20:09.32,0:20:11.15,Chiha-main,Default,0000,0000,0000,,Look, I hit it here.
+Dialogue: 0,0:20:11.15,0:20:13.19,Chiha-main,Default,0000,0000,0000,,That pair keeps arguing.
+Dialogue: 0,0:20:13.19,0:20:14.44,Chiha-main,Default,0000,0000,0000,,The match will never end.
+Dialogue: 0,0:20:16.39,0:20:17.86,Chiha-internal,Default,0000,0000,0000,,Don't worry about it, Yumin.
+Dialogue: 0,0:20:18.31,0:20:20.80,Chiha-internal,Default,0000,0000,0000,,People will remember your \Ntendency to contest cards,
+Dialogue: 0,0:20:21.46,0:20:25.59,Chiha-internal,Default,0000,0000,0000,,but your karuta happens to \Nbe that much more refined,
+Dialogue: 0,0:20:25.59,0:20:27.01,Chiha-internal,Default,0000,0000,0000,,that much more accurate.
+Dialogue: 0,0:20:28.00,0:20:34.27,Chiha-internal,Default,0000,0000,0000,,Everyone here knows how difficult \Nit is to get to that point.
+Dialogue: 0,0:20:35.81,0:20:43.17,Chiha-poem,Default,0000,0000,0000,,I hide in the mountains, only to \Nhear the haunting cry of a deer
+Dialogue: 0,0:20:41.78,0:20:42.78,Chiha-internal,Default,0000,0000,0000,,You can do it!
+Dialogue: 0,0:20:43.19,0:20:44.28,Chiha-internal,Default,0000,0000,0000,,Yumin!
+Dialogue: 0,0:20:46.97,0:20:48.83,Chiha-poem,Default,0000,0000,0000,,None are left...
+Dialogue: 0,0:20:52.02,0:20:53.96,Chiha-main,Default,0000,0000,0000,,You did it, Yumin!
+Dialogue: 0,0:20:59.58,0:21:01.21,Chiha-main,Default,0000,0000,0000,,Thank you very much.
+Dialogue: 0,0:21:05.02,0:21:06.62,Chiha-main,Default,0000,0000,0000,,Thank you very much.

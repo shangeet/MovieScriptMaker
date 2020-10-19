@@ -1,0 +1,463 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: OP_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H00F7FCFD,&H000000FF,&H00070805,&H000D1728,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0075,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_138_1_Black_Clover_is_,Trebuchet MS,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_1785_19_Vice_Captain_of_,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0070,0275,0090,1
+Style: sign_6730_49_Captain_of_the_A,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_7061_51_A_Team_Coral_Pea,Times New Roman,20,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0150,1
+Style: sign_7198_131_Nean,Times New Roman,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0336,0254,0134,1
+Style: sign_7198_132_Common_Realm,Times New Roman,24,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0450,0190,1
+Style: sign_7198_133_Kikka,Times New Roman,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0265,0315,0260,1
+Style: sign_9194_75_Yay____Yay____,Times New Roman,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_12339_133_Finnes_Calmreich,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_14555_151_4_years_ago,Times New Roman,28,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0085,1
+Style: sign_15736_152_Sandler,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0060,0505,0205,1
+Style: sign_15736_154_Solid,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0135,0455,0225,1
+Style: sign_15736_155_O_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0110,0440,0060,1
+Style: sign_15736_156_En___Noelle___Yu,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0070,0205,1
+Style: sign_10111_106_Venue_for_the_Ro,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_11720_132_Bell_,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0235,0030,0070,1
+Style: sign_13177_157_1st_Class_Interm,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0015,0424,0080,1
+Style: sign_13177_158_4th_Class_Senior,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0230,0250,0080,1
+Style: sign_13177_159_1st_Class_Interm,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0415,0030,0080,1
+Style: sign_17323_210_Also_got_in_thro,Times New Roman,24,&H000B0B0B,&H000000FF,&H00FFFFFF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0159,0156,0020,1
+Style: sign_21447_269_Mage_Attendant_t,Times New Roman,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0310,0095,1
+Style: sign_21447_270_1st_Class_Interm,Times New Roman,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0355,0030,0095,1
+Style: sign_32950_385_Halt_,Times New Roman,30,&H00332E32,&H000000FF,&H00DADEE2,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0360,0030,0020,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:06.73,0:00:10.77,italics,Nar,0000,0000,0000,,It appeared as though humanity \Nwould be destroyed by the demons.
+Dialogue: 0,0:00:15.01,0:00:19.29,italics,Nar,0000,0000,0000,,But a single mage saved them all.
+Dialogue: 0,0:00:26.43,0:00:31.59,italics,Nar,0000,0000,0000,,He was called the Wizard King,\Nand he became a legend.
+Dialogue: 0,0:00:34.82,0:00:36.78,italics,Nar,0000,0000,0000,,Yami's tales of his younger years taught Asta
+Dialogue: 0,0:00:36.78,0:00:38.95,italics,Nar,0000,0000,0000,,that you'll always find a path \Nas long as you don't give up,
+Dialogue: 0,0:00:38.95,0:00:41.89,italics,Nar,0000,0000,0000,,and Asta's competitive spirit was \Nignited in his rivalry with Yuno.
+Dialogue: 0,0:00:41.89,0:00:46.68,main,Asta,0000,0000,0000,,All right! I'm gonna catch \Nup to Yuno and surpass him!
+Dialogue: 0,0:00:46.68,0:00:47.65,italics,Nar,0000,0000,0000,,And then...
+Dialogue: 0,0:00:49.10,0:00:50.38,main,Magna,0000,0000,0000,,The hell?
+Dialogue: 0,0:00:50.38,0:00:52.98,main,Magna,0000,0000,0000,,I dunno who the hell you are,\N but stop that racket!
+Dialogue: 0,0:00:52.98,0:00:55.72,main,Magna,0000,0000,0000,,Don't you know that this is the \Nhome of the Black Bulls,
+Dialogue: 0,0:00:55.72,0:00:57.70,main,Magna,0000,0000,0000,,the Magic Knights Squad that Mister Yami—
+Dialogue: 0,0:00:57.70,0:00:59.58,main,Asta,0000,0000,0000,,Th-The heck?!
+Dialogue: 0,0:01:01.37,0:01:04.90,main,Asta,0000,0000,0000,,Y-You're Lady Sisgoleon!
+Dialogue: 0,0:01:32.21,0:01:37.99,Ep Title,Sign,0000,0000,0000,,Formation of the Royal Knights
+Dialogue: 0,0:02:36.30,0:02:40.26,sign_12339_133_Finnes_Calmreich,Sign,0000,0000,0000,,{\blur3\fad(1482,1)}Mereoleona Vermillion
+Dialogue: 0,0:02:40.79,0:02:42.53,main,Magna,0000,0000,0000,,What? Are you serious?
+Dialogue: 0,0:02:42.53,0:02:45.45,main,Magna,0000,0000,0000,,What the hell is the Captain of \Nthe Crimson Lion Kings doing here?
+Dialogue: 0,0:02:45.45,0:02:46.35,main,Luck,0000,0000,0000,,Yeah!
+Dialogue: 0,0:02:46.35,0:02:50.35,main,Asta,0000,0000,0000,,Yeah! What are you doing here,\N Captain Sisgoleon?!
+Dialogue: 0,0:02:50.35,0:02:51.90,main,Mere,0000,0000,0000,,It's Mereoleona!
+Dialogue: 0,0:02:54.06,0:02:57.53,main,Yami,0000,0000,0000,,What the hell is all that racket?
+Dialogue: 0,0:02:57.53,0:02:59.63,main,Yami,0000,0000,0000,,I can't even take a dump in pea—
+Dialogue: 0,0:03:00.24,0:03:03.11,main,Yami,0000,0000,0000,,It's an emergency! A wild beast \Nhas invaded the premises!
+Dialogue: 0,0:03:03.11,0:03:05.49,main,Yami,0000,0000,0000,,Everyone, leave the base immediately!
+Dialogue: 0,0:03:05.49,0:03:08.17,main,Yami,0000,0000,0000,,Any of you that don't make \Nit out, just play dead!
+Dialogue: 0,0:03:08.17,0:03:10.25,main,Yami,0000,0000,0000,,Don't look her in the eye! She'll eat you!
+Dialogue: 0,0:03:12.58,0:03:14.81,main,Mere,0000,0000,0000,,Just shut up and accept this, you fool.
+Dialogue: 0,0:03:14.81,0:03:18.83,main,Yami,0000,0000,0000,,Um... Is this some hellish drink \Nthat'll set my throat ablaze
+Dialogue: 0,0:03:18.83,0:03:21.01,main,Yami,0000,0000,0000,,and make me spit fire after a single sip?
+Dialogue: 0,0:03:21.71,0:03:25.01,main,Mere,0000,0000,0000,,It's to thank you for visiting Fuegoleon.\NDo you wanna die for real?
+Dialogue: 0,0:03:25.51,0:03:28.03,main,Yami,0000,0000,0000,,You don't need to thank me.
+Dialogue: 0,0:03:28.03,0:03:32.99,main,Yami,0000,0000,0000,,At any rate, this drink can't be for humans \Nif someone as violent as you likes it.
+Dialogue: 0,0:03:32.99,0:03:34.15,main,Yami,0000,0000,0000,,I don't want it.
+Dialogue: 0,0:03:34.15,0:03:35.70,main,Mere,0000,0000,0000,,Okay, I'm going to kill you.
+Dialogue: 0,0:03:35.70,0:03:38.65,main,Yami,0000,0000,0000,,You're not supposed to kill \Nthe person you're thanking.
+Dialogue: 0,0:03:38.65,0:03:40.67,main,Mere,0000,0000,0000,,I'll kill you with gratitude.
+Dialogue: 0,0:03:40.67,0:03:42.40,main,Yami,0000,0000,0000,,Your eyes are way too serious...
+Dialogue: 0,0:03:42.72,0:03:44.36,main,Mere,0000,0000,0000,,I dislike jokes.
+Dialogue: 0,0:03:44.36,0:03:49.55,main,Vanessa,0000,0000,0000,,You don't want it, Captain? \NThen can I have it?
+Dialogue: 0,0:03:51.33,0:03:55.70,main,Asta,0000,0000,0000,,Oh, I see. You just came to see Captain Yami.
+Dialogue: 0,0:03:55.70,0:04:00.01,main,Asta,0000,0000,0000,,I totally thought you were gonna \Ntake me someplace awful aga—
+Dialogue: 0,0:04:01.67,0:04:03.85,main,Mere,0000,0000,0000,,While I'm at it, I might \Nas well take you lot, too.
+Dialogue: 0,0:04:05.05,0:04:08.50,main,Asta,0000,0000,0000,,What do you mean by that?! \NWhere are you taking us?
+Dialogue: 0,0:04:08.50,0:04:10.72,main,Asta,0000,0000,0000,,Hell? Is it hell?!
+Dialogue: 0,0:04:10.72,0:04:14.02,main,Noelle,0000,0000,0000,,No! Wh-Why are you taking me, too?!
+Dialogue: 0,0:04:15.25,0:04:17.02,main,Luck,0000,0000,0000,,Are there strong people where we're going?
+Dialogue: 0,0:04:19.05,0:04:21.99,main,Gordon,0000,0000,0000,,Are you leaving already? But I made tea...
+Dialogue: 0,0:04:22.31,0:04:25.45,main,Noelle,0000,0000,0000,,H-Hey! Your squad members \Nare being kidnapped!
+Dialogue: 0,0:04:25.45,0:04:27.52,main,Noelle,0000,0000,0000,,Do something!
+Dialogue: 0,0:04:27.52,0:04:29.99,main,Yami,0000,0000,0000,,Well, if that means you're leaving, have at it.
+Dialogue: 0,0:04:29.99,0:04:31.85,main,Both,0000,0000,0000,,What?!
+Dialogue: 0,0:04:32.41,0:04:36.36,main,Asta,0000,0000,0000,,We're sacrifices! What the heck \Ndid we do to deserve this?!
+Dialogue: 0,0:04:37.67,0:04:40.70,main,Magna,0000,0000,0000,,Looks like you guys shoulda \Nbeen better people!
+Dialogue: 0,0:04:40.70,0:04:43.13,main,Magna,0000,0000,0000,,Especially you, Luck! Serves you damn right!
+Dialogue: 0,0:04:43.99,0:04:47.18,main,Mere,0000,0000,0000,,They all passed the \NRoyal Knights Selection Exam.
+Dialogue: 0,0:04:47.18,0:04:48.94,main,Magna,0000,0000,0000,,What?!
+Dialogue: 0,0:04:49.56,0:04:51.19,main,Noelle,0000,0000,0000,,W-We passed?!
+Dialogue: 0,0:04:51.19,0:04:52.77,main,Asta,0000,0000,0000,,We made it into the Royal Knights?!
+Dialogue: 0,0:04:53.58,0:04:57.77,main,Asta,0000,0000,0000,,I couldn't win the tournament,\Nbut Yuno didn't leave me behind, either!
+Dialogue: 0,0:04:57.77,0:05:01.90,main,Asta,0000,0000,0000,,We can both still strive to become the \NWizard King and fight on the same stage!
+Dialogue: 0,0:05:01.90,0:05:04.03,main,Asta,0000,0000,0000,,Heck yeah!
+Dialogue: 0,0:05:04.44,0:05:05.71,italics,Noelle,0000,0000,0000,,I did it!
+Dialogue: 0,0:05:05.71,0:05:07.72,italics,Noelle,0000,0000,0000,,I passed! I passed!
+Dialogue: 0,0:05:07.72,0:05:09.88,italics,Noelle,0000,0000,0000,,That means I get to stay with Asta—
+Dialogue: 0,0:05:09.88,0:05:12.87,italics,Noelle,0000,0000,0000,,N-Not that I actually care about that!
+Dialogue: 0,0:05:12.87,0:05:15.83,italics,Noelle,0000,0000,0000,,I-I mean, I'm happy that Asta passed,
+Dialogue: 0,0:05:15.83,0:05:18.26,italics,Noelle,0000,0000,0000,,but that's just because he's in \Nthe same squad as me! Yeah!
+Dialogue: 0,0:05:18.26,0:05:20.17,italics,Noelle,0000,0000,0000,,That's all it is!
+Dialogue: 0,0:05:20.64,0:05:23.74,main,Asta,0000,0000,0000,,Noelle, it'll be great working \Ntogether as fellow Royal Knights!
+Dialogue: 0,0:05:23.74,0:05:25.11,main,Noelle,0000,0000,0000,,H-Hmph.
+Dialogue: 0,0:05:25.11,0:05:28.43,main,Noelle,0000,0000,0000,,Don't go barging in on your own again \Nand cause trouble for everyone else.
+Dialogue: 0,0:05:28.43,0:05:32.44,main,Asta,0000,0000,0000,,Yeah! I've been training even harder, \Nso you don't have to worry about that!
+Dialogue: 0,0:05:32.44,0:05:35.77,main,Noelle,0000,0000,0000,,Did you even hear what I said?! \NI said {\i1}don't{\i0} go barging into places!
+Dialogue: 0,0:05:36.25,0:05:40.52,main,Mere,0000,0000,0000,,By the way, I believe there's \None other Black Bull who passed.
+Dialogue: 0,0:05:40.52,0:05:42.78,main,Both,0000,0000,0000,,Huh? One more?
+Dialogue: 0,0:05:42.78,0:05:45.90,main,Magna,0000,0000,0000,,R-Really? Maybe I'm the \None you're looking for.
+Dialogue: 0,0:05:45.90,0:05:47.14,main,Magna,0000,0000,0000,,Hey, right here!
+Dialogue: 0,0:05:47.14,0:05:48.28,main,Mere,0000,0000,0000,,I don't see him, though.
+Dialogue: 0,0:05:48.28,0:05:49.95,main,Magna,0000,0000,0000,,Hello?! I'm right here!
+Dialogue: 0,0:05:49.95,0:05:51.96,main,Magna,0000,0000,0000,,Right here! Magna Swing!
+Dialogue: 0,0:05:51.96,0:05:53.18,main,Mere,0000,0000,0000,,It's not you.
+Dialogue: 0,0:05:53.75,0:05:56.29,main,Mere,0000,0000,0000,,It doesn't matter. \NA summons has been sent to them.
+Dialogue: 0,0:05:57.38,0:05:59.29,main,Magna,0000,0000,0000,,Guess I didn't make it after all.
+Dialogue: 0,0:05:59.29,0:06:00.91,main,Asta,0000,0000,0000,,Magna...
+Dialogue: 0,0:06:03.22,0:06:05.06,main,Luck,0000,0000,0000,,Too bad for you, Magna.
+Dialogue: 0,0:06:05.06,0:06:07.89,main,Luck,0000,0000,0000,,I'm gonna become even stronger \Nin the Royal Knights,
+Dialogue: 0,0:06:07.89,0:06:09.94,main,Luck,0000,0000,0000,,so I might get too strong for you.
+Dialogue: 0,0:06:10.47,0:06:12.35,main,Noelle,0000,0000,0000,,H-Hey, what are you—
+Dialogue: 0,0:06:12.70,0:06:15.29,main,Magna,0000,0000,0000,,You've got some nerve, you little shit!
+Dialogue: 0,0:06:15.29,0:06:17.81,main,Magna,0000,0000,0000,,I'll keep getting back up no \Nmatter how many times I fall!
+Dialogue: 0,0:06:17.81,0:06:22.15,main,Magna,0000,0000,0000,,You'd better not crap your pants when you \Ncome back and I'm way stronger than you!
+Dialogue: 0,0:06:22.15,0:06:26.22,main,Magna,0000,0000,0000,,All right, training time! \NVanessa, spar with me!
+Dialogue: 0,0:06:26.22,0:06:29.71,main,Vanessa,0000,0000,0000,,What? But I'm about to enjoy this.
+Dialogue: 0,0:06:29.71,0:06:33.74,main,Magna,0000,0000,0000,,I wanna get stronger! I have to!
+Dialogue: 0,0:06:33.74,0:06:39.07,main,Vanessa,0000,0000,0000,,Oh, fine. I guess I'll just have my \Nfun later, you virgin delinquent.
+Dialogue: 0,0:06:39.75,0:06:41.50,main,Magna,0000,0000,0000,,Who are you calling a delinquent?!
+Dialogue: 0,0:06:41.89,0:06:46.51,main,Magna,0000,0000,0000,,You'd better be ready, Luck! \NSo... come back safely.
+Dialogue: 0,0:06:47.46,0:06:48.26,main,Luck,0000,0000,0000,,Yeah!
+Dialogue: 0,0:06:48.26,0:06:49.80,main,Magna,0000,0000,0000,,The same goes for you two.
+Dialogue: 0,0:06:49.80,0:06:51.13,main,Asta,0000,0000,0000,,Yeah!
+Dialogue: 0,0:06:51.13,0:06:52.30,main,Noelle,0000,0000,0000,,But of course.
+Dialogue: 0,0:06:52.30,0:06:54.62,main,Gordon,0000,0000,0000,,We'll be cheering you on.
+Dialogue: 0,0:06:55.83,0:06:58.68,italics,Yami,0000,0000,0000,,I'm loving the looks on their faces.
+Dialogue: 0,0:06:59.15,0:07:00.71,italics,Yami,0000,0000,0000,,Go kick some ass.
+Dialogue: 0,0:07:01.71,0:07:05.44,sign_10111_106_Venue_for_the_Ro,Sign,0000,0000,0000,,{\blur3\fad(753,1)}Venue for the Royal Knights' Swearing-In Ceremony\N{\fs30}The Tower of Hope
+Dialogue: 0,0:07:05.44,0:07:08.29,main,Mere,0000,0000,0000,,From the Silver Eagles, Nils Ragus.
+Dialogue: 0,0:07:08.29,0:07:09.11,main,Nils,0000,0000,0000,,Yes, ma'am!
+Dialogue: 0,0:07:09.42,0:07:13.20,main,Mere,0000,0000,0000,,The Vice Captain of the Coral Peacocks,\N Kirsch Vermillion.
+Dialogue: 0,0:07:13.20,0:07:17.70,sign_6730_49_Captain_of_the_A,Sign,0000,0000,0000,,{\blur3}Vice Captain of the Coral Peacocks, 1st Class Senior Magic Knight\N{\fs30}Kirsch Vermillion
+Dialogue: 0,0:07:14.55,0:07:17.70,top,Kirsch,0000,0000,0000,,My name always sounds so beautiful.
+Dialogue: 0,0:07:17.70,0:07:20.87,main,Mere,0000,0000,0000,,From the Blue Rose Knights, Puli Angel.
+Dialogue: 0,0:07:20.87,0:07:25.63,sign_10111_106_Venue_for_the_Ro,Sign,0000,0000,0000,,{\blur3}Member of the Blue Rose Knights, 4th Class Senior Magic Knight\N{\fs30}Puli Angel
+Dialogue: 0,0:07:20.87,0:07:25.63,top,Puli,0000,0000,0000,,I'm here! Did you all miss me?
+Dialogue: 0,0:07:25.63,0:07:29.20,top,Mere,0000,0000,0000,,From the Green Praying Mantises, En Ringard.
+Dialogue: 0,0:07:25.63,0:07:30.15,sign_10111_106_Venue_for_the_Ro,Sign,0000,0000,0000,,{\blur3\fad(1,785)}Member of the Green Praying Mantises, 4th Class Senior Magic Knight\N{\fs30}En Ringard
+Dialogue: 0,0:07:29.20,0:07:32.76,top,Mush,0000,0000,0000,,Hell yeah! Let's do this!
+Dialogue: 0,0:07:32.76,0:07:33.64,main,En,0000,0000,0000,,Yeah...
+Dialogue: 0,0:07:33.64,0:07:38.16,sign_6730_49_Captain_of_the_A,Sign,0000,0000,0000,,{\blur3\fad(1,787)}Captain of the Aqua Deer\N{\fs30}Rill Boismortier
+Dialogue: 0,0:07:33.96,0:07:40.12,top,Mere,0000,0000,0000,,From the Aqua Deer, Captain Rill \NBoismortier and Fragil Tormenta.
+Dialogue: 0,0:07:38.41,0:07:42.90,sign_10111_106_Venue_for_the_Ro,Sign,0000,0000,0000,,{\blur3\fad(757,772)}Member of the Aqua Deer Squad, 3rd Class Intermediate Magic Knight\N{\fs30}Fragil Tormenta
+Dialogue: 0,0:07:40.12,0:07:44.98,top,Rill,0000,0000,0000,,Hi. I'm Rill, the Magic Knights Squad captain \Nwho couldn't even win the tournament.
+Dialogue: 0,0:07:45.74,0:07:48.15,main,Fragil,0000,0000,0000,,Captain, please get a hold of yourself!
+Dialogue: 0,0:07:48.15,0:07:54.87,main,Mere,0000,0000,0000,,From the Golden Dawn, Hamon Caseus, \NKlaus Lunettes, Mimosa Vermillion, and Yuno!
+Dialogue: 0,0:07:54.87,0:07:56.07,main,All,0000,0000,0000,,Yes, ma'am!
+Dialogue: 0,0:07:56.07,0:08:00.50,sign_6730_49_Captain_of_the_A,Sign,0000,0000,0000,,{\blur3}Member of the Golden Dawn, 2nd Class Intermediate Magic Knight\N{\fs30}Hamon Caseus
+Dialogue: 0,0:07:57.41,0:08:00.50,top,Hamon,0000,0000,0000,,More candidates were chosen \Nfrom our squad than any other.
+Dialogue: 0,0:08:00.50,0:08:04.75,sign_6730_49_Captain_of_the_A,Sign,0000,0000,0000,,{\blur3}Member of the Golden Dawn, 3rd Class Intermediate Magic Knight\N{\fs30}Klaus Lunettes
+Dialogue: 0,0:08:01.54,0:08:04.75,top,Klaus,0000,0000,0000,,This is what we call Golden Dawn \Nquality and Golden Dawn pride.
+Dialogue: 0,0:08:04.75,0:08:08.52,sign_6730_49_Captain_of_the_A,Sign,0000,0000,0000,,{\blur3\fad(1,783)}Member of the Golden Dawn, 5th Class Intermediate Magic Knight\N{\fs30}Yuno
+Dialogue: 0,0:08:04.75,0:08:10.36,top,Bell,0000,0000,0000,,Of course Yuno was chosen! \NHe was the MVP of the Selection Exam!
+Dialogue: 0,0:08:08.82,0:08:12.26,sign_11720_132_Bell_,Sign,0000,0000,0000,,{\blur3\fad(710,1)}Bell
+Dialogue: 0,0:08:10.90,0:08:12.26,top,Bell,0000,0000,0000,,Hey, are you listening?
+Dialogue: 0,0:08:12.60,0:08:17.76,main,Mere,0000,0000,0000,,From the Black Bulls, \NLuck Voltia, Noelle Silva, and Asta.
+Dialogue: 0,0:08:17.76,0:08:19.26,main,All,0000,0000,0000,,Yes, ma'am!
+Dialogue: 0,0:08:19.77,0:08:23.31,main,Asta,0000,0000,0000,,How you like that, Yuno?! \NI didn't get left behind!
+Dialogue: 0,0:08:23.31,0:08:25.52,main,Asta,0000,0000,0000,,I'll keep getting back up, \Nno matter how many times I fall!
+Dialogue: 0,0:08:25.52,0:08:27.30,main,Yuno,0000,0000,0000,,And you'll fall again.
+Dialogue: 0,0:08:27.30,0:08:28.70,main,Bell,0000,0000,0000,,You do nothing but fall.
+Dialogue: 0,0:08:28.70,0:08:30.73,main,Asta,0000,0000,0000,,Yeah, whenever I get a chance..
+Dialogue: 0,0:08:30.73,0:08:32.59,main,Asta,0000,0000,0000,,Wait! What the hell, man?!
+Dialogue: 0,0:08:32.59,0:08:33.74,main,Yuno,0000,0000,0000,,I'm just stating the truth.
+Dialogue: 0,0:08:33.74,0:08:36.60,main,Asta,0000,0000,0000,,Yeah, and the part where I keep \Ngetting back up is true, too!
+Dialogue: 0,0:08:36.60,0:08:38.24,italics,Noelle,0000,0000,0000,,Guess he accepted the falling part.
+Dialogue: 0,0:08:38.24,0:08:42.50,sign_6730_49_Captain_of_the_A,Sign,0000,0000,0000,,{\blur3}Member of the Golden Dawn, 5th Class Intermediate Magic Knight\N{\fs30}Mimosa Vermillion
+Dialogue: 0,0:08:38.59,0:08:42.50,top,Mimosa,0000,0000,0000,,I'm so happy that I get to \Nwork with you again, Asta.
+Dialogue: 0,0:08:42.50,0:08:44.42,main,Asta,0000,0000,0000,,Likewise!
+Dialogue: 0,0:08:45.67,0:08:47.70,main,Mere,0000,0000,0000,,I'm late in introducing myself,
+Dialogue: 0,0:08:48.12,0:08:51.00,main,Mere,0000,0000,0000,,but I'm Mereoleona Vermillion, \Nand I've been appointed
+Dialogue: 0,0:08:51.00,0:08:52.84,main,Mere,0000,0000,0000,,the Captain of the Royal Knights!
+Dialogue: 0,0:08:52.84,0:08:57.03,main,Asta,0000,0000,0000,,What?! Lady Sisgoleon's the \NCaptain of the Royal Knights?!
+Dialogue: 0,0:08:57.03,0:08:59.60,main,Asta,0000,0000,0000,,Wait, why's no one else surprised?
+Dialogue: 0,0:08:59.60,0:09:02.15,main,Noelle,0000,0000,0000,,I figured that'd be the case.
+Dialogue: 0,0:09:02.15,0:09:04.98,main,Noelle,0000,0000,0000,,She just did roll call, and she's \Nthe one who came to get us.
+Dialogue: 0,0:09:05.39,0:09:06.31,main,Mere,0000,0000,0000,,Got a problem with me?
+Dialogue: 0,0:09:07.56,0:09:09.57,main,Asta,0000,0000,0000,,Absolutely not!
+Dialogue: 0,0:09:09.57,0:09:18.37,sign_13177_157_1st_Class_Interm,Sign,0000,0000,0000,,{\blur3}1st Class Intermediate Magic Knight\N{\fs15}Nils Ragus
+Dialogue: 0,0:09:09.57,0:09:18.37,sign_13177_158_4th_Class_Senior,Sign,0000,0000,0000,,{\blur3}4th Class Senior Magic Knight\N{\fs15}Ben Benfunk
+Dialogue: 0,0:09:09.57,0:09:18.37,sign_13177_159_1st_Class_Interm,Sign,0000,0000,0000,,{\blur3}1st Class Intermediate Magic Knight\N{\fs15}Ruben Shagger
+Dialogue: 0,0:09:09.89,0:09:12.43,top,ruben,0000,0000,0000,,Not only is she leading our \NCrimson Lion Kings Squad,
+Dialogue: 0,0:09:12.43,0:09:16.73,top,ruben,0000,0000,0000,,Lady Mereoleona's also royalty!\N Who could be more fit?
+Dialogue: 0,0:09:16.73,0:09:18.37,top,Ben,0000,0000,0000,,Yes.
+Dialogue: 0,0:09:18.70,0:09:20.04,italics,Klaus,0000,0000,0000,,I would've preferred
+Dialogue: 0,0:09:20.04,0:09:23.46,italics,Klaus,0000,0000,0000,,that our captain of the Golden Dawn, \NCaptain Vangeance, be chosen,
+Dialogue: 0,0:09:23.46,0:09:26.75,italics,Klaus,0000,0000,0000,,but he's busy leading the troops guarding \Nthe royal capital, so this'll have to do.
+Dialogue: 0,0:09:26.75,0:09:29.78,main,Mere,0000,0000,0000,,If any of you have any objections, \Ndon't hold back! State them now!
+Dialogue: 0,0:09:29.78,0:09:32.65,main,Mere,0000,0000,0000,,I also won't hold back in crushing you!
+Dialogue: 0,0:09:33.63,0:09:35.27,italics,Yuno,0000,0000,0000,,You can't be serious.
+Dialogue: 0,0:09:35.27,0:09:40.30,main,Mere,0000,0000,0000,,Listen up! You sixteen survived \Nthe brutal Selection Exam
+Dialogue: 0,0:09:40.30,0:09:43.14,main,Mere,0000,0000,0000,,and were chosen to become Royal Knights.
+Dialogue: 0,0:09:43.14,0:09:44.62,main,Mere,0000,0000,0000,,If there are no objections,
+Dialogue: 0,0:09:44.62,0:09:47.58,main,Mere,0000,0000,0000,,from this day until we annihilate \Nthe Eye of the Midnight Sun,
+Dialogue: 0,0:09:47.58,0:09:50.65,main,Mere,0000,0000,0000,,your lives will be in my hands!
+Dialogue: 0,0:09:50.65,0:09:52.07,main,All,0000,0000,0000,,Yes, ma'am!
+Dialogue: 0,0:09:52.07,0:09:54.65,main,Mere,0000,0000,0000,,Hm? One, two, three...
+Dialogue: 0,0:09:54.65,0:09:56.55,main,Mere,0000,0000,0000,,One of you is missing.
+Dialogue: 0,0:09:56.55,0:09:58.70,main,Mere,0000,0000,0000,,Is he disrespecting me by being late?
+Dialogue: 0,0:09:58.70,0:10:02.16,main,Zara,0000,0000,0000,,My bad! Guess I'm late.
+Dialogue: 0,0:10:10.05,0:10:12.17,main,Mere,0000,0000,0000,,So you {\i1}are{\i0} disrespecting me.
+Dialogue: 0,0:10:16.18,0:10:20.96,main,Zara,0000,0000,0000,,I wanted to see how strong you were,\Nsince my life's going to be in your hands.
+Dialogue: 0,0:10:20.96,0:10:23.18,main,Zara,0000,0000,0000,,Pleasure to work with you.
+Dialogue: 0,0:10:23.18,0:10:25.02,main,Asta,0000,0000,0000,,You're—
+Dialogue: 0,0:10:25.02,0:10:26.27,main,Asta,0000,0000,0000,,Wait!
+Dialogue: 0,0:10:26.27,0:10:29.45,main,Asta,0000,0000,0000,,Wh-Why the heck are you wearing that robe?!
+Dialogue: 0,0:10:38.68,0:10:42.28,main,Asta,0000,0000,0000,,Hey! Why the heck are you \Nwearing a Black Bulls robe?!
+Dialogue: 0,0:10:42.69,0:10:46.66,main,Zora,0000,0000,0000,,You dumbass. It's because I'm a member \Nof the Black Bulls, obviously.
+Dialogue: 0,0:10:46.66,0:10:48.59,main,Both,0000,0000,0000,,What?!
+Dialogue: 0,0:10:49.74,0:10:52.43,main,Asta,0000,0000,0000,,You're one of the Black Bulls?!
+Dialogue: 0,0:10:52.43,0:10:54.92,main,Noelle,0000,0000,0000,,Hey! Explain yourself!
+Dialogue: 0,0:10:56.52,0:10:59.75,main,Zora,0000,0000,0000,,It's a bittersweet memory from years ago.
+Dialogue: 0,0:10:59.75,0:11:05.01,main,Zora,0000,0000,0000,,I was kicking the asses of some \NMagic Knights due to reasons.
+Dialogue: 0,0:11:05.41,0:11:08.66,main,Asta,0000,0000,0000,,Magic Knights?! You can't do that!
+Dialogue: 0,0:11:08.66,0:11:09.57,main,Asta,0000,0000,0000,,Ow!
+Dialogue: 0,0:11:08.66,0:11:11.81,main,Zora,0000,0000,0000,,Shut up. I said I had reasons, you little shit.
+Dialogue: 0,0:11:12.33,0:11:16.16,main,Zora,0000,0000,0000,,Anyway, while I was doing that, \NI ran into this terrible monster,
+Dialogue: 0,0:11:16.16,0:11:18.78,main,Zora,0000,0000,0000,,and he ended up kicking my ass instead.
+Dialogue: 0,0:11:21.70,0:11:22.99,flashback,Zora,0000,0000,0000,,Y-You bastard...
+Dialogue: 0,0:11:26.08,0:11:27.53,flashback,Yami,0000,0000,0000,,This is...
+Dialogue: 0,0:11:27.53,0:11:30.54,flashback,Yami,0000,0000,0000,,You're pretty fun, so you can have that.
+Dialogue: 0,0:11:30.54,0:11:32.75,flashback,Yami,0000,0000,0000,,You can toss it if you don't want it, though.
+Dialogue: 0,0:11:32.75,0:11:35.10,flashback,Zora,0000,0000,0000,,Quit messing with me, you crazy Magic Knight!
+Dialogue: 0,0:11:35.10,0:11:36.86,flashback,Zora,0000,0000,0000,,Like I'd ever wear—
+Dialogue: 0,0:11:37.73,0:11:40.84,flashback,Zora,0000,0000,0000,,You shouldn't just hand these out like candy!
+Dialogue: 0,0:11:41.40,0:11:44.09,flashback,Yami,0000,0000,0000,,See? You do understand.
+Dialogue: 0,0:11:45.24,0:11:48.29,flashback,Yami,0000,0000,0000,,Anyway, you can just put it \Non whenever you feel like it.
+Dialogue: 0,0:11:53.81,0:11:55.47,main,Zora,0000,0000,0000,,So, yeah, that's what happened.
+Dialogue: 0,0:11:55.47,0:11:59.40,main,Zora,0000,0000,0000,,Yami scouted me, and I got into the \NMagic Knights through the back door.
+Dialogue: 0,0:11:59.40,0:12:02.49,main,Asta,0000,0000,0000,,What the heck, Xerx?! That's not fair!
+Dialogue: 0,0:12:02.49,0:12:04.78,sign_17323_210_Also_got_in_thro,Sign,0000,0000,0000,,Also got in through\N the back door
+Dialogue: 0,0:12:02.49,0:12:04.78,main,Asta,0000,0000,0000,,Do you have any idea what \NI went through to get in?!
+Dialogue: 0,0:12:04.78,0:12:07.24,main,Zora,0000,0000,0000,,Also, I'm not Xerx.
+Dialogue: 0,0:12:07.24,0:12:09.81,main,Zora,0000,0000,0000,,The name's Zora Ideale, \Nyou shitty little junior shrimp.
+Dialogue: 0,0:12:10.62,0:12:13.00,main,Asta,0000,0000,0000,,What?! What the heck is a Zora?
+Dialogue: 0,0:12:13.00,0:12:14.37,main,Asta,0000,0000,0000,,Is that your real name?!
+Dialogue: 0,0:12:15.79,0:12:17.81,main,Zora,0000,0000,0000,,I just told you it was, you stupid shrimp.
+Dialogue: 0,0:12:17.81,0:12:19.63,main,Asta,0000,0000,0000,,Why the heck did you lie?!
+Dialogue: 0,0:12:19.63,0:12:21.14,main,Zora,0000,0000,0000,,You know what they say.
+Dialogue: 0,0:12:21.14,0:12:23.64,main,Zora,0000,0000,0000,,If you want to fool your enemies, \Nyou need to fool your friends first.
+Dialogue: 0,0:12:23.64,0:12:27.33,main,Asta,0000,0000,0000,,What enemies?! And wait, \Nare you my senior, then?!
+Dialogue: 0,0:12:27.33,0:12:29.64,main,Zora,0000,0000,0000,,Damn straight. Show me some respect.
+Dialogue: 0,0:12:29.64,0:12:32.14,main,Asta,0000,0000,0000,,Heck no! And you need to \Napologize for a lot of things!
+Dialogue: 0,0:12:32.14,0:12:34.42,main,Asta,0000,0000,0000,,What was your name again? Zura?
+Dialogue: 0,0:12:34.42,0:12:35.49,main,Noelle,0000,0000,0000,,It's Zora.
+Dialogue: 0,0:12:36.38,0:12:38.06,main,Asta,0000,0000,0000,,I don't know what the heck is going on!
+Dialogue: 0,0:12:38.39,0:12:40.69,main,Zora,0000,0000,0000,,You're so noisy, you shitty little shrimp.
+Dialogue: 0,0:12:39.30,0:12:40.69,italics,,0000,0000,0000,,Ah, what the hell?
+Dialogue: 0,0:12:40.69,0:12:45.86,italics,Zora,0000,0000,0000,,I'll start working toward it now. Not a \Nsuper mage, but a true Magic Knight.
+Dialogue: 0,0:12:45.86,0:12:49.75,main,Zora,0000,0000,0000,,Here you go. Have another rainbow stink bug.
+Dialogue: 0,0:12:52.81,0:12:56.15,main,Asta,0000,0000,0000,,It's a raging stench!
+Dialogue: 0,0:12:56.86,0:12:59.27,main,Asta,0000,0000,0000,,Actually, it smells kinda okay \Nonce you get used to it...
+Dialogue: 0,0:12:59.27,0:13:00.77,main,Noelle,0000,0000,0000,,It absolutely does not!
+Dialogue: 0,0:13:00.77,0:13:03.83,main,Asta,0000,0000,0000,,You're right! It reeks like no other!
+Dialogue: 0,0:13:04.51,0:13:06.68,main,Luck,0000,0000,0000,,Hey, you should fight me, too!
+Dialogue: 0,0:13:06.68,0:13:10.41,main,Mere,0000,0000,0000,,How long are you gonna keep yapping, \Nyou impudent little fools?!
+Dialogue: 0,0:13:10.41,0:13:11.77,main,Asta,0000,0000,0000,,We're sorry!
+Dialogue: 0,0:13:11.77,0:13:14.09,main,asta,0000,0000,0000,,Huh? Where'd everyone else go?
+Dialogue: 0,0:13:14.09,0:13:17.79,main,Mere,0000,0000,0000,,They went to change into their \NRoyal Knights robes ages ago, you fools!
+Dialogue: 0,0:13:17.79,0:13:20.83,main,Asta,0000,0000,0000,,R-Royal Knights robes, you say?!
+Dialogue: 0,0:13:20.83,0:13:23.53,main,Asta,0000,0000,0000,,What in the world is that \Nsuper-cool-sounding thing?!
+Dialogue: 0,0:13:24.12,0:13:26.81,main,Mere,0000,0000,0000,,They were created for our fight against
+Dialogue: 0,0:13:26.81,0:13:29.88,main,Mere,0000,0000,0000,,the Eye of the Midnight Sun, \Nwith high resistance to magic attacks!
+Dialogue: 0,0:13:29.88,0:13:32.33,main,Asta,0000,0000,0000,,Hurry up and go change!
+Dialogue: 0,0:13:32.33,0:13:34.79,main,Bell,0000,0000,0000,,Hey, look!
+Dialogue: 0,0:13:34.79,0:13:36.48,main,Bell,0000,0000,0000,,Well? Well?
+Dialogue: 0,0:13:36.48,0:13:38.26,main,Bell,0000,0000,0000,,Isn't he just the handsomest?
+Dialogue: 0,0:13:38.26,0:13:40.21,main,Bell,0000,0000,0000,,I think I fell in love all over again!
+Dialogue: 0,0:13:41.92,0:13:45.30,main,Yuno,0000,0000,0000,,Who knew a day would come when \Nwe'd be wearing the same robes?
+Dialogue: 0,0:13:45.30,0:13:48.77,main,Yuno,0000,0000,0000,,But we're not on the same level.
+Dialogue: 0,0:13:49.40,0:13:51.43,main,Yuno,0000,0000,0000,,I'm the one who'll become the Wizard King.
+Dialogue: 0,0:13:51.43,0:13:54.02,main,Asta,0000,0000,0000,,Nope, it's me!
+Dialogue: 0,0:13:54.37,0:13:55.71,main,Yuno,0000,0000,0000,,You can't be serious.
+Dialogue: 0,0:13:57.27,0:14:00.15,main,Mere,0000,0000,0000,,All right, it looks like \Nyou've all finished changing.
+Dialogue: 0,0:14:03.41,0:14:07.59,main,Kirsch,0000,0000,0000,,So beautiful. Why do I look \Nso good in everything?
+Dialogue: 0,0:14:07.59,0:14:11.03,main,Mimosa,0000,0000,0000,,Brother, you're so narcissistic \Nthat it's making me ill.
+Dialogue: 0,0:14:11.03,0:14:13.16,main,Klaus,0000,0000,0000,,This is so exhilarating.
+Dialogue: 0,0:14:14.42,0:14:17.53,main,Hamon,0000,0000,0000,,It fits so nicely, even on us heftier folks.
+Dialogue: 0,0:14:17.53,0:14:20.42,main,Puli,0000,0000,0000,,Whoo! I'm so pumped!
+Dialogue: 0,0:14:20.42,0:14:22.50,main,Noelle,0000,0000,0000,,I-I guess it's not bad.
+Dialogue: 0,0:14:22.50,0:14:24.05,main,Asta,0000,0000,0000,,Um...
+Dialogue: 0,0:14:24.05,0:14:26.15,main,Asta,0000,0000,0000,,Why's mine so short?!
+Dialogue: 0,0:14:26.15,0:14:28.05,main,Noelle,0000,0000,0000,,What's with that robe?!
+Dialogue: 0,0:14:28.05,0:14:30.15,main,Yuno,0000,0000,0000,,Asta, why are you joking around?
+Dialogue: 0,0:14:30.15,0:14:33.76,main,Asta,0000,0000,0000,,I'm not! This is how it \Nlooked when I put it on!
+Dialogue: 0,0:14:35.42,0:14:38.40,main,Zora,0000,0000,0000,,Guess the half-baked twit \Nalso gets just half a robe.
+Dialogue: 0,0:14:38.40,0:14:44.57,main,Mere,0000,0000,0000,,We ran out of fabric because we \Ngot a few additional members.
+Dialogue: 0,0:14:45.79,0:14:47.74,main,Both,0000,0000,0000,,Additional members?
+Dialogue: 0,0:14:48.44,0:14:54.49,main,Mere,0000,0000,0000,,They didn't take the exam, but they \Nare essential to making this plan work.
+Dialogue: 0,0:14:54.49,0:14:58.50,sign_21447_269_Mage_Attendant_t,Sign,0000,0000,0000,,{\blur3}Mage Attendant to the Wizard King\N{\fs24}Cob Portaport
+Dialogue: 0,0:14:54.49,0:14:58.50,sign_21447_270_1st_Class_Interm,Sign,0000,0000,0000,,{\blur3}1st Class Intermediate Magic Knight\N{\fs24}Shiren Tium
+Dialogue: 0,0:14:54.97,0:14:57.75,top,Mere,0000,0000,0000,,Shiren Tium and Cob Portaport.
+Dialogue: 0,0:14:58.50,0:15:02.71,main,Mere,0000,0000,0000,,Shiren's stone creation magic can \Ncreate models of the enemy's base
+Dialogue: 0,0:15:03.21,0:15:06.25,main,Mere,0000,0000,0000,,and measure the magic \Nlevels of the mages there.
+Dialogue: 0,0:15:07.05,0:15:10.01,main,Mere,0000,0000,0000,,Cob has very convenient spatial magic.
+Dialogue: 0,0:15:10.01,0:15:15.01,main,Mere,0000,0000,0000,,He has been added because Finral Roulacase \Nis still recovering from his injuries.
+Dialogue: 0,0:15:15.01,0:15:17.02,main,Mere,0000,0000,0000,,And one more...
+Dialogue: 0,0:15:17.77,0:15:22.02,sign_6730_49_Captain_of_the_A,Sign,0000,0000,0000,,{\blur3}Captain of the Silver Eagles\N{\fs30}Nozel Silva
+Dialogue: 0,0:15:18.20,0:15:22.02,top,Mere,0000,0000,0000,,Nozel Silva! He will be joining us, too.
+Dialogue: 0,0:15:22.50,0:15:24.48,italics,Noelle,0000,0000,0000,,Nozel...
+Dialogue: 0,0:15:24.48,0:15:27.12,main,Guy,0000,0000,0000,,The Captain of the Silver Eagles?
+Dialogue: 0,0:15:27.12,0:15:28.75,main,Guy,0000,0000,0000,,We couldn't ask for better!
+Dialogue: 0,0:15:29.22,0:15:33.99,main,Guy,0000,0000,0000,,Unbelievable! I get to \Nfight alongside my captain!
+Dialogue: 0,0:15:34.85,0:15:39.05,main,Mere,0000,0000,0000,,I figured you'd decline. \NWhat brought this on?
+Dialogue: 0,0:15:39.05,0:15:44.00,main,Nozel,0000,0000,0000,,I don't want to hear anything from you. \NI'm only here because the king ordered it.
+Dialogue: 0,0:15:44.69,0:15:49.26,main,Mere,0000,0000,0000,,You lot, along with these three,\N are the Royal Knights!
+Dialogue: 0,0:15:49.63,0:15:52.36,main,Rill,0000,0000,0000,,What?! Hey, Nozel!
+Dialogue: 0,0:15:52.36,0:15:55.71,main,Rill,0000,0000,0000,,Why did you just show up \Nlike it's no big deal?!
+Dialogue: 0,0:15:55.71,0:15:58.73,main,Rill,0000,0000,0000,,You didn't even take the exam!\N That's not fair!
+Dialogue: 0,0:15:58.73,0:16:03.19,main,Nozel,0000,0000,0000,,What I want to know is, why did {\i1}you{\i0} bother \Ntaking the exam when you're a captain?
+Dialogue: 0,0:16:03.19,0:16:06.27,main,Rill,0000,0000,0000,,What?! I could've joined \Nwithout even taking the exam?!
+Dialogue: 0,0:16:06.31,0:16:13.30,sign_6730_49_Captain_of_the_A,Sign,0000,0000,0000,,{\blur3\fad(656,751)}King of the Clover Kingdom\N{\fs30}Augustus Kira Clover XIII
+Dialogue: 0,0:16:08.47,0:16:10.87,top,King,0000,0000,0000,,The Eye of the Midnight Sun\N is a fearsome enemy!
+Dialogue: 0,0:16:10.87,0:16:15.41,top,King,0000,0000,0000,,The aid of a Magic Knights Squad captain,\Nparticularly a royal one, will be essential!
+Dialogue: 0,0:16:15.90,0:16:19.01,main,King,0000,0000,0000,,Nothing beats royalty! \NIt's all about us royals!
+Dialogue: 0,0:16:19.01,0:16:20.37,main,Asta,0000,0000,0000,,Hey, it's the king.
+Dialogue: 0,0:16:20.74,0:16:25.08,main,Mere,0000,0000,0000,,Hello, Your Majesty, \NKing Augustus Kira Clover XIII.
+Dialogue: 0,0:16:26.49,0:16:28.66,italics,King,0000,0000,0000,,She's so fierce.
+Dialogue: 0,0:16:28.66,0:16:31.16,italics,King,0000,0000,0000,,I can't remember the last time \Nanyone used my full name.
+Dialogue: 0,0:16:31.63,0:16:35.49,main,King,0000,0000,0000,,Listen well, men! Don't do \Nanything to bring shame upon—
+Dialogue: 0,0:16:35.49,0:16:39.07,main,Mere,0000,0000,0000,,I think you all know this, but we have \Nno use for anything other than victory!
+Dialogue: 0,0:16:39.07,0:16:40.44,main,Mere,0000,0000,0000,,The Eye of the Midnight Sun is
+Dialogue: 0,0:16:40.44,0:16:42.98,main,Mere,0000,0000,0000,,a terrorist organization that \Nthreatens the Clover Kingdom!
+Dialogue: 0,0:16:43.42,0:16:48.02,main,Mere,0000,0000,0000,,If we don't take care of them ourselves, \Nthere will never be peace in our land!
+Dialogue: 0,0:16:48.68,0:16:50.99,main,Mere,0000,0000,0000,,You all worked together when \Nthey attacked the royal capital
+Dialogue: 0,0:16:50.99,0:16:53.65,main,Mere,0000,0000,0000,,and were successful in eliminating them,
+Dialogue: 0,0:16:53.65,0:16:55.53,main,Mere,0000,0000,0000,,but there were still severe consequences.
+Dialogue: 0,0:16:56.14,0:16:59.16,main,Mere,0000,0000,0000,,My foolish younger brother Fuegoleon \Nfell at the enemy's hands,
+Dialogue: 0,0:16:59.16,0:17:01.29,main,Mere,0000,0000,0000,,and he has still not awakened.
+Dialogue: 0,0:17:01.99,0:17:05.50,main,Mere,0000,0000,0000,,What we learned from the agents \Nwe captured is that their leader
+Dialogue: 0,0:17:05.50,0:17:09.84,main,Mere,0000,0000,0000,,is a mage with a four leaf\N clover grimoire, Licht.
+Dialogue: 0,0:17:09.84,0:17:13.80,main,Mere,0000,0000,0000,,We learned that they have an upper \Nechelon called the Third Eye...
+Dialogue: 0,0:17:14.15,0:17:17.27,main,Mere,0000,0000,0000,,And that, for reasons unknown,
+Dialogue: 0,0:17:17.27,0:17:20.04,main,Mere,0000,0000,0000,,they are collecting magic \Nstones in order to be
+Dialogue: 0,0:17:20.04,0:17:25.03,main,Mere,0000,0000,0000,,reborn in their true forms \Nand obtain great power.
+Dialogue: 0,0:17:25.03,0:17:26.81,main,Mere,0000,0000,0000,,There are only three magic stones left.
+Dialogue: 0,0:17:27.41,0:17:31.29,main,Mere,0000,0000,0000,,We were able to obtain two of \Nthem before they got to them.
+Dialogue: 0,0:17:31.29,0:17:36.11,main,Mere,0000,0000,0000,,We were also able to defeat Vetto,\Nthe Third Eye's user of beast magic,
+Dialogue: 0,0:17:36.11,0:17:38.70,main,Mere,0000,0000,0000,,as well as Fana, who commanded Salamander.
+Dialogue: 0,0:17:38.70,0:17:44.16,main,Mere,0000,0000,0000,,The remaining member of the Third Eye\N is a user of copy magic, Raia.
+Dialogue: 0,0:17:44.86,0:17:51.26,main,Mere,0000,0000,0000,,There's no doubt that Raia and Licht will \Nbe our strongest opponents in this battle!
+Dialogue: 0,0:17:52.18,0:17:55.42,main,Mere,0000,0000,0000,,We are going to be attacking \Ntheir stronghold,
+Dialogue: 0,0:17:55.42,0:17:58.01,main,Mere,0000,0000,0000,,so our enemy will do everything \Nthey can to stop us.
+Dialogue: 0,0:17:58.01,0:18:00.56,main,Mere,0000,0000,0000,,Some of us may fall,
+Dialogue: 0,0:18:00.56,0:18:03.10,main,Mere,0000,0000,0000,,but we will be victorious!
+Dialogue: 0,0:18:03.10,0:18:05.85,main,Mere,0000,0000,0000,,We are going to give our all in this battle!
+Dialogue: 0,0:18:06.22,0:18:08.46,main,Mere,0000,0000,0000,,Any fools who fail to do so will be
+Dialogue: 0,0:18:08.46,0:18:11.61,main,Mere,0000,0000,0000,,taken out by me before we even \Nget to the enemy's stronghold!
+Dialogue: 0,0:18:11.61,0:18:13.01,main,Mere,0000,0000,0000,,Are you ready?!
+Dialogue: 0,0:18:13.01,0:18:14.36,main,All,0000,0000,0000,,Yes!
+Dialogue: 0,0:18:15.02,0:18:18.49,main,Mere,0000,0000,0000,,Your Majesty, King Augustus Kira Clover XIII!
+Dialogue: 0,0:18:19.48,0:18:21.16,main,King,0000,0000,0000,,Wh-Why are you yelling at me?!
+Dialogue: 0,0:18:21.56,0:18:23.96,main,Mere,0000,0000,0000,,Please continue what you were saying earlier.
+Dialogue: 0,0:18:27.41,0:18:31.17,italics,King,0000,0000,0000,,You're ordering me to continue the conversation \Nwhen you already said everything?!
+Dialogue: 0,0:18:31.17,0:18:34.67,italics,King,0000,0000,0000,,There's absolutely nothing else left to say!
+Dialogue: 0,0:18:36.28,0:18:39.72,main,King,0000,0000,0000,,Well, do good work out there. That is all.
+Dialogue: 0,0:18:39.72,0:18:41.69,main,Both,0000,0000,0000,,Really?!
+Dialogue: 0,0:18:41.69,0:18:43.42,main,Asta,0000,0000,0000,,That's it?
+Dialogue: 0,0:18:46.07,0:18:50.38,main,Asta,0000,0000,0000,,Oh, yeah. Where is the Eye of the \NMidnight Sun's hideout, anyway?
+Dialogue: 0,0:18:51.74,0:18:54.54,italics,King,0000,0000,0000,,A good question, even though \Nhe's an infuriating little peasant.
+Dialogue: 0,0:18:54.95,0:18:55.92,main,King,0000,0000,0000,,Well—
+Dialogue: 0,0:18:55.92,0:18:59.34,main,Mere,0000,0000,0000,,The Eye of the Midnight Sun's hideout
+Dialogue: 0,0:18:59.34,0:19:00.16,main,Mere,0000,0000,0000,,is located in...
+Dialogue: 0,0:19:00.20,0:19:07.33,sign_10111_106_Venue_for_the_Ro,Sign,0000,0000,0000,,{\blur3\fad(731,1477)}Strong Magic Region "Gravito Stones"\N{\fs30}Floating Dungeon
+Dialogue: 0,0:19:01.03,0:19:06.18,top,Mere,0000,0000,0000,,a floating dungeon within the strong \Nmagic region known as Gravito Stones!
+Dialogue: 0,0:19:18.14,0:19:19.97,flashback,Raia,0000,0000,0000,,Guess I'm pretty late.
+Dialogue: 0,0:19:19.97,0:19:21.44,flashback,Elf luck,0000,0000,0000,,Heya.
+Dialogue: 0,0:19:21.44,0:19:24.95,flashback,Elf Char,0000,0000,0000,,I see you look as moronic as ever.
+Dialogue: 0,0:19:24.95,0:19:29.09,flashback,Raia,0000,0000,0000,,Don't be like that. \NLet's have a drink sometime, Miss.
+Dialogue: 0,0:19:29.09,0:19:30.14,flashback,Elf char,0000,0000,0000,,I decline.
+Dialogue: 0,0:19:31.32,0:19:32.68,flashback,Elf luck,0000,0000,0000,,He is pretty weak.
+Dialogue: 0,0:19:35.38,0:19:37.15,flashback,Raia,0000,0000,0000,,Oh, there they are.
+Dialogue: 0,0:19:38.99,0:19:40.63,flashback,Licht,0000,0000,0000,,Hey there, Raia.
+Dialogue: 0,0:19:40.63,0:19:41.99,flashback,Elf rill,0000,0000,0000,,Jeez, you're late!
+Dialogue: 0,0:19:42.36,0:19:44.61,flashback,Vetto,0000,0000,0000,,Are you too lazy to even wake up nowadays?
+Dialogue: 0,0:19:44.61,0:19:45.87,flashback,Fana,0000,0000,0000,,You're the worst.
+Dialogue: 0,0:19:45.87,0:19:47.24,flashback,Raia,0000,0000,0000,,Oh, shut up.
+Dialogue: 0,0:19:48.17,0:19:53.00,flashback,Raia,0000,0000,0000,,Jeez, Patry. Hogging the \Nspot next to Licht again?
+Dialogue: 0,0:19:53.35,0:19:56.63,flashback,Raia,0000,0000,0000,,After tomorrow's ceremony, \Nhe's going to belong to someone else,
+Dialogue: 0,0:19:56.63,0:19:58.91,flashback,Raia,0000,0000,0000,,so you should probably cut the cord soon.
+Dialogue: 0,0:19:58.91,0:20:02.49,flashback,Patry,0000,0000,0000,,Shut up. I can do what I want.
+Dialogue: 0,0:20:02.49,0:20:03.91,flashback,Raia,0000,0000,0000,,What, you little brat?!
+Dialogue: 0,0:20:03.91,0:20:08.28,flashback,Tetia,0000,0000,0000,,It's fine. Even if I marry Licht, \Nhe still belongs to everyone.
+Dialogue: 0,0:20:08.28,0:20:11.02,flashback,Raia,0000,0000,0000,,The human princess sure is nice.
+Dialogue: 0,0:20:11.02,0:20:14.27,flashback,Raia,0000,0000,0000,,That kindness is going to \Ncause you trouble someday.
+Dialogue: 0,0:20:14.27,0:20:18.11,flashback,Raia,0000,0000,0000,,Anyway, that space is gonna \Nbe gone sooner or later.
+Dialogue: 0,0:20:18.43,0:20:22.57,flashback,Vetto,0000,0000,0000,,Stop picking on him. Patry knows that.
+Dialogue: 0,0:20:22.57,0:20:26.66,flashback,Fana,0000,0000,0000,,So, Licht, how does it feel, knowing you're\N going to be a father in a few months?
+Dialogue: 0,0:20:27.29,0:20:30.24,flashback,Licht,0000,0000,0000,,I can feel the mana blessing us.
+Dialogue: 0,0:20:30.24,0:20:35.26,flashback,Licht,0000,0000,0000,,I'm very happy our child will come into \Nthis world welcomed by everyone.
+Dialogue: 0,0:20:36.93,0:20:39.30,flashback,Licht,0000,0000,0000,,This child is our future.
+Dialogue: 0,0:20:39.86,0:20:42.22,flashback,Licht,0000,0000,0000,,It'll bridge the gap between elves and humans.
+Dialogue: 0,0:20:42.22,0:20:44.84,flashback,Raia,0000,0000,0000,,Congratulations, Licht and Tetia!
+Dialogue: 0,0:20:44.84,0:20:46.22,flashback,All,0000,0000,0000,,Congratulations!
+Dialogue: 0,0:20:55.02,0:20:58.92,main,Raia,0000,0000,0000,,Talk about a fleeting dream...
+Dialogue: 0,0:20:59.69,0:21:01.70,main,Raia,0000,0000,0000,,I guess the awakening must be near.
+Dialogue: 0,0:22:33.03,0:22:37.54,sign_33083_276_Petit_Clover_,Sign,0000,0000,0000,,{\fad(1,520)}Pe{\c&H3BC020&}t{\c&HE2AF0F&}i{\c&H3BC020&}t C{\c&HE2AF0F&}l{\c&H3BC020&}o{\c&H0E42D4&}ve{\c&H3BC020&}r
+Dialogue: 0,0:22:33.78,0:22:36.77,main,All,0000,0000,0000,,Petit Clover!
+Dialogue: 0,0:22:37.04,0:22:41.04,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}All Kinds of Robes\NPart 1
+Dialogue: 0,0:22:38.27,0:22:41.04,main,All,0000,0000,0000,,All Kinds of Robes, Part 1.
+Dialogue: 0,0:22:41.04,0:22:44.23,main,Asta,0000,0000,0000,,R-Royal police robes, you say?!
+Dialogue: 0,0:22:44.23,0:22:46.67,main,Asta,0000,0000,0000,,What in the world is that \Nsuper-cool-sounding thing?!
+Dialogue: 0,0:22:47.14,0:22:49.58,main,Mere,0000,0000,0000,,They're robes made to \Nexcel in investigations!
+Dialogue: 0,0:22:49.99,0:22:51.43,main,Asta,0000,0000,0000,,Hurry up and go change!
+Dialogue: 0,0:22:54.28,0:22:58.68,sign_32950_385_Halt_,Sign,0000,0000,0000,,Halt
+Dialogue: 0,0:22:54.63,0:22:58.68,main,Asta,0000,0000,0000,,They aren't even robes! \NWait, why is mine so different?!
+Dialogue: 0,0:22:58.68,0:23:00.40,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,All Kinds of Robes\NPart 2
+Dialogue: 0,0:22:58.68,0:23:00.40,main,All,0000,0000,0000,,Part 2.
+Dialogue: 0,0:23:00.40,0:23:03.73,main,Asta,0000,0000,0000,,R-Royal school robes, you say?!
+Dialogue: 0,0:23:03.73,0:23:06.57,main,Asta,0000,0000,0000,,What in the world is that \Nsuper-cool-sounding thing?!
+Dialogue: 0,0:23:06.57,0:23:09.36,main,Mere,0000,0000,0000,,They're robes made to excel in academic life!
+Dialogue: 0,0:23:09.36,0:23:10.78,main,Asta,0000,0000,0000,,Hurry up and go change!
+Dialogue: 0,0:23:14.01,0:23:16.41,main,Asta,0000,0000,0000,,Again, why is mine so different?!
+Dialogue: 0,0:23:16.41,0:23:18.12,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,All Kinds of Robes\NPart 3
+Dialogue: 0,0:23:16.41,0:23:18.12,main,All,0000,0000,0000,,Part 3.
+Dialogue: 0,0:23:18.12,0:23:21.66,main,Asta,0000,0000,0000,,R-Royal doctor robes, you say?!
+Dialogue: 0,0:23:21.66,0:23:24.38,main,Asta,0000,0000,0000,,What in the world is that \Nsuper-cool-sounding thing?!
+Dialogue: 0,0:23:24.92,0:23:27.48,main,Mere,0000,0000,0000,,They're robes made to excel \Nin emergency medicine!
+Dialogue: 0,0:23:27.94,0:23:29.38,main,Asta,0000,0000,0000,,Hurry up and go change!
+Dialogue: 0,0:23:32.50,0:23:35.93,main,Asta,0000,0000,0000,,Seriously! Why is mine the \Nonly one that's different?!
+Dialogue: 0,0:23:35.93,0:23:37.06,main,Yuno,0000,0000,0000,,You can't be serious.
+Dialogue: 0,0:23:39.65,0:23:42.90,main,Asta,0000,0000,0000,,It's finally time to fight \Nthe Eye of the Midnight Sun!
+Dialogue: 0,0:23:42.90,0:23:46.77,main,Asta,0000,0000,0000,,We, the Royal Knights, are going to protect \Nthe Clover Kingdom and its people!
+Dialogue: 0,0:23:46.77,0:23:50.53,main,Asta,0000,0000,0000,,Next time on {\i1}Black Clover{\i0}, Page 88: \N"Storming the Eye of the Midnight Sun's Hideout!!!"
+Dialogue: 0,0:23:47.82,0:23:54.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 88\N\N{\fs18} Storming the Eye of the Midnight Sun's Hideout!!!
+Dialogue: 0,0:23:50.92,0:23:54.02,main,Asta,0000,0000,0000,,Lady Sisgoleon's strong! Super strong!

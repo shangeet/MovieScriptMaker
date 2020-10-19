@@ -1,0 +1,479 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: OP_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H0065A7CE,&H000000FF,&H64070805,&H000D1728,-1,-1,0,0,100,100,0,0,1,1,0,8,0030,0030,0075,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_138_1_Black_Clover_is_,Trebuchet MS,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_1785_19_Vice_Captain_of_,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0070,0275,0090,1
+Style: sign_5516_38_King_of_the_Clov,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0105,1
+Style: sign_6102_39_Vetto_the_Despai,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0108,0362,0129,1
+Style: sign_6102_40_Fana_the_Hateful,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0081,0076,1
+Style: sign_6730_49_Captain_of_the_A,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_7061_51_A_Team_Coral_Pea,Times New Roman,20,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0150,1
+Style: sign_7198_131_Nean,Times New Roman,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0336,0254,0134,1
+Style: sign_7198_132_Common_Realm,Times New Roman,24,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0450,0190,1
+Style: sign_7198_133_Kikka,Times New Roman,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0265,0315,0260,1
+Style: sign_9194_75_Yay____Yay____,Times New Roman,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_10111_106_Venue_for_the_Ro,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_11720_132_Bell_,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0235,0030,0070,1
+Style: sign_12339_133_Finnes_Calmreich,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_13177_157_1st_Class_Interm,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0015,0424,0080,1
+Style: sign_13177_158_4th_Class_Senior,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0230,0250,0080,1
+Style: sign_13177_159_1st_Class_Interm,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0415,0030,0080,1
+Style: sign_14555_151_4_years_ago,Times New Roman,28,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0085,1
+Style: sign_15736_152_Sandler,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0060,0505,0205,1
+Style: sign_15736_154_Solid,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0135,0455,0225,1
+Style: sign_15736_155_O_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0110,0440,0060,1
+Style: sign_15736_156_En___Noelle___Yu,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0070,0205,1
+Style: sign_16031_175_The_Eye_of_the_M,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_16031_176_Sally,Times New Roman,26,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0350,0075,1
+Style: sign_16031_177_Rades,Times New Roman,26,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0335,0030,0075,1
+Style: sign_17323_210_Also_got_in_thro,Times New Roman,24,&H000B0B0B,&H000000FF,&H00FFFFFF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0159,0156,0020,1
+Style: sign_18699_183_Luck_s_High_Mana,Times New Roman,26,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0020,1
+Style: sign_18752_184_High_Mana_Detect,Times New Roman,30,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0195,0030,0130,1
+Style: sign_19376_197_Fate_Manipulatio,Times New Roman,16,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0000,0134,0020,1
+Style: sign_19376_198_Fate_Manipulatio,Times New Roman,30,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0121,0000,0020,1
+Style: sign_19376_197_F_a_t_e___M_a_n_,Times New Roman,19,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0492,0130,0020,1
+Style: sign_19376_201_A_b_s_o_l_u_t_e_,Times New Roman,19,&H00F1F1F1,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0100,0477,0018,1
+Style: sign_21447_269_Mage_Attendant_t,Times New Roman,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0310,0095,1
+Style: sign_21447_270_1st_Class_Interm,Times New Roman,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0355,0030,0095,1
+Style: sign_22029_222_Wimpy,Arial,30,&H00171816,&H000000FF,&H00EEEDED,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0040,0030,0040,1
+Style: sign_22078_223_Carefree,Arial,30,&H00171816,&H000000FF,&H00EEEDED,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,6,0040,0030,0020,1
+Style: sign_24182_226_Member_of_the_Pu,Times New Roman,20,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_25640_274_Group_1_En_Ringa,Times New Roman,24,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0040,0030,0125,1
+Style: sign_32950_385_Halt_,Times New Roman,30,&H00332E32,&H000000FF,&H00DADEE2,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0360,0030,0020,1
+Style: sign_33089_334_Bulls,Verdana,30,&H0007A0E4,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,6,0030,0030,0020,1
+Style: sign_33137_335_Hello__we_re_Gor,Trebuchet MS,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33018_294_Sa,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0045,0030,0275,1
+Style: sign_33018_295_Rii,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,1,0480,0030,0130,1
+Style: sign_33090_345_Part_1_,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0262,0262,0275,1
+Style: sign_33126_298_Shi,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0275,1
+Style: sign_33126_299_Rii,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,1,0465,0030,0130,1
+Style: sign_33236_349_Luck,Trebuchet MS,30,&H00000100,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_33248_350_Ahaha_,Verdana,30,&H00161622,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0030,0030,0020,1
+Style: sign_33332_352_Rucksack,Verdana,30,&H00161622,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0030,0030,0020,1
+Style: sign_33427_257_Weaken__Naeru_,Trebuchet MS,30,&H00000100,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_32992_374_gLaMoUr_WoRlD,Verdana,30,&H00A787ED,&H000000FF,&H001A1E4B,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0084,0404,0250,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:06.65,0:00:10.78,italics,Nar,0000,0000,0000,,It appeared as though humanity \Nwould be destroyed by the demons.
+Dialogue: 0,0:00:15.02,0:00:19.29,italics,Nar,0000,0000,0000,,But a single mage saved them all.
+Dialogue: 0,0:00:26.42,0:00:31.59,italics,Nar,0000,0000,0000,,He was called the Wizard King,\Nand he became a legend.
+Dialogue: 0,0:00:34.51,0:00:37.51,italics,Nar,0000,0000,0000,,Licht and the other elves \Nheaded to the Shadow Palace,
+Dialogue: 0,0:00:37.93,0:00:40.10,italics,Nar,0000,0000,0000,,which lies between this \Nworld and the next,
+Dialogue: 0,0:00:40.10,0:00:42.35,italics,Nar,0000,0000,0000,,in order to complete the \Nelves' reincarnation.
+Dialogue: 0,0:00:42.35,0:00:43.98,italics,Nar,0000,0000,0000,,Once the process is complete,
+Dialogue: 0,0:00:43.98,0:00:49.43,italics,Nar,0000,0000,0000,,the souls of the humans being inhabited \Nby elves will be sent to the next world.
+Dialogue: 0,0:00:49.43,0:00:54.03,main,Yami,0000,0000,0000,,I'm sure you dumbasses can handle this!\N Surpass your damn limits!
+Dialogue: 0,0:00:54.03,0:00:55.86,main,All,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:00:56.31,0:00:59.16,italics,Nar,0000,0000,0000,,And so Yami and Jack followed \NLicht and the elves,
+Dialogue: 0,0:00:59.16,0:01:02.17,italics,Nar,0000,0000,0000,,while Asta and some of the Black \NBulls ended up fighting Gauche
+Dialogue: 0,0:01:02.17,0:01:04.70,italics,Nar,0000,0000,0000,,and his sister Marie, \Nwho had reincarnated as elves.
+Dialogue: 0,0:01:05.29,0:01:09.67,italics,Nar,0000,0000,0000,,Meanwhile, Vanessa and the other \NBlack Bulls were taken to Glamour World
+Dialogue: 0,0:01:10.08,0:01:12.94,italics,Nar,0000,0000,0000,,and struggled in a face-off with \Nthe Captain of the Coral Peacocks,
+Dialogue: 0,0:01:12.94,0:01:15.76,italics,Nar,0000,0000,0000,,Dorothy, who had reincarnated \Nas an elf, and her dream magic.
+Dialogue: 0,0:01:16.13,0:01:21.72,main,Dorothy,0000,0000,0000,,Everything that exists in Glamour World \Nwill eventually get drowsy.
+Dialogue: 0,0:01:21.72,0:01:26.59,italics,Nar,0000,0000,0000,,But Dorothy's dream magic has the \Nability to make anything materialize,
+Dialogue: 0,0:01:26.59,0:01:28.40,italics,Nar,0000,0000,0000,,and Sally uses that to their advantage.
+Dialogue: 0,0:01:28.40,0:01:34.07,main,Sally,0000,0000,0000,,What this world needs... is an \Nexit, exit, exit! Make one, please?
+Dialogue: 0,0:01:34.07,0:01:35.78,main,Magna,0000,0000,0000,,Hell yeah!
+Dialogue: 0,0:01:36.61,0:01:38.41,italics,Nar,0000,0000,0000,,Meanwhile, Asta and the others struggled
+Dialogue: 0,0:01:38.41,0:01:43.45,italics,Nar,0000,0000,0000,,against Marie's magic, which made anyone \Nwho looked into her eyes unable to move.
+Dialogue: 0,0:01:43.45,0:01:46.37,italics,Nar,0000,0000,0000,,But the Black Bulls worked \Ntogether to continue the fight!
+Dialogue: 0,0:01:46.37,0:01:49.20,main,Asta,0000,0000,0000,,I'm gonna stop you two, no matter what,
+Dialogue: 0,0:01:49.20,0:01:52.42,main,Asta,0000,0000,0000,,and turn you back into the \Nnormal Gauche and Marie!
+Dialogue: 0,0:01:52.84,0:01:55.71,italics,Henry,0000,0000,0000,,I'm going to save my friend!
+Dialogue: 0,0:01:57.17,0:02:00.85,italics,Gauche,0000,0000,0000,,Since I know that form's secret,\Ndealing with it won't be a problem.
+Dialogue: 0,0:02:01.26,0:02:04.14,italics,Gauche,0000,0000,0000,,It homes in on powerful magic, doesn't it?
+Dialogue: 0,0:02:05.11,0:02:07.60,italics,Asta,0000,0000,0000,,M-My sword is reacting to the magic!
+Dialogue: 0,0:02:07.60,0:02:09.60,italics,Gauche,0000,0000,0000,,So just keep flying around...
+Dialogue: 0,0:02:10.41,0:02:11.48,main,Gordon,0000,0000,0000,,Asta!
+Dialogue: 0,0:02:10.41,0:02:11.48,main,Grey,0000,0000,0000,,Asta!
+Dialogue: 0,0:02:49.77,0:02:52.69,Ep Title,Title,0000,0000,0000,,Humans Who Can Be Trusted
+Dialogue: 0,0:03:46.74,0:03:52.13,main,Magna,0000,0000,0000,,Hell yeah! Let's just take a \Ndoor and get the hell outta here!
+Dialogue: 0,0:03:52.13,0:03:53.17,main,All,0000,0000,0000,,Yeah!
+Dialogue: 0,0:03:53.17,0:03:54.83,main,Charmy,0000,0000,0000,,Okay, get on this, la!
+Dialogue: 0,0:03:55.14,0:03:57.25,main,Sally,0000,0000,0000,,It's so fluffy and interesting!
+Dialogue: 0,0:03:57.25,0:03:59.30,main,Vanessa,0000,0000,0000,,Luck, pull the rest of us.
+Dialogue: 0,0:03:59.30,0:04:00.72,main,Luck,0000,0000,0000,,Roger!
+Dialogue: 0,0:04:00.72,0:04:02.13,main,All,0000,0000,0000,,Go!
+Dialogue: 0,0:04:02.13,0:04:03.42,main,Dorothy,0000,0000,0000,,You're not leaving.
+Dialogue: 0,0:04:05.97,0:04:08.25,main,Sally,0000,0000,0000,,That destiny avoidance thing is amazing,
+Dialogue: 0,0:04:08.25,0:04:09.72,main,Sally,0000,0000,0000,,no matter how many times I see it!
+Dialogue: 0,0:04:09.72,0:04:12.60,main,Magna,0000,0000,0000,,And it's bad for my heart, \Nno matter how many times it happens!
+Dialogue: 0,0:04:12.60,0:04:14.70,main,Charmy,0000,0000,0000,,Go, go!
+Dialogue: 0,0:04:14.70,0:04:15.88,main,Vanessa,0000,0000,0000,,Just a little further!
+Dialogue: 0,0:04:15.88,0:04:18.26,main,Luck,0000,0000,0000,,Okay, we're here!
+Dialogue: 0,0:04:21.47,0:04:25.32,main,Dorothy,0000,0000,0000,,If I can't make them disappear, \NI just have to seal them up.
+Dialogue: 0,0:04:25.86,0:04:26.66,main,Charmy,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:26.66,0:04:28.66,main,Vanessa,0000,0000,0000,,N... No...
+Dialogue: 0,0:04:28.66,0:04:30.84,main,Luck,0000,0000,0000,,Aw, and we were so close!
+Dialogue: 0,0:04:30.84,0:04:33.16,main,Magna,0000,0000,0000,,You're taking this way \Ntoo lightly, stupid Luck!
+Dialogue: 0,0:04:33.16,0:04:36.86,main,Magna,0000,0000,0000,,Damn it, we were almost out!
+Dialogue: 0,0:04:36.86,0:04:39.36,main,Magna,0000,0000,0000,,Exit! Exit, exit!
+Dialogue: 0,0:04:39.36,0:04:41.17,main,Magna,0000,0000,0000,,Give us another exit, damn it!
+Dialogue: 0,0:04:41.49,0:04:44.21,main,Sally,0000,0000,0000,,If she's concentrating that hard to close them,
+Dialogue: 0,0:04:44.21,0:04:46.64,main,Sally,0000,0000,0000,,we're screwed, exploding protozoan.
+Dialogue: 0,0:04:46.64,0:04:51.04,main,Charmy,0000,0000,0000,,Look at this delicious meal...
+Dialogue: 0,0:04:51.04,0:04:53.10,main,Magna,0000,0000,0000,,That's your own damn cotton magic!
+Dialogue: 0,0:04:53.10,0:04:56.90,main,Vanessa,0000,0000,0000,,Charmy, wake up! If you fall asleep, \Nyou'll never wake up again!
+Dialogue: 0,0:04:58.50,0:05:02.03,main,Vanessa,0000,0000,0000,,Oh, no... If we don't get out, \Nthis might actually be the end for us.
+Dialogue: 0,0:05:02.79,0:05:06.66,main,Vanessa,0000,0000,0000,,Anything goes in the dream world...
+Dialogue: 0,0:05:07.22,0:05:11.45,main,Luck,0000,0000,0000,,Oh, I know! If anything goes, \Nlet's just have her take care of this herself.
+Dialogue: 0,0:05:12.87,0:05:14.46,main,Magna,0000,0000,0000,,Huh? Herself?
+Dialogue: 0,0:05:15.38,0:05:17.37,main,Magna,0000,0000,0000,,The hell are you talking about, you mor—
+Dialogue: 0,0:05:17.37,0:05:19.51,main,Luck,0000,0000,0000,,Just shut up for a while, Magna, 'kay?
+Dialogue: 0,0:05:19.51,0:05:21.25,main,Magna,0000,0000,0000,,Hey, what's the big idea?!
+Dialogue: 0,0:05:21.25,0:05:23.59,main,Luck,0000,0000,0000,,Hey, I wanna ask you something.
+Dialogue: 0,0:05:23.59,0:05:26.53,main,Luck,0000,0000,0000,,If we did this, then that...
+Dialogue: 0,0:05:26.53,0:05:29.73,main,Sally,0000,0000,0000,,Oho! That sounds fun!
+Dialogue: 0,0:05:29.73,0:05:32.20,main,Vanessa,0000,0000,0000,,True, that's definitely worth a try!
+Dialogue: 0,0:05:32.20,0:05:33.00,main,Charmy,0000,0000,0000,,La!
+Dialogue: 0,0:05:33.00,0:05:35.68,main,Magna,0000,0000,0000,,Hey! Talk louder, damn it!
+Dialogue: 0,0:05:35.68,0:05:37.09,main,Magna,0000,0000,0000,,You're making me even more tired!
+Dialogue: 0,0:05:37.09,0:05:38.94,main,Luck,0000,0000,0000,,If I said it any louder, she'd hear me.
+Dialogue: 0,0:05:39.39,0:05:43.03,main,Luck,0000,0000,0000,,So is there a good way to make this plan work?
+Dialogue: 0,0:05:43.03,0:05:44.07,main,Sally,0000,0000,0000,,Of course!
+Dialogue: 0,0:05:44.43,0:05:47.00,main,Dorothy,0000,0000,0000,,I don't know what you could \Npossibly be discussing,
+Dialogue: 0,0:05:47.00,0:05:49.98,main,Dorothy,0000,0000,0000,,but no matter what you try,\N you can't escape this place.
+Dialogue: 0,0:05:49.98,0:05:52.83,main,Dorothy,0000,0000,0000,,You will all fall into \Nyour eternal slumber here.
+Dialogue: 0,0:05:52.83,0:05:56.38,main,Luck,0000,0000,0000,,Okay! Now it's your turn, stupid Magna!
+Dialogue: 0,0:05:56.38,0:05:58.87,main,Magna,0000,0000,0000,,I don't know what the hell is going on, but...
+Dialogue: 0,0:06:00.06,0:06:03.62,main,Magna,0000,0000,0000,,Flame Magic: Time Bomb Explosive Scattershot!
+Dialogue: 0,0:06:03.62,0:06:07.47,main,Dorothy,0000,0000,0000,,Trying to hide from me in \Nthis world? How futile.
+Dialogue: 0,0:06:14.54,0:06:15.54,main,Dorothy,0000,0000,0000,,Is this...
+Dialogue: 0,0:06:16.18,0:06:20.81,italics,Sally,0000,0000,0000,,What we created isn't real, of course. \NIt's not like the stuff you make.
+Dialogue: 0,0:06:20.81,0:06:24.57,italics,Luck,0000,0000,0000,,It's a doll made out of Charmy's \Ncotton and Vanessa's thread!
+Dialogue: 0,0:06:24.57,0:06:27.99,italics,Sally,0000,0000,0000,,Then we used the exploding \Nprotozoan's flames
+Dialogue: 0,0:06:27.99,0:06:29.51,italics,Sally,0000,0000,0000,,to create a heat mirage and blur it.
+Dialogue: 0,0:06:29.51,0:06:31.95,italics,Sally,0000,0000,0000,,It's just a fake version of you.
+Dialogue: 0,0:06:32.98,0:06:34.18,italics,sally,0000,0000,0000,,But for a brief moment...
+Dialogue: 0,0:06:34.18,0:06:35.83,italics,Luck,0000,0000,0000,,...it must've crossed your mind.
+Dialogue: 0,0:06:35.83,0:06:38.33,italics,Both,0000,0000,0000,,The possibility that it \Nmight be the real thing!
+Dialogue: 0,0:06:38.71,0:06:43.73,italics,Luck,0000,0000,0000,,Because right now, just like when \NI was reincarnated as an elf,
+Dialogue: 0,0:06:43.73,0:06:46.80,italics,Luck,0000,0000,0000,,there are two souls connected \Ninside the same body!
+Dialogue: 0,0:06:47.13,0:06:51.05,italics,Luck,0000,0000,0000,,So that mirage is probably making you \Nthink of her, even if you don't want to...
+Dialogue: 0,0:06:51.05,0:06:52.55,main,Dorothy,0000,0000,0000,,Oh, no...
+Dialogue: 0,0:06:53.65,0:06:56.82,italics,Luck,0000,0000,0000,,The real Dorothy Unsworth!
+Dialogue: 0,0:06:57.56,0:07:02.21,main,Magna,0000,0000,0000,,Hell yeah! The Captain of the \NCoral Peacocks has arrived!
+Dialogue: 0,0:07:02.21,0:07:03.81,main,Vanessa,0000,0000,0000,,We couldn't ask for a better helper!
+Dialogue: 0,0:07:04.87,0:07:06.57,main,Luck,0000,0000,0000,,But I think she's asleep!
+Dialogue: 0,0:07:07.31,0:07:10.85,main,Vanessa,0000,0000,0000,,Come to think of it, I heard \Nthat captain's always asleep.
+Dialogue: 0,0:07:10.85,0:07:14.69,main,Magna,0000,0000,0000,,Wait, don't tell me she's already \Nfallen into that eternal slumber...
+Dialogue: 0,0:07:14.69,0:07:16.08,main,Vanessa,0000,0000,0000,,She woke up!
+Dialogue: 0,0:07:16.08,0:07:17.62,main,Magna,0000,0000,0000,,Don't freak us out like that!
+Dialogue: 0,0:07:17.62,0:07:21.18,main,Magna,0000,0000,0000,,Also, hurry up! I can \Nbarely keep my eyes open!
+Dialogue: 0,0:07:21.18,0:07:24.17,main,Dorothy,0000,0000,0000,,Are you the ones who summoned me here?
+Dialogue: 0,0:07:24.17,0:07:26.05,main,Dorothy,0000,0000,0000,,That was...
+Dialogue: 0,0:07:26.05,0:07:29.93,top,Dorothy,0000,0000,0000,,Fantastic, Black Bulls and Glasses Girl!
+Dialogue: 0,0:07:26.19,0:07:33.55,sign_6730_49_Captain_of_the_A,Sign,0000,0000,0000,,{\blur3\fad(506,1)}Captain of the Coral Peacocks\N{\fs30}Dorothy Unsworth
+Dialogue: 0,0:07:29.93,0:07:33.55,top,Dorothy,0000,0000,0000,,Just leave the rest to me!\NYour big sister is a captain, after all!
+Dialogue: 0,0:07:33.87,0:07:36.06,italics,All,0000,0000,0000,,Holy crap, she's chipper!
+Dialogue: 0,0:07:36.06,0:07:38.21,main,Sally,0000,0000,0000,,So, how old are you, Big Sister?
+Dialogue: 0,0:07:38.21,0:07:40.31,main,Sally,0000,0000,0000,,You totally look younger than us.
+Dialogue: 0,0:07:40.31,0:07:41.99,main,Vanessa,0000,0000,0000,,Should you be asking that right now?
+Dialogue: 0,0:07:41.99,0:07:43.56,main,Vanessa,0000,0000,0000,,I mean, I'm curious, but...
+Dialogue: 0,0:07:43.56,0:07:48.82,main,Dorothy,0000,0000,0000,,I'm 27! I'm right at my peak!
+Dialogue: 0,0:07:48.82,0:07:50.76,main,Charmy,0000,0000,0000,,She's older than me?! Oh, no!
+Dialogue: 0,0:07:50.76,0:07:52.82,main,Charmy,0000,0000,0000,,My role as the "little cutie\Nwho's actually older"!
+Dialogue: 0,0:07:53.16,0:07:56.33,main,Dorothy,0000,0000,0000,,Go to sleep within the depths \Nof my soul once more.
+Dialogue: 0,0:07:59.16,0:08:03.51,main,Dorothy,0000,0000,0000,,We've each finally found someone \Nwe can share our dreams with...
+Dialogue: 0,0:08:03.51,0:08:04.83,main,Dorothy,0000,0000,0000,,So let's have a little fun!
+Dialogue: 0,0:08:04.83,0:08:06.84,main,Dorothy,0000,0000,0000,,Like I would ever play with a human!
+Dialogue: 0,0:08:07.59,0:08:08.59,main,Dorothy,0000,0000,0000,,Take that!
+Dialogue: 0,0:08:15.97,0:08:17.13,main,Luck,0000,0000,0000,,Whoa!
+Dialogue: 0,0:08:17.13,0:08:18.82,main,Magna,0000,0000,0000,,Holy crap!
+Dialogue: 0,0:08:18.82,0:08:21.43,main,Sally,0000,0000,0000,,I guess anything goes since \Nwe're in the dream world!
+Dialogue: 0,0:08:21.43,0:08:23.28,main,Sally,0000,0000,0000,,I wanna research this so bad!
+Dialogue: 0,0:08:23.28,0:08:25.98,main,Charmy,0000,0000,0000,,Drool... That shark looks so nummy.
+Dialogue: 0,0:08:26.30,0:08:30.37,italics,Vanessa,0000,0000,0000,,Amazing... She's a match for her\N elf counterpart in this battle.
+Dialogue: 0,0:08:30.37,0:08:32.13,main,Vanessa,0000,0000,0000,,This is our chance to recover some mana.
+Dialogue: 0,0:08:32.13,0:08:33.75,main,Vanessa,0000,0000,0000,,Charmy, get cooking!
+Dialogue: 0,0:08:33.75,0:08:35.11,main,Charmy,0000,0000,0000,,Roger!
+Dialogue: 0,0:08:35.11,0:08:37.52,italics,Vanessa,0000,0000,0000,,We'll make it out for sure this time!
+Dialogue: 0,0:08:37.52,0:08:39.63,italics,Vanessa,0000,0000,0000,,Wait for us, guys!
+Dialogue: 0,0:08:42.91,0:08:44.99,italics,Asta,0000,0000,0000,,I can't get to Gauche!
+Dialogue: 0,0:08:44.99,0:08:45.79,italics,Asta,0000,0000,0000,,Not to mention...
+Dialogue: 0,0:08:46.10,0:08:47.42,main,Gauche,0000,0000,0000,,And while you're at it...
+Dialogue: 0,0:08:47.42,0:08:48.79,main,Gauche,0000,0000,0000,,Keep your eyes shut.
+Dialogue: 0,0:08:49.65,0:08:52.05,italics,Asta,0000,0000,0000,,Oh, no! I'm—
+Dialogue: 0,0:08:52.05,0:08:53.55,main,Gauche,0000,0000,0000,,See ya, brat.
+Dialogue: 0,0:08:58.58,0:09:00.14,main,Asta,0000,0000,0000,,Thanks, guys!
+Dialogue: 0,0:09:00.14,0:09:03.11,main,Gordon,0000,0000,0000,,We gave some of our mana to Henry!
+Dialogue: 0,0:09:04.15,0:09:06.77,main,Grey,0000,0000,0000,,He's sucking away our mana \Nat an incredible speed!
+Dialogue: 0,0:09:06.77,0:09:10.60,main,Henry,0000,0000,0000,,Get... inside... quickly!
+Dialogue: 0,0:09:10.60,0:09:12.65,main,Asta,0000,0000,0000,,Comin' through!
+Dialogue: 0,0:09:13.11,0:09:17.66,italics,Asta,0000,0000,0000,,What do I do? Right now, I can \Nonly go black about 2.5 times!
+Dialogue: 0,0:09:17.66,0:09:19.57,italics,Asta,0000,0000,0000,,I used it once before coming to the capital,
+Dialogue: 0,0:09:19.57,0:09:21.57,italics,Asta,0000,0000,0000,,so next time, it'll come undone pretty fast!
+Dialogue: 0,0:09:23.04,0:09:24.46,main,Grey,0000,0000,0000,,Transformation Magic!
+Dialogue: 0,0:09:24.46,0:09:28.79,main,Grey,0000,0000,0000,,Magic Conversion: Mirrored Mini Black Bull!
+Dialogue: 0,0:09:30.41,0:09:31.50,main,Asta,0000,0000,0000,,Go!
+Dialogue: 0,0:09:31.50,0:09:33.49,main,Gauche,0000,0000,0000,,Like it'd actually be that easy.
+Dialogue: 0,0:09:34.59,0:09:37.97,main,Gauche,0000,0000,0000,,You didn't actually mirror the \Nparts that are expelling magic.
+Dialogue: 0,0:09:40.75,0:09:42.18,italics,Henry,0000,0000,0000,,At this distance, I could...
+Dialogue: 0,0:09:43.14,0:09:45.64,italics,Henry,0000,0000,0000,,This is where we say goodbye.
+Dialogue: 0,0:09:45.98,0:09:47.39,main,Asta,0000,0000,0000,,Henry?!
+Dialogue: 0,0:09:56.85,0:09:59.13,italics,Henry,0000,0000,0000,,This is where we say goodbye.
+Dialogue: 0,0:09:59.13,0:10:00.45,main,Asta,0000,0000,0000,,Henry?!
+Dialogue: 0,0:10:03.54,0:10:05.41,main,Gauche,0000,0000,0000,,Going to die in a blaze of glory?
+Dialogue: 0,0:10:05.41,0:10:07.41,main,Gauche,0000,0000,0000,,And try to take me with you?
+Dialogue: 0,0:10:07.82,0:10:08.92,italics,Henry,0000,0000,0000,,No...
+Dialogue: 0,0:10:11.31,0:10:13.00,italics,Henry,0000,0000,0000,,I'm the only one who's going to die.
+Dialogue: 0,0:10:13.65,0:10:17.26,italics,Henry,0000,0000,0000,,I only lived this long... \Nso I could save my friends.
+Dialogue: 0,0:10:17.81,0:10:18.74,main,Gauche,0000,0000,0000,,What?
+Dialogue: 0,0:10:19.10,0:10:20.26,italics,Gauche,0000,0000,0000,,He's absorbing my mana...
+Dialogue: 0,0:10:21.80,0:10:25.93,italics,Henry,0000,0000,0000,,Outside the hideout, my magic \Nabsorption rate skyrockets.
+Dialogue: 0,0:10:25.93,0:10:29.77,italics,Henry,0000,0000,0000,,This isn't magic, either, \Nso her eye magic can't stop it.
+Dialogue: 0,0:10:30.31,0:10:32.13,main,Gauche,0000,0000,0000,,But this is all useless.
+Dialogue: 0,0:10:32.13,0:10:36.32,main,Gauche,0000,0000,0000,,My mana's not so weak that this \Nis enough to undermine it.
+Dialogue: 0,0:10:36.32,0:10:38.32,main,Gauche,0000,0000,0000,,You can disappear all on your own.
+Dialogue: 0,0:10:38.32,0:10:42.20,italics,Henry,0000,0000,0000,,That's just fine. My job ends here.
+Dialogue: 0,0:10:42.20,0:10:45.35,italics,Henry,0000,0000,0000,,I'm just happy I got to fight \Nalongside everyone in the end.
+Dialogue: 0,0:10:45.35,0:10:48.70,italics,Henry,0000,0000,0000,,I'm sure they'll be able \Nto stop you after this.
+Dialogue: 0,0:10:49.58,0:10:50.48,italics,Henry,0000,0000,0000,,The rest is...
+Dialogue: 0,0:10:50.48,0:10:53.37,main,Henry,0000,0000,0000,,...up... to... you.
+Dialogue: 0,0:10:53.37,0:10:55.33,main,Asta,0000,0000,0000,,Not yet, Henry!
+Dialogue: 0,0:10:55.33,0:10:57.02,main,Asta,0000,0000,0000,,Live!
+Dialogue: 0,0:11:01.85,0:11:06.43,flashback,Asta,0000,0000,0000,,You must be Henry, the one with the \Nweird illness that sucks up magic.
+Dialogue: 0,0:11:06.81,0:11:09.49,flashback,Asta,0000,0000,0000,,Heya! I'm the new squad member, Asta!
+Dialogue: 0,0:11:09.49,0:11:13.06,flashback,Asta,0000,0000,0000,,Captain Yami told me about this place \Nafter I accidentally wandered in!
+Dialogue: 0,0:11:13.06,0:11:16.44,flashback,Asta,0000,0000,0000,,Don't you worry! I don't have any magic!
+Dialogue: 0,0:11:16.44,0:11:19.71,flashback,Asta,0000,0000,0000,,You're always getting magic from them,\Nso you're embarrassed to go see them?
+Dialogue: 0,0:11:19.71,0:11:22.61,flashback,Asta,0000,0000,0000,,I don't think you need to worry about that!
+Dialogue: 0,0:11:22.94,0:11:24.61,flashback,Asta,0000,0000,0000,,I mean, I'm not one to talk,
+Dialogue: 0,0:11:24.61,0:11:27.12,flashback,Asta,0000,0000,0000,,but they're all pretty crazy.
+Dialogue: 0,0:11:27.69,0:11:31.85,flashbackitalics,Henry,0000,0000,0000,,Once I have better control \Nover my magic absorption...
+Dialogue: 0,0:11:31.85,0:11:39.46,flashback,Henry,0000,0000,0000,,One... day... I'll... go... \Nsee... them... all... myself.
+Dialogue: 0,0:11:39.85,0:11:42.88,flashback,Asta,0000,0000,0000,,You will? Then we'll be waiting for you!
+Dialogue: 0,0:11:42.88,0:11:46.92,flashback,Asta,0000,0000,0000,,I'm sure it'll be even more fun \Nonce you meet them in person!
+Dialogue: 0,0:11:46.92,0:11:48.34,italics,Henry,0000,0000,0000,,It's like a dream.
+Dialogue: 0,0:11:49.94,0:11:53.23,italics,Henry,0000,0000,0000,,Until I met all of them, I was all alone.
+Dialogue: 0,0:11:53.82,0:11:56.31,italics,Henry,0000,0000,0000,,I didn't care about when I'd die.
+Dialogue: 0,0:11:56.66,0:11:57.92,italics,Henry,0000,0000,0000,,And yet...
+Dialogue: 0,0:12:00.01,0:12:01.49,italics,Henry,0000,0000,0000,,I don't want to die.
+Dialogue: 0,0:12:01.49,0:12:03.66,italics,Henry,0000,0000,0000,,I want to continue living with my friends.
+Dialogue: 0,0:12:03.66,0:12:06.16,main,Gordon,0000,0000,0000,,Let's continue living together!
+Dialogue: 0,0:12:06.57,0:12:09.29,main,Gordon,0000,0000,0000,,Poison Magic: Forbidden Fruit!
+Dialogue: 0,0:12:10.73,0:12:12.78,main,Grey,0000,0000,0000,,Transformation... released!
+Dialogue: 0,0:12:12.78,0:12:17.04,italics,Grey,0000,0000,0000,,I don't want to lose a \Nsingle one of my friends!
+Dialogue: 0,0:12:18.63,0:12:21.80,main,Asta,0000,0000,0000,,That goes for you, too...
+Dialogue: 0,0:12:22.63,0:12:25.47,main,Asta,0000,0000,0000,,Gauche!
+Dialogue: 0,0:12:28.56,0:12:30.33,italics,Zora,0000,0000,0000,,The binding spell...
+Dialogue: 0,0:12:30.33,0:12:31.32,italics,Noelle,0000,0000,0000,,It's gone.
+Dialogue: 0,0:12:37.47,0:12:41.61,main,Asta,0000,0000,0000,,I need you to return those \Nbodies to Gauche and Marie.
+Dialogue: 0,0:12:42.23,0:12:45.11,main,Asta,0000,0000,0000,,They're our precious friends.
+Dialogue: 0,0:12:46.75,0:12:48.62,italics,Gauche,0000,0000,0000,,You damned humans...
+Dialogue: 0,0:12:53.65,0:12:55.63,flashback,Mob elf 1,0000,0000,0000,,I can't use any magic!
+Dialogue: 0,0:12:55.63,0:12:57.65,flashback,Mob elf 2,0000,0000,0000,,Our magic has been sealed!
+Dialogue: 0,0:12:58.59,0:13:01.38,flashback,Mob elf,0000,0000,0000,,They put up a barrier! We can't go—
+Dialogue: 0,0:13:01.70,0:13:04.63,flashback,Gauche,0000,0000,0000,,No, wait. Our magic is being taken away...
+Dialogue: 0,0:13:05.51,0:13:08.24,flashbackitalics,Gauche,0000,0000,0000,,This is... It goes against all natural law!
+Dialogue: 0,0:13:08.24,0:13:09.39,flashbackitalics,Gauche,0000,0000,0000,,It couldn't be...
+Dialogue: 0,0:13:10.09,0:13:12.70,flashbackitalics,Gauche,0000,0000,0000,,It's the power of a human magic item?!
+Dialogue: 0,0:13:14.89,0:13:16.39,flashbackitalics,Gauche,0000,0000,0000,,That's...
+Dialogue: 0,0:13:16.39,0:13:17.90,flashback,Royalty,0000,0000,0000,,Excellent...
+Dialogue: 0,0:13:17.90,0:13:19.42,flashback,Royalty,0000,0000,0000,,I'm overflowing with power.
+Dialogue: 0,0:13:19.42,0:13:23.03,flashback,Royalty,0000,0000,0000,,Now the elves' magic will be ours!
+Dialogue: 0,0:13:23.03,0:13:27.23,flashback,Royalty,0000,0000,0000,,The princess is of no use to us now.\N She's carrying their child.
+Dialogue: 0,0:13:27.23,0:13:29.49,flashback,Royalty,0000,0000,0000,,She's no longer fit to be a royal!
+Dialogue: 0,0:13:29.49,0:13:34.00,flashback,Royalty,0000,0000,0000,,How dare anyone other than us humans \Npossess strong magical powers?
+Dialogue: 0,0:13:34.00,0:13:38.51,flashback,Royalty,0000,0000,0000,,Even the idea of coexisting with \Nsuch creatures is dreadful.
+Dialogue: 0,0:13:38.51,0:13:42.00,flashback,Royalty,0000,0000,0000,,We must make them pay for \Nleading one of our own astray!
+Dialogue: 0,0:13:42.39,0:13:46.75,flashback,Royalty,0000,0000,0000,,The human royals shall become \Nthe gods of this land!
+Dialogue: 0,0:13:51.07,0:13:54.95,italics,Gauche,0000,0000,0000,,I'll never forget those \Nhumans' faces, even in death!
+Dialogue: 0,0:13:54.95,0:13:58.24,italics,Gauche,0000,0000,0000,,Tense with fear, but ecstatic!
+Dialogue: 0,0:13:58.24,0:13:59.77,italics,Gauche,0000,0000,0000,,Unreasonable anger...
+Dialogue: 0,0:13:59.77,0:14:01.99,italics,Gauche,0000,0000,0000,,They kill us because of their greed,
+Dialogue: 0,0:14:01.99,0:14:06.61,italics,Gauche,0000,0000,0000,,and their rotten brains warp \Nthe truth to fit their needs!
+Dialogue: 0,0:14:06.61,0:14:09.28,italics,Gauche,0000,0000,0000,,Their filthy, disgusting laughter...
+Dialogue: 0,0:14:09.28,0:14:12.94,italics,Gauche,0000,0000,0000,,How could you do something like that?!\N I just can't understand!
+Dialogue: 0,0:14:12.94,0:14:15.12,italics,Gauche,0000,0000,0000,,I will never forgive you!
+Dialogue: 0,0:14:15.12,0:14:16.54,italics,Gauche,0000,0000,0000,,It makes me sick!
+Dialogue: 0,0:14:16.85,0:14:18.63,italics,Gauche,0000,0000,0000,,My malice is out of control...
+Dialogue: 0,0:14:18.63,0:14:21.23,italics,Gauche,0000,0000,0000,,I won't be satisfied until \NI rip them all to shreds!
+Dialogue: 0,0:14:21.23,0:14:23.21,italics,Gauche,0000,0000,0000,,You filthy, disgusting humans!
+Dialogue: 0,0:14:23.64,0:14:25.84,italics,Gauche,0000,0000,0000,,But that...
+Dialogue: 0,0:14:26.73,0:14:28.34,italics,Gauche,0000,0000,0000,,isn't them.
+Dialogue: 0,0:14:28.66,0:14:31.43,italics,Gauche,0000,0000,0000,,They're just like us.
+Dialogue: 0,0:14:31.43,0:14:34.10,italics,Gauche,0000,0000,0000,,They're fighting for their precious friends.
+Dialogue: 0,0:14:34.49,0:14:36.60,italics,Gauche,0000,0000,0000,,I'm sorry, everyone...
+Dialogue: 0,0:14:37.04,0:14:42.38,italics,Gauche,0000,0000,0000,,At this rate, my malice will take over,\N and I won't be myself anymore.
+Dialogue: 0,0:14:42.38,0:14:44.11,main,Gauche,0000,0000,0000,,Do as you will.
+Dialogue: 0,0:14:44.57,0:14:46.54,main,Gauche,0000,0000,0000,,I'm sorry, Eclat.
+Dialogue: 0,0:14:46.54,0:14:51.87,main,Marie,0000,0000,0000,,No... I'll always stay with \Nmy gentle big brother.
+Dialogue: 0,0:14:56.17,0:14:57.83,main,Asta,0000,0000,0000,,Then I'm sorry about this,
+Dialogue: 0,0:14:58.54,0:15:00.29,main,Asta,0000,0000,0000,,but I'm taking my friends back.
+Dialogue: 0,0:15:04.09,0:15:08.09,italics,Gauche,0000,0000,0000,,This is even erasing the forbidden magic.
+Dialogue: 0,0:15:08.72,0:15:10.97,italics,Gauche,0000,0000,0000,,Licht, why did you...
+Dialogue: 0,0:15:12.03,0:15:18.28,italics,Gauche,0000,0000,0000,,Well, whatever. I know you worked \Nreally hard, so I'm sorry, Patry and Raia.
+Dialogue: 0,0:15:18.28,0:15:20.35,italics,Gauche,0000,0000,0000,,I'm going to bow out here.
+Dialogue: 0,0:15:20.93,0:15:25.03,italics,Gauche,0000,0000,0000,,This also goes for the forbidden \Nspell that brought us back, but...
+Dialogue: 0,0:15:26.30,0:15:29.60,main,Gauche,0000,0000,0000,,A convenient power that can make it \Nso that something never happened...
+Dialogue: 0,0:15:29.60,0:15:31.39,main,Gauche,0000,0000,0000,,Do you think such a thing exists?
+Dialogue: 0,0:15:34.29,0:15:39.04,main,Gauche,0000,0000,0000,,Actions come with consequences. \NYou can't escape that.
+Dialogue: 0,0:15:39.04,0:15:43.17,main,Gauche,0000,0000,0000,,Make sure you never forget that, human.
+Dialogue: 0,0:15:43.90,0:15:45.17,main,Asta,0000,0000,0000,,Yeah.
+Dialogue: 0,0:15:45.17,0:15:48.86,main,Asta,0000,0000,0000,,I'll never forget you two.
+Dialogue: 0,0:16:02.53,0:16:07.32,italics,Gauche,0000,0000,0000,,You're exactly right. There isn't \Na single human you can trust.
+Dialogue: 0,0:16:10.21,0:16:13.45,italics,Gauche,0000,0000,0000,,No matter how close you try \Nto get, they're still strangers.
+Dialogue: 0,0:16:13.45,0:16:15.93,italics,Gauche,0000,0000,0000,,Everyone looks out for themselves first.
+Dialogue: 0,0:16:15.93,0:16:18.66,italics,Gauche,0000,0000,0000,,They want to have it easier \Nthan the rest of the world.
+Dialogue: 0,0:16:18.66,0:16:21.83,italics,Gauche,0000,0000,0000,,And to make that happen, they'd betray \Nanyone without even a second thought.
+Dialogue: 0,0:16:22.58,0:16:24.27,italics,Gauche,0000,0000,0000,,I'm the same way.
+Dialogue: 0,0:16:24.27,0:16:28.01,italics,Gauche,0000,0000,0000,,I don't care what happens as \Nlong as Marie and I are happy.
+Dialogue: 0,0:16:28.01,0:16:30.30,italics,Gauche,0000,0000,0000,,That was... enough.
+Dialogue: 0,0:16:30.84,0:16:32.20,main,Grey,0000,0000,0000,,Gauche...
+Dialogue: 0,0:16:32.20,0:16:33.09,main,Gordon,0000,0000,0000,,Gauche!
+Dialogue: 0,0:16:33.09,0:16:34.25,main,Grey,0000,0000,0000,,Gauche!
+Dialogue: 0,0:16:34.25,0:16:35.31,main,Gordon,0000,0000,0000,,Gauche!
+Dialogue: 0,0:16:35.31,0:16:37.76,main,Gordon,0000,0000,0000,,Gauche!
+Dialogue: 0,0:16:40.82,0:16:43.06,main,Grey,0000,0000,0000,,Ow, ow, ow, ow, ow, ow, ow...
+Dialogue: 0,0:16:43.06,0:16:44.16,main,Grey,0000,0000,0000,,So close...
+Dialogue: 0,0:16:44.16,0:16:45.47,main,Gordon,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:16:47.06,0:16:47.90,main,Gauche,0000,0000,0000,,Marie!
+Dialogue: 0,0:16:47.90,0:16:53.28,main,Marie,0000,0000,0000,,I... I'm so glad I didn't... hurt anyone.
+Dialogue: 0,0:16:53.69,0:16:56.53,main,Asta,0000,0000,0000,,Yeah! And I'm glad you guys are okay, too!
+Dialogue: 0,0:16:57.34,0:16:58.66,main,Gauche,0000,0000,0000,,How stupid are you people?!
+Dialogue: 0,0:16:59.70,0:17:02.35,main,Gauche,0000,0000,0000,,If you're safe, that's all that matters!
+Dialogue: 0,0:17:02.35,0:17:05.02,main,Gauche,0000,0000,0000,,You were about to die for someone else!
+Dialogue: 0,0:17:05.02,0:17:07.38,main,Gauche,0000,0000,0000,,And now, our precious hideout \Nis reduced to rubble!
+Dialogue: 0,0:17:08.14,0:17:10.82,main,Gauche,0000,0000,0000,,I'm only ever thinking about Marie and myself!
+Dialogue: 0,0:17:11.25,0:17:13.41,main,Gauche,0000,0000,0000,,As long as we're safe, \NI don't care about anything else!
+Dialogue: 0,0:17:13.41,0:17:16.89,main,Gauche,0000,0000,0000,,I only joined the Black Bulls\N for our own sake!
+Dialogue: 0,0:17:17.74,0:17:21.33,main,Gauche,0000,0000,0000,,I never planned on being \Nbuddy-buddy with all of you!
+Dialogue: 0,0:17:21.33,0:17:25.66,main,Gauche,0000,0000,0000,,And deep down inside, I don't trust \Na single one of you bastards!
+Dialogue: 0,0:17:25.66,0:17:26.64,main,Marie,0000,0000,0000,,Big Brother!
+Dialogue: 0,0:17:26.64,0:17:30.15,main,Gauche,0000,0000,0000,,You should've just left me alone!
+Dialogue: 0,0:17:32.47,0:17:34.98,main,Asta,0000,0000,0000,,He really doesn't get it, does he?
+Dialogue: 0,0:17:34.98,0:17:37.28,main,Gordon,0000,0000,0000,,I thought he was smarter than that.
+Dialogue: 0,0:17:37.28,0:17:41.51,main,Grey,0000,0000,0000,,W-We obviously know he only cares about \Nhimself and his little sister by now!
+Dialogue: 0,0:17:41.51,0:17:44.41,main,Henry,0000,0000,0000,,You're... the... moron.
+Dialogue: 0,0:17:44.41,0:17:47.29,main,Asta,0000,0000,0000,,That's not what you're \Nsupposed to say right now!
+Dialogue: 0,0:17:47.29,0:17:49.54,main,Asta,0000,0000,0000,,Come on! Look at us!
+Dialogue: 0,0:17:51.83,0:17:53.05,main,Marie,0000,0000,0000,,Big Brother!
+Dialogue: 0,0:17:53.05,0:17:54.83,main,Gauche,0000,0000,0000,,Ugh, damn it!
+Dialogue: 0,0:17:55.63,0:17:58.59,main,Gauche,0000,0000,0000,,Thanks... you jerks.
+Dialogue: 0,0:17:59.15,0:18:02.32,main,Asta,0000,0000,0000,,It's our pleasure, you sister-loving jerk!
+Dialogue: 0,0:18:02.32,0:18:04.08,main,Gauche,0000,0000,0000,,Get off me, you numbskulls!
+Dialogue: 0,0:18:04.08,0:18:06.24,main,Asta,0000,0000,0000,,Oh, come on! Give in to the love, you jerk!
+Dialogue: 0,0:18:06.24,0:18:08.41,main,Gauche,0000,0000,0000,,You're suddenly calling me "jerk" a lot!
+Dialogue: 0,0:18:08.41,0:18:09.97,main,Grey,0000,0000,0000,,I'm so embarrassed!
+Dialogue: 0,0:18:09.97,0:18:11.61,main,Gauche,0000,0000,0000,,Then get off of me already!
+Dialogue: 0,0:18:11.61,0:18:13.53,main,Gordon,0000,0000,0000,,But we're the Go-Gau Duo!
+Dialogue: 0,0:18:13.53,0:18:15.02,main,Gauche,0000,0000,0000,,Don't give us a name!
+Dialogue: 0,0:18:18.99,0:18:20.32,main,Asta,0000,0000,0000,,That's...
+Dialogue: 0,0:18:21.57,0:18:23.33,main,Dorothy,0000,0000,0000,,Things are getting exciting!
+Dialogue: 0,0:18:23.33,0:18:24.33,main,Dorothy,0000,0000,0000,,Shut up!
+Dialogue: 0,0:18:29.50,0:18:32.86,main,Magna,0000,0000,0000,,Uh... things are getting really crazy!
+Dialogue: 0,0:18:32.86,0:18:36.22,main,Sally,0000,0000,0000,,We'd be dead by now if it \Nweren't for this kitty-cat!
+Dialogue: 0,0:18:36.22,0:18:37.42,main,Vanessa,0000,0000,0000,,Look!
+Dialogue: 0,0:18:40.05,0:18:43.42,italics,Dorothy,0000,0000,0000,,It can't withstand the dreams of two people?
+Dialogue: 0,0:18:43.42,0:18:44.72,italics,Dorothy,0000,0000,0000,,Glamour World...
+Dialogue: 0,0:18:45.12,0:18:46.35,italics,Dorothy,0000,0000,0000,,is collapsing!
+Dialogue: 0,0:18:48.54,0:18:50.11,main,Dorothy,0000,0000,0000,,Ah, that was so much fun!
+Dialogue: 0,0:18:50.11,0:18:51.81,main,Dorothy,0000,0000,0000,,I feel so much better now!
+Dialogue: 0,0:18:51.81,0:18:53.87,main,Dorothy,0000,0000,0000,,Take care of my body, 'kay?
+Dialogue: 0,0:18:53.87,0:18:55.07,main,Dorothy,0000,0000,0000,,See you later!
+Dialogue: 0,0:18:55.73,0:18:57.57,italics,Dorothy,0000,0000,0000,,I'm glad I got to meet you.
+Dialogue: 0,0:18:58.17,0:19:02.32,italics,Dorothy,0000,0000,0000,,Not all humans are consumed \Nby betrayal and greed.
+Dialogue: 0,0:19:02.65,0:19:05.58,italics,Dorothy,0000,0000,0000,,Don't you think so after seeing those kids?
+Dialogue: 0,0:19:10.65,0:19:12.88,main,Luck,0000,0000,0000,,Our enemy's got an \Ninsane amount of magic...
+Dialogue: 0,0:19:12.88,0:19:15.01,main,Luck,0000,0000,0000,,So we can go all out, right?!
+Dialogue: 0,0:19:15.01,0:19:17.51,main,Magna,0000,0000,0000,,Hell yeah, we can!
+Dialogue: 0,0:19:17.51,0:19:22.48,main,Sally,0000,0000,0000,,Her power and magic were top class, \Nbut the compatibility was just awful.
+Dialogue: 0,0:19:22.48,0:19:27.33,main,Sally,0000,0000,0000,,She didn't finish us off in one blow, \Nso we had time to come up with a plan.
+Dialogue: 0,0:19:27.33,0:19:29.77,main,Charmy,0000,0000,0000,,We're all working together, la!
+Dialogue: 0,0:19:30.85,0:19:32.02,italics,Dorothy,0000,0000,0000,,True...
+Dialogue: 0,0:19:32.02,0:19:36.27,main,Both,0000,0000,0000,,Combo Spell: Flame Lightning \NExploding Cannon!
+Dialogue: 0,0:19:44.06,0:19:46.05,main,Asta,0000,0000,0000,,Welcome back, everyone!
+Dialogue: 0,0:19:46.05,0:19:47.54,main,Asta,0000,0000,0000,,I'm so glad you're safe!
+Dialogue: 0,0:19:47.92,0:19:50.18,main,Vanessa,0000,0000,0000,,Oh, Gauche! You're back to normal!
+Dialogue: 0,0:19:50.18,0:19:51.55,main,Vanessa,0000,0000,0000,,Thank goodness!
+Dialogue: 0,0:19:51.55,0:19:53.75,main,Gordon,0000,0000,0000,,Now we're all best friends again.
+Dialogue: 0,0:19:53.75,0:19:55.71,main,Charmy,0000,0000,0000,,For now, just eat this, 'kay?
+Dialogue: 0,0:19:55.71,0:19:59.35,main,Gauche,0000,0000,0000,,Don't go stuffing food in my mouth, domehead!
+Dialogue: 0,0:19:59.35,0:20:01.61,main,Gauche,0000,0000,0000,,Damn it, that's good!
+Dialogue: 0,0:20:01.61,0:20:04.69,main,Charmy,0000,0000,0000,,It's a magical nummy \Nthat recovers your mana!
+Dialogue: 0,0:20:04.69,0:20:06.79,main,Charmy,0000,0000,0000,,Eat up, sweet child.
+Dialogue: 0,0:20:06.79,0:20:09.39,main,Marie,0000,0000,0000,,This food is so yummy!
+Dialogue: 0,0:20:09.39,0:20:11.94,main,Gauche,0000,0000,0000,,The psycho woman?! What the \Nhell is she doing here?!
+Dialogue: 0,0:20:11.94,0:20:13.39,main,Gauche,0000,0000,0000,,Stay away from Marie!
+Dialogue: 0,0:20:13.39,0:20:15.61,main,Sally,0000,0000,0000,,Aw, I can't research her?
+Dialogue: 0,0:20:15.61,0:20:16.69,main,Gauche,0000,0000,0000,,I'll murder you!
+Dialogue: 0,0:20:16.69,0:20:20.24,main,Luck,0000,0000,0000,,Never mind that! Since we both got \Ntaken over, let's fight each other next time!
+Dialogue: 0,0:20:20.24,0:20:21.17,main,Gauche,0000,0000,0000,,No!
+Dialogue: 0,0:20:25.34,0:20:28.58,main,Asta,0000,0000,0000,,And now, the Captain of the \NCoral Peacocks is back, too!
+Dialogue: 0,0:20:29.29,0:20:31.29,main,Magna,0000,0000,0000,,And right back to sleep.
+Dialogue: 0,0:20:31.29,0:20:34.05,main,Zora,0000,0000,0000,,Tch! Guess all the tension's gone.
+Dialogue: 0,0:20:34.05,0:20:35.54,main,Noelle,0000,0000,0000,,Y-Yeah...
+Dialogue: 0,0:20:35.54,0:20:37.29,main,Noelle,0000,0000,0000,,Whoops, I slipped!
+Dialogue: 0,0:20:38.71,0:20:41.41,main,Asta,0000,0000,0000,,Now it's raining Noelle and Zora!
+Dialogue: 0,0:20:41.41,0:20:43.40,main,Zora,0000,0000,0000,,What the hell's the big idea?!
+Dialogue: 0,0:20:43.40,0:20:46.69,main,Noelle,0000,0000,0000,,I-It's not like I was jealous \Nthat you all looked like
+Dialogue: 0,0:20:46.69,0:20:48.85,main,Noelle,0000,0000,0000,,you were having so much fun or anything.
+Dialogue: 0,0:20:48.85,0:20:52.14,main,Magna,0000,0000,0000,,Yeah, whatever! You're stepping \Non me, so get the hell off, Lady Noe!
+Dialogue: 0,0:20:52.14,0:20:54.85,main,Noelle,0000,0000,0000,,I'm royalty. I have every \Nright to step on you.
+Dialogue: 0,0:20:54.85,0:20:56.18,main,Magna,0000,0000,0000,,I have seniority, damn it!
+Dialogue: 0,0:20:56.18,0:20:59.34,main,Asta,0000,0000,0000,,Miz Charmy! Please go feed Henry!
+Dialogue: 0,0:20:59.34,0:21:02.06,main,Charmy,0000,0000,0000,,Are you the one who's hungry for nummies?!
+Dialogue: 0,0:21:02.06,0:21:05.11,main,Henry,0000,0000,0000,,I'm... starving.
+Dialogue: 0,0:21:05.11,0:21:09.28,main,Asta,0000,0000,0000,,All right! Finral's sorta missing right now,
+Dialogue: 0,0:21:09.28,0:21:12.38,main,Asta,0000,0000,0000,,but the rest of the Black Bulls are all here!
+Dialogue: 0,0:21:12.38,0:21:15.53,main,Asta,0000,0000,0000,,Once we're all recovered, \Nwe're gonna go after Captain Yami!
+Dialogue: 0,0:21:15.53,0:21:17.31,main,All,0000,0000,0000,,Yeah!
+Dialogue: 0,0:22:48.01,0:22:52.51,sign_33083_276_Petit_Clover_,Sign,0000,0000,0000,,{\fad(1,520)}Pe{\c&H3BC020&}t{\c&HE2AF0F&}i{\c&H3BC020&}t C{\c&HE2AF0F&}l{\c&H3BC020&}o{\c&H0E42D4&}ve{\c&H3BC020&}r
+Dialogue: 0,0:22:48.94,0:22:51.99,main,All,0000,0000,0000,,Petit Clover!
+Dialogue: 0,0:22:52.01,0:22:56.02,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Leave It to Me!
+Dialogue: 0,0:22:53.14,0:22:54.87,main,Dorothy,0000,0000,0000,,Leave It to Me!
+Dialogue: 0,0:22:56.02,0:22:58.18,main,Dorothy,0000,0000,0000,,Thank you all for your hard work!
+Dialogue: 0,0:22:56.02,0:23:04.98,sign_32992_374_gLaMoUr_WoRlD,Sign,0000,0000,0000,,{\frz12.7\fscx215\fscy100}gLaMoUr\NwOrLd
+Dialogue: 0,0:22:58.18,0:23:01.18,main,Dorothy,0000,0000,0000,,This is my dream world, Glamour World!
+Dialogue: 0,0:23:01.18,0:23:04.98,main,Dorothy,0000,0000,0000,,To thank you, I'll grant you any wish!
+Dialogue: 0,0:23:06.22,0:23:09.32,main,Charmy,0000,0000,0000,,Then I want meat! Please bless \Nus with some nummy meat!
+Dialogue: 0,0:23:09.32,0:23:11.07,main,Dorothy,0000,0000,0000,,Sure thing! Meat coming right up!
+Dialogue: 0,0:23:11.98,0:23:12.78,main,Charmy,0000,0000,0000,,La?!
+Dialogue: 0,0:23:12.78,0:23:15.54,main,Luck,0000,0000,0000,,I wanna go all-out with someone!
+Dialogue: 0,0:23:15.54,0:23:16.45,main,Dorothy,0000,0000,0000,,Sure thing!
+Dialogue: 0,0:23:16.82,0:23:20.66,main,Dorothy,0000,0000,0000,,With these on, you can hit anyone as \Nmuch as you want, and they'll be fine!
+Dialogue: 0,0:23:20.66,0:23:21.46,main,Luck,0000,0000,0000,,Huh?
+Dialogue: 0,0:23:21.46,0:23:23.58,main,Vanessa,0000,0000,0000,,I think we're going to be fighting all night,
+Dialogue: 0,0:23:23.58,0:23:25.34,main,Vanessa,0000,0000,0000,,so I'd like to take care of my skin.
+Dialogue: 0,0:23:25.34,0:23:28.59,main,Asta,0000,0000,0000,,I want some serious muscles \Nlike Captain Yami!
+Dialogue: 0,0:23:28.59,0:23:30.43,main,Dorothy,0000,0000,0000,,I got you both!
+Dialogue: 0,0:23:32.86,0:23:34.96,main,Asta,0000,0000,0000,,You just keep doing whatever!
+Dialogue: 0,0:23:34.96,0:23:36.99,main,Vanessa,0000,0000,0000,,This is a nightmare! A nightmare!
+Dialogue: 0,0:23:40.01,0:23:42.15,main,Asta,0000,0000,0000,,All right! Let's go to the Shadow Palace!
+Dialogue: 0,0:23:42.15,0:23:45.77,main,Asta,0000,0000,0000,,We need to end this! And then, \Nwe're gonna all come back here!
+Dialogue: 0,0:23:46.33,0:23:50.98,main,asta,0000,0000,0000,,Next time on {\i1}Black Clover{\i0}, Page 113:\N "Storming the Shadow Palace."
+Dialogue: 0,0:23:47.48,0:23:54.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 113\N\N{\fs18} Storming the Shadow Palace
+Dialogue: 0,0:23:50.98,0:23:53.99,main,Asta,0000,0000,0000,,Not giving up is my magic!

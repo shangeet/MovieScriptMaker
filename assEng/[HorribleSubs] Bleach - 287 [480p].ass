@@ -1,0 +1,494 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 2
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: B1,Open Sans Semibold,43,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,2,80,80,30,0
+Style: OS,Open Sans Semibold,32,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,8,1,1,15,0
+Style: B2,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: J,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,1,1,25,0
+Style: E,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,1,11,25,0
+Style: J-low,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,1,1,25,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:08.88,0:00:09.85,B2,ICHIGO,0000,0000,0000,,Huh?
+Dialogue: 0,0:00:11.81,0:00:13.81,B2,ICHIGO,0000,0000,0000,,Where am I?
+Dialogue: 0,0:00:16.50,0:00:17.76,B2,,0000,0000,0000,,Huh?!
+Dialogue: 0,0:00:23.36,0:00:26.33,B2,ICHIGO,0000,0000,0000,,Why the hell am I\Ndressed like this?
+Dialogue: 0,0:00:27.95,0:00:30.00,B2,ICHIGO,0000,0000,0000,,Huh? A cat?
+Dialogue: 0,0:00:31.33,0:00:33.00,B2,ICHIGO,0000,0000,0000,,Is that you, Yoruichi?
+Dialogue: 0,0:00:35.49,0:00:36.13,J,,0000,0000,0000,,chAngE
+Dialogue: 0,0:00:35.49,0:00:36.13,E,,0000,0000,0000,,chAngE
+Dialogue: 0,0:00:36.13,0:00:38.08,J,,0000,0000,0000,,nabikanai nagasarenai yo
+Dialogue: 0,0:00:36.13,0:00:38.08,E,,0000,0000,0000,,I won't give in. I won't be dragged away.
+Dialogue: 0,0:00:38.08,0:00:41.31,J,,0000,0000,0000,,ima kanjiru koto ni sunao de itai no
+Dialogue: 0,0:00:38.08,0:00:41.31,E,,0000,0000,0000,,I want to stay honest to the way I feel now.
+Dialogue: 0,0:00:41.31,0:00:42.02,J,,0000,0000,0000,,chAngE
+Dialogue: 0,0:00:41.31,0:00:42.02,E,,0000,0000,0000,,chAngE
+Dialogue: 0,0:00:42.02,0:00:44.13,J,,0000,0000,0000,,nando demo umarekawaru no
+Dialogue: 0,0:00:42.02,0:00:44.13,E,,0000,0000,0000,,I will be reborn as many times as it takes.
+Dialogue: 0,0:00:44.13,0:00:46.08,J,,0000,0000,0000,,kanashimi mo dakishimete
+Dialogue: 0,0:00:44.13,0:00:46.08,E,,0000,0000,0000,,I'll take my sadness with me...
+Dialogue: 0,0:00:46.08,0:00:48.71,J,,0000,0000,0000,,hashiridasu yo
+Dialogue: 0,0:00:46.08,0:00:48.71,E,,0000,0000,0000,,...and run.
+Dialogue: 0,0:00:54.62,0:00:57.15,J,,0000,0000,0000,,tanoshii uragiri ni atte
+Dialogue: 0,0:00:54.62,0:00:57.15,E,,0000,0000,0000,,Sure, betrayal can be pleasurable...
+Dialogue: 0,0:00:57.15,0:01:00.45,J,,0000,0000,0000,,torawarenai atashi ga koko ni iru no
+Dialogue: 0,0:00:57.15,0:01:00.45,E,,0000,0000,0000,,But I stand right here - not giving in to temptation.
+Dialogue: 0,0:01:00.45,0:01:02.84,J,,0000,0000,0000,,tarinai tsukinai nandatte
+Dialogue: 0,0:01:00.45,0:01:02.84,E,,0000,0000,0000,,"Enough," "not enough," whatever.
+Dialogue: 0,0:01:02.84,0:01:04.94,J,,0000,0000,0000,,motto hizumasete yo
+Dialogue: 0,0:01:02.84,0:01:04.94,E,,0000,0000,0000,,Open your mind.
+Dialogue: 0,0:01:06.45,0:01:08.80,J,,0000,0000,0000,,pataan kashita konna sekai ja
+Dialogue: 0,0:01:06.45,0:01:08.80,E,,0000,0000,0000,,Living in this routine-laden world...
+Dialogue: 0,0:01:08.80,0:01:11.82,J,,0000,0000,0000,,jibun ga dare nano ka wakaranakunaru
+Dialogue: 0,0:01:08.80,0:01:11.82,E,,0000,0000,0000,,...is enough to make you forget who you are.
+Dialogue: 0,0:01:12.25,0:01:15.01,J,,0000,0000,0000,,waku ni hamaritakunai wa
+Dialogue: 0,0:01:12.25,0:01:15.01,E,,0000,0000,0000,,I don't want to be stereotyped...
+Dialogue: 0,0:01:15.01,0:01:19.14,J,,0000,0000,0000,,kimetsukenaide yo
+Dialogue: 0,0:01:15.01,0:01:19.14,E,,0000,0000,0000,,...so don't make assumptions about me.
+Dialogue: 0,0:01:20.54,0:01:22.90,J,,0000,0000,0000,,michi naki michi wo yuku no
+Dialogue: 0,0:01:20.54,0:01:22.90,E,,0000,0000,0000,,I'm going to blaze my own trail.
+Dialogue: 0,0:01:22.90,0:01:26.30,J,,0000,0000,0000,,soko ni itatte matteitatte
+Dialogue: 0,0:01:22.90,0:01:26.30,E,,0000,0000,0000,,Nothing will ever be accomplished...
+Dialogue: 0,0:01:26.30,0:01:29.19,J,,0000,0000,0000,,nani mo hajimaranai
+Dialogue: 0,0:01:26.30,0:01:29.19,E,,0000,0000,0000,,...if you just stand around waiting!
+Dialogue: 0,0:01:29.19,0:01:29.93,J,,0000,0000,0000,,chAngE
+Dialogue: 0,0:01:29.19,0:01:29.93,E,,0000,0000,0000,,chAngE
+Dialogue: 0,0:01:29.93,0:01:32.10,J,,0000,0000,0000,,nabikanai nagasarenai yo
+Dialogue: 0,0:01:29.93,0:01:32.10,E,,0000,0000,0000,,I won't give in. I won't be dragged away.
+Dialogue: 0,0:01:32.10,0:01:35.70,J,,0000,0000,0000,,ima kanjiru koto ni sunao de itai no
+Dialogue: 0,0:01:32.10,0:01:35.70,E,,0000,0000,0000,,I want to stay honest to the way I feel now.
+Dialogue: 0,0:01:35.70,0:01:40.60,J,,0000,0000,0000,,dareka no omoidoori ni wa sasenai wa
+Dialogue: 0,0:01:35.70,0:01:40.60,E,,0000,0000,0000,,I won't let you tell me what to do.
+Dialogue: 0,0:01:41.10,0:01:41.61,J,,0000,0000,0000,,chAngE
+Dialogue: 0,0:01:41.10,0:01:41.61,E,,0000,0000,0000,,chAngE
+Dialogue: 0,0:01:41.61,0:01:43.87,J,,0000,0000,0000,,nando demo umarekawaru no
+Dialogue: 0,0:01:41.61,0:01:43.87,E,,0000,0000,0000,,I will be reborn as many times as it takes.
+Dialogue: 0,0:01:43.87,0:01:45.84,J,,0000,0000,0000,,kanashimi wo dakishimete
+Dialogue: 0,0:01:43.87,0:01:45.84,E,,0000,0000,0000,,I'll take my sadness with me...
+Dialogue: 0,0:01:45.84,0:01:49.38,J,,0000,0000,0000,,hashiridasu yo
+Dialogue: 0,0:01:45.84,0:01:49.38,E,,0000,0000,0000,,...and run.
+Dialogue: 0,0:01:49.38,0:01:51.02,J,,0000,0000,0000,,anata no moto ni wa
+Dialogue: 0,0:01:49.38,0:01:51.02,E,,0000,0000,0000,,I'm past the point of no return.
+Dialogue: 0,0:01:51.02,0:01:55.07,J,,0000,0000,0000,,mou kaerenai wa
+Dialogue: 0,0:01:51.02,0:01:55.07,E,,0000,0000,0000,,I cannot go back to you now.
+Dialogue: 0,0:01:55.07,0:01:57.00,J,,0000,0000,0000,,atashi wa atashirashiku
+Dialogue: 0,0:01:55.07,0:01:57.00,E,,0000,0000,0000,,On my own terms...
+Dialogue: 0,0:01:57.00,0:01:58.57,J,,0000,0000,0000,,I wanna chAngE
+Dialogue: 0,0:01:57.00,0:01:58.57,E,,0000,0000,0000,,...I wanna change.
+Dialogue: 0,0:02:09.56,0:02:10.31,B2,ICHIGO,0000,0000,0000,,So...
+Dialogue: 0,0:02:11.40,0:02:14.02,B2,ICHIGO,0000,0000,0000,,What's this meeting about?
+Dialogue: 0,0:02:14.47,0:02:18.13,B2,ICHIGO,0000,0000,0000,,And why are all of you\Ndressed like that?
+Dialogue: 0,0:02:18.13,0:02:19.90,B2,ORIHIME,0000,0000,0000,,What's wrong with it?
+Dialogue: 0,0:02:20.14,0:02:21.70,B2,ISHIDA,0000,0000,0000,,It's what we always wear.
+Dialogue: 0,0:02:22.17,0:02:24.93,B2,SADO,0000,0000,0000,,Did you hit your head, Chigo?
+Dialogue: 0,0:02:24.93,0:02:27.00,B2,ICHIGO,0000,0000,0000,,"Chigo"? Who's that?
+Dialogue: 0,0:02:27.44,0:02:29.66,B2,ISHIDA,0000,0000,0000,,That's so typical of you.
+Dialogue: 0,0:02:29.66,0:02:31.80,B2,ISHIDA,0000,0000,0000,,Did you forget your name?
+Dialogue: 0,0:02:32.22,0:02:33.92,B2,ICHIGO,0000,0000,0000,,That's not what I meant!
+Dialogue: 0,0:02:34.42,0:02:38.88,B2,ICHIGO,0000,0000,0000,,My name is I-chi-go Ku-ro-sa-ki!
+Dialogue: 0,0:02:39.28,0:02:43.20,B2,ISHIDA,0000,0000,0000,,What kind of nonsense is that?
+Dialogue: 0,0:02:43.58,0:02:44.52,B2,SADO,0000,0000,0000,,It's time.
+Dialogue: 0,0:02:44.52,0:02:45.03,B2,ICHIGO,0000,0000,0000,,Huh?
+Dialogue: 0,0:02:45.03,0:02:45.92,B2,ISHIDA,0000,0000,0000,,All right!
+Dialogue: 0,0:02:45.92,0:02:46.89,B2,ORIHIME,0000,0000,0000,,Let's go!
+Dialogue: 0,0:02:49.53,0:02:50.96,B2,ICHIGO,0000,0000,0000,,Hey, wait!
+Dialogue: 0,0:02:50.96,0:02:52.58,B2,ICHIGO,0000,0000,0000,,I'm not done talking!
+Dialogue: 0,0:02:52.58,0:02:53.76,B2,ICHIGO,0000,0000,0000,,Hey!
+Dialogue: 0,0:02:58.04,0:03:01.80,B2,ISHIDA,0000,0000,0000,,I've been planning to get this\Ntarget for a while now.
+Dialogue: 0,0:03:01.80,0:03:04.15,B2,ISHIDA,0000,0000,0000,,We have to do this carefully.
+Dialogue: 0,0:03:04.15,0:03:05.76,B2,ORIHIME,0000,0000,0000,,It'll be all right.
+Dialogue: 0,0:03:05.76,0:03:08.40,B2,ORIHIME,0000,0000,0000,,After all, you came up\Nwith the plan, Urio.
+Dialogue: 0,0:03:08.68,0:03:11.87,B2,ISHIDA,0000,0000,0000,,It's reassuring to hear\Nthat from you, Ori Mei.
+Dialogue: 0,0:03:12.31,0:03:14.27,B2,ISHIDA,0000,0000,0000,,Don't you think so, Chaido?
+Dialogue: 0,0:03:15.38,0:03:19.80,B2,ICHIGO (M),0000,0000,0000,,{\i1}What is this? Urio,\NOri Mei, and Chaido?{\i0}
+Dialogue: 0,0:03:20.23,0:03:24.02,B2,ICHIGO (M),0000,0000,0000,,{\i1}They've been going on\Nlike that for a while now.{\i0}
+Dialogue: 0,0:03:24.02,0:03:24.89,B2,ICHIGO (M),0000,0000,0000,,{\i1}Also...{\i0}
+Dialogue: 0,0:03:25.89,0:03:28.73,B2,ICHIGO,0000,0000,0000,,Why the hell is this giant eel\Npretending to be a camel?!
+Dialogue: 0,0:03:30.44,0:03:33.84,B2,ISHIDA,0000,0000,0000,,Are you still talking\Nnonsense, Chigo?
+Dialogue: 0,0:03:33.84,0:03:34.42,B2,ICHIGO,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:34.42,0:03:37.94,B2,ISHIDA,0000,0000,0000,,What would Bawabawa\Nbe if not a camel?
+Dialogue: 0,0:03:37.94,0:03:40.17,B2,ORIHIME,0000,0000,0000,,Are you all right, Chigo?
+Dialogue: 0,0:03:43.13,0:03:44.57,B2,ISHIDA,0000,0000,0000,,Listen, Chigo.
+Dialogue: 0,0:03:44.57,0:03:47.57,B2,ISHIDA,0000,0000,0000,,We're going to be sneaking into a\Nmansion belonging to Ura Vira,
+Dialogue: 0,0:03:47.57,0:03:49.66,B2,ISHIDA,0000,0000,0000,,the wealthy merchant\Nwho lives in this town.
+Dialogue: 0,0:03:49.66,0:03:51.08,B2,ICHIGO,0000,0000,0000,,For what?
+Dialogue: 0,0:03:51.64,0:03:55.20,B2,ISHIDA,0000,0000,0000,,There's a legendary jewel called\Nthe Snow Crystal that is said
+Dialogue: 0,0:03:55.20,0:03:56.91,B2,ISHIDA,0000,0000,0000,,to be the only one of\Nits kind in this world.
+Dialogue: 0,0:03:56.91,0:04:00.48,B2,ISHIDA,0000,0000,0000,,Tonight, we're going to steal it.
+Dialogue: 0,0:04:00.48,0:04:03.59,B2,ICHIGO,0000,0000,0000,,What, you mean we're thieves?
+Dialogue: 0,0:04:03.75,0:04:05.25,B2,SADO,0000,0000,0000,,No, we're burglars.
+Dialogue: 0,0:04:05.25,0:04:07.99,B2,ICHIGO,0000,0000,0000,,Why did you re-phrase\Nit into a lamer term?!
+Dialogue: 0,0:04:32.60,0:04:35.86,B2,ICHIGO,0000,0000,0000,,Amazing... These treasures look\Nlike they're from a dream.
+Dialogue: 0,0:04:35.86,0:04:38.70,B2,ORIHIME,0000,0000,0000,,Yeah, they really do look\Nlike they're from a dream.
+Dialogue: 0,0:04:38.70,0:04:40.99,B2,ISHIDA,0000,0000,0000,,Well, that's because\Nthis is all a dream.
+Dialogue: 0,0:04:41.44,0:04:42.01,B2,ICHIGO,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:42.45,0:04:44.64,B2,ISHIDA,0000,0000,0000,,Anyway, it's dangerous\Nto remain here for long.
+Dialogue: 0,0:04:44.64,0:04:46.03,B2,ISHIDA,0000,0000,0000,,Ignore the other things.
+Dialogue: 0,0:04:46.03,0:04:48.29,B2,ISHIDA,0000,0000,0000,,Let's find the Snow Crystal.
+Dialogue: 0,0:04:48.89,0:04:49.89,B2,ORIHIME,0000,0000,0000,,All right.
+Dialogue: 0,0:04:49.89,0:04:53.93,B2,ICHIGO,0000,0000,0000,,Find it? What does this\NSnow Crystal look like?
+Dialogue: 0,0:04:54.40,0:04:56.05,B2,ISHIDA,0000,0000,0000,,The Snow Crystal...
+Dialogue: 0,0:04:56.05,0:04:58.20,B2,ISHIDA,0000,0000,0000,,It is pure white and shiny.
+Dialogue: 0,0:04:58.20,0:05:00.25,B2,ISHIDA,0000,0000,0000,,If you touch it, it's\Nas cold as snow.
+Dialogue: 0,0:05:00.25,0:05:03.34,B2,ISHIDA,0000,0000,0000,,It is calming and beautiful\Nin appearance.
+Dialogue: 0,0:05:03.34,0:05:05.78,B2,ISHIDA,0000,0000,0000,,It is an unparalleled treasure.
+Dialogue: 0,0:05:05.78,0:05:08.31,B2,ICHIGO,0000,0000,0000,,That's no different from what\Nyou had imagined earlier.
+Dialogue: 0,0:05:08.77,0:05:11.34,B2,ICHIGO,0000,0000,0000,,You've never seen the\Nreal thing, have you?
+Dialogue: 0,0:05:12.52,0:05:14.11,B2,ORIHIME,0000,0000,0000,,Hey, could that be it?
+Dialogue: 0,0:05:14.11,0:05:14.58,B2,ICHIGO / ISHIDA,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:21.17,0:05:22.34,B2,ICHIGO,0000,0000,0000,,Can you open it?
+Dialogue: 0,0:05:22.34,0:05:24.29,B2,ISHIDA,0000,0000,0000,,Leave it to me.
+Dialogue: 0,0:05:29.80,0:05:31.51,B2,ICHIGO / ISHIDA / ORIHIME / SADO,0000,0000,0000,,Whoa...
+Dialogue: 0,0:05:37.19,0:05:38.36,B2,ISHIDA,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:38.36,0:05:40.48,B2,ORIHIME,0000,0000,0000,,Only a single lamp?
+Dialogue: 0,0:05:40.98,0:05:44.53,B2,ICHIGO,0000,0000,0000,,Don't you think the treasure\Nchest was pretty big for it?
+Dialogue: 0,0:05:46.26,0:05:48.73,B2,ICHIGO,0000,0000,0000,,Is this lamp Kon?
+Dialogue: 0,0:05:48.73,0:05:50.95,B2,ISHIDA,0000,0000,0000,,No, it's not Kon!
+Dialogue: 0,0:05:51.34,0:05:53.18,B2,ISHIDA,0000,0000,0000,,"Aladdin and the Magic Lamp."
+Dialogue: 0,0:05:53.62,0:05:58.00,B2,ISHIDA,0000,0000,0000,,It's a story in "Arabian Nights," or\N"One Thousand and One Nights."
+Dialogue: 0,0:05:58.29,0:06:01.84,B2,ISHIDA,0000,0000,0000,,This dream is based\Non that story.
+Dialogue: 0,0:06:02.41,0:06:03.92,B2,ICHIGO,0000,0000,0000,,Wait a second, Ishida.
+Dialogue: 0,0:06:03.92,0:06:05.03,B2,ICHIGO,0000,0000,0000,,What did you say just now?
+Dialogue: 0,0:06:05.03,0:06:06.28,B2,ISHIDA,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:06:06.28,0:06:07.67,B2,ISHIDA,0000,0000,0000,,My name is Urio.
+Dialogue: 0,0:06:07.67,0:06:08.75,B2,ICHIGO,0000,0000,0000,,I'm not talking about that!
+Dialogue: 0,0:06:08.75,0:06:10.79,B2,ICHIGO,0000,0000,0000,,Are the things happening\Nright now a dream?
+Dialogue: 0,0:06:10.79,0:06:12.98,B2,ISHIDA,0000,0000,0000,,I've been telling you that.
+Dialogue: 0,0:06:12.98,0:06:14.18,B2,ISHIDA,0000,0000,0000,,You sure are obtuse.
+Dialogue: 0,0:06:15.06,0:06:18.84,B2,ISHIDA,0000,0000,0000,,If it wasn't a dream, there's no way\Nthat things would go this smoothly.
+Dialogue: 0,0:06:18.84,0:06:19.70,B2,ORIHIME,0000,0000,0000,,Right?
+Dialogue: 0,0:06:20.01,0:06:20.86,B2,SADO,0000,0000,0000,,Yes.
+Dialogue: 0,0:06:28.09,0:06:31.11,B2,URAHARA,0000,0000,0000,,Too bad, burglars.
+Dialogue: 0,0:06:31.61,0:06:34.45,B2,URAHARA,0000,0000,0000,,You're trapped.
+Dialogue: 0,0:06:34.89,0:06:37.12,B2,ICHIGO,0000,0000,0000,,A dream... A dream, huh?
+Dialogue: 0,0:06:37.36,0:06:39.49,B2,ICHIGO,0000,0000,0000,,Well, that would make sense.
+Dialogue: 0,0:06:39.49,0:06:41.33,B2,ISHIDA,0000,0000,0000,,Ura Vira is a wealthy merchant.
+Dialogue: 0,0:06:41.83,0:06:45.26,B2,ISHIDA,0000,0000,0000,,He has treasures he's gathered\Nfrom all over the world.
+Dialogue: 0,0:06:45.26,0:06:48.49,B2,ISHIDA,0000,0000,0000,,He is the richest man\Nin this country.
+Dialogue: 0,0:06:48.49,0:06:51.38,B2,ICHIGO,0000,0000,0000,,And who exactly are you\Nexplaining that to?
+Dialogue: 0,0:06:51.87,0:06:54.60,B2,URAHARA,0000,0000,0000,,Honestly, you burglars...
+Dialogue: 0,0:06:54.93,0:07:00.39,B2,URAHARA,0000,0000,0000,,Did you think that I wouldn't\Nbe prepared for break ins?
+Dialogue: 0,0:07:10.60,0:07:12.78,B2,ICHIGO,0000,0000,0000,,This is such a cliché development!
+Dialogue: 0,0:07:22.11,0:07:23.18,B2,ICHIGO,0000,0000,0000,,Wait a second!
+Dialogue: 0,0:07:23.18,0:07:24.58,B2,ICHIGO,0000,0000,0000,,Laser beams?!
+Dialogue: 0,0:07:24.58,0:07:28.18,B2,ICHIGO,0000,0000,0000,,How easy are we on the\Nstory set up today?!
+Dialogue: 0,0:07:30.21,0:07:31.26,B2,SADO,0000,0000,0000,,What should we do?
+Dialogue: 0,0:07:31.26,0:07:32.91,B2,SADO,0000,0000,0000,,There's nowhere left to escape.
+Dialogue: 0,0:07:32.91,0:07:33.96,B2,ISHIDA,0000,0000,0000,,Damn it!
+Dialogue: 0,0:07:33.96,0:07:35.54,B2,ISHIDA,0000,0000,0000,,We've got to fight.
+Dialogue: 0,0:07:35.54,0:07:36.88,B2,ICHIGO,0000,0000,0000,,Fight?
+Dialogue: 0,0:07:36.88,0:07:38.64,B2,ICHIGO,0000,0000,0000,,But we're unarmed!
+Dialogue: 0,0:07:38.64,0:07:40.02,B2,ORIHIME,0000,0000,0000,,We're not unarmed.
+Dialogue: 0,0:07:40.91,0:07:41.60,B2,ORIHIME,0000,0000,0000,,See?
+Dialogue: 0,0:07:42.43,0:07:45.02,B2,ICHIGO,0000,0000,0000,,How do we fight with a lamp?
+Dialogue: 0,0:07:46.26,0:07:47.51,B2,ICHIGO,0000,0000,0000,,I know!
+Dialogue: 0,0:07:47.51,0:07:52.11,B2,ICHIGO,0000,0000,0000,,Perhaps this lamp is a magical\Nlamp that'll grant us wishes.
+Dialogue: 0,0:07:55.21,0:07:56.98,B2,ICHIGO,0000,0000,0000,,All right, it's coming out!
+Dialogue: 0,0:07:56.98,0:08:00.54,B2,ISHIDA,0000,0000,0000,,Wait! It might explode!
+Dialogue: 0,0:08:05.53,0:08:08.00,B2,RUKIA,0000,0000,0000,,Who summoned me?
+Dialogue: 0,0:08:08.42,0:08:10.58,B2,ICHIGO,0000,0000,0000,,Huh? Rukia?!
+Dialogue: 0,0:08:10.58,0:08:11.89,B2,RUKIA,0000,0000,0000,,I'm not Rukia.
+Dialogue: 0,0:08:11.89,0:08:13.08,B2,RUKIA,0000,0000,0000,,I'm Rukiruki!
+Dialogue: 0,0:08:13.08,0:08:14.47,B2,ICHIGO,0000,0000,0000,,I don't care about that!
+Dialogue: 0,0:08:14.47,0:08:15.69,B2,RUKIA,0000,0000,0000,,Who are you?!
+Dialogue: 0,0:08:15.69,0:08:17.56,B2,RUKIA,0000,0000,0000,,I'm busy right now.
+Dialogue: 0,0:08:17.56,0:08:19.97,B2,RUKIA,0000,0000,0000,,If you don't want anything,\NI'm leaving!
+Dialogue: 0,0:08:20.49,0:08:22.27,B2,ICHIGO,0000,0000,0000,,Hey! Wait, wait, wait!
+Dialogue: 0,0:08:22.27,0:08:23.42,B2,ICHIGO,0000,0000,0000,,Emergency, emergency!
+Dialogue: 0,0:08:23.42,0:08:25.29,B2,ICHIGO,0000,0000,0000,,We've got a real emergency!
+Dialogue: 0,0:08:28.15,0:08:30.58,B2,RUKIA,0000,0000,0000,,You're being a pest!\NWhat's going on?!
+Dialogue: 0,0:08:30.58,0:08:32.49,B2,ICHIGO,0000,0000,0000,,You're the genie of\Nthe lamp, right?
+Dialogue: 0,0:08:33.08,0:08:35.34,B2,ICHIGO,0000,0000,0000,,Don't you grant wishes?
+Dialogue: 0,0:08:35.34,0:08:37.11,B2,RUKIA,0000,0000,0000,,Yes, I do.
+Dialogue: 0,0:08:37.11,0:08:38.49,B2,RUKIA,0000,0000,0000,,What about it?
+Dialogue: 0,0:08:38.67,0:08:39.45,B2,ICHIGO,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:43.10,0:08:44.62,B2,URAHARA,0000,0000,0000,,Good work!
+Dialogue: 0,0:08:44.62,0:08:46.88,B2,URAHARA,0000,0000,0000,,Now break down the door!
+Dialogue: 0,0:08:47.16,0:08:48.24,B2,ICHIGO,0000,0000,0000,,Please!
+Dialogue: 0,0:08:48.24,0:08:50.37,B2,ICHIGO,0000,0000,0000,,We're in a real jam!
+Dialogue: 0,0:08:50.37,0:08:51.67,B2,ICHIGO,0000,0000,0000,,Grant us a wish!
+Dialogue: 0,0:08:51.67,0:08:52.38,B2,RUKIA,0000,0000,0000,,I refuse!
+Dialogue: 0,0:08:53.09,0:08:58.35,B2,RUKIA,0000,0000,0000,,Because of genie law, I cannot grant\Nwishes to people with tainted hearts!
+Dialogue: 0,0:08:59.13,0:09:02.31,B2,RUKIA,0000,0000,0000,,That, and people with orange\Nhair are out of the question!
+Dialogue: 0,0:09:02.31,0:09:04.93,B2,ICHIGO,0000,0000,0000,,What does the color of my hair\Nhave to do with anything?!
+Dialogue: 0,0:09:05.35,0:09:07.57,B2,RUKIA,0000,0000,0000,,Dying your hair leads\Nto delinquency!
+Dialogue: 0,0:09:07.94,0:09:10.33,B2,ICHIGO,0000,0000,0000,,Are genie laws like school regulations?!
+Dialogue: 0,0:09:10.33,0:09:12.21,B2,ICHIGO,0000,0000,0000,,Anyway, my hair isn't dyed!
+Dialogue: 0,0:09:12.21,0:09:13.97,B2,RUKIA,0000,0000,0000,,No means no!
+Dialogue: 0,0:09:13.97,0:09:15.15,B2,RUKIA,0000,0000,0000,,Give up!
+Dialogue: 0,0:09:15.53,0:09:17.49,B2,ICHIGO,0000,0000,0000,,Aww... Fine.
+Dialogue: 0,0:09:17.49,0:09:19.42,B2,ICHIGO,0000,0000,0000,,You're so useless.
+Dialogue: 0,0:09:19.83,0:09:23.29,B2,ICHIGO,0000,0000,0000,,You're probably lying about\Nbeing able to grant wishes.
+Dialogue: 0,0:09:23.75,0:09:24.50,B2,RUKIA,0000,0000,0000,,I'm not lying!
+Dialogue: 0,0:09:24.77,0:09:26.23,B2,ICHIGO,0000,0000,0000,,Then show me!
+Dialogue: 0,0:09:26.62,0:09:28.39,B2,RUKIA,0000,0000,0000,,I can't break the law!
+Dialogue: 0,0:09:28.39,0:09:29.68,B2,ICHIGO,0000,0000,0000,,See?
+Dialogue: 0,0:09:29.68,0:09:31.52,B2,ICHIGO,0000,0000,0000,,You really can't do it!
+Dialogue: 0,0:09:31.52,0:09:32.35,B2,RUKIA,0000,0000,0000,,I can!
+Dialogue: 0,0:09:32.35,0:09:34.01,B2,ICHIGO,0000,0000,0000,,Then show me!
+Dialogue: 0,0:09:34.01,0:09:36.15,B2,RUKIA,0000,0000,0000,,I told you, I can't!
+Dialogue: 0,0:09:36.15,0:09:37.72,B2,ICHIGO,0000,0000,0000,,You really were lying!
+Dialogue: 0,0:09:38.49,0:09:41.33,B2,RUKIA,0000,0000,0000,,Very well! I shall show you!
+Dialogue: 0,0:09:41.34,0:09:42.93,B2,RUKIA,0000,0000,0000,,Tell me your wish!
+Dialogue: 0,0:09:43.36,0:09:44.51,B2,ORIHIME,0000,0000,0000,,Me, me!
+Dialogue: 0,0:09:44.94,0:09:46.60,B2,ORIHIME,0000,0000,0000,,I want to eat cake!
+Dialogue: 0,0:09:47.25,0:09:50.87,B2,ICHIGO,0000,0000,0000,,That's not something to\Nwish for in this situation.
+Dialogue: 0,0:09:50.87,0:09:52.27,B2,RUKIA,0000,0000,0000,,All right!
+Dialogue: 0,0:09:55.96,0:09:57.75,B2,ORIHIME,0000,0000,0000,,Wow, amazing!
+Dialogue: 0,0:09:57.75,0:09:58.86,B2,RUKIA,0000,0000,0000,,See that?
+Dialogue: 0,0:09:58.86,0:10:00.99,B2,RUKIA,0000,0000,0000,,My power is not fake!
+Dialogue: 0,0:10:01.36,0:10:04.75,B2,ICHIGO,0000,0000,0000,,Even my kid sister could\Nmake a cake!
+Dialogue: 0,0:10:04.75,0:10:07.40,B2,ICHIGO,0000,0000,0000,,Don't you have more\Nimpressive magic?
+Dialogue: 0,0:10:08.44,0:10:10.66,B2,RUKIA,0000,0000,0000,,I can only grant you a\Ntotal of three wishes.
+Dialogue: 0,0:10:10.66,0:10:11.67,B2,RUKIA,0000,0000,0000,,You have two left.
+Dialogue: 0,0:10:12.04,0:10:13.42,B2,URAHARA,0000,0000,0000,,And again!
+Dialogue: 0,0:10:14.82,0:10:15.63,B2,URAHARA,0000,0000,0000,,That's it!
+Dialogue: 0,0:10:16.16,0:10:17.84,B2,SADO,0000,0000,0000,,Chigo! We can't last any longer!
+Dialogue: 0,0:10:18.31,0:10:19.55,B2,ICHIGO,0000,0000,0000,,Hey, Rukia!
+Dialogue: 0,0:10:19.55,0:10:22.26,B2,ICHIGO,0000,0000,0000,,Use your remaining magic to\Nget us the hell out of here!
+Dialogue: 0,0:10:22.63,0:10:23.76,B2,RUKIA,0000,0000,0000,,"Get us the hell..."?
+Dialogue: 0,0:10:24.22,0:10:27.25,B2,RUKIA,0000,0000,0000,,Is that any way to ask\Npeople for favors?!
+Dialogue: 0,0:10:27.25,0:10:29.50,B2,ICHIGO,0000,0000,0000,,Huh? Well... Umm...
+Dialogue: 0,0:10:30.14,0:10:31.40,B2,ICHIGO,0000,0000,0000,,Please.
+Dialogue: 0,0:10:32.21,0:10:33.27,B2,RUKIA,0000,0000,0000,,Fine.
+Dialogue: 0,0:10:33.93,0:10:35.40,B2,RUKIA,0000,0000,0000,,Here I go!
+Dialogue: 0,0:10:46.86,0:10:48.38,B2,SADO,0000,0000,0000,,I-It's cramped.
+Dialogue: 0,0:10:48.38,0:10:50.21,B2,ISHIDA,0000,0000,0000,,And it stinks.
+Dialogue: 0,0:10:50.54,0:10:51.78,B2,ICHIGO,0000,0000,0000,,Hey, Rukia!
+Dialogue: 0,0:10:51.78,0:10:53.22,B2,RUKIA,0000,0000,0000,,I'm not Rukia.
+Dialogue: 0,0:10:53.22,0:10:54.48,B2,RUKIA,0000,0000,0000,,I'm Rukiruki!
+Dialogue: 0,0:10:54.48,0:10:57.67,B2,ICHIGO,0000,0000,0000,,I did tell you to get us out...
+Dialogue: 0,0:10:58.95,0:11:01.49,B2,ICHIGO,0000,0000,0000,,But why are we inside a toilet?!
+Dialogue: 0,0:11:02.65,0:11:04.74,B2,ORIHIME,0000,0000,0000,,I'm glad that everyone's safe!
+Dialogue: 0,0:11:04.74,0:11:06.10,B2,SADO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:11:06.88,0:11:09.63,B2,ISHIDA,0000,0000,0000,,For a second there,\NI thought we were done for.
+Dialogue: 0,0:11:10.00,0:11:10.94,B2,ICHIGO,0000,0000,0000,,Wait a second.
+Dialogue: 0,0:11:10.94,0:11:14.88,B2,ICHIGO,0000,0000,0000,,I should have used that wish to wake\Nmyself up from this dream.
+Dialogue: 0,0:11:15.49,0:11:17.11,B2,ICHIGO,0000,0000,0000,,What am I doing?
+Dialogue: 0,0:11:17.60,0:11:20.65,B2,RUKIA,0000,0000,0000,,I went this far, so I'll grant\Nyou the last wish.
+Dialogue: 0,0:11:21.00,0:11:22.28,B2,RUKIA,0000,0000,0000,,What is your last wish?
+Dialogue: 0,0:11:22.81,0:11:23.81,B2,ICHIGO,0000,0000,0000,,All right!
+Dialogue: 0,0:11:23.81,0:11:25.66,B2,ICHIGO,0000,0000,0000,,Get me out of this dream right--
+Dialogue: 0,0:11:27.22,0:11:29.00,B2,SADO,0000,0000,0000,,I want the Snow Crystal!
+Dialogue: 0,0:11:29.36,0:11:30.75,B2,RUKIA,0000,0000,0000,,A-All right.
+Dialogue: 0,0:11:30.75,0:11:32.42,B2,RUKIA,0000,0000,0000,,You want the Snow\NCrystal, right?
+Dialogue: 0,0:11:32.42,0:11:33.99,B2,ICHIGO,0000,0000,0000,,Wait a second!
+Dialogue: 0,0:11:34.40,0:11:39.34,B2,ICHIGO,0000,0000,0000,,I summoned her, so I should\Nget to have my wish granted!
+Dialogue: 0,0:11:40.51,0:11:43.18,B2,ORIHIME,0000,0000,0000,,So that's the kind of person\Nyou are, Chigo?
+Dialogue: 0,0:11:43.18,0:11:45.43,B2,ISHIDA,0000,0000,0000,,There are people like that...
+Dialogue: 0,0:11:45.43,0:11:47.43,B2,SADO,0000,0000,0000,,Mu... So much for friendship.
+Dialogue: 0,0:11:47.98,0:11:49.45,B2,ICHIGO,0000,0000,0000,,Who cares!
+Dialogue: 0,0:11:49.45,0:11:51.98,B2,ICHIGO,0000,0000,0000,,This is my dream, so I can\Ndo whatever I want.
+Dialogue: 0,0:11:51.98,0:11:53.36,B2,ISHIDA,0000,0000,0000,,What are you talking about?!
+Dialogue: 0,0:11:53.36,0:11:56.53,B2,ISHIDA,0000,0000,0000,,Getting the Snow Crystal was\Nalso one of your wishes!
+Dialogue: 0,0:11:56.53,0:11:58.21,B2,ICHIGO,0000,0000,0000,,I don't remember ever\Nwanting that!
+Dialogue: 0,0:11:58.21,0:11:59.12,B2,ORIHIME,0000,0000,0000,,I know!
+Dialogue: 0,0:11:59.12,0:12:01.28,B2,ORIHIME,0000,0000,0000,,We can decide with a vote!
+Dialogue: 0,0:12:01.28,0:12:02.63,B2,ICHIGO,0000,0000,0000,,A vote?
+Dialogue: 0,0:12:03.10,0:12:05.50,B2,ORIHIME,0000,0000,0000,,Who wants the Snow Crystal?
+Dialogue: 0,0:12:05.50,0:12:06.90,B2,SADO,0000,0000,0000,,Me!
+Dialogue: 0,0:12:06.90,0:12:08.91,B2,ICHIGO,0000,0000,0000,,Hey, hey, hey, hey!
+Dialogue: 0,0:12:09.42,0:12:12.00,B2,ORIHIME,0000,0000,0000,,Come on out, Rukiruki.
+Dialogue: 0,0:12:10.99,0:12:13.13,B2,ICHIGO,0000,0000,0000,,Ow, hey! Seeleschneider!
+Dialogue: 0,0:12:13.13,0:12:14.56,B2,ISHIDA,0000,0000,0000,,Why?
+Dialogue: 0,0:12:13.14,0:12:14.84,B2,ORIHIME,0000,0000,0000,,Huh? She's not coming out.
+Dialogue: 0,0:12:14.84,0:12:16.33,B2,ORIHIME,0000,0000,0000,,I wonder what's wrong.
+Dialogue: 0,0:12:19.51,0:12:22.80,B2,SADO,0000,0000,0000,,Rub rub rub...
+Dialogue: 0,0:12:23.36,0:12:24.75,B2,ICHIGO,0000,0000,0000,,Sheesh, finally!
+Dialogue: 0,0:12:24.75,0:12:26.34,B2,ICHIGO,0000,0000,0000,,She sure took her time.
+Dialogue: 0,0:12:29.67,0:12:30.83,B2,ORIHIME,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:30.83,0:12:33.44,B2,ORIHIME,0000,0000,0000,,It's a different genie.
+Dialogue: 0,0:12:33.44,0:12:36.23,B2,ICHIGO,0000,0000,0000,,What's this? Renji\Nis normal sized?
+Dialogue: 0,0:12:36.56,0:12:38.73,B2,RENJI,0000,0000,0000,,I'm not Renji! I'm Ren Jin!
+Dialogue: 0,0:12:39.01,0:12:40.58,B2,ICHIGO,0000,0000,0000,,All right, already...
+Dialogue: 0,0:12:40.58,0:12:42.58,B2,ICHIGO,0000,0000,0000,,We don't need you.
+Dialogue: 0,0:12:42.58,0:12:44.85,B2,ICHIGO,0000,0000,0000,,Just bring out Rukia!
+Dialogue: 0,0:12:45.27,0:12:48.88,B2,RENJI,0000,0000,0000,,Rukiruki...can't come\Nhere anymore.
+Dialogue: 0,0:12:48.88,0:12:49.66,B2,ICHIGO / ISHIDA / ORIHIME / SADO,0000,0000,0000,,Huh.
+Dialogue: 0,0:12:50.10,0:12:54.60,B2,RENJI,0000,0000,0000,,Rukiruki broke the laws\Nof the Lamp Society,
+Dialogue: 0,0:12:54.60,0:12:56.67,B2,RENJI,0000,0000,0000,,so she's going to be executed.
+Dialogue: 0,0:12:57.62,0:12:58.54,B2,ICHIGO,0000,0000,0000,,Excuse me?
+Dialogue: 0,0:12:59.86,0:13:03.55,B2,RENJI,0000,0000,0000,,Rukiruki is going to be executed\Ntomorrow, at noon.
+Dialogue: 0,0:13:04.42,0:13:07.55,B2,ICHIGO,0000,0000,0000,,Why does this sound\Nso familiar?
+Dialogue: 0,0:13:08.00,0:13:10.56,B2,ICHIGO,0000,0000,0000,,And what the hell is\Nthe Lamp Society?!
+Dialogue: 0,0:13:11.58,0:13:12.95,B2,RENJI,0000,0000,0000,,It's your fault!
+Dialogue: 0,0:13:12.95,0:13:17.94,B2,RENJI,0000,0000,0000,,Rukiruki is going to be executed\Nfor granting your wishes!
+Dialogue: 0,0:13:18.61,0:13:20.86,B2,RENJI,0000,0000,0000,,I'll swallow my pride to\Nask you this favor!
+Dialogue: 0,0:13:21.27,0:13:23.86,B2,RENJI,0000,0000,0000,,Please save Rukiruki!
+Dialogue: 0,0:13:24.18,0:13:26.36,B2,ICHIGO,0000,0000,0000,,This is all so sudden...
+Dialogue: 0,0:13:26.70,0:13:27.41,B2,ISHIDA,0000,0000,0000,,Chigo!
+Dialogue: 0,0:13:27.41,0:13:29.29,B2,ISHIDA,0000,0000,0000,,Don't just stand around.\NLet's go!
+Dialogue: 0,0:13:29.29,0:13:29.82,B2,ICHIGO,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:30.20,0:13:33.73,B2,ICHIGO,0000,0000,0000,,Why is this happening?!
+Dialogue: 0,0:13:49.50,0:13:51.68,B2,ISHIDA,0000,0000,0000,,So this is the Lamp Society.
+Dialogue: 0,0:13:52.30,0:13:55.20,B2,ORIHIME,0000,0000,0000,,That's where Rukiruki is, right?
+Dialogue: 0,0:13:58.62,0:14:01.83,B2,ICHIGO,0000,0000,0000,,How did I get myself\Nmixed up in this?
+Dialogue: 0,0:14:02.32,0:14:03.69,B2,SADO,0000,0000,0000,,What's wrong, Chigo?
+Dialogue: 0,0:14:03.69,0:14:04.74,B2,ORIHIME,0000,0000,0000,,Did you get carsick?
+Dialogue: 0,0:14:05.15,0:14:06.42,B2,ICHIGO,0000,0000,0000,,Of course not.
+Dialogue: 0,0:14:06.42,0:14:08.19,B2,ISHIDA,0000,0000,0000,,That's right, Ori Mei.
+Dialogue: 0,0:14:08.19,0:14:08.61,B2,ORIHIME,0000,0000,0000,,Huh?
+Dialogue: 0,0:14:09.12,0:14:11.80,B2,ISHIDA,0000,0000,0000,,This isn't a car. It's a carpet.
+Dialogue: 0,0:14:12.18,0:14:14.97,B2,ISHIDA,0000,0000,0000,,The correct term is\Ncarpetsickness.
+Dialogue: 0,0:14:14.97,0:14:15.93,B2,ORIHIME,0000,0000,0000,,Oh!
+Dialogue: 0,0:14:15.93,0:14:18.58,B2,ICHIGO,0000,0000,0000,,That's not the issue here!
+Dialogue: 0,0:14:18.58,0:14:19.66,B2,ISHIDA,0000,0000,0000,,Jeez.
+Dialogue: 0,0:14:19.66,0:14:22.61,B2,ISHIDA,0000,0000,0000,,All you do is complain.
+Dialogue: 0,0:14:22.61,0:14:24.55,B2,ICHIGO,0000,0000,0000,,Okay, already.
+Dialogue: 0,0:14:24.77,0:14:28.55,B2,ICHIGO,0000,0000,0000,,Now that we're here, there's\Nno pulling back!
+Dialogue: 0,0:14:29.09,0:14:31.18,B2,ICHIGO,0000,0000,0000,,I'll stick with you to the end!
+Dialogue: 0,0:14:31.60,0:14:33.37,B2,YORUICHI,0000,0000,0000,,Well said, Chigo!
+Dialogue: 0,0:14:34.16,0:14:36.49,B2,YORUICHI,0000,0000,0000,,I've been waiting\Nfor those words!
+Dialogue: 0,0:14:36.49,0:14:37.65,B2,ICHIGO,0000,0000,0000,,Yoruichi?
+Dialogue: 0,0:14:37.65,0:14:40.72,B2,YORUICHI,0000,0000,0000,,Where are you looking?\NOver here.
+Dialogue: 0,0:14:49.32,0:14:50.49,B2,ICHIGO,0000,0000,0000,,Yoruichi?!
+Dialogue: 0,0:14:51.42,0:14:54.01,B2,YORUICHI,0000,0000,0000,,Are you surprised, Chigo?
+Dialogue: 0,0:14:54.01,0:14:56.22,B2,ICHIGO,0000,0000,0000,,Then who is this?
+Dialogue: 0,0:14:56.83,0:14:57.91,B2,YORUICHI,0000,0000,0000,,That's just a black cat.
+Dialogue: 0,0:14:58.85,0:15:01.67,B2,YORUICHI,0000,0000,0000,,I'll explain things from here.
+Dialogue: 0,0:15:02.60,0:15:07.38,B2,YORUICHI,0000,0000,0000,,Rukiruki is going to be executed\Nat a place called the Solamp.
+Dialogue: 0,0:15:07.96,0:15:10.50,B2,YORUICHI,0000,0000,0000,,It is deep within the\NLamp Society.
+Dialogue: 0,0:15:11.51,0:15:15.50,B2,YORUICHI,0000,0000,0000,,But in order to reach it,\Nwe need to get past
+Dialogue: 0,0:15:15.50,0:15:18.68,B2,YORUICHI,0000,0000,0000,,the Thirteen Court Lamp Squads\Nwho defend the Lamp Society.
+Dialogue: 0,0:15:19.11,0:15:22.93,B2,ICHIGO,0000,0000,0000,,Damn, I don't know\Nwhere to begin!
+Dialogue: 0,0:15:22.93,0:15:25.65,B2,ICHIGO,0000,0000,0000,,Thirteen Court Lamp Squads?\NWhat the hell?!
+Dialogue: 0,0:15:26.21,0:15:29.06,B2,YORUICHI,0000,0000,0000,,Well, everyone, let's\Nmeet up again alive.
+Dialogue: 0,0:15:29.06,0:15:30.11,B2,ISHIDA / ORIHIME / SADO,0000,0000,0000,,Roger!
+Dialogue: 0,0:15:31.73,0:15:32.81,B2,ICHIGO,0000,0000,0000,,Wait a second!
+Dialogue: 0,0:15:32.81,0:15:34.79,B2,ICHIGO,0000,0000,0000,,How are we supposed to land?
+Dialogue: 0,0:15:34.79,0:15:36.83,B2,YORUICHI,0000,0000,0000,,You won't die.
+Dialogue: 0,0:15:37.42,0:15:39.58,B2,YORUICHI,0000,0000,0000,,This is a dream, after all.
+Dialogue: 0,0:15:40.02,0:15:40.54,B2,ICHIGO,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:45.63,0:15:48.03,B2,ICHIGO,0000,0000,0000,,That hurt so much I thought\NI was going to die!
+Dialogue: 0,0:15:48.03,0:15:51.13,B2,ICHIGO,0000,0000,0000,,Why can't I wake up even\Nthough it hurts so much?!
+Dialogue: 0,0:15:53.04,0:15:54.05,B2,ICHIGO,0000,0000,0000,,Don't tell me...
+Dialogue: 0,0:15:56.19,0:15:57.46,B2,ICHIGO,0000,0000,0000,,What is this?!
+Dialogue: 0,0:15:57.89,0:15:59.52,B2,ICHIGO,0000,0000,0000,,It's exactly the same\Ndevelopment!
+Dialogue: 0,0:16:01.75,0:16:03.60,B2,ICHIGO,0000,0000,0000,,I'm sorry I said it was the same!
+Dialogue: 0,0:16:03.60,0:16:05.48,B2,ICHIGO,0000,0000,0000,,Normal is good! Very good!
+Dialogue: 0,0:16:08.19,0:16:09.60,B2,ICHIGO,0000,0000,0000,,This scene?
+Dialogue: 0,0:16:10.13,0:16:11.86,B2,ICHIGO,0000,0000,0000,,Where's the real Zangetsu!
+Dialogue: 0,0:16:13.05,0:16:14.16,B2,ICHIGO,0000,0000,0000,,There!
+Dialogue: 0,0:16:14.60,0:16:15.61,B2,ICHIGO,0000,0000,0000,,Wait a sec...
+Dialogue: 0,0:16:15.61,0:16:18.58,B2,ICHIGO,0000,0000,0000,,The real Zangetsu has a design\Nto match this world too?
+Dialogue: 0,0:16:40.03,0:16:43.65,B2,RUKIA,0000,0000,0000,,Ouch, ouch, ouch, ouch, ouch.
+Dialogue: 0,0:16:45.74,0:16:47.47,B2,RUKIA,0000,0000,0000,,Ch-Chigo!
+Dialogue: 0,0:16:47.47,0:16:48.31,B2,ICHIGO,0000,0000,0000,,Hey.
+Dialogue: 0,0:16:48.58,0:16:52.23,B2,RUKIA,0000,0000,0000,,You fool! Why didn't you come\Nto save me earlier?!
+Dialogue: 0,0:16:52.23,0:16:55.43,B2,RUKIA,0000,0000,0000,,I was about to die!
+Dialogue: 0,0:16:55.81,0:16:57.54,B2,ICHIGO,0000,0000,0000,,That's not what you're\Nsupposed to say.
+Dialogue: 0,0:16:57.54,0:16:59.76,B2,RUKIA,0000,0000,0000,,Stop it...
+Dialogue: 0,0:17:03.33,0:17:06.25,B2,ICHIGO,0000,0000,0000,,I told you, I can see you,\NByakuya Kuchiki.
+Dialogue: 0,0:17:06.58,0:17:07.36,B2,ICHIGO,0000,0000,0000,,What?!
+Dialogue: 0,0:17:07.36,0:17:08.99,B2,ICHIGO,0000,0000,0000,,Ambassador Seaweed?!
+Dialogue: 0,0:17:11.33,0:17:12.17,B2,RUKIA,0000,0000,0000,,Big Brother...
+Dialogue: 0,0:17:12.73,0:17:14.99,B2,RUKIA,0000,0000,0000,,What a lovely form.
+Dialogue: 0,0:17:15.45,0:17:17.64,B2,ICHIGO,0000,0000,0000,,These siblings need help.
+Dialogue: 0,0:17:19.13,0:17:21.10,B2,ICHIGO,0000,0000,0000,,Just hurry and take that off!
+Dialogue: 0,0:17:29.80,0:17:31.59,B2,ICHIGO,0000,0000,0000,,That doesn't match!
+Dialogue: 0,0:17:31.59,0:17:33.61,B2,ICHIGO,0000,0000,0000,,That doesn't match your image!
+Dialogue: 0,0:17:34.25,0:17:35.73,B2,ICHIGO,0000,0000,0000,,What is that?!
+Dialogue: 0,0:17:37.40,0:17:42.08,B2,BYAKUYA,0000,0000,0000,,I see you like to trample\Non other people's pride.
+Dialogue: 0,0:17:43.34,0:17:45.08,B2,ICHIGO,0000,0000,0000,,I've come this far!
+Dialogue: 0,0:17:45.33,0:17:48.04,B2,ICHIGO,0000,0000,0000,,I'm going to see this\Nthrough to the end!
+Dialogue: 0,0:18:44.61,0:18:48.36,B2,BYAKUYA,0000,0000,0000,,You win this battle.
+Dialogue: 0,0:18:52.46,0:18:53.48,B2,ICHIGO,0000,0000,0000,,I did it!
+Dialogue: 0,0:18:53.95,0:18:55.00,B2,ICHIGO,0000,0000,0000,,It's over!
+Dialogue: 0,0:18:55.42,0:18:59.72,B2,ICHIGO,0000,0000,0000,,It's over!
+Dialogue: 0,0:19:11.97,0:19:14.34,B2,ICHIGO,0000,0000,0000,,I finally awoke from my dream.
+Dialogue: 0,0:19:15.88,0:19:17.11,B2,ICHIGO,0000,0000,0000,,What is this?!
+Dialogue: 0,0:19:17.11,0:19:19.07,B2,ICHIGO,0000,0000,0000,,I still haven't woken up!
+Dialogue: 0,0:19:19.07,0:19:21.64,B2,ICHIGO,0000,0000,0000,,I need to wake up!
+Dialogue: 0,0:19:21.64,0:19:24.05,B2,RENJI,0000,0000,0000,,Well done, Chigo.
+Dialogue: 0,0:19:27.06,0:19:30.06,B2,RENJI,0000,0000,0000,,Thanks to you, Rukiruki\Nwas saved.
+Dialogue: 0,0:19:30.95,0:19:33.02,B2,RUKIA,0000,0000,0000,,Thanks. I'm grateful.
+Dialogue: 0,0:19:33.45,0:19:36.95,B2,ICHIGO,0000,0000,0000,,W-Well, I had no choice.
+Dialogue: 0,0:19:36.95,0:19:38.10,B2,ICHIGO,0000,0000,0000,,It was nothing.
+Dialogue: 0,0:19:38.46,0:19:41.99,B2,RUKIA,0000,0000,0000,,As a token of my appreciation,\NI'll grant you your last wish.
+Dialogue: 0,0:19:43.40,0:19:45.31,B2,RUKIA,0000,0000,0000,,Now make a wish.
+Dialogue: 0,0:19:45.31,0:19:47.33,B2,ICHIGO,0000,0000,0000,,Oh, umm...
+Dialogue: 0,0:19:47.99,0:19:51.96,B2,ISHIDA,0000,0000,0000,,Could you wake him\Nup from his dream?
+Dialogue: 0,0:19:52.90,0:19:56.29,B2,SADO,0000,0000,0000,,Yeah. He's fought so hard.
+Dialogue: 0,0:19:57.39,0:20:01.28,B2,ORIHIME,0000,0000,0000,,The last wish has got\Nto go to Chigo.
+Dialogue: 0,0:20:01.28,0:20:02.30,B2,ICHIGO,0000,0000,0000,,Guys...
+Dialogue: 0,0:20:02.76,0:20:04.32,B2,RUKIA,0000,0000,0000,,Very well.
+Dialogue: 0,0:20:04.32,0:20:05.41,B2,ICHIGO,0000,0000,0000,,Wait!
+Dialogue: 0,0:20:07.28,0:20:08.43,B2,ICHIGO,0000,0000,0000,,The Snow Crystal!
+Dialogue: 0,0:20:09.96,0:20:11.46,B2,RUKIA,0000,0000,0000,,The Snow Crystal?
+Dialogue: 0,0:20:11.46,0:20:12.39,B2,ICHIGO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:20:12.81,0:20:15.31,B2,ICHIGO,0000,0000,0000,,It's white, cold and beautiful.
+Dialogue: 0,0:20:15.31,0:20:16.87,B2,ICHIGO,0000,0000,0000,,It's a hidden treasure.
+Dialogue: 0,0:20:16.87,0:20:17.86,B2,ORIHIME,0000,0000,0000,,Chigo.
+Dialogue: 0,0:20:18.47,0:20:19.63,B2,ISHIDA,0000,0000,0000,,Are you sure about that?
+Dialogue: 0,0:20:19.63,0:20:21.20,B2,ICHIGO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:20:21.20,0:20:24.27,B2,ICHIGO,0000,0000,0000,,I'll wake up from my dream\Nsooner or later.
+Dialogue: 0,0:20:24.67,0:20:28.58,B2,ICHIGO,0000,0000,0000,,In that case, I should\Ngrant you your wish.
+Dialogue: 0,0:20:29.12,0:20:31.01,B2,ORIHIME,0000,0000,0000,,Thank you, Chigo!
+Dialogue: 0,0:20:32.20,0:20:33.92,B2,SADO,0000,0000,0000,,You're not very honest\Nwith your feelings.
+Dialogue: 0,0:20:34.32,0:20:36.75,B2,ICHIGO,0000,0000,0000,,Shut up. Have her get\Nit for you already.
+Dialogue: 0,0:20:36.75,0:20:38.56,B2,ISHIDA,0000,0000,0000,,Don't regret it later.
+Dialogue: 0,0:20:38.56,0:20:39.88,B2,ICHIGO,0000,0000,0000,,This entire episode is\Nnothing but regrets.
+Dialogue: 0,0:20:40.69,0:20:44.74,B2,RUKIA,0000,0000,0000,,Appear, Snow Crystal, the\NLegendary Treasure!
+Dialogue: 0,0:20:50.81,0:20:52.31,B2,ICHIGO / ISHIDA / ORIHIME / SADO,0000,0000,0000,,Wow...
+Dialogue: 0,0:20:59.49,0:21:01.23,B2,ICHIGO,0000,0000,0000,,This is the Snow Crystal.
+Dialogue: 0,0:21:02.08,0:21:05.46,B2,ICHIGO,0000,0000,0000,,White, cold, beautiful, and...
+Dialogue: 0,0:21:07.70,0:21:08.66,B2,ICHIGO,0000,0000,0000,,Soft?
+Dialogue: 0,0:21:13.10,0:21:14.00,B2,ICHIGO,0000,0000,0000,,Huh?
+Dialogue: 0,0:21:14.35,0:21:15.25,B2,ICHIGO,0000,0000,0000,,Huh?!
+Dialogue: 0,0:21:15.90,0:21:16.90,B2,ICHIGO,0000,0000,0000,,Huh?!
+Dialogue: 0,0:21:20.10,0:21:21.55,B2,ISANE,0000,0000,0000,,A fishcake!
+Dialogue: 0,0:21:24.97,0:21:27.51,B2,ISANE,0000,0000,0000,,Thank goodness.\NIt was just a dream.
+Dialogue: 0,0:21:28.46,0:21:31.08,B2,ISANE,0000,0000,0000,,I had another strange dream.
+Dialogue: 0,0:21:50.46,0:21:56.84,J,,0000,0000,0000,,koe sae ushinattemo
+Dialogue: 0,0:21:50.46,0:21:56.84,E,,0000,0000,0000,,Even if I was stripped of my voice...
+Dialogue: 0,0:21:57.88,0:22:03.64,J,,0000,0000,0000,,boku wa koko de utau darou
+Dialogue: 0,0:21:57.88,0:22:03.64,E,,0000,0000,0000,,I'd be here, singing my song.
+Dialogue: 0,0:22:03.64,0:22:11.18,J,,0000,0000,0000,,koko kara hibike
+Dialogue: 0,0:22:03.64,0:22:11.18,E,,0000,0000,0000,,Echo out from here!
+Dialogue: 0,0:22:12.96,0:22:19.98,J,,0000,0000,0000,,miminari ni kesareta seijaku no yoru
+Dialogue: 0,0:22:12.96,0:22:19.98,E,,0000,0000,0000,,The ringing in my ears stole the night's tranquility.
+Dialogue: 0,0:22:19.98,0:22:26.92,J,,0000,0000,0000,,katachi nai mirai wo oikaketeta
+Dialogue: 0,0:22:19.98,0:22:26.92,E,,0000,0000,0000,,I chased a future that doesn't exist...
+Dialogue: 0,0:22:26.92,0:22:34.08,J,,0000,0000,0000,,sono te wa kuu wo tsukandekita kedo
+Dialogue: 0,0:22:26.92,0:22:34.08,E,,0000,0000,0000,,Yet all I caught was nothing itself.
+Dialogue: 0,0:22:34.47,0:22:37.72,E,,0000,0000,0000,,Listen to it! Listen to it!
+Dialogue: 0,0:22:37.72,0:22:41.67,J,,0000,0000,0000,,deai ga tsumuideku merodi
+Dialogue: 0,0:22:37.72,0:22:41.67,E,,0000,0000,0000,,The melody of the people we meet.
+Dialogue: 0,0:22:41.67,0:22:45.08,E,,0000,0000,0000,,Listen to me! Listen to me...
+Dialogue: 0,0:22:45.08,0:22:47.97,J,,0000,0000,0000,,oto ni kawaru
+Dialogue: 0,0:22:45.08,0:22:47.97,E,,0000,0000,0000,,...as I become sound.
+Dialogue: 0,0:22:49.63,0:22:57.16,J,,0000,0000,0000,,ima wa mada konna ni chiisa na kono koe ga
+Dialogue: 0,0:22:49.63,0:22:57.16,E,,0000,0000,0000,,Though my voice is still small and meager today...
+Dialogue: 0,0:22:57.16,0:23:03.69,J,,0000,0000,0000,,itsuka wa tsuyoku hibiiteiku kara
+Dialogue: 0,0:22:57.16,0:23:03.69,E,,0000,0000,0000,,One day it shall gloriously resound.
+Dialogue: 0,0:23:03.69,0:23:07.32,E,,0000,0000,0000,,Listen to it! Listen to it!
+Dialogue: 0,0:23:07.32,0:23:11.16,J,,0000,0000,0000,,yasashiku yuriokosu merodi
+Dialogue: 0,0:23:07.32,0:23:11.16,E,,0000,0000,0000,,The sweet melody that'll awake\Nyou from your slumber.
+Dialogue: 0,0:23:11.51,0:23:14.60,E,,0000,0000,0000,,Listen to me! Listen to me!
+Dialogue: 0,0:23:14.60,0:23:19.91,J,,0000,0000,0000,,{\fad(1,2800)}kimi ga omou kimi e
+Dialogue: 0,0:23:14.60,0:23:19.91,E,,0000,0000,0000,,{\fad(1,2800)}My song will reach the person you want to be.
+Dialogue: 0,0:23:20.35,0:23:24.13,B2,BYAKUYA,0000,0000,0000,,Today's episode of Bleach was made\Nin celebration of the manga
+Dialogue: 0,0:23:24.13,0:23:26.21,B2,BYAKUYA,0000,0000,0000,,entering its tenth year.
+Dialogue: 0,0:23:26.43,0:23:30.09,B2,BYAKUYA,0000,0000,0000,,On behalf of the animation staff,\NI thank you all for your support.
+Dialogue: 0,0:23:30.09,0:23:31.01,B2,ICHIGO,0000,0000,0000,,Hold it!
+Dialogue: 0,0:23:31.01,0:23:33.80,B2,ICHIGO,0000,0000,0000,,Thanking everyone for the 10-year\Nanniversary should be my job!
+Dialogue: 0,0:23:33.80,0:23:34.80,B2,ICHIGO,0000,0000,0000,,The main hero!
+Dialogue: 0,0:23:35.11,0:23:36.75,B2,KON,0000,0000,0000,,Illustrated Guide to\NSoul Reapers!
+Dialogue: 0,0:23:37.92,0:23:39.89,B2,ISHIDA,0000,0000,0000,,Allow me to explain\Ntoday's world.
+Dialogue: 0,0:23:40.43,0:23:42.39,B2,ICHIGO,0000,0000,0000,,What the hell was that anyway?
+Dialogue: 0,0:23:42.39,0:23:44.95,B2,ISHIDA,0000,0000,0000,,It's what you would call\Nan alternate world.
+Dialogue: 0,0:23:44.95,0:23:47.17,B2,ISHIDA,0000,0000,0000,,Speaking of which, a common\Npractice to go
+Dialogue: 0,0:23:47.17,0:23:49.99,B2,ISHIDA,0000,0000,0000,,to an alternate world would\Nbe falling into a hole.
+Dialogue: 0,0:23:49.99,0:23:53.08,B2,ISHIDA,0000,0000,0000,,Therefore, it's wise not to go near\Na hole even if you spot one.
+Dialogue: 0,0:23:53.08,0:23:53.97,B2,ICHIGO,0000,0000,0000,,Oh, really?
+Dialogue: 0,0:23:53.97,0:23:58.69,B2,USGUDA,0000,0000,0000,,Pay attention! I'm telling careless\Npeople like you to be careful!
+Dialogue: 0,0:23:58.69,0:24:02.20,B2,ICHIGO,0000,0000,0000,,Like I would! You should be\Nthe one careful not to...
+Dialogue: 0,0:24:02.20,0:24:03.13,B2,ISHIDA,0000,0000,0000,,Huh?

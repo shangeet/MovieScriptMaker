@@ -1,0 +1,408 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Signs,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Main Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Black Signs,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Game Club,Open Sans Semibold,33,&H004F4F9F,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: sign_126_3_Load,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H007F2A0D,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,35,736,25,1
+Style: sign_126_4_Load_which_game_,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H007F2A0D,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,173,400,25,1
+Style: sign_153_5_Load_this_game_,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00630E0C,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,296,299,172,1
+Style: sign_523_13_Your_opponent__h,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,8,1,4,0,8,177,280,188,1
+Style: sign_7843_83_Dammit_,Open Sans Semibold,42,&H007DF3FF,&H000000FF,&H004D95E6,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,133,533,44,1
+Style: sign_7860_84_Dammit_,Open Sans Semibold,42,&H00D5BCFF,&H000000FF,&H007B38F4,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,133,533,44,1
+Style: sign_7885_85_Dammit_,Open Sans Semibold,42,&H00FBEDB2,&H000000FF,&H00F19854,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,133,533,44,1
+Style: sign_7912_86_Dammit_,Open Sans Semibold,42,&H00F1A3DC,&H000000FF,&H00FA16B6,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,133,533,44,1
+Style: sign_7940_87_Dammit_,Open Sans Semibold,42,&H00B5FFED,&H000000FF,&H005FED5F,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,133,533,44,1
+Style: sign_27488_338_Four_player_figh,Open Sans Semibold,39,&H0000F0FE,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Pool,Open Sans Semibold,36,&H00000000,&H000000FF,&H00DFE96C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,67,13,127,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:00.69,0:00:03.18,Flashback Dialogue,Keita,0000,0000,0000,,Tendou-san, please go out with me.
+Dialogue: 0,0:00:03.18,0:00:05.23,Flashback Dialogue,Blonde,0000,0000,0000,,Yes, gladly.
+Dialogue: 0,0:00:05.23,0:00:07.86,sign_126_3_Load,Text,0000,0000,0000,,Load
+Dialogue: 0,0:00:05.23,0:00:07.86,sign_126_4_Load_which_game_,Text,0000,0000,0000,,Load which game?
+Dialogue: 0,0:00:06.36,0:00:07.86,sign_153_5_Load_this_game_,Text,0000,0000,0000,,Load this game?
+Dialogue: 0,0:00:10.86,0:00:12.41,Main Dialogue,A,0000,0000,0000,,See, that's him.
+Dialogue: 0,0:00:12.41,0:00:14.26,Main Dialogue,B,0000,0000,0000,,Seriously? {\i1}Him{\i0}?
+Dialogue: 0,0:00:14.86,0:00:17.44,Main Dialogue,C,0000,0000,0000,,Man, I know I shouldn't say this, but...
+Dialogue: 0,0:00:17.44,0:00:19.33,Main Dialogue,D,0000,0000,0000,,I seriously can't see him with her.
+Dialogue: 0,0:00:19.94,0:00:21.79,Italics Dialogue,Keita,0000,0000,0000,,They ran away again.
+Dialogue: 0,0:00:21.79,0:00:23.25,Italics Dialogue,Keita,0000,0000,0000,,Connection lost.
+Dialogue: 0,0:00:21.79,0:00:23.25,sign_523_13_Your_opponent__h,Text,0000,0000,0000,,Your opponent\Nhas disconnected. \NThe match will be terminated.
+Dialogue: 0,0:00:23.25,0:00:26.22,Main Dialogue,A,0000,0000,0000,,Damn, I'm jealous.
+Dialogue: 0,0:00:25.19,0:00:28.31,Main Dialogue,B,0000,0000,0000,,I wish I had a hot blonde girlfriend.
+Dialogue: 0,0:00:28.31,0:00:30.71,Main Dialogue,A,0000,0000,0000,,Hey, idiot, not so loud.
+Dialogue: 0,0:02:11.05,0:02:16.15,Main Dialogue,Keita,0000,0000,0000,,Uehara-kun, I've decided to stop \Nindiscriminately blowing up normies.
+Dialogue: 0,0:02:17.29,0:02:19.57,Main Dialogue,Task,0000,0000,0000,,I have no idea what you're talking about,
+Dialogue: 0,0:02:19.57,0:02:23.47,Main Dialogue,Task,0000,0000,0000,,but I'm glad that this terrorist \Nhas changed his ways.
+Dialogue: 0,0:02:23.47,0:02:27.75,Main Dialogue,Task,0000,0000,0000,,But man, you're getting an \Ninsane amount of attention.
+Dialogue: 0,0:02:27.75,0:02:28.66,Main Dialogue,Task,0000,0000,0000,,The horror...
+Dialogue: 0,0:02:28.66,0:02:31.31,Main Dialogue,Keita,0000,0000,0000,,You say that like it's got \Nnothing to do with you.
+Dialogue: 0,0:02:31.31,0:02:34.32,Main Dialogue,Keita,0000,0000,0000,,This is partly your fault, Uehara-kun.
+Dialogue: 0,0:02:34.32,0:02:37.34,Main Dialogue,Task,0000,0000,0000,,I know. I'm sorry, \Nbut who could have predicted
+Dialogue: 0,0:02:37.34,0:02:41.42,Main Dialogue,Task,0000,0000,0000,,that you'd go beyond being friends \Nand actually start a relationship?
+Dialogue: 0,0:02:41.42,0:02:43.13,Main Dialogue,Task,0000,0000,0000,,It's a miracle.
+Dialogue: 0,0:02:43.71,0:02:44.93,Main Dialogue,Keita,0000,0000,0000,,Well, I guess.
+Dialogue: 0,0:02:45.35,0:02:50.12,Italics Dialogue,Keita,0000,0000,0000,,But Tendou-san likes Uehara-kun...
+Dialogue: 0,0:02:50.12,0:02:51.89,Italics Dialogue,Keita,0000,0000,0000,,Or so I thought.
+Dialogue: 0,0:02:52.43,0:02:56.94,Main Dialogue,Task,0000,0000,0000,,But man, at this point, I have no idea \Nwhat to talk to Aguri about anymore.
+Dialogue: 0,0:02:57.97,0:02:59.53,Main Dialogue,Keita,0000,0000,0000,,Did something happen with Aguri-san?
+Dialogue: 0,0:02:59.53,0:03:03.47,Main Dialogue,Task,0000,0000,0000,,"Did something happen"? \NThe guy she likes is with Tendou.
+Dialogue: 0,0:03:03.47,0:03:06.43,Main Dialogue,Keita,0000,0000,0000,,The guy she likes is with Tendou-san?
+Dialogue: 0,0:03:06.87,0:03:08.31,Main Dialogue,Task,0000,0000,0000,,Never mind.
+Dialogue: 0,0:03:08.31,0:03:09.54,Main Dialogue,Task,0000,0000,0000,,Later.
+Dialogue: 0,0:03:09.54,0:03:10.25,Main Dialogue,Sensei,0000,0000,0000,,Morning.
+Dialogue: 0,0:03:10.58,0:03:11.79,Main Dialogue,Sensei,0000,0000,0000,,Take your seats.
+Dialogue: 0,0:03:13.17,0:03:17.71,Italics Dialogue,Keita,0000,0000,0000,,The guy Aguri-san likes, that is, \NUehara-kun is with Tendou-san...
+Dialogue: 0,0:03:18.66,0:03:20.47,Italics Dialogue,Keita,0000,0000,0000,,So he {\i0}was{\i1} cheating!
+Dialogue: 0,0:03:20.47,0:03:23.97,Italics Dialogue,Keita,0000,0000,0000,,That's why he doesn't know \Nwhat to say to Aguri-san!
+Dialogue: 0,0:03:28.78,0:03:30.27,Italics Dialogue,Keita,0000,0000,0000,,Of course.
+Dialogue: 0,0:03:30.27,0:03:33.33,Italics Dialogue,Keita,0000,0000,0000,,It's easier for them to hang \Nout together at school
+Dialogue: 0,0:03:33.33,0:03:35.73,Italics Dialogue,Keita,0000,0000,0000,,if people believe Tendou-san's dating me.
+Dialogue: 0,0:03:36.30,0:03:40.01,Italics Dialogue,Keita,0000,0000,0000,,I think I'll ask her to let me \Nrescind my confession.
+Dialogue: 0,0:03:40.01,0:03:42.36,Italics Dialogue,Keita,0000,0000,0000,,It was a mistake to begin with, anyway.
+Dialogue: 0,0:03:45.12,0:03:46.95,Main Dialogue,Keita,0000,0000,0000,,S-Sorry!
+Dialogue: 0,0:03:54.46,0:03:55.31,Main Dialogue,Blonde,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:55.31,0:03:57.49,Main Dialogue,Blonde,0000,0000,0000,,Are you okay, Amano-kun?
+Dialogue: 0,0:03:57.49,0:03:59.21,Main Dialogue,Blonde,0000,0000,0000,,You look pale.
+Dialogue: 0,0:03:59.98,0:04:02.07,Main Dialogue,Keita,0000,0000,0000,,S-Sorry, Tendou-san.
+Dialogue: 0,0:04:02.07,0:04:04.49,Main Dialogue,Keita,0000,0000,0000,,I'm in a hurry right now.
+Dialogue: 0,0:04:04.49,0:04:06.05,Main Dialogue,Keita,0000,0000,0000,,Um, so...
+Dialogue: 0,0:04:06.05,0:04:07.14,Main Dialogue,Keita,0000,0000,0000,,Later!
+Dialogue: 0,0:04:16.42,0:04:18.62,Italics Dialogue,Keita,0000,0000,0000,,I'm sorry, Tendou-san.
+Dialogue: 0,0:04:21.15,0:04:23.03,Main Dialogue,Shrek,0000,0000,0000,,Hey, over here.
+Dialogue: 0,0:04:23.94,0:04:25.18,Main Dialogue,Keita,0000,0000,0000,,What do you want?
+Dialogue: 0,0:04:25.18,0:04:26.78,Main Dialogue,Shrek,0000,0000,0000,,It's about what happened yesterday.
+Dialogue: 0,0:04:26.78,0:04:30.91,Main Dialogue,Shrek,0000,0000,0000,,You know why Tendou-san's \Ndoing this for you, right?
+Dialogue: 0,0:04:30.91,0:04:33.58,Main Dialogue,Keita,0000,0000,0000,,Well, yeah, sure.
+Dialogue: 0,0:04:33.58,0:04:35.87,Main Dialogue,Keita,0000,0000,0000,,I mean, she's doing it for me, \Nso I should hope so.
+Dialogue: 0,0:04:35.87,0:04:37.67,Main Dialogue,Shrek,0000,0000,0000,,All right, then.
+Dialogue: 0,0:04:37.67,0:04:40.81,Main Dialogue,Shrek,0000,0000,0000,,That was a godly move, though.
+Dialogue: 0,0:04:40.81,0:04:44.14,Main Dialogue,Keita,0000,0000,0000,,Well, it was spectacular in a sense, but...
+Dialogue: 0,0:04:44.14,0:04:50.31,Main Dialogue,Shrek,0000,0000,0000,,You put a huge check on that little \Ndevil who was preying on you.
+Dialogue: 0,0:04:50.98,0:04:51.72,Main Dialogue,Keita,0000,0000,0000,,Little devil?
+Dialogue: 0,0:04:52.40,0:04:54.01,Main Dialogue,Shrek,0000,0000,0000,,Never mind, it's nothing!
+Dialogue: 0,0:04:54.01,0:04:58.02,Main Dialogue,Keita,0000,0000,0000,,W-We're enemies, but I don't care \Nto hurt you more than I need to.
+Dialogue: 0,0:04:59.10,0:05:01.17,Main Dialogue,Shrek,0000,0000,0000,,F-Forget about it!
+Dialogue: 0,0:05:01.17,0:05:03.25,Main Dialogue,Shrek,0000,0000,0000,,Aguri-san was a great person,
+Dialogue: 0,0:05:03.25,0:05:05.57,Main Dialogue,Shrek,0000,0000,0000,,but she wasn't your girlfriend.
+Dialogue: 0,0:05:05.57,0:05:07.21,Main Dialogue,Shrek,0000,0000,0000,,That's all.
+Dialogue: 0,0:05:07.21,0:05:08.03,Main Dialogue,Keita,0000,0000,0000,,Right...
+Dialogue: 0,0:05:08.03,0:05:10.90,Main Dialogue,Keita,0000,0000,0000,,Well, yeah, she's not my girlfriend.
+Dialogue: 0,0:05:10.90,0:05:11.91,Main Dialogue,Shrek,0000,0000,0000,,I see.
+Dialogue: 0,0:05:11.91,0:05:14.63,Main Dialogue,Shrek,0000,0000,0000,,You've moved on that far already, huh?
+Dialogue: 0,0:05:14.63,0:05:16.01,Main Dialogue,Keita,0000,0000,0000,,Of course I have.
+Dialogue: 0,0:05:16.01,0:05:18.04,Main Dialogue,Keita,0000,0000,0000,,She isn't my girlfriend, after all.
+Dialogue: 0,0:05:18.04,0:05:19.59,Main Dialogue,Shrek,0000,0000,0000,,Of course!
+Dialogue: 0,0:05:19.59,0:05:23.59,Main Dialogue,Shrek,0000,0000,0000,,I like that quick, clean change of heart.
+Dialogue: 0,0:05:23.59,0:05:24.99,Main Dialogue,Keita,0000,0000,0000,,Right...
+Dialogue: 0,0:05:27.09,0:05:27.82,sign_7843_83_Dammit_,Text,0000,0000,0000,,Damn it!
+Dialogue: 0,0:05:27.82,0:05:28.86,sign_7860_84_Dammit_,Text,0000,0000,0000,,Damn it!
+Dialogue: 0,0:05:28.86,0:05:29.99,sign_7885_85_Dammit_,Text,0000,0000,0000,,Damn it!
+Dialogue: 0,0:05:29.99,0:05:31.16,sign_7912_86_Dammit_,Text,0000,0000,0000,,Damn it!
+Dialogue: 0,0:05:31.16,0:05:32.10,sign_7940_87_Dammit_,Text,0000,0000,0000,,Damn it!
+Dialogue: 0,0:05:32.89,0:05:35.09,Main Dialogue,Agree,0000,0000,0000,,Die in a fire, Amanocchi.
+Dialogue: 0,0:05:41.36,0:05:43.15,Main Dialogue,Keita,0000,0000,0000,,I'm truly sorry!
+Dialogue: 0,0:05:43.98,0:05:45.77,Main Dialogue,Agree,0000,0000,0000,,Sorry, don't mind me.
+Dialogue: 0,0:05:45.77,0:05:47.35,Main Dialogue,Agree,0000,0000,0000,,I'm 20% just kidding.
+Dialogue: 0,0:05:47.35,0:05:49.95,Main Dialogue,Keita,0000,0000,0000,,That's a pretty low just-kidding ratio.
+Dialogue: 0,0:05:51.15,0:05:52.51,Main Dialogue,Agree,0000,0000,0000,,What do you expect?
+Dialogue: 0,0:05:52.51,0:05:57.67,Main Dialogue,Agree,0000,0000,0000,,I can't be happy-go-lucky after \Nconfirming that Tasuku's cheating.
+Dialogue: 0,0:05:57.67,0:05:58.70,Main Dialogue,Keita,0000,0000,0000,,Uh...
+Dialogue: 0,0:05:58.70,0:06:01.91,Main Dialogue,Keita,0000,0000,0000,,Don't you think it's a bit \Nof a stretch to decide that
+Dialogue: 0,0:06:01.91,0:06:05.47,Main Dialogue,Keita,0000,0000,0000,,Tasuku's cheating on you just because he \Nwas staring at you with a guilty look?
+Dialogue: 0,0:06:06.47,0:06:11.77,Main Dialogue,Agree,0000,0000,0000,,Why else would a guy look so panicked after \Nmaking eye contact with his own girlfriend?
+Dialogue: 0,0:06:11.77,0:06:13.22,Main Dialogue,Keita,0000,0000,0000,,T-True...
+Dialogue: 0,0:06:14.18,0:06:20.22,Main Dialogue,Agree,0000,0000,0000,,Everything's gone downhill \Nfor me ever since I met you.
+Dialogue: 0,0:06:20.22,0:06:21.73,Main Dialogue,Keita,0000,0000,0000,,That hurts.
+Dialogue: 0,0:06:21.73,0:06:24.17,Main Dialogue,Keita,0000,0000,0000,,You say that like I'm jinxed or something.
+Dialogue: 0,0:06:24.17,0:06:30.19,Main Dialogue,Agree,0000,0000,0000,,But Tendou-san and Hoshinomori-san \Nboth met Tasuku through you, basically.
+Dialogue: 0,0:06:30.98,0:06:35.11,Main Dialogue,Keita,0000,0000,0000,,B-But it was Uehara-kun \Nthat egged me on at first.
+Dialogue: 0,0:06:35.11,0:06:39.33,Main Dialogue,Keita,0000,0000,0000,,Although maybe it was to use me \Nas a cover for his cheating.
+Dialogue: 0,0:06:40.54,0:06:45.21,Main Dialogue,Agree,0000,0000,0000,,I think he sees you as a real friend, yeah.
+Dialogue: 0,0:06:45.21,0:06:49.63,Main Dialogue,Keita,0000,0000,0000,,Maybe he was never a real friend. \NMaybe he was just using me.
+Dialogue: 0,0:06:50.69,0:06:53.26,Main Dialogue,Agree,0000,0000,0000,,Damn it, you're so negative! It's annoying!
+Dialogue: 0,0:06:53.72,0:06:57.34,Main Dialogue,Agree,0000,0000,0000,,What do you want to happen \Nwith Tendou-san, then?
+Dialogue: 0,0:06:57.34,0:06:59.23,Main Dialogue,Keita,0000,0000,0000,,Well...
+Dialogue: 0,0:07:01.01,0:07:04.73,Main Dialogue,Keita,0000,0000,0000,,I guess I should tell her honestly \Nso we can break up properly, huh?
+Dialogue: 0,0:07:04.73,0:07:06.02,Main Dialogue,Agree,0000,0000,0000,,Who knows?
+Dialogue: 0,0:07:06.02,0:07:07.95,Main Dialogue,Agree,0000,0000,0000,,I have no idea.
+Dialogue: 0,0:07:07.95,0:07:09.89,Main Dialogue,Keita,0000,0000,0000,,O-Of course.
+Dialogue: 0,0:07:10.53,0:07:14.13,Main Dialogue,Agree,0000,0000,0000,,I think what's important \Nis how you feel, though.
+Dialogue: 0,0:07:15.35,0:07:16.54,Main Dialogue,Agree,0000,0000,0000,,Anyway...
+Dialogue: 0,0:07:17.74,0:07:22.42,Main Dialogue,Agree,0000,0000,0000,,Are you really going to let someone else \Ndecide something this important for you?
+Dialogue: 0,0:07:25.87,0:07:27.11,Main Dialogue,Keita,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:07:27.11,0:07:30.22,Main Dialogue,Keita,0000,0000,0000,,Please forget I asked you for advice.
+Dialogue: 0,0:07:32.82,0:07:34.46,Main Dialogue,Agree,0000,0000,0000,,All right.
+Dialogue: 0,0:07:35.51,0:07:37.27,Main Dialogue,Agree,0000,0000,0000,,Gross! What the heck?
+Dialogue: 0,0:07:37.27,0:07:38.97,Main Dialogue,Keita,0000,0000,0000,,You {\i1}just{\i0} noticed?
+Dialogue: 0,0:07:39.40,0:07:42.18,Main Dialogue,Keita,0000,0000,0000,,I didn't taste a thing.
+Dialogue: 0,0:07:42.81,0:07:45.19,Main Dialogue,Agree,0000,0000,0000,,Scary what relationship problems \Ncan do to you, huh?
+Dialogue: 0,0:07:47.02,0:07:48.27,Main Dialogue,Agree,0000,0000,0000,,See you.
+Dialogue: 0,0:07:54.81,0:07:57.25,Italics Dialogue,Blonde,0000,0000,0000,,Amano-kun contacted me out of the blue.
+Dialogue: 0,0:07:57.25,0:07:59.53,Italics Dialogue,Blonde,0000,0000,0000,,Why does he want to meet me on the rooftop?
+Dialogue: 0,0:07:59.53,0:08:02.87,Italics Dialogue,Blonde,0000,0000,0000,,Does it have to do with our relationship?
+Dialogue: 0,0:08:03.27,0:08:05.50,Italics Dialogue,Blonde,0000,0000,0000,,Stop. Stay calm.
+Dialogue: 0,0:08:05.50,0:08:08.75,Italics Dialogue,Blonde,0000,0000,0000,,I don't want Amano-kun to see me like this!
+Dialogue: 0,0:08:08.75,0:08:12.88,Italics Dialogue,Blonde,0000,0000,0000,,I wonder if that confession \Nwas some kind of mistake.
+Dialogue: 0,0:08:12.88,0:08:16.76,Italics Dialogue,Blonde,0000,0000,0000,,That actually makes more \Nsense in a lot of ways.
+Dialogue: 0,0:08:16.76,0:08:20.12,Italics Dialogue,Blonde,0000,0000,0000,,I mean, it's just... weird.
+Dialogue: 0,0:08:20.12,0:08:22.77,Italics Dialogue,Blonde,0000,0000,0000,,Why would he confess to me?
+Dialogue: 0,0:08:24.81,0:08:27.85,Main Dialogue,Blonde,0000,0000,0000,,I'm scared to see Amano-kun.
+Dialogue: 0,0:08:27.85,0:08:31.78,Main Dialogue,Keita,0000,0000,0000,,Sorry to call you on such \Nshort notice, Tendou-san.
+Dialogue: 0,0:08:33.58,0:08:34.66,Main Dialogue,Keita,0000,0000,0000,,Tendou-san?
+Dialogue: 0,0:08:35.99,0:08:41.46,Main Dialogue,Keita,0000,0000,0000,,Um... Do you actually hate me, Tendou-san?
+Dialogue: 0,0:08:41.46,0:08:43.04,Main Dialogue,Blonde,0000,0000,0000,,N-No!
+Dialogue: 0,0:08:43.35,0:08:46.29,Main Dialogue,Keita,0000,0000,0000,,Then why won't you face me?
+Dialogue: 0,0:08:46.70,0:08:47.79,Main Dialogue,Blonde,0000,0000,0000,,Because...
+Dialogue: 0,0:08:48.51,0:08:50.30,Main Dialogue,Blonde,0000,0000,0000,,Wh-Why don't you?
+Dialogue: 0,0:08:50.30,0:08:51.29,Main Dialogue,Keita,0000,0000,0000,,What?
+Dialogue: 0,0:08:51.79,0:08:55.51,Main Dialogue,Blonde,0000,0000,0000,,You want to stop dating me, don't you?
+Dialogue: 0,0:08:56.01,0:08:57.25,Main Dialogue,Blonde,0000,0000,0000,,I-It's fine.
+Dialogue: 0,0:08:57.25,0:08:58.42,Main Dialogue,Blonde,0000,0000,0000,,I understand.
+Dialogue: 0,0:08:58.42,0:09:01.10,Main Dialogue,Blonde,0000,0000,0000,,It must have been hell for you \Never since you confessed.
+Dialogue: 0,0:09:01.10,0:09:03.57,Main Dialogue,Blonde,0000,0000,0000,,It's not hard to guess \Nfrom the face you made.
+Dialogue: 0,0:09:05.35,0:09:06.90,Main Dialogue,Keita,0000,0000,0000,,Th-That was...
+Dialogue: 0,0:09:06.90,0:09:07.69,Main Dialogue,Blonde,0000,0000,0000,,Forget it.
+Dialogue: 0,0:09:07.69,0:09:09.18,Main Dialogue,Blonde,0000,0000,0000,,You don't have to tell me. I know.
+Dialogue: 0,0:09:09.18,0:09:10.61,Main Dialogue,Blonde,0000,0000,0000,,You want to take it back, don't you?
+Dialogue: 0,0:09:10.61,0:09:12.93,Main Dialogue,Blonde,0000,0000,0000,,You don't have to worry about my answer.
+Dialogue: 0,0:09:12.93,0:09:20.70,Main Dialogue,Blonde,0000,0000,0000,,It wasn't that I was l-lying, but I kind \Nof got caught in the moment, too.
+Dialogue: 0,0:09:21.29,0:09:24.92,Italics Dialogue,Blonde,0000,0000,0000,,No, this isn't what I want to say.
+Dialogue: 0,0:09:24.92,0:09:28.11,Main Dialogue,Keita,0000,0000,0000,,Uh, well... first, I'm glad.
+Dialogue: 0,0:09:29.38,0:09:30.79,Main Dialogue,Blonde,0000,0000,0000,,About what?
+Dialogue: 0,0:09:30.79,0:09:35.89,Main Dialogue,Keita,0000,0000,0000,,I mean, I'm glad you don't \Nseem to hate me or anything.
+Dialogue: 0,0:09:35.89,0:09:40.06,Main Dialogue,Blonde,0000,0000,0000,,W-Well, of course I don't hate you.
+Dialogue: 0,0:09:40.06,0:09:41.81,Main Dialogue,Keita,0000,0000,0000,,Th-Thank you.
+Dialogue: 0,0:09:42.30,0:09:46.44,Main Dialogue,Keita,0000,0000,0000,,With that said, I have to \Nask you something imposing.
+Dialogue: 0,0:09:48.31,0:09:49.44,Italics Dialogue,Blonde,0000,0000,0000,,This is it.
+Dialogue: 0,0:09:49.97,0:09:53.94,Main Dialogue,Keita,0000,0000,0000,,If it's okay with you, would you \Nplease go on a date with me?
+Dialogue: 0,0:10:00.45,0:10:05.95,Main Dialogue,Keita,0000,0000,0000,,I mean, we can go whenever you're free, \Nwherever you want to.
+Dialogue: 0,0:10:07.01,0:10:09.98,Main Dialogue,Blonde,0000,0000,0000,,Wait, what's going on?
+Dialogue: 0,0:10:10.77,0:10:14.13,Main Dialogue,Keita,0000,0000,0000,,What else? I'm asking you out on a date.
+Dialogue: 0,0:10:14.13,0:10:16.72,Main Dialogue,Blonde,0000,0000,0000,,I understand that, but...
+Dialogue: 0,0:10:17.19,0:10:19.93,Main Dialogue,Keita,0000,0000,0000,,We're in a relationship now, right?
+Dialogue: 0,0:10:21.93,0:10:26.41,Main Dialogue,Keita,0000,0000,0000,,Y-You're right that there are going to be \Na lot of hardships in this arrangement.
+Dialogue: 0,0:10:26.41,0:10:28.69,Main Dialogue,Keita,0000,0000,0000,,I mean, the attention I get...
+Dialogue: 0,0:10:29.45,0:10:33.69,Main Dialogue,Keita,0000,0000,0000,,Also, I don't stand a chance \Nagainst Uehara-kun.
+Dialogue: 0,0:10:33.69,0:10:36.58,Main Dialogue,Keita,0000,0000,0000,,I'm obviously going to lose.
+Dialogue: 0,0:10:37.44,0:10:41.42,Main Dialogue,Keita,0000,0000,0000,,But as a gamer, I think it's wrong to disconnect
+Dialogue: 0,0:10:41.42,0:10:43.50,Main Dialogue,Keita,0000,0000,0000,,before it's clear who the winner is.
+Dialogue: 0,0:10:48.98,0:10:50.06,Main Dialogue,Keita,0000,0000,0000,,Tendou-san?
+Dialogue: 0,0:10:51.17,0:10:52.74,Main Dialogue,Blonde,0000,0000,0000,,F-Fine.
+Dialogue: 0,0:10:52.74,0:10:54.26,Main Dialogue,Blonde,0000,0000,0000,,Let's go on a date.
+Dialogue: 0,0:10:54.26,0:10:55.46,Main Dialogue,Blonde,0000,0000,0000,,Sure.
+Dialogue: 0,0:10:55.46,0:10:56.77,Main Dialogue,Blonde,0000,0000,0000,,We're in a relationship.
+Dialogue: 0,0:10:56.77,0:10:58.89,Main Dialogue,Blonde,0000,0000,0000,,Of course we should go on a date or two.
+Dialogue: 0,0:10:58.89,0:11:00.13,Main Dialogue,Blonde,0000,0000,0000,,It's not like we have a choice.
+Dialogue: 0,0:11:00.13,0:11:04.68,Main Dialogue,Keita,0000,0000,0000,,Okay, well, this comes a little late,
+Dialogue: 0,0:11:04.68,0:11:09.33,Main Dialogue,Keita,0000,0000,0000,,but even though I'm not very mature, \NI look forward to our time together.
+Dialogue: 0,0:11:09.33,0:11:11.49,Main Dialogue,Blonde,0000,0000,0000,,H-How courteous.
+Dialogue: 0,0:11:11.49,0:11:13.69,Main Dialogue,Blonde,0000,0000,0000,,Thank you. I, too, hope for a good, long...
+Dialogue: 0,0:11:13.69,0:11:17.04,Main Dialogue,Blonde,0000,0000,0000,,S-Still, you'd better not go overboard.
+Dialogue: 0,0:11:17.04,0:11:20.24,Main Dialogue,Blonde,0000,0000,0000,,Things have to be done in order \Nin a relationship. Got it?
+Dialogue: 0,0:11:20.59,0:11:22.02,Main Dialogue,Keita,0000,0000,0000,,O-Of course.
+Dialogue: 0,0:11:22.02,0:11:23.95,Main Dialogue,Keita,0000,0000,0000,,Yes, I'll keep that in mind.
+Dialogue: 0,0:11:23.95,0:11:26.29,Main Dialogue,Blonde,0000,0000,0000,,Y-You'd better.
+Dialogue: 0,0:11:26.29,0:11:29.45,Main Dialogue,Blonde,0000,0000,0000,,A-All right, let's disband for today.
+Dialogue: 0,0:11:29.45,0:11:30.63,Main Dialogue,Keita,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:11:30.63,0:11:32.96,Main Dialogue,Keita,0000,0000,0000,,Get home safe, Tendou-san!
+Dialogue: 0,0:11:32.96,0:11:34.57,Main Dialogue,Blonde,0000,0000,0000,,A-Aye.
+Dialogue: 0,0:11:37.96,0:11:40.05,Italics Dialogue,Blonde,0000,0000,0000,,Wait, this isn't right!
+Dialogue: 0,0:11:40.05,0:11:42.22,Italics Dialogue,Blonde,0000,0000,0000,,This isn't the relationship I had in mind!
+Dialogue: 0,0:11:42.22,0:11:45.35,Italics Dialogue,Blonde,0000,0000,0000,,But I can't ask him to change his tone now.
+Dialogue: 0,0:11:45.72,0:11:48.97,Italics Dialogue,Blonde,0000,0000,0000,,I can't let him get any closer to me...
+Dialogue: 0,0:11:50.73,0:11:54.23,Italics Dialogue,Blonde,0000,0000,0000,,I'll lose my mind!
+Dialogue: 0,0:12:10.63,0:12:13.50,Main Dialogue,Keita,0000,0000,0000,,So this is the famous facility \Nfrequented by the normies,
+Dialogue: 0,0:12:13.89,0:12:15.13,Main Dialogue,Keita,0000,0000,0000,,Around 1.
+Dialogue: 0,0:12:19.25,0:12:21.44,Main Dialogue,Keita,0000,0000,0000,,O-Okay, let's go in.
+Dialogue: 0,0:12:21.44,0:12:23.13,Main Dialogue,Blonde,0000,0000,0000,,Yes, let's.
+Dialogue: 0,0:12:25.62,0:12:28.26,Main Dialogue,Blonde,0000,0000,0000,,There are arcade games on the first floor.
+Dialogue: 0,0:12:28.63,0:12:30.06,Main Dialogue,Keita,0000,0000,0000,,Y-You're right.
+Dialogue: 0,0:12:30.06,0:12:32.54,Main Dialogue,Keita,0000,0000,0000,,Shall we leave that to be our main dish?
+Dialogue: 0,0:12:32.54,0:12:35.15,Main Dialogue,Keita,0000,0000,0000,,Then, uh, let's start with...
+Dialogue: 0,0:12:35.54,0:12:37.90,Main Dialogue,,0000,0000,0000,,Um, let's see...
+Dialogue: 0,0:12:37.90,0:12:39.61,Main Dialogue,,0000,0000,0000,,Uh...
+Dialogue: 0,0:12:42.09,0:12:46.63,Main Dialogue,Blonde,0000,0000,0000,,Let's just look around and \Ndo whatever seems fun.
+Dialogue: 0,0:12:46.63,0:12:47.28,Main Dialogue,Blonde,0000,0000,0000,,Okay?
+Dialogue: 0,0:12:48.18,0:12:49.30,Main Dialogue,Keita,0000,0000,0000,,Right.
+Dialogue: 0,0:13:00.39,0:13:03.27,Main Dialogue,Blonde,0000,0000,0000,,It's so fun here, huh?
+Dialogue: 0,0:13:03.27,0:13:05.64,Main Dialogue,Keita,0000,0000,0000,,I-I'm glad to hear that.
+Dialogue: 0,0:13:05.64,0:13:10.51,Main Dialogue,Blonde,0000,0000,0000,,It's weird. I've never even gotten \Nthis excited in PE class at school.
+Dialogue: 0,0:13:10.92,0:13:13.62,Main Dialogue,Keita,0000,0000,0000,,I know what you mean.
+Dialogue: 0,0:13:13.62,0:13:16.90,Main Dialogue,Keita,0000,0000,0000,,It must be the difference between \Nit being mandatory or voluntary.
+Dialogue: 0,0:13:16.90,0:13:20.10,Main Dialogue,Blonde,0000,0000,0000,,I'm sure that's part of it, but...
+Dialogue: 0,0:13:22.77,0:13:25.31,Main Dialogue,Blonde,0000,0000,0000,,Wh-What shall we do next?
+Dialogue: 0,0:13:25.31,0:13:26.61,Main Dialogue,Keita,0000,0000,0000,,Let's see...
+Dialogue: 0,0:13:27.14,0:13:31.95,Main Dialogue,Keita,0000,0000,0000,,Then again, all the \Ninteresting sport attractions...
+Dialogue: 0,0:13:31.95,0:13:32.22,Pool,,0000,0000,0000,,Pool
+Dialogue: 0,0:13:33.73,0:13:36.74,Main Dialogue,Keita,0000,0000,0000,,I guess all that's left is the \Nfloor with the arcade games.
+Dialogue: 0,0:13:36.74,0:13:39.36,Main Dialogue,Blonde,0000,0000,0000,,There's a huge pool there.
+Dialogue: 0,0:13:39.36,0:13:41.59,Main Dialogue,Keita,0000,0000,0000,,I'm not so sure about that...
+Dialogue: 0,0:13:41.59,0:13:45.00,Main Dialogue,Blonde,0000,0000,0000,,Why don't we go check it out for the heck of it?
+Dialogue: 0,0:13:45.00,0:13:47.13,Main Dialogue,Blonde,0000,0000,0000,,I'm sure they have rental swimsuits.
+Dialogue: 0,0:13:48.69,0:13:49.89,Main Dialogue,Blonde,0000,0000,0000,,I see.
+Dialogue: 0,0:13:49.89,0:13:53.93,Main Dialogue,Blonde,0000,0000,0000,,You don't want to see me in a swimsuit, huh?
+Dialogue: 0,0:13:53.93,0:13:57.34,Main Dialogue,Keita,0000,0000,0000,,That's obviously not true!
+Dialogue: 0,0:13:57.97,0:13:59.90,Main Dialogue,Blonde,0000,0000,0000,,I was just kidding.
+Dialogue: 0,0:14:01.57,0:14:05.44,Main Dialogue,Keita,0000,0000,0000,,I mean, um, how should I put it... \NYou shouldn't show the likes of me.
+Dialogue: 0,0:14:05.44,0:14:08.30,Main Dialogue,Keita,0000,0000,0000,,It's in the best interest of humanity \Nto keep it out of anyone's sight...
+Dialogue: 0,0:14:08.30,0:14:09.49,Main Dialogue,Keita,0000,0000,0000,,I, uh... eh?
+Dialogue: 0,0:14:10.05,0:14:14.33,Main Dialogue,Blonde,0000,0000,0000,,You wouldn't want to go on a \Ndate to the pool with me?
+Dialogue: 0,0:14:19.91,0:14:22.65,Italics Dialogue,Keita,0000,0000,0000,,I have betrayed humanity.
+Dialogue: 0,0:14:22.65,0:14:24.09,Main Dialogue,Blonde,0000,0000,0000,,Thanks for waiting.
+Dialogue: 0,0:14:24.44,0:14:25.41,Main Dialogue,Blonde,0000,0000,0000,,Uh...
+Dialogue: 0,0:14:25.41,0:14:27.09,Main Dialogue,Blonde,0000,0000,0000,,Wh-What do you think?
+Dialogue: 0,0:14:29.37,0:14:32.35,Italics Dialogue,Keita,0000,0000,0000,,Oh, crap! I just lost a life!
+Dialogue: 0,0:14:33.83,0:14:35.38,Main Dialogue,Keita,0000,0000,0000,,Thank you very much.
+Dialogue: 0,0:14:35.38,0:14:39.23,Main Dialogue,Blonde,0000,0000,0000,,That's way too weird of a \Ncomment on my swimsuit.
+Dialogue: 0,0:14:39.23,0:14:40.65,Main Dialogue,Keita,0000,0000,0000,,You look good in it!
+Dialogue: 0,0:14:40.65,0:14:43.20,Main Dialogue,Keita,0000,0000,0000,,So much so that I don't want to bother \Nmaking pedestrian comments about it!
+Dialogue: 0,0:14:43.20,0:14:47.01,Main Dialogue,Blonde,0000,0000,0000,,Would you at least {\i1}start{\i0} with a pedestrian \Ncomment like, "You look good in it"?
+Dialogue: 0,0:14:47.01,0:14:47.99,Main Dialogue,Keita,0000,0000,0000,,You look good in it!
+Dialogue: 0,0:14:49.11,0:14:50.11,Main Dialogue,Blonde,0000,0000,0000,,Well done.
+Dialogue: 0,0:14:54.23,0:14:55.49,Main Dialogue,A,0000,0000,0000,,Stop that!
+Dialogue: 0,0:14:55.49,0:14:56.37,Main Dialogue,A,0000,0000,0000,,Gotcha!
+Dialogue: 0,0:14:56.37,0:14:57.45,Main Dialogue,B,0000,0000,0000,,That's cold!
+Dialogue: 0,0:14:57.45,0:14:59.79,Main Dialogue,Blonde,0000,0000,0000,,Why don't we do that, too?
+Dialogue: 0,0:15:00.55,0:15:04.73,Main Dialogue,Blonde,0000,0000,0000,,But if we do, we should \Nestablish some clear rules.
+Dialogue: 0,0:15:04.73,0:15:06.42,Main Dialogue,Keita,0000,0000,0000,,R-Rules, huh?
+Dialogue: 0,0:15:06.42,0:15:07.74,Main Dialogue,Blonde,0000,0000,0000,,How about this?
+Dialogue: 0,0:15:07.74,0:15:08.68,Main Dialogue,Text,0000,0000,0000,,The game is turn-based,
+Dialogue: 0,0:15:08.68,0:15:11.93,Main Dialogue,Text,0000,0000,0000,,with the attacker only getting to \Nthrow water once in each round!
+Dialogue: 0,0:15:11.93,0:15:15.20,Main Dialogue,Text,0000,0000,0000,,Switch sides after the attack or after \Nten seconds, whichever comes first!
+Dialogue: 0,0:15:15.20,0:15:17.68,Main Dialogue,Text,0000,0000,0000,,The first one to get \Nthe other's hair wet wins!
+Dialogue: 0,0:15:18.32,0:15:20.56,Italics Dialogue,Keita,0000,0000,0000,,Tendou-san's kind of a pain.
+Dialogue: 0,0:15:21.81,0:15:23.31,Main Dialogue,Blonde,0000,0000,0000,,Here we go, Amano-kun.
+Dialogue: 0,0:15:23.81,0:15:26.07,Main Dialogue,Keita,0000,0000,0000,,Okay, bring it on.
+Dialogue: 0,0:15:37.37,0:15:38.15,Main Dialogue,Blonde,0000,0000,0000,,Damn!
+Dialogue: 0,0:15:38.15,0:15:39.22,Italics Dialogue,Keita,0000,0000,0000,,My turn.
+Dialogue: 0,0:15:39.22,0:15:42.18,Italics Dialogue,Keita,0000,0000,0000,,I'll use all my time to confuse the enemy.
+Dialogue: 0,0:15:42.18,0:15:42.96,Italics Dialogue,Keita,0000,0000,0000,,Now!
+Dialogue: 0,0:15:47.63,0:15:49.38,Main Dialogue,Keita,0000,0000,0000,,Shoot! She baited me.
+Dialogue: 0,0:15:51.01,0:15:52.09,Main Dialogue,Keita,0000,0000,0000,,A rush!
+Dialogue: 0,0:15:54.34,0:15:56.11,Main Dialogue,Keita,0000,0000,0000,,I-I lose.
+Dialogue: 0,0:15:58.25,0:15:59.63,Main Dialogue,Blonde,0000,0000,0000,,I win.
+Dialogue: 0,0:15:59.63,0:16:01.31,Main Dialogue,A,0000,0000,0000,,Stop it already.
+Dialogue: 0,0:16:01.31,0:16:02.37,Main Dialogue,A,0000,0000,0000,,Take this!
+Dialogue: 0,0:16:02.87,0:16:04.86,Main Dialogue,B,0000,0000,0000,,Hey, that's not fair!
+Dialogue: 0,0:16:06.22,0:16:09.37,Main Dialogue,Keita,0000,0000,0000,,Maybe we should go to the arcade games now.
+Dialogue: 0,0:16:09.37,0:16:11.90,Main Dialogue,Blonde,0000,0000,0000,,Right. Let's do that.
+Dialogue: 0,0:16:14.82,0:16:16.87,Main Dialogue,A,0000,0000,0000,,Hey, girl, are you by yourself? \NWanna hang out with us?
+Dialogue: 0,0:16:19.03,0:16:20.06,Main Dialogue,Shrek,0000,0000,0000,,Keita!
+Dialogue: 0,0:16:23.31,0:16:24.13,Main Dialogue,Keita,0000,0000,0000,,Uh...
+Dialogue: 0,0:16:24.13,0:16:26.06,Main Dialogue,Keita,0000,0000,0000,,Hey there, kelphead.
+Dialogue: 0,0:16:26.06,0:16:27.71,Main Dialogue,Shrek,0000,0000,0000,,What is it, beansprout?
+Dialogue: 0,0:16:27.71,0:16:32.97,Main Dialogue,,0000,0000,0000,,I-I guess I'm going to have to help you out.
+Dialogue: 0,0:16:32.97,0:16:35.05,Main Dialogue,,0000,0000,0000,,Bah, she's with a guy.
+Dialogue: 0,0:16:33.93,0:16:35.05,Main Dialogue,,0000,0000,0000,,Rats.
+Dialogue: 0,0:16:37.30,0:16:39.70,Main Dialogue,Keita,0000,0000,0000,,Look, Tendou-san's there!
+Dialogue: 0,0:16:40.43,0:16:42.18,Main Dialogue,Shrek,0000,0000,0000,,I noticed.
+Dialogue: 0,0:16:42.18,0:16:44.02,Main Dialogue,Shrek,0000,0000,0000,,Hello, Tendou-san.
+Dialogue: 0,0:16:44.02,0:16:45.77,Main Dialogue,Blonde,0000,0000,0000,,H-Hello.
+Dialogue: 0,0:16:45.77,0:16:47.49,Main Dialogue,Keita,0000,0000,0000,,Wait, wait, wait, this is crazy!
+Dialogue: 0,0:16:47.49,0:16:51.42,Main Dialogue,Keita,0000,0000,0000,,I happen to be right here with the person \NI'm technically in a relationship with!
+Dialogue: 0,0:16:51.42,0:16:52.09,Main Dialogue,Shrek,0000,0000,0000,,Huh?
+Dialogue: 0,0:16:52.09,0:16:53.73,Main Dialogue,Shrek,0000,0000,0000,,So you're on a date, right?
+Dialogue: 0,0:16:53.73,0:16:56.68,Main Dialogue,Shrek,0000,0000,0000,,I-I can see that, obviously.
+Dialogue: 0,0:16:56.68,0:17:00.68,Main Dialogue,Keita,0000,0000,0000,,So how can you let this situation continue?
+Dialogue: 0,0:17:00.68,0:17:04.33,Main Dialogue,Shrek,0000,0000,0000,,I-I suppose I shouldn't have interfered \Nin a date between two people
+Dialogue: 0,0:17:04.33,0:17:07.52,Main Dialogue,Shrek,0000,0000,0000,,who are in a fake relationship.
+Dialogue: 0,0:17:07.52,0:17:09.27,Main Dialogue,Keita,0000,0000,0000,,What do you mean by "fake"?
+Dialogue: 0,0:17:10.34,0:17:11.63,Main Dialogue,Blonde,0000,0000,0000,,Are you done?
+Dialogue: 0,0:17:13.10,0:17:14.94,Main Dialogue,Shrek,0000,0000,0000,,S-Sorry.
+Dialogue: 0,0:17:14.94,0:17:17.07,Main Dialogue,Shrek,0000,0000,0000,,Even given the circumstances...
+Dialogue: 0,0:17:17.07,0:17:18.43,Main Dialogue,Blonde,0000,0000,0000,,It's fine.
+Dialogue: 0,0:17:18.43,0:17:20.31,Main Dialogue,Blonde,0000,0000,0000,,But why are you here today?
+Dialogue: 0,0:17:20.31,0:17:21.87,Main Dialogue,Shrek,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:17:21.87,0:17:25.81,Main Dialogue,Shrek,0000,0000,0000,,I had to come since my sister \Ninvited me, but we got separated.
+Dialogue: 0,0:17:25.81,0:17:29.94,Main Dialogue,Shrek,0000,0000,0000,,My kid sister's so cute. I'm worried about her.
+Dialogue: 0,0:17:31.87,0:17:34.79,Main Dialogue,Blonde,0000,0000,0000,,Why don't we help you look for her?
+Dialogue: 0,0:17:34.79,0:17:37.61,Main Dialogue,Blonde,0000,0000,0000,,I'm sure your sister must be \Nlooking for you about now, too.
+Dialogue: 0,0:17:38.59,0:17:41.33,Main Dialogue,Shrek,0000,0000,0000,,Th-That would help a lot...
+Dialogue: 0,0:17:41.91,0:17:43.83,Main Dialogue,Keita,0000,0000,0000,,I'm not in a hurry.
+Dialogue: 0,0:17:43.83,0:17:44.83,Main Dialogue,Keita,0000,0000,0000,,I guess I should help.
+Dialogue: 0,0:17:44.83,0:17:46.39,Main Dialogue,Shrek,0000,0000,0000,,Keita...
+Dialogue: 0,0:17:46.39,0:17:49.88,Main Dialogue,Blonde,0000,0000,0000,,No, I can help by myself.
+Dialogue: 0,0:17:49.88,0:17:54.56,Main Dialogue,Blonde,0000,0000,0000,,Amano-kun doesn't need to help \Nlook for your adorable sister.
+Dialogue: 0,0:17:54.56,0:17:57.88,Main Dialogue,Blonde,0000,0000,0000,,Wait for me on the floor with \Nthe arcade games, please.
+Dialogue: 0,0:17:57.88,0:18:01.02,Main Dialogue,Keita,0000,0000,0000,,Y-Yes, sir! Standing by, sir!
+Dialogue: 0,0:18:01.02,0:18:02.22,Main Dialogue,Blonde,0000,0000,0000,,Very well.
+Dialogue: 0,0:18:02.22,0:18:06.09,Main Dialogue,Blonde,0000,0000,0000,,Off you go, Amano... uh... Private Amano!
+Dialogue: 0,0:18:06.09,0:18:08.36,Main Dialogue,Keita,0000,0000,0000,,Yes! Godspeed, sir!
+Dialogue: 0,0:18:10.38,0:18:13.53,Main Dialogue,Shrek,0000,0000,0000,,Wh-What is dating, anyway?
+Dialogue: 0,0:18:17.37,0:18:21.53,Main Dialogue,Blonde,0000,0000,0000,,All right, Amano-kun, \Nit's time for the main dish.
+Dialogue: 0,0:18:21.53,0:18:24.15,Main Dialogue,Keita,0000,0000,0000,,So why is Chiaki still with us?
+Dialogue: 0,0:18:24.15,0:18:25.34,Main Dialogue,,0000,0000,0000,,Oh, wow!
+Dialogue: 0,0:18:25.94,0:18:29.42,Main Dialogue,Shrek,0000,0000,0000,,Um, it looks like my sister \Nwent home already.
+Dialogue: 0,0:18:30.30,0:18:31.88,Main Dialogue,Shrek,0000,0000,0000,,Wait, never mind that!
+Dialogue: 0,0:18:32.37,0:18:37.67,Main Dialogue,Shrek,0000,0000,0000,,Do you really understand why she's \Nbothering to go on a date with you today?
+Dialogue: 0,0:18:37.67,0:18:38.52,Main Dialogue,Keita,0000,0000,0000,,Huh?
+Dialogue: 0,0:18:38.52,0:18:42.17,Main Dialogue,Shrek,0000,0000,0000,,You're not getting anything good \Nout of this day, are you?
+Dialogue: 0,0:18:42.75,0:18:47.20,Main Dialogue,Shrek,0000,0000,0000,,You might as well do \Nsomething nice for her in return.
+Dialogue: 0,0:18:47.20,0:18:48.81,Main Dialogue,Keita,0000,0000,0000,,What are you trying to say?
+Dialogue: 0,0:18:50.53,0:18:53.50,Main Dialogue,Shrek,0000,0000,0000,,I'm giving you a chance, Keita.
+Dialogue: 0,0:18:53.50,0:18:56.69,Main Dialogue,Shrek,0000,0000,0000,,A chance to make her happy \Nin a video game challenge.
+Dialogue: 0,0:18:57.01,0:18:58.01,Main Dialogue,Keita,0000,0000,0000,,Say what?
+Dialogue: 0,0:18:58.01,0:18:59.74,Main Dialogue,Keita,0000,0000,0000,,You just want to game, don't you?
+Dialogue: 0,0:18:59.74,0:19:01.63,Main Dialogue,Shrek,0000,0000,0000,,N-Not really...
+Dialogue: 0,0:19:01.63,0:19:03.24,Main Dialogue,Blonde,0000,0000,0000,,A game challenge!
+Dialogue: 0,0:19:03.65,0:19:05.27,Main Dialogue,Blonde,0000,0000,0000,,That sounds fun!
+Dialogue: 0,0:19:06.45,0:19:08.45,sign_27488_338_Four_player_figh,Text,0000,0000,0000,,Four-player {\c&H3723F8&}fight{\c&HD0E4F8&} together!
+Dialogue: 0,0:19:08.82,0:19:11.24,Main Dialogue,Blonde,0000,0000,0000,,This game's highly luck-based.
+Dialogue: 0,0:19:11.24,0:19:12.89,Main Dialogue,Blonde,0000,0000,0000,,It'll make for a good challenge.
+Dialogue: 0,0:19:12.89,0:19:16.21,Main Dialogue,Shrek,0000,0000,0000,,This is my first time playing the arcade \Nversion, but you're going down, Keita.
+Dialogue: 0,0:19:16.54,0:19:19.61,Main Dialogue,Keita,0000,0000,0000,,I'll make you regret choosing this game.
+Dialogue: 0,0:19:19.61,0:19:21.47,Main Dialogue,Keita,0000,0000,0000,,Go!
+Dialogue: 0,0:19:21.94,0:19:23.70,Main Dialogue,Keita,0000,0000,0000,,J-Just giving you a chance.
+Dialogue: 0,0:19:24.45,0:19:27.49,Main Dialogue,Shrek,0000,0000,0000,,That's what you get for picking hard \Nmods when you can't even handle it.
+Dialogue: 0,0:19:28.34,0:19:29.58,Main Dialogue,Blonde,0000,0000,0000,,Come on, Amano-kun.
+Dialogue: 0,0:19:29.58,0:19:30.41,Main Dialogue,Blonde,0000,0000,0000,,Don't give up.
+Dialogue: 0,0:19:30.41,0:19:31.48,Main Dialogue,Keita,0000,0000,0000,,R-Right.
+Dialogue: 0,0:19:34.65,0:19:36.62,Main Dialogue,Blonde,0000,0000,0000,,Not bad, Hoshinomori-san.
+Dialogue: 0,0:19:36.62,0:19:37.48,Main Dialogue,Shrek,0000,0000,0000,,I'm going to win.
+Dialogue: 0,0:19:41.10,0:19:42.61,Main Dialogue,Blonde,0000,0000,0000,,You're not bad either, Amano-kun.
+Dialogue: 0,0:19:42.61,0:19:44.95,Main Dialogue,Keita,0000,0000,0000,,I'm getting used to the controls now.
+Dialogue: 0,0:19:50.14,0:19:51.83,Main Dialogue,A,0000,0000,0000,,Bomb Roulette!
+Dialogue: 0,0:19:52.66,0:19:54.08,Main Dialogue,Shrek,0000,0000,0000,,Too bad for you, Keita.
+Dialogue: 0,0:19:54.42,0:19:59.33,Main Dialogue,Blonde,0000,0000,0000,,That item has a 50/50 chance of blowing \Nup either you or everyone besides you.
+Dialogue: 0,0:19:59.33,0:20:01.34,Main Dialogue,Blonde,0000,0000,0000,,It's hard to use on this map.
+Dialogue: 0,0:20:01.34,0:20:03.34,Main Dialogue,Keita,0000,0000,0000,,Thanks for the info.
+Dialogue: 0,0:20:07.26,0:20:08.64,Main Dialogue,Blonde,0000,0000,0000,,I see the goal!
+Dialogue: 0,0:20:08.64,0:20:09.89,Main Dialogue,Shrek,0000,0000,0000,,I'm going to win!
+Dialogue: 0,0:20:11.64,0:20:13.14,Main Dialogue,Keita,0000,0000,0000,,All right, now!
+Dialogue: 0,0:20:29.15,0:20:30.25,Main Dialogue,Keita,0000,0000,0000,,U-Um...
+Dialogue: 0,0:20:37.81,0:20:39.29,Main Dialogue,Blonde,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:20:39.29,0:20:42.67,Main Dialogue,Blonde,0000,0000,0000,,It's just that the way \Nyou lost was so hilarious.
+Dialogue: 0,0:20:42.67,0:20:44.54,Main Dialogue,Keita,0000,0000,0000,,So then...
+Dialogue: 0,0:20:44.54,0:20:47.52,Main Dialogue,Keita,0000,0000,0000,,You weren't angry at my patheticness?
+Dialogue: 0,0:20:47.52,0:20:48.66,Main Dialogue,Blonde,0000,0000,0000,,Why?
+Dialogue: 0,0:20:50.11,0:20:56.69,Main Dialogue,Blonde,0000,0000,0000,,You didn't use the item at the end \Nof the race in order to win, did you?
+Dialogue: 0,0:20:56.69,0:20:59.87,Main Dialogue,Keita,0000,0000,0000,,Sorry I don't take competition seriously.
+Dialogue: 0,0:21:00.34,0:21:06.27,Main Dialogue,Blonde,0000,0000,0000,,Whichever way it went, everyone there \Nwould have enjoyed the game more.
+Dialogue: 0,0:21:08.73,0:21:11.15,Main Dialogue,Blonde,0000,0000,0000,,I like that about you.
+Dialogue: 0,0:21:15.74,0:21:22.01,Main Dialogue,Keita,0000,0000,0000,,I admire the way you don't ever go easy on me.
+Dialogue: 0,0:21:22.01,0:21:24.80,Main Dialogue,Blonde,0000,0000,0000,,It doesn't sound like you're \Ncomplimenting me at all.
+Dialogue: 0,0:21:25.71,0:21:32.17,Main Dialogue,Keita,0000,0000,0000,,If you went easy on me just to let me win, \NI don't think I could have enjoyed it.
+Dialogue: 0,0:21:32.17,0:21:36.56,Main Dialogue,Blonde,0000,0000,0000,,I just don't know any better \Nthan to take the game seriously.
+Dialogue: 0,0:21:36.56,0:21:37.81,Main Dialogue,Keita,0000,0000,0000,,I know.
+Dialogue: 0,0:21:38.45,0:21:42.57,Main Dialogue,Keita,0000,0000,0000,,But that's exactly what I like \Nabout you, Tendou-san.
+Dialogue: 0,0:21:59.41,0:22:04.11,Main Dialogue,Keita,0000,0000,0000,,By the way, Tendou-san, are you playing \Nthat game that just came out, {\i1}Fire Tactics{\i0}?
+Dialogue: 0,0:22:04.59,0:22:06.22,Main Dialogue,Blonde,0000,0000,0000,,Yes, of course I am!
+Dialogue: 0,0:22:06.22,0:22:09.42,Main Dialogue,Blonde,0000,0000,0000,,That's right, I wanted to talk about it.
+Dialogue: 0,0:22:09.42,0:22:11.91,Main Dialogue,Blonde,0000,0000,0000,,Have you gotten far in it?
+Dialogue: 0,0:22:11.91,0:22:12.87,Main Dialogue,Keita,0000,0000,0000,,I'm...

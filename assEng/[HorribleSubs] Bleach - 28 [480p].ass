@@ -1,0 +1,335 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: B1,Open Sans Semibold,58,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,2,93,93,40,0
+Style: OS,Open Sans Semibold,33,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,8,1,1,20,0
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ep Title,Open Sans Semibold,33,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,3,227,93,27,0
+Style: Copy of Ep Title,Open Sans Semibold,33,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,3,93,301,87,0
+Style: On Top,Open Sans Semibold,36,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,8,27,27,29,0
+Style: Copy of OS,Open Sans Semibold,33,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,9,27,27,27,0
+Style: DefaultLow,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.04,0:00:02.65,Default,Default,0000,0000,0000,,Pain that won’t heal
+Dialogue: 0,0:00:02.65,0:00:04.19,Default,Default,0000,0000,0000,,Sadness you feel
+Dialogue: 0,0:00:04.19,0:00:06.19,Default,Default,0000,0000,0000,,Scars that just refuse to fade\Nfrom memory
+Dialogue: 0,0:00:06.19,0:00:09.03,Default,Default,0000,0000,0000,,Sometimes the burden’s too much\Nfor one to bear
+Dialogue: 0,0:00:09.03,0:00:12.40,Default,Default,0000,0000,0000,,Don’t give up on me,\Nplease don’t turn me away
+Dialogue: 0,0:00:12.45,0:00:15.19,Default,Default,0000,0000,0000,,Whoa!
+Dialogue: 0,0:00:15.19,0:00:18.32,Default,Default,0000,0000,0000,,I’ll hold your hand in mine
+Dialogue: 0,0:00:21.70,0:00:25.54,Default,Default,0000,0000,0000,,Will I lose my hold on her someday?
+Dialogue: 0,0:00:25.90,0:00:32.30,Default,Default,0000,0000,0000,,Will her smile fade  In a flood of tears\NOr can I keep the fears at bay?
+Dialogue: 0,0:00:32.43,0:00:37.36,Default,Default,0000,0000,0000,,Echoing, distant voices wither into silence.
+Dialogue: 0,0:00:37.36,0:00:42.08,Default,Default,0000,0000,0000,,But there is one thing that\Nwill never ever age…
+Dialogue: 0,0:00:44.40,0:00:46.82,Default,Default,0000,0000,0000,,my love for you is timeless
+Dialogue: 0,0:00:46.82,0:00:48.28,Default,Default,0000,0000,0000,,Pain that won’t heal
+Dialogue: 0,0:00:48.28,0:00:50.03,Default,Default,0000,0000,0000,,Sadness you feel
+Dialogue: 0,0:00:50.03,0:00:52.07,Default,Default,0000,0000,0000,,Smiles with hearts’ bitterness replaced
+Dialogue: 0,0:00:52.07,0:00:53.36,Default,Default,0000,0000,0000,,“I’ll never smile again”
+Dialogue: 0,0:00:53.36,0:00:54.61,Default,Default,0000,0000,0000,,“I’ll never let love in”
+Dialogue: 0,0:00:54.61,0:00:57.28,Default,Default,0000,0000,0000,,Don’t ever say such things to me
+Dialogue: 0,0:00:57.28,0:01:00.40,Default,Default,0000,0000,0000,,A future we cannot see
+Dialogue: 0,0:01:00.40,0:01:03.36,Default,Default,0000,0000,0000,,All happenings\NFind meaning in the story
+Dialogue: 0,0:01:03.36,0:01:07.61,Default,Default,0000,0000,0000,,In time the clouds will clear away,
+Dialogue: 0,0:01:07.61,0:01:11.51,Default,Default,0000,0000,0000,,so just stay, please stay with me…\NWhoa!
+Dialogue: 0,0:01:12.31,0:01:17.38,Default,Default,0000,0000,0000,,Who are we to pass through you?\NWhoa!
+Dialogue: 0,0:01:17.38,0:01:19.65,Default,Default,0000,0000,0000,,That answer will find you someday
+Dialogue: 0,0:01:36.95,0:01:40.47,Default,Default,0000,0000,0000,,Dammit! Where the heck\Nhas Ganju run off to?
+Dialogue: 0,0:01:40.77,0:01:46.54,Default,Default,0000,0000,0000,,Ikkaku said the one chasing Ganju\Nwas the 5th seat of Squad 11…
+Dialogue: 0,0:01:46.77,0:01:47.77,Default,Default,0000,0000,0000,,His name was…
+Dialogue: 0,0:01:47.77,0:01:52.18,Default,Default,0000,0000,0000,,It was…  It…was…\NHuh? Well, never mind.
+Dialogue: 0,0:01:52.18,0:01:55.34,Default,Default,0000,0000,0000,,That means he’s the 5th strongest\Nfrom the Captain on down.
+Dialogue: 0,0:01:55.61,0:01:59.29,Default,Default,0000,0000,0000,,I gotta rescue Ganju.\NHe probably can’t manage on his own.
+Dialogue: 0,0:01:59.85,0:02:03.77,Default,Default,0000,0000,0000,,There’re nothing but these\Nsame walls all over the place!
+Dialogue: 0,0:02:05.00,0:02:07.44,Default,Default,0000,0000,0000,,I’m getting mad!
+Dialogue: 0,0:02:11.02,0:02:14.48,Default,Default,0000,0000,0000,,Hey! Ganju!\NWhere the hell are you?!
+Dialogue: 0,0:02:14.48,0:02:17.35,Default,Default,0000,0000,0000,,If you can hear me,\Nsend up some fireworks to let me know!
+Dialogue: 0,0:02:17.60,0:02:19.81,Default,Default,0000,0000,0000,,You dimwit!
+Dialogue: 0,0:02:25.29,0:02:28.34,Default,Default,0000,0000,0000,,Rats! I gave myself away.
+Dialogue: 0,0:02:28.80,0:02:31.50,Default,Default,0000,0000,0000,,There’s one!\NThe orange-haired Soul Reaper!
+Dialogue: 0,0:02:31.50,0:02:32.61,Default,Default,0000,0000,0000,,You’re not getting away!
+Dialogue: 0,0:02:32.61,0:02:33.71,Default,Default,0000,0000,0000,,Kill ‘im!
+Dialogue: 0,0:02:33.71,0:02:35.76,Default,Default,0000,0000,0000,,For the glory of Zaraki Squad,\Neven if it means death!
+Dialogue: 0,0:02:37.03,0:02:38.86,Default,Default,0000,0000,0000,,He’s getting away! After him!
+Dialogue: 0,0:02:38.86,0:02:40.41,Default,Default,0000,0000,0000,,Bastard! Stop!
+Dialogue: 0,0:02:40.41,0:02:42.38,Default,Default,0000,0000,0000,,Give up, orange head!
+Dialogue: 0,0:02:42.38,0:02:44.86,Default,Default,0000,0000,0000,,Your luck ran out when you met me!
+Dialogue: 0,0:02:44.86,0:02:47.41,Default,Default,0000,0000,0000,,This means a promotion!
+Dialogue: 0,0:02:48.51,0:02:51.57,Default,Default,0000,0000,0000,,Dammit! Ganju! Where are you?!
+Dialogue: 0,0:03:03.25,0:03:04.60,Default,Default,0000,0000,0000,,A hole…?
+Dialogue: 0,0:03:05.50,0:03:07.22,Default,Default,0000,0000,0000,,A hole!
+Dialogue: 0,0:03:08.36,0:03:12.76,Default,Default,0000,0000,0000,,Dammit! Another hole?!\NHow many are there, anyway?
+Dialogue: 0,0:03:12.76,0:03:14.67,Default,Default,0000,0000,0000,,It’s the last hole.
+Dialogue: 0,0:03:15.69,0:03:17.34,Default,Default,0000,0000,0000,,For you, anyhow.
+Dialogue: 0,0:03:17.85,0:03:22.21,Default,Default,0000,0000,0000,,Whaddya mean, the “last hole”?!\NYou’ll never convince me of that!
+Dialogue: 0,0:03:22.21,0:03:26.71,Default,Default,0000,0000,0000,,I’m getting away from you.\NEven if I have to fall into a hole!
+Dialogue: 0,0:03:27.97,0:03:29.69,Default,Default,0000,0000,0000,,Would you like to try?
+Dialogue: 0,0:03:29.69,0:03:31.68,Default,Default,0000,0000,0000,,I didn’t tell you, but…
+Dialogue: 0,0:03:32.06,0:03:35.63,Default,Default,0000,0000,0000,,the bottom of the hole is\Nsurrounded by Sekki-Seki.
+Dialogue: 0,0:03:35.63,0:03:38.43,Default,Default,0000,0000,0000,,In other words, they completely\Nblock spiritual powers.
+Dialogue: 0,0:03:38.81,0:03:39.86,Default,Default,0000,0000,0000,,Now you know, don’t you?
+Dialogue: 0,0:03:40.31,0:03:43.30,Default,Default,0000,0000,0000,,Why no one who falls in\Ncan ever get out again?
+Dialogue: 0,0:03:47.73,0:03:49.16,Default,Default,0000,0000,0000,,Ow…!
+Dialogue: 0,0:03:51.09,0:03:53.54,Default,Default,0000,0000,0000,,I see the damage I inflicted\Nis still there, after all…
+Dialogue: 0,0:03:54.40,0:03:58.11,Default,Default,0000,0000,0000,,Well, you’ve managed to elude me\Nall this time,
+Dialogue: 0,0:03:58.11,0:04:00.34,Default,Default,0000,0000,0000,,even though wounded.
+Dialogue: 0,0:04:00.94,0:04:02.97,Default,Default,0000,0000,0000,,I suppose I should commend you\Nfor coming so far,
+Dialogue: 0,0:04:02.97,0:04:04.55,Default,Default,0000,0000,0000,,as ugly as you are.
+Dialogue: 0,0:04:05.03,0:04:08.33,Default,Default,0000,0000,0000,,You really make me sick!\NBastard!
+Dialogue: 0,0:04:08.63,0:04:11.89,Default,Default,0000,0000,0000,,I make you sick? That can’t be helped.
+Dialogue: 0,0:04:11.97,0:04:15.93,Default,Default,0000,0000,0000,,Ugly ones envy the beautiful.\NIt’s only natural.
+Dialogue: 0,0:04:20.26,0:04:21.71,Default,Default,0000,0000,0000,,Hey, Ganju!
+Dialogue: 0,0:04:21.71,0:04:23.20,Default,Default,0000,0000,0000,,Halt! Filthy Ryoka!
+Dialogue: 0,0:04:23.20,0:04:26.17,Default,Default,0000,0000,0000,,Is that your comrade making\Nall that racket?
+Dialogue: 0,0:04:26.61,0:04:28.73,Default,Default,0000,0000,0000,,He’s been calling your name\Nall this time.
+Dialogue: 0,0:04:31.56,0:04:33.30,Default,Default,0000,0000,0000,,Halt, I say!
+Dialogue: 0,0:04:33.30,0:04:34.95,Default,Default,0000,0000,0000,,Bow to your fate!
+Dialogue: 0,0:04:35.18,0:04:36.94,Default,Default,0000,0000,0000,,Damn! They sure are persistent!
+Dialogue: 0,0:04:36.94,0:04:38.46,Default,Default,0000,0000,0000,,Ganju! Ganju!
+Dialogue: 0,0:04:40.45,0:04:45.34,Default,Default,0000,0000,0000,,Your friend behaves in the\Nsame ugly manner as you.
+Dialogue: 0,0:04:45.67,0:04:50.80,Default,Default,0000,0000,0000,,It will only summon a never-ending\Nhorde of Soul Reapers.
+Dialogue: 0,0:04:51.18,0:04:52.34,Default,Default,0000,0000,0000,,Really…
+Dialogue: 0,0:04:52.72,0:04:55.28,Default,Default,0000,0000,0000,,It’s difficult to understand\Nhis lack of good sense.
+Dialogue: 0,0:04:55.28,0:04:58.36,Default,Default,0000,0000,0000,,Ain’t you the one without good sense?
+Dialogue: 0,0:04:58.36,0:04:59.01,Default,Default,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:59.50,0:05:05.67,Default,Default,0000,0000,0000,,Ichigo is there because…\Nhe defeated your bald-headed partner.
+Dialogue: 0,0:05:07.76,0:05:09.72,Default,Default,0000,0000,0000,,T-That can’t be!
+Dialogue: 0,0:05:10.07,0:05:13.93,Default,Default,0000,0000,0000,,Our Squad 11 is the best combat unit\Nof the 13 Court Guard Squads!
+Dialogue: 0,0:05:13.93,0:05:17.52,Default,Default,0000,0000,0000,,Ikkaku is our 3rd best fighter!\NHow could your man defeat him?!
+Dialogue: 0,0:05:24.78,0:05:27.43,Default,Default,0000,0000,0000,,Your only strong skill\Nis seeing openings!
+Dialogue: 0,0:05:27.43,0:05:29.41,Default,Default,0000,0000,0000,,You ain’t seen nothing yet!
+Dialogue: 0,0:05:29.41,0:05:31.20,Default,Default,0000,0000,0000,,Shiba-Style…\NBattle-Level Shooting Flower!
+Dialogue: 0,0:05:31.20,0:05:33.24,Default,Default,0000,0000,0000,,Senpen Banka!
+Dialogue: 0,0:05:33.81,0:05:37.04,Default,Default,0000,0000,0000,,Don’t underestimate me!\NYou call that a skill?!
+Dialogue: 0,0:05:45.70,0:05:47.06,Default,Default,0000,0000,0000,,How dare you…?
+Dialogue: 0,0:05:47.64,0:05:49.19,Default,Default,0000,0000,0000,,My face, how dare you…?!
+Dialogue: 0,0:05:50.06,0:05:52.66,Default,Default,0000,0000,0000,,Now you look more like a man!
+Dialogue: 0,0:05:58.45,0:06:00.34,Default,Default,0000,0000,0000,,No finesse.
+Dialogue: 0,0:06:00.50,0:06:04.97,Default,Default,0000,0000,0000,,You probably mean to use your\None strange skill to collapse the ground,
+Dialogue: 0,0:06:05.10,0:06:07.30,Default,Default,0000,0000,0000,,and kill us both.
+Dialogue: 0,0:06:09.94,0:06:15.92,Default,Default,0000,0000,0000,,Huh! Me, die with you?\NI’d never die so wastefully!
+Dialogue: 0,0:06:16.03,0:06:16.96,Default,Default,0000,0000,0000,,Silence!
+Dialogue: 0,0:06:20.57,0:06:22.99,Default,Default,0000,0000,0000,,You’re a tough bastard.
+Dialogue: 0,0:06:23.66,0:06:28.66,Default,Default,0000,0000,0000,,For all this time you’ve run from me,\Nenduring my attacks,
+Dialogue: 0,0:06:28.79,0:06:30.70,Default,Default,0000,0000,0000,,and yet you still can move.
+Dialogue: 0,0:06:30.94,0:06:34.30,Default,Default,0000,0000,0000,,I marvel at your physical strength.
+Dialogue: 0,0:06:34.65,0:06:37.72,Default,Default,0000,0000,0000,,Just a while longer…\NJust a little while longer…
+Dialogue: 0,0:06:37.88,0:06:39.94,Default,Default,0000,0000,0000,,He still underestimates my power.
+Dialogue: 0,0:06:40.05,0:06:44.97,Default,Default,0000,0000,0000,,The only time to use the Seppa is now,\Nwhile his guard is down!
+Dialogue: 0,0:06:45.52,0:06:49.47,Default,Default,0000,0000,0000,,Truly… That alone is regrettable.
+Dialogue: 0,0:06:50.06,0:06:52.55,Default,Default,0000,0000,0000,,If you had been born beautiful…
+Dialogue: 0,0:06:54.79,0:06:58.39,Default,Default,0000,0000,0000,,You would have been my very favorite...
+Dialogue: 0,0:06:58.59,0:06:59.69,Default,Default,0000,0000,0000,,I can’t dodge him!
+Dialogue: 0,0:07:10.93,0:07:11.96,Default,Default,0000,0000,0000,,What’s wrong?
+Dialogue: 0,0:07:12.51,0:07:15.64,Default,Default,0000,0000,0000,,Can’t you use that\Nfloating technique anymore?
+Dialogue: 0,0:07:15.64,0:07:16.58,Default,Default,0000,0000,0000,,Ugly…
+Dialogue: 0,0:07:17.61,0:07:20.48,Default,Default,0000,0000,0000,,What good is it for an\Nugly one to persist in living?
+Dialogue: 0,0:07:20.86,0:07:25.01,Default,Default,0000,0000,0000,,If one is born ugly,\Nhe should at least die beautifully.
+Dialogue: 0,0:07:27.00,0:07:28.45,Default,Default,0000,0000,0000,,I disagree.
+Dialogue: 0,0:07:30.25,0:07:34.09,Default,Default,0000,0000,0000,,It seems our ideas of aesthetics\Nare completely different.
+Dialogue: 0,0:07:34.71,0:07:40.27,Default,Default,0000,0000,0000,,I was taught that, ugly or not,\Nthe one who survives is the finest!
+Dialogue: 0,0:07:42.95,0:07:43.68,Default,Default,0000,0000,0000,,What?!
+Dialogue: 0,0:07:50.70,0:07:53.95,Default,Default,0000,0000,0000,,Bastard! You dare lay your\Nugly hand on my head…!
+Dialogue: 0,0:07:56.13,0:07:59.58,Default,Default,0000,0000,0000,,It helped that you underestimated me\Nto the last.
+Dialogue: 0,0:08:00.03,0:08:03.19,Default,Default,0000,0000,0000,,Now for the finish!\NShiba-Style Rock-Wave Secret Move!
+Dialogue: 0,0:08:03.19,0:08:04.56,Default,Default,0000,0000,0000,,Renkan Seppa Sen!
+Dialogue: 0,0:08:09.98,0:08:11.34,Default,Default,0000,0000,0000,,W-What the…?!
+Dialogue: 0,0:08:15.02,0:08:16.84,Default,Default,0000,0000,0000,,Dammit!
+Dialogue: 0,0:08:20.26,0:08:22.08,Default,Default,0000,0000,0000,,You can’t finish me with\Nthis puny attack!
+Dialogue: 0,0:08:22.19,0:08:23.41,Default,Default,0000,0000,0000,,Don’t make me laugh!
+Dialogue: 0,0:08:23.74,0:08:25.61,Default,Default,0000,0000,0000,,Where are you?! Where?!
+Dialogue: 0,0:08:25.61,0:08:27.93,Default,Default,0000,0000,0000,,H-Hey! Take this!
+Dialogue: 0,0:08:30.99,0:08:31.68,Default,Default,0000,0000,0000,,What’s this…?
+Dialogue: 0,0:08:32.47,0:08:34.71,Default,Default,0000,0000,0000,,It’s a bomb!
+Dialogue: 0,0:08:35.48,0:08:36.89,Default,Default,0000,0000,0000,,Noo!
+Dialogue: 0,0:08:42.07,0:08:44.17,Default,Default,0000,0000,0000,,What the heck. He’s over there?
+Dialogue: 0,0:08:44.51,0:08:46.42,Default,Default,0000,0000,0000,,It’s a little late for that.
+Dialogue: 0,0:08:46.91,0:08:47.73,Default,Default,0000,0000,0000,,Shut up.
+Dialogue: 0,0:08:53.83,0:08:57.12,Default,Default,0000,0000,0000,,Hey, they’re close! But…
+Dialogue: 0,0:08:57.45,0:08:58.64,Default,Default,0000,0000,0000,,it’s not this way, is it?
+Dialogue: 0,0:08:59.44,0:09:01.58,Default,Default,0000,0000,0000,,Since it’s a dead end.
+Dialogue: 0,0:09:01.81,0:09:04.74,Default,Default,0000,0000,0000,,Shouldn’t we have turned right\Nat the last corner?
+Dialogue: 0,0:09:04.74,0:09:06.68,Default,Default,0000,0000,0000,,You’re the one who said\Nto come this way!
+Dialogue: 0,0:09:06.68,0:09:10.33,Default,Default,0000,0000,0000,,Oh, Kenny! You shouldn’t blame others!
+Dialogue: 0,0:09:10.33,0:09:12.29,Default,Default,0000,0000,0000,,Wasn’t I close? There, go there!
+Dialogue: 0,0:09:14.99,0:09:16.03,Default,Default,0000,0000,0000,,This way, right?
+Dialogue: 0,0:09:16.03,0:09:16.76,Default,Default,0000,0000,0000,,Yep!
+Dialogue: 0,0:09:24.06,0:09:25.06,Default,Default,0000,0000,0000,,They’re gone, aren’t they?
+Dialogue: 0,0:09:25.06,0:09:26.21,Default,Default,0000,0000,0000,,Yes…
+Dialogue: 0,0:09:26.71,0:09:31.38,Default,Default,0000,0000,0000,,He seemed terribly strong.\NIt’s lucky that he didn’t see us, isn’t it?
+Dialogue: 0,0:09:31.38,0:09:34.33,Default,Default,0000,0000,0000,,Yes. He must be the same type as Kurosaki.
+Dialogue: 0,0:09:34.33,0:09:37.45,Default,Default,0000,0000,0000,,He has awesome power,\Nbut poor detection abilities.
+Dialogue: 0,0:09:38.08,0:09:42.67,Default,Default,0000,0000,0000,,Now… We changed sites,\Nbut where should we go from here?
+Dialogue: 0,0:09:42.67,0:09:43.61,Default,Default,0000,0000,0000,,How about that way?
+Dialogue: 0,0:09:43.61,0:09:46.43,Default,Default,0000,0000,0000,,I see a tower off in the distance…
+Dialogue: 0,0:09:46.43,0:09:47.62,Default,Default,0000,0000,0000,,Tower? Where?
+Dialogue: 0,0:09:48.09,0:09:49.59,Default,Default,0000,0000,0000,,Look, over there.
+Dialogue: 0,0:09:55.94,0:09:57.45,Default,Default,0000,0000,0000,,Didn’t touch her…
+Dialogue: 0,0:10:01.85,0:10:05.39,Default,Default,0000,0000,0000,,To escape from such close range…\Nvery good.
+Dialogue: 0,0:10:05.40,0:10:06.24,Default,Default,0000,0000,0000,,Magnificent!
+Dialogue: 0,0:10:07.00,0:10:12.22,Default,Default,0000,0000,0000,,If you had met anyone but me,\Nyou might have lived a little longer.
+Dialogue: 0,0:10:12.44,0:10:19.72,Default,Default,0000,0000,0000,,Lament! I’ll count to ten to\Ngive you time to lament.
+Dialogue: 0,0:10:21.00,0:10:22.22,Default,Default,0000,0000,0000,,One…
+Dialogue: 0,0:10:25.61,0:10:28.60,Default,Default,0000,0000,0000,,I sense the collision of Spirit Pressure\Nhere and there.
+Dialogue: 0,0:10:29.74,0:10:32.93,Default,Default,0000,0000,0000,,Don’t die, my friends. Live!
+Dialogue: 0,0:10:43.05,0:10:44.33,Default,Default,0000,0000,0000,,One…
+Dialogue: 0,0:10:46.04,0:10:47.27,Default,Default,0000,0000,0000,,Two…
+Dialogue: 0,0:10:48.28,0:10:52.29,Default,Default,0000,0000,0000,,Oh…thank you. I’m all right, Ishida.
+Dialogue: 0,0:10:48.86,0:10:52.78,Default,Default,0000,0000,0000,,Three… Four…
+Dialogue: 0,0:10:52.40,0:10:54.73,Default,Default,0000,0000,0000,,Yes…you are.
+Dialogue: 0,0:10:54.35,0:10:55.30,Default,Default,0000,0000,0000,,Five…
+Dialogue: 0,0:10:55.69,0:10:59.00,Default,Default,0000,0000,0000,,He’s not the same Ishida as a while ago.
+Dialogue: 0,0:10:57.15,0:10:58.36,Default,Default,0000,0000,0000,,Six…
+Dialogue: 0,0:10:59.11,0:11:01.51,Default,Default,0000,0000,0000,,He moved so quickly.
+Dialogue: 0,0:10:59.91,0:11:01.06,Default,Default,0000,0000,0000,,Seven…
+Dialogue: 0,0:11:07.80,0:11:11.71,Default,Default,0000,0000,0000,,For a split second, Ishida vanished\Nfrom my consciousness…
+Dialogue: 0,0:11:12.19,0:11:14.58,Default,Default,0000,0000,0000,,then I was saved before I realized.
+Dialogue: 0,0:11:19.70,0:11:23.04,Default,Default,0000,0000,0000,,Such a transformation at the\Nmere sight of a Soul Reaper.
+Dialogue: 0,0:11:23.52,0:11:28.05,Default,Default,0000,0000,0000,,It’s just as Yoruichi said.\NIshida is a Quincy.
+Dialogue: 0,0:11:28.31,0:11:31.34,Default,Default,0000,0000,0000,,Even now, Soul Reapers are\Nenemies to him.
+Dialogue: 0,0:11:32.38,0:11:33.69,Default,Default,0000,0000,0000,,Ten!
+Dialogue: 0,0:11:33.93,0:11:39.27,Default,Default,0000,0000,0000,,Now, your time for lamentation is over.\NHave you done it to your satisfaction?
+Dialogue: 0,0:11:39.65,0:11:40.48,Default,Default,0000,0000,0000,,He’s coming!
+Dialogue: 0,0:11:40.68,0:11:41.35,Default,Default,0000,0000,0000,,Right!
+Dialogue: 0,0:11:42.52,0:11:46.63,Default,Default,0000,0000,0000,,Now comes another time for lamentation.
+Dialogue: 0,0:11:53.73,0:11:56.62,Default,Default,0000,0000,0000,,Come, Soul Reaper!\NI’m the one you’ll fight!
+Dialogue: 0,0:12:11.92,0:12:16.27,Default,Default,0000,0000,0000,,It is not you who decides who will fight!
+Dialogue: 0,0:12:21.07,0:12:26.29,Default,Default,0000,0000,0000,,Now, I shall end your lamentation.\NWith your death…
+Dialogue: 0,0:12:29.38,0:12:31.26,Default,Default,0000,0000,0000,,Ms. Inoue! Run!
+Dialogue: 0,0:12:33.05,0:12:39.33,Default,Default,0000,0000,0000,,No, I mustn’t run.\NI’ve got to fight and save Kurosaki!
+Dialogue: 0,0:12:39.54,0:12:40.60,Default,Default,0000,0000,0000,,Tsubaki!
+Dialogue: 0,0:12:44.25,0:12:46.97,Default,Default,0000,0000,0000,,At last, it’s show time. Aim well!
+Dialogue: 0,0:12:49.19,0:12:51.68,Default,Default,0000,0000,0000,,Koten Zanshun! "I reject!"
+Dialogue: 0,0:12:57.42,0:12:58.12,Default,Default,0000,0000,0000,,Tsubaki!
+Dialogue: 0,0:13:03.62,0:13:07.34,Default,Default,0000,0000,0000,,Fool… Faltering like that…!
+Dialogue: 0,0:13:09.22,0:13:10.22,Default,Default,0000,0000,0000,,Tsubaki…
+Dialogue: 0,0:13:12.20,0:13:15.03,Default,Default,0000,0000,0000,,That was the first time\NI saw that technique.
+Dialogue: 0,0:13:15.03,0:13:18.21,Default,Default,0000,0000,0000,,There’s no intent to kill\Nin your attack.
+Dialogue: 0,0:13:19.35,0:13:22.67,Default,Default,0000,0000,0000,,Though you might kill Hollows\Nwith that move,
+Dialogue: 0,0:13:22.67,0:13:25.64,Default,Default,0000,0000,0000,,it will have no effect on Soul Reapers.
+Dialogue: 0,0:13:26.82,0:13:28.97,Default,Default,0000,0000,0000,,M-My body won’t move…
+Dialogue: 0,0:13:29.82,0:13:31.39,Default,Default,0000,0000,0000,,This is a battleground!
+Dialogue: 0,0:13:31.55,0:13:36.58,Default,Default,0000,0000,0000,,Without the intent to kill,\Nyou’ll never stop anyone!
+Dialogue: 0,0:13:48.41,0:13:49.29,Default,Default,0000,0000,0000,,Wha--?!
+Dialogue: 0,0:13:50.76,0:13:53.68,Default,Default,0000,0000,0000,,So you want an attack\Nwith intent to kill?
+Dialogue: 0,0:13:54.62,0:13:59.34,Default,Default,0000,0000,0000,,Then fight me. It’s here in my bow…
+Dialogue: 0,0:13:59.82,0:14:03.10,Default,Default,0000,0000,0000,,The intent to kill you love so much.
+Dialogue: 0,0:14:37.59,0:14:38.65,Default,Default,0000,0000,0000,,Hanataro…!
+Dialogue: 0,0:14:42.50,0:14:46.11,Default,Default,0000,0000,0000,,What do you want?\NThis is no place for your kind!
+Dialogue: 0,0:14:46.11,0:14:48.93,Default,Default,0000,0000,0000,,Be gone! We never sent for\Nanyone from Squad 4!
+Dialogue: 0,0:14:49.22,0:14:55.10,Default,Default,0000,0000,0000,,Uh…I used to do the cleaning when\Nshe was in Squad 6 barracks’ prison.
+Dialogue: 0,0:14:55.36,0:15:00.00,Default,Default,0000,0000,0000,,I thought the Shishinro might\Nneed some cleaning, too…
+Dialogue: 0,0:15:00.37,0:15:05.50,Default,Default,0000,0000,0000,,The Shishinro can’t be opened for anyone\Nuntil the sentence is carried out!
+Dialogue: 0,0:15:05.73,0:15:07.98,Default,Default,0000,0000,0000,,Don’t you even know that?!
+Dialogue: 0,0:15:07.98,0:15:09.19,Default,Default,0000,0000,0000,,Beat it, beat it!
+Dialogue: 0,0:15:09.19,0:15:10.58,Default,Default,0000,0000,0000,,Oh, but…
+Dialogue: 0,0:15:10.58,0:15:13.96,Default,Default,0000,0000,0000,,Beat it, or I’ll hack you to pieces!
+Dialogue: 0,0:15:14.11,0:15:16.38,Default,Default,0000,0000,0000,,Y-Yes, sir…
+Dialogue: 0,0:15:43.18,0:15:45.32,Default,Default,0000,0000,0000,,What’s wrong?! Scared?
+Dialogue: 0,0:15:45.32,0:15:47.47,Default,Default,0000,0000,0000,,You can’t get away, Ryoka!
+Dialogue: 0,0:15:47.47,0:15:49.85,Default,Default,0000,0000,0000,,You’ll get us a special promotion!
+Dialogue: 0,0:15:48.35,0:15:50.66,Default,Default,0000,0000,0000,,Rats! I'm surrounded!
+Dialogue: 0,0:15:49.85,0:15:53.03,Default,Default,0000,0000,0000,,There's no way out!
+Dialogue: 0,0:15:52.02,0:15:53.03,Default,Default,0000,0000,0000,,Geez!
+Dialogue: 0,0:15:53.03,0:15:55.12,Default,Default,0000,0000,0000,,I let up a little,\Nand it goes to their heads!
+Dialogue: 0,0:15:55.34,0:15:57.72,Default,Default,0000,0000,0000,,Anyhow, what should I do?
+Dialogue: 0,0:15:58.04,0:16:00.25,Default,Default,0000,0000,0000,,Men! Kill ‘im!
+Dialogue: 0,0:16:04.73,0:16:08.01,Default,Default,0000,0000,0000,,I’m g-getting crushed!
+Dialogue: 0,0:16:08.35,0:16:11.98,Default,Default,0000,0000,0000,,Cut it out, bastards!
+Dialogue: 0,0:16:11.98,0:16:13.09,Default,Default,0000,0000,0000,,So I can run!
+Dialogue: 0,0:16:13.09,0:16:15.81,Default,Default,0000,0000,0000,,He’s off again! Get ‘im!
+Dialogue: 0,0:16:16.21,0:16:18.32,Default,Default,0000,0000,0000,,How many are there, anyway?!
+Dialogue: 0,0:16:21.65,0:16:26.79,Default,Default,0000,0000,0000,,Hmm…Very interesting.\NWould you be a Quincy?
+Dialogue: 0,0:16:28.01,0:16:29.34,Default,Default,0000,0000,0000,,That’s right.
+Dialogue: 0,0:16:32.72,0:16:34.20,Default,Default,0000,0000,0000,,Ishida’s bow…
+Dialogue: 0,0:16:34.20,0:16:36.34,Default,Default,0000,0000,0000,,It’s totally different from the one I saw!
+Dialogue: 0,0:16:36.55,0:16:39.21,Default,Default,0000,0000,0000,,In its appearance and even\Nin its spiritual pressure…!
+Dialogue: 0,0:16:39.72,0:16:41.20,Default,Default,0000,0000,0000,,That glove…
+Dialogue: 0,0:16:41.20,0:16:44.68,Default,Default,0000,0000,0000,,He must have been practicing\Nin order to use it properly.
+Dialogue: 0,0:16:59.63,0:17:03.03,Default,Default,0000,0000,0000,,Learning to use it…\Npracticing all alone…
+Dialogue: 0,0:17:05.62,0:17:06.94,Default,Default,0000,0000,0000,,This is interesting.
+Dialogue: 0,0:17:07.22,0:17:10.80,Default,Default,0000,0000,0000,,One uses an unfamiliar skill;\Nthe other is a Quincy.
+Dialogue: 0,0:17:10.80,0:17:13.14,Default,Default,0000,0000,0000,,And both employ projectile weapons.
+Dialogue: 0,0:17:13.32,0:17:17.89,Default,Default,0000,0000,0000,,And you’ve both come to fight me.
+Dialogue: 0,0:17:17.89,0:17:21.48,Default,Default,0000,0000,0000,,What coincidence! What a twist of fate.
+Dialogue: 0,0:17:22.04,0:17:26.85,Default,Default,0000,0000,0000,,Now I must show you.\NThe true form of my Zanpaku-to.
+Dialogue: 0,0:17:27.64,0:17:30.25,Default,Default,0000,0000,0000,,Spread your wings! Tsunzaki Garasu!
+Dialogue: 0,0:17:32.44,0:17:35.12,Default,Default,0000,0000,0000,,What do you think? Now, lament.
+Dialogue: 0,0:17:35.56,0:17:40.29,Default,Default,0000,0000,0000,,I am 4th Seat of Squad 7!\NJirobo Ikkanzaka!
+Dialogue: 0,0:17:40.29,0:17:42.84,Default,Default,0000,0000,0000,,Also known as Jirobo Wind Sythe!
+Dialogue: 0,0:17:43.09,0:17:44.85,Default,Default,0000,0000,0000,,The nickname, Wind Sythe, proves that
+Dialogue: 0,0:17:44.85,0:17:47.25,Default,Default,0000,0000,0000,,I am the most skilled in\Nprojectile weapons.
+Dialogue: 0,0:17:47.25,0:17:49.85,Default,Default,0000,0000,0000,,My countless blades dance\Nthrough space.
+Dialogue: 0,0:17:49.85,0:17:54.32,Default,Default,0000,0000,0000,,No one has seen\Nmy Tsunzaki Garasu and lived!
+Dialogue: 0,0:17:54.61,0:17:56.36,Default,Default,0000,0000,0000,,Here, here. How do you like it?
+Dialogue: 0,0:17:56.36,0:17:58.65,Default,Default,0000,0000,0000,,You can’t even follow them with\Nyour eyes, can you?
+Dialogue: 0,0:17:58.65,0:18:00.80,Default,Default,0000,0000,0000,,They’re the prelude to\Na brilliant death.
+Dialogue: 0,0:18:06.86,0:18:08.17,Default,Default,0000,0000,0000,,Before Tsunzaki Garasu,
+Dialogue: 0,0:18:08.17,0:18:11.59,Default,Default,0000,0000,0000,,your bow and arrows are\Nas helpless as a baby!
+Dialogue: 0,0:18:11.60,0:18:17.41,Default,Default,0000,0000,0000,,As a fellow master of flying weapons,\Nyou’ll fully regret having met me…
+Dialogue: 0,0:18:18.64,0:18:19.31,Default,Default,0000,0000,0000,,Huh?!
+Dialogue: 0,0:18:20.17,0:18:23.13,Default,Default,0000,0000,0000,,How interesting.\NUnlike the outside world…
+Dialogue: 0,0:18:23.52,0:18:29.68,Default,Default,0000,0000,0000,,here, the strongest fighter seems\Nto be the most long-winded whiner.
+Dialogue: 0,0:18:30.48,0:18:33.15,Default,Default,0000,0000,0000,,Ridiculous! That was a fluke!
+Dialogue: 0,0:18:33.33,0:18:35.12,Default,Default,0000,0000,0000,,Don’t be so cocky.
+Dialogue: 0,0:18:35.38,0:18:37.09,Default,Default,0000,0000,0000,,You still don’t understand?
+Dialogue: 0,0:18:46.98,0:18:50.01,Default,Default,0000,0000,0000,,Sorry, but if you’re supposed\Nto be the strongest,
+Dialogue: 0,0:18:50.79,0:18:52.94,Default,Default,0000,0000,0000,,I take back your nickname\Nas of today.
+Dialogue: 0,0:18:53.52,0:18:56.72,Default,Default,0000,0000,0000,,Where flying weapons are concerned,\NI seem to be the better man.
+Dialogue: 0,0:18:57.69,0:19:02.30,Default,Default,0000,0000,0000,,The name, “Uryu Weasel with Scythe,”\Nthough, doesn’t sound all too cool.
+Dialogue: 0,0:19:03.50,0:19:08.50,Default,Default,0000,0000,0000,,You men search over there.\NIf you find them, take them alive.
+Dialogue: 0,0:19:08.50,0:19:11.15,Default,Default,0000,0000,0000,,They might make interesting\Nresearch specimens.
+Dialogue: 0,0:19:11.15,0:19:13.86,Default,Default,0000,0000,0000,,Don’t let the other Squads\Ncapture them first.
+Dialogue: 0,0:19:14.00,0:19:14.77,Default,Default,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:19:14.77,0:19:15.29,Default,Default,0000,0000,0000,,Go!
+Dialogue: 0,0:19:17.18,0:19:19.82,Default,Default,0000,0000,0000,,Hmph! They’re only humans, though.
+Dialogue: 0,0:19:19.82,0:19:22.34,Default,Default,0000,0000,0000,,I don’t expect very good specimens.
+Dialogue: 0,0:19:35.47,0:19:39.22,Default,Default,0000,0000,0000,,Hell Butterfly?\NWhat’s the message, Nemu?
+Dialogue: 0,0:19:39.31,0:19:40.06,Default,Default,0000,0000,0000,,Yes, sir…
+Dialogue: 0,0:19:40.56,0:19:45.62,Default,Default,0000,0000,0000,,Ikkaku Madarame of Squad 11\Nencountered and fought a Ryoka.
+Dialogue: 0,0:19:45.87,0:19:50.60,Default,Default,0000,0000,0000,,What?! So the Squad 11\Nalready has a Ryoka?
+Dialogue: 0,0:19:51.02,0:19:53.83,Default,Default,0000,0000,0000,,No, Ikkaku was beaten by the Ryoka
+Dialogue: 0,0:19:53.83,0:19:57.56,Default,Default,0000,0000,0000,,and taken to the Squad 4\NGeneral Relief Station.
+Dialogue: 0,0:19:57.95,0:20:01.71,Default,Default,0000,0000,0000,,The Ryoka escaped and\Nhis whereabouts remain unknown.
+Dialogue: 0,0:20:01.86,0:20:05.09,Default,Default,0000,0000,0000,,Defeated by a Ryoka? My my…
+Dialogue: 0,0:20:05.09,0:20:09.13,Default,Default,0000,0000,0000,,Among the Ryoka, there seem\Nto be quite interesting subjects.
+Dialogue: 0,0:20:09.59,0:20:10.51,Default,Default,0000,0000,0000,,Where’s Zaraki?
+Dialogue: 0,0:20:10.95,0:20:12.72,Default,Default,0000,0000,0000,,Searching for Ryoka, sir.
+Dialogue: 0,0:20:13.15,0:20:15.98,Default,Default,0000,0000,0000,,Then he wouldn’t know about this yet.
+Dialogue: 0,0:20:16.10,0:20:21.02,Default,Default,0000,0000,0000,,Well, before he gets wind of it,\Nlet’s get the info on Ryoka.
+Dialogue: 0,0:20:22.92,0:20:24.70,Default,Default,0000,0000,0000,,Lord Mayuri, where are you going?
+Dialogue: 0,0:20:24.81,0:20:28.08,Default,Default,0000,0000,0000,,To see Ikkaku.\NHow slow you are to guess.
+Dialogue: 0,0:20:28.08,0:20:30.04,Default,Default,0000,0000,0000,,Come along, dullard.
+Dialogue: 0,0:20:38.00,0:20:40.37,Default,Default,0000,0000,0000,,I sense Zaraki’s Spiritual Pressure.
+Dialogue: 0,0:20:41.08,0:20:42.91,Default,Default,0000,0000,0000,,So he’s on the move…
+Dialogue: 0,0:20:43.85,0:20:46.01,Default,Default,0000,0000,0000,,Ichigo… Be careful!
+Dialogue: 0,0:21:05.06,0:21:05.93,Default,Default,0000,0000,0000,,Get him!
+Dialogue: 0,0:21:05.93,0:21:06.63,Default,Default,0000,0000,0000,,There!
+Dialogue: 0,0:21:35.75,0:21:42.41,Default,Default,0000,0000,0000,,I looked up into the night sky\Nand saw a comet
+Dialogue: 0,0:21:42.41,0:21:49.05,Default,Default,0000,0000,0000,,I want to see you right now,\Nbut I can't fly
+Dialogue: 0,0:21:49.05,0:21:56.96,Default,Default,0000,0000,0000,,If I could become a comet
+Dialogue: 0,0:21:56.96,0:22:01.85,Default,Default,0000,0000,0000,,I would fly across the sky… I'm sure
+Dialogue: 0,0:22:01.85,0:22:09.17,Default,Default,0000,0000,0000,,I would circle the skies and shine over you
+Dialogue: 0,0:22:09.17,0:22:14.27,Default,Default,0000,0000,0000,,With this instantaneous light\Nthat will definitely reach you
+Dialogue: 0,0:22:14.27,0:22:21.41,Default,Default,0000,0000,0000,,If I could become a comet
+Dialogue: 0,0:22:21.41,0:22:25.28,Default,Default,0000,0000,0000,,I'm sure I'll alway stay close to you
+Dialogue: 0,0:22:25.28,0:22:27.38,Default,Default,0000,0000,0000,,Now and forever
+Dialogue: 0,0:22:33.62,0:22:36.18,Default,Default,0000,0000,0000,,We're surrounded!\NSo many Soul Reapers!
+Dialogue: 0,0:22:36.18,0:22:37.82,Default,Default,0000,0000,0000,,We've got to fnd someplace\Nto hide!
+Dialogue: 0,0:22:37.82,0:22:39.56,Default,Default,0000,0000,0000,,We need a plan\Nto outwit the enemy!
+Dialogue: 0,0:22:39.56,0:22:41.80,Default,Default,0000,0000,0000,,Just blast them with an\Nattack right through the middle!
+Dialogue: 0,0:22:41.80,0:22:42.85,Default,Default,0000,0000,0000,,Okay, you go.
+Dialogue: 0,0:22:42.85,0:22:43.43,Default,Default,0000,0000,0000,,You go.
+Dialogue: 0,0:22:43.43,0:22:44.03,Default,Default,0000,0000,0000,,You go.
+Dialogue: 0,0:22:44.03,0:22:44.90,Default,Default,0000,0000,0000,,Go, Ganju!
+Dialogue: 0,0:22:44.90,0:22:48.19,Default,Default,0000,0000,0000,,Uh, I've got piano practice…

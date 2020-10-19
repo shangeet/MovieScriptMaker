@@ -1,0 +1,508 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,40,40,35,1
+Style: Main01,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,40,40,35,1
+Style: Ep Title,Humana Sans Md ITC TT,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,0030,0030,0015,0
+Style: email,Humana Sans Md ITC TT,25,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0030,0030,0015,0
+Style: Tsuzuku,Humana Sans Md ITC TT,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,6,0030,0030,0015,0
+Style: Side Bar Top,Humana Sans Md ITC TT,27,&H00FFFFFF,&H004B31E3,&H000102EF,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,0030,0030,0015,0
+Style: Side Bar Bottom,Humana Sans Md ITC TT,27,&H00FFFFFF,&H000102EF,&H000102EF,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,0030,0030,0015,0
+Style: Hell,Humana Sans Md ITC TT,25,&H000500D9,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,0030,0030,0015,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:01:32.91,0:01:35.03,Main01,Suzu,0000,0000,0000,,I loathe the moon.
+Dialogue: 0,0:01:36.15,0:01:39.99,Main01,Suzu,0000,0000,0000,,With nightfall, it brings you to me,
+Dialogue: 0,0:01:40.56,0:01:43.18,Main01,Suzu,0000,0000,0000,,but it also takes you from \Nme when dawn breaks.
+Dialogue: 0,0:01:44.15,0:01:46.83,Main01,Suzu,0000,0000,0000,,I wish the moon would never leave us.
+Dialogue: 0,0:01:48.03,0:01:52.53,Main01,Suzu,0000,0000,0000,,Then you would always be here with me.
+Dialogue: 0,0:01:53.29,0:01:55.80,Main01,A,0000,0000,0000,,The moon will come with the night again.
+Dialogue: 0,0:01:56.42,0:01:59.17,Main01,A,0000,0000,0000,,And someday, when it does,
+Dialogue: 0,0:01:59.17,0:02:00.82,Main01,,0000,0000,0000,,I will take you with me in the morning.
+Dialogue: 0,0:02:01.89,0:02:03.74,Main01,A,0000,0000,0000,,Wait before the cherry blossom tree
+Dialogue: 0,0:02:03.74,0:02:05.66,Main01,,0000,0000,0000,,on the night of the next full moon.
+Dialogue: 0,0:02:15.63,0:02:17.38,Main01,Suzu,0000,0000,0000,,Do you promise?
+Dialogue: 0,0:02:17.38,0:02:19.13,Main01,A,0000,0000,0000,,I promise.
+Dialogue: 0,0:02:22.31,0:02:23.29,Main01,Both,0000,0000,0000,,Promise.
+Dialogue: 0,0:02:24.31,0:02:26.49,Main01,Suzu,0000,0000,0000,,I'll be waiting
+Dialogue: 0,0:02:27.10,0:02:28.25,Main01,Suzu,0000,0000,0000,,for the moon to rise
+Dialogue: 0,0:02:28.98,0:02:30.11,Main01,Suzu,0000,0000,0000,,forever.
+Dialogue: 0,0:02:33.32,0:02:34.67,Main01,Gin,0000,0000,0000,,{\an8}The legendary courtesan?
+Dialogue: 0,0:02:35.96,0:02:37.24,Main01,Tsu,0000,0000,0000,,{\an8}You don't know of her?
+Dialogue: 0,0:02:37.24,0:02:39.49,Main01,Tsu,0000,0000,0000,,{\an8}The other lady of Yoshiwara,
+Dialogue: 0,0:02:39.49,0:02:41.09,Main01,Tsu,0000,0000,0000,,{\an8}the courtesan Suzuran.
+Dialogue: 0,0:02:41.25,0:02:42.57,Main01,Gin,0000,0000,0000,,Why is she legendary?
+Dialogue: 0,0:02:42.57,0:02:43.67,Main01,Gin,0000,0000,0000,,Is she a descendant of Erdrick?
+Dialogue: 0,0:02:43.67,0:02:45.33,Main01,Gin,0000,0000,0000,,From Hand of the Heavenly Courtesan?
+Dialogue: 0,0:02:45.33,0:02:47.41,Main01,Hino,0000,0000,0000,,I'm not talking about Nera.
+Dialogue: 0,0:02:47.41,0:02:49.49,Main01,Gin,0000,0000,0000,,Nera? I was talking about Bianca.
+Dialogue: 0,0:02:49.49,0:02:51.10,Main01,Hino,0000,0000,0000,,Don't forget about Debora.
+Dialogue: 0,0:02:51.10,0:02:52.10,Main01,Tsu,0000,0000,0000,,Uh, none of them matter.
+Dialogue: 0,0:02:53.21,0:02:54.47,Main01,Hino,0000,0000,0000,,The courtesan Suzuran.
+Dialogue: 0,0:02:55.01,0:02:57.61,Main01,Hino,0000,0000,0000,,Her beauty was said \Nto come from the heavens.
+Dialogue: 0,0:02:57.61,0:03:01.52,Main01,Hino,0000,0000,0000,,No one could rival her \Nin song or dance.
+Dialogue: 0,0:03:01.52,0:03:05.06,Main01,Hino,0000,0000,0000,,Many elite officials sought Suzuran's \Nfavor by offering her great wealth,
+Dialogue: 0,0:03:05.06,0:03:08.62,Main01,Hino,0000,0000,0000,,but most were sent home \Nafter a cup of tea.
+Dialogue: 0,0:03:08.62,0:03:12.34,Main01,Gin,0000,0000,0000,,Sounds like she was beautiful \Nenough to topple nations.
+Dialogue: 0,0:03:12.34,0:03:15.18,Main01,Gin,0000,0000,0000,,The other lady of Yoshiwara \Nisn't toppling nations
+Dialogue: 0,0:03:15.18,0:03:17.67,Main01,,0000,0000,0000,,so much as toppling from \Nthe weight of her makeup.
+Dialogue: 0,0:03:17.67,0:03:19.10,Main01,Hino,0000,0000,0000,,Oh, sorry.
+Dialogue: 0,0:03:19.10,0:03:20.19,Main01,Hino,0000,0000,0000,,My hand slipped.
+Dialogue: 0,0:03:20.19,0:03:21.51,Main01,Hino,0000,0000,0000,,Must be because our nation \Nis toppling over.
+Dialogue: 0,0:03:21.83,0:03:24.76,Main01,Gin,0000,0000,0000,,But it sounds like she's \Nno longer around.
+Dialogue: 0,0:03:25.13,0:03:28.17,Main01,Gin,0000,0000,0000,,I would have liked to \Nenjoy her company once.
+Dialogue: 0,0:03:28.17,0:03:30.47,Main01,Hino,0000,0000,0000,,You're more than welcome.
+Dialogue: 0,0:03:31.44,0:03:33.00,Main01,Hino,0000,0000,0000,,You're such a fool.
+Dialogue: 0,0:03:33.46,0:03:36.02,Main01,Hino,0000,0000,0000,,The legendary courtesan was \Nthe one who invited you here.
+Dialogue: 0,0:03:36.83,0:03:40.40,Main01,Hino,0000,0000,0000,,She wants to meet the \Nsavior of Yoshiwara.
+Dialogue: 0,0:03:40.40,0:03:46.41,Ep Title,EpTitle,0000,0000,0000,,Courtesan Turns the Tables
+Dialogue: 0,0:03:49.39,0:03:51.61,Main01,Gin,0000,0000,0000,,This should be good enough?
+Dialogue: 0,0:03:51.61,0:03:53.27,Main01,Gin,0000,0000,0000,,But wait...
+Dialogue: 0,0:03:53.27,0:03:54.22,Main01,Gin,0000,0000,0000,,Maybe I should...
+Dialogue: 0,0:03:54.22,0:03:55.29,Main01,Tsu,0000,0000,0000,,It doesn't matter!
+Dialogue: 0,0:03:55.73,0:03:57.46,Main01,Tsu,0000,0000,0000,,Aren't you getting ahead of yourself?
+Dialogue: 0,0:03:57.46,0:03:59.06,Main01,Gin,0000,0000,0000,,This is important though.
+Dialogue: 0,0:03:59.06,0:04:01.07,Main01,Gin,0000,0000,0000,,We're talking about a \Nlegendary courtesan.
+Dialogue: 0,0:04:01.07,0:04:04.08,Main01,Gin,0000,0000,0000,,If I screw something up, this won't \Nbe a Yoshiwara night anymore!
+Dialogue: 0,0:04:04.08,0:04:05.00,Main01,Gin,0000,0000,0000,,It'll be Tsukiji instead!
+Dialogue: 0,0:04:05.00,0:04:06.18,Main01,Gin,0000,0000,0000,,I'll turn into a dead fish!
+Dialogue: 0,0:04:06.78,0:04:10.18,Main01,Tsu,0000,0000,0000,,Don't worry. Nothing like \Nthat is going to happen.
+Dialogue: 0,0:04:11.44,0:04:14.65,Main01,A,0000,0000,0000,,Lady Suzuran has arrived!
+Dialogue: 0,0:04:14.65,0:04:16.11,Main01,Hino,0000,0000,0000,,Oh, she's here.
+Dialogue: 0,0:04:20.24,0:04:21.54,Main01,,0000,0000,0000,,Here she comes...
+Dialogue: 0,0:04:21.54,0:04:23.45,Main01,Gin,0000,0000,0000,,Here she comes! Here she comes!
+Dialogue: 0,0:04:23.70,0:04:26.94,Main01,Suzu,0000,0000,0000,,H-Hello.
+Dialogue: 0,0:04:28.84,0:04:31.01,Main01,Suzu,0000,0000,0000,,It is an honor to meet you.
+Dialogue: 0,0:04:31.01,0:04:34.32,Main01,Suzu,0000,0000,0000,,I am Su-Suzura...
+Dialogue: 0,0:04:34.32,0:04:34.83,Main01,Suzu,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:36.57,0:04:39.34,Main01,Suzu,0000,0000,0000,,Who am I?
+Dialogue: 0,0:04:39.59,0:04:40.95,Main01,Hino,0000,0000,0000,,Allow me to introduce you.
+Dialogue: 0,0:04:40.95,0:04:44.34,Main01,Hino,0000,0000,0000,,This is the legendary \Ncourtesan, our elder.
+Dialogue: 0,0:04:44.96,0:04:47.01,Main01,Hino,0000,0000,0000,,The courtesan Lady Suzuran.
+Dialogue: 0,0:04:54.13,0:04:55.92,Main01,Tsu,0000,0000,0000,,Hey, where do you think you're going?
+Dialogue: 0,0:04:55.92,0:04:57.09,Main01,Gin,0000,0000,0000,,Just over to Tsukiji.
+Dialogue: 0,0:04:57.56,0:04:58.44,Main01,Gin,0000,0000,0000,,Er, sorry.
+Dialogue: 0,0:04:58.44,0:05:01.52,Main01,Gin,0000,0000,0000,,I heard she was a courtesan, but she \Nwas toppling more than I thought.
+Dialogue: 0,0:05:01.52,0:05:03.73,Main01,Gin,0000,0000,0000,,I didn't think she would be \Ncompletely toppled over.
+Dialogue: 0,0:05:03.73,0:05:05.84,Main01,Gin,0000,0000,0000,,You said that this is \Nthe legendary what?
+Dialogue: 0,0:05:05.84,0:05:06.64,Main01,Gin,0000,0000,0000,,Lady Boomerang?
+Dialogue: 0,0:05:06.64,0:05:07.91,Main01,Tsu,0000,0000,0000,,Lady Suzuran.
+Dialogue: 0,0:05:09.07,0:05:11.08,Main01,Gin,0000,0000,0000,,You girls are mean.
+Dialogue: 0,0:05:11.08,0:05:14.36,Main01,Gin,0000,0000,0000,,You made it sound like she \Nwas working with you.
+Dialogue: 0,0:05:14.36,0:05:18.33,Main01,Suzu,0000,0000,0000,,U-Um, I'm still on the job.
+Dialogue: 0,0:05:18.33,0:05:18.92,Main01,Gin,0000,0000,0000,,What?!
+Dialogue: 0,0:05:18.92,0:05:21.01,Main01,Suzu,0000,0000,0000,,I don't mean to brag,
+Dialogue: 0,0:05:21.01,0:05:25.95,Main01,,0000,0000,0000,,but I've been working here since before \NYoshiwara moved underground.
+Dialogue: 0,0:05:25.95,0:05:28.93,Main01,Gin,0000,0000,0000,,You're the one who's going \Nto be put underground soon!
+Dialogue: 0,0:05:28.93,0:05:30.87,Main01,Suzu,0000,0000,0000,,I may be older now,
+Dialogue: 0,0:05:30.87,0:05:34.63,Main01,Suzu,0000,0000,0000,,but my technique is just as \Ngood as those younger girls!
+Dialogue: 0,0:05:35.95,0:05:38.02,Main01,Gin,0000,0000,0000,,What kind of technique is this?!
+Dialogue: 0,0:05:38.74,0:05:41.86,Main01,Suzu,0000,0000,0000,,Please come over here, savior...
+Dialogue: 0,0:05:43.00,0:05:43.81,Main01,Suzu,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:43.81,0:05:45.45,Main01,Suzu,0000,0000,0000,,Who are you?
+Dialogue: 0,0:05:45.45,0:05:46.78,Main01,Gin,0000,0000,0000,,Sakata Gintoki!
+Dialogue: 0,0:05:47.56,0:05:51.65,Main01,Suzu,0000,0000,0000,,Oh, I wanted to thank you.
+Dialogue: 0,0:05:53.35,0:05:56.54,Main01,Suzu,0000,0000,0000,,Please drink until you knock \Nyourself out tonight.
+Dialogue: 0,0:05:57.22,0:05:59.52,Main01,Gin,0000,0000,0000,,This lady's spilling the whole bottle!
+Dialogue: 0,0:06:00.07,0:06:02.15,Main01,Suzu,0000,0000,0000,,Huh? It's empty.
+Dialogue: 0,0:06:02.15,0:06:03.45,Main01,Suzu,0000,0000,0000,,You drink fast.
+Dialogue: 0,0:06:03.45,0:06:05.44,Main01,Gin,0000,0000,0000,,Are you listening to me, lady?!
+Dialogue: 0,0:06:05.44,0:06:08.80,Main01,Suzu,0000,0000,0000,,Please knock yourself out tonight.
+Dialogue: 0,0:06:10.33,0:06:13.31,Main01,Gin,0000,0000,0000,,Lady, you've knocked yourself \Nout, so can I go?!
+Dialogue: 0,0:06:15.10,0:06:17.68,Main01,Hino,0000,0000,0000,,Behold Lady Suzuran's famous dancing.
+Dialogue: 0,0:06:17.68,0:06:19.40,Main01,Hino,0000,0000,0000,,Look at her break dance.
+Dialogue: 0,0:06:19.40,0:06:21.26,Main01,Gin,0000,0000,0000,,Wait, she's break dancing?
+Dialogue: 0,0:06:21.26,0:06:23.57,Main01,Gin,0000,0000,0000,,It looks like she's having a breakdown!
+Dialogue: 0,0:06:23.57,0:06:25.26,Main01,Gin,0000,0000,0000,,This is bad!
+Dialogue: 0,0:06:25.26,0:06:26.61,Main01,Gin,0000,0000,0000,,Should we call an ambulance?
+Dialogue: 0,0:06:26.61,0:06:28.79,Main01,Suzu,0000,0000,0000,,Y-You're too hasty.
+Dialogue: 0,0:06:28.79,0:06:30.96,Main01,Suzu,0000,0000,0000,,Why don't we get to bed then?
+Dialogue: 0,0:06:30.96,0:06:32.12,Main01,Gin,0000,0000,0000,,No!
+Dialogue: 0,0:06:32.12,0:06:33.74,Main01,Hino,0000,0000,0000,,Here is your bed.
+Dialogue: 0,0:06:35.25,0:06:36.79,Main01,Gin,0000,0000,0000,,What kind of bed is that?!
+Dialogue: 0,0:06:38.49,0:06:42.37,Main01,Suzu,0000,0000,0000,,I-I truly enjoyed our \Ntime together today.
+Dialogue: 0,0:06:42.37,0:06:43.18,Main01,Gin,0000,0000,0000,,What?!
+Dialogue: 0,0:06:43.18,0:06:44.99,Main01,Gin,0000,0000,0000,,You don't look like \Nyou enjoyed yourself!
+Dialogue: 0,0:06:44.99,0:06:49.67,Main01,Suzu,0000,0000,0000,,Thank you for being my last visitor.
+Dialogue: 0,0:06:49.67,0:06:51.05,Main01,Gin,0000,0000,0000,,Don't jinx yourself!
+Dialogue: 0,0:06:51.86,0:06:53.81,Main01,Suzu,0000,0000,0000,,You're so kind.
+Dialogue: 0,0:06:54.56,0:06:58.67,Main01,Suzu,0000,0000,0000,,You're showing so much \Nconcern for an old woman.
+Dialogue: 0,0:07:00.63,0:07:03.49,Main01,Suzu,0000,0000,0000,,Can you make me a promise then?
+Dialogue: 0,0:07:06.61,0:07:10.07,Main01,Suzu,0000,0000,0000,,Come see me again when the moon rises.
+Dialogue: 0,0:07:11.63,0:07:14.36,Main01,Suzu,0000,0000,0000,,I'll be waiting
+Dialogue: 0,0:07:15.00,0:07:16.42,Main01,Suzu,0000,0000,0000,,for the moon to rise
+Dialogue: 0,0:07:17.87,0:07:18.80,Main01,Suzu,0000,0000,0000,,forever.
+Dialogue: 0,0:07:27.09,0:07:29.12,Main01,Hino,0000,0000,0000,,That's known as a lovers' pact.
+Dialogue: 0,0:07:29.67,0:07:32.41,Main01,Hino,0000,0000,0000,,Long ago, the women of Yoshiwara would
+Dialogue: 0,0:07:32.41,0:07:35.05,Main01,,0000,0000,0000,,exchange vows of love \Nwith their customers.
+Dialogue: 0,0:07:35.33,0:07:37.52,Main01,Hino,0000,0000,0000,,My love belongs only to you.
+Dialogue: 0,0:07:37.94,0:07:39.93,Main01,Hino,0000,0000,0000,,I will never be unfaithful to you.
+Dialogue: 0,0:07:40.97,0:07:47.30,Main01,Hino,0000,0000,0000,,As proof, the women would offer \Ntheir hair, nails, and blood.
+Dialogue: 0,0:07:48.13,0:07:50.51,Main01,Hino,0000,0000,0000,,Sadly, most of the \Nwomen made these pacts
+Dialogue: 0,0:07:50.51,0:07:55.62,Main01,,0000,0000,0000,,to squeeze more money \Nfrom their customers.
+Dialogue: 0,0:07:56.59,0:07:59.07,Main01,Gin,0000,0000,0000,,She's as good as they claim, then.
+Dialogue: 0,0:07:59.07,0:08:02.50,Main01,Gin,0000,0000,0000,,That old woman had a man's hair \Nwrapped around her pinky.
+Dialogue: 0,0:08:03.36,0:08:05.50,Main01,Hino,0000,0000,0000,,She refused to retire,
+Dialogue: 0,0:08:05.50,0:08:07.06,Main01,Hino,0000,0000,0000,,even after she no longer had
+Dialogue: 0,0:08:07.06,0:08:08.80,Main01,,0000,0000,0000,,any customers and \NYoshiwara was set free.
+Dialogue: 0,0:08:09.32,0:08:11.44,Main01,Hino,0000,0000,0000,,She offered to do anything \Nif we let her stay here.
+Dialogue: 0,0:08:12.05,0:08:16.80,Main01,Hino,0000,0000,0000,,And she intends to spend the rest \Nof her life here as a prostitute.
+Dialogue: 0,0:08:17.88,0:08:20.16,Main01,Hino,0000,0000,0000,,She made a promise long ago
+Dialogue: 0,0:08:20.16,0:08:22.52,Main01,,0000,0000,0000,,when Yoshiwara was still on the surface.
+Dialogue: 0,0:08:23.44,0:08:25.63,Main01,Hino,0000,0000,0000,,A promise to leave \NYoshiwara together...
+Dialogue: 0,0:08:27.28,0:08:29.12,Main01,Hino,0000,0000,0000,,Judging from her behavior,
+Dialogue: 0,0:08:29.12,0:08:32.24,Main01,,0000,0000,0000,,she must have mistaken you for that man.
+Dialogue: 0,0:08:32.73,0:08:33.84,Main01,Tsu,0000,0000,0000,,Do you mean that
+Dialogue: 0,0:08:33.84,0:08:36.32,Main01,,0000,0000,0000,,Suzuran has been waiting here \Nall this time for that man?
+Dialogue: 0,0:08:36.32,0:08:37.45,Main01,Hino,0000,0000,0000,,I don't know.
+Dialogue: 0,0:08:37.45,0:08:39.52,Main01,Hino,0000,0000,0000,,But Yoshiwara has always been a place
+Dialogue: 0,0:08:39.52,0:08:41.45,Main01,,0000,0000,0000,,where men and women lie to each other.
+Dialogue: 0,0:08:41.77,0:08:43.64,Main01,Hino,0000,0000,0000,,Everyone knows that these dreams
+Dialogue: 0,0:08:43.64,0:08:45.62,Main01,,0000,0000,0000,,will not last beyond morning.
+Dialogue: 0,0:08:45.96,0:08:47.83,Main01,Hino,0000,0000,0000,,But we all continue to act our roles.
+Dialogue: 0,0:08:48.42,0:08:50.43,Main01,Hino,0000,0000,0000,,It's your own fault if you \Nchoose to believe that dream.
+Dialogue: 0,0:08:51.58,0:08:55.20,Main01,Hino,0000,0000,0000,,But some may not wish to \Nawaken from that dream.
+Dialogue: 0,0:08:55.99,0:09:00.61,Main01,Hino,0000,0000,0000,,She wishes to sleep inside her \Ndream, under the moonlight.
+Dialogue: 0,0:09:03.07,0:09:04.19,Main01,A,0000,0000,0000,,Suzuran?
+Dialogue: 0,0:09:04.19,0:09:06.94,Main01,A,0000,0000,0000,,My late lech of a grandpa \Nmentioned her before.
+Dialogue: 0,0:09:07.15,0:09:08.48,Main01,B,0000,0000,0000,,Yes, I remember her.
+Dialogue: 0,0:09:08.48,0:09:10.53,Main01,B,0000,0000,0000,,She was a fine woman.
+Dialogue: 0,0:09:10.53,0:09:12.10,Main01,B,0000,0000,0000,,But she was out of my league.
+Dialogue: 0,0:09:12.95,0:09:15.82,Main01,B,0000,0000,0000,,I would have loved a chance \Nwith Suzuki Ranran.
+Dialogue: 0,0:09:16.37,0:09:19.03,Main01,C,0000,0000,0000,,Yes, she was incredibly popular.
+Dialogue: 0,0:09:19.03,0:09:21.32,Main01,C,0000,0000,0000,,But personally, I was \Nmore of a Miki-chan fan
+Dialogue: 0,0:09:21.32,0:09:22.61,Main01,,0000,0000,0000,,than a Ran-chan fan
+Dialogue: 0,0:09:22.61,0:09:23.75,Main01,C,0000,0000,0000,,when it came to the Candies.
+Dialogue: 0,0:09:24.14,0:09:26.92,Main01,D,0000,0000,0000,,I would totally lay Pink Lady.
+Dialogue: 0,0:09:27.25,0:09:29.92,Main01,E,0000,0000,0000,,I would totally lay you.
+Dialogue: 0,0:09:30.39,0:09:34.06,Main01,F,0000,0000,0000,,I just want one last lay, \NI don't care who...
+Dialogue: 0,0:09:35.30,0:09:37.14,Main01,Gin,0000,0000,0000,,I'm a fan of Ketsuno Ana.
+Dialogue: 0,0:09:37.14,0:09:38.93,Main01,Gin,0000,0000,0000,,Wait, I don't mean that like it sounded...
+Dialogue: 0,0:09:39.64,0:09:40.65,Main01,Gin,0000,0000,0000,,Kshatriya!
+Dialogue: 0,0:09:41.23,0:09:44.61,Main01,Tsu,0000,0000,0000,,Hey, what do you think you're doing?
+Dialogue: 0,0:09:44.61,0:09:45.93,Main01,Gin,0000,0000,0000,,Why are you sneaking around
+Dialogue: 0,0:09:45.93,0:09:48.06,Main01,,0000,0000,0000,,asking old men who they want to lay?
+Dialogue: 0,0:09:48.06,0:09:50.56,Main01,Tsu,0000,0000,0000,,It's not my fault those perverted \Nleches got distracted!
+Dialogue: 0,0:09:51.02,0:09:54.76,Main01,Gin,0000,0000,0000,,Are you looking for the \Nold woman's darling?
+Dialogue: 0,0:09:56.01,0:09:58.60,Main01,Gin,0000,0000,0000,,Are you girly enough to think that the
+Dialogue: 0,0:09:58.60,0:10:00.95,Main01,,0000,0000,0000,,man still remembers an ancient promise?
+Dialogue: 0,0:10:00.95,0:10:02.85,Main01,Tsu,0000,0000,0000,,Who are you calling girly?!
+Dialogue: 0,0:10:02.85,0:10:04.91,Main01,Tsu,0000,0000,0000,,I'm the leader of the \NHyakka, Lady Death!
+Dialogue: 0,0:10:05.33,0:10:09.18,Main01,Tsu,0000,0000,0000,,I came to the surface for a \Nnew pipe, but I got lost,
+Dialogue: 0,0:10:09.18,0:10:10.90,Main01,,0000,0000,0000,,and when I asked for directions...
+Dialogue: 0,0:10:10.90,0:10:11.59,Main01,Tsu,0000,0000,0000,,Um...
+Dialogue: 0,0:10:11.59,0:10:12.50,Main01,A,0000,0000,0000,,Boss!
+Dialogue: 0,0:10:12.84,0:10:14.81,Main01,A,0000,0000,0000,,We have information on Suzuran!
+Dialogue: 0,0:10:14.81,0:10:15.76,Main01,Tsu,0000,0000,0000,,Shut up!
+Dialogue: 0,0:10:15.76,0:10:18.22,Main01,Gin,0000,0000,0000,,Huh? Why are you telling \Nthem to shut up?
+Dialogue: 0,0:10:18.22,0:10:20.59,Main01,Gin,0000,0000,0000,,Did you come to the surface to buy \Ngirly stuff to make yourself pretty?
+Dialogue: 0,0:10:20.59,0:10:21.76,Main01,Gin,0000,0000,0000,,You're such a girl.
+Dialogue: 0,0:10:21.76,0:10:25.29,Main01,Tsu,0000,0000,0000,,No! I'm buying non-girly stuff \Nto make myself not pretty!
+Dialogue: 0,0:10:25.29,0:10:26.54,Main01,Tsu,0000,0000,0000,,Get back to shopping!
+Dialogue: 0,0:10:26.54,0:10:27.90,Main01,A,0000,0000,0000,,Huh? Shopping?
+Dialogue: 0,0:10:27.90,0:10:28.48,Main01,B,0000,0000,0000,,For what?
+Dialogue: 0,0:10:28.48,0:10:30.98,Main01,Gin,0000,0000,0000,,Yeah, you women are hopeless.
+Dialogue: 0,0:10:30.98,0:10:34.30,Main01,Gin,0000,0000,0000,,That old woman was hoodwinked.
+Dialogue: 0,0:10:34.30,0:10:37.53,Main01,Gin,0000,0000,0000,,I feel sorry for you women.
+Dialogue: 0,0:10:37.53,0:10:38.61,Main01,Shin,0000,0000,0000,,Gin-san!
+Dialogue: 0,0:10:38.61,0:10:41.12,Main01,Shin,0000,0000,0000,,We have information on the old lady!
+Dialogue: 0,0:10:41.12,0:10:42.12,Main01,Gin,0000,0000,0000,,Shut up!
+Dialogue: 0,0:10:42.42,0:10:43.54,Main01,Tsu,0000,0000,0000,,Oh, I see.
+Dialogue: 0,0:10:43.54,0:10:44.49,Main01,Tsu,0000,0000,0000,,Fancy that.
+Dialogue: 0,0:10:44.49,0:10:46.41,Main01,Tsu,0000,0000,0000,,So you're also doing \Nsome secret shopping.
+Dialogue: 0,0:10:46.41,0:10:48.85,Main01,Gin,0000,0000,0000,,I'm buying manly stuff!
+Dialogue: 0,0:10:48.85,0:10:50.30,Main01,Gin,0000,0000,0000,,To make my curly hair manly!
+Dialogue: 0,0:10:50.30,0:10:52.41,Main01,Gin,0000,0000,0000,,So shut up!
+Dialogue: 0,0:10:52.41,0:10:53.67,Main01,Tsu,0000,0000,0000,,You shut up!
+Dialogue: 0,0:10:53.87,0:10:55.47,Main01,Shin,0000,0000,0000,,Can you cut it out?
+Dialogue: 0,0:10:55.47,0:10:57.23,Main01,Shin,0000,0000,0000,,Both of you are so stubborn.
+Dialogue: 0,0:10:57.23,0:10:59.67,Main01,Kag,0000,0000,0000,,Gin-chan and Tsu-ki \Nboth want to help the
+Dialogue: 0,0:10:59.67,0:11:02.87,Main01,,0000,0000,0000,,old lady meet her darling \Nbefore she dies, right?
+Dialogue: 0,0:11:02.87,0:11:03.61,Main01,Both,0000,0000,0000,,What?
+Dialogue: 0,0:11:04.05,0:11:05.72,Main01,Shin,0000,0000,0000,,Huh? Don't you?
+Dialogue: 0,0:11:06.01,0:11:08.05,Main01,Tsu,0000,0000,0000,,I just wanted to make that man pay
+Dialogue: 0,0:11:08.05,0:11:11.12,Main01,,0000,0000,0000,,for toying with the heart \Nof a Yoshiwara woman.
+Dialogue: 0,0:11:11.56,0:11:13.15,Main01,Tsu,0000,0000,0000,,When Suzuran dies,
+Dialogue: 0,0:11:13.69,0:11:15.66,Main01,Tsu,0000,0000,0000,,that man will also die.
+Dialogue: 0,0:11:15.66,0:11:18.24,Main01,Shin,0000,0000,0000,,This woman's up to no good!
+Dialogue: 0,0:11:18.50,0:11:20.94,Main01,Gin,0000,0000,0000,,I made her a promise.
+Dialogue: 0,0:11:21.32,0:11:22.74,Main01,Gin,0000,0000,0000,,If I find the man,
+Dialogue: 0,0:11:23.55,0:11:25.72,Main01,Gin,0000,0000,0000,,she'll give me all of her wealth.
+Dialogue: 0,0:11:25.72,0:11:26.90,Main01,Shin,0000,0000,0000,,Don't lie!
+Dialogue: 0,0:11:26.90,0:11:29.03,Main01,Shin,0000,0000,0000,,Don't make up promises!
+Dialogue: 0,0:11:29.03,0:11:32.21,Main01,Shin,0000,0000,0000,,So both of you are plotting evil!
+Dialogue: 0,0:11:32.50,0:11:33.54,Main01,Tsu,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:11:33.54,0:11:35.16,Main01,Tsu,0000,0000,0000,,I'm going to end his life.
+Dialogue: 0,0:11:35.17,0:11:37.71,Main01,Gin,0000,0000,0000,,I won't let that happen. The \Nlady's money will be mine.
+Dialogue: 0,0:11:37.71,0:11:38.96,Main01,Shin,0000,0000,0000,,Hold on! Wait!
+Dialogue: 0,0:11:39.25,0:11:41.21,Main01,Shin,0000,0000,0000,,You need to show more respect, Gin-san!
+Dialogue: 0,0:11:41.21,0:11:44.41,Main01,A,0000,0000,0000,,Respect isn't the only thing \Nyou need to show, boss!
+Dialogue: 0,0:11:44.41,0:11:46.50,Main01,Gin,0000,0000,0000,,Huh? What are you talking about?
+Dialogue: 0,0:11:47.31,0:11:49.52,Main01,Shin,0000,0000,0000,,Well, we were able to obtain
+Dialogue: 0,0:11:49.52,0:11:51.78,Main01,,0000,0000,0000,,information on Suzuran-san's \Nformer customer.
+Dialogue: 0,0:11:51.78,0:11:54.73,Main01,A,0000,0000,0000,,But this customer is big trouble.
+Dialogue: 0,0:11:55.13,0:11:58.08,Main01,Shin,0000,0000,0000,,Long ago, Suzuran-san had many wealthy
+Dialogue: 0,0:11:58.08,0:11:59.65,Main01,,0000,0000,0000,,retainers as her customers.
+Dialogue: 0,0:12:00.35,0:12:03.91,Main01,Shin,0000,0000,0000,,But they all suddenly \Nstopped visiting her.
+Dialogue: 0,0:12:04.29,0:12:06.44,Main01,Shin,0000,0000,0000,,It was because of a certain rumor \Ngoing through Yoshiwara.
+Dialogue: 0,0:12:06.83,0:12:09.37,Main01,Shin,0000,0000,0000,,Suzuran-san was the \Nfavorite of that man.
+Dialogue: 0,0:12:09.92,0:12:11.35,Main01,Tsu,0000,0000,0000,,That man?
+Dialogue: 0,0:12:11.35,0:12:12.77,Main01,Tsu,0000,0000,0000,,Who was he?
+Dialogue: 0,0:12:13.71,0:12:14.54,Main01,Shin,0000,0000,0000,,It's the man
+Dialogue: 0,0:12:16.58,0:12:18.22,Main01,Shin,0000,0000,0000,,who lives over there.
+Dialogue: 0,0:12:20.71,0:12:23.30,Main01,Gin,0000,0000,0000,,Shinpachi-kun, are \Nyou saying that...
+Dialogue: 0,0:12:24.85,0:12:26.93,Main01,Shin,0000,0000,0000,,The former shogun.
+Dialogue: 0,0:12:33.22,0:12:35.20,Main01,Gin,0000,0000,0000,,Pachi-boy, can I ask you a question?
+Dialogue: 0,0:12:35.20,0:12:37.31,Main01,Gin,0000,0000,0000,,What will happen to us if \Nwe're caught sneaking
+Dialogue: 0,0:12:37.31,0:12:39.99,Main01,,0000,0000,0000,,into the castle to see\Nthe former shogun?
+Dialogue: 0,0:12:39.99,0:12:41.08,Main01,Shin,0000,0000,0000,,We'll be executed.
+Dialogue: 0,0:12:41.08,0:12:44.27,Main01,Gin,0000,0000,0000,,What will happen if we wait for \Nthe shogun to step outside?
+Dialogue: 0,0:12:44.27,0:12:45.11,Main01,Shin,0000,0000,0000,,We'll be executed.
+Dialogue: 0,0:12:45.58,0:12:48.84,Main01,Gin,0000,0000,0000,,Between the old former courtesan and the
+Dialogue: 0,0:12:48.84,0:12:50.94,Main01,,0000,0000,0000,,old former shogun, who has more money?
+Dialogue: 0,0:12:51.29,0:12:53.36,Main01,Shin,0000,0000,0000,,Should be the shogun.
+Dialogue: 0,0:12:53.77,0:12:56.00,Main01,Gin,0000,0000,0000,,Okay, I have a plan.
+Dialogue: 0,0:12:56.29,0:12:59.72,Main01,Gin,0000,0000,0000,,Tsukuyo will sneak past the \Nguards into the palace.
+Dialogue: 0,0:12:59.72,0:13:01.53,Main01,Gin,0000,0000,0000,,Then I report her to the guards and
+Dialogue: 0,0:13:01.53,0:13:03.84,Main01,,0000,0000,0000,,receive a reward from the shogun.
+Dialogue: 0,0:13:03.84,0:13:05.01,Main01,Gin,0000,0000,0000,,A perfect plan!
+Dialogue: 0,0:13:06.65,0:13:09.34,Main01,Tsu,0000,0000,0000,,This seems more perfect to me.
+Dialogue: 0,0:13:09.34,0:13:11.04,Main01,Gin,0000,0000,0000,,Calm down, Tsu-ki.
+Dialogue: 0,0:13:11.04,0:13:13.28,Main01,Gin,0000,0000,0000,,We're talking about the former shogun.
+Dialogue: 0,0:13:13.28,0:13:16.30,Main01,Gin,0000,0000,0000,,It'll be hard enough to announce \Nourselves, let alone meet him.
+Dialogue: 0,0:13:16.30,0:13:18.37,Main01,Gin,0000,0000,0000,,What would we say if we met him, anyway?
+Dialogue: 0,0:13:19.00,0:13:21.60,Main01,Tsu,0000,0000,0000,,That his former lover is \Nwaiting for him in hell.
+Dialogue: 0,0:13:21.60,0:13:23.17,Main01,Gin,0000,0000,0000,,This is bad.
+Dialogue: 0,0:13:23.17,0:13:26.42,Main01,,0000,0000,0000,,She's going to get us arrested \Nfor assassinating the shogun!
+Dialogue: 0,0:13:26.42,0:13:28.39,Main01,Shin,0000,0000,0000,,So we won't be able to sneak inside?
+Dialogue: 0,0:13:28.39,0:13:30.90,Main01,Gin,0000,0000,0000,,They've got guards everywhere.
+Dialogue: 0,0:13:30.90,0:13:32.04,Main01,Gin,0000,0000,0000,,Something must have happened.
+Dialogue: 0,0:13:32.57,0:13:33.97,Main01,Gin,0000,0000,0000,,Besides, even if that
+Dialogue: 0,0:13:33.97,0:13:36.71,Main01,,0000,0000,0000,,old woman used to be the \Ntop courtesan in Edo,
+Dialogue: 0,0:13:36.71,0:13:39.64,Main01,Gin,0000,0000,0000,,the shogun wouldn't go to \NYoshiwara to visit her.
+Dialogue: 0,0:13:40.64,0:13:43.38,Main01,Shin,0000,0000,0000,,The shogun was Suzuran-san's customer
+Dialogue: 0,0:13:43.38,0:13:46.09,Main01,,0000,0000,0000,,before he became the shogun.
+Dialogue: 0,0:13:46.63,0:13:48.55,Main01,Shin,0000,0000,0000,,And didn't you know, Gin-san?
+Dialogue: 0,0:13:49.43,0:13:52.65,Main01,Shin,0000,0000,0000,,You haven't heard about the \N13th shogun, Sadasada-sama?
+Dialogue: 0,0:13:54.06,0:13:55.98,Main01,Shin,0000,0000,0000,,When the Amanto attacked,
+Dialogue: 0,0:13:55.98,0:14:00.17,Main01,,0000,0000,0000,,he replaced the 12th shogun \Nwho collapsed from the stress.
+Dialogue: 0,0:14:00.96,0:14:04.61,Main01,Shin,0000,0000,0000,,While he was called a traitor \Nfor opening up control,
+Dialogue: 0,0:14:04.61,0:14:07.27,Main01,Shin,0000,0000,0000,,he's considered a brilliant \Nleader who rebuilt the bakufu.
+Dialogue: 0,0:14:07.82,0:14:09.61,Main01,Shin,0000,0000,0000,,Even after abdicating,
+Dialogue: 0,0:14:09.61,0:14:12.99,Main01,,0000,0000,0000,,he holds incredible influence \Nand serves as an advisor.
+Dialogue: 0,0:14:13.71,0:14:15.83,Main01,Shin,0000,0000,0000,,He was known to be a player
+Dialogue: 0,0:14:15.83,0:14:19.25,Main01,Shin,0000,0000,0000,,with the highest number of wives \Never recorded in the family.
+Dialogue: 0,0:14:19.75,0:14:23.93,Main01,Gin,0000,0000,0000,,So he went Abarenbo Shogun \Nevery Saturday at 8 PM?
+Dialogue: 0,0:14:23.93,0:14:27.59,Main01,Shin,0000,0000,0000,,He went Abarenbo Shogun \Nevery night at 8 PM.
+Dialogue: 0,0:14:30.43,0:14:34.85,Main01,Tsu,0000,0000,0000,,He used his position to toy with \NSuzuran, then he tossed her aside.
+Dialogue: 0,0:14:35.74,0:14:38.19,Main01,Tsu,0000,0000,0000,,My target is the former shogun.
+Dialogue: 0,0:14:38.19,0:14:40.10,Main01,Gin,0000,0000,0000,,Could you not use the word target?
+Dialogue: 0,0:14:40.58,0:14:42.56,Main01,Tsu,0000,0000,0000,,I understand that this is reckless.
+Dialogue: 0,0:14:42.56,0:14:44.20,Main01,Tsu,0000,0000,0000,,Nevertheless, I must go.
+Dialogue: 0,0:14:44.20,0:14:44.65,Main01,Gin,0000,0000,0000,,Hey!
+Dialogue: 0,0:14:45.43,0:14:48.13,Main01,Tsu,0000,0000,0000,,The woman devoted her \Nlife to Yoshiwara.
+Dialogue: 0,0:14:48.59,0:14:51.13,Main01,Tsu,0000,0000,0000,,Yoshiwara must return the favor.
+Dialogue: 0,0:14:51.77,0:14:54.79,Main01,Tsu,0000,0000,0000,,She no longer needs the moon to \Nshow her dreams that won't last.
+Dialogue: 0,0:14:55.83,0:14:59.08,Main01,Tsu,0000,0000,0000,,The last moon she sees will \Nbe when her dream comes true.
+Dialogue: 0,0:15:00.55,0:15:01.58,Main01,Shin,0000,0000,0000,,Tsukuyo-san...
+Dialogue: 0,0:15:03.71,0:15:05.30,Main01,Kag,0000,0000,0000,,Wait, Tsu-ki!
+Dialogue: 0,0:15:06.09,0:15:09.09,Main01,Kag,0000,0000,0000,,There's nothing reckless \Nabout that dream.
+Dialogue: 0,0:15:13.61,0:15:16.56,Main01,A,0000,0000,0000,,Open the gates!
+Dialogue: 0,0:15:22.40,0:15:24.22,Main01,B,0000,0000,0000,,Attention!
+Dialogue: 0,0:15:24.22,0:15:26.78,Main01,B,0000,0000,0000,,Princess Soyo has arrived!
+Dialogue: 0,0:15:26.78,0:15:27.91,Main01,Soyo,0000,0000,0000,,Kagura-chan!
+Dialogue: 0,0:15:27.91,0:15:29.65,Main01,B,0000,0000,0000,,Your Highness, behave yourself!
+Dialogue: 0,0:15:29.65,0:15:31.33,Main01,Kag,0000,0000,0000,,Soyo-chan!
+Dialogue: 0,0:15:31.33,0:15:32.36,Main01,Soyo,0000,0000,0000,,It's been forever!
+Dialogue: 0,0:15:32.86,0:15:34.28,Main01,Soyo,0000,0000,0000,,How have you been?
+Dialogue: 0,0:15:34.71,0:15:35.92,Main01,Kag,0000,0000,0000,,I'm doing just fine.
+Dialogue: 0,0:15:35.92,0:15:37.95,Main01,Kag,0000,0000,0000,,And you look like \Nyou're in good shape.
+Dialogue: 0,0:15:38.45,0:15:41.75,Main01,B,0000,0000,0000,,Your Highness, it's not proper \Nto embrace someone in public.
+Dialogue: 0,0:15:38.45,0:15:41.75,Main01,Soyo,0000,0000,0000,,{\an8}I've been so lonely since \Nthe last time you came.
+Dialogue: 0,0:15:41.75,0:15:44.25,Main01,Soyo,0000,0000,0000,,Oh, did you bring me the new \Nsukonbu like you promised?
+Dialogue: 0,0:15:44.25,0:15:44.96,Main01,Soyo,0000,0000,0000,,Yup!
+Dialogue: 0,0:15:44.96,0:15:46.91,Main01,Gin,0000,0000,0000,,Huh? What's that? Who's that?
+Dialogue: 0,0:15:46.91,0:15:48.23,Main01,Gin,0000,0000,0000,,Clara and Heidi?
+Dialogue: 0,0:15:48.23,0:15:50.08,Main01,Shin,0000,0000,0000,,If my memory serves me right,
+Dialogue: 0,0:15:50.08,0:15:53.02,Main01,,0000,0000,0000,,that's Princess Soyo, the younger \Nsister of the current shogun.
+Dialogue: 0,0:15:53.02,0:15:54.82,Main01,Gin,0000,0000,0000,,If my memory serves me right,
+Dialogue: 0,0:15:54.82,0:15:58.47,Main01,,0000,0000,0000,,the princess wouldn't \Nbe yodeling with Heidi.
+Dialogue: 0,0:15:59.15,0:16:01.56,Main01,Gin,0000,0000,0000,,No way. When did she \Nscore a connection
+Dialogue: 0,0:16:01.56,0:16:03.11,Main01,,0000,0000,0000,,with the princess of this country?
+Dialogue: 0,0:16:03.11,0:16:05.78,Main01,Gin,0000,0000,0000,,When did she become more \Ninfluential than I am?
+Dialogue: 0,0:16:05.78,0:16:07.00,Main01,Gin,0000,0000,0000,,This is how Alm-Onji must have felt.
+Dialogue: 0,0:16:07.00,0:16:09.36,Main01,Gin,0000,0000,0000,,He couldn't be happy for Heidi when
+Dialogue: 0,0:16:09.36,0:16:12.43,Main01,,0000,0000,0000,,she came back from \NFrankfurt all grown up.
+Dialogue: 0,0:16:12.43,0:16:14.74,Main01,Shin,0000,0000,0000,,Alm-Onji wasn't that mean.
+Dialogue: 0,0:16:15.07,0:16:18.85,Main01,Kag,0000,0000,0000,,I brought my friends \Ntoday. Is that okay?
+Dialogue: 0,0:16:18.85,0:16:19.80,Main01,Soyo,0000,0000,0000,,Of course.
+Dialogue: 0,0:16:19.80,0:16:22.54,Main01,Soyo,0000,0000,0000,,Your friends are my friends.
+Dialogue: 0,0:16:22.91,0:16:24.82,Main01,Soyo,0000,0000,0000,,Thank you for coming to visit today.
+Dialogue: 0,0:16:24.82,0:16:25.92,Main01,Soyo,0000,0000,0000,,You must be Gin-chan.
+Dialogue: 0,0:16:25.92,0:16:27.64,Main01,Gin,0000,0000,0000,,Huh? You know me?
+Dialogue: 0,0:16:27.64,0:16:30.99,Main01,Soyo,0000,0000,0000,,Yes, Kagura-chan has \Ntold me all about you.
+Dialogue: 0,0:16:30.99,0:16:32.23,Main01,Soyo,0000,0000,0000,,I'm honored to meet you.
+Dialogue: 0,0:16:32.23,0:16:34.06,Main01,Gin,0000,0000,0000,,N-No, I'm the one who's honored.
+Dialogue: 0,0:16:34.06,0:16:35.89,Main01,Gin,0000,0000,0000,,You've done a lot for Kagura.
+Dialogue: 0,0:16:36.48,0:16:38.09,Main01,Soyo,0000,0000,0000,,You weren't lying about \Nhow shaggy he is.
+Dialogue: 0,0:16:38.09,0:16:40.61,Main01,Gin,0000,0000,0000,,Uh, Kagura-chan? What have \Nyou been telling her?
+Dialogue: 0,0:16:41.17,0:16:43.98,Main01,Soyo,0000,0000,0000,,So the glasses wearing the \Nhuman are Pachi-boy-san?
+Dialogue: 0,0:16:43.98,0:16:45.90,Main01,Shin,0000,0000,0000,,Glasses wearing the human?!
+Dialogue: 0,0:16:45.90,0:16:46.54,Main01,Shin,0000,0000,0000,,That's backwards!
+Dialogue: 0,0:16:46.54,0:16:48.69,Main01,Shin,0000,0000,0000,,What have you been \Ntelling her about me?!
+Dialogue: 0,0:16:48.96,0:16:50.45,Main01,Soyo,0000,0000,0000,,Who is this woman?
+Dialogue: 0,0:16:50.84,0:16:53.82,Main01,Kagura,0000,0000,0000,,She came from Yoshiwara to \Nknock off the shogun...
+Dialogue: 0,0:16:54.90,0:16:57.00,Main01,Soyo,0000,0000,0000,,Yoshiwara? Knock off?
+Dialogue: 0,0:16:57.00,0:16:59.08,Main01,Tsu,0000,0000,0000,,No, I'm... You know...
+Dialogue: 0,0:16:59.42,0:17:02.48,Main01,Gin,0000,0000,0000,,She's a delivery hell girl who came from
+Dialogue: 0,0:17:02.48,0:17:03.75,Main01,,0000,0000,0000,,Yoshiwara to knock out the shogun.
+Dialogue: 0,0:17:03.75,0:17:04.58,Main01,Tsu,0000,0000,0000,,How is that any better?!
+Dialogue: 0,0:17:04.89,0:17:06.73,Main01,Soyo,0000,0000,0000,,So she's a delivery hell girl.
+Dialogue: 0,0:17:06.60,0:17:09.84,Hell,,0000,0000,0000,,Delivery Hell
+Dialogue: 0,0:17:07.21,0:17:09.84,Main01,Tsu,0000,0000,0000,,It still sounds like I'm \Ndelivering him to hell!
+Dialogue: 0,0:17:10.32,0:17:11.44,Main01,Soyo,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:17:11.44,0:17:14.34,Main01,,0000,0000,0000,,You came to visit me, but \Nwe have to sneak around.
+Dialogue: 0,0:17:14.34,0:17:17.30,Main01,Soyo,0000,0000,0000,,Sorry about this, Grampy.
+Dialogue: 0,0:17:17.30,0:17:19.97,Main01,G,0000,0000,0000,,I'm used to your willful behavior.
+Dialogue: 0,0:17:19.97,0:17:23.10,Main01,G,0000,0000,0000,,At least you haven't run \Naway from the palace again.
+Dialogue: 0,0:17:23.32,0:17:25.35,Main01,Shin,0000,0000,0000,,Uh, did something happen?
+Dialogue: 0,0:17:25.57,0:17:28.08,Main01,Soyo,0000,0000,0000,,The palace is currently \Nunder martial law.
+Dialogue: 0,0:17:28.08,0:17:29.97,Main01,G,0000,0000,0000,,Your Highness! That's classified!
+Dialogue: 0,0:17:29.97,0:17:31.98,Main01,Soyo,0000,0000,0000,,We can tell them.
+Dialogue: 0,0:17:32.83,0:17:38.14,Main01,Soyo,0000,0000,0000,,Lately, somebody has been attacking \Nimportant bakufu officials,
+Dialogue: 0,0:17:38.14,0:17:41.62,Main01,Soyo,0000,0000,0000,,so the palace is really \Ntense right now.
+Dialogue: 0,0:17:41.84,0:17:46.48,Main01,Shin,0000,0000,0000,,S-Sorry, it looks like \Nwe came at a bad time.
+Dialogue: 0,0:17:46.48,0:17:47.62,Main01,Soyo,0000,0000,0000,,No, it's perfectly fine.
+Dialogue: 0,0:17:48.15,0:17:52.14,Main01,Soyo,0000,0000,0000,,I couldn't stand the gloomy \Natmosphere much longer.
+Dialogue: 0,0:17:52.14,0:17:55.63,Main01,Sasa,0000,0000,0000,,I see. I have no choice then.
+Dialogue: 0,0:17:56.14,0:17:58.81,Main01,Sasa,0000,0000,0000,,Under normal circumstances, I would \Ntell these visitors to leave,
+Dialogue: 0,0:17:58.81,0:18:01.64,Main01,,0000,0000,0000,,friends of the princess or not.
+Dialogue: 0,0:18:01.86,0:18:03.78,Main01,Sasa,0000,0000,0000,,But I'll make an exception \Nin this case.
+Dialogue: 0,0:18:05.00,0:18:07.65,Main01,Sasa,0000,0000,0000,,Since one of my e-mail buddies is here.
+Dialogue: 0,0:18:07.65,0:18:08.65,Main01,Gin,0000,0000,0000,,Holy!
+Dialogue: 0,0:18:08.65,0:18:10.46,Main01,G,0000,0000,0000,,Sasaki-dono!
+Dialogue: 0,0:18:10.46,0:18:12.24,Main01,G,0000,0000,0000,,Forgive me, these are...
+Dialogue: 0,0:18:12.24,0:18:14.43,Main01,Sasa,0000,0000,0000,,No, it's fine.
+Dialogue: 0,0:18:15.09,0:18:16.91,Main01,Sasa,0000,0000,0000,,Since the Mimawarigumi has been
+Dialogue: 0,0:18:16.91,0:18:18.86,Main01,,0000,0000,0000,,entrusted to protect the palace,
+Dialogue: 0,0:18:18.86,0:18:21.65,Main01,,0000,0000,0000,,the princess is perfectly safe.
+Dialogue: 0,0:18:22.21,0:18:24.03,Main01,Sasa,0000,0000,0000,,And since we've determined
+Dialogue: 0,0:18:24.03,0:18:27.06,Main01,,0000,0000,0000,,that the assailant is most \Nlikely a Joi patriot,
+Dialogue: 0,0:18:27.06,0:18:30.92,Main01,Sasa,0000,0000,0000,,it shouldn't matter if a former \NJoi is allowed inside the palace.
+Dialogue: 0,0:18:31.20,0:18:33.08,Main01,Sasa,0000,0000,0000,,Isn't that right, White Yaksha?
+Dialogue: 0,0:18:33.42,0:18:38.18,email,Caption,0000,0000,0000,,From: Sabu-chan\NSubject: Your New Phone
+Dialogue: 0,0:18:33.57,0:18:35.73,Main01,Sasa,0000,0000,0000,,"Throwing away your phone was mean.
+Dialogue: 0,0:18:35.73,0:18:37.98,Main01,Sasa,0000,0000,0000,,I'll give you a new one, \Nso e-mail me again."
+Dialogue: 0,0:18:38.49,0:18:40.68,Main01,G,0000,0000,0000,,Your Highness, please be quiet!
+Dialogue: 0,0:18:41.15,0:18:45.27,Main01,G,0000,0000,0000,,If you cause any fuss, I, Rotten \NMaizo, will lose my head.
+Dialogue: 0,0:18:45.27,0:18:47.09,Main01,Kag,0000,0000,0000,,Soyo-chan, what do you \Nwant to do today?
+Dialogue: 0,0:18:47.09,0:18:48.46,Main01,Kag,0000,0000,0000,,We can play tag.
+Dialogue: 0,0:18:48.46,0:18:49.25,Main01,Soyo,0000,0000,0000,,Yes, yes!
+Dialogue: 0,0:18:48.46,0:18:49.94,Main01,G,0000,0000,0000,,Were you listening to me?
+Dialogue: 0,0:18:50.98,0:18:52.93,Main01,Kag,0000,0000,0000,,You whine too much, old man!
+Dialogue: 0,0:18:52.93,0:18:55.14,Main01,G,0000,0000,0000,,Don't call me an old man!
+Dialogue: 0,0:18:55.14,0:18:56.93,Main01,Gin,0000,0000,0000,,This isn't good.
+Dialogue: 0,0:18:56.93,0:18:58.88,Main01,Tsu,0000,0000,0000,,Do you know that man?
+Dialogue: 0,0:18:58.88,0:19:00.95,Main01,Gin,0000,0000,0000,,We made it inside the palace,
+Dialogue: 0,0:19:01.58,0:19:05.08,Main01,Gin,0000,0000,0000,,but we've got a pesky \Nwatchdog on our tail now.
+Dialogue: 0,0:19:06.21,0:19:08.54,Main01,Sasa,0000,0000,0000,,"Nobu-tasu's guarding \Nthe princess right now,
+Dialogue: 0,0:19:08.54,0:19:10.87,Main01,,0000,0000,0000,,so if you try anything \Nfunny, you'll be killed.
+Dialogue: 0,0:19:10.87,0:19:12.08,Main01,Sasa,0000,0000,0000,,Be careful."
+Dialogue: 0,0:19:12.83,0:19:15.14,Main01,Shin,0000,0000,0000,,We could ask the princess to help us.
+Dialogue: 0,0:19:15.81,0:19:19.86,Main01,Gin,0000,0000,0000,,How are we supposed to explain \NYoshiwara to that innocent girl?
+Dialogue: 0,0:19:20.42,0:19:24.35,Main01,Gin,0000,0000,0000,,And we've got Grampy and the \Nwatchdog monitoring us.
+Dialogue: 0,0:19:24.63,0:19:27.06,Main01,Tsu,0000,0000,0000,,That means we need to lose \NGrampy and the watchdog
+Dialogue: 0,0:19:27.06,0:19:29.35,Main01,,0000,0000,0000,,before we can freely \Nmove around the palace.
+Dialogue: 0,0:19:29.73,0:19:32.44,Main01,G,0000,0000,0000,,I won't let you play \Ntag! It's not proper!
+Dialogue: 0,0:19:32.44,0:19:34.32,Main01,Kag,0000,0000,0000,,You're so pissy!
+Dialogue: 0,0:19:34.32,0:19:37.04,Main01,Kag,0000,0000,0000,,That's why you're known as "Gram-pee."
+Dialogue: 0,0:19:37.04,0:19:39.04,Main01,G,0000,0000,0000,,That's what Grampy stands for?
+Dialogue: 0,0:19:39.04,0:19:40.53,Main01,Soyo,0000,0000,0000,,That's wrong, Kagura-chan.
+Dialogue: 0,0:19:40.53,0:19:42.45,Main01,Soyo,0000,0000,0000,,The Gram is short for Grand,
+Dialogue: 0,0:19:42.45,0:19:44.63,Main01,Soyo,0000,0000,0000,,so it's "Grand-pee."
+Dialogue: 0,0:19:44.63,0:19:47.20,Main01,G,0000,0000,0000,,Your Highness! That's worse!
+Dialogue: 0,0:19:47.68,0:19:50.00,Main01,Tsu,0000,0000,0000,,Enough of this, Kagura.
+Dialogue: 0,0:19:50.00,0:19:51.16,Main01,Kag,0000,0000,0000,,Tsu-ki...
+Dialogue: 0,0:19:51.16,0:19:53.24,Main01,Tsu,0000,0000,0000,,If we play tag under the \Ncurrent circumstances,
+Dialogue: 0,0:19:53.24,0:19:55.17,Main01,,0000,0000,0000,,we'll be making more \Ntrouble for the guards.
+Dialogue: 0,0:19:55.17,0:19:57.23,Main01,G,0000,0000,0000,,See? Did you hear that, Your Highness?
+Dialogue: 0,0:19:57.23,0:19:58.96,Main01,G,0000,0000,0000,,This is how grown-ups should act.
+Dialogue: 0,0:19:58.96,0:20:01.97,Main01,Tsu,0000,0000,0000,,Instead, you should keep it \Nquiet and play kick the can.
+Dialogue: 0,0:20:01.97,0:20:03.72,Main01,Gin,0000,0000,0000,,Wait, how does that make sense?!
+Dialogue: 0,0:20:04.13,0:20:06.95,Main01,Tsu,0000,0000,0000,,If you play tag, you'll be running \Naround and making a lot of noise.
+Dialogue: 0,0:20:06.95,0:20:09.01,Main01,Tsu,0000,0000,0000,,But kick the can is similar \Nto hide-and-seek.
+Dialogue: 0,0:20:09.01,0:20:10.44,Main01,Tsu,0000,0000,0000,,There shouldn't be too much noise.
+Dialogue: 0,0:20:10.44,0:20:11.53,Main01,Both,0000,0000,0000,,Makes sense!
+Dialogue: 0,0:20:11.53,0:20:13.23,Main01,Both,0000,0000,0000,,Wait, you're missing the point!
+Dialogue: 0,0:20:13.23,0:20:16.01,Main01,Gin,0000,0000,0000,,Is she going to use hide-and-seek as an
+Dialogue: 0,0:20:16.01,0:20:18.27,Main01,,0000,0000,0000,,excuse to shake Grampy and the watchdog?
+Dialogue: 0,0:20:18.27,0:20:20.61,Main01,Shin,0000,0000,0000,,Grampy's not going to accept that!
+Dialogue: 0,0:20:20.85,0:20:23.26,Main01,G,0000,0000,0000,,It's not proper for Your \NHighness to kick cans!
+Dialogue: 0,0:20:23.26,0:20:24.52,Main01,Shin,0000,0000,0000,,See?
+Dialogue: 0,0:20:24.52,0:20:26.43,Main01,G,0000,0000,0000,,If you want to kick cans,
+Dialogue: 0,0:20:27.15,0:20:28.96,Main01,G,0000,0000,0000,,you should kick me instead!
+Dialogue: 0,0:20:28.96,0:20:29.51,Main01,Shin,0000,0000,0000,,What?!
+Dialogue: 0,0:20:29.51,0:20:31.75,Main01,Gin,0000,0000,0000,,Hey! Grampy's the worst offender here!
+Dialogue: 0,0:20:31.95,0:20:34.62,Main01,G,0000,0000,0000,,Now step on me with your pointy heels!
+Dialogue: 0,0:20:34.62,0:20:35.96,Main01,Soyo,0000,0000,0000,,Grand-pee!
+Dialogue: 0,0:20:35.96,0:20:36.66,Main01,Nobu,0000,0000,0000,,Wait.
+Dialogue: 0,0:20:37.32,0:20:38.42,Main01,Nobu,0000,0000,0000,,Kick the can...
+Dialogue: 0,0:20:38.42,0:20:39.70,Main01,Nobu,0000,0000,0000,,Kick the Grampy...
+Dialogue: 0,0:20:40.58,0:20:41.60,Main01,Nobu,0000,0000,0000,,I can't allow that.
+Dialogue: 0,0:20:41.60,0:20:43.26,Main01,Gin,0000,0000,0000,,Damn, here she comes!
+Dialogue: 0,0:20:44.32,0:20:45.73,Main01,Nobu,0000,0000,0000,,Let's play cut the Grampy.
+Dialogue: 0,0:20:45.73,0:20:47.26,Main01,Gin,0000,0000,0000,,You're joining in?!
+Dialogue: 0,0:20:47.39,0:20:49.02,Main01,Gin,0000,0000,0000,,What's cut the Grampy?!
+Dialogue: 0,0:20:49.02,0:20:50.98,Main01,Gin,0000,0000,0000,,Some kind of killing game?!
+Dialogue: 0,0:20:50.98,0:20:54.26,Main01,Soyo,0000,0000,0000,,Are you going to play \Nwith us, Nobume-san?
+Dialogue: 0,0:20:54.26,0:20:55.39,Main01,Soyo,0000,0000,0000,,Yay!
+Dialogue: 0,0:20:55.39,0:20:57.66,Main01,Nobu,0000,0000,0000,,This is more pointy than her heels.
+Dialogue: 0,0:20:57.66,0:20:58.96,Main01,G,0000,0000,0000,,Uh, it's too pointy!
+Dialogue: 0,0:20:58.96,0:20:59.93,Main01,G,0000,0000,0000,,I'll take a grand piss on that idea!
+Dialogue: 0,0:21:01.01,0:21:04.24,Main01,Gin,0000,0000,0000,,Both Grampy and the \Nwatchdog are joining in!
+Dialogue: 0,0:21:04.39,0:21:05.70,Main01,Gin,0000,0000,0000,,Wait, wait, wait.
+Dialogue: 0,0:21:06.06,0:21:08.77,Main01,Gin,0000,0000,0000,,A guard shouldn't be doing this.
+Dialogue: 0,0:21:08.77,0:21:11.11,Main01,Gin,0000,0000,0000,,Grampy's going to die, so \Nwe should change the rules.
+Dialogue: 0,0:21:11.11,0:21:12.72,Main01,Nobu,0000,0000,0000,,Then I'm It.
+Dialogue: 0,0:21:12.72,0:21:14.38,Main01,Nobu,0000,0000,0000,,I'll cut down everyone I find.
+Dialogue: 0,0:21:14.38,0:21:16.25,Main01,Gin,0000,0000,0000,,That'll mean more casualties!
+Dialogue: 0,0:21:16.25,0:21:17.92,Main01,Gin,0000,0000,0000,,Are you that eager to cut people?!
+Dialogue: 0,0:21:19.26,0:21:20.73,Main01,Nobu,0000,0000,0000,,Hurry up and kick the can.
+Dialogue: 0,0:21:21.84,0:21:22.85,Main01,Gin,0000,0000,0000,,Wait!
+Dialogue: 0,0:21:22.85,0:21:24.93,Main01,Gin,0000,0000,0000,,Why are you starting already?!
+Dialogue: 0,0:21:25.37,0:21:26.62,Main01,Tsu,0000,0000,0000,,Gintoki!
+Dialogue: 0,0:21:26.62,0:21:29.27,Main01,Tsu,0000,0000,0000,,Kick the can as far as \Nyou can to buy time!
+Dialogue: 0,0:21:29.27,0:21:30.13,Main01,Gin,0000,0000,0000,,Shut up!
+Dialogue: 0,0:21:30.13,0:21:33.22,Main01,Gin,0000,0000,0000,,Why do I have to buy you \Nguys time to run away?!
+Dialogue: 0,0:21:33.72,0:21:34.94,Main01,Gin,0000,0000,0000,,{\i1}Damn it all!{\i0}
+Dialogue: 0,0:21:34.94,0:21:36.32,Main01,Gin,0000,0000,0000,,{\i1}I'll lose my head anyway when they{\i0}
+Dialogue: 0,0:21:36.32,0:21:38.15,Main01,,0000,0000,0000,,{\i1}find out we're sneaking \Naround the palace!{\i0}
+Dialogue: 0,0:21:38.15,0:21:41.28,Main01,Gin,0000,0000,0000,,{\i1}In that case, I'll kick it good!{\i0}
+Dialogue: 0,0:21:44.82,0:21:46.74,Main01,Gin,0000,0000,0000,,Go!
+Dialogue: 0,0:21:49.39,0:21:51.58,Main01,Shogun,0000,0000,0000,,You're being too noisy, Soyo.
+Dialogue: 0,0:21:51.88,0:21:54.32,Main01,Shogun,0000,0000,0000,,Honestly, when will you realize that
+Dialogue: 0,0:21:54.32,0:21:56.54,Main01,,0000,0000,0000,,you are the Shogun's younger sister...
+Dialogue: 0,0:22:06.30,0:22:09.39,Main01,Gin,0000,0000,0000,,{\i1}It-It-It...{\i0}
+Dialogue: 0,0:22:09.86,0:22:12.93,Main01,Gin,0000,0000,0000,,{\i1}It's the shogun?!{\i0}
+Dialogue: 0,0:22:12.93,0:22:14.93,Tsuzuku,Caption,0000,0000,0000,,To be continued...
+Dialogue: 0,0:23:45.78,0:23:46.65,Main01,Gin,0000,0000,0000,,Guess what?
+Dialogue: 0,0:23:46.65,0:23:47.76,Main01,Gin,0000,0000,0000,,This spring...
+Dialogue: 0,0:23:47.76,0:23:51.17,Main01,Gin,0000,0000,0000,,No, this summer, the second \Nmovie will be hitting theaters!
+Dialogue: 0,0:23:51.17,0:23:52.65,Main01,Kag,0000,0000,0000,,Yay! So spring...
+Dialogue: 0,0:23:52.65,0:23:55.54,Main01,Kag,0000,0000,0000,,I mean, summer is when it finally happens!
+Dialogue: 0,0:23:55.54,0:23:56.63,Main01,Kag,0000,0000,0000,,Time to celebrate!
+Dialogue: 0,0:23:56.63,0:23:59.02,Main01,Shin,0000,0000,0000,,This doesn't sound very celebratory.
+Dialogue: 0,0:23:59.87,0:24:04.88,Ep Title,EpTitle,0000,0000,0000,,Courtesan Turns the Tables!
+Dialogue: 0,0:24:04.88,0:24:10.38,Side Bar Top,Caption,0000,0000,0000,,The former shogun arrives
+Dialogue: 0,0:24:04.88,0:24:10.38,Side Bar Bottom,Caption,0000,0000,0000,,right as the current \Nshogun is taken out!!
+Dialogue: 0,0:24:10.38,0:24:14.88,Side Bar Top,Caption,0000,0000,0000,,Given the terrible timing,
+Dialogue: 0,0:24:10.38,0:24:14.88,Side Bar Bottom,Caption,0000,0000,0000,,will Gintoki and crew be \Nable to ask about Suzuran?!

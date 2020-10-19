@@ -1,0 +1,468 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H00F7FCFD,&H000000FF,&H00070805,&H000D1728,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0020,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_1383_10_Raging_Bull,Times New Roman,18,&H00FFFFFF,&H000000FF,&H00040606,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_5280_37_Last_Year_s_Star,Times New Roman,18,&H00161A1B,&H000000FF,&H00F5F8F5,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_5685_44_Raging_Bull,Times New Roman,18,&H00FFFFFF,&H000000FF,&H00040606,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,4,0030,0030,0000,1
+Style: sign_5685_45_The,Times New Roman,28,&H00000000,&H000000FF,&H00FEFEFE,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_5784_49_The_Star_Festiva,Times New Roman,28,&H000A00C7,&H000000FF,&H00F2F5F8,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_5739_50_Festival_,Times New Roman,18,&H0006041D,&H000000FF,&H0059509F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0315,0150,1
+Style: sign_5784_51_Festival_,Times New Roman,18,&H00070B08,&H000000FF,&H006A6D6B,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0315,0148,1
+Style: sign_6964_65_Festival,Times New Roman,18,&H00142D3B,&H000000FF,&H0074B7DB,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,4,0030,0030,0000,1
+Style: sign_6964_64_Raging_Bull,Times New Roman,18,&H0072AAC6,&H000000FF,&H001E2344,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_23006_275___Lies__,Times New Roman,30,&H00FDFAFA,&H000000FF,&H004C6763,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_19236_211__Lies_,Times New Roman,30,&H00FAFFFF,&H000000FF,&H00324032,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_19356_214___Lies__,Times New Roman,30,&H00FDFDFD,&H000000FF,&H00000302,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_30116_337_Festival,Times New Roman,14,&H009F387E,&H000000FF,&H00F28BD2,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0150,0115,1
+Style: sign_7539_63_Festival,Times New Roman,18,&H002F2E6A,&H000000FF,&H00C2BCAD,&H00706839,-1,0,0,0,100,100,0,0,1,2,3,6,0320,0030,0000,1
+Style: sign_8868_89_500,Comic Sans MS,20,&H00272940,&H000000FF,&H0099CCDB,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0050,0080,1
+Style: sign_9121_95_Specialty_Grille,Times New Roman,20,&H005B4F2C,&H000000FF,&H00BADDF4,&H00484CB6,-1,0,0,0,100,100,0,0,1,2,3,9,0030,0030,0020,1
+Style: sign_10342_115_Grilled_Squid,Times New Roman,24,&H00353E45,&H000000FF,&H008996B4,&H006872A1,-1,0,0,0,100,100,0,0,1,2,3,8,0030,0030,0020,1
+Style: sign_25435_307_Ice,Times New Roman,20,&H001A156D,&H000000FF,&H00C4C3C9,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,1,0070,0030,0104,1
+Style: sign_25584_311_Ice,Times New Roman,30,&H001A156D,&H000000FF,&H00C4C3C9,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0060,0030,0160,1
+Style: sign_29309_369_I_know_,Times New Roman,30,&H00FFFFFD,&H000000FF,&H000B100F,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_29341_370_Captain_Yami_mus,Times New Roman,30,&H00FFFFFD,&H000000FF,&H000B100F,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0130,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:06.57,0:00:10.99,italics,nar,0000,0000,0000,,It appeared as though humanity \Nwould be destroyed by the demons.
+Dialogue: 0,0:00:14.97,0:00:19.16,italics,Nar,0000,0000,0000,,But a single mage saved them all.
+Dialogue: 0,0:00:26.34,0:00:31.46,italics,Nar,0000,0000,0000,,He was called the Wizard King,\Nand he became a legend.
+Dialogue: 0,0:00:34.73,0:00:37.73,italics,Nar,0000,0000,0000,,The Star Festival, held in the\N royal capital, had begun.
+Dialogue: 0,0:00:37.73,0:00:38.91,italics,Nar,0000,0000,0000,,The Star Festival was held
+Dialogue: 0,0:00:38.91,0:00:40.98,italics,Nar,0000,0000,0000,,to acknowledge the Magic \NKnights Squads' achievements
+Dialogue: 0,0:00:40.98,0:00:45.39,italics,Nar,0000,0000,0000,,and announce who had received the most \Nstars from the Wizard King that year.
+Dialogue: 0,0:00:47.03,0:00:49.23,main,Noelle,0000,0000,0000,,Kahono! Kiato!
+Dialogue: 0,0:00:49.54,0:00:54.44,italics,Nar,0000,0000,0000,,Asta had invited Kahono and Kiato from \Nthe Underwater Temple to the festival
+Dialogue: 0,0:00:55.35,0:00:57.95,italics,Nar,0000,0000,0000,,and used the Queen of \NWitches' secret witch spells
+Dialogue: 0,0:00:57.95,0:01:00.79,italics,Nar,0000,0000,0000,,to heal Kahono's injured throat\N and Kiato's injured leg.
+Dialogue: 0,0:01:01.83,0:01:04.75,italics,Nar,0000,0000,0000,,Asta and the others enjoyed \Nthe festival, but...
+Dialogue: 0,0:01:04.75,0:01:05.95,main,Kahono,0000,0000,0000,,Hey, Asta.
+Dialogue: 0,0:01:07.10,0:01:09.92,main,Kahono,0000,0000,0000,,What does Noelle mean to you?
+Dialogue: 0,0:01:09.92,0:01:11.34,main,Asta,0000,0000,0000,,Huh?
+Dialogue: 0,0:01:11.34,0:01:12.92,main,Asta,0000,0000,0000,,What does she mean to me?
+Dialogue: 0,0:01:14.22,0:01:16.01,main,Asta,0000,0000,0000,,I guess...
+Dialogue: 0,0:01:16.01,0:01:17.84,main,Asta,0000,0000,0000,,I like Noelle quite a bit.
+Dialogue: 0,0:01:18.26,0:01:19.35,main,Noelle,0000,0000,0000,,Where...
+Dialogue: 0,0:01:19.35,0:01:21.41,main,Noelle,0000,0000,0000,,Where the heck did that come from?!
+Dialogue: 0,0:01:21.41,0:01:23.60,main,Noelle,0000,0000,0000,,Have you lost your mind?!
+Dialogue: 0,0:01:25.09,0:01:28.31,main,Asta,0000,0000,0000,,What the heck?!
+Dialogue: 0,0:01:34.03,0:01:36.40,sign_30116_337_Festival,Sign,0000,0000,0000,,Festival
+Dialogue: 0,0:01:34.55,0:01:39.20,italics,Nar,0000,0000,0000,,Asta ended up stumbling upon \NYami and Captain Jack the Ripper
+Dialogue: 0,0:01:39.20,0:01:43.81,italics,Nar,0000,0000,0000,,of the Green Praying Mantises facing \Noff in a rather heated situation.
+Dialogue: 0,0:02:06.25,0:02:10.02,Ep Title,Sign,0000,0000,0000,,{\fad(187,1)}Battle to the Death?!\N Yami VS Jack
+Dialogue: 0,0:03:24.21,0:03:26.22,main,Vanessa,0000,0000,0000,,Hey, mister! Can I get another drink?
+Dialogue: 0,0:03:31.81,0:03:34.94,main,Kiato,0000,0000,0000,,Come one, come all!
+Dialogue: 0,0:03:34.94,0:03:37.48,main,Kiato,0000,0000,0000,,Behold the song and dance \Nof the Underwater Temple!
+Dialogue: 0,0:03:37.48,0:03:39.51,main,Guy,0000,0000,0000,,Such a beautiful song!
+Dialogue: 0,0:03:39.51,0:03:41.49,main,Lady,0000,0000,0000,,And that boy dances so elegantly.
+Dialogue: 0,0:03:48.14,0:03:51.83,main,Noelle,0000,0000,0000,,Kahono can sing again,\N and Kiato can dance again.
+Dialogue: 0,0:03:51.83,0:03:53.38,main,Noelle,0000,0000,0000,,That's so wonderful.
+Dialogue: 0,0:03:53.38,0:03:55.00,main,Noelle,0000,0000,0000,,Don't you think so, Stupidsta?
+Dialogue: 0,0:03:56.13,0:03:59.46,main,Noelle,0000,0000,0000,,Wh-Who the heck are you? I'm royalty!
+Dialogue: 0,0:04:00.85,0:04:01.84,main,Guy,0000,0000,0000,,I'm terribly sorry.
+Dialogue: 0,0:04:02.61,0:04:04.63,italics,Noelle,0000,0000,0000,,I forgot. I blasted him away.
+Dialogue: 0,0:04:04.63,0:04:06.91,italics,Noelle,0000,0000,0000,,How dare he fly off somewhere?
+Dialogue: 0,0:04:06.91,0:04:08.31,italics,Noelle,0000,0000,0000,,Stupid Stupidsta.
+Dialogue: 0,0:04:08.97,0:04:11.56,main,Noelle,0000,0000,0000,,Stupidsta, where did you go? Hey!
+Dialogue: 0,0:04:11.56,0:04:13.14,main,Guy,0000,0000,0000,,How about some food, missy?
+Dialogue: 0,0:04:13.14,0:04:14.31,main,Noelle,0000,0000,0000,,Maybe later.
+Dialogue: 0,0:04:14.31,0:04:16.13,main,Guy,0000,0000,0000,,Want to take a shot or two, miss?
+Dialogue: 0,0:04:16.13,0:04:17.06,main,Noelle,0000,0000,0000,,Maybe later.
+Dialogue: 0,0:04:17.06,0:04:19.03,main,Guy,0000,0000,0000,,Would you like to try one, miss?
+Dialogue: 0,0:04:19.03,0:04:19.97,main,Noelle,0000,0000,0000,,Maybe...
+Dialogue: 0,0:04:22.99,0:04:24.26,main,Noelle,0000,0000,0000,,Gulp.
+Dialogue: 0,0:04:24.26,0:04:25.28,main,Noelle,0000,0000,0000,,...later.
+Dialogue: 0,0:04:28.87,0:04:32.73,main,Noelle,0000,0000,0000,,I guess common food is okay.\N This isn't bad at all.
+Dialogue: 0,0:04:32.73,0:04:35.89,main,Noelle,0000,0000,0000,,Anyway, I wonder where Stupidsta flew off to.
+Dialogue: 0,0:04:38.09,0:04:41.67,main,Noelle,0000,0000,0000,,Mana seems to be concentrating over there...
+Dialogue: 0,0:04:45.07,0:04:47.14,main,Asta,0000,0000,0000,,How about some squid?
+Dialogue: 0,0:04:47.91,0:04:53.27,sign_1383_10_Raging_Bull,Sign,0000,0000,0000,,Raging Bull
+Dialogue: 0,0:04:48.21,0:04:53.27,main,Asta,0000,0000,0000,,Everyone, come try out Captain Yami's \Nyummy—I mean, {\i1}Yami{\i0}—grilled squid!
+Dialogue: 0,0:04:54.00,0:04:57.27,main,Sekke,0000,0000,0000,,Bah-ha! Bah-ha! Bah-ha!
+Dialogue: 0,0:04:57.27,0:05:00.15,main,Sekke,0000,0000,0000,,Captain Jack's meat dishes are the best!
+Dialogue: 0,0:05:00.15,0:05:01.85,main,Sekke,0000,0000,0000,,You only need one bite to feel satisfied!
+Dialogue: 0,0:05:01.85,0:05:05.05,main,Sekke,0000,0000,0000,,It's piping hot! Your mouth can't help \Nbut go bah-ha, bah-ha, bah-ha!
+Dialogue: 0,0:05:05.05,0:05:07.27,main,Aphro,0000,0000,0000,,You mean they'll be going \Naph, aph, aphew! That's hot!
+Dialogue: 0,0:05:07.27,0:05:09.74,main,Phati,0000,0000,0000,,Your heart and stomach will \Nfeel phat and content!
+Dialogue: 0,0:05:09.74,0:05:11.38,main,Jack,0000,0000,0000,,No shit.
+Dialogue: 0,0:05:14.41,0:05:15.98,sign_7539_63_Festival,Sign,0000,0000,0000,,Festival
+Dialogue: 0,0:05:14.41,0:05:23.34,sign_1383_10_Raging_Bull,Sign,0000,0000,0000,,Raging Bull
+Dialogue: 0,0:05:17.93,0:05:21.39,main,Yami,0000,0000,0000,,What the hell, kid?\NWhere are all our customers?
+Dialogue: 0,0:05:21.39,0:05:23.34,main,Yami,0000,0000,0000,,If you don't get us some customers, I'll kill you.
+Dialogue: 0,0:05:23.67,0:05:27.09,main,Asta,0000,0000,0000,,Y-Yes, sir! Mister, \Nhow about a squidtastic squid?
+Dialogue: 0,0:05:27.09,0:05:29.14,main,Asta,0000,0000,0000,,Whaddya say?
+Dialogue: 0,0:05:29.14,0:05:30.72,main,Asta,0000,0000,0000,,Hey, don't run away!
+Dialogue: 0,0:05:30.72,0:05:34.42,top,Asta,0000,0000,0000,,Come on! At least try one!
+Dialogue: 0,0:05:32.03,0:05:36.41,main,Jack,0000,0000,0000,,Newbie! If you don't get me more \Ncustomers, I'm gonna slice you up.
+Dialogue: 0,0:05:36.41,0:05:39.09,main,Sekke,0000,0000,0000,,B-Bah-ha?! I promise he's \Nnot scary, everyone!
+Dialogue: 0,0:05:39.09,0:05:40.57,main,Sekke,0000,0000,0000,,Please buy some, bah-ha!
+Dialogue: 0,0:05:40.57,0:05:42.14,main,Sekke,0000,0000,0000,,Come on, you two! Bring in some customers!
+Dialogue: 0,0:05:42.14,0:05:42.98,main,Both,0000,0000,0000,,Got it.
+Dialogue: 0,0:05:44.74,0:05:46.17,main,Asta,0000,0000,0000,,Please, buy one!
+Dialogue: 0,0:05:46.17,0:05:48.85,main,Sekke,0000,0000,0000,,Please! Please buy some, bah-ha!
+Dialogue: 0,0:05:46.17,0:05:50.24,main,Asta,0000,0000,0000,,Come on, please? Come buy one!
+Dialogue: 0,0:05:48.85,0:05:50.24,main,Both,0000,0000,0000,,Buy some!
+Dialogue: 0,0:05:49.23,0:05:50.24,top,Sekke,0000,0000,0000,,Please!
+Dialogue: 0,0:05:50.24,0:05:54.12,main,Asta,0000,0000,0000,,Sir? They won't even look at me.
+Dialogue: 0,0:05:54.54,0:05:57.10,main,Sekke,0000,0000,0000,,The unpopular captain of the Black Bulls
+Dialogue: 0,0:05:57.10,0:05:59.39,main,Sekke,0000,0000,0000,,and our captain are right \Nnext to each other.
+Dialogue: 0,0:05:59.39,0:06:01.56,main,Sekke,0000,0000,0000,,There's no way anyone's gonna buy from us.
+Dialogue: 0,0:06:01.56,0:06:02.77,main,Sekke,0000,0000,0000,,Bah-ha, bah-ha...
+Dialogue: 0,0:06:02.77,0:06:03.99,main,Phati,0000,0000,0000,,Phati, phati...
+Dialogue: 0,0:06:02.77,0:06:04.00,main,Aphro,0000,0000,0000,,Aph, aph...
+Dialogue: 0,0:06:03.99,0:06:06.13,main,Jack,0000,0000,0000,,What was that?
+Dialogue: 0,0:06:07.41,0:06:10.55,main,Sekke,0000,0000,0000,,This is delicious! Super delicious!\NPlease buy some!
+Dialogue: 0,0:06:10.55,0:06:12.83,top,Asta,0000,0000,0000,,I promise it's not poisoned!
+Dialogue: 0,0:06:11.33,0:06:14.85,main,Noelle,0000,0000,0000,,I was wondering why mana was concentrating \Nover here. What are you doing?
+Dialogue: 0,0:06:15.18,0:06:17.14,main,Asta,0000,0000,0000,,Help me out, Noelle!
+Dialogue: 0,0:06:17.14,0:06:18.48,main,Noelle,0000,0000,0000,,Huh? Oh...
+Dialogue: 0,0:06:18.85,0:06:20.40,main,Noelle,0000,0000,0000,,Guess you're here, too, Bah-ha.
+Dialogue: 0,0:06:20.40,0:06:29.95,sign_9121_95_Specialty_Grille,Sign,0000,0000,0000,,Specialty\N{\fs26\c&H293F4B&}Grilled Squid
+Dialogue: 0,0:06:21.10,0:06:22.70,main,Sekke,0000,0000,0000,,Young lady from the Black Bulls...
+Dialogue: 0,0:06:22.70,0:06:25.19,main,Sekke,0000,0000,0000,,My name is not "Bah-ha," it's Sekke.
+Dialogue: 0,0:06:25.19,0:06:27.48,main,Sekke,0000,0000,0000,,I'm Sekke Bronzazza, bah-ha!
+Dialogue: 0,0:06:27.48,0:06:29.95,main,Noelle,0000,0000,0000,,Oh. Whatever.
+Dialogue: 0,0:06:30.55,0:06:34.13,main,Noelle,0000,0000,0000,,So, what are you and Bah... \Ner, Sekke, doing, Asta?
+Dialogue: 0,0:06:34.13,0:06:35.62,main,Asta,0000,0000,0000,,Captain Yami and...
+Dialogue: 0,0:06:35.62,0:06:37.04,main,Three,0000,0000,0000,,...Captain Jack...
+Dialogue: 0,0:06:41.10,0:06:44.96,flashback,Jack,0000,0000,0000,,I've wanted to settle the score \Nwith you for a long time.
+Dialogue: 0,0:06:46.46,0:06:48.97,flashback,Jack,0000,0000,0000,,Your food stall and my food stall...
+Dialogue: 0,0:06:49.34,0:06:51.09,flashback,Jack,0000,0000,0000,,Let's see who sells the most!
+Dialogue: 0,0:06:52.06,0:06:53.37,flashback,Jack,0000,0000,0000,,It's on!
+Dialogue: 0,0:06:54.26,0:06:57.18,flashback,Yami,0000,0000,0000,,Bring it! There's no way I'm gonna lose!
+Dialogue: 0,0:06:57.18,0:06:58.69,flashback,Jack,0000,0000,0000,,You grandpa-faced fisherman!
+Dialogue: 0,0:06:58.69,0:07:00.81,flashback,Jack,0000,0000,0000,,If you lose, I'll flay you alive!
+Dialogue: 0,0:07:00.81,0:07:02.74,flashback,Yami,0000,0000,0000,,Bring it on, you giant string bean!
+Dialogue: 0,0:07:02.74,0:07:06.07,flashback,Yami,0000,0000,0000,,If you lose, I'll make you wipe my ass!
+Dialogue: 0,0:07:06.07,0:07:09.14,flashback,Jack,0000,0000,0000,,It's on! I ain't gonna lose!
+Dialogue: 0,0:07:09.14,0:07:10.82,flashback,Yami,0000,0000,0000,,No matter what...
+Dialogue: 0,0:07:10.82,0:07:11.93,flashback,Both,0000,0000,0000,,...I'm gonna win!
+Dialogue: 0,0:07:11.32,0:07:14.66,sign_10342_115_Grilled_Squid,Sign,0000,0000,0000,,{\fad(1,936)}Grilled Squid
+Dialogue: 0,0:07:13.11,0:07:14.66,flashback,All,0000,0000,0000,,Er...
+Dialogue: 0,0:07:15.02,0:07:15.83,main,Noelle,0000,0000,0000,,Say what?
+Dialogue: 0,0:07:16.24,0:07:18.84,main,Asta,0000,0000,0000,,That's why we got roped \Ninto bringing customers in.
+Dialogue: 0,0:07:18.84,0:07:21.54,main,Sekke,0000,0000,0000,,But neither stall has sold anything.
+Dialogue: 0,0:07:24.65,0:07:28.88,main,Old lady,0000,0000,0000,,How about some grilled purple \Nsnakes I just caught over there?
+Dialogue: 0,0:07:29.31,0:07:31.63,main,Asta,0000,0000,0000,,That sounds super tast—I'm kidding!
+Dialogue: 0,0:07:31.63,0:07:33.41,main,Asta,0000,0000,0000,,It sounds gross!
+Dialogue: 0,0:07:32.46,0:07:34.86,main,Yami,0000,0000,0000,,Stop getting distracted by other stalls.
+Dialogue: 0,0:07:34.86,0:07:36.95,main,Asta,0000,0000,0000,,But purple snakes...
+Dialogue: 0,0:07:36.95,0:07:38.85,main,Yami,0000,0000,0000,,My rainbow squids...
+Dialogue: 0,0:07:38.85,0:07:42.94,main,Yami,0000,0000,0000,,I risked my life catching them in \Na storm off the coast of Raquey,
+Dialogue: 0,0:07:42.94,0:07:44.34,main,Yami,0000,0000,0000,,using my years of fishing experience!
+Dialogue: 0,0:07:44.34,0:07:46.86,main,Yami,0000,0000,0000,,They're the finest you can get!
+Dialogue: 0,0:07:46.86,0:07:50.47,main,Yami,0000,0000,0000,,Don't you dare compare them to some snakes!
+Dialogue: 0,0:07:50.47,0:07:51.96,main,Asta,0000,0000,0000,,I'm sorry!
+Dialogue: 0,0:07:51.96,0:07:54.87,main,Yami,0000,0000,0000,,If I lose to Jack, it'll be all your fault.
+Dialogue: 0,0:07:56.17,0:07:58.03,main,Asta,0000,0000,0000,,H-How about some grilled squid?!
+Dialogue: 0,0:07:58.03,0:08:00.75,main,Asta,0000,0000,0000,,They were caught fresh of the coast of \NRaquey! They're the finest you can get!
+Dialogue: 0,0:08:00.75,0:08:03.87,main,Asta,0000,0000,0000,,They're delicious, just like \Nthe tatoes from Hage Village!
+Dialogue: 0,0:08:04.38,0:08:06.75,main,Yami,0000,0000,0000,,What are you trying to do? Ruin my business?
+Dialogue: 0,0:08:06.75,0:08:08.90,main,Asta,0000,0000,0000,,No!
+Dialogue: 0,0:08:08.90,0:08:11.97,main,Yami,0000,0000,0000,,So it {\i1}is{\i0} your fault that I \Nhaven't sold a single one yet!
+Dialogue: 0,0:08:15.68,0:08:18.86,main,Asta,0000,0000,0000,,Squid... Squid, squid... Squid...
+Dialogue: 0,0:08:18.86,0:08:20.22,main,Noelle,0000,0000,0000,,Stupidsta!
+Dialogue: 0,0:08:20.22,0:08:22.29,main,Yami,0000,0000,0000,,Tch. You're friggin' worthless.
+Dialogue: 0,0:08:22.29,0:08:25.06,main,Jack,0000,0000,0000,,Mine were useless, too.
+Dialogue: 0,0:08:27.11,0:08:30.73,main,Jack,0000,0000,0000,,We don't have time to wait and \Nsee who can get better sales.
+Dialogue: 0,0:08:31.43,0:08:34.20,main,Yami,0000,0000,0000,,Imagine that. I was just \Nthinking the same thing.
+Dialogue: 0,0:08:34.54,0:08:35.87,main,Jack,0000,0000,0000,,Why don't we...
+Dialogue: 0,0:08:35.87,0:08:38.63,main,Yami,0000,0000,0000,,...fight each other with our own abilities!
+Dialogue: 0,0:08:38.63,0:08:40.20,main,Both,0000,0000,0000,,Dead or alive!
+Dialogue: 0,0:08:40.68,0:08:41.79,main,Noelle,0000,0000,0000,,Wait, what?
+Dialogue: 0,0:08:47.79,0:08:49.09,main,Yami,0000,0000,0000,,Look that way!
+Dialogue: 0,0:08:51.53,0:08:52.61,main,Noelle,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:52.61,0:08:54.17,main,Both,0000,0000,0000,,Dead or alive!
+Dialogue: 0,0:08:55.66,0:08:56.80,main,Jack,0000,0000,0000,,Look that way!
+Dialogue: 0,0:09:00.34,0:09:01.64,main,Jack,0000,0000,0000,,Look that way!
+Dialogue: 0,0:09:05.34,0:09:06.19,italics,Noelle,0000,0000,0000,,What is this?
+Dialogue: 0,0:09:06.61,0:09:07.77,main,Yami,0000,0000,0000,,Take that!
+Dialogue: 0,0:09:16.86,0:09:17.95,main,Both,0000,0000,0000,,Next!
+Dialogue: 0,0:09:21.75,0:09:23.54,main,Yami,0000,0000,0000,,We're not getting anywhere.
+Dialogue: 0,0:09:24.61,0:09:26.87,main,Jack,0000,0000,0000,,Guess we need to step it up a notch!
+Dialogue: 0,0:09:26.87,0:09:29.56,main,Yami,0000,0000,0000,,If I actually get serious, you're gonna die.
+Dialogue: 0,0:09:29.56,0:09:31.54,main,Jack,0000,0000,0000,,That's my line!
+Dialogue: 0,0:09:32.18,0:09:36.88,main,Yami,0000,0000,0000,,Let's change locations. We're gonna \Nend up causing a disturbance here.
+Dialogue: 0,0:09:36.88,0:09:38.30,main,Phati,0000,0000,0000,,We'll be going now.
+Dialogue: 0,0:09:38.30,0:09:39.39,main,Aphro,0000,0000,0000,,Excuse us!
+Dialogue: 0,0:09:39.94,0:09:42.13,main,Noelle,0000,0000,0000,,Asta! Stupidsta!
+Dialogue: 0,0:09:42.13,0:09:42.93,main,Yami,0000,0000,0000,,Noelle.
+Dialogue: 0,0:09:42.93,0:09:44.89,main,Noelle,0000,0000,0000,,Get a hold of yourself! Stupidsta!
+Dialogue: 0,0:09:44.89,0:09:45.70,main,Yami,0000,0000,0000,,Noelle!
+Dialogue: 0,0:09:46.25,0:09:47.23,main,Noelle,0000,0000,0000,,What?
+Dialogue: 0,0:09:47.91,0:09:50.27,main,Yami,0000,0000,0000,,Get Finral's ass down here.
+Dialogue: 0,0:10:01.74,0:10:03.66,main,Asta,0000,0000,0000,,Hey, this is...
+Dialogue: 0,0:10:13.27,0:10:16.71,main,Yami,0000,0000,0000,,We won't bother anyone here.
+Dialogue: 0,0:10:17.95,0:10:22.14,main,Yami,0000,0000,0000,,I'm on another level today... \NJust like this grilled squid!
+Dialogue: 0,0:10:23.10,0:10:26.43,main,Jack,0000,0000,0000,,And I'll slice you in half, \Njust like that grilled squid!
+Dialogue: 0,0:10:27.14,0:10:29.46,main,Noelle,0000,0000,0000,,Why did I have to come, too?
+Dialogue: 0,0:10:30.05,0:10:32.06,italics,Noelle,0000,0000,0000,,This is also pretty tasty.
+Dialogue: 0,0:10:32.89,0:10:36.82,main,Sekke,0000,0000,0000,,Captain Jack can slice a \Ngiant mountain in bah-half!
+Dialogue: 0,0:10:36.82,0:10:41.05,main,Sekke,0000,0000,0000,,You may be the Captain of the Black Bulls, \Nbut you're no match for Captain Jack!
+Dialogue: 0,0:10:41.05,0:10:44.74,main,Sekke,0000,0000,0000,,Bah-ha! Bah-ha! Bah-haha!
+Dialogue: 0,0:10:44.74,0:10:47.46,main,Noelle,0000,0000,0000,,What's got Bah-ha so worked up?
+Dialogue: 0,0:10:48.25,0:10:54.34,main,Finral,0000,0000,0000,,That festival had the girls so laid-back \Nthat my flirting almost worked.
+Dialogue: 0,0:10:54.34,0:10:55.42,main,Finral,0000,0000,0000,,Man...
+Dialogue: 0,0:10:57.51,0:11:00.31,italics,Julius,0000,0000,0000,,Yami and Jack having a \Nno-holds-barred battle...
+Dialogue: 0,0:11:00.97,0:11:03.57,italics,Julius,0000,0000,0000,,I wonder what kind of \Npowerful spells I'll see.
+Dialogue: 0,0:11:03.57,0:11:04.85,italics,Julius,0000,0000,0000,,I can't wait!
+Dialogue: 0,0:11:06.09,0:11:08.53,main,Yami,0000,0000,0000,,You ready for this, Jack the Ripper?
+Dialogue: 0,0:11:09.41,0:11:14.92,main,Jack,0000,0000,0000,,That's my line! Yami Sukehiro, \Nmy blades are tingling!
+Dialogue: 0,0:11:14.92,0:11:18.99,main,Jack,0000,0000,0000,,They can't wait to slice and dice you!
+Dialogue: 0,0:11:18.99,0:11:23.24,main,Jack,0000,0000,0000,,Last time, you were almost dead, so slicing\N you up wouldn't have been worth it.
+Dialogue: 0,0:11:23.65,0:11:25.53,main,Yami,0000,0000,0000,,Who was almost dead, now?
+Dialogue: 0,0:11:25.53,0:11:26.93,main,Jack,0000,0000,0000,,You, you dumbass!
+Dialogue: 0,0:11:26.93,0:11:29.87,main,Jack,0000,0000,0000,,You let those Eye of the Midnight Sun\Nbastards beat the shit out of you!
+Dialogue: 0,0:11:29.87,0:11:32.22,main,Yami,0000,0000,0000,,I was only acting like they \Nbeat the shit out of me.
+Dialogue: 0,0:11:32.22,0:11:35.84,main,Yami,0000,0000,0000,,I was going to turn things around \Nright when you guys showed up.
+Dialogue: 0,0:11:36.77,0:11:40.05,main,Jack,0000,0000,0000,,Whatever. Looks like you're \Ngetting worked up, Yami.
+Dialogue: 0,0:11:40.05,0:11:42.72,main,Jack,0000,0000,0000,,You'll actually be worth slicing up today!
+Dialogue: 0,0:11:43.04,0:11:45.39,main,Yami,0000,0000,0000,,Let's see who's gonna be slicing up who!
+Dialogue: 0,0:11:45.71,0:11:48.40,italics,Finral,0000,0000,0000,,Well, I see they're as terrifying as ever.
+Dialogue: 0,0:11:48.40,0:11:52.11,italics,Asta,0000,0000,0000,,Holy crap! I can feel their electrifying \Nki all the way over here!
+Dialogue: 0,0:11:52.11,0:11:55.02,italics,Noelle,0000,0000,0000,,Why are all the Magic Knights\N Squad Captains so weird?
+Dialogue: 0,0:11:55.37,0:11:58.19,main,Sekke,0000,0000,0000,,Let's see what kind of battle unfolds!
+Dialogue: 0,0:11:58.73,0:12:00.49,main,Noelle,0000,0000,0000,,Again, why are you so worked up?
+Dialogue: 0,0:12:21.53,0:12:22.59,main,Sekke,0000,0000,0000,,Bah-ha!
+Dialogue: 0,0:12:29.54,0:12:32.21,main,Yami,0000,0000,0000,,Dark Magic: Dark Cloaked Black Blade!
+Dialogue: 0,0:12:35.09,0:12:36.06,main,Jack,0000,0000,0000,,Nice!
+Dialogue: 0,0:12:36.06,0:12:38.57,main,Jack,0000,0000,0000,,Severing Magic: Death Scythe!
+Dialogue: 0,0:12:40.57,0:12:42.40,main,Asta,0000,0000,0000,,Wow...
+Dialogue: 0,0:12:42.40,0:12:45.25,main,Noelle,0000,0000,0000,,Hmph. That's nothing special.
+Dialogue: 0,0:12:45.25,0:12:47.15,main,Noelle,0000,0000,0000,,If Captain Yami got serious—
+Dialogue: 0,0:12:46.39,0:12:49.08,main,Sekke,0000,0000,0000,,You're amazing, Captain Jack! Bah-hahaha!
+Dialogue: 0,0:12:53.02,0:12:54.71,main,Yami,0000,0000,0000,,Hey, watch it, damn it!
+Dialogue: 0,0:12:54.71,0:12:55.99,main,Asta,0000,0000,0000,,He's okay!
+Dialogue: 0,0:12:55.99,0:12:59.71,main,Finral,0000,0000,0000,,Captain Yami's Lightless Blade \Ncan draw out the enemy's spell!
+Dialogue: 0,0:13:00.07,0:13:03.07,main,Noelle,0000,0000,0000,,So that's how he avoided that attack.
+Dialogue: 0,0:13:03.07,0:13:05.13,main,Asta,0000,0000,0000,,You're so awesome, Captain Yami!
+Dialogue: 0,0:13:06.14,0:13:10.41,main,Julius,0000,0000,0000,,Yami and Jack, both of your spells \Nare amazing! Well done, boys!
+Dialogue: 0,0:13:10.41,0:13:13.12,main,Yami,0000,0000,0000,,I guess I'll start this next round.
+Dialogue: 0,0:13:13.12,0:13:15.60,main,Yami,0000,0000,0000,,I'll show you an extra-special spell.
+Dialogue: 0,0:13:15.60,0:13:17.14,main,Jack,0000,0000,0000,,Extra-special?
+Dialogue: 0,0:13:17.90,0:13:22.65,main,Yami,0000,0000,0000,,I awakened a new spell during the \Nmission to the Underwater Temple.
+Dialogue: 0,0:13:23.44,0:13:25.15,main,Yami,0000,0000,0000,,My own talent scares me sometimes.
+Dialogue: 0,0:13:26.18,0:13:28.66,main,Jack,0000,0000,0000,,All right, bring it on!
+Dialogue: 0,0:13:28.66,0:13:30.42,main,Noelle,0000,0000,0000,,A new spell?
+Dialogue: 0,0:13:30.42,0:13:31.93,main,Finral,0000,0000,0000,,Wait, don't tell me...
+Dialogue: 0,0:13:31.93,0:13:32.99,main,Sekke,0000,0000,0000,,Bah-ha, bah-ha?
+Dialogue: 0,0:13:34.75,0:13:36.96,main,Asta,0000,0000,0000,,He's going to use {\i1}that{\i0} on Captain Jack?
+Dialogue: 0,0:13:40.99,0:13:44.83,main,Asta,0000,0000,0000,,Uh, Finral, shouldn't we be \Nstopping Captain Yami now?
+Dialogue: 0,0:13:44.83,0:13:45.63,main,Finral,0000,0000,0000,,Uh, what?
+Dialogue: 0,0:13:46.17,0:13:48.22,main,Asta,0000,0000,0000,,This is dangerous, even for Captain Jack.
+Dialogue: 0,0:13:48.92,0:13:51.11,main,Noelle,0000,0000,0000,,Yeah! Stop them!
+Dialogue: 0,0:13:51.11,0:13:54.05,main,Noelle,0000,0000,0000,,What if something happens to one of \Nthe Magic Knights Squad Captains?
+Dialogue: 0,0:13:54.05,0:13:55.31,main,Finral,0000,0000,0000,,What do you expect me to do?
+Dialogue: 0,0:13:55.72,0:13:59.17,main,Noelle,0000,0000,0000,,If one of them goes down, the other's \Ngoing to be held responsible.
+Dialogue: 0,0:13:59.17,0:14:02.49,main,Noelle,0000,0000,0000,,And if that happens, the forces protecting \Nthe Clover Kingdom will be weakened!
+Dialogue: 0,0:14:02.49,0:14:04.03,main,Noelle,0000,0000,0000,,Then what do you think will happen?
+Dialogue: 0,0:14:04.03,0:14:05.11,main,Finral,0000,0000,0000,,What will happen?
+Dialogue: 0,0:14:05.11,0:14:09.32,main,Noelle,0000,0000,0000,,The Eye of the Midnight Sun or \Nthe Diamond Kingdom might attack!
+Dialogue: 0,0:14:10.83,0:14:13.37,main,Noelle,0000,0000,0000,,If you don't stop them now, \Nit'll be all your fault!
+Dialogue: 0,0:14:13.37,0:14:14.62,main,Finral,0000,0000,0000,,It's {\i1}my{\i0} fault?!
+Dialogue: 0,0:14:14.62,0:14:17.12,main,Sekke,0000,0000,0000,,It's all your fault! Bah-haha!
+Dialogue: 0,0:14:17.55,0:14:19.04,main,Finral,0000,0000,0000,,Seriously, who the hell are you?
+Dialogue: 0,0:14:19.04,0:14:20.82,main,Noelle,0000,0000,0000,,Hurry up and stop them.
+Dialogue: 0,0:14:21.33,0:14:22.71,main,Noelle,0000,0000,0000,,I'm royalty, remember?
+Dialogue: 0,0:14:23.02,0:14:25.19,main,Finral,0000,0000,0000,,What does that have to do \Nwith anything right now?!
+Dialogue: 0,0:14:26.69,0:14:29.68,italics,Finral,0000,0000,0000,,But I probably should try to stop them.
+Dialogue: 0,0:14:29.68,0:14:32.51,italics,Finral,0000,0000,0000,,Either of them getting \Ndefeated would be bad news.
+Dialogue: 0,0:14:32.51,0:14:35.06,italics,Finral,0000,0000,0000,,If he actually uses Dimension Slash in here,
+Dialogue: 0,0:14:35.06,0:14:37.42,italics,Finral,0000,0000,0000,,who knows if the rest of \Nthis cave will even hold up?
+Dialogue: 0,0:14:37.42,0:14:38.23,italics,Finral,0000,0000,0000,,And then...
+Dialogue: 0,0:14:40.34,0:14:42.02,italics,Finral,0000,0000,0000,,Everyone will be in danger.
+Dialogue: 0,0:14:42.58,0:14:45.86,italics,Finral,0000,0000,0000,,Since I have the most seniority here,\N I need to stop them!
+Dialogue: 0,0:14:46.65,0:14:49.78,main,Finral,0000,0000,0000,,Yami! Stop! That's enough!
+Dialogue: 0,0:14:50.10,0:14:51.72,main,Asta,0000,0000,0000,,Finral!
+Dialogue: 0,0:14:51.72,0:14:53.24,main,Yami,0000,0000,0000,,Stay out of my way!
+Dialogue: 0,0:14:53.24,0:14:55.30,main,Noelle,0000,0000,0000,,He's so useless.
+Dialogue: 0,0:14:55.30,0:14:57.79,main,Sekke,0000,0000,0000,,Seriously, talk about pathetic.
+Dialogue: 0,0:14:57.79,0:14:59.66,main,Noelle,0000,0000,0000,,What is your deal?
+Dialogue: 0,0:14:59.66,0:15:00.67,main,Yami,0000,0000,0000,,Here I come!
+Dialogue: 0,0:15:01.20,0:15:02.25,main,Jack,0000,0000,0000,,Come at me!
+Dialogue: 0,0:15:03.00,0:15:05.25,main,Yami,0000,0000,0000,,Dark Magic: Dark Cloaked...
+Dialogue: 0,0:15:06.27,0:15:08.26,main,Jack,0000,0000,0000,,Severing Magic...
+Dialogue: 0,0:15:08.26,0:15:09.47,main,Jack,0000,0000,0000,,Death Scy—
+Dialogue: 0,0:15:08.26,0:15:09.47,main,Yami,0000,0000,0000,,Dimension—
+Dialogue: 0,0:15:15.58,0:15:18.67,main,Julius,0000,0000,0000,,Time Binding Magic: Chrono Stasis!
+Dialogue: 0,0:15:23.19,0:15:25.53,main,Julius,0000,0000,0000,,I would've loved to have \Nseen Dimension Slash,
+Dialogue: 0,0:15:25.53,0:15:30.32,main,Julius,0000,0000,0000,,but as you mentioned, if something were to \Nhappen to any of the Magic Knights Captains,
+Dialogue: 0,0:15:30.32,0:15:31.69,main,Julius,0000,0000,0000,,we'd be at a disadvantage.
+Dialogue: 0,0:15:31.69,0:15:35.66,main,Julius,0000,0000,0000,,Not to mention, this cave would \Nprobably collapse from the impact.
+Dialogue: 0,0:15:35.66,0:15:38.75,main,Julius,0000,0000,0000,,I'll just have to look forward to \Nseeing Dimension Slash later.
+Dialogue: 0,0:15:39.50,0:15:42.21,italics,Marx,0000,0000,0000,,Wizard King! Where are you slacking off now?!
+Dialogue: 0,0:15:42.21,0:15:45.59,main,Julius,0000,0000,0000,,Hey there, Marx. \NSomething really fun was happening.
+Dialogue: 0,0:15:45.96,0:15:48.30,italics,Marx,0000,0000,0000,,Please stop fooling around and hurry back!
+Dialogue: 0,0:15:48.30,0:15:50.45,italics,Marx,0000,0000,0000,,It's time for the meeting \Nconcerning the Star Festival's
+Dialogue: 0,0:15:50.45,0:15:52.63,italics,Marx,0000,0000,0000,,announcement of how many\N stars each squad has earned!
+Dialogue: 0,0:15:52.63,0:15:54.18,main,Julius,0000,0000,0000,,Oh, is it?
+Dialogue: 0,0:15:54.51,0:15:56.41,italics,Marx,0000,0000,0000,,Don't "Oh, is it?" me!
+Dialogue: 0,0:15:56.41,0:15:57.81,italics,Marx,0000,0000,0000,,The king is waiting for you, too!
+Dialogue: 0,0:15:57.81,0:15:59.41,italics,Marx,0000,0000,0000,,Please return right now!
+Dialogue: 0,0:15:59.41,0:16:01.86,main,Julius,0000,0000,0000,,You're always so angry, Marx.
+Dialogue: 0,0:16:01.86,0:16:03.65,main,Julius,0000,0000,0000,,Your blood pressure's going to go sky-high.
+Dialogue: 0,0:16:03.65,0:16:05.15,italics,Marx,0000,0000,0000,,And whose fault is that?!
+Dialogue: 0,0:16:06.63,0:16:09.23,main,Julius,0000,0000,0000,,Well, you heard him. \NI'm going to head back now.
+Dialogue: 0,0:16:09.23,0:16:10.74,main,Julius,0000,0000,0000,,I'll see you again later.
+Dialogue: 0,0:16:11.62,0:16:17.03,main,Julius,0000,0000,0000,,But before that, I should probably make \Nsure they don't fight again after I leave.
+Dialogue: 0,0:16:17.03,0:16:18.63,main,Julius,0000,0000,0000,,Abra and cadabra.
+Dialogue: 0,0:16:18.63,0:16:20.16,main,Julius,0000,0000,0000,,All done.
+Dialogue: 0,0:16:21.75,0:16:22.91,main,Yami,0000,0000,0000,,Dimension Slash!
+Dialogue: 0,0:16:24.17,0:16:25.67,main,Jack,0000,0000,0000,,Death Scythe!
+Dialogue: 0,0:16:34.62,0:16:35.51,main,Asta,0000,0000,0000,,Huh?
+Dialogue: 0,0:16:35.51,0:16:36.84,main,Noelle,0000,0000,0000,,What happened?
+Dialogue: 0,0:16:36.84,0:16:37.85,main,Sekke,0000,0000,0000,,Bah-ha?
+Dialogue: 0,0:16:42.06,0:16:44.57,main,Yami,0000,0000,0000,,What the hell happened to your pants, man?
+Dialogue: 0,0:16:44.57,0:16:45.77,main,Jack,0000,0000,0000,,Look who's talking!
+Dialogue: 0,0:16:52.65,0:16:55.32,main,Yami,0000,0000,0000,,Damn. I don't feel like fighting anymore.
+Dialogue: 0,0:16:56.18,0:16:59.54,main,Jack,0000,0000,0000,,Don't make me laugh. Now I don't \Nfeel like slicing you up anymore.
+Dialogue: 0,0:17:00.78,0:17:02.27,main,Noelle,0000,0000,0000,,Are they done now?
+Dialogue: 0,0:17:03.09,0:17:06.95,main,Finral,0000,0000,0000,,Thank goodness. I won't be \Nheld responsible for this now.
+Dialogue: 0,0:17:06.95,0:17:10.00,main,Finral,0000,0000,0000,,Jeez! What were you going to do \Nif something serious happened?
+Dialogue: 0,0:17:10.00,0:17:13.69,main,Both,0000,0000,0000,,You dumbass. Like this jackass \Nwould go down that easily.
+Dialogue: 0,0:17:13.69,0:17:15.01,main,Finral,0000,0000,0000,,Right...
+Dialogue: 0,0:17:15.01,0:17:16.89,italics,Finral,0000,0000,0000,,That's not the issue here!
+Dialogue: 0,0:17:16.89,0:17:19.54,main,Sekke,0000,0000,0000,,They say the more you fight,\N the closer you are.
+Dialogue: 0,0:17:19.54,0:17:22.37,main,Sekke,0000,0000,0000,,But make sure you don't \Nfight too much, bah-ha.
+Dialogue: 0,0:17:22.87,0:17:24.89,main,Noelle,0000,0000,0000,,Seriously, who do you think you are?
+Dialogue: 0,0:17:27.93,0:17:29.65,main,Jack,0000,0000,0000,,This isn't half bad.
+Dialogue: 0,0:17:29.65,0:17:32.11,main,Yami,0000,0000,0000,,Your meat dish isn't that bad, either.
+Dialogue: 0,0:17:32.59,0:17:37.14,main,Jack,0000,0000,0000,,Right? Now, I'll make you some dessert.
+Dialogue: 0,0:17:37.14,0:17:38.57,main,Jack,0000,0000,0000,,Hey, go get that one thing!
+Dialogue: 0,0:17:38.57,0:17:39.87,main,Sekke,0000,0000,0000,,Bah-ha!
+Dialogue: 0,0:17:40.83,0:17:47.04,sign_25435_307_Ice,Sign,0000,0000,0000,,Ice
+Dialogue: 0,0:17:41.65,0:17:42.97,main,Jack,0000,0000,0000,,Now hold it down.
+Dialogue: 0,0:17:42.97,0:17:44.98,main,Sekke,0000,0000,0000,,Bah-ha! So cold...
+Dialogue: 0,0:17:47.04,0:17:49.38,sign_5685_44_Raging_Bull,Sign,0000,0000,0000,,Raging Bull
+Dialogue: 0,0:17:47.04,0:17:49.38,sign_25584_311_Ice,Sign,0000,0000,0000,,Ice
+Dialogue: 0,0:17:48.09,0:17:49.38,main,Yami,0000,0000,0000,,Not bad.
+Dialogue: 0,0:17:50.06,0:17:51.22,main,Jack,0000,0000,0000,,Here ya go.
+Dialogue: 0,0:17:51.66,0:17:53.00,main,Yami,0000,0000,0000,,Thanks.
+Dialogue: 0,0:17:53.00,0:17:56.05,italics,Noelle,0000,0000,0000,,The more you fight, the closer you are, huh?
+Dialogue: 0,0:17:56.05,0:17:57.98,italics,Noelle,0000,0000,0000,,Maybe Sekke is right.
+Dialogue: 0,0:17:57.98,0:17:59.34,main,Noelle,0000,0000,0000,,S-Stupidsta...
+Dialogue: 0,0:18:00.43,0:18:04.77,main,Noelle,0000,0000,0000,,I-I don't mind f-fighting \Nwith you once in a while.
+Dialogue: 0,0:18:05.58,0:18:07.52,main,Asta,0000,0000,0000,,S-Sure?
+Dialogue: 0,0:18:07.52,0:18:10.93,main,Finral,0000,0000,0000,,Well, I'll be going now. \NI'm gonna go join everyone else.
+Dialogue: 0,0:18:12.91,0:18:15.64,main,Yami,0000,0000,0000,,Let's call it a draw for today.
+Dialogue: 0,0:18:15.64,0:18:19.41,main,Yami,0000,0000,0000,,That makes it 53 wins, \N0 losses, and 34 draws for me.
+Dialogue: 0,0:18:20.03,0:18:22.59,main,Jack,0000,0000,0000,,Huh? What the hell are you talking about?
+Dialogue: 0,0:18:22.59,0:18:25.70,main,Jack,0000,0000,0000,,You mean it's my 98 wins, \N0 losses, and 1 draw.
+Dialogue: 0,0:18:25.70,0:18:29.96,main,Yami,0000,0000,0000,,You must be going senile. \NIt's my 156 wins and 0 losses.
+Dialogue: 0,0:18:30.29,0:18:32.96,main,Jack,0000,0000,0000,,I'm the one with 567 victories here.
+Dialogue: 0,0:18:33.94,0:18:35.20,main,Yami,0000,0000,0000,,Oh?
+Dialogue: 0,0:18:35.20,0:18:36.90,main,Jack,0000,0000,0000,,You want a piece of me?!
+Dialogue: 0,0:18:36.90,0:18:40.46,main,Yami,0000,0000,0000,,I've been wanting to settle the \Nscore with you for a long time now.
+Dialogue: 0,0:18:40.46,0:18:41.93,main,Jack,0000,0000,0000,,Guess tonight's the night.
+Dialogue: 0,0:18:41.93,0:18:43.14,main,Yami,0000,0000,0000,,You giant string bean!
+Dialogue: 0,0:18:44.61,0:18:46.43,main,Jack,0000,0000,0000,,You grandpa-faced fisherman!
+Dialogue: 0,0:18:46.43,0:18:49.85,main,Noelle,0000,0000,0000,,Again?! Asta, stop them!
+Dialogue: 0,0:18:49.85,0:18:50.65,main,Asta,0000,0000,0000,,Me?!
+Dialogue: 0,0:18:50.65,0:18:52.68,main,Noelle,0000,0000,0000,,Well, who else is there?
+Dialogue: 0,0:18:52.68,0:18:54.15,main,Asta,0000,0000,0000,,You go do it!
+Dialogue: 0,0:18:54.15,0:18:55.69,main,Noelle,0000,0000,0000,,But I'm royalty!
+Dialogue: 0,0:18:56.46,0:18:58.58,main,Sekke,0000,0000,0000,,Now, now, let's just—
+Dialogue: 0,0:18:58.58,0:18:59.58,main,Jack,0000,0000,0000,,Shut up!
+Dialogue: 0,0:19:01.15,0:19:03.16,main,Noelle,0000,0000,0000,,See? There's no one else.
+Dialogue: 0,0:19:04.89,0:19:06.46,main,Asta,0000,0000,0000,,Okay, fine...
+Dialogue: 0,0:19:07.16,0:19:14.96,sign_1383_10_Raging_Bull,Sign,0000,0000,0000,,Raging Bull
+Dialogue: 0,0:19:07.47,0:19:11.34,main,Asta,0000,0000,0000,,U-Um, Captain Yami, Captain Jack...
+Dialogue: 0,0:19:11.34,0:19:15.33,main,Asta,0000,0000,0000,,Come on, we're at this super fun \Nfestival, so let's not fight.
+Dialogue: 0,0:19:15.33,0:19:17.96,main,Asta,0000,0000,0000,,Let's just all get along, okay? 'Kay?
+Dialogue: 0,0:19:17.96,0:19:19.37,main,Yami,0000,0000,0000,,You're in my way.
+Dialogue: 0,0:19:20.84,0:19:23.97,main,Yami,0000,0000,0000,,Stay out of my way!
+Dialogue: 0,0:19:25.98,0:19:27.70,main,Noelle,0000,0000,0000,,Stupidsta!
+Dialogue: 0,0:19:33.30,0:19:35.77,main,Kahono,0000,0000,0000,,Everyone, thanks for your support!
+Dialogue: 0,0:19:35.77,0:19:39.65,main,Kiato,0000,0000,0000,,We're going to become the biggest \Nidols in the Clover Kingdom someday!
+Dialogue: 0,0:19:40.17,0:19:43.25,main,Kahono,0000,0000,0000,,Idols that can sing, dance, and use magic!
+Dialogue: 0,0:19:43.25,0:19:44.20,main,Kahono,0000,0000,0000,,I'm Kahono!
+Dialogue: 0,0:19:44.57,0:19:45.53,main,Kiato,0000,0000,0000,,And I'm Kiato!
+Dialogue: 0,0:19:45.53,0:19:48.54,main,Both,0000,0000,0000,,We look forward to your support!
+Dialogue: 0,0:19:48.54,0:19:51.37,main,Both,0000,0000,0000,,We look forward to plenty of yuls, too!
+Dialogue: 0,0:19:51.06,0:19:54.46,top,Asta,0000,0000,0000,,Oh, no!
+Dialogue: 0,0:19:51.37,0:19:53.54,main,Both,0000,0000,0000,,Lots and lots!
+Dialogue: 0,0:19:54.46,0:19:55.79,main,Kiato,0000,0000,0000,,Asta?
+Dialogue: 0,0:19:57.93,0:20:01.38,main,Vanessa,0000,0000,0000,,You're late, Finral. Where were you?
+Dialogue: 0,0:20:01.38,0:20:03.90,main,Vanessa,0000,0000,0000,,I bet you asked a girl out \Nagain just to get rejected.
+Dialogue: 0,0:20:03.90,0:20:06.14,main,Finral,0000,0000,0000,,I mean, that happened too, but...
+Dialogue: 0,0:20:06.14,0:20:08.92,main,Finral,0000,0000,0000,,A few other things happened, too.
+Dialogue: 0,0:20:08.92,0:20:10.65,main,Vanessa,0000,0000,0000,,Other things?
+Dialogue: 0,0:20:10.65,0:20:12.14,main,Finral,0000,0000,0000,,I'm pretty exhausted.
+Dialogue: 0,0:20:12.14,0:20:15.77,main,Vanessa,0000,0000,0000,,Oh, come on. The festival just started.
+Dialogue: 0,0:20:14.86,0:20:15.78,main,Finral,0000,0000,0000,,Oh, thanks.
+Dialogue: 0,0:20:15.77,0:20:19.60,main,Vanessa,0000,0000,0000,,Go on. Drink up! Cheers!
+Dialogue: 0,0:20:19.60,0:20:20.87,main,Finral,0000,0000,0000,,Cheers.
+Dialogue: 0,0:20:22.42,0:20:23.59,sign_29309_369_I_know_,Gordon/cap,0000,0000,0000,,I know.
+Dialogue: 0,0:20:23.76,0:20:26.89,sign_29341_370_Captain_Yami_mus,Gordon/cap,0000,0000,0000,,Captain Yami must've summoned \Nyou to use your spatial magic.
+Dialogue: 0,0:20:27.18,0:20:28.68,sign_29309_369_I_know_,Gordon/cap,0000,0000,0000,,That must've been rough. \NThanks for all you do.
+Dialogue: 0,0:20:28.89,0:20:29.41,sign_29309_369_I_know_,Gordon/cap,0000,0000,0000,,Cheers.
+Dialogue: 0,0:20:35.33,0:20:36.81,main,Guy,0000,0000,0000,,Y-You okay?
+Dialogue: 0,0:20:37.77,0:20:40.88,main,Asta,0000,0000,0000,,Captain Yami, I flew super far!
+Dialogue: 0,0:20:41.19,0:20:42.15,main,Guy,0000,0000,0000,,He's actually okay.
+Dialogue: 0,0:20:42.15,0:20:43.89,main,Guy,0000,0000,0000,,He's so tough.
+Dialogue: 0,0:20:44.50,0:20:46.93,main,Asta,0000,0000,0000,,Where the heck am I?
+Dialogue: 0,0:20:47.32,0:20:49.62,main,Asta,0000,0000,0000,,I need to get back to everyone else.
+Dialogue: 0,0:20:53.30,0:20:54.89,main,Guy,0000,0000,0000,,Wow, she's so beautiful.
+Dialogue: 0,0:20:54.89,0:20:56.26,main,Guy,0000,0000,0000,,She's so elegant.
+Dialogue: 0,0:20:56.26,0:20:57.72,main,Guy,0000,0000,0000,,Is she from some wealthy family?
+Dialogue: 0,0:20:57.72,0:20:59.65,main,Guy,0000,0000,0000,,Hey, go talk to her, man.
+Dialogue: 0,0:20:59.65,0:21:01.05,main,Guy,0000,0000,0000,,No way! How could I?
+Dialogue: 0,0:21:01.51,0:21:05.91,italics,Asta,0000,0000,0000,,She is super pretty. I bet \NFinral would love her.
+Dialogue: 0,0:21:10.83,0:21:14.46,italics,Asta,0000,0000,0000,,But I feel like I've seen her before.
+Dialogue: 0,0:22:48.88,0:22:53.35,sign_33083_276_Petit_Clover_,Sign,0000,0000,0000,,{\fad(1,520)}Pe{\c&H3BC020&}t{\c&HE2AF0F&}i{\c&H3BC020&}t C{\c&HE2AF0F&}l{\c&H3BC020&}o{\c&H0E42D4&}ve{\c&H3BC020&}r
+Dialogue: 0,0:22:49.62,0:22:52.06,main,All,0000,0000,0000,,Petit Clover!
+Dialogue: 0,0:22:52.85,0:22:56.85,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Grilled Squid
+Dialogue: 0,0:22:53.51,0:22:55.29,main,Yami,0000,0000,0000,,Grilled Squid.
+Dialogue: 0,0:22:57.30,0:23:01.10,main,Yami,0000,0000,0000,,Today, I'll show you how to make \Nsome delicious grilled squid.
+Dialogue: 0,0:23:01.10,0:23:02.38,main,Both,0000,0000,0000,,Yeah!
+Dialogue: 0,0:23:02.38,0:23:04.36,main,Yami,0000,0000,0000,,It's super simple. Anyone can do it.
+Dialogue: 0,0:23:04.36,0:23:05.67,main,Noelle,0000,0000,0000,,You say that,
+Dialogue: 0,0:23:05.67,0:23:08.61,main,Noelle,0000,0000,0000,,but you're not going to cheat and use \Nmagic like that one chef did, are you?
+Dialogue: 0,0:23:10.29,0:23:11.61,main,Yami,0000,0000,0000,,Just watch.
+Dialogue: 0,0:23:11.94,0:23:14.93,main,Yami,0000,0000,0000,,First, you pull out its insides\Nand cut slits into it.
+Dialogue: 0,0:23:14.93,0:23:16.55,main,Asta,0000,0000,0000,,Those are actually real instructions!
+Dialogue: 0,0:23:20.39,0:23:23.97,main,Yami,0000,0000,0000,,Then you season it with sugar, \Nsalt, mirin, and ginger.
+Dialogue: 0,0:23:23.97,0:23:24.90,main,Noelle,0000,0000,0000,,Still real instructions!
+Dialogue: 0,0:23:24.90,0:23:25.88,main,Yami,0000,0000,0000,,Then, you grill it.
+Dialogue: 0,0:23:26.31,0:23:27.67,main,Both,0000,0000,0000,,This is normal cooking!
+Dialogue: 0,0:23:27.67,0:23:28.88,main,Yami,0000,0000,0000,,All done.
+Dialogue: 0,0:23:29.71,0:23:30.63,main,Both,0000,0000,0000,,Yummy!
+Dialogue: 0,0:23:31.01,0:23:34.14,main,Yami,0000,0000,0000,,There you go. Simple grilled squid\N that anyone can make.
+Dialogue: 0,0:23:34.82,0:23:36.10,main,Yami,0000,0000,0000,,There's no punchline this time.
+Dialogue: 0,0:23:39.55,0:23:40.73,main,Finral,0000,0000,0000,,Festivals are the best!
+Dialogue: 0,0:23:40.73,0:23:43.49,main,Finral,0000,0000,0000,,Girls let their guard down a little, too!
+Dialogue: 0,0:23:43.49,0:23:45.69,main,Finral,0000,0000,0000,,Okay, I'm gonna get me a girl!
+Dialogue: 0,0:23:45.69,0:23:48.65,main,finral,0000,0000,0000,,{\i1}Black Clover{\i0}, Page 69: \N"The Briar Maiden's Melancholy."
+Dialogue: 0,0:23:46.73,0:23:54.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 69\N\N{\fs18} The Briar Maiden's Melancholy
+Dialogue: 0,0:23:48.65,0:23:51.29,main,Finral,0000,0000,0000,,Whoa! Captain Charlotte has makeup on!
+Dialogue: 0,0:23:51.29,0:23:53.74,main,Finral,0000,0000,0000,,She's even more beautiful than usual!

@@ -1,0 +1,440 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H00F7FCFD,&H000000FF,&H00070805,&H000D1728,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0070,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_4026_23_28th_Wizard_King,Times New Roman,20,&H00FFFCFF,&H000000FF,&H00132B29,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_5280_37_Last_Year_s_Star,Times New Roman,18,&H00161A1B,&H000000FF,&H00F5F8F5,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_7508_77_Kiten_defended__,Times New Roman,12,&H00DDD5D2,&H000000FF,&H00554B48,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_8928_78_Closed_for_a_pri,Times New Roman,26,&H00FBFDFD,&H000000FF,&H000A0905,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0080,1
+Style: sign_9657_109_The_Black_Bulls,Times New Roman,26,&H00FFFFFF,&H000000FF,&H00625F5B,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0220,0220,0020,1
+Style: sign_13242_132_Grampsgoleon__Gr,Arial,12,&H00FFFFFF,&H000000FF,&H004B433E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0100,0100,0100,1
+Style: sign_13242_132_Grampsgoleon____,Arial,12,&H0005182C,&H000000FF,&H00D0EEFB,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0390,0020,1
+Style: sign_13254_133_Daddygoleon,Arial,16,&H0005182C,&H000000FF,&H00D0EEFB,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0375,0290,1
+Style: sign_13266_134_Mommygoleon,Arial,16,&H0005182C,&H000000FF,&H00D0EEFB,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0375,0250,1
+Style: sign_13278_135_Brogoleon,Arial,16,&H0005182C,&H000000FF,&H00D0EEFB,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0375,0215,1
+Style: sign_13290_136_Sisgoleon,Arial,16,&H0005182C,&H000000FF,&H00D0EEFB,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0375,0175,1
+Style: sign_13302_137_Fuegoleon,Arial,16,&H0005182C,&H000000FF,&H00D0EEFB,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0375,0135,1
+Style: sign_13314_138_Younger_Brogoleo,Arial,16,&H0005182C,&H000000FF,&H00D0EEFB,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0375,0100,1
+Style: sign_13326_139_Younger_Sisgoleo,Arial,16,&H0005182C,&H000000FF,&H00D0EEFB,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0065,0410,0060,1
+Style: sign_16275_183_Strong_Magic_Reg,Times New Roman,28,&H00FEFEFE,&H000000FF,&H00262425,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0030,0090,0020,1
+Style: sign_16275_184_Yultim_Volcano_T,Times New Roman,28,&H00FFFFF9,&H000000FF,&H001F1A2F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,1,0080,0030,0020,1
+Style: sign_24686_306_The_Royal_Knight,Arial,28,&H00FFFFFF,&H000000FF,&H004B433E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0100,1
+Style: sign_23343_218_Ki,Times New Roman,30,&H00D1D3E3,&H000000FF,&H00608797,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_4680_49_Loud,Arial,24,&H00191A11,&H000000FF,&H007476C0,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,0030,0500,0020,1
+Style: sign_4702_50_Short,Arial,24,&H000B0E08,&H000000FF,&H00C1CA82,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,6,0500,0030,0020,1
+Style: sign_4732_51_Can_t_calm_down,Arial,24,&H00323F21,&H000000FF,&H00A3EBE0,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,9,0300,0030,0020,1
+Style: sign_4768_52_Immature,Arial,24,&H00070500,&H000000FF,&H0082CCA2,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,4,0030,0300,0000,1
+Style: sign_4870_54_Not_appealing,Arial,24,&H00070F06,&H000000FF,&H00AA88C9,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0200,0200,0020,1
+Style: sign_22966_252_Her_daughter,Arial,24,&H00241313,&H000000FF,&H00CDACB3,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,9,0320,0030,0020,1
+Style: sign_23053_254_Refined,Arial,24,&H00161C17,&H000000FF,&H00C4CACC,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,0030,0320,0020,1
+Style: sign_23190_258_Crude,Arial,24,&H0025040C,&H000000FF,&H00DBDDB6,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,4,0030,0532,0000,1
+Style: sign_30649_353_Hot_Springs_Trai,Times New Roman,26,&H00FEFEFE,&H000000FF,&H00060406,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,6,0030,0030,0000,1
+Style: sign_33829_367_Express_Delivery,Arial,13,&H00DCF2FB,&H000000FF,&H0040DFE1,&H00418B99,-1,0,0,0,100,100,0,0,1,3,2,1,0260,0030,0285,1
+Style: sign_33829_368_Order_now_for_fr,Arial,10,&H00EEEDF4,&H000000FF,&H00DAD698,&H00C6BCC3,-1,0,0,0,100,100,0,0,1,3,2,3,0030,0285,0130,1
+Style: sign_33829_369_Don_t_wait__Orde,Arial,16,&H00B8F6E4,&H000000FF,&H00DAD698,&H0079C1AF,-1,0,0,0,100,100,0,0,1,3,2,1,0385,0030,0135,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:06.58,0:00:10.69,italics,Nar,0000,0000,0000,,It appeared as though humanity \Nwould be destroyed by the demons.
+Dialogue: 0,0:00:14.98,0:00:19.16,italics,Nar,0000,0000,0000,,But a single mage saved them all.
+Dialogue: 0,0:00:26.37,0:00:31.46,italics,Nar,0000,0000,0000,,He was called the Wizard King,\Nand he became a legend.
+Dialogue: 0,0:00:33.92,0:00:37.47,main,Mer,0000,0000,0000,,The Crimson Lion Kings placed fifth?
+Dialogue: 0,0:00:37.96,0:00:41.68,italics,Nar,0000,0000,0000,,The new Captain of the \NCrimson Lion Kings, Mereoleona Vermillion,
+Dialogue: 0,0:00:42.10,0:00:44.48,italics,Nar,0000,0000,0000,,is the older sister of Fuegoleon,\Nwho was injured
+Dialogue: 0,0:00:44.48,0:00:47.69,italics,Nar,0000,0000,0000,,fighting the Eye of the Midnight Sun \Nand has yet to awaken.
+Dialogue: 0,0:00:48.52,0:00:49.48,italics,Nar,0000,0000,0000,,Thus,
+Dialogue: 0,0:00:49.48,0:00:52.86,italics,Nar,0000,0000,0000,,she decided to hold a training camp at \Na hot spring in a strong magic region,
+Dialogue: 0,0:00:52.86,0:00:56.28,italics,Nar,0000,0000,0000,,and she ended up dragging Asta \Nand some of the others there.
+Dialogue: 0,0:00:56.83,0:01:00.20,italics,Nar,0000,0000,0000,,Asta and the others head toward the \Nsummit where the hot spring is, but...
+Dialogue: 0,0:01:02.08,0:01:03.58,main,Asta,0000,0000,0000,,I'm not going back!
+Dialogue: 0,0:01:03.98,0:01:04.92,main,Asta,0000,0000,0000,,I...
+Dialogue: 0,0:01:05.26,0:01:09.75,main,Asta,0000,0000,0000,,What we're striving for isn't something \Nthat can be obtained just by luck!
+Dialogue: 0,0:01:11.10,0:01:12.84,main,Asta,0000,0000,0000,,I'll get to the top!
+Dialogue: 0,0:01:12.84,0:01:16.63,main,Asta,0000,0000,0000,,Our dream is waiting for us \Nat the top, beyond merit!
+Dialogue: 0,0:01:39.28,0:01:43.04,Ep Title,Sign,0000,0000,0000,,{\fad(187,1)}Saint Elmo's Fire
+Dialogue: 0,0:02:47.85,0:02:51.27,sign_16275_183_Strong_Magic_Reg,Sign,0000,0000,0000,,{\fad(984,1)}Strong\NMagic\NRegion
+Dialogue: 0,0:02:47.85,0:02:51.27,sign_16275_184_Yultim_Volcano_T,Sign,0000,0000,0000,,{\fad(984,1)}Yultim\NVolcano\NTrail
+Dialogue: 0,0:02:57.36,0:03:00.29,italics,Asta,0000,0000,0000,,I acted all tough and \Nsaid I'd get to the top,
+Dialogue: 0,0:03:00.29,0:03:02.41,italics,Asta,0000,0000,0000,,but I can't even move an inch in this heat!
+Dialogue: 0,0:03:04.22,0:03:07.92,italics,Asta,0000,0000,0000,,What should I do? If my muscles \Nor guts can't get me through this,
+Dialogue: 0,0:03:07.92,0:03:10.01,italics,Asta,0000,0000,0000,,there's nothing I can do right now.
+Dialogue: 0,0:03:10.01,0:03:11.99,italics,Asta,0000,0000,0000,,I can't do this my normal way.
+Dialogue: 0,0:03:11.99,0:03:15.38,italics,Asta,0000,0000,0000,,Normal? Then what if I try \Nsomething that's not normal?
+Dialogue: 0,0:03:17.75,0:03:19.06,italics,Asta,0000,0000,0000,,That power!
+Dialogue: 0,0:03:19.06,0:03:21.00,italics,Asta,0000,0000,0000,,But how do I use it?
+Dialogue: 0,0:03:21.00,0:03:24.58,italics,Asta,0000,0000,0000,,Last time, I sorta went unconscious and \Nended up like that when I came to.
+Dialogue: 0,0:03:24.58,0:03:26.14,main,Asta,0000,0000,0000,,I don't know!
+Dialogue: 0,0:03:26.51,0:03:28.97,main,Mer,0000,0000,0000,,Your head looks like it's \Nabout to explode, too.
+Dialogue: 0,0:03:28.97,0:03:30.60,main,Mer,0000,0000,0000,,That's what you get for thinking too hard.
+Dialogue: 0,0:03:30.60,0:03:31.98,main,Asta,0000,0000,0000,,Right...
+Dialogue: 0,0:03:31.98,0:03:33.39,italics,Asta,0000,0000,0000,,I can't think too hard about this.
+Dialogue: 0,0:03:33.39,0:03:37.28,italics,Asta,0000,0000,0000,,It's not like thinking helped \Nat all last time, either.
+Dialogue: 0,0:03:37.28,0:03:40.65,italics,Asta,0000,0000,0000,,I need to concentrate. Empty my mind...
+Dialogue: 0,0:03:41.36,0:03:43.86,main,Asta,0000,0000,0000,,Transform!
+Dialogue: 0,0:03:46.97,0:03:49.00,main,Mer,0000,0000,0000,,Actually, you can go home after all.
+Dialogue: 0,0:03:49.00,0:03:50.90,main,Asta,0000,0000,0000,,Please forget you saw that!
+Dialogue: 0,0:03:50.90,0:03:52.76,main,Asta,0000,0000,0000,,You got it all wrong! I can do this!
+Dialogue: 0,0:03:52.76,0:03:55.29,main,Asta,0000,0000,0000,,I can do it if I try!
+Dialogue: 0,0:03:59.77,0:04:02.97,main,Mer,0000,0000,0000,,Then I suggest that you keep struggling.
+Dialogue: 0,0:04:02.97,0:04:04.27,main,Asta,0000,0000,0000,,Yes, ma'am!
+Dialogue: 0,0:04:04.27,0:04:05.50,italics,Asta,0000,0000,0000,,That's the only thing I can do!
+Dialogue: 0,0:04:05.50,0:04:07.72,italics,Asta,0000,0000,0000,,I'll struggle, struggle, \Nand struggle some more!
+Dialogue: 0,0:04:08.95,0:04:11.25,italics,Asta,0000,0000,0000,,Come to think of it, back then,
+Dialogue: 0,0:04:11.25,0:04:13.88,italics,Asta,0000,0000,0000,,it wasn't just the fact that \NI wasn't thinking about anything.
+Dialogue: 0,0:04:13.88,0:04:15.26,italics,Asta,0000,0000,0000,,I was about to die.
+Dialogue: 0,0:04:15.26,0:04:16.83,italics,Asta,0000,0000,0000,,Is that why I unconsciously...
+Dialogue: 0,0:04:18.90,0:04:21.97,italics,Asta,0000,0000,0000,,Then, I guess...
+Dialogue: 0,0:04:21.97,0:04:23.24,italics,Asta,0000,0000,0000,,I'll try jumping into the lava.
+Dialogue: 0,0:04:24.74,0:04:27.51,italics,Asta,0000,0000,0000,,I ran head-first into Salamander's explosions!
+Dialogue: 0,0:04:27.51,0:04:29.49,italics,Asta,0000,0000,0000,,This isn't going to be scary at all!
+Dialogue: 0,0:04:31.35,0:04:35.48,italics,Asta,0000,0000,0000,,No, wait! That's just being reckless!
+Dialogue: 0,0:04:35.48,0:04:37.89,italics,Asta,0000,0000,0000,,Did you forget what he told you back then?
+Dialogue: 0,0:04:37.89,0:04:39.96,italics,Asta,0000,0000,0000,,Stay calm at all times!
+Dialogue: 0,0:04:39.96,0:04:41.96,italics,Asta,0000,0000,0000,,I need to think...
+Dialogue: 0,0:04:42.59,0:04:46.14,italics,Asta,0000,0000,0000,,I-It's no use! I can't think of a damn thing!
+Dialogue: 0,0:04:46.14,0:04:48.30,italics,Asta,0000,0000,0000,,Because I'm stupid!
+Dialogue: 0,0:04:48.30,0:04:51.81,italics,Asta,0000,0000,0000,,I'm so jealous of that \NMana Skin barrier thingie.
+Dialogue: 0,0:04:51.81,0:04:55.25,italics,Asta,0000,0000,0000,,If only I had some magic... Damn it!
+Dialogue: 0,0:04:55.25,0:04:58.16,italics,Asta,0000,0000,0000,,I haven't been this jealous \Nof everyone in a long time.
+Dialogue: 0,0:05:00.59,0:05:04.25,italics,Asta,0000,0000,0000,,Hang on, Asta. You've gotta stop \Nbeing so envious of others.
+Dialogue: 0,0:05:04.25,0:05:06.36,italics,Asta,0000,0000,0000,,You've done a lot yourself.
+Dialogue: 0,0:05:06.99,0:05:10.79,flashback,Mer,0000,0000,0000,,There's no way a fool who doesn't \Nknow himself can manage it.
+Dialogue: 0,0:05:11.42,0:05:14.45,italics,Asta,0000,0000,0000,,I don't know myself? Could it be that...
+Dialogue: 0,0:05:14.45,0:05:18.33,italics,Asta,0000,0000,0000,,I still don't fully comprehend \Nthe power that I have?
+Dialogue: 0,0:05:18.33,0:05:20.51,italics,Asta,0000,0000,0000,,First, I have this anti-magic sword
+Dialogue: 0,0:05:20.51,0:05:23.71,italics,Asta,0000,0000,0000,,that only I can hold, because I \Ndon't have any magical powers.
+Dialogue: 0,0:05:23.71,0:05:25.61,italics,Asta,0000,0000,0000,,It can cut through any magic.
+Dialogue: 0,0:05:25.61,0:05:28.92,italics,Asta,0000,0000,0000,,But I can't do anything \Nabout this environment.
+Dialogue: 0,0:05:28.92,0:05:32.95,italics,Asta,0000,0000,0000,,Second, I trained my body and increased my \Nstamina so that I could use this sword.
+Dialogue: 0,0:05:32.95,0:05:37.02,italics,Asta,0000,0000,0000,,I could climb any other mountain,\N but not this one.
+Dialogue: 0,0:05:37.42,0:05:41.66,italics,Asta,0000,0000,0000,,Third, I can now use the ki detection \Nthat Captain Yami taught me about.
+Dialogue: 0,0:05:41.66,0:05:42.78,italics,Asta,0000,0000,0000,,It's now part of my routine.
+Dialogue: 0,0:05:43.39,0:05:47.11,italics,Asta,0000,0000,0000,,Using that, I'll know when the rocks or lava \Nfrom the eruptions are heading my way, but...
+Dialogue: 0,0:05:47.11,0:05:48.17,main,Asta,0000,0000,0000,,Ki?
+Dialogue: 0,0:05:48.47,0:06:01.50,sign_23343_218_Ki,Sign,0000,0000,0000,,{\fad(443,1)}Ki
+Dialogue: 0,0:05:49.37,0:05:51.89,flashback,Yami,0000,0000,0000,,People looking at you,\Nthe sound of their breathing,
+Dialogue: 0,0:05:51.89,0:05:54.75,flashback,Yami,0000,0000,0000,,their smell, the motions of their muscles,
+Dialogue: 0,0:05:54.75,0:05:56.37,flashback,Yami,0000,0000,0000,,the vague sense that they're there...
+Dialogue: 0,0:05:56.37,0:06:00.07,flashback,Yami,0000,0000,0000,,Ki is the blanket term for all of the \Ndifferent types of life energy
+Dialogue: 0,0:06:00.07,0:06:01.51,flashback,Yami,0000,0000,0000,,the human body emits.
+Dialogue: 0,0:06:02.00,0:06:07.90,flashback,Yami,0000,0000,0000,,When I do it, I combine it with \Nmagic and muscle, and fight that way.
+Dialogue: 0,0:06:07.90,0:06:11.14,italics,Asta,0000,0000,0000,,Could it be that if I use \Nki detection on myself,
+Dialogue: 0,0:06:11.14,0:06:12.79,italics,Asta,0000,0000,0000,,I'll find out more about that power?
+Dialogue: 0,0:06:18.37,0:06:22.01,italics,Asta,0000,0000,0000,,I was right. I sense my own ki within my body,
+Dialogue: 0,0:06:22.01,0:06:25.48,italics,Asta,0000,0000,0000,,as well as something black flowing \Ninto my body from the sword.
+Dialogue: 0,0:06:25.48,0:06:27.61,italics,Asta,0000,0000,0000,,If I could only strengthen this flow.
+Dialogue: 0,0:06:27.61,0:06:30.87,italics,Asta,0000,0000,0000,,Like, circulate it throughout my body more...
+Dialogue: 0,0:06:31.59,0:06:34.90,italics,Asta,0000,0000,0000,,Circulate... like a river? No, like a ring?
+Dialogue: 0,0:06:34.90,0:06:37.16,italics,Asta,0000,0000,0000,,What stance would make \Nthat easier to visualize?
+Dialogue: 0,0:06:40.65,0:06:41.88,italics,Asta,0000,0000,0000,,This is it!
+Dialogue: 0,0:06:42.26,0:06:46.70,italics,Asta,0000,0000,0000,,All right, good! Flow even \Nmore throughout my body!
+Dialogue: 0,0:06:47.57,0:06:50.16,italics,Asta,0000,0000,0000,,More... Even more!
+Dialogue: 0,0:06:50.16,0:06:51.58,italics,Asta,0000,0000,0000,,More fiercely!
+Dialogue: 0,0:06:52.18,0:06:56.06,italics,Nar,0000,0000,0000,,The sword's anti-magic flowed \Ninto Asta's body amplified itself,
+Dialogue: 0,0:06:56.06,0:06:58.64,italics,Nar,0000,0000,0000,,and then brought about \Na change in Asta's body.
+Dialogue: 0,0:07:00.85,0:07:02.61,main,Asta,0000,0000,0000,,There it is!
+Dialogue: 0,0:07:02.61,0:07:04.35,main,Asta,0000,0000,0000,,I can feel the power overflowing!
+Dialogue: 0,0:07:04.35,0:07:07.13,main,Asta,0000,0000,0000,,All right, I'm gonna make it to the top!
+Dialogue: 0,0:07:09.11,0:07:11.38,main,Asta,0000,0000,0000,,I can't stop!
+Dialogue: 0,0:07:13.59,0:07:15.28,main,Guy,0000,0000,0000,,Y-You can't be serious!
+Dialogue: 0,0:07:15.28,0:07:17.87,main,Guy,0000,0000,0000,,That attack didn't work?
+Dialogue: 0,0:07:17.87,0:07:21.04,sign_4026_23_28th_Wizard_King,Sign,0000,0000,0000,,Magical Lifeform\N{\fs30}Borula
+Dialogue: 0,0:07:21.04,0:07:24.27,main,Leo,0000,0000,0000,,Don't falter! If we can't \Ndefeat something like this,
+Dialogue: 0,0:07:24.27,0:07:26.04,main,Leo,0000,0000,0000,,we're unworthy to be called Magic Knights!
+Dialogue: 0,0:07:26.04,0:07:28.60,main,Noelle,0000,0000,0000,,Yeah, so take care of it already, Leopold.
+Dialogue: 0,0:07:28.60,0:07:30.35,main,Leo,0000,0000,0000,,You got it! Wait... Noelle!
+Dialogue: 0,0:07:30.35,0:07:33.19,main,Leo,0000,0000,0000,,Your attribute is water, which gives \Nyou an edge over that thing!
+Dialogue: 0,0:07:33.19,0:07:34.62,main,Leo,0000,0000,0000,,What are you doing?!
+Dialogue: 0,0:07:34.62,0:07:39.64,main,Noelle,0000,0000,0000,,Shut up! It's taking all my concentration \Nto keep my Mana Skin up!
+Dialogue: 0,0:07:41.27,0:07:42.28,main,Noelle,0000,0000,0000,,Asta?
+Dialogue: 0,0:07:42.28,0:07:43.35,main,Leo,0000,0000,0000,,But that form...
+Dialogue: 0,0:07:46.52,0:07:48.57,main,Asta,0000,0000,0000,,One Horn Bull Thrust!
+Dialogue: 0,0:07:49.57,0:07:53.31,main,Leo,0000,0000,0000,,That's my rival for you! So you've \Nacquired a new special technique, eh?
+Dialogue: 0,0:07:53.31,0:07:56.45,main,Leo,0000,0000,0000,,That black aura... \NI shall dub you Black Asta!
+Dialogue: 0,0:07:57.22,0:07:59.18,main,Leo,0000,0000,0000,,Wait, where are you going?!
+Dialogue: 0,0:07:59.18,0:08:00.70,main,Asta,0000,0000,0000,,Hell if I know!
+Dialogue: 0,0:08:01.59,0:08:04.09,main,Asta,0000,0000,0000,,Oh, crap! Oh, crap! I don't know how to stop!
+Dialogue: 0,0:08:04.09,0:08:06.41,main,Asta,0000,0000,0000,,I seem to be heading \Ntoward the summit, but...
+Dialogue: 0,0:08:07.73,0:08:09.05,main,Asta,0000,0000,0000,,That's...
+Dialogue: 0,0:08:09.95,0:08:12.01,main,Asta,0000,0000,0000,,Yuno!
+Dialogue: 0,0:08:18.26,0:08:19.06,main,Yuno,0000,0000,0000,,Asta...
+Dialogue: 0,0:08:22.97,0:08:25.33,main,Asta,0000,0000,0000,,I'm headed head-first into the lava!
+Dialogue: 0,0:08:25.33,0:08:26.54,main,Charlotte,0000,0000,0000,,You're not going to help him?
+Dialogue: 0,0:08:26.54,0:08:28.25,main,Yami,0000,0000,0000,,There's no need.
+Dialogue: 0,0:08:28.25,0:08:33.54,main,Yami,0000,0000,0000,,The anti-magic overflowing from his \Nbody isn't heading toward the lava.
+Dialogue: 0,0:08:33.54,0:08:35.66,main,Yami,0000,0000,0000,,It's headed toward her fierce magic.
+Dialogue: 0,0:08:39.58,0:08:40.79,italics,Asta,0000,0000,0000,,She's pulling me to her?
+Dialogue: 0,0:08:41.91,0:08:44.33,main,Asta,0000,0000,0000,,P-Please run!
+Dialogue: 0,0:08:44.89,0:08:46.07,main,Mere,0000,0000,0000,,Run?
+Dialogue: 0,0:08:46.07,0:08:47.11,main,Mere,0000,0000,0000,,You fool!
+Dialogue: 0,0:08:47.11,0:08:49.67,main,Mere,0000,0000,0000,,Among lions, the females \Nare the ones who hunt!
+Dialogue: 0,0:08:51.17,0:08:52.71,main,Mere,0000,0000,0000,,Flame Magic:
+Dialogue: 0,0:08:55.05,0:08:57.01,main,Mere,0000,0000,0000,,Calidos Brachium!
+Dialogue: 0,0:08:59.13,0:09:00.29,main,Charlotte,0000,0000,0000,,Impressive.
+Dialogue: 0,0:09:00.29,0:09:04.28,main,Yami,0000,0000,0000,,Looks like that violent lioness \Nis as psychotic as ever.
+Dialogue: 0,0:09:04.28,0:09:07.09,main,Yami,0000,0000,0000,,How'd she do that midair?
+Dialogue: 0,0:09:07.09,0:09:09.52,main,Yami,0000,0000,0000,,Yo, kid! You alive?
+Dialogue: 0,0:09:09.52,0:09:11.81,italics,Asta,0000,0000,0000,,H-Holy crap!
+Dialogue: 0,0:09:11.81,0:09:14.53,italics,Asta,0000,0000,0000,,She's definitely Captain \NFuegoleon's big sister!
+Dialogue: 0,0:09:15.65,0:09:18.91,main,Mere,0000,0000,0000,,It looks like you've finally \Nlearned a little about yourself.
+Dialogue: 0,0:09:18.91,0:09:20.45,main,Mere,0000,0000,0000,,But you still have a ways to go.
+Dialogue: 0,0:09:20.45,0:09:22.16,main,Asta,0000,0000,0000,,Yes, ma'am!
+Dialogue: 0,0:09:22.16,0:09:25.78,italics,Asta,0000,0000,0000,,I couldn't control it very well, \Nbut I was able to use that power!
+Dialogue: 0,0:09:25.78,0:09:32.84,italics,Asta,0000,0000,0000,,I'm gonna get even stronger and \Npass that Royal Knights exam!
+Dialogue: 0,0:09:38.59,0:09:42.00,main,Mere,0000,0000,0000,,So you're finally all here, you fools!
+Dialogue: 0,0:09:42.00,0:09:46.03,main,Mere,0000,0000,0000,,The Yultim Volcano becomes \Ncompletely dormant at night.
+Dialogue: 0,0:09:46.03,0:09:48.31,main,Mere,0000,0000,0000,,You're supposed to get \Nhere before that, damn it!
+Dialogue: 0,0:09:48.77,0:09:53.13,main,Mere,0000,0000,0000,,At this rate, we're never \Ngoing to win back first place!
+Dialogue: 0,0:09:53.13,0:09:55.41,main,Mere,0000,0000,0000,,Those who couldn't make \Nit up here before nightfall
+Dialogue: 0,0:09:55.41,0:09:57.73,main,Mere,0000,0000,0000,,will try again another day!
+Dialogue: 0,0:09:57.73,0:09:59.07,main,All,0000,0000,0000,,Yes, ma'am!
+Dialogue: 0,0:09:59.07,0:10:02.22,main,Leo,0000,0000,0000,,I made it here before the sun set, \Nbut I shall climb it one more time...
+Dialogue: 0,0:10:02.22,0:10:05.87,main,Leo,0000,0000,0000,,no, a hundred more times, and become \Neven stronger than you, Sister!
+Dialogue: 0,0:10:05.87,0:10:08.58,main,Mere,0000,0000,0000,,That's not enough! Climb it 10,000 times!
+Dialogue: 0,0:10:08.58,0:10:09.46,main,Leo,0000,0000,0000,,Yes, ma'am!
+Dialogue: 0,0:10:09.46,0:10:13.30,main,Mere,0000,0000,0000,,Good! Now I give you all permission \Nto soak in the hot spring!
+Dialogue: 0,0:10:13.77,0:10:15.69,italics,Asta,0000,0000,0000,,Hot springs, huh?
+Dialogue: 0,0:10:17.87,0:10:22.10,italics,Asta,0000,0000,0000,,I remember soaking in one back \Nat Hage Village after my training.
+Dialogue: 0,0:10:22.50,0:10:25.89,italics,Asta,0000,0000,0000,,B-But where is the hot spring?
+Dialogue: 0,0:10:34.44,0:10:38.89,main,Asta,0000,0000,0000,,Holy crap! Hot water came outta nowhere!
+Dialogue: 0,0:10:43.66,0:10:46.66,main,Asta,0000,0000,0000,,And now it's a huge bath!
+Dialogue: 0,0:10:46.66,0:10:48.66,main,Asta,0000,0000,0000,,So this is the Yultim Volcano hot spring!
+Dialogue: 0,0:10:49.53,0:10:50.71,main,Yuno,0000,0000,0000,,You can't be serious.
+Dialogue: 0,0:10:50.71,0:10:54.97,main,Mere,0000,0000,0000,,The analeptic effect of this hot \Nspring is the best in our kingdom!
+Dialogue: 0,0:10:54.97,0:10:59.04,main,Mere,0000,0000,0000,,But no one ever bothers to use it, \Nso we always get it to ourselves.
+Dialogue: 0,0:10:59.04,0:11:00.97,main,Mere,0000,0000,0000,,It's the best hole in the \Nwall you could ask for!
+Dialogue: 0,0:11:00.97,0:11:04.97,main,Yami,0000,0000,0000,,Well, I mean, any normal bastard would \Ndie before they ever got up here.
+Dialogue: 0,0:11:04.97,0:11:08.14,main,Mere,0000,0000,0000,,All right, you fools! Take off your clothes!
+Dialogue: 0,0:11:08.53,0:11:09.85,main,Asta,0000,0000,0000,,What?!
+Dialogue: 0,0:11:09.85,0:11:13.19,main,Leo,0000,0000,0000,,B-But Sister, we couldn't possibly...
+Dialogue: 0,0:11:13.58,0:11:16.81,main,Asta,0000,0000,0000,,All the ladies are here, too!\NWhat's gonna happen?!
+Dialogue: 0,0:11:16.81,0:11:18.36,main,Asta,0000,0000,0000,,Are we all getting in together?!
+Dialogue: 0,0:11:18.36,0:11:20.97,main,Bell,0000,0000,0000,,I don't know if her name \Nis Meringue or Orange Juice,
+Dialogue: 0,0:11:20.97,0:11:22.53,main,Bell,0000,0000,0000,,but what the heck's her problem?!
+Dialogue: 0,0:11:22.53,0:11:26.20,main,Bell,0000,0000,0000,,I'm not going to allow Yuno to take \Noff his clothes in front of any girls!
+Dialogue: 0,0:11:28.50,0:11:31.33,italics,Charlotte,0000,0000,0000,,T-Together with Yami in a hot spring?
+Dialogue: 0,0:11:32.50,0:11:34.84,main,Yami,0000,0000,0000,,I like women who like hot springs.
+Dialogue: 0,0:11:35.34,0:11:39.34,main,Yami,0000,0000,0000,,It doesn't hurt to have someone \Nwash your back sometimes.
+Dialogue: 0,0:11:39.34,0:11:44.03,italics,Charlotte,0000,0000,0000,,Wh-Why am I having \Nsuch ludicrous delusions?!
+Dialogue: 0,0:11:44.03,0:11:45.55,italics,Charlotte,0000,0000,0000,,Okay, don't lose it.
+Dialogue: 0,0:11:45.55,0:11:48.06,italics,Charlotte,0000,0000,0000,,Stay calm. Stay calm.
+Dialogue: 0,0:11:48.06,0:11:49.83,italics,Charlotte,0000,0000,0000,,How am I supposed to stay calm?!
+Dialogue: 0,0:11:49.83,0:11:53.45,main,Sol,0000,0000,0000,,I will never allow any man to \Nsee Sis's pure, naked body!
+Dialogue: 0,0:11:53.45,0:11:56.99,main,Sol,0000,0000,0000,,Earth Magic: Mud Wall Partition!
+Dialogue: 0,0:12:02.74,0:12:06.20,main,Sol,0000,0000,0000,,Anyone who dares to climb \Nthis wall shall die!
+Dialogue: 0,0:12:06.20,0:12:10.37,main,Asta,0000,0000,0000,,Whoa! She created a women's bath \Nand a men's bath in an instant!
+Dialogue: 0,0:12:10.77,0:12:14.37,main,Mere,0000,0000,0000,,All right, you fools! Hurry up and get in!
+Dialogue: 0,0:12:14.37,0:12:16.63,main,All,0000,0000,0000,,Yeah!
+Dialogue: 0,0:12:26.23,0:12:28.68,main,Mere,0000,0000,0000,,The view's as nice as ever.
+Dialogue: 0,0:12:33.01,0:12:35.31,main,Charlotte,0000,0000,0000,,The temperature's just right.
+Dialogue: 0,0:12:35.31,0:12:38.15,main,Sol,0000,0000,0000,,Sis... You're so b-beautiful.
+Dialogue: 0,0:12:38.15,0:12:41.53,main,Sol,0000,0000,0000,,If this isn't heaven, \Nthen I don't know what is.
+Dialogue: 0,0:12:44.47,0:12:47.78,main,Mere,0000,0000,0000,,Nothing beats having a drink \Nwhile soaking in here.
+Dialogue: 0,0:12:49.29,0:12:51.75,main,Mere,0000,0000,0000,,How about it, Charlotte? \NHave a drink with me.
+Dialogue: 0,0:12:51.75,0:12:53.71,main,Charlotte,0000,0000,0000,,No, thank you. I'll pass.
+Dialogue: 0,0:12:54.41,0:12:56.92,main,Mere,0000,0000,0000,,What? Is my liquor too good for you?
+Dialogue: 0,0:12:57.48,0:12:59.66,main,Charlotte,0000,0000,0000,,No, it's nothing like that.
+Dialogue: 0,0:12:59.66,0:13:02.13,main,Charlotte,0000,0000,0000,,I hold you in the highest regard,\N Lady Mereoleona.
+Dialogue: 0,0:13:02.13,0:13:03.72,main,Mere,0000,0000,0000,,Then drink with me.
+Dialogue: 0,0:13:05.46,0:13:09.77,italics,Charlotte,0000,0000,0000,,I was already a drunken mess in \Nfront of Yami at the Star Festival.
+Dialogue: 0,0:13:09.77,0:13:11.60,italics,Charlotte,0000,0000,0000,,If that happens when I'm naked, I'll just die!
+Dialogue: 0,0:13:12.04,0:13:13.91,main,Bell,0000,0000,0000,,Then I'll have some.
+Dialogue: 0,0:13:15.18,0:13:18.73,main,Bell,0000,0000,0000,,Despite how I look, \NI'm way older than all of you!
+Dialogue: 0,0:13:18.73,0:13:21.23,main,Mere,0000,0000,0000,,Oh? The Wind Spirit?
+Dialogue: 0,0:13:23.98,0:13:27.03,italics,Noelle,0000,0000,0000,,This wall won't suddenly break, will it?
+Dialogue: 0,0:13:27.86,0:13:29.37,main,Sol,0000,0000,0000,,Why are you zoning out?
+Dialogue: 0,0:13:29.81,0:13:32.52,main,Noelle,0000,0000,0000,,H-Hey! I can wash my hair myself!
+Dialogue: 0,0:13:32.52,0:13:34.97,main,Sol,0000,0000,0000,,Oh, don't be shy! You said \Nyour name was Noelle?
+Dialogue: 0,0:13:34.97,0:13:38.33,main,Sol,0000,0000,0000,,You've got some guts! I like gutsy women!
+Dialogue: 0,0:13:38.33,0:13:39.50,main,Sol,0000,0000,0000,,Wanna join our squad?
+Dialogue: 0,0:13:39.86,0:13:42.75,main,Noelle,0000,0000,0000,,Um... I'm already a Black Bull...
+Dialogue: 0,0:13:42.75,0:13:46.26,main,Sol,0000,0000,0000,,What's so great about that squad?\N It's overrun by men.
+Dialogue: 0,0:13:46.63,0:13:50.89,main,Noelle,0000,0000,0000,,What? Well, the girls are working hard, too.
+Dialogue: 0,0:13:50.89,0:13:53.77,main,Noelle,0000,0000,0000,,I mean, there are some loud \Nand reckless guys, but...
+Dialogue: 0,0:13:53.77,0:13:56.02,main,Noelle,0000,0000,0000,,But they're not all bad...
+Dialogue: 0,0:13:56.02,0:14:00.38,main,Sol,0000,0000,0000,,Most of the Blue Rose Knights are women! \NAll the guys in our squad are errand boys.
+Dialogue: 0,0:14:00.38,0:14:04.90,main,Sol,0000,0000,0000,,I was hoping we could get that Yuno guy to \Njoin so we could work him to the bone, too.
+Dialogue: 0,0:14:04.90,0:14:07.17,main,Sol,0000,0000,0000,,I never thought he'd get that strong.
+Dialogue: 0,0:14:07.62,0:14:09.33,italics,Noelle,0000,0000,0000,,All the guys are errand boys...
+Dialogue: 0,0:14:09.86,0:14:11.28,italics,Noelle,0000,0000,0000,,That doesn't sound so bad.
+Dialogue: 0,0:14:14.02,0:14:16.29,italics,Charlotte,0000,0000,0000,,The men's bath is right over there.
+Dialogue: 0,0:14:16.76,0:14:19.43,italics,Charlotte,0000,0000,0000,,R-Right about now, Yami's over there...
+Dialogue: 0,0:14:20.07,0:14:21.48,italics,Charlotte,0000,0000,0000,,Nude...
+Dialogue: 0,0:14:21.48,0:14:22.79,italics,Charlotte,0000,0000,0000,,Right over there!
+Dialogue: 0,0:14:23.77,0:14:26.80,main,Mere,0000,0000,0000,,Why are you floating like that? \NYou didn't even drink anything.
+Dialogue: 0,0:14:26.80,0:14:29.05,main,Mere,0000,0000,0000,,And that's how you are after one sip?
+Dialogue: 0,0:14:32.93,0:14:35.54,main,Sol,0000,0000,0000,,S-Sis, are you okay?!
+Dialogue: 0,0:14:35.54,0:14:37.50,main,Sol,0000,0000,0000,,You're so beautiful, \Neven when you're passed out!
+Dialogue: 0,0:14:37.50,0:14:39.85,main,Charlotte,0000,0000,0000,,C-Call me "Captain."
+Dialogue: 0,0:14:39.85,0:14:40.90,main,Sol,0000,0000,0000,,You got it, Sis!
+Dialogue: 0,0:14:41.55,0:14:43.54,main,,0000,0000,0000,,Fan me, too...
+Dialogue: 0,0:14:43.94,0:14:45.53,main,Noelle,0000,0000,0000,,What happened to them?
+Dialogue: 0,0:14:46.39,0:14:48.03,main,Noelle,0000,0000,0000,,This is a decent bath.
+Dialogue: 0,0:14:56.71,0:14:58.17,main,Noelle,0000,0000,0000,,The stars are so beautiful.
+Dialogue: 0,0:14:59.77,0:15:04.29,main,Mere,0000,0000,0000,,Lady Acier also loved the \Nview of the stars from here.
+Dialogue: 0,0:15:05.17,0:15:07.63,main,Noelle,0000,0000,0000,,My mother came here?
+Dialogue: 0,0:15:09.22,0:15:13.18,main,Mere,0000,0000,0000,,She's the one who showed me \Nthis spot in the first place.
+Dialogue: 0,0:15:13.91,0:15:17.27,main,Noelle,0000,0000,0000,,What was my mother like?
+Dialogue: 0,0:15:19.95,0:15:24.40,main,Noelle,0000,0000,0000,,Um... No one will tell me about her.
+Dialogue: 0,0:15:24.40,0:15:26.43,main,Mere,0000,0000,0000,,She was a strong woman.
+Dialogue: 0,0:15:27.57,0:15:30.03,main,Mere,0000,0000,0000,,She would give me lessons quite often.
+Dialogue: 0,0:15:30.03,0:15:34.24,main,Mere,0000,0000,0000,,I was undefeated on the battlefield, \Nyet I was never able to defeat her once.
+Dialogue: 0,0:15:34.24,0:15:38.08,main,Mere,0000,0000,0000,,It didn't even matter that my magical \Nattribute had the advantage.
+Dialogue: 0,0:15:38.70,0:15:43.38,main,Mere,0000,0000,0000,,The Steel Warrior Princess who would \Ndance around the battlefield, Acier Silva...
+Dialogue: 0,0:15:43.38,0:15:46.21,main,Mere,0000,0000,0000,,Her strength and beauty \Ncaptivated everyone.
+Dialogue: 0,0:15:46.69,0:15:51.30,main,Mere,0000,0000,0000,,And you look a lot like her. \NYou're her spitting image.
+Dialogue: 0,0:15:51.30,0:15:53.64,main,Mere,0000,0000,0000,,But your magical abilities \Naren't like hers at all.
+Dialogue: 0,0:15:53.64,0:15:58.06,main,Mere,0000,0000,0000,,Your sloppy magic control makes it hard \Nto believe that you're her daughter.
+Dialogue: 0,0:15:57.87,0:16:07.94,sign_22966_252_Her_daughter,Sign,0000,0000,0000,,Her daughter
+Dialogue: 0,0:15:58.73,0:16:02.13,main,Mere,0000,0000,0000,,Her magic was refined beyond belief,
+Dialogue: 0,0:16:01.50,0:16:07.94,sign_23053_254_Refined,Sign,0000,0000,0000,,Refined
+Dialogue: 0,0:16:02.13,0:16:03.67,main,Mere,0000,0000,0000,,and it had dignity.
+Dialogue: 0,0:16:03.67,0:16:07.45,main,Mere,0000,0000,0000,,Your magic is so crude and unsightly, \Nit's hard to believe you're royalty.
+Dialogue: 0,0:16:07.21,0:16:07.94,sign_23190_258_Crude,Sign,0000,0000,0000,,Crude
+Dialogue: 0,0:16:08.41,0:16:09.86,main,Mere,0000,0000,0000,,And that's why you must surpass her.
+Dialogue: 0,0:16:12.70,0:16:14.82,main,Mere,0000,0000,0000,,You may look like your mother,
+Dialogue: 0,0:16:14.82,0:16:17.45,main,Mere,0000,0000,0000,,but surpass her with a \Nstrength that's all your own.
+Dialogue: 0,0:16:18.90,0:16:19.95,main,Noelle,0000,0000,0000,,Yes, ma'am!
+Dialogue: 0,0:16:20.78,0:16:24.46,italics,Noelle,0000,0000,0000,,Of course. Even that idiot who doesn't \Nhave any magical powers is doing his best.
+Dialogue: 0,0:16:24.85,0:16:28.55,italics,Noelle,0000,0000,0000,,Even if I lack talent, I'm not \Ngoing to run or make excuses.
+Dialogue: 0,0:16:28.55,0:16:31.57,italics,Noelle,0000,0000,0000,,I'm getting fired up, \Nand my body's feeling warm, too.
+Dialogue: 0,0:16:32.91,0:16:35.30,main,Noelle,0000,0000,0000,,Wait, it's actually getting hotter?!
+Dialogue: 0,0:16:37.89,0:16:41.29,main,Leo,0000,0000,0000,,How dare you try to show off?! \NI'm sure you can't handle this heat!
+Dialogue: 0,0:16:41.29,0:16:43.18,main,Leo,0000,0000,0000,,I'll melt the cool right off of you!
+Dialogue: 0,0:16:43.80,0:16:45.52,main,Yuno,0000,0000,0000,,I'm totally fine.
+Dialogue: 0,0:16:47.19,0:16:48.73,main,Leo,0000,0000,0000,,What did you say?!
+Dialogue: 0,0:16:48.73,0:16:51.66,main,Asta,0000,0000,0000,,Leo, he's not trying to act cool or anything!
+Dialogue: 0,0:16:51.66,0:16:53.45,main,Asta,0000,0000,0000,,He just hates losing!
+Dialogue: 0,0:16:53.45,0:16:56.61,main,Asta,0000,0000,0000,,I also hate losing!
+Dialogue: 0,0:16:56.61,0:16:59.33,main,Asta,0000,0000,0000,,Let's see who can stay in here the longest!
+Dialogue: 0,0:17:01.49,0:17:04.87,main,Leo,0000,0000,0000,,Hey! Why are you cooling down \Nthe water with your wind?!
+Dialogue: 0,0:17:04.87,0:17:05.75,main,Leo,0000,0000,0000,,That's not fair!
+Dialogue: 0,0:17:06.13,0:17:09.25,main,Yuno,0000,0000,0000,,It's not cheating. Magic is \Npart of my strength, too.
+Dialogue: 0,0:17:09.25,0:17:12.06,main,Yuno,0000,0000,0000,,Besides, you're heating it \Nwith magic in the first place.
+Dialogue: 0,0:17:12.06,0:17:14.81,main,Yami,0000,0000,0000,,What the hell are you dumbasses doing?
+Dialogue: 0,0:17:14.81,0:17:17.10,main,Yami,0000,0000,0000,,There are better ways to enjoy a hot spring.
+Dialogue: 0,0:17:18.33,0:17:19.64,main,Asta,0000,0000,0000,,Captain Yami!
+Dialogue: 0,0:17:19.64,0:17:21.47,main,Asta,0000,0000,0000,,What are the other ways to enjoy a hot spring?
+Dialogue: 0,0:17:21.47,0:17:24.18,main,Asta,0000,0000,0000,,Do you mean working out? \NOr maybe working out?
+Dialogue: 0,0:17:24.18,0:17:25.69,main,Asta,0000,0000,0000,,It's working out, isn't it?!
+Dialogue: 0,0:17:26.44,0:17:27.99,main,Yami,0000,0000,0000,,Shut the hell up.
+Dialogue: 0,0:17:27.99,0:17:30.79,main,Yami,0000,0000,0000,,Is your head full of muscles, too?
+Dialogue: 0,0:17:30.79,0:17:33.21,main,Yami,0000,0000,0000,,You're the only moron who'd enjoy that.
+Dialogue: 0,0:17:33.21,0:17:37.15,main,Asta,0000,0000,0000,,No!
+Dialogue: 0,0:17:34.86,0:17:37.15,main,Leo,0000,0000,0000,,It's not working out?
+Dialogue: 0,0:17:37.15,0:17:39.53,italics,Yuno,0000,0000,0000,,And here's another one with \Na head full of muscles.
+Dialogue: 0,0:17:39.53,0:17:44.81,main,Asta,0000,0000,0000,,Captain... Then what's this \Nother way to enjoy it?
+Dialogue: 0,0:17:44.81,0:17:46.25,main,Yami,0000,0000,0000,,What else?
+Dialogue: 0,0:17:46.97,0:17:49.00,main,Yami,0000,0000,0000,,We're gonna go peep at the women's bath!
+Dialogue: 0,0:17:50.96,0:17:53.41,main,Guy,0000,0000,0000,,D-Did he say peep?
+Dialogue: 0,0:17:53.41,0:17:55.47,main,Guy 2,0000,0000,0000,,Are we allowed to do that?
+Dialogue: 0,0:17:55.47,0:17:58.34,main,Guy 3,0000,0000,0000,,Won't they kill us if they find out?
+Dialogue: 0,0:17:58.34,0:18:01.51,main,Yami,0000,0000,0000,,I can't believe what a bunch of whiners you are.
+Dialogue: 0,0:18:01.90,0:18:04.07,main,Yami,0000,0000,0000,,If you're a true man, \Nthis is a risk you've gotta take.
+Dialogue: 0,0:18:04.07,0:18:05.77,main,Yami,0000,0000,0000,,Even if it costs your life.
+Dialogue: 0,0:18:06.03,0:18:08.02,italics,Leo,0000,0000,0000,,I-Is that what it means...
+Dialogue: 0,0:18:08.02,0:18:10.02,italics,All,0000,0000,0000,,...to be a man?
+Dialogue: 0,0:18:10.35,0:18:13.54,main,Yami,0000,0000,0000,,Yes. All guys are like that.
+Dialogue: 0,0:18:13.54,0:18:16.03,main,Yami,0000,0000,0000,,I'm sure you want to take \Na look, too, Mister Cool.
+Dialogue: 0,0:18:16.37,0:18:18.40,main,Yuno,0000,0000,0000,,No, I don't.
+Dialogue: 0,0:18:19.32,0:18:22.55,main,Yami,0000,0000,0000,,You stupid little punk. \NDon't you try and act cool with me,
+Dialogue: 0,0:18:22.55,0:18:24.54,main,Yami,0000,0000,0000,,you breezy little pretty boy.
+Dialogue: 0,0:18:25.39,0:18:29.25,main,Yuno,0000,0000,0000,,Uh... again, this isn't just part of\N my character, so please stop...
+Dialogue: 0,0:18:29.25,0:18:33.51,main,Yami,0000,0000,0000,,Well, someone doesn't give a shit about \Nyour character, you dumbass.
+Dialogue: 0,0:18:33.51,0:18:35.00,main,Yami,0000,0000,0000,,And that's me.
+Dialogue: 0,0:18:35.00,0:18:37.33,main,Asta,0000,0000,0000,,Please stop, Captain Yami!
+Dialogue: 0,0:18:37.33,0:18:39.66,main,Asta,0000,0000,0000,,Yuno really isn't interested!
+Dialogue: 0,0:18:39.66,0:18:42.98,main,Asta,0000,0000,0000,,He's only ever bathed with \Nguys since he was a kid!
+Dialogue: 0,0:18:44.05,0:18:47.91,italics,Leo,0000,0000,0000,,Come to think of it, \Nmy brother loved baths, too.
+Dialogue: 0,0:18:51.73,0:18:56.97,flashback,Fuegoleon,0000,0000,0000,,Leopold, I still have many \Nthings I must teach you.
+Dialogue: 0,0:18:56.97,0:18:58.57,flashback,Leo,0000,0000,0000,,Of course, Big Brother!
+Dialogue: 0,0:18:58.57,0:19:03.74,italics,Leo,0000,0000,0000,,W-Wait! Was the thing he said he \Nhad to teach me back then...
+Dialogue: 0,0:19:04.13,0:19:09.14,flashback,Fuegoleon,0000,0000,0000,,Leopold, what I'm going to \Nteach you right now is...
+Dialogue: 0,0:19:09.14,0:19:11.22,flashback,Fuegoleon,0000,0000,0000,,To peep into women's baths!
+Dialogue: 0,0:19:11.22,0:19:12.63,flashback,Leo,0000,0000,0000,,Of course, Big Brother!
+Dialogue: 0,0:19:12.63,0:19:15.17,main,Leo,0000,0000,0000,,There's no way that happened!
+Dialogue: 0,0:19:15.17,0:19:19.05,main,Leo,0000,0000,0000,,No... My brother would never look.
+Dialogue: 0,0:19:19.05,0:19:22.11,main,Leo,0000,0000,0000,,Actually, he'd probably be \Nfurious and try to stop us.
+Dialogue: 0,0:19:22.11,0:19:24.68,main,Yami,0000,0000,0000,,What are you mumbling about, bomb head?
+Dialogue: 0,0:19:25.70,0:19:28.85,main,Yami,0000,0000,0000,,Why are you trying to be like that \NHot-Blooded King of Hardnoses?
+Dialogue: 0,0:19:28.85,0:19:31.02,main,Yami,0000,0000,0000,,You're going to surpass him, aren't you?
+Dialogue: 0,0:19:32.11,0:19:33.29,main,Leo,0000,0000,0000,,That's right!
+Dialogue: 0,0:19:33.29,0:19:36.19,main,Leo,0000,0000,0000,,I'm going to surpass my brother!
+Dialogue: 0,0:19:36.60,0:19:39.07,main,Yami,0000,0000,0000,,What the hell are you \Nguys standing around for?
+Dialogue: 0,0:19:39.07,0:19:41.36,main,Yami,0000,0000,0000,,This is a battle, in a sense.
+Dialogue: 0,0:19:41.36,0:19:43.63,main,Yami,0000,0000,0000,,Why are you so scared of being killed?
+Dialogue: 0,0:19:43.63,0:19:47.24,main,Yami,0000,0000,0000,,We came here to whip you \Nwimps back into shape!
+Dialogue: 0,0:19:48.41,0:19:49.46,main,Guy,0000,0000,0000,,He's right!
+Dialogue: 0,0:19:49.46,0:19:52.30,main,Guy 2,0000,0000,0000,,You must never run from a battle!
+Dialogue: 0,0:19:52.30,0:19:54.75,main,Guy 3,0000,0000,0000,,We are the best! The Crimson Lion Kings!
+Dialogue: 0,0:19:54.75,0:19:58.09,main,Leo,0000,0000,0000,,All right! We're gonna peep!
+Dialogue: 0,0:19:58.09,0:20:00.62,main,Leo,0000,0000,0000,,Let's show them how manly we are!
+Dialogue: 0,0:20:00.62,0:20:02.49,main,All,0000,0000,0000,,Yeah!
+Dialogue: 0,0:20:06.72,0:20:08.22,main,Noelle,0000,0000,0000,,Wh-What is that?
+Dialogue: 0,0:20:08.22,0:20:10.31,main,Sol,0000,0000,0000,,Don't tell me those guys...
+Dialogue: 0,0:20:10.31,0:20:14.65,main,Mere,0000,0000,0000,,Oh? Listen to those fearless voices.
+Dialogue: 0,0:20:14.65,0:20:16.73,main,Mere,0000,0000,0000,,Now they sound more like \Nthe Crimson Lion Kings.
+Dialogue: 0,0:20:17.26,0:20:19.15,main,Noelle,0000,0000,0000,,But they're going to try to peep!
+Dialogue: 0,0:20:24.71,0:20:28.21,main,Sol,0000,0000,0000,,You're never going to see \NSis's pure, naked body!
+Dialogue: 0,0:20:28.89,0:20:31.83,main,Sol,0000,0000,0000,,Earth Magic: Mud Wall Cliff!
+Dialogue: 0,0:20:39.21,0:20:41.26,main,Leo,0000,0000,0000,,Don't back down!
+Dialogue: 0,0:20:41.26,0:20:45.74,main,Leo,0000,0000,0000,,We are the Crimson Lion Kings! We can \Nclimb over any wall, no matter how high!
+Dialogue: 0,0:20:45.74,0:20:49.89,main,All,0000,0000,0000,,Yeah!
+Dialogue: 0,0:20:50.83,0:20:51.93,main,Yuno,0000,0000,0000,,You can't be serious.
+Dialogue: 0,0:20:54.82,0:20:56.78,main,Yami,0000,0000,0000,,Okay, get going, kid!
+Dialogue: 0,0:20:56.78,0:21:00.11,main,Yami,0000,0000,0000,,You've learned a new technique. \NNow go become a real man!
+Dialogue: 0,0:21:06.70,0:21:12.20,main,Asta,0000,0000,0000,,No! My heart belongs to Sister, \Nso I absolutely refuse to look!
+Dialogue: 0,0:21:15.58,0:21:17.54,main,Yami,0000,0000,0000,,Uh... Sure.
+Dialogue: 0,0:21:18.29,0:21:23.84,sign_30649_353_Hot_Springs_Trai,Sign,0000,0000,0000,,Hot Spring Training Camp Arc\N{\fs30}Fin!!
+Dialogue: 0,0:21:19.66,0:21:23.84,italics,Nar,0000,0000,0000,,Hot Spring Training Camp Arc... Fin.
+Dialogue: 0,0:22:53.81,0:22:58.27,sign_33083_276_Petit_Clover_,Sign,0000,0000,0000,,{\fad(1,520)}Pe{\c&H3BC020&}t{\c&HE2AF0F&}i{\c&H3BC020&}t C{\c&HE2AF0F&}l{\c&H3BC020&}o{\c&H0E42D4&}ve{\c&H3BC020&}r
+Dialogue: 0,0:22:54.46,0:22:57.49,main,All,0000,0000,0000,,Petit Clover!
+Dialogue: 0,0:22:57.77,0:23:01.77,sign_33188_278_The_Mystery_of_t,sign,0000,0000,0000,,{\fad(520,,1)}Exhaustion Recovery
+Dialogue: 0,0:22:58.77,0:23:00.46,main,lily,0000,0000,0000,,Exhaustion Recovery.
+Dialogue: 0,0:23:02.23,0:23:05.78,italics,Nar,0000,0000,0000,,Sister Lily always heals the people \Nof Hage Village with her sweet smile.
+Dialogue: 0,0:23:06.09,0:23:09.95,italics,Nar,0000,0000,0000,,And it's said that it's the Hage \NHot Spring that heals her soul.
+Dialogue: 0,0:23:10.44,0:23:13.54,italics,Nar,0000,0000,0000,,But there are times when she's so \Nbusy with her duties at the church
+Dialogue: 0,0:23:13.54,0:23:15.95,italics,Nar,0000,0000,0000,,that even a hot spring is not \Nenough to help her recover.
+Dialogue: 0,0:23:16.77,0:23:19.54,italics,Nar,0000,0000,0000,,When that happens, she eats \Ntatoes pickled in black vinegar.
+Dialogue: 0,0:23:19.54,0:23:24.79,main,Lily,0000,0000,0000,,Father introduced me to these, and they \Nworked instantly the day after I ate them!
+Dialogue: 0,0:23:24.79,0:23:29.42,italics,Nar,0000,0000,0000,,Order now, and we'll throw in some \Ngarlic extract-infused moguro leaf juice.
+Dialogue: 0,0:23:29.76,0:23:32.02,italics,Lily,0000,0000,0000,,Order now!
+Dialogue: 0,0:23:30.95,0:23:33.05,sign_33829_367_Express_Delivery,Sign,0000,0000,0000,,{\fad(500,1)}Express delivery!
+Dialogue: 0,0:23:30.95,0:23:33.05,sign_33829_368_Order_now_for_fr,Sign,0000,0000,0000,,{\fad(500,1)}Order now for free shipping!
+Dialogue: 0,0:23:30.95,0:23:33.05,sign_33829_369_Don_t_wait__Orde,Sign,0000,0000,0000,,{\fad(500,1)}Don't wait! Order now!
+Dialogue: 0,0:23:33.05,0:23:35.77,main,Asta,0000,0000,0000,,She's on an infomercial!
+Dialogue: 0,0:23:35.77,0:23:38.72,main,Asta,0000,0000,0000,,Sister is as beautiful as ever!
+Dialogue: 0,0:23:39.66,0:23:41.87,main,Lily,0000,0000,0000,,Hello, everyone. It's been a while.
+Dialogue: 0,0:23:41.87,0:23:43.98,main,Lily,0000,0000,0000,,Asta and Yuno are working so hard!
+Dialogue: 0,0:23:43.98,0:23:46.61,main,Lily,0000,0000,0000,,Everyone at the church is proud of you two.
+Dialogue: 0,0:23:46.61,0:23:51.09,main,Lily,0000,0000,0000,,{\i1}Black Clover{\i0}, Page 73: \N"The Royal Knights Selection Test."
+Dialogue: 0,0:23:47.57,0:23:54.00,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 73\N\N{\fs18} The Royal Knights Selection Test
+Dialogue: 0,0:23:51.09,0:23:53.70,main,Lily,0000,0000,0000,,Make sure you're taking care of yourselves.

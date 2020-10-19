@@ -1,0 +1,54 @@
+[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 720
+PlayResY: 480
+ScaledBorderAndShadow: yes
+Audio File: ../../../../../../storage/rye/death_note/encode/ep25/VTS_01_1 - 0x80 - Audio - AC3 - 2ch - 48kHz - DRC - Japanese - DELAY 0ms.ogg
+Video File: ../../../../../../storage/rye/death_note/workraws/ep25.avi
+Video Aspect Ratio: 2
+Video Zoom: 6
+Video Position: 8467
+Last Style Storage: DeathNote
+Automation Scripts: //usr/share/aegisub/automation/kara-templater.lua|//usr/share/aegisub/automation/future-windy-blur.lua
+Export Encoding: UTF-8
+Export filters: Future Windy Blur
+
+[V4+ Styles]
+Style: Default,Marker Felt,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,0
+Style: SIGN,Sand,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,10,0
+Style: Note,OffensiveBold,24,&H00B5B5B5,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,10,10,10,0
+Style: LongNote,OffensiveBold,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,10,10,10,0
+Style: Background,Marker Felt,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,0
+Style: SILLYSIGN,Annifont,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,0
+Style: KARA-japanese,Sand,36,&H00FFFFFF,&H00ABABAB,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,8,11,11,11,0
+Style: KARA-english,Cooper Std Black,20,&H00FFFFFF,&H00FF00FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,11,11,11,0
+Style: KiraVideo,Marker Felt,27,&H00FFCECC,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,0
+Style: MINOR SIGN,Marker Felt,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,0
+Style: KARA-english2,Cooper Std Black,20,&H00FFFFFF,&H00FF00FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,3,11,11,11,0
+Style: KARA-japanese2,Sand,36,&H00FFFFFF,&H00ABABAB,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,7,11,11,11,0
+Style: Diary,OffensiveBold,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,10,10,10,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:04:58.69,0:05:02.57,INSERT-japanese,,0000,0000,0000,karaoke,{\k12} {\k53}ki{\k18} {\k28}o{\k7} {\k72}tsu{\k41}ke{\k55}te
+Dialogue: 0,0:04:58.69,0:05:02.57,INSERT-english,,0000,0000,0000,karaoke,Take care,
+Dialogue: 0,0:05:02.57,0:05:07.07,INSERT-japanese,,0000,0000,0000,karaoke,{\k14} {\k31}ka{\k61}mi{\k38}sa{\k76}ma{\k9} {\k35}wa {\k65}mi{\k40}te{\k31}ru
+Dialogue: 0,0:05:02.57,0:05:07.07,INSERT-english,,0000,0000,0000,karaoke,God is watching you.
+Dialogue: 0,0:05:07.07,0:05:10.89,INSERT-japanese,,0000,0000,0000,karaoke,{\k25} {\k34}ku{\k32}ra{\k45}i{\k0} {\k25}yo{\k30}mi{\k31}chi{\k0} {\k57}wa
+Dialogue: 0,0:05:07.07,0:05:10.89,INSERT-english,,0000,0000,0000,karaoke,In the dark streets of the night
+Dialogue: 0,0:05:10.89,0:05:15.91,INSERT-japanese,,0000,0000,0000,karaoke,{\k34}te{\k0} {\k42}o{\k27} {\k32}tsu{\k41}na{\k33}i{\k38}de{\k0} {\k39}ku{\k77}da{\k29}sa{\k48}i
+Dialogue: 0,0:05:10.89,0:05:15.91,INSERT-english,,0000,0000,0000,karaoke,please hold his hand.
+Dialogue: 0,0:05:15.91,0:05:20.13,INSERT-japanese,,0000,0000,0000,karaoke,{\k32}hi{\k37}to{\k30}ri{\k5} {\k35}de{\k0} {\k35}to{\k33}o{\k64}ku{\k0} {\k26}ni{\k7} {\k17}ite{\k0} {\k49}mo
+Dialogue: 0,0:05:15.91,0:05:20.13,INSERT-english,,0000,0000,0000,karaoke,Even if I'm on my own far away,
+Dialogue: 0,0:05:20.13,0:05:26.59,INSERT-japanese,,0000,0000,0000,karaoke,{\k36}i{\k31}tsu{\k36}mo{\k0} {\k39}mi{\k41}tsu{\k35}ke{\k75}da{\k34}shi{\k44}te{\k61} {\k95}ku{\k21}re{\k48}ru
+Dialogue: 0,0:05:20.13,0:05:26.59,INSERT-english,,0000,0000,0000,karaoke,he will always find me.
+Dialogue: 0,0:05:26.59,0:05:35.18,INSERT-japanese,,0000,0000,0000,karaoke,{\k76}shi{\k9}t{\k26}te{\k34}ru{\k0} {\k36}ko{\k35}to{\k1} {\k67}wa{\k34} {\k37}ze{\k44}n{\k55}bu{\k0} {\k12}o{\k35}shi{\k40}e{\k35}te{\k0} {\k34}ku{\k35}re{\k102}ru
+Dialogue: 0,0:05:26.59,0:05:35.18,INSERT-english,,0000,0000,0000,karaoke,He tells me all I know,
+Dialogue: 0,0:05:35.18,0:05:39.85,INSERT-japanese,,0000,0000,0000,karaoke,{\k38}wa{\k23}ta{\k44}shi{\k0} {\k36}ga{\k0} {\k37}o{\k38}bo{\k70}e{\k34}te{\k0} {\k37}na{\k20}ku{\k23}te{\k0} {\k60}mo
+Dialogue: 0,0:05:35.18,0:05:39.85,INSERT-english,,0000,0000,0000,karaoke,and even if I forget,
+Dialogue: 0,0:05:39.85,0:05:53.11,INSERT-japanese,,0000,0000,0000,karaoke,{\k32}na{\k37}n{\k51}do{\k13} {\k32}de{\k233}mo{\k28} {\k21}o{\k46}shi{\k74}e{\k38}te{\k0} {\k106}ku{\k106}re{\k128}ru
+Dialogue: 0,0:05:39.85,0:05:53.11,INSERT-english,,0000,0000,0000,karaoke,he tells me time and time again.
+Dialogue: 0,0:05:53.11,0:06:08.03,INSERT-japanese,,0000,0000,0000,karaoke,{\k41}de{\k41}mo{\k0} {\k78}ze{\k42}n{\k112}bu{\k48} {\k40}wa{\k81}ka{\k9}t{\k47}te{\k0} {\k37}shi{\k42}ma{\k39}tta{\k40}ra{\k0} {\k66}dou{\k0} {\k30}su{\k23}re{\k68}ba{\k52} {\k54}ii{\k0} {\k361}no...
+Dialogue: 0,0:05:53.11,0:06:08.03,INSERT-english,,0000,0000,0000,karaoke,But what will I do once I've learned everything?

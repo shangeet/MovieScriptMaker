@@ -1,0 +1,423 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H00F7FCFD,&H000000FF,&H00070805,&H000D1728,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0020,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_4194_20_C_Team_The_Coral,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_6730_49_Captain_of_the_A,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_7061_51_A_Team_Coral_Pea,Times New Roman,20,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0150,1
+Style: sign_9194_75_Yay____Yay____,Times New Roman,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_10224_102_Sol___Kirsch___M,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0375,0070,0205,1
+Style: sign_10224_104_Cesc___Adrian___,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0055,0385,0205,1
+Style: sign_10224_103_C_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0425,0135,0060,1
+Style: sign_10224_105_D_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0130,0420,0060,1
+Style: sign_10482_94_Green_Praying_Ma,Times New Roman,20,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_10657_102_Roland,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0050,0520,0205,1
+Style: sign_10657_103_Nix,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0235,0370,0205,1
+Style: sign_10657_104_Wainsley,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0105,0445,0225,1
+Style: sign_14555_151_4_years_ago,Times New Roman,28,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0085,1
+Style: sign_15736_152_Sandler,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0060,0505,0205,1
+Style: sign_15736_154_Solid,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0135,0455,0225,1
+Style: sign_15736_155_O_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0110,0440,0060,1
+Style: sign_15736_156_En___Noelle___Yu,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0070,0205,1
+Style: sign_15736_157_P_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0435,0115,0060,1
+Style: sign_16988_180_Cherry_Blossom_M,Trebuchet MS,22,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0140,1
+Style: sign_28966_288_The_Blue_Rose_Kn,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32241D26,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_29885_315_C_Team_The_Coral,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32424340,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0150,1
+Style: sign_30215_308_Rob,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0040,0560,0200,1
+Style: sign_30215_309_Francis,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0105,0465,0220,1
+Style: sign_30215_310_Winston,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0210,0345,0200,1
+Style: sign_30215_312_Puli,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0210,0200,1
+Style: sign_30215_313_Klaus,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0460,0125,0220,1
+Style: sign_30215_314_Luck,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0550,0040,0200,1
+Style: sign_30215_315_K_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0415,0135,0060,1
+Style: sign_33322_360_Bathroom_,Verdana,28,&H007F9096,&H000000FF,&H32233248,&H0087C2CE,-1,0,0,0,100,100,0,0,1,2,3,2,0110,0030,0270,1
+Style: sign_33436_362_Bathroom,Verdana,10,&H0045403D,&H000000FF,&H3256ADB3,&H0087C2CE,-1,0,0,0,100,100,0,-8,1,3,0,2,0210,0260,0315,1
+Style: sign_33402_326_Noms_,Comic Sans MS,20,&H00393B47,&H000000FF,&H32D1C9CF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0080,1
+Style: sign_33615_332_Noms,Comic Sans MS,28,&H001D1C1F,&H000000FF,&H3261919A,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_9784_85_Xerx,Times New Roman,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0113,0461,0254,1
+Style: sign_9784_86_Mimosa,Times New Roman,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0072,0460,0186,1
+Style: sign_9784_87_Asta,Times New Roman,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0114,0464,0113,1
+Style: sign_9784_88_Kirsch,Times New Roman,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0442,0106,0282,1
+Style: sign_9784_89_Sol,Times New Roman,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0423,0175,0217,1
+Style: sign_9784_90_Magna,Times New Roman,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0424,0122,0132,1
+Style: sign_11341_108_Four_Years_Ago,Times New Roman,28,&H00FDFDFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0220,1
+Style: sign_11640_111_Sol_Marron,Times New Roman,30,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_9718_95_Langris,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0130,0435,0220,1
+Style: sign_9718_98_Leopold,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0345,0215,0205,1
+Style: sign_9718_100_Hamon,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0530,0040,0205,1
+Style: sign_9718_99_Finral,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0455,0125,0220,1
+Style: sign_12339_133_Finnes_Calmreich,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:06.68,0:00:11.11,italics,Nar,0000,0000,0000,,It appeared as though humanity \Nwould be destroyed by the demons.
+Dialogue: 0,0:00:15.03,0:00:19.29,italics,Nar,0000,0000,0000,,But a single mage saved them all.
+Dialogue: 0,0:00:26.42,0:00:31.59,italics,Nar,0000,0000,0000,,He was called the Wizard King,\Nand he became a legend.
+Dialogue: 0,0:00:34.87,0:00:38.18,italics,Nar,0000,0000,0000,,It's the first round of the second stage \Nof the Royal Knights Selection Exam.
+Dialogue: 0,0:00:41.03,0:00:43.18,italics,Nar,0000,0000,0000,,Sol's attack left Mimosa unable to move.
+Dialogue: 0,0:00:43.18,0:00:47.51,italics,Nar,0000,0000,0000,,Asta was forced to face off with Magna, \Nwho came to attack their crystal on his own.
+Dialogue: 0,0:00:47.51,0:00:48.40,italics,Nar,0000,0000,0000,,Also...
+Dialogue: 0,0:00:48.77,0:00:51.28,main,Kirsch,0000,0000,0000,,What do you think you're doing without me?
+Dialogue: 0,0:00:51.28,0:00:54.45,italics,Asta,0000,0000,0000,,Crap! I'm not gonna be able \Nto take both of them on!
+Dialogue: 0,0:00:54.80,0:00:58.82,italics,Nar,0000,0000,0000,,The one who saved Asta was a \Nmysterious mage named Xerx.
+Dialogue: 0,0:00:59.14,0:01:01.54,main,Zora,0000,0000,0000,,Attack the cherry blossom guy,\Nyou little shit!
+Dialogue: 0,0:01:02.83,0:01:04.41,main,Kirsch,0000,0000,0000,,I'll take care of this in an instant!
+Dialogue: 0,0:01:04.41,0:01:06.92,main,Asta,0000,0000,0000,,And that instant's all I need!
+Dialogue: 0,0:01:09.79,0:01:13.21,italics,Nar,0000,0000,0000,,With the help of Mimosa's plant spell that \Nlets her control the enemy's movements,
+Dialogue: 0,0:01:13.21,0:01:17.29,italics,Nar,0000,0000,0000,,Asta and the rest of B Team \Nwere able to claim victory.
+Dialogue: 0,0:01:17.29,0:01:24.15,italics,Nar,0000,0000,0000,,And now, the destined battle between the\Nbrothers Finral and Langris is about to begin.
+Dialogue: 0,0:01:51.25,0:01:57.03,Ep Title,Sign,0000,0000,0000,,Special Little Brother\N vs.\N Failed Big Brother
+Dialogue: 0,0:03:00.36,0:03:01.84,main,Vanessa,0000,0000,0000,,There you go.
+Dialogue: 0,0:03:01.84,0:03:04.74,main,Finral,0000,0000,0000,,Th-Thank you, Vanessa.
+Dialogue: 0,0:03:04.74,0:03:08.22,main,Asta,0000,0000,0000,,That's perfect! You look awesome!
+Dialogue: 0,0:03:08.22,0:03:10.18,main,Magna,0000,0000,0000,,Could you do mine, too?
+Dialogue: 0,0:03:10.18,0:03:12.25,main,Vanessa,0000,0000,0000,,You already lost, though.
+Dialogue: 0,0:03:12.25,0:03:15.33,main,Vanessa,0000,0000,0000,,It looks fine. You look like \Nthe failure that you are.
+Dialogue: 0,0:03:15.33,0:03:17.80,main,Magna,0000,0000,0000,,What?! Who're you calling a failure?!
+Dialogue: 0,0:03:17.80,0:03:20.73,main,Luck,0000,0000,0000,,Now, now. Try to stay calm, Magna.
+Dialogue: 0,0:03:20.73,0:03:22.20,main,Luck,0000,0000,0000,,Like a loser should.
+Dialogue: 0,0:03:22.77,0:03:24.30,main,Magna,0000,0000,0000,,You bastard! I'm gonna kill you!
+Dialogue: 0,0:03:24.30,0:03:25.70,main,Magna,0000,0000,0000,,I'm so gonna kill you!
+Dialogue: 0,0:03:26.29,0:03:28.54,main,Luck,0000,0000,0000,,Good! Let's do this now!
+Dialogue: 0,0:03:28.54,0:03:30.90,main,Asta,0000,0000,0000,,Wait, you guys—
+Dialogue: 0,0:03:33.35,0:03:37.80,main,Leo,0000,0000,0000,,As I thought, that guy is a very \Nskilled flame magic caster.
+Dialogue: 0,0:03:37.80,0:03:39.65,main,Leo,0000,0000,0000,,The lightning guy is also \None to look out for.
+Dialogue: 0,0:03:40.34,0:03:41.42,sign_9194_75_Yay____Yay____,Gordon/subs,0000,0000,0000,,{\blur3}I know.
+Dialogue: 0,0:03:41.54,0:03:43.22,sign_9194_75_Yay____Yay____,Gordon/subs,0000,0000,0000,,{\blur3}Luck is trying to cheer him up...
+Dialogue: 0,0:03:43.41,0:03:47.54,main,Charmy,0000,0000,0000,,La, la. Gimme more noms.
+Dialogue: 0,0:03:47.54,0:03:50.16,main,Hamon,0000,0000,0000,,My, aren't you a hungry little one?
+Dialogue: 0,0:03:50.16,0:03:54.12,main,Gauche,0000,0000,0000,,Marie... Marie... Always Marie.
+Dialogue: 0,0:03:54.78,0:03:56.09,main,Guy,0000,0000,0000,,What's going on over there?
+Dialogue: 0,0:03:56.09,0:03:58.03,main,Guy 2,0000,0000,0000,,The Black Bulls, huh?
+Dialogue: 0,0:03:58.03,0:04:00.42,main,Guy,0000,0000,0000,,I guess bulls will be bulls.
+Dialogue: 0,0:04:00.42,0:04:04.37,main,Noelle,0000,0000,0000,,Come on, you guys, stop! \NThis is embarrassing!
+Dialogue: 0,0:04:11.22,0:04:13.56,main,Vanessa,0000,0000,0000,,Why are you so stiff?
+Dialogue: 0,0:04:13.56,0:04:15.06,main,Vanessa,0000,0000,0000,,I'm sure this next match
+Dialogue: 0,0:04:15.06,0:04:17.36,main,Vanessa,0000,0000,0000,,will be complicated for you, \Ngiven who you're up against.
+Dialogue: 0,0:04:17.96,0:04:20.17,main,Finral,0000,0000,0000,,Uh... Y-Yeah, I guess.
+Dialogue: 0,0:04:20.17,0:04:24.41,main,Finral,0000,0000,0000,,Not to mention, I've never beaten \Nmy little brother in anything.
+Dialogue: 0,0:04:25.58,0:04:26.66,main,Vanessa,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:04:26.66,0:04:28.62,main,Vanessa,0000,0000,0000,,I've fought alongside you, so I know.
+Dialogue: 0,0:04:29.02,0:04:31.41,main,Vanessa,0000,0000,0000,,You changed after meeting Asta.
+Dialogue: 0,0:04:31.41,0:04:33.08,main,Vanessa,0000,0000,0000,,The same goes for me.
+Dialogue: 0,0:04:33.08,0:04:38.67,main,Vanessa,0000,0000,0000,,I was able to face something hidden deep\N within my heart that I'd been ignoring.
+Dialogue: 0,0:04:38.67,0:04:42.02,main,Vanessa,0000,0000,0000,,You're not going to lose so easily now.
+Dialogue: 0,0:04:42.02,0:04:45.18,main,Vanessa,0000,0000,0000,,Now get out there and show everyone \Nhow cool you are. Just like your hair.
+Dialogue: 0,0:04:46.62,0:04:47.68,main,Finral,0000,0000,0000,,Vanessa...
+Dialogue: 0,0:04:47.68,0:04:49.79,main,Asta,0000,0000,0000,,You've got this, Finral!
+Dialogue: 0,0:04:49.79,0:04:52.62,main,Luck,0000,0000,0000,,Don't lose like Magna, and come fight me.
+Dialogue: 0,0:04:52.62,0:04:56.57,main,Magna,0000,0000,0000,,Yeah! Don't lose like— \NThe hell did you say?!
+Dialogue: 0,0:04:57.27,0:04:59.72,main,Grey,0000,0000,0000,,I-I'm rooting for you, too!
+Dialogue: 0,0:04:59.72,0:05:06.99,top,Gordon,0000,0000,0000,,You've got this. You've got this. You've got this. \NYou've got this. You've got this. You've got this...
+Dialogue: 0,0:05:01.94,0:05:05.90,main,Noelle,0000,0000,0000,,You'd better not embarrass \Nthe rest of the squad.
+Dialogue: 0,0:05:05.90,0:05:06.99,main,Both,0000,0000,0000,,Yeah.
+Dialogue: 0,0:05:07.91,0:05:09.99,main,Finral,0000,0000,0000,,Charmy... Even Gauche.
+Dialogue: 0,0:05:09.99,0:05:14.75,main,Finral,0000,0000,0000,,Thanks, you guys. I'm so happy \NI joined the Black Bu—
+Dialogue: 0,0:05:14.75,0:05:18.54,main,Charmy,0000,0000,0000,,Please, more noms.
+Dialogue: 0,0:05:18.54,0:05:21.59,main,Gauche,0000,0000,0000,,I want to see Marie as soon as possible, \Nso win this in one second.
+Dialogue: 0,0:05:21.98,0:05:24.19,italics,Finral,0000,0000,0000,,But I have seniority...
+Dialogue: 0,0:05:24.19,0:05:27.62,main,Asta,0000,0000,0000,,I'm sure Captain Yami's cheering \Nyou on from the base, too.
+Dialogue: 0,0:05:27.62,0:05:30.33,main,Vanessa,0000,0000,0000,,Yeah. He seemed a bit antsy this morning.
+Dialogue: 0,0:05:30.33,0:05:32.77,main,Vanessa,0000,0000,0000,,He said his stomach was acting up, but...
+Dialogue: 0,0:05:32.77,0:05:37.27,main,Vanessa,0000,0000,0000,,I'm sure he just wants to see you \Nwork hard even without his help.
+Dialogue: 0,0:05:40.55,0:05:43.77,main,Yami,0000,0000,0000,,Those guys must be going beyond their \Nlimits and kicking ass right about now.
+Dialogue: 0,0:05:43.77,0:05:45.58,main,Yami,0000,0000,0000,,I'm kicking ass, too.
+Dialogue: 0,0:05:45.58,0:05:48.16,main,Yami,0000,0000,0000,,This one's gonna be a killer.
+Dialogue: 0,0:05:48.16,0:05:51.66,main,Yami,0000,0000,0000,,And damn it, kid! I told you to \Nrestock the damn toilet paper!
+Dialogue: 0,0:05:53.91,0:05:58.42,main,Langris,0000,0000,0000,,Good grief. As if you could \Nactually defeat me, Brother.
+Dialogue: 0,0:05:58.77,0:06:02.65,main,Finral,0000,0000,0000,,Langris, I managed to change \Nafter meeting my friends.
+Dialogue: 0,0:06:02.65,0:06:04.00,main,Finral,0000,0000,0000,,We'll be the ones who win this.
+Dialogue: 0,0:06:04.37,0:06:08.01,main,Langris,0000,0000,0000,,Whatever. Don't blame me for \Nwhatever happens, all right?
+Dialogue: 0,0:06:08.97,0:06:11.64,main,Finral,0000,0000,0000,,Would you let me handle him?
+Dialogue: 0,0:06:12.37,0:06:13.54,main,Hamon,0000,0000,0000,,I don't see why not.
+Dialogue: 0,0:06:13.54,0:06:15.33,main,Leo,0000,0000,0000,,A battle between brothers, eh?
+Dialogue: 0,0:06:15.33,0:06:19.00,main,Leo,0000,0000,0000,,I also want to fight my \Nbrother for real one day.
+Dialogue: 0,0:06:19.00,0:06:21.98,main,Leo,0000,0000,0000,,I accept your passionate request!
+Dialogue: 0,0:06:21.98,0:06:23.18,main,Sekke,0000,0000,0000,,Bah-ha!
+Dialogue: 0,0:06:23.18,0:06:25.80,main,Sekke,0000,0000,0000,,I'm going to burn the image \Nof me gallantly riding
+Dialogue: 0,0:06:25.80,0:06:28.18,main,Sekke,0000,0000,0000,,my Shooting Star into everyone's eyes!
+Dialogue: 0,0:06:28.18,0:06:30.99,main,Fragil,0000,0000,0000,,You will not lay a single \Nfinger on our crystal!
+Dialogue: 0,0:06:32.12,0:06:33.77,main,Asta,0000,0000,0000,,It's finally starting!
+Dialogue: 0,0:06:33.77,0:06:35.79,main,Noelle,0000,0000,0000,,Now I'm getting nervous.
+Dialogue: 0,0:06:36.33,0:06:39.29,italics,Vanessa,0000,0000,0000,,Finral, I know you can win this.
+Dialogue: 0,0:06:39.29,0:06:40.43,top,Guy,0000,0000,0000,,And now,
+Dialogue: 0,0:06:40.43,0:06:46.29,top,Guy,0000,0000,0000,,E Team: Leopold, Hamon, and Finral \Nversus G Team: Langris, Fragil, and Sekke.
+Dialogue: 0,0:06:45.30,0:06:49.05,sign_10657_102_Roland,Sign,0000,0000,0000,,{\blur3}Fragil
+Dialogue: 0,0:06:45.30,0:06:49.05,sign_9718_95_Langris,Sign,0000,0000,0000,,{\blur3}Langris
+Dialogue: 0,0:06:45.30,0:06:49.05,sign_10657_103_Nix,Sign,0000,0000,0000,,{\blur3}Sekke
+Dialogue: 0,0:06:45.30,0:06:49.05,sign_10224_105_D_Team,Sign,0000,0000,0000,,{\blur3}G Team
+Dialogue: 0,0:06:45.30,0:06:49.05,sign_9718_98_Leopold,Sign,0000,0000,0000,,{\blur3}Leopold
+Dialogue: 0,0:06:45.30,0:06:49.05,sign_9718_99_Finral,Sign,0000,0000,0000,,{\blur3}Finral
+Dialogue: 0,0:06:45.30,0:06:49.05,sign_9718_100_Hamon,Sign,0000,0000,0000,,{\blur3}Hamon
+Dialogue: 0,0:06:45.30,0:06:49.05,sign_10224_103_C_Team,Sign,0000,0000,0000,,{\blur3}E Team
+Dialogue: 0,0:06:46.29,0:06:48.47,top,Guy,0000,0000,0000,,Round two of stage two, begin!
+Dialogue: 0,0:06:49.05,0:06:51.77,main,Finral,0000,0000,0000,,You two concentrate on \Ndestroying the enemy crystal.
+Dialogue: 0,0:06:51.77,0:06:52.84,main,Leo,0000,0000,0000,,Leave it to me.
+Dialogue: 0,0:06:52.84,0:06:55.31,main,Hamon,0000,0000,0000,,Let's find out where it is.
+Dialogue: 0,0:06:55.31,0:06:58.45,main,Hamon,0000,0000,0000,,Glass Magic: Verre Détection.
+Dialogue: 0,0:07:01.62,0:07:08.32,main,Hamon,0000,0000,0000,,I can see every inch of this battle stage \Nas the light reflects off the glass.
+Dialogue: 0,0:07:08.66,0:07:14.29,main,Hamon,0000,0000,0000,,It will take a little while, but I will \Ndefinitely be able to find the enemy's crystal.
+Dialogue: 0,0:07:20.47,0:07:24.07,main,Langris,0000,0000,0000,,I expect you to take me all the way \Nto the enemy base again, Mr. Bah-ha.
+Dialogue: 0,0:07:24.07,0:07:26.81,main,Sekke,0000,0000,0000,,Leave it to me! Also, I'm Sekke.
+Dialogue: 0,0:07:26.81,0:07:28.90,main,Sekke,0000,0000,0000,,Please call me Sekke.
+Dialogue: 0,0:07:28.90,0:07:31.40,main,Sekke,0000,0000,0000,,You can even call me Sek, bah-ha.
+Dialogue: 0,0:07:31.40,0:07:33.22,main,Langris,0000,0000,0000,,Understood, Mr. Bah-ha.
+Dialogue: 0,0:07:33.22,0:07:35.82,main,Sekke,0000,0000,0000,,Bah-ha. No, really, it's Sekke!
+Dialogue: 0,0:07:35.82,0:07:38.56,main,Sekke,0000,0000,0000,,Please call me Sekke!
+Dialogue: 0,0:07:38.56,0:07:40.81,italics,Langris,0000,0000,0000,,You brought shame upon the House of Vaude.
+Dialogue: 0,0:07:40.81,0:07:44.35,italics,Langris,0000,0000,0000,,There's no way you can defeat me, Brother.
+Dialogue: 0,0:07:45.45,0:07:48.70,flashback,Mom,0000,0000,0000,,You see, you aren't my child.
+Dialogue: 0,0:07:48.70,0:07:53.18,flashback,Mom,0000,0000,0000,,So the only one that I love \Nis my dear little Langris.
+Dialogue: 0,0:07:55.97,0:07:59.33,flashback,Langris,0000,0000,0000,,Mother, it's a bit cruel to be so blunt.
+Dialogue: 0,0:07:59.75,0:08:01.79,flashback,Dad,0000,0000,0000,,What is that pathetically weak spell?
+Dialogue: 0,0:08:02.27,0:08:04.76,flashback,Dad,0000,0000,0000,,Learn from Langris's attack spells!
+Dialogue: 0,0:08:06.42,0:08:07.97,flashback,Mom,0000,0000,0000,,Goodness.
+Dialogue: 0,0:08:07.97,0:08:11.42,flashback,Mom,0000,0000,0000,,I see my dear little Langris is better \Nthan you at both academics and sports.
+Dialogue: 0,0:08:14.75,0:08:17.30,flashback,Mom,0000,0000,0000,,You're so amazing, my dear little Langris.
+Dialogue: 0,0:08:17.30,0:08:19.73,flashback,Mom,0000,0000,0000,,As I should expect from my own child.
+Dialogue: 0,0:08:19.73,0:08:21.57,flashback,Dad,0000,0000,0000,,What are you doing, Finral?
+Dialogue: 0,0:08:21.57,0:08:23.19,flashback,Dad,0000,0000,0000,,You disgrace the Vaude name!
+Dialogue: 0,0:08:26.11,0:08:32.07,flashbackitalics,Langris,0000,0000,0000,,How pathetic. He's older than me, but there's \Nnot one thing he can do better than me.
+Dialogue: 0,0:08:32.44,0:08:34.34,flashback,Finral,0000,0000,0000,,What? A fiancée?
+Dialogue: 0,0:08:34.34,0:08:35.32,flashbacktop,Dad,0000,0000,0000,,Yes.
+Dialogue: 0,0:08:34.63,0:08:40.60,sign_12339_133_Finnes_Calmreich,Sign,0000,0000,0000,,{\blur3\fad(968,998)}Finnes Calmreich
+Dialogue: 0,0:08:35.32,0:08:39.90,flashbacktop,Dad,0000,0000,0000,,This is Lady Finnes, the fiancée of \Nthe next head of the House of Vaude.
+Dialogue: 0,0:08:41.33,0:08:42.63,flashback,Finnes,0000,0000,0000,,Good day to you.
+Dialogue: 0,0:08:44.91,0:08:47.69,flashback,Dad,0000,0000,0000,,Her chronic illness keeps \Nher from going out often,
+Dialogue: 0,0:08:47.69,0:08:50.94,flashback,Dad,0000,0000,0000,,but the king is her great uncle, \Nso she comes from a prestigious family
+Dialogue: 0,0:08:50.94,0:08:53.42,flashback,Dad,0000,0000,0000,,and has splendid magic.
+Dialogue: 0,0:08:55.01,0:08:57.61,flashbackitalics,Langris,0000,0000,0000,,So basically, in the future, \Nthis woman and I will...
+Dialogue: 0,0:08:57.61,0:09:00.93,flashbackitalics,Langris,0000,0000,0000,,Ugh. What a dull-looking woman.
+Dialogue: 0,0:09:01.30,0:09:05.10,flashback,Mom,0000,0000,0000,,My dear little Langris, \Nmake sure you get along with her.
+Dialogue: 0,0:09:05.10,0:09:07.19,flashback,Mom,0000,0000,0000,,She's going to be your bride someday.
+Dialogue: 0,0:09:07.63,0:09:08.90,flashback,Langris,0000,0000,0000,,Of course!
+Dialogue: 0,0:09:11.82,0:09:15.21,flashbackitalics,Langris,0000,0000,0000,,Seriously... When I become \Nthe lord of this house,
+Dialogue: 0,0:09:15.21,0:09:20.08,flashbackitalics,Langris,0000,0000,0000,,I'll be able to bring us fame \Nlike they've never seen.
+Dialogue: 0,0:09:20.41,0:09:22.89,flashbackitalics,Langris,0000,0000,0000,,Ugh... I'm so bored.
+Dialogue: 0,0:09:25.31,0:09:31.34,flashback,Finnes,0000,0000,0000,,I'm very sorry that you got stuck with a \Nfiancée who's sickly and older than you.
+Dialogue: 0,0:09:31.34,0:09:36.70,flashback,Finral,0000,0000,0000,,N-Not at all! \NYou're b-b-beautiful, Miss Finnes.
+Dialogue: 0,0:09:38.15,0:09:42.18,flashback,Finral,0000,0000,0000,,It's just... I'm not the one who'll become \Nthe next head of the House of Vaude.
+Dialogue: 0,0:09:42.18,0:09:43.55,flashback,Finnes,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:43.55,0:09:46.05,flashback,Finral,0000,0000,0000,,My little brother is better \Nat everything than me,
+Dialogue: 0,0:09:46.05,0:09:48.15,flashback,Finral,0000,0000,0000,,so he'll be able to make you happy.
+Dialogue: 0,0:09:48.77,0:09:51.66,flashback,Finral,0000,0000,0000,,His magic is amazing, \Nand he's a very decisive person.
+Dialogue: 0,0:09:52.19,0:09:54.28,flashback,Finral,0000,0000,0000,,I'm just a failure.
+Dialogue: 0,0:09:56.13,0:09:59.62,flashbackitalics,Langris,0000,0000,0000,,Exactly. There's not a single \Nthing he can beat me i—
+Dialogue: 0,0:09:59.62,0:10:01.12,flashback,Finnes,0000,0000,0000,,That's not true.
+Dialogue: 0,0:10:01.12,0:10:02.12,flashbackitalics,Langris,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:02.12,0:10:05.13,flashback,Finnes,0000,0000,0000,,I've only met you a few times, but I can tell.
+Dialogue: 0,0:10:05.59,0:10:08.11,flashback,Finnes,0000,0000,0000,,You're a very kind person.
+Dialogue: 0,0:10:08.11,0:10:11.88,flashback,Finnes,0000,0000,0000,,To me, you're a much more \Nwonderful mage, Finral.
+Dialogue: 0,0:10:13.57,0:10:17.80,flashback,Finral,0000,0000,0000,,O-Oh, stop! D-Don't tease me like that!
+Dialogue: 0,0:10:17.80,0:10:20.49,flashback,Finnes,0000,0000,0000,,Oh, but I wasn't teasing you at all.
+Dialogue: 0,0:10:21.74,0:10:24.11,flashbackitalics,Langris,0000,0000,0000,,Who do you think you are, you dull woman?
+Dialogue: 0,0:10:24.11,0:10:26.60,flashbackitalics,Langris,0000,0000,0000,,You have the nerve to call me \Ninferior to my brother?
+Dialogue: 0,0:10:27.01,0:10:28.42,italics,Langris,0000,0000,0000,,Don't be ridiculous.
+Dialogue: 0,0:10:28.42,0:10:31.61,italics,Langris,0000,0000,0000,,That loser left the family because \Nhe couldn't handle the pressure.
+Dialogue: 0,0:10:32.01,0:10:35.98,italics,Langris,0000,0000,0000,,He's not better than me at anything!\NNot a single thing!
+Dialogue: 0,0:10:36.30,0:10:38.36,main,Sekke,0000,0000,0000,,Bah-ha! Found it!
+Dialogue: 0,0:10:41.58,0:10:44.98,main,Leo,0000,0000,0000,,Here he comes. As we planned, \Nwe'll leave him to you, Finral.
+Dialogue: 0,0:10:46.12,0:10:50.41,main,Langris,0000,0000,0000,,Just as a reminder...\NDon't blame me if you lose any limbs.
+Dialogue: 0,0:10:50.41,0:10:52.29,main,Langris,0000,0000,0000,,I'll end this in a single blow!
+Dialogue: 0,0:10:56.56,0:10:57.42,main,Langris,0000,0000,0000,,What?!
+Dialogue: 0,0:10:57.42,0:11:03.80,main,Finral,0000,0000,0000,,I tested this out earlier with another \Nspatial magic user, Cob, and found out...
+Dialogue: 0,0:11:04.31,0:11:06.39,main,Finral,0000,0000,0000,,that when spatial magics collide,
+Dialogue: 0,0:11:06.39,0:11:09.88,main,Finral,0000,0000,0000,,the mana currents collide \Nand cancel each other out!
+Dialogue: 0,0:11:09.88,0:11:13.02,main,Finral,0000,0000,0000,,Langris, we're the ones who are going to win!
+Dialogue: 0,0:11:22.41,0:11:24.91,main,Asta,0000,0000,0000,,Th-That's awesome!
+Dialogue: 0,0:11:25.29,0:11:28.37,main,Noelle,0000,0000,0000,,You can cancel out spatial \Nmagic with spatial magic?
+Dialogue: 0,0:11:28.37,0:11:30.48,main,Vanessa,0000,0000,0000,,Way to go, Finral!
+Dialogue: 0,0:11:30.48,0:11:34.02,main,Grey,0000,0000,0000,,H-He's like a completely different person!
+Dialogue: 0,0:11:34.02,0:11:36.52,main,Magna,0000,0000,0000,,Keep it up, ya jerk!
+Dialogue: 0,0:11:36.52,0:11:39.06,main,Gauche,0000,0000,0000,,Marie's waiting. Hurry up and win.
+Dialogue: 0,0:11:39.71,0:11:42.78,main,Charmy,0000,0000,0000,,I get to have more yummy noms, la!
+Dialogue: 0,0:11:44.05,0:11:46.26,main,Sekke,0000,0000,0000,,Bah-ha, ha-bah?!
+Dialogue: 0,0:11:47.91,0:11:50.93,main,Leo,0000,0000,0000,,Excellent work, Finral! That was effective!
+Dialogue: 0,0:11:50.93,0:11:53.27,main,Finral,0000,0000,0000,,Hamon, where's the enemy team's crystal?
+Dialogue: 0,0:11:54.43,0:11:56.86,main,Hamon,0000,0000,0000,,I've finally found it!
+Dialogue: 0,0:11:56.86,0:11:58.82,main,Hamon,0000,0000,0000,,It's deep within that tower.
+Dialogue: 0,0:11:58.82,0:12:01.32,main,Finral,0000,0000,0000,,All right, I'm counting on you two!
+Dialogue: 0,0:12:03.32,0:12:05.66,main,Sekke,0000,0000,0000,,Th-This isn't good, bah-ha!
+Dialogue: 0,0:12:05.66,0:12:09.16,main,Langris,0000,0000,0000,,Who do you think you are, Brother? \NI'll remind you of your place!
+Dialogue: 0,0:12:15.81,0:12:17.75,main,Leo,0000,0000,0000,,Give it up!
+Dialogue: 0,0:12:19.25,0:12:20.88,main,Fragil,0000,0000,0000,,You came in.
+Dialogue: 0,0:12:24.14,0:12:25.26,main,Hamon,0000,0000,0000,,This is...
+Dialogue: 0,0:12:25.26,0:12:28.76,main,Fragil,0000,0000,0000,,Snow Magic: Phantom Snow Garden.
+Dialogue: 0,0:12:28.76,0:12:33.37,main,Fragil,0000,0000,0000,,This spell forces your senses to sleep.
+Dialogue: 0,0:12:33.83,0:12:37.02,main,Fragil,0000,0000,0000,,You cannot attack me effectively any longer.
+Dialogue: 0,0:12:40.40,0:12:44.25,main,Leo,0000,0000,0000,,I'm not tired at all... This is nothing!
+Dialogue: 0,0:12:44.25,0:12:49.28,main,Leo,0000,0000,0000,,Especially compared to my older sister's \Ntraining, which could leave you dead!
+Dialogue: 0,0:12:49.69,0:12:52.54,main,Hamon,0000,0000,0000,,Honestly, you still have much to learn.
+Dialogue: 0,0:12:52.54,0:12:54.79,main,Leo,0000,0000,0000,,Yeah! You're so valiant, Hamon!
+Dialogue: 0,0:12:56.02,0:12:58.72,main,Hamon,0000,0000,0000,,I can still eat plenty...
+Dialogue: 0,0:12:58.72,0:13:00.42,main,Leo,0000,0000,0000,,You're talking about yourself?!
+Dialogue: 0,0:13:01.40,0:13:03.76,main,Fragil,0000,0000,0000,,You should give up and fall asleep, too.
+Dialogue: 0,0:13:07.82,0:13:08.76,main,Fragil,0000,0000,0000,,This is...
+Dialogue: 0,0:13:08.76,0:13:13.14,main,Leo,0000,0000,0000,,I swore upon the symbol on my forehead...
+Dialogue: 0,0:13:13.14,0:13:16.60,main,Leo,0000,0000,0000,,that I would surpass my brother someday!
+Dialogue: 0,0:13:16.60,0:13:19.56,main,Leo,0000,0000,0000,,And that means I can't lose in a place like this!
+Dialogue: 0,0:13:19.56,0:13:21.27,main,Leo,0000,0000,0000,,Concentrate!
+Dialogue: 0,0:13:21.27,0:13:23.08,main,Leo,0000,0000,0000,,Mana Skin!
+Dialogue: 0,0:13:23.78,0:13:28.28,main,Leo,0000,0000,0000,,Flame Magic: Spiral Flames!
+Dialogue: 0,0:13:30.78,0:13:32.56,italics,Fragil,0000,0000,0000,,His senses are sharp!
+Dialogue: 0,0:13:32.56,0:13:37.04,italics,Fragil,0000,0000,0000,,He enveloped himself in mana \Nand canceled my spell.
+Dialogue: 0,0:13:37.04,0:13:40.54,italics,Leo,0000,0000,0000,,More! I need to concentrate more!
+Dialogue: 0,0:13:41.77,0:13:45.05,main,Fragil,0000,0000,0000,,I won't last much longer, Langris.
+Dialogue: 0,0:13:45.90,0:13:47.22,main,Sekke,0000,0000,0000,,Bah-ha!
+Dialogue: 0,0:13:53.51,0:13:59.04,main,Julius,0000,0000,0000,,A spatial magic battle! \NYou don't see that every day!
+Dialogue: 0,0:13:59.04,0:14:02.86,main,King,0000,0000,0000,,Ah, so that is Finnes's fiancé, Langris.
+Dialogue: 0,0:14:02.86,0:14:04.83,main,King,0000,0000,0000,,Not bad at all.
+Dialogue: 0,0:14:04.83,0:14:06.53,main,King,0000,0000,0000,,He's still no match for me, though.
+Dialogue: 0,0:14:06.53,0:14:09.18,main,Asta,0000,0000,0000,,Keep it up, Finral!
+Dialogue: 0,0:14:09.18,0:14:12.83,main,Vanessa,0000,0000,0000,,It's only a matter of time before \Ntheir crystal is destroyed!
+Dialogue: 0,0:14:12.83,0:14:17.37,main,Langris,0000,0000,0000,,I never thought you'd become \Nmy natural enemy, Brother.
+Dialogue: 0,0:14:17.37,0:14:21.46,main,Langris,0000,0000,0000,,Do you plan on defending \Nuntil our crystal breaks?
+Dialogue: 0,0:14:21.46,0:14:23.38,main,Langris,0000,0000,0000,,I'm not sure that'll be so easy!
+Dialogue: 0,0:14:23.38,0:14:26.38,main,Finral,0000,0000,0000,,It might not be. That's why...
+Dialogue: 0,0:14:28.12,0:14:30.26,main,Finral,0000,0000,0000,,I'm going to use a new spell!
+Dialogue: 0,0:14:33.26,0:14:36.52,main,Sekke,0000,0000,0000,,Bah-ha! What in the world is that slow spell?
+Dialogue: 0,0:14:36.52,0:14:40.37,main,Sekke,0000,0000,0000,,Like you could hit my badass self right now!
+Dialogue: 0,0:14:42.53,0:14:44.11,italics,Langris,0000,0000,0000,,What? Homing?
+Dialogue: 0,0:14:45.36,0:14:50.75,main,Sekke,0000,0000,0000,,That's no match for my invincible \NSekke Magnum Cannonball!
+Dialogue: 0,0:14:53.93,0:14:55.83,main,Asta,0000,0000,0000,,H-He disappeared?!
+Dialogue: 0,0:14:57.49,0:14:59.42,main,Finral,0000,0000,0000,,This is pretty pathetic, even for me.
+Dialogue: 0,0:14:59.42,0:15:04.34,main,Fnral,0000,0000,0000,,I trained so hard, but I never \Ncould learn a single attack spell.
+Dialogue: 0,0:15:04.34,0:15:07.34,main,Langris,0000,0000,0000,,It's not an attack spell?
+Dialogue: 0,0:15:08.61,0:15:11.94,main,Finral,0000,0000,0000,,Spatial Magic: Fallen Angel's Wingbeat.
+Dialogue: 0,0:15:11.94,0:15:13.98,main,Finral,0000,0000,0000,,It follows the enemy, \Nand once it makes contact,
+Dialogue: 0,0:15:13.98,0:15:16.75,main,Finral,0000,0000,0000,,it transports them to another location.
+Dialogue: 0,0:15:16.75,0:15:19.81,main,Finral,0000,0000,0000,,It's the applied version of \Nthe spell I usually use.
+Dialogue: 0,0:15:20.97,0:15:25.93,main,Julius,0000,0000,0000,,This way, he can get rid of \Nenemies without hurting them!
+Dialogue: 0,0:15:25.93,0:15:29.03,main,Julius,0000,0000,0000,,He must be a kind soul.
+Dialogue: 0,0:15:29.03,0:15:32.01,main,Asta,0000,0000,0000,,You're so awesome, Finral!
+Dialogue: 0,0:15:32.01,0:15:35.62,main,Grey,0000,0000,0000,,B-But where did he go?
+Dialogue: 0,0:15:42.33,0:15:45.84,main,Yami,0000,0000,0000,,It just went back in. Can I kill you now?
+Dialogue: 0,0:15:45.84,0:15:47.84,italics,Sekke,0000,0000,0000,,Bah-ha... I'm dead.
+Dialogue: 0,0:15:53.78,0:15:58.97,main,Finral,0000,0000,0000,,Langris, it's only a matter of time \Nbefore your crystal is destroyed.
+Dialogue: 0,0:15:58.97,0:16:01.14,main,Finral,0000,0000,0000,,I don't want to hurt you!
+Dialogue: 0,0:16:01.82,0:16:04.65,main,Finral,0000,0000,0000,,If you insist on continuing, I'll have \Nto use this spell to make you leave.
+Dialogue: 0,0:16:12.07,0:16:14.63,main,Langris,0000,0000,0000,,{\i1}Who{\i0} are you worried about?
+Dialogue: 0,0:16:14.63,0:16:17.38,main,Langris,0000,0000,0000,,You constantly get on my nerves, Brother.
+Dialogue: 0,0:16:17.38,0:16:20.95,main,Langris,0000,0000,0000,,Who would've thought that our special \Nreserve spells would be similar?
+Dialogue: 0,0:16:29.45,0:16:33.22,main,Langris,0000,0000,0000,,How dare you make me use my grimoire's magic?!
+Dialogue: 0,0:16:39.72,0:16:45.65,main,Langris,0000,0000,0000,,There isn't a single thing \Nyou can beat me at, Brother!
+Dialogue: 0,0:16:48.21,0:16:51.90,italics,Asta,0000,0000,0000,,Th-This ominous feeling... \NI've felt this somewhere before!
+Dialogue: 0,0:16:52.81,0:16:54.99,main,Noelle,0000,0000,0000,,Th-This mana...
+Dialogue: 0,0:16:57.10,0:16:58.24,main,Guy,0000,0000,0000,,This is...
+Dialogue: 0,0:16:58.69,0:17:01.75,main,King,0000,0000,0000,,This doesn't feel very pleasant.
+Dialogue: 0,0:17:03.38,0:17:04.50,italics,Julius,0000,0000,0000,,As I figured...
+Dialogue: 0,0:17:05.00,0:17:07.50,main,Langris,0000,0000,0000,,It's over, Brother!
+Dialogue: 0,0:17:08.20,0:17:09.25,main,Finral,0000,0000,0000,,Langris!
+Dialogue: 0,0:17:09.96,0:17:16.35,main,Finral,0000,0000,0000,,Th-This immense magical power... \NI already know I don't stand a chance.
+Dialogue: 0,0:17:16.35,0:17:18.01,main,Finral,0000,0000,0000,,But this is...
+Dialogue: 0,0:17:19.03,0:17:22.02,main,Finral,0000,0000,0000,,This nauseating magic is like...
+Dialogue: 0,0:17:23.21,0:17:25.02,main,Finral,0000,0000,0000,,Who are you?
+Dialogue: 0,0:17:25.40,0:17:26.84,main,Asta,0000,0000,0000,,Finral!
+Dialogue: 0,0:17:26.84,0:17:28.73,main,Noelle,0000,0000,0000,,If that attack hits him...
+Dialogue: 0,0:17:28.73,0:17:29.81,main,Vanessa,0000,0000,0000,,Run!
+Dialogue: 0,0:17:33.33,0:17:35.69,main,Finral,0000,0000,0000,,No. He's Langris.
+Dialogue: 0,0:17:36.25,0:17:37.07,main,Finral,0000,0000,0000,,He's my little brother.
+Dialogue: 0,0:17:38.20,0:17:41.20,main,Finral,0000,0000,0000,,You may not like it, but we're similar.
+Dialogue: 0,0:17:41.96,0:17:44.45,main,Finral,0000,0000,0000,,Our mothers are different, but in the end...
+Dialogue: 0,0:17:45.31,0:17:47.95,main,Finral,0000,0000,0000,,I never did anything that made \Nme seem like a big brother.
+Dialogue: 0,0:17:48.86,0:17:52.71,main,Finral,0000,0000,0000,,I left our family and tried \Nto forget everything.
+Dialogue: 0,0:17:57.16,0:18:02.49,main,Finral,0000,0000,0000,,But I just couldn't. \NLangris, no matter what you think...
+Dialogue: 0,0:18:02.49,0:18:04.84,main,Finral,0000,0000,0000,,You're my little brother!
+Dialogue: 0,0:18:08.34,0:18:14.23,main,Finral,0000,0000,0000,,Langris, stop it! If you keep this up, \NI have a feeling you won't be you anymore!
+Dialogue: 0,0:18:14.23,0:18:18.09,main,Langris,0000,0000,0000,,What could you possibly \Nknow about me, Brother?
+Dialogue: 0,0:18:18.09,0:18:20.27,main,Langris,0000,0000,0000,,You left everything behind!
+Dialogue: 0,0:18:20.27,0:18:23.49,main,Langris,0000,0000,0000,,You're a coward who can't even hurt people!
+Dialogue: 0,0:18:23.90,0:18:27.25,main,Langris,0000,0000,0000,,Don't you dare try to act \Nlike my big brother now!
+Dialogue: 0,0:18:27.77,0:18:30.75,main,Finral,0000,0000,0000,,I'll stop you!
+Dialogue: 0,0:18:54.40,0:18:56.90,main,Asta,0000,0000,0000,,Finral!
+Dialogue: 0,0:18:57.40,0:18:59.40,main,Guy,0000,0000,0000,,G-G Team wins!
+Dialogue: 0,0:19:05.45,0:19:10.50,main,Langris,0000,0000,0000,,How do you like that? \NThere's nothing you can beat me at!
+Dialogue: 0,0:19:11.56,0:19:16.94,flashback,Lady,0000,0000,0000,,Young Master Finral is so friendly and kind, \Nisn't he? He has a lot of friends, too.
+Dialogue: 0,0:19:16.94,0:19:23.56,flashback,Lady 2,0000,0000,0000,,Young Master Langris is... Well, it's obvious\N that he looks down on people, you know?
+Dialogue: 0,0:19:25.26,0:19:29.43,flashback,Finnes,0000,0000,0000,,To me, you're a much more \Nwonderful mage, Finral.
+Dialogue: 0,0:19:30.44,0:19:34.69,flashbackitalics,Langris,0000,0000,0000,,Even I want someone that kind to...
+Dialogue: 0,0:19:36.36,0:19:38.19,flashback,Finral,0000,0000,0000,,Langris!
+Dialogue: 0,0:19:38.58,0:19:41.34,flashback,Finral,0000,0000,0000,,Working too hard all the time \Nhurts after a while, doesn't it?
+Dialogue: 0,0:19:41.34,0:19:43.49,flashback,Finral,0000,0000,0000,,Come goof off with your \Nbig brother once in a while!
+Dialogue: 0,0:19:43.49,0:19:45.87,flashback,Finral,0000,0000,0000,,There's a festival going on nearby!
+Dialogue: 0,0:19:46.78,0:19:49.41,flashbackitalics,Langris,0000,0000,0000,,Why is he nice to me, too?
+Dialogue: 0,0:19:49.41,0:19:50.54,italics,Langris,0000,0000,0000,,Stop it.
+Dialogue: 0,0:19:50.94,0:19:52.44,flashback,Dad,0000,0000,0000,,Learn from Langris!
+Dialogue: 0,0:19:52.44,0:19:54.67,flashback,Mom,0000,0000,0000,,My dear little Langris is so amazing.
+Dialogue: 0,0:19:54.99,0:19:59.53,italics,Langris,0000,0000,0000,,I'm better than you are. That's why \NMother and Father are kind to me.
+Dialogue: 0,0:20:00.01,0:20:06.05,italics,Langris,0000,0000,0000,,I have to beat him at everything! \NOtherwise, I'll... I'll...
+Dialogue: 0,0:20:09.31,0:20:12.41,main,Guy,0000,0000,0000,,Hey, the match is over.
+Dialogue: 0,0:20:12.86,0:20:14.56,main,Guy,0000,0000,0000,,Wh-What's he doing?
+Dialogue: 0,0:20:20.28,0:20:21.36,main,Langris,0000,0000,0000,,Disappear.
+Dialogue: 0,0:20:33.50,0:20:35.04,main,Noelle,0000,0000,0000,,Finral!
+Dialogue: 0,0:20:35.04,0:20:36.42,italics,Noelle,0000,0000,0000,,These wounds are awful.
+Dialogue: 0,0:20:36.42,0:20:37.71,italics,Noelle,0000,0000,0000,,At this rate...
+Dialogue: 0,0:20:37.71,0:20:39.13,main,Asta,0000,0000,0000,,Hey!
+Dialogue: 0,0:20:39.80,0:20:42.13,main,Magna,0000,0000,0000,,Just try and do something else.
+Dialogue: 0,0:20:42.49,0:20:45.97,main,Luck,0000,0000,0000,,Forget the match. We'll kill you.
+Dialogue: 0,0:20:45.97,0:20:47.10,main,Gauche,0000,0000,0000,,You bastard...
+Dialogue: 0,0:20:47.10,0:20:49.05,main,Vanessa,0000,0000,0000,,How dare you do that to Finral?!
+Dialogue: 0,0:20:50.07,0:20:52.36,main,Grey,0000,0000,0000,,Th-This is too awful!
+Dialogue: 0,0:20:52.85,0:20:54.85,main,Gordon,0000,0000,0000,,You actually pissed me off.
+Dialogue: 0,0:20:54.85,0:20:56.35,main,Charmy,0000,0000,0000,,I won't forgive you!
+Dialogue: 0,0:20:56.82,0:20:57.98,main,Langris,0000,0000,0000,,Oh?
+Dialogue: 0,0:20:58.31,0:21:00.35,main,Asta,0000,0000,0000,,There's something wrong with you!
+Dialogue: 0,0:21:00.81,0:21:03.01,main,Asta,0000,0000,0000,,The match was already over!
+Dialogue: 0,0:22:34.04,0:22:38.54,sign_33083_276_Petit_Clover_,Sign,0000,0000,0000,,{\fad(1,520)}Pe{\c&H3BC020&}t{\c&HE2AF0F&}i{\c&H3BC020&}t C{\c&HE2AF0F&}l{\c&H3BC020&}o{\c&H0E42D4&}ve{\c&H3BC020&}r
+Dialogue: 0,0:22:34.81,0:22:37.32,main,All,0000,0000,0000,,Petit Clover!
+Dialogue: 0,0:22:38.35,0:22:42.04,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Hairstyle
+Dialogue: 0,0:22:38.97,0:22:40.03,main,Finral,0000,0000,0000,,Hairstyle.
+Dialogue: 0,0:22:42.04,0:22:46.38,main,Asta,0000,0000,0000,,That new spell is awesome! \NFallen Angel's Weightlifting!
+Dialogue: 0,0:22:46.38,0:22:48.89,main,Finral,0000,0000,0000,,That's Fallen Angel's Wingbeat.
+Dialogue: 0,0:22:48.89,0:22:51.84,main,Finral,0000,0000,0000,,I mean, I know when I need to get tough.
+Dialogue: 0,0:22:51.84,0:22:53.69,main,Finral,0000,0000,0000,,It's the result of trying different things.
+Dialogue: 0,0:22:54.85,0:22:59.60,main,Asta,0000,0000,0000,,So is your new hairstyle also \Nfrom trying different things?
+Dialogue: 0,0:22:59.60,0:23:00.93,main,All,0000,0000,0000,,Oh, really?
+Dialogue: 0,0:23:00.93,0:23:02.15,main,Finral,0000,0000,0000,,Huh? Wait, no...
+Dialogue: 0,0:23:02.15,0:23:04.83,main,Magna,0000,0000,0000,,I'm sure you tried out a regent pompadour.
+Dialogue: 0,0:23:04.83,0:23:07.64,main,Vanessa,0000,0000,0000,,As well as Captain Yami's hairstyle.
+Dialogue: 0,0:23:07.64,0:23:09.90,main,Charmy,0000,0000,0000,,And soft serve hair, la!
+Dialogue: 0,0:23:09.90,0:23:10.94,main,Finral,0000,0000,0000,,That's poo—
+Dialogue: 0,0:23:10.94,0:23:12.99,main,Luck,0000,0000,0000,,This looks pretty strong!
+Dialogue: 0,0:23:12.99,0:23:15.79,main,Gauche,0000,0000,0000,,If you do Marie's hairstyle, I'll kill you.
+Dialogue: 0,0:23:15.79,0:23:18.67,main,Grey,0000,0000,0000,,I-I like this hairstyle.
+Dialogue: 0,0:23:18.67,0:23:21.71,main,Noelle,0000,0000,0000,,I think this one is better.
+Dialogue: 0,0:23:21.71,0:23:23.89,main,Noelle,0000,0000,0000,,I-It's just a better option, that's all.
+Dialogue: 0,0:23:23.89,0:23:25.66,main,Gordon,0000,0000,0000,,How about something a bit more mature?
+Dialogue: 0,0:23:25.66,0:23:28.51,main,Yami,0000,0000,0000,,This is the hairstyle for when \Nyou go beyond your limits!
+Dialogue: 0,0:23:28.51,0:23:30.25,main,Finral,0000,0000,0000,,Uh, seriously...
+Dialogue: 0,0:23:30.25,0:23:34.64,main,Asta,0000,0000,0000,,I wanted to see this \Nhairstyle on you, Finral!
+Dialogue: 0,0:23:34.64,0:23:38.17,main,Finral,0000,0000,0000,,When it comes to me in this series, \Nmy hair should be the least of your worries!
+Dialogue: 0,0:23:39.93,0:23:41.98,main,King,0000,0000,0000,,Praise me!
+Dialogue: 0,0:23:41.98,0:23:44.73,main,King,0000,0000,0000,,Your daring and resolute king presents...
+Dialogue: 0,0:23:44.73,0:23:51.65,main,king,0000,0000,0000,,Next time on {\i1}Black Clover{\i0}, Page 81:\N"The Life of a Certain Man."
+Dialogue: 0,0:23:46.73,0:23:54.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 81\N\N{\fs18} The Life of a Certain Man
+Dialogue: 0,0:23:51.65,0:23:53.49,main,King,0000,0000,0000,,Praise me!

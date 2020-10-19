@@ -1,0 +1,419 @@
+﻿[Script Info]
+Title: fuckoff
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main01,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,20,20,20,1
+Style: Main02,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,20,20,20,1
+Style: On Screen,Humana Sans Md ITC TT,25,&H0072F9FB,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,80,80,15,0
+Style: Card,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,20,20,20,1
+Style: Secondary,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,20,20,20,1
+Style: Chocolate,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,20,20,20,1
+Style: Main03,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:01:31.02,0:01:36.99,On Screen,EpTitle,0000,0000,0000,,Ghosts Aren't the Only Ones \NWho Run Wild Around Graveyards
+Dialogue: 0,0:01:37.48,0:01:38.53,Main01,A,0000,0000,0000,,Boss!
+Dialogue: 0,0:01:38.53,0:01:40.24,Main01,A,0000,0000,0000,,You really sure about this?
+Dialogue: 0,0:01:40.60,0:01:42.23,Main01,A,0000,0000,0000,,If one faction causes trouble,
+Dialogue: 0,0:01:42.23,0:01:44.90,Main01,,0000,0000,0000,,the other three gang up to crush it?
+Dialogue: 0,0:01:44.98,0:01:48.25,Main01,B,0000,0000,0000,,It's obvious that they \Nwant to get rid of us!
+Dialogue: 0,0:01:48.66,0:01:51.41,Main01,Jirocho,0000,0000,0000,,I'd say that this saves time.
+Dialogue: 0,0:01:51.41,0:01:53.70,Main01,Jirocho,0000,0000,0000,,This is a chance to show them who the
+Dialogue: 0,0:01:53.70,0:01:55.59,Main01,,0000,0000,0000,,real king of the Kabuki District is.
+Dialogue: 0,0:01:55.80,0:01:59.22,Main01,C,0000,0000,0000,,But that means we'll have \Nto deal with Otose...
+Dialogue: 0,0:01:59.64,0:02:02.50,Main01,Jirocho,0000,0000,0000,,My memory's been getting worse.
+Dialogue: 0,0:02:02.88,0:02:05.22,Main01,Jirocho,0000,0000,0000,,Who is this Otose person?
+Dialogue: 0,0:02:06.10,0:02:07.11,Main01,B,0000,0000,0000,,Idiot!
+Dialogue: 0,0:02:07.11,0:02:08.70,Main01,B,0000,0000,0000,,We're not supposed to mention the hag
+Dialogue: 0,0:02:08.70,0:02:10.03,Main01,,0000,0000,0000,,while the boss is around!
+Dialogue: 0,0:02:10.12,0:02:14.89,Main01,Jirocho,0000,0000,0000,,The vixen is not as much \Nof a concern as the cub.
+Dialogue: 0,0:02:14.89,0:02:16.99,Main01,Jirocho,0000,0000,0000,,Focus on him.
+Dialogue: 0,0:02:17.31,0:02:18.30,Main01,Jirocho,0000,0000,0000,,Damn.
+Dialogue: 0,0:02:18.30,0:02:20.99,Main01,Jirocho,0000,0000,0000,,What is that kid doing?
+Dialogue: 0,0:02:23.94,0:02:25.70,Main01,Otose,0000,0000,0000,,You were dancing to her tune.
+Dialogue: 0,0:02:26.04,0:02:27.37,Main01,Otose,0000,0000,0000,,That's not like you.
+Dialogue: 0,0:02:27.83,0:02:30.54,Main01,Otose,0000,0000,0000,,Kada is using you to get rid of Jirocho,
+Dialogue: 0,0:02:30.54,0:02:33.38,Main01,,0000,0000,0000,,who's hurting her business.
+Dialogue: 0,0:02:33.74,0:02:35.53,Main01,Saigo,0000,0000,0000,,I just want to live peacefully
+Dialogue: 0,0:02:35.53,0:02:37.74,Main01,,0000,0000,0000,,in this town with my comrades.
+Dialogue: 0,0:02:37.89,0:02:41.47,Main01,Saigo,0000,0000,0000,,I'll dance a waltz or octopus \Ndance if that's what it takes.
+Dialogue: 0,0:02:41.98,0:02:45.41,Main01,Otose,0000,0000,0000,,So you can clean up this \Ntown by eliminating him?
+Dialogue: 0,0:02:45.77,0:02:47.22,Main01,Otose,0000,0000,0000,,Even if that were true,
+Dialogue: 0,0:02:47.68,0:02:49.93,Main01,Otose,0000,0000,0000,,I could never bring \Nmyself to love a town
+Dialogue: 0,0:02:49.93,0:02:51.48,Main01,,0000,0000,0000,,that's neat and tidy.
+Dialogue: 0,0:02:51.48,0:02:53.75,Main01,Saigo,0000,0000,0000,,Spoken like a true trashy old hag.
+Dialogue: 0,0:02:53.75,0:02:54.84,Main01,Saigo,0000,0000,0000,,I believe that you're old friends
+Dialogue: 0,0:02:54.84,0:02:56.11,Main01,,0000,0000,0000,,with the trashy old geezer?
+Dialogue: 0,0:02:56.65,0:02:58.56,Main01,Otose,0000,0000,0000,,Haven't talked to him in over ten years.
+Dialogue: 0,0:02:58.92,0:03:02.68,Main01,Otose,0000,0000,0000,,Doesn't really matter if a \Ndangerous old man dies or not.
+Dialogue: 0,0:03:02.95,0:03:03.62,Main01,Otose,0000,0000,0000,,But...
+Dialogue: 0,0:03:04.29,0:03:06.00,Main01,Pirako,0000,0000,0000,,{\i1}I'm here to turn the town {\i0}
+Dialogue: 0,0:03:06.00,0:03:07.77,Main01,,0000,0000,0000,,{\i1}where Jirocho is into a garden.{\i0}
+Dialogue: 0,0:03:08.62,0:03:11.37,Main01,Otose,0000,0000,0000,,The timing's too perfect.
+Dialogue: 0,0:03:11.94,0:03:14.69,Main01,Katsuo,0000,0000,0000,,Finally, it's time for payback.
+Dialogue: 0,0:03:14.99,0:03:16.67,Main01,Katsuo,0000,0000,0000,,Like I said before,
+Dialogue: 0,0:03:16.67,0:03:20.63,Main01,Katsuo,0000,0000,0000,,I always return the \Nfavor, seven for three.
+Dialogue: 0,0:03:21.01,0:03:23.23,Main01,Gin,0000,0000,0000,,Nobody parts their hair 7:3 anymore.
+Dialogue: 0,0:03:23.23,0:03:24.81,Main01,Gin,0000,0000,0000,,You should shave your head
+Dialogue: 0,0:03:24.81,0:03:26.74,Main01,,0000,0000,0000,,and opt for the bald look.
+Dialogue: 0,0:03:26.74,0:03:27.78,Main01,Katsuo,0000,0000,0000,,Up yours!
+Dialogue: 0,0:03:27.78,0:03:31.30,Main01,Katsuo,0000,0000,0000,,My hair is styled like Joe Odagiri!
+Dialogue: 0,0:03:31.30,0:03:33.40,Main01,Katsuo,0000,0000,0000,,Fashion trends come back in a cycle!
+Dialogue: 0,0:03:33.64,0:03:34.38,Main01,Gin,0000,0000,0000,,Hold on here.
+Dialogue: 0,0:03:34.38,0:03:36.67,Main01,Gin,0000,0000,0000,,I was egged on by this stupid girl.
+Dialogue: 0,0:03:36.67,0:03:39.10,Main01,Gin,0000,0000,0000,,I have no grudge against you, Joe Schmo.
+Dialogue: 0,0:03:39.10,0:03:40.78,Main01,Katsuo,0000,0000,0000,,Who are you calling Joe Schmo?!
+Dialogue: 0,0:03:41.03,0:03:44.03,Main01,Katsuo,0000,0000,0000,,Besides, that's not what \Nmy boy here told me.
+Dialogue: 0,0:03:44.41,0:03:45.54,Main01,Katsuo,0000,0000,0000,,I know what's going down.
+Dialogue: 0,0:03:45.54,0:03:46.58,Main01,Katsuo,0000,0000,0000,,You promised to
+Dialogue: 0,0:03:46.58,0:03:48.71,Main01,,0000,0000,0000,,help her decorate our \Nboss with red flowers.
+Dialogue: 0,0:03:49.24,0:03:50.04,Main01,Gin,0000,0000,0000,,How do you know that?
+Dialogue: 0,0:03:50.41,0:03:52.91,Main01,Katsuo,0000,0000,0000,,Why don't you tell him what you really
+Dialogue: 0,0:03:52.91,0:03:55.29,Main01,,0000,0000,0000,,mean when you say red \Nflowers, Pirako-han?
+Dialogue: 0,0:03:55.64,0:03:57.11,Main01,Gin,0000,0000,0000,,Uh, Pirako-chan?
+Dialogue: 0,0:03:57.33,0:03:59.86,Main01,Gin,0000,0000,0000,,U-Uh, are you...
+Dialogue: 0,0:04:00.33,0:04:02.85,Main01,Pirako,0000,0000,0000,,Bro, my boss was
+Dialogue: 0,0:04:02.85,0:04:06.80,Main01,,0000,0000,0000,,a relative of Jirocho, \Nand an old friend.
+Dialogue: 0,0:04:07.63,0:04:10.36,Main01,Pirako,0000,0000,0000,,He used to tell me when I was young,
+Dialogue: 0,0:04:10.36,0:04:15.06,Main01,Pirako,0000,0000,0000,,about the great Jirocho, \Nwarrior among warriors.
+Dialogue: 0,0:04:16.21,0:04:18.16,Main01,Boss,0000,0000,0000,,The warriors you see around these days
+Dialogue: 0,0:04:18.16,0:04:19.87,Main01,,0000,0000,0000,,are just a bunch of wild hotheads.
+Dialogue: 0,0:04:19.87,0:04:22.07,Main01,Boss,0000,0000,0000,,But he was different.
+Dialogue: 0,0:04:22.71,0:04:25.21,Main01,Boss,0000,0000,0000,,He would save the weak \Nand crush the strong.
+Dialogue: 0,0:04:25.39,0:04:26.81,Main01,Boss,0000,0000,0000,,He would only employ his strength
+Dialogue: 0,0:04:26.81,0:04:28.70,Main01,,0000,0000,0000,,for the sake of his particular justice.
+Dialogue: 0,0:04:29.25,0:04:31.83,Main01,Boss,0000,0000,0000,,That's what you call a true warrior.
+Dialogue: 0,0:04:32.01,0:04:34.67,Main01,Pirako,0000,0000,0000,,That's too hard for me to understand.
+Dialogue: 0,0:04:35.28,0:04:36.64,Main01,Boss,0000,0000,0000,,Sorry about that.
+Dialogue: 0,0:04:36.84,0:04:39.97,Main01,Boss,0000,0000,0000,,The more I talk, the less sense I make.
+Dialogue: 0,0:04:40.24,0:04:44.22,Main01,Boss,0000,0000,0000,,Basically, Jirocho was a flowery man.
+Dialogue: 0,0:04:44.77,0:04:49.62,Main01,Boss,0000,0000,0000,,That's probably what \Ndrew your mother to him.
+Dialogue: 0,0:04:49.83,0:04:53.83,Main01,Boss,0000,0000,0000,,Though the flowers in him \Ndied at some point...
+Dialogue: 0,0:04:56.52,0:04:58.38,Main01,Pirako,0000,0000,0000,,He abandoned his wife and child,
+Dialogue: 0,0:04:58.38,0:05:01.27,Main01,Pirako,0000,0000,0000,,and crushed his wife's \Nfamily because of business.
+Dialogue: 0,0:05:01.89,0:05:04.04,Main01,Pirako,0000,0000,0000,,And now he's picking a stupid fight
+Dialogue: 0,0:05:04.04,0:05:07.27,Main01,,0000,0000,0000,,with a tranny and an old hag.
+Dialogue: 0,0:05:09.54,0:05:13.82,Main01,Pirako,0000,0000,0000,,I just want to see the old \NJirocho one more time.
+Dialogue: 0,0:05:14.39,0:05:16.76,Main01,Pirako,0000,0000,0000,,To help him take the world...
+Dialogue: 0,0:05:16.76,0:05:21.56,Main01,Pirako,0000,0000,0000,,To help make some pretty \Nflowers bloom in my old man.
+Dialogue: 0,0:05:22.71,0:05:24.69,Main01,Gin,0000,0000,0000,,Huh? What's she talking about?
+Dialogue: 0,0:05:24.69,0:05:26.11,Main01,Gin,0000,0000,0000,,That went completely over my head.
+Dialogue: 0,0:05:26.46,0:05:28.09,Main01,Gin,0000,0000,0000,,What? What?!
+Dialogue: 0,0:05:28.37,0:05:29.79,Main01,Katsuo,0000,0000,0000,,There you have it.
+Dialogue: 0,0:05:29.79,0:05:30.79,Main01,Katsuo,0000,0000,0000,,Pirako-han is...
+Dialogue: 0,0:05:30.79,0:05:32.33,Main01,Katsuo,0000,0000,0000,,No, the young lady is
+Dialogue: 0,0:05:33.53,0:05:35.10,Main01,Katsuo,0000,0000,0000,,Jirocho's daughter!
+Dialogue: 0,0:05:35.46,0:05:37.48,Main01,Katsuo,0000,0000,0000,,To be precise, she's the daughter of the
+Dialogue: 0,0:05:37.48,0:05:39.46,Main01,,0000,0000,0000,,missus who divorced the boss \Nand went back to her family.
+Dialogue: 0,0:05:39.46,0:05:40.66,Main01,Gin,0000,0000,0000,,Bullshit!
+Dialogue: 0,0:05:40.66,0:05:42.09,Main01,Gin,0000,0000,0000,,Help your old man take the world?!
+Dialogue: 0,0:05:42.09,0:05:44.74,Main01,Gin,0000,0000,0000,,That's the complete opposite of revenge!
+Dialogue: 0,0:05:45.06,0:05:47.27,Main01,Pirako,0000,0000,0000,,Isn't that what I said?
+Dialogue: 0,0:05:47.27,0:05:48.96,Main01,Pirako,0000,0000,0000,,I'm here to decorate him with flowers.
+Dialogue: 0,0:05:48.96,0:05:52.10,Main01,Gin,0000,0000,0000,,You were talking about making \Nme the big boss of Japan!
+Dialogue: 0,0:05:52.10,0:05:54.42,Main01,Gin,0000,0000,0000,,You were trying to \Nmake me fight Jirocho!
+Dialogue: 0,0:05:54.42,0:05:59.35,Main01,Pirako,0000,0000,0000,,Yakuza grow stronger by recruiting \Nthe people they beat.
+Dialogue: 0,0:05:59.35,0:06:01.70,Main01,Pirako,0000,0000,0000,,My old man can take the \Nworld if the strongest
+Dialogue: 0,0:06:01.70,0:06:03.65,Main01,,0000,0000,0000,,man in the Kabuki \Ndistrict is on his side.
+Dialogue: 0,0:06:03.75,0:06:05.33,Main01,Pirako,0000,0000,0000,,Once you're the big boss,
+Dialogue: 0,0:06:05.33,0:06:07.26,Main01,,0000,0000,0000,,my old man will be the big, big boss!
+Dialogue: 0,0:06:07.56,0:06:10.04,Main01,B,0000,0000,0000,,Young lady, it's settled.
+Dialogue: 0,0:06:10.89,0:06:14.44,Main01,Pirako,0000,0000,0000,,Bro, the Jirocho gang will \Nbe making their move now.
+Dialogue: 0,0:06:14.67,0:06:16.52,Main01,Pirako,0000,0000,0000,,Do you know what's happened?
+Dialogue: 0,0:06:16.82,0:06:19.60,Main01,Pirako,0000,0000,0000,,There's a law in this lawless town now.
+Dialogue: 0,0:06:19.77,0:06:22.08,Main01,Pirako,0000,0000,0000,,If any faction starts a fight,
+Dialogue: 0,0:06:22.08,0:06:24.82,Main01,Pirako,0000,0000,0000,,the other Devas will crush them.
+Dialogue: 0,0:06:25.11,0:06:27.28,Main01,Pirako,0000,0000,0000,,The first victim will probably be
+Dialogue: 0,0:06:27.28,0:06:29.08,Main01,,0000,0000,0000,,the boss of a certain someone
+Dialogue: 0,0:06:29.08,0:06:30.84,Main01,Pirako,0000,0000,0000,,who picked a fight with the Jirocho gang
+Dialogue: 0,0:06:30.84,0:06:32.81,Main01,Pirako,0000,0000,0000,,over a helpless little girl, Otose.
+Dialogue: 0,0:06:33.78,0:06:35.94,Main01,Pirako,0000,0000,0000,,But it's your call to make, Bro.
+Dialogue: 0,0:06:36.21,0:06:38.41,Main01,Pirako,0000,0000,0000,,Please join us!
+Dialogue: 0,0:06:38.61,0:06:41.41,Main01,Pirako,0000,0000,0000,,Or else we'll have to \Ndrop you in the ocean,
+Dialogue: 0,0:06:41.41,0:06:44.92,Main01,Pirako,0000,0000,0000,,and Otose will be targeted by \Neveryone in the Kabuki district!
+Dialogue: 0,0:06:45.15,0:06:48.14,Main01,Gin,0000,0000,0000,,Hey, I'm guessing that's \Nsupposed to be a threat,
+Dialogue: 0,0:06:48.14,0:06:49.70,Main01,Gin,0000,0000,0000,,but if you kill me here,
+Dialogue: 0,0:06:49.70,0:06:52.26,Main01,,0000,0000,0000,,you'll be considered the aggressors.
+Dialogue: 0,0:06:52.88,0:06:54.40,Main01,Katsuo,0000,0000,0000,,You an idiot?
+Dialogue: 0,0:06:54.40,0:06:56.33,Main01,Katsuo,0000,0000,0000,,Why do you think we put on a show
+Dialogue: 0,0:06:56.33,0:06:58.15,Main01,,0000,0000,0000,,in the middle of town?!
+Dialogue: 0,0:06:58.15,0:06:59.89,Main01,Katsuo,0000,0000,0000,,We got plenty of witnesses!
+Dialogue: 0,0:07:00.19,0:07:01.58,Main01,Gin,0000,0000,0000,,You're the idiots!
+Dialogue: 0,0:07:01.58,0:07:04.33,Main01,Gin,0000,0000,0000,,The Four Devas aren't gonna \Nmove because of a little spat!
+Dialogue: 0,0:07:04.33,0:07:07.02,Main01,Gin,0000,0000,0000,,A death is far more serious!
+Dialogue: 0,0:07:07.02,0:07:07.75,Main01,Gin,0000,0000,0000,,Die, baldie!
+Dialogue: 0,0:07:07.75,0:07:09.00,Main01,Gin,0000,0000,0000,,Go bald down your parted hair line!
+Dialogue: 0,0:07:09.00,0:07:09.86,Main01,Gin,0000,0000,0000,,Go bald all over your body!
+Dialogue: 0,0:07:09.86,0:07:10.70,Main01,Katsuo,0000,0000,0000,,I ain't gonna go bald!
+Dialogue: 0,0:07:10.70,0:07:12.93,Main01,Katsuo,0000,0000,0000,,Every week, I part my \Nhair to the opposite side
+Dialogue: 0,0:07:12.93,0:07:15.41,Main01,,0000,0000,0000,,to avoid excessive damage to my scalp!
+Dialogue: 0,0:07:15.41,0:07:17.95,Main01,Katsuo,0000,0000,0000,,I ain't like Sanshi Katsura!
+Dialogue: 0,0:07:19.89,0:07:23.16,Main01,Pirako,0000,0000,0000,,If that's not enough, how's this?
+Dialogue: 0,0:07:23.35,0:07:25.40,Main01,Pirako,0000,0000,0000,,We'll say that you killed \Nour young leader here,
+Dialogue: 0,0:07:25.40,0:07:27.26,Main01,,0000,0000,0000,,and we killed you for revenge.
+Dialogue: 0,0:07:27.26,0:07:29.66,Main01,Katsuo,0000,0000,0000,,Huh? No way...
+Dialogue: 0,0:07:35.10,0:07:36.35,Main01,All,0000,0000,0000,,Bro!
+Dialogue: 0,0:07:36.58,0:07:39.56,Main01,Pirako,0000,0000,0000,,Is your boss the guy \Nwith the parted hair?
+Dialogue: 0,0:07:39.56,0:07:41.07,Main01,Pirako,0000,0000,0000,,Or is it Jirocho?
+Dialogue: 0,0:07:41.07,0:07:42.05,Main01,D,0000,0000,0000,,B-But...
+Dialogue: 0,0:07:42.05,0:07:45.11,Main01,Pirako,0000,0000,0000,,If you move, I'll turn \Nyou all into flowers.
+Dialogue: 0,0:07:48.04,0:07:50.23,Main01,Pirako,0000,0000,0000,,Got it, Bro?
+Dialogue: 0,0:07:50.69,0:07:52.61,Main01,Pirako,0000,0000,0000,,I'm serious.
+Dialogue: 0,0:07:52.85,0:07:55.62,Main01,Gin,0000,0000,0000,,D-Damn you!
+Dialogue: 0,0:07:58.24,0:07:59.23,Main01,F,0000,0000,0000,,Bastard!
+Dialogue: 0,0:07:59.23,0:08:00.96,Main01,F,0000,0000,0000,,He jumped into the water \Nwith the concrete!
+Dialogue: 0,0:08:00.96,0:08:02.46,Main01,D,0000,0000,0000,,Is he trying to escape?!
+Dialogue: 0,0:08:02.46,0:08:03.63,Main01,Pirako,0000,0000,0000,,Nope.
+Dialogue: 0,0:08:03.63,0:08:05.18,Main01,Pirako,0000,0000,0000,,He went to save him.
+Dialogue: 0,0:08:05.75,0:08:06.84,Main01,F,0000,0000,0000,,That's stupid!
+Dialogue: 0,0:08:06.84,0:08:07.88,Main01,F,0000,0000,0000,,He can't move!
+Dialogue: 0,0:08:07.88,0:08:09.00,Main01,F,0000,0000,0000,,And why would he save Bro?!
+Dialogue: 0,0:08:09.50,0:08:11.97,Main01,Pirako,0000,0000,0000,,Yes, he's stupid.
+Dialogue: 0,0:08:11.97,0:08:14.21,Main01,Pirako,0000,0000,0000,,I was very surprised.
+Dialogue: 0,0:08:14.27,0:08:18.26,Main01,Pirako,0000,0000,0000,,But that's why I wanted him on our side.
+Dialogue: 0,0:08:18.75,0:08:21.73,Main01,Pirako,0000,0000,0000,,But he also chose the old hag.
+Dialogue: 0,0:08:22.48,0:08:23.57,Main01,Pirako,0000,0000,0000,,Pity.
+Dialogue: 0,0:08:24.08,0:08:26.01,Main01,Pirako,0000,0000,0000,,Bye-bye, Bro.
+Dialogue: 0,0:08:27.33,0:08:28.77,Main01,Kada,0000,0000,0000,,Pity.
+Dialogue: 0,0:08:29.11,0:08:32.84,Main01,Kada,0000,0000,0000,,I came up with this \Nplan so the three of us
+Dialogue: 0,0:08:32.84,0:08:34.53,Main01,,0000,0000,0000,,could deal with Jirocho,
+Dialogue: 0,0:08:34.91,0:08:37.37,Main01,Kada,0000,0000,0000,,but I never would have \Nexpected Otose to...
+Dialogue: 0,0:08:37.61,0:08:39.16,Main01,Agomi,0000,0000,0000,,Don't be ridiculous!
+Dialogue: 0,0:08:39.34,0:08:40.70,Main01,Agomi,0000,0000,0000,,Otose-san would never...
+Dialogue: 0,0:08:40.70,0:08:42.91,Main01,Agomi,0000,0000,0000,,Pako would never do anything like that!
+Dialogue: 0,0:08:42.91,0:08:46.53,Main01,Agomi,0000,0000,0000,,We know how gentle they are!
+Dialogue: 0,0:08:46.53,0:08:48.04,Main01,A,0000,0000,0000,,Calm down, Assmi!
+Dialogue: 0,0:08:48.04,0:08:48.96,Main01,Agomi,0000,0000,0000,,Don't call me Assmi!
+Dialogue: 0,0:08:48.96,0:08:50.12,Main01,Agomi,0000,0000,0000,,It's Azumi, damn it!
+Dialogue: 0,0:08:50.12,0:08:52.55,Main01,Saigo,0000,0000,0000,,Shut the hell up, Ass!
+Dialogue: 0,0:08:53.69,0:08:55.48,Main01,Agomi,0000,0000,0000,,Could you add the "mi"?
+Dialogue: 0,0:08:55.48,0:08:58.02,Main01,Agomi,0000,0000,0000,,You can call me Assmi as \Nlong as the "mi" is there.
+Dialogue: 0,0:09:00.33,0:09:03.06,Main01,Saigo,0000,0000,0000,,It looks like we were the only ones
+Dialogue: 0,0:09:03.06,0:09:06.06,Main01,,0000,0000,0000,,serious about stopping this conflict.
+Dialogue: 0,0:09:06.92,0:09:09.82,Main01,Saigo,0000,0000,0000,,When did you make a deal with Jirocho?
+Dialogue: 0,0:09:09.97,0:09:12.82,Main01,Jirocho,0000,0000,0000,,You think I would make \Na deal with that vixen?
+Dialogue: 0,0:09:14.80,0:09:17.33,Main01,Jirocho,0000,0000,0000,,Were you pushed by the kid?
+Dialogue: 0,0:09:17.33,0:09:20.58,Main01,Jirocho,0000,0000,0000,,No, were you the one who pushed the kid?
+Dialogue: 0,0:09:20.85,0:09:22.80,Main01,Saigo,0000,0000,0000,,Don't play dumb!
+Dialogue: 0,0:09:22.80,0:09:26.31,Main01,Saigo,0000,0000,0000,,They might be rotten to the core,
+Dialogue: 0,0:09:26.31,0:09:28.42,Main01,,0000,0000,0000,,but they aren't dirty like you people!
+Dialogue: 0,0:09:28.42,0:09:30.06,Main01,Pirako,0000,0000,0000,,That's enough.
+Dialogue: 0,0:09:30.31,0:09:32.31,Main01,Pirako,0000,0000,0000,,You should stop that, Saigo-san.
+Dialogue: 0,0:09:32.31,0:09:34.42,Main01,Pirako,0000,0000,0000,,It's not nice to whine \Nand go back on your word.
+Dialogue: 0,0:09:34.86,0:09:36.43,Main01,Pirako,0000,0000,0000,,Pleasure to meet you.
+Dialogue: 0,0:09:36.94,0:09:40.18,Main01,Pirako,0000,0000,0000,,I'm Jirocho's daughter, Pirako Doromizu.
+Dialogue: 0,0:09:41.89,0:09:43.28,Main01,Saigo,0000,0000,0000,,Jirocho's...
+Dialogue: 0,0:09:43.76,0:09:46.24,Main01,Pirako,0000,0000,0000,,I have a question for you, Saigo-san.
+Dialogue: 0,0:09:46.24,0:09:47.23,Main01,Pirako,0000,0000,0000,,Do you have any
+Dialogue: 0,0:09:47.23,0:09:50.02,Main01,,0000,0000,0000,,proof that Otose-san \Nhasn't done anything?
+Dialogue: 0,0:09:50.23,0:09:53.35,Main01,Saigo,0000,0000,0000,,My proof is the fact \Nthat you have no proof.
+Dialogue: 0,0:09:53.35,0:09:57.03,Main01,Saigo,0000,0000,0000,,Why would Otose pick \Na fight with Jirocho?
+Dialogue: 0,0:09:57.24,0:09:59.45,Main01,Saigo,0000,0000,0000,,And now of all times?
+Dialogue: 0,0:09:59.67,0:10:02.41,Main01,Saigo,0000,0000,0000,,There's obviously a conspiracy going on.
+Dialogue: 0,0:10:02.67,0:10:04.75,Main01,Pirako,0000,0000,0000,,Nobody would spend that
+Dialogue: 0,0:10:04.75,0:10:07.24,Main01,,0000,0000,0000,,much effort to kill an old hag.
+Dialogue: 0,0:10:07.39,0:10:08.69,Main01,Pirako,0000,0000,0000,,Besides, we have proof
+Dialogue: 0,0:10:08.69,0:10:10.92,Main01,,0000,0000,0000,,that Otose-san would pick \Na fight with my old man.
+Dialogue: 0,0:10:11.65,0:10:15.17,Main01,Pirako,0000,0000,0000,,There's a long history between them.
+Dialogue: 0,0:10:15.41,0:10:17.17,Main01,Pirako,0000,0000,0000,,Isn't that right, old man?
+Dialogue: 0,0:10:17.60,0:10:19.09,Main01,Pirako,0000,0000,0000,,Here it is.
+Dialogue: 0,0:10:19.09,0:10:22.00,Main01,,0000,0000,0000,,Otose-san's husband, Tatsugoro Terada,
+Dialogue: 0,0:10:22.00,0:10:23.93,Main01,Pirako,0000,0000,0000,,was killed by my old man.
+Dialogue: 0,0:10:27.27,0:10:30.88,Main01,Pirako,0000,0000,0000,,Oh? You didn't know?
+Dialogue: 0,0:10:31.07,0:10:32.82,Main01,Pirako,0000,0000,0000,,What about this?
+Dialogue: 0,0:10:33.27,0:10:35.12,Main01,Pirako,0000,0000,0000,,My old man and Tatsugoro-san
+Dialogue: 0,0:10:35.12,0:10:37.44,Main01,,0000,0000,0000,,were friends when they were young.
+Dialogue: 0,0:10:37.44,0:10:41.32,Main01,Pirako,0000,0000,0000,,But then they got into a \Nfight over a certain girl.
+Dialogue: 0,0:10:41.75,0:10:44.16,Main01,Pirako,0000,0000,0000,,Tatsugoro-san was the \None who won her over.
+Dialogue: 0,0:10:44.44,0:10:47.88,Main01,Pirako,0000,0000,0000,,I'm sure that my old man \Nwasn't happy about it.
+Dialogue: 0,0:10:47.88,0:10:49.13,Main01,,0000,0000,0000,,Stop it...
+Dialogue: 0,0:10:49.13,0:10:51.43,Main01,Pirako,0000,0000,0000,,That's why he killed his old friend.
+Dialogue: 0,0:10:51.43,0:10:52.96,Main01,Pirako,0000,0000,0000,,So he could have the girl.
+Dialogue: 0,0:10:53.39,0:10:54.34,Main01,Jirocho,0000,0000,0000,,Stop it.
+Dialogue: 0,0:10:54.34,0:10:57.07,Main01,Pirako,0000,0000,0000,,Do you know why he abandoned his own
+Dialogue: 0,0:10:57.07,0:10:59.84,Main01,Pirako,0000,0000,0000,,wife and daughter to come to this town?
+Dialogue: 0,0:11:00.65,0:11:04.77,Main01,Pirako,0000,0000,0000,,That's because the girl, \NOtose-san, is here.
+Dialogue: 0,0:11:06.53,0:11:09.02,Main01,Jirocho,0000,0000,0000,,Didn't you hear me say to stop?
+Dialogue: 0,0:11:11.06,0:11:13.52,Main01,Pirako,0000,0000,0000,,See? It's just like I said.
+Dialogue: 0,0:11:13.52,0:11:16.94,Main01,Pirako,0000,0000,0000,,He cares more about Otose-san \Nthan his own daughter.
+Dialogue: 0,0:11:17.24,0:11:22.31,Main01,Jirocho,0000,0000,0000,,You came here just to tell me that?
+Dialogue: 0,0:11:22.44,0:11:24.58,Main01,Jirocho,0000,0000,0000,,Such a dutiful daughter.
+Dialogue: 0,0:11:25.14,0:11:26.73,Main01,Pirako,0000,0000,0000,,If what I'm saying isn't true,
+Dialogue: 0,0:11:26.73,0:11:29.28,Main01,,0000,0000,0000,,that should mean you can kill Otose-san.
+Dialogue: 0,0:11:35.95,0:11:37.42,Main01,Pirako,0000,0000,0000,,Are you running away?!
+Dialogue: 0,0:11:38.31,0:11:41.21,Main01,Jirocho,0000,0000,0000,,Saigo, don't worry.
+Dialogue: 0,0:11:41.21,0:11:45.83,Main01,Jirocho,0000,0000,0000,,Yakuza don't need trannies \Nto clean up their mess.
+Dialogue: 0,0:11:46.36,0:11:48.07,Main01,Jirocho,0000,0000,0000,,You stay out of it.
+Dialogue: 0,0:11:48.33,0:11:50.48,Main01,Jirocho,0000,0000,0000,,I'll settle this myself.
+Dialogue: 0,0:11:50.48,0:11:51.80,Main01,Saigo,0000,0000,0000,,Wait!
+Dialogue: 0,0:11:51.80,0:11:52.86,Main01,Saigo,0000,0000,0000,,I'm not done talking...
+Dialogue: 0,0:11:54.14,0:11:58.99,Main01,Pirako,0000,0000,0000,,I'll spare you this one time, \Nsince you kept whining.
+Dialogue: 0,0:11:59.29,0:12:01.95,Main01,Pirako,0000,0000,0000,,Could you shut up now?
+Dialogue: 0,0:12:02.18,0:12:03.26,Main01,Saigo,0000,0000,0000,,How am I supposed to shut u--
+Dialogue: 0,0:12:03.26,0:12:04.95,Main01,Kada,0000,0000,0000,,Have you forgotten?
+Dialogue: 0,0:12:05.43,0:12:07.16,Main01,Kada,0000,0000,0000,,If you go back on your word,
+Dialogue: 0,0:12:07.16,0:12:09.45,Main01,,0000,0000,0000,,we'll have to eliminate you as well.
+Dialogue: 0,0:12:09.99,0:12:11.75,Main01,Kada,0000,0000,0000,,When laying siege to a castle,
+Dialogue: 0,0:12:11.75,0:12:14.15,Main01,,0000,0000,0000,,what would you target first?
+Dialogue: 0,0:12:14.39,0:12:17.03,Main01,Kada,0000,0000,0000,,The weakest spot in the wall.
+Dialogue: 0,0:12:17.03,0:12:19.96,Main01,Kada,0000,0000,0000,,A seasoned soldier like yourself \Nshould be aware of this.
+Dialogue: 0,0:12:19.96,0:12:21.97,Main01,Agomi,0000,0000,0000,,M-Mama!
+Dialogue: 0,0:12:22.12,0:12:24.97,Main01,Agomi,0000,0000,0000,,Te-Teru-kun is... Teru-kun is...!
+Dialogue: 0,0:12:25.90,0:12:28.58,Main01,Saigo,0000,0000,0000,,Damn you!
+Dialogue: 0,0:12:29.22,0:12:31.73,On Screen,Caption,0000,0000,0000,,Snack Otose
+Dialogue: 0,0:12:30.86,0:12:31.73,Main01,Otose,0000,0000,0000,,I see.
+Dialogue: 0,0:12:32.47,0:12:33.73,Main01,Otose,0000,0000,0000,,Very well.
+Dialogue: 0,0:12:37.90,0:12:39.08,Main01,Otose,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:12:39.43,0:12:40.57,Main01,Otose,0000,0000,0000,,That was Gintoki.
+Dialogue: 0,0:12:40.97,0:12:42.80,Main01,Otose,0000,0000,0000,,It seems that Pirako is safe.
+Dialogue: 0,0:12:43.19,0:12:45.25,Main01,Otose,0000,0000,0000,,They learned about the \Nnew rule right before
+Dialogue: 0,0:12:45.25,0:12:47.45,Main01,,0000,0000,0000,,they were about to take \Non Jirocho's gang.
+Dialogue: 0,0:12:47.65,0:12:50.49,Main01,Otose,0000,0000,0000,,Apparently, they were able \Nto talk things through.
+Dialogue: 0,0:12:50.77,0:12:52.07,Main01,Shin,0000,0000,0000,,That's a relief.
+Dialogue: 0,0:12:52.07,0:12:54.08,Main01,Shin,0000,0000,0000,,I was worried that we would be too late.
+Dialogue: 0,0:12:54.08,0:12:55.57,Main01,Kagura,0000,0000,0000,,They kept us worried this whole time.
+Dialogue: 0,0:12:55.57,0:12:57.25,Main01,Kagura,0000,0000,0000,,What are they doing?!
+Dialogue: 0,0:12:57.63,0:12:59.64,Main01,Otose,0000,0000,0000,,I appreciate everything you've done.
+Dialogue: 0,0:12:59.64,0:13:01.89,Main01,Otose,0000,0000,0000,,You haven't eaten since \Nyesterday, right?
+Dialogue: 0,0:13:01.89,0:13:04.36,Main01,Shin,0000,0000,0000,,Now that you mention it, I'm starting \Nto feel hungry now that everything's okay.
+Dialogue: 0,0:13:04.36,0:13:05.43,Main01,Otose,0000,0000,0000,,Want to grab something to eat?
+Dialogue: 0,0:13:05.43,0:13:06.26,Main01,Kagura,0000,0000,0000,,Can we?
+Dialogue: 0,0:13:06.32,0:13:07.34,Main01,Catherine,0000,0000,0000,,Yakiniku!
+Dialogue: 0,0:13:07.34,0:13:08.48,Main01,Catherine,0000,0000,0000,,We must have yakiniku!
+Dialogue: 0,0:13:08.48,0:13:09.45,Main01,Catherine,0000,0000,0000,,At a really expensive place!
+Dialogue: 0,0:13:09.45,0:13:10.17,Main01,Kagura,0000,0000,0000,,Stupid!
+Dialogue: 0,0:13:10.17,0:13:11.55,Main01,Kagura,0000,0000,0000,,That won't fill my stomach!
+Dialogue: 0,0:13:11.55,0:13:12.32,Main01,Kagura,0000,0000,0000,,A buffet!
+Dialogue: 0,0:13:12.32,0:13:13.80,Main01,Kagura,0000,0000,0000,,At a place with ice cream!
+Dialogue: 0,0:13:13.80,0:13:15.40,Main01,Tama,0000,0000,0000,,Stop fighting.
+Dialogue: 0,0:13:15.40,0:13:17.52,Main01,Tama,0000,0000,0000,,Let's compromise by \Ngoing to a gas station.
+Dialogue: 0,0:13:17.52,0:13:19.04,Main01,Shin,0000,0000,0000,,How is that a compromise?!
+Dialogue: 0,0:13:20.03,0:13:21.76,Main01,Otose,0000,0000,0000,,Go on ahead.
+Dialogue: 0,0:13:21.76,0:13:24.03,Main01,Otose,0000,0000,0000,,I'll join you once Gintoki \Nand Pirako are back.
+Dialogue: 0,0:13:24.99,0:13:26.64,Main01,Shin,0000,0000,0000,,Please hurry.
+Dialogue: 0,0:13:26.64,0:13:28.16,Main01,Shin,0000,0000,0000,,We'll wait for you \Nbefore we start eating.
+Dialogue: 0,0:13:28.16,0:13:29.85,Main01,Kagura,0000,0000,0000,,But the ice cream doesn't count, right?
+Dialogue: 0,0:13:29.85,0:13:31.91,Main01,Kagura,0000,0000,0000,,I can eat ice cream while \Nwe're waiting, right?
+Dialogue: 0,0:13:36.10,0:13:38.79,Main01,Shin,0000,0000,0000,,Didn't Otose-san seem a little strange?
+Dialogue: 0,0:13:39.05,0:13:40.07,Main01,Kagura,0000,0000,0000,,How?
+Dialogue: 0,0:13:40.07,0:13:41.47,Main01,Catherine,0000,0000,0000,,When she offers to buy someone dinner,
+Dialogue: 0,0:13:41.47,0:13:43.55,Main01,,0000,0000,0000,,there's usually a catch.
+Dialogue: 0,0:13:43.77,0:13:45.88,Main01,Shin,0000,0000,0000,,No, that's not what I meant...
+Dialogue: 0,0:13:46.48,0:13:47.30,Main01,Shin,0000,0000,0000,,Oh, sorry.
+Dialogue: 0,0:13:48.35,0:13:49.61,Main01,Shin,0000,0000,0000,,He's covered in blood!
+Dialogue: 0,0:13:49.61,0:13:50.33,Main01,Shin,0000,0000,0000,,Sorry!
+Dialogue: 0,0:13:50.33,0:13:51.23,Main01,Shin,0000,0000,0000,,Is this my fault?!
+Dialogue: 0,0:13:51.23,0:13:52.31,Main01,Shin,0000,0000,0000,,Is this my fault?!
+Dialogue: 0,0:13:52.61,0:13:53.60,Main01,Shin,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:53.60,0:13:54.81,Main01,Shin,0000,0000,0000,,It's Katsuo-san...
+Dialogue: 0,0:13:54.81,0:13:57.81,Main01,Kagura,0000,0000,0000,,Hey! The bucket that \Njust ran past us...!
+Dialogue: 0,0:14:13.82,0:14:15.95,Main01,Gin,0000,0000,0000,,Gran!
+Dialogue: 0,0:14:24.96,0:14:30.97,On Screen,Caption,0000,0000,0000,,Terada Family Grave
+Dialogue: 0,0:14:25.42,0:14:27.97,Main01,Otose,0000,0000,0000,,It's rare to see you here.
+Dialogue: 0,0:14:28.77,0:14:30.97,Main01,Otose,0000,0000,0000,,I'm assuming that you brought flowers.
+Dialogue: 0,0:14:31.64,0:14:32.72,Main01,Jirocho,0000,0000,0000,,Hell no.
+Dialogue: 0,0:14:33.36,0:14:37.48,Main01,Jirocho,0000,0000,0000,,Did you want me to bring \Nflowers for you, Otose?
+Dialogue: 0,0:14:37.93,0:14:40.36,Main01,Otose,0000,0000,0000,,It's been years since \Nyou've spoken to me,
+Dialogue: 0,0:14:40.36,0:14:42.01,Main01,Otose,0000,0000,0000,,and that's all you have to say?
+Dialogue: 0,0:14:42.66,0:14:44.98,Main01,Otose,0000,0000,0000,,You never change.
+Dialogue: 0,0:14:45.62,0:14:49.42,Main01,Otose,0000,0000,0000,,If you lay me to rest \Nnext to my husband,
+Dialogue: 0,0:14:49.42,0:14:51.26,Main01,Otose,0000,0000,0000,,I suppose I can't complain.
+Dialogue: 0,0:14:51.67,0:14:53.99,Main01,Jirocho,0000,0000,0000,,I heard that you took care of my kid.
+Dialogue: 0,0:14:54.87,0:14:57.27,Main01,Otose,0000,0000,0000,,Save your thanks for that idiot.
+Dialogue: 0,0:14:57.54,0:15:01.83,Main01,Otose,0000,0000,0000,,Though apparently, that \Nkid of yours got him good.
+Dialogue: 0,0:15:01.83,0:15:04.27,Main01,Otose,0000,0000,0000,,She's quite a dutiful daughter.
+Dialogue: 0,0:15:04.61,0:15:06.62,Main01,Otose,0000,0000,0000,,She came all the way here to clean
+Dialogue: 0,0:15:06.62,0:15:08.52,Main01,,0000,0000,0000,,this town for the sake of a
+Dialogue: 0,0:15:08.52,0:15:10.38,Main01,,0000,0000,0000,,stupid father who abandoned her.
+Dialogue: 0,0:15:10.64,0:15:15.12,Main01,Otose,0000,0000,0000,,We've both been dancing to \Nthe tune of a little kid.
+Dialogue: 0,0:15:15.50,0:15:17.52,Main01,Otose,0000,0000,0000,,The years haven't been kind to us.
+Dialogue: 0,0:15:17.82,0:15:21.15,Main01,Otose,0000,0000,0000,,Well, I suppose you knew \Nwhat was happening.
+Dialogue: 0,0:15:21.74,0:15:23.33,Main01,Otose,0000,0000,0000,,The villain Jirocho
+Dialogue: 0,0:15:23.33,0:15:26.65,Main01,,0000,0000,0000,,can't go against the \Ndaughter he left in tears?
+Dialogue: 0,0:15:28.61,0:15:29.65,Main01,Jirocho,0000,0000,0000,,Otose...
+Dialogue: 0,0:15:29.86,0:15:31.59,Main01,Jirocho,0000,0000,0000,,Get out of this town.
+Dialogue: 0,0:15:31.86,0:15:34.19,Main01,Jirocho,0000,0000,0000,,This place will become \Na battlefield very soon.
+Dialogue: 0,0:15:34.37,0:15:37.98,Main01,Jirocho,0000,0000,0000,,It was gonna happen even if my \Nkid didn't rush things along.
+Dialogue: 0,0:15:38.35,0:15:41.49,Main01,Jirocho,0000,0000,0000,,You'll only get in the way if you stay.
+Dialogue: 0,0:15:41.74,0:15:45.80,Main01,Otose,0000,0000,0000,,So you were planning on \Nstarting a war, period.
+Dialogue: 0,0:15:45.17,0:15:50.42,On Screen,Caption,0000,0000,0000,,Terada Family Grave
+Dialogue: 0,0:15:46.07,0:15:47.25,Main01,Otose,0000,0000,0000,,I would have hoped that
+Dialogue: 0,0:15:47.25,0:15:49.22,Main01,,0000,0000,0000,,you wouldn't say those \Nwords in his presence,
+Dialogue: 0,0:15:49.22,0:15:50.42,Main01,,0000,0000,0000,,even as a joke.
+Dialogue: 0,0:15:51.09,0:15:53.24,Main01,Otose,0000,0000,0000,,Policeman and vigilante.
+Dialogue: 0,0:15:53.74,0:15:56.60,Main01,Otose,0000,0000,0000,,The two of you were both \Nprotecting this town,
+Dialogue: 0,0:15:56.60,0:15:58.15,Main01,,0000,0000,0000,,despite your different positions,
+Dialogue: 0,0:15:58.15,0:16:00.48,Main01,Otose,0000,0000,0000,,but I suppose that was in the past.
+Dialogue: 0,0:16:03.33,0:16:04.26,Main01,Otose,0000,0000,0000,,Jirocho.
+Dialogue: 0,0:16:04.75,0:16:08.19,Main01,Otose,0000,0000,0000,,You went so far as to \Nabandon your wife and child
+Dialogue: 0,0:16:08.87,0:16:10.67,Main01,Otose,0000,0000,0000,,so you could do this?
+Dialogue: 0,0:16:14.77,0:16:16.87,Main01,Jirocho,0000,0000,0000,,Times have changed.
+Dialogue: 0,0:16:17.57,0:16:20.94,Main01,Jirocho,0000,0000,0000,,A vigilante can't protect anything.
+Dialogue: 0,0:16:21.54,0:16:25.31,Main01,Jirocho,0000,0000,0000,,He died and left you behind.
+Dialogue: 0,0:16:26.50,0:16:29.35,Main01,Jirocho,0000,0000,0000,,Your methods are old-fashioned.
+Dialogue: 0,0:16:29.64,0:16:31.39,Main01,Jirocho,0000,0000,0000,,You're just a nuisance,
+Dialogue: 0,0:16:31.39,0:16:33.60,Main01,Jirocho,0000,0000,0000,,both you and Tatsugoro.
+Dialogue: 0,0:16:33.83,0:16:36.14,Main01,Jirocho,0000,0000,0000,,This town doesn't need you anymore.
+Dialogue: 0,0:16:37.02,0:16:40.64,Main01,Jirocho,0000,0000,0000,,This town belongs to me.
+Dialogue: 0,0:16:40.79,0:16:42.73,Main01,Jirocho,0000,0000,0000,,I'll give you one more chance.
+Dialogue: 0,0:16:43.08,0:16:44.77,Main01,Jirocho,0000,0000,0000,,Get out of this town.
+Dialogue: 0,0:16:50.06,0:16:51.65,Main01,Otose,0000,0000,0000,,I have a favor to ask.
+Dialogue: 0,0:16:52.65,0:16:55.65,Main01,Otose,0000,0000,0000,,They call me one of the Four Devas,
+Dialogue: 0,0:16:56.11,0:16:59.45,Main01,Otose,0000,0000,0000,,but I don't have any \Nmembers in my faction.
+Dialogue: 0,0:16:59.45,0:17:02.96,On Screen,Caption,0000,0000,0000,,I'm sick of waiting for you to pay the rent. Take your fools and scram. Never come back to this town.\N--Otose
+Dialogue: 0,0:17:00.32,0:17:02.96,Main01,Otose,0000,0000,0000,,My life is all you need.
+Dialogue: 0,0:17:03.47,0:17:06.75,Main01,Otose,0000,0000,0000,,They serve no use at all.
+Dialogue: 0,0:17:07.32,0:17:10.10,Main01,Otose,0000,0000,0000,,They just happen to be my family.
+Dialogue: 0,0:17:13.23,0:17:15.71,Main01,Jirocho,0000,0000,0000,,Is that your answer?
+Dialogue: 0,0:17:59.14,0:18:01.14,Main01,Jirocho,0000,0000,0000,,You're Gintoki?
+Dialogue: 0,0:18:01.58,0:18:03.28,Main01,Jirocho,0000,0000,0000,,You were a step too late.
+Dialogue: 0,0:18:03.59,0:18:06.64,Main01,Jirocho,0000,0000,0000,,I buried her with her husband.
+Dialogue: 0,0:18:07.21,0:18:09.65,Main01,Jirocho,0000,0000,0000,,Funny how it works.
+Dialogue: 0,0:18:10.14,0:18:13.27,Main01,Jirocho,0000,0000,0000,,I believe that you were serving as her
+Dialogue: 0,0:18:13.27,0:18:15.78,Main01,,0000,0000,0000,,bodyguard to pay back a debt?
+Dialogue: 0,0:18:15.93,0:18:19.16,Main01,Jirocho,0000,0000,0000,,That's over now. Your job is done.
+Dialogue: 0,0:18:20.58,0:18:21.59,Main01,Jirocho,0000,0000,0000,,Scram.
+Dialogue: 0,0:18:21.59,0:18:24.41,Main01,Jirocho,0000,0000,0000,,I'll spare your life for her sake.
+Dialogue: 0,0:18:29.63,0:18:31.20,Main01,Jirocho,0000,0000,0000,,Ouch...
+Dialogue: 0,0:18:31.20,0:18:33.17,Main01,Jirocho,0000,0000,0000,,The hell was that?
+Dialogue: 0,0:18:38.81,0:18:40.89,Main01,Jirocho,0000,0000,0000,,Not bad, kid.
+Dialogue: 0,0:18:40.89,0:18:42.64,Main01,,0000,0000,0000,,You made me draw my sword.
+Dialogue: 0,0:18:43.83,0:18:48.14,Main01,Jirocho,0000,0000,0000,,But are you willing to let Otose's \Nefforts to save your lives...
+Dialogue: 0,0:18:49.13,0:18:50.94,Main01,Jirocho,0000,0000,0000,,...go to waste?
+Dialogue: 0,0:19:07.71,0:19:09.83,Main01,Jirocho,0000,0000,0000,,You're not being very reasonable.
+Dialogue: 0,0:19:18.73,0:19:20.01,Main01,Jirocho,0000,0000,0000,,It's over.
+Dialogue: 0,0:19:32.63,0:19:37.19,Main01,Jirocho,0000,0000,0000,,I heard that Otose was keeping \Na crazy monster around.
+Dialogue: 0,0:19:37.62,0:19:39.34,Main01,Jirocho,0000,0000,0000,,So you're the White Yaksha?
+Dialogue: 0,0:19:39.54,0:19:42.23,Main01,Jirocho,0000,0000,0000,,I never knew there was a freak like \Nyou following in my footsteps.
+Dialogue: 0,0:19:42.86,0:19:43.95,Main01,Jirocho,0000,0000,0000,,However...
+Dialogue: 0,0:19:44.15,0:19:45.48,Main01,Jirocho,0000,0000,0000,,A generation managed
+Dialogue: 0,0:19:45.48,0:19:48.45,Main01,,0000,0000,0000,,to survive the brutal \Nbattles of the Joi war.
+Dialogue: 0,0:19:48.74,0:19:51.78,Main01,Jirocho,0000,0000,0000,,There were plenty more \Nlike you out there.
+Dialogue: 0,0:19:53.44,0:19:55.37,Main01,Jirocho,0000,0000,0000,,Get lost, watchdog.
+Dialogue: 0,0:19:55.67,0:19:59.69,Main01,Jirocho,0000,0000,0000,,There's nothing for you to protect here.
+Dialogue: 0,0:20:44.03,0:20:45.05,Main01,Gin,0000,0000,0000,,Hey, Gran.
+Dialogue: 0,0:20:45.76,0:20:47.29,Main01,Gin,0000,0000,0000,,Are those manju?
+Dialogue: 0,0:20:47.85,0:20:49.02,Main01,Gin,0000,0000,0000,,Can I have some?
+Dialogue: 0,0:20:49.50,0:20:51.56,Main01,Gin,0000,0000,0000,,I'm starving to death here.
+Dialogue: 0,0:20:53.99,0:20:55.99,Main01,Otose,0000,0000,0000,,These belong to my husband.
+Dialogue: 0,0:20:56.32,0:20:57.56,Main01,Otose,0000,0000,0000,,Ask him.
+Dialogue: 0,0:21:05.52,0:21:08.20,Main01,Otose,0000,0000,0000,,What did my husband say?
+Dialogue: 0,0:21:08.65,0:21:09.98,Main01,Gin,0000,0000,0000,,Beats me.
+Dialogue: 0,0:21:09.98,0:21:11.70,Main01,Gin,0000,0000,0000,,The dead don't talk.
+Dialogue: 0,0:21:11.90,0:21:13.97,Main01,Otose,0000,0000,0000,,You're just asking for it.
+Dialogue: 0,0:21:14.30,0:21:16.21,Main01,Otose,0000,0000,0000,,Don't blame me if you get cursed.
+Dialogue: 0,0:21:20.93,0:21:24.31,Main01,Gin,0000,0000,0000,,The dead don't talk and \Nthey don't eat dango.
+Dialogue: 0,0:21:24.60,0:21:26.72,Main01,Gin,0000,0000,0000,,So I made a one-sided promise.
+Dialogue: 0,0:21:31.45,0:21:33.27,Main01,Gin,0000,0000,0000,,I won't forget this debt.
+Dialogue: 0,0:21:33.64,0:21:37.31,Main01,Gin,0000,0000,0000,,Your wife doesn't have \Nthat much longer to live,
+Dialogue: 0,0:21:37.60,0:21:42.72,Main01,Gin,0000,0000,0000,,but I'm going to protect \Nher in your stead.
+Dialogue: 0,0:21:50.53,0:21:51.41,Main01,Gin,0000,0000,0000,,Gran...
+Dialogue: 0,0:23:29.97,0:23:34.97,On Screen,EpTitle,0000,0000,0000,,Next Episode\NChains of a Warrior

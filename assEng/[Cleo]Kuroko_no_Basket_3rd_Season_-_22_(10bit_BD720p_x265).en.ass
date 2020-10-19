@@ -1,0 +1,347 @@
+[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: CRKuro,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Next EpTitle,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H000D0D13,&H00000000,1,0,0,0,100,100,0,0,1,1,1,8,27,27,27,1
+Style: Preview,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H000D0D13,&H00000000,1,0,0,0,100,100,0,0,1,1,0,7,67,20,80,1
+Style: ScoreboardL,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,7,27,27,27,0
+Style: ScoreboardR,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,9,27,27,27,0
+Style: EpTitle,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H000D0D13,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,0,0,160,1
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Whack,Open Sans Semibold,36,&H002F1DBD,&H000000FF,&H00DEFAFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,0,27,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:39.93,0:01:43.61,ScoreboardL,TEXT,0000,0000,0000,,Rakuzan
+Dialogue: 0,0:01:39.93,0:01:43.61,ScoreboardR,TEXT,0000,0000,0000,,Seirin
+Dialogue: 0,0:01:41.30,0:01:43.62,CRKuro,TSUCHIDA,0000,0000,0000,,We got them back, but...
+Dialogue: 0,0:01:43.93,0:01:45.66,CRKuro,IZUKI,0000,0000,0000,,{\i1}We don't have any shooters.{\i0}
+Dialogue: 0,0:01:46.04,0:01:49.46,CRKuro,IZUKI,0000,0000,0000,,{\i1}Kagami, Koga and I can shoot threes.{\i0}
+Dialogue: 0,0:01:49.46,0:01:52.67,CRKuro,IZUKI,0000,0000,0000,,{\i1}But we've got nowhere near Hyuga's accuracy.{\i0}
+Dialogue: 0,0:01:53.69,0:01:57.38,CRKuro,KIYOSHI,0000,0000,0000,,{\i1}Rakuzan has scarier shooters than Akashi.{\i0}
+Dialogue: 0,0:01:58.13,0:01:58.94,CRKuro,KAGAMI,0000,0000,0000,,Mibuchi!
+Dialogue: 0,0:02:01.64,0:02:02.85,CRKuro,NEBUYA,0000,0000,0000,,{\i1}Is this...{\i0}
+Dialogue: 0,0:02:03.43,0:02:04.26,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}Wild instincts?{\i0}
+Dialogue: 0,0:02:08.90,0:02:10.59,CRKuro,WAKAMATSU,0000,0000,0000,,A three without a fake?
+Dialogue: 0,0:02:10.59,0:02:11.56,CRKuro,SAKURAI,0000,0000,0000,,No, this is...
+Dialogue: 0,0:02:12.84,0:02:13.78,CRKuro,,0000,0000,0000,,Void!
+Dialogue: 0,0:02:19.54,0:02:21.79,CRKuro,HAYAMA,0000,0000,0000,,He jumped during Leo's Void?
+Dialogue: 0,0:02:24.93,0:02:26.12,CRKuro,NEBUYA,0000,0000,0000,,The rebound's mine!
+Dialogue: 0,0:02:29.15,0:02:30.28,CRKuro,KOGA,0000,0000,0000,,Damn.
+Dialogue: 0,0:02:30.28,0:02:33.96,CRKuro,HYUGA,0000,0000,0000,,Thanks to Koga, I know how \Nto stop his three pointers.
+Dialogue: 0,0:02:35.04,0:02:39.27,CRKuro,HYUGA,0000,0000,0000,,And how to beat Void!
+Dialogue: 0,0:02:40.05,0:02:45.01,EpTitle,EPTITLE,0000,0000,0000,,Let Me Warn You
+Dialogue: 0,0:02:49.14,0:02:51.24,CRKuro,IZUKI,0000,0000,0000,,Hyuga, you're coming in?
+Dialogue: 0,0:02:51.24,0:02:53.73,CRKuro,HYUGA,0000,0000,0000,,Yeah. I know the risks.
+Dialogue: 0,0:02:54.04,0:02:57.48,CRKuro,HYUGA,0000,0000,0000,,But this time I'll beat Mibuchi.
+Dialogue: 0,0:02:57.48,0:03:00.65,CRKuro,KOGA,0000,0000,0000,,Sorry, Hyuga. I wasn't strong enough.
+Dialogue: 0,0:03:00.65,0:03:02.36,CRKuro,HYUGA,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:03:02.36,0:03:04.70,CRKuro,HYUGA,0000,0000,0000,,You're the reason I can fight.
+Dialogue: 0,0:03:05.15,0:03:08.38,CRKuro,HYUGA,0000,0000,0000,,I'll crush him for you, too.
+Dialogue: 0,0:03:13.26,0:03:16.81,CRKuro,KOGA,0000,0000,0000,,Yeah. I'm counting on you, Hyuga.
+Dialogue: 0,0:03:26.69,0:03:28.27,CRKuro,SHIROGANE,0000,0000,0000,,We have ten more minutes.
+Dialogue: 0,0:03:28.90,0:03:30.14,CRKuro,SHIROGANE,0000,0000,0000,,There's no need to rush.
+Dialogue: 0,0:03:30.67,0:03:34.32,CRKuro,SHIROGANE,0000,0000,0000,,But don't try to maintain the point gap.
+Dialogue: 0,0:03:34.32,0:03:38.07,CRKuro,SHIROGANE,0000,0000,0000,,Keep attacking until the \Nend and crush Seirin!
+Dialogue: 0,0:03:38.07,0:03:38.94,CRKuro,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:03:39.70,0:03:40.73,CRKuro,AKASHI,0000,0000,0000,,Leo,
+Dialogue: 0,0:03:41.30,0:03:43.26,CRKuro,,0000,0000,0000,,they're putting Hyuga back in.
+Dialogue: 0,0:03:43.67,0:03:46.39,CRKuro,AKASHI,0000,0000,0000,,He may have four fouls, \Nbut don't let down your guard.
+Dialogue: 0,0:03:46.73,0:03:47.43,CRKuro,MIBUCHI,0000,0000,0000,,I know.
+Dialogue: 0,0:03:47.43,0:03:50.80,CRKuro,AKASHI,0000,0000,0000,,Eikichi, there's still \Nlife in Kiyoshi's eyes.
+Dialogue: 0,0:03:50.80,0:03:52.04,CRKuro,AKASHI,0000,0000,0000,,Pull yourself together.
+Dialogue: 0,0:03:52.04,0:03:52.67,CRKuro,NEBUYA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:03:53.01,0:03:56.28,CRKuro,AKASHI,0000,0000,0000,,Kotaro, how long are you going \Nto stay out of the fight?
+Dialogue: 0,0:03:56.65,0:03:58.33,CRKuro,AKASHI,0000,0000,0000,,You need to score again.
+Dialogue: 0,0:03:58.33,0:03:59.45,CRKuro,HAYAMA,0000,0000,0000,,Of course.
+Dialogue: 0,0:04:00.67,0:04:03.19,CRKuro,MAYUZUMI,0000,0000,0000,,{\i1}And I'm supposed to keep playing like this.{\i0}
+Dialogue: 0,0:04:03.87,0:04:09.68,CRKuro,MAYUZUMI,0000,0000,0000,,{\i1}How economical of you to use \Nme until I've got nothing left.{\i0}
+Dialogue: 0,0:04:10.47,0:04:11.18,CRKuro,MAYUZUMI,0000,0000,0000,,{\i1}But...{\i0}
+Dialogue: 0,0:04:12.70,0:04:14.90,CRKuro,MAYUZUMI,0000,0000,0000,,{\i1}I'm not sure what it is.{\i0}
+Dialogue: 0,0:04:15.35,0:04:18.26,CRKuro,MAYUZUMI,0000,0000,0000,,{\i1}But something seems off about Akashi.{\i0}
+Dialogue: 0,0:04:19.46,0:04:21.49,CRKuro,ANNOUNCE,0000,0000,0000,,{\i1}The break is now over.{\i0}
+Dialogue: 0,0:04:21.49,0:04:22.36,CRKuro,HYUGA,0000,0000,0000,,Let's go!
+Dialogue: 0,0:04:29.20,0:04:30.29,CRKuro,RIKO,0000,0000,0000,,Teppei?
+Dialogue: 0,0:04:31.95,0:04:33.21,CRKuro,KIYOSHI,0000,0000,0000,,What's up, Riko?
+Dialogue: 0,0:04:35.79,0:04:37.53,CRKuro,RIKO,0000,0000,0000,,Nothing. Never mind.
+Dialogue: 0,0:04:37.85,0:04:38.97,CRKuro,HYUGA,0000,0000,0000,,Kiyoshi!
+Dialogue: 0,0:04:38.97,0:04:39.83,CRKuro,KIYOSHI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:44.09,0:04:45.51,CRKuro,HYUGA,0000,0000,0000,,Let's win!
+Dialogue: 0,0:04:45.51,0:04:47.37,CRKuro,HYUGA,0000,0000,0000,,Seirin, fight!
+Dialogue: 0,0:04:47.37,0:04:48.47,CRKuro,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:04:57.53,0:04:59.83,CRKuro,KASAMATSU,0000,0000,0000,,It's finally the fourth quarter.
+Dialogue: 0,0:05:00.34,0:05:02.79,CRKuro,KASAMATSU,0000,0000,0000,,This will determine the \NWinter Cup championship.
+Dialogue: 0,0:05:03.17,0:05:06.36,CRKuro,MORIYAMA,0000,0000,0000,,Can Seirin make up a 20 point difference?
+Dialogue: 0,0:05:06.36,0:05:07.54,CRKuro,KASAMATSU,0000,0000,0000,,Who knows?
+Dialogue: 0,0:05:07.91,0:05:09.97,CRKuro,KASAMATSU,0000,0000,0000,,But they haven't given up.
+Dialogue: 0,0:05:10.32,0:05:15.29,CRKuro,KASAMATSU,0000,0000,0000,,When it comes to killing giants, \Nattitude matters more than strategy.
+Dialogue: 0,0:05:19.37,0:05:20.53,CRKuro,MORIYAMA,0000,0000,0000,,A three already?
+Dialogue: 0,0:05:21.29,0:05:22.30,CRKuro,KASAMATSU,0000,0000,0000,,He's already on him!
+Dialogue: 0,0:05:25.84,0:05:28.84,Flashback,HYUGA,0000,0000,0000,,Coach, will you do me a favor?
+Dialogue: 0,0:05:28.84,0:05:29.47,Flashback,RIKO,0000,0000,0000,,What?
+Dialogue: 0,0:05:29.85,0:05:33.32,Flashback,HYUGA,0000,0000,0000,,Can you stop my hands from shaking?
+Dialogue: 0,0:05:33.32,0:05:34.88,Flashback,RIKO,0000,0000,0000,,Wait, what?
+Dialogue: 0,0:05:34.88,0:05:37.18,Flashback,RIKO,0000,0000,0000,,But you sounded so in control.
+Dialogue: 0,0:05:37.18,0:05:39.48,Flashback,HYUGA,0000,0000,0000,,That's irrelevant.
+Dialogue: 0,0:05:39.87,0:05:41.69,Flashback,HYUGA,0000,0000,0000,,I've got four fouls.
+Dialogue: 0,0:05:41.69,0:05:43.54,Flashback,HYUGA,0000,0000,0000,,The pressure's killing me.
+Dialogue: 0,0:05:44.35,0:05:46.39,Flashback,RIKO,0000,0000,0000,,Sheesh. Turn around!
+Dialogue: 0,0:05:46.39,0:05:47.45,Flashback,HYUGA,0000,0000,0000,,Okay!
+Dialogue: 0,0:05:49.39,0:05:51.62,Whack,FX,0000,0000,0000,,WHACK
+Dialogue: 0,0:05:49.39,0:05:51.62,Flashback,HYUGA,0000,0000,0000,,Ow!
+Dialogue: 0,0:05:56.26,0:05:57.08,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}He's fast.{\i0}
+Dialogue: 0,0:05:58.32,0:05:59.38,CRKuro,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:05:59.40,0:06:00.97,CRKuro,ALL,0000,0000,0000,,Nice, Captain!
+Dialogue: 0,0:06:00.50,0:06:02.96,ScoreboardL,TEXT,0000,0000,0000,,Rakuzan
+Dialogue: 0,0:06:00.50,0:06:02.96,ScoreboardR,TEXT,0000,0000,0000,,Seirin
+Dialogue: 0,0:06:02.96,0:06:05.17,CRKuro,HYUGA,0000,0000,0000,,Yes! Let's go, Rakuzan!
+Dialogue: 0,0:06:06.09,0:06:09.81,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}With four fouls, I thought \Nhe'd barely be able to play.{\i0}
+Dialogue: 0,0:06:10.40,0:06:13.89,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}But this is the best he's played all game.{\i0}
+Dialogue: 0,0:06:14.14,0:06:16.56,CRKuro,HYUGA,0000,0000,0000,,Let's stop their attack!
+Dialogue: 0,0:06:16.97,0:06:18.06,CRKuro,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:06:20.61,0:06:22.98,CRKuro,SEIRIN,0000,0000,0000,,Defense! Defense!
+Dialogue: 0,0:06:23.30,0:06:25.65,CRKuro,SEIRIN,0000,0000,0000,,Defense! Defense!
+Dialogue: 0,0:06:25.90,0:06:28.36,CRKuro,SEIRIN,0000,0000,0000,,Defense! Defense!
+Dialogue: 0,0:06:28.67,0:06:30.08,CRKuro,MIYAJI,0000,0000,0000,,Their defense is good.
+Dialogue: 0,0:06:30.58,0:06:33.95,CRKuro,MIYAJI,0000,0000,0000,,Hyuga really pulls his team together.
+Dialogue: 0,0:06:34.21,0:06:38.29,CRKuro,KASAMATSU,0000,0000,0000,,But how can he fight when he \Ncan't afford a single foul?
+Dialogue: 0,0:06:44.87,0:06:47.02,CRKuro,RIKO,0000,0000,0000,,{\i1}You can do it, Junpei.{\i0}
+Dialogue: 0,0:06:48.56,0:06:49.88,CRKuro,KASAMATSU,0000,0000,0000,,That's Heaven!
+Dialogue: 0,0:06:50.87,0:06:52.65,CRKuro,TSUCHIDA,0000,0000,0000,,But Hyuga knows it's coming!
+Dialogue: 0,0:06:53.38,0:06:55.68,CRKuro,SAKURAI,0000,0000,0000,,A fake? Then he's going for...
+Dialogue: 0,0:06:56.01,0:06:59.27,CRKuro,SAKURAI,0000,0000,0000,,Earth! Hyuga-san's fifth foul!
+Dialogue: 0,0:06:59.27,0:07:00.48,CRKuro,KUROKO,0000,0000,0000,,Captain!
+Dialogue: 0,0:07:04.21,0:07:05.32,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}He's not jumping.{\i0}
+Dialogue: 0,0:07:05.73,0:07:08.11,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}Did he predict this, too?{\i0}
+Dialogue: 0,0:07:09.51,0:07:13.07,CRKuro,HYUGA,0000,0000,0000,,{\i1}Mibuchi, your form is practically \Nidentical before you{\i0}
+Dialogue: 0,0:07:13.07,0:07:15.61,CRKuro,,0000,0000,0000,,{\i1}jump for each of your shots.{\i0}
+Dialogue: 0,0:07:16.04,0:07:19.15,CRKuro,HYUGA,0000,0000,0000,,{\i1}But your center of gravity \Nis slightly different.{\i0}
+Dialogue: 0,0:07:19.50,0:07:22.07,CRKuro,HYUGA,0000,0000,0000,,{\i1}Heaven, Earth, Void.{\i0}
+Dialogue: 0,0:07:22.07,0:07:25.04,CRKuro,HYUGA,0000,0000,0000,,{\i1}Your center of gravity shifts towards \Nthe direction you're jumping.{\i0}
+Dialogue: 0,0:07:25.52,0:07:27.33,CRKuro,HYUGA,0000,0000,0000,,{\i1}As long as I know which way...{\i0}
+Dialogue: 0,0:07:29.92,0:07:31.88,CRKuro,KOGA,0000,0000,0000,,Go, Hyuga!
+Dialogue: 0,0:07:31.88,0:07:32.84,CRKuro,KIYOSHI,0000,0000,0000,,Hyuga!
+Dialogue: 0,0:07:41.53,0:07:44.27,CRKuro,NEBUYA,0000,0000,0000,,{\i1}This is the strongest he's been all game!{\i0}
+Dialogue: 0,0:07:44.27,0:07:45.77,CRKuro,RIKO,0000,0000,0000,,Teppei, are you...
+Dialogue: 0,0:07:45.77,0:07:46.82,CRKuro,HYUGA,0000,0000,0000,,That idiot!
+Dialogue: 0,0:07:54.88,0:07:59.41,CRKuro,KIYOSHI,0000,0000,0000,,{\i1}I can't make the right call about \Nmy future or injury anymore.{\i0}
+Dialogue: 0,0:07:59.91,0:08:01.72,CRKuro,KIYOSHI,0000,0000,0000,,{\i1}All that matters is this moment.{\i0}
+Dialogue: 0,0:08:08.26,0:08:11.38,CRKuro,KOGA,0000,0000,0000,,It's no use. He still can't get in position.
+Dialogue: 0,0:08:12.25,0:08:14.58,CRKuro,HYUGA,0000,0000,0000,,{\i1}I thought that might be it.{\i0}
+Dialogue: 0,0:08:15.07,0:08:18.38,CRKuro,HYUGA,0000,0000,0000,,{\i1}No matter what we say, \Nyou're always reckless.{\i0}
+Dialogue: 0,0:08:18.92,0:08:22.54,CRKuro,HYUGA,0000,0000,0000,,{\i1}Even if we subbed you out, \Nyou'd force your way back on the court.{\i0}
+Dialogue: 0,0:08:23.36,0:08:24.94,CRKuro,HYUGA,0000,0000,0000,,{\i1}I won't stop you anymore.{\i0}
+Dialogue: 0,0:08:25.34,0:08:28.30,CRKuro,HYUGA,0000,0000,0000,,Kiyoshi, how long have you been a center?
+Dialogue: 0,0:08:28.30,0:08:30.90,CRKuro,HYUGA,0000,0000,0000,,Don't let that musclebound moron beat you!
+Dialogue: 0,0:08:36.39,0:08:37.28,CRKuro,NEBUYA,0000,0000,0000,,{\i1}He's fast.{\i0}
+Dialogue: 0,0:08:42.76,0:08:43.79,CRKuro,KOGA,0000,0000,0000,,Go!
+Dialogue: 0,0:08:43.79,0:08:44.91,CRKuro,TSUCHIDA,0000,0000,0000,,Kagami!
+Dialogue: 0,0:08:44.91,0:08:46.75,CRKuro,SEIRIN,0000,0000,0000,,Yeah!
+Dialogue: 0,0:08:55.00,0:08:57.55,CRKuro,MIBUCHI,0000,0000,0000,,Now you've done it, Junpei-chan.
+Dialogue: 0,0:08:58.27,0:08:59.76,CRKuro,MIBUCHI,0000,0000,0000,,I'll crush you.
+Dialogue: 0,0:08:59.76,0:09:01.40,CRKuro,HYUGA,0000,0000,0000,,Right back at you.
+Dialogue: 0,0:09:01.85,0:09:04.18,CRKuro,HYUGA,0000,0000,0000,,And stop calling me that!
+Dialogue: 0,0:09:06.40,0:09:09.29,CRKuro,HAYAMA,0000,0000,0000,,{\i1}He's mad, but he hasn't lost his cool.{\i0}
+Dialogue: 0,0:09:09.73,0:09:11.82,CRKuro,HAYAMA,0000,0000,0000,,{\i1}I don't need to worry about Leo.{\i0}
+Dialogue: 0,0:09:12.59,0:09:14.11,CRKuro,HAYAMA,0000,0000,0000,,{\i1}But...{\i0}
+Dialogue: 0,0:09:14.11,0:09:16.07,CRKuro,NEBUYA,0000,0000,0000,,Damn it!
+Dialogue: 0,0:09:16.32,0:09:18.59,CRKuro,HAYAMA,0000,0000,0000,,Calm down, Ei-chan.
+Dialogue: 0,0:09:18.59,0:09:20.26,CRKuro,NEBUYA,0000,0000,0000,,What are you doing, Kotaro?
+Dialogue: 0,0:09:20.26,0:09:24.16,CRKuro,HAYAMA,0000,0000,0000,,You've got a short fuse like me. Be careful.
+Dialogue: 0,0:09:25.57,0:09:27.12,CRKuro,HAYAMA,0000,0000,0000,,Kiyoshi's strong.
+Dialogue: 0,0:09:27.85,0:09:32.13,CRKuro,HAYAMA,0000,0000,0000,,If not for his injury, \Nhe would've been as strong as us.
+Dialogue: 0,0:09:34.34,0:09:36.29,CRKuro,HAYAMA,0000,0000,0000,,Don't underestimate him.
+Dialogue: 0,0:09:37.11,0:09:39.45,CRKuro,NEBUYA,0000,0000,0000,,Shut up. I know.
+Dialogue: 0,0:09:47.18,0:09:49.55,CRKuro,FAN,0000,0000,0000,,Another shooting guard showdown!
+Dialogue: 0,0:09:50.44,0:09:51.82,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}Hyuga Junpei...{\i0}
+Dialogue: 0,0:09:52.37,0:09:53.85,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}He's dangerous.{\i0}
+Dialogue: 0,0:09:54.38,0:09:57.29,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}He can distinguish between my \Nthree shots and react accordingly.{\i0}
+Dialogue: 0,0:09:58.12,0:10:02.69,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}Then I'll use Void, \Nunstoppable even if you see it coming.{\i0}
+Dialogue: 0,0:10:03.55,0:10:07.52,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}But maybe he's figured \Nsomething out about Void.{\i0}
+Dialogue: 0,0:10:08.17,0:10:11.83,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}Should I avoid threes or pass the ball?{\i0}
+Dialogue: 0,0:10:12.74,0:10:15.05,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}No, that's why I must fight!{\i0}
+Dialogue: 0,0:10:15.76,0:10:18.85,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}A Rakuzan player can't back down.{\i0}
+Dialogue: 0,0:10:19.35,0:10:24.31,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}I'll risk all my pride and shoot Void!{\i0}
+Dialogue: 0,0:10:27.01,0:10:28.69,CRKuro,HIMURO,0000,0000,0000,,That's it!
+Dialogue: 0,0:10:29.25,0:10:32.67,CRKuro,HIMURO,0000,0000,0000,,I know why the defender can't \Njump when he takes that shot.
+Dialogue: 0,0:10:33.12,0:10:35.47,CRKuro,HIMURO,0000,0000,0000,,It's because of how deep he \Ncrouches before he jumps.
+Dialogue: 0,0:10:36.54,0:10:41.01,CRKuro,HIMURO,0000,0000,0000,,When Mibuchi shoots Void, \Nhe crouches lower than normal.
+Dialogue: 0,0:10:41.90,0:10:43.44,CRKuro,HIMURO,0000,0000,0000,,And when he jumps,
+Dialogue: 0,0:10:43.44,0:10:47.24,CRKuro,,0000,0000,0000,,he stops moving just as the defender's \Nknees are fully extended.
+Dialogue: 0,0:10:48.13,0:10:54.31,CRKuro,HIMURO,0000,0000,0000,,The defender expends all the power of \Nhis crouch, leaving him unable to jump.
+Dialogue: 0,0:10:55.17,0:10:59.34,CRKuro,HIMURO,0000,0000,0000,,But Mibuchi still has strength \Nfrom crouching so low.
+Dialogue: 0,0:10:59.66,0:11:02.05,CRKuro,HIMURO,0000,0000,0000,,He uses the remaining power to shoot.
+Dialogue: 0,0:11:02.84,0:11:05.01,CRKuro,HIMURO,0000,0000,0000,,That's the secret behind Void.
+Dialogue: 0,0:11:07.83,0:11:10.10,CRKuro,HYUGA,0000,0000,0000,,{\i1}My back hurts...{\i0}
+Dialogue: 0,0:11:10.88,0:11:13.35,CRKuro,HYUGA,0000,0000,0000,,{\i1}Has Riko always been that strong?{\i0}
+Dialogue: 0,0:11:13.87,0:11:15.52,CRKuro,HYUGA,0000,0000,0000,,{\i1}No, of course not.{\i0}
+Dialogue: 0,0:11:16.25,0:11:18.44,CRKuro,HYUGA,0000,0000,0000,,{\i1}She just hit me extra hard.{\i0}
+Dialogue: 0,0:11:19.06,0:11:22.99,CRKuro,HYUGA,0000,0000,0000,,{\i1}With not just her own, \Nbut the entire team's hopes.{\i0}
+Dialogue: 0,0:11:28.87,0:11:32.05,CRKuro,HYUGA,0000,0000,0000,,I don't care if you're an \NUncrowned King or Rakuzan!
+Dialogue: 0,0:11:32.05,0:11:37.88,CRKuro,HYUGA,0000,0000,0000,,No matter how strong you \Nare, I'll stop this shot!
+Dialogue: 0,0:11:43.66,0:11:44.55,CRKuro,RIKO,0000,0000,0000,,Yes!
+Dialogue: 0,0:11:44.55,0:11:45.72,CRKuro,KOGA,0000,0000,0000,,Hyuga!
+Dialogue: 0,0:11:50.42,0:11:52.24,CRKuro,MIYAJI,0000,0000,0000,,They broke Rakuzan's defense!
+Dialogue: 0,0:11:52.24,0:11:55.78,CRKuro,MIDORIMA,0000,0000,0000,,With the return of their shooter, \Ntheir defense spread out,
+Dialogue: 0,0:11:55.78,0:11:58.02,CRKuro,,0000,0000,0000,,making it easier to create \Nspace on the inside.
+Dialogue: 0,0:12:01.56,0:12:03.16,CRKuro,NEBUYA,0000,0000,0000,,No you don't!
+Dialogue: 0,0:12:03.51,0:12:05.09,CRKuro,SAKURAI,0000,0000,0000,,How did he reach that?
+Dialogue: 0,0:12:05.52,0:12:08.62,CRKuro,IMAYOSHI,0000,0000,0000,,But he's too late. Kiyoshi's in control.
+Dialogue: 0,0:12:14.08,0:12:14.79,CRKuro,NEBUYA,0000,0000,0000,,A three?
+Dialogue: 0,0:12:20.70,0:12:22.22,CRKuro,MIDORIMA,0000,0000,0000,,It's a good shot.
+Dialogue: 0,0:12:22.64,0:12:24.13,CRKuro,MIDORIMA,0000,0000,0000,,There's no spin or shift.
+Dialogue: 0,0:12:26.13,0:12:27.55,CRKuro,ALL,0000,0000,0000,,Three shots in a row!
+Dialogue: 0,0:12:33.72,0:12:36.22,CRKuro,MAYUZUMI,0000,0000,0000,,{\i1}But Akashi isn't saying anything.{\i0}
+Dialogue: 0,0:12:36.60,0:12:38.02,CRKuro,MAYUZUMI,0000,0000,0000,,{\i1}What is he thinking?{\i0}
+Dialogue: 0,0:12:38.71,0:12:42.77,CRKuro,MAYUZUMI,0000,0000,0000,,{\i1}It's strange that he's emphasizing \None-on-ones with those three.{\i0}
+Dialogue: 0,0:12:43.45,0:12:45.22,CRKuro,MAYUZUMI,0000,0000,0000,,{\i1}Why doesn't he attack himself?{\i0}
+Dialogue: 0,0:12:52.19,0:12:53.24,CRKuro,MAYUZUMI,0000,0000,0000,,{\i1}Could it be?{\i0}
+Dialogue: 0,0:13:02.77,0:13:07.28,CRKuro,MAYUZUMI,0000,0000,0000,,{\i1}Is he preventing even Akashi from attacking?{\i0}
+Dialogue: 0,0:13:07.88,0:13:10.07,CRKuro,NEBUYA,0000,0000,0000,,{\i1}What's going on?{\i0}
+Dialogue: 0,0:13:10.44,0:13:12.81,CRKuro,NEBUYA,0000,0000,0000,,{\i1}Kagami's becoming even more impressive.{\i0}
+Dialogue: 0,0:13:31.44,0:13:35.41,Flashback,AKASHI,0000,0000,0000,,Today's Seirin-Touou game was
+Dialogue: 0,0:13:36.33,0:13:37.54,Flashback,,0000,0000,0000,,interesting.
+Dialogue: 0,0:13:38.19,0:13:41.25,Flashback,AKASHI,0000,0000,0000,,Honestly, that hadn't occurred to me.
+Dialogue: 0,0:13:42.40,0:13:44.46,Flashback,AKASHI,0000,0000,0000,,I have experience with the Zone.
+Dialogue: 0,0:13:44.98,0:13:50.76,Flashback,AKASHI,0000,0000,0000,,But what's truly surprising is how \NDaiki deliberately entered it.
+Dialogue: 0,0:14:10.16,0:14:11.36,Flashback,AKASHI,0000,0000,0000,,It's possible
+Dialogue: 0,0:14:11.93,0:14:15.04,Flashback,,0000,0000,0000,,with sufficient focus to push open the door
+Dialogue: 0,0:14:15.56,0:14:20.28,Flashback,,0000,0000,0000,,and awareness of your own \Ntrigger to unlock it.
+Dialogue: 0,0:14:21.78,0:14:24.55,Flashback,MIBUCHI,0000,0000,0000,,Sei-chan, there you are.
+Dialogue: 0,0:14:25.02,0:14:26.28,Flashback,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:14:26.28,0:14:27.26,Flashback,AKASHI,0000,0000,0000,,What is it?
+Dialogue: 0,0:14:27.52,0:14:30.01,Flashback,NEBUYA,0000,0000,0000,,We've got a game tomorrow.
+Dialogue: 0,0:14:30.43,0:14:32.90,Flashback,NEBUYA,0000,0000,0000,,We wanted to get a light workout.
+Dialogue: 0,0:14:33.34,0:14:38.56,Flashback,HAYAMA,0000,0000,0000,,It sucks that we haven't played since \Nthe first day since we're the top seed.
+Dialogue: 0,0:14:38.56,0:14:41.73,Flashback,AKASHI,0000,0000,0000,,I'm glad you're here. I need an opponent.
+Dialogue: 0,0:14:41.73,0:14:44.44,Flashback,HAYAMA,0000,0000,0000,,Sure. What do you want, a one-on-one?
+Dialogue: 0,0:14:44.83,0:14:47.07,Flashback,AKASHI,0000,0000,0000,,No. Three-on-one.
+Dialogue: 0,0:14:47.07,0:14:49.33,Flashback,NEBUYA,0000,0000,0000,,Huh? Hey, Akashi.
+Dialogue: 0,0:14:49.33,0:14:52.46,Flashback,MIBUCHI,0000,0000,0000,,I'm pretty sure you can't beat us.
+Dialogue: 0,0:14:52.46,0:14:54.54,Flashback,HAYAMA,0000,0000,0000,,Don't complain about the results.
+Dialogue: 0,0:15:10.38,0:15:13.80,Flashback,AKASHI,0000,0000,0000,,Good. This should work in an actual game.
+Dialogue: 0,0:15:19.45,0:15:21.45,Flashback,NEBUYA,0000,0000,0000,,Seriously?
+Dialogue: 0,0:15:21.45,0:15:24.23,Flashback,HAYAMA,0000,0000,0000,,Akashi's a monster.
+Dialogue: 0,0:15:24.88,0:15:28.30,Flashback,AKASHI,0000,0000,0000,,But we should consider this my trump card.
+Dialogue: 0,0:15:29.15,0:15:35.45,Flashback,AKASHI,0000,0000,0000,,Using this would mean Rakuzan \Nis in a dangerous situation.
+Dialogue: 0,0:15:36.46,0:15:38.01,Flashback,AKASHI,0000,0000,0000,,And one more thing.
+Dialogue: 0,0:15:38.75,0:15:40.41,Flashback,AKASHI,0000,0000,0000,,Let me warn you.
+Dialogue: 0,0:15:42.02,0:15:43.92,Flashback,AKASHI,0000,0000,0000,,My trigger for entering this condition is...
+Dialogue: 0,0:15:50.37,0:15:55.43,CRKuro,NEBUYA,0000,0000,0000,,{\i1}They're using a stealth \Nfull-court man-to-man defense.{\i0}
+Dialogue: 0,0:15:56.45,0:15:58.91,CRKuro,HAYAMA,0000,0000,0000,,{\i1}This can't be good.{\i0}
+Dialogue: 0,0:15:58.91,0:16:01.68,CRKuro,HAYAMA,0000,0000,0000,,{\i1}Considering the range of \NKagami's defense in the Zone,{\i0}
+Dialogue: 0,0:16:01.68,0:16:05.12,CRKuro,,0000,0000,0000,,{\i1}there's hardly any passes Kuroko can't steal.{\i0}
+Dialogue: 0,0:16:05.73,0:16:06.55,CRKuro,HAYAMA,0000,0000,0000,,Leo!
+Dialogue: 0,0:16:07.37,0:16:08.40,CRKuro,MIBUCHI,0000,0000,0000,,Crap!
+Dialogue: 0,0:16:08.40,0:16:09.11,CRKuro,KIYOSHI,0000,0000,0000,,Kuroko!
+Dialogue: 0,0:16:17.91,0:16:18.88,CRKuro,SAKURAI,0000,0000,0000,,He stopped.
+Dialogue: 0,0:16:19.35,0:16:23.53,CRKuro,SAKURAI,0000,0000,0000,,Even at full power, \NKiyoshi-san can't beat Nebuya-san.
+Dialogue: 0,0:16:23.53,0:16:25.42,CRKuro,IMAYOSHI,0000,0000,0000,,He doesn't have to win.
+Dialogue: 0,0:16:25.69,0:16:30.30,CRKuro,IMAYOSHI,0000,0000,0000,,He just needs enough to \Ncompete to stay in the game.
+Dialogue: 0,0:16:35.26,0:16:38.76,CRKuro,NEBUYA,0000,0000,0000,,{\i1}He put pressure on his leg to spin again!{\i0}
+Dialogue: 0,0:16:43.21,0:16:44.60,CRKuro,KOGA,0000,0000,0000,,We're ten points behind!
+Dialogue: 0,0:16:44.60,0:16:47.02,ScoreboardL,TEXT,0000,0000,0000,,Rakuzan
+Dialogue: 0,0:16:44.60,0:16:47.02,ScoreboardR,TEXT,0000,0000,0000,,Seirin
+Dialogue: 0,0:16:47.02,0:16:48.04,CRKuro,NEBUYA,0000,0000,0000,,Damn.
+Dialogue: 0,0:16:49.15,0:16:53.49,CRKuro,AKASHI,0000,0000,0000,,Mibuchi, the four of you will \Ngo during our next attack.
+Dialogue: 0,0:16:54.40,0:16:56.90,CRKuro,MIBUCHI,0000,0000,0000,,What? Sei-chan, what do you—
+Dialogue: 0,0:17:03.15,0:17:04.23,CRKuro,AKASHI,0000,0000,0000,,Run.
+Dialogue: 0,0:17:12.20,0:17:14.22,CRKuro,RIKO,0000,0000,0000,,They broke through in a second.
+Dialogue: 0,0:17:14.22,0:17:15.45,CRKuro,HYUGA,0000,0000,0000,,Crap! Go back!
+Dialogue: 0,0:17:17.82,0:17:19.56,CRKuro,IZUKI,0000,0000,0000,,He's not moving?
+Dialogue: 0,0:17:20.00,0:17:23.02,CRKuro,KIYOSHI,0000,0000,0000,,Think later! Focus on defense!
+Dialogue: 0,0:17:25.39,0:17:28.23,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}He has the same eyes...{\i0}
+Dialogue: 0,0:17:29.29,0:17:31.07,Flashback,AKASHI,0000,0000,0000,,Let me warn you.
+Dialogue: 0,0:17:31.57,0:17:33.84,Flashback,AKASHI,0000,0000,0000,,My trigger for entering this condition
+Dialogue: 0,0:17:33.84,0:17:37.55,Flashback,,0000,0000,0000,,is the intent to achieve victory
+Dialogue: 0,0:17:37.55,0:17:41.70,Flashback,,0000,0000,0000,,not by using others, \Nbut by taking it for myself.
+Dialogue: 0,0:17:43.11,0:17:44.04,Flashback,AKASHI,0000,0000,0000,,In other words,
+Dialogue: 0,0:17:44.79,0:17:48.35,Flashback,,0000,0000,0000,,when I fight with my strength alone.
+Dialogue: 0,0:17:48.35,0:17:51.91,Flashback,AKASHI,0000,0000,0000,,When I lose hope in and abandon you.
+Dialogue: 0,0:17:58.91,0:18:01.22,CRKuro,MIYAJI,0000,0000,0000,,Are they going to score again?
+Dialogue: 0,0:18:01.78,0:18:02.72,CRKuro,KAGAMI,0000,0000,0000,,{\i1}I'll make the shot.{\i0}
+Dialogue: 0,0:18:03.12,0:18:07.19,CRKuro,KAGAMI,0000,0000,0000,,{\i1}He can't stop my Meteor Jam \Nlike he did in the first half.{\i0}
+Dialogue: 0,0:18:07.50,0:18:09.15,CRKuro,KAGAMI,0000,0000,0000,,Take this, Akashi!
+Dialogue: 0,0:18:14.10,0:18:14.99,CRKuro,KUROKO,0000,0000,0000,,Akashi-kun?
+Dialogue: 0,0:18:16.78,0:18:19.08,CRKuro,AKASHI,0000,0000,0000,,I will demonstrate my superiority
+Dialogue: 0,0:18:19.66,0:18:22.41,CRKuro,,0000,0000,0000,,to everyone here.
+Dialogue: 0,0:18:24.43,0:18:26.16,CRKuro,AOMINE,0000,0000,0000,,Akashi's Zone.
+Dialogue: 0,0:18:29.62,0:18:31.38,CRKuro,KAGAMI,0000,0000,0000,,Wait, Akashi!
+Dialogue: 0,0:18:34.85,0:18:35.59,CRKuro,KAGAMI,0000,0000,0000,,No way!
+Dialogue: 0,0:18:37.17,0:18:38.93,CRKuro,HYUGA,0000,0000,0000,,Stop him!
+Dialogue: 0,0:18:41.79,0:18:43.26,CRKuro,HYUGA,0000,0000,0000,,{\i1}He changes speed so quickly!{\i0}
+Dialogue: 0,0:18:43.59,0:18:44.97,CRKuro,IZUKI,0000,0000,0000,,{\i1}He's too fast!{\i0}
+Dialogue: 0,0:18:45.49,0:18:47.92,CRKuro,AKASHI,0000,0000,0000,,You have defied me.
+Dialogue: 0,0:18:48.52,0:18:51.09,CRKuro,AKASHI,0000,0000,0000,,It's not enough for you to sit.
+Dialogue: 0,0:18:51.59,0:18:52.44,CRKuro,AKASHI,0000,0000,0000,,Kneel.
+Dialogue: 0,0:19:02.01,0:19:03.62,CRKuro,KIYOSHI,0000,0000,0000,,{\i1}Damn! A fake!{\i0}
+Dialogue: 0,0:19:08.68,0:19:11.25,CRKuro,AKASHI,0000,0000,0000,,Witness my sublime form and realize
+Dialogue: 0,0:19:14.40,0:19:17.59,CRKuro,AKASHI,0000,0000,0000,,your defeat is absolute.
+Dialogue: 0,0:19:18.54,0:19:19.70,CRKuro,FAN,0000,0000,0000,,He made it!
+Dialogue: 0,0:19:19.70,0:19:22.59,CRKuro,FAN,0000,0000,0000,,He took the ball from hoop to hoop!
+Dialogue: 0,0:19:23.29,0:19:25.51,CRKuro,MAYUZUMI,0000,0000,0000,,{\i1}Even without us...{\i0}
+Dialogue: 0,0:19:26.02,0:19:28.10,CRKuro,MAYUZUMI,0000,0000,0000,,{\i1}No, he's stronger without us.{\i0}
+Dialogue: 0,0:19:28.95,0:19:32.24,CRKuro,MAYUZUMI,0000,0000,0000,,{\i1}Such a monster shakes our very existence.{\i0}
+Dialogue: 0,0:19:33.16,0:19:37.78,CRKuro,MAYUZUMI,0000,0000,0000,,{\i1}Does he really not need us?{\i0}
+Dialogue: 0,0:19:43.18,0:19:44.82,CRKuro,MIDORIMA,0000,0000,0000,,{\i1}They called for a time out.{\i0}
+Dialogue: 0,0:19:45.44,0:19:49.51,CRKuro,MIDORIMA,0000,0000,0000,,{\i1}But is there anything \Nthey can do to stop him?{\i0}
+Dialogue: 0,0:19:51.77,0:19:53.72,CRKuro,KAGAMI,0000,0000,0000,,I'll do it.
+Dialogue: 0,0:19:53.72,0:19:57.34,CRKuro,FURIHATA,0000,0000,0000,,Kagami! You mean you'll do it by yourself?
+Dialogue: 0,0:19:58.22,0:19:59.51,CRKuro,HYUGA,0000,0000,0000,,We're counting on you, then.
+Dialogue: 0,0:19:59.51,0:20:02.37,CRKuro,FUKUDA,0000,0000,0000,,What? Don't you think you \Nagreed too quickly, Captain?
+Dialogue: 0,0:20:03.18,0:20:05.51,CRKuro,IZUKI,0000,0000,0000,,It's a valid verdict. Yeah, nice.
+Dialogue: 0,0:20:05.51,0:20:06.85,CRKuro,FUKUDA,0000,0000,0000,,You, too, Izuki-senpai?
+Dialogue: 0,0:20:06.85,0:20:08.77,CRKuro,KOGA,0000,0000,0000,,You heard them, Kiyoshi.
+Dialogue: 0,0:20:08.77,0:20:09.85,CRKuro,KIYOSHI,0000,0000,0000,,Okay.
+Dialogue: 0,0:20:10.88,0:20:12.67,CRKuro,FUKUDA,0000,0000,0000,,Why is everyone agreeing?
+Dialogue: 0,0:20:12.67,0:20:14.75,CRKuro,HYUGA,0000,0000,0000,,Why are you objecting?
+Dialogue: 0,0:20:14.75,0:20:15.57,CRKuro,FUKUDA,0000,0000,0000,,What?
+Dialogue: 0,0:20:15.91,0:20:18.11,CRKuro,HYUGA,0000,0000,0000,,It's how we've always played.
+Dialogue: 0,0:20:18.61,0:20:22.43,CRKuro,HYUGA,0000,0000,0000,,Against the Generation of Miracles, \Nwe always face this situation.
+Dialogue: 0,0:20:22.89,0:20:25.27,CRKuro,HYUGA,0000,0000,0000,,Eventually we have to rely on our ace.
+Dialogue: 0,0:20:26.42,0:20:29.83,CRKuro,HYUGA,0000,0000,0000,,If we didn't have one, we'd be screwed.
+Dialogue: 0,0:20:30.23,0:20:32.02,CRKuro,HYUGA,0000,0000,0000,,But we have Kagami.
+Dialogue: 0,0:20:32.52,0:20:34.00,CRKuro,HYUGA,0000,0000,0000,,That's good enough.
+Dialogue: 0,0:20:40.58,0:20:41.56,CRKuro,KUROKO,0000,0000,0000,,Kagami-kun.
+Dialogue: 0,0:20:54.28,0:20:56.34,CRKuro,RIKO,0000,0000,0000,,You know what this means, Kagami-kun.
+Dialogue: 0,0:20:58.22,0:21:03.50,CRKuro,RIKO,0000,0000,0000,,This fight will determine \Nwho wins and who loses.
+Dialogue: 0,0:21:04.49,0:21:05.90,CRKuro,RIKO,0000,0000,0000,,Win, Kagami!
+Dialogue: 0,0:21:06.96,0:21:08.13,CRKuro,KAGAMI,0000,0000,0000,,Yeah!
+Dialogue: 0,0:21:10.02,0:21:13.13,CRKuro,IMAYOSHI,0000,0000,0000,,Aomine, I've been wondering.
+Dialogue: 0,0:21:13.52,0:21:14.45,CRKuro,AOMINE,0000,0000,0000,,What?
+Dialogue: 0,0:21:14.45,0:21:15.92,CRKuro,IMAYOSHI,0000,0000,0000,,Earlier you said something.
+Dialogue: 0,0:21:16.78,0:21:20.27,CRKuro,AOMINE,0000,0000,0000,,{\i1}He's even deeper in the Zone.{\i0}
+Dialogue: 0,0:21:21.21,0:21:23.22,CRKuro,IMAYOSHI,0000,0000,0000,,What did you mean?
+Dialogue: 0,0:21:25.34,0:21:27.69,CRKuro,AOMINE,0000,0000,0000,,It's a metaphor.
+Dialogue: 0,0:21:28.29,0:21:31.83,CRKuro,AOMINE,0000,0000,0000,,When you enter the Zone, \Nyou open a massive door.
+Dialogue: 0,0:21:32.61,0:21:34.87,CRKuro,AOMINE,0000,0000,0000,,Inside it is water.
+Dialogue: 0,0:21:34.87,0:21:37.98,CRKuro,AOMIINE,0000,0000,0000,,The more you focus, the deeper you sink.
+Dialogue: 0,0:21:38.51,0:21:41.46,CRKuro,AOMINE,0000,0000,0000,,If you sink far enough, you reach the bottom.
+Dialogue: 0,0:21:42.08,0:21:44.40,CRKuro,AOMINE,0000,0000,0000,,That's when you're fully \Nimmersed in the Zone.
+Dialogue: 0,0:21:44.88,0:21:48.24,CRKuro,AOMINE,0000,0000,0000,,You can perform at your true best.
+Dialogue: 0,0:21:48.82,0:21:52.29,CRKuro,AOMINE,0000,0000,0000,,But there's an even bigger door.
+Dialogue: 0,0:21:53.12,0:21:58.76,CRKuro,AOMINE,0000,0000,0000,,A faceless figure stands \Nbefore it like a gatekeeper.
+Dialogue: 0,0:21:59.46,0:22:02.79,CRKuro,SAKURAI,0000,0000,0000,,What if you open that door?
+Dialogue: 0,0:22:02.79,0:22:03.86,CRKuro,AOMINE,0000,0000,0000,,Who knows?
+Dialogue: 0,0:22:04.15,0:22:06.68,CRKuro,AOMINE,0000,0000,0000,,I've never opened it.
+Dialogue: 0,0:22:07.11,0:22:08.64,CRKuro,AOMINE,0000,0000,0000,,But I'm certain.
+Dialogue: 0,0:22:09.81,0:22:13.79,CRKuro,AOMINE,0000,0000,0000,,Beyond that door lies a \NZone greater than the Zone.
+Dialogue: 0,0:22:14.52,0:22:20.77,CRKuro,AOMINE,0000,0000,0000,,If Kagami has any chance of winning, \Nit's by opening the second door.
+Dialogue: 0,0:23:51.99,0:23:56.03,Preview,TEXT,0000,0000,0000,,Preview
+Dialogue: 0,0:23:53.01,0:23:56.04,CRKuro,AKASHI,0000,0000,0000,,You've entrusted your ace \Nwith the game, Seirin?
+Dialogue: 0,0:23:56.47,0:23:58.70,CRKuro,AKASHI,0000,0000,0000,,Then I must simply shatter your hope.
+Dialogue: 0,0:23:59.58,0:24:01.75,CRKuro,AKASHI,0000,0000,0000,,I can't lose.
+Dialogue: 0,0:24:01.75,0:24:04.28,CRKuro,AKASHI,0000,0000,0000,,The weak must kneel before the strong.
+Dialogue: 0,0:24:01.81,0:24:06.75,Next EpTitle,TEXT,0000,0000,0000,,{\fad(255,472)}Why Don't You Give Up
+Dialogue: 0,0:24:04.91,0:24:06.49,CRKuro,AKASHI,0000,0000,0000,,I am absolute.
+Dialogue: 0,0:24:06.49,0:24:08.49,CRKuro,,0000,0000,0000,,
+
+

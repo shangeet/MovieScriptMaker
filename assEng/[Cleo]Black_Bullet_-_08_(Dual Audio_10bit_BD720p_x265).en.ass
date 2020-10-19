@@ -1,0 +1,366 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Bullet_Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Bullet_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Bullet_Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Bullet_Flashback_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Bullet_Announcer,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100,100,0,0,1,2,1,8,13,13,27,1
+Style: Bullet_Ep_Title,Open Sans Semibold,30,&H00E2E8E9,&H000000FF,&H0049504F,&H007B7D79,1,0,0,0,100,100,0,0,1,2,0,3,13,53,93,1
+Style: Bullet_Next_Ep_Title,Open Sans Semibold,30,&H00DBDADB,&H000000FF,&H0049504F,&H007B7D79,1,0,0,0,100,100,0,0,1,1,0,8,13,13,267,1
+Style: school_02:34,Open Sans Semibold,33,&H00151206,&H000000FF,&H00FDFCF3,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,13,13,27,1
+Style: gastrea_law_03:56,Open Sans Semibold,30,&H00CECEC2,&H000000FF,&H00232A1D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,13,67,27,1
+Style: gastrea_law_04:09,Open Sans Semibold,36,&H00CECEC2,&H000000FF,&H00232A1D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,120,13,27,1
+Style: Seitenshi_04:09,Open Sans Semibold,36,&H00CECEC2,&H000000FF,&H00232A1D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,13,27,28,1
+Style: cursed_child_13:54,Open Sans Semibold,36,&H00121C1F,&H000000FF,&H0091B2C3,&H00000000,1,0,0,0,100,100,0,0,1,3,0,5,13,533,13,1
+Style: don't_forgive_15:35,Open Sans Semibold,30,&H00242424,&H000000FF,&H00FCFCFC,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,13,120,27,1
+Style: rejected_15:38,Open Sans Semibold,30,&H004097FD,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,13,13,27,1
+Style: Katagiri_15:40,Open Sans Semibold,30,&H004D4536,&H000000FF,&H00C6C7C4,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,133,13,109,1
+Style: broken_15:40,Open Sans Semibold,30,&H0015253A,&H000000FF,&H003A5270,&H00000000,1,0,0,0,100,100,0,10,1,3,0,1,160,13,93,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:30.88,0:00:33.30,Bullet_Main,sato,0000,0000,0000,,G-Gastrea!
+Dialogue: 0,0:00:43.02,0:00:44.68,Bullet_Main,sato,0000,0000,0000,,What is this?!
+Dialogue: 0,0:00:48.31,0:00:51.07,Bullet_Main,sato,0000,0000,0000,,The garrison... Why?
+Dialogue: 0,0:02:34.86,0:02:39.00,school_02:34,sign,0000,0000,0000,,Tokyo Area 39th District \N3rd Provisional Elementary School
+Dialogue: 0,0:02:37.78,0:02:39.01,Bullet_Main,ren,0000,0000,0000,,So...
+Dialogue: 0,0:02:39.52,0:02:42.61,Bullet_Main,ren,0000,0000,0000,,{\a6}As of today, I will be your teacher.
+Dialogue: 0,0:02:40.07,0:02:43.46,Bullet_Ep_Title,title,0000,0000,0000,,{\fad(465,465)}#08 The Monument on the Border
+Dialogue: 0,0:02:43.16,0:02:44.26,Bullet_Main,,0000,0000,0000,,{\a6}My name is Satomi Rentaro.
+Dialogue: 0,0:02:44.85,0:02:48.53,Bullet_Main,ren,0000,0000,0000,,My hobbies include observing \Nbugs, collecting plants...
+Dialogue: 0,0:02:49.14,0:02:50.46,Bullet_Main,ren,0000,0000,0000,,I also like microbes.
+Dialogue: 0,0:02:50.46,0:02:53.25,Bullet_Main,ren,0000,0000,0000,,And uh, I can do martial arts.
+Dialogue: 0,0:02:53.92,0:02:55.15,Bullet_Main,ren,0000,0000,0000,,Any questions?
+Dialogue: 0,0:02:55.15,0:02:58.04,Bullet_Main,girls,0000,0000,0000,,Me! Me! Me!
+Dialogue: 0,0:02:58.04,0:03:01.04,Bullet_Main,old,0000,0000,0000,,Give it your best, Satomi-sensei.
+Dialogue: 0,0:03:01.04,0:03:02.85,Bullet_Main,kisa,0000,0000,0000,,What are you freaking out about?
+Dialogue: 0,0:03:02.85,0:03:06.41,Bullet_Main,,0000,0000,0000,,You're the one who agreed to \Nbe their teacher, Satomi-kun.
+Dialogue: 0,0:03:06.41,0:03:07.97,Bullet_Main,ren,0000,0000,0000,,I know that.
+Dialogue: 0,0:03:07.97,0:03:09.00,Bullet_Main,ren,0000,0000,0000,,Yes, you right there.
+Dialogue: 0,0:03:09.47,0:03:12.27,Bullet_Main,girl,0000,0000,0000,,Sensei! Is it true that you're
+Dialogue: 0,0:03:12.27,0:03:15.46,Bullet_Main,,0000,0000,0000,,living with Enju-chan \Nwith plans to get married?
+Dialogue: 0,0:03:15.67,0:03:16.94,Bullet_Main,enju,0000,0000,0000,,It is.
+Dialogue: 0,0:03:18.07,0:03:20.47,Bullet_Main,ren,0000,0000,0000,,Of course it's not! \NYou're just a freeloader!
+Dialogue: 0,0:03:22.33,0:03:24.72,Bullet_Main,ren,0000,0000,0000,,All right, I'm handing things \Nover to your other teacher.
+Dialogue: 0,0:03:25.72,0:03:28.33,Bullet_Main,kisa,0000,0000,0000,,I'm T-Tendo Kisara.
+Dialogue: 0,0:03:28.83,0:03:31.07,Bullet_Main,kisa,0000,0000,0000,,Um, uh...
+Dialogue: 0,0:03:31.07,0:03:31.96,Bullet_Main,girl,0000,0000,0000,,Sensei!
+Dialogue: 0,0:03:32.78,0:03:34.95,Bullet_Main,girl,0000,0000,0000,,I heard this from Enju-chan,
+Dialogue: 0,0:03:34.95,0:03:36.43,Bullet_Main,,0000,0000,0000,,but is it true that your boobs
+Dialogue: 0,0:03:36.43,0:03:38.40,Bullet_Main,,0000,0000,0000,,are so big that you can't see your feet?
+Dialogue: 0,0:03:38.40,0:03:39.86,Bullet_Main,kisa,0000,0000,0000,,What?!
+Dialogue: 0,0:03:40.41,0:03:43.53,Bullet_Main,blue,0000,0000,0000,,Are you and Rentaro-sensei dating?
+Dialogue: 0,0:03:43.91,0:03:45.37,Bullet_Main,girl,0000,0000,0000,,Are you going to get married?
+Dialogue: 0,0:03:45.62,0:03:48.56,Bullet_Main,kisa,0000,0000,0000,,We aren't dating! Nor are we getting married!
+Dialogue: 0,0:03:48.56,0:03:49.58,Bullet_Main,enju,0000,0000,0000,,Yes!
+Dialogue: 0,0:03:56.96,0:04:03.22,gastrea_law_03:56,board,0000,0000,0000,,New \NGastrea \NLaw
+Dialogue: 0,0:03:57.17,0:03:58.67,Bullet_Main,ren,0000,0000,0000,,And so...
+Dialogue: 0,0:03:58.67,0:04:01.09,Bullet_Main,ren,0000,0000,0000,,The ruler of the Tokyo Area is...
+Dialogue: 0,0:04:01.09,0:04:02.48,Bullet_Main,girl,0000,0000,0000,,Seitenshi-sama!
+Dialogue: 0,0:04:02.48,0:04:03.22,Bullet_Main,ren,0000,0000,0000,,Correct.
+Dialogue: 0,0:04:03.69,0:04:07.35,Bullet_Main,girl,0000,0000,0000,,I've never seen Seitenshi-sama.
+Dialogue: 0,0:04:07.35,0:04:09.47,Bullet_Main,enju,0000,0000,0000,,Seitenshi-sama looks just like that.
+Dialogue: 0,0:04:09.47,0:04:11.23,gastrea_law_04:09,board left,0000,0000,0000,,New \NGastrea \NLaw
+Dialogue: 0,0:04:09.47,0:04:11.23,Seitenshi_04:09,board right,0000,0000,0000,,Seitenshi
+Dialogue: 0,0:04:11.90,0:04:13.48,Bullet_Main,kisara,0000,0000,0000,,Seitenshi-sama!
+Dialogue: 0,0:04:13.68,0:04:15.33,Bullet_Main,seiten,0000,0000,0000,,Good day, everyone.
+Dialogue: 0,0:04:15.87,0:04:17.48,Bullet_Main,seiten,0000,0000,0000,,Are you having fun studying?
+Dialogue: 0,0:04:23.83,0:04:25.99,Bullet_Main,ren,0000,0000,0000,,The Monolith's... been destroyed?
+Dialogue: 0,0:04:26.42,0:04:30.80,Bullet_Main,seiten,0000,0000,0000,,The Gastrea found clinging to Monolith 32 \Nlast night was a Stage Four,
+Dialogue: 0,0:04:31.49,0:04:32.99,Bullet_Main,seiten,0000,0000,0000,,known as Aldebaran.
+Dialogue: 0,0:04:33.52,0:04:36.46,Bullet_Main,seiten,0000,0000,0000,,Because of the Varanium-corroding \Nfluid it injected,
+Dialogue: 0,0:04:36.46,0:04:40.62,Bullet_Main,seiten,0000,0000,0000,,in six days, Monolith 32 will lose \Nits magnetic field and be destroyed.
+Dialogue: 0,0:04:43.18,0:04:46.45,Bullet_Main,seiten,0000,0000,0000,,We've begun building another Monolith,
+Dialogue: 0,0:04:46.45,0:04:49.22,Bullet_Main,,0000,0000,0000,,but it'll take nine days to complete.
+Dialogue: 0,0:04:49.71,0:04:52.56,Bullet_Main,seiten,0000,0000,0000,,According to our analysis, \Nwith the amount of Gastrea that
+Dialogue: 0,0:04:52.56,0:04:55.08,Bullet_Main,,0000,0000,0000,,will flood in during the three \Ndays after its destruction,
+Dialogue: 0,0:04:55.08,0:04:57.79,Bullet_Main,,0000,0000,0000,,all the citizens of the Tokyo Area will die,
+Dialogue: 0,0:04:57.79,0:04:59.56,Bullet_Main,,0000,0000,0000,,or be turned into Gastrea.
+Dialogue: 0,0:05:01.68,0:05:04.90,Bullet_Main,seiten,0000,0000,0000,,To avoid panic, we're controlling \Nwhat information goes out.
+Dialogue: 0,0:05:05.40,0:05:09.30,Bullet_Main,seiten,0000,0000,0000,,But in a few days, \Nthe Monolith will begin to whiten.
+Dialogue: 0,0:05:10.53,0:05:12.94,Bullet_Main,seiten,0000,0000,0000,,It's not something we'll \Nbe able to keep hiding.
+Dialogue: 0,0:05:13.90,0:05:18.92,Bullet_Main,seiten,0000,0000,0000,,There are around 2,000 Gastrea \Ngathering outside of the Monolith.
+Dialogue: 0,0:05:19.34,0:05:20.91,Bullet_Main,ren,0000,0000,0000,,Two thousand?!
+Dialogue: 0,0:05:20.91,0:05:24.29,Bullet_Main,kisa,0000,0000,0000,,Aldebaran is commanding them?
+Dialogue: 0,0:05:24.29,0:05:25.17,Bullet_Main,ren,0000,0000,0000,,Wait a sec.
+Dialogue: 0,0:05:25.17,0:05:28.93,Bullet_Main,,0000,0000,0000,,How did a Stage Four Aldebaran \Nattach itself to a Monolith?
+Dialogue: 0,0:05:29.54,0:05:31.09,Bullet_Main,ren,0000,0000,0000,,I thought all Gastrea other than
+Dialogue: 0,0:05:31.09,0:05:33.68,Bullet_Main,,0000,0000,0000,,Stage Fives were affected by the \NMonolith's magnetic field.
+Dialogue: 0,0:05:34.47,0:05:35.93,Bullet_Main,seiten,0000,0000,0000,,We're not sure just yet.
+Dialogue: 0,0:05:36.66,0:05:38.42,Bullet_Main,ren,0000,0000,0000,,And it looks like a Model Ant
+Dialogue: 0,0:05:38.42,0:05:42.19,Bullet_Main,,0000,0000,0000,,has charged in to buy some time for Aldebaran.
+Dialogue: 0,0:05:42.59,0:05:45.27,Bullet_Main,ren,0000,0000,0000,,It willingly sacrificed itself...
+Dialogue: 0,0:05:46.18,0:05:48.82,Bullet_Main,ren,0000,0000,0000,,So, what is it you want me to do?
+Dialogue: 0,0:05:49.06,0:05:51.58,Bullet_Main,seiten,0000,0000,0000,,I'd like you to form an adjuvant.
+Dialogue: 0,0:05:51.79,0:05:52.91,Bullet_Main,ren,0000,0000,0000,,Adju...
+Dialogue: 0,0:05:52.91,0:05:54.21,Bullet_Main,kisa,0000,0000,0000,,Adjuvant.
+Dialogue: 0,0:05:54.21,0:05:56.44,Bullet_Main,kisa,0000,0000,0000,,A squad system wherein a team of civil officers
+Dialogue: 0,0:05:56.44,0:05:58.39,Bullet_Main,,0000,0000,0000,,works with the JASDF.
+Dialogue: 0,0:05:58.39,0:06:00.33,Bullet_Main,ren,0000,0000,0000,,You're telling me to put \Ntogether a team and fight?!
+Dialogue: 0,0:06:00.89,0:06:02.32,Bullet_Main,seiten,0000,0000,0000,,Precisely.
+Dialogue: 0,0:06:02.32,0:06:06.30,Bullet_Main,seiten,0000,0000,0000,,Satomi-san, I'd like you to \Nbe the team leader of
+Dialogue: 0,0:06:06.30,0:06:08.84,Bullet_Main,,0000,0000,0000,,the civil officers and join in the battle.
+Dialogue: 0,0:06:09.47,0:06:11.10,Bullet_Main,ren,0000,0000,0000,,Battle...
+Dialogue: 0,0:06:11.40,0:06:13.13,Bullet_Main,seiten,0000,0000,0000,,It'll take three days for the
+Dialogue: 0,0:06:13.13,0:06:15.76,Bullet_Main,,0000,0000,0000,,new Monolith to be completed \Nafter the original is destroyed.
+Dialogue: 0,0:06:15.76,0:06:19.60,Bullet_Main,seiten,0000,0000,0000,,We will intercept every last \None of the Gastrea that invade.
+Dialogue: 0,0:06:20.14,0:06:23.69,Bullet_Main,seiten,0000,0000,0000,,This will be a battle to decide \Nthe fate of the Tokyo Area.
+Dialogue: 0,0:06:30.80,0:06:31.99,Bullet_Main,drunk,0000,0000,0000,,I can't drink anymore...
+Dialogue: 0,0:06:31.99,0:06:33.15,Bullet_Main,drunk 2,0000,0000,0000,,You drank too much.
+Dialogue: 0,0:06:33.15,0:06:36.62,Bullet_Italics,ren,0000,0000,0000,,In six days, the Tokyo Area will be...
+Dialogue: 0,0:06:37.10,0:06:39.30,Bullet_Italics,ren,0000,0000,0000,,It's hard to believe.
+Dialogue: 0,0:06:44.30,0:06:45.00,Bullet_Main,ren,0000,0000,0000,,Huh?
+Dialogue: 0,0:06:46.07,0:06:48.88,Bullet_Main,both,0000,0000,0000,,Divine punishment on your heart!
+Dialogue: 0,0:06:49.17,0:06:51.81,Bullet_Main,song,0000,0000,0000,,{\a6}Let me go! All the time...
+Dialogue: 0,0:06:51.81,0:06:55.14,Bullet_Main,ren,0000,0000,0000,,That's right. \NTina's spending the night today.
+Dialogue: 0,0:06:55.74,0:06:57.31,Bullet_Main,tina,0000,0000,0000,,How was that?
+Dialogue: 0,0:06:57.31,0:06:58.98,Bullet_Main,enju,0000,0000,0000,,Made you feel dizzy, didn't it?
+Dialogue: 0,0:06:58.98,0:07:00.45,Bullet_Main,enju,0000,0000,0000,,Well, Rentaro?
+Dialogue: 0,0:07:02.19,0:07:03.73,Bullet_Main,tina,0000,0000,0000,,Go on, Rentaro-san.
+Dialogue: 0,0:07:03.73,0:07:05.55,Bullet_Main,tina,0000,0000,0000,,Please try it.
+Dialogue: 0,0:07:08.44,0:07:09.86,Bullet_Main,enju,0000,0000,0000,,It's delicious!
+Dialogue: 0,0:07:10.14,0:07:11.74,Bullet_Main,ren,0000,0000,0000,,You're right, it is.
+Dialogue: 0,0:07:11.99,0:07:13.14,Bullet_Main,tina,0000,0000,0000,,Really?
+Dialogue: 0,0:07:13.14,0:07:15.74,Bullet_Main,tina,0000,0000,0000,,Then, next, I will make anchovy pizza.
+Dialogue: 0,0:07:16.57,0:07:17.98,Bullet_Main,ren,0000,0000,0000,,What about other dishes?
+Dialogue: 0,0:07:17.98,0:07:23.08,Bullet_Main,tina,0000,0000,0000,,Other? Then I can make carbonara \Npizza or marinara pizza—
+Dialogue: 0,0:07:23.08,0:07:24.63,Bullet_Main,enju,0000,0000,0000,,Those are all pizzas.
+Dialogue: 0,0:07:24.63,0:07:27.61,Bullet_Main,tina,0000,0000,0000,,Pizza is all I can make.
+Dialogue: 0,0:07:27.61,0:07:28.59,Bullet_Main,ren,0000,0000,0000,,Seriously?
+Dialogue: 0,0:07:38.55,0:07:41.04,Bullet_Main,tina,0000,0000,0000,,Are you awake, Rentaro-san?
+Dialogue: 0,0:07:42.80,0:07:44.29,Bullet_Main,ren,0000,0000,0000,,You can't sleep?
+Dialogue: 0,0:07:47.76,0:07:50.81,Bullet_Main,ren,0000,0000,0000,,So you knew what {\i1}Tenchu Girls{\i0} was, too?
+Dialogue: 0,0:07:51.32,0:07:55.13,Bullet_Main,tina,0000,0000,0000,,Enju-san showed me the whole first season.
+Dialogue: 0,0:07:55.13,0:07:57.91,Bullet_Main,,0000,0000,0000,,I saw the soul of japanimation.
+Dialogue: 0,0:07:57.91,0:07:59.41,Bullet_Main,ren,0000,0000,0000,,You'd take it that far?
+Dialogue: 0,0:08:03.90,0:08:07.49,Bullet_Main,tina,0000,0000,0000,,I'm grateful to you, Rentaro-san.
+Dialogue: 0,0:08:08.54,0:08:10.89,Bullet_Main,tina,0000,0000,0000,,This life is like a dream that I'd never
+Dialogue: 0,0:08:10.89,0:08:15.13,Bullet_Main,,0000,0000,0000,,be able to experience if I were\Nstill with Professor Rand.
+Dialogue: 0,0:08:15.13,0:08:15.98,Bullet_Main,ren,0000,0000,0000,,Tina...
+Dialogue: 0,0:08:16.87,0:08:22.43,Bullet_Main,tina,0000,0000,0000,,I always wanted an older \Nbrother like you, Rentaro-san.
+Dialogue: 0,0:08:23.96,0:08:26.65,Bullet_Main,tina,0000,0000,0000,,May I call you "Onii-san"?
+Dialogue: 0,0:08:26.94,0:08:28.65,Bullet_Main,ren,0000,0000,0000,,S-Sure...
+Dialogue: 0,0:08:28.65,0:08:29.78,Bullet_Main,enju,0000,0000,0000,,Tina!
+Dialogue: 0,0:08:31.84,0:08:34.15,Bullet_Main,enju,0000,0000,0000,,No headstarts!
+Dialogue: 0,0:08:42.70,0:08:46.42,Bullet_Main,tina,0000,0000,0000,,Onii-san, don't you have something \Nyou want to talk about?
+Dialogue: 0,0:08:49.82,0:08:50.69,Bullet_Main,ren,0000,0000,0000,,Yeah...
+Dialogue: 0,0:08:52.08,0:08:55.30,Bullet_Main,tina,0000,0000,0000,,The Monolith is being destroyed?
+Dialogue: 0,0:08:55.30,0:08:56.56,Bullet_Main,ren,0000,0000,0000,,You're not surprised?
+Dialogue: 0,0:08:56.56,0:08:57.70,Bullet_Main,tina,0000,0000,0000,,I am surprised.
+Dialogue: 0,0:08:58.09,0:09:01.43,Bullet_Main,tina,0000,0000,0000,,But that doesn't change what we must do.
+Dialogue: 0,0:09:01.43,0:09:04.28,Bullet_Main,ren,0000,0000,0000,,Yeah... I'm going to tell Enju, as well,
+Dialogue: 0,0:09:04.81,0:09:08.23,Bullet_Main,ren,0000,0000,0000,,but knowing her, she'll say \Nshe wants to fight, too.
+Dialogue: 0,0:09:09.47,0:09:11.01,Bullet_Main,ren,0000,0000,0000,,You're okay with that?
+Dialogue: 0,0:09:11.66,0:09:14.91,Bullet_Main,tina,0000,0000,0000,,The Tina Sprout that was rank 98
+Dialogue: 0,0:09:14.91,0:09:17.55,Bullet_Main,,0000,0000,0000,,has already died once, in that \Nbattle with you, Onii-san.
+Dialogue: 0,0:09:18.70,0:09:20.95,Bullet_Main,tina,0000,0000,0000,,The life I have now is a new one.
+Dialogue: 0,0:09:22.06,0:09:25.46,Bullet_Main,tina,0000,0000,0000,,Do with it whatever you wish.
+Dialogue: 0,0:09:27.75,0:09:31.65,Bullet_Main,ren,0000,0000,0000,,I thought we'd finally \Nsee some peaceful days...
+Dialogue: 0,0:09:34.18,0:09:40.51,Bullet_Main,ren,0000,0000,0000,,A year ago, Kisara-san and I set up the \NTendo Civil Security Agency for revenge.
+Dialogue: 0,0:09:41.77,0:09:46.23,Bullet_Main,ren,0000,0000,0000,,At the time, I had nothing but \Nmy hatred toward the Gastrea.
+Dialogue: 0,0:09:47.25,0:09:49.20,Bullet_Main,ren,0000,0000,0000,,When I first met Enju,
+Dialogue: 0,0:09:49.79,0:09:52.63,Bullet_Main,ren,0000,0000,0000,,she had been betrayed by \Nhumans so many times
+Dialogue: 0,0:09:52.63,0:09:55.49,Bullet_Main,,0000,0000,0000,,that her eyes were even colder \Nand more vacant than ours.
+Dialogue: 0,0:09:56.50,0:09:58.74,Bullet_Main,tina,0000,0000,0000,,And yet, only a year later...
+Dialogue: 0,0:10:00.29,0:10:02.82,Bullet_Main,ren,0000,0000,0000,,First, Enju and I changed,
+Dialogue: 0,0:10:03.44,0:10:06.76,Bullet_Main,,0000,0000,0000,,and that spread to Kisara-san.
+Dialogue: 0,0:10:07.75,0:10:11.26,Bullet_Main,Tina,0000,0000,0000,,President Tendo seems nice to begin with.
+Dialogue: 0,0:10:12.01,0:10:13.10,Bullet_Main,ren,0000,0000,0000,,Well, yeah...
+Dialogue: 0,0:10:14.50,0:10:16.38,Bullet_Main,ren,0000,0000,0000,,Anyway, you should go to bed.
+Dialogue: 0,0:10:17.41,0:10:20.49,Bullet_Main,tina,0000,0000,0000,,Then let me use your arm \Nas a pillow, Onii-san.
+Dialogue: 0,0:10:20.49,0:10:21.47,Bullet_Main,ren,0000,0000,0000,,Wha?
+Dialogue: 0,0:10:35.24,0:10:37.70,Bullet_Main,kisa,0000,0000,0000,,Good morning, Satomi-kun! I'm coming in.
+Dialogue: 0,0:10:38.12,0:10:39.94,Bullet_Main,enju,0000,0000,0000,,Good morning, Kisara.
+Dialogue: 0,0:10:39.94,0:10:41.26,Bullet_Main,ren,0000,0000,0000,,Good morning...
+Dialogue: 0,0:10:41.26,0:10:44.58,Bullet_Main,,0000,0000,0000,,Except, can't you say you're \Ncoming in {\i1}before{\i0} you come in?
+Dialogue: 0,0:10:44.86,0:10:49.08,Bullet_Main,kisa,0000,0000,0000,,Shut up. I've come to take Tina-chan back.
+Dialogue: 0,0:10:49.42,0:10:51.58,Bullet_Main,kisa,0000,0000,0000,,Huh? Where's Tina-chan?
+Dialogue: 0,0:10:51.94,0:10:53.79,Bullet_Main,ren,0000,0000,0000,,Um...
+Dialogue: 0,0:11:00.65,0:11:02.58,Bullet_Main,tina,0000,0000,0000,,Good morning.
+Dialogue: 0,0:11:03.11,0:11:06.24,Bullet_Main,tina,0000,0000,0000,,Wasn't last night fun, Onii-san?
+Dialogue: 0,0:11:06.81,0:11:09.47,Bullet_Main,tina,0000,0000,0000,,It was a little scary at times,
+Dialogue: 0,0:11:09.47,0:11:11.81,Bullet_Main,,0000,0000,0000,,but I was happy that you \Ntaught me new things.
+Dialogue: 0,0:11:12.17,0:11:12.92,Bullet_Main,ren,0000,0000,0000,,Tina...
+Dialogue: 0,0:11:15.93,0:11:18.32,Bullet_Main,kisa,0000,0000,0000,,I'm calling the police...
+Dialogue: 0,0:11:18.63,0:11:19.80,Bullet_Main,ren,0000,0000,0000,,Hold on a second!
+Dialogue: 0,0:11:19.80,0:11:22.28,Bullet_Main,,0000,0000,0000,,I was just talking to the \Nnight version of Tina.
+Dialogue: 0,0:11:22.28,0:11:24.98,Bullet_Main,kisa,0000,0000,0000,,What do you mean, \N"night version," you pervert?!
+Dialogue: 0,0:11:24.98,0:11:27.35,Bullet_Main,enju,0000,0000,0000,,Tina beat me to it!
+Dialogue: 0,0:11:28.29,0:11:30.25,Bullet_Main,tina,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:11:38.29,0:11:42.22,Bullet_Announcer,reporter,0000,0000,0000,,The Tokyo Area leader of the movement \Nto expel the Cursed Children
+Dialogue: 0,0:11:42.22,0:11:45.76,Bullet_Announcer,reporter,0000,0000,0000,,was attacked and killed late last night.
+Dialogue: 0,0:11:46.37,0:11:51.02,Bullet_Announcer,reporter,0000,0000,0000,,According to eyewitnesses, the suspect \Nwas a child from the outer district...
+Dialogue: 0,0:11:51.26,0:11:55.52,Bullet_Announcer,person,0000,0000,0000,,This is bound to have an adverse affect on \Nthe public opinion of the Cursed Children.
+Dialogue: 0,0:11:55.94,0:12:00.28,Bullet_Announcer,person,0000,0000,0000,,There is surely no chance of the \NNew Gastrea Law passing now.
+Dialogue: 0,0:12:02.40,0:12:05.95,Bullet_Main,tina,0000,0000,0000,,Onii-san, were you on the \Nphone with Matsuzaki-san?
+Dialogue: 0,0:12:05.95,0:12:08.54,Bullet_Main,ren,0000,0000,0000,,Well, it's been pretty dangerous \Nsince that incident.
+Dialogue: 0,0:12:09.82,0:12:11.47,Bullet_Main,tina,0000,0000,0000,,I'm fine.
+Dialogue: 0,0:12:12.24,0:12:13.58,Bullet_Main,ren,0000,0000,0000,,You're not tired today?
+Dialogue: 0,0:12:14.07,0:12:18.55,Bullet_Main,tina,0000,0000,0000,,I've been gradually shifting \Nto a more diurnal lifestyle.
+Dialogue: 0,0:12:20.16,0:12:21.73,Bullet_Main,tina,0000,0000,0000,,Where are we headed?
+Dialogue: 0,0:12:21.73,0:12:22.95,Bullet_Main,ren,0000,0000,0000,,To recruit people.
+Dialogue: 0,0:12:22.95,0:12:24.70,Bullet_Main,ren,0000,0000,0000,,This time, it won't be just a pair,
+Dialogue: 0,0:12:24.70,0:12:27.89,Bullet_Main,,0000,0000,0000,,but we'll be fighting the \Narmy of Gastrea as a team.
+Dialogue: 0,0:12:28.36,0:12:29.89,Bullet_Main,ren,0000,0000,0000,,If I don't gather people for the team,
+Dialogue: 0,0:12:29.89,0:12:31.73,Bullet_Main,,0000,0000,0000,,we won't even be able to \Nparticipate in the battle.
+Dialogue: 0,0:12:32.00,0:12:34.00,Bullet_Main,tina,0000,0000,0000,,But why did you bring me with you?
+Dialogue: 0,0:12:35.13,0:12:36.88,Bullet_Main,ren,0000,0000,0000,,I don't really have any other
+Dialogue: 0,0:12:36.88,0:12:40.15,Bullet_Main,,0000,0000,0000,,opportunities to show you \Naround the Tokyo Area.
+Dialogue: 0,0:12:41.68,0:12:42.73,Bullet_Main,ren,0000,0000,0000,,Where do you want to go?
+Dialogue: 0,0:12:43.83,0:12:46.74,Bullet_Main,tina,0000,0000,0000,,A date with Onii-san...
+Dialogue: 0,0:12:47.88,0:12:48.98,Bullet_Main,ren,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:12:48.98,0:12:50.22,Bullet_Main,tina,0000,0000,0000,,Onii-san!
+Dialogue: 0,0:13:31.18,0:13:32.37,Bullet_Main,ren,0000,0000,0000,,Sorry...
+Dialogue: 0,0:13:32.74,0:13:35.19,Bullet_Main,,0000,0000,0000,,That's about all I can get you.
+Dialogue: 0,0:13:35.19,0:13:36.12,Bullet_Main,tina,0000,0000,0000,,No...
+Dialogue: 0,0:13:36.73,0:13:38.00,Bullet_Main,,0000,0000,0000,,This is fine.
+Dialogue: 0,0:13:38.58,0:13:40.39,Bullet_Main,tina,0000,0000,0000,,I will treasure it for the rest of my life.
+Dialogue: 0,0:13:44.22,0:13:45.87,Bullet_Main,tina,0000,0000,0000,,I hear a song.
+Dialogue: 0,0:13:52.96,0:13:54.77,Bullet_Main,ren,0000,0000,0000,,Y-You...
+Dialogue: 0,0:13:54.77,0:13:57.55,cursed_child_13:54,sign,0000,0000,0000,,{\fad(1,250)}I am a \NCursed Child \Nfrom the \NOuter District
+Dialogue: 0,0:14:02.23,0:14:03.77,Bullet_Main,ren,0000,0000,0000,,What happened to your eyes?
+Dialogue: 0,0:14:04.45,0:14:07.15,Bullet_Main,,0000,0000,0000,,I thought Cursed Children \Nwere immune to diseases...
+Dialogue: 0,0:14:14.32,0:14:16.36,Bullet_Main,girl,0000,0000,0000,,I poured lead into them.
+Dialogue: 0,0:14:16.98,0:14:21.42,Bullet_Main,girl,0000,0000,0000,,My mother, who abandoned me, \Nhated my red eyes.
+Dialogue: 0,0:14:27.30,0:14:30.26,Bullet_Main,girl,0000,0000,0000,,Are you a Cursed Child, too?
+Dialogue: 0,0:14:30.61,0:14:32.56,Bullet_Main,tina,0000,0000,0000,,How did you know?
+Dialogue: 0,0:14:32.92,0:14:34.15,Bullet_Main,girl,0000,0000,0000,,You're so pretty...
+Dialogue: 0,0:14:34.63,0:14:38.64,Bullet_Main,girl,0000,0000,0000,,I have to rely on others to survive,
+Dialogue: 0,0:14:38.64,0:14:43.49,Bullet_Main,,0000,0000,0000,,so I don't know how to \Ndo anything but smile.
+Dialogue: 0,0:14:46.27,0:14:47.53,Bullet_Main,girl,0000,0000,0000,,Thank you...
+Dialogue: 0,0:14:51.33,0:14:52.67,Bullet_Main,person,0000,0000,0000,,Man, you're terrible.
+Dialogue: 0,0:14:52.67,0:14:54.54,Bullet_Main,person,0000,0000,0000,,I'm not. You are.
+Dialogue: 0,0:14:55.10,0:14:57.99,Bullet_Main,ren,0000,0000,0000,,You shouldn't come around here for a while.
+Dialogue: 0,0:14:57.99,0:15:00.65,Bullet_Main,girl,0000,0000,0000,,But I have a little sister...
+Dialogue: 0,0:15:07.07,0:15:09.30,Bullet_Main,girl,0000,0000,0000,,All this? But why?
+Dialogue: 0,0:15:09.58,0:15:11.74,Bullet_Main,ren,0000,0000,0000,,Don't worry about it! Just promise me!
+Dialogue: 0,0:15:13.08,0:15:13.98,Bullet_Main,girl,0000,0000,0000,,Okay...
+Dialogue: 0,0:15:25.26,0:15:26.94,Bullet_Main,demo,0000,0000,0000,,Don't forgive the Gastrea!
+Dialogue: 0,0:15:26.94,0:15:29.29,Bullet_Main,echo,0000,0000,0000,,Don't forgive the Gastrea!
+Dialogue: 0,0:15:29.29,0:15:31.48,Bullet_Main,demo,0000,0000,0000,,Throw out the Cursed Children!
+Dialogue: 0,0:15:31.48,0:15:34.07,Bullet_Main,echo,0000,0000,0000,,Throw out the Cursed Children!
+Dialogue: 0,0:15:34.07,0:15:36.14,Bullet_Main,demo,0000,0000,0000,,Don't forgive the Gastrea!
+Dialogue: 0,0:15:35.45,0:15:38.20,don't_forgive_15:35,sign,0000,0000,0000,,Don't let the Gastrea factor live!!
+Dialogue: 0,0:15:36.14,0:15:38.20,Bullet_Main,echo,0000,0000,0000,,Don't forgive the Gastrea!
+Dialogue: 0,0:15:38.20,0:15:40.96,Bullet_Main,demo,0000,0000,0000,,Throw out the Cursed Children!
+Dialogue: 0,0:15:38.20,0:15:40.96,rejected_15:38,scrolly,0000,0000,0000,,New Gastrea Law Rejected
+Dialogue: 0,0:15:40.96,0:15:43.21,Katagiri_15:40,sign,0000,0000,0000,,Katagiri Civil Security Agency
+Dialogue: 0,0:15:40.96,0:15:43.21,broken_15:40,small,0000,0000,0000,,Broken
+Dialogue: 0,0:15:46.37,0:15:48.21,Bullet_Main,tina,0000,0000,0000,,Is this really the place?
+Dialogue: 0,0:15:51.50,0:15:54.09,Bullet_Main,ren,0000,0000,0000,,Hey, anyone home?
+Dialogue: 0,0:15:54.24,0:15:56.93,Bullet_Main,yuzuki,0000,0000,0000,,Hey! It's the pervert, Satomi Rentaro!
+Dialogue: 0,0:15:57.06,0:15:58.56,Bullet_Main,ren,0000,0000,0000,,It's Katagiri's little sister.
+Dialogue: 0,0:15:58.56,0:16:00.93,Bullet_Main,yuzu,0000,0000,0000,,It's Yuzuki! You damn fucking pervert!
+Dialogue: 0,0:16:01.62,0:16:03.35,Bullet_Main,ren,0000,0000,0000,,It's been a while.
+Dialogue: 0,0:16:03.35,0:16:05.06,Bullet_Main,ren,0000,0000,0000,,I haven't seen you since the Kagetane fiasco,
+Dialogue: 0,0:16:05.06,0:16:06.40,Bullet_Main,,0000,0000,0000,,so about three months?
+Dialogue: 0,0:16:06.40,0:16:08.34,Bullet_Main,yuzu,0000,0000,0000,,I hear you've made it big.
+Dialogue: 0,0:16:08.34,0:16:10.82,Bullet_Main,yuzu,0000,0000,0000,,What do you want? Did you come to brag?
+Dialogue: 0,0:16:10.82,0:16:13.78,Bullet_Main,ren,0000,0000,0000,,I wanted to talk to your brother about a job!
+Dialogue: 0,0:16:14.08,0:16:16.74,Bullet_Main,yuzu,0000,0000,0000,,We don't want any jobs from a pervert!
+Dialogue: 0,0:16:22.16,0:16:26.36,Bullet_Main,ren,0000,0000,0000,,Looks like business is good, \Nolder brother Katagiri.
+Dialogue: 0,0:16:26.36,0:16:28.30,Bullet_Main,tama,0000,0000,0000,,No need for sarcasm, boy.
+Dialogue: 0,0:16:29.20,0:16:30.54,Bullet_Main,tama,0000,0000,0000,,What do you want?
+Dialogue: 0,0:16:30.93,0:16:32.38,Bullet_Main,ren,0000,0000,0000,,Well...
+Dialogue: 0,0:16:32.38,0:16:33.80,Bullet_Main,tama,0000,0000,0000,,Want me to guess?
+Dialogue: 0,0:16:34.22,0:16:37.96,Bullet_Main,tama,0000,0000,0000,,That damn fucking scenario with the Monolith \Ngetting destroyed is hanging over you,
+Dialogue: 0,0:16:37.96,0:16:41.18,Bullet_Main,tama,0000,0000,0000,,so you have to go around trying \Nto recruit people for an adjuvant,
+Dialogue: 0,0:16:41.52,0:16:44.56,Bullet_Main,tama,0000,0000,0000,,but you've been turned down \Neverywhere else, so you came here.
+Dialogue: 0,0:16:45.70,0:16:46.94,Bullet_Main,tama,0000,0000,0000,,How's that?
+Dialogue: 0,0:16:47.72,0:16:49.21,Bullet_Main,ren,0000,0000,0000,,Right on the money.
+Dialogue: 0,0:16:49.21,0:16:51.80,Bullet_Main,tama,0000,0000,0000,,Well, a young upstart like yourself is hated
+Dialogue: 0,0:16:51.80,0:16:54.36,Bullet_Main,,0000,0000,0000,,by all the civil officers in the Area.
+Dialogue: 0,0:16:54.36,0:16:55.70,Bullet_Main,ren,0000,0000,0000,,Shut up.
+Dialogue: 0,0:16:55.70,0:16:57.96,Bullet_Main,tama,0000,0000,0000,,So... when's it going to be destroyed,
+Dialogue: 0,0:16:57.96,0:16:59.20,Bullet_Main,,0000,0000,0000,,and how many enemies are there?
+Dialogue: 0,0:16:59.20,0:17:01.56,Bullet_Main,ren,0000,0000,0000,,It hasn't been on the news yet,
+Dialogue: 0,0:17:01.56,0:17:03.17,Bullet_Main,,0000,0000,0000,,but it'll be destroyed four days from now.
+Dialogue: 0,0:17:03.17,0:17:04.21,Bullet_Main,ren,0000,0000,0000,,The enemy numbers 2,000.
+Dialogue: 0,0:17:04.21,0:17:05.37,Bullet_Main,yuzu,0000,0000,0000,,Four days from now?
+Dialogue: 0,0:17:06.58,0:17:08.46,Bullet_Main,tama,0000,0000,0000,,Two thousand?!
+Dialogue: 0,0:17:10.50,0:17:12.14,Bullet_Main,tama,0000,0000,0000,,The exit's back there.
+Dialogue: 0,0:17:12.14,0:17:14.84,Bullet_Main,,0000,0000,0000,,Yuzuki, our guests are leaving now.
+Dialogue: 0,0:17:14.84,0:17:17.89,Bullet_Main,ren,0000,0000,0000,,If we don't do anything, \Nthe Tokyo Area is finished!
+Dialogue: 0,0:17:18.40,0:17:19.85,Bullet_Main,ren,0000,0000,0000,,You'll both die, as well!
+Dialogue: 0,0:17:23.45,0:17:26.73,Bullet_Main,tama,0000,0000,0000,,Aldebaran is a terrible monster.
+Dialogue: 0,0:17:27.45,0:17:31.63,Bullet_Main,tama,0000,0000,0000,,The story about that thing turning three cities \Ninto wastelands is famous, you know.
+Dialogue: 0,0:17:32.30,0:17:35.34,Bullet_Main,tama,0000,0000,0000,,So what's the government going to give me
+Dialogue: 0,0:17:35.34,0:17:38.15,Bullet_Main,,0000,0000,0000,,in return for facing that thing?
+Dialogue: 0,0:17:38.67,0:17:42.70,Bullet_Main,ren,0000,0000,0000,,A promotion in rank, and \Nsomewhat of a reward, probably.
+Dialogue: 0,0:17:43.28,0:17:44.80,Bullet_Main,tama,0000,0000,0000,,That's damn fucking bullshit!
+Dialogue: 0,0:17:44.80,0:17:47.31,Bullet_Main,tama,0000,0000,0000,,You want us to risk our lives for that?
+Dialogue: 0,0:17:47.65,0:17:49.64,Bullet_Main,ren,0000,0000,0000,,You can probably negotiate \Na little on the reward...
+Dialogue: 0,0:17:49.64,0:17:53.05,Bullet_Main,tama,0000,0000,0000,,You don't get it, boy. It's not about money.
+Dialogue: 0,0:17:54.39,0:17:57.55,Bullet_Main,ren,0000,0000,0000,,Then how about fighting for me?
+Dialogue: 0,0:18:02.42,0:18:04.59,Bullet_Main,tama,0000,0000,0000,,F-For you?
+Dialogue: 0,0:18:02.65,0:18:05.93,Bullet_Main,yuzu,0000,0000,0000,,The pervert... The pervert asks us to fight for him?
+Dialogue: 0,0:18:06.20,0:18:07.68,Bullet_Main,tina,0000,0000,0000,,Onii-san, they're...
+Dialogue: 0,0:18:06.72,0:18:08.30,Bullet_Main,tama,0000,0000,0000,,{\a6}That's great!
+Dialogue: 0,0:18:10.81,0:18:11.70,Bullet_Main,tama,0000,0000,0000,,Huh?
+Dialogue: 0,0:18:15.77,0:18:17.00,Bullet_Main,tama,0000,0000,0000,,Huh...
+Dialogue: 0,0:18:17.56,0:18:20.00,Bullet_Main,,0000,0000,0000,,You've changed in the short time \Nsince I've seen you.
+Dialogue: 0,0:18:20.56,0:18:22.82,Bullet_Main,tama,0000,0000,0000,,I forgot to mention one thing.
+Dialogue: 0,0:18:22.82,0:18:26.13,Bullet_Main,tama,0000,0000,0000,,I won't work for anyone weaker than me.
+Dialogue: 0,0:18:26.90,0:18:28.77,Bullet_Main,ren,0000,0000,0000,,Yeah, I know.
+Dialogue: 0,0:18:31.93,0:18:36.37,Bullet_Main,yuzuki,0000,0000,0000,,Rank 1,850, Model Spider, Katagiri Yuzuki!
+Dialogue: 0,0:18:36.71,0:18:40.59,Bullet_Main,tama,0000,0000,0000,,Also rank 1,850, Katagiri Tamaki.
+Dialogue: 0,0:18:41.15,0:18:43.35,Bullet_Main,ren,0000,0000,0000,,Sorry to drag you into this, Tina.
+Dialogue: 0,0:18:43.70,0:18:46.58,Bullet_Main,tina,0000,0000,0000,,Onii-san, if we're going \Nto do this, let's win.
+Dialogue: 0,0:18:48.36,0:18:49.98,Bullet_Main,tina,0000,0000,0000,,Formation Delta.
+Dialogue: 0,0:18:50.84,0:18:54.15,Bullet_Main,tama,0000,0000,0000,,What are those weird things \Nfloating around you?
+Dialogue: 0,0:18:56.26,0:18:59.02,Bullet_Main,tina,0000,0000,0000,,I am a Model Owl, Tina Sprout.
+Dialogue: 0,0:18:59.66,0:19:01.87,Bullet_Main,tina,0000,0000,0000,,My rank is currently being revoked, \Nso I don't have one.
+Dialogue: 0,0:19:02.22,0:19:04.99,Bullet_Main,ren,0000,0000,0000,,Rank 300, Satomi Rentaro!
+Dialogue: 0,0:19:04.99,0:19:07.51,Bullet_Main,yuzu,0000,0000,0000,,What do you mean, "300"? \NYou're just a pervert!
+Dialogue: 0,0:19:07.51,0:19:09.96,Bullet_Main,tama,0000,0000,0000,,Come on, let's dance, boy!
+Dialogue: 0,0:19:20.92,0:19:22.35,Bullet_Main,ren,0000,0000,0000,,Homura
+Dialogue: 0,0:19:23.53,0:19:24.50,Bullet_Main,,0000,0000,0000,,Kasen!
+Dialogue: 0,0:19:30.45,0:19:31.92,Bullet_Main,ren,0000,0000,0000,,A Varanium chainsaw?
+Dialogue: 0,0:19:31.92,0:19:34.50,Bullet_Main,tama,0000,0000,0000,,You realized that too late, boy.
+Dialogue: 0,0:19:42.12,0:19:43.27,Bullet_Italics,ren,0000,0000,0000,,A spider's thread?
+Dialogue: 0,0:19:43.75,0:19:46.99,Bullet_Italics,ren,0000,0000,0000,,I see... His sunglasses allow him to see that...
+Dialogue: 0,0:19:47.28,0:19:48.96,Bullet_Main,tama,0000,0000,0000,,You can't run!
+Dialogue: 0,0:19:49.63,0:19:51.90,Bullet_Main,tama,0000,0000,0000,,Die, you bastard!
+Dialogue: 0,0:19:59.21,0:20:01.99,Bullet_Main,ren,0000,0000,0000,,Inzen: Shoka Hanameishi!
+Dialogue: 0,0:20:07.42,0:20:08.64,Bullet_Main,tama,0000,0000,0000,,You bastard!
+Dialogue: 0,0:20:09.03,0:20:10.98,Bullet_Main,,0000,0000,0000,,If that had been anyone \Nbut me, they'd be dead!
+Dialogue: 0,0:20:10.98,0:20:11.91,Bullet_Main,ren,0000,0000,0000,,You're still alive?
+Dialogue: 0,0:20:11.91,0:20:13.20,Bullet_Main,tama,0000,0000,0000,,You got a problem with that?!
+Dialogue: 0,0:20:14.89,0:20:18.48,Bullet_Main,tama,0000,0000,0000,,Looks like the girls are almost \Ndone with their fight, too.
+Dialogue: 0,0:20:20.49,0:20:22.19,Bullet_Main,tama,0000,0000,0000,,Looks like the winner's been decided...
+Dialogue: 0,0:20:22.19,0:20:23.16,Bullet_Main,,0000,0000,0000,,Take a look at this.
+Dialogue: 0,0:20:28.57,0:20:29.84,Bullet_Main,yuzu,0000,0000,0000,,Just give up!
+Dialogue: 0,0:20:29.84,0:20:31.88,Bullet_Main,,0000,0000,0000,,You have no chance of winning!
+Dialogue: 0,0:20:33.43,0:20:35.38,Bullet_Main,yuzu,0000,0000,0000,,Don't blame me if you get hurt!
+Dialogue: 0,0:20:50.50,0:20:52.03,Bullet_Main,tama,0000,0000,0000,,What the hell?
+Dialogue: 0,0:20:52.03,0:20:53.44,Bullet_Main,ren,0000,0000,0000,,Looks like the winner's been decided...
+Dialogue: 0,0:20:55.20,0:20:57.18,Bullet_Main,tina,0000,0000,0000,,Please stand, Yuzuki-san.
+Dialogue: 0,0:20:59.60,0:21:01.53,Bullet_Main,yuzu,0000,0000,0000,,You're strong.
+Dialogue: 0,0:21:02.12,0:21:05.57,Bullet_Main,yuzu,0000,0000,0000,,I'd just be in your way if I were \Npart of the adjuvant, wouldn't I?
+Dialogue: 0,0:21:05.94,0:21:07.44,Bullet_Main,tina,0000,0000,0000,,That's not true.
+Dialogue: 0,0:21:07.90,0:21:10.45,Bullet_Main,tina,0000,0000,0000,,I think you can be proud that you were able
+Dialogue: 0,0:21:10.45,0:21:13.37,Bullet_Main,,0000,0000,0000,,to give me that much trouble \Nwhen I formerly ranked at 98.
+Dialogue: 0,0:21:13.37,0:21:15.33,Bullet_Main,yuzu,0000,0000,0000,,N-Ninety-eight?!
+Dialogue: 0,0:21:15.33,0:21:16.52,Bullet_Main,tama,0000,0000,0000,,Seriously?
+Dialogue: 0,0:21:19.45,0:21:20.97,Bullet_Main,tina,0000,0000,0000,,Katagiri Yuzuki-san,
+Dialogue: 0,0:21:21.40,0:21:24.47,Bullet_Main,tina,0000,0000,0000,,please join Onii-san's adjuvant.
+Dialogue: 0,0:21:25.02,0:21:28.72,Bullet_Main,yuzu,0000,0000,0000,,I love you, Tina-yan! \NYou're so strong and cool!
+Dialogue: 0,0:21:28.72,0:21:31.56,Bullet_Main,yuzu,0000,0000,0000,,Marry me!
+Dialogue: 0,0:21:32.49,0:21:33.68,Bullet_Main,ren,0000,0000,0000,,Did we pass?
+Dialogue: 0,0:21:34.72,0:21:36.69,Bullet_Main,tama,0000,0000,0000,,Do you really have to ask?
+Dialogue: 0,0:23:29.01,0:23:39.02,Bullet_Next_Ep_Title,title,0000,0000,0000,,#09 The Protectors of the Barrier
+Dialogue: 0,0:23:29.49,0:23:31.36,Bullet_Main,ren,0000,0000,0000,,The freedom to see a bigger world
+Dialogue: 0,0:23:31.36,0:23:33.36,Bullet_Main,,0000,0000,0000,,where we don't have to be \Nfrightened by the Gastrea...
+Dialogue: 0,0:23:33.36,0:23:34.61,Bullet_Main,kisa,0000,0000,0000,,It's begun, Satomi-kun.
+Dialogue: 0,0:23:34.61,0:23:36.64,Bullet_Main,shoma,0000,0000,0000,,A battle without glory or enjoyment
+Dialogue: 0,0:23:36.64,0:23:38.53,Bullet_Main,shoma,0000,0000,0000,,is rather boring, whether you win or lose.

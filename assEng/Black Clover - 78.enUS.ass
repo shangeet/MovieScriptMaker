@@ -1,0 +1,400 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H00F7FCFD,&H000000FF,&H00070805,&H000D1728,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0085,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_4194_20_C_Team_The_Coral,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_6730_49_Captain_of_the_A,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_7061_51_A_Team_Coral_Pea,Times New Roman,20,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0150,1
+Style: sign_9194_75_Yay____Yay____,Times New Roman,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_10224_102_Sol___Kirsch___M,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0375,0070,0205,1
+Style: sign_10224_104_Cesc___Adrian___,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0055,0385,0205,1
+Style: sign_10224_103_C_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0425,0135,0060,1
+Style: sign_10224_105_D_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0130,0420,0060,1
+Style: sign_10482_94_Green_Praying_Ma,Times New Roman,20,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_10657_102_Roland,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0050,0520,0205,1
+Style: sign_10657_103_Nix,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0235,0370,0205,1
+Style: sign_10657_104_Wainsley,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0105,0445,0225,1
+Style: sign_14555_151_4_years_ago,Times New Roman,28,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0085,1
+Style: sign_15736_152_Sandler,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0060,0505,0205,1
+Style: sign_15736_154_Solid,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0135,0455,0225,1
+Style: sign_15736_155_O_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0110,0440,0060,1
+Style: sign_15736_156_En___Noelle___Yu,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0070,0205,1
+Style: sign_15736_157_P_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0435,0115,0060,1
+Style: sign_16988_180_Cherry_Blossom_M,Trebuchet MS,22,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0140,1
+Style: sign_28966_288_The_Blue_Rose_Kn,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32241D26,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_29885_315_C_Team_The_Coral,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32424340,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0150,1
+Style: sign_30215_308_Rob,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0040,0560,0200,1
+Style: sign_30215_309_Francis,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0105,0465,0220,1
+Style: sign_30215_310_Winston,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0210,0345,0200,1
+Style: sign_30215_312_Puli,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0210,0200,1
+Style: sign_30215_313_Klaus,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0460,0125,0220,1
+Style: sign_30215_314_Luck,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0550,0040,0200,1
+Style: sign_30215_315_K_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0415,0135,0060,1
+Style: sign_33322_360_Bathroom_,Verdana,28,&H007F9096,&H000000FF,&H32233248,&H0087C2CE,-1,0,0,0,100,100,0,0,1,2,3,2,0110,0030,0270,1
+Style: sign_33436_362_Bathroom,Verdana,10,&H0045403D,&H000000FF,&H3256ADB3,&H0087C2CE,-1,0,0,0,100,100,0,-8,1,3,0,2,0210,0260,0315,1
+Style: sign_33402_326_Noms_,Comic Sans MS,20,&H00393B47,&H000000FF,&H32D1C9CF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0080,1
+Style: sign_33615_332_Noms,Comic Sans MS,28,&H001D1C1F,&H000000FF,&H3261919A,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_9784_85_Xerx,Times New Roman,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0113,0461,0254,1
+Style: sign_9784_86_Mimosa,Times New Roman,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0072,0460,0186,1
+Style: sign_9784_87_Asta,Times New Roman,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0114,0464,0113,1
+Style: sign_9784_88_Kirsch,Times New Roman,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0442,0106,0282,1
+Style: sign_9784_89_Sol,Times New Roman,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0423,0175,0217,1
+Style: sign_9784_90_Magna,Times New Roman,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0424,0122,0132,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:06.66,0:00:10.90,italics,Nar,0000,0000,0000,,It appeared as though humanity \Nwould be destroyed by the demons.
+Dialogue: 0,0:00:14.98,0:00:19.29,italics,Nar,0000,0000,0000,,But a single mage saved them all.
+Dialogue: 0,0:00:26.42,0:00:31.59,italics,Nar,0000,0000,0000,,He was called the Wizard King,\Nand he became a legend.
+Dialogue: 0,0:00:35.18,0:00:38.53,italics,Nar,0000,0000,0000,,The sixth round of the first stage of \Nthe Royal Knights Selection Exam...
+Dialogue: 0,0:00:38.53,0:00:41.99,main,Klaus,0000,0000,0000,,Steel Creation Magic: Full Metal Fortress!
+Dialogue: 0,0:00:41.99,0:00:45.06,main,Luck,0000,0000,0000,,Lightning Magic: Thunderbolt Destruction!
+Dialogue: 0,0:00:46.97,0:00:48.61,main,Puli,0000,0000,0000,,Wing Magic...
+Dialogue: 0,0:00:48.61,0:00:51.19,main,Puli,0000,0000,0000,,Angel Flapping!
+Dialogue: 0,0:00:51.19,0:00:52.32,main,Klaus,0000,0000,0000,,Go, Luck!
+Dialogue: 0,0:00:53.30,0:00:55.24,italics,Luck,0000,0000,0000,,This is so much fun!
+Dialogue: 0,0:00:56.45,0:00:57.41,italics,Luck,0000,0000,0000,,More...
+Dialogue: 0,0:00:58.37,0:00:59.83,main,Luck,0000,0000,0000,,Let's play some more!
+Dialogue: 0,0:01:00.31,0:01:03.87,italics,Nar,0000,0000,0000,,Luck shows an extraordinary \Namount of growth and teamwork,
+Dialogue: 0,0:01:03.87,0:01:05.75,italics,Nar,0000,0000,0000,,giving K Team their victory.
+Dialogue: 0,0:01:05.75,0:01:08.33,italics,Nar,0000,0000,0000,,In the eighth and final round \Nof the first stage...
+Dialogue: 0,0:01:08.33,0:01:11.46,main,Asta,0000,0000,0000,,Time for Yuno and Noelle's team!
+Dialogue: 0,0:01:11.46,0:01:13.22,main,Noelle,0000,0000,0000,,Solid...
+Dialogue: 0,0:01:13.22,0:01:15.67,italics,Nar,0000,0000,0000,,A House of Silva battle \Nbetween Noelle and Solid...
+Dialogue: 0,0:01:15.67,0:01:20.39,italics,Nar,0000,0000,0000,,And a battle between Yuno, \Nwho is favored by Vangeance,
+Dialogue: 0,0:01:20.39,0:01:26.73,italics,Nar,0000,0000,0000,,and Alecdora, who resents him over that fact.\NTwo battles filled with bad blood.
+Dialogue: 0,0:01:26.73,0:01:30.82,main,Alec,0000,0000,0000,,I'm the one who will make \NMaster Vangeance's dream come true!
+Dialogue: 0,0:01:31.13,0:01:34.33,main,Yuno,0000,0000,0000,,Wind Magic: Towering Tornado!
+Dialogue: 0,0:01:35.62,0:01:38.32,main,Yuno,0000,0000,0000,,I don't know anything about \Nother people's dreams.
+Dialogue: 0,0:01:38.68,0:01:42.03,main,Yuno,0000,0000,0000,,The only dreams I see are my own.
+Dialogue: 0,0:01:42.03,0:01:44.41,main,Noelle,0000,0000,0000,,Sea Dragon's Roar!
+Dialogue: 0,0:01:47.50,0:01:50.42,main,Guy,0000,0000,0000,,The crystal has been destroyed! P Team wins!
+Dialogue: 0,0:01:50.42,0:01:53.41,main,Noelle,0000,0000,0000,,I'm not weak anymore!
+Dialogue: 0,0:02:21.34,0:02:27.02,Ep Title,Sign,0000,0000,0000,,Peasant Trap
+Dialogue: 0,0:03:28.89,0:03:29.94,main,Solid,0000,0000,0000,,Impossible...
+Dialogue: 0,0:03:30.67,0:03:32.65,main,Solid,0000,0000,0000,,Im...possible...
+Dialogue: 0,0:03:34.73,0:03:39.01,main,Alec,0000,0000,0000,,My ultimate spell was so easily...
+Dialogue: 0,0:03:39.01,0:03:44.11,main,Alec,0000,0000,0000,,He didn't even use his spirit magic.\NHe wasn't even serious.
+Dialogue: 0,0:03:44.67,0:03:48.37,main,Alec,0000,0000,0000,,I will be the one to make Master \NVangeance's dreams come true.
+Dialogue: 0,0:03:50.18,0:03:51.37,main,Yuno,0000,0000,0000,,Once you elites trip up,
+Dialogue: 0,0:03:52.35,0:03:53.85,main,Yuno,0000,0000,0000,,you're so weak.
+Dialogue: 0,0:03:54.38,0:03:57.75,main,Asta,0000,0000,0000,,Yes! Great job winning, Yuno!
+Dialogue: 0,0:03:57.75,0:03:59.28,main,Yuno,0000,0000,0000,,You too, weed.
+Dialogue: 0,0:03:59.28,0:04:00.63,main,Asta,0000,0000,0000,,Who are you calling a weed?!
+Dialogue: 0,0:04:01.15,0:04:03.02,main,Charmy,0000,0000,0000,,Great job, Yuno!
+Dialogue: 0,0:04:03.02,0:04:06.04,main,Charmy,0000,0000,0000,,Y-You were so cool!
+Dialogue: 0,0:04:06.04,0:04:09.06,main,Charmy,0000,0000,0000,,Here's your usual after-battle dessert.
+Dialogue: 0,0:04:09.54,0:04:11.98,italics,Yuno,0000,0000,0000,,Replenishing my energy is important.
+Dialogue: 0,0:04:14.04,0:04:16.40,main,Yuno,0000,0000,0000,,Thanks. I'll be sure to savor it.
+Dialogue: 0,0:04:16.40,0:04:18.90,italics,Yuno,0000,0000,0000,,Thanks! I'll be sure to savor it!
+Dialogue: 0,0:04:24.23,0:04:25.03,main,Yuno,0000,0000,0000,,It's good.
+Dialogue: 0,0:04:26.98,0:04:29.61,main,Charmy,0000,0000,0000,,La...
+Dialogue: 0,0:04:30.02,0:04:32.37,main,Asta,0000,0000,0000,,You okay, Miz Charmy?!
+Dialogue: 0,0:04:32.37,0:04:33.79,main,Charmy,0000,0000,0000,,La...
+Dialogue: 0,0:04:34.29,0:04:38.22,main,Bell,0000,0000,0000,,What the heck?! Who do you \Nthink you are, you fivehead?!
+Dialogue: 0,0:04:38.22,0:04:41.54,main,Bell,0000,0000,0000,,I'll suffocate you by stuffing \Nmy scales into your nostrils!
+Dialogue: 0,0:04:41.54,0:04:44.55,main,Bell,0000,0000,0000,,Take that, and that, and that!
+Dialogue: 0,0:04:42.98,0:04:44.55,main,Asta,0000,0000,0000,,She'll be fine.
+Dialogue: 0,0:04:46.51,0:04:49.86,main,En,0000,0000,0000,,That was fantastic, Noelle.
+Dialogue: 0,0:04:49.86,0:04:52.57,main,En,0000,0000,0000,,I didn't know you were that amazing.
+Dialogue: 0,0:04:52.57,0:04:56.39,main,Noelle,0000,0000,0000,,You're totally different when \Nyou're using your mushrooms.
+Dialogue: 0,0:04:57.10,0:04:58.19,main,Noelle,0000,0000,0000,,But...
+Dialogue: 0,0:04:58.69,0:05:02.96,flashbackitalics,En,0000,0000,0000,,I heard Solid's remarks before the match.
+Dialogue: 0,0:05:02.96,0:05:06.20,flashbackitalics,En,0000,0000,0000,,A big brother should never say \Nsuch things to his little sister.
+Dialogue: 0,0:05:06.99,0:05:13.20,flashback,Mushroom,0000,0000,0000,,Big brothers exist to protect the younger, \Nweaker siblings born after them.
+Dialogue: 0,0:05:13.94,0:05:17.06,flashback,Mush,0000,0000,0000,,And yet you've only said \Nhurtful things to her!
+Dialogue: 0,0:05:17.06,0:05:20.46,flashback,Mush,0000,0000,0000,,Get him, Noelle! Thrash your brother!
+Dialogue: 0,0:05:21.70,0:05:25.47,main,Noelle,0000,0000,0000,,Well, you know... Thanks for earlier.
+Dialogue: 0,0:05:28.11,0:05:29.85,main,En,0000,0000,0000,,You did a great job.
+Dialogue: 0,0:05:31.38,0:05:35.10,main,Noelle,0000,0000,0000,,Hey, what do you think you're doing?!\N I'm royalty, you know!
+Dialogue: 0,0:05:37.39,0:05:39.19,main,En,0000,0000,0000,,Let's do our best in the next match, too.
+Dialogue: 0,0:05:39.19,0:05:43.29,italics,Noelle,0000,0000,0000,,Thanks to my Mana Skin training, \NI have much better control over my mana.
+Dialogue: 0,0:05:44.30,0:05:48.07,italics,Noelle,0000,0000,0000,,I'm going to keep this up and be \Nselected as one of the Royal Knights!
+Dialogue: 0,0:05:48.61,0:05:52.20,main,Julius,0000,0000,0000,,Wow, so many excellent matches.
+Dialogue: 0,0:05:52.51,0:05:54.37,main,Julius,0000,0000,0000,,I can't wait until the next one!
+Dialogue: 0,0:05:54.37,0:05:56.87,main,King,0000,0000,0000,,Entertain me more.
+Dialogue: 0,0:05:57.98,0:06:01.88,italics,King,0000,0000,0000,,To think both of the peasants who humiliated \Nme made it through the first stage...
+Dialogue: 0,0:06:02.30,0:06:04.17,italics,King,0000,0000,0000,,Hurry up and lose already.
+Dialogue: 0,0:06:04.57,0:06:07.59,main,Julius,0000,0000,0000,,Why don't we jump right into stage two?
+Dialogue: 0,0:06:07.59,0:06:09.39,main,Julius,0000,0000,0000,,But before that...
+Dialogue: 0,0:06:10.31,0:06:12.10,main,Julius,0000,0000,0000,,I'm counting on you guys.
+Dialogue: 0,0:06:12.10,0:06:13.31,main,All,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:06:25.70,0:06:27.74,main,Finral,0000,0000,0000,,The stage is changing!
+Dialogue: 0,0:06:28.29,0:06:30.21,main,Asta,0000,0000,0000,,Holy crap!
+Dialogue: 0,0:06:32.24,0:06:34.65,main,Julius,0000,0000,0000,,It's easier to judge your abilities when
+Dialogue: 0,0:06:34.65,0:06:37.34,main,Julius,0000,0000,0000,,you're forced to fight in\Na variety of situations.
+Dialogue: 0,0:06:40.38,0:06:41.39,main,Charmy,0000,0000,0000,,I'm back.
+Dialogue: 0,0:06:41.39,0:06:42.63,main,Julius,0000,0000,0000,,Welcome back.
+Dialogue: 0,0:06:43.31,0:06:47.34,main,Julius,0000,0000,0000,,Now, then... For stage two,\N you'll be fighting upon this stage.
+Dialogue: 0,0:06:48.05,0:06:50.38,sign_9784_85_Xerx,Sign,0000,0000,0000,,{\blur3}Xerx
+Dialogue: 0,0:06:48.05,0:06:50.38,sign_9784_86_Mimosa,Sign,0000,0000,0000,,{\blur3}Mimosa
+Dialogue: 0,0:06:48.05,0:06:50.38,sign_9784_87_Asta,Sign,0000,0000,0000,,{\blur3}Asta
+Dialogue: 0,0:06:48.05,0:06:50.38,sign_9784_88_Kirsch,Sign,0000,0000,0000,,{\blur3}Kirsch
+Dialogue: 0,0:06:48.05,0:06:50.38,sign_9784_89_Sol,Sign,0000,0000,0000,,{\blur3}Sol
+Dialogue: 0,0:06:48.05,0:06:50.38,sign_9784_90_Magna,Sign,0000,0000,0000,,{\blur3}Magna
+Dialogue: 0,0:06:51.66,0:06:55.33,main,Kirsch,0000,0000,0000,,The stage may have changed, \Nbut my beauty remains the same.
+Dialogue: 0,0:06:55.33,0:06:56.66,main,Both,0000,0000,0000,,Yeah, yeah...
+Dialogue: 0,0:06:56.66,0:06:59.75,main,Kirsch,0000,0000,0000,,The same goes for the fate of you filth.
+Dialogue: 0,0:06:59.75,0:07:02.69,main,Kirsch,0000,0000,0000,,I'll make sure there's no trace of \Nyou left. I hope you're prepared.
+Dialogue: 0,0:07:02.69,0:07:05.22,main,Asta,0000,0000,0000,,Hey, I'm not that easy to get rid of!
+Dialogue: 0,0:07:05.22,0:07:08.11,main,Mimosa,0000,0000,0000,,Asta isn't filth!
+Dialogue: 0,0:07:08.11,0:07:10.65,main,Mimosa,0000,0000,0000,,You're the one who should \Nbe prepared, Brother!
+Dialogue: 0,0:07:10.65,0:07:14.54,main,Magna,0000,0000,0000,,Asta! No holding back, you got it?!
+Dialogue: 0,0:07:14.54,0:07:17.01,main,Asta,0000,0000,0000,,Wouldn't dream of it, Magna!
+Dialogue: 0,0:07:17.01,0:07:19.49,main,Sol,0000,0000,0000,,At least you're spirited, Funglasquent.
+Dialogue: 0,0:07:19.49,0:07:21.42,main,Magna,0000,0000,0000,,Stop calling me Funglasquent!
+Dialogue: 0,0:07:22.35,0:07:25.92,main,Xerx,0000,0000,0000,,Welp, looks like we're \Nfacing off with royalty.
+Dialogue: 0,0:07:26.39,0:07:29.18,main,Xerx,0000,0000,0000,,Let's do our best with teamwork again, guys!
+Dialogue: 0,0:07:30.75,0:07:35.14,main,Asta,0000,0000,0000,,You looked anxious when they \Nshifted the stage around.
+Dialogue: 0,0:07:35.14,0:07:37.89,main,Asta,0000,0000,0000,,You probably have other \Ntraps set up, don't you?
+Dialogue: 0,0:07:38.99,0:07:44.35,italics,Xerx,0000,0000,0000,,This brat... That's right. He can read other people's ki or whatever.
+Dialogue: 0,0:07:46.37,0:07:48.94,main,Xerx,0000,0000,0000,,You're right. You see...
+Dialogue: 0,0:07:48.94,0:07:52.84,main,Xerx,0000,0000,0000,,I set up a bunch of traps \Naround the stage yesterday.
+Dialogue: 0,0:07:53.46,0:07:57.33,main,Xerx,0000,0000,0000,,I heard intel that the \Nexam would be held here.
+Dialogue: 0,0:07:58.41,0:08:04.50,italics,Mimosa,0000,0000,0000,,Intel? But the location of the Royal Knights \NSelection Exam must've been top secret.
+Dialogue: 0,0:08:05.03,0:08:06.79,italics,Mimosa,0000,0000,0000,,Who in the world are you?
+Dialogue: 0,0:08:06.79,0:08:08.55,main,Asta,0000,0000,0000,,You set them up yesterday?
+Dialogue: 0,0:08:08.55,0:08:11.41,main,Asta,0000,0000,0000,,So you {\i1}are{\i0} cheating, you bastard!
+Dialogue: 0,0:08:11.41,0:08:13.54,main,Xerx,0000,0000,0000,,What makes you think that, you dumb shit?
+Dialogue: 0,0:08:13.54,0:08:16.06,main,Xerx,0000,0000,0000,,Gathering intel counts as an ability.
+Dialogue: 0,0:08:16.66,0:08:20.14,main,Xerx,0000,0000,0000,,Was there a rule against setting \Ntraps up the day before?
+Dialogue: 0,0:08:20.14,0:08:23.14,main,Xerx,0000,0000,0000,,Well? They haven't called \Nme out on it, have they?
+Dialogue: 0,0:08:25.66,0:08:27.63,italics,Mimosa,0000,0000,0000,,And he already got argued into silence.
+Dialogue: 0,0:08:27.63,0:08:30.51,italics,Mimosa,0000,0000,0000,,This side of Asta is adorable, too.
+Dialogue: 0,0:08:30.51,0:08:34.31,main,Asta,0000,0000,0000,,Then tell us where the traps are,\Nsince we're on your team!
+Dialogue: 0,0:08:34.31,0:08:35.81,main,Asta,0000,0000,0000,,We can at least help you out!
+Dialogue: 0,0:08:36.42,0:08:37.91,main,Xerx,0000,0000,0000,,Not happening.
+Dialogue: 0,0:08:37.91,0:08:40.92,main,Xerx,0000,0000,0000,,If I tell you, our enemies \Nwill probably figure it out.
+Dialogue: 0,0:08:41.34,0:08:43.21,italics,Mimosa,0000,0000,0000,,I can't... argue with that.
+Dialogue: 0,0:08:43.68,0:08:46.46,main,Xerx,0000,0000,0000,,I'll handle this my own way.
+Dialogue: 0,0:08:48.22,0:08:52.79,main,Asta,0000,0000,0000,,Fine! Then I'll handle things \Nmy own way, too, ya jerk!
+Dialogue: 0,0:08:52.79,0:08:55.17,main,Finral,0000,0000,0000,,They seem to be arguing about something.
+Dialogue: 0,0:08:55.17,0:08:56.97,main,Vanessa,0000,0000,0000,,I wonder if they'll be okay.
+Dialogue: 0,0:08:57.11,0:08:59.12,sign_9194_75_Yay____Yay____,Gordon/subs,0000,0000,0000,,{\blur3}They do say that the more you fight,\Nthe closer you are.
+Dialogue: 0,0:08:59.49,0:09:01.99,sign_9194_75_Yay____Yay____,Gordon/subs,0000,0000,0000,,{\blur3}You should fight with me, too, \Nsomeday. In a friendly way.
+Dialogue: 0,0:09:02.22,0:09:07.40,main,Xerx,0000,0000,0000,,Hopefully you can think up something \Nwith that shitty little brain of yours.
+Dialogue: 0,0:09:08.71,0:09:10.98,main,Asta,0000,0000,0000,,My brain's so big that my \Nskull can barely contain it!
+Dialogue: 0,0:09:10.98,0:09:14.77,main,Mimosa,0000,0000,0000,,Indeed! The only thing small \Nabout Asta is his height.
+Dialogue: 0,0:09:14.77,0:09:16.61,main,Asta,0000,0000,0000,,Yeah! Hey, wait!
+Dialogue: 0,0:09:18.65,0:09:19.45,main,Guy,0000,0000,0000,,And now...
+Dialogue: 0,0:09:19.78,0:09:25.79,main,Guy,0000,0000,0000,,B Team: Xerx, Mimosa, and Asta \Nversus C Team: Kirsch, Sol, and Magna.
+Dialogue: 0,0:09:26.33,0:09:29.21,top,Guy,0000,0000,0000,,Round one of stage two... Begin!
+Dialogue: 0,0:09:27.96,0:09:31.00,sign_10224_102_Sol___Kirsch___M,Sign,0000,0000,0000,,{\blur3}Xerx   Mimosa   Asta
+Dialogue: 0,0:09:27.96,0:09:31.00,sign_10224_103_C_Team,Sign,0000,0000,0000,,{\blur3}B Team
+Dialogue: 0,0:09:27.96,0:09:31.00,sign_10224_104_Cesc___Adrian___,Sign,0000,0000,0000,,{\blur3}Magna   Sol   Kirsch
+Dialogue: 0,0:09:27.96,0:09:31.00,sign_10224_105_D_Team,Sign,0000,0000,0000,,{\blur3}C Team
+Dialogue: 0,0:09:38.51,0:09:42.14,main,Kirsch,0000,0000,0000,,Mimosa... It seems she's \Nlost sight of herself after
+Dialogue: 0,0:09:42.14,0:09:44.62,main,Kirsch,0000,0000,0000,,being exposed to such \Nboorish mana for so long.
+Dialogue: 0,0:09:44.62,0:09:45.85,main,Kirsch,0000,0000,0000,,The poor dear.
+Dialogue: 0,0:09:46.33,0:09:51.70,main,Kirsch,0000,0000,0000,,I'll free you from those filthy wretches \Nbefore you even have a chance to fight.
+Dialogue: 0,0:09:58.32,0:09:59.99,main,Kirsch,0000,0000,0000,,Cherry Blossom Magic:
+Dialogue: 0,0:09:59.99,0:10:05.42,main,Kirsch,0000,0000,0000,,Magic Cherry Blossom Storm of Petals \N~Plus My Beautiful Illusion~.
+Dialogue: 0,0:10:08.50,0:10:10.71,main,Julius,0000,0000,0000,,Ah, it's in full bloom.
+Dialogue: 0,0:10:10.71,0:10:14.05,main,Charmy,0000,0000,0000,,It's so pretty! Time for \Na flower-viewing party!
+Dialogue: 0,0:10:14.92,0:10:16.18,main,Charmy,0000,0000,0000,,Here you go.
+Dialogue: 0,0:10:17.45,0:10:23.67,main,Kirsch,0000,0000,0000,,Now, repent your filthy selves \Nwithin my beautiful spell!
+Dialogue: 0,0:10:26.66,0:10:28.56,italics,Mimosa,0000,0000,0000,,Here he comes.
+Dialogue: 0,0:10:28.88,0:10:34.69,italics,Mimosa,0000,0000,0000,,I talked big, but I can't think of \Na way to break through this spell.
+Dialogue: 0,0:10:35.00,0:10:37.08,italics,Xerx,0000,0000,0000,,It's better to sit tight for now.
+Dialogue: 0,0:10:37.08,0:10:40.32,italics,Xerx,0000,0000,0000,,We're better off waiting for them \Nto set off the magic traps.
+Dialogue: 0,0:10:40.32,0:10:44.83,italics,Asta,0000,0000,0000,,What an awesome spell. I can't see a thing.
+Dialogue: 0,0:10:45.31,0:10:47.83,italics,Asta,0000,0000,0000,,I guess this is the only way.
+Dialogue: 0,0:10:49.14,0:10:50.21,main,Mimosa,0000,0000,0000,,Asta?
+Dialogue: 0,0:10:57.49,0:11:00.22,italics,Asta,0000,0000,0000,,All right... Here it comes.
+Dialogue: 0,0:11:00.54,0:11:04.47,italics,Julius,0000,0000,0000,,Oh? Looks like something \Namazing's about to happen.
+Dialogue: 0,0:11:07.98,0:11:12.48,italics,Asta,0000,0000,0000,,Good... That's it. Go even deeper.
+Dialogue: 0,0:11:13.77,0:11:14.94,main,Mimosa,0000,0000,0000,,Asta?
+Dialogue: 0,0:11:17.43,0:11:20.93,italics,Asta,0000,0000,0000,,More... More intense...
+Dialogue: 0,0:11:25.47,0:11:29.41,italics,Mimosa,0000,0000,0000,,Wh-What is this? It's not magic...
+Dialogue: 0,0:11:29.87,0:11:32.12,italics,Mimosa,0000,0000,0000,,It's so powerful, intense,
+Dialogue: 0,0:11:32.58,0:11:33.46,italics,Mimosa,0000,0000,0000,,and...
+Dialogue: 0,0:11:33.87,0:11:35.30,italics,Mimosa,0000,0000,0000,,ominous.
+Dialogue: 0,0:11:37.46,0:11:39.26,main,Asta,0000,0000,0000,,Here I go!
+Dialogue: 0,0:11:44.92,0:11:47.81,main,Asta,0000,0000,0000,,Black Hurricane!
+Dialogue: 0,0:11:49.97,0:11:54.02,main,Xerx,0000,0000,0000,,The cherry blossoms... Wait, forget that!\NThe traps I'd set up...
+Dialogue: 0,0:11:57.86,0:11:59.56,main,Finral,0000,0000,0000,,A-Asta...
+Dialogue: 0,0:11:59.56,0:12:01.26,main,Vanessa,0000,0000,0000,,This is from back then.
+Dialogue: 0,0:12:01.26,0:12:02.76,sign_9194_75_Yay____Yay____,Gordon/subs,0000,0000,0000,,{\blur3}So this is it.
+Dialogue: 0,0:12:02.76,0:12:05.39,sign_9194_75_Yay____Yay____,Gordon/subs,0000,0000,0000,,{\blur3}I knew he had been training ever \Nsince he went to the volcano,
+Dialogue: 0,0:12:05.39,0:12:06.76,sign_9194_75_Yay____Yay____,Gordon/subs,0000,0000,0000,,{\blur3}but to think his power was this immense!
+Dialogue: 0,0:12:06.76,0:12:08.87,sign_9194_75_Yay____Yay____,Gordon/subs,0000,0000,0000,,{\blur3}Way to go, Asta, my BFF!
+Dialogue: 0,0:12:09.49,0:12:12.03,main,Finral,0000,0000,0000,,The cherry blossoms are being erased!
+Dialogue: 0,0:12:21.05,0:12:24.97,main,Kirsch,0000,0000,0000,,Impossible... What is \Nthat horrific black mass?
+Dialogue: 0,0:12:35.90,0:12:40.65,main,Sol,0000,0000,0000,,That little shrimp... blew away \Nall the magic in the area.
+Dialogue: 0,0:12:43.21,0:12:46.23,main,Mimosa,0000,0000,0000,,Th-That's amazing, Asta!
+Dialogue: 0,0:12:46.23,0:12:48.49,main,Xerx,0000,0000,0000,,What the hell did you do, you little shit?
+Dialogue: 0,0:12:50.09,0:12:53.79,main,Asta,0000,0000,0000,,I think I just heard the \Nreal you for the first time.
+Dialogue: 0,0:12:55.42,0:12:58.54,main,Asta,0000,0000,0000,,Come on! Let's fight together!
+Dialogue: 0,0:12:59.49,0:13:01.30,main,Xerx,0000,0000,0000,,You little shit.
+Dialogue: 0,0:13:03.19,0:13:07.05,main,Kirsch,0000,0000,0000,,Th-This isn't beautiful.
+Dialogue: 0,0:13:07.66,0:13:09.32,main,King,0000,0000,0000,,What is this?
+Dialogue: 0,0:13:09.32,0:13:11.85,main,King,0000,0000,0000,,What in the world is going on?
+Dialogue: 0,0:13:12.92,0:13:15.22,main,Yuno,0000,0000,0000,,Asta's going to continue to get stronger.
+Dialogue: 0,0:13:16.30,0:13:18.15,italics,Yuno,0000,0000,0000,,And so will I!
+Dialogue: 0,0:13:18.51,0:13:22.53,main,Julius,0000,0000,0000,,Looks like Asta's learned \Nanother interesting power.
+Dialogue: 0,0:13:22.53,0:13:23.94,main,Charmy,0000,0000,0000,,Here you go.
+Dialogue: 0,0:13:24.65,0:13:26.78,main,Xerx,0000,0000,0000,,What the hell do you think you're doing?
+Dialogue: 0,0:13:27.25,0:13:30.14,main,Xerx,0000,0000,0000,,You just erased all the traps I'd set up!
+Dialogue: 0,0:13:31.86,0:13:34.87,main,Asta,0000,0000,0000,,Yeah, I guess that's a bit of a problem.
+Dialogue: 0,0:13:36.99,0:13:38.33,main,Asta,0000,0000,0000,,So...
+Dialogue: 0,0:13:38.75,0:13:40.75,main,Asta,0000,0000,0000,,Think up a strategy for us!
+Dialogue: 0,0:13:40.75,0:13:43.36,main,Asta,0000,0000,0000,,One that'll let all three of us win!
+Dialogue: 0,0:13:43.36,0:13:44.43,main,Xerx,0000,0000,0000,,Huh?!
+Dialogue: 0,0:13:44.43,0:13:47.05,main,Asta,0000,0000,0000,,You're tricky and clever, so I'm \Nsure you can think of something!
+Dialogue: 0,0:13:47.05,0:13:51.30,main,Asta,0000,0000,0000,,From now on, think up some sneaky \Nstrategies fair and square!
+Dialogue: 0,0:13:52.54,0:13:55.02,main,Xerx,0000,0000,0000,,The hell? That's a contradiction.
+Dialogue: 0,0:13:56.02,0:13:59.10,italics,Mimosa,0000,0000,0000,,Thank goodness. Asta is \Nacting the same as usual.
+Dialogue: 0,0:13:59.41,0:14:03.62,main,Xerx,0000,0000,0000,,Just use that power of yours \Nand defeat them yourself.
+Dialogue: 0,0:14:03.62,0:14:05.03,main,Xerx,0000,0000,0000,,Why do I have to do this?
+Dialogue: 0,0:14:06.85,0:14:12.99,main,Asta,0000,0000,0000,,Too bad for you! Once I use that power, \NI can't use it again for a while!
+Dialogue: 0,0:14:12.99,0:14:15.55,main,Xerx,0000,0000,0000,,Why do you sound so happy, you little shit?
+Dialogue: 0,0:14:15.55,0:14:17.50,main,Xerx,0000,0000,0000,,Are you messed up in the head?
+Dialogue: 0,0:14:18.47,0:14:21.95,main,Asta,0000,0000,0000,,I want to fight as a team, ya jerk!
+Dialogue: 0,0:14:21.95,0:14:24.38,main,Asta,0000,0000,0000,,I don't care if you set up traps yesterday!
+Dialogue: 0,0:14:24.38,0:14:27.67,main,Asta,0000,0000,0000,,Just let Mimosa and me in on it!
+Dialogue: 0,0:14:28.88,0:14:31.68,main,Asta,0000,0000,0000,,We're fighting to be selected \Nas the Royal Knights who'll
+Dialogue: 0,0:14:31.68,0:14:34.48,main,Asta,0000,0000,0000,,fight against the Eye of the \NMidnight Sun, aren't we?
+Dialogue: 0,0:14:34.48,0:14:38.37,main,Asta,0000,0000,0000,,No one can fight them alone! \NNot me or anyone else!
+Dialogue: 0,0:14:38.37,0:14:43.52,main,Asta,0000,0000,0000,,I want to work with all the powerful guys \Nhere and beat some other powerful people!
+Dialogue: 0,0:14:45.56,0:14:46.36,flashbackitalics,Dad,0000,0000,0000,,Zora,
+Dialogue: 0,0:14:47.58,0:14:50.07,flashback,Dad,0000,0000,0000,,the Magic Knights are amazing.
+Dialogue: 0,0:14:50.38,0:14:54.08,flashback,Dad,0000,0000,0000,,But no matter how amazing they are, \Neven a Magic Knight can't fight alone.
+Dialogue: 0,0:14:54.79,0:14:57.86,flashback,Dad,0000,0000,0000,,They trust their companions and \Novercome deadly situations together!
+Dialogue: 0,0:15:01.88,0:15:05.53,main,Asta,0000,0000,0000,,Besides, one of the powerful \Nguys we're up against now
+Dialogue: 0,0:15:05.53,0:15:08.80,main,Asta,0000,0000,0000,,is royalty and the vice captain \Nof the Coral Peacocks!
+Dialogue: 0,0:15:08.80,0:15:12.53,main,Asta,0000,0000,0000,,We have to hit 'em with all we've got!
+Dialogue: 0,0:15:15.03,0:15:18.60,main,Asta,0000,0000,0000,,Ow! What the heck was that for, ya jerk?!
+Dialogue: 0,0:15:19.19,0:15:22.10,main,Xerx,0000,0000,0000,,I have no intention of \Ngetting chummy with a royal.
+Dialogue: 0,0:15:23.93,0:15:26.23,main,Xerx,0000,0000,0000,,But for the sake of my goal...
+Dialogue: 0,0:15:26.71,0:15:30.74,main,Xerx,0000,0000,0000,,I can't think of any way around it, \Nso I'll use you, you little shit.
+Dialogue: 0,0:15:32.66,0:15:36.20,main,Asta,0000,0000,0000,,That's fine with me, as long as we fight \Ntogether, you cool-masked jerk!
+Dialogue: 0,0:15:40.36,0:15:44.89,main,Xerx,0000,0000,0000,,As you know, my magic attribute is ash.
+Dialogue: 0,0:15:44.89,0:15:47.09,main,Xerx,0000,0000,0000,,My specialty is trap spells.
+Dialogue: 0,0:15:47.99,0:15:49.88,main,Xerx,0000,0000,0000,,But that doesn't mean I can instantly
+Dialogue: 0,0:15:49.88,0:15:52.76,main,Xerx,0000,0000,0000,,set up big traps like the one \NI used in the last match.
+Dialogue: 0,0:15:53.49,0:15:57.06,main,Xerx,0000,0000,0000,,Setting big traps takes time and mana,\Nand how much you put into them
+Dialogue: 0,0:15:57.06,0:15:59.21,main,Xerx,0000,0000,0000,,determines their power.
+Dialogue: 0,0:15:59.21,0:16:01.27,main,Xerx,0000,0000,0000,,Like I said, I pulled an all-nighter.
+Dialogue: 0,0:16:01.27,0:16:03.60,italics,Both,0000,0000,0000,,You were serious about that?!
+Dialogue: 0,0:16:03.60,0:16:07.33,main,Xerx,0000,0000,0000,,And you went and thrashed them \Nall like they were nothing.
+Dialogue: 0,0:16:07.33,0:16:09.42,main,Asta,0000,0000,0000,,Yeah... Sorry about that.
+Dialogue: 0,0:16:09.42,0:16:11.61,main,Asta,0000,0000,0000,,What was I supposed to do, though?
+Dialogue: 0,0:16:11.61,0:16:17.50,main,Xerx,0000,0000,0000,,Let's see... There are three basic \Ntypes I could set up right now.
+Dialogue: 0,0:16:18.05,0:16:18.99,main,Asta,0000,0000,0000,,Oh?
+Dialogue: 0,0:16:19.35,0:16:22.16,main,Xerx,0000,0000,0000,,Number one: binding traps.
+Dialogue: 0,0:16:22.16,0:16:25.15,main,Xerx,0000,0000,0000,,Whoever touches the magic \Ncircle gets tied up.
+Dialogue: 0,0:16:26.63,0:16:29.00,main,Xerx,0000,0000,0000,,Number two: pitfall traps.
+Dialogue: 0,0:16:29.46,0:16:33.79,main,Xerx,0000,0000,0000,,Just like it sounds. Dig a hole \Nand drop someone into it.
+Dialogue: 0,0:16:35.10,0:16:37.62,main,Xerx,0000,0000,0000,,Number three: landmine traps.
+Dialogue: 0,0:16:37.62,0:16:40.58,main,Xerx,0000,0000,0000,,Make a simple attack spell \Nactivate on a certain spot.
+Dialogue: 0,0:16:42.78,0:16:45.32,main,Xerx,0000,0000,0000,,They'll all disappear after one use,
+Dialogue: 0,0:16:45.32,0:16:47.62,main,Xerx,0000,0000,0000,,and unless I take the time to \Npour lots of mana into them,
+Dialogue: 0,0:16:47.62,0:16:49.61,main,Xerx,0000,0000,0000,,they won't be all that powerful.
+Dialogue: 0,0:16:49.61,0:16:52.86,main,Xerx,0000,0000,0000,,So... What do we do?
+Dialogue: 0,0:16:53.41,0:16:55.82,main,Kirsch,0000,0000,0000,,U-Unbelievable...
+Dialogue: 0,0:16:55.82,0:17:01.74,main,Kirsch,0000,0000,0000,,My beautiful spell was defiled by \Nthat peasant's pitch-black thing.
+Dialogue: 0,0:17:02.29,0:17:04.58,main,Magna,0000,0000,0000,,I saw that coming.
+Dialogue: 0,0:17:05.25,0:17:08.59,main,Magna,0000,0000,0000,,He'd been practicing his \Ntechniques like crazy.
+Dialogue: 0,0:17:08.59,0:17:11.59,main,Magna,0000,0000,0000,,I knew he'd figure something out.
+Dialogue: 0,0:17:11.59,0:17:15.27,main,Magna,0000,0000,0000,,You're telling everyone not to \Nunderestimate peasants, aren't you, Asta?
+Dialogue: 0,0:17:15.27,0:17:17.21,main,Magna,0000,0000,0000,,I'm a peasant myself, but...
+Dialogue: 0,0:17:17.21,0:17:20.01,main,Kirsch,0000,0000,0000,,What?! You're also a peasant?
+Dialogue: 0,0:17:21.37,0:17:23.60,main,Magna,0000,0000,0000,,You got a problem with that, Mr. Royalty?
+Dialogue: 0,0:17:23.60,0:17:26.06,main,Kirsch,0000,0000,0000,,Eek! I'm going to be defiled!
+Dialogue: 0,0:17:26.06,0:17:28.52,main,Kirsch,0000,0000,0000,,I can't fight alongside a peasant!
+Dialogue: 0,0:17:31.71,0:17:33.29,main,Magna,0000,0000,0000,,Hey, what the... Wait a sec!
+Dialogue: 0,0:17:33.29,0:17:37.35,main,Magna,0000,0000,0000,,You damn narcissist! \NThe hell is your problem?!
+Dialogue: 0,0:17:37.81,0:17:41.45,main,Kirsch,0000,0000,0000,,I can handle this on my own! \NI'll finish them off myself!
+Dialogue: 0,0:17:41.45,0:17:44.53,main,Kirsch,0000,0000,0000,,You two, protect the crystal!
+Dialogue: 0,0:17:46.17,0:17:47.50,main,Magna,0000,0000,0000,,Is that so?
+Dialogue: 0,0:17:47.50,0:17:50.42,main,Magna,0000,0000,0000,,Fine. I'll just do whatever \Nthe hell I want, too.
+Dialogue: 0,0:17:50.42,0:17:55.34,main,Sol,0000,0000,0000,,Jeez... Could men be any dumber?
+Dialogue: 0,0:17:56.19,0:18:02.39,italics,Kirsch,0000,0000,0000,,Peasants are those with meager magic. \NThat also means they're unclean.
+Dialogue: 0,0:18:02.85,0:18:09.16,italics,Kirsch,0000,0000,0000,,They must not share the same stage as \Nus royals, the fairest of them all!
+Dialogue: 0,0:18:12.41,0:18:15.67,italics,Kirsch,0000,0000,0000,,Mimosa is heading toward our crystal.
+Dialogue: 0,0:18:16.37,0:18:19.91,italics,Kirsch,0000,0000,0000,,I can sense that Xerx \Nfellow's magic over here.
+Dialogue: 0,0:18:20.31,0:18:24.15,italics,Kirsch,0000,0000,0000,,As for that filth, I sense \Nabsolutely no magic from him.
+Dialogue: 0,0:18:24.15,0:18:25.95,italics,Kirsch,0000,0000,0000,,What kind of foul creature is he?
+Dialogue: 0,0:18:25.95,0:18:27.02,italics,Kirsch,0000,0000,0000,,Where did he...
+Dialogue: 0,0:18:29.53,0:18:32.13,main,Asta,0000,0000,0000,,Hey, here comes Mimosa's big bro!
+Dialogue: 0,0:18:32.13,0:18:34.29,main,Kirsch,0000,0000,0000,,There you are, you filthy boy!
+Dialogue: 0,0:18:35.55,0:18:39.41,main,Kirsch,0000,0000,0000,,Cherry Blossom Magic: Dance of the \NBeautiful Cherry Blossom Blades!
+Dialogue: 0,0:18:50.27,0:18:52.61,italics,Asta,0000,0000,0000,,Some got through those tiny little gaps!
+Dialogue: 0,0:18:52.61,0:18:56.11,main,Asta,0000,0000,0000,,Man, you really are strong!
+Dialogue: 0,0:18:56.85,0:18:58.90,main,Kirsch,0000,0000,0000,,Look at the unsightly way he's fleeing.
+Dialogue: 0,0:18:58.90,0:19:00.11,main,Kirsch,0000,0000,0000,,You won't get away!
+Dialogue: 0,0:19:03.03,0:19:06.47,main,Asta,0000,0000,0000,,Hey! Come get me!
+Dialogue: 0,0:19:07.66,0:19:09.85,italics,Kirsch,0000,0000,0000,,It's faint, but I sense magic.
+Dialogue: 0,0:19:09.85,0:19:12.75,italics,Kirsch,0000,0000,0000,,Is he trying to lure me into a trap?
+Dialogue: 0,0:19:13.21,0:19:16.19,main,Kirsch,0000,0000,0000,,I can see right through your unsightly ploy!
+Dialogue: 0,0:19:16.61,0:19:20.43,main,Kirsch,0000,0000,0000,,Cherry Blossom Magic: My Beautiful Clones!
+Dialogue: 0,0:19:25.98,0:19:27.64,main,Asta,0000,0000,0000,,The traps!
+Dialogue: 0,0:19:30.80,0:19:34.40,main,Kirsch,0000,0000,0000,,Did you actually think I'd \Nfall for such crude traps?
+Dialogue: 0,0:19:34.94,0:19:38.09,main,Kirsch,0000,0000,0000,,And you went into a narrow place where \Nyou'll have trouble swinging your sword,
+Dialogue: 0,0:19:38.09,0:19:41.32,main,Kirsch,0000,0000,0000,,with no place to run. You couldn't be uglier.
+Dialogue: 0,0:19:41.32,0:19:45.48,main,Asta,0000,0000,0000,,Damn it! I thought this \Nwas a great plan, too!
+Dialogue: 0,0:19:49.41,0:19:52.04,main,Kirsch,0000,0000,0000,,Wither and fall, you peasant!
+Dialogue: 0,0:20:03.90,0:20:06.18,main,Kirsch,0000,0000,0000,,Wh-What is this?
+Dialogue: 0,0:20:06.77,0:20:10.22,main,Kirsch,0000,0000,0000,,I'm certain I erased all of the trap spells.
+Dialogue: 0,0:20:12.73,0:20:14.07,main,Xerx,0000,0000,0000,,You moron!
+Dialogue: 0,0:20:15.47,0:20:19.70,main,Xerx,0000,0000,0000,,You keep counting on your magic detection\N'cause it has higher specs than ours.
+Dialogue: 0,0:20:19.70,0:20:22.63,main,Xerx,0000,0000,0000,,That's why you fell for our low-spec,
+Dialogue: 0,0:20:22.63,0:20:26.13,main,Xerx,0000,0000,0000,,plain and simple trap that \Nwe got all sweaty digging up.
+Dialogue: 0,0:20:27.12,0:20:29.26,main,Xerx,0000,0000,0000,,Some high and mighty royal.
+Dialogue: 0,0:20:29.79,0:20:33.18,italics,Kirsch,0000,0000,0000,,They physically dug this up \Nwithout using any magic?
+Dialogue: 0,0:20:33.73,0:20:39.21,main,Kirsch,0000,0000,0000,,How unsightly! I'll just fly \Nright out of this primitive—
+Dialogue: 0,0:20:40.83,0:20:43.16,main,Asta,0000,0000,0000,,I feel bad about doing \Nthis to Mimosa's big bro,
+Dialogue: 0,0:20:43.16,0:20:45.13,main,Asta,0000,0000,0000,,but I need you to pass out for a bit!
+Dialogue: 0,0:20:45.13,0:20:47.97,main,Kirsch,0000,0000,0000,,Stay back, filth!
+Dialogue: 0,0:20:50.14,0:20:51.64,italics,Kirsch,0000,0000,0000,,Anti-magic?
+Dialogue: 0,0:21:04.15,0:21:06.66,main,Asta,0000,0000,0000,,Now we finally feel like a team.
+Dialogue: 0,0:21:07.24,0:21:09.58,main,Xerx,0000,0000,0000,,I just used you, dummy.
+Dialogue: 0,0:22:46.01,0:22:50.51,sign_33083_276_Petit_Clover_,Sign,0000,0000,0000,,{\fad(1,520)}Pe{\c&H3BC020&}t{\c&HE2AF0F&}i{\c&H3BC020&}t C{\c&HE2AF0F&}l{\c&H3BC020&}o{\c&H0E42D4&}ve{\c&H3BC020&}r
+Dialogue: 0,0:22:46.67,0:22:49.34,main,All,0000,0000,0000,,Petit Clover!
+Dialogue: 0,0:22:50.01,0:22:54.01,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}The Life of a Narcissist
+Dialogue: 0,0:22:50.83,0:22:53.31,main,Kirsch,0000,0000,0000,,The Life of a Narcissist.
+Dialogue: 0,0:22:54.01,0:22:57.14,main,Lady,0000,0000,0000,,Please do stop crying, Master Kirsch.
+Dialogue: 0,0:22:57.14,0:23:01.15,italics,Mimosa,0000,0000,0000,,Ever since he was born, he was \Nonly interested in his own beauty.
+Dialogue: 0,0:23:01.99,0:23:06.10,main,Kirsch,0000,0000,0000,,No, no, no. No one is more beautiful than I.
+Dialogue: 0,0:23:06.10,0:23:08.92,italics,Mimosa,0000,0000,0000,,He couldn't be satisfied with the \Nbeauty of any of his wooers,
+Dialogue: 0,0:23:08.92,0:23:10.41,italics,Mimosa,0000,0000,0000,,so he spent his whole life single.
+Dialogue: 0,0:23:11.55,0:23:15.27,italics,Mimosa,0000,0000,0000,,Because of his warped personality, \Nhe was abandoned by those around him,
+Dialogue: 0,0:23:15.27,0:23:17.62,italics,Mimosa,0000,0000,0000,,and spent his later years alone.
+Dialogue: 0,0:23:18.34,0:23:23.13,italics,Kirsch,0000,0000,0000,,I-I'm thirsty... Oh? I'm so beautiful.
+Dialogue: 0,0:23:23.13,0:23:27.08,main,Kirsch,0000,0000,0000,,I'm still oh so beautiful.
+Dialogue: 0,0:23:28.26,0:23:31.23,italics,Mimosa,0000,0000,0000,,And so, his life came to a tragic end.
+Dialogue: 0,0:23:31.23,0:23:33.14,main,Kirsch,0000,0000,0000,,Still, I'm so beautiful.
+Dialogue: 0,0:23:33.14,0:23:36.98,main,Mimosa,0000,0000,0000,,I really wish I could make \Nyou come to a tragic end.
+Dialogue: 0,0:23:39.68,0:23:41.44,main,Xerx,0000,0000,0000,,Who cares about teammates?
+Dialogue: 0,0:23:41.83,0:23:45.52,main,Xerx,0000,0000,0000,,I'm only using everyone \Nto achieve my own goal.
+Dialogue: 0,0:23:45.52,0:23:51.10,main,Xerx,0000,0000,0000,,{\i1}Black Clover{\i0}, Page 79: \N"Mister Delinquent vs. Muscle Runt."
+Dialogue: 0,0:23:46.98,0:23:54.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 79\N\N{\fs18} Mister Delinquent vs. Muscle Runt
+Dialogue: 0,0:23:51.10,0:23:53.99,main,Xerx,0000,0000,0000,,Sneakily setting up traps is my magic.

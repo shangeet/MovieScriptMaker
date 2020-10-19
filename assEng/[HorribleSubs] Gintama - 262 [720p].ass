@@ -1,0 +1,441 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,40,40,35,1
+Style: Main01,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,40,40,35,1
+Style: Ep Title,Humana Sans Md ITC TT,27,&H0000FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,0030,0030,0015,0
+Style: Tsuzuku,Humana Sans Md ITC TT,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,6,0030,0030,0015,0
+Style: Side Bar Top,Humana Sans Md ITC TT,27,&H00FFFFFF,&H004B31E3,&H003507BC,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,0030,0030,0015,0
+Style: Side Bar Bottom,Humana Sans Md ITC TT,27,&H00FFFFFF,&H000102EF,&H003507BC,&H00000000,1,0,0,0,100,100,0,0,1,2,1,2,0030,0030,0015,0
+Style: School,Humana Sans Md ITC TT,27,&H00000000,&H000000FF,&H00CA8AA6,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,0030,0030,0015,0
+Style: Welcome,Humana Sans Md ITC TT,23,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0030,0030,0055,0
+Style: Movie,Humana Sans Md ITC TT,27,&H00E2E2E2,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,0030,0030,0015,0
+Style: Grave,Humana Sans Md ITC TT,27,&H00434341,&H000000FF,&H00B0AFA9,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,0030,0030,0015,0
+Style: Dojo,Humana Sans Md ITC TT,23,&H002E3C3C,&H000000FF,&H005D7079,&H00000000,0,0,0,0,100,100,0,0,1,2,1,9,0020,0120,0090,0
+Style: Backup,Humana Sans Md ITC TT,23,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0030,0030,0020,0
+Style: Sabers,Humana Sans Md ITC TT,27,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,0030,0030,0015,0
+Style: Galaxy,Humana Sans Md ITC TT,23,&H00000000,&H000000FF,&H00C2BDBE,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0030,0030,0020,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:01:31.52,0:01:34.90,Grave,Caption,0000,0000,0000,,Shimura Ken
+Dialogue: 0,0:01:33.25,0:01:36.38,Main01,Otae,0000,0000,0000,,Father, it's been a while.
+Dialogue: 0,0:01:36.79,0:01:39.20,Main01,Otae,0000,0000,0000,,Father, I have something \Nto tell you today.
+Dialogue: 0,0:01:39.54,0:01:42.01,Main01,Otae,0000,0000,0000,,I think it's time to begin.
+Dialogue: 0,0:01:42.69,0:01:45.28,Main01,Otae,0000,0000,0000,,I will become the character \NI was created to be.
+Dialogue: 0,0:01:46.72,0:01:50.67,Main01,Otae,0000,0000,0000,,It's time to restore the Kodokan \NDojo you left us, Father.
+Dialogue: 0,0:01:51.22,0:01:54.20,Main01,Otae,0000,0000,0000,,Sorry to make you wait 260 episodes.
+Dialogue: 0,0:01:54.20,0:01:56.63,Main01,Otae,0000,0000,0000,,It's not that I forgot my character.
+Dialogue: 0,0:01:56.63,0:01:58.21,Main01,Otae,0000,0000,0000,,And I wasn't tired of the role.
+Dialogue: 0,0:01:58.59,0:02:00.44,Main01,Otae,0000,0000,0000,,I had to save up money first.
+Dialogue: 0,0:02:01.07,0:02:05.31,Main01,Otae,0000,0000,0000,,I promise to make the dojo better \Nthan when you were still around.
+Dialogue: 0,0:02:05.76,0:02:07.10,Main01,Otae,0000,0000,0000,,Please support me.
+Dialogue: 0,0:02:08.04,0:02:08.81,Main01,Obi,0000,0000,0000,,Oh?
+Dialogue: 0,0:02:09.67,0:02:11.56,Main01,Obi,0000,0000,0000,,Are you Otae-chan?
+Dialogue: 0,0:02:12.23,0:02:18.26,Ep Title,EpTitle,0000,0000,0000,,The Sound of a Beam \NCan Pierce Every Heart
+Dialogue: 0,0:02:18.26,0:02:19.73,Dojo,Shin,0000,0000,0000,,Kodokan Dojo
+Dialogue: 0,0:02:18.82,0:02:21.62,Main01,Shin,0000,0000,0000,,What?! You want to \Nrecruit new students?!
+Dialogue: 0,0:02:21.62,0:02:25.31,Main01,Shin,0000,0000,0000,,S-Sis, I thought you forgot the \Noriginal purpose of your character!
+Dialogue: 0,0:02:25.31,0:02:28.87,Main01,Shin,0000,0000,0000,,Weren't you going to \Nfocus on your night dojo?
+Dialogue: 0,0:02:28.87,0:02:31.88,Main01,Otae,0000,0000,0000,,Please, do I really look like \Nsuch a heartless woman?
+Dialogue: 0,0:02:32.41,0:02:34.85,Main01,Otae,0000,0000,0000,,Do your best and let \Nnature take its course.
+Dialogue: 0,0:02:35.26,0:02:37.13,Main01,Otae,0000,0000,0000,,I went to Tsudaya the other day,
+Dialogue: 0,0:02:37.13,0:02:39.73,Main01,,0000,0000,0000,,and I received a signal \Nthat it was time.
+Dialogue: 0,0:02:39.73,0:02:42.59,Main01,Shin,0000,0000,0000,,It's because you rewatched volume 2 \Nof the DVDs and remembered!
+Dialogue: 0,0:02:43.33,0:02:45.86,Main01,Otae,0000,0000,0000,,I acquired a fair amount \Nof money in episode 200,
+Dialogue: 0,0:02:45.86,0:02:48.03,Main01,,0000,0000,0000,,so I think now is the ideal time.
+Dialogue: 0,0:02:48.03,0:02:50.06,Main01,Gin,0000,0000,0000,,What are you babbling about?
+Dialogue: 0,0:02:50.39,0:02:53.75,Main01,Gin,0000,0000,0000,,Nobody's gonna pay money to learn \Nhow to use a sword these days.
+Dialogue: 0,0:02:54.28,0:02:57.46,Main01,Gin,0000,0000,0000,,The age of using swords has ended.
+Dialogue: 0,0:02:57.96,0:03:01.49,Main01,Gin,0000,0000,0000,,It's now the age of much \Nyounger wives using Kato-chan.
+Dialogue: 0,0:03:01.49,0:03:03.62,Main01,Shin,0000,0000,0000,,When did we start talking \Nabout Kato-chan and Ken-chan?!
+Dialogue: 0,0:03:03.79,0:03:08.45,Main01,Kag,0000,0000,0000,,Kids don't dream about becoming \Nsamurai or ninja anymore.
+Dialogue: 0,0:03:08.78,0:03:12.19,Main01,Kag,0000,0000,0000,,They want to become \NKato-chan's wife or part of
+Dialogue: 0,0:03:12.19,0:03:14.58,Main01,,0000,0000,0000,,a backup band working up \Nto becoming an idol.
+Dialogue: 0,0:03:12.19,0:03:17.56,Backup,,0000,0000,0000,,My Future Dream: \NBackup Band
+Dialogue: 0,0:03:14.58,0:03:16.81,Main01,Shin,0000,0000,0000,,We don't live in an age \Nof evil conspiracies!
+Dialogue: 0,0:03:17.55,0:03:19.89,Main01,Otae,0000,0000,0000,,That's why this dojo is needed.
+Dialogue: 0,0:03:19.89,0:03:23.93,Main01,Otae,0000,0000,0000,,A part of ancient Japanese \Nculture is fading away.
+Dialogue: 0,0:03:24.64,0:03:29.35,Main01,Otae,0000,0000,0000,,It's our duty to protect it by passing \Nthis knowledge to the next generation.
+Dialogue: 0,0:03:29.35,0:03:33.10,Main01,Gin,0000,0000,0000,,But do you even know what \Na kendo glove smells like?
+Dialogue: 0,0:03:33.38,0:03:37.61,Main01,Gin,0000,0000,0000,,Those things should get a new job \Nas the straw used to wrap natto.
+Dialogue: 0,0:03:38.32,0:03:41.36,Main01,Gin,0000,0000,0000,,And in anime, the mask makes it \Nimpossible to tell who it is.
+Dialogue: 0,0:03:41.36,0:03:42.64,Main01,Gin,0000,0000,0000,,And when people thrust,
+Dialogue: 0,0:03:42.64,0:03:44.14,Main01,,0000,0000,0000,,you'd think they were striking to kill.
+Dialogue: 0,0:03:44.14,0:03:47.34,Main01,Gin,0000,0000,0000,,Isn't it our duty to end that \Npractice with our generation?
+Dialogue: 0,0:03:47.34,0:03:49.75,Main01,Shin,0000,0000,0000,,Are you really a swordsman?
+Dialogue: 0,0:03:49.75,0:03:52.62,Main01,Otae,0000,0000,0000,,It's true that there are aspects \Nthat no longer apply,
+Dialogue: 0,0:03:52.92,0:03:56.21,Main01,Otae,0000,0000,0000,,so I believe it's important to evolve \Nand adapt certain practices
+Dialogue: 0,0:03:56.21,0:03:58.42,Main01,,0000,0000,0000,,while maintaining the tradition.
+Dialogue: 0,0:03:59.48,0:04:03.21,Main01,Otae,0000,0000,0000,,The school of Tendo Mushin \Nneeds a slight renewal.
+Dialogue: 0,0:04:03.21,0:04:04.38,Main01,Shin,0000,0000,0000,,Renewal?
+Dialogue: 0,0:04:04.38,0:04:04.76,Main01,Otae,0000,0000,0000,,Yes.
+Dialogue: 0,0:04:10.06,0:04:13.03,Main01,Otae,0000,0000,0000,,To the school of Tendo \NMushin beam sabers!
+Dialogue: 0,0:04:14.33,0:04:16.65,Sabers,,0000,0000,0000,,Tendo Mushin Beam Sabers
+Dialogue: 0,0:04:15.12,0:04:16.65,Main01,Shin,0000,0000,0000,,What happened to tradition?!
+Dialogue: 0,0:04:17.00,0:04:23.60,Main01,Kag,0000,0000,0000,,But beam sabers will resonate with \Nkids, and maybe with the Amanto.
+Dialogue: 0,0:04:23.60,0:04:25.33,Main01,Shin,0000,0000,0000,,Uh, that's not the issue here.
+Dialogue: 0,0:04:25.70,0:04:28.03,Main01,Shin,0000,0000,0000,,And who's going to teach \Nthem how to use beam sabers?
+Dialogue: 0,0:04:28.33,0:04:30.51,Main01,Otae,0000,0000,0000,,That's all worked out already.
+Dialogue: 0,0:04:30.51,0:04:31.20,Main01,Shin,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:31.36,0:04:33.66,Main01,Otae,0000,0000,0000,,I've found the perfect person.
+Dialogue: 0,0:04:33.66,0:04:37.58,Main01,Otae,0000,0000,0000,,He knows the School of Tendo Mushin \Nand he can use beam sabers.
+Dialogue: 0,0:04:37.82,0:04:38.47,Main01,Shin,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:39.01,0:04:41.17,Main01,Otae,0000,0000,0000,,You'll be so surprised, Shin-chan.
+Dialogue: 0,0:04:46.78,0:04:48.93,Main01,Obi,0000,0000,0000,,Hey, long time no see.
+Dialogue: 0,0:04:50.04,0:04:52.85,Main01,Obi,0000,0000,0000,,You've gotten pretty big, Shin-bo!
+Dialogue: 0,0:05:02.46,0:05:03.24,Main01,Shin,0000,0000,0000,,Ha—
+Dialogue: 0,0:05:04.84,0:05:06.99,Main01,Shin,0000,0000,0000,,Hajime-nii!
+Dialogue: 0,0:05:06.08,0:05:06.99,Main01,Obi,0000,0000,0000,,Whoa!
+Dialogue: 0,0:05:09.29,0:05:10.95,Main01,Obi,0000,0000,0000,,You've gotten pretty strong, too!
+Dialogue: 0,0:05:11.16,0:05:13.45,Main01,Shin,0000,0000,0000,,Hajime-nii, you're alive!
+Dialogue: 0,0:05:13.76,0:05:16.20,Main01,Shin,0000,0000,0000,,That's great! Just great!
+Dialogue: 0,0:05:17.44,0:05:20.08,Main01,Gin,0000,0000,0000,,Huh? A former instructor?
+Dialogue: 0,0:05:20.08,0:05:23.86,Main01,Otae,0000,0000,0000,,Yes, this was back when \Nour dojo was busy.
+Dialogue: 0,0:05:24.92,0:05:26.61,Main01,Obi,0000,0000,0000,,The name's Obi Hajime!
+Dialogue: 0,0:05:24.99,0:05:27.74,Sabers,Obi,0000,0000,0000,,{\an9}Obi Hajime
+Dialogue: 0,0:05:27.05,0:05:29.66,Main01,Obi,0000,0000,0000,,If that's a pain to say, call me Obi-one!
+Dialogue: 0,0:05:27.74,0:05:31.81,Sabers,,0000,0000,0000,,{\an9}Obi Hajime\N{\fs20}Obi-one
+Dialogue: 0,0:05:29.66,0:05:31.81,Main01,Gin,0000,0000,0000,,No, that would be an even bigger pain.
+Dialogue: 0,0:05:32.11,0:05:34.70,Main01,Obi,0000,0000,0000,,Sounds like you've been \Ntaking care of Otae-chan
+Dialogue: 0,0:05:34.70,0:05:36.36,Main01,,0000,0000,0000,,and Shin-bo while I was gone.
+Dialogue: 0,0:05:36.36,0:05:38.22,Main01,Obi,0000,0000,0000,,Let me express my gratitude.
+Dialogue: 0,0:05:38.22,0:05:39.80,Main01,Obi,0000,0000,0000,,Thank you very hamnida!
+Dialogue: 0,0:05:39.80,0:05:43.32,Main01,Gin,0000,0000,0000,,Thank you? Hamnida? So \Nwhich country are you from?
+Dialogue: 0,0:05:43.67,0:05:46.82,Main01,Otae,0000,0000,0000,,Obi-one-niisama has been wandering \Naround space for a long time,
+Dialogue: 0,0:05:46.82,0:05:49.25,Main01,Otae,0000,0000,0000,,so he's picked up some words \Nfrom different planets.
+Dialogue: 0,0:05:50.16,0:05:52.09,Main01,Obi,0000,0000,0000,,Soz for being so hard to understand!
+Dialogue: 0,0:05:52.09,0:05:54.33,Main01,Gin,0000,0000,0000,,Uh, how do you pick up a \Nword like "soz" from space?
+Dialogue: 0,0:05:54.64,0:05:57.58,Main01,Shin,0000,0000,0000,,Gin-san, Hajime-nii is really amazing.
+Dialogue: 0,0:05:57.58,0:05:59.92,Main01,Shin,0000,0000,0000,,He became an instructor at \Nour dojo at a young age,
+Dialogue: 0,0:05:59.92,0:06:02.34,Main01,Shin,0000,0000,0000,,and his skill was known around Edo!
+Dialogue: 0,0:06:02.83,0:06:04.19,Main01,Shin,0000,0000,0000,,Once his talent was recognized,
+Dialogue: 0,0:06:04.19,0:06:07.34,Main01,,0000,0000,0000,,he was chosen to study abroad \Nand took off into space.
+Dialogue: 0,0:06:07.90,0:06:09.74,Main01,Shin,0000,0000,0000,,But the teleportation device at the terminal
+Dialogue: 0,0:06:09.74,0:06:11.44,Main01,,0000,0000,0000,,exploded while he was there,
+Dialogue: 0,0:06:11.44,0:06:13.40,Main01,Shin,0000,0000,0000,,so we thought he would never return.
+Dialogue: 0,0:06:16.95,0:06:18.62,Main01,Obi,0000,0000,0000,,When the device blew up,
+Dialogue: 0,0:06:18.62,0:06:21.36,Main01,,0000,0000,0000,,I was miraculously teleported \Nto a planet way out there.
+Dialogue: 0,0:06:21.91,0:06:25.78,Main01,Obi,0000,0000,0000,,While there, I figured I might as \Nwell learn how they used swords,
+Dialogue: 0,0:06:25.78,0:06:28.20,Main01,Obi,0000,0000,0000,,but before I knew it, I was \Nthe strongest one around.
+Dialogue: 0,0:06:28.38,0:06:33.20,Main01,Obi,0000,0000,0000,,I would then move on to the \Nnext planet, and so on,
+Dialogue: 0,0:06:33.20,0:06:37.92,Main01,Obi,0000,0000,0000,,until people started calling \Nme Galaxy Sword Master.
+Dialogue: 0,0:06:37.27,0:06:39.71,Galaxy,,0000,0000,0000,,Galaxy Sword Master
+Dialogue: 0,0:06:39.71,0:06:43.00,Main01,Obi,0000,0000,0000,,People stopped challenging me.
+Dialogue: 0,0:06:43.00,0:06:46.55,Main01,Obi,0000,0000,0000,,It got boring, so I came back to Edo.
+Dialogue: 0,0:06:46.73,0:06:49.80,Main01,Shin,0000,0000,0000,,Wow! Galaxy Sword Master!
+Dialogue: 0,0:06:49.80,0:06:51.75,Main01,Shin,0000,0000,0000,,You're awesome, Hajime-nii!
+Dialogue: 0,0:06:51.75,0:06:55.86,Main01,Obi,0000,0000,0000,,{\an8}Nah, I'm still nothing \Ncompared to your old man.
+Dialogue: 0,0:06:52.22,0:06:55.11,Main01,Gin,0000,0000,0000,,Hey, what's a Galaxy Sword Master?
+Dialogue: 0,0:06:55.82,0:06:58.76,Main01,Kag,0000,0000,0000,,His character is dumb \Nand his title is dumb.
+Dialogue: 0,0:06:55.86,0:06:59.60,Main01,Obi,0000,0000,0000,,{\an8}He was one strong samurai.
+Dialogue: 0,0:06:59.90,0:07:03.87,Main01,Obi,0000,0000,0000,,I never thought the \Ndojo would shut down.
+Dialogue: 0,0:07:03.87,0:07:05.61,Main01,Obi,0000,0000,0000,,Shin-bo, Otae-chan...
+Dialogue: 0,0:07:05.61,0:07:08.67,Main01,Obi,0000,0000,0000,,Soz for not being here to \Nhelp when you needed me.
+Dialogue: 0,0:07:09.35,0:07:13.85,Main01,Obi,0000,0000,0000,,If I can help you with the beam saber \Nthat I mastered out in space,
+Dialogue: 0,0:07:13.85,0:07:15.12,Main01,Obi,0000,0000,0000,,I'll do whatever you ask!
+Dialogue: 0,0:07:17.19,0:07:18.48,Main01,Obi,0000,0000,0000,,I'm getting excited!
+Dialogue: 0,0:07:18.48,0:07:19.83,Main01,Gin,0000,0000,0000,,Watch it!
+Dialogue: 0,0:07:20.14,0:07:24.04,Main01,Obi,0000,0000,0000,,Let's work together to \Nrevive your old man's dojo!
+Dialogue: 0,0:07:24.17,0:07:28.72,Main01,Obi,0000,0000,0000,,And we'll make Kodokan the number \None dojo in the universe!
+Dialogue: 0,0:07:28.72,0:07:31.88,Main01,Obi,0000,0000,0000,,Hip, hip, hooray!
+Dialogue: 0,0:07:35.49,0:07:36.55,Main01,Gin,0000,0000,0000,,Weren't we reviving it?
+Dialogue: 0,0:07:40.35,0:07:43.11,Main01,Otae,0000,0000,0000,,Hey, hey! Come on \Ndown! Have a looksee!
+Dialogue: 0,0:07:40.35,0:07:43.35,School,Caption,0000,0000,0000,,School of Tendo Mushin Beam Saber
+Dialogue: 0,0:07:43.11,0:07:47.63,Main01,Otae,0000,0000,0000,,We're starting up a new school in Edo!
+Dialogue: 0,0:07:47.63,0:07:50.24,Main01,Shin,0000,0000,0000,,The School of Tendo Mushin Beam Saber!
+Dialogue: 0,0:07:50.61,0:07:53.08,Main01,Otae,0000,0000,0000,,We're moving into the age of beams!
+Dialogue: 0,0:07:53.08,0:07:54.83,Main01,Shin,0000,0000,0000,,You can do anything with beams!
+Dialogue: 0,0:07:54.83,0:07:57.15,Main01,Shin,0000,0000,0000,,Remove the wrinkles and \Nmoles from your face!
+Dialogue: 0,0:07:57.15,0:07:58.99,Main01,Shin,0000,0000,0000,,Pierce the heart of your favorite girl!
+Dialogue: 0,0:07:59.30,0:08:01.21,Main01,Shin,0000,0000,0000,,Let's beam it up together!
+Dialogue: 0,0:08:01.97,0:08:05.38,Main01,Gin,0000,0000,0000,,Uh, so why are we \Nbeaming it up with you?
+Dialogue: 0,0:08:05.71,0:08:07.48,Main01,Obi,0000,0000,0000,,This is bad, Gintoki-dono!
+Dialogue: 0,0:08:07.48,0:08:09.43,Main01,Obi,0000,0000,0000,,Nobody's stopping!
+Dialogue: 0,0:08:09.43,0:08:11.12,Main01,Gin,0000,0000,0000,,Uh, why are you telling me this?
+Dialogue: 0,0:08:11.12,0:08:13.33,Main01,Obi,0000,0000,0000,,How 'bout it? Let's spar \Na little to show them
+Dialogue: 0,0:08:13.33,0:08:15.55,Main01,,0000,0000,0000,,what beam sabers are about!
+Dialogue: 0,0:08:15.91,0:08:19.23,Main01,Gin,0000,0000,0000,,Wait, I've never used a beam \Nsaber before and I don't want to.
+Dialogue: 0,0:08:19.23,0:08:21.01,Main01,Obi,0000,0000,0000,,How can you say that when you're
+Dialogue: 0,0:08:21.01,0:08:23.52,Main01,,0000,0000,0000,,going to be a founder of \Nthe School of Beam Saber?
+Dialogue: 0,0:08:23.52,0:08:24.06,Main01,Gin,0000,0000,0000,,What?
+Dialogue: 0,0:08:24.31,0:08:28.47,Main01,Obi,0000,0000,0000,,Don't play dumb. You and Otae-chan \Nhave{\i1} this{\i0} going on, right?
+Dialogue: 0,0:08:28.47,0:08:29.90,Main01,Gin,0000,0000,0000,,What's that supposed to mean?
+Dialogue: 0,0:08:29.90,0:08:31.51,Main01,Gin,0000,0000,0000,,I've never seen that gesture before!
+Dialogue: 0,0:08:31.51,0:08:33.44,Main01,Gin,0000,0000,0000,,And this guy's shooting \Nbeams out of his pinky?!
+Dialogue: 0,0:08:33.44,0:08:34.94,Main01,Obi,0000,0000,0000,,You know what I mean.
+Dialogue: 0,0:08:34.94,0:08:37.42,Main01,Obi,0000,0000,0000,,You've been sticking your \Nbeam inside Otae-chan's...
+Dialogue: 0,0:08:40.87,0:08:43.03,Main01,Otae,0000,0000,0000,,Please stop it, Obi-one-niisama.
+Dialogue: 0,0:08:43.03,0:08:44.74,Main01,Otae,0000,0000,0000,,We have no such relationship.
+Dialogue: 0,0:08:44.74,0:08:46.22,Main01,Obi,0000,0000,0000,,That's the Otae-chan I remember.
+Dialogue: 0,0:08:46.22,0:08:48.23,Main01,Obi,0000,0000,0000,,You've already mastered \Nthe art of the beam saber.
+Dialogue: 0,0:08:48.23,0:08:50.71,Main01,Gin,0000,0000,0000,,You mean she's mastered \Nhow to jam it in your ass!
+Dialogue: 0,0:08:51.00,0:08:54.16,Main01,Shin,0000,0000,0000,,No kidding. You're the one who \Ndoesn't understand, Hajime-nii.
+Dialogue: 0,0:08:54.16,0:08:56.76,Main01,Shin,0000,0000,0000,,Sis wouldn't want to \Nhear her first love say...
+Dialogue: 0,0:08:58.21,0:09:00.34,Main01,Gin,0000,0000,0000,,Wait, so he's her first love?
+Dialogue: 0,0:09:00.34,0:09:01.73,Main01,Gin,0000,0000,0000,,He's her first love?
+Dialogue: 0,0:09:01.73,0:09:04.02,Main01,Kag,0000,0000,0000,,Seriously? That's what \Nthe boss lady likes?
+Dialogue: 0,0:09:04.02,0:09:06.95,Main01,Otae,0000,0000,0000,,Keep your mouth shut! \NWant me to slaughter you?!
+Dialogue: 0,0:09:06.95,0:09:08.48,Main01,Kon,0000,0000,0000,,Uh, excuse me.
+Dialogue: 0,0:09:10.23,0:09:12.10,Main01,Both,0000,0000,0000,,We want to join
+Dialogue: 0,0:09:13.29,0:09:15.11,Main01,Both,0000,0000,0000,,the School of Beam Saber!
+Dialogue: 0,0:09:15.57,0:09:17.87,Main01,Gin,0000,0000,0000,,As if we wanted these freaks!
+Dialogue: 0,0:09:18.21,0:09:22.61,Main01,Kon,0000,0000,0000,,If it's that awesome, Kyubei-kun, \NI'd love to try this, uh...
+Dialogue: 0,0:09:22.61,0:09:26.75,Main01,Kyu,0000,0000,0000,,What was it called, \NKondo-kun? Beachy Diarrhea?
+Dialogue: 0,0:09:26.75,0:09:27.75,Main01,Kon,0000,0000,0000,,No, that's not it.
+Dialogue: 0,0:09:27.75,0:09:30.87,Main01,Kon,0000,0000,0000,,Wasn't it Beach Sandal, Kyubei-kun?
+Dialogue: 0,0:09:30.87,0:09:32.85,Main01,Gin,0000,0000,0000,,Wait, when did they become friends?!
+Dialogue: 0,0:09:32.85,0:09:35.72,Main01,Gin,0000,0000,0000,,The stalkers have teamed up \Nbecause her first love is here!
+Dialogue: 0,0:09:36.16,0:09:39.36,Main01,Kon,0000,0000,0000,,But before we join, we'll \Nneed a demonstration
+Dialogue: 0,0:09:39.36,0:09:40.95,Main01,,0000,0000,0000,,to see how awesome this really is.
+Dialogue: 0,0:09:40.95,0:09:42.07,Main01,Kyu,0000,0000,0000,,That's right.
+Dialogue: 0,0:09:42.07,0:09:44.85,Main01,,0000,0000,0000,,Would you be willing \Nto spar with us first?
+Dialogue: 0,0:09:44.85,0:09:46.73,Main01,Obi,0000,0000,0000,,Sure, I'd love to do that.
+Dialogue: 0,0:09:46.99,0:09:48.16,Main01,Obi,0000,0000,0000,,I can't wait!
+Dialogue: 0,0:09:48.16,0:09:50.23,Main01,Obi,0000,0000,0000,,It's been years since \NI fought a samurai!
+Dialogue: 0,0:09:51.64,0:09:53.73,Main01,Gin,0000,0000,0000,,They're not fighting like samurai!
+Dialogue: 0,0:09:53.73,0:09:55.38,Main01,Both,0000,0000,0000,,Die!
+Dialogue: 0,0:09:55.38,0:09:56.65,Main01,Gin,0000,0000,0000,,Way to blurt out your intent!
+Dialogue: 0,0:10:08.05,0:10:10.34,Main01,Obi,0000,0000,0000,,That's no good, you two.
+Dialogue: 0,0:10:10.34,0:10:13.25,Main01,Obi,0000,0000,0000,,If you fire those in the middle \Nof town, people will die.
+Dialogue: 0,0:10:13.71,0:10:15.42,Main01,Obi,0000,0000,0000,,Huh? What about me?
+Dialogue: 0,0:10:15.42,0:10:16.68,Main01,Obi,0000,0000,0000,,I'm just fine.
+Dialogue: 0,0:10:23.27,0:10:26.68,Main01,Obi,0000,0000,0000,,Though, I'm only half human now.
+Dialogue: 0,0:10:35.66,0:10:39.08,Main01,A,0000,0000,0000,,Kenofi, Kenofi, come in, come in!
+Dialogue: 0,0:10:39.45,0:10:40.70,Main01,A,0000,0000,0000,,No good. He's not responding.
+Dialogue: 0,0:10:41.68,0:10:43.49,Main01,A,0000,0000,0000,,He's running solo again.
+Dialogue: 0,0:10:43.49,0:10:45.12,Main01,A,0000,0000,0000,,That guy is so much trouble.
+Dialogue: 0,0:10:45.12,0:10:46.55,Main01,B,0000,0000,0000,,Forget about him.
+Dialogue: 0,0:10:46.55,0:10:49.37,Main01,B,0000,0000,0000,,I believe that this \Nplanet is his homeland.
+Dialogue: 0,0:10:49.96,0:10:52.88,Main01,B,0000,0000,0000,,Let the man say his farewells.
+Dialogue: 0,0:10:57.33,0:11:01.10,Main01,Obi,0000,0000,0000,,Whew, we managed to recruit enough \Nstudents to get started.
+Dialogue: 0,0:11:00.59,0:11:07.77,Welcome,Caption,0000,0000,0000,,Welcome New Students\N{\fs16}Tendo Mushin Beam Saber
+Dialogue: 0,0:11:01.10,0:11:04.49,Main01,Obi,0000,0000,0000,,Welcome to the School of \NTendo Mushin Beam Saber!
+Dialogue: 0,0:11:04.49,0:11:07.77,Main01,Obi,0000,0000,0000,,Soz about what happened back there.
+Dialogue: 0,0:11:08.40,0:11:12.58,Main01,Obi,0000,0000,0000,,You guys were so strong that \NI couldn't hold myself back.
+Dialogue: 0,0:11:13.04,0:11:15.68,Main01,Obi,0000,0000,0000,,But this means that we have \Nthe seven strongest samurai
+Dialogue: 0,0:11:15.68,0:11:17.40,Main01,,0000,0000,0000,,to get this school started off.
+Dialogue: 0,0:11:17.97,0:11:21.93,Main01,Obi,0000,0000,0000,,We're going to make the School \Nof Beam Saber the best there is!
+Dialogue: 0,0:11:21.93,0:11:23.28,Main01,Obi,0000,0000,0000,,Right, Instructor Sakata?
+Dialogue: 0,0:11:23.28,0:11:25.43,Main01,Gin,0000,0000,0000,,Sure, Instructor Obi-one.
+Dialogue: 0,0:11:26.26,0:11:28.00,Main01,Gin,0000,0000,0000,,I can't even be bothered \Nto complain anymore.
+Dialogue: 0,0:11:28.36,0:11:32.47,Main01,Obi,0000,0000,0000,,Anyway, tonight we celebrate \Nour new beginning!
+Dialogue: 0,0:11:32.47,0:11:33.91,Main01,Shin,0000,0000,0000,,Do you want beer, Hajime-nii?
+Dialogue: 0,0:11:33.91,0:11:36.35,Main01,Obi,0000,0000,0000,,Nah, give me some shochu with gasoline!
+Dialogue: 0,0:11:36.35,0:11:39.96,Main01,Otae,0000,0000,0000,,Please, Obi-one-niisama. \NYou're such a joker.
+Dialogue: 0,0:11:43.14,0:11:46.19,Main01,Kon,0000,0000,0000,,Uh, excuse me, Instructor Obi-one.
+Dialogue: 0,0:11:46.19,0:11:47.68,Main01,Kon,0000,0000,0000,,I have a question.
+Dialogue: 0,0:11:47.88,0:11:48.68,Main01,Obi,0000,0000,0000,,What's up?
+Dialogue: 0,0:11:48.68,0:11:51.59,Main01,Kon,0000,0000,0000,,I now understand how \Namazing beam sabers are.
+Dialogue: 0,0:11:51.59,0:11:53.49,Main01,Kon,0000,0000,0000,,The thing is...
+Dialogue: 0,0:11:53.49,0:11:56.81,Main01,Kon,0000,0000,0000,,Even if we train under \Nthe School of Beam Saber,
+Dialogue: 0,0:11:56.81,0:12:00.36,Main01,Kon,0000,0000,0000,,I don't see how we can learn to do that.
+Dialogue: 0,0:12:00.74,0:12:02.27,Main01,Obi,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:12:02.27,0:12:04.60,Main01,Obi,0000,0000,0000,,It's easy once you've learned the trick.
+Dialogue: 0,0:12:04.60,0:12:06.31,Main01,Obi,0000,0000,0000,,Right, Instructor Sakata?
+Dialogue: 0,0:12:08.76,0:12:11.16,Main01,Gin,0000,0000,0000,,Sure, you know how \None day, you take the
+Dialogue: 0,0:12:11.16,0:12:13.70,Main01,,0000,0000,0000,,training wheels off your bike, \Nand suddenly you can ride it?
+Dialogue: 0,0:12:13.70,0:12:14.83,Main01,Gin,0000,0000,0000,,It's just like that.
+Dialogue: 0,0:12:14.83,0:12:17.30,Main01,Kon,0000,0000,0000,,Wait, I'm positive that you can't \Ndo that stuff, Instructor Sakata!
+Dialogue: 0,0:12:17.30,0:12:19.25,Main01,Kon,0000,0000,0000,,You still need your training wheels!
+Dialogue: 0,0:12:19.48,0:12:23.29,Main01,Kyu,0000,0000,0000,,Honestly, I don't see how a \Nhuman could ever pull that off.
+Dialogue: 0,0:12:24.23,0:12:26.51,Main01,Kyu,0000,0000,0000,,And that mechanical arm...
+Dialogue: 0,0:12:27.23,0:12:30.52,Main01,Kyu,0000,0000,0000,,You said that you were only half human.
+Dialogue: 0,0:12:30.52,0:12:31.93,Main01,Kyu,0000,0000,0000,,What did you mean by that?
+Dialogue: 0,0:12:35.18,0:12:37.74,Main01,Obi,0000,0000,0000,,You think there's something \Nspecial about this arm?
+Dialogue: 0,0:12:37.74,0:12:41.07,Main01,Obi,0000,0000,0000,,This is just a mechanical arm to \Nreplace the one I lost in the accident.
+Dialogue: 0,0:12:41.41,0:12:43.00,Main01,Gin,0000,0000,0000,,That's not nice, Kyubei.
+Dialogue: 0,0:12:43.00,0:12:45.22,Main01,Gin,0000,0000,0000,,You shouldn't start accusing \Npeople because they beat you.
+Dialogue: 0,0:12:45.68,0:12:48.46,Main01,Gin,0000,0000,0000,,It takes strength to \Nadmit your weaknesses.
+Dialogue: 0,0:12:48.46,0:12:52.37,Main01,Gin,0000,0000,0000,,Now you have to write the word "jobber" \Na hundred times before tomorrow.
+Dialogue: 0,0:12:52.67,0:12:56.86,Main01,Kyu,0000,0000,0000,,And you have to write the \Nword "moron" a hundred times.
+Dialogue: 0,0:12:56.86,0:12:58.47,Main01,Gin,0000,0000,0000,,How do you spell that?
+Dialogue: 0,0:12:59.05,0:13:01.26,Main01,Kag,0000,0000,0000,,Like this, Instructor!
+Dialogue: 0,0:13:00.07,0:13:01.26,Backup,Kag,0000,0000,0000,,Gintoki
+Dialogue: 0,0:13:01.26,0:13:04.33,Main01,Obi,0000,0000,0000,,If you don't trust me, \NI'll show you my body.
+Dialogue: 0,0:13:04.72,0:13:08.37,Main01,Obi,0000,0000,0000,,I meant exactly what I said back there.
+Dialogue: 0,0:13:08.37,0:13:10.31,Main01,Obi,0000,0000,0000,,After wandering around the galaxy,
+Dialogue: 0,0:13:10.31,0:13:12.39,Main01,,0000,0000,0000,,half my body is no longer \Nthat of an Earthling.
+Dialogue: 0,0:13:12.89,0:13:17.51,Main01,Obi,0000,0000,0000,,The other half hasn't \Nforgotten the spirit of Edo.
+Dialogue: 0,0:13:20.99,0:13:22.21,Main01,Obi,0000,0000,0000,,What do you think?
+Dialogue: 0,0:13:23.23,0:13:26.66,Main01,Kon,0000,0000,0000,,{\i1}Don't you mean you're \Nhalf Edo and half robot?!{\i0}
+Dialogue: 0,0:13:26.96,0:13:28.51,Main01,Obi,0000,0000,0000,,That's what I said.
+Dialogue: 0,0:13:28.51,0:13:31.44,Main01,Obi,0000,0000,0000,,The beam saber didn't \Ncome from my right arm.
+Dialogue: 0,0:13:31.44,0:13:35.04,Main01,Obi,0000,0000,0000,,It came from the mechanical \Nright side of my body.
+Dialogue: 0,0:13:35.04,0:13:36.33,Main01,Kon,0000,0000,0000,,What the hell?!
+Dialogue: 0,0:13:36.33,0:13:37.62,Main01,Shin,0000,0000,0000,,Huh?!
+Dialogue: 0,0:13:37.62,0:13:38.93,Main01,Shin,0000,0000,0000,,What's going on?!
+Dialogue: 0,0:13:38.93,0:13:41.40,Main01,Shin,0000,0000,0000,,What happened to your body, Hajime-nii?!
+Dialogue: 0,0:13:41.40,0:13:43.34,Main01,Otae,0000,0000,0000,,O-Obi-one-niisama...
+Dialogue: 0,0:13:43.63,0:13:48.01,Main01,Obi,0000,0000,0000,,What? You didn't realize \Nthat I was a cyborg?
+Dialogue: 0,0:13:48.01,0:13:49.74,Main01,Obi,0000,0000,0000,,Man, you guys don't pay attention!
+Dialogue: 0,0:13:49.74,0:13:51.17,Main01,Obi,0000,0000,0000,,Right, Instructor Sakata?
+Dialogue: 0,0:13:51.17,0:13:52.10,Main01,Gin,0000,0000,0000,,Huh? What?
+Dialogue: 0,0:13:52.10,0:13:54.56,Backup,,0000,0000,0000,,{\an7}Gintoki  Gintoki  Gintoki\NGintoki  Gin
+Dialogue: 0,0:13:52.63,0:13:54.56,Main01,Gin,0000,0000,0000,,We're having hamburger \Nsteak tomorrow. Really?
+Dialogue: 0,0:13:54.56,0:13:57.23,Main01,Kon,0000,0000,0000,,Cyborg! This guy's piss drunk!
+Dialogue: 0,0:13:57.57,0:13:59.61,Main01,Shin,0000,0000,0000,,You're a cyborg, Hajime-nii?
+Dialogue: 0,0:13:59.96,0:14:04.38,Main01,Obi,0000,0000,0000,,Yeah. You see, when I was \Ncaught in the explosion,
+Dialogue: 0,0:14:04.38,0:14:08.00,Main01,,0000,0000,0000,,the right half of my body \Nwas mortally damaged.
+Dialogue: 0,0:14:08.00,0:14:10.28,Main01,Obi,0000,0000,0000,,I'm embarrassed to admit that, well...
+Dialogue: 0,0:14:10.47,0:14:12.28,Main01,Obi,0000,0000,0000,,I already died once.
+Dialogue: 0,0:14:12.28,0:14:14.08,Main01,Shin,0000,0000,0000,,Wh-What?!
+Dialogue: 0,0:14:14.40,0:14:15.86,Main01,A,0000,0000,0000,,{\an8}We'll make him half that.
+Dialogue: 0,0:14:14.40,0:14:16.72,Main01,Shin,0000,0000,0000,,Y-You already died once?!
+Dialogue: 0,0:14:15.86,0:14:17.27,Main01,B,0000,0000,0000,,{\an8}And half this.
+Dialogue: 0,0:14:16.72,0:14:18.08,Main01,Shin,0000,0000,0000,,Th-That means...
+Dialogue: 0,0:14:18.08,0:14:21.79,Main01,Obi,0000,0000,0000,,Luckily, the technology on the \Nplanet was advanced enough
+Dialogue: 0,0:14:21.79,0:14:25.24,Main01,,0000,0000,0000,,that they could revive me \Nby mechanizing half my body.
+Dialogue: 0,0:14:25.68,0:14:30.26,Main01,Obi,0000,0000,0000,,I would become the strongest \Nswordsman in the galaxy.
+Dialogue: 0,0:14:30.26,0:14:34.83,Main01,Obi,0000,0000,0000,,I returned from hell to achieve the \Ndream that had once... died...
+Dialogue: 0,0:14:37.36,0:14:38.10,Main01,Shin,0000,0000,0000,,Hajime-nii!
+Dialogue: 0,0:14:38.10,0:14:41.73,Main01,Kag,0000,0000,0000,,Hey! Did he go back to hell already?!
+Dialogue: 0,0:14:42.13,0:14:43.14,Main01,Shin,0000,0000,0000,,Hajime-nii!
+Dialogue: 0,0:14:43.14,0:14:43.98,Main01,Shin,0000,0000,0000,,Pull it together!
+Dialogue: 0,0:14:43.98,0:14:44.90,Main01,Shin,0000,0000,0000,,What's wrong?!
+Dialogue: 0,0:14:46.29,0:14:48.20,Main01,Obi,0000,0000,0000,,{\i1}Give me shochu with gasoline!{\i0}
+Dialogue: 0,0:14:49.02,0:14:51.87,Main01,Otae,0000,0000,0000,,Oh, no, I thought he was joking.
+Dialogue: 0,0:14:52.13,0:14:53.68,Main01,Otae,0000,0000,0000,,I'll go buy some gasoline, so Shin-chan,
+Dialogue: 0,0:14:53.68,0:14:54.96,Main01,Otae,0000,0000,0000,,take him to the bedroom!
+Dialogue: 0,0:14:54.96,0:14:56.54,Main01,Shin,0000,0000,0000,,S-Sis!
+Dialogue: 0,0:14:56.54,0:14:57.29,Main01,Kon,0000,0000,0000,,Otae-san!
+Dialogue: 0,0:15:06.06,0:15:08.30,Main01,Shin,0000,0000,0000,,Gengai-san, how does he look?
+Dialogue: 0,0:15:11.10,0:15:15.43,Main01,Gen,0000,0000,0000,,Unfortunately, the problem \Nisn't that he's out of gasoline.
+Dialogue: 0,0:15:16.43,0:15:18.98,Main01,Gen,0000,0000,0000,,Who fed him this junk?
+Dialogue: 0,0:15:19.99,0:15:22.67,Main01,Gen,0000,0000,0000,,This matter doesn't exist on Earth.
+Dialogue: 0,0:15:22.67,0:15:26.88,Main01,Gen,0000,0000,0000,,As far as I know, nothing like this has \Nbeen discovered in the universe yet.
+Dialogue: 0,0:15:26.88,0:15:28.07,Main01,Kag,0000,0000,0000,,That's boss lady's...
+Dialogue: 0,0:15:28.71,0:15:31.94,Main01,Otae,0000,0000,0000,,He must have eaten something \Nbad out in space.
+Dialogue: 0,0:15:31.94,0:15:34.16,Main01,Otae,0000,0000,0000,,Obi-one-niisama is such a slob.
+Dialogue: 0,0:15:34.68,0:15:38.28,Main01,Gen,0000,0000,0000,,Whatever. I got him to spit up the junk,
+Dialogue: 0,0:15:38.85,0:15:41.32,Main01,Gen,0000,0000,0000,,so give him some shochu with gasoline.
+Dialogue: 0,0:15:41.32,0:15:43.29,Main01,Gen,0000,0000,0000,,That's the only thing his body can take.
+Dialogue: 0,0:15:44.62,0:15:46.33,Main01,Shin,0000,0000,0000,,U-Uh, Gengai-san!
+Dialogue: 0,0:15:46.69,0:15:48.30,Main01,Shin,0000,0000,0000,,Is Hajime-nii...
+Dialogue: 0,0:15:49.99,0:15:53.55,Main01,Gen,0000,0000,0000,,His human heart has stopped beating.
+Dialogue: 0,0:15:53.99,0:15:57.04,Main01,Gen,0000,0000,0000,,All life-sustaining operations are \Nperformed by the right side of his body.
+Dialogue: 0,0:15:57.04,0:16:00.31,Main01,Gen,0000,0000,0000,,In other words, the machine \Nis keeping him alive.
+Dialogue: 0,0:16:09.58,0:16:12.62,Main01,Shin,0000,0000,0000,,I thought he was finally back.
+Dialogue: 0,0:16:13.94,0:16:14.94,Main01,Shin,0000,0000,0000,,This is terrible.
+Dialogue: 0,0:16:15.82,0:16:19.41,Main01,Shin,0000,0000,0000,,He can't live without \Nthat machine... That's just...
+Dialogue: 0,0:16:20.87,0:16:21.85,Main01,Otae,0000,0000,0000,,Shin-chan...
+Dialogue: 0,0:16:22.58,0:16:24.23,Main01,Otae,0000,0000,0000,,No matter how much he changes,
+Dialogue: 0,0:16:24.23,0:16:26.09,Main01,,0000,0000,0000,,he'll still be the same person.
+Dialogue: 0,0:16:26.98,0:16:30.14,Main01,Otae,0000,0000,0000,,And you can't let him see \Nthat look on your face.
+Dialogue: 0,0:16:32.07,0:16:35.39,Main01,Otae,0000,0000,0000,,Have you forgotten the promise we made?
+Dialogue: 0,0:16:37.71,0:16:40.02,Main01,Otae,0000,0000,0000,,{\i1}Geez, how many times \Ndo I have to tell you?!{\i0}
+Dialogue: 0,0:16:40.02,0:16:42.12,Main01,Otae,0000,0000,0000,,{\i1}Whether you're swinging your \Nsword or doing anything else,{\i0}
+Dialogue: 0,0:16:42.12,0:16:44.27,Main01,,0000,0000,0000,,{\i1}you must maintain your form!{\i0}
+Dialogue: 0,0:16:44.67,0:16:48.33,Main01,Otae,0000,0000,0000,,{\i1}Pretend that there's a rod \Nsticking through your body,{\i0}
+Dialogue: 0,0:16:48.33,0:16:52.08,Main01,Otae,0000,0000,0000,,{\i1}and you can only move by \Nrotating around that rod!{\i0}
+Dialogue: 0,0:16:54.41,0:16:56.75,Main01,Shin,0000,0000,0000,,{\i1}I don't understand, Sis!{\i0}
+Dialogue: 0,0:16:56.75,0:17:00.19,Main01,Shin,0000,0000,0000,,{\i1}There's no rod in my body!{\i0}
+Dialogue: 0,0:17:00.19,0:17:03.10,Main01,Otae,0000,0000,0000,,{\i1}Geez, I told you to stop crying!{\i0}
+Dialogue: 0,0:17:03.10,0:17:05.08,Main01,Otae,0000,0000,0000,,{\i1}You're the son of a samurai, Shin-chan!{\i0}
+Dialogue: 0,0:17:05.26,0:17:06.21,Main01,Shin,0000,0000,0000,,{\i1}But...{\i0}
+Dialogue: 0,0:17:06.21,0:17:08.14,Main01,Otae,0000,0000,0000,,{\i1}Don't make excuses!{\i0}
+Dialogue: 0,0:17:08.95,0:17:10.63,Main01,A,0000,0000,0000,,{\i1}Those kids are at it again.{\i0}
+Dialogue: 0,0:17:10.63,0:17:12.59,Main01,Ken,0000,0000,0000,,{\i1}Hey! What are you doing?!{\i0}
+Dialogue: 0,0:17:12.59,0:17:14.57,Main01,A,0000,0000,0000,,{\i1}Crap, it's the master!{\i0}
+Dialogue: 0,0:17:15.09,0:17:15.93,Main01,Otae,0000,0000,0000,,{\i1}Father!{\i0}
+Dialogue: 0,0:17:16.41,0:17:18.09,Main01,Otae,0000,0000,0000,,{\i1}Help me talk some sense into him.{\i0}
+Dialogue: 0,0:17:18.54,0:17:21.26,Main01,Otae,0000,0000,0000,,{\i1}All Shin-chan does is cry, \Nand he won't stop.{\i0}
+Dialogue: 0,0:17:21.26,0:17:23.67,Main01,Otae,0000,0000,0000,,{\i1}And everybody's laughing \Nat how loud we are.{\i0}
+Dialogue: 0,0:17:23.67,0:17:24.31,Main01,,0000,0000,0000,,{\i1}It's embarrassing.{\i0}
+Dialogue: 0,0:17:24.72,0:17:26.27,Main01,Ken,0000,0000,0000,,{\i1}Both of you are too loud!{\i0}
+Dialogue: 0,0:17:34.72,0:17:36.99,Main01,Obi,0000,0000,0000,,{\i1}You siblings cry all the time.{\i0}
+Dialogue: 0,0:17:36.99,0:17:39.33,Main01,Obi,0000,0000,0000,,{\i1}Why's that? Are you getting paid?{\i0}
+Dialogue: 0,0:17:39.87,0:17:42.83,Main01,Obi,0000,0000,0000,,{\i1}I'll pay you more, then, so laugh!{\i0}
+Dialogue: 0,0:17:43.34,0:17:44.01,Main01,Otae,0000,0000,0000,,{\i1}Ha—{\i0}
+Dialogue: 0,0:17:44.44,0:17:45.83,Main01,Shin,0000,0000,0000,,{\i1}Hajime-nii...{\i0}
+Dialogue: 0,0:17:45.83,0:17:47.76,Main01,Obi,0000,0000,0000,,{\i1}Listen up, you two.{\i0}
+Dialogue: 0,0:17:47.76,0:17:54.34,Main01,Obi,0000,0000,0000,,{\i1}Tears are handy for washing away \Ntroubling and sad feelings.{\i0}
+Dialogue: 0,0:17:55.01,0:17:58.14,Main01,Obi,0000,0000,0000,,{\i1}But when you grow up, you'll learn{\i0}
+Dialogue: 0,0:17:58.14,0:18:02.33,Main01,Obi,0000,0000,0000,,{\i1}that there are things so sad, they \Ncan never be washed away by tears.{\i0}
+Dialogue: 0,0:18:03.61,0:18:07.78,Main01,Obi,0000,0000,0000,,{\i1}That there are painful memories \Nthat should never be washed away.{\i0}
+Dialogue: 0,0:18:09.45,0:18:13.99,Main01,Obi,0000,0000,0000,,{\i1}So people who are truly strong \Nlaugh when they want to cry.{\i0}
+Dialogue: 0,0:18:14.84,0:18:17.25,Main01,Obi,0000,0000,0000,,{\i1}They endure all of the pain and sorrow{\i0}
+Dialogue: 0,0:18:17.62,0:18:20.87,Main01,Obi,0000,0000,0000,,{\i1}while laughing with everybody else.{\i0}
+Dialogue: 0,0:18:21.75,0:18:23.96,Main01,Obi,0000,0000,0000,,{\i1}You can cry all you want right now.{\i0}
+Dialogue: 0,0:18:24.49,0:18:27.80,Main01,Obi,0000,0000,0000,,{\i1}But one day, you must become \Nsamurai strong enough not to cry.{\i0}
+Dialogue: 0,0:18:28.56,0:18:32.18,Main01,Otae,0000,0000,0000,,{\i1}Oh, so that's why you're \Nalways laughing.{\i0}
+Dialogue: 0,0:18:32.65,0:18:35.96,Main01,Shin,0000,0000,0000,,{\i1}I-I want to become strong like you!{\i0}
+Dialogue: 0,0:18:35.96,0:18:37.07,Main01,Obi,0000,0000,0000,,{\i1}Really?{\i0}
+Dialogue: 0,0:18:37.07,0:18:40.46,Main01,Obi,0000,0000,0000,,{\i1}Then stop practicing the sword for \N today, and start practicing laughing!{\i0}
+Dialogue: 0,0:18:46.58,0:18:47.88,Main01,Obi,0000,0000,0000,,{\i1}More, Otae-chan!{\i0}
+Dialogue: 0,0:18:49.81,0:18:50.98,Main01,Obi,0000,0000,0000,,{\i1}Not good enough, Shin-bo!{\i0}
+Dialogue: 0,0:18:51.31,0:18:52.61,Main01,Obi,0000,0000,0000,,{\i1}Like this!{\i0}
+Dialogue: 0,0:18:56.56,0:18:58.61,Main01,Ken,0000,0000,0000,,{\i1}All three of you are too loud!{\i0}
+Dialogue: 0,0:19:02.68,0:19:06.46,Main01,Obi,0000,0000,0000,,{\i1}Darn, crying won't make \Nthis pain go away.{\i0}
+Dialogue: 0,0:19:14.88,0:19:16.42,Main01,Otae,0000,0000,0000,,No matter what's happened to him,
+Dialogue: 0,0:19:16.87,0:19:20.74,Main01,,0000,0000,0000,,we were able to see \NObi-one-niisama again.
+Dialogue: 0,0:19:21.95,0:19:25.16,Main01,Otae,0000,0000,0000,,We were able to see his smile again.
+Dialogue: 0,0:19:27.64,0:19:28.65,Main01,Otae,0000,0000,0000,,Isn't that
+Dialogue: 0,0:19:30.24,0:19:31.52,Main01,,0000,0000,0000,,enough?
+Dialogue: 0,0:19:34.97,0:19:35.95,Main01,Shin,0000,0000,0000,,Sis...
+Dialogue: 0,0:19:55.65,0:19:57.05,Main01,Hiji,0000,0000,0000,,Where did you go?
+Dialogue: 0,0:19:57.38,0:19:59.67,Main01,Hiji,0000,0000,0000,,We've got trouble right now.
+Dialogue: 0,0:20:00.16,0:20:02.52,Main01,Hiji,0000,0000,0000,,Earth may come to an end.
+Dialogue: 0,0:20:03.17,0:20:05.61,Main01,Kon,0000,0000,0000,,Oh, I don't see a problem
+Dialogue: 0,0:20:06.24,0:20:08.02,Main01,Kon,0000,0000,0000,,since my life's already over.
+Dialogue: 0,0:20:08.21,0:20:09.94,Main01,Kon,0000,0000,0000,,My love has come to an end,
+Dialogue: 0,0:20:09.94,0:20:11.72,Main01,Kon,0000,0000,0000,,so everyone else's lives might as well end.
+Dialogue: 0,0:20:12.13,0:20:15.85,Main01,Oki,0000,0000,0000,,He clearly wants attention right now.
+Dialogue: 0,0:20:15.85,0:20:18.03,Main01,Oki,0000,0000,0000,,I sure as hell don't want \Nto listen to him gripe.
+Dialogue: 0,0:20:18.03,0:20:21.73,Main01,Hiji,0000,0000,0000,,It'll just be a waste of time, so let's \Ntell him what's up and get to work.
+Dialogue: 0,0:20:22.18,0:20:24.37,Main01,Tojo,0000,0000,0000,,Lady!
+Dialogue: 0,0:20:24.37,0:20:27.54,Main01,Tojo,0000,0000,0000,,Hey! Where have you been?!
+Dialogue: 0,0:20:27.54,0:20:29.16,Main01,Tojo,0000,0000,0000,,Edo is in big trouble!
+Dialogue: 0,0:20:31.46,0:20:34.08,Main01,Tojo,0000,0000,0000,,We've got big trouble here, too!
+Dialogue: 0,0:20:34.43,0:20:36.65,Main01,Kyu,0000,0000,0000,,I'm disgusted with myself.
+Dialogue: 0,0:20:37.56,0:20:42.15,Main01,Kyu,0000,0000,0000,,I was trying to kill someone \Nthat Tae-chan truly cared about.
+Dialogue: 0,0:20:42.63,0:20:45.61,Main01,Kyu,0000,0000,0000,,I'm tainted! I'm the one \Nwho deserves to be killed!
+Dialogue: 0,0:20:45.61,0:20:47.08,Main01,Tojo,0000,0000,0000,,Calm down, Lady!
+Dialogue: 0,0:20:47.08,0:20:48.24,Main01,Tojo,0000,0000,0000,,Turn on the TV first!
+Dialogue: 0,0:20:48.24,0:20:50.90,Main01,Tojo,0000,0000,0000,,The human race is about \Nto be killed off!
+Dialogue: 0,0:20:50.90,0:20:52.35,Main01,Kyu,0000,0000,0000,,Don't touch me!
+Dialogue: 0,0:20:53.51,0:20:54.98,Main01,Tojo,0000,0000,0000,,Oh, she noticed.
+Dialogue: 0,0:20:54.98,0:20:56.61,Grave,,0000,0000,0000,,Machine Hall
+Dialogue: 0,0:20:56.61,0:21:00.23,Main01,Gin,0000,0000,0000,,Did you call me out here because \Nthere's some kind of problem?
+Dialogue: 0,0:21:00.43,0:21:05.24,Main01,Gen,0000,0000,0000,,Actually, I noticed something \Nwhen I was checking his body.
+Dialogue: 0,0:21:05.52,0:21:09.62,Main01,Gen,0000,0000,0000,,I couldn't do anything \Nabout it, so I ignored it.
+Dialogue: 0,0:21:10.33,0:21:11.45,Main01,Kon,0000,0000,0000,,Planet Beam?
+Dialogue: 0,0:21:11.75,0:21:14.25,Main01,Hiji,0000,0000,0000,,They're known for developing \Ninterstellar wave beam cannons.
+Dialogue: 0,0:21:14.81,0:21:17.43,Main01,Hiji,0000,0000,0000,,Basically, no other planet \Ncould compete with them
+Dialogue: 0,0:21:17.43,0:21:19.71,Main01,,0000,0000,0000,,at making beam cannons,
+Dialogue: 0,0:21:20.47,0:21:22.04,Main01,Hiji,0000,0000,0000,,but a few days ago,
+Dialogue: 0,0:21:22.04,0:21:25.23,Main01,,0000,0000,0000,,Earth started a proposal to \Nban the manufacturing and
+Dialogue: 0,0:21:25.23,0:21:29.72,Main01,,0000,0000,0000,,exporting of beam cannons \Nbecause of the danger,
+Dialogue: 0,0:21:29.72,0:21:31.97,Main01,Hiji,0000,0000,0000,,and the proposal seems likely to pass.
+Dialogue: 0,0:21:32.43,0:21:35.21,Main01,Hiji,0000,0000,0000,,Those guys see that as a \Nbig thorn in their side.
+Dialogue: 0,0:21:35.21,0:21:37.54,Main01,Hiji,0000,0000,0000,,These people claim to be terrorists,
+Dialogue: 0,0:21:37.54,0:21:38.98,Main01,Hiji,0000,0000,0000,,but I'm guessing that...
+Dialogue: 0,0:21:39.11,0:21:41.19,Main01,Ana,0000,0000,0000,,{\i1}It appears that you Earthlings do not{\i0}
+Dialogue: 0,0:21:41.19,0:21:46.40,Main01,,0000,0000,0000,,{\i1}understand how beneficial \Nlasers can be in daily life.{\i0}
+Dialogue: 0,0:21:46.40,0:21:52.41,Main01,Ana,0000,0000,0000,,{\i1}So we've sent a wonderful \Npresent to help you understand.{\i0}
+Dialogue: 0,0:21:52.79,0:21:54.91,Main01,Gin,0000,0000,0000,,Huh? What did they just say?
+Dialogue: 0,0:21:55.30,0:21:59.73,Main01,Gen,0000,0000,0000,,The mechanical half of his \Nbody contains a time-triggered
+Dialogue: 0,0:21:59.73,0:22:01.92,Main01,,0000,0000,0000,,interstellar wave beam cannon.
+Dialogue: 0,0:22:02.94,0:22:05.71,Main01,Gen,0000,0000,0000,,Its targets are the \Nplanets of the Alliance.
+Dialogue: 0,0:22:05.71,0:22:11.68,Main01,Gen,0000,0000,0000,,If the cannon is fired, the rest of \Nthe galaxy will declare war on Earth.
+Dialogue: 0,0:22:13.12,0:22:14.98,Tsuzuku,Caption,0000,0000,0000,,{\fad(337,1)}To Be Continued
+Dialogue: 0,0:23:44.96,0:23:48.82,Movie,,0000,0000,0000,,{\fad(1084,1)}Big Announcement
+Dialogue: 0,0:23:45.82,0:23:48.82,Main01,Gin,0000,0000,0000,,We have a big announcement \Nabout the second movie.
+Dialogue: 0,0:23:48.82,0:23:59.87,Movie,Caption,0000,0000,0000,,Gintama the Movie ----\NIn theaters on ----- !!
+Dialogue: 0,0:23:49.09,0:23:53.44,Main01,Gin,0000,0000,0000,,Next week, the scratched-out \Nareas will be revealed.
+Dialogue: 0,0:23:53.44,0:23:57.08,Main01,Gin,0000,0000,0000,,Hey, dads. Don't try to \Nspread butter on the screen.
+Dialogue: 0,0:23:57.08,0:23:58.56,Main01,Gin,0000,0000,0000,,That's not what this is for.
+Dialogue: 0,0:23:59.87,0:24:04.88,Ep Title,Shin,0000,0000,0000,,Two Brothers
+Dialogue: 0,0:24:01.04,0:24:03.23,Main01,Shin,0000,0000,0000,,Next time: Two Brothers.
+Dialogue: 0,0:24:04.88,0:24:10.47,Side Bar Top,Caption,0000,0000,0000,,Planet Beam is threatening Planet Earth,
+Dialogue: 0,0:24:04.88,0:24:10.47,Side Bar Bottom,Caption,0000,0000,0000,,and Obi Hajime was their advance party!!
+Dialogue: 0,0:24:10.47,0:24:14.89,Side Bar Top,Caption,0000,0000,0000,,The Shimura siblings are \Nunsure about what to do,
+Dialogue: 0,0:24:10.47,0:24:14.89,Side Bar Bottom,Caption,0000,0000,0000,,but Gintoki has made his choice.

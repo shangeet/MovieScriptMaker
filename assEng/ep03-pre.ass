@@ -1,0 +1,40 @@
+[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 720
+PlayResY: 480
+ScaledBorderAndShadow: yes
+Audio File: ../workraws/ep03-pre.wav
+Video File: ../workraws/ep03-pre.avi
+Video Aspect Ratio: 2
+Video Zoom: 6
+Video Position: 359
+Last Style Storage: DeathNote
+
+[V4+ Styles]
+Style: Default,Marker Felt,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,0
+Style: SIGN,Sand,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,10,0
+Style: Note,OffensiveBold,24,&H00B5B5B5,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,10,10,10,0
+Style: LongNote,OffensiveBold,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,10,10,10,0
+Style: Background,Marker Felt,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,0
+Style: SILLYSIGN,Annifont,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,0
+Style: KARA-japanese,Sand,36,&H00FFFFFF,&H00ABABAB,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,8,11,11,11,0
+Style: KARA-english,Cooper Std Black,20,&H00FFFFFF,&H00FF00FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,11,11,11,0
+Style: KiraVideo,Marker Felt,27,&H00FFCECC,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,0
+Style: MINOR SIGN,Marker Felt,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,0
+Style: KARA-english2,Cooper Std Black,20,&H00FFFFFF,&H00FF00FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,3,11,11,11,0
+Style: KARA-japanese2,Sand,36,&H00FFFFFF,&H00ABABAB,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,7,11,11,11,0
+Style: Diary,OffensiveBold,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,10,10,10,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.98,SIGN,,0000,0000,0000,,{\pos(357,270)}Preview
+Dialogue: 0,0:00:00.99,0:00:05.10,Default,,0000,0000,0000,,It happened exactly the way I wrote it in the Death Note.
+Dialogue: 0,0:00:05.10,0:00:07.19,Note,,0000,0000,0000,,If you read horizontally across the first line of text, there is a message that reads "L, did you know?"
+Dialogue: 0,0:00:06.26,0:00:08.64,Default,,0000,0000,0000,,It's precisely 11:45 {\alpha&HFF&}and everything is going according to the plan.
+Dialogue: 0,0:00:08.64,0:00:09.94,Default,,0000,0000,0000,,It's precisely 11:45 and everything is going according to the plan.
+Dialogue: 0,0:00:08.36,0:00:09.94,Note,,0000,0000,0000,,Wanted criminal\NOsoreda Kiichirou
+Dialogue: 0,0:00:10.53,0:00:12.19,Default,,0000,0000,0000,,The Death Note never fails.
+Dialogue: 0,0:00:12.19,0:00:14.99,SIGN,,0000,0000,0000,,{\pos(114,168)}Next Time
+Dialogue: 0,0:00:12.19,0:00:14.99,SIGN,,0000,0000,0000,,{\pos(568,312)}The Chase

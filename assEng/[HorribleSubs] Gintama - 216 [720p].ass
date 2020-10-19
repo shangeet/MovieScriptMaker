@@ -1,0 +1,555 @@
+﻿[Script Info]
+Title: fuckoff
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main01,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,20,20,20,1
+Style: Main02,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,20,20,20,1
+Style: On Screen,Humana Sans Md ITC TT,25,&H0072F9FB,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,80,80,15,0
+Style: Card,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,20,20,20,1
+Style: Secondary,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,20,20,20,1
+Style: Chocolate,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:01:30.98,0:01:33.19,On Screen,Caption,0000,0000,0000,,Odd Jobs Gin-chan
+Dialogue: 0,0:01:31.44,0:01:33.19,Main01,Gin,0000,0000,0000,,What? A tour?
+Dialogue: 0,0:01:33.54,0:01:35.14,Main01,Kagura,0000,0000,0000,,My friend, Satsuki-chan,
+Dialogue: 0,0:01:35.17,0:01:36.83,Main01,Kagura,0000,0000,0000,,asked for an educational tour of
+Dialogue: 0,0:01:36.83,0:01:38.45,Main01,,0000,0000,0000,,Odd Jobs to fulfill an assignment.
+Dialogue: 0,0:01:38.91,0:01:42.08,Main01,Gin,0000,0000,0000,,Stop offering to do stuff \Nthat's a pain in the ass.
+Dialogue: 0,0:01:42.08,0:01:44.36,Main01,Shin,0000,0000,0000,,{\a6}If she wants to see us at work,
+Dialogue: 0,0:01:44.36,0:01:45.91,Main01,,0000,0000,0000,,{\a6}we don't have any jobs today.
+Dialogue: 0,0:01:45.91,0:01:47.71,Main01,Gin,0000,0000,0000,,We haven't had any jobs in forever.
+Dialogue: 0,0:01:48.30,0:01:49.99,Main01,Shin,0000,0000,0000,,We don't want to ruin
+Dialogue: 0,0:01:49.99,0:01:53.21,Main01,,0000,0000,0000,,the hopes and dreams of young children.
+Dialogue: 0,0:01:53.43,0:01:54.44,Main01,Kagura,0000,0000,0000,,No!
+Dialogue: 0,0:01:54.44,0:01:56.82,Main01,Kagura,0000,0000,0000,,I want to show them how great \NOdd Jobs Kagura-chan is!
+Dialogue: 0,0:01:56.82,0:01:58.47,Main01,Kagura,0000,0000,0000,,Do something about it, scumbags!
+Dialogue: 0,0:01:58.47,0:02:00.59,Main01,Gin,0000,0000,0000,,Stop tacking on random insults.
+Dialogue: 0,0:02:01.25,0:02:02.22,Main01,Kagura,0000,0000,0000,,She's here!
+Dialogue: 0,0:02:02.62,0:02:05.17,Main01,Kagura,0000,0000,0000,,You guys better act like grown-ups.
+Dialogue: 0,0:02:05.17,0:02:07.35,Main01,Kagura,0000,0000,0000,,Don't do anything weird!
+Dialogue: 0,0:02:07.98,0:02:09.35,Main01,Kagura,0000,0000,0000,,Welcome, Satsuki-chan!
+Dialogue: 0,0:02:09.77,0:02:11.47,Main01,Satsuki,0000,0000,0000,,Sorry, Kagura-chan.
+Dialogue: 0,0:02:11.47,0:02:12.73,Main01,,0000,0000,0000,,I'm sure that you're busy.
+Dialogue: 0,0:02:13.11,0:02:15.29,Main01,Kids,0000,0000,0000,,Thank you!
+Dialogue: 0,0:02:15.73,0:02:18.74,On Screen,EpTitle,0000,0000,0000,,{\a6}I Can't Remember a Damn \NThing About the Factory Tour
+Dialogue: 0,0:02:20.03,0:02:21.66,Main01,Kagura,0000,0000,0000,,This is our strategist/Supreme
+Dialogue: 0,0:02:21.66,0:02:24.21,Main01,,0000,0000,0000,,Commander of Eastern Operations, \NStrategos Shimura.
+Dialogue: 0,0:02:24.21,0:02:25.49,Main01,Shin,0000,0000,0000,,Supreme Commander of \NEastern Operations?!
+Dialogue: 0,0:02:25.87,0:02:28.33,Main01,Kagura,0000,0000,0000,,Shut up and follow my lead.
+Dialogue: 0,0:02:28.33,0:02:30.64,Main01,Kagura,0000,0000,0000,,Just say stuff that sounds cool.
+Dialogue: 0,0:02:30.64,0:02:33.67,Main01,Satsuki,0000,0000,0000,,Wow, Supreme Commander \Nof Eastern Operations...
+Dialogue: 0,0:02:33.67,0:02:37.00,Main01,Satsuki,0000,0000,0000,,Um, what kind of work \Ndo you do at Odd Jobs?
+Dialogue: 0,0:02:37.00,0:02:39.48,Main01,Shin,0000,0000,0000,,O-Our president will explain that,
+Dialogue: 0,0:02:39.48,0:02:40.51,Main01,,0000,0000,0000,,so come on inside.
+Dialogue: 0,0:02:41.68,0:02:45.19,Main01,Kagura,0000,0000,0000,,President, the kids are \Nhere for their tour.
+Dialogue: 0,0:02:45.19,0:02:46.93,Main01,,0000,0000,0000,,May we come in?
+Dialogue: 0,0:02:53.82,0:02:56.53,Main01,Shin,0000,0000,0000,,He's turned the room into \Na workshop or something...
+Dialogue: 0,0:02:57.40,0:02:58.61,Main01,Shin,0000,0000,0000,,Uh, President?
+Dialogue: 0,0:02:58.61,0:02:59.95,Main01,Gin,0000,0000,0000,,Bah, it's no use.
+Dialogue: 0,0:02:59.95,0:03:02.91,Main01,Gin,0000,0000,0000,,The naked refuses to \Njack in to the solid.
+Dialogue: 0,0:03:02.97,0:03:04.70,Main01,Shin,0000,0000,0000,,U-Uh, President...
+Dialogue: 0,0:03:04.70,0:03:06.35,Main01,Gin,0000,0000,0000,,Could you shut the door?
+Dialogue: 0,0:03:06.35,0:03:07.40,Main01,Gin,0000,0000,0000,,If you let the heat escape,
+Dialogue: 0,0:03:07.40,0:03:09.29,Main01,,0000,0000,0000,,my Patriot will cool down and harden.
+Dialogue: 0,0:03:09.29,0:03:11.45,Main01,Satsuki,0000,0000,0000,,Oh, s-sorry!
+Dialogue: 0,0:03:11.45,0:03:13.10,Main01,Shin,0000,0000,0000,,What's a Patriot supposed to be?
+Dialogue: 0,0:03:13.10,0:03:13.85,Main01,Shin,0000,0000,0000,,I have no idea what's going on,
+Dialogue: 0,0:03:13.85,0:03:15.29,Main01,,0000,0000,0000,,but the president sounds \Nlike a real craftsman.
+Dialogue: 0,0:03:15.29,0:03:18.67,Main01,Satsuki,0000,0000,0000,,Um, we're here to see you at work.
+Dialogue: 0,0:03:18.67,0:03:21.11,Main01,Gin,0000,0000,0000,,Do you prefer Calcutta or Meso Gear?
+Dialogue: 0,0:03:21.11,0:03:21.63,Main01,Satsuki,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:21.95,0:03:26.01,Main01,Gin,0000,0000,0000,,If you're here, you must prefer one.
+Dialogue: 0,0:03:26.53,0:03:27.60,Main01,Shin,0000,0000,0000,,Ignore them.
+Dialogue: 0,0:03:27.60,0:03:29.02,Main01,Shin,0000,0000,0000,,Ignore their pleas for help.
+Dialogue: 0,0:03:30.09,0:03:32.07,Main01,Satsuki,0000,0000,0000,,I-I like Calcutta.
+Dialogue: 0,0:03:32.07,0:03:33.16,Main01,A,0000,0000,0000,,M-Me too.
+Dialogue: 0,0:03:33.16,0:03:33.91,Main01,Shin,0000,0000,0000,,They randomly chose one!
+Dialogue: 0,0:03:33.91,0:03:34.65,Main01,B,0000,0000,0000,,Me too.
+Dialogue: 0,0:03:33.94,0:03:35.52,Main01,Shin,0000,0000,0000,,They randomly chose Calcutta!
+Dialogue: 0,0:03:35.94,0:03:37.95,Main01,Gin,0000,0000,0000,,I see, you choose Calcutta.
+Dialogue: 0,0:03:37.95,0:03:40.03,Main01,Gin,0000,0000,0000,,Hmph, how precocious of you.
+Dialogue: 0,0:03:40.59,0:03:41.23,Main01,Gin,0000,0000,0000,,Here.
+Dialogue: 0,0:03:41.23,0:03:42.78,Main01,Gin,0000,0000,0000,,Calcutta should be \Nenjoyed while it's hot.
+Dialogue: 0,0:03:43.04,0:03:44.92,Main01,Satsuki,0000,0000,0000,,Th-Thank you very much!
+Dialogue: 0,0:03:44.92,0:03:46.16,Main01,A,0000,0000,0000,,This is Calcutta?
+Dialogue: 0,0:03:46.16,0:03:47.35,Main01,B,0000,0000,0000,,It looks like coffee.
+Dialogue: 0,0:03:47.35,0:03:49.72,Main01,Shin,0000,0000,0000,,Why didn't you just ask them \Nif they liked coffee or not?!
+Dialogue: 0,0:03:49.72,0:03:51.21,Main01,Shin,0000,0000,0000,,You're pissing me off!
+Dialogue: 0,0:03:51.44,0:03:55.15,Main01,Gin,0000,0000,0000,,I once tried to be \Nbrave and try Calcutta.
+Dialogue: 0,0:03:55.15,0:03:57.32,Main01,Gin,0000,0000,0000,,But now I'm a devout fan of Meso Gear.
+Dialogue: 0,0:03:55.98,0:04:04.95,On Screen,Caption,0000,0000,0000,,{\a6}Edo Strawberry Milk
+Dialogue: 0,0:03:57.32,0:03:59.39,Main01,Gin,0000,0000,0000,,I believe that my \Ndedication to Meso Gear
+Dialogue: 0,0:03:59.39,0:04:01.81,Main01,,0000,0000,0000,,was a product of that bitter experience.
+Dialogue: 0,0:04:01.92,0:04:03.72,Main01,Shin,0000,0000,0000,,He's throwing together \Na bunch of fancy phrases
+Dialogue: 0,0:04:03.72,0:04:04.97,Main01,,0000,0000,0000,,to say absolutely nothing at all!
+Dialogue: 0,0:04:04.97,0:04:06.85,Main01,A,0000,0000,0000,,Can we get started?
+Dialogue: 0,0:04:06.85,0:04:09.85,Main01,A,0000,0000,0000,,What do you Odd Jobs people even do?
+Dialogue: 0,0:04:10.07,0:04:13.03,Main01,Gin,0000,0000,0000,,Well, it's quite difficult \Nto explain what we do.
+Dialogue: 0,0:04:13.03,0:04:15.48,Main01,Gin,0000,0000,0000,,You could say that we are \Nessentially a secret society
+Dialogue: 0,0:04:15.48,0:04:18.37,Main01,Gin,0000,0000,0000,,involved in the production \Nand sale of this Patriot.
+Dialogue: 0,0:04:18.37,0:04:20.57,Main01,Shin,0000,0000,0000,,That would make us Patriot salesmen!
+Dialogue: 0,0:04:20.83,0:04:21.91,Main01,A,0000,0000,0000,,What is this Pastry...
+Dialogue: 0,0:04:21.91,0:04:22.73,Main01,Gin,0000,0000,0000,,Patriot.
+Dialogue: 0,0:04:22.73,0:04:25.57,Main01,A,0000,0000,0000,,What is this Patriot used for?
+Dialogue: 0,0:04:27.11,0:04:30.38,Main01,Gin,0000,0000,0000,,Don't make me laugh.
+Dialogue: 0,0:04:30.38,0:04:33.28,Main01,Gin,0000,0000,0000,,What is a Patriot used for, Kagura-kun?
+Dialogue: 0,0:04:33.28,0:04:37.50,Main01,Kagura,0000,0000,0000,,Kids say the darndest \Nthings, right, President?
+Dialogue: 0,0:04:37.50,0:04:38.23,Main01,Shin,0000,0000,0000,,What's with them?
+Dialogue: 0,0:04:38.23,0:04:39.09,Main01,Shin,0000,0000,0000,,They're pissing me off!
+Dialogue: 0,0:04:39.49,0:04:41.59,Main01,Gin,0000,0000,0000,,Let me ask you this then.
+Dialogue: 0,0:04:41.59,0:04:44.84,Main01,Gin,0000,0000,0000,,What's that below your nose?
+Dialogue: 0,0:04:44.84,0:04:47.18,Main01,Gin,0000,0000,0000,,Every person has a peculiar indentation
+Dialogue: 0,0:04:47.18,0:04:48.78,Main01,,0000,0000,0000,,between their nose and mouth.
+Dialogue: 0,0:04:48.78,0:04:50.85,Main01,Gin,0000,0000,0000,,What is that used for?
+Dialogue: 0,0:04:51.18,0:04:53.06,Main01,A,0000,0000,0000,,I-I don't know...
+Dialogue: 0,0:04:53.06,0:04:54.33,Main01,Gin,0000,0000,0000,,Of course.
+Dialogue: 0,0:04:54.33,0:04:56.15,Main01,Gin,0000,0000,0000,,Now, back to the Patriot.
+Dialogue: 0,0:04:57.02,0:04:58.44,Main01,Gin,0000,0000,0000,,It's pretty much like that.
+Dialogue: 0,0:04:58.44,0:04:59.77,Main01,Shin,0000,0000,0000,,So you don't know either?!
+Dialogue: 0,0:05:00.27,0:05:02.01,Main01,Gin,0000,0000,0000,,Whether it's the indentation \Nbelow your nose
+Dialogue: 0,0:05:02.01,0:05:04.30,Main01,Gin,0000,0000,0000,,or the built-in microphone on the
+Dialogue: 0,0:05:04.30,0:05:06.27,Main01,,0000,0000,0000,,Famicom's second player controller,
+Dialogue: 0,0:05:06.27,0:05:08.72,Main01,Gin,0000,0000,0000,,there are many things in this \Nworld that make no sense.
+Dialogue: 0,0:05:08.72,0:05:11.84,Main01,Gin,0000,0000,0000,,However, humans are meant \Nto eat, poop, and sleep.
+Dialogue: 0,0:05:11.84,0:05:14.31,Main01,Gin,0000,0000,0000,,Everything else we do is useless.
+Dialogue: 0,0:05:14.31,0:05:17.53,Main01,Gin,0000,0000,0000,,Our creations fall into that category.
+Dialogue: 0,0:05:17.53,0:05:19.20,Main01,Shin,0000,0000,0000,,So after making a pompous speech,
+Dialogue: 0,0:05:19.20,0:05:21.30,Main01,,0000,0000,0000,,all you're saying is that we make junk!
+Dialogue: 0,0:05:21.72,0:05:23.17,Main01,Daigoro,0000,0000,0000,,Okay.
+Dialogue: 0,0:05:23.17,0:05:28.02,Main01,Daigoro,0000,0000,0000,,So you do useless work \Nmaking useless stuff?
+Dialogue: 0,0:05:28.02,0:05:30.48,Main01,Gin,0000,0000,0000,,It seems that you didn't \Nunderstand what I was saying.
+Dialogue: 0,0:05:30.48,0:05:33.60,Main01,Gin,0000,0000,0000,,My point was that useless can \Nbe valuable in its own way.
+Dialogue: 0,0:05:33.60,0:05:34.89,Main01,Daigoro,0000,0000,0000,,Yeah, but...
+Dialogue: 0,0:05:34.89,0:05:37.05,Main01,DaigorO,0000,0000,0000,,If all Odd Jobs does \Nis make useless stuff,
+Dialogue: 0,0:05:37.05,0:05:41.04,Main01,Daigoro,0000,0000,0000,,doesn't that mean the \Nmembers are also useless?
+Dialogue: 0,0:05:41.04,0:05:41.86,Main01,Shin,0000,0000,0000,,What's with this kid?
+Dialogue: 0,0:05:42.22,0:05:43.86,Main01,Satsuki,0000,0000,0000,,That's not nice, Daigoro-kun.
+Dialogue: 0,0:05:43.86,0:05:47.32,Main01,Daigoro,0000,0000,0000,,Satsuki-chan, we can call off the tour.
+Dialogue: 0,0:05:47.32,0:05:49.16,Main01,Daigoro,0000,0000,0000,,It's clear that these Odd Jobs people
+Dialogue: 0,0:05:49.16,0:05:51.46,Main01,,0000,0000,0000,,do useless work that \Ndoesn't help society.
+Dialogue: 0,0:05:51.46,0:05:52.45,Main01,Shin,0000,0000,0000,,Wait a moment!
+Dialogue: 0,0:05:52.45,0:05:55.25,Main01,Kagura,0000,0000,0000,,While the Patriot may look \Nuseless, it is, in fact,
+Dialogue: 0,0:05:55.25,0:05:56.72,Main01,Kagura,0000,0000,0000,,a multimedia product which can be
+Dialogue: 0,0:05:56.72,0:05:58.54,Main01,,0000,0000,0000,,used in a number of useless games.
+Dialogue: 0,0:05:58.54,0:06:00.21,Main01,Daigoro,0000,0000,0000,,Oh? Really?
+Dialogue: 0,0:06:00.21,0:06:01.93,Main01,Daigoro,0000,0000,0000,,What kind of games are \Nyou talking about?
+Dialogue: 0,0:06:01.93,0:06:02.98,Main01,Kagura,0000,0000,0000,,For example...
+Dialogue: 0,0:06:03.15,0:06:04.96,Main01,Kagura,0000,0000,0000,,You can use the Patriot missile to whack
+Dialogue: 0,0:06:04.96,0:06:06.63,Main01,,0000,0000,0000,,the head of someone who pisses you off.
+Dialogue: 0,0:06:06.63,0:06:08.55,Main01,Shin,0000,0000,0000,,You don't need the Patriot to do that!
+Dialogue: 0,0:06:09.84,0:06:11.30,Main01,Daigoro,0000,0000,0000,,I knew it.
+Dialogue: 0,0:06:11.58,0:06:13.82,Main01,Daigoro,0000,0000,0000,,I can't believe that people actually
+Dialogue: 0,0:06:13.82,0:06:16.43,Main01,,0000,0000,0000,,pay you scum to make this trash.
+Dialogue: 0,0:06:16.43,0:06:17.23,Main01,Shin,0000,0000,0000,,Daigoro-kun?!
+Dialogue: 0,0:06:17.23,0:06:19.44,Main01,Shin,0000,0000,0000,,You sound like a different person \Nafter the beating to your head!
+Dialogue: 0,0:06:20.01,0:06:21.93,Main01,Daigoro,0000,0000,0000,,Satsuki, I'm going home.
+Dialogue: 0,0:06:21.93,0:06:23.07,Main01,Daigoro,0000,0000,0000,,I've had enough.
+Dialogue: 0,0:06:23.07,0:06:24.04,Main01,Satsuki,0000,0000,0000,,Daigoro-kun!
+Dialogue: 0,0:06:24.04,0:06:25.12,Main01,Gin,0000,0000,0000,,Wait, boy.
+Dialogue: 0,0:06:25.12,0:06:26.17,Main01,Gin,0000,0000,0000,,You didn't drink your Calcutta...
+Dialogue: 0,0:06:26.17,0:06:27.86,Main01,Daigoro,0000,0000,0000,,Sorry, Mr. President.
+Dialogue: 0,0:06:27.86,0:06:30.96,Main01,Daigoro,0000,0000,0000,,I don't like Calcutta or Meso Gear.
+Dialogue: 0,0:06:30.96,0:06:31.99,Main01,Daigoro,0000,0000,0000,,I go for Bourbon.
+Dialogue: 0,0:06:31.99,0:06:33.30,Main01,Shin,0000,0000,0000,,That's pretty hard-boiled!
+Dialogue: 0,0:06:33.30,0:06:34.52,Main01,Shin,0000,0000,0000,,What's with this kid?!
+Dialogue: 0,0:06:34.52,0:06:36.58,Main01,Daigoro,0000,0000,0000,,I'll need to work hard to find
+Dialogue: 0,0:06:36.58,0:06:38.92,Main01,,0000,0000,0000,,a real job so I don't \Nend up like you slobs.
+Dialogue: 0,0:06:38.92,0:06:40.63,Main01,Daigoro,0000,0000,0000,,Thanks for showing me what it's like
+Dialogue: 0,0:06:40.63,0:06:43.13,Main01,,0000,0000,0000,,at the bottom of society, Odd Jobs.
+Dialogue: 0,0:06:46.34,0:06:48.76,Main01,Shin,0000,0000,0000,,Cheer up, Gin-san.
+Dialogue: 0,0:06:49.12,0:06:51.10,Main01,Shin,0000,0000,0000,,A child wouldn't be able to understand
+Dialogue: 0,0:06:51.10,0:06:52.80,Main01,,0000,0000,0000,,how incredible Odd Jobs truly is.
+Dialogue: 0,0:06:52.80,0:06:55.55,Main01,Kagura,0000,0000,0000,,The other kids said they had fun.
+Dialogue: 0,0:06:55.55,0:06:59.02,Main01,Kagura,0000,0000,0000,,Though they tossed the Patriots \Nwe gave them as souvenirs.
+Dialogue: 0,0:06:59.46,0:07:03.38,Main01,Gin,0000,0000,0000,,I started this business from scratch,
+Dialogue: 0,0:07:03.38,0:07:05.75,Main01,,0000,0000,0000,,and I kind of like it.
+Dialogue: 0,0:07:06.02,0:07:07.56,Main01,Gin,0000,0000,0000,,But I guess kids aren't impressed...
+Dialogue: 0,0:07:07.56,0:07:09.53,Main01,Shin,0000,0000,0000,,Th-That's not true!
+Dialogue: 0,0:07:09.74,0:07:11.53,Main01,Gin,0000,0000,0000,,Okay, tell me this then.
+Dialogue: 0,0:07:11.98,0:07:13.53,Main01,Gin,0000,0000,0000,,What can this be used for?
+Dialogue: 0,0:07:15.53,0:07:16.90,Main01,Gin,0000,0000,0000,,Can't think of anything, right?!
+Dialogue: 0,0:07:16.90,0:07:17.87,Main01,Gin,0000,0000,0000,,'Course you can't!
+Dialogue: 0,0:07:17.87,0:07:19.31,Main01,Gin,0000,0000,0000,,I can't either!
+Dialogue: 0,0:07:19.31,0:07:21.00,Main01,Gin,0000,0000,0000,,I'm no different from \Nthis piece of junk!
+Dialogue: 0,0:07:21.00,0:07:22.43,Main01,Gin,0000,0000,0000,,Odd Jobs is trash!
+Dialogue: 0,0:07:22.43,0:07:26.55,Main01,Gin,0000,0000,0000,,We do work that doesn't mean \Na damn thing to society!
+Dialogue: 0,0:07:27.62,0:07:29.77,Main01,Shin,0000,0000,0000,,He's completely snapped.
+Dialogue: 0,0:07:29.77,0:07:31.59,Main01,Shin,0000,0000,0000,,It must have been a big shock to him.
+Dialogue: 0,0:07:32.76,0:07:34.55,Main01,Shin,0000,0000,0000,,Huh? Isn't that Hijikata-san?
+Dialogue: 0,0:07:34.80,0:07:37.04,Main01,Hijikata,0000,0000,0000,,We patrol the streets to \Nmake sure there aren't any
+Dialogue: 0,0:07:37.04,0:07:38.56,Main01,,0000,0000,0000,,bad people doing bad things.
+Dialogue: 0,0:07:38.56,0:07:41.33,Main01,Hijikata,0000,0000,0000,,That's the most essential \Njob of a policeman.
+Dialogue: 0,0:07:41.33,0:07:42.31,Main01,A,0000,0000,0000,,Ooh!
+Dialogue: 0,0:07:42.31,0:07:43.57,Main01,Hijikata,0000,0000,0000,,What is it?
+Dialogue: 0,0:07:43.57,0:07:45.81,Main01,A,0000,0000,0000,,Who would be a bad person?
+Dialogue: 0,0:07:46.41,0:07:49.26,Main01,Hijikata,0000,0000,0000,,Anyone who breaks the law.
+Dialogue: 0,0:07:49.26,0:07:52.11,Main01,A,0000,0000,0000,,So the law is always good?
+Dialogue: 0,0:07:52.11,0:07:54.32,Main01,Hijikata,0000,0000,0000,,In most cases, the law \Ncan be considered good...
+Dialogue: 0,0:07:54.32,0:07:55.75,Main01,A,0000,0000,0000,,I have a question then!
+Dialogue: 0,0:07:55.75,0:07:58.48,Main01,A,0000,0000,0000,,You aren't allowed to drop down from \Na train platform to the tracks,
+Dialogue: 0,0:07:58.48,0:07:59.97,Main01,A,0000,0000,0000,,but what if someone jumps down
+Dialogue: 0,0:07:59.97,0:08:02.21,Main01,,0000,0000,0000,,to save a drunk who \Nhappened to fall down?!
+Dialogue: 0,0:08:02.21,0:08:03.46,Main01,A,0000,0000,0000,,Would someone who stays on the platform
+Dialogue: 0,0:08:03.46,0:08:05.10,Main01,,0000,0000,0000,,as the drunk dies be considered good?!
+Dialogue: 0,0:08:05.10,0:08:07.67,Main01,Hijikata,0000,0000,0000,,You take those situations case by case.
+Dialogue: 0,0:08:07.67,0:08:11.92,Main01,A,0000,0000,0000,,A law that's always changing \Ncan't be considered a proper law!
+Dialogue: 0,0:08:12.31,0:08:14.30,Main01,Hijikata,0000,0000,0000,,I didn't word that right.
+Dialogue: 0,0:08:14.30,0:08:17.30,Main01,Hijikata,0000,0000,0000,,A person who makes trouble \Nfor others is a bad person.
+Dialogue: 0,0:08:17.30,0:08:18.77,Main01,Hijikata,0000,0000,0000,,The law doesn't matter.
+Dialogue: 0,0:08:18.77,0:08:19.85,Main01,Shin,0000,0000,0000,,He just threw out the law!
+Dialogue: 0,0:08:19.85,0:08:21.57,Main01,Shin,0000,0000,0000,,He got sick of trying \Nand threw out the law!
+Dialogue: 0,0:08:21.57,0:08:24.89,Main01,A,0000,0000,0000,,By that logic, you would \Nbe a criminal for exposing
+Dialogue: 0,0:08:24.89,0:08:26.06,Main01,,0000,0000,0000,,us to second-hand smoke!
+Dialogue: 0,0:08:26.17,0:08:28.52,Main01,Hijikata,0000,0000,0000,,I'm sorry! Too much smoke for you?!
+Dialogue: 0,0:08:28.52,0:08:30.25,Main01,Hijikata,0000,0000,0000,,Please forgive me! Please forgive me!
+Dialogue: 0,0:08:30.25,0:08:31.03,Main01,Shin,0000,0000,0000,,This is bad!
+Dialogue: 0,0:08:31.03,0:08:31.95,Main01,Shin,0000,0000,0000,,He's about to lose it!
+Dialogue: 0,0:08:31.95,0:08:33.07,Main01,Shin,0000,0000,0000,,He's about to turn into a criminal!
+Dialogue: 0,0:08:33.07,0:08:35.29,Main01,A,0000,0000,0000,,Could you explain how much \Ntrouble a person must cause
+Dialogue: 0,0:08:35.29,0:08:37.15,Main01,A,0000,0000,0000,,to be considered a criminal?
+Dialogue: 0,0:08:37.15,0:08:37.99,Main01,A,0000,0000,0000,,For example...
+Dialogue: 0,0:08:38.56,0:08:40.88,Main01,A,0000,0000,0000,,We have an individual getting \Nthe snot knocked out of him
+Dialogue: 0,0:08:40.88,0:08:42.15,Main01,A,0000,0000,0000,,by the woman he keeps stalking.
+Dialogue: 0,0:08:42.15,0:08:43.87,Main01,A,0000,0000,0000,,Which one is the criminal?
+Dialogue: 0,0:08:45.82,0:08:46.88,Main01,Hijikata,0000,0000,0000,,Uh...
+Dialogue: 0,0:08:46.88,0:08:48.76,Main01,Hijikata,0000,0000,0000,,I was just joking.
+Dialogue: 0,0:08:48.76,0:08:50.50,Main01,Hijikata,0000,0000,0000,,In reality, policemen are...
+Dialogue: 0,0:08:51.24,0:08:54.71,Main01,Hijikata,0000,0000,0000,,...people involved in the production \Nand sale of this Patriot.
+Dialogue: 0,0:08:54.71,0:08:56.87,Main01,Shin,0000,0000,0000,,He threw out everything and \Nbecame a Patriot salesman!
+Dialogue: 0,0:08:56.87,0:08:57.54,Main01,Shin,0000,0000,0000,,What's going on?!
+Dialogue: 0,0:08:57.54,0:08:58.30,Main01,Shin,0000,0000,0000,,Is this a new fad?!
+Dialogue: 0,0:08:58.30,0:08:59.40,Main01,C,0000,0000,0000,,Pathetic.
+Dialogue: 0,0:08:59.40,0:09:01.41,Main01,C,0000,0000,0000,,You switch jobs when \Nthe going gets tough?
+Dialogue: 0,0:09:01.41,0:09:03.21,Main01,F,0000,0000,0000,,Guess they weren't lying \Nwhen they said the police
+Dialogue: 0,0:09:03.21,0:09:04.44,Main01,,0000,0000,0000,,in Japan were going to hell.
+Dialogue: 0,0:09:06.17,0:09:07.99,Main01,Shin,0000,0000,0000,,Now it's Hijikata-san's turn to lose it.
+Dialogue: 0,0:09:07.99,0:09:10.23,Main01,Kagura,0000,0000,0000,,I didn't realize you could \Nuse the Patriot that way.
+Dialogue: 0,0:09:10.23,0:09:11.44,Main01,Tsukuyo,0000,0000,0000,,Stop this foolishness.
+Dialogue: 0,0:09:12.05,0:09:13.32,Main01,Shin,0000,0000,0000,,Tsukuyo-san?
+Dialogue: 0,0:09:13.62,0:09:15.09,Main01,A,0000,0000,0000,,Please, lady!
+Dialogue: 0,0:09:15.09,0:09:16.87,Main01,A,0000,0000,0000,,We want to learn more about
+Dialogue: 0,0:09:16.87,0:09:18.57,Main01,,0000,0000,0000,,the people who work in Yoshiwara!
+Dialogue: 0,0:09:18.79,0:09:21.33,Main01,Tsukuyo,0000,0000,0000,,And I told you to come \Nback in a hundred years.
+Dialogue: 0,0:09:21.33,0:09:22.33,Main01,Sa,0000,0000,0000,,Ooh!
+Dialogue: 0,0:09:22.85,0:09:25.69,Main01,Sa,0000,0000,0000,,Could you at least teach us how to
+Dialogue: 0,0:09:25.69,0:09:27.96,Main01,,0000,0000,0000,,whip a man in a way \Nthat brings pleasure?
+Dialogue: 0,0:09:27.96,0:09:30.96,Main01,Shin,0000,0000,0000,,There's a very familiar \Nfreak mixed in there!
+Dialogue: 0,0:09:31.28,0:09:34.83,Main01,Tsukuyo,0000,0000,0000,,Now, that's the last \Nthing I would teach you.
+Dialogue: 0,0:09:34.83,0:09:36.83,Main01,Sa,0000,0000,0000,,I'm in a relationship \Nwith this guy right now.
+Dialogue: 0,0:09:36.83,0:09:38.25,Main01,Sa,0000,0000,0000,,So you'll take responsibility
+Dialogue: 0,0:09:38.25,0:09:40.34,Main01,,0000,0000,0000,,if something goes wrong \Nwhen the time comes?
+Dialogue: 0,0:09:40.34,0:09:41.37,Main01,Shin,0000,0000,0000,,Nothing will go wrong!
+Dialogue: 0,0:09:41.37,0:09:42.97,Main01,Shin,0000,0000,0000,,It's all in your head!
+Dialogue: 0,0:09:43.25,0:09:46.64,Main01,Tsukuyo,0000,0000,0000,,I guess it'll be too late\Nif something goes wrong.
+Dialogue: 0,0:09:46.64,0:09:48.31,Main01,Tsukuyo,0000,0000,0000,,Well, it's probably a good idea
+Dialogue: 0,0:09:48.31,0:09:50.56,Main01,,0000,0000,0000,,to learn the general basics now.
+Dialogue: 0,0:09:50.68,0:09:52.00,Main01,Tsukuyo,0000,0000,0000,,Allow me to explain then.
+Dialogue: 0,0:09:52.00,0:09:54.39,Main01,Tsukuyo,0000,0000,0000,,If this is that, and this \Nis where you do that...
+Dialogue: 0,0:09:54.39,0:09:56.82,Main01,Shin,0000,0000,0000,,What are you doing with that Patriot?!
+Dialogue: 0,0:09:58.12,0:10:00.32,Main01,C,0000,0000,0000,,That's what girls are like?!
+Dialogue: 0,0:10:01.58,0:10:04.12,Main01,Tsukuyo,0000,0000,0000,,I was trying to give them a simple \Nexplanation without revealing anything...
+Dialogue: 0,0:10:04.12,0:10:05.81,Main01,Sa,0000,0000,0000,,Stop playing dumb!
+Dialogue: 0,0:10:05.81,0:10:07.78,Main01,Sa,0000,0000,0000,,Teach me the secret \Ntechniques of Yoshiwara!
+Dialogue: 0,0:10:07.78,0:10:10.10,Main01,Kondo,0000,0000,0000,,Well, as you can see, our job isn't
+Dialogue: 0,0:10:10.10,0:10:11.84,Main01,,0000,0000,0000,,always a walk in the park.
+Dialogue: 0,0:10:12.17,0:10:14.18,Main01,Kondo,0000,0000,0000,,However, we never give up.
+Dialogue: 0,0:10:14.18,0:10:15.84,Main01,Kondo,0000,0000,0000,,Believe in a better tomorrow \Nand stay on the trail.
+Dialogue: 0,0:10:16.09,0:10:17.66,Main01,Kondo,0000,0000,0000,,That's how you become a stalker.
+Dialogue: 0,0:10:17.66,0:10:18.84,Main01,Shin,0000,0000,0000,,That's not a job!
+Dialogue: 0,0:10:19.21,0:10:19.89,Main01,E,0000,0000,0000,,Oh!
+Dialogue: 0,0:10:19.89,0:10:21.18,Main01,Kondo,0000,0000,0000,,Yes, what is it?
+Dialogue: 0,0:10:21.18,0:10:23.73,Main01,E,0000,0000,0000,,Do you ever want to die?
+Dialogue: 0,0:10:23.73,0:10:25.10,Main01,Shin,0000,0000,0000,,What kind of question is that?!
+Dialogue: 0,0:10:25.43,0:10:26.68,Main01,Kondo,0000,0000,0000,,A very good question.
+Dialogue: 0,0:10:26.67,0:10:28.10,Main01,Shin,0000,0000,0000,,It's not a good question!
+Dialogue: 0,0:10:28.36,0:10:32.12,Main01,Kondo,0000,0000,0000,,A job is supposed to be painful.
+Dialogue: 0,0:10:32.12,0:10:35.60,Main01,Kondo,0000,0000,0000,,In that case, you should look \Nfor pain that you can enjoy.
+Dialogue: 0,0:10:35.60,0:10:37.74,Main01,Shin,0000,0000,0000,,How can you say that while \Npretending to be a professional?!
+Dialogue: 0,0:10:37.84,0:10:40.22,Main01,Madao,0000,0000,0000,,That is naive!
+Dialogue: 0,0:10:41.55,0:10:45.31,Main01,Madao,0000,0000,0000,,There are many people with \Njobs they absolutely hate!
+Dialogue: 0,0:10:45.31,0:10:48.45,Main01,Madao,0000,0000,0000,,Society needs these people to function!
+Dialogue: 0,0:10:48.45,0:10:49.75,Main01,Madao,0000,0000,0000,,Look at me!
+Dialogue: 0,0:10:50.34,0:10:53.43,Main01,Madao,0000,0000,0000,,You think I want to be a Patriot?!
+Dialogue: 0,0:10:53.43,0:10:54.18,Main01,Shin,0000,0000,0000,,Hey!
+Dialogue: 0,0:10:54.18,0:10:56.71,Main01,Shin,0000,0000,0000,,I seriously have no idea what \Na Patriot is supposed to be!
+Dialogue: 0,0:10:56.91,0:10:58.61,Main01,Madao,0000,0000,0000,,But I don't have a choice!
+Dialogue: 0,0:10:58.61,0:11:00.79,Main01,Madao,0000,0000,0000,,If I don't do this, who will?!
+Dialogue: 0,0:11:00.79,0:11:03.14,Main01,Madao,0000,0000,0000,,This world needs Patriots!
+Dialogue: 0,0:11:03.14,0:11:04.10,Main01,Shin,0000,0000,0000,,The hell it does!
+Dialogue: 0,0:11:04.57,0:11:07.10,Main01,Kondo,0000,0000,0000,,The people who always blame others...
+Dialogue: 0,0:11:07.10,0:11:09.32,Main01,Kondo,0000,0000,0000,,...can never have a better life.
+Dialogue: 0,0:11:09.32,0:11:10.57,Main01,Madao,0000,0000,0000,,How would you...
+Dialogue: 0,0:11:10.57,0:11:13.26,Main01,Madao,0000,0000,0000,,How would you know how it \Nfeels to be a Patriot?!
+Dialogue: 0,0:11:13.26,0:11:14.21,Main01,Kondo,0000,0000,0000,,I know.
+Dialogue: 0,0:11:14.21,0:11:14.73,Main01,Madao,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:15.23,0:11:17.23,Main01,Kondo,0000,0000,0000,,After all... After all...
+Dialogue: 0,0:11:18.24,0:11:21.88,Main01,Kondo,0000,0000,0000,,I'm working two jobs as \Nboth a Patriot and a stalker!
+Dialogue: 0,0:11:21.88,0:11:23.99,Main01,Shin,0000,0000,0000,,That just means you fail at life!
+Dialogue: 0,0:11:26.15,0:11:28.33,Main01,Madao,0000,0000,0000,,Y-You too?
+Dialogue: 0,0:11:28.62,0:11:31.97,Main01,Kondo,0000,0000,0000,,Yeah, you don't have to \Nbear the burden alone.
+Dialogue: 0,0:11:31.97,0:11:33.83,Main01,Kondo,0000,0000,0000,,Ask me for help.
+Dialogue: 0,0:11:35.44,0:11:37.50,Main01,Madao,0000,0000,0000,,Th-Thank you.
+Dialogue: 0,0:11:38.56,0:11:40.84,Main01,E,0000,0000,0000,,Uh, excuse me.
+Dialogue: 0,0:11:41.05,0:11:43.59,Main01,E,0000,0000,0000,,So what's a Patriot?
+Dialogue: 0,0:11:45.00,0:11:46.10,Main01,Both,0000,0000,0000,,No idea.
+Dialogue: 0,0:11:52.27,0:11:54.77,Main01,Shin,0000,0000,0000,,What are you people doing?
+Dialogue: 0,0:11:54.77,0:11:58.78,Main01,Shin,0000,0000,0000,,You grown-ups let a bunch \Nof kids bully you around.
+Dialogue: 0,0:12:00.65,0:12:04.60,Main01,Shin,0000,0000,0000,,It's the job of a grown-up to \Nteach kids what's important.
+Dialogue: 0,0:12:05.25,0:12:09.16,Main01,Shin,0000,0000,0000,,We can't let their tour end like this.
+Dialogue: 0,0:12:11.56,0:12:13.92,Main01,Mom,0000,0000,0000,,Daigoro, there's a letter for you.
+Dialogue: 0,0:12:14.21,0:12:15.48,Main01,Daigoro,0000,0000,0000,,Letter?
+Dialogue: 0,0:12:17.42,0:12:21.97,On Screen,Caption,0000,0000,0000,,Invitation to an educational \Ntour of a Patriot factory.
+Dialogue: 0,0:12:19.03,0:12:20.42,Main01,Daigoro,0000,0000,0000,,What's this?
+Dialogue: 0,0:12:22.68,0:12:23.93,Main01,A,0000,0000,0000,,Daigoro!
+Dialogue: 0,0:12:24.64,0:12:26.89,Main01,A,0000,0000,0000,,You received an invitation too?
+Dialogue: 0,0:12:26.89,0:12:28.39,Main01,Daigoro,0000,0000,0000,,Oh, you guys also got one?
+Dialogue: 0,0:12:28.39,0:12:32.39,On Screen,Caption,0000,0000,0000,,Invitation to an educational \Ntour of a Patriot factory.
+Dialogue: 0,0:12:28.77,0:12:30.22,Main01,E,0000,0000,0000,,I was gonna ignore it,
+Dialogue: 0,0:12:30.22,0:12:32.39,Main01,,0000,0000,0000,,but I heard that we'll \Nget Dokkiriman stickers.
+Dialogue: 0,0:12:32.72,0:12:35.40,Main01,Daigoro,0000,0000,0000,,So, what's a Patriot factory?
+Dialogue: 0,0:12:35.40,0:12:37.27,On Screen,Caption,0000,0000,0000,,Welcome to the Patriot Factory
+Dialogue: 0,0:12:37.28,0:12:40.15,Main01,Shin,0000,0000,0000,,We've been waiting for you, kids.
+Dialogue: 0,0:12:40.36,0:12:42.99,Main01,Kagura,0000,0000,0000,,You brats, I mean, nice children
+Dialogue: 0,0:12:42.99,0:12:45.86,Main01,Kagura,0000,0000,0000,,were chosen from around the world
+Dialogue: 0,0:12:45.86,0:12:48.74,Main01,,0000,0000,0000,,to tour this factory of dreams!
+Dialogue: 0,0:12:49.17,0:12:50.34,Main01,Shin,0000,0000,0000,,I'm Pachi!
+Dialogue: 0,0:12:50.34,0:12:51.71,Main01,Kagura,0000,0000,0000,,I'm Gura!
+Dialogue: 0,0:12:51.71,0:12:55.79,Main01,Both,0000,0000,0000,,We'll be your guides on this \Ntour of the factory of dreams!
+Dialogue: 0,0:12:57.79,0:13:00.06,Main01,B,0000,0000,0000,,Isn't this a total rip-off of \NCharlie and the Chocolate Factory?
+Dialogue: 0,0:13:00.06,0:13:04.05,Main01,A,0000,0000,0000,,Excuse me, what is the \Npurpose of this tour?
+Dialogue: 0,0:13:04.18,0:13:06.89,Main01,Shin,0000,0000,0000,,What? You don't appreciate \Nour invitation?
+Dialogue: 0,0:13:06.89,0:13:08.18,Main01,Kagura,0000,0000,0000,,Feel free to leave.
+Dialogue: 0,0:13:08.18,0:13:10.37,Main01,Kagura,0000,0000,0000,,But you won't get any \NDokkiriman stickers.
+Dialogue: 0,0:13:10.37,0:13:13.56,Main01,Kagura,0000,0000,0000,,And you'll lose your chance \Nto learn what Patriots are.
+Dialogue: 0,0:13:13.83,0:13:15.87,Main01,Daigoro,0000,0000,0000,,Who cares about Patriots...
+Dialogue: 0,0:13:16.60,0:13:17.94,Main01,Sa,0000,0000,0000,,Look! Look!
+Dialogue: 0,0:13:17.94,0:13:19.15,Main01,Sa,0000,0000,0000,,It's a Patriot factory!
+Dialogue: 0,0:13:19.15,0:13:20.57,Main01,Sa,0000,0000,0000,,No way! I don't believe it!
+Dialogue: 0,0:13:20.57,0:13:23.07,Main01,Tsukuyo,0000,0000,0000,,I never imagined that a Patriot \Nfactory would be here!
+Dialogue: 0,0:13:23.45,0:13:25.95,Main01,Tsukuyo,0000,0000,0000,,I heard that they were only produced by
+Dialogue: 0,0:13:25.95,0:13:28.21,Main01,,0000,0000,0000,,NASA, the FBI, and the NBA!
+Dialogue: 0,0:13:28.46,0:13:30.41,Main01,Sa,0000,0000,0000,,Let's take a look.
+Dialogue: 0,0:13:30.41,0:13:31.62,Main01,Tsukuyo,0000,0000,0000,,Wait, Sarutobi!
+Dialogue: 0,0:13:36.87,0:13:39.18,Main01,Hijikata,0000,0000,0000,,Chief, I found some suspicious people
+Dialogue: 0,0:13:39.18,0:13:40.88,Main01,,0000,0000,0000,,who were investigating the Patriot.
+Dialogue: 0,0:13:40.88,0:13:42.25,Main01,Hijikata,0000,0000,0000,,I immediately shot them down.
+Dialogue: 0,0:13:42.53,0:13:43.45,Main01,Gin,0000,0000,0000,,Roger that.
+Dialogue: 0,0:13:43.45,0:13:46.02,Main01,Gin,0000,0000,0000,,So the Succeed Committee \Nhas finally made its move.
+Dialogue: 0,0:13:46.02,0:13:47.63,Main01,Gin,0000,0000,0000,,The time of Ragnarok is upon us.
+Dialogue: 0,0:13:47.63,0:13:49.22,Main01,Gin,0000,0000,0000,,We must hasten the \Ndevelopment of the Patriot.
+Dialogue: 0,0:13:49.40,0:13:51.46,Main01,Hijikata,0000,0000,0000,,I also see some funny-looking kids.
+Dialogue: 0,0:13:51.46,0:13:52.64,Main01,Hijikata,0000,0000,0000,,Should I take them out?
+Dialogue: 0,0:13:55.38,0:13:57.23,Main01,Gin,0000,0000,0000,,They are my guests.
+Dialogue: 0,0:13:58.46,0:14:00.31,Main01,Gin,0000,0000,0000,,The last hope of humanity.
+Dialogue: 0,0:14:00.31,0:14:02.48,Main01,Gin,0000,0000,0000,,The children who will \Ninherit the Patriots.
+Dialogue: 0,0:14:02.71,0:14:05.57,Main01,Gin,0000,0000,0000,,Welcome to the Patriot factory tour.
+Dialogue: 0,0:14:05.75,0:14:07.03,Main01,Kagura,0000,0000,0000,,Chief!
+Dialogue: 0,0:14:07.03,0:14:09.24,Main01,Kagura,0000,0000,0000,,The kids aren't interested \Nin the Patriot.
+Dialogue: 0,0:14:09.69,0:14:10.67,Main01,Gin,0000,0000,0000,,I see.
+Dialogue: 0,0:14:10.67,0:14:13.25,Main01,Gin,0000,0000,0000,,But you've seen too much already.
+Dialogue: 0,0:14:13.69,0:14:15.12,Main01,Gin,0000,0000,0000,,Take them out...
+Dialogue: 0,0:14:16.19,0:14:17.80,Main01,Kagura,0000,0000,0000,,You can leave.
+Dialogue: 0,0:14:17.80,0:14:19.65,Main01,Shin,0000,0000,0000,,Be careful on the way home.
+Dialogue: 0,0:14:21.13,0:14:22.49,Main01,Shin,0000,0000,0000,,This way.
+Dialogue: 0,0:14:22.49,0:14:24.74,Main01,C,0000,0000,0000,,Seriously! We should leave!
+Dialogue: 0,0:14:24.72,0:14:27.13,Main01,B,0000,0000,0000,,They'll kill us if we leave!
+Dialogue: 0,0:14:27.49,0:14:31.63,Main01,Daigoro,0000,0000,0000,,We'll have to do as they say and \Ntour the Patriot factory.
+Dialogue: 0,0:14:31.63,0:14:32.89,Main01,E,0000,0000,0000,,But...
+Dialogue: 0,0:14:32.89,0:14:34.98,Main01,Kagura,0000,0000,0000,,Take a look at this.
+Dialogue: 0,0:14:32.89,0:14:38.39,On Screen,Caption,0000,0000,0000,,History of the Patriot
+Dialogue: 0,0:14:34.98,0:14:36.75,Main01,Shin,0000,0000,0000,,You can see the history and
+Dialogue: 0,0:14:36.75,0:14:38.39,Main01,,0000,0000,0000,,development of the Patriot here.
+Dialogue: 0,0:14:38.89,0:14:42.28,Main01,Shin,0000,0000,0000,,Here, you will find the \Ncurrent Patriot design.
+Dialogue: 0,0:14:42.28,0:14:45.43,Main01,Shin,0000,0000,0000,,However, Patriots have been \Naround since the Jomon period.
+Dialogue: 0,0:14:45.43,0:14:46.53,Main01,Shin,0000,0000,0000,,Thanks to trial and error,
+Dialogue: 0,0:14:46.53,0:14:48.60,Main01,,0000,0000,0000,,we were able to create one of \Nthe essential tools in our life.
+Dialogue: 0,0:14:48.60,0:14:50.16,Main01,C,0000,0000,0000,,I've never used one before.
+Dialogue: 0,0:14:50.41,0:14:51.78,Main01,Shin,0000,0000,0000,,This would be the father of the Patriot,
+Dialogue: 0,0:14:51.78,0:14:54.05,Main01,Shin,0000,0000,0000,,the oldest one known, \Nwhich was created by
+Dialogue: 0,0:14:54.05,0:14:55.63,Main01,,0000,0000,0000,,the chief of the Zugomanda tribe.
+Dialogue: 0,0:14:55.63,0:14:56.91,Main01,E,0000,0000,0000,,Isn't that a drumstick?
+Dialogue: 0,0:14:57.11,0:15:00.76,Main01,Shin,0000,0000,0000,,It may look like one, but \Nthis is, in fact, a Patriot.
+Dialogue: 0,0:15:00.76,0:15:01.78,Main01,Shin,0000,0000,0000,,Look over here.
+Dialogue: 0,0:15:01.78,0:15:03.34,Main01,Shin,0000,0000,0000,,It says "not for \Nconsumption" on the side.
+Dialogue: 0,0:15:03.34,0:15:05.17,Main01,A,0000,0000,0000,,It has to be edible if \Nthere are preservatives!
+Dialogue: 0,0:15:05.31,0:15:09.09,Main01,Kagura,0000,0000,0000,,The original Patriot was known as the
+Dialogue: 0,0:15:09.09,0:15:11.57,Main01,,0000,0000,0000,,boned Patriot or Kin(Patriot)Man.
+Dialogue: 0,0:15:11.57,0:15:13.26,Main01,C,0000,0000,0000,,There's only one word \Nthat would fit in there!
+Dialogue: 0,0:15:13.61,0:15:14.93,Main01,Shin,0000,0000,0000,,In the Heian period,
+Dialogue: 0,0:15:14.93,0:15:17.30,Main01,Shin,0000,0000,0000,,the Tang ambassador Zugomaru Kakinomoto
+Dialogue: 0,0:15:17.30,0:15:18.52,Main01,,0000,0000,0000,,altered the design significantly.
+Dialogue: 0,0:15:19.25,0:15:21.42,Main01,Shin,0000,0000,0000,,He brought ingredients \Nback from the Tang
+Dialogue: 0,0:15:21.42,0:15:22.75,Main01,,0000,0000,0000,,to make it a Spicy Patriot...
+Dialogue: 0,0:15:22.75,0:15:24.14,Main01,A,0000,0000,0000,,That's just spicy chicken!
+Dialogue: 0,0:15:24.14,0:15:25.81,Main01,A,0000,0000,0000,,And somebody took a bite out of it!
+Dialogue: 0,0:15:25.81,0:15:28.04,Main01,A,0000,0000,0000,,Zugomaru's still got \Nsome around his mouth!
+Dialogue: 0,0:15:28.04,0:15:29.19,Main01,Shin,0000,0000,0000,,And in the Sengoku period,
+Dialogue: 0,0:15:29.19,0:15:32.20,Main01,,0000,0000,0000,,Zugomanzo turned the \NPatriot into something.
+Dialogue: 0,0:15:32.20,0:15:34.07,Main01,A,0000,0000,0000,,Why is it part of a combo now?!
+Dialogue: 0,0:15:34.07,0:15:35.64,Main01,C,0000,0000,0000,,Did Zugomanzo even do anything?!
+Dialogue: 0,0:15:35.64,0:15:37.89,Main01,C,0000,0000,0000,,This is like the history \Nof fried chicken!
+Dialogue: 0,0:15:37.89,0:15:41.21,Main01,Shin,0000,0000,0000,,And eventually we reached \Nthe current Patriot design.
+Dialogue: 0,0:15:41.21,0:15:42.15,Main01,A,0000,0000,0000,,Why?!
+Dialogue: 0,0:15:42.15,0:15:44.54,Main01,A,0000,0000,0000,,You skipped over the \Nmost important part!
+Dialogue: 0,0:15:44.75,0:15:46.80,Main01,Shin,0000,0000,0000,,Now that you have some basic \Nknowledge of the Patriot,
+Dialogue: 0,0:15:46.80,0:15:48.84,Main01,Shin,0000,0000,0000,,we'll give you a tour of the factory.
+Dialogue: 0,0:15:49.64,0:15:52.01,Main01,Shin,0000,0000,0000,,We'll see how the \NPatriot is constructed.
+Dialogue: 0,0:15:52.97,0:15:57.54,Main01,Shin,0000,0000,0000,,As you can see, the Patriot \Nis made up of three parts.
+Dialogue: 0,0:15:58.26,0:16:00.33,Main01,Shin,0000,0000,0000,,The tissue box, which \Nis known as the solid.
+Dialogue: 0,0:16:00.33,0:16:03.52,Main01,C,0000,0000,0000,,Uh, you called it a tissue \Nbox, so why call it the solid?
+Dialogue: 0,0:16:03.52,0:16:06.52,Main01,Shin,0000,0000,0000,,The toilet paper, which \Nis known as the naked.
+Dialogue: 0,0:16:06.52,0:16:08.92,Main01,Shin,0000,0000,0000,,And the stick.
+Dialogue: 0,0:16:08.92,0:16:10.07,Main01,A,0000,0000,0000,,Why did you stop coming up with names?!
+Dialogue: 0,0:16:10.44,0:16:14.32,Main01,Shin,0000,0000,0000,,You jack in the three \Nparts to create a Patriot.
+Dialogue: 0,0:16:15.03,0:16:17.60,Main01,Kagura,0000,0000,0000,,Look at the conveyor belt.
+Dialogue: 0,0:16:17.83,0:16:19.78,Main01,C,0000,0000,0000,,I don't see a thing.
+Dialogue: 0,0:16:19.79,0:16:22.21,Main01,A,0000,0000,0000,,Maybe the place is a mess \Nbecause the chief is dead?
+Dialogue: 0,0:16:24.21,0:16:26.84,Main01,All,0000,0000,0000,,The chief is moving down the belt!
+Dialogue: 0,0:16:27.04,0:16:30.73,Main01,Kagura,0000,0000,0000,,The first step is to fix \Nthe broken factory chief.
+Dialogue: 0,0:16:30.73,0:16:31.50,Main01,Kids,0000,0000,0000,,That's where you start?!
+Dialogue: 0,0:16:31.50,0:16:34.13,Main01,A,0000,0000,0000,,Broken chief?! You're \Nthe ones who broke him!
+Dialogue: 0,0:16:34.13,0:16:35.81,Main01,Shin,0000,0000,0000,,The factory chief was \Nbroken to begin with.
+Dialogue: 0,0:16:35.81,0:16:38.22,Main01,A,0000,0000,0000,,Nobody respects the chief!
+Dialogue: 0,0:16:38.43,0:16:41.08,Main01,Kagura,0000,0000,0000,,First, we use tissues \Nto wipe up the bloody body.
+Dialogue: 0,0:16:41.08,0:16:42.87,Main01,C,0000,0000,0000,,That's one of the \Nparts for the Patriot!
+Dialogue: 0,0:16:42.87,0:16:44.91,Main01,C,0000,0000,0000,,Start assembling the Patriot already!
+Dialogue: 0,0:16:44.91,0:16:48.03,Main01,Shin,0000,0000,0000,,Next, we use toilet paper to \Nwipe away his bloody past.
+Dialogue: 0,0:16:48.03,0:16:49.58,Main01,C,0000,0000,0000,,Who cares about his past?!
+Dialogue: 0,0:16:49.58,0:16:51.52,Main01,C,0000,0000,0000,,Make the Patriot already!
+Dialogue: 0,0:16:51.71,0:16:54.39,Main01,Kagura,0000,0000,0000,,And then you use the \NPatriot to wake him up.
+Dialogue: 0,0:16:54.39,0:16:56.28,Main01,C,0000,0000,0000,,The Patriot's already finished!
+Dialogue: 0,0:16:56.28,0:16:58.12,Main01,C,0000,0000,0000,,Why would you use a Patriot \Nto make a Patriot?
+Dialogue: 0,0:16:58.38,0:17:00.10,Main01,Shin,0000,0000,0000,,Then you repeat the process three times.
+Dialogue: 0,0:17:00.10,0:17:02.24,Main01,C,0000,0000,0000,,You're just abusing him!
+Dialogue: 0,0:17:02.24,0:17:05.41,Main01,C,0000,0000,0000,,And aren't these the \Npeople who were shot?
+Dialogue: 0,0:17:05.41,0:17:08.09,Main01,Kagura,0000,0000,0000,,The chief must settle past accounts \Nbefore he can be revived.
+Dialogue: 0,0:17:08.09,0:17:09.63,Main01,C,0000,0000,0000,,They're just getting revenge!
+Dialogue: 0,0:17:09.63,0:17:13.13,On Screen,Caption,0000,0000,0000,,Heal
+Dialogue: 0,0:17:10.03,0:17:13.13,Main01,Shin,0000,0000,0000,,And finally, we send the factory \Nchief into the healing machine.
+Dialogue: 0,0:17:14.72,0:17:16.13,Main01,Shin,0000,0000,0000,,The factory chief is complete!
+Dialogue: 0,0:17:16.13,0:17:18.14,Main01,C,0000,0000,0000,,Nothing changed!
+Dialogue: 0,0:17:18.14,0:17:20.56,Main01,Kagura,0000,0000,0000,,This is the completed form \Nof the factory chief.
+Dialogue: 0,0:17:20.56,0:17:22.53,Main01,Kagura,0000,0000,0000,,He was born broken.
+Dialogue: 0,0:17:22.53,0:17:24.64,Main01,C,0000,0000,0000,,What was the point of \Nthat whole process then?!
+Dialogue: 0,0:17:24.64,0:17:25.84,Main01,Shin,0000,0000,0000,,In the second step,
+Dialogue: 0,0:17:25.84,0:17:28.01,Main01,,0000,0000,0000,,we give the assembled \Nfactory chief motivation.
+Dialogue: 0,0:17:28.01,0:17:29.29,Main01,Shin,0000,0000,0000,,Otherwise known as giving \Nthe factory chief a goal.
+Dialogue: 0,0:17:29.29,0:17:31.03,Main01,C,0000,0000,0000,,Enough with the chief!
+Dialogue: 0,0:17:31.25,0:17:32.66,Main01,Shin,0000,0000,0000,,The chief is absolutely necessary
+Dialogue: 0,0:17:32.66,0:17:34.98,Main01,,0000,0000,0000,,for the production of a Patriot,
+Dialogue: 0,0:17:34.98,0:17:35.74,Main01,Shin,0000,0000,0000,,so this can't be avoided.
+Dialogue: 0,0:17:35.74,0:17:37.72,Main01,C,0000,0000,0000,,When are you going to make a Patriot?!
+Dialogue: 0,0:17:37.72,0:17:40.00,Main01,A,0000,0000,0000,,This is turning into a factory \Nfor making factory chiefs!
+Dialogue: 0,0:17:39.28,0:17:40.99,On Screen,Caption,0000,0000,0000,,I could only see the stars back then.
+Dialogue: 0,0:17:39.99,0:17:40.99,Main01,A,0000,0000,0000,,Hm? What's that?
+Dialogue: 0,0:17:41.30,0:17:43.70,Main01,A,0000,0000,0000,,They put him in a school uniform.
+Dialogue: 0,0:17:46.25,0:17:47.96,Main01,A,0000,0000,0000,,It's so fast!
+Dialogue: 0,0:17:47.96,0:17:49.51,Main01,A,0000,0000,0000,,I can barely keep up!
+Dialogue: 0,0:17:49.50,0:17:50.92,Main01,C,0000,0000,0000,,Hey! Look over there!
+Dialogue: 0,0:17:50.92,0:17:56.38,On Screen,Caption,0000,0000,0000,,Do your best! Become the best \Nfactory chief in Japan!!
+Dialogue: 0,0:17:51.25,0:17:54.09,Main01,Both,0000,0000,0000,,Hooray! Hooray! Do your best!
+Dialogue: 0,0:17:54.09,0:17:56.38,Main01,A,0000,0000,0000,,Why are they acting like \Nhe's on a train to Tokyo?!
+Dialogue: 0,0:17:56.60,0:17:58.38,Main01,Sa,0000,0000,0000,,We believe in you!
+Dialogue: 0,0:17:58.39,0:18:00.64,Main01,,0000,0000,0000,,You can become the best \Nfactory chief in Japan!
+Dialogue: 0,0:18:00.65,0:18:02.56,Main01,,0000,0000,0000,,You can do it, Facto!
+Dialogue: 0,0:18:02.56,0:18:03.95,Main01,A,0000,0000,0000,,His name is Facto?!
+Dialogue: 0,0:18:04.22,0:18:05.14,Main01,A,0000,0000,0000,,Hey!
+Dialogue: 0,0:18:05.14,0:18:07.32,Main01,A,0000,0000,0000,,What kind of process is this?!
+Dialogue: 0,0:18:07.32,0:18:09.47,Main01,C,0000,0000,0000,,Now we have some kind of funky set!
+Dialogue: 0,0:18:10.36,0:18:12.36,Main01,Madao,0000,0000,0000,,You want to become a factory chief?!
+Dialogue: 0,0:18:12.36,0:18:13.99,Main01,Madao,0000,0000,0000,,You were destined to inherit
+Dialogue: 0,0:18:13.99,0:18:15.81,Main01,,0000,0000,0000,,my toilet paper business from the
+Dialogue: 0,0:18:15.81,0:18:17.66,Main01,,0000,0000,0000,,day you were born!
+Dialogue: 0,0:18:17.98,0:18:19.14,Main01,A,0000,0000,0000,,Who's that?!
+Dialogue: 0,0:18:19.14,0:18:21.38,Main01,Madao,0000,0000,0000,,Go to Edo to work for a tissue factory?!
+Dialogue: 0,0:18:21.38,0:18:22.51,Main01,Madao,0000,0000,0000,,Don't look down on me!
+Dialogue: 0,0:18:22.51,0:18:25.87,Main01,Madao,0000,0000,0000,,You think that toilet paper's \Nonly meant for wiping the ass?!
+Dialogue: 0,0:18:26.28,0:18:29.17,Main01,B,0000,0000,0000,,Why is the factory chief's father here?!
+Dialogue: 0,0:18:29.17,0:18:31.48,Main01,Daigoro,0000,0000,0000,,This must be a flashback.
+Dialogue: 0,0:18:31.48,0:18:32.88,Main01,Daigoro,0000,0000,0000,,He was kicked out of his home,
+Dialogue: 0,0:18:32.88,0:18:34.51,Main01,,0000,0000,0000,,which would explain the previous scene.
+Dialogue: 0,0:18:34.67,0:18:35.92,Main01,Kondo,0000,0000,0000,,Darling!
+Dialogue: 0,0:18:35.92,0:18:37.35,Main01,Kondo,0000,0000,0000,,Stop it!
+Dialogue: 0,0:18:37.35,0:18:41.54,Main01,Kondo,0000,0000,0000,,Our son is making paper in his own way!
+Dialogue: 0,0:18:41.54,0:18:42.64,Main01,C,0000,0000,0000,,Now his mother's here?!
+Dialogue: 0,0:18:42.64,0:18:43.86,Main01,Madao,0000,0000,0000,,Let me go, Isako!
+Dialogue: 0,0:18:43.86,0:18:45.32,Main01,Madao,0000,0000,0000,,This is a discussion between men!
+Dialogue: 0,0:18:45.32,0:18:46.52,Main01,Madao,0000,0000,0000,,Ah, Facto!
+Dialogue: 0,0:18:46.52,0:18:49.98,Main01,Madao,0000,0000,0000,,Where are you going?!\N I'm not finished with you yet!
+Dialogue: 0,0:18:49.65,0:18:51.23,On Screen,Caption,0000,0000,0000,,Roof
+Dialogue: 0,0:18:50.00,0:18:51.86,Main01,A,0000,0000,0000,,What are they trying to do?!
+Dialogue: 0,0:18:51.86,0:18:53.23,Main01,E,0000,0000,0000,,Oh, he's wearing his old clothes again.
+Dialogue: 0,0:18:54.29,0:18:55.87,Main01,Hijikata,0000,0000,0000,,Oh, chief.
+Dialogue: 0,0:18:55.87,0:18:56.99,Main01,Hijikata,0000,0000,0000,,Good work.
+Dialogue: 0,0:18:56.99,0:18:58.40,Main01,A,0000,0000,0000,,He has a buddy with him now!
+Dialogue: 0,0:18:58.58,0:19:01.25,Main01,Hijikata,0000,0000,0000,,Why are you taking a nap here?
+Dialogue: 0,0:19:01.25,0:19:02.22,Main01,A,0000,0000,0000,,He's not taking a nap!
+Dialogue: 0,0:19:02.22,0:19:04.41,Main01,A,0000,0000,0000,,He's been out cold on the \Nconveyor belt this whole time!
+Dialogue: 0,0:19:05.96,0:19:09.42,Main01,Hijikata,0000,0000,0000,,Thinking about old times again?
+Dialogue: 0,0:19:10.16,0:19:12.44,Main01,Hijikata,0000,0000,0000,,Your old man was really something.
+Dialogue: 0,0:19:12.44,0:19:17.42,Main01,Hijikata,0000,0000,0000,,A family of toilet paper men \Nwho refused to use tissues.
+Dialogue: 0,0:19:17.66,0:19:19.56,Main01,Hijikata,0000,0000,0000,,When wiping his ass,
+Dialogue: 0,0:19:19.56,0:19:22.03,Main01,,0000,0000,0000,,blowing his nose, writing down notes...
+Dialogue: 0,0:19:22.03,0:19:24.65,Main01,Hijikata,0000,0000,0000,,He even used toilet paper \Nfor the tires on his car.
+Dialogue: 0,0:19:24.65,0:19:26.43,Main01,A,0000,0000,0000,,Is the last one even necessary?!
+Dialogue: 0,0:19:26.86,0:19:29.29,Main01,Hijikata,0000,0000,0000,,You left your home \Nbecause you didn't want
+Dialogue: 0,0:19:29.29,0:19:30.81,Main01,,0000,0000,0000,,to follow in his footsteps.
+Dialogue: 0,0:19:31.14,0:19:33.71,Main01,Hijikata,0000,0000,0000,,And so, you became the \Nchief of a tissue factory.
+Dialogue: 0,0:19:34.59,0:19:37.59,Main01,Hijikata,0000,0000,0000,,You still refuse to use toilet paper?
+Dialogue: 0,0:19:39.25,0:19:41.71,Main01,Hijikata,0000,0000,0000,,You're just as stubborn as your father.
+Dialogue: 0,0:19:41.71,0:19:43.29,Main01,Hijikata,0000,0000,0000,,Still, chief...
+Dialogue: 0,0:19:43.29,0:19:46.26,Main01,Hijikata,0000,0000,0000,,If your old man saw you now,
+Dialogue: 0,0:19:46.26,0:19:49.29,Main01,Hijikata,0000,0000,0000,,I'm sure he'd be willing to use tissues.
+Dialogue: 0,0:19:53.89,0:19:56.83,Main01,Kondo,0000,0000,0000,,He never changed...
+Dialogue: 0,0:19:56.83,0:20:00.60,Main01,Kondo,0000,0000,0000,,He was always so stubborn.
+Dialogue: 0,0:20:00.89,0:20:03.72,Main01,Kondo,0000,0000,0000,,He used toilet paper to wipe \Nhis ass and blow his nose.
+Dialogue: 0,0:20:04.45,0:20:06.82,Main01,Kondo,0000,0000,0000,,When your tissues first went on sale,
+Dialogue: 0,0:20:06.82,0:20:08.72,Main01,,0000,0000,0000,,he used toilet paper \Nto wipe away the tears.
+Dialogue: 0,0:20:09.80,0:20:12.60,Main01,Kondo,0000,0000,0000,,Tissues weren't good enough for him.
+Dialogue: 0,0:20:12.96,0:20:14.24,Main01,A,0000,0000,0000,,Chief!
+Dialogue: 0,0:20:14.24,0:20:16.04,Main01,A,0000,0000,0000,,What are you thinking?!
+Dialogue: 0,0:20:16.04,0:20:18.26,Main01,A,0000,0000,0000,,You really think this \Nproduct will sell?!
+Dialogue: 0,0:20:18.26,0:20:19.61,Main01,B,0000,0000,0000,,I can't go along with this!
+Dialogue: 0,0:20:19.61,0:20:20.93,Main01,C,0000,0000,0000,,Hey, did you hear?
+Dialogue: 0,0:20:20.93,0:20:25.12,Main01,C,0000,0000,0000,,The chief has come up \Nwith a crazy new product.
+Dialogue: 0,0:20:25.28,0:20:27.02,Main01,Daigoro,0000,0000,0000,,D-Don't tell me...
+Dialogue: 0,0:20:27.02,0:20:28.81,Main01,C,0000,0000,0000,,His job's on the line.
+Dialogue: 0,0:20:28.81,0:20:31.42,Main01,C,0000,0000,0000,,But he insists on going \Nthrough with the idea.
+Dialogue: 0,0:20:31.42,0:20:32.12,Main01,Daigoro,0000,0000,0000,,It can't be...
+Dialogue: 0,0:20:32.30,0:20:34.63,Main01,D,0000,0000,0000,,Hey, what kind of product \Nare we talking about?
+Dialogue: 0,0:20:35.15,0:20:36.09,Main01,Daigoro,0000,0000,0000,,No way...
+Dialogue: 0,0:20:36.63,0:20:39.79,Main01,Gin,0000,0000,0000,,Toilet paper and tissue join together.
+Dialogue: 0,0:20:39.79,0:20:43.38,Main01,Gin,0000,0000,0000,,The ultimate paper for \Nwiping away your tears.
+Dialogue: 0,0:20:44.46,0:20:48.05,Main01,Daigoro,0000,0000,0000,,Th-That's the Patriot!
+Dialogue: 0,0:20:50.13,0:20:54.65,Main01,Gin,0000,0000,0000,,We will now proceed to the final \Nstep for creating a Patriot.
+Dialogue: 0,0:20:55.35,0:20:58.23,Main01,B,0000,0000,0000,,Look! Above the conveyor belt!
+Dialogue: 0,0:20:58.65,0:21:01.65,Main01,Madao,0000,0000,0000,,Come, Patriot factory chief!
+Dialogue: 0,0:21:05.78,0:21:09.37,Main01,Shin,0000,0000,0000,,Do you still think that \NPatriots are trash?
+Dialogue: 0,0:21:09.76,0:21:13.41,Main01,Kagura,0000,0000,0000,,Do you still think that \Nthis job is trash?
+Dialogue: 0,0:21:13.41,0:21:15.56,Main01,Shin,0000,0000,0000,,Jobs aren't meant to be compared.
+Dialogue: 0,0:21:15.56,0:21:18.67,Main01,Shin,0000,0000,0000,,When you willingly work for \Nthe sake of someone else,
+Dialogue: 0,0:21:18.67,0:21:19.92,Main01,Shin,0000,0000,0000,,you're doing your job.
+Dialogue: 0,0:21:20.34,0:21:23.34,Main01,Shin,0000,0000,0000,,Every job deserves respect.
+Dialogue: 0,0:21:23.34,0:21:27.43,Main01,Shin,0000,0000,0000,,Because the world needs \Nall of us to do our jobs.
+Dialogue: 0,0:21:28.86,0:21:31.52,Main01,Shin,0000,0000,0000,,Would you like to try doing your job?
+Dialogue: 0,0:21:33.27,0:21:37.07,Main01,Both,0000,0000,0000,,Go help the factory chief.
+Dialogue: 0,0:21:38.31,0:21:40.40,Main01,Gin,0000,0000,0000,,K-Kids...
+Dialogue: 0,0:21:41.12,0:21:45.40,Main01,Kids,0000,0000,0000,,You should have just gotten \Nyour ass off the conveyor belt!
+Dialogue: 0,0:21:47.13,0:21:48.73,Main01,A,0000,0000,0000,,Good work, everyone.
+Dialogue: 0,0:21:48.73,0:21:50.91,Main01,E,0000,0000,0000,,Yeah, we took out the trash.
+Dialogue: 0,0:21:51.08,0:21:54.39,Main01,Daigoro,0000,0000,0000,,Those damn fools wasted our \Ntime with that stupid show.
+Dialogue: 0,0:21:56.40,0:21:58.58,Main01,Shin,0000,0000,0000,,That was an educational experience.
+Dialogue: 0,0:21:58.58,0:21:59.51,Main01,Kagura,0000,0000,0000,,Yep.
+Dialogue: 0,0:23:29.97,0:23:34.89,On Screen,Caption,0000,0000,0000,,{\a6}Next Episode: What Happens \NTwice Can Happen Thrice
+Dialogue: 0,0:23:30.92,0:23:31.96,Main01,Gin,0000,0000,0000,,Next time:
+Dialogue: 0,0:23:31.96,0:23:34.28,Main01,Gin,0000,0000,0000,,What happens twice can happen thrice!
+Dialogue: 0,0:23:34.28,0:23:36.28,Main01,,0000,0000,0000,,

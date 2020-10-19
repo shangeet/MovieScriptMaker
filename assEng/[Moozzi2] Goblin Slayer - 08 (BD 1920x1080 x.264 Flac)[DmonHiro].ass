@@ -1,0 +1,361 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Flashback_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Narration,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,0,1,0,0,100,100,0,0,1,2,1,2,13,13,45,1
+Style: Ep_Title,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&HC8000000,&H00000000,1,0,0,0,100,100,0,0,1,1,0,2,13,13,187,1
+Style: sign_33927_268_Next_Time,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00A7121E,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,365,365,155,1
+Style: sign_33927_269__Goblin_Slayer_,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00BB060A,&H00000000,1,0,0,0,100,100,0,0,1,1,0,2,13,13,187,1
+Style: Disclaimer,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,13,13,45,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:34.61,0:01:38.05,Flashback,GS,0000,0000,0000,,Master, what should I do today?
+Dialogue: 0,0:01:38.05,0:01:40.02,Flashback,BurglaB,0000,0000,0000,,What should you do?
+Dialogue: 0,0:01:40.02,0:01:42.11,Flashback,B,0000,0000,0000,,How stupid can you be?!
+Dialogue: 0,0:01:43.11,0:01:46.78,Flashback,B,0000,0000,0000,,You got hit, so you hit back! \NHit the goblins back!
+Dialogue: 0,0:01:47.10,0:01:51.76,Flashback,B,0000,0000,0000,,Those critters are smart! You think \Nyou'll be able to kill goblins?
+Dialogue: 0,0:01:52.29,0:01:53.48,Flashback,GS,0000,0000,0000,,I will.
+Dialogue: 0,0:01:55.62,0:01:58.77,Flashback,B,0000,0000,0000,,Even though you only \Nwatched while the goblins
+Dialogue: 0,0:01:58.77,0:02:01.79,Flashback,B,0000,0000,0000,,used your dear sister as their plaything?
+Dialogue: 0,0:02:02.00,0:02:05.05,Flashback,B,0000,0000,0000,,Why didn't you jump out and hit the goblins?
+Dialogue: 0,0:02:05.05,0:02:07.59,Flashback,B,0000,0000,0000,,Why didn't you take your sister and run?
+Dialogue: 0,0:02:09.80,0:02:13.18,Flashback,B,0000,0000,0000,,You were powerless and didn't do a thing.
+Dialogue: 0,0:02:13.18,0:02:17.56,Flashback,B,0000,0000,0000,,Did you think you could do something as \Nsoon as you gained a little bit of power?
+Dialogue: 0,0:02:17.56,0:02:20.03,Flashback,B,0000,0000,0000,,Even if you could, it'd be just for show!
+Dialogue: 0,0:02:20.03,0:02:22.32,Flashback,B,0000,0000,0000,,It'll soon be gone, and poof, it's all over!
+Dialogue: 0,0:02:23.89,0:02:26.95,Flashback,B,0000,0000,0000,,But you're the one who has to decide.
+Dialogue: 0,0:02:27.50,0:02:32.53,Flashback,B,0000,0000,0000,,The moment you make the decision to \Ndo something and act on it, you win.
+Dialogue: 0,0:02:34.06,0:02:37.96,Flashback,B,0000,0000,0000,,Luck, wisdom, and courage!
+Dialogue: 0,0:02:37.96,0:02:40.49,Flashback,B,0000,0000,0000,,It all begins with whether or not \Nyou're going to do something,
+Dialogue: 0,0:02:40.49,0:02:42.40,Flashback,B,0000,0000,0000,,so do something!
+Dialogue: 0,0:02:42.40,0:02:43.77,Flashback,GS,0000,0000,0000,,Yes, master.
+Dialogue: 0,0:02:43.77,0:02:45.38,Flashback,B,0000,0000,0000,,Look above you.
+Dialogue: 0,0:02:45.98,0:02:48.22,Flashback,B,0000,0000,0000,,This is a puzzle, a riddle!
+Dialogue: 0,0:02:48.22,0:02:50.89,Flashback,B,0000,0000,0000,,If you don't want to die, answer quickly.
+Dialogue: 0,0:02:51.26,0:02:52.94,Flashback,GS,0000,0000,0000,,Yes, master.
+Dialogue: 0,0:02:52.94,0:02:54.18,Flashback,B,0000,0000,0000,,Very good.
+Dialogue: 0,0:02:54.66,0:02:57.97,Flashback,B,0000,0000,0000,,More just than the gods! \NMore evil than evil deities!
+Dialogue: 0,0:02:57.97,0:03:00.47,Flashback,B,0000,0000,0000,,The rich need me! The poor need me not!
+Dialogue: 0,0:03:00.47,0:03:01.77,Flashback,B,0000,0000,0000,,What am I?
+Dialogue: 0,0:03:02.01,0:03:03.90,Flashback,B,0000,0000,0000,,Now, be careful!
+Dialogue: 0,0:03:03.90,0:03:05.32,Flashback,B,0000,0000,0000,,You'll be crushed!
+Dialogue: 0,0:03:06.68,0:03:09.39,Flashback,GS,0000,0000,0000,,Nothing. The answer is nothing!
+Dialogue: 0,0:03:09.39,0:03:11.82,Flashback,B,0000,0000,0000,,Correct! How about this one?
+Dialogue: 0,0:03:11.82,0:03:15.70,Flashback,B,0000,0000,0000,,It will appear before you \Nat any time and any place.
+Dialogue: 0,0:03:16.11,0:03:20.29,Flashback,B,0000,0000,0000,,It will never let you escape,\Nyet you can never even talk to it!
+Dialogue: 0,0:03:20.75,0:03:23.75,Flashback,B,0000,0000,0000,,It's right beside you! Give up!
+Dialogue: 0,0:03:29.13,0:03:31.05,Flashback,GS,0000,0000,0000,,Death... The answer is death!
+Dialogue: 0,0:03:34.83,0:03:37.68,Flashback,B,0000,0000,0000,,Good... Well done.
+Dialogue: 0,0:03:39.51,0:03:43.98,Flashback,B,0000,0000,0000,,Finally, answer me this. \NWhat's in my pocket?
+Dialogue: 0,0:03:45.77,0:03:47.90,Flashback,B,0000,0000,0000,,What's in my pocket?
+Dialogue: 0,0:03:52.16,0:03:55.45,Ep_Title,Sign,0000,0000,0000,,{\fad(312,1)}Whispers and Prayers and Chants
+Dialogue: 0,0:04:23.70,0:04:25.61,Main,SM,0000,0000,0000,,It appears you are awake.
+Dialogue: 0,0:04:31.97,0:04:38.10,Main,SM,0000,0000,0000,,So how was it, sharing a \Nbed with me... and her?
+Dialogue: 0,0:04:38.82,0:04:40.33,Main,GS,0000,0000,0000,,Not bad.
+Dialogue: 0,0:04:41.23,0:04:45.21,Main,GS,0000,0000,0000,,So this is the miracle of Resurrection... \NAchieved by sharing a bed with a virgin.
+Dialogue: 0,0:04:45.57,0:04:48.53,Main,SM,0000,0000,0000,,Oh, so you've heard of it?
+Dialogue: 0,0:04:48.53,0:04:50.07,Main,GS,0000,0000,0000,,I knew of it.
+Dialogue: 0,0:04:51.99,0:04:57.06,Main,SM,0000,0000,0000,,Though, sadly, I cannot be \Nconsidered pure anymore.
+Dialogue: 0,0:04:58.26,0:04:59.64,Main,GS,0000,0000,0000,,Goblins?
+Dialogue: 0,0:04:59.64,0:05:00.37,Main,SM,0000,0000,0000,,Yes.
+Dialogue: 0,0:05:00.95,0:05:03.56,Main,SM,0000,0000,0000,,It was about ten years ago.
+Dialogue: 0,0:05:04.13,0:05:07.63,Main,SM,0000,0000,0000,,I was captured by goblins, \Nand inside the cave...
+Dialogue: 0,0:05:08.30,0:05:11.53,Main,SM,0000,0000,0000,,Would you like to hear what happened?
+Dialogue: 0,0:05:11.77,0:05:12.88,Main,GS,0000,0000,0000,,I already know.
+Dialogue: 0,0:05:14.41,0:05:19.37,Main,SM,0000,0000,0000,,I cried like a child, repeating, \N"It hurts... It hurts..."
+Dialogue: 0,0:05:21.25,0:05:24.19,Main,SM,0000,0000,0000,,But... I can see...
+Dialogue: 0,0:05:24.19,0:05:29.71,Main,SM,0000,0000,0000,,Though it is blurry, I can make out your shape.
+Dialogue: 0,0:05:30.34,0:05:32.92,Main,SM,0000,0000,0000,,We can find you anywhere, \Nbut at the same time,
+Dialogue: 0,0:05:32.92,0:05:36.02,Main,Sm,0000,0000,0000,,you seem like you may disappear \Nas soon as we turn away.
+Dialogue: 0,0:05:36.02,0:05:37.43,Main,Sm,0000,0000,0000,,You're like a shadow.
+Dialogue: 0,0:05:38.29,0:05:42.22,Main,SM,0000,0000,0000,,People are... Women are weak creatures.
+Dialogue: 0,0:05:43.14,0:05:46.62,Main,SM,0000,0000,0000,,I'm worried. I'm scared.
+Dialogue: 0,0:05:46.62,0:05:48.23,Main,SM,0000,0000,0000,,Isn't it strange?
+Dialogue: 0,0:05:48.90,0:05:53.86,Main,SM,0000,0000,0000,,I, the Sword Maiden, am scared, \Nterrified, night after night...
+Dialogue: 0,0:05:53.86,0:05:56.73,Main,SM,0000,0000,0000,,I feel absolutely helpless.
+Dialogue: 0,0:05:58.45,0:06:00.63,Main,SM,0000,0000,0000,,This is the world we live in, after all.
+Dialogue: 0,0:06:00.63,0:06:03.17,Main,SM,0000,0000,0000,,No matter how many things \Nwe have to help us...
+Dialogue: 0,0:06:03.79,0:06:07.79,Main,SM,0000,0000,0000,,Though I'm sure others \Nwouldn't understand, right?
+Dialogue: 0,0:06:08.36,0:06:09.33,Main,GS,0000,0000,0000,,Really?
+Dialogue: 0,0:06:12.29,0:06:14.52,Main,SM,0000,0000,0000,,"Really?" he says...
+Dialogue: 0,0:06:16.12,0:06:17.26,Main,GS,0000,0000,0000,,Is something funny?
+Dialogue: 0,0:06:17.99,0:06:20.70,Main,SM,0000,0000,0000,,Well, don't you think it's funny?
+Dialogue: 0,0:06:20.70,0:06:24.85,Main,SM,0000,0000,0000,,I'm the woman who defeated the Demon Lord.
+Dialogue: 0,0:06:25.38,0:06:29.07,Main,SM,0000,0000,0000,,And yet I'm scared of some goblins...
+Dialogue: 0,0:06:30.60,0:06:31.33,Main,SM,0000,0000,0000,,Please...
+Dialogue: 0,0:06:32.81,0:06:36.69,Main,Sm,0000,0000,0000,,Will you help me?
+Dialogue: 0,0:06:54.76,0:06:57.09,Main,Priestess,0000,0000,0000,,U-Um, uh...
+Dialogue: 0,0:06:57.93,0:07:00.09,Main,P,0000,0000,0000,,D-D-Did you see?!
+Dialogue: 0,0:07:00.51,0:07:01.22,Main,GS,0000,0000,0000,,Yeah.
+Dialogue: 0,0:07:02.26,0:07:03.39,Main,GS,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:07:04.48,0:07:06.18,Main,GS,0000,0000,0000,,You don't have any scars.
+Dialogue: 0,0:07:10.55,0:07:14.61,Main,P,0000,0000,0000,,Are your wounds healed now?
+Dialogue: 0,0:07:14.90,0:07:15.66,Main,GS,0000,0000,0000,,Yeah.
+Dialogue: 0,0:07:16.72,0:07:18.38,Main,P,0000,0000,0000,,Goblin Slayer...
+Dialogue: 0,0:07:19.16,0:07:19.86,Main,GS,0000,0000,0000,,What?
+Dialogue: 0,0:07:20.25,0:07:21.30,Main,P,0000,0000,0000,,Um...
+Dialogue: 0,0:07:23.06,0:07:25.48,Main,P,0000,0000,0000,,Are you sure you're not \Npushing yourself too hard?
+Dialogue: 0,0:07:26.44,0:07:27.71,Main,GS,0000,0000,0000,,Why do you ask that?
+Dialogue: 0,0:07:30.26,0:07:33.42,Main,P,0000,0000,0000,,You seem different than usual, somehow.
+Dialogue: 0,0:07:34.31,0:07:35.33,Main,GS,0000,0000,0000,,No.
+Dialogue: 0,0:07:36.37,0:07:38.30,Main,GS,0000,0000,0000,,Nothing's changed.
+Dialogue: 0,0:07:40.09,0:07:43.44,Main,P,0000,0000,0000,,Um... Goblin Slayer?
+Dialogue: 0,0:07:43.44,0:07:45.10,Main,High Elf Archer,0000,0000,0000,,This must be it!
+Dialogue: 0,0:07:45.43,0:07:47.97,Main,HEA,0000,0000,0000,,Hey! I heard you two were awake!
+Dialogue: 0,0:07:48.50,0:07:50.19,Main,HEA,0000,0000,0000,,You okay? All better now?
+Dialogue: 0,0:07:50.19,0:07:54.34,Main,Dwarf Shaman,0000,0000,0000,,Looks like you're all better, \NBeard-cutter and little girl.
+Dialogue: 0,0:07:54.34,0:07:58.11,Main,Lizardman Priest,0000,0000,0000,,Thank goodness the spell \Nwas performed in time.
+Dialogue: 0,0:07:59.50,0:08:01.26,Main,GS,0000,0000,0000,,I see you're all safe.
+Dialogue: 0,0:08:01.26,0:08:04.10,Main,HEA,0000,0000,0000,,Are you really one to talk, Orcbolg?
+Dialogue: 0,0:08:04.10,0:08:05.45,Main,GS,0000,0000,0000,,How's the canary?
+Dialogue: 0,0:08:05.45,0:08:06.70,Main,HEA,0000,0000,0000,,It's fine! Totally fine!
+Dialogue: 0,0:08:07.52,0:08:11.21,Main,HEA,0000,0000,0000,,Actually, you were in the worst \Nshape of all of us, Orcbolg.
+Dialogue: 0,0:08:11.62,0:08:13.70,Main,HEA,0000,0000,0000,,As soon as she woke up,
+Dialogue: 0,0:08:13.70,0:08:17.75,Main,HEA,0000,0000,0000,,she was all, "Goblin Slayer!" \Nand started crying. It was a mess.
+Dialogue: 0,0:08:18.07,0:08:20.76,Main,P,0000,0000,0000,,H-Hey! You promised you wouldn't say—
+Dialogue: 0,0:08:20.76,0:08:22.69,Main,HEA,0000,0000,0000,,He's not going to get it if we don't.
+Dialogue: 0,0:08:22.69,0:08:28.11,Main,LP,0000,0000,0000,,At any rate, now we should be able \Nto continue our exploration.
+Dialogue: 0,0:08:29.68,0:08:33.81,Main,LP,0000,0000,0000,,Or perhaps we should tend \Nto our equipment first.
+Dialogue: 0,0:08:33.81,0:08:38.47,Main,DS,0000,0000,0000,,Come on, Scaly, you fool! \NWe need to eat first!
+Dialogue: 0,0:08:38.47,0:08:40.19,Main,LP,0000,0000,0000,,Ah, how thoughtless of me.
+Dialogue: 0,0:08:42.71,0:08:45.16,Main,GS,0000,0000,0000,,None of you have eaten yet?
+Dialogue: 0,0:08:45.40,0:08:48.88,Main,P,0000,0000,0000,,Correct. We promised, remember?
+Dialogue: 0,0:08:48.88,0:08:52.28,Main,P,0000,0000,0000,,That when we got through that battle, \Nwe'd enjoy a meal together.
+Dialogue: 0,0:08:53.96,0:08:57.13,Main,P,0000,0000,0000,,Promises must be kept, right?
+Dialogue: 0,0:09:05.52,0:09:09.33,Main,SD,0000,0000,0000,,This is delicious! My empty \Nstomach can barely handle it!
+Dialogue: 0,0:09:09.33,0:09:13.14,Main,LP,0000,0000,0000,,There's nothing like a meal enjoyed together.
+Dialogue: 0,0:09:16.10,0:09:18.82,Main,HEA,0000,0000,0000,,All right, you two get some rest.
+Dialogue: 0,0:09:19.26,0:09:22.07,Main,HEA,0000,0000,0000,,We'll go scout the sewers.
+Dialogue: 0,0:09:22.07,0:09:23.11,Main,P,0000,0000,0000,,Huh? But...
+Dialogue: 0,0:09:23.45,0:09:27.24,Main,SD,0000,0000,0000,,A warrior with no equipment is \Ntoo big a risk to take down there.
+Dialogue: 0,0:09:27.93,0:09:29.35,Main,P,0000,0000,0000,,Sorry...
+Dialogue: 0,0:09:30.24,0:09:31.09,Main,GS,0000,0000,0000,,Thanks.
+Dialogue: 0,0:09:35.81,0:09:36.88,Main,GS,0000,0000,0000,,Want me to hold that?
+Dialogue: 0,0:09:36.88,0:09:38.79,Main,P,0000,0000,0000,,No, I'm fine.
+Dialogue: 0,0:09:39.24,0:09:40.46,Main,GS,0000,0000,0000,,I see.
+Dialogue: 0,0:09:43.63,0:09:46.43,Main,P,0000,0000,0000,,They'll all be fine, right?
+Dialogue: 0,0:09:47.23,0:09:48.01,Main,GS,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:48.64,0:09:50.94,Main,P,0000,0000,0000,,Are your wounds healed now?
+Dialogue: 0,0:09:51.35,0:09:52.21,Main,GS,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:52.21,0:09:54.64,Main,P,0000,0000,0000,,Make sure you don't do anything too reckless.
+Dialogue: 0,0:09:54.64,0:09:55.42,Main,GS,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:59.39,0:10:00.31,Main,GS,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:10:00.31,0:10:02.28,Main,P,0000,0000,0000,,Don't give me that!
+Dialogue: 0,0:10:02.80,0:10:06.97,Main,P,0000,0000,0000,,All you keep saying is "Yeah."
+Dialogue: 0,0:10:06.97,0:10:08.10,Main,GS,0000,0000,0000,,Really?
+Dialogue: 0,0:10:08.10,0:10:09.24,Main,P,0000,0000,0000,,Yes!
+Dialogue: 0,0:10:09.81,0:10:10.84,Main,GS,0000,0000,0000,,I see.
+Dialogue: 0,0:10:10.84,0:10:13.21,Main,P,0000,0000,0000,,You say "I see" all the time, too!
+Dialogue: 0,0:10:14.73,0:10:16.22,Main,GS,0000,0000,0000,,I'll try to do something about it.
+Dialogue: 0,0:10:16.22,0:10:17.77,Main,P,0000,0000,0000,,Good, you do that!
+Dialogue: 0,0:10:20.69,0:10:24.12,Main,P,0000,0000,0000,,So, you mentioned that you \Nwanted to go shopping.
+Dialogue: 0,0:10:24.12,0:10:24.92,Main,GS,0000,0000,0000,,Yeah.
+Dialogue: 0,0:10:26.54,0:10:30.53,Main,GS,0000,0000,0000,,I'm going to look at the weapons and \Narmor, since mine were damaged.
+Dialogue: 0,0:10:30.97,0:10:32.18,Main,GS,0000,0000,0000,,What are you going to do?
+Dialogue: 0,0:10:32.63,0:10:38.07,Main,P,0000,0000,0000,,My chainmail was torn, so I was hoping \Nthere was a shop that could fix it.
+Dialogue: 0,0:10:38.92,0:10:40.80,Main,GS,0000,0000,0000,,It'd probably be faster to buy a new set.
+Dialogue: 0,0:10:40.80,0:10:42.98,Main,P,0000,0000,0000,,But I'd rather not.
+Dialogue: 0,0:10:42.98,0:10:43.73,Main,GS,0000,0000,0000,,Why is that?
+Dialogue: 0,0:10:44.39,0:10:49.11,Main,P,0000,0000,0000,,Because... this is the first thing \Nyou ever complimented me on.
+Dialogue: 0,0:10:50.21,0:10:51.22,Main,GS,0000,0000,0000,,I see.
+Dialogue: 0,0:10:54.05,0:10:55.23,Main,GS,0000,0000,0000,,I guess you're right.
+Dialogue: 0,0:10:57.17,0:10:59.21,Main,Guy,0000,0000,0000,,This has a huge hole in it.
+Dialogue: 0,0:10:59.21,0:11:01.26,Main,Guy,0000,0000,0000,,You'd probably be better \Noff buying a new one.
+Dialogue: 0,0:11:01.26,0:11:03.71,Main,P,0000,0000,0000,,No, I'd really like you to \Nrepair it if possible.
+Dialogue: 0,0:11:04.14,0:11:06.93,Main,Guy,0000,0000,0000,,Sure thing. I'll fix 'er right up.
+Dialogue: 0,0:11:09.28,0:11:11.55,Main,Guy,0000,0000,0000,,Need a makeover, miss?
+Dialogue: 0,0:11:12.26,0:11:13.81,Main,P,0000,0000,0000,,N-No, thank you!
+Dialogue: 0,0:11:16.89,0:11:18.23,Main,GS,0000,0000,0000,,I need these repaired.
+Dialogue: 0,0:11:18.63,0:11:20.81,Main,Guy,0000,0000,0000,,A-A silver rank?
+Dialogue: 0,0:11:21.36,0:11:24.68,Main,GS,0000,0000,0000,,It's leather armor and a round shield. \NI need it done as soon as possible,
+Dialogue: 0,0:11:24.68,0:11:27.00,Main,GS,0000,0000,0000,,along with that chainmail.
+Dialogue: 0,0:11:27.40,0:11:30.41,Main,Guy,0000,0000,0000,,Um... if you need them done immediately, \Nthe fee will be a bit higher...
+Dialogue: 0,0:11:30.59,0:11:31.34,Main,GS,0000,0000,0000,,That's fine.
+Dialogue: 0,0:11:33.08,0:11:35.00,Main,Guy,0000,0000,0000,,Thank you kindly, sir!
+Dialogue: 0,0:11:35.00,0:11:36.62,Main,GS,0000,0000,0000,,I'm going to have a look at your swords.
+Dialogue: 0,0:11:39.54,0:11:43.09,Main,Gs,0000,0000,0000,,I'll take this. It's a bit long, \Nbut I'll shorten it myself.
+Dialogue: 0,0:11:43.09,0:11:44.25,Main,GS,0000,0000,0000,,I'll be using your whetstone.
+Dialogue: 0,0:11:44.56,0:11:48.29,Main,Guy,0000,0000,0000,,But sir, a sword like that is \Nreally only good for goblins—
+Dialogue: 0,0:11:48.29,0:11:49.99,Main,Gs,0000,0000,0000,,I'll be using it to kill goblins.
+Dialogue: 0,0:11:49.99,0:11:50.74,Main,Guy,0000,0000,0000,,What?!
+Dialogue: 0,0:11:57.40,0:11:58.60,Main,Lady,0000,0000,0000,,Come on by!
+Dialogue: 0,0:11:59.68,0:12:02.75,Main,Guy,0000,0000,0000,,Gather round and have some \Nmouth-watering ice crème!
+Dialogue: 0,0:12:02.75,0:12:05.06,Main,Guy,0000,0000,0000,,Delicious, delicious ice crème!
+Dialogue: 0,0:12:06.15,0:12:08.69,Main,P,0000,0000,0000,,Ice crème? I wonder what that is.
+Dialogue: 0,0:12:09.36,0:12:13.47,Main,Gs,0000,0000,0000,,I'm not sure, but seeing how \Nmostly kids are gathering around,
+Dialogue: 0,0:12:13.47,0:12:15.16,Main,Gs,0000,0000,0000,,it's probably something sweet.
+Dialogue: 0,0:12:19.24,0:12:20.57,Main,GS,0000,0000,0000,,Go ahead.
+Dialogue: 0,0:12:20.57,0:12:23.22,Main,P,0000,0000,0000,,Okay! Thank you so much!
+Dialogue: 0,0:12:35.76,0:12:39.59,Main,P,0000,0000,0000,,Amazing! It's so cold and sweet!
+Dialogue: 0,0:12:39.59,0:12:40.47,Main,GS,0000,0000,0000,,Is it good?
+Dialogue: 0,0:12:40.47,0:12:41.89,Main,P,0000,0000,0000,,Yes! Very much so!
+Dialogue: 0,0:12:42.47,0:12:43.36,Main,GS,0000,0000,0000,,I see.
+Dialogue: 0,0:12:45.19,0:12:47.57,Main,GS,0000,0000,0000,,So it's a frozen dessert.
+Dialogue: 0,0:12:48.07,0:12:51.34,Main,GS,0000,0000,0000,,I've never seen a spell like this. \NHow is it accomplished?
+Dialogue: 0,0:12:51.34,0:12:51.90,Main,Guy,0000,0000,0000,,Well...
+Dialogue: 0,0:12:52.54,0:12:58.83,Main,Guy,0000,0000,0000,,A scientist found out that if you put fire \Nmixture in water, it freezes up real well.
+Dialogue: 0,0:12:58.83,0:12:59.49,Main,Gs,0000,0000,0000,,Oh?
+Dialogue: 0,0:12:59.93,0:13:03.62,Main,Guy,0000,0000,0000,,So I got the idea that freezing up \Nsome milk might be delicious.
+Dialogue: 0,0:13:04.32,0:13:06.33,Main,Gs,0000,0000,0000,,I see. That was very helpful.
+Dialogue: 0,0:13:07.02,0:13:08.78,Main,GS,0000,0000,0000,,Give me one. Keep the change.
+Dialogue: 0,0:13:08.78,0:13:10.17,Main,Guy,0000,0000,0000,,Huh?! Thank you!
+Dialogue: 0,0:13:12.43,0:13:13.05,Main,GS,0000,0000,0000,,What?
+Dialogue: 0,0:13:13.35,0:13:19.03,Main,P,0000,0000,0000,,Nothing. I just figured out why \Nyou know so many things.
+Dialogue: 0,0:13:22.05,0:13:23.64,Main,P,0000,0000,0000,,It's strange, isn't it?
+Dialogue: 0,0:13:24.32,0:13:28.68,Main,P,0000,0000,0000,,No one here has any idea that \Ngoblins are right below them.
+Dialogue: 0,0:13:29.87,0:13:30.53,Main,Gs,0000,0000,0000,,Yeah.
+Dialogue: 0,0:13:31.20,0:13:36.58,Main,P,0000,0000,0000,,Though I'm sure they're scared \Nafter what happened to the victims.
+Dialogue: 0,0:13:36.91,0:13:37.66,Main,P,0000,0000,0000,,Anyone would be.
+Dialogue: 0,0:13:38.99,0:13:40.12,Main,Gs,0000,0000,0000,,When I was young...
+Dialogue: 0,0:13:40.48,0:13:41.28,Main,P,0000,0000,0000,,What?
+Dialogue: 0,0:13:42.07,0:13:43.75,Main,GS,0000,0000,0000,,I thought if I took a step,
+Dialogue: 0,0:13:43.75,0:13:47.74,Main,GS,0000,0000,0000,,the ground would open up \Nbeneath me, and I would die.
+Dialogue: 0,0:13:47.74,0:13:48.54,Main,P,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:49.06,0:13:53.21,Main,gS,0000,0000,0000,,There was a time when I hesitated \Nto even walk because of that.
+Dialogue: 0,0:13:54.01,0:13:58.85,Main,Gs,0000,0000,0000,,It's not impossible, \Nbut no one worries about that.
+Dialogue: 0,0:14:00.22,0:14:02.02,Main,Gs,0000,0000,0000,,That was really strange to me.
+Dialogue: 0,0:14:03.09,0:14:05.44,Main,GS,0000,0000,0000,,She and my sister laughed at me for it,
+Dialogue: 0,0:14:05.44,0:14:08.11,Main,GS,0000,0000,0000,,but it took time for me to realize \Nthat I still have to walk,
+Dialogue: 0,0:14:08.11,0:14:09.36,Main,GS,0000,0000,0000,,no matter how scared I am.
+Dialogue: 0,0:14:10.42,0:14:12.44,Main,P,0000,0000,0000,,Is that how it is?
+Dialogue: 0,0:14:13.65,0:14:15.05,Main,GS,0000,0000,0000,,It is.
+Dialogue: 0,0:14:16.34,0:14:20.16,Main,Gs,0000,0000,0000,,Even now, I'm scared to death.
+Dialogue: 0,0:14:20.83,0:14:23.44,Main,Gs,0000,0000,0000,,I'm thankful that you're helping me,
+Dialogue: 0,0:14:24.24,0:14:27.29,Main,Gs,0000,0000,0000,,but you're not required to help.
+Dialogue: 0,0:14:35.94,0:14:38.89,Main,P,0000,0000,0000,,I told you I was going to \Ndo what I wanted to do.
+Dialogue: 0,0:14:39.74,0:14:40.79,Main,Gs,0000,0000,0000,,Did you?
+Dialogue: 0,0:14:41.32,0:14:42.63,Main,P,0000,0000,0000,,I did.
+Dialogue: 0,0:14:45.66,0:14:48.14,Main,P,0000,0000,0000,,You really are hopeless, you know that?
+Dialogue: 0,0:14:51.10,0:14:52.03,Main,Gs,0000,0000,0000,,Sorry.
+Dialogue: 0,0:14:52.47,0:14:54.92,Main,P,0000,0000,0000,,I don't want to hear that.
+Dialogue: 0,0:14:55.70,0:14:56.63,Main,Gs,0000,0000,0000,,Sorry.
+Dialogue: 0,0:14:57.50,0:14:59.40,Main,P,0000,0000,0000,,It's fine, though.
+Dialogue: 0,0:15:00.05,0:15:03.74,Main,P,0000,0000,0000,,I can't help the things I'm \Nscared of— That's cold!
+Dialogue: 0,0:15:13.86,0:15:15.94,Main,P,0000,0000,0000,,Well, let's get going, Goblin Sla—
+Dialogue: 0,0:15:15.94,0:15:18.22,Main,Spearman,0000,0000,0000,,There you are, Goblin Slayer!
+Dialogue: 0,0:15:18.22,0:15:21.56,Main,Sp,0000,0000,0000,,You've got some nerve, \Nsummoning us with a letter!
+Dialogue: 0,0:15:21.56,0:15:23.43,Main,Sp,0000,0000,0000,,Don't make me tell Guild Girl on you!
+Dialogue: 0,0:15:23.72,0:15:24.67,Main,Gs,0000,0000,0000,,Tell her what?
+Dialogue: 0,0:15:24.67,0:15:26.96,Main,Sp,0000,0000,0000,,The fact that you're out \Nand about with that girl!
+Dialogue: 0,0:15:26.96,0:15:29.27,Main,Witch,0000,0000,0000,,Stop that... now.
+Dialogue: 0,0:15:29.27,0:15:31.71,Main,W,0000,0000,0000,,I'm the one who was summoned.
+Dialogue: 0,0:15:32.44,0:15:34.45,Main,P,0000,0000,0000,,Oh, um...
+Dialogue: 0,0:15:34.81,0:15:36.53,Main,W,0000,0000,0000,,You seem... well.
+Dialogue: 0,0:15:37.12,0:15:38.82,Main,W,0000,0000,0000,,Thank... goodness.
+Dialogue: 0,0:15:38.82,0:15:40.20,Main,P,0000,0000,0000,,Oh, yes!
+Dialogue: 0,0:15:40.78,0:15:45.25,Main,W,0000,0000,0000,,We had some business over here, \Nso I had him come... along.
+Dialogue: 0,0:15:46.50,0:15:47.48,Main,W,0000,0000,0000,,Go on.
+Dialogue: 0,0:15:50.34,0:15:51.46,Main,Sp,0000,0000,0000,,Here.
+Dialogue: 0,0:15:51.85,0:15:53.76,Main,Gs,0000,0000,0000,,Thanks. This will help a lot.
+Dialogue: 0,0:15:53.76,0:15:58.59,Main,Sp,0000,0000,0000,,I'm not a delivery boy, you know. \NDon't make me carry stuff like that again.
+Dialogue: 0,0:15:59.12,0:16:02.57,Main,W,0000,0000,0000,,But... why do you need this?
+Dialogue: 0,0:16:02.57,0:16:05.72,Main,W,0000,0000,0000,,You should be able to buy \Nthis... in this town.
+Dialogue: 0,0:16:05.72,0:16:07.22,Main,GS,0000,0000,0000,,The stuff they have here won't work.
+Dialogue: 0,0:16:07.96,0:16:09.98,Main,GS,0000,0000,0000,,It has to be very fine.
+Dialogue: 0,0:16:10.31,0:16:11.20,Main,W,0000,0000,0000,,I see.
+Dialogue: 0,0:16:11.20,0:16:13.10,Main,SP,0000,0000,0000,,What are you going to use that for?
+Dialogue: 0,0:16:13.47,0:16:14.94,Main,GS,0000,0000,0000,,What else?
+Dialogue: 0,0:16:15.85,0:16:17.29,Main,Gs,0000,0000,0000,,To slay goblins.
+Dialogue: 0,0:16:20.89,0:16:23.16,Main,Uncle,0000,0000,0000,,He didn't come back again today.
+Dialogue: 0,0:16:23.65,0:16:24.97,Main,Cowgirl,0000,0000,0000,,Yeah...
+Dialogue: 0,0:16:25.73,0:16:27.29,Main,Uncle,0000,0000,0000,,How many days has it been now?
+Dialogue: 0,0:16:27.70,0:16:30.63,Main,CG,0000,0000,0000,,Well, he said he was going to a town far away.
+Dialogue: 0,0:16:30.63,0:16:32.54,Main,CG,0000,0000,0000,,I'm sure he has his reasons.
+Dialogue: 0,0:16:34.57,0:16:38.96,Main,Uncle,0000,0000,0000,,He keeps leaving to slay \Ngoblins with no rest...
+Dialogue: 0,0:16:39.67,0:16:43.27,Main,Uncle,0000,0000,0000,,Eventually, the day will come \Nwhen he won't come back at all.
+Dialogue: 0,0:16:43.69,0:16:45.06,Main,CG,0000,0000,0000,,He'll be back.
+Dialogue: 0,0:16:46.13,0:16:48.72,Main,CG,0000,0000,0000,,He'll come back, no matter what.
+Dialogue: 0,0:16:49.20,0:16:52.29,Main,CG,0000,0000,0000,,This is a very important place
+Dialogue: 0,0:16:52.29,0:16:54.67,Main,Cg,0000,0000,0000,,to both him and me.
+Dialogue: 0,0:16:56.24,0:17:01.14,Main,CG,0000,0000,0000,,So I always want to be waiting here \Nfor him until he comes back.
+Dialogue: 0,0:17:05.02,0:17:08.68,Main,Ds,0000,0000,0000,,Beard-cutter, you're armed to the teeth.
+Dialogue: 0,0:17:08.68,0:17:11.66,Main,HEA,0000,0000,0000,,You could try looking a little cooler.
+Dialogue: 0,0:17:11.66,0:17:13.37,Main,P,0000,0000,0000,,Yeah...
+Dialogue: 0,0:17:13.74,0:17:18.31,Main,P,0000,0000,0000,,Oh, I know, Goblin Slayer. Why don't you \Nstick some feathers in your helmet?
+Dialogue: 0,0:17:18.31,0:17:19.40,Main,GS,0000,0000,0000,,Not interested.
+Dialogue: 0,0:17:19.40,0:17:20.34,Main,HEA,0000,0000,0000,,By the way, Orcbolg,
+Dialogue: 0,0:17:20.60,0:17:23.29,Main,Hea,0000,0000,0000,,you didn't bring a torch today?
+Dialogue: 0,0:17:23.29,0:17:26.05,Main,GS,0000,0000,0000,,There's something I want to try. \NFire would get in the way.
+Dialogue: 0,0:17:26.79,0:17:29.10,Main,Gs,0000,0000,0000,,So, what's this trouble you mentioned?
+Dialogue: 0,0:17:29.41,0:17:30.21,Main,Lp,0000,0000,0000,,Right...
+Dialogue: 0,0:17:32.69,0:17:33.63,Main,Lp,0000,0000,0000,,Behold.
+Dialogue: 0,0:17:36.35,0:17:39.08,Main,P,0000,0000,0000,,What... is that?
+Dialogue: 0,0:17:39.08,0:17:43.95,Main,HEA,0000,0000,0000,,No idea. I mean, it seems \Nto be a giant eyeball, but...
+Dialogue: 0,0:17:44.98,0:17:48.48,Main,Lp,0000,0000,0000,,As far as I can tell, \Nit is a creature of chaos.
+Dialogue: 0,0:17:49.85,0:17:52.38,Main,P,0000,0000,0000,,A creature that must not be named...
+Dialogue: 0,0:17:52.38,0:17:55.14,Main,P,0000,0000,0000,,It's a creature of that nature, right?
+Dialogue: 0,0:17:55.14,0:17:58.63,Main,GS,0000,0000,0000,,Who cares what it's called? You can call \Nit Giant Eyeball or whatever you want.
+Dialogue: 0,0:17:59.00,0:18:02.21,Main,DS,0000,0000,0000,,You never change, do you?
+Dialogue: 0,0:18:02.21,0:18:05.69,Main,LP,0000,0000,0000,,But what's truly dangerous is that eyeball.
+Dialogue: 0,0:18:13.22,0:18:15.73,Main,Lp,0000,0000,0000,,That is an evil eye capable of Disintegrate.
+Dialogue: 0,0:18:16.16,0:18:18.47,Main,LP,0000,0000,0000,,I would summon a dragontooth warrior,
+Dialogue: 0,0:18:18.47,0:18:21.23,Main,LP,0000,0000,0000,,but when that Giant Eye glares at it,
+Dialogue: 0,0:18:21.23,0:18:23.71,Main,LP,0000,0000,0000,,it will use Dispel and my spell will be undone.
+Dialogue: 0,0:18:23.71,0:18:26.95,Main,GS,0000,0000,0000,,Disintegrate and Dispel... \NThat is troublesome.
+Dialogue: 0,0:18:26.95,0:18:32.08,Main,P,0000,0000,0000,,It looks like as long as we don't \Nenter the room, it won't attack.
+Dialogue: 0,0:18:32.52,0:18:36.83,Main,P,0000,0000,0000,,I think as long as the eye doesn't \Nsee us, I'll be able to use a miracle.
+Dialogue: 0,0:18:37.22,0:18:39.20,Main,DS,0000,0000,0000,,But if we get close, it'll see us.
+Dialogue: 0,0:18:39.20,0:18:43.91,Main,DS,0000,0000,0000,,We can't use spells, and that thing fires \Nbeams. It definitely has the upper hand.
+Dialogue: 0,0:18:43.91,0:18:47.75,Main,DS,0000,0000,0000,,We're basically stuck here \Ntwiddling our thumbs.
+Dialogue: 0,0:18:48.37,0:18:51.18,Main,GS,0000,0000,0000,,No. There's something I want to try.
+Dialogue: 0,0:18:51.38,0:18:56.18,Main,HEA,0000,0000,0000,,Just remember, you can't \Nuse fire, water, or poison.
+Dialogue: 0,0:18:56.18,0:18:57.56,Main,GS,0000,0000,0000,,That was our promise.
+Dialogue: 0,0:18:58.47,0:19:01.61,Main,Gs,0000,0000,0000,,Just to make sure, we're \Noutside the town now, right?
+Dialogue: 0,0:19:01.61,0:19:05.32,Main,Ds,0000,0000,0000,,We walked quite a ways, so I feel like \Nwe're a pretty good distance away.
+Dialogue: 0,0:19:06.56,0:19:08.56,Main,GS,0000,0000,0000,,Then this shouldn't be a problem.
+Dialogue: 0,0:19:14.81,0:19:16.96,Main,Hea,0000,0000,0000,,Here it comes!
+Dialogue: 0,0:19:23.49,0:19:25.88,Main,Dwarf shaman,0000,0000,0000,,Drink and sing, spirits!
+Dialogue: 0,0:19:25.88,0:19:28.42,Main,Dwarf shaman,0000,0000,0000,,Sing, dance, and sleep like a log!
+Dialogue: 0,0:19:28.42,0:19:31.64,Main,Dwarf shaman,0000,0000,0000,,Show me dreams of fire wine!
+Dialogue: 0,0:19:32.72,0:19:35.77,Main,DS,0000,0000,0000,,The thing's harmless if it can't glare at us.
+Dialogue: 0,0:19:36.04,0:19:37.23,Main,GS,0000,0000,0000,,All right.
+Dialogue: 0,0:19:42.80,0:19:45.05,Main,HEA,0000,0000,0000,,Orcbolg, what is that?
+Dialogue: 0,0:19:45.05,0:19:46.90,Main,Gs,0000,0000,0000,,Flour. Don't breathe it in.
+Dialogue: 0,0:19:46.90,0:19:49.40,Main,DS,0000,0000,0000,,My spell's gonna wear off soon!
+Dialogue: 0,0:19:54.68,0:19:57.51,Main,GS,0000,0000,0000,,Shoot an arrow at it. \NIt just needs to hit it.
+Dialogue: 0,0:19:58.00,0:20:01.50,Main,GS,0000,0000,0000,,Immediately cast Protection on the \Nentrance. This plan relies on you.
+Dialogue: 0,0:20:01.80,0:20:03.16,Main,Gs,0000,0000,0000,,If you mess up, we die.
+Dialogue: 0,0:20:03.16,0:20:03.90,Main,P,0000,0000,0000,,Got it!
+Dialogue: 0,0:20:06.21,0:20:08.15,Main,P,0000,0000,0000,,O merciful Earth Mother,
+Dialogue: 0,0:20:08.15,0:20:12.76,Main,P,0000,0000,0000,,please protect us, the weak, \Nwith the powers of the earth.
+Dialogue: 0,0:20:15.35,0:20:18.77,Main,Ds,0000,0000,0000,,Powder... in an enclosed space... \NDon't tell me...
+Dialogue: 0,0:20:19.56,0:20:21.77,Main,Gs,0000,0000,0000,,Cover your ears and keep your mouths open!
+Dialogue: 0,0:20:25.84,0:20:26.61,Main,GS,0000,0000,0000,,Get down!
+Dialogue: 0,0:20:46.97,0:20:48.76,Main,Ds,0000,0000,0000,,You actually did it.
+Dialogue: 0,0:20:49.09,0:20:52.43,Main,Lp,0000,0000,0000,,Sir Goblin Slayer, exactly what did you do?
+Dialogue: 0,0:20:52.77,0:20:56.93,Main,Gs,0000,0000,0000,,When he told me about the canary, \Nthe coal miner also told me that
+Dialogue: 0,0:20:56.93,0:21:01.24,Main,Gs,0000,0000,0000,,when there's a lot of fine powder in the air \Nin an enclosed space, and there's a spark,
+Dialogue: 0,0:21:01.24,0:21:03.19,Main,Gs,0000,0000,0000,,it'll catch fire and explode.
+Dialogue: 0,0:21:03.66,0:21:06.93,Main,Gs,0000,0000,0000,,But it's a hassle to prepare.
+Dialogue: 0,0:21:06.93,0:21:09.07,Main,Gs,0000,0000,0000,,There's a chance it'll \Nignite or explode too early.
+Dialogue: 0,0:21:10.09,0:21:12.49,Main,Gs,0000,0000,0000,,Meaning it'll be useless against goblins.
+Dialogue: 0,0:21:12.49,0:21:14.57,Main,HEA,0000,0000,0000,,Wait, an explosion?!
+Dialogue: 0,0:21:14.57,0:21:18.09,Main,Gs,0000,0000,0000,,I didn't specifically use \Nfire, water, or poison.
+Dialogue: 0,0:21:18.65,0:21:21.37,Main,HEA,0000,0000,0000,,That's not the problem here...
+Dialogue: 0,0:21:21.69,0:21:23.25,Main,HEA,0000,0000,0000,,Oh, forget it.
+Dialogue: 0,0:21:23.55,0:21:27.93,Main,P,0000,0000,0000,,Um... What were you going \Nto do if it didn't explode?
+Dialogue: 0,0:21:27.93,0:21:31.81,Main,GS,0000,0000,0000,,We'd shoot an arrow from the hall and \Nrun away until it could collect itself.
+Dialogue: 0,0:21:31.81,0:21:34.09,Main,Gs,0000,0000,0000,,We'd repeat this cycle until it died.
+Dialogue: 0,0:21:34.09,0:21:35.55,Main,GS,0000,0000,0000,,It'd be a hassle, but it'd work.
+Dialogue: 0,0:21:35.55,0:21:39.02,Main,HEA,0000,0000,0000,,I'd be the one doing most of \Nthe work there, wouldn't I?
+Dialogue: 0,0:21:39.02,0:21:42.06,Main,dS,0000,0000,0000,,I guess it would be a \Nlife-or-death situation for you.
+Dialogue: 0,0:21:42.06,0:21:45.56,Main,Ds,0000,0000,0000,,With all that exercise, you'd never \Nplump up that anvil body of yours.
+Dialogue: 0,0:21:45.99,0:21:48.82,Main,HEA,0000,0000,0000,,Actually, I'd say {\i1}you{\i0} need \Nsome more exercise, dwarf.
+Dialogue: 0,0:21:48.82,0:21:51.90,Main,DS,0000,0000,0000,,You fool! My plumpness \Nis what defines a dwarf!
+Dialogue: 0,0:21:51.90,0:21:54.85,Main,HEA,0000,0000,0000,,Really? Get any fatter and we'd \Nhave to roll you down the hall!
+Dialogue: 0,0:21:55.86,0:21:59.64,Main,Lp,0000,0000,0000,,Now, then... What's rather curious...
+Dialogue: 0,0:21:59.64,0:22:00.66,Main,Lp,0000,0000,0000,,is this.
+Dialogue: 0,0:23:35.92,0:23:41.22,sign_33927_268_Next_Time,Sign,0000,0000,0000,,Next Time
+Dialogue: 0,0:23:35.92,0:23:41.22,sign_33927_269__Goblin_Slayer_,Sign,0000,0000,0000,,There and Back Again

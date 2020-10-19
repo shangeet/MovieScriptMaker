@@ -1,0 +1,405 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: B1,Open Sans Semibold,58,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,2,93,93,40,0
+Style: OS,Open Sans Semibold,33,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,8,1,1,20,0
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ep Title,Open Sans Semibold,33,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,3,227,93,27,0
+Style: Copy of Ep Title,Open Sans Semibold,33,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,3,93,301,87,0
+Style: On Top,Open Sans Semibold,36,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,8,27,27,29,0
+Style: Copy of OS,Open Sans Semibold,33,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,9,27,27,27,0
+Style: DefaultLow,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: onscreensigns,Open Sans Semibold,33,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,3,533,53,27,0
+Style: onscreensign2,Open Sans Semibold,33,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,1,40,53,53,0
+Style: DefaultLow,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:02.25,0:00:04.54,Default,NTP,0000,0000,0000,,Alarm - tap to snooze >>\Nslide to stop alarm
+Dialogue: 0,0:00:09.63,0:00:11.76,Default,NTP,0000,0000,0000,,Morning.
+Dialogue: 0,0:00:13.13,0:00:14.89,Default,NTP,0000,0000,0000,,Good morning!
+Dialogue: 0,0:00:15.14,0:00:18.18,Default,NTP,0000,0000,0000,,Here, it's French toast!
+Dialogue: 0,0:00:18.89,0:00:20.27,Default,NTP,0000,0000,0000,,{\i1}It's red...{\i0}
+Dialogue: 0,0:00:20.27,0:00:25.23,Default,NTP,0000,0000,0000,,You said you didn't need lunch,\Nso I decided to put more effort into breakfast!
+Dialogue: 0,0:00:25.23,0:00:29.94,Default,NTP,0000,0000,0000,,{\i1}Put more effort... looks like that's nothing\Nmore than adding pizza sauce...{\i0}
+Dialogue: 0,0:00:29.94,0:00:31.44,Default,NTP,0000,0000,0000,,Time to eat!
+Dialogue: 0,0:00:29.94,0:00:31.44,On Top,NTP,0000,0000,0000,,Otosaka house Secret!\NPizza sauce
+Dialogue: 0,0:00:33.66,0:00:37.08,Default,NTP,0000,0000,0000,,{\i1}It already has sugar in it, and has the \Nextra sweetness from the pizza sauce!{\i0}
+Dialogue: 0,0:00:37.08,0:00:39.83,Default,NTP,0000,0000,0000,,Eh? Did it taste strange?
+Dialogue: 0,0:00:39.83,0:00:43.62,Default,NTP,0000,0000,0000,,Oh, no, it's fine. Seems like \NI'm not feeling too well.
+Dialogue: 0,0:00:43.62,0:00:47.96,Default,NTP,0000,0000,0000,,Can it be that you caught a cold?\NMaybe you should stay home from school?
+Dialogue: 0,0:00:47.96,0:00:51.17,Default,NTP,0000,0000,0000,,It's not that bad. I'm sorry \NI'm making you worry...
+Dialogue: 0,0:00:51.17,0:00:53.38,Default,NTP,0000,0000,0000,,Are you really all right?
+Dialogue: 0,0:00:53.38,0:00:54.55,Default,NTP,0000,0000,0000,,I'm totally fine!
+Dialogue: 0,0:00:59.26,0:01:00.68,Default,NTP,0000,0000,0000,,Thank you for this meal.
+Dialogue: 0,0:01:00.68,0:01:04.77,Default,NTP,0000,0000,0000,,You really do look pale!\NYou should take the day off today!
+Dialogue: 0,0:01:04.77,0:01:08.27,Default,NTP,0000,0000,0000,,No, no, there are no real \Nissues with my condition.
+Dialogue: 0,0:01:08.27,0:01:11.99,Default,NTP,0000,0000,0000,,{\i1}How should I seal away that pizza sauce...{\i0}
+Dialogue: 0,0:02:42.03,0:02:44.29,Default,NTP,0000,0000,0000,,Hoshinoumi Academy
+Dialogue: 0,0:02:44.29,0:02:46.29,On Top,NTP,0000,0000,0000,,Episode 4\NMoment of Earnest
+Dialogue: 0,0:02:44.54,0:02:46.29,Default,NTP,0000,0000,0000,,Hey, hey, I got amazing news!\N
+Dialogue: 0,0:02:46.29,0:02:48.50,Default,,0000,0000,0000,,Apparently Yusa Nishimori is \Ntransferring into our school!
+Dialogue: 0,0:02:48.50,0:02:50.38,Default,NTP,0000,0000,0000,,Eh? You mean THE Yusarin?
+Dialogue: 0,0:02:50.38,0:02:53.00,Default,NTP,0000,0000,0000,,That can't be. This isn't \Nan art school or anything...
+Dialogue: 0,0:02:53.00,0:02:55.55,Default,NTP,0000,0000,0000,,But, if she's the real \Nthing, I'd be so happy!
+Dialogue: 0,0:02:55.55,0:02:58.51,Default,NTP,0000,0000,0000,,Nothing less from our Yusarin!\NEveryone is so worked up about this already!
+Dialogue: 0,0:02:58.51,0:03:01.89,Default,NTP,0000,0000,0000,,When she actually shows up,\Nhow much of a riot will there be?
+Dialogue: 0,0:03:01.89,0:03:04.56,Default,NTP,0000,0000,0000,,I'm troubled just thinking about it....
+Dialogue: 0,0:03:05.39,0:03:06.60,Default,NTP,0000,0000,0000,,Quiet!
+Dialogue: 0,0:03:06.60,0:03:08.56,Default,NTP,0000,0000,0000,,-You there! Sit down!\N-Hey, is that...
+Dialogue: 0,0:03:08.56,0:03:09.94,Default,NTP,0000,0000,0000,,Over here.
+Dialogue: 0,0:03:13.11,0:03:16.86,Default,NTP,0000,0000,0000,,Now, she is a transfer student\Nwho will be your classmate starting today.
+Dialogue: 0,0:03:16.86,0:03:17.90,Default,NTP,0000,0000,0000,,Go introduce yourself.
+Dialogue: 0,0:03:17.90,0:03:20.66,Default,NTP,0000,0000,0000,,I'm Yusa Kurobane, known as Yusarin!
+Dialogue: 0,0:03:21.57,0:03:23.78,Default,NTP,0000,0000,0000,,Quiet! Quiet!
+Dialogue: 0,0:03:23.78,0:03:25.12,Default,NTP,0000,0000,0000,,You there! Sit down!
+Dialogue: 0,0:03:25.12,0:03:26.87,Default,NTP,0000,0000,0000,,And you there, stop dancing!
+Dialogue: 0,0:03:26.87,0:03:29.62,Default,NTP,0000,0000,0000,,{\i1}Even in a place like this, \Nshe calls herself Yusarin?{\i0}
+Dialogue: 0,0:03:30.00,0:03:32.83,Default,NTP,0000,0000,0000,,So your real name is Kurobane?
+Dialogue: 0,0:03:32.83,0:03:35.21,Default,NTP,0000,0000,0000,,Heh, you didn't even know that?
+Dialogue: 0,0:03:40.09,0:03:42.68,Default,NTP,0000,0000,0000,,I may not be able to attend school\Non some days due to work,
+Dialogue: 0,0:03:42.68,0:03:47.35,Default,NTP,0000,0000,0000,,but I'd like to really enjoy high \Nschool life with all of you!
+Dialogue: 0,0:03:47.35,0:03:48.81,Default,NTP,0000,0000,0000,,It's a pleasure to meet all of you!
+Dialogue: 0,0:03:50.98,0:03:56.44,Default,NTP,0000,0000,0000,,Yusarin! Yusarin! Yusarin! Yusarin!
+Dialogue: 0,0:03:56.44,0:03:58.28,Default,NTP,0000,0000,0000,,-Quiet down!\N-Yusarin! Yusarin! Yusarin! Yusarin!
+Dialogue: 0,0:03:58.28,0:03:59.74,Default,NTP,0000,0000,0000,,-Oh, brother...
+Dialogue: 0,0:03:58.28,0:04:02.74,Default,NTP,0000,0000,0000,,-Yusarin! Yusarin! Yusarin! Yusarin!
+Dialogue: 0,0:03:59.74,0:04:02.74,Default,NTP,0000,0000,0000,,-Kurobane, your seat is \Nright there. Go sit down.
+Dialogue: 0,0:04:07.20,0:04:08.87,Default,NTP,0000,0000,0000,,Nice to meet you.
+Dialogue: 0,0:04:08.87,0:04:14.67,Default,NTP,0000,0000,0000,,Yes! I'm sure I will trouble you a lot,\Nbut it's nice to meet you!
+Dialogue: 0,0:04:14.67,0:04:15.84,Default,NTP,0000,0000,0000,,What's with her?
+Dialogue: 0,0:04:15.84,0:04:16.88,Default,NTP,0000,0000,0000,,She's so rude.
+Dialogue: 0,0:04:16.88,0:04:18.38,Default,NTP,0000,0000,0000,,She's so not friendly.
+Dialogue: 0,0:04:19.17,0:04:20.84,Default,NTP,0000,0000,0000,,Why did you transfer here?
+Dialogue: 0,0:04:20.84,0:04:22.43,Default,NTP,0000,0000,0000,,I pre-ordered your new single!
+Dialogue: 0,0:04:22.43,0:04:25.26,Default,NTP,0000,0000,0000,,Me, too! It's such a great song!
+Dialogue: 0,0:04:25.26,0:04:26.93,Default,NTP,0000,0000,0000,,I always watched Move Asa!
+Dialogue: 0,0:04:26.93,0:04:28.39,Default,NTP,0000,0000,0000,,Me, too! Me, too!
+Dialogue: 0,0:04:28.39,0:04:30.48,Default,NTP,0000,0000,0000,,Will you be my friend?\NCan we start by exchanging mail addresses--
+Dialogue: 0,0:04:30.48,0:04:33.65,Default,NTP,0000,0000,0000,,You bastard, what are you saying\Nso suddenly? Don't leave us out of this!
+Dialogue: 0,0:04:33.65,0:04:35.15,Default,NTP,0000,0000,0000,,This much can't hurt!
+Dialogue: 0,0:04:35.15,0:04:38.86,Default,NTP,0000,0000,0000,,Now, now, both of you, be nice to each other!
+Dialogue: 0,0:04:38.86,0:04:40.57,Default,NTP,0000,0000,0000,,Can it be? Is she really going to do that?
+Dialogue: 0,0:04:40.57,0:04:41.78,Default,NTP,0000,0000,0000,,Eh? Do what?
+Dialogue: 0,0:04:43.91,0:04:51.04,Default,NTP,0000,0000,0000,,Making up! Making up!\NMaking up with a magic spell!
+Dialogue: 0,0:04:51.20,0:04:57.00,Default,NTP,0000,0000,0000,,There it is! Yusarin's magic spell series, #13!\NThe spell for making up!
+Dialogue: 0,0:04:57.29,0:05:00.26,Default,NTP,0000,0000,0000,,There. The two of you have made up now!
+Dialogue: 0,0:05:00.55,0:05:02.55,Default,NTP,0000,0000,0000,,Yeah, sorry about that.
+Dialogue: 0,0:05:02.55,0:05:04.88,Default,NTP,0000,0000,0000,,No, I was in the wrong...
+Dialogue: 0,0:05:04.88,0:05:07.85,Default,NTP,0000,0000,0000,,What is that so-called magic spell series?
+Dialogue: 0,0:05:08.01,0:05:11.22,Default,NTP,0000,0000,0000,,Yusa had been a regular cast member\Nof the morning information show "Movement Asa!"
+Dialogue: 0,0:05:11.22,0:05:12.31,Default,NTP,0000,0000,0000,,also known as Move Asa.
+Dialogue: 0,0:05:12.31,0:05:15.98,Default,NTP,0000,0000,0000,,After the day's fortunes, towards \Nthe viewers who had bad luck,
+Dialogue: 0,0:05:15.98,0:05:18.98,Default,,0000,0000,0000,,Yusa sent various magic spells.
+Dialogue: 0,0:05:18.98,0:05:21.65,Default,NTP,0000,0000,0000,,Series #13? Just how many are there?
+Dialogue: 0,0:05:21.99,0:05:25.74,Default,NTP,0000,0000,0000,,There are 64! But, two of them\Nactually overlap, so there really are only 63...
+Dialogue: 0,0:05:25.74,0:05:27.07,Default,NTP,0000,0000,0000,,Such a turn-off!
+Dialogue: 0,0:05:29.45,0:05:32.45,Default,NTP,0000,0000,0000,,Oh, will the helper appear before us again?
+Dialogue: 0,0:05:32.45,0:05:33.71,Default,NTP,0000,0000,0000,,Yes.
+Dialogue: 0,0:05:34.66,0:05:37.13,Default,NTP,0000,0000,0000,,Ouch! What's up with that, \Nstudent council president?
+Dialogue: 0,0:05:37.13,0:05:41.34,Default,NTP,0000,0000,0000,,Kurobane, I'd like you to come with us\Nimmediately to the student council room.
+Dialogue: 0,0:05:42.38,0:05:45.34,Default,NTP,0000,0000,0000,,That's too cruel, student council president!
+Dialogue: 0,0:05:45.88,0:05:47.34,Default,NTP,0000,0000,0000,,Let's go!
+Dialogue: 0,0:05:47.34,0:05:48.39,Default,NTP,0000,0000,0000,,Sure!
+Dialogue: 0,0:05:51.35,0:05:57.02,Default,NTP,0000,0000,0000,,Yusa, that magic spell earlier - series #13,\Nthe spell for making up... it was marvelous!
+Dialogue: 0,0:05:57.02,0:06:00.65,Default,NTP,0000,0000,0000,,Amazing! You knew about \Nit in that much detail?
+Dialogue: 0,0:06:00.65,0:06:05.07,Default,NTP,0000,0000,0000,,Yes. I checked out the show the whole time\Nwhile you were a part of it.
+Dialogue: 0,0:06:05.07,0:06:07.82,Default,NTP,0000,0000,0000,,Wow! Thank you so much!
+Dialogue: 0,0:06:07.82,0:06:10.95,Default,NTP,0000,0000,0000,,{\i1}You're such a fanboy... \Nsuch a turn-off, Takajo.{\i0}
+Dialogue: 0,0:06:11.03,0:06:15.41,Default,NTP,0000,0000,0000,,And, well... what are we going to do here?
+Dialogue: 0,0:06:15.83,0:06:17.79,Default,NTP,0000,0000,0000,,A helper will show up.
+Dialogue: 0,0:06:17.79,0:06:20.85,Default,NTP,0000,0000,0000,,However, we need you to prepare \Nmentally so you aren't
+Dialogue: 0,0:06:20.85,0:06:22.82,Default,,0000,0000,0000,,surprised by his unusual guise.
+Dialogue: 0,0:06:33.97,0:06:37.48,Default,NTP,0000,0000,0000,,Rest assured, he's one of \Nus. He will never harm you.
+Dialogue: 0,0:06:45.49,0:06:48.03,Default,NTP,0000,0000,0000,,The ability is... telekinesis.
+Dialogue: 0,0:06:49.66,0:06:53.37,Default,NTP,0000,0000,0000,,Um, so in the end, what just went on here?
+Dialogue: 0,0:06:53.37,0:06:59.46,Default,NTP,0000,0000,0000,,A guy with a special ability is there,\Nand his power is telekinesis.
+Dialogue: 0,0:07:00.33,0:07:02.67,Default,NTP,0000,0000,0000,,That guy found you in the same manner.
+Dialogue: 0,0:07:02.67,0:07:07.34,Default,NTP,0000,0000,0000,,Wow, that's amazing!\NYusarin here is going to do her best! Yeah!
+Dialogue: 0,0:07:08.05,0:07:11.97,Default,NTP,0000,0000,0000,,{\i1}You may not realize it, but you can\Nget possessed by spirits and have pyrokinesis.{\i0}
+Dialogue: 0,0:07:11.97,0:07:13.47,Default,NTP,0000,0000,0000,,{\i1}You're a lot more amazing than this guy...{\i0}
+Dialogue: 0,0:07:13.72,0:07:15.60,Default,NTP,0000,0000,0000,,The location is a school, huh...
+Dialogue: 0,0:07:15.60,0:07:19.69,Default,NTP,0000,0000,0000,,This is... let's se... Kannai Academy.\NAll right! Bingo!
+Dialogue: 0,0:07:19.69,0:07:20.65,Default,NTP,0000,0000,0000,,Eh? What is?
+Dialogue: 0,0:07:22.06,0:07:26.74,Default,NTP,0000,0000,0000,,This is a sports newspaper from last week!\NI had my eyes on this guy!
+Dialogue: 0,0:07:27.44,0:07:29.57,Default,NTP,0000,0000,0000,,Three perfect games in a row!
+Dialogue: 0,0:07:30.07,0:07:31.58,Default,NTP,0000,0000,0000,,"With sharp knuckle-balls,
+Dialogue: 0,0:07:31.58,0:07:34.87,Default,,0000,0000,0000,,no doubt this super-high-school level \Npitcher will join the pro league!"
+Dialogue: 0,0:07:34.87,0:07:40.25,Default,NTP,0000,0000,0000,,The next day, I went and watched them practice.\NEveryone should look at this.
+Dialogue: 0,0:07:41.88,0:07:43.75,Default,NTP,0000,0000,0000,,Playing now...
+Dialogue: 0,0:07:49.34,0:07:50.34,Default,NTP,0000,0000,0000,,Strike!
+Dialogue: 0,0:07:50.51,0:07:52.43,Default,NTP,0000,0000,0000,,Oh, that's some curve ball!
+Dialogue: 0,0:07:52.43,0:07:54.76,Default,NTP,0000,0000,0000,,He's like major league caliber.
+Dialogue: 0,0:07:54.76,0:07:55.82,Default,NTP,0000,0000,0000,,But, just hold on.
+Dialogue: 0,0:07:56.27,0:07:58.10,Default,NTP,0000,0000,0000,,Now, watch some footage where
+Dialogue: 0,0:07:58.10,0:08:00.04,Default,,0000,0000,0000,,we get a close-up of the \Npitcher's throwing hand.
+Dialogue: 0,0:08:00.23,0:08:03.86,Default,NTP,0000,0000,0000,,There. Take a look. Isn't something strange?
+Dialogue: 0,0:08:03.86,0:08:04.98,Default,NTP,0000,0000,0000,,What is?
+Dialogue: 0,0:08:04.98,0:08:08.65,Default,NTP,0000,0000,0000,,His grip is that of a straight ball.\NEvery ball is like that.
+Dialogue: 0,0:08:08.65,0:08:09.78,Default,NTP,0000,0000,0000,,Knuckle balls are supposed to be
+Dialogue: 0,0:08:09.78,0:08:13.28,Default,NTP,0000,0000,0000,,balls that move irregularly by holding\Nthe ball rotation as much as possible.
+Dialogue: 0,0:08:13.28,0:08:15.63,Default,NTP,0000,0000,0000,,The basic knuckle ball is thrown by putting
+Dialogue: 0,0:08:15.63,0:08:18.43,Default,,0000,0000,0000,,your index and middle fingers \Nagainst the ball like this.
+Dialogue: 0,0:08:18.83,0:08:21.50,Default,NTP,0000,0000,0000,,How you hold a ball for a straight pitch\Nmakes the ball rotate,
+Dialogue: 0,0:08:21.50,0:08:23.88,Default,NTP,0000,0000,0000,,and it will never make the ball shake\Nas much as it just did.
+Dialogue: 0,0:08:23.88,0:08:25.34,Default,NTP,0000,0000,0000,,You're quite knowledged...
+Dialogue: 0,0:08:25.34,0:08:30.34,Default,NTP,0000,0000,0000,,In the end, he's using telekinesis\Nto move the ball around right after throwing it?
+Dialogue: 0,0:08:30.34,0:08:31.05,Default,NTP,0000,0000,0000,,Yes.
+Dialogue: 0,0:08:31.05,0:08:33.93,Default,NTP,0000,0000,0000,,Wow, that's amazing in its own way!
+Dialogue: 0,0:08:33.93,0:08:35.60,Default,NTP,0000,0000,0000,,{\i1}Does she get any of this?{\i0}
+Dialogue: 0,0:08:36.01,0:08:37.91,Default,NTP,0000,0000,0000,,It will be bad if we can't get a hold of him
+Dialogue: 0,0:08:37.91,0:08:40.10,Default,,0000,0000,0000,,before the qualifiers for \Ngoing to Koushien starts.
+Dialogue: 0,0:08:40.10,0:08:41.43,Default,NTP,0000,0000,0000,,Let's head there right away.
+Dialogue: 0,0:08:41.64,0:08:43.23,Default,NTP,0000,0000,0000,,Eh? What about class?
+Dialogue: 0,0:08:43.23,0:08:46.20,Default,NTP,0000,0000,0000,,It's all right. No matter how we act,\N
+Dialogue: 0,0:08:46.20,0:08:48.44,Default,,0000,0000,0000,,as long as you are part \Nof the student council...
+Dialogue: 0,0:08:48.44,0:08:51.03,Default,NTP,0000,0000,0000,,...there are no demerits towards\Nyour grades or your school report.
+Dialogue: 0,0:08:51.03,0:08:52.70,Default,NTP,0000,0000,0000,,I-I see...
+Dialogue: 0,0:08:52.95,0:08:55.49,Default,NTP,0000,0000,0000,,We're from the Hoshinoumi \NAcademy student council.
+Dialogue: 0,0:08:55.91,0:08:58.45,Default,NTP,0000,0000,0000,,What do you want? We're practicing right now.
+Dialogue: 0,0:08:58.45,0:08:59.70,Default,NTP,0000,0000,0000,,I'm sorry!
+Dialogue: 0,0:08:59.70,0:09:01.20,Default,NTP,0000,0000,0000,,Eh? Yusa Nishimori?
+Dialogue: 0,0:09:01.20,0:09:05.04,Default,NTP,0000,0000,0000,,Please ignore her, and for now \Nlisten to what I have to say.
+Dialogue: 0,0:09:05.04,0:09:06.67,Default,NTP,0000,0000,0000,,What is it...?
+Dialogue: 0,0:09:06.67,0:09:12.67,Default,NTP,0000,0000,0000,,I'll be blunt here.\NDo you use telekinesis to throw knuckle balls?
+Dialogue: 0,0:09:13.38,0:09:16.51,Default,NTP,0000,0000,0000,,Telekinesis? As in supernatural powers?
+Dialogue: 0,0:09:16.51,0:09:18.72,Default,NTP,0000,0000,0000,,Of course I don't have such a thing.
+Dialogue: 0,0:09:18.72,0:09:21.73,Default,NTP,0000,0000,0000,,Are you some occult research club\Ninstead of the student council?
+Dialogue: 0,0:09:21.73,0:09:24.14,Default,NTP,0000,0000,0000,,All right, listen closely.
+Dialogue: 0,0:09:24.14,0:09:28.23,Default,NTP,0000,0000,0000,,That power is like a disease\Nthat is only around during puberty.
+Dialogue: 0,0:09:28.23,0:09:33.49,Default,NTP,0000,0000,0000,,Even if you were aiming to be a pro,\Nby then, your powers will be gone.
+Dialogue: 0,0:09:33.49,0:09:36.38,Default,NTP,0000,0000,0000,,Not only that, but if someone notices\Nthat you have powers,
+Dialogue: 0,0:09:36.38,0:09:38.03,Default,,0000,0000,0000,,you will be captured.
+Dialogue: 0,0:09:38.03,0:09:40.79,Default,NTP,0000,0000,0000,,And, your body will become\None that can never play baseball again.
+Dialogue: 0,0:09:40.79,0:09:44.87,Default,NTP,0000,0000,0000,,So, from here on,\Nplease don't use that special ability of yours.
+Dialogue: 0,0:09:44.87,0:09:46.92,Default,NTP,0000,0000,0000,,Be captured? By whom?
+Dialogue: 0,0:09:46.92,0:09:50.96,Default,NTP,0000,0000,0000,,By scientists who are researching\Npeople with abilities, just like you.
+Dialogue: 0,0:09:50.96,0:09:54.26,Default,NTP,0000,0000,0000,,And you want me to believe \Nsuch an idiotic thing?
+Dialogue: 0,0:09:54.76,0:09:58.14,Default,NTP,0000,0000,0000,,Fine. Then, keep looking at me.
+Dialogue: 0,0:09:58.14,0:09:59.18,Default,NTP,0000,0000,0000,,What?
+Dialogue: 0,0:10:01.51,0:10:03.52,Default,NTP,0000,0000,0000,,Do you believe me now?
+Dialogue: 0,0:10:04.52,0:10:07.40,Default,NTP,0000,0000,0000,,You really are a sore loser, aren't you?
+Dialogue: 0,0:10:07.40,0:10:09.69,Default,NTP,0000,0000,0000,,How about we make a whole roast out of him?
+Dialogue: 0,0:10:10.48,0:10:11.15,Default,NTP,0000,0000,0000,,Hey!
+Dialogue: 0,0:10:12.32,0:10:13.82,Default,NTP,0000,0000,0000,,Oh, no, sorry...
+Dialogue: 0,0:10:13.82,0:10:15.95,Default,NTP,0000,0000,0000,,Don't show off in a place like this!
+Dialogue: 0,0:10:17.66,0:10:19.48,Default,NTP,0000,0000,0000,,Oh, Yusarin's saliva!
+Dialogue: 0,0:10:19.48,0:10:23.45,Default,,0000,0000,0000,,No... this would be Misa's saliva...\NI'm troubled at how I should react!
+Dialogue: 0,0:10:23.45,0:10:24.39,Default,NTP,0000,0000,0000,,Such a turn-off!
+Dialogue: 0,0:10:25.46,0:10:30.19,Default,NTP,0000,0000,0000,,Getting back to the main discussion....\NSo, what will it be in the end?
+Dialogue: 0,0:10:25.46,0:10:30.21,On Top,NTP,0000,0000,0000,,But no, this is... this has \Nto be... Yusarin's saliva...
+Dialogue: 0,0:10:31.13,0:10:35.80,On Top,NTP,0000,0000,0000,,No, wait... in the first place...
+Dialogue: 0,0:10:32.80,0:10:35.80,Default,NTP,0000,0000,0000,,Then, how about we face \Neach other in baseball?
+Dialogue: 0,0:10:36.22,0:10:39.21,Default,NTP,0000,0000,0000,,Our baseball team versus\Nyour baseball team.
+Dialogue: 0,0:10:39.21,0:10:41.62,Default,,0000,0000,0000,,If we win, do as we say.
+Dialogue: 0,0:10:43.66,0:10:47.58,Default,NTP,0000,0000,0000,,All right. And if we win,\Ndon't have anything to do with me ever again.
+Dialogue: 0,0:10:47.77,0:10:51.42,Default,NTP,0000,0000,0000,,Yes. But still, you'll never become\Na professional baseball player.
+Dialogue: 0,0:10:52.00,0:10:55.74,Default,NTP,0000,0000,0000,,I don't understand what drives you so far.
+Dialogue: 0,0:10:56.74,0:10:59.17,Default,NTP,0000,0000,0000,,I want to go to Koushien Stadium. That's all.
+Dialogue: 0,0:11:00.24,0:11:05.25,Default,NTP,0000,0000,0000,,Understood. Next Sunday at 3:00PM,\Nat our school courtyard. How about it?
+Dialogue: 0,0:11:05.25,0:11:06.94,Default,NTP,0000,0000,0000,,Yes. I don't have problems with that.
+Dialogue: 0,0:11:11.36,0:11:12.90,Default,NTP,0000,0000,0000,,What's wrong, Arifumi?
+Dialogue: 0,0:11:15.86,0:11:19.65,Default,NTP,0000,0000,0000,,So someone that can hit\Nthat knuckle ball exists in our baseball team?
+Dialogue: 0,0:11:20.02,0:11:22.66,Default,NTP,0000,0000,0000,,We'll be using special abilities ourselves,\Nso it will be all right.
+Dialogue: 0,0:11:22.66,0:11:25.47,Default,NTP,0000,0000,0000,,I see. What kind of abilities \Ndo these people have?
+Dialogue: 0,0:11:25.47,0:11:27.69,Default,NTP,0000,0000,0000,,No, our baseball team, despite \Nhaving several people
+Dialogue: 0,0:11:27.69,0:11:30.62,Default,,0000,0000,0000,,with potential, has no one that \Ncan use a special ability.
+Dialogue: 0,0:11:31.15,0:11:32.58,Default,NTP,0000,0000,0000,,Then, how do we...
+Dialogue: 0,0:11:33.16,0:11:35.00,Default,NTP,0000,0000,0000,,We're still around.
+Dialogue: 0,0:11:38.28,0:11:39.72,Default,NTP,0000,0000,0000,,We're all a part of this?
+Dialogue: 0,0:11:39.99,0:11:41.95,Default,NTP,0000,0000,0000,,If not, we won't be able to win.
+Dialogue: 0,0:11:41.95,0:11:45.26,Default,,0000,0000,0000,,Besides, if it's on our school courtyard, \Nit wouldn't turn into a riot.
+Dialogue: 0,0:11:45.26,0:11:47.16,Default,NTP,0000,0000,0000,,Well, that was the appropriate move.
+Dialogue: 0,0:11:47.16,0:11:49.83,Default,NTP,0000,0000,0000,,Heh.... This gets me burning up\Nfor the first time in a while.
+Dialogue: 0,0:11:49.83,0:11:51.45,Default,NTP,0000,0000,0000,,{\i1}Don't you burn anything!{\i0}
+Dialogue: 0,0:12:01.64,0:12:02.40,Default,NTP,0000,0000,0000,,Bow!
+Dialogue: 0,0:12:02.72,0:12:04.51,Default,NTP,0000,0000,0000,,Let's have a good game!
+Dialogue: 0,0:12:04.51,0:12:07.89,On Top,NTP,0000,0000,0000,,Let's all do our best!
+Dialogue: 0,0:12:05.68,0:12:08.39,Default,NTP,0000,0000,0000,,Our opposing team has girls in it, huh?\N
+Dialogue: 0,0:12:08.39,0:12:10.51,Default,,0000,0000,0000,,There's no way they'd be \Nable to hit your ball.
+Dialogue: 0,0:12:11.31,0:12:13.12,Default,NTP,0000,0000,0000,,What meaning is there in \Na this game to begin with?
+Dialogue: 0,0:12:13.75,0:12:16.42,Default,NTP,0000,0000,0000,,It's for the future, Takato...
+Dialogue: 0,0:12:18.03,0:12:20.80,Default,NTP,0000,0000,0000,,I see. If you say so, let's do it.
+Dialogue: 0,0:12:21.15,0:12:23.63,Default,NTP,0000,0000,0000,,If you lose, I'm smacking all your asses\Nwith a baseball bat!
+Dialogue: 0,0:12:23.63,0:12:25.62,Default,,0000,0000,0000,,All right, here we go! Yeah!
+Dialogue: 0,0:12:25.62,0:12:26.74,Default,NTP,0000,0000,0000,,Yeah!
+Dialogue: 0,0:12:27.33,0:12:28.80,Default,NTP,0000,0000,0000,,{\i1}Smacking asses with a bat...
+Dialogue: 0,0:12:28.80,0:12:31.10,Default,,0000,0000,0000,,that sounds like what the \Nprevious generation does.{\i0}
+Dialogue: 0,0:12:31.50,0:12:32.67,Default,NTP,0000,0000,0000,,Play ball!
+Dialogue: 0,0:12:39.13,0:12:40.26,Default,NTP,0000,0000,0000,,All right!
+Dialogue: 0,0:12:40.63,0:12:44.72,Default,NTP,0000,0000,0000,,They can't even hit our pitcher's ball?\NThe opponents have horrible batters...
+Dialogue: 0,0:12:44.72,0:12:45.68,Default,NTP,0000,0000,0000,,Is that so?
+Dialogue: 0,0:12:45.68,0:12:46.70,Default,NTP,0000,0000,0000,,Hey!
+Dialogue: 0,0:12:46.70,0:12:48.60,Default,,0000,0000,0000,,I'm being serious here, though this\N
+Dialogue: 0,0:12:48.60,0:12:50.35,Default,,0000,0000,0000,,was such a sudden game to play.\N What kinda talk is that?
+Dialogue: 0,0:12:50.35,0:12:51.64,Default,NTP,0000,0000,0000,,It's the truth.
+Dialogue: 0,0:12:51.89,0:12:54.02,Default,NTP,0000,0000,0000,,You jackass, I'll just abandon this game!
+Dialogue: 0,0:12:54.02,0:12:56.36,Default,NTP,0000,0000,0000,,I'd be troubled by that. \NPlease keep pitching.
+Dialogue: 0,0:12:56.36,0:12:58.78,Default,NTP,0000,0000,0000,,Then properly think before you talk!
+Dialogue: 0,0:12:58.78,0:13:01.15,Default,NTP,0000,0000,0000,,Kurobane, please go ahead.
+Dialogue: 0,0:13:01.57,0:13:02.86,Default,NTP,0000,0000,0000,,Okay!
+Dialogue: 0,0:13:02.86,0:13:06.49,Default,NTP,0000,0000,0000,,Magic spell, magic spell!
+Dialogue: 0,0:13:07.03,0:13:10.47,Default,NTP,0000,0000,0000,,Calming down with this magic spell!
+Dialogue: 0,0:13:10.58,0:13:13.69,Default,NTP,0000,0000,0000,,There it is! Yusarin's magic spell series, #9!\N
+Dialogue: 0,0:13:13.69,0:13:15.88,Default,,0000,0000,0000,,The spell for calming down!
+Dialogue: 0,0:13:15.88,0:13:18.36,Default,NTP,0000,0000,0000,,There. Now he is calm!
+Dialogue: 0,0:13:19.59,0:13:20.61,Default,NTP,0000,0000,0000,,Such a turn-off!
+Dialogue: 0,0:13:30.93,0:13:32.41,Default,NTP,0000,0000,0000,,Strike! Batter's out!
+Dialogue: 0,0:13:33.26,0:13:34.93,Default,NTP,0000,0000,0000,,That's a real knuckle ball...\N
+Dialogue: 0,0:13:34.93,0:13:36.69,Default,,0000,0000,0000,,there's no way we can \Nhit something like that.
+Dialogue: 0,0:13:36.69,0:13:38.58,Default,NTP,0000,0000,0000,,Smacking my ass with a bat,\Nor whatever else, do what you'd like.
+Dialogue: 0,0:13:38.98,0:13:42.84,Default,NTP,0000,0000,0000,,But it's pretty amazing that pitches like that\Nare consistently caught.
+Dialogue: 0,0:13:43.11,0:13:45.72,Default,NTP,0000,0000,0000,,Even the catcher is super-high-school level, huh...\N
+Dialogue: 0,0:13:45.72,0:13:47.59,Default,,0000,0000,0000,,there's no way we can win this.
+Dialogue: 0,0:13:47.62,0:13:48.87,On Top,NTP,0000,0000,0000,,Kannai Academy\NHoshinoumi Academy
+Dialogue: 0,0:13:52.51,0:13:56.25,Default,NTP,0000,0000,0000,,{\i1}We just need one run...\Nif the two of us can score one run,{\i0}
+Dialogue: 0,0:13:56.25,0:13:59.65,Default,NTP,0000,0000,0000,,{\i1}we can win as long as the two of us\Nprotect that one run lead!{\i0}
+Dialogue: 0,0:14:04.13,0:14:05.17,Default,NTP,0000,0000,0000,,{\i1}Not good!{\i0}
+Dialogue: 0,0:14:05.17,0:14:07.22,Default,NTP,0000,0000,0000,,{\i1}So they went after Yusa after all.{\i0}
+Dialogue: 0,0:14:11.60,0:14:13.87,Default,NTP,0000,0000,0000,,{\i1}Misa, on the other hand, has \Nathletic reflexes, I guess!{\i0}
+Dialogue: 0,0:14:16.81,0:14:19.05,Default,NTP,0000,0000,0000,,Dammit, Yusa's shoulders are so weak!
+Dialogue: 0,0:14:19.56,0:14:23.67,Default,NTP,0000,0000,0000,,{\i1}I see.... She can make the right decision,\Nbut she can't physically keep up.{\i0}
+Dialogue: 0,0:14:24.69,0:14:26.22,Default,NTP,0000,0000,0000,,Strike! Batter's out!
+Dialogue: 0,0:14:30.24,0:14:31.08,Default,NTP,0000,0000,0000,,Out!
+Dialogue: 0,0:14:54.67,0:14:55.66,Default,NTP,0000,0000,0000,,Ball four!
+Dialogue: 0,0:14:56.21,0:14:57.41,Default,NTP,0000,0000,0000,,{\i1}Not looking good...{\i0}
+Dialogue: 0,0:14:59.87,0:15:00.78,Default,NTP,0000,0000,0000,,Out!
+Dialogue: 0,0:15:02.44,0:15:03.17,Default,NTP,0000,0000,0000,,Safe!
+Dialogue: 0,0:15:03.58,0:15:05.46,Default,NTP,0000,0000,0000,,{\i1}This is our biggest crisis...{\i0}
+Dialogue: 0,0:15:05.94,0:15:07.55,Default,NTP,0000,0000,0000,,We should use abilities as well.
+Dialogue: 0,0:15:08.78,0:15:09.89,Default,NTP,0000,0000,0000,,Specifically, how?
+Dialogue: 0,0:15:09.89,0:15:12.26,Default,NTP,0000,0000,0000,,You need to take over the opponent's batter.
+Dialogue: 0,0:15:12.78,0:15:16.64,Default,NTP,0000,0000,0000,,And the last two batters for them\Nwill listlessly swing their bats.
+Dialogue: 0,0:15:17.15,0:15:19.00,Default,NTP,0000,0000,0000,,And you, just throw outside of the strike zone.\N
+Dialogue: 0,0:15:19.00,0:15:21.25,Default,,0000,0000,0000,,Just be careful to not throw a wild pitch.
+Dialogue: 0,0:15:21.25,0:15:22.67,Default,NTP,0000,0000,0000,,S-Sure...
+Dialogue: 0,0:15:22.67,0:15:24.35,Default,NTP,0000,0000,0000,,Then, I'm counting on you.
+Dialogue: 0,0:15:25.72,0:15:26.65,Default,NTP,0000,0000,0000,,Play!
+Dialogue: 0,0:15:28.30,0:15:31.53,Default,NTP,0000,0000,0000,,{\i1}I have to use my powers \Nfor something like this?{\i0}
+Dialogue: 0,0:15:35.44,0:15:37.07,Default,NTP,0000,0000,0000,,Strike!
+Dialogue: 0,0:15:37.07,0:15:37.87,Default,NTP,0000,0000,0000,,Why?
+Dialogue: 0,0:15:37.87,0:15:39.14,Default,NTP,0000,0000,0000,,Hey, you...
+Dialogue: 0,0:15:43.02,0:15:44.52,Default,NTP,0000,0000,0000,,Strike two!
+Dialogue: 0,0:15:44.52,0:15:45.56,Default,NTP,0000,0000,0000,,Are you all right?
+Dialogue: 0,0:15:46.08,0:15:47.67,Default,NTP,0000,0000,0000,,Yeah, I'm totally fine.
+Dialogue: 0,0:15:48.52,0:15:50.13,Default,NTP,0000,0000,0000,,It's two outs with the next guy...
+Dialogue: 0,0:15:52.12,0:15:56.81,Default,NTP,0000,0000,0000,,{\i1}Arifumi... If you want to be\Nthat thorough in winning this thing...{\i0}
+Dialogue: 0,0:15:58.52,0:15:59.35,Default,NTP,0000,0000,0000,,Catcher!
+Dialogue: 0,0:16:04.73,0:16:05.76,Default,NTP,0000,0000,0000,,Safe!
+Dialogue: 0,0:16:07.84,0:16:08.98,Default,NTP,0000,0000,0000,,Takato...
+Dialogue: 0,0:16:10.22,0:16:11.43,Default,NTP,0000,0000,0000,,What was safe?
+Dialogue: 0,0:16:11.43,0:16:13.68,Default,NTP,0000,0000,0000,,I didn't think that far...
+Dialogue: 0,0:16:13.68,0:16:14.98,Default,NTP,0000,0000,0000,,Did he steal home base?
+Dialogue: 0,0:16:14.98,0:16:16.49,Default,NTP,0000,0000,0000,,Dammit! Dammit, dammit!
+Dialogue: 0,0:16:17.31,0:16:19.24,Default,NTP,0000,0000,0000,,We can't win this one.
+Dialogue: 0,0:16:20.80,0:16:22.46,Default,NTP,0000,0000,0000,,Strike! Batter's out!
+Dialogue: 0,0:16:22.83,0:16:25.55,Default,NTP,0000,0000,0000,,Just make sure to hit the ball when you bunt.\N
+Dialogue: 0,0:16:25.55,0:16:29.24,Default,,0000,0000,0000,,Then, use your ability \Nto run past first base.
+Dialogue: 0,0:16:29.24,0:16:31.65,Default,NTP,0000,0000,0000,,Will they be able to see me do so?
+Dialogue: 0,0:16:31.65,0:16:34.49,Default,NTP,0000,0000,0000,,I'll record the evidence with \Na super-high-speed camera.
+Dialogue: 0,0:16:34.49,0:16:35.95,Default,NTP,0000,0000,0000,,Got it.
+Dialogue: 0,0:16:42.28,0:16:43.35,Default,NTP,0000,0000,0000,,Strike!
+Dialogue: 0,0:16:44.41,0:16:45.77,Default,NTP,0000,0000,0000,,Strike two!
+Dialogue: 0,0:16:46.44,0:16:49.01,Default,NTP,0000,0000,0000,,{\i1}If I screw up the next one, I'll be out...{\i0}
+Dialogue: 0,0:16:50.11,0:16:52.02,Default,NTP,0000,0000,0000,,{\i1}Now, one more guy...{\i0}
+Dialogue: 0,0:16:58.81,0:16:59.49,Default,NTP,0000,0000,0000,,All right!
+Dialogue: 0,0:17:04.40,0:17:07.07,Default,NTP,0000,0000,0000,,See, he's touched first base.
+Dialogue: 0,0:17:07.07,0:17:09.04,Default,NTP,0000,0000,0000,,Come on now, it's safe! It's safe, isn't it?
+Dialogue: 0,0:17:10.78,0:17:11.71,Default,NTP,0000,0000,0000,,....Safe!
+Dialogue: 0,0:17:12.75,0:17:14.47,Default,NTP,0000,0000,0000,,What just happened?
+Dialogue: 0,0:17:14.78,0:17:17.74,Default,NTP,0000,0000,0000,,Well done! We will not be \Nwasting your sacrifice.
+Dialogue: 0,0:17:17.74,0:17:19.10,Default,NTP,0000,0000,0000,,Someone, I need a pinch runner!
+Dialogue: 0,0:17:20.79,0:17:24.27,Default,NTP,0000,0000,0000,,{\i1}Yusa is weak, but I'll use\Nmy own game sense to hit the ball!{\i0}
+Dialogue: 0,0:17:31.01,0:17:32.32,Default,NTP,0000,0000,0000,,All right!
+Dialogue: 0,0:17:32.32,0:17:34.30,Default,NTP,0000,0000,0000,,Wow, that was like Ichiro.
+Dialogue: 0,0:17:34.30,0:17:37.14,Default,NTP,0000,0000,0000,,And now it's your turn \Nat bat, what will you do?
+Dialogue: 0,0:17:37.14,0:17:41.29,Default,NTP,0000,0000,0000,,After my sacrifice bunt succeeds,\None base hit and it's a walk-off.
+Dialogue: 0,0:17:42.03,0:17:44.48,Default,NTP,0000,0000,0000,,I can't hit that with my ability!
+Dialogue: 0,0:17:44.48,0:17:47.40,Default,NTP,0000,0000,0000,,How about you go face things \Nhead-on every so often?
+Dialogue: 0,0:17:48.73,0:17:51.13,Default,NTP,0000,0000,0000,,Yu Otosaka, the fiend of cheating on tests.
+Dialogue: 0,0:18:01.45,0:18:04.06,Default,NTP,0000,0000,0000,,Please hit!
+Dialogue: 0,0:18:09.71,0:18:11.86,Default,NTP,0000,0000,0000,,-Dammit, against guys like this...\N-First base!
+Dialogue: 0,0:18:12.59,0:18:13.46,Default,NTP,0000,0000,0000,,Out!
+Dialogue: 0,0:18:16.55,0:18:19.04,Default,NTP,0000,0000,0000,,{\i1}In a scene like this, I \Nhave to face this head-on?{\i0}
+Dialogue: 0,0:18:19.41,0:18:21.55,Default,NTP,0000,0000,0000,,Lead, lead, lead...
+Dialogue: 0,0:18:23.98,0:18:25.19,Default,NTP,0000,0000,0000,,Strike!
+Dialogue: 0,0:18:26.27,0:18:27.14,Default,NTP,0000,0000,0000,,Strike two!
+Dialogue: 0,0:18:27.14,0:18:27.83,Default,NTP,0000,0000,0000,,Dammit!
+Dialogue: 0,0:18:35.39,0:18:36.34,Default,NTP,0000,0000,0000,,Foul!
+Dialogue: 0,0:18:37.66,0:18:39.03,Default,NTP,0000,0000,0000,,{\i1}I finally was able to hit...{\i0}
+Dialogue: 0,0:18:41.46,0:18:42.68,Default,NTP,0000,0000,0000,,Foul!
+Dialogue: 0,0:18:43.27,0:18:44.50,Default,NTP,0000,0000,0000,,Foul!
+Dialogue: 0,0:18:45.25,0:18:46.48,Default,NTP,0000,0000,0000,,Foul!
+Dialogue: 0,0:18:48.00,0:18:49.90,Default,NTP,0000,0000,0000,,{\i1}His timing is starting to inch closer...\N
+Dialogue: 0,0:18:49.90,0:18:51.95,Default,,0000,0000,0000,,I guess I'll move it a bit \Nmore for the next one.{\i0}
+Dialogue: 0,0:19:02.07,0:19:04.20,Default,NTP,0000,0000,0000,,{\i1}Dammit... it's all over...{\i0}
+Dialogue: 0,0:19:04.52,0:19:06.39,Default,NTP,0000,0000,0000,,It's not over! Run!
+Dialogue: 0,0:19:06.39,0:19:07.74,Default,NTP,0000,0000,0000,,Head to first base, the catcher fumbled!
+Dialogue: 0,0:19:10.17,0:19:10.96,Default,NTP,0000,0000,0000,,Safe!
+Dialogue: 0,0:19:11.66,0:19:13.96,Default,NTP,0000,0000,0000,,We can do this! I have the game sense!
+Dialogue: 0,0:19:14.23,0:19:14.88,Default,NTP,0000,0000,0000,,Takato!
+Dialogue: 0,0:19:27.84,0:19:28.77,Default,NTP,0000,0000,0000,,Safe!
+Dialogue: 0,0:19:29.04,0:19:30.32,Default,NTP,0000,0000,0000,,Game set!
+Dialogue: 0,0:19:32.27,0:19:35.27,Default,NTP,0000,0000,0000,,Did you see that? My game sense?
+Dialogue: 0,0:19:37.72,0:19:39.51,Default,NTP,0000,0000,0000,,That was amazing, Yusarin!
+Dialogue: 0,0:19:39.51,0:19:40.51,Default,NTP,0000,0000,0000,,Did we win?
+Dialogue: 0,0:19:40.51,0:19:42.36,Default,NTP,0000,0000,0000,,Yes, we won.
+Dialogue: 0,0:19:44.83,0:19:45.87,Default,NTP,0000,0000,0000,,We won, huh...
+Dialogue: 0,0:19:46.87,0:19:47.87,Default,NTP,0000,0000,0000,,All right.
+Dialogue: 0,0:19:48.72,0:19:52.52,Default,NTP,0000,0000,0000,,{\i1}Wait... why am I getting so happy\Nabout something like this?{\i0}
+Dialogue: 0,0:19:55.16,0:20:00.51,Default,NTP,0000,0000,0000,,We were victorious.\NPlease never use that ability ever again.
+Dialogue: 0,0:20:02.37,0:20:07.79,Default,NTP,0000,0000,0000,,I'm just an ordinary pitcher...\Nbut Takato, the catcher, is different.
+Dialogue: 0,0:20:08.29,0:20:10.52,Default,NTP,0000,0000,0000,,He's a catcher that really deserves\Nto be in the spotlight.
+Dialogue: 0,0:20:11.40,0:20:13.75,Default,NTP,0000,0000,0000,,The two of us have played together\Nas a battery for a long time now.
+Dialogue: 0,0:20:14.50,0:20:17.31,Default,NTP,0000,0000,0000,,He knew that the baseball \Nteam at our school was weak,
+Dialogue: 0,0:20:17.31,0:20:21.02,Default,,0000,0000,0000,,but still, he chose to pair up with me.
+Dialogue: 0,0:20:21.43,0:20:25.87,Default,NTP,0000,0000,0000,,That's why I wanted to take him,\Neven if it meant using this strange power...
+Dialogue: 0,0:20:26.35,0:20:30.31,Default,NTP,0000,0000,0000,,to that big stage where \Neven the pros would notice.
+Dialogue: 0,0:20:30.31,0:20:34.60,Default,NTP,0000,0000,0000,,So instead of personal gain,\Nyou were using your ability for your friendship.
+Dialogue: 0,0:20:34.98,0:20:35.63,Default,NTP,0000,0000,0000,,Yeah.
+Dialogue: 0,0:20:36.04,0:20:39.39,Default,NTP,0000,0000,0000,,We won today's game by cheating.
+Dialogue: 0,0:20:39.39,0:20:42.08,Default,,0000,0000,0000,,But, you have been cheating \Nwhile pitching this whole time.
+Dialogue: 0,0:20:43.03,0:20:45.65,Default,NTP,0000,0000,0000,,But, people who properly \Nwatch are out there.
+Dialogue: 0,0:20:45.65,0:20:46.97,Default,,0000,0000,0000,,Even if you don't cheat.
+Dialogue: 0,0:20:47.66,0:20:50.11,Default,NTP,0000,0000,0000,,In college, or in the business leagues,
+Dialogue: 0,0:20:50.11,0:20:54.17,Default,,0000,0000,0000,,\Nyou can keep watch over him as his best friend.
+Dialogue: 0,0:20:55.63,0:20:59.94,Default,NTP,0000,0000,0000,,Someday, you will be able to brag\Nthat "he is my best friend."
+Dialogue: 0,0:21:00.55,0:21:02.76,Default,NTP,0000,0000,0000,,I'm sure of it. It will be all right.
+Dialogue: 0,0:21:05.05,0:21:06.11,Default,NTP,0000,0000,0000,,Yeah...
+Dialogue: 0,0:21:08.82,0:21:12.64,Default,NTP,0000,0000,0000,,And a small experiment.\NCan you try taking over his body?
+Dialogue: 0,0:21:12.64,0:21:14.15,Default,NTP,0000,0000,0000,,Eh? Why?
+Dialogue: 0,0:21:14.15,0:21:16.13,Default,NTP,0000,0000,0000,,As I said, it's a small experiment.
+Dialogue: 0,0:21:16.47,0:21:18.78,Default,NTP,0000,0000,0000,,That's not something you \Nsay to your test subject.
+Dialogue: 0,0:21:18.78,0:21:21.05,Default,NTP,0000,0000,0000,,He is the test subject, so don't worry.
+Dialogue: 0,0:21:22.31,0:21:23.60,Default,NTP,0000,0000,0000,,Fine...
+Dialogue: 0,0:21:31.73,0:21:33.03,Default,NTP,0000,0000,0000,,Whoa! What the...?
+Dialogue: 0,0:21:33.52,0:21:35.04,Default,NTP,0000,0000,0000,,Thank you very much.
+Dialogue: 0,0:21:35.04,0:21:38.56,Default,NTP,0000,0000,0000,,No, it wasn't anything much...\Nbut did you figure something out?
+Dialogue: 0,0:21:39.05,0:21:40.82,Default,NTP,0000,0000,0000,,I am not sure for now.
+Dialogue: 0,0:21:41.13,0:21:43.39,Default,NTP,0000,0000,0000,,Just going to see how things go for a while.
+Dialogue: 0,0:21:45.39,0:21:46.51,Default,NTP,0000,0000,0000,,I beg you!
+Dialogue: 0,0:21:46.51,0:21:49.47,Default,NTP,0000,0000,0000,,I hope that for dinner,\Nshe didn't use any of that pizza sauce!
+Dialogue: 0,0:21:50.82,0:21:51.37,Default,NTP,0000,0000,0000,,I'm bac--
+Dialogue: 0,0:21:51.93,0:21:56.08,Default,NTP,0000,0000,0000,,A secret recipe of the Otosaka house -\Na cream stew full of broccoli!
+Dialogue: 0,0:21:56.44,0:21:57.72,Default,NTP,0000,0000,0000,,{\i1}It's red...{\i0}
+Dialogue: 0,0:21:58.03,0:22:00.46,Default,NTP,0000,0000,0000,,Cream stew is supposed to be white...
+Dialogue: 0,0:22:00.88,0:22:03.35,Default,NTP,0000,0000,0000,,That is why it's a secret \Nrecipe of the Otosaka house!
+Dialogue: 0,0:22:03.66,0:22:05.38,Default,NTP,0000,0000,0000,,{\i1}Just as I thought...{\i0}
+Dialogue: 0,0:22:05.70,0:22:09.69,Default,NTP,0000,0000,0000,,{\i1}What do I believe in, you ask?\NOf course, I have to believe in myself!{\i0}
+Dialogue: 0,0:22:10.08,0:22:14.75,On Top,NTP,0000,0000,0000,,{\i1}The power to believe,\Nthe power to challenge.{\i0}
+Dialogue: 0,0:22:11.16,0:22:15.60,Default,NTP,0000,0000,0000,,Oh, it's a new commercial from Yusarin!\NAnd it's Haro-haro's new song!
+Dialogue: 0,0:22:14.75,0:22:19.96,On Top,NTP,0000,0000,0000,,{\i1}Now accepting enrollment\Nfor summer classes at Shinkou Seminars!{\i0}
+Dialogue: 0,0:22:16.17,0:22:19.96,Default,NTP,0000,0000,0000,,Oh, that reminds me, did Yusarin\Nreally transfer to your school?
+Dialogue: 0,0:22:19.96,0:22:21.02,Default,NTP,0000,0000,0000,,Huh? Yeah...
+Dialogue: 0,0:22:21.34,0:22:25.36,Default,NTP,0000,0000,0000,,That is something really amazing!
+Dialogue: 0,0:22:28.39,0:22:29.73,Default,NTP,0000,0000,0000,,Oh, brother...
+Dialogue: 0,0:22:29.73,0:22:31.73,Default,,0000,0000,0000,,

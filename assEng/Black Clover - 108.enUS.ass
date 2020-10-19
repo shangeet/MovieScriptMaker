@@ -1,0 +1,345 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Flashback_Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00500000,&H00500000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Narration,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: OP_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H0065A7CE,&H000000FF,&H64070805,&H000D1728,-1,-1,0,0,100,100,0,0,1,1,0,8,0030,0030,0075,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_138_1_Black_Clover_is_,Trebuchet MS,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_1785_19_Vice_Captain_of_,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0070,0275,0090,1
+Style: sign_6730_49_Captain_of_the_A,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_7061_51_A_Team_Coral_Pea,Times New Roman,20,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0150,1
+Style: sign_7198_131_Nean,Times New Roman,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0336,0254,0134,1
+Style: sign_7198_132_Common_Realm,Times New Roman,24,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0450,0190,1
+Style: sign_7198_133_Kikka,Times New Roman,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0265,0315,0260,1
+Style: sign_9194_75_Yay____Yay____,Times New Roman,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_10111_106_Venue_for_the_Ro,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_11720_132_Bell_,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0235,0030,0070,1
+Style: sign_12339_133_Finnes_Calmreich,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_13177_157_1st_Class_Interm,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0015,0424,0080,1
+Style: sign_13177_158_4th_Class_Senior,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0230,0250,0080,1
+Style: sign_13177_159_1st_Class_Interm,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0415,0030,0080,1
+Style: sign_14555_151_4_years_ago,Times New Roman,28,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0085,1
+Style: sign_15736_152_Sandler,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0060,0505,0205,1
+Style: sign_15736_154_Solid,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0135,0455,0225,1
+Style: sign_15736_155_O_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0110,0440,0060,1
+Style: sign_15736_156_En___Noelle___Yu,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0070,0205,1
+Style: sign_16031_175_The_Eye_of_the_M,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_16031_176_Sally,Times New Roman,26,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0350,0075,1
+Style: sign_16031_177_Rades,Times New Roman,26,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0335,0030,0075,1
+Style: sign_17323_210_Also_got_in_thro,Times New Roman,24,&H000B0B0B,&H000000FF,&H00FFFFFF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0159,0156,0020,1
+Style: sign_21447_269_Mage_Attendant_t,Times New Roman,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0310,0095,1
+Style: sign_21447_270_1st_Class_Interm,Times New Roman,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0355,0030,0095,1
+Style: sign_24182_226_Member_of_the_Pu,Times New Roman,20,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_25640_274_Group_1_En_Ringa,Times New Roman,24,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0040,0030,0125,1
+Style: sign_32950_385_Halt_,Times New Roman,30,&H00332E32,&H000000FF,&H00DADEE2,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0360,0030,0020,1
+Style: sign_33089_334_Bulls,Verdana,30,&H0007A0E4,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,6,0030,0030,0020,1
+Style: sign_33137_335_Hello__we_re_Gor,Trebuchet MS,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33018_294_Sa,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0045,0030,0275,1
+Style: sign_33018_295_Rii,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,1,0480,0030,0130,1
+Style: sign_33126_298_Shi,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0275,1
+Style: sign_33126_299_Rii,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,1,0465,0030,0130,1
+Style: sign_33427_257_Weaken__Naeru_,Trebuchet MS,30,&H00000100,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33236_349_Luck,Trebuchet MS,30,&H00000100,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_33248_350_Ahaha_,Verdana,30,&H00161622,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0030,0030,0020,1
+Style: sign_33332_352_Rucksack,Verdana,30,&H00161622,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0030,0030,0020,1
+Style: sign_5516_38_King_of_the_Clov,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0105,1
+Style: sign_22029_222_Wimpy,Arial,30,&H00171816,&H000000FF,&H00EEEDED,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0040,0030,0040,1
+Style: sign_22078_223_Carefree,Arial,30,&H00171816,&H000000FF,&H00EEEDED,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,6,0040,0030,0020,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:06.66,0:00:10.77,italics,Nar,0000,0000,0000,,It appeared as though humanity \Nwould be destroyed by the demons.
+Dialogue: 0,0:00:15.03,0:00:19.29,italics,Nar,0000,0000,0000,,But a single mage saved them all.
+Dialogue: 0,0:00:26.42,0:00:31.59,italics,Nar,0000,0000,0000,,He was called the Wizard King,\Nand he became a legend.
+Dialogue: 0,0:00:35.18,0:00:37.43,italics,Nar,0000,0000,0000,,Langris and the other \Nmembers of the Golden Dawn
+Dialogue: 0,0:00:37.43,0:00:41.18,italics,Nar,0000,0000,0000,,who had been reincarnated as \Nelves infiltrated the castle.
+Dialogue: 0,0:00:42.67,0:00:47.02,italics,Nar,0000,0000,0000,,Yami and Finral rushed to the castle \Nand were forced into a rough battle.
+Dialogue: 0,0:00:47.02,0:00:50.80,main,Squad A,0000,0000,0000,,It doesn't matter how many of you \Nhumans try and attack us! You cannot wi—
+Dialogue: 0,0:00:52.94,0:00:55.95,main,Jack,0000,0000,0000,,Of course the ones who \Nare most worth slicing up
+Dialogue: 0,0:00:55.95,0:00:57.45,main,Jack,0000,0000,0000,,would show up at the castle, huh?
+Dialogue: 0,0:00:57.95,0:01:00.87,italics,Nar,0000,0000,0000,,Jack joined the battle, and they \Nwere able to turn the tables.
+Dialogue: 0,0:01:02.97,0:01:07.17,italics,Nar,0000,0000,0000,,They regrouped with Nozel and the \Nothers and rushed into the castle.
+Dialogue: 0,0:01:08.04,0:01:12.84,italics,Nar,0000,0000,0000,,Kivn had already infiltrated the Silvas' home,\N where she attacked Nebra and Solid.
+Dialogue: 0,0:01:12.84,0:01:14.77,main,Solid,0000,0000,0000,,Damn it!
+Dialogue: 0,0:01:17.82,0:01:19.60,main,Solid,0000,0000,0000,,Nozel!
+Dialogue: 0,0:01:19.98,0:01:21.35,main,Solid,0000,0000,0000,,Noelle!
+Dialogue: 0,0:01:21.35,0:01:24.68,main,Noelle,0000,0000,0000,,Water Creation Magic: Sea Dragon's Roar!
+Dialogue: 0,0:01:24.68,0:01:28.52,italics,Kivn,0000,0000,0000,,Compass Magic: Another Atlas!
+Dialogue: 0,0:01:28.52,0:01:30.90,italics,Nar,0000,0000,0000,,Noelle and Nozel joined the fight,
+Dialogue: 0,0:01:30.90,0:01:33.85,italics,Nar,0000,0000,0000,,but they were also attacked \Nby Kivn's compass magic.
+Dialogue: 0,0:01:33.85,0:01:35.43,main,Solid,0000,0000,0000,,Nozel!
+Dialogue: 0,0:01:36.23,0:01:37.49,main,Nozel,0000,0000,0000,,Calm down.
+Dialogue: 0,0:01:38.03,0:01:40.32,main,Nozel,0000,0000,0000,,You can no longer fight.
+Dialogue: 0,0:01:40.32,0:01:42.17,main,Nozel,0000,0000,0000,,Worry about your own—
+Dialogue: 0,0:02:22.78,0:02:25.70,Ep Title,Title,0000,0000,0000,,Battlefield Dancer
+Dialogue: 0,0:03:30.05,0:03:34.26,flashback,Solid,0000,0000,0000,,Mother! Mother!
+Dialogue: 0,0:03:48.57,0:03:51.91,flashback,Solid,0000,0000,0000,,At least realize you're being \Nattacked and evade, you slowpoke!
+Dialogue: 0,0:03:56.59,0:03:59.88,flashback,Solid,0000,0000,0000,,You piece of trash! \NHow dare you eat before me?!
+Dialogue: 0,0:04:00.93,0:04:04.10,flashback,Solid,0000,0000,0000,,If you're mad, just try to get me back.
+Dialogue: 0,0:04:08.38,0:04:12.31,flashback,Nebra,0000,0000,0000,,I'm sure it's hard to look in the \Nmirror with a face like yours.
+Dialogue: 0,0:04:12.31,0:04:14.48,flashback,Nebra,0000,0000,0000,,You should be grateful for my kindness.
+Dialogue: 0,0:04:18.48,0:04:21.77,flashback,Solid,0000,0000,0000,,What's with that flimsy little grimoire?
+Dialogue: 0,0:04:22.22,0:04:24.36,flashback,Solid,0000,0000,0000,,Are you really royalty?
+Dialogue: 0,0:04:24.36,0:04:30.06,flashback,Nebra,0000,0000,0000,,It's just pathetic that you can't \Neven control your powers.
+Dialogue: 0,0:04:30.06,0:04:33.37,flashback,Nebra,0000,0000,0000,,It disgusts me that you're my little sister.
+Dialogue: 0,0:04:33.37,0:04:39.45,flashback,Nozel,0000,0000,0000,,I will not have someone as shameful \Nas you in the Silver Eagles.
+Dialogue: 0,0:04:44.86,0:04:46.28,flashback,Solid,0000,0000,0000,,Pathetic, isn't it?
+Dialogue: 0,0:04:46.28,0:04:47.64,flashback,Nebra,0000,0000,0000,,What, really?
+Dialogue: 0,0:04:48.09,0:04:53.27,flashback,Solid,0000,0000,0000,,Noelle is practicing her water magic \Nagainst a dead tree by herself at night.
+Dialogue: 0,0:04:53.27,0:04:55.65,flashback,Solid,0000,0000,0000,,Not only that, she keeps missing.
+Dialogue: 0,0:04:55.65,0:05:00.90,flashback,Solid,0000,0000,0000,,A few even come back to hit her,\N so she just gets soaked.
+Dialogue: 0,0:05:00.90,0:05:04.90,flashback,Nebra,0000,0000,0000,,I couldn't even do that as \Na joke. She's so talented.
+Dialogue: 0,0:05:05.27,0:05:06.76,flashback,Nebra,0000,0000,0000,,Maybe she's even some kind of genius.
+Dialogue: 0,0:05:06.76,0:05:09.68,flashback,Nebra,0000,0000,0000,,I hate to think of her as my sister, though.
+Dialogue: 0,0:05:11.16,0:05:15.73,flashback,Nozel,0000,0000,0000,,Noelle, I've decided which Magic Knights\N squad you'll be joining.
+Dialogue: 0,0:05:18.14,0:05:21.66,flashback,Nozel,0000,0000,0000,,You'll be joining the Black Bulls. \NThe matter has already been settled.
+Dialogue: 0,0:05:21.66,0:05:22.67,flashback,Noelle,0000,0000,0000,,What?
+Dialogue: 0,0:05:22.67,0:05:25.83,flashback,Solid,0000,0000,0000,,The Black Bulls? You mean \Nthe worst of the worst?
+Dialogue: 0,0:05:25.83,0:05:27.30,flashback,Solid,0000,0000,0000,,That's perfect!
+Dialogue: 0,0:05:27.30,0:05:31.82,flashback,Nebra,0000,0000,0000,,Don't they just do lame missions out \Nin the boonies? Like hunting boars?
+Dialogue: 0,0:05:31.82,0:05:33.47,flashback,Nebra,0000,0000,0000,,That's perfect for you, Noelle.
+Dialogue: 0,0:05:49.73,0:05:52.37,main,Noelle,0000,0000,0000,,It's okay... It's okay...
+Dialogue: 0,0:05:52.37,0:05:53.83,main,Noelle,0000,0000,0000,,It's okay.
+Dialogue: 0,0:05:54.26,0:05:56.10,main,Noelle,0000,0000,0000,,I did all that training.
+Dialogue: 0,0:05:56.65,0:05:58.91,main,Noelle,0000,0000,0000,,I can do this... I can do this!
+Dialogue: 0,0:05:59.75,0:06:02.13,main,Noelle,0000,0000,0000,,I can still fight!
+Dialogue: 0,0:06:04.13,0:06:06.55,main,Nozel,0000,0000,0000,,Let's show her the true power
+Dialogue: 0,0:06:07.15,0:06:09.05,main,Nozel,0000,0000,0000,,of the royal House of Silva!
+Dialogue: 0,0:06:11.10,0:06:12.35,main,Noelle,0000,0000,0000,,Right!
+Dialogue: 0,0:06:17.57,0:06:19.40,main,Kivn,0000,0000,0000,,Unfortunately,
+Dialogue: 0,0:06:19.40,0:06:25.07,main,Kivn,0000,0000,0000,,your attacks will never reach \Nme in this sealed space.
+Dialogue: 0,0:06:30.05,0:06:32.49,main,Noelle,0000,0000,0000,,Water Creation Magic: Sea Dragon's Lair!
+Dialogue: 0,0:06:35.16,0:06:38.06,main,Kivn,0000,0000,0000,,You're just wasting your magic.\NYou're only going to exhaust yourself.
+Dialogue: 0,0:06:38.06,0:06:41.92,main,Kivn,0000,0000,0000,,And after all I went through to \Ntry to let you die peacefully.
+Dialogue: 0,0:06:43.42,0:06:46.55,italics,Noelle,0000,0000,0000,,What... What should I do?
+Dialogue: 0,0:06:46.55,0:06:51.18,italics,Noelle,0000,0000,0000,,Even using Mana Skin, I can't use \NSea Dragon's Lair in this magical space.
+Dialogue: 0,0:06:51.79,0:06:55.68,italics,Nozel,0000,0000,0000,,Even when I direct my magic with \Nall my strength, this is all I can do.
+Dialogue: 0,0:07:02.66,0:07:06.99,italics,Nozel,0000,0000,0000,,All I can manage are simple \Nmovements at close range.
+Dialogue: 0,0:07:06.99,0:07:08.78,italics,Nozel,0000,0000,0000,,The only possible strategy is...
+Dialogue: 0,0:07:09.17,0:07:13.27,main,Kivn,0000,0000,0000,,You're trying very hard, but I \Nwonder how long you'll last.
+Dialogue: 0,0:07:15.73,0:07:17.29,italics,Noelle,0000,0000,0000,,Nozel...
+Dialogue: 0,0:07:17.29,0:07:21.45,italics,Noelle,0000,0000,0000,,Think. If Asta or the other \NBlack Bulls were here,
+Dialogue: 0,0:07:21.45,0:07:23.42,italics,Noelle,0000,0000,0000,,they would think of something crazy...
+Dialogue: 0,0:07:27.21,0:07:31.61,main,Solid,0000,0000,0000,,Damn it! If we don't break her spell,\N we can't get out of here!
+Dialogue: 0,0:07:31.61,0:07:33.22,main,Solid,0000,0000,0000,,There's no way out!
+Dialogue: 0,0:07:33.70,0:07:35.22,italics,Noelle,0000,0000,0000,,No way out?
+Dialogue: 0,0:07:38.75,0:07:43.06,main,Noelle,0000,0000,0000,,I can't currently use creation \Nmagic within this space,
+Dialogue: 0,0:07:44.65,0:07:47.79,main,Noelle,0000,0000,0000,,but I can intentionally cast \Nthat rampaging spell!
+Dialogue: 0,0:07:49.38,0:07:51.40,main,Noelle,0000,0000,0000,,Nozel, please help me out!
+Dialogue: 0,0:07:59.26,0:08:00.33,main,Kivn,0000,0000,0000,,This is...
+Dialogue: 0,0:08:02.14,0:08:04.17,italics,Kivn,0000,0000,0000,,What in the world is going on?
+Dialogue: 0,0:08:05.61,0:08:07.17,italics,Kivn,0000,0000,0000,,Curse you...
+Dialogue: 0,0:08:07.67,0:08:11.42,italics,Kivn,0000,0000,0000,,You flooded this enclosed \Nmagical space with water.
+Dialogue: 0,0:08:13.97,0:08:18.02,italics,Kivn,0000,0000,0000,,Another Atlas traps everything inside.
+Dialogue: 0,0:08:18.02,0:08:22.03,italics,Kivn,0000,0000,0000,,I'm going to drown. I have no \Nchoice but to undo the spell.
+Dialogue: 0,0:08:33.55,0:08:35.41,italics,Kivn,0000,0000,0000,,How dare you, human...
+Dialogue: 0,0:08:40.25,0:08:45.12,italics,Kivn,0000,0000,0000,,In a mere instant?! \NSuch speed and precision...
+Dialogue: 0,0:08:58.55,0:09:02.89,main,Nebra,0000,0000,0000,,That was amazing... I expected \Nthat from Nozel, but Noelle...
+Dialogue: 0,0:09:04.82,0:09:08.15,main,Noelle,0000,0000,0000,,W-We did it, Nozel.
+Dialogue: 0,0:09:08.15,0:09:14.15,main,Noelle,0000,0000,0000,,Th-Thank you very much for going \Nalong with my reckless plan.
+Dialogue: 0,0:09:14.97,0:09:19.66,main,Nozel,0000,0000,0000,,It was quite a crazy method of fighting,\N unbefitting of royalty.
+Dialogue: 0,0:09:21.71,0:09:24.65,main,Nozel,0000,0000,0000,,But we were able to win because of it.
+Dialogue: 0,0:09:24.65,0:09:28.17,main,Nozel,0000,0000,0000,,So this is the method of fighting \Nthat you've learned...
+Dialogue: 0,0:09:30.39,0:09:35.92,main,Nozel,0000,0000,0000,,Because you look just like our mother,\N I feared I'd lose her again.
+Dialogue: 0,0:09:36.36,0:09:37.19,main,Noelle,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:38.93,0:09:42.65,main,Nozel,0000,0000,0000,,I didn't think you would become strong.
+Dialogue: 0,0:09:43.17,0:09:45.93,main,Nozel,0000,0000,0000,,I couldn't lose you. I had to protect you.
+Dialogue: 0,0:09:46.95,0:09:49.94,main,Nozel,0000,0000,0000,,That's why I tried to keep \Nyou off the battlefield.
+Dialogue: 0,0:09:51.57,0:09:53.73,main,Nozel,0000,0000,0000,,But you became strong.
+Dialogue: 0,0:09:54.23,0:09:57.89,main,Nozel,0000,0000,0000,,And that means I was mistaken.
+Dialogue: 0,0:10:01.11,0:10:03.20,main,Nozel,0000,0000,0000,,So, er...
+Dialogue: 0,0:10:05.79,0:10:09.71,main,Nozel,0000,0000,0000,,I-I apologize, Noelle.
+Dialogue: 0,0:10:12.43,0:10:14.02,main,Nebra,0000,0000,0000,,Nozel...
+Dialogue: 0,0:10:14.57,0:10:16.21,main,Solid,0000,0000,0000,,...apologized?
+Dialogue: 0,0:10:16.83,0:10:19.22,main,Noelle,0000,0000,0000,,N-Nozel...
+Dialogue: 0,0:10:20.11,0:10:22.39,main,Nozel,0000,0000,0000,,The fight is not yet over.
+Dialogue: 0,0:10:22.39,0:10:24.72,main,Nozel,0000,0000,0000,,We must treat Nebra at once.
+Dialogue: 0,0:10:28.58,0:10:29.98,main,Nozel,0000,0000,0000,,No...
+Dialogue: 0,0:10:30.82,0:10:32.73,main,Noelle,0000,0000,0000,,Nozel...
+Dialogue: 0,0:10:39.51,0:10:42.62,main,Noelle,0000,0000,0000,,Nozel! Nozel!
+Dialogue: 0,0:10:45.14,0:10:47.16,main,Kivn,0000,0000,0000,,Too bad for you.
+Dialogue: 0,0:10:48.83,0:10:52.67,main,Kivn,0000,0000,0000,,This mad world will not end.
+Dialogue: 0,0:10:52.67,0:10:58.07,main,Kivn,0000,0000,0000,,It's now even bigger and more powerful.\NIt cannot be stopped.
+Dialogue: 0,0:10:58.67,0:11:03.64,main,Solid,0000,0000,0000,,Damn it! What are we supposed to do?!
+Dialogue: 0,0:11:03.96,0:11:06.63,main,Kivn,0000,0000,0000,,There's nothing you can do.
+Dialogue: 0,0:11:06.63,0:11:10.02,main,Kivn,0000,0000,0000,,Give up, grieve, and regret \Nyour actions, royals.
+Dialogue: 0,0:11:10.40,0:11:11.82,italics,Noelle,0000,0000,0000,,I won't give up.
+Dialogue: 0,0:11:11.82,0:11:14.10,italics,Noelle,0000,0000,0000,,There has to be... \NThere has to be some way!
+Dialogue: 0,0:11:14.10,0:11:15.57,italics,Noelle,0000,0000,0000,,Think, Noelle!
+Dialogue: 0,0:11:15.57,0:11:17.03,italics,Noelle,0000,0000,0000,,You can do this!
+Dialogue: 0,0:11:17.90,0:11:22.53,italics,Noelle,0000,0000,0000,,After all, you were finally able \Nto get Nozel to acknowledge you!
+Dialogue: 0,0:11:23.07,0:11:26.28,italics,Noelle,0000,0000,0000,,At this rate, Nozel and Nebra will...
+Dialogue: 0,0:11:26.70,0:11:29.71,main,Kivn,0000,0000,0000,,I can wait until you slowly weaken,
+Dialogue: 0,0:11:30.42,0:11:33.15,main,Kivn,0000,0000,0000,,but I think you'd prefer to die quickly,
+Dialogue: 0,0:11:33.15,0:11:35.67,main,Kivn,0000,0000,0000,,you foolish and sinful humans!
+Dialogue: 0,0:11:36.37,0:11:38.55,italics,Noelle,0000,0000,0000,,I don't have a single good memory of them...
+Dialogue: 0,0:11:38.55,0:11:43.06,italics,Noelle,0000,0000,0000,,But they're still my siblings!
+Dialogue: 0,0:11:46.91,0:11:48.81,italics,Noelle,0000,0000,0000,,Long distance attacks won't hit.
+Dialogue: 0,0:11:48.81,0:11:51.32,italics,Noelle,0000,0000,0000,,I can't do any complicated \Nmagic manipulation.
+Dialogue: 0,0:11:51.32,0:11:56.52,italics,Noelle,0000,0000,0000,,But if it's nearer and denser...
+Dialogue: 0,0:11:57.98,0:12:00.86,italics,Noelle,0000,0000,0000,,This is a spell that I can cast only
+Dialogue: 0,0:12:00.86,0:12:04.28,italics,Noelle,0000,0000,0000,,because of this situation \Nand who I am right now!
+Dialogue: 0,0:12:05.39,0:12:07.53,italics,Nar,0000,0000,0000,,The biggest factor in getting spells
+Dialogue: 0,0:12:07.97,0:12:11.79,italics,Nar,0000,0000,0000,,to manifest is natural talent.
+Dialogue: 0,0:12:12.42,0:12:16.67,italics,Nar,0000,0000,0000,,But dedicated training and unwavering \Neffort can also pay off.
+Dialogue: 0,0:12:16.67,0:12:19.98,italics,Nar,0000,0000,0000,,In some rare cases, \Nintense wishes or determination
+Dialogue: 0,0:12:19.98,0:12:22.51,italics,Nar,0000,0000,0000,,can grant power in a crisis, as well.
+Dialogue: 0,0:12:23.17,0:12:27.02,italics,Nar,0000,0000,0000,,Many royal mages acquire spells \Nintuitively using their innate,
+Dialogue: 0,0:12:27.02,0:12:31.02,italics,Nar,0000,0000,0000,,powerful magic and natural resourcefulness.
+Dialogue: 0,0:12:31.70,0:12:35.68,italics,Nar,0000,0000,0000,,And because of this ability, \Nthey rarely ever research, train,
+Dialogue: 0,0:12:35.68,0:12:39.57,italics,Nar,0000,0000,0000,,or have their lives put in \Ndanger on the battlefield.
+Dialogue: 0,0:12:39.93,0:12:43.65,italics,Nar,0000,0000,0000,,But while Noelle had an enormous \Namount of magic as well as talent,
+Dialogue: 0,0:12:43.65,0:12:47.28,italics,Nar,0000,0000,0000,,as a member of the Black Bulls, \Nshe trained, worked hard,
+Dialogue: 0,0:12:47.28,0:12:49.58,italics,Nar,0000,0000,0000,,and fought for her life.
+Dialogue: 0,0:12:50.41,0:12:52.83,italics,Nar,0000,0000,0000,,Everything she had gone through,
+Dialogue: 0,0:12:52.83,0:12:55.17,italics,Nar,0000,0000,0000,,and her strong desire to protect her siblings,
+Dialogue: 0,0:12:55.69,0:12:59.67,italics,Nar,0000,0000,0000,,gave her the power to get through this crisis!
+Dialogue: 0,0:13:14.51,0:13:18.02,italics,Noelle,0000,0000,0000,,Water Creation Magic: Valkyrie Armor!
+Dialogue: 0,0:13:29.67,0:13:30.62,main,Solid,0000,0000,0000,,Noelle!
+Dialogue: 0,0:13:30.62,0:13:33.72,italics,Kivn,0000,0000,0000,,What is this magic?
+Dialogue: 0,0:13:33.72,0:13:36.89,italics,Kivn,0000,0000,0000,,A tremendous amount of magic \Nis being concentrated.
+Dialogue: 0,0:13:36.89,0:13:39.68,main,Kivn,0000,0000,0000,,Royal girl...
+Dialogue: 0,0:13:59.11,0:14:01.29,italics,Kvin,0000,0000,0000,,It's like she's swimming \Nthrough this space.
+Dialogue: 0,0:14:01.29,0:14:04.70,italics,Kivn,0000,0000,0000,,Is she riding mana from the magical attacks, \Nand the disturbance in this magical space,
+Dialogue: 0,0:14:04.70,0:14:07.49,italics,Kivn,0000,0000,0000,,as if they were some sort of high waves?
+Dialogue: 0,0:14:07.49,0:14:11.76,italics,Kivn,0000,0000,0000,,Is her armor a spell that lets her \Ncontrol all the mana around her?
+Dialogue: 0,0:14:12.99,0:14:17.47,italics,Kivn,0000,0000,0000,,But... will you be able to evade all of these?
+Dialogue: 0,0:14:18.75,0:14:21.22,italics,Kivn,0000,0000,0000,,I still have the absolute advantage.
+Dialogue: 0,0:14:21.22,0:14:23.59,italics,Kivn,0000,0000,0000,,If I find even the slightest \Ntear in your defense,
+Dialogue: 0,0:14:24.67,0:14:27.76,italics,Kivn,0000,0000,0000,,this world will rip off your armor!
+Dialogue: 0,0:14:29.95,0:14:32.93,italics,Noelle,0000,0000,0000,,It's hard to believe I was \Nstruggling just a moment ago.
+Dialogue: 0,0:14:34.60,0:14:36.97,italics,Noelle,0000,0000,0000,,I feel like I've been freed from my cage.
+Dialogue: 0,0:14:39.60,0:14:43.11,italics,Noelle,0000,0000,0000,,I never knew magic was so freeing.
+Dialogue: 0,0:14:45.45,0:14:48.61,italics,Noelle,0000,0000,0000,,I wonder if this is how Mother felt, too.
+Dialogue: 0,0:15:00.02,0:15:04.88,italics,Nozel,0000,0000,0000,,Mother... The Dancing \NPrincess of the Battlefield...
+Dialogue: 0,0:15:16.55,0:15:19.52,main,Kivn,0000,0000,0000,,You managed to cut through \Nall of that attack?
+Dialogue: 0,0:15:25.61,0:15:26.98,main,Noelle,0000,0000,0000,,You're mine!
+Dialogue: 0,0:15:26.98,0:15:28.77,main,Kivn,0000,0000,0000,,Willful Compass!
+Dialogue: 0,0:15:31.94,0:15:34.57,main,Kivn,0000,0000,0000,,The mana currents you dance \Nthrough so elegantly...
+Dialogue: 0,0:15:34.57,0:15:38.45,main,Kivn,0000,0000,0000,,I'm going to change their destination, \Nas well as your own...
+Dialogue: 0,0:15:38.77,0:15:40.23,main,Kivn,0000,0000,0000,,To hell!
+Dialogue: 0,0:15:42.47,0:15:44.93,main,Kivn,0000,0000,0000,,Fall, royal!
+Dialogue: 0,0:15:52.94,0:15:55.43,main,Kivn,0000,0000,0000,,She overruled my mana compulsion?!
+Dialogue: 0,0:15:55.43,0:15:59.37,main,Noelle,0000,0000,0000,,Sorry, but I'm not dancing elegantly.
+Dialogue: 0,0:15:59.93,0:16:02.69,main,Noelle,0000,0000,0000,,This armor... Everything that\N touches this mana...
+Dialogue: 0,0:16:03.05,0:16:04.94,main,Noelle,0000,0000,0000,,is under my control!
+Dialogue: 0,0:16:05.28,0:16:09.21,main,Noelle,0000,0000,0000,,I'm desperately struggling and fighting,\Nforcing my way forward!
+Dialogue: 0,0:16:09.94,0:16:13.45,main,Noelle,0000,0000,0000,,Now be destroyed! \NBoth you and this mad world!
+Dialogue: 0,0:16:44.38,0:16:45.55,main,Noelle,0000,0000,0000,,Did I win?
+Dialogue: 0,0:16:47.19,0:16:49.48,main,Noelle,0000,0000,0000,,Hurry, take Nozel and Nebra...
+Dialogue: 0,0:16:58.59,0:17:01.91,italics,Noelle,0000,0000,0000,,This isn't good. I don't have \Nenough magic to fight this many.
+Dialogue: 0,0:17:02.70,0:17:04.75,main,Fire elf,0000,0000,0000,,How dare you do that to Kivn?
+Dialogue: 0,0:17:05.31,0:17:09.25,main,Fire elf,0000,0000,0000,,It appears that we have \Nunderestimated you humans.
+Dialogue: 0,0:17:10.67,0:17:12.92,main,Fire elf,0000,0000,0000,,That will not happen again.
+Dialogue: 0,0:17:12.92,0:17:13.84,main,Fire elf,0000,0000,0000,,Begone!
+Dialogue: 0,0:17:16.90,0:17:18.34,main,Noelle,0000,0000,0000,,Solid!
+Dialogue: 0,0:17:26.49,0:17:29.23,main,Zora,0000,0000,0000,,Now that's what I call a \Nperfect surprise attack.
+Dialogue: 0,0:17:33.43,0:17:37.17,main,Zora,0000,0000,0000,,Not bad. It's even more \Ninsane when it's doubled.
+Dialogue: 0,0:17:38.58,0:17:40.76,main,Water elf,0000,0000,0000,,What was that spell?
+Dialogue: 0,0:17:40.76,0:17:42.85,main,Wind elf,0000,0000,0000,,I've never seen anything like it.
+Dialogue: 0,0:17:42.85,0:17:45.50,main,Lightning elf,0000,0000,0000,,Don't let your guard down! Curse you, human!
+Dialogue: 0,0:17:45.85,0:17:49.05,main,Zora,0000,0000,0000,,Considering the huge amounts of magic \Nyou were throwing at each other,
+Dialogue: 0,0:17:49.05,0:17:51.84,main,Zora,0000,0000,0000,,I figured a crowd would show up eventually.
+Dialogue: 0,0:17:51.84,0:17:52.96,main,Noelle,0000,0000,0000,,Zora!
+Dialogue: 0,0:17:53.35,0:17:57.47,main,Zora,0000,0000,0000,,Go on, get to work, \Nyou royal attendant jerk.
+Dialogue: 0,0:17:57.51,0:18:01.97,sign_6730_49_Captain_of_the_A,Sign,0000,0000,0000,,{\blur3\fad(483,1}House of Silva Attendant\N{\fs30}Paplo Espuma
+Dialogue: 0,0:17:58.59,0:18:01.97,top,Papuro,0000,0000,0000,,What are you thinking, bringing me\N somewhere so dangerous?!
+Dialogue: 0,0:18:01.97,0:18:06.43,main,Zora,0000,0000,0000,,I saved your ass, so now \Nyou're gonna listen to me.
+Dialogue: 0,0:18:07.35,0:18:08.61,main,Paplo,0000,0000,0000,,No...
+Dialogue: 0,0:18:08.61,0:18:13.25,main,Zora,0000,0000,0000,,More importantly, if you don't hurry up,\N you won't have any masters anymore.
+Dialogue: 0,0:18:14.51,0:18:17.49,main,Paplo,0000,0000,0000,,Huh? Lady Nebra and Lord Nozel!
+Dialogue: 0,0:18:17.49,0:18:19.06,main,Paplo,0000,0000,0000,,O-Oh, no!
+Dialogue: 0,0:18:19.06,0:18:21.74,main,Paplo,0000,0000,0000,,Bubble Recovery Magic: Bubble Refresher!
+Dialogue: 0,0:18:23.53,0:18:26.49,main,Paplo,0000,0000,0000,,Lord Solid, please bring me Lord Nozel!
+Dialogue: 0,0:18:27.95,0:18:29.00,main,Paplo,0000,0000,0000,,Lord Solid?!
+Dialogue: 0,0:18:29.00,0:18:31.73,main,Zora,0000,0000,0000,,What? You lost your will to fight?
+Dialogue: 0,0:18:31.73,0:18:34.43,main,Zora,0000,0000,0000,,Give me a break, you royal Magic Knight.
+Dialogue: 0,0:18:34.43,0:18:37.26,main,Zora,0000,0000,0000,,The other two got their asses kicked, too.
+Dialogue: 0,0:18:37.90,0:18:42.26,main,Zora,0000,0000,0000,,All you do is flaunt your arrogance, \Nand this is all you've got? Pathetic.
+Dialogue: 0,0:18:42.90,0:18:47.97,main,Zora,0000,0000,0000,,You can't even protect your own family, \Nyou royal Magic Knights Squad captain?
+Dialogue: 0,0:18:50.81,0:18:51.77,flashback,Acier,0000,0000,0000,,Nozel...
+Dialogue: 0,0:18:55.89,0:18:58.65,flashback,Acier,0000,0000,0000,,You're finally receiving \Nyour grimoire next year.
+Dialogue: 0,0:18:58.65,0:19:02.95,flashback,Acier,0000,0000,0000,,I can't wait to see what kind \Nof magic you're going to learn.
+Dialogue: 0,0:19:02.95,0:19:05.67,flashback,Nozel,0000,0000,0000,,I'll learn spells of unparalleled power
+Dialogue: 0,0:19:05.67,0:19:09.58,flashback,Nozel,0000,0000,0000,,and become a powerful Magic Knights \NSquad captain, just like you, Mother.
+Dialogue: 0,0:19:10.53,0:19:15.32,flashback,Acier,0000,0000,0000,,Well... Nebra and Solid both have \Nwater magic, just like your father.
+Dialogue: 0,0:19:15.32,0:19:18.59,flashback,Acier,0000,0000,0000,,It's just a hunch, but I think \Nthis little one will be the same.
+Dialogue: 0,0:19:19.34,0:19:23.46,flashback,Acier,0000,0000,0000,,You're the only one who \Ninherited my steel attribute.
+Dialogue: 0,0:19:23.46,0:19:26.85,flashback,Acier,0000,0000,0000,,Make sure you protect your \Nsiblings with that magic, okay?
+Dialogue: 0,0:19:30.61,0:19:33.10,italics,Nozel,0000,0000,0000,,That's right... I...
+Dialogue: 0,0:19:33.10,0:19:37.65,main,Zora,0000,0000,0000,,You guys are supposed to be stronger \Nthan the rest of us commoners, aren't you?
+Dialogue: 0,0:19:37.65,0:19:39.61,main,Zora,0000,0000,0000,,Let's see just how brave you can be!
+Dialogue: 0,0:19:39.61,0:19:41.61,main,Noelle,0000,0000,0000,,Hey, that's enough out of y—
+Dialogue: 0,0:19:41.61,0:19:42.71,main,Nozel,0000,0000,0000,,It's all right.
+Dialogue: 0,0:19:43.23,0:19:45.37,main,Noelle,0000,0000,0000,,Nozel?
+Dialogue: 0,0:19:45.69,0:19:48.22,main,Nozel,0000,0000,0000,,He's exactly right.
+Dialogue: 0,0:19:48.22,0:19:50.62,main,Nozel,0000,0000,0000,,Groveling at something like this
+Dialogue: 0,0:19:51.75,0:19:53.78,main,Nozel,0000,0000,0000,,brings shame upon the royal House of Silva,
+Dialogue: 0,0:19:53.78,0:19:56.63,main,Nozel,0000,0000,0000,,as well as the title of \NCaptain of the Silver Eagles.
+Dialogue: 0,0:19:57.26,0:19:59.88,italics,Nozel,0000,0000,0000,,I'll reinforce my physical \Nfunctions with magic.
+Dialogue: 0,0:19:59.88,0:20:04.04,italics,Noelle,0000,0000,0000,,Nozel... I never knew mercury \Nmagic could do that.
+Dialogue: 0,0:20:04.04,0:20:05.89,italics,Noelle,0000,0000,0000,,It's such sophisticated magic!
+Dialogue: 0,0:20:06.37,0:20:08.09,main,Nozel,0000,0000,0000,,Let us go, Noelle.
+Dialogue: 0,0:20:08.09,0:20:08.89,main,Noelle,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:20:10.09,0:20:14.23,main,Zora,0000,0000,0000,,All of you bastards have so \Nmuch magic, it makes me sick.
+Dialogue: 0,0:20:14.23,0:20:16.90,main,Zora,0000,0000,0000,,I'm gonna need you to dial it \Ndown to commoner level.
+Dialogue: 0,0:20:16.90,0:20:19.90,main,Zora,0000,0000,0000,,Ash Magic: Revelation of the Cowardly.
+Dialogue: 0,0:20:22.65,0:20:23.66,main,Zora,0000,0000,0000,,Here they come!
+Dialogue: 0,0:20:26.45,0:20:29.74,main,Nozel,0000,0000,0000,,Take my magic with you, Noelle!
+Dialogue: 0,0:20:36.29,0:20:37.09,main,Elf,0000,0000,0000,,You won't escape!
+Dialogue: 0,0:20:37.09,0:20:38.09,main,Noelle,0000,0000,0000,,You're too slow!
+Dialogue: 0,0:20:40.84,0:20:42.40,main,Lighting elf,0000,0000,0000,,Hold still, damn it!
+Dialogue: 0,0:20:42.40,0:20:43.93,main,Ice elf,0000,0000,0000,,You won't get away!
+Dialogue: 0,0:20:47.02,0:20:48.26,main,Lightning elf,0000,0000,0000,,Trap magic?
+Dialogue: 0,0:20:48.26,0:20:50.62,main,Zora,0000,0000,0000,,I've rigged plenty for ya.
+Dialogue: 0,0:20:50.62,0:20:55.40,italics,Zora,0000,0000,0000,,The Revelation of the Cowardly reveals \Nwhere I've placed my trap spells.
+Dialogue: 0,0:20:56.19,0:20:58.50,italics,Zora,0000,0000,0000,,If they show even a moment of vulnerability,
+Dialogue: 0,0:20:58.50,0:21:00.33,italics,Zora,0000,0000,0000,,I'm sure those royals can take care of them!
+Dialogue: 0,0:21:04.45,0:21:08.07,main,Elf,0000,0000,0000,,You can't move so easily with your \Nbody in that condition, can you?!
+Dialogue: 0,0:21:11.83,0:21:12.75,main,Noelle,0000,0000,0000,,Nozel!
+Dialogue: 0,0:21:21.13,0:21:23.46,flashback,Raia,0000,0000,0000,,He's ignoring the force of those spells?
+Dialogue: 0,0:21:24.06,0:21:26.05,flashback,Water elf,0000,0000,0000,,What was that spell?
+Dialogue: 0,0:21:28.21,0:21:29.97,main,Zora,0000,0000,0000,,Considering your reactions,
+Dialogue: 0,0:21:29.97,0:21:33.77,main,Zora,0000,0000,0000,,I guess you guys don't know about \Ncomplicated magic like counter-traps.
+Dialogue: 0,0:21:33.77,0:21:36.77,main,Noelle,0000,0000,0000,,Water Creation Magic: Sea Dragon's Roar!
+Dialogue: 0,0:21:39.39,0:21:41.48,main,Elf,0000,0000,0000,,Your control is faltering!
+Dialogue: 0,0:21:43.03,0:21:45.40,main,Nozel,0000,0000,0000,,Mercury Magic: Rain of Silver!
+Dialogue: 0,0:21:47.36,0:21:49.12,main,Elf,0000,0000,0000,,This is nothing!
+Dialogue: 0,0:21:55.39,0:21:58.35,main,Zora,0000,0000,0000,,These spells were derived and \Ndeveloped over countless years.
+Dialogue: 0,0:21:58.35,0:22:00.67,main,Zora,0000,0000,0000,,Complicated human spells...
+Dialogue: 0,0:22:00.67,0:22:04.21,main,Zora,0000,0000,0000,,Looks like you elves don't know about them.
+Dialogue: 0,0:23:40.27,0:23:44.06,main,Finral,0000,0000,0000,,Langris! No matter what you think of me,\N I'll always be your older brother,
+Dialogue: 0,0:23:44.06,0:23:45.46,main,Finral,0000,0000,0000,,and you're my younger brother!
+Dialogue: 0,0:23:45.46,0:23:46.94,main,Finral,0000,0000,0000,,Come back, Langris!
+Dialogue: 0,0:23:47.50,0:23:51.32,main,finral,0000,0000,0000,,Next time on {\i1}Black Clover{\i0}, \NPage 109: "Spatial Mage Brothers."
+Dialogue: 0,0:23:48.53,0:23:54.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 109\N\N{\fs18} Spatial Mage Brothers
+Dialogue: 0,0:23:51.32,0:23:53.41,main,Finral,0000,0000,0000,,I can actually do it if I try!

@@ -1,0 +1,537 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H00F7FCFD,&H000000FF,&H00070805,&H000D1728,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0020,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_4194_20_C_Team_The_Coral,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_6730_49_Captain_of_the_A,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_7061_51_A_Team_Coral_Pea,Times New Roman,20,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0150,1
+Style: sign_9194_75_Yay____Yay____,Times New Roman,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_9718_95_Langris,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0130,0435,0220,1
+Style: sign_9718_98_Leopold,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0345,0215,0205,1
+Style: sign_9718_99_Finral,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0455,0125,0220,1
+Style: sign_9718_100_Hamon,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0530,0040,0205,1
+Style: sign_9784_85_Xerx,Times New Roman,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0113,0461,0254,1
+Style: sign_9784_86_Mimosa,Times New Roman,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0072,0460,0186,1
+Style: sign_9784_87_Asta,Times New Roman,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0114,0464,0113,1
+Style: sign_9784_88_Kirsch,Times New Roman,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0442,0106,0282,1
+Style: sign_9784_89_Sol,Times New Roman,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0423,0175,0217,1
+Style: sign_9784_90_Magna,Times New Roman,28,&H00FFFFFD,&H000000FF,&H327F7F81,&H00E9EAEE,-1,0,0,0,100,100,0,3,1,3,0,2,0424,0122,0132,1
+Style: sign_10224_102_Sol___Kirsch___M,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0375,0070,0205,1
+Style: sign_10224_104_Cesc___Adrian___,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0055,0385,0205,1
+Style: sign_10224_103_C_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0425,0135,0060,1
+Style: sign_10224_105_D_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0130,0420,0060,1
+Style: sign_10482_94_Green_Praying_Ma,Times New Roman,20,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_10657_102_Roland,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0050,0520,0205,1
+Style: sign_10657_103_Nix,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0235,0370,0205,1
+Style: sign_10657_104_Wainsley,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0105,0445,0225,1
+Style: sign_11341_108_Four_Years_Ago,Times New Roman,28,&H00FDFDFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0220,1
+Style: sign_11640_111_Sol_Marron,Times New Roman,30,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_12339_133_Finnes_Calmreich,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_14555_151_4_years_ago,Times New Roman,28,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0085,1
+Style: sign_15736_152_Sandler,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0060,0505,0205,1
+Style: sign_15736_154_Solid,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0135,0455,0225,1
+Style: sign_15736_155_O_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0110,0440,0060,1
+Style: sign_15736_156_En___Noelle___Yu,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0070,0205,1
+Style: sign_15736_157_P_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0435,0115,0060,1
+Style: sign_16988_180_Cherry_Blossom_M,Trebuchet MS,22,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0140,1
+Style: sign_17843_174_Sekke___Langris_,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0040,0370,0175,1
+Style: sign_17843_176_Xerx___Asta___Mi,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0370,0065,0175,1
+Style: sign_28966_288_The_Blue_Rose_Kn,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32241D26,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_29885_315_C_Team_The_Coral,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32424340,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0150,1
+Style: sign_30215_308_Rob,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0040,0560,0200,1
+Style: sign_30215_309_Francis,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0105,0465,0220,1
+Style: sign_30215_310_Winston,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0210,0345,0200,1
+Style: sign_30215_312_Puli,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0210,0200,1
+Style: sign_30215_313_Klaus,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0460,0125,0220,1
+Style: sign_30215_314_Luck,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0550,0040,0200,1
+Style: sign_30215_315_K_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0415,0135,0060,1
+Style: sign_33322_360_Bathroom_,Verdana,28,&H007F9096,&H000000FF,&H32233248,&H0087C2CE,-1,0,0,0,100,100,0,0,1,2,3,2,0110,0030,0270,1
+Style: sign_33436_362_Bathroom,Verdana,10,&H0045403D,&H000000FF,&H3256ADB3,&H0087C2CE,-1,0,0,0,100,100,0,-8,1,3,0,2,0210,0260,0315,1
+Style: sign_33402_326_Noms_,Comic Sans MS,20,&H00393B47,&H000000FF,&H32D1C9CF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0080,1
+Style: sign_33615_332_Noms,Comic Sans MS,28,&H001D1C1F,&H000000FF,&H3261919A,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33398_297_Festival,Trebuchet MS,16,&H005D5A57,&H000000FF,&H00F7F5F6,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0074,1
+Style: sign_33774_286_That_thing_s_fil,Comic Sans MS,26,&H003A4C4A,&H000000FF,&H00F4FCFA,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0030,0415,0160,1
+Style: sign_33285_329_I_ll____kill_him,Trebuchet MS,22,&H00161B0C,&H000000FF,&H00FBFFCE,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_32916_371_Mana,Trebuchet MS,22,&H00262525,&H000000FF,&H00E9EDE1,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0040,0155,1
+Style: sign_32971_372_Mana,Trebuchet MS,30,&H00262525,&H000000FF,&H00E9EDE1,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33024_375_Serious_,Trebuchet MS,22,&H00262525,&H000000FF,&H00E9EDE1,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0265,0030,0180,1
+Style: sign_33586_380_Wizard_King_Gran,Times New Roman,12,&H00F8FFFF,&H000000FF,&H002C353A,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,9,0030,0030,0020,1
+Style: sign_28900_402_Buzz__Buzz__Buzz,Comic Sans MS,20,&H00F4F8EF,&H000000FF,&H32474433,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0455,0110,0020,1
+Style: sign_29050_405_Boop_boop_be_laa,Comic Sans MS,20,&H006244A9,&H000000FF,&H0034236A,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0415,0070,0020,1
+Style: sign_29261_411_La,Verdana,30,&H00F3F4E2,&H000000FF,&H32A9D171,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0150,0465,0305,1
+Style: sign_29406_414_Laan_,Comic Sans MS,24,&H0055119C,&H000000FF,&H322E236A,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0085,0495,0020,1
+Style: sign_138_1_Black_Clover_is_,Trebuchet MS,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: main - subtitles,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0058,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:05.75,0:00:07.75,sign_138_1_Black_Clover_is_,gordon,0000,0000,0000,,{\blur3}Black Clover is about to begin.
+Dialogue: 0,0:00:09.57,0:00:12.15,italics,nar,0000,0000,0000,,In the semifinals of the Royal \NKnights Selection Exam,
+Dialogue: 0,0:00:12.15,0:00:17.03,italics,nar,0000,0000,0000,,Asta's B Team and Langris's \NG Team were battling it out.
+Dialogue: 0,0:00:18.16,0:00:19.91,italics,nar,0000,0000,0000,,One fierce blow after another...
+Dialogue: 0,0:00:19.91,0:00:21.83,italics,nar,0000,0000,0000,,One intense blow after another...
+Dialogue: 0,0:00:21.83,0:00:23.87,italics,nar,0000,0000,0000,,One battle to the death after another.
+Dialogue: 0,0:00:23.87,0:00:25.75,main,Zora,0000,0000,0000,,You people...
+Dialogue: 0,0:00:25.75,0:00:31.48,main,Zora,0000,0000,0000,,are not the Magic Knights \Nthat my father dreamed of!
+Dialogue: 0,0:00:32.38,0:00:33.92,italics,,0000,0000,0000,,Meanwhile...
+Dialogue: 0,0:00:50.49,0:00:54.99,italics,,0000,0000,0000,,Charmy had left the venue in order \Nto find some ingredients so that
+Dialogue: 0,0:00:54.99,0:00:57.91,italics,,0000,0000,0000,,she could make something yummy \Nfor Yuno and the Wizard King.
+Dialogue: 0,0:00:58.51,0:01:01.08,italics,,0000,0000,0000,,But she accidentally bit into \Na hallucinogenic mushroom
+Dialogue: 0,0:01:01.46,0:01:04.62,italics,,0000,0000,0000,,and dreamed a strange dream.
+Dialogue: 0,0:01:18.29,0:01:21.83,top,,0000,0000,0000,,La...
+Dialogue: 0,0:01:20.17,0:01:25.39,italics,,0000,0000,0000,,It appeared as though humanity \Nwould be destroyed by Charmy the Demon.
+Dialogue: 0,0:01:32.48,0:01:36.86,italics,,0000,0000,0000,,But a single piece of meat saved them all.
+Dialogue: 0,0:01:44.35,0:01:47.37,main,,0000,0000,0000,,It's so nummy, la. So yummy, la!
+Dialogue: 0,0:01:47.80,0:01:52.06,main,,0000,0000,0000,,Munchy, munchy, munchy, munchy...
+Dialogue: 0,0:01:52.06,0:01:54.69,main,,0000,0000,0000,,This is bliss, la!
+Dialogue: 0,0:02:05.14,0:02:08.82,main,,0000,0000,0000,,Now that I'm full, I'm tired, la.
+Dialogue: 0,0:02:15.70,0:02:20.57,italics,,0000,0000,0000,,The bone's meat was able to sate the demon,\Nand it became a legend.
+Dialogue: 0,0:02:21.64,0:02:24.39,sign_138_1_Black_Clover_is_,,0000,0000,0000,,{\blur3}This is a really famous legend, \Nso you've all heard of it, right?
+Dialogue: 0,0:02:51.29,0:02:57.00,Ep Title,,0000,0000,0000,,Petit Clover! \NThe Nightmarish Charmy SP!
+Dialogue: 0,0:04:06.26,0:04:10.27,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Charmy's Seven Transformations
+Dialogue: 0,0:04:07.64,0:04:09.66,main,Charmy,0000,0000,0000,,Charmy's Seven Transformations!
+Dialogue: 0,0:04:10.77,0:04:15.04,main,Charmy,0000,0000,0000,,To all you Charmy Pappitson fans throughout \Nthe world, no... the universe.
+Dialogue: 0,0:04:15.04,0:04:16.52,main,Charmy,0000,0000,0000,,This is the moment you've been waiting for.
+Dialogue: 0,0:04:16.52,0:04:21.93,main,Charmy,0000,0000,0000,,Today, we'll be answering all your requests \Nto see all those cute Charmy moments!
+Dialogue: 0,0:04:21.93,0:04:23.53,main,Asta,0000,0000,0000,,I've been waiting for this!
+Dialogue: 0,0:04:23.53,0:04:26.38,main,Charmy,0000,0000,0000,,Transformation one... Wandering Charmy.
+Dialogue: 0,0:04:24.32,0:04:27.53,top,Charmy,0000,0000,0000,,Munchy, munchy, munchy...
+Dialogue: 0,0:04:27.53,0:04:28.39,main,Charmy,0000,0000,0000,,Transformation two...
+Dialogue: 0,0:04:28.39,0:04:31.29,sign_33398_297_Festival,Sign,0000,0000,0000,,Festival
+Dialogue: 0,0:04:28.39,0:04:31.29,top,Charmy bg,0000,0000,0000,,Deet de-deet de-deet de-deet and go!
+Dialogue: 0,0:04:28.76,0:04:30.61,main,Charmy,0000,0000,0000,,Happi Coat Charmy.
+Dialogue: 0,0:04:31.29,0:04:32.46,main,Charmy,0000,0000,0000,,Transformation three...
+Dialogue: 0,0:04:32.46,0:04:34.74,main,Charmy,0000,0000,0000,,Happy Birthday Charmy.
+Dialogue: 0,0:04:33.26,0:04:35.42,top,Charmy,0000,0000,0000,,La!
+Dialogue: 0,0:04:35.42,0:04:36.65,main,Charmy,0000,0000,0000,,Transformation four...
+Dialogue: 0,0:04:36.65,0:04:38.53,main,Charmy,0000,0000,0000,,Lightning God Charmy.
+Dialogue: 0,0:04:38.53,0:04:39.67,main,Charmy,0000,0000,0000,,La!
+Dialogue: 0,0:04:39.67,0:04:40.81,main,Charmy,0000,0000,0000,,Transformation five...
+Dialogue: 0,0:04:40.81,0:04:42.78,main,Charmy,0000,0000,0000,,Alien Charmy!
+Dialogue: 0,0:04:41.14,0:04:44.68,top,Charmy,0000,0000,0000,,La, la, la, la, la, la...
+Dialogue: 0,0:04:44.68,0:04:46.22,main,Charmy,0000,0000,0000,,And last but not least, transformation six...
+Dialogue: 0,0:04:46.22,0:04:50.19,top,Charmy,0000,0000,0000,,La, la, la, la, la, la...
+Dialogue: 0,0:04:46.42,0:04:48.52,main,Charmy,0000,0000,0000,,Merlion Charmy!
+Dialogue: 0,0:04:48.52,0:04:50.19,main,Asta,0000,0000,0000,,Amazing!
+Dialogue: 0,0:04:50.19,0:04:52.12,main,Yuno,0000,0000,0000,,So there aren't seven transformations?
+Dialogue: 0,0:04:51.97,0:04:56.00,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(523,1)}The Mystery of the Grimoire
+Dialogue: 0,0:04:53.35,0:04:55.13,main,Both,0000,0000,0000,,The Mystery of the Grimoire!
+Dialogue: 0,0:04:56.29,0:05:00.63,main,Yuno,0000,0000,0000,,Wait, what? We're small now?
+Dialogue: 0,0:05:00.63,0:05:06.19,main,Asta,0000,0000,0000,,But man... Our grimoires \Nare totally different.
+Dialogue: 0,0:05:06.19,0:05:06.99,italics,Yuno,0000,0000,0000,,He ignored me?
+Dialogue: 0,0:05:07.67,0:05:13.25,main,Yuno,0000,0000,0000,,A grimoire's size and thickness are \Ndetermined by its owner's style.
+Dialogue: 0,0:05:13.25,0:05:16.75,main,Asta,0000,0000,0000,,All right! Let's compare grimoires!
+Dialogue: 0,0:05:16.75,0:05:17.79,main,Yuno,0000,0000,0000,,No.
+Dialogue: 0,0:05:16.75,0:05:19.63,sign_33774_286_That_thing_s_fil,Sign,0000,0000,0000,,That thing's\Nfilthy
+Dialogue: 0,0:05:17.79,0:05:18.86,main,Asta,0000,0000,0000,,No fair!
+Dialogue: 0,0:05:18.86,0:05:20.44,main,Asta,0000,0000,0000,,You scared you're gonna lose?
+Dialogue: 0,0:05:20.44,0:05:21.79,main,Yuno,0000,0000,0000,,Not a chance.
+Dialogue: 0,0:05:21.79,0:05:24.82,main,Asta,0000,0000,0000,,You're getting a big head just because \Nyou're a little handsome, aren't you?
+Dialogue: 0,0:05:24.82,0:05:26.01,main,Yuno,0000,0000,0000,,Not a chance.
+Dialogue: 0,0:05:25.63,0:05:29.64,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(523,1)}Asta\N VS\NThe Anti-Birds!
+Dialogue: 0,0:05:26.97,0:05:29.13,main,Yuno,0000,0000,0000,,Asta vs. the Anti-Birds.
+Dialogue: 0,0:05:29.64,0:05:31.30,main,Asta,0000,0000,0000,,Ow, ow, ow, ow, ow, ow, ow!
+Dialogue: 0,0:05:31.30,0:05:34.52,main,Asta,0000,0000,0000,,Hey! Get away from me! Buzz off!
+Dialogue: 0,0:05:34.94,0:05:38.35,main,Asta,0000,0000,0000,,Whoa! Hey! What the heck are you guys doing?!
+Dialogue: 0,0:05:38.35,0:05:41.80,top,,0000,0000,0000,,Hey, Yuno! Ow, ow, ow! Help me!
+Dialogue: 0,0:05:39.24,0:05:40.89,main,Yuno,0000,0000,0000,,Unbelievable...
+Dialogue: 0,0:05:43.09,0:05:47.07,sign_33188_278_The_Mystery_of_t,Nar,0000,0000,0000,,{\fad(523,1)}Who's the Most Similar?
+Dialogue: 0,0:05:44.17,0:05:47.07,italics,Nar,0000,0000,0000,,Who's the Most Similar?
+Dialogue: 0,0:05:52.37,0:05:53.95,italics,Nar,0000,0000,0000,,The winner is...
+Dialogue: 0,0:05:55.41,0:05:57.08,italics,Nar,0000,0000,0000,,this bird.
+Dialogue: 0,0:05:57.08,0:06:01.43,main,Three,0000,0000,0000,,What?!
+Dialogue: 0,0:06:01.09,0:06:05.09,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Cringing at Salamander Bowls
+Dialogue: 0,0:06:01.85,0:06:05.09,main,Sally,0000,0000,0000,,Cringing at Salamander Bowls!
+Dialogue: 0,0:06:05.09,0:06:07.83,main,Sally,0000,0000,0000,,Gel Magic: Sticky Salamander!
+Dialogue: 0,0:06:07.83,0:06:09.27,main,Salamander,0000,0000,0000,,Mander!
+Dialogue: 0,0:06:09.27,0:06:10.59,main,Mimosa,0000,0000,0000,,How adorable!
+Dialogue: 0,0:06:10.59,0:06:14.46,main,Noelle,0000,0000,0000,,That's no big deal! Nero's much cuter.
+Dialogue: 0,0:06:15.35,0:06:18.02,main,Sally,0000,0000,0000,,If you put him in a bowl, he's delicious.
+Dialogue: 0,0:06:18.02,0:06:19.52,main,Salamander,0000,0000,0000,,Ma?!
+Dialogue: 0,0:06:19.52,0:06:21.58,main,Asta,0000,0000,0000,,She's dangerous!
+Dialogue: 0,0:06:21.58,0:06:23.44,main,Charmy,0000,0000,0000,,Looks nummy!
+Dialogue: 0,0:06:23.44,0:06:25.87,main,Asta,0000,0000,0000,,They're all dangerous!
+Dialogue: 0,0:06:25.53,0:06:29.53,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(523,1)}Honor Me
+Dialogue: 0,0:06:26.77,0:06:28.31,main,Noelle,0000,0000,0000,,Honor Me.
+Dialogue: 0,0:06:30.43,0:06:33.58,main,Noelle,0000,0000,0000,,I am Noelle Silva, and I am a royal (ouzoku).
+Dialogue: 0,0:06:33.58,0:06:35.53,main,Asta,0000,0000,0000,,A bandit (sanzoku)?
+Dialogue: 0,0:06:35.53,0:06:37.45,main,Noelle,0000,0000,0000,,Who are you calling a bandit?
+Dialogue: 0,0:06:38.02,0:06:40.23,main,Noelle,0000,0000,0000,,I'm a royal.
+Dialogue: 0,0:06:40.23,0:06:42.28,main,Asta,0000,0000,0000,,A pirate (kaizoku)?
+Dialogue: 0,0:06:42.28,0:06:44.20,main,Noelle,0000,0000,0000,,Who are you calling a pirate?
+Dialogue: 0,0:06:44.20,0:06:46.72,main,Noelle,0000,0000,0000,,I'm a royal!
+Dialogue: 0,0:06:46.72,0:06:48.12,main,Asta,0000,0000,0000,,Family (Kazoku)?
+Dialogue: 0,0:06:49.00,0:06:50.85,main,Noelle,0000,0000,0000,,Y-You idiot...
+Dialogue: 0,0:06:50.80,0:06:54.81,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Look at Me!
+Dialogue: 0,0:06:51.91,0:06:53.56,main,Noelle,0000,0000,0000,,Look at Me!
+Dialogue: 0,0:06:55.41,0:06:58.37,main,Noelle,0000,0000,0000,,Hey, Stupidsta. Look at me!
+Dialogue: 0,0:06:58.37,0:07:01.31,main,Noelle,0000,0000,0000,,How do I look in this swimsuit?
+Dialogue: 0,0:07:05.00,0:07:08.07,main,Asta,0000,0000,0000,,You're all sparkly.
+Dialogue: 0,0:07:08.07,0:07:09.74,main,Asta,0000,0000,0000,,Isn't it heavy?
+Dialogue: 0,0:07:09.74,0:07:12.01,main,Asta,0000,0000,0000,,That'd probably work great\Nas part of a scarecrow.
+Dialogue: 0,0:07:13.85,0:07:16.21,main,Asta,0000,0000,0000,,You sort of look like a cow back in Hage...
+Dialogue: 0,0:07:17.16,0:07:18.21,main,Crab,0000,0000,0000,,Crab!
+Dialogue: 0,0:07:17.16,0:07:19.91,main,Noelle,0000,0000,0000,,Wh-What are you staring at?!
+Dialogue: 0,0:07:19.91,0:07:20.83,main,Crab,0000,0000,0000,,Crab!
+Dialogue: 0,0:07:22.51,0:07:24.51,main,Asta,0000,0000,0000,,But you told me to look!
+Dialogue: 0,0:07:24.51,0:07:25.96,main,Noelle,0000,0000,0000,,Ugh, I'm so embarrassed...
+Dialogue: 0,0:07:25.96,0:07:28.23,main,Crab,0000,0000,0000,,Crab...
+Dialogue: 0,0:07:28.01,0:07:32.01,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Voice Change
+Dialogue: 0,0:07:29.57,0:07:30.91,main,Gauche,0000,0000,0000,,Voice Change.
+Dialogue: 0,0:07:34.04,0:07:35.62,main,Gauche,0000,0000,0000,,M-Marie's coughing?!
+Dialogue: 0,0:07:35.62,0:07:37.09,main,Gauche,0000,0000,0000,,Did you catch a cold?
+Dialogue: 0,0:07:37.61,0:07:40.68,main,Gauche,0000,0000,0000,,It was pretty cold in the cave! \NAre you all right, Marie?
+Dialogue: 0,0:07:40.68,0:07:43.31,main,Marie,0000,0000,0000,,Yeah, my throat's just a little sore.
+Dialogue: 0,0:07:43.31,0:07:44.14,main,Marie,0000,0000,0000,,Huh?
+Dialogue: 0,0:07:45.23,0:07:46.44,main,Marie,0000,0000,0000,,My voice sounds strange.
+Dialogue: 0,0:07:47.34,0:07:51.61,main,Gauche,0000,0000,0000,,M-My angel Marie's voice \Nsounds like Captain Yami's!
+Dialogue: 0,0:07:51.61,0:07:55.82,main,Marie,0000,0000,0000,,More importantly, Brother, \Ngo save Asta and the others!
+Dialogue: 0,0:07:56.28,0:07:58.87,main,Theresa,0000,0000,0000,,Take my magic.
+Dialogue: 0,0:07:59.28,0:08:00.81,main,Gauche,0000,0000,0000,,The old hag's voice is weird, too?
+Dialogue: 0,0:08:01.25,0:08:04.42,main,Finral,0000,0000,0000,,I may only be able to use \Nmy magic one more time.
+Dialogue: 0,0:08:04.42,0:08:05.83,main,Gauche,0000,0000,0000,,You, too, Finral?!
+Dialogue: 0,0:08:08.35,0:08:10.09,main,Gauche,0000,0000,0000,,Wait, now my throat is...
+Dialogue: 0,0:08:10.09,0:08:11.74,main,All,0000,0000,0000,,Your voice is cute!
+Dialogue: 0,0:08:11.92,0:08:15.93,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Marie's in Danger
+Dialogue: 0,0:08:13.64,0:08:15.06,main,Gauche,0000,0000,0000,,Marie's in Danger.
+Dialogue: 0,0:08:16.28,0:08:18.85,main,Gauche,0000,0000,0000,,All right, one, two, three!
+Dialogue: 0,0:08:18.85,0:08:21.08,main,Gauche,0000,0000,0000,,Marie! Are you an angel?!
+Dialogue: 0,0:08:21.53,0:08:23.34,main,Gauche,0000,0000,0000,,I can do anything when Marie's around!
+Dialogue: 0,0:08:23.34,0:08:28.64,main,Gauche,0000,0000,0000,,But there are times where I must steel \Nmy heart and decline Marie's wishes.
+Dialogue: 0,0:08:28.64,0:08:29.44,main,Gauche,0000,0000,0000,,For example!
+Dialogue: 0,0:08:30.98,0:08:34.21,main,Marie,0000,0000,0000,,Brother, go back and save \NAsta and the others!
+Dialogue: 0,0:08:35.17,0:08:37.74,main,Gauche,0000,0000,0000,,No! Going back would put you in danger!
+Dialogue: 0,0:08:38.09,0:08:42.06,main,Marie,0000,0000,0000,,Brother! I want to eat some \Nhot, extra-cheesy doria!
+Dialogue: 0,0:08:43.79,0:08:46.21,main,Gauche,0000,0000,0000,,No! Eating that would put \Nyour tongue in danger!
+Dialogue: 0,0:08:46.21,0:08:47.42,main,Gauche,0000,0000,0000,,You'll burn it.
+Dialogue: 0,0:08:47.42,0:08:51.08,main,Marie,0000,0000,0000,,Brother, doesn't lying \Nout in the sun feel nice?
+Dialogue: 0,0:08:51.08,0:08:55.00,main,Gauche,0000,0000,0000,,No! If you're in the sun too long, \Nyour skin will be in danger!
+Dialogue: 0,0:08:56.67,0:08:58.14,main,Gauche,0000,0000,0000,,UV rays are a fearsome enemy!
+Dialogue: 0,0:08:58.62,0:09:01.31,main,Marie,0000,0000,0000,,Brother, show me a really cool spell!
+Dialogue: 0,0:09:01.68,0:09:03.97,main,Gauche,0000,0000,0000,,No... Just kidding.
+Dialogue: 0,0:09:04.81,0:09:07.19,main,Gauche,0000,0000,0000,,Marie, look at me.
+Dialogue: 0,0:09:08.84,0:09:10.46,main,Gauche,0000,0000,0000,,Mirage Brigade!
+Dialogue: 0,0:09:11.03,0:09:13.19,main,Maries,0000,0000,0000,,You're amazing, Brother!
+Dialogue: 0,0:09:14.97,0:09:18.69,main,Gauche,0000,0000,0000,,No... Now I'm... in danger.
+Dialogue: 0,0:09:19.65,0:09:21.14,main,Maries,0000,0000,0000,,Brother? Brother? Brother?
+Dialogue: 0,0:09:21.41,0:09:25.41,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Double Gauche
+Dialogue: 0,0:09:22.91,0:09:24.31,main,gauche,0000,0000,0000,,Double Gauche.
+Dialogue: 0,0:09:26.01,0:09:27.54,main,Marie,0000,0000,0000,,Brother!
+Dialogue: 0,0:09:27.54,0:09:30.12,main,Marie,0000,0000,0000,,Spin me around like Asta did!
+Dialogue: 0,0:09:32.82,0:09:35.28,sign_33285_329_I_ll____kill_him,Caption,0000,0000,0000,,I'll... kill him!!
+Dialogue: 0,0:09:33.22,0:09:35.28,main,Brother,0000,0000,0000,,Spin... Marie around?!
+Dialogue: 0,0:09:37.14,0:09:38.30,main,Marie,0000,0000,0000,,Brother?!
+Dialogue: 0,0:09:39.14,0:09:43.31,main,Gauche,0000,0000,0000,,I can't disappoint Marie... \NI'll have to rely on my clone...
+Dialogue: 0,0:09:43.83,0:09:47.06,main,Gauche,0000,0000,0000,,Mirror Magic: Real Double!
+Dialogue: 0,0:09:47.59,0:09:49.59,main,Gauche,0000,0000,0000,,Spin her around...
+Dialogue: 0,0:09:49.59,0:09:51.82,main,Gauche,0000,0000,0000,,I can't put Marie in danger.
+Dialogue: 0,0:09:52.13,0:09:53.32,main,Gauche,0000,0000,0000,,That's true!
+Dialogue: 0,0:09:53.32,0:09:55.44,main,Gauche,0000,0000,0000,,Then I'll just have to do it for her.
+Dialogue: 0,0:09:55.44,0:09:58.47,main,Gauches,0000,0000,0000,,See? We're spinning!
+Dialogue: 0,0:09:59.30,0:10:00.60,main,Marie,0000,0000,0000,,You're not doing it right.
+Dialogue: 0,0:10:01.74,0:10:05.75,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(523,1)}What's Mana?
+Dialogue: 0,0:10:03.10,0:10:05.75,main,Finral,0000,0000,0000,,What's Mana?
+Dialogue: 0,0:10:06.25,0:10:09.25,main,Finral,0000,0000,0000,,Asta, do you know what mana is?
+Dialogue: 0,0:10:09.25,0:10:10.31,main,Asta,0000,0000,0000,,Yup!
+Dialogue: 0,0:10:09.75,0:10:12.04,sign_32916_371_Mana,Sign,0000,0000,0000,,{\fad(355,1)}Mana
+Dialogue: 0,0:10:10.31,0:10:12.04,main,Asta,0000,0000,0000,,It's written like this!
+Dialogue: 0,0:10:12.04,0:10:14.30,sign_32971_372_Mana,Sign,0000,0000,0000,,Mana
+Dialogue: 0,0:10:12.36,0:10:14.30,main,Asta,0000,0000,0000,,It's written with the same \Ncharacter for "magic"!
+Dialogue: 0,0:10:14.30,0:10:16.40,sign_33024_375_Serious_,Sign,0000,0000,0000,,{\fad(1,244)}Serious
+Dialogue: 0,0:10:14.73,0:10:17.09,main,Magna,0000,0000,0000,,These both mean "serious"!
+Dialogue: 0,0:10:17.09,0:10:22.72,main,Finral,0000,0000,0000,,Yes. Mana is a powerful energy \Nthat exists in this world.
+Dialogue: 0,0:10:22.72,0:10:26.73,main,Asta,0000,0000,0000,,Yup! And everyone has it...
+Dialogue: 0,0:10:27.05,0:10:28.73,main,Asta,0000,0000,0000,,Except me!
+Dialogue: 0,0:10:29.28,0:10:33.36,main,Finral,0000,0000,0000,,Mages use up their mana to use magic.
+Dialogue: 0,0:10:33.36,0:10:34.98,main,Finral,0000,0000,0000,,That's why if they run out of it,
+Dialogue: 0,0:10:34.98,0:10:38.36,main,Finral,0000,0000,0000,,they might not be able to use \Nmagic again until they recover.
+Dialogue: 0,0:10:38.74,0:10:39.86,main,Finral,0000,0000,0000,,Do you understand?
+Dialogue: 0,0:10:39.86,0:10:41.26,main,Asta,0000,0000,0000,,Yes!
+Dialogue: 0,0:10:44.04,0:10:45.89,main,Finral,0000,0000,0000,,What a lovely flower!
+Dialogue: 0,0:10:45.89,0:10:49.21,main,Finral,0000,0000,0000,,Perfect for giving to a girl.
+Dialogue: 0,0:10:49.58,0:10:50.48,main,Asta,0000,0000,0000,,Finral!
+Dialogue: 0,0:10:50.48,0:10:52.71,main,Finral,0000,0000,0000,,Wow, you're so aggressive!
+Dialogue: 0,0:10:52.71,0:10:54.59,main,Finral,0000,0000,0000,,I've never met a flower like you!
+Dialogue: 0,0:10:54.21,0:10:58.22,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Crackling Magna Typhoon!
+Dialogue: 0,0:10:55.23,0:10:58.22,main,Both,0000,0000,0000,,Crackling Magna Typhoon! {ep 44}
+Dialogue: 0,0:10:58.55,0:11:00.58,main,Luck,0000,0000,0000,,Hey, everyone! How are you doing?
+Dialogue: 0,0:11:00.58,0:11:03.84,main,Magna,0000,0000,0000,,We can't hear you! Put a little \Nmore umph into it, damn it!
+Dialogue: 0,0:11:03.84,0:11:09.06,main,Luck,0000,0000,0000,,Today, we're going to show you how you can \Ndo an easy Crackling Magna Typhoon at home.
+Dialogue: 0,0:11:09.06,0:11:11.89,main,Luck,0000,0000,0000,,First, have a string of lightning ready.
+Dialogue: 0,0:11:11.89,0:11:12.69,main,Magna,0000,0000,0000,,No one can do that!
+Dialogue: 0,0:11:12.69,0:11:16.69,main,Luck,0000,0000,0000,,Then, you wrap that lightning \Nstring around Magna, like this.
+Dialogue: 0,0:11:15.55,0:11:17.70,top,Magna,0000,0000,0000,,It's electrocuting me!
+Dialogue: 0,0:11:16.69,0:11:19.34,main,Luck,0000,0000,0000,,Oh, you'll have to get your own Magna.
+Dialogue: 0,0:11:19.34,0:11:20.70,main,Magna,0000,0000,0000,,They can't do that, damn it!
+Dialogue: 0,0:11:20.70,0:11:22.84,main,Luck,0000,0000,0000,,Once you wrap the lightning \Nstring around him,
+Dialogue: 0,0:11:22.84,0:11:25.62,main,Luck,0000,0000,0000,,you're going to spin him with \Nall your strength like a top.
+Dialogue: 0,0:11:25.62,0:11:27.95,main,Luck,0000,0000,0000,,Just like this! Take that!
+Dialogue: 0,0:11:27.95,0:11:29.59,main,Luck,0000,0000,0000,,And that's the Crackling Magna Typhoon.
+Dialogue: 0,0:11:29.59,0:11:30.94,main,Luck,0000,0000,0000,,Easy, right?
+Dialogue: 0,0:11:30.94,0:11:33.64,main,Magna,0000,0000,0000,,You're the only one who can do this, damn it!
+Dialogue: 0,0:11:33.64,0:11:35.63,main,Magna,0000,0000,0000,,Save me!
+Dialogue: 0,0:11:35.63,0:11:37.37,main,Luck,0000,0000,0000,,See you next time!
+Dialogue: 0,0:11:37.17,0:11:41.17,sign_33188_278_The_Mystery_of_t,,0000,0000,0000,,{\fad(523,1)}Real Life!\NMagic Knights 24!
+Dialogue: 0,0:11:38.38,0:11:41.17,main,Magna,0000,0000,0000,,Real Life! Magic Knights 24!
+Dialogue: 0,0:11:46.29,0:11:47.22,main,Yami,0000,0000,0000,,It's chilly.
+Dialogue: 0,0:11:47.63,0:11:48.62,main,Magna,0000,0000,0000,,Right, Mister Yami!
+Dialogue: 0,0:11:51.45,0:11:52.28,main,Yami,0000,0000,0000,,It's hot!
+Dialogue: 0,0:11:52.28,0:11:53.44,main,Magna,0000,0000,0000,,Right, Mister Yami!
+Dialogue: 0,0:11:54.93,0:11:56.44,main,Yami,0000,0000,0000,,I can't see anything.
+Dialogue: 0,0:11:57.42,0:11:58.44,main,Manga,0000,0000,0000,,Right, Mister Yami!
+Dialogue: 0,0:11:58.82,0:11:59.65,main,Yami,0000,0000,0000,,Get out.
+Dialogue: 0,0:11:59.65,0:12:00.74,main,Magna,0000,0000,0000,,Right, Mister Yami!
+Dialogue: 0,0:12:00.90,0:12:04.91,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(524,1)}Sekke's Bah-Ha Seminar
+Dialogue: 0,0:12:02.12,0:12:04.91,main,All,0000,0000,0000,,Sekke's Bah-Ha Seminar!
+Dialogue: 0,0:12:05.23,0:12:06.41,main,Sekke,0000,0000,0000,,Bah-ha!
+Dialogue: 0,0:12:06.41,0:12:07.65,main,Asta,0000,0000,0000,,Bah-ha.
+Dialogue: 0,0:12:06.97,0:12:08.57,main,Sekke,0000,0000,0000,,Wrong! It's...
+Dialogue: 0,0:12:08.57,0:12:09.91,main,Sekke,0000,0000,0000,,Bah-ha!
+Dialogue: 0,0:12:09.91,0:12:11.69,main,Asta,0000,0000,0000,,Bah-ha!
+Dialogue: 0,0:12:11.69,0:12:15.42,main,Sekke,0000,0000,0000,,Asta, you have yet to learn \Nthe ways of the bah-ha.
+Dialogue: 0,0:12:15.42,0:12:16.83,main,Sekke,0000,0000,0000,,Bah-ha!
+Dialogue: 0,0:12:16.83,0:12:18.62,main,Asta,0000,0000,0000,,The ways of the bah-ha?!
+Dialogue: 0,0:12:18.50,0:12:22.78,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Sekke's Bah-ha Seminar! Part 2
+Dialogue: 0,0:12:19.41,0:12:22.78,main,All,0000,0000,0000,,Sekke's Bah-ha Seminar, Part 2!
+Dialogue: 0,0:12:22.78,0:12:24.26,main,Asta,0000,0000,0000,,We're still doing this?
+Dialogue: 0,0:12:24.26,0:12:26.51,main,Sekke,0000,0000,0000,,But of course, Asta.
+Dialogue: 0,0:12:26.51,0:12:30.35,main,Sekke,0000,0000,0000,,You haven't learned the \Nways of bah-ha at all yet.
+Dialogue: 0,0:12:30.70,0:12:33.16,main,Asta,0000,0000,0000,,Your Shooting Star's pretty cool!
+Dialogue: 0,0:12:33.16,0:12:35.35,main,Sekke,0000,0000,0000,,Ah, so you understand how grand it is!
+Dialogue: 0,0:12:35.35,0:12:38.72,main,Asta,0000,0000,0000,,That part in front is especially awesome!
+Dialogue: 0,0:12:38.72,0:12:41.61,main,Sekke,0000,0000,0000,,Good. You are starting to \Nunderstand the ways of bah-ha!
+Dialogue: 0,0:12:41.61,0:12:44.09,main,Asta,0000,0000,0000,,I see. So that's bah-ha.
+Dialogue: 0,0:12:44.09,0:12:47.12,main,Sekke,0000,0000,0000,,Yes. Starting today, you \Nhave attained bah-ha!
+Dialogue: 0,0:12:47.12,0:12:50.52,main,,0000,0000,0000,,Bah-hahaha! Bah-hahaha!
+Dialogue: 0,0:12:48.95,0:12:50.80,main,,0000,0000,0000,,Bah-hahaha!
+Dialogue: 0,0:12:50.80,0:12:53.05,main,Noelle,0000,0000,0000,,Men are so stupid.
+Dialogue: 0,0:12:52.95,0:12:56.96,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}My Magic
+Dialogue: 0,0:12:54.17,0:12:55.40,main,Gordon,0000,0000,0000,,My Magic.
+Dialogue: 0,0:12:57.90,0:13:01.27,main - subtitles,Gordon,0000,0000,0000,,I'll show you my magic. It's hex magic.
+Dialogue: 0,0:13:02.40,0:13:03.61,main - subtitles,Gordon,0000,0000,0000,,In the next ten minutes...
+Dialogue: 0,0:13:05.11,0:13:05.97,main - subtitles,Gordon,0000,0000,0000,,you'll blink.
+Dialogue: 0,0:13:06.65,0:13:07.86,main - subtitles,Gordon,0000,0000,0000,,Let's {\i1}Go{\i0}rdon!
+Dialogue: 0,0:13:13.58,0:13:15.31,main,,0000,0000,0000,,Let's... {\i1}Go{\i0}rdon...
+Dialogue: 0,0:13:18.17,0:13:20.29,sign_138_1_Black_Clover_is_,,0000,0000,0000,,{\blur3}I'm right behind you.
+Dialogue: 0,0:13:26.05,0:13:30.03,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,Magical Detective Charmy
+Dialogue: 0,0:13:27.31,0:13:30.03,main,Charmy,0000,0000,0000,,Magical Detective Charmy!
+Dialogue: 0,0:13:30.85,0:13:33.79,main,Charmy,0000,0000,0000,,Hello, I'm Magical Detective Charmy.
+Dialogue: 0,0:13:34.13,0:13:39.31,main,Charmy,0000,0000,0000,,A terrible crime has been committed. \NSomeone has eaten my cake.
+Dialogue: 0,0:13:39.31,0:13:43.10,main,Charmy,0000,0000,0000,,To uphold my honor, I will \Ncapture this vile criminal!
+Dialogue: 0,0:13:43.10,0:13:44.46,main,Yami,0000,0000,0000,,You're the culprit.
+Dialogue: 0,0:13:44.46,0:13:47.10,main,Charmy,0000,0000,0000,,The criminal was bold \Nenough to go into my room!
+Dialogue: 0,0:13:47.10,0:13:48.48,main,Charmy,0000,0000,0000,,My bedroom!
+Dialogue: 0,0:13:48.48,0:13:49.64,main,Yami,0000,0000,0000,,You're the damn culprit.
+Dialogue: 0,0:13:49.64,0:13:52.06,main,Charmy,0000,0000,0000,,But the criminal made a grave mistake.
+Dialogue: 0,0:13:52.06,0:13:54.13,main,Charmy,0000,0000,0000,,Look at this handprint!
+Dialogue: 0,0:13:54.13,0:13:56.10,main,Vanessa,0000,0000,0000,,That's your handprint, isn't it?
+Dialogue: 0,0:13:56.57,0:13:58.21,main,Charmy,0000,0000,0000,,The culprit is...
+Dialogue: 0,0:13:58.21,0:13:59.43,main,Noelle,0000,0000,0000,,You, right?
+Dialogue: 0,0:14:00.92,0:14:03.73,main,Charmy,0000,0000,0000,,It's me!
+Dialogue: 0,0:14:02.41,0:14:03.73,main,All,0000,0000,0000,,Duh.
+Dialogue: 0,0:14:03.57,0:14:07.57,sign_33188_278_The_Mystery_of_t,,0000,0000,0000,,{\fad(520,1)}Palace Three-Second Cooking
+Dialogue: 0,0:14:04.73,0:14:07.57,main,Chef,0000,0000,0000,,Palace Three-Second Cooking.
+Dialogue: 0,0:14:07.57,0:14:09.83,main,Chef,0000,0000,0000,,The time where I, the royal \Nhead chef of Clover Kingdom,
+Dialogue: 0,0:14:09.83,0:14:13.43,main,Chef,0000,0000,0000,,introduce a three-second dish \Nthat anyone can make.
+Dialogue: 0,0:14:13.43,0:14:15.58,main,Chef,0000,0000,0000,,Today, I'd like to make some \Ncurry in three seconds.
+Dialogue: 0,0:14:15.95,0:14:19.33,main,Chef,0000,0000,0000,,I'm going to be using simple curry \Nroux procured at the market.
+Dialogue: 0,0:14:19.33,0:14:20.91,main,Chef,0000,0000,0000,,Next, you'll need carrots, onions, potatoes,
+Dialogue: 0,0:14:20.91,0:14:23.46,main,Chef,0000,0000,0000,,some mushrooms, and maybe some tomatoes.
+Dialogue: 0,0:14:23.46,0:14:26.14,main,Chef,0000,0000,0000,,If you try adding secret ingredients \Nlike chocolate or coffee,
+Dialogue: 0,0:14:26.14,0:14:28.02,main,Chef,0000,0000,0000,,you can make an even more fragrant curry.
+Dialogue: 0,0:14:28.02,0:14:29.59,main,Chef,0000,0000,0000,,Now, then... You take \Nthose ingredients, and...
+Dialogue: 0,0:14:30.75,0:14:32.96,main,Chef,0000,0000,0000,,Immediately chop them up using \Nyour magic, and simmer them!
+Dialogue: 0,0:14:32.96,0:14:35.48,main,Chef,0000,0000,0000,,Make sure you use plenty of love and passion!
+Dialogue: 0,0:14:37.07,0:14:39.29,main,Chef,0000,0000,0000,,And it's finished. Wasn't that easy?
+Dialogue: 0,0:14:39.29,0:14:41.96,main,Charmy,0000,0000,0000,,Time to eat!
+Dialogue: 0,0:14:41.96,0:14:43.82,main,Charmy,0000,0000,0000,,So good!
+Dialogue: 0,0:14:43.82,0:14:47.74,main,Chef,0000,0000,0000,,And that concludes this episode of Palace\NThree-Second Cooking, dishes anyone can make!
+Dialogue: 0,0:14:47.74,0:14:49.45,main,Both,0000,0000,0000,,See you next time!
+Dialogue: 0,0:14:49.45,0:14:50.74,main,Asta,0000,0000,0000,,But that's impossible!
+Dialogue: 0,0:14:50.66,0:14:54.66,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(521,1)}Birthday
+Dialogue: 0,0:14:52.13,0:14:53.32,main,Yuno,0000,0000,0000,,Birthday.
+Dialogue: 0,0:14:55.40,0:14:57.91,main,Yuno,0000,0000,0000,,I was able to get the wind \Nspirit to listen to me.
+Dialogue: 0,0:14:57.91,0:15:01.42,main,Yuno,0000,0000,0000,,I shall name her Bell,\Nand today is Bell's birthday.
+Dialogue: 0,0:15:02.53,0:15:04.25,main,Yuno,0000,0000,0000,,This cake is for you, Bell.
+Dialogue: 0,0:15:04.25,0:15:05.42,main,Bell,0000,0000,0000,,Yay!
+Dialogue: 0,0:15:05.42,0:15:07.85,main,Yuno,0000,0000,0000,,Should we say you're one year old?
+Dialogue: 0,0:15:08.67,0:15:11.43,main,Yuno,0000,0000,0000,,Happy birthday, Bell.
+Dialogue: 0,0:15:11.82,0:15:13.18,main,Bell,0000,0000,0000,,So pretty!
+Dialogue: 0,0:15:13.58,0:15:16.38,main,Yuno,0000,0000,0000,,Make a wish and blow out the candles.
+Dialogue: 0,0:15:16.38,0:15:17.93,main,Bell,0000,0000,0000,,Um...
+Dialogue: 0,0:15:27.73,0:15:29.39,main,Bell,0000,0000,0000,,Huh? Where's the cake?
+Dialogue: 0,0:15:29.39,0:15:30.73,main,Yuno,0000,0000,0000,,Not a chance...
+Dialogue: 0,0:15:30.90,0:15:34.91,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}It's Not as Though\NI'm Actually Worried
+Dialogue: 0,0:15:32.17,0:15:34.91,main,Klaus,0000,0000,0000,,It's Not as Though I'm Actually Worried.
+Dialogue: 0,0:15:35.87,0:15:40.62,italics,Klaus,0000,0000,0000,,Yes, he's brushing each tooth carefully, \Nwith short strokes, ten to twenty times.
+Dialogue: 0,0:15:42.49,0:15:44.17,italics,Klaus,0000,0000,0000,,You mustn't scrub so roughly!
+Dialogue: 0,0:15:46.41,0:15:48.10,italics,Klaus,0000,0000,0000,,The bubbles are heading toward his eye!
+Dialogue: 0,0:15:49.85,0:15:51.02,italics,Klaus,0000,0000,0000,,Safe!
+Dialogue: 0,0:15:51.93,0:15:55.31,italics,Klaus,0000,0000,0000,,He's not kicking off his blanket\Nand getting too cold, is he?
+Dialogue: 0,0:15:55.31,0:15:58.89,main,Mimosa,0000,0000,0000,,You're so kind, it's almost creepy, Klaus.
+Dialogue: 0,0:15:58.89,0:16:00.68,main,Yuno,0000,0000,0000,,Not happening...
+Dialogue: 0,0:16:00.68,0:16:04.69,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Family
+Dialogue: 0,0:16:02.21,0:16:03.34,main,Yuno,0000,0000,0000,,Family.
+Dialogue: 0,0:16:05.40,0:16:06.42,main,Mimosa,0000,0000,0000,,Oh, my...
+Dialogue: 0,0:16:06.42,0:16:10.94,main,Mimosa,0000,0000,0000,,So you decided that you would treat all of \Nthe friends you encountered like family.
+Dialogue: 0,0:16:10.94,0:16:13.98,main,Mimosa,0000,0000,0000,,That's so wonderful.
+Dialogue: 0,0:16:13.98,0:16:15.12,main,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:16:15.12,0:16:19.03,main,Mimosa,0000,0000,0000,,Family... So basically, it's like this...
+Dialogue: 0,0:16:21.87,0:16:23.53,main,Yuno,0000,0000,0000,,Big Brother Klaus!
+Dialogue: 0,0:16:24.11,0:16:26.14,main,Yuno,0000,0000,0000,,That tickles!
+Dialogue: 0,0:16:26.14,0:16:29.42,main,Klaus,0000,0000,0000,,Little Brother, allow me \Nto bestow these upon you.
+Dialogue: 0,0:16:29.42,0:16:31.13,main,Yuno,0000,0000,0000,,Yay, glasses!
+Dialogue: 0,0:16:31.74,0:16:34.13,main,Yuno,0000,0000,0000,,Thanks, Big Brother!
+Dialogue: 0,0:16:35.73,0:16:37.67,main,Yuno,0000,0000,0000,,Not a chance...
+Dialogue: 0,0:16:37.60,0:16:41.60,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Resilient
+Dialogue: 0,0:16:39.39,0:16:40.75,main,Mars,0000,0000,0000,,Resilient.
+Dialogue: 0,0:16:42.73,0:16:46.60,main,Mars,0000,0000,0000,,Flame Recovery Magic: Phoenix Robe.
+Dialogue: 0,0:16:47.93,0:16:50.13,main,Klaus,0000,0000,0000,,Isn't it hot in there?
+Dialogue: 0,0:16:54.91,0:16:56.36,main,Mars,0000,0000,0000,,It is.
+Dialogue: 0,0:17:01.09,0:17:03.18,main,Klaus,0000,0000,0000,,Isn't it heavy?
+Dialogue: 0,0:17:06.02,0:17:07.13,main,Mars,0000,0000,0000,,It is.
+Dialogue: 0,0:17:07.55,0:17:08.74,main,Mars,0000,0000,0000,,And...
+Dialogue: 0,0:17:09.37,0:17:11.88,main,Mars,0000,0000,0000,,My face itches, but I can't scratch it!
+Dialogue: 0,0:17:14.09,0:17:18.09,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}I Wonder Why
+Dialogue: 0,0:17:15.53,0:17:17.33,main,Both,0000,0000,0000,,I Wonder Why.
+Dialogue: 0,0:17:19.73,0:17:21.10,main,Noelle,0000,0000,0000,,What's the matter, Asta?
+Dialogue: 0,0:17:21.10,0:17:26.26,main,Asta,0000,0000,0000,,I wonder why Fana doesn't get burned \Nwhen Salamander is covered in flames.
+Dialogue: 0,0:17:26.26,0:17:27.85,main,Noelle,0000,0000,0000,,Probably because it's magic?
+Dialogue: 0,0:17:27.85,0:17:32.83,main,Asta,0000,0000,0000,,I wonder why your clothes don't get \Nwet inside the Sea Dragon's Lair.
+Dialogue: 0,0:17:32.83,0:17:34.36,main,Noelle,0000,0000,0000,,Because it's magic.
+Dialogue: 0,0:17:34.36,0:17:38.55,main,Asta,0000,0000,0000,,Why doesn't konbu seaweed \Nflavor the ocean like dashi?
+Dialogue: 0,0:17:38.55,0:17:41.87,main,Charmy,0000,0000,0000,,Leave any food questions \Nto me, Professor Charmy!
+Dialogue: 0,0:17:41.87,0:17:47.02,main,Charmy,0000,0000,0000,,The component that gives konbu dashi its \Nflavor, glutamic acid, lies within its cells.
+Dialogue: 0,0:17:47.02,0:17:49.68,main,Charmy,0000,0000,0000,,Those cells have what's called \N"selective permeability,"
+Dialogue: 0,0:17:49.68,0:17:51.60,main,Charmy,0000,0000,0000,,which gives it the ability \Nto take in what's necessary
+Dialogue: 0,0:17:51.60,0:17:53.85,main,Charmy,0000,0000,0000,,and get rid of everything it doesn't need.
+Dialogue: 0,0:17:53.85,0:17:57.56,main,Charmy,0000,0000,0000,,The glutamic acid that creates the dashi \Nin konbu is necessary for its survival,
+Dialogue: 0,0:17:57.56,0:18:00.83,main,Charmy,0000,0000,0000,,so it doesn't leave its cells while \Nit's still alive within the ocean!
+Dialogue: 0,0:18:00.83,0:18:02.86,main,Charmy,0000,0000,0000,,But once it dies and is dried, \Nthe cells break apart,
+Dialogue: 0,0:18:02.86,0:18:05.64,main,Charmy,0000,0000,0000,,causing the glutamic acid to come out,\N which turns into dashi.
+Dialogue: 0,0:18:06.14,0:18:09.03,main,Noelle,0000,0000,0000,,There's no way Stupidsta's \Ngoing to understand any of that.
+Dialogue: 0,0:18:09.40,0:18:13.40,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Captain Yami's Lecture\Non Magic Knight Rankings
+Dialogue: 0,0:18:10.36,0:18:13.10,main,Yami,0000,0000,0000,,"Captain Yami's"... Wait, what is this?
+Dialogue: 0,0:18:13.10,0:18:16.90,main,Yami,0000,0000,0000,,"Magic Knight"... Ugh, I can't be bothered.
+Dialogue: 0,0:18:13.40,0:18:16.90,sign_33586_380_Wizard_King_Gran,Sign,0000,0000,0000,,Wizard King\NGrand Magic Knight\N1st-5th Class Senior Magic Knight\N1st-5th Class Intermediate Magic Knight\N1st Class Junior Magic Knight\N2nd Class Junior Magic Knight
+Dialogue: 0,0:18:16.90,0:18:26.16,sign_33586_380_Wizard_King_Gran,Sign,0000,0000,0000,,Wizard King\NGrand Magic Knight\N1st-5th Class Senior Magic Knight\N1st-5th Class Intermediate Magic Knight\N1st Class Junior Magic Knight\N2nd Class Junior Magic Knight\N 3rd Class Junior Magic Knight\N4th Class Junior Magic Knight\N5th Class Junior Magic Knight
+Dialogue: 0,0:18:17.89,0:18:22.69,main,Yami,0000,0000,0000,,So the most important is the Wizard King, \Nand then there's Grand Magic Knight...
+Dialogue: 0,0:18:22.69,0:18:24.13,main,Yami,0000,0000,0000,,This is too much work.
+Dialogue: 0,0:18:24.13,0:18:26.16,main,Yami,0000,0000,0000,,Why are you making a\NGrand Magic Knight read this?
+Dialogue: 0,0:18:26.16,0:18:27.46,main,Yami,0000,0000,0000,,I'll kill you!
+Dialogue: 0,0:18:27.46,0:18:30.45,main,All,0000,0000,0000,,What?!
+Dialogue: 0,0:18:30.00,0:18:34.00,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Grilled Squid
+Dialogue: 0,0:18:31.19,0:18:32.83,main,Yami,0000,0000,0000,,Grilled Squid.
+Dialogue: 0,0:18:34.44,0:18:38.27,main,Yami,0000,0000,0000,,Today, I'll show you how to make \Nsome delicious grilled squid.
+Dialogue: 0,0:18:38.27,0:18:39.51,main,Both,0000,0000,0000,,Yeah!
+Dialogue: 0,0:18:39.51,0:18:41.55,main,Yami,0000,0000,0000,,It's super simple. Anyone can do it.
+Dialogue: 0,0:18:41.55,0:18:42.76,main,Noelle,0000,0000,0000,,You say that,
+Dialogue: 0,0:18:42.76,0:18:45.77,main,Noelle,0000,0000,0000,,but you're not going to cheat and use \Nmagic like that one chef did, are you?
+Dialogue: 0,0:18:47.27,0:18:48.77,main,Yami,0000,0000,0000,,Just watch.
+Dialogue: 0,0:18:48.77,0:18:52.01,main,Yami,0000,0000,0000,,First, you pull out its insides\Nand cut slits into it.
+Dialogue: 0,0:18:52.01,0:18:53.72,main,Asta,0000,0000,0000,,Those are actually real instructions!
+Dialogue: 0,0:18:57.46,0:19:01.15,main,Yami,0000,0000,0000,,Then you season it with sugar, \Nsalt, mirin, and ginger.
+Dialogue: 0,0:19:01.15,0:19:02.03,main,Noelle,0000,0000,0000,,Still real instructions!
+Dialogue: 0,0:19:02.03,0:19:03.03,main,Yami,0000,0000,0000,,Then, you grill it.
+Dialogue: 0,0:19:03.39,0:19:04.78,main,Both,0000,0000,0000,,This is normal cooking!
+Dialogue: 0,0:19:04.78,0:19:06.04,main,Yami,0000,0000,0000,,All done.
+Dialogue: 0,0:19:06.82,0:19:07.79,main,Both,0000,0000,0000,,Yummy!
+Dialogue: 0,0:19:08.12,0:19:11.29,main,Yami,0000,0000,0000,,There you go. Simple grilled squid\N that anyone can make.
+Dialogue: 0,0:19:11.93,0:19:13.23,main,Yami,0000,0000,0000,,There's no punchline this time.
+Dialogue: 0,0:19:13.29,0:19:17.30,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Charmy's\NSeven Transformations,\NPart II
+Dialogue: 0,0:19:14.10,0:19:17.30,main,Charmy,0000,0000,0000,,Charmy's Seven Transformations, Part II!
+Dialogue: 0,0:19:17.80,0:19:21.12,main,Charmy,0000,0000,0000,,In response to the incredible \Nnumber of requests we got from
+Dialogue: 0,0:19:21.12,0:19:24.05,main,Charmy,0000,0000,0000,,Charmy fans across the universe \Nsaying the seven transformations
+Dialogue: 0,0:19:24.05,0:19:25.98,main,Charmy,0000,0000,0000,,from last time just weren't enough,
+Dialogue: 0,0:19:25.98,0:19:27.81,main,Charmy,0000,0000,0000,,we bring you its sequel!
+Dialogue: 0,0:19:27.81,0:19:29.07,main,Charmy,0000,0000,0000,,Transformation one...
+Dialogue: 0,0:19:29.07,0:19:31.59,main,Charmy,0000,0000,0000,,Christmas Tree Charmy.
+Dialogue: 0,0:19:29.07,0:19:32.56,top,Charmy,0000,0000,0000,,La la la, la la la, la la la la laa...
+Dialogue: 0,0:19:32.56,0:19:33.93,main,Charmy,0000,0000,0000,,Transformation two...
+Dialogue: 0,0:19:33.42,0:19:37.32,sign_33402_326_Noms_,Sign,0000,0000,0000,,Noms
+Dialogue: 0,0:19:33.93,0:19:36.23,main,Charmy,0000,0000,0000,,Charmy the Ninja!
+Dialogue: 0,0:19:35.14,0:19:37.32,top,Charmy,0000,0000,0000,,La! Nin nin!
+Dialogue: 0,0:19:37.32,0:19:38.51,main,Charmy,0000,0000,0000,,Transformation three...
+Dialogue: 0,0:19:38.51,0:19:41.32,main,Charmy,0000,0000,0000,,Lion Dancer Charmy!
+Dialogue: 0,0:19:41.32,0:19:42.47,main,Charmy,0000,0000,0000,,Transformation four...
+Dialogue: 0,0:19:42.13,0:19:45.45,sign_33615_332_Noms,Sign,0000,0000,0000,,Noms
+Dialogue: 0,0:19:42.47,0:19:44.65,main,Charmy,0000,0000,0000,,Foot Soldier Charmy!
+Dialogue: 0,0:19:44.65,0:19:45.45,main,Charmy,0000,0000,0000,,La!
+Dialogue: 0,0:19:45.45,0:19:46.60,main,Charmy,0000,0000,0000,,Transformation five...
+Dialogue: 0,0:19:46.60,0:19:48.83,main,Charmy,0000,0000,0000,,Samba Charmy!
+Dialogue: 0,0:19:49.26,0:19:50.47,main,Charmy,0000,0000,0000,,And to finish things off...
+Dialogue: 0,0:19:50.47,0:19:51.62,main,Charmy,0000,0000,0000,,Transformation six...
+Dialogue: 0,0:19:51.62,0:19:54.33,main,Charmy,0000,0000,0000,,Buddha Charmy!
+Dialogue: 0,0:19:54.33,0:19:56.98,main,Yuno,0000,0000,0000,,Right. So we have six again.
+Dialogue: 0,0:19:57.00,0:20:03.01,sign_33188_278_The_Mystery_of_t,,0000,0000,0000,,{\fad(520,1)}Charmy's\NSeven Transformations:\NSpecial
+Dialogue: 0,0:20:00.47,0:20:03.01,main,,0000,0000,0000,,Charmy's Seven Transformations: Special.
+Dialogue: 0,0:20:03.36,0:20:05.05,main,,0000,0000,0000,,Special transformation one...
+Dialogue: 0,0:20:05.36,0:20:09.27,sign_28900_402_Buzz__Buzz__Buzz,sfx,0000,0000,0000,,Buzz \NBuzz\N Buzz\N Buzz
+Dialogue: 0,0:20:07.58,0:20:09.27,main,,0000,0000,0000,,Rhinoceros Beetle Charmy!
+Dialogue: 0,0:20:09.73,0:20:11.51,main,,0000,0000,0000,,Special transformation two...
+Dialogue: 0,0:20:11.62,0:20:15.27,sign_29050_405_Boop_boop_be_laa,sfx,0000,0000,0000,,Boo boo be laa
+Dialogue: 0,0:20:12.28,0:20:13.64,main,,0000,0000,0000,,La!
+Dialogue: 0,0:20:13.64,0:20:15.27,main,,0000,0000,0000,,Sexy Charmy!
+Dialogue: 0,0:20:15.62,0:20:17.32,main,,0000,0000,0000,,Special transformation three...
+Dialogue: 0,0:20:17.83,0:20:19.90,main,,0000,0000,0000,,Masked Wrestler Charmy!
+Dialogue: 0,0:20:19.90,0:20:21.32,main,,0000,0000,0000,,One, two, three, four, la!
+Dialogue: 0,0:20:20.42,0:20:21.32,sign_29261_411_La,SFX,0000,0000,0000,,La
+Dialogue: 0,0:20:21.69,0:20:23.71,main,,0000,0000,0000,,Special transformation four...
+Dialogue: 0,0:20:23.71,0:20:26.30,main,,0000,0000,0000,,Dominatrix Charmy!
+Dialogue: 0,0:20:26.47,0:20:27.95,sign_29406_414_Laan_,sfx,0000,0000,0000,,Laan?
+Dialogue: 0,0:20:27.15,0:20:27.95,main,,0000,0000,0000,,Laan?
+Dialogue: 0,0:20:28.35,0:20:30.36,main,,0000,0000,0000,,Special transformation five...
+Dialogue: 0,0:20:30.36,0:20:32.24,main,,0000,0000,0000,,Etoile!
+Dialogue: 0,0:20:32.24,0:20:34.62,main,,0000,0000,0000,,Ballerina Charmy!
+Dialogue: 0,0:20:34.62,0:20:37.64,main,,0000,0000,0000,,The final special transformation six...
+Dialogue: 0,0:20:38.05,0:20:40.83,main,,0000,0000,0000,,La, ho, ho, ho, ho...
+Dialogue: 0,0:20:40.83,0:20:43.30,main,,0000,0000,0000,,Santa Charmy!
+Dialogue: 0,0:20:43.30,0:20:46.09,main,,0000,0000,0000,,Yup. I see we went with six \Ntransformations yet again.
+Dialogue: 0,0:20:52.40,0:20:53.78,main,,0000,0000,0000,,La?
+Dialogue: 0,0:21:04.95,0:21:05.81,main,,0000,0000,0000,,La?
+Dialogue: 0,0:21:13.38,0:21:14.32,main,,0000,0000,0000,,La!
+Dialogue: 0,0:21:23.88,0:21:26.49,main,,0000,0000,0000,,My meal-saving prince...
+Dialogue: 0,0:21:27.66,0:21:29.40,main,,0000,0000,0000,,Oh, it was just a dream.
+Dialogue: 0,0:21:29.40,0:21:33.18,main,,0000,0000,0000,,I need to find more ingredients \Nand return to the venue.
+Dialogue: 0,0:21:36.70,0:21:40.02,italics,,0000,0000,0000,,Thus ended Charmy's nightmare.
+Dialogue: 0,0:21:40.02,0:21:43.03,italics,,0000,0000,0000,,I'm not exactly sure if it was \Na nightmare, but it's over.
+Dialogue: 0,0:21:43.56,0:21:47.25,italics,,0000,0000,0000,,But Asta and the others \Nhaven't finished fighting!
+Dialogue: 0,0:21:47.25,0:21:50.87,italics,,0000,0000,0000,,Their battle is becoming \Nmore fierce and intense!
+Dialogue: 0,0:21:51.49,0:21:54.37,italics,Xerx,0000,0000,0000,,This dumbass is actually \Nputting all his trust in me.
+Dialogue: 0,0:21:55.89,0:21:56.89,italics,Xerx,0000,0000,0000,,Damn it.
+Dialogue: 0,0:21:57.71,0:21:59.88,main,Zora,0000,0000,0000,,You people...
+Dialogue: 0,0:22:00.76,0:22:06.87,main,Zora,0000,0000,0000,,are not the Magic Knights \Nthat my father dreamed of!
+Dialogue: 0,0:23:39.72,0:23:42.72,main,,0000,0000,0000,,The battle between Asta, Mimosa, \Nand the mage who calls himself Xerx
+Dialogue: 0,0:23:42.72,0:23:46.10,main,,0000,0000,0000,,and Langris, Fragil, and \NSekke reaches its climax.
+Dialogue: 0,0:23:46.10,0:23:48.56,main,,0000,0000,0000,,What will they see beyond \Nthis battle to the death?
+Dialogue: 0,0:23:48.56,0:23:52.08,main,nar,0000,0000,0000,,Next time on {\i1}Black Clover{\i0}, Page 83: \N"Burn It Into You."
+Dialogue: 0,0:23:49.44,0:23:54.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 83\N\N{\fs18} Burn It Into You
+Dialogue: 0,0:23:52.08,0:23:53.99,main,,0000,0000,0000,,Look forward to our show again next week!

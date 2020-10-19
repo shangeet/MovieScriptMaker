@@ -1,0 +1,415 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H00F7FCFD,&H000000FF,&H00070805,&H000D1728,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0080,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_10911_127_Diamond_Kingdom_,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00292920,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_16097_181_MISSING,Times New Roman,28,&H00F7FBFA,&H000000FF,&H002C3639,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0070,1
+Style: sign_12489_108_You_only_eat_bar,Times New Roman,30,&H00F7FBFA,&H000000FF,&H001D1C1B,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_23016_224_Diamond__Kingdom,Times New Roman,18,&H000D1417,&H000000FF,&H00AEC5CE,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,6,0370,0070,0000,1
+Style: sign_4783_31_Clover_Kingdom,Times New Roman,22,&H000D1417,&H000000FF,&H00AEC5CE,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,0030,0320,0100,1
+Style: sign_4783_32_Diamond_Kingdom,Times New Roman,22,&H000D1417,&H000000FF,&H00AEC5CE,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,3,0320,0030,0135,1
+Style: sign_4783_33_Witches__Forest,Times New Roman,22,&H000D1417,&H000000FF,&H00AEC5CE,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0060,0250,1
+Style: sign_12291_127_Queen_of_Witches,Times New Roman,26,&H00FFFFFF,&H000000FF,&H00292920,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_15895_171_Buy_your__Vanish,Times New Roman,26,&H00FFFFFF,&H000000FF,&H00292920,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0145,1
+Style: sign_22584_248_The_most_handsom,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00292920,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0100,1
+Style: sign_33391_352_What_s_wrong_,Trebuchet MS,30,&H00040003,&H000000FF,&H00F5F5F3,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33889_364_The_Forest_of_G,Trebuchet MS,30,&H00040003,&H000000FF,&H00F5F5F3,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0075,0030,0075,1
+Style: sign_33926_366_The_Forest_of_Go,Trebuchet MS,30,&H00040003,&H000000FF,&H00F5F5F3,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0075,0075,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:06.66,0:00:10.32,italics,nar,0000,0000,0000,,It appeared as though humanity \Nwould be destroyed by the demons.
+Dialogue: 0,0:00:14.95,0:00:19.16,italics,Nar,0000,0000,0000,,But a single mage saved them all.
+Dialogue: 0,0:00:26.39,0:00:31.46,italics,Nar,0000,0000,0000,,He was called the Wizard King,\Nand he became a legend.
+Dialogue: 0,0:00:34.92,0:00:36.48,italics,Nar,0000,0000,0000,,In order to heal Asta's arms,
+Dialogue: 0,0:00:36.48,0:00:39.37,italics,Nar,0000,0000,0000,,which were rendered useless \Nafter the battle with Vetto,
+Dialogue: 0,0:00:39.37,0:00:42.68,italics,Nar,0000,0000,0000,,Noelle and Finral went \Nto visit certain exiles...
+Dialogue: 0,0:00:43.17,0:00:44.35,main,Noelle,0000,0000,0000,,I'm coming in!
+Dialogue: 0,0:00:44.35,0:00:47.19,main,Fanzell,0000,0000,0000,,Oh, hey. I just got out of the bath—
+Dialogue: 0,0:00:49.37,0:00:52.86,main,Domina,0000,0000,0000,,You worthless husband! Would you fix \Nyour bad habit of getting naked already?!
+Dialogue: 0,0:00:52.86,0:00:57.28,sign_10911_127_Diamond_Kingdom_,Sign,0000,0000,0000,,Former Diamond Kingdom Military Commander\N{\fs30}Fanzell Kruger
+Dialogue: 0,0:00:53.49,0:00:57.28,italicstop,Nar,0000,0000,0000,,A former Diamond Kingdom \Nmilitary commander, Fanzell Kruger,
+Dialogue: 0,0:00:57.28,0:01:01.29,sign_10911_127_Diamond_Kingdom_,Sign,0000,0000,0000,,Brilliant Magic Item Artisan\N{\fs30}Dominante Code
+Dialogue: 0,0:00:57.60,0:01:01.29,italicstop,Nar,0000,0000,0000,,his fiancée and brilliant magic \Nitem artisan, Dominante Code,
+Dialogue: 0,0:01:01.29,0:01:04.83,sign_10911_127_Diamond_Kingdom_,Sign,0000,0000,0000,,Former Assassin\N{\fs30}Mariella
+Dialogue: 0,0:01:01.69,0:01:04.83,italicstop,Nar,0000,0000,0000,,and the former assassin, Mariella.
+Dialogue: 0,0:01:05.15,0:01:10.29,main,Noelle,0000,0000,0000,,Do you have any ideas on how to fix \NAsta's arms? Even if it's just a rumor?
+Dialogue: 0,0:01:11.46,0:01:13.25,main,Fanzell,0000,0000,0000,,An ancient curse, huh?
+Dialogue: 0,0:01:13.88,0:01:15.43,main,Domina,0000,0000,0000,,There's one thing I can think of.
+Dialogue: 0,0:01:16.53,0:01:18.47,main,Domina,0000,0000,0000,,My home, the Witches' Forest.
+Dialogue: 0,0:01:18.47,0:01:19.97,main,Noelle,0000,0000,0000,,The Witches' Forest?
+Dialogue: 0,0:01:20.32,0:01:22.61,main,Domina,0000,0000,0000,,With the magic of the queen there...
+Dialogue: 0,0:01:24.05,0:01:26.52,italics,Nar,0000,0000,0000,,Meanwhile, at the Witches' Forest...
+Dialogue: 0,0:01:26.91,0:01:28.15,main,Vanessa,0000,0000,0000,,Hey!
+Dialogue: 0,0:01:28.15,0:01:29.98,main,Vanessa,0000,0000,0000,,The smartest witch to ever grace this world
+Dialogue: 0,0:01:29.98,0:01:32.40,main,Vanessa,0000,0000,0000,,since the creation of the \Nland of witches is back!
+Dialogue: 0,0:01:32.40,0:01:34.82,main,Vanessa,0000,0000,0000,,I need something, so open up!
+Dialogue: 0,0:01:51.29,0:01:54.71,Ep Title,,0000,0000,0000,,{\fad(1023,1)}Infiltration
+Dialogue: 0,0:03:13.62,0:03:16.86,main,Noelle,0000,0000,0000,,Domina, what's the Witches' Forest?
+Dialogue: 0,0:03:16.86,0:03:19.47,main,Domina,0000,0000,0000,,It's an autonomous region that lies east
+Dialogue: 0,0:03:19.47,0:03:24.79,main,Domina,0000,0000,0000,,of the Clover Kingdom, near the \Nborder of the Diamond Kingdom.
+Dialogue: 0,0:03:19.47,0:03:25.24,sign_4783_31_Clover_Kingdom,Sign,0000,0000,0000,,{\fad(1,1245)}Clover Kingdom
+Dialogue: 0,0:03:19.47,0:03:25.24,sign_4783_32_Diamond_Kingdom,Sign,0000,0000,0000,,{\fad(1,1245)}Diamond Kingdom
+Dialogue: 0,0:03:19.47,0:03:25.24,sign_4783_33_Witches__Forest,Sign,0000,0000,0000,,{\fad(1,1245)}Witches' Forest
+Dialogue: 0,0:03:25.41,0:03:27.44,main,Domina,0000,0000,0000,,All of the inhabitants are women,
+Dialogue: 0,0:03:27.44,0:03:29.92,main,Domina,0000,0000,0000,,and they're essentially witches \Nwho are skilled in
+Dialogue: 0,0:03:29.92,0:03:32.61,main,Domina,0000,0000,0000,,special magic such as curses and familiars.
+Dialogue: 0,0:03:33.69,0:03:37.37,main,Finral,0000,0000,0000,,All women?! What is this magical place?
+Dialogue: 0,0:03:37.37,0:03:39.82,main,Domina,0000,0000,0000,,Don't forget, we're talking \Nabout witches here.
+Dialogue: 0,0:03:40.60,0:03:42.12,main,Domina,0000,0000,0000,,I've known of men who got too close
+Dialogue: 0,0:03:42.12,0:03:45.62,main,Domina,0000,0000,0000,,and got turned into stink bugs or softshell\N turtles, then dropped into toilets.
+Dialogue: 0,0:03:45.62,0:03:46.97,main,Finral,0000,0000,0000,,What?
+Dialogue: 0,0:03:46.97,0:03:49.33,main,Noelle,0000,0000,0000,,Wait... Speaking of witches...
+Dialogue: 0,0:03:49.33,0:03:50.20,main,Finral,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:03:50.90,0:03:53.12,main,Finral,0000,0000,0000,,Could it be that Vanessa suddenly disappeared
+Dialogue: 0,0:03:53.12,0:03:56.37,main,Finral,0000,0000,0000,,to try and get their queen to fix Asta's arms?
+Dialogue: 0,0:03:57.38,0:04:01.67,main,Domina,0000,0000,0000,,There's a rule stating that witches \Ncan only live in the Witches' Forest.
+Dialogue: 0,0:04:03.16,0:04:08.35,main,Domina,0000,0000,0000,,Which means that witches like Vanessa and \Nmyself who left our home are fugitives.
+Dialogue: 0,0:04:09.33,0:04:10.88,main,Noelle,0000,0000,0000,,Fugitives?
+Dialogue: 0,0:04:10.88,0:04:14.07,main,Domina,0000,0000,0000,,She'd need great resolve to \Neven consider going back.
+Dialogue: 0,0:04:14.79,0:04:15.77,main,Domina,0000,0000,0000,,But...
+Dialogue: 0,0:04:16.16,0:04:20.74,main,Domina,0000,0000,0000,,I fell head over heels in love with \Nmy soulmate Zell, so what can I do?
+Dialogue: 0,0:04:20.74,0:04:25.78,main,Fanzell,0000,0000,0000,,Yup. We both dove head-first into \Nthe bottomless swamp called love.
+Dialogue: 0,0:04:25.78,0:04:27.77,main,Domina,0000,0000,0000,,My sweet Zell...
+Dialogue: 0,0:04:27.77,0:04:29.67,main,Fanzell,0000,0000,0000,,My sweet Domina...
+Dialogue: 0,0:04:31.96,0:04:34.16,top,Domina,0000,0000,0000,,Darling!
+Dialogue: 0,0:04:32.44,0:04:34.16,main,Finral,0000,0000,0000,,You guys are so in love... I'm so jealous!
+Dialogue: 0,0:04:34.16,0:04:36.64,main,Domina,0000,0000,0000,,So I believed in you and followed you,
+Dialogue: 0,0:04:36.64,0:04:39.63,main,Domina,0000,0000,0000,,so how long are you gonna make me live \Nin this hovel, you worthless husband?!
+Dialogue: 0,0:04:43.80,0:04:46.17,main,mariella,0000,0000,0000,,She's continuously aiming \Nat his vital points.
+Dialogue: 0,0:04:46.17,0:04:48.01,main,Mariella,0000,0000,0000,,Maybe she should've been the assassin here.
+Dialogue: 0,0:04:48.38,0:04:50.21,main,Noelle,0000,0000,0000,,Y-Yikes...
+Dialogue: 0,0:04:50.21,0:04:52.87,main,Finral,0000,0000,0000,,Maybe I'm not so jealous after all.
+Dialogue: 0,0:04:53.85,0:04:55.60,main,Fanzell,0000,0000,0000,,Why don't we get back on track?
+Dialogue: 0,0:04:55.60,0:04:57.91,main,Noelle,0000,0000,0000,,Yeah, that would be great.
+Dialogue: 0,0:04:57.91,0:04:58.73,main,Finral,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:59.18,0:05:03.69,main,Domina,0000,0000,0000,,If Vanessa went back into \Nthat forest... I'm worried.
+Dialogue: 0,0:05:04.77,0:05:11.11,main,Domina,0000,0000,0000,,I don't know all the details, but apparently \NVanessa was very important to the queen.
+Dialogue: 0,0:05:11.69,0:05:14.80,main,Domina,0000,0000,0000,,If the rumors are true and she returns,
+Dialogue: 0,0:05:14.80,0:05:17.96,main,Domina,0000,0000,0000,,she'll never be able to \Nleave the forest again.
+Dialogue: 0,0:05:18.33,0:05:21.16,main,Domina,0000,0000,0000,,To be blunt, the queen is supreme.
+Dialogue: 0,0:05:21.16,0:05:25.05,main,Domina,0000,0000,0000,,She's so powerful that even the \NDiamond Kingdom won't try to deal with her.
+Dialogue: 0,0:05:25.49,0:05:28.47,main,Domina,0000,0000,0000,,Not to mention that it's impossible \Nto reason with her.
+Dialogue: 0,0:05:28.83,0:05:32.57,main,Domina,0000,0000,0000,,Let me warn you, if you're also planning \Nto go to the Witches' Forest...
+Dialogue: 0,0:05:33.03,0:05:35.18,main,Domina,0000,0000,0000,,If you anger the queen,
+Dialogue: 0,0:05:35.80,0:05:37.97,main,Domina,0000,0000,0000,,you won't be able to come back alive.
+Dialogue: 0,0:05:38.69,0:05:39.69,main,Noelle,0000,0000,0000,,We're going.
+Dialogue: 0,0:05:40.05,0:05:42.89,main,Noelle,0000,0000,0000,,If there's a clue to healing\N Asta's arms there...
+Dialogue: 0,0:05:42.89,0:05:43.90,main,Finral,0000,0000,0000,,Yeah.
+Dialogue: 0,0:05:44.46,0:05:47.74,main,Noelle,0000,0000,0000,,Please... Tell us how to get there.
+Dialogue: 0,0:05:50.47,0:05:51.53,main,Domina,0000,0000,0000,,I'll go, too.
+Dialogue: 0,0:05:52.93,0:05:54.33,main,Noelle,0000,0000,0000,,B-But...
+Dialogue: 0,0:05:54.33,0:05:55.93,main,Fanzell,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:05:55.93,0:05:59.30,main,Fanzell,0000,0000,0000,,I won't let anyone lay \Na finger on my beloved.
+Dialogue: 0,0:05:59.81,0:06:04.34,main,Fanzell,0000,0000,0000,,Asta helped me out a lot and \Nshowed me the way I needed to go.
+Dialogue: 0,0:06:04.34,0:06:06.10,main,Fanzell,0000,0000,0000,,I owe him bigtime.
+Dialogue: 0,0:06:06.10,0:06:09.32,main,Mariella,0000,0000,0000,,It doesn't feel great to let \Nthat debt keep growing, either.
+Dialogue: 0,0:06:09.32,0:06:10.76,main,Mariella,0000,0000,0000,,Let us repay it.
+Dialogue: 0,0:06:12.30,0:06:13.56,main,Fanzell,0000,0000,0000,,Yeah.
+Dialogue: 0,0:06:13.98,0:06:19.32,main,Fanzell,0000,0000,0000,,Besides, I can't leave my \Nlast student hanging like this.
+Dialogue: 0,0:06:23.03,0:06:26.74,main,Asta,0000,0000,0000,,For now, I'm just gonna strengthen \Nmy lower body a heck of a lot!
+Dialogue: 0,0:06:26.74,0:06:29.28,main,Asta,0000,0000,0000,,Not yet! I'm not done yet, damn it!
+Dialogue: 0,0:06:29.59,0:06:32.28,main,Asta,0000,0000,0000,,My goal is to look like this!
+Dialogue: 0,0:06:35.25,0:06:36.29,main,Asta,0000,0000,0000,,Ow!
+Dialogue: 0,0:06:36.29,0:06:39.04,main,Asta,0000,0000,0000,,I got a cramp!
+Dialogue: 0,0:06:40.63,0:06:41.54,main,Asta,0000,0000,0000,,What?!
+Dialogue: 0,0:06:41.96,0:06:43.29,main,Fanzell,0000,0000,0000,,Heya, Asta.
+Dialogue: 0,0:06:43.29,0:06:45.40,main,Asta,0000,0000,0000,,O-Old Man Zell?!
+Dialogue: 0,0:06:46.77,0:06:49.21,main,Asta,0000,0000,0000,,Wait, what the heck is going on?!
+Dialogue: 0,0:06:49.21,0:06:51.26,main,Noelle,0000,0000,0000,,We can talk about this later.
+Dialogue: 0,0:06:51.81,0:06:53.18,italics,Noelle,0000,0000,0000,,If we tell him why we're here...
+Dialogue: 0,0:06:53.61,0:06:58.02,main,Asta,0000,0000,0000,,I can't let all of you go to such \Na dangerous place for my sake!
+Dialogue: 0,0:06:58.64,0:07:02.98,italics,Noelle,0000,0000,0000,,...is what he'll probably say, \Nso we'll avoid that for now.
+Dialogue: 0,0:07:02.98,0:07:05.77,main,Noelle,0000,0000,0000,,Come on, let's go to the W's Forest.
+Dialogue: 0,0:07:05.77,0:07:09.57,main,Asta,0000,0000,0000,,What the heck is "W"?! Is it a size? \NIs it an extra-wide forest or something?!
+Dialogue: 0,0:07:11.54,0:07:13.07,main,Asta,0000,0000,0000,,I can't talk!
+Dialogue: 0,0:07:13.07,0:07:14.10,main,Fanzell,0000,0000,0000,,I shut him up.
+Dialogue: 0,0:07:14.10,0:07:15.08,main,Noelle,0000,0000,0000,,Good job, Zell.
+Dialogue: 0,0:07:15.53,0:07:17.09,main,Domina,0000,0000,0000,,Excellent work, Master.
+Dialogue: 0,0:07:17.09,0:07:21.21,main,Domina,0000,0000,0000,,The only method I could think of for \Nshutting someone up was killing them.
+Dialogue: 0,0:07:21.21,0:07:24.00,main,Fanzell,0000,0000,0000,,Um... You might want to \Nrethink your priorities.
+Dialogue: 0,0:07:24.00,0:07:25.09,main,Domina,0000,0000,0000,,Let's hurry.
+Dialogue: 0,0:07:26.00,0:07:31.62,main,Asta,0000,0000,0000,,Fhats fwoing on?!
+Dialogue: 0,0:07:36.44,0:07:39.48,main,Witch 1,0000,0000,0000,,The other day, this guy in front \Nof the forest tried to talk to me
+Dialogue: 0,0:07:39.48,0:07:42.14,main,Witch 1,0000,0000,0000,,and kept breathing really hard!\N Talk about gross!
+Dialogue: 0,0:07:42.14,0:07:45.37,main,Witch 2,0000,0000,0000,,Seriously? Like, ew.
+Dialogue: 0,0:07:45.89,0:07:49.32,main,Wtich 1,0000,0000,0000,,By the way, I thought I saw \NVanessa a little while ago...
+Dialogue: 0,0:07:49.32,0:07:51.64,main,Witch 2,0000,0000,0000,,What? No way.
+Dialogue: 0,0:07:51.64,0:07:55.63,main,Witch 2,0000,0000,0000,,I don't even want to imagine \Nwhat the queen would do if
+Dialogue: 0,0:07:55.63,0:07:58.20,main,Witch 2,0000,0000,0000,,a witch who broke the rules was found.
+Dialogue: 0,0:08:09.00,0:08:10.46,main,Witch queen,0000,0000,0000,,Imperfect.
+Dialogue: 0,0:08:12.04,0:08:15.88,main,Witch queen,0000,0000,0000,,Vanessa, ever since you left this forest,
+Dialogue: 0,0:08:15.88,0:08:20.47,main,Witch queen,0000,0000,0000,,my plans strayed far from perfection.
+Dialogue: 0,0:08:20.47,0:08:24.93,main,Witch queen,0000,0000,0000,,If you master your thread \Nmagic as I told you to,
+Dialogue: 0,0:08:24.93,0:08:28.02,main,Witch queen,0000,0000,0000,,you'll be able to control destiny itself.
+Dialogue: 0,0:08:28.02,0:08:32.10,main,Witch queen,0000,0000,0000,,And yet you let that man tempt you away...
+Dialogue: 0,0:08:32.61,0:08:38.62,sign_12291_127_Queen_of_Witches,Sign,0000,0000,0000,,{\fad(1028,1)}Queen of Witches
+Dialogue: 0,0:08:33.22,0:08:38.62,top,Witch queen,0000,0000,0000,,A man... A mere human, at that.
+Dialogue: 0,0:08:38.62,0:08:43.87,main,Witch queen,0000,0000,0000,,We are perfect witches, \Nand yet you let him use you...
+Dialogue: 0,0:08:44.32,0:08:47.14,main,Witch queen,0000,0000,0000,,Aren't you ashamed?!
+Dialogue: 0,0:08:55.37,0:08:56.26,main,Witch queen,0000,0000,0000,,Oh, dear...
+Dialogue: 0,0:08:56.73,0:08:58.50,main,Witch queen,0000,0000,0000,,What an imperfect room.
+Dialogue: 0,0:08:59.64,0:09:02.23,main,Vanessa,0000,0000,0000,,You're the one who's imperfect.
+Dialogue: 0,0:09:03.22,0:09:07.69,main,Vanessa,0000,0000,0000,,Listen up. I'll only come \Nback on one condition.
+Dialogue: 0,0:09:08.21,0:09:13.28,main,Vanessa,0000,0000,0000,,Teach me ancient dispelling magic!
+Dialogue: 0,0:09:16.44,0:09:22.28,main,Witch queen,0000,0000,0000,,A little girl who doesn't understand \Nher place needs to be disciplined.
+Dialogue: 0,0:09:25.30,0:09:26.75,main,Domina,0000,0000,0000,,That's the Witches' Forest.
+Dialogue: 0,0:09:27.17,0:09:28.90,main,Asta,0000,0000,0000,,Witches' Forest?!
+Dialogue: 0,0:09:28.90,0:09:31.09,main,Asta,0000,0000,0000,,What the heck is that?! Where are we?
+Dialogue: 0,0:09:31.09,0:09:34.01,main,Domina,0000,0000,0000,,Shh! We need to be extra \Ncareful from here on out!
+Dialogue: 0,0:09:34.46,0:09:36.28,main,Asta,0000,0000,0000,,What? What's going on?
+Dialogue: 0,0:09:36.28,0:09:40.76,main,Asta,0000,0000,0000,,We seem to be in "Let's begin\N the operation!" mode now...
+Dialogue: 0,0:09:40.76,0:09:42.00,main,Noelle,0000,0000,0000,,I'll explain later.
+Dialogue: 0,0:09:42.00,0:09:43.63,main,Asta,0000,0000,0000,,When the heck is later?!
+Dialogue: 0,0:09:43.63,0:09:46.27,main,Asta,0000,0000,0000,,We're already here!\NYou're dragging this out too much!
+Dialogue: 0,0:09:46.27,0:09:48.20,main,Noelle,0000,0000,0000,,Just shut up for a while.
+Dialogue: 0,0:09:48.20,0:09:49.02,main,Noelle,0000,0000,0000,,Otherwise...
+Dialogue: 0,0:09:49.38,0:09:50.93,main,All,0000,0000,0000,,...we'll shut you up again.
+Dialogue: 0,0:09:50.93,0:09:52.57,main,Asta,0000,0000,0000,,Really?!
+Dialogue: 0,0:09:53.18,0:09:54.93,main,Noelle,0000,0000,0000,,Domina, please continue.
+Dialogue: 0,0:09:55.53,0:10:00.36,main,Domina,0000,0000,0000,,The queen runs her overwhelming \Nmagic throughout the forest,
+Dialogue: 0,0:10:00.36,0:10:04.79,main,Domina,0000,0000,0000,,so if we give off even a little magic, \Nthey'll know we're here immediately.
+Dialogue: 0,0:10:05.22,0:10:08.69,main,Finral,0000,0000,0000,,Which means we won't be able \Nto use my spatial magic.
+Dialogue: 0,0:10:09.19,0:10:10.52,main,Domina,0000,0000,0000,,You don't even have to use it.
+Dialogue: 0,0:10:10.52,0:10:15.34,main,Domina,0000,0000,0000,,If anyone with magic so much as \Nenters here, they'll immediately know.
+Dialogue: 0,0:10:15.69,0:10:18.55,main,Noelle,0000,0000,0000,,And what happens if they find us?
+Dialogue: 0,0:10:18.55,0:10:20.10,main,Domina,0000,0000,0000,,Have you ever seen a honeycomb?
+Dialogue: 0,0:10:20.55,0:10:23.71,main,Asta,0000,0000,0000,,Uh, I don't have any magic, \Nso I should be fine.
+Dialogue: 0,0:10:23.71,0:10:24.72,main,Noelle,0000,0000,0000,,Shh!
+Dialogue: 0,0:10:25.25,0:10:29.05,main,Finral,0000,0000,0000,,But then how are we supposed to get inside?
+Dialogue: 0,0:10:30.57,0:10:31.96,main,Domina,0000,0000,0000,,And that's where
+Dialogue: 0,0:10:31.96,0:10:34.28,main,Domina,0000,0000,0000,,these cloaks I made come in!
+Dialogue: 0,0:10:34.28,0:10:36.41,main,Domina,0000,0000,0000,,I call them Vanishawls!
+Dialogue: 0,0:10:37.13,0:10:39.64,main,Domina,0000,0000,0000,,Put one of these babies on, and ta-da!
+Dialogue: 0,0:10:39.64,0:10:42.91,main,Domina,0000,0000,0000,,Your magic, your presence, and \Nyour body will all disappear!
+Dialogue: 0,0:10:42.91,0:10:46.66,main,Domina,0000,0000,0000,,Wow, that's amazing! But it \Nmust be expensive, right?
+Dialogue: 0,0:10:46.66,0:10:50.52,main,Domina,0000,0000,0000,,Oh, not at all! If you order right now, \Nyou can get one for just 30,000 yuls!
+Dialogue: 0,0:10:50.52,0:10:53.17,main,Domina,0000,0000,0000,,Wow, that's so cheap! Way too cheap!
+Dialogue: 0,0:10:53.17,0:10:57.64,main,Domina,0000,0000,0000,,And today, we have a one-time special offer!\N I'll throw in another one for free!
+Dialogue: 0,0:11:00.36,0:11:07.64,top,Domina,0000,0000,0000,,The best of the best! Get your magic \Nitems from Domina's Magic Items!
+Dialogue: 0,0:11:02.95,0:11:06.93,sign_15895_171_Buy_your__Vanish,Sign,0000,0000,0000,,Buy your "Vanishawl" now for 30,000 yuls\Nand get another one absolutely free!
+Dialogue: 0,0:11:08.68,0:11:10.13,main,Domina,0000,0000,0000,,Yay!
+Dialogue: 0,0:11:11.80,0:11:13.38,main,Noelle,0000,0000,0000,,Is this enough?
+Dialogue: 0,0:11:13.38,0:11:14.95,main,Domina,0000,0000,0000,,Whoa, that's way too much!
+Dialogue: 0,0:11:14.95,0:11:18.19,main,Domina,0000,0000,0000,,Hey, I was kidding! Of course, \Nthey're free of charge.
+Dialogue: 0,0:11:18.19,0:11:22.15,main,Mariella,0000,0000,0000,,That's also a lie. You looked \Nrather hopeful for a moment.
+Dialogue: 0,0:11:22.15,0:11:25.38,main,Fanzell,0000,0000,0000,,I'm sure she was startled by \Nhow much Noelle offered her.
+Dialogue: 0,0:11:25.96,0:11:28.49,main,Domina,0000,0000,0000,,Oh, hey! There's another way in over there!
+Dialogue: 0,0:11:28.49,0:11:29.85,main,Domina,0000,0000,0000,,Let's go in from there!
+Dialogue: 0,0:11:29.85,0:11:33.24,main,Finral,0000,0000,0000,,Woohoo! Onward to witchy paradise!
+Dialogue: 0,0:11:33.24,0:11:34.86,main,Asta,0000,0000,0000,,Seriously, what are we doing?!
+Dialogue: 0,0:11:34.86,0:11:36.52,main,Noelle,0000,0000,0000,,Just shut up, Asta!
+Dialogue: 0,0:11:36.52,0:11:39.40,main,Asta,0000,0000,0000,,What?!
+Dialogue: 0,0:11:46.95,0:11:50.18,main,Fana,0000,0000,0000,,I hate them. I hate all humans.
+Dialogue: 0,0:11:51.14,0:11:53.06,main,Fana,0000,0000,0000,,They hurt us
+Dialogue: 0,0:11:53.52,0:11:55.28,main,Fana,0000,0000,0000,,and steal everything from us.
+Dialogue: 0,0:11:56.04,0:11:57.86,main,Shidan,0000,0000,0000,,Lady Fana.
+Dialogue: 0,0:11:58.25,0:12:02.53,main,Shidan,0000,0000,0000,,It appears that the Black Bulls we were \Nmonitoring are up to something strange.
+Dialogue: 0,0:12:05.03,0:12:06.87,main,Fana,0000,0000,0000,,I will burn them all.
+Dialogue: 0,0:12:06.87,0:12:11.29,main,Fana,0000,0000,0000,,They hurt Licht and took Vetto's life.
+Dialogue: 0,0:12:13.85,0:12:16.92,main,Fana,0000,0000,0000,,I will... make them pay!
+Dialogue: 0,0:12:31.99,0:12:34.33,main,Witch 3,0000,0000,0000,,And then, when I went to the city,
+Dialogue: 0,0:12:34.33,0:12:39.69,main,Witch 3,0000,0000,0000,,this guy who kept breathing hard \Ngave me a bouquet of a hundred roses!
+Dialogue: 0,0:12:40.00,0:12:41.59,main,Witch 4,0000,0000,0000,,Ew, gross!
+Dialogue: 0,0:12:43.40,0:12:45.21,main,Noelle,0000,0000,0000,,Th-This is really cramped.
+Dialogue: 0,0:12:45.21,0:12:47.10,main,Mariella,0000,0000,0000,,I could kill someone right now.
+Dialogue: 0,0:12:47.10,0:12:48.57,main,Domina,0000,0000,0000,,I'm really sorry.
+Dialogue: 0,0:12:48.57,0:12:51.73,main,Domina,0000,0000,0000,,This Vanishawl was originally \Nmade to fit just one person.
+Dialogue: 0,0:12:51.73,0:12:55.67,main,Domina,0000,0000,0000,,But this is better than being caught \Nand becoming a human honeycomb, right?
+Dialogue: 0,0:12:56.28,0:12:59.24,main,Noelle,0000,0000,0000,,I guess we'll just have to deal \Nuntil we get to the queen.
+Dialogue: 0,0:12:59.24,0:13:02.09,main,Mariella,0000,0000,0000,,I mean, we're better off than them, at least.
+Dialogue: 0,0:13:03.27,0:13:05.07,main,Fanzell,0000,0000,0000,,Sorry about the sausage fest.
+Dialogue: 0,0:13:05.07,0:13:07.81,main,Fanzell,0000,0000,0000,,Apparently she only made \Ntwo of these cloaks.
+Dialogue: 0,0:13:08.81,0:13:13.45,main,Finral,0000,0000,0000,,And to think there are some cute little \Nwitchies right over there, giggling away...
+Dialogue: 0,0:13:13.45,0:13:16.85,main,Asta,0000,0000,0000,,Could you please tell me \Nwhat we're doing here now?
+Dialogue: 0,0:13:17.29,0:13:21.20,main,Witch 5,0000,0000,0000,,Hey, couldn't you sell this \Nlove potion a little cheaper?
+Dialogue: 0,0:13:21.20,0:13:22.82,main,Lady,0000,0000,0000,,I can't go any lower.
+Dialogue: 0,0:13:23.26,0:13:25.32,main,Finral,0000,0000,0000,,L-Love potion?!
+Dialogue: 0,0:13:26.89,0:13:28.89,main,Witch 5,0000,0000,0000,,Did you hear a man's voice just now?
+Dialogue: 0,0:13:28.89,0:13:32.62,main,Lady,0000,0000,0000,,You must be hearing things. There's no \Nway a man could get into this forest.
+Dialogue: 0,0:13:32.62,0:13:33.94,main,Witch 5,0000,0000,0000,,You're right.
+Dialogue: 0,0:13:33.94,0:13:36.89,main,Asta,0000,0000,0000,,Man, I panicked...
+Dialogue: 0,0:13:36.89,0:13:41.27,main,Finral,0000,0000,0000,,Sorry. I only ever imagined love \Npotions in my wildest dreams.
+Dialogue: 0,0:13:42.55,0:13:44.17,main,Golem,0000,0000,0000,,Gole!
+Dialogue: 0,0:13:44.17,0:13:47.84,main,Noelle,0000,0000,0000,,Wh-What the heck is that? It's sorta cute.
+Dialogue: 0,0:13:48.45,0:13:50.87,main,Domina,0000,0000,0000,,That's a security golem.
+Dialogue: 0,0:13:50.87,0:13:54.20,main,Domina,0000,0000,0000,,They're small, but if they find intruders,\N they become a pain.
+Dialogue: 0,0:13:54.20,0:13:56.57,main,Domina,0000,0000,0000,,They'll call their friends and \Nstart firing magic bullets.
+Dialogue: 0,0:13:57.00,0:13:59.67,main,Noelle,0000,0000,0000,,Then what you said earlier \Nabout honeycombs...
+Dialogue: 0,0:13:59.67,0:14:02.47,main,Domina,0000,0000,0000,,Yes. If they spot us, we're finished.
+Dialogue: 0,0:14:02.47,0:14:04.82,main,Domina,0000,0000,0000,,They'll fill us with \Nholes until we drop dead.
+Dialogue: 0,0:14:04.82,0:14:09.16,main,Mariella,0000,0000,0000,,They get under your guard with their cute appearance, then they ruthlessly attack.
+Dialogue: 0,0:14:09.16,0:14:10.95,main,Mariella,0000,0000,0000,,They're perfect assassins.
+Dialogue: 0,0:14:12.23,0:14:13.36,main,Noelle,0000,0000,0000,,It's heading toward us.
+Dialogue: 0,0:14:13.36,0:14:16.75,main,Domina,0000,0000,0000,,Don't worry. They won't find us \Nas long as we're under this cloak.
+Dialogue: 0,0:14:25.08,0:14:26.67,main,Guys,0000,0000,0000,,Okay, now it's our turn.
+Dialogue: 0,0:14:30.13,0:14:32.55,main,Fanzell,0000,0000,0000,,Oh dear, oh dear, oh dear, oh dear...
+Dialogue: 0,0:14:35.69,0:14:37.06,main,All,0000,0000,0000,,How?!
+Dialogue: 0,0:14:39.22,0:14:40.15,main,Golem,0000,0000,0000,,Gole?
+Dialogue: 0,0:14:41.83,0:14:45.07,main,Asta,0000,0000,0000,,Heya... Nice place you got here.
+Dialogue: 0,0:14:45.45,0:14:47.90,main,Golem,0000,0000,0000,,Gole...
+Dialogue: 0,0:15:02.75,0:15:06.55,main,Domina,0000,0000,0000,,You worthless husband!
+Dialogue: 0,0:15:04.97,0:15:08.21,main,Finral,0000,0000,0000,,Gah! A naked old man is clinging to me!
+Dialogue: 0,0:15:08.21,0:15:10.55,main,Asta,0000,0000,0000,,What the heck are you doing, Old Man Zell?!
+Dialogue: 0,0:15:10.55,0:15:13.09,main,Fanzell,0000,0000,0000,,I promise this isn't on purpose. I'm sorry!
+Dialogue: 0,0:15:13.54,0:15:17.31,main,Mariella,0000,0000,0000,,He can't help it. That's the \Nkind of thing Master is into.
+Dialogue: 0,0:15:17.31,0:15:19.53,main,Mariella,0000,0000,0000,,You couldn't hold back, could you?
+Dialogue: 0,0:15:19.53,0:15:20.79,main,Fanzell,0000,0000,0000,,No, I just...
+Dialogue: 0,0:15:21.78,0:15:23.31,main,Fanzell,0000,0000,0000,,A cold glare from my own student...
+Dialogue: 0,0:15:23.62,0:15:24.42,main,Witch 1,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:24.42,0:15:25.90,main,Witch 2,0000,0000,0000,,What's going on?
+Dialogue: 0,0:15:26.21,0:15:27.15,main,Witch 3,0000,0000,0000,,Men?!
+Dialogue: 0,0:15:27.50,0:15:29.50,main,Witch 4,0000,0000,0000,,Intruders!
+Dialogue: 0,0:15:29.50,0:15:33.01,main,Domina,0000,0000,0000,,Jeez! We'll just have to blast our way \Nthrough to the queen's manor!
+Dialogue: 0,0:15:33.01,0:15:36.33,main,Finral,0000,0000,0000,,Right! Might as well use my spatial magic, \Nthen! We'll take the shortest route!
+Dialogue: 0,0:15:41.92,0:15:43.42,sign_22584_248_The_most_handsom,Sign,0000,0000,0000,,{\fad(521,1)}The most handsome member of the Black Bulls: Finral Roulacase\NMy contact info is written on the back!!
+Dialogue: 0,0:15:42.47,0:15:43.42,top,Finral,0000,0000,0000,,Hello, ladies!
+Dialogue: 0,0:15:43.80,0:15:45.78,main,Asta,0000,0000,0000,,Why are we stopping?!
+Dialogue: 0,0:15:46.76,0:15:48.31,main,Witch,0000,0000,0000,,A naked old man!
+Dialogue: 0,0:15:50.42,0:15:52.43,sign_22584_248_The_most_handsom,Sign,0000,0000,0000,,{\fad(521,1)}The most handsome member of the Black Bulls: Finral Roulacase\NMy contact info is written on the back!!
+Dialogue: 0,0:15:50.98,0:15:52.43,top,Finral,0000,0000,0000,,Why don't we have some tea later?
+Dialogue: 0,0:15:52.43,0:15:53.85,main,Asta,0000,0000,0000,,Seriously, Finral!
+Dialogue: 0,0:15:54.72,0:15:56.82,main,Witch,0000,0000,0000,,You freak!
+Dialogue: 0,0:15:57.39,0:15:59.06,sign_22584_248_The_most_handsom,Sign,0000,0000,0000,,{\fad(521,1)}The most handsome member of the Black Bulls: Finral Roulacase\NMy contact info is written on the back!!
+Dialogue: 0,0:15:57.39,0:15:59.06,top,Finral,0000,0000,0000,,I'll be waiting for your reply.
+Dialogue: 0,0:15:59.06,0:16:00.95,main,Asta,0000,0000,0000,,Are we going to the place or what?!
+Dialogue: 0,0:16:01.78,0:16:03.79,main,Witch,0000,0000,0000,,Hey, you pervert...
+Dialogue: 0,0:16:03.79,0:16:05.73,main,Witch,0000,0000,0000,,What are you staring at?!
+Dialogue: 0,0:16:10.96,0:16:13.24,main,Asta,0000,0000,0000,,This isn't the shortest route at all!
+Dialogue: 0,0:16:13.66,0:16:15.99,main,Finral,0000,0000,0000,,None of them are giving me the time of day.
+Dialogue: 0,0:16:16.42,0:16:19.65,main,Fanzell,0000,0000,0000,,I still haven't recovered from the shock.
+Dialogue: 0,0:16:20.77,0:16:22.50,main,Asta,0000,0000,0000,,Crap! We're surrounded!
+Dialogue: 0,0:16:33.25,0:16:35.98,main,Domina,0000,0000,0000,,Special Magic Item: Spew-Smoke.
+Dialogue: 0,0:16:35.98,0:16:37.76,main,Mariella,0000,0000,0000,,The name tells you exactly what it does, huh?
+Dialogue: 0,0:16:38.45,0:16:41.29,main,Domina,0000,0000,0000,,This smoke has traces of magic in it.
+Dialogue: 0,0:16:41.29,0:16:43.98,main,Domina,0000,0000,0000,,It'll work as a smokescreen \Nfor just a short while.
+Dialogue: 0,0:16:43.98,0:16:46.98,main,Noelle,0000,0000,0000,,This is our chance to head \Nstraight to the queen's manor!
+Dialogue: 0,0:16:46.98,0:16:48.67,main,Guys,0000,0000,0000,,Yeah!
+Dialogue: 0,0:16:50.95,0:16:51.86,main,Domina,0000,0000,0000,,There it is!
+Dialogue: 0,0:16:52.33,0:16:53.90,main,Asta,0000,0000,0000,,What the heck? Is it under construction?
+Dialogue: 0,0:16:53.90,0:16:56.26,main,Domina,0000,0000,0000,,Perfect! Let's dive right in!
+Dialogue: 0,0:17:06.42,0:17:08.93,main,Fanzell,0000,0000,0000,,I scraped my back because \NI wasn't wearing a shirt.
+Dialogue: 0,0:17:08.93,0:17:11.30,main,Mariella,0000,0000,0000,,That's your own fault for \Nbeing into that sort of thing.
+Dialogue: 0,0:17:11.30,0:17:14.88,main,Fanzell,0000,0000,0000,,You've got it all wrong! This was \Nseriously just a coincidence!
+Dialogue: 0,0:17:14.88,0:17:16.66,main,Asta,0000,0000,0000,,Ow...
+Dialogue: 0,0:17:18.72,0:17:20.26,main,Witch queen,0000,0000,0000,,Imperfect...
+Dialogue: 0,0:17:21.81,0:17:23.36,main,Asta,0000,0000,0000,,Miz Vanessa!
+Dialogue: 0,0:17:23.36,0:17:24.18,main,Both,0000,0000,0000,,Vanessa!
+Dialogue: 0,0:17:24.18,0:17:26.54,main,Asta,0000,0000,0000,,Hey! What the hell are you doing?!
+Dialogue: 0,0:17:26.54,0:17:30.19,main,Asta,0000,0000,0000,,I don't know who you think you are,\N but get your foot off of her right now!
+Dialogue: 0,0:17:31.08,0:17:34.69,main,Witch queen,0000,0000,0000,,How dare an intruder like yourself \Naddress me in such a way?
+Dialogue: 0,0:17:35.57,0:17:38.63,main,Witch queen,0000,0000,0000,,I am the queen of this forest,
+Dialogue: 0,0:17:38.63,0:17:41.37,main,Witch queen,0000,0000,0000,,the mother of all witches.
+Dialogue: 0,0:17:41.37,0:17:43.91,main,Witch queen,0000,0000,0000,,That girl over there,
+Dialogue: 0,0:17:44.42,0:17:48.93,main,Witch queen,0000,0000,0000,,as well as Vanessa, are \Nmy descendants. My children.
+Dialogue: 0,0:17:48.93,0:17:53.90,main,Witch queen,0000,0000,0000,,A child who doesn't listen to her mother \Nneeds a little discipline, don't you think?
+Dialogue: 0,0:17:53.90,0:17:54.92,main,Asta,0000,0000,0000,,What?!
+Dialogue: 0,0:17:55.35,0:17:57.66,main,Witch queen,0000,0000,0000,,This is a family matter.
+Dialogue: 0,0:17:57.66,0:18:00.12,main,Witch queen,0000,0000,0000,,Outsiders should stay out of it.
+Dialogue: 0,0:18:00.12,0:18:04.20,main,Witch queen,0000,0000,0000,,I am free to do whatever \NI want to my daughters.
+Dialogue: 0,0:18:05.73,0:18:08.39,main,Asta,0000,0000,0000,,You may be the Queen of Witches or whatever...
+Dialogue: 0,0:18:09.09,0:18:11.15,main,Asta,0000,0000,0000,,But that's got nothing to do with what I said.
+Dialogue: 0,0:18:11.15,0:18:14.78,main,Asta,0000,0000,0000,,I told you to get your foot off of her!
+Dialogue: 0,0:18:17.16,0:18:18.41,main,Witch queen,0000,0000,0000,,Imperfect.
+Dialogue: 0,0:18:21.62,0:18:22.78,main,Noelle,0000,0000,0000,,Asta!
+Dialogue: 0,0:18:24.55,0:18:28.31,main,Witch queen,0000,0000,0000,,What is this? You have no magic?
+Dialogue: 0,0:18:29.80,0:18:33.55,main,Witch queen,0000,0000,0000,,What a vile, imperfect little brat.
+Dialogue: 0,0:18:33.94,0:18:37.01,main,Asta,0000,0000,0000,,That's right... I've got no magic.
+Dialogue: 0,0:18:37.54,0:18:41.68,main,Asta,0000,0000,0000,,And right now, I can't \Neven fight with my swords.
+Dialogue: 0,0:18:41.68,0:18:46.00,main,Asta,0000,0000,0000,,But I'm still better than anyone \Nwho'd step on their own family!
+Dialogue: 0,0:18:46.00,0:18:49.33,main,Witch queen,0000,0000,0000,,You must be the brat \NVanessa was talking about.
+Dialogue: 0,0:18:49.33,0:18:53.48,main,Witch queen,0000,0000,0000,,Why does she want to fix trash like you?
+Dialogue: 0,0:18:53.88,0:18:56.44,main,Witch queen,0000,0000,0000,,Even sacrificing herself...
+Dialogue: 0,0:18:57.24,0:18:59.05,main,Witch queen,0000,0000,0000,,This foolish little thing
+Dialogue: 0,0:18:59.05,0:19:04.02,main,Witch queen,0000,0000,0000,,told me she'd become my slave and \Nlive out the rest of her days here
+Dialogue: 0,0:19:04.02,0:19:07.30,main,Witch queen,0000,0000,0000,,in exchange for healing your arms.
+Dialogue: 0,0:19:08.34,0:19:09.75,main,Asta,0000,0000,0000,,Miz Vanessa...
+Dialogue: 0,0:19:10.28,0:19:12.34,main,Asta,0000,0000,0000,,Wait... Is that why they're here, too?
+Dialogue: 0,0:19:13.33,0:19:16.69,main,Fanzell,0000,0000,0000,,You told me that you'd become \Nthe Wizard King someday, didn't you?
+Dialogue: 0,0:19:17.33,0:19:19.67,main,Fanzell,0000,0000,0000,,I want you to make that dream come true.
+Dialogue: 0,0:19:20.08,0:19:21.09,main,Domina,0000,0000,0000,,Me, too.
+Dialogue: 0,0:19:21.42,0:19:23.92,main,Mariella,0000,0000,0000,,"When people care for you,
+Dialogue: 0,0:19:23.92,0:19:27.35,main,Mariella,0000,0000,0000,,none of your problems are \Njust your own anymore."
+Dialogue: 0,0:19:27.97,0:19:29.69,main,Mariella,0000,0000,0000,,Right, Noelle?
+Dialogue: 0,0:19:30.24,0:19:31.44,main,,0000,0000,0000,,Yes.
+Dialogue: 0,0:19:32.21,0:19:33.19,main,Asta,0000,0000,0000,,Guys...
+Dialogue: 0,0:19:34.23,0:19:35.73,main,Mariella,0000,0000,0000,,And with that...
+Dialogue: 0,0:19:41.53,0:19:45.66,main,Marillea,0000,0000,0000,,Impressive. Especially since \NI hid any intent to harm you.
+Dialogue: 0,0:19:47.64,0:19:48.66,main,Mariella,0000,0000,0000,,But...
+Dialogue: 0,0:19:56.09,0:19:57.35,main,Asta,0000,0000,0000,,Old man!
+Dialogue: 0,0:19:59.01,0:20:03.68,main,Mariella,0000,0000,0000,,Yes. I was able to distract you \Nwhile the old man saved Asta.
+Dialogue: 0,0:20:04.07,0:20:06.85,main,Fanzell,0000,0000,0000,,Yup. This old man worked hard.
+Dialogue: 0,0:20:07.30,0:20:09.52,main,Fanzell,0000,0000,0000,,So can we stop calling me that now?
+Dialogue: 0,0:20:11.78,0:20:12.85,main,Fanzell,0000,0000,0000,,Now, then...
+Dialogue: 0,0:20:12.85,0:20:17.65,main,Fanzell,0000,0000,0000,,Wind Creation Magic: \NEmperor of Slashing Winds.
+Dialogue: 0,0:20:20.65,0:20:22.95,main,Noelle,0000,0000,0000,,Now get your foot off of her!
+Dialogue: 0,0:20:22.95,0:20:26.41,main,Asta,0000,0000,0000,,Miz Vanessa is one of us!
+Dialogue: 0,0:20:27.25,0:20:28.37,main,Witch queen,0000,0000,0000,,You fools.
+Dialogue: 0,0:20:29.05,0:20:33.25,main,Witch queen,0000,0000,0000,,What could imperfect creatures \Nsuch as yourselves possibly do?
+Dialogue: 0,0:20:33.25,0:20:34.50,main,Witch queen,0000,0000,0000,,This little girl,
+Dialogue: 0,0:20:34.50,0:20:39.17,main,Witch queen,0000,0000,0000,,as well as all of you, \Ncannot escape your fates.
+Dialogue: 0,0:20:39.53,0:20:44.84,main,Witch queen,0000,0000,0000,,All that waits for you is the end \Nseen in my divination here.
+Dialogue: 0,0:20:51.59,0:20:54.19,main,Witch queen,0000,0000,0000,,They were much faster than I expected.
+Dialogue: 0,0:20:54.19,0:20:57.23,main,Witch queen,0000,0000,0000,,I knew they would be coming,
+Dialogue: 0,0:20:57.69,0:21:01.15,main,Witch queen,0000,0000,0000,,but to think they'd choose a \Ntime like this to show up.
+Dialogue: 0,0:21:06.52,0:21:08.47,main,Witch queen,0000,0000,0000,,The Eye of the Midnight Sun...
+Dialogue: 0,0:22:40.88,0:22:45.34,sign_33083_276_Petit_Clover_,Sign,0000,0000,0000,,{\fad(1,520)}Pe{\c&H3BC020&}t{\c&HE2AF0F&}i{\c&H3BC020&}t C{\c&HE2AF0F&}l{\c&H3BC020&}o{\c&H0E42D4&}ve{\c&H3BC020&}r
+Dialogue: 0,0:22:41.59,0:22:44.31,main,All,0000,0000,0000,,Petit Clover!
+Dialogue: 0,0:22:44.84,0:22:48.84,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}The Forest of G
+Dialogue: 0,0:22:45.91,0:22:47.62,main,Sekke,0000,0000,0000,,The Forest of G.
+Dialogue: 0,0:22:49.27,0:22:53.10,main,Sekke,0000,0000,0000,,Bah-ha! I bought an amazing magic item \Nthrough the Magic Shopping Network.
+Dialogue: 0,0:22:53.10,0:22:54.10,main,Sekke,0000,0000,0000,,Bah-ha!
+Dialogue: 0,0:22:54.10,0:22:57.65,main,Sekke,0000,0000,0000,,This is an amazing item that makes \Nyou and your magic disappear!
+Dialogue: 0,0:22:57.65,0:23:00.90,main,Sekke,0000,0000,0000,,It cost me five million yuls, \Nbut if I can finally enter the garden
+Dialogue: 0,0:23:00.90,0:23:04.39,main,Sekke,0000,0000,0000,,of beautiful women known as the \NWitches' Forest, it's a bah-hargain.
+Dialogue: 0,0:23:04.39,0:23:06.90,main,Sekke,0000,0000,0000,,It'll only take twelve years to pay it off!
+Dialogue: 0,0:23:07.43,0:23:09.37,main,Sekke,0000,0000,0000,,But this is bah-hazzare...
+Dialogue: 0,0:23:09.37,0:23:12.68,main,Sekke,0000,0000,0000,,The Witches' Forest should be around here.
+Dialogue: 0,0:23:12.68,0:23:13.62,sign_33391_352_What_s_wrong_,Sign/Gordon,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:23:13.62,0:23:14.77,main,Sekke,0000,0000,0000,,Bah-ha?!
+Dialogue: 0,0:23:15.19,0:23:16.04,main,Sekke,0000,0000,0000,,What was that?!
+Dialogue: 0,0:23:16.31,0:23:17.79,sign_33391_352_What_s_wrong_,Sign/Gordon,0000,0000,0000,,Let's be friends.
+Dialogue: 0,0:23:17.79,0:23:19.13,main,Sekke,0000,0000,0000,,Ha-bah?!
+Dialogue: 0,0:23:19.13,0:23:21.54,main,Sekke,0000,0000,0000,,Who's there?! You're giving me the creeps!
+Dialogue: 0,0:23:21.81,0:23:22.81,sign_33391_352_What_s_wrong_,Gordon/sign,0000,0000,0000,,I'm Gordon.
+Dialogue: 0,0:23:22.81,0:23:23.81,sign_33391_352_What_s_wrong_,Gordon/sign,0000,0000,0000,,I'm also Gordon.
+Dialogue: 0,0:23:24.06,0:23:25.56,sign_33391_352_What_s_wrong_,Gordon/sign,0000,0000,0000,,Heya, I'm Gordon.
+Dialogue: 0,0:23:25.82,0:23:27.05,sign_33391_352_What_s_wrong_,Gordon/sign,0000,0000,0000,,We're all Gordon.
+Dialogue: 0,0:23:27.65,0:23:29.03,sign_33391_352_What_s_wrong_,Gordon/sign,0000,0000,0000,,Call us "Donnie."
+Dialogue: 0,0:23:31.74,0:23:33.43,main,Sekke,0000,0000,0000,,Bah-ha!
+Dialogue: 0,0:23:33.43,0:23:34.99,sign_33889_364_The_Forest_of_G,Sign,0000,0000,0000,,The Forest of G
+Dialogue: 0,0:23:34.06,0:23:37.54,top,Sekke,0000,0000,0000,,This is the Forest of Gordons!
+Dialogue: 0,0:23:34.99,0:23:38.20,sign_33926_366_The_Forest_of_Go,Sign,0000,0000,0000,,{\fad(1,1952)}The Forest of Gordons
+Dialogue: 0,0:23:39.53,0:23:43.40,main,Mariella,0000,0000,0000,,The Eye of the Midnight Sun is \Nattacking the Witches' Forest.
+Dialogue: 0,0:23:43.40,0:23:45.73,main,Mariella,0000,0000,0000,,What? Apparently another force \Nis also trying to attack.
+Dialogue: 0,0:23:46.49,0:23:50.16,main,mariella,0000,0000,0000,,{\i1}Black Clover{\i0}, Page 58:\N "The Battlefield Decision."
+Dialogue: 0,0:23:47.40,0:23:54.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 58\N\N{\fs18} The Battlefield Decision
+Dialogue: 0,0:23:50.16,0:23:53.74,main,Mariella,0000,0000,0000,,Yes. Stripping instantly \Nis my master's magic.

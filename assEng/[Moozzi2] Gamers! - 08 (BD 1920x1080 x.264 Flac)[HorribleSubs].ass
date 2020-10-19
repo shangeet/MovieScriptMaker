@@ -1,0 +1,534 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Signs,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Main Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Black Signs,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Game Club,Open Sans Semibold,33,&H004F4F9F,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: sign_4_2_Hekiyou_Private_,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,251,237,40,1
+Style: sign_31_2_Hekiyou_Private_,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,27,27,27,1
+Style: sign_3977_26_I_m_the__Student,Open Sans Semibold,27,&H00000000,&H000000FF,&H00B4B1D1,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,453,27,160,1
+Style: sign_4179_27_You_re_the_prota,Open Sans Semibold,27,&H00000000,&H000000FF,&H00E0E2FD,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,528,0,69,1
+Style: sign_6410_41_Golden__Memories,Open Sans Semibold,27,&H00BDEAFF,&H000000FF,&H003A79D7,&H00FFFFFF,1,0,0,0,100,100,0,21,1,2,1,8,504,197,375,1
+Style: sign_6443_43_Golden__Memories,Open Sans Semibold,42,&H00BDEAFF,&H000000FF,&H003A79D7,&H00FFFFFF,1,0,0,0,100,100,0,0,1,2,3,8,27,435,189,1
+Style: sign_7027_48_Rainbow_Court,Open Sans Semibold,30,&H008C45F8,&H000000FF,&H00000000,&H00FFFFFF,1,0,0,0,100,100,0,-8,1,2,2,8,365,248,264,1
+Style: sign_9949_97_Rainbow_Court,Open Sans Semibold,30,&H008C45F8,&H000000FF,&H00000000,&H00FFFFFF,1,0,0,0,100,100,0,-4,1,2,2,8,307,299,291,1
+Style: sign_12361_129_Rainbow_Court,Open Sans Semibold,30,&H008C45F8,&H000000FF,&H00000000,&H00FFFFFF,1,0,0,0,100,100,0,-24,1,2,2,8,272,333,201,1
+Style: sign_14254_151__The_Game_of_Hal,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00551579,&H005432B9,0,0,0,0,100,100,0,0,1,2,1,5,27,307,120,1
+Style: sign_14898_160_After_school__a_,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,27,27,169,1
+Style: sign_14993_162_Love_Love_Game_o,Open Sans Semibold,30,&H00F7F0FF,&H000000FF,&H005556A3,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,27,27,24,1
+Style: sign_17403_199__Tendou,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,133,589,287,1
+Style: sign_17403_203_Aguri,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,613,147,335,1
+Style: sign_17403_200_Tasuku,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,147,581,61,1
+Style: sign_17403_202_Amano,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,593,140,107,1
+Style: sign_17403_201_Hoshinomori,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,424,227,11,1
+Style: sign_18054_213__Payday,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H002308EC,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,528,171,93,1
+Style: sign_18054_214__Your_divorce_wi,Open Sans Semibold,27,&H00000000,&H000000FF,&H0024FAFB,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,0,473,175,1
+Style: sign_18072_215__Release_date_fo,Open Sans Semibold,30,&H00000000,&H000000FF,&H0024FAFB,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,0,457,175,1
+Style: sign_18091_216_Missing,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00AE51F2,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,129,612,27,1
+Style: sign_18091_216_Newlywed_life_is,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00AE51F2,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,0,400,20,1
+Style: sign_18339_221___Inner_monologu,Open Sans Semibold,30,&H00E6FFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,27,27,152,1
+Style: sign_18647_226_Love_is_everythi,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00190A4F,&H00000000,1,0,0,0,100,100,0,0,1,2,2,8,7,433,28,1
+Style: sign_18654_227_Maybe_this_Love_,Open Sans Semibold,36,&H00FFFFFF,&H00000000,&H00000000,&H00515152,0,0,0,0,100,100,0,0,1,2,2,2,112,112,24,1
+Style: sign_18766_228__Start_,Open Sans Semibold,24,&H002B0EEC,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,320,453,307,1
+Style: sign_18766_230_Fail_fifty__inte,Open Sans Semibold,18,&H00000000,&H000000FF,&H0024FAFB,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,327,380,91,1
+Style: sign_18766_230_Fail_fifty_inter,Open Sans Semibold,24,&H00000000,&H000000FF,&H0024FAFB,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,197,131,124,1
+Style: sign_18766_231__You_become__int,Open Sans Semibold,18,&H00000000,&H000000FF,&H0024FAFB,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,493,219,67,1
+Style: sign_18766_232__You_work___you_,Open Sans Semibold,21,&H00000000,&H000000FF,&H0024FAFB,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,592,107,23,1
+Style: sign_18766_232__You_work__you_l,Open Sans Semibold,18,&H00000000,&H000000FF,&H0024FAFB,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,619,67,13,1
+Style: sign_18766_233__You_join_a_club,Open Sans Semibold,18,&H00000000,&H000000FF,&H0024FAFB,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,656,8,81,1
+Style: sign_18766_234__You_re_broke___,Open Sans Semibold,18,&H00000000,&H000000FF,&H001E89F6,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,701,5,167,1
+Style: sign_18766_235__The_girl_guy_ne,Open Sans Semibold,18,&H00000000,&H000000FF,&H0024FAFB,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,483,179,196,1
+Style: Main Margin,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: sign_18766_236__You_hit_it_off_,Open Sans Semibold,18,&H00FFFFFF,&H000000FF,&H00AE51F2,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,437,288,284,1
+Style: sign_18766_237__You_find_a_job_,Open Sans Semibold,18,&H00000000,&H000000FF,&H0024FAFB,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,592,125,284,1
+Style: sign_18766_238__Your_friend__in,Open Sans Semibold,18,&H00000000,&H000000FF,&H001E89F6,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,736,3,267,1
+Style: sign_18766_239_Missing_missing_,Open Sans Semibold,21,&H00000000,&H000000FF,&H0024FAFB,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,693,0,427,1
+Style: sign_18859_240__The_sun___it_bu,Open Sans Semibold,21,&H00000000,&H000000FF,&H0024FAFB,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,747,8,11,1
+Style: sign_18859_240__The__sun___it__,Open Sans Semibold,18,&H00000000,&H000000FF,&H0024FAFB,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,747,7,16,1
+Style: sign_18859_241__The_photocopier,Open Sans Semibold,18,&H00000000,&H000000FF,&H0024FAFB,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,389,213,7,1
+Style: sign_18859_242__You_only_leave_,Open Sans Semibold,18,&H00000000,&H000000FF,&H0024FAFB,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,456,203,123,1
+Style: sign_18859_243__Payday,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H002308EC,&H00000000,1,0,0,0,100,100,0,0,1,4,0,9,27,389,231,1
+Style: sign_18859_244__Your_partner_ch,Open Sans Semibold,18,&H00000000,&H000000FF,&H0024FAFB,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,485,187,240,1
+Style: sign_18859_245__Your_credit_car,Open Sans Semibold,18,&H00000000,&H000000FF,&H0024FAFB,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,683,9,253,1
+Style: sign_18859_246_Missing_long_thi,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,589,0,401,1
+Style: sign_19196_255_Your_crush_gets_,Open Sans Semibold,30,&H00000000,&H000000FF,&H0018BFDF,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,27,27,27,1
+Style: sign_19673_260_Your_crush_gets_,Open Sans Semibold,30,&H00000000,&H000000FF,&H005AF1FD,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,13,293,27,1
+Style: sign_19719_262__Chance_to__get_,Open Sans Semibold,42,&H00FFFFFF,&H000000FF,&H008908F0,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,553,3,127,1
+Style: sign_21096_290__You_slip_on_a_b,Open Sans Semibold,30,&H00000000,&H000000FF,&H0024FAFB,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,27,27,27,1
+Style: sign_21115_292__You_force_your_,Open Sans Semibold,30,&H00000000,&H000000FF,&H0024FAFB,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,200,237,32,1
+Style: sign_21159_295__Your_lovey_dove,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00CA90F7,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,27,27,27,1
+Style: sign_21898_311_Your_lovey_dovey,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00CA90F7,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,188,161,29,1
+Style: sign_22231_317_Your_love_intere,Open Sans Semibold,30,&H00000000,&H000000FF,&H004DC9F9,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,27,27,27,1
+Style: sign_22716_323_You_cheat_on_you,Open Sans Semibold,30,&H00000000,&H000000FF,&H003CFBFC,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,211,184,29,1
+Style: sign_23383_333_You_realize_that,Open Sans Semibold,30,&H00000000,&H000000FF,&H003CFBFC,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,99,72,29,1
+Style: sign_24212_349_You_realize_that,Open Sans Semibold,30,&H00000000,&H000000FF,&H003CFBFC,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,81,55,29,1
+Style: sign_25082_364_The_person_you_d,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H00CA90F7,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,27,27,27,1
+Style: Flashback Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:01.27,0:01:00.03,sign_31_2_Hekiyou_Private_,Text,0000,0000,0000,,{\fad(7000,14000)}Hekiyou Private Academy \N{\fs22}Student Council
+Dialogue: 0,0:00:01.63,0:00:05.73,Italics Dialogue,A,0000,0000,0000,,I'm basically what you \Nwould call a model student.
+Dialogue: 0,0:00:05.73,0:00:08.33,Italics Dialogue,A,0000,0000,0000,,I want to be liked, \Nand I like being depended on.
+Dialogue: 0,0:00:08.33,0:00:11.47,Italics Dialogue,A,0000,0000,0000,,I don't mind putting in \Nextra effort to that end.
+Dialogue: 0,0:00:11.47,0:00:14.11,Italics Dialogue,A,0000,0000,0000,,"Gifted" would be a charitable way to put it.
+Dialogue: 0,0:00:14.11,0:00:18.19,Italics Dialogue,A,0000,0000,0000,,But in a sense, that also means \NI don't have any particular talents.
+Dialogue: 0,0:00:18.19,0:00:20.04,Italics Dialogue,A,0000,0000,0000,,I can accomplish anything effortlessly.
+Dialogue: 0,0:00:20.04,0:00:23.05,Italics Dialogue,A,0000,0000,0000,,I always rank among the top students \Nin both academics and athletics.
+Dialogue: 0,0:00:23.05,0:00:26.37,Italics Dialogue,A,0000,0000,0000,,But I've never been number one at anything.
+Dialogue: 0,0:00:26.37,0:00:30.00,Italics Dialogue,A,0000,0000,0000,,Someone better always takes it all.
+Dialogue: 0,0:00:30.61,0:00:31.93,Italics Dialogue,A,0000,0000,0000,,So I was shocked
+Dialogue: 0,0:00:31.93,0:00:34.85,Italics Dialogue,A,0000,0000,0000,,when I was chosen to be this school's \Nstudent council president.
+Dialogue: 0,0:00:34.85,0:00:38.86,Italics Dialogue,A,0000,0000,0000,,I was savoring the happiness I'd finally found,
+Dialogue: 0,0:00:38.86,0:00:42.07,Italics Dialogue,A,0000,0000,0000,,but that happiness was fleeting.
+Dialogue: 0,0:00:42.07,0:00:43.53,Italics Dialogue,A,0000,0000,0000,,Tendou Karen.
+Dialogue: 0,0:00:43.53,0:00:46.58,Italics Dialogue,A,0000,0000,0000,,She was impeccable. She had everything.
+Dialogue: 0,0:00:46.58,0:00:50.77,Italics Dialogue,A,0000,0000,0000,,Even I know how unproductive it is to get \Njealous about another person's talents.
+Dialogue: 0,0:00:50.77,0:00:54.37,Italics Dialogue,A,0000,0000,0000,,But seeing someone one-up me
+Dialogue: 0,0:00:54.37,0:01:00.03,Italics Dialogue,A,0000,0000,0000,,after how much I've struggled \Nto get to where I am hurts a lot.
+Dialogue: 0,0:02:34.51,0:02:38.74,Main Dialogue,Mikuhair,0000,0000,0000,,So thank you every much, everyone.
+Dialogue: 0,0:02:38.74,0:02:40.26,Main Dialogue,A,0000,0000,0000,,Thank you very much.
+Dialogue: 0,0:02:40.61,0:02:42.24,Main Dialogue,Yellowband,0000,0000,0000,,We'll be leaving now.
+Dialogue: 0,0:02:42.24,0:02:44.35,Main Dialogue,Double Dango,0000,0000,0000,,Don't push yourself too hard.
+Dialogue: 0,0:02:44.35,0:02:45.66,Main Dialogue,Mikuhair,0000,0000,0000,,I'll be fine.
+Dialogue: 0,0:02:45.66,0:02:47.23,Main Dialogue,Mikuhair,0000,0000,0000,,Get home safely!
+Dialogue: 0,0:02:45.85,0:02:50.81,sign_3977_26_I_m_the__Student,Text,0000,0000,0000,,I'm the \NStudent Council \NPresident!!
+Dialogue: 0,0:02:54.27,0:03:00.53,sign_4179_27_You_re_the_prota,Text,0000,0000,0000,,You're the protagonist \Nin your life. \NYou're the only one \Nwho can make you happy!
+Dialogue: 0,0:03:02.38,0:03:05.79,Main Dialogue,Mikuhair,0000,0000,0000,,The scent of pure, untainted maidens!
+Dialogue: 0,0:03:09.83,0:03:12.38,Main Dialogue,Mikuhair,0000,0000,0000,,Our student council is full of cute girls.
+Dialogue: 0,0:03:12.38,0:03:14.42,Main Dialogue,Mikuhair,0000,0000,0000,,I'm in heaven!
+Dialogue: 0,0:03:15.78,0:03:18.21,Main Dialogue,Mikuhair,0000,0000,0000,,Shoot! I don't have time for this.
+Dialogue: 0,0:03:35.33,0:03:40.40,Italics Dialogue,Mikuhair,0000,0000,0000,,What a perfect disguise this is!
+Dialogue: 0,0:03:40.40,0:03:45.70,Italics Dialogue,Mikuhair,0000,0000,0000,,"The innocent student council president" \Nis but a disguise to keep society unaware.
+Dialogue: 0,0:03:48.23,0:03:55.46,Italics Dialogue,Mikuhair,0000,0000,0000,,The true me is nothing but \Na completely screwed-up
+Dialogue: 0,0:03:58.46,0:04:00.91,Italics Dialogue,Mikuhair,0000,0000,0000,,adult game freak girl!
+Dialogue: 0,0:04:02.42,0:04:03.89,Italics Dialogue,Mikuhair,0000,0000,0000,,This is what I'm after today.
+Dialogue: 0,0:04:03.89,0:04:06.88,Italics Dialogue,Mikuhair,0000,0000,0000,,The new BUILD series game by GAGI!
+Dialogue: 0,0:04:06.88,0:04:10.87,Italics Dialogue,Mikuhair,0000,0000,0000,,The stories are always high-quality, \Nthe girls are cute... It's so awesome.
+Dialogue: 0,0:04:10.87,0:04:11.98,Italics Dialogue,Mikuhair,0000,0000,0000,,It's epic!
+Dialogue: 0,0:04:19.90,0:04:23.17,Italics Dialogue,Mikuhair,0000,0000,0000,,The console version isn't bad, either.
+Dialogue: 0,0:04:27.32,0:04:28.70,sign_6410_41_Golden__Memories,Text,0000,0000,0000,,Golden \NMemories
+Dialogue: 0,0:04:28.70,0:04:31.66,sign_6443_43_Golden__Memories,Text,0000,0000,0000,,Golden \NMemories
+Dialogue: 0,0:04:29.59,0:04:32.63,Flashback Dialogue,A,0000,0000,0000,,If Tendou Karen had gone to this \Nschool instead of Otobuki,
+Dialogue: 0,0:04:32.63,0:04:35.17,Flashback Dialogue,A,0000,0000,0000,,she would totally have been \Nthe school council president.
+Dialogue: 0,0:04:35.17,0:04:36.67,Flashback Dialogue,B,0000,0000,0000,,I know, right?
+Dialogue: 0,0:04:36.67,0:04:39.80,Flashback Dialogue,B,0000,0000,0000,,I mean, Konoha-chan, for better or worse...
+Dialogue: 0,0:04:50.85,0:04:53.06,Main Dialogue,Mikuhair,0000,0000,0000,,This is probably a better game for me.
+Dialogue: 0,0:04:53.06,0:04:55.44,sign_7027_48_Rainbow_Court,Text,0000,0000,0000,,Ra{\c&HE031F6&}in{\c&HF16BC1&}bow {\c&HE7998D&}C{\c&HADF07E&}ou{\c&H38FFEE&}rt
+Dialogue: 0,0:04:57.63,0:05:00.78,Main Dialogue,Cater,0000,0000,0000,,You're so dedicated, though, Misumi-kun.
+Dialogue: 0,0:05:00.78,0:05:01.82,Main Dialogue,Cater,0000,0000,0000,,I admire you.
+Dialogue: 0,0:05:03.01,0:05:04.43,Main Dialogue Top,Missme,0000,0000,0000,,I wouldn't say that.
+Dialogue: 0,0:05:03.01,0:05:04.43,Italics Dialogue,Mikuhair,0000,0000,0000,,That uniform...
+Dialogue: 0,0:05:04.43,0:05:06.32,Italics Dialogue,Mikuhair,0000,0000,0000,,It's from Otobuki, where Tendou Karen goes.
+Dialogue: 0,0:05:06.79,0:05:10.20,Italics Dialogue,Mikuhair,0000,0000,0000,,Crap! Even I go nuts for pretty boys like him!
+Dialogue: 0,0:05:10.20,0:05:12.33,Italics Dialogue,Mikuhair,0000,0000,0000,,And... the other one...
+Dialogue: 0,0:05:12.33,0:05:15.65,Italics Dialogue,Mikuhair,0000,0000,0000,,Ah, he's like the average protagonist \Ntype you see in dating sims.
+Dialogue: 0,0:05:16.17,0:05:17.90,Main Dialogue Top,Mikuhair,0000,0000,0000,,One, two, three, four...
+Dialogue: 0,0:05:16.71,0:05:17.57,Main Dialogue,Missme,0000,0000,0000,,What's up?
+Dialogue: 0,0:05:17.57,0:05:19.50,Main Dialogue,Cater,0000,0000,0000,,Oh, nothing.
+Dialogue: 0,0:05:17.90,0:05:19.50,Main Dialogue Top,,0000,0000,0000,,six, seven, eight, nine...
+Dialogue: 0,0:05:19.91,0:05:21.25,Italics Dialogue,Mikuhair,0000,0000,0000,,That was close!
+Dialogue: 0,0:05:21.25,0:05:26.37,Main Dialogue,Missme,0000,0000,0000,,Oh, yeah! So anyway, I wanted you \Nto give me some recommendations.
+Dialogue: 0,0:05:26.37,0:05:27.63,Italics Dialogue,Mikuhair,0000,0000,0000,,What? What?
+Dialogue: 0,0:05:28.13,0:05:31.54,Main Dialogue,Cater,0000,0000,0000,,Man, it's a little embarrassing \Nwhen I get asked straight-up
+Dialogue: 0,0:05:31.54,0:05:33.87,Main Dialogue,Cater,0000,0000,0000,,for bishoujo game recommendations.
+Dialogue: 0,0:05:33.87,0:05:35.49,Main Dialogue,Missme,0000,0000,0000,,Oh, come on.
+Dialogue: 0,0:05:35.49,0:05:38.95,Main Dialogue,Missme,0000,0000,0000,,I'm not going to judge you for your tastes.
+Dialogue: 0,0:05:38.95,0:05:42.21,Main Dialogue,Cater,0000,0000,0000,,I don't think my tastes are {\i1}that{\i0} specific,
+Dialogue: 0,0:05:42.21,0:05:45.07,Main Dialogue,Cater,0000,0000,0000,,but I've never made \Nrecommendations for anyone.
+Dialogue: 0,0:05:45.93,0:05:47.06,Italics Dialogue,Mikuhair,0000,0000,0000,,So waffly.
+Dialogue: 0,0:05:47.06,0:05:50.13,Italics Dialogue,Mikuhair,0000,0000,0000,,Why is this Amano-kun guy so waffly?
+Dialogue: 0,0:05:50.57,0:05:54.91,Main Dialogue,Cater,0000,0000,0000,,Uh, then is there anything \Nyou're interested in, Misumi-kun?
+Dialogue: 0,0:05:55.99,0:05:59.58,Main Dialogue,Missme,0000,0000,0000,,I did do some research earlier.
+Dialogue: 0,0:06:00.42,0:06:03.38,Main Dialogue,Missme,0000,0000,0000,,The internet says this one's godly, right?
+Dialogue: 0,0:06:03.38,0:06:06.59,Italics Dialogue,Mikuhair,0000,0000,0000,,Well, that is a good one. \NSuper mainstream, too.
+Dialogue: 0,0:06:06.59,0:06:08.83,Main Dialogue,Cater,0000,0000,0000,,It's an absolute masterpiece.
+Dialogue: 0,0:06:08.83,0:06:12.15,Main Dialogue,Cater,0000,0000,0000,,I spent a week sleep-deprived to finish it.
+Dialogue: 0,0:06:12.15,0:06:12.97,Main Dialogue,Missme,0000,0000,0000,,Wow...
+Dialogue: 0,0:06:13.34,0:06:16.67,Main Dialogue,Missme,0000,0000,0000,,Well, it has your stamp of approval, \Nso I think I'll buy this one.
+Dialogue: 0,0:06:17.14,0:06:19.14,Italics Dialogue,Mikuhair,0000,0000,0000,,That's it? No fun.
+Dialogue: 0,0:06:19.74,0:06:21.52,Main Dialogue,Cater,0000,0000,0000,,W-Wait a second!
+Dialogue: 0,0:06:21.52,0:06:26.08,Main Dialogue,Cater,0000,0000,0000,,It {\i1}is{\i0} a masterpiece, but I never \Nsaid I'd recommend it for you.
+Dialogue: 0,0:06:26.08,0:06:26.99,Main Dialogue,Missme,0000,0000,0000,,Really?
+Dialogue: 0,0:06:26.99,0:06:29.61,Italics Dialogue,Mikuhair,0000,0000,0000,,You pain in the ass!
+Dialogue: 0,0:06:30.01,0:06:34.35,Main Dialogue,Cater,0000,0000,0000,,You want to learn what makes \Ndating sims so good, right?
+Dialogue: 0,0:06:34.35,0:06:35.19,Main Dialogue,Missme,0000,0000,0000,,Yeah.
+Dialogue: 0,0:06:35.19,0:06:38.58,Main Dialogue,Missme,0000,0000,0000,,There's no one in our game club \Nthat knows much about this genre.
+Dialogue: 0,0:06:40.43,0:06:42.54,Main Dialogue,Cater,0000,0000,0000,,Okay, hang on.
+Dialogue: 0,0:06:43.61,0:06:46.09,Italics Dialogue,Mikuhair,0000,0000,0000,,What's wrong with you? Hurry it up!
+Dialogue: 0,0:06:46.09,0:06:50.63,Italics Dialogue,Mikuhair,0000,0000,0000,,You're seriously like a stupid dating sim \Nprotagonist, the way you're so indecisive.
+Dialogue: 0,0:06:50.63,0:06:51.57,Main Dialogue,Cater,0000,0000,0000,,Found it.
+Dialogue: 0,0:06:52.45,0:06:54.93,Main Dialogue,Cater,0000,0000,0000,,I'd rather recommend this one, then.
+Dialogue: 0,0:06:54.93,0:06:56.56,sign_9949_97_Rainbow_Court,Text,0000,0000,0000,,Ra{\c&HE031F6&}in{\c&HF16BC1&}bow {\c&HE7998D&}C{\c&HADF07E&}ou{\c&H38FFEE&}rt
+Dialogue: 0,0:06:55.29,0:06:56.56,Main Dialogue,Cater,0000,0000,0000,,Rainbow Court.
+Dialogue: 0,0:06:57.50,0:06:59.72,Main Dialogue,Missme,0000,0000,0000,,I've never heard of that one.
+Dialogue: 0,0:06:59.72,0:07:01.50,Italics Dialogue,Mikuhair,0000,0000,0000,,Of course not.
+Dialogue: 0,0:07:01.50,0:07:04.22,Italics Dialogue,Mikuhair,0000,0000,0000,,It's a really old game.
+Dialogue: 0,0:07:04.22,0:07:07.28,Italics Dialogue,Mikuhair,0000,0000,0000,,And it was never a huge success.
+Dialogue: 0,0:07:07.70,0:07:11.01,Main Dialogue,Cater,0000,0000,0000,,It's not like it sold very well or anything, but...
+Dialogue: 0,0:07:11.01,0:07:12.13,Italics Dialogue,Mikuhair,0000,0000,0000,,See?
+Dialogue: 0,0:07:12.13,0:07:13.41,Main Dialogue,Missme,0000,0000,0000,,So why, then?
+Dialogue: 0,0:07:13.41,0:07:14.66,Main Dialogue,Cater,0000,0000,0000,,Um...
+Dialogue: 0,0:07:15.09,0:07:17.29,Main Dialogue,Cater,0000,0000,0000,,Because I like it, I guess?
+Dialogue: 0,0:07:18.66,0:07:20.03,Main Dialogue,Missme,0000,0000,0000,,Uh...
+Dialogue: 0,0:07:20.03,0:07:23.25,Main Dialogue,Cater,0000,0000,0000,,Of course, whichever one \Nyou pick is fine with me.
+Dialogue: 0,0:07:23.25,0:07:25.15,Main Dialogue,Cater,0000,0000,0000,,But if I'm going to make recommendations,
+Dialogue: 0,0:07:25.15,0:07:28.67,Main Dialogue,Cater,0000,0000,0000,,I'd like to give some of these hidden \Nones some time in the light, too.
+Dialogue: 0,0:07:28.67,0:07:29.65,Main Dialogue,Missme,0000,0000,0000,,Right...
+Dialogue: 0,0:07:29.65,0:07:31.59,Main Dialogue,Cater,0000,0000,0000,,You know how even some really good games
+Dialogue: 0,0:07:31.59,0:07:35.76,Main Dialogue,Cater,0000,0000,0000,,get the cold shoulder just because \Nthe art style is really old or something?
+Dialogue: 0,0:07:35.76,0:07:38.31,Main Dialogue,Cater,0000,0000,0000,,That really bums me out.
+Dialogue: 0,0:07:39.42,0:07:42.11,Main Dialogue,Cater,0000,0000,0000,,I guess it's like how you'd \Nrather root for the person
+Dialogue: 0,0:07:42.11,0:07:44.70,Main Dialogue,Cater,0000,0000,0000,,who's struggling in the shadows
+Dialogue: 0,0:07:44.70,0:07:47.69,Main Dialogue,Cater,0000,0000,0000,,than for the person who's got \Neverything going for them.
+Dialogue: 0,0:07:49.47,0:07:53.77,Main Dialogue,Cater,0000,0000,0000,,Sorry! I'm acting like a connoisseur\Njust because I know some obscure titles.
+Dialogue: 0,0:07:54.63,0:08:00.48,Main Dialogue,Cater,0000,0000,0000,,I'd say this is one of my \Ntop three games, though.
+Dialogue: 0,0:08:00.48,0:08:03.87,Main Dialogue Top,,0000,0000,0000,,Especially the way the character parameters...
+Dialogue: 0,0:08:00.93,0:08:02.41,Italics Dialogue,Mikuhair,0000,0000,0000,,Crap...
+Dialogue: 0,0:08:02.41,0:08:04.18,Italics Dialogue,Mikuhair,0000,0000,0000,,What is this?
+Dialogue: 0,0:08:04.18,0:08:05.54,Italics Dialogue,Mikuhair,0000,0000,0000,,Why am I...
+Dialogue: 0,0:08:06.43,0:08:07.50,Italics Dialogue,Mikuhair,0000,0000,0000,,so...
+Dialogue: 0,0:08:14.69,0:08:15.91,Main Dialogue,Missme,0000,0000,0000,,Yeah?
+Dialogue: 0,0:08:15.91,0:08:16.80,Main Dialogue,Missme,0000,0000,0000,,Okay.
+Dialogue: 0,0:08:16.80,0:08:19.65,Main Dialogue,Missme,0000,0000,0000,,I think I'll go with your \Nrecommendation, then.
+Dialogue: 0,0:08:19.65,0:08:20.22,Main Dialogue,Cater,0000,0000,0000,,Okay.
+Dialogue: 0,0:08:35.53,0:08:37.91,sign_12361_129_Rainbow_Court,,0000,0000,0000,,Ra{\c&HE031F6&}in{\c&HF16BC1&}bow {\c&HE7998D&}C{\c&HADF07E&}ou{\c&H38FFEE&}rt
+Dialogue: 0,0:08:40.75,0:08:41.57,Main Dialogue,Sea Habitat,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:41.57,0:08:43.55,Main Dialogue,Sea Habitat,0000,0000,0000,,You were home, Konoha?
+Dialogue: 0,0:08:44.21,0:08:45.79,Main Dialogue,Mikuhair,0000,0000,0000,,Yeah, I'm home.
+Dialogue: 0,0:08:46.10,0:08:47.05,Main Dialogue,Sea Habitat,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:47.05,0:08:48.21,Main Dialogue,Sea Habitat,0000,0000,0000,,Where'd you get this?
+Dialogue: 0,0:08:48.21,0:08:49.30,Main Dialogue,Mikuhair,0000,0000,0000,,Hey!
+Dialogue: 0,0:08:49.30,0:08:51.63,Main Dialogue,Sea Habitat,0000,0000,0000,,I never knew you liked these games.
+Dialogue: 0,0:08:51.63,0:08:53.70,Main Dialogue,Mikuhair,0000,0000,0000,,I borrowed it from a friend!
+Dialogue: 0,0:08:54.29,0:08:56.25,Main Dialogue,Sea Habitat,0000,0000,0000,,There's a price tag on it, though.
+Dialogue: 0,0:08:56.25,0:08:59.77,Main Dialogue,Mikuhair,0000,0000,0000,,Just give it back! Onee-chan!
+Dialogue: 0,0:09:13.07,0:09:15.71,Italics Dialogue,Taskbar,0000,0000,0000,,Amano and Aguri got married.
+Dialogue: 0,0:09:15.71,0:09:18.99,Italics Dialogue,Taskbar,0000,0000,0000,,It happened soon after they \Ngraduated from college.
+Dialogue: 0,0:09:19.53,0:09:25.62,Italics Dialogue,Taskbar,0000,0000,0000,,We all gave our congratulations \Nand celebrated their new beginning.
+Dialogue: 0,0:09:26.14,0:09:29.88,Italics Dialogue,Taskbar,0000,0000,0000,,Of course, inside, we were all conflicted.
+Dialogue: 0,0:09:30.27,0:09:34.84,Italics Dialogue,Taskbar,0000,0000,0000,,Hoshinomori, who had no full-time job, was \Nloathe to congratulate her nemesis, Amano.
+Dialogue: 0,0:09:34.84,0:09:38.31,Italics Dialogue,Taskbar,0000,0000,0000,,Neither Tendou nor I were struggling \Nfinancially, but our fake smiles,
+Dialogue: 0,0:09:38.31,0:09:43.10,Italics Dialogue,Taskbar,0000,0000,0000,,which we so excelled at making, twitched at the sight of our desires marrying away.
+Dialogue: 0,0:09:43.64,0:09:46.29,Italics Dialogue,Taskbar,0000,0000,0000,,The spectacular ceremony \Nwas held at a reception hall
+Dialogue: 0,0:09:46.29,0:09:51.86,Italics Dialogue,Taskbar,0000,0000,0000,,a few years after our time at Otobuki High, \Na period fraught with misunderstandings.
+Dialogue: 0,0:09:54.50,0:09:56.36,sign_14254_151__The_Game_of_Hal,Text,0000,0000,0000,,The Game of Half-Life
+Dialogue: 0,0:09:54.86,0:09:56.36,Italics Dialogue,Taskbar,0000,0000,0000,,Or not.
+Dialogue: 0,0:09:57.38,0:10:02.95,Italics Dialogue,Taskbar,0000,0000,0000,,It's easy to fix a misunderstanding. You just \Nbring everyone together to talk it over!
+Dialogue: 0,0:10:02.95,0:10:04.76,Main Dialogue,Agree,0000,0000,0000,,What are you, stupid?
+Dialogue: 0,0:10:04.76,0:10:07.60,Main Dialogue,Cater,0000,0000,0000,,What do you expect me to do? It is what it is.
+Dialogue: 0,0:10:07.60,0:10:09.48,Italics Dialogue,Taskbar,0000,0000,0000,,It's so obvious... and, well,
+Dialogue: 0,0:10:09.48,0:10:12.88,Italics Dialogue,Taskbar,0000,0000,0000,,to be honest, it's not like I hadn't \Nfigured that out a long time ago.
+Dialogue: 0,0:10:12.88,0:10:18.09,Italics Dialogue,Taskbar,0000,0000,0000,,But in reality, given the peculiar distance \Nwe'd had between each of us,
+Dialogue: 0,0:10:18.09,0:10:20.65,Italics Dialogue,Taskbar,0000,0000,0000,,it was never easy for the \Nfive of us to get together.
+Dialogue: 0,0:10:21.35,0:10:23.39,sign_14898_160_After_school__a_,Text,0000,0000,0000,,After school, a few days ago
+Dialogue: 0,0:10:22.58,0:10:26.11,Flashback Dialogue,Sea Habitat,0000,0000,0000,,Hey, hey, take a look at this!
+Dialogue: 0,0:10:25.33,0:10:28.94,sign_14993_162_Love_Love_Game_o,Text,0000,0000,0000,,Love-Love Game of Half-Life
+Dialogue: 0,0:10:26.97,0:10:28.94,Flashback Dialogue,Text,0000,0000,0000,,Love-Love Game of Half-Life?
+Dialogue: 0,0:10:28.94,0:10:30.01,Flashback Dialogue,Sea Habitat,0000,0000,0000,,Yeah.
+Dialogue: 0,0:10:30.01,0:10:33.07,Flashback Dialogue,Sea Habitat,0000,0000,0000,,My mom won it in the lottery \Nat the supermarket.
+Dialogue: 0,0:10:33.59,0:10:35.78,Flashback Dialogue,Cater,0000,0000,0000,,Hey, I saw this online.
+Dialogue: 0,0:10:35.78,0:10:38.22,Flashback Dialogue,Cater,0000,0000,0000,,It's a super specific romance \Nboard game or something.
+Dialogue: 0,0:10:38.22,0:10:39.86,Flashback Dialogue,Sea Habitat,0000,0000,0000,,It sounds fun, doesn't it?
+Dialogue: 0,0:10:40.89,0:10:43.46,Flashback Dialogue,Sea Habitat,0000,0000,0000,,We don't have enough people, though.
+Dialogue: 0,0:10:43.46,0:10:46.20,Flashback Dialogue,Cater,0000,0000,0000,,Right, it's a board game...
+Dialogue: 0,0:10:49.69,0:10:52.50,Flashback Dialogue,Taskbar,0000,0000,0000,,Then I'll join, too. Let's play.
+Dialogue: 0,0:10:52.50,0:10:55.05,Flashback Dialogue,Taskbar,0000,0000,0000,,It'll be part of our Gamers \NMeet-up activities.
+Dialogue: 0,0:10:55.05,0:10:56.17,Flashback Dialogue,Sea Habitat,0000,0000,0000,,Really?
+Dialogue: 0,0:10:56.17,0:10:58.61,Flashback Dialogue,Sea Habitat,0000,0000,0000,,Then would you like to come to my place?
+Dialogue: 0,0:10:58.61,0:11:01.34,Flashback Dialogue,Sea Habitat,0000,0000,0000,,Although I don't know how I feel \Nabout letting Keita in my house.
+Dialogue: 0,0:11:01.34,0:11:02.43,Flashback Dialogue,Cater,0000,0000,0000,,What's that supposed to mean?
+Dialogue: 0,0:11:04.38,0:11:05.31,Flashback Italics Dialogue,Taskbar,0000,0000,0000,,Not again.
+Dialogue: 0,0:11:10.55,0:11:13.73,Flashback Dialogue,Taskbar,0000,0000,0000,,Oh, but hey, it won't be any \Nfun with just three of us.
+Dialogue: 0,0:11:13.73,0:11:15.29,Flashback Dialogue,Taskbar,0000,0000,0000,,Why don't we invite more people?
+Dialogue: 0,0:11:15.29,0:11:16.33,Flashback Dialogue,Sea Habitat,0000,0000,0000,,Like who?
+Dialogue: 0,0:11:16.33,0:11:20.09,Flashback Dialogue,Taskbar,0000,0000,0000,,I mean, we know the perfect people, don't we?
+Dialogue: 0,0:11:20.09,0:11:21.72,Flashback Dialogue,Cater,0000,0000,0000,,Don't tell me...
+Dialogue: 0,0:11:21.72,0:11:22.95,Flashback Dialogue,Taskbar,0000,0000,0000,,She's a gamer, too.
+Dialogue: 0,0:11:22.95,0:11:24.92,Flashback Dialogue,Taskbar,0000,0000,0000,,I'm sure she'll be cool with \Nit if Amano invites her.
+Dialogue: 0,0:11:24.92,0:11:25.66,Flashback Dialogue,Cater,0000,0000,0000,,Me?!
+Dialogue: 0,0:11:25.66,0:11:28.50,Flashback Dialogue,Sea Habitat,0000,0000,0000,,T-Tendou-san, coming to my place?
+Dialogue: 0,0:11:28.50,0:11:30.12,Flashback Dialogue,Sea Habitat,0000,0000,0000,,That makes me kind of nervous.
+Dialogue: 0,0:11:30.62,0:11:34.40,Flashback Dialogue,Taskbar,0000,0000,0000,,A board game would be easy \Nenough for Aguri to play, too.
+Dialogue: 0,0:11:34.40,0:11:37.35,Flashback Dialogue,Taskbar,0000,0000,0000,,Besides, the more the merrier, right?
+Dialogue: 0,0:11:37.35,0:11:39.29,Flashback Dialogue,Sea Habitat,0000,0000,0000,,Th-Thank you.
+Dialogue: 0,0:11:39.29,0:11:41.97,Flashback Dialogue,Cater,0000,0000,0000,,I never thought you'd be so enthusiastic.
+Dialogue: 0,0:11:44.33,0:11:45.26,Flashback Italics Dialogue,Taskbar,0000,0000,0000,,At last!
+Dialogue: 0,0:11:45.26,0:11:47.35,Flashback Italics Dialogue,Taskbar,0000,0000,0000,,All parties will assemble!
+Dialogue: 0,0:11:47.35,0:11:49.58,Flashback Italics Dialogue,Taskbar,0000,0000,0000,,We'll all talk about what's going on,
+Dialogue: 0,0:11:49.58,0:11:53.73,Flashback Italics Dialogue,Taskbar,0000,0000,0000,,and finally put a clean end to \Nthis ridiculous love pentagon!
+Dialogue: 0,0:11:54.83,0:11:57.07,Italics Dialogue,Taskbar,0000,0000,0000,,But that was never going to happen.
+Dialogue: 0,0:12:02.89,0:12:04.98,Italics Dialogue,Taskbar,0000,0000,0000,,Everyone's become so careful \Naround each other
+Dialogue: 0,0:12:04.98,0:12:07.55,Italics Dialogue,Taskbar,0000,0000,0000,,that we ended up seating ourselves like this.
+Dialogue: 0,0:12:05.84,0:12:13.04,sign_17403_199__Tendou,Text,0000,0000,0000,,Tendou
+Dialogue: 0,0:12:05.84,0:12:13.04,sign_17403_200_Tasuku,Text,0000,0000,0000,,Tasuku
+Dialogue: 0,0:12:05.84,0:12:13.04,sign_17403_201_Hoshinomori,Text,0000,0000,0000,,Hoshinomori
+Dialogue: 0,0:12:05.84,0:12:13.04,sign_17403_202_Amano,Text,0000,0000,0000,,Amano
+Dialogue: 0,0:12:05.84,0:12:13.04,sign_17403_203_Aguri,Text,0000,0000,0000,,Aguri
+Dialogue: 0,0:12:07.55,0:12:11.41,Italics Dialogue,Taskbar,0000,0000,0000,,Well, that's fine, in the sense that it \Nensures we don't end up talking only to
+Dialogue: 0,0:12:11.41,0:12:13.04,Italics Dialogue,Taskbar,0000,0000,0000,,the ones we're already comfortable with.
+Dialogue: 0,0:12:13.04,0:12:16.35,Main Dialogue,Agree,0000,0000,0000,,O-Okay, so it's my turn now, right?
+Dialogue: 0,0:12:16.35,0:12:17.38,Main Dialogue,Agree,0000,0000,0000,,H-Here I go.
+Dialogue: 0,0:12:17.38,0:12:22.17,Italics Dialogue,Taskbar,0000,0000,0000,,All you really have to do in this game is \Nspin the roulette and follow the events.
+Dialogue: 0,0:12:22.17,0:12:24.63,Italics Dialogue,Taskbar,0000,0000,0000,,It's easy to enjoy, \Nthere's plenty of time to talk,
+Dialogue: 0,0:12:24.63,0:12:27.90,Italics Dialogue,Taskbar,0000,0000,0000,,and it makes it easy to segue \Ninto the main discussion.
+Dialogue: 0,0:12:28.33,0:12:31.67,Italics Dialogue,Taskbar,0000,0000,0000,,I was sure my set-up was perfect.
+Dialogue: 0,0:12:32.09,0:12:32.98,Italics Dialogue,Taskbar,0000,0000,0000,,And yet...
+Dialogue: 0,0:12:32.98,0:12:33.25,sign_18054_213__Payday,Taskbar,0000,0000,0000,,{\fad(1,100)}Payday
+Dialogue: 0,0:12:32.98,0:12:33.73,sign_18054_214__Your_divorce_wi,Taskbar,0000,0000,0000,,Your divorce with your \Nprevious spouse doesn't \Ngo too well. You settle. \NPay 100,000 yen
+Dialogue: 0,0:12:32.98,0:12:35.57,Main Dialogue,Agree,0000,0000,0000,,One, two, three...
+Dialogue: 0,0:12:33.73,0:12:34.52,sign_18054_214__Your_divorce_wi,Taskbar,0000,0000,0000,,Release date for the \Nnew game! You stay home \Nfrom work and play all night. \NMiss a turn
+Dialogue: 0,0:12:34.52,0:12:44.86,sign_18091_216_Newlywed_life_is,,0000,0000,0000,,Newlywed life is going great!\NYou are blessed with a new \Nchild on your honeymoon.\NYou and your spouse receive \N3,000 yen in gifts from everyone.
+Dialogue: 0,0:12:35.57,0:12:38.68,Main Dialogue,Agree,0000,0000,0000,,"Newlywed life is going great!
+Dialogue: 0,0:12:38.68,0:12:41.25,Main Dialogue,Agree,0000,0000,0000,,You are blessed with a new \Nchild on your honeymoon.
+Dialogue: 0,0:12:41.25,0:12:44.86,Main Dialogue,Agree,0000,0000,0000,,You and your spouse receive \N3,000 yen in gifts from everyone."
+Dialogue: 0,0:12:44.86,0:12:46.99,sign_18339_221___Inner_monologu,Text,0000,0000,0000,,* Inner Monologue
+Dialogue: 0,0:12:44.86,0:12:46.99,Main Dialogue,Taskbar,0000,0000,0000,,This is bullshit!
+Dialogue: 0,0:12:46.99,0:12:50.28,Main Dialogue,Cater,0000,0000,0000,,Aguri-san, how could you have a baby {\i1}now{\i0}?
+Dialogue: 0,0:12:50.28,0:12:52.33,Main Dialogue,Agree,0000,0000,0000,,Wh-What am I supposed to do?
+Dialogue: 0,0:12:52.69,0:12:55.38,Main Dialogue,Agree,0000,0000,0000,,You're responsible for it, too, you know.
+Dialogue: 0,0:12:57.71,0:13:02.67,sign_18647_226_Love_is_everythi,Text,0000,0000,0000,,Love is everything \N{\c&HD7AEFA&}Rose-colored {\c&HFFFFFF&}love-love life!!
+Dialogue: 0,0:12:58.02,0:13:02.67,Italics Dialogue,Taskbar,0000,0000,0000,,Maybe this Love-Love Game of Half-Life \Nwasn't the best idea to begin with.
+Dialogue: 0,0:13:02.67,0:13:06.55,sign_18766_228__Start_,Text,0000,0000,0000,,Start
+Dialogue: 0,0:13:02.67,0:13:06.55,sign_18766_230_Fail_fifty__inte,Text,0000,0000,0000,,Fail fifty \Ninterviews \Nin a row.\N Emotionally hurt. \NMiss a turn
+Dialogue: 0,0:13:02.67,0:13:06.55,sign_18766_232__You_work__you_l,Text,0000,0000,0000,,You work, you lose. \NYou are jobless
+Dialogue: 0,0:13:02.67,0:13:06.55,sign_18766_231__You_become__int,Text,0000,0000,0000,,You become \Ninterested in \Nsomeone at a \Ngroup interview. \NMove ahead \Nfour spaces
+Dialogue: 0,0:13:02.67,0:13:06.55,sign_18766_233__You_join_a_club,Text,0000,0000,0000,,You join a club to \Nmeet new people. \NIt costs you 5,000 yen
+Dialogue: 0,0:13:02.67,0:13:06.55,sign_18766_234__You_re_broke___,Text,0000,0000,0000,,You're broke! \NYou beg your \Nfolks for money. \NEarn 3,000 yen
+Dialogue: 0,0:13:02.67,0:13:06.55,sign_18766_235__The_girl_guy_ne,Text,0000,0000,0000,,The girl/guy next to you \Ndistracts you from your \Nexam. Your grades \Nsuffer. Miss a turn
+Dialogue: 0,0:13:02.67,0:13:06.55,sign_18766_236__You_hit_it_off_,Text,0000,0000,0000,,You hit it off \Nwith the person \Nin your club. \NIf you are \Nin a club, \Nyou enter \Na relationship
+Dialogue: 0,0:13:02.67,0:13:06.55,sign_18766_237__You_find_a_job_,Text,0000,0000,0000,,You find a job\Nas a tutor, and \Nget into a taboo \Nrelationship with \Nyour student. \NEarn 5,000 yen
+Dialogue: 0,0:13:02.67,0:13:06.55,sign_18766_238__Your_friend__in,Text,0000,0000,0000,,Your friend \Ninvites you \Nto a mixer. \NPay \N5,000 yen
+Dialogue: 0,0:13:02.67,0:13:06.55,Main Margin,Taskbar,0000,0000,0000,,The student part begins with Amano and Aguri dating.
+Dialogue: 0,0:13:06.55,0:13:09.77,Main Margin,Taskbar,0000,0000,0000,,Hoshinomori can't find a job after graduating.
+Dialogue: 0,0:13:06.55,0:13:11.89,sign_18859_240__The__sun___it__,Text,0000,0000,0000,,The sun, \Nit burns!
+Dialogue: 0,0:13:06.55,0:13:11.89,sign_18859_241__The_photocopier,Text,0000,0000,0000,,The photocopier breaks down, \Nand you go to the convenience \Nstore to make copies. Out of \Nyour own pocket. Disgusted, \Nyou enter joblessness.
+Dialogue: 0,0:13:06.55,0:13:11.89,sign_18859_242__You_only_leave_,Text,0000,0000,0000,,You only leave \Nthe house for your \Npart-time job. You \Nbreak down and work \Nfor a sweatshop.
+Dialogue: 0,0:13:06.55,0:13:11.89,sign_18859_243__Payday,Text,0000,0000,0000,,Payday
+Dialogue: 0,0:13:06.55,0:13:11.89,sign_18859_244__Your_partner_ch,Text,0000,0000,0000,,Your partner cheats \Non you. You are \Nforced to pay their \Nlover compensation \Nfor mental suffering. \NYou and your spouse \Nlose 5,000 yen
+Dialogue: 0,0:13:06.55,0:13:11.89,sign_18859_245__Your_credit_car,Text,0000,0000,0000,,Your credit card \Napplication is \Ndeclined, and you \Ncan't buy in-game \Nitems. You break \Ndown and work \Nfor a sweatshop.
+Dialogue: 0,0:13:09.77,0:13:11.89,Main Margin,Taskbar,0000,0000,0000,,No one knows how to react to these developments.
+Dialogue: 0,0:13:12.29,0:13:13.47,Italics Dialogue,Taskbar,0000,0000,0000,,As for Tendou...
+Dialogue: 0,0:13:13.47,0:13:15.89,Main Dialogue,Blonde,0000,0000,0000,,O-Okay, it's my turn.
+Dialogue: 0,0:13:19.11,0:13:19.90,Main Dialogue,Blonde,0000,0000,0000,,Eight.
+Dialogue: 0,0:13:19.90,0:13:21.05,Main Dialogue,Blonde,0000,0000,0000,,Let's see...
+Dialogue: 0,0:13:20.63,0:13:26.40,sign_19196_255_Your_crush_gets_,Text,0000,0000,0000,,{\fad(500,1)}Your crush gets married, and you \Nbecome more focused on work.\N50,000 yen in extra income
+Dialogue: 0,0:13:21.05,0:13:26.40,Main Dialogue,Blonde,0000,0000,0000,,"Your crush gets married, and you \Nbecome more focused on work."
+Dialogue: 0,0:13:27.54,0:13:30.53,Main Dialogue,Blonde,0000,0000,0000,,Look at me. I'm so rich.
+Dialogue: 0,0:13:30.53,0:13:31.82,Italics Dialogue,Taskbar,0000,0000,0000,,You deserve better.
+Dialogue: 0,0:13:31.82,0:13:34.58,Italics Dialogue,Taskbar,0000,0000,0000,,Your grades are tops. \NYou really deserve better.
+Dialogue: 0,0:13:34.58,0:13:36.92,Main Dialogue,Taskbar,0000,0000,0000,,A-All right, my turn.
+Dialogue: 0,0:13:40.50,0:13:41.36,sign_19673_260_Your_crush_gets_,Text,0000,0000,0000,,{\fad(1,500)}Your crush gets married, and you \Nbecome more focused on work. \N50,000 yen in extra income
+Dialogue: 0,0:13:41.36,0:13:43.38,sign_19673_260_Your_crush_gets_,Text,0000,0000,0000,,{\fad(500,500)}New clients! \NEarn 50,000 yen
+Dialogue: 0,0:13:41.98,0:13:43.46,Main Dialogue,Taskbar,0000,0000,0000,,It's the marriage space.
+Dialogue: 0,0:13:42.44,0:13:46.47,sign_19719_262__Chance_to__get_,Text,0000,0000,0000,,Chance to \Nget married!!
+Dialogue: 0,0:13:43.90,0:13:46.47,Italics Dialogue,Taskbar,0000,0000,0000,,On this space, you spin \Nthe roulette once more,
+Dialogue: 0,0:13:46.47,0:13:51.37,Italics Dialogue,Taskbar,0000,0000,0000,,and you get a chance to force a marriage \Nwith the person represented by the number.
+Dialogue: 0,0:13:51.37,0:13:54.57,Italics Dialogue,Taskbar,0000,0000,0000,,If I get a one or two, \NI can start over with Aguri,
+Dialogue: 0,0:13:54.57,0:13:57.05,Italics Dialogue,Taskbar,0000,0000,0000,,and Amano falls into the loner route.
+Dialogue: 0,0:13:57.05,0:13:59.74,Italics Dialogue,Taskbar,0000,0000,0000,,This is what I'm really after.
+Dialogue: 0,0:13:59.74,0:14:01.06,Italics Dialogue,Taskbar,0000,0000,0000,,In more ways than one.
+Dialogue: 0,0:14:01.39,0:14:02.26,Italics Dialogue,Taskbar,0000,0000,0000,,Please!
+Dialogue: 0,0:14:02.26,0:14:04.30,Italics Dialogue,Taskbar,0000,0000,0000,,One or two! One or two!
+Dialogue: 0,0:14:04.30,0:14:04.95,Italics Dialogue,Taskbar,0000,0000,0000,,Go!
+Dialogue: 0,0:14:08.33,0:14:09.45,Main Dialogue,Sea Habitat,0000,0000,0000,,I-I'm honored.
+Dialogue: 0,0:14:11.03,0:14:12.55,Italics Dialogue,Taskbar,0000,0000,0000,,What do you want?
+Dialogue: 0,0:14:12.55,0:14:13.99,Italics Dialogue,Taskbar,0000,0000,0000,,What do you want me to do?
+Dialogue: 0,0:14:13.99,0:14:17.03,Main Dialogue,Sea Habitat,0000,0000,0000,,O-Okay, it's my turn.
+Dialogue: 0,0:14:17.03,0:14:17.86,Main Dialogue,Sea Habitat,0000,0000,0000,,There!
+Dialogue: 0,0:14:20.05,0:14:20.46,Main Dialogue,Sea Habitat,0000,0000,0000,,Two.
+Dialogue: 0,0:14:20.46,0:14:21.61,Main Dialogue,Sea Habitat,0000,0000,0000,,Uh...
+Dialogue: 0,0:14:21.61,0:14:23.02,Main Dialogue,Sea Habitat,0000,0000,0000,,"Your partner cheats on you.
+Dialogue: 0,0:14:23.02,0:14:25.80,Main Dialogue,Sea Habitat,0000,0000,0000,,You are forced to pay their lover \Ncompensation for mental suffering.
+Dialogue: 0,0:14:25.80,0:14:29.34,Main Dialogue,Sea Habitat,0000,0000,0000,,You and your spouse lose 5,000 yen."
+Dialogue: 0,0:14:29.66,0:14:31.18,Italics Dialogue,Agree,0000,0000,0000,,Stare...
+Dialogue: 0,0:14:30.37,0:14:32.47,Main Dialogue,Taskbar,0000,0000,0000,,What? You're giving me death glares.
+Dialogue: 0,0:14:34.31,0:14:35.86,Main Dialogue,Cater,0000,0000,0000,,I'm up next.
+Dialogue: 0,0:14:35.86,0:14:37.94,Main Dialogue,Cater,0000,0000,0000,,Let's see how it goes.
+Dialogue: 0,0:14:39.19,0:14:39.85,Main Dialogue,Cater,0000,0000,0000,,Five.
+Dialogue: 0,0:14:39.85,0:14:40.04,sign_21096_290__You_slip_on_a_b,Text,0000,0000,0000,,You slip on a banana peel.\NOuch. Miss a turn
+Dialogue: 0,0:14:39.85,0:14:43.51,Main Dialogue,,0000,0000,0000,,One, two, three, four, five.
+Dialogue: 0,0:14:40.04,0:14:40.67,sign_21096_290__You_slip_on_a_b,Text,0000,0000,0000,,Your ex makes\Ntheir major debut. \NYou watch their concert \Nwith mixed feelings. \NPay 5,000 yen
+Dialogue: 0,0:14:40.67,0:14:41.17,sign_21096_290__You_slip_on_a_b,Text,0000,0000,0000,,You force your spouse\Nto pay into life insurance. \NThey pay 1,000 yen each turn
+Dialogue: 0,0:14:41.17,0:14:41.88,sign_21096_290__You_slip_on_a_b,Text,0000,0000,0000,,You waste a ton of money\Nin a social network game. \NPay 100,000 yen
+Dialogue: 0,0:14:41.88,0:14:42.50,sign_21096_290__You_slip_on_a_b,Text,0000,0000,0000,,That famous dating sim \Ngets VR support! \NDroves of people go missing
+Dialogue: 0,0:14:42.50,0:14:50.99,sign_21159_295__Your_lovey_dove,Text,0000,0000,0000,,Your lovey-dovey newlywed \Nlife reaches high tide! \NYou bust your bed getting busy! \NYou and your spouse pay 6,000 yen
+Dialogue: 0,0:14:43.51,0:14:44.61,Main Dialogue,Cater,0000,0000,0000,,Let's see...
+Dialogue: 0,0:14:44.61,0:14:48.12,Main Dialogue,Cater,0000,0000,0000,,"Your lovey-dovey newlywed \Nlife reaches high tide!
+Dialogue: 0,0:14:48.12,0:14:50.99,Main Dialogue,Cater,0000,0000,0000,,You bust your bed getting busy!"
+Dialogue: 0,0:14:50.99,0:14:53.97,Main Dialogue,Agree,0000,0000,0000,,Can't you be a little bit more discreet?
+Dialogue: 0,0:14:53.97,0:14:57.79,Main Dialogue,Cater,0000,0000,0000,,Discreet? I'm just doing it like normal.
+Dialogue: 0,0:14:57.79,0:15:00.75,Main Dialogue,Agree,0000,0000,0000,,Just "doing it" like normal? Gross, Amanocchi!
+Dialogue: 0,0:15:01.17,0:15:04.21,Main Dialogue,Cater,0000,0000,0000,,No, that's not what I meant by "doing it"...
+Dialogue: 0,0:15:03.49,0:15:04.21,Main Dialogue,Blonde,0000,0000,0000,,Ahem.
+Dialogue: 0,0:15:05.58,0:15:06.97,Main Dialogue,Agree,0000,0000,0000,,Sorry.
+Dialogue: 0,0:15:07.84,0:15:10.46,Main Dialogue,Agree,0000,0000,0000,,O-Okay, it's my turn next.
+Dialogue: 0,0:15:11.49,0:15:12.22,Main Dialogue,Agree,0000,0000,0000,,Nine.
+Dialogue: 0,0:15:12.22,0:15:13.30,Main Dialogue,Agree,0000,0000,0000,,Okay...
+Dialogue: 0,0:15:13.30,0:15:14.55,Main Dialogue,Agree,0000,0000,0000,,Oh.
+Dialogue: 0,0:15:13.30,0:15:14.55,sign_21159_295__Your_lovey_dove,Text,0000,0000,0000,,Your lovey-dovey newly-wed life \Nreaches high tide! You bust \Nyour bed getting busy! \NYou and your spouse pay 6,000 yen
+Dialogue: 0,0:15:17.86,0:15:21.69,Italics Dialogue,Taskbar,0000,0000,0000,,The tragic couple of the century, \Nsilently paying 6,000.
+Dialogue: 0,0:15:21.69,0:15:23.13,Italics Dialogue,Taskbar,0000,0000,0000,,I feel sorry for them now.
+Dialogue: 0,0:15:23.13,0:15:24.73,Italics Dialogue,Taskbar,0000,0000,0000,,I can't even feel jealous anymore.
+Dialogue: 0,0:15:24.73,0:15:26.53,Main Dialogue,Blonde,0000,0000,0000,,O-Okay, next.
+Dialogue: 0,0:15:27.19,0:15:32.20,sign_22231_317_Your_love_intere,Text,0000,0000,0000,,Your love interest won't even look at you, \Nbut you're popular with your clients.\N100,000 extra income
+Dialogue: 0,0:15:27.71,0:15:32.20,Main Dialogue,Blonde,0000,0000,0000,,"Your love interest won't even look at you, \Nbut you're popular with your clients."
+Dialogue: 0,0:15:32.20,0:15:34.25,Main Dialogue,Blonde,0000,0000,0000,,Y-Yay.
+Dialogue: 0,0:15:34.25,0:15:38.18,Italics Dialogue,Taskbar,0000,0000,0000,,I've never heard such a \Ndeflated "yay" in my life.
+Dialogue: 0,0:15:38.18,0:15:40.79,Italics Dialogue,Taskbar,0000,0000,0000,,The elite, blonde lone wolf, \Nflying high all by herself.
+Dialogue: 0,0:15:40.79,0:15:43.46,Italics Dialogue,Taskbar,0000,0000,0000,,To me, she looks more worn out \Nthan when she came here.
+Dialogue: 0,0:15:46.73,0:15:47.42,Main Dialogue,Taskbar,0000,0000,0000,,Four.
+Dialogue: 0,0:15:47.42,0:15:52.26,sign_21096_290__You_slip_on_a_b,,0000,0000,0000,,You cheat on your partner with \Ntheir sister. There is bloodshed. \NMiss a turn
+Dialogue: 0,0:15:47.74,0:15:48.91,Main Dialogue,Taskbar,0000,0000,0000,,Let's see...
+Dialogue: 0,0:15:48.91,0:15:50.70,Main Dialogue,Taskbar,0000,0000,0000,,"You cheat on your partner with their sister.
+Dialogue: 0,0:15:50.70,0:15:53.95,Main Dialogue,Taskbar,0000,0000,0000,,There is bloodshed. Miss a turn."
+Dialogue: 0,0:15:56.69,0:15:58.93,Main Dialogue,Sea Habitat,0000,0000,0000,,Sorry, that was probably my sister.
+Dialogue: 0,0:15:58.93,0:16:00.89,Main Dialogue,Taskbar,0000,0000,0000,,Y-Your sister was home?
+Dialogue: 0,0:16:01.28,0:16:04.85,Italics Dialogue,Taskbar,0000,0000,0000,,For a moment, I thought her sister \Nwas really going to stab me!
+Dialogue: 0,0:16:04.85,0:16:06.48,Main Dialogue,Sea Habitat,0000,0000,0000,,O-Okay, here I go.
+Dialogue: 0,0:16:10.19,0:16:11.92,Main Dialogue,Sea Habitat,0000,0000,0000,,Hmm...
+Dialogue: 0,0:16:11.92,0:16:15.24,Main Dialogue,Sea Habitat,0000,0000,0000,,"You realize that your soulmate \Nwas someone else.
+Dialogue: 0,0:16:15.24,0:16:23.50,sign_21096_290__You_slip_on_a_b,,0000,0000,0000,,You realize that your soulmate was \Nsomeone else. You learn that you had some \Nfateful connections with them, and you become \Ninfatuated. You get distracted at work \Nand lose 3,000 yen.
+Dialogue: 0,0:16:15.68,0:16:19.63,Main Dialogue,Sea Habitat,0000,0000,0000,,You learn that you had some fateful connections \Nwith them, and you become infatuated.
+Dialogue: 0,0:16:19.63,0:16:22.79,Main Dialogue,Sea Habitat,0000,0000,0000,,You get distracted at work \Nand lose 3,000 yen."
+Dialogue: 0,0:16:22.79,0:16:23.50,Main Dialogue,Sea Habitat,0000,0000,0000,,I see.
+Dialogue: 0,0:16:23.89,0:16:26.01,Main Dialogue,Sea Habitat,0000,0000,0000,,That's a really vague event.
+Dialogue: 0,0:16:26.74,0:16:29.94,Main Dialogue,Cater,0000,0000,0000,,That's too girly of an event for you.
+Dialogue: 0,0:16:29.94,0:16:31.26,Main Dialogue,Sea Habitat,0000,0000,0000,,Shut up, Keita.
+Dialogue: 0,0:16:31.26,0:16:33.97,Main Dialogue Top,Sea Habitat,0000,0000,0000,,You don't get to talk to me like that.
+Dialogue: 0,0:16:31.26,0:16:33.97,Italics Dialogue,Taskbar,0000,0000,0000,,How did this space pinpoint them so perfectly?!
+Dialogue: 0,0:16:33.97,0:16:36.22,Italics Dialogue,Taskbar,0000,0000,0000,,It's literally right on the dot!
+Dialogue: 0,0:16:36.22,0:16:39.08,Italics Dialogue,Taskbar,0000,0000,0000,,Not that anyone else is reacting much, \Nsince I'm the only one who knows!
+Dialogue: 0,0:16:39.08,0:16:42.35,Italics Dialogue,Taskbar,0000,0000,0000,,Do you know how serendipitous \Nthat space is, Hoshinomori?!
+Dialogue: 0,0:16:42.35,0:16:44.29,Main Dialogue,Cater,0000,0000,0000,,What's wrong, Uehara-kun?
+Dialogue: 0,0:16:44.29,0:16:45.73,Main Dialogue,Taskbar,0000,0000,0000,,N-Nothing!
+Dialogue: 0,0:16:45.73,0:16:47.34,Main Dialogue,Taskbar,0000,0000,0000,,Just keep playing.
+Dialogue: 0,0:16:47.34,0:16:48.82,Main Dialogue,Cater,0000,0000,0000,,A-All right.
+Dialogue: 0,0:16:49.82,0:16:51.07,sign_21096_290__You_slip_on_a_b,Text,0000,0000,0000,,You realize that your soulmate was someone else. \NYou learn that you had some fateful connections, \Nand you become infatuated. You get distracted \Nat work and lose 3,000 yen.
+Dialogue: 0,0:16:51.07,0:16:53.83,Main Dialogue,Cater,0000,0000,0000,,Bah, same space as Chiaki.
+Dialogue: 0,0:16:53.83,0:16:54.49,Main Dialogue,Cater,0000,0000,0000,,Lame.
+Dialogue: 0,0:16:54.49,0:16:58.23,Main Dialogue,Taskbar,0000,0000,0000,,That's insanely fateful, damn it!
+Dialogue: 0,0:17:00.57,0:17:01.69,Main Dialogue,Taskbar,0000,0000,0000,,My bad.
+Dialogue: 0,0:17:01.69,0:17:04.21,Main Dialogue,Taskbar,0000,0000,0000,,I'm just so happy that the \Nfive of us are playing together.
+Dialogue: 0,0:17:04.21,0:17:05.87,Main Dialogue,Taskbar,0000,0000,0000,,I'm getting weirdly excited.
+Dialogue: 0,0:17:05.87,0:17:07.18,Main Dialogue,Cater,0000,0000,0000,,Really?
+Dialogue: 0,0:17:07.59,0:17:09.93,Main Dialogue,Cater,0000,0000,0000,,Although, this is my first time doing this.
+Dialogue: 0,0:17:09.93,0:17:11.25,Main Dialogue,Cater,0000,0000,0000,,I'm having a lot of fun, too.
+Dialogue: 0,0:17:17.73,0:17:20.32,Main Dialogue,Agree,0000,0000,0000,,Oh, it's my turn next.
+Dialogue: 0,0:17:20.32,0:17:22.02,Main Dialogue,Agree,0000,0000,0000,,Let's see what happens.
+Dialogue: 0,0:17:22.53,0:17:23.72,Main Dialogue,Agree,0000,0000,0000,,Hey, it's an eight.
+Dialogue: 0,0:17:23.72,0:17:26.10,Main Dialogue,Agree,0000,0000,0000,,Woohoo! I can get far.
+Dialogue: 0,0:17:26.10,0:17:27.78,Main Dialogue,Agree,0000,0000,0000,,Okay, let's see...
+Dialogue: 0,0:17:26.10,0:17:30.61,sign_25082_364_The_person_you_d,,0000,0000,0000,,The person you'd been seeing before \Nmakes a move on you.
+Dialogue: 0,0:17:27.78,0:17:30.61,Main Dialogue,Agree,0000,0000,0000,,"The person you'd been seeing \Nbefore makes a move on you."
+Dialogue: 0,0:17:31.34,0:17:32.40,Main Dialogue,Agree,0000,0000,0000,,Seriously?
+Dialogue: 0,0:17:35.19,0:17:40.19,Main Dialogue,Agree,0000,0000,0000,,Um... "But your love for your\Ncurrent partner is unwavering!
+Dialogue: 0,0:17:35.95,0:17:47.08,sign_25082_364_The_person_you_d,,0000,0000,0000,,But your love for your current partner \Nis unwavering! You turn him/her down \Nwithout a second thought, and reaffirm \Nyour own love. You have yet another child.
+Dialogue: 0,0:17:40.19,0:17:44.45,Main Dialogue,Agree,0000,0000,0000,,You turn him down without a second thought, \Nand reaffirm your own love.
+Dialogue: 0,0:17:44.45,0:17:46.58,Main Dialogue,Agree,0000,0000,0000,,You have yet another child."
+Dialogue: 0,0:17:48.92,0:17:51.10,Main Dialogue,Blonde,0000,0000,0000,,I'm up next.
+Dialogue: 0,0:17:51.09,0:17:52.61,sign_22231_317_Your_love_intere,Text,0000,0000,0000,,You become an important person. \NYou make money. Earn 100,000 yen
+Dialogue: 0,0:17:52.61,0:17:54.59,Main Dialogue,Blonde,0000,0000,0000,,They aren't even trying now!
+Dialogue: 0,0:17:55.79,0:17:58.19,Main Dialogue,Mikuhair,0000,0000,0000,,Onee-chan, do you have a minute?
+Dialogue: 0,0:17:58.67,0:18:01.10,Main Dialogue,Sea Habitat,0000,0000,0000,,Sorry, I'll be right back.
+Dialogue: 0,0:18:02.98,0:18:04.10,Main Dialogue,Taskbar,0000,0000,0000,,Want to take a break?
+Dialogue: 0,0:18:05.62,0:18:07.52,Main Dialogue,Sea Habitat,0000,0000,0000,,What's up, Konoha?
+Dialogue: 0,0:18:07.52,0:18:10.62,Main Dialogue,Cater,0000,0000,0000,,I was kind of interested in \NChiaki's sister, actually.
+Dialogue: 0,0:18:10.62,0:18:13.11,Main Dialogue,Blonde,0000,0000,0000,,Oh? What might you mean by that?
+Dialogue: 0,0:18:13.11,0:18:15.12,Main Dialogue,Cater,0000,0000,0000,,No, not in a weird way.
+Dialogue: 0,0:18:15.12,0:18:16.54,Main Dialogue,Cater,0000,0000,0000,,I just mean their faces are similar.
+Dialogue: 0,0:18:16.54,0:18:18.18,Main Dialogue,Cater,0000,0000,0000,,That's all I mean, sir!
+Dialogue: 0,0:18:18.18,0:18:19.25,Main Dialogue,A,0000,0000,0000,,Sir?
+Dialogue: 0,0:18:21.95,0:18:23.62,Main Dialogue,Cater,0000,0000,0000,,Must be a notification from \Nmy social network game.
+Dialogue: 0,0:18:24.05,0:18:26.47,Main Dialogue,Cater,0000,0000,0000,,There's a new event starting today.
+Dialogue: 0,0:18:26.93,0:18:28.37,Italics Dialogue,Taskbar,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:18:28.37,0:18:30.48,Italics Dialogue,Taskbar,0000,0000,0000,,They're both in the same social network game,
+Dialogue: 0,0:18:30.48,0:18:32.88,Italics Dialogue,Taskbar,0000,0000,0000,,so they'll get the same event \Nnotification at the same time.
+Dialogue: 0,0:18:32.88,0:18:34.01,Italics Dialogue,Taskbar,0000,0000,0000,,Wait, crap!
+Dialogue: 0,0:18:34.01,0:18:38.25,Italics Dialogue,Taskbar,0000,0000,0000,,What if Amano picks up on it, and they start \Ntalking about the social network game?
+Dialogue: 0,0:18:41.45,0:18:42.60,Italics Dialogue,Taskbar,0000,0000,0000,,Th-There.
+Dialogue: 0,0:18:42.60,0:18:44.91,Main Dialogue,Cater,0000,0000,0000,,Uehara-kun, what are you doing?
+Dialogue: 0,0:18:44.91,0:18:46.98,Main Dialogue,Taskbar,0000,0000,0000,,Nothing, man.
+Dialogue: 0,0:18:51.05,0:18:52.79,Main Dialogue,Blonde,0000,0000,0000,,Hey, that actually looks pretty fun.
+Dialogue: 0,0:18:52.79,0:18:54.25,Main Dialogue,Cater,0000,0000,0000,,It is.
+Dialogue: 0,0:18:54.25,0:18:55.59,Main Dialogue,Cater,0000,0000,0000,,Sorry...
+Dialogue: 0,0:18:55.59,0:18:57.53,Main Dialogue,Cater,0000,0000,0000,,I don't have time to explain right now.
+Dialogue: 0,0:18:57.53,0:18:58.99,Main Dialogue,Blonde,0000,0000,0000,,Don't mind me. Keep playing.
+Dialogue: 0,0:18:59.47,0:19:02.52,Main Dialogue Top,Blonde,0000,0000,0000,,I'll just watch you play.
+Dialogue: 0,0:19:00.10,0:19:01.47,Italics Dialogue,Taskbar,0000,0000,0000,,Dodged a bullet.
+Dialogue: 0,0:19:01.47,0:19:02.52,Italics Dialogue,Taskbar,0000,0000,0000,,Good job, Tendou.
+Dialogue: 0,0:19:02.52,0:19:04.35,Main Dialogue Top,Cater,0000,0000,0000,,You're making me nervous!
+Dialogue: 0,0:19:03.15,0:19:07.01,Main Dialogue,Agree,0000,0000,0000,,Don't you think those two \Nare starting to really hit it off?
+Dialogue: 0,0:19:07.46,0:19:08.77,Main Dialogue,Taskbar,0000,0000,0000,,Yeah, they are.
+Dialogue: 0,0:19:08.77,0:19:12.96,Main Dialogue,Agree,0000,0000,0000,,I'm so happy things are \Nworking out for Amanocchi.
+Dialogue: 0,0:19:14.03,0:19:15.61,Main Dialogue,Taskbar,0000,0000,0000,,Are you?
+Dialogue: 0,0:19:16.77,0:19:18.69,Main Dialogue,Agree,0000,0000,0000,,Aren't you, Tasuku?
+Dialogue: 0,0:19:19.27,0:19:21.49,Main Dialogue,Taskbar,0000,0000,0000,,Well, I am.
+Dialogue: 0,0:19:21.49,0:19:22.97,Main Dialogue,Taskbar,0000,0000,0000,,I am, but...
+Dialogue: 0,0:19:27.02,0:19:33.73,Main Dialogue,Taskbar,0000,0000,0000,,You seem really... close to Amano. \NWhat do you think of that, really?
+Dialogue: 0,0:19:34.38,0:19:36.11,Main Dialogue,Agree,0000,0000,0000,,About Amanocchi?
+Dialogue: 0,0:19:36.11,0:19:37.37,Main Dialogue,Agree,0000,0000,0000,,What do I...
+Dialogue: 0,0:19:39.13,0:19:42.63,Main Dialogue,Agree,0000,0000,0000,,He's like a really \Nhigh-maintenance kid brother.
+Dialogue: 0,0:19:42.63,0:19:47.14,Main Dialogue,Agree,0000,0000,0000,,So he's also a bit annoying, \Nnow that he has a girlfriend.
+Dialogue: 0,0:19:47.14,0:19:51.66,Main Dialogue,Agree,0000,0000,0000,,But still, I'm generally happy for him.
+Dialogue: 0,0:19:51.66,0:19:53.08,Main Dialogue,Taskbar,0000,0000,0000,,Yeah?
+Dialogue: 0,0:19:55.79,0:19:56.81,Main Dialogue,Agree,0000,0000,0000,,Wh-What?
+Dialogue: 0,0:19:56.81,0:19:57.81,Main Dialogue,Agree,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:19:57.81,0:20:00.15,Main Dialogue,Taskbar,0000,0000,0000,,What's wrong with holding \Nyour girlfriend's hand?
+Dialogue: 0,0:20:00.15,0:20:03.55,Main Dialogue,Agree,0000,0000,0000,,Nothing's wrong. I mean, \Nyou're more than welcome...
+Dialogue: 0,0:20:04.33,0:20:06.05,Main Dialogue,Agree,0000,0000,0000,,But we're in front of Tendou-san.
+Dialogue: 0,0:20:06.05,0:20:07.38,Main Dialogue,Taskbar,0000,0000,0000,,Tendou?
+Dialogue: 0,0:20:07.38,0:20:08.54,Main Dialogue,Taskbar,0000,0000,0000,,Say what?
+Dialogue: 0,0:20:08.54,0:20:10.18,Main Dialogue,Taskbar,0000,0000,0000,,What does she have to do with it?
+Dialogue: 0,0:20:10.98,0:20:12.74,Main Dialogue,Agree,0000,0000,0000,,R-Really?
+Dialogue: 0,0:20:12.74,0:20:15.05,Main Dialogue,Agree,0000,0000,0000,,Sh-She doesn't, huh?
+Dialogue: 0,0:20:15.05,0:20:17.54,Main Dialogue,Agree,0000,0000,0000,,Tendou-san doesn't have \Nanything to do with it.
+Dialogue: 0,0:20:17.54,0:20:18.44,Main Dialogue,Agree,0000,0000,0000,,Okay.
+Dialogue: 0,0:20:19.71,0:20:22.74,Main Dialogue,Cater,0000,0000,0000,,It's just no good without Mono-san.
+Dialogue: 0,0:20:22.74,0:20:25.15,Main Dialogue,Blonde,0000,0000,0000,,Wh-Who's Mono-san?
+Dialogue: 0,0:20:25.65,0:20:28.74,Main Dialogue,Cater,0000,0000,0000,,My in-game friend who helps me out a lot.
+Dialogue: 0,0:20:28.74,0:20:31.77,Main Dialogue,Cater,0000,0000,0000,,I'm really grateful to them, \Nin a lot of ways.
+Dialogue: 0,0:20:31.77,0:20:33.21,Main Dialogue,Blonde,0000,0000,0000,,Y-Yeah?
+Dialogue: 0,0:20:33.21,0:20:36.74,Main Dialogue,Blonde,0000,0000,0000,,You have good friends online, huh?
+Dialogue: 0,0:20:37.51,0:20:41.17,Main Dialogue,Cater,0000,0000,0000,,I'm ashamed to say they seem to \Nreplace meatspace friends for me.
+Dialogue: 0,0:20:41.17,0:20:45.22,Main Dialogue,Blonde,0000,0000,0000,,A-And do you happen to have \Nother online friends?
+Dialogue: 0,0:20:45.22,0:20:47.23,Main Dialogue,Cater,0000,0000,0000,,Let's see...
+Dialogue: 0,0:20:47.23,0:20:49.85,Main Dialogue,Cater,0000,0000,0000,,I use different nicknames \Nwith different people, but...
+Dialogue: 0,0:20:49.85,0:20:51.61,Main Dialogue,Sea Habitat,0000,0000,0000,,Sorry, I'm back.
+Dialogue: 0,0:20:50.82,0:20:53.17,Main Dialogue,Cater,0000,0000,0000,,But I mainly stick to two names.
+Dialogue: 0,0:20:53.17,0:20:56.98,Main Dialogue,Cater,0000,0000,0000,,Rather, I only really talk to certain people.
+Dialogue: 0,0:21:04.25,0:21:06.92,Main Dialogue,Cater,0000,0000,0000,,In this game, I go by the name Tsucchie,
+Dialogue: 0,0:21:06.92,0:21:09.49,Main Dialogue,Cater,0000,0000,0000,,and I hang out with this person \Nnamed Mono-san.
+Dialogue: 0,0:21:09.49,0:21:12.65,Main Dialogue,Cater,0000,0000,0000,,And I use the name Yama-san only when I'm
+Dialogue: 0,0:21:12.65,0:21:17.47,Main Dialogue,Cater,0000,0000,0000,,talking to this freeware game \Ndeveloper named Nobe-san.
+Dialogue: 0,0:21:17.47,0:21:19.50,Main Dialogue,Blonde,0000,0000,0000,,Oh, really?
+Dialogue: 0,0:21:19.50,0:21:23.26,Main Dialogue,Blonde,0000,0000,0000,,So you don't have as many friends \Nas I thought online, either.
+Dialogue: 0,0:21:23.26,0:21:25.34,Main Dialogue Top,Cater,0000,0000,0000,,Well, of course.
+Dialogue: 0,0:21:25.34,0:21:29.01,Main Dialogue Top,Cater,0000,0000,0000,,I can't help that I'm just as shy online.
+Dialogue: 0,0:21:25.57,0:21:27.47,Main Dialogue,Agree,0000,0000,0000,,What's wrong, Tasuku?
+Dialogue: 0,0:21:27.47,0:21:29.01,Italics Dialogue,Taskbar,0000,0000,0000,,I can't watch.
+Dialogue: 0,0:21:29.01,0:21:33.38,Main Dialogue,Cater,0000,0000,0000,,It's just that Mono-san and \NNobe-san are special to me.
+Dialogue: 0,0:21:33.38,0:21:37.45,Main Dialogue,Cater,0000,0000,0000,,They're really, really dear to me.
+Dialogue: 0,0:21:38.89,0:21:42.18,Italics Dialogue,Taskbar,0000,0000,0000,,There before me was a woman \Nwho had finally, after all this time,
+Dialogue: 0,0:21:42.18,0:21:47.03,Italics Dialogue,Taskbar,0000,0000,0000,,made it to the start line, at the \Nabsolute worst moment imaginable.
+Dialogue: 0,0:21:48.01,0:21:52.76,Italics Dialogue,Taskbar,0000,0000,0000,,It was the tragic sight of \Na truly hopeless girl
+Dialogue: 0,0:21:52.76,0:21:57.04,Italics Dialogue,Taskbar,0000,0000,0000,,who had just begun her first love \Nwhen it was far too late.
+Dialogue: 0,0:23:33.23,0:23:34.56,Main Dialogue,Mikuhair,0000,0000,0000,,So bored.
+Dialogue: 0,0:23:34.56,0:23:37.13,Main Dialogue,Mikuhair,0000,0000,0000,,Isn't there anything fun to do?
+Dialogue: 0,0:23:39.43,0:23:40.39,Main Dialogue,Mikuhair,0000,0000,0000,,Onee-chan?!
+Dialogue: 0,0:23:40.39,0:23:41.92,Main Dialogue,Mikuhair,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:23:41.92,0:23:43.49,Main Dialogue,Sea habitat,0000,0000,0000,,Nyoronnn...

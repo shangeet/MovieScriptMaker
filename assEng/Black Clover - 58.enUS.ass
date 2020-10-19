@@ -1,0 +1,422 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H00F7FCFD,&H000000FF,&H00070805,&H000D1728,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0080,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_10911_127_Diamond_Kingdom_,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00292920,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_16097_181_MISSING,Times New Roman,28,&H00F7FBFA,&H000000FF,&H002C3639,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0070,1
+Style: sign_12489_108_You_only_eat_bar,Times New Roman,30,&H00F7FBFA,&H000000FF,&H001D1C1B,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_23016_224_Diamond__Kingdom,Times New Roman,18,&H000D1417,&H000000FF,&H00AEC5CE,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,6,0370,0070,0000,1
+Style: sign_4783_31_Clover_Kingdom,Times New Roman,22,&H000D1417,&H000000FF,&H00AEC5CE,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,0030,0320,0100,1
+Style: sign_4783_32_Diamond_Kingdom,Times New Roman,22,&H000D1417,&H000000FF,&H00AEC5CE,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,3,0320,0030,0135,1
+Style: sign_4783_33_Witches__Forest,Times New Roman,22,&H000D1417,&H000000FF,&H00AEC5CE,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0060,0250,1
+Style: sign_12291_127_Queen_of_Witches,Times New Roman,26,&H00FFFFFF,&H000000FF,&H00292920,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_15895_171_Buy_your__Vanish,Times New Roman,26,&H00FFFFFF,&H000000FF,&H00292920,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0145,1
+Style: sign_22584_248_The_most_handsom,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00292920,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0100,1
+Style: sign_33391_352_What_s_wrong_,Trebuchet MS,30,&H00040003,&H000000FF,&H00F5F5F3,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33889_364_The_Forest_of_G,Trebuchet MS,30,&H00040003,&H000000FF,&H00F5F5F3,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0075,0030,0075,1
+Style: sign_33926_366_The_Forest_of_Go,Trebuchet MS,30,&H00040003,&H000000FF,&H00F5F5F3,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0075,0075,1
+Style: sign_32988_344_Cup_o__Magic_Noo,Trebuchet MS,30,&H006DFAFA,&H000000FF,&H007C6775,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33267_347_Magic_in_3_Minut,Trebuchet MS,30,&H005240CD,&H000000FF,&H00FFFFFF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33384_349_Cup_o__Magic_Noo,Trebuchet MS,14,&H006DFAFA,&H000000FF,&H007C6775,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0320,0110,0105,1
+Style: sign_33428_350_Cup_o_Magic_Nood,Trebuchet MS,12,&H006DFAFA,&H000000FF,&H007C6775,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0431,0087,0098,1
+Style: sign_33428_351_Cup_o_Magic_Nood,Trebuchet MS,12,&H006DFAFA,&H000000FF,&H007C6775,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0151,0367,0151,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:06.71,0:00:10.67,italics,nar,0000,0000,0000,,It appeared as though humanity \Nwould be destroyed by the demons.
+Dialogue: 0,0:00:14.97,0:00:19.16,italics,Nar,0000,0000,0000,,But a single mage saved them all.
+Dialogue: 0,0:00:26.33,0:00:31.46,italics,Nar,0000,0000,0000,,He was called the Wizard King,\Nand he became a legend.
+Dialogue: 0,0:00:34.66,0:00:38.89,italics,Nar,0000,0000,0000,,Vetto cast an ancient curse on Asta's arms.
+Dialogue: 0,0:00:38.89,0:00:41.22,italics,Nar,0000,0000,0000,,The only hope of healing his arms was
+Dialogue: 0,0:00:41.22,0:00:44.12,italics,Nar,0000,0000,0000,,the Queen of Witches, \Nwho lives in the Witches' Forest.
+Dialogue: 0,0:00:44.12,0:00:45.05,italics,Nar,0000,0000,0000,,But...
+Dialogue: 0,0:00:45.05,0:00:47.95,main,Domina,0000,0000,0000,,To be blunt, the queen is supreme.
+Dialogue: 0,0:00:47.95,0:00:51.65,main,Domina,0000,0000,0000,,She's so powerful that even the \NDiamond Kingdom won't try to deal with her.
+Dialogue: 0,0:00:52.02,0:00:54.95,main,Domina,0000,0000,0000,,Not to mention that it's impossible \Nto reason with her.
+Dialogue: 0,0:00:54.95,0:00:56.16,main,Noelle,0000,0000,0000,,We're going.
+Dialogue: 0,0:00:56.16,0:00:59.12,main,Noelle,0000,0000,0000,,If there's a clue to healing\N Asta's arms there...
+Dialogue: 0,0:00:59.88,0:01:03.33,italics,Nar,0000,0000,0000,,Meanwhile, Vanessa was \Nalso visiting her home,
+Dialogue: 0,0:01:03.33,0:01:06.83,italics,Nar,0000,0000,0000,,the Witches' Forest,\Nin order to fix Asta's arms.
+Dialogue: 0,0:01:06.83,0:01:07.75,main,Domina,0000,0000,0000,,There it is!
+Dialogue: 0,0:01:08.16,0:01:09.29,main,Guys,0000,0000,0000,,Yeah!
+Dialogue: 0,0:01:09.81,0:01:14.09,italics,Nar,0000,0000,0000,,When Asta and the others reached \Nthe Queen of Witches, they saw...
+Dialogue: 0,0:01:14.09,0:01:16.37,main,Noelle,0000,0000,0000,,Now get your foot off of her!
+Dialogue: 0,0:01:16.37,0:01:19.39,main,Asta,0000,0000,0000,,Miz Vanessa is one of us!
+Dialogue: 0,0:01:19.39,0:01:20.68,main,Witch queen,0000,0000,0000,,You fools.
+Dialogue: 0,0:01:21.11,0:01:24.77,main,Witch queen,0000,0000,0000,,What could imperfect creatures \Nsuch as yourselves possibly do?
+Dialogue: 0,0:01:29.03,0:01:31.73,main,Witch queen,0000,0000,0000,,They were much faster than I expected.
+Dialogue: 0,0:01:32.36,0:01:34.26,main,Witch queen,0000,0000,0000,,The Eye of the Midnight Sun...
+Dialogue: 0,0:01:45.29,0:01:48.71,Ep Title,Sign,0000,0000,0000,,{\fad(1023,1)}Battlefield Decision
+Dialogue: 0,0:03:05.83,0:03:08.79,sign_12291_127_Queen_of_Witches,Sign,0000,0000,0000,,The Eye of the Midnight Sun
+Dialogue: 0,0:03:08.79,0:03:10.44,main,Noelle,0000,0000,0000,,The Eye of the Midnight Sun?
+Dialogue: 0,0:03:10.44,0:03:12.22,main,Asta,0000,0000,0000,,Why are they heading here?
+Dialogue: 0,0:03:12.22,0:03:15.79,main,Finral,0000,0000,0000,,Y-You're not just saying \Nthat to trick us, are you?
+Dialogue: 0,0:03:16.18,0:03:17.38,main,Witch queen,0000,0000,0000,,How imperfect.
+Dialogue: 0,0:03:18.84,0:03:24.76,main,Witch queen,0000,0000,0000,,If I chose to do so, I could end your \Npathetic lives at this very moment.
+Dialogue: 0,0:03:24.76,0:03:27.40,main,Witch queen,0000,0000,0000,,Why would I need to lie?
+Dialogue: 0,0:03:35.53,0:03:37.72,main,Finral,0000,0000,0000,,She was at Nean!
+Dialogue: 0,0:03:37.72,0:03:40.73,main,Asta,0000,0000,0000,,She's from the Third Eye or whatever, \Njust like the hairy gorilla
+Dialogue: 0,0:03:40.73,0:03:43.13,main,Asta,0000,0000,0000,,that did this to my arms! \NShe's super bad news!
+Dialogue: 0,0:03:46.79,0:03:49.61,main,Noelle,0000,0000,0000,,Then she's probably as powerful as Vetto.
+Dialogue: 0,0:03:49.61,0:03:51.29,main,Noelle,0000,0000,0000,,She could be even more powerful!
+Dialogue: 0,0:03:51.29,0:03:55.67,italics,Finral,0000,0000,0000,,You can't be serious!\N Please tell me you're lying!
+Dialogue: 0,0:03:56.34,0:03:57.83,main,Witch queen,0000,0000,0000,,It matters not.
+Dialogue: 0,0:03:57.83,0:04:02.45,main,Witch queen,0000,0000,0000,,I will be more than happy to rid this \Nworld of any imperfect creatures.
+Dialogue: 0,0:04:02.45,0:04:04.23,main,Witch queen,0000,0000,0000,,Warn the others.
+Dialogue: 0,0:04:10.60,0:04:14.60,sign_10911_127_Diamond_Kingdom_,Sign,0000,0000,0000,,The Eye of the Midnight Sun\N{\fs30}Fana the Hateful
+Dialogue: 0,0:04:15.16,0:04:20.56,main,Shidan,0000,0000,0000,,The Queen of Witches, who pilfered one \Nof the magic stones, lives in that forest.
+Dialogue: 0,0:04:20.56,0:04:24.28,main,Fana,0000,0000,0000,,The humans that stole Vetto's \Nlife are also there.
+Dialogue: 0,0:04:24.28,0:04:28.91,sign_10911_127_Diamond_Kingdom_,Sign,0000,0000,0000,,The Eye of the Midnight Sun\N{\fs30}Shidan
+Dialogue: 0,0:04:24.28,0:04:28.91,top,Shidan,0000,0000,0000,,Indeed. They might have realized \Nthe magic stone is there, as well.
+Dialogue: 0,0:04:29.51,0:04:34.67,main,Fana,0000,0000,0000,,They're unforgivable. I'll destroy everything\N and take the magic stone.
+Dialogue: 0,0:04:36.02,0:04:39.77,main,Shidan,0000,0000,0000,,I'm sure Master Licht will be pleased.
+Dialogue: 0,0:04:39.77,0:04:44.20,main,Shidan,0000,0000,0000,,It seems they are with the queen \Nin the middle of the forest.
+Dialogue: 0,0:04:44.20,0:04:48.10,main,Shidan,0000,0000,0000,,Let us burn them all and make examples \Nof them to the rest of the world.
+Dialogue: 0,0:04:49.03,0:04:54.60,main,Fana,0000,0000,0000,,Flame Spirit Magic: Salamander's Breath.
+Dialogue: 0,0:05:09.53,0:05:10.82,main,Witch,0000,0000,0000,,Flames!
+Dialogue: 0,0:05:10.82,0:05:12.08,main,Witch,0000,0000,0000,,We're being attacked!
+Dialogue: 0,0:05:15.11,0:05:16.33,main,Asta,0000,0000,0000,,The forest...
+Dialogue: 0,0:05:16.33,0:05:20.36,main,Finral,0000,0000,0000,,S-Such powerful flame magic...
+Dialogue: 0,0:05:21.48,0:05:24.48,italics,Witch queen,0000,0000,0000,,The Flame Spirit, Salamander.
+Dialogue: 0,0:05:24.48,0:05:29.80,italics,Witch queen,0000,0000,0000,,Its form is still not complete,\N and yet it's this powerful...
+Dialogue: 0,0:05:30.15,0:05:33.12,italics,Witch queen,0000,0000,0000,,It's much stronger than I predicted.
+Dialogue: 0,0:05:33.12,0:05:35.31,italics,Witch queen,0000,0000,0000,,My readings were slightly off.
+Dialogue: 0,0:05:35.31,0:05:39.05,italics,Witch queen,0000,0000,0000,,Any time fate veers off-course, \Nmore deviations follow.
+Dialogue: 0,0:05:39.05,0:05:40.81,italics,Witch queen,0000,0000,0000,,It can't be...
+Dialogue: 0,0:05:43.73,0:05:44.99,main,Asta,0000,0000,0000,,There are more of them!
+Dialogue: 0,0:05:46.07,0:05:47.65,main,Domina,0000,0000,0000,,Th-That's...
+Dialogue: 0,0:05:48.49,0:05:51.21,main,Mariella,0000,0000,0000,,Near the border of the Diamond Kingdom.
+Dialogue: 0,0:05:51.21,0:05:52.33,main,Fanzell,0000,0000,0000,,Yeah.
+Dialogue: 0,0:05:53.25,0:05:55.03,main,Witch queen,0000,0000,0000,,As I suspected...
+Dialogue: 0,0:05:55.03,0:05:58.87,main,Witch queen,0000,0000,0000,,I thought this fate would \Ncome to pass much later,
+Dialogue: 0,0:05:58.87,0:06:03.11,main,Witch queen,0000,0000,0000,,but the other force that wishes \Nto attack this forest...
+Dialogue: 0,0:06:03.72,0:06:06.34,main,Witch queen,0000,0000,0000,,The Diamond Kingdom.
+Dialogue: 0,0:06:09.11,0:06:11.93,main,Noelle,0000,0000,0000,,You can't be serious. They're coming here?
+Dialogue: 0,0:06:15.93,0:06:20.94,sign_10911_127_Diamond_Kingdom_,Sign,0000,0000,0000,,{\fad(1,936)}One of the Diamond Kingdom's Eight Shining Generals\N{\fs30}Ladros
+Dialogue: 0,0:06:15.93,0:06:21.17,top,Ladros,0000,0000,0000,,Man... and just as I was relaxing \Nin a nice aromatherapy bath.
+Dialogue: 0,0:06:21.17,0:06:23.94,main,Ladros,0000,0000,0000,,What's with the emergency summons?
+Dialogue: 0,0:06:24.82,0:06:26.25,top,Mars,0000,0000,0000,,We got word that the
+Dialogue: 0,0:06:26.05,0:06:32.05,sign_10911_127_Diamond_Kingdom_,Sign,0000,0000,0000,,{\fad(753,993)}One of the Diamond Kingdom's Eight Shining Generals\N{\fs30}Mars
+Dialogue: 0,0:06:26.25,0:06:29.53,top,Mars,0000,0000,0000,,Eye of the Midnight Sun is going \Nto attack the Witches' Forest.
+Dialogue: 0,0:06:30.02,0:06:33.95,top,Mar,0000,0000,0000,,We have been ordered to take advantage\N of the chaos that will cause
+Dialogue: 0,0:06:33.95,0:06:36.37,top,Mar,0000,0000,0000,,to capture the Queen of Witches.
+Dialogue: 0,0:06:36.37,0:06:41.43,main,Ladros,0000,0000,0000,,We could do that easily \Nwithout being so sneaky.
+Dialogue: 0,0:06:42.01,0:06:43.75,main,Mars,0000,0000,0000,,Orders are orders.
+Dialogue: 0,0:06:46.73,0:06:48.74,main,Asta,0000,0000,0000,,That really pale guy...
+Dialogue: 0,0:06:49.17,0:06:51.39,main,Asta,0000,0000,0000,,It's the super strong guy \Nwe fought in the dungeon!
+Dialogue: 0,0:06:53.96,0:06:56.60,main,Asta,0000,0000,0000,,Thank goodness... He's alive!
+Dialogue: 0,0:06:56.60,0:06:57.98,main,Finral,0000,0000,0000,,Should you be happy about that?!
+Dialogue: 0,0:06:58.89,0:07:02.65,italics,Finral,0000,0000,0000,,S-Seriously?! What's going on?
+Dialogue: 0,0:07:02.65,0:07:05.81,italics,Finral,0000,0000,0000,,This was already bad enough,\N but it just keeps getting worse!
+Dialogue: 0,0:07:05.81,0:07:08.49,italics,Finral,0000,0000,0000,,Why does this keep happening lately?!
+Dialogue: 0,0:07:11.00,0:07:14.46,italics,Fanzell,0000,0000,0000,,Is that... Mars?
+Dialogue: 0,0:07:14.46,0:07:17.91,italics,Fanzell,0000,0000,0000,,Then the one next to him must be Ladros.
+Dialogue: 0,0:07:19.13,0:07:20.41,italics,Domina,0000,0000,0000,,Zell...
+Dialogue: 0,0:07:20.41,0:07:23.80,main,Asta,0000,0000,0000,,Anyway, we have to protect \Nthe Witches' Forest!
+Dialogue: 0,0:07:23.80,0:07:27.72,main,Asta,0000,0000,0000,,I'll defeat both the Eye of the \NMidnight Sun and the Diamonds!
+Dialogue: 0,0:07:27.72,0:07:29.69,main,Noelle,0000,0000,0000,,And how are you going to \Ndo that with those arms?
+Dialogue: 0,0:07:31.39,0:07:33.30,main,Asta,0000,0000,0000,,That's right!
+Dialogue: 0,0:07:33.65,0:07:37.47,main,Noelle,0000,0000,0000,,The whole reason we even came \Nhere was to fix your arms.
+Dialogue: 0,0:07:37.47,0:07:39.33,main,Asta,0000,0000,0000,,Right...
+Dialogue: 0,0:07:39.33,0:07:42.49,main,Asta,0000,0000,0000,,So much is going on that I totally forgot!
+Dialogue: 0,0:07:42.49,0:07:43.35,italics,All,0000,0000,0000,,He's got a point.
+Dialogue: 0,0:07:43.35,0:07:45.61,main,Asta,0000,0000,0000,,Damn it all!
+Dialogue: 0,0:07:49.51,0:07:50.79,main,Vanessa,0000,0000,0000,,Captain?
+Dialogue: 0,0:07:53.41,0:07:56.70,main,Vanessa,0000,0000,0000,,Asta? Wait, what are you doing here?
+Dialogue: 0,0:07:56.70,0:07:58.66,main,Asta,0000,0000,0000,,Miz Vanessa!
+Dialogue: 0,0:07:58.66,0:08:01.04,main,Asta,0000,0000,0000,,Thank goodness! You're awake!
+Dialogue: 0,0:08:01.04,0:08:02.67,main,Noelle,0000,0000,0000,,Vanessa!
+Dialogue: 0,0:08:02.67,0:08:06.95,main,Finral,0000,0000,0000,,Honestly, you were trying to \Ndo way too much by yourself.
+Dialogue: 0,0:08:06.95,0:08:09.30,main,Vanessa,0000,0000,0000,,Noelle... Finral...
+Dialogue: 0,0:08:09.30,0:08:10.59,main,Vanessa,0000,0000,0000,,You're here, too?
+Dialogue: 0,0:08:11.02,0:08:14.59,main,Vanessa,0000,0000,0000,,Huh? And some other familiar faces...
+Dialogue: 0,0:08:14.93,0:08:16.73,main,Vanessa,0000,0000,0000,,Though one appears to have lost his shirt.
+Dialogue: 0,0:08:16.73,0:08:18.32,main,Fanzell,0000,0000,0000,,Well, you see...
+Dialogue: 0,0:08:18.32,0:08:20.19,main,Mariella,0000,0000,0000,,That's just his hobby.
+Dialogue: 0,0:08:20.19,0:08:22.39,main,Fanzell,0000,0000,0000,,No, really, it isn't.
+Dialogue: 0,0:08:22.73,0:08:24.79,main,Domina,0000,0000,0000,,It's been a while, Vanessa.
+Dialogue: 0,0:08:24.79,0:08:28.93,main,Domina,0000,0000,0000,,We were also looking for \Na way to cure Asta's arms
+Dialogue: 0,0:08:28.93,0:08:32.28,main,Domina,0000,0000,0000,,and ended up in the same place as you.
+Dialogue: 0,0:08:33.25,0:08:34.28,main,Vanessa,0000,0000,0000,,That's right!
+Dialogue: 0,0:08:36.10,0:08:39.51,main,Vanessa,0000,0000,0000,,Just you wait, Asta. \NI'm going to talk to the queen
+Dialogue: 0,0:08:39.51,0:08:41.95,main,Vanessa,0000,0000,0000,,and have her fix your arms!
+Dialogue: 0,0:08:41.95,0:08:43.21,main,Asta,0000,0000,0000,,I decline your offer!
+Dialogue: 0,0:08:43.21,0:08:44.08,main,Vanessa,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:44.77,0:08:47.48,main,Asta,0000,0000,0000,,It would be in exchange \Nfor your freedom, right?
+Dialogue: 0,0:08:47.48,0:08:50.38,main,Asta,0000,0000,0000,,I refuse to let you do that!
+Dialogue: 0,0:08:50.38,0:08:54.20,main,Vanessa,0000,0000,0000,,Wha... How can you be so selfish?!
+Dialogue: 0,0:08:54.20,0:08:56.84,main,Vanessa,0000,0000,0000,,This is the only way, you moron!
+Dialogue: 0,0:08:56.84,0:09:00.10,main,Asta,0000,0000,0000,,You're the one being \Nselfish here, Miz Vanessa!
+Dialogue: 0,0:09:00.10,0:09:04.96,main,Asta,0000,0000,0000,,How could you sneak back home \Nwithout telling anyone, you drunk?!
+Dialogue: 0,0:09:04.96,0:09:08.45,main,Vanessa,0000,0000,0000,,Well, what was I supposed to do, you shrimp?!
+Dialogue: 0,0:09:06.77,0:09:11.56,main,Finral,0000,0000,0000,,U-Uh, calm down, you two...
+Dialogue: 0,0:09:08.45,0:09:09.79,main,Asta,0000,0000,0000,,I'll figure it out!
+Dialogue: 0,0:09:09.79,0:09:11.56,main,Vanessa,0000,0000,0000,,And how are you going to do that?!
+Dialogue: 0,0:09:11.56,0:09:12.90,main,Both,0000,0000,0000,,Shut up!
+Dialogue: 0,0:09:13.35,0:09:15.03,italics,Finral,0000,0000,0000,,Even Asta told me to shut up!
+Dialogue: 0,0:09:15.03,0:09:16.93,italics,Finral,0000,0000,0000,,But I have seniority...
+Dialogue: 0,0:09:18.66,0:09:23.83,main,Asta,0000,0000,0000,,You don't have to go through all this.\NI still have my last resort!
+Dialogue: 0,0:09:31.40,0:09:33.40,main,Noelle,0000,0000,0000,,H-Hey, Asta!
+Dialogue: 0,0:09:33.40,0:09:36.44,main,Fanzell,0000,0000,0000,,H-His eyes look a little crazed, don't they?
+Dialogue: 0,0:09:36.44,0:09:38.09,main,Mariella,0000,0000,0000,,I have a bad feeling about this.
+Dialogue: 0,0:09:38.09,0:09:40.35,main,Vanessa,0000,0000,0000,,Wh-What are you trying to do?
+Dialogue: 0,0:09:40.35,0:09:42.06,main,Asta,0000,0000,0000,,This!
+Dialogue: 0,0:09:44.17,0:09:45.56,italics,Witch Queen,0000,0000,0000,,That sword...
+Dialogue: 0,0:09:51.43,0:09:53.36,main,Asta,0000,0000,0000,,Ow!
+Dialogue: 0,0:09:52.34,0:09:53.36,main,All,0000,0000,0000,,Asta!
+Dialogue: 0,0:09:53.36,0:09:55.41,main,Vanessa,0000,0000,0000,,What are you doing, you moron?!
+Dialogue: 0,0:09:55.41,0:09:58.67,main,Vanessa,0000,0000,0000,,That curse has sunk deep into your arms!
+Dialogue: 0,0:09:58.67,0:10:00.90,main,Vanessa,0000,0000,0000,,No matter how crazy you try to get,
+Dialogue: 0,0:10:00.90,0:10:03.96,main,Vanessa,0000,0000,0000,,you can't always compete \Nwith the fate you're dealt!
+Dialogue: 0,0:10:05.49,0:10:08.96,main,Asta,0000,0000,0000,,So you're telling me that\N it's my fate to sacrifice
+Dialogue: 0,0:10:08.96,0:10:11.96,main,Asta,0000,0000,0000,,one of my friends for my arms to get better?!
+Dialogue: 0,0:10:12.31,0:10:16.72,main,Asta,0000,0000,0000,,Who the hell's gonna abide by that?!
+Dialogue: 0,0:10:16.72,0:10:21.22,main,Asta,0000,0000,0000,,I don't care if I have to crush fate itself!\N I'm gonna fight with these arms!
+Dialogue: 0,0:10:24.10,0:10:28.77,flashback,Yami,0000,0000,0000,,Huh? It's your fate to stay here?
+Dialogue: 0,0:10:28.77,0:10:31.61,flashback,Yami,0000,0000,0000,,Oh, yeah, yeah. Good ol' fate.
+Dialogue: 0,0:10:32.09,0:10:34.72,flashback,Yami,0000,0000,0000,,I hate that crap.
+Dialogue: 0,0:10:34.72,0:10:37.10,flashback,Yami,0000,0000,0000,,Who the hell's gonna abide by that?
+Dialogue: 0,0:10:37.10,0:10:39.89,flashback,Yami,0000,0000,0000,,I'm gonna do what I want, even if it \Nmeans I have to crush fate itself.
+Dialogue: 0,0:10:42.76,0:10:46.50,italics,Vanessa,0000,0000,0000,,He just said the same \Nthing Captain Yami did.
+Dialogue: 0,0:10:48.00,0:10:50.54,main,Asta,0000,0000,0000,,One more time!
+Dialogue: 0,0:10:50.54,0:10:51.92,main,Vanessa,0000,0000,0000,,You idiot!
+Dialogue: 0,0:10:52.84,0:10:54.92,main,Vanessa,0000,0000,0000,,That's enough!
+Dialogue: 0,0:10:54.92,0:10:58.67,main,Vanessa,0000,0000,0000,,Your friends aren't here to be sacrificed!
+Dialogue: 0,0:10:58.67,0:11:02.02,main,Vanessa,0000,0000,0000,,They're here to win against a fate \Nthat you can't fight on your own!
+Dialogue: 0,0:11:03.18,0:11:07.97,main,Vanessa,0000,0000,0000,,I have no intention of sacrificing \Nmyself for you, either!
+Dialogue: 0,0:11:08.45,0:11:12.14,main,Vanessa,0000,0000,0000,,After I use the queen to fix your arms,
+Dialogue: 0,0:11:12.14,0:11:14.47,main,Vanessa,0000,0000,0000,,I'm going to use that anti-magic of yours
+Dialogue: 0,0:11:14.47,0:11:16.78,main,Vanessa,0000,0000,0000,,to get the hell out of here!
+Dialogue: 0,0:11:18.63,0:11:19.79,main,Vanessa,0000,0000,0000,,Crap...
+Dialogue: 0,0:11:19.79,0:11:23.07,main,Asta,0000,0000,0000,,Oh, then you should've just said so.
+Dialogue: 0,0:11:23.43,0:11:27.16,main,Finral,0000,0000,0000,,Uh, I'm pretty sure you shouldn't \Nhave said that out loud...
+Dialogue: 0,0:11:29.56,0:11:31.78,main,Noelle,0000,0000,0000,,Hey, Queenie.
+Dialogue: 0,0:11:32.71,0:11:37.01,main,Noelle,0000,0000,0000,,If you can actually dispel Asta's curse, \Ncould you go ahead and do it already?
+Dialogue: 0,0:11:37.01,0:11:39.97,main,Noelle,0000,0000,0000,,Looks like your forest's in a lot of trouble.
+Dialogue: 0,0:11:41.97,0:11:45.10,main,noelle,0000,0000,0000,,He wants to save the people \Nout there as soon as possible.
+Dialogue: 0,0:11:45.65,0:11:48.11,main,Noelle,0000,0000,0000,,He's an idiot, but he's strong.
+Dialogue: 0,0:11:48.11,0:11:50.20,main,Noelle,0000,0000,0000,,I'm sure he'll be useful to you if you heal him!
+Dialogue: 0,0:11:50.20,0:11:53.23,main,Noelle,0000,0000,0000,,And if he goes,
+Dialogue: 0,0:11:53.23,0:11:54.73,main,Noelle,0000,0000,0000,,we'll follow.
+Dialogue: 0,0:11:56.28,0:11:57.86,main,Noelle,0000,0000,0000,,The enemy is immense.
+Dialogue: 0,0:11:58.18,0:12:01.00,main,Noelle,0000,0000,0000,,Couldn't you use all the manpower \Nyou can get right now?
+Dialogue: 0,0:12:03.53,0:12:08.16,main,Noelle,0000,0000,0000,,If you're truly a queen, you should be \Ndoing whatever's best for your forest!
+Dialogue: 0,0:12:10.41,0:12:16.17,main,Witch queen,0000,0000,0000,,It's true. We currently lack the strength \Nto deal with the impending attackers.
+Dialogue: 0,0:12:16.92,0:12:20.92,main,Witch queen,0000,0000,0000,,Very well. I shall heal that brat's arms.
+Dialogue: 0,0:12:20.92,0:12:24.13,main,Witch queen,0000,0000,0000,,I'll even make them sturdier than before.
+Dialogue: 0,0:12:24.71,0:12:30.43,main,Asta,0000,0000,0000,,Sturdier? Really? Are they gonna be \Nhuge like Captain Yami's, then?
+Dialogue: 0,0:12:30.43,0:12:32.49,main,Mariella,0000,0000,0000,,I highly doubt that.
+Dialogue: 0,0:12:32.49,0:12:35.25,main,Mariella,0000,0000,0000,,Sturdiness isn't necessarily \Nequal to how big they are.
+Dialogue: 0,0:12:35.25,0:12:38.26,main,Asta,0000,0000,0000,,Aw, come on!
+Dialogue: 0,0:12:38.26,0:12:40.28,main,Mariella,0000,0000,0000,,What am I supposed to do about it?
+Dialogue: 0,0:12:40.28,0:12:43.77,main,Noelle,0000,0000,0000,,You've got some guts, Noelle!
+Dialogue: 0,0:12:43.77,0:12:48.58,main,Domina,0000,0000,0000,,Yeah! I've never seen anyone \Ntalk down to the queen before!
+Dialogue: 0,0:12:49.13,0:12:51.14,main,Noelle,0000,0000,0000,,I'm royalty myself.
+Dialogue: 0,0:12:52.66,0:12:54.62,italics,Noelle,0000,0000,0000,,My legs are still shaking...
+Dialogue: 0,0:12:56.28,0:12:58.47,italics,Witch queen,0000,0000,0000,,Be merry while you still can.
+Dialogue: 0,0:12:58.47,0:13:00.21,italics,Witch queen,0000,0000,0000,,But in the end, both Vanessa
+Dialogue: 0,0:13:00.21,0:13:06.38,italics,Witch queen,0000,0000,0000,,and that boy's anti-magic \Nsword's powers shall be mine.
+Dialogue: 0,0:13:07.25,0:13:11.86,main,Witch queen,0000,0000,0000,,Blood Recovery Magic: \NCurse-Breaking Blood-Filled Cocoon.
+Dialogue: 0,0:13:17.65,0:13:21.94,main,Asta,0000,0000,0000,,My arms feel so light! This is awesome!
+Dialogue: 0,0:13:23.21,0:13:26.66,main,Noelle,0000,0000,0000,,She performed such a powerful \Nspell in a mere instant?
+Dialogue: 0,0:13:27.40,0:13:29.56,main,Noelle,0000,0000,0000,,This is the power of the queen?
+Dialogue: 0,0:13:30.50,0:13:35.16,main,Asta,0000,0000,0000,,This is great! They're completely better!
+Dialogue: 0,0:13:35.16,0:13:37.42,main,Asta,0000,0000,0000,,Look! Look, look, look, look!
+Dialogue: 0,0:13:37.42,0:13:39.22,main,All,0000,0000,0000,,Asta!
+Dialogue: 0,0:13:37.42,0:13:39.22,main,Asta,0000,0000,0000,,Look, look, look, look!
+Dialogue: 0,0:13:39.22,0:13:42.57,main,Asta,0000,0000,0000,,Now, when my back itches, I don't \Nhave to scratch it against a pole!
+Dialogue: 0,0:13:42.57,0:13:44.13,main,Asta,0000,0000,0000,,And I can pick my nose!
+Dialogue: 0,0:13:44.13,0:13:47.93,main,Asta,0000,0000,0000,,But what I'm happiest about is that \NI'll be able to work out again!
+Dialogue: 0,0:13:48.41,0:13:49.96,main,Both,0000,0000,0000,,Asta...
+Dialogue: 0,0:13:49.96,0:13:51.43,main,Noelle,0000,0000,0000,,He's still an idiot.
+Dialogue: 0,0:13:52.02,0:13:55.93,main,Asta,0000,0000,0000,,Well, I don't know if they're \Nactually sturdier or not,
+Dialogue: 0,0:13:55.93,0:13:58.81,main,Asta,0000,0000,0000,,but I can feel strength welling up inside me!
+Dialogue: 0,0:13:59.37,0:14:02.27,main,Asta,0000,0000,0000,,All right! Let's go, guys!
+Dialogue: 0,0:14:02.61,0:14:03.97,main,All,0000,0000,0000,,Yeah!
+Dialogue: 0,0:14:10.26,0:14:13.29,main,Asta,0000,0000,0000,,All right! Let's go, guys!
+Dialogue: 0,0:14:13.64,0:14:15.20,main,All,0000,0000,0000,,Yeah!
+Dialogue: 0,0:14:15.20,0:14:16.45,main,All,0000,0000,0000,,Or...
+Dialogue: 0,0:14:16.45,0:14:18.80,main,Noelle,0000,0000,0000,,"Let's go," my ass!
+Dialogue: 0,0:14:18.80,0:14:21.55,main,Finral,0000,0000,0000,,Do you know how worried we were?!
+Dialogue: 0,0:14:21.55,0:14:23.73,main,Vanessa,0000,0000,0000,,You crazy moron!
+Dialogue: 0,0:14:24.53,0:14:27.23,main,Noelle,0000,0000,0000,,You could barely move a second ago!
+Dialogue: 0,0:14:24.53,0:14:28.43,main,Both,0000,0000,0000,,Take that! And that! And that! And that!
+Dialogue: 0,0:14:28.43,0:14:31.43,main,Noelle,0000,0000,0000,,Here! Take your stupid robe!
+Dialogue: 0,0:14:31.43,0:14:36.43,main,Asta,0000,0000,0000,,Thank you so much, guys! And I'm sorry!
+Dialogue: 0,0:14:36.43,0:14:38.11,main,Asta,0000,0000,0000,,No effect!
+Dialogue: 0,0:14:38.11,0:14:38.96,main,Finral,0000,0000,0000,,They're so hard!
+Dialogue: 0,0:14:38.96,0:14:41.23,main,Vanessa,0000,0000,0000,,What the heck? Did she use \Na strengthening spell?!
+Dialogue: 0,0:14:41.65,0:14:45.05,main,Asta,0000,0000,0000,,No! They're just pure muscle! Hurgh!
+Dialogue: 0,0:14:46.04,0:14:47.49,main,Fanzell,0000,0000,0000,,Congrats, Asta.
+Dialogue: 0,0:14:47.80,0:14:50.77,main,Asta,0000,0000,0000,,Yeah! Thank you all for what you did, too!
+Dialogue: 0,0:14:51.62,0:14:53.61,main,Witch queen,0000,0000,0000,,I've fulfilled my end of the bargain.
+Dialogue: 0,0:14:54.41,0:14:58.41,main,Witch queen,0000,0000,0000,,Now let us see this so-called power of yours.
+Dialogue: 0,0:14:58.73,0:15:00.80,main,Asta,0000,0000,0000,,Yeah! Leave this to us!
+Dialogue: 0,0:15:00.80,0:15:02.95,main,Asta,0000,0000,0000,,Thanks for fixing my arms!
+Dialogue: 0,0:15:02.95,0:15:04.34,main,Witch queen,0000,0000,0000,,Hmph.
+Dialogue: 0,0:15:04.97,0:15:08.72,main,Fanzell,0000,0000,0000,,Asta, leave the Diamond forces to us.
+Dialogue: 0,0:15:09.22,0:15:14.14,main,Fanzell,0000,0000,0000,,Mars and Ladros... I have some \Nunfinished business with them.
+Dialogue: 0,0:15:15.33,0:15:18.55,main,Asta,0000,0000,0000,,All right, Old Man Zell. Don't die.
+Dialogue: 0,0:15:18.55,0:15:19.39,main,Fanzell,0000,0000,0000,,Yeah.
+Dialogue: 0,0:15:19.87,0:15:21.85,main,Asta,0000,0000,0000,,And put some clothes on.
+Dialogue: 0,0:15:21.85,0:15:22.85,main,Fanzell,0000,0000,0000,,Right...
+Dialogue: 0,0:15:22.85,0:15:24.27,main,Noelle,0000,0000,0000,,You, too!
+Dialogue: 0,0:15:29.25,0:15:31.19,main,Shidan,0000,0000,0000,,Burn! Burn!
+Dialogue: 0,0:15:31.19,0:15:33.93,main,Shidan,0000,0000,0000,,Have they given up after a \Nsingle attack by Lady Fana?
+Dialogue: 0,0:15:33.93,0:15:37.56,main,Shidan,0000,0000,0000,,They're weaker than I thought.
+Dialogue: 0,0:15:38.61,0:15:39.66,main,Guy,0000,0000,0000,,L-Look!
+Dialogue: 0,0:15:42.83,0:15:46.24,main,Witch,0000,0000,0000,,They must be the enemies \Nyou warned us about!
+Dialogue: 0,0:15:46.24,0:15:48.08,main,Witch 2,0000,0000,0000,,How dare you do this?!
+Dialogue: 0,0:15:48.08,0:15:49.59,main,Witch 2,0000,0000,0000,,Let's go, Akimo!
+Dialogue: 0,0:15:49.59,0:15:52.47,main,Akimo,0000,0000,0000,,Yeah! Let's protect the forest!
+Dialogue: 0,0:15:53.51,0:15:55.51,main,Guys,0000,0000,0000,,Wh-What's that monster?
+Dialogue: 0,0:16:04.79,0:16:06.69,main,Shidan,0000,0000,0000,,Stay calm.
+Dialogue: 0,0:16:14.44,0:16:16.24,main,Witch 3,0000,0000,0000,,The queen's golem!
+Dialogue: 0,0:16:16.24,0:16:18.74,main,Witch 2,0000,0000,0000,,Wh-Who are those guys?
+Dialogue: 0,0:16:20.09,0:16:22.71,main,Shidan,0000,0000,0000,,The great Third Eye is magnificent!
+Dialogue: 0,0:16:22.71,0:16:26.74,main,Shidan,0000,0000,0000,,Lady Fana is not only immensely \Npowerful, but also beautiful.
+Dialogue: 0,0:16:26.74,0:16:31.42,main,Shidan,0000,0000,0000,,I'd love to have a shot at her \Nif I ever get the chance.
+Dialogue: 0,0:16:31.42,0:16:37.39,main,Shidan,0000,0000,0000,,But I guess I'll just have to settle \Nfor these lowly witches today.
+Dialogue: 0,0:16:37.39,0:16:39.07,main,Shidan,0000,0000,0000,,Attack!
+Dialogue: 0,0:16:39.07,0:16:40.02,main,All,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:16:40.02,0:16:42.92,main,Shidan,0000,0000,0000,,Make sure you capture the lookers alive.
+Dialogue: 0,0:16:42.92,0:16:47.65,main,Shidan,0000,0000,0000,,These witches possess powerful magic. \NThey'll make excellent slaves.
+Dialogue: 0,0:16:51.40,0:16:53.40,main,Witch,0000,0000,0000,,N-No!
+Dialogue: 0,0:16:57.27,0:16:58.63,main,Asta,0000,0000,0000,,Are you okay?!
+Dialogue: 0,0:16:58.63,0:16:59.74,main,Witch,0000,0000,0000,,Huh?
+Dialogue: 0,0:16:59.74,0:17:03.00,main,Witch,0000,0000,0000,,Eek! I was saved by a man!
+Dialogue: 0,0:17:03.00,0:17:04.66,main,Witch,0000,0000,0000,,Your muscles are gross!
+Dialogue: 0,0:17:05.75,0:17:06.98,main,Witch,0000,0000,0000,,Hmph.
+Dialogue: 0,0:17:06.98,0:17:08.95,main,Asta,0000,0000,0000,,What the heck was that for?!
+Dialogue: 0,0:17:08.95,0:17:14.03,main,Vanessa,0000,0000,0000,,The witches firmly believe \Nthat women are superior.
+Dialogue: 0,0:17:14.03,0:17:16.22,main,Vanessa,0000,0000,0000,,Sorry she acted like that \Nafter you saved her.
+Dialogue: 0,0:17:18.09,0:17:20.08,main,Noelle,0000,0000,0000,,I'll put out all the flames.
+Dialogue: 0,0:17:20.08,0:17:21.18,main,Vanessa,0000,0000,0000,,Thanks, Noelle.
+Dialogue: 0,0:17:21.68,0:17:23.60,main,Finral,0000,0000,0000,,I'll rescue all the witchies!
+Dialogue: 0,0:17:24.06,0:17:25.89,main,Vanessa,0000,0000,0000,,I'm counting on you, Finral!
+Dialogue: 0,0:17:26.95,0:17:29.27,main,Vanessa,0000,0000,0000,,You've got some nerve, \Ndoing this to the forest.
+Dialogue: 0,0:17:29.27,0:17:31.89,main,Vanessa,0000,0000,0000,,This place isn't the best, \Nbut it was still my home.
+Dialogue: 0,0:17:32.41,0:17:33.90,main,Vanessa,0000,0000,0000,,I'll protect it, no matter what.
+Dialogue: 0,0:17:34.44,0:17:35.87,main,Vanessa,0000,0000,0000,,Let's go, Asta!
+Dialogue: 0,0:17:35.87,0:17:36.91,main,Asta,0000,0000,0000,,You got it!
+Dialogue: 0,0:17:38.95,0:17:41.22,main,Ladros,0000,0000,0000,,Oh, hey. There it is.
+Dialogue: 0,0:17:41.22,0:17:42.58,main,Ladros,0000,0000,0000,,I can't wait!
+Dialogue: 0,0:17:44.91,0:17:47.94,sign_10911_127_Diamond_Kingdom_,Sign,0000,0000,0000,,{\fad(1,541)}Diamond Kingdom\N{\fs30}Mohawq
+Dialogue: 0,0:17:45.41,0:17:48.48,top,Mohawq,0000,0000,0000,,We are prepared to attack at any time.
+Dialogue: 0,0:17:48.48,0:17:51.97,main,Ladros,0000,0000,0000,,Well, aren't you psyched?
+Dialogue: 0,0:17:51.97,0:17:56.26,main,Ladros,0000,0000,0000,,But... Tsk, tsk, tsk... Hold your horses.
+Dialogue: 0,0:17:57.21,0:18:01.01,main,Ladros,0000,0000,0000,,Where's the fun in dealing with the peons?
+Dialogue: 0,0:18:01.41,0:18:06.81,main,Ladros,0000,0000,0000,,We're going to enjoy whoever's \Nleft from both sides later on.
+Dialogue: 0,0:18:06.81,0:18:07.73,main,Mohawq,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:18:09.94,0:18:11.47,main,Fanzell,0000,0000,0000,,They're here.
+Dialogue: 0,0:18:11.47,0:18:16.74,main,Mariella,0000,0000,0000,,Those numbers... Even with all the witches,\N we're still vastly outnumbered.
+Dialogue: 0,0:18:16.74,0:18:21.48,main,Mariella,0000,0000,0000,,But what's important is how \Nyou fight. Right, Master?
+Dialogue: 0,0:18:21.48,0:18:22.85,main,Fanzell,0000,0000,0000,,Yeah.
+Dialogue: 0,0:18:23.51,0:18:25.05,main,Domina,0000,0000,0000,,Let's all split up.
+Dialogue: 0,0:18:25.54,0:18:28.96,main,Fanzell,0000,0000,0000,,B-But I swore that I'd protect you.
+Dialogue: 0,0:18:29.38,0:18:34.01,main,Domina,0000,0000,0000,,Thanks, Zell. But this \Nisn't the time for that.
+Dialogue: 0,0:18:34.53,0:18:38.98,main,Domina,0000,0000,0000,,You were considered a genius strategist,\N so you should already know...
+Dialogue: 0,0:18:39.43,0:18:41.57,main,Domina,0000,0000,0000,,This is the only way we can win.
+Dialogue: 0,0:18:42.58,0:18:44.47,main,Fanzell,0000,0000,0000,,All right.
+Dialogue: 0,0:18:46.26,0:18:50.09,main,Shidan,0000,0000,0000,,So many excellent slave \Nladies to choose from!
+Dialogue: 0,0:18:51.03,0:18:52.11,main,Witch,0000,0000,0000,,Let us go!
+Dialogue: 0,0:18:53.19,0:18:57.22,main,Finral,0000,0000,0000,,That bastard! What does he \Nthink he's doing to my cuties?!
+Dialogue: 0,0:18:57.88,0:19:02.70,main,Vanessa,0000,0000,0000,,The number of guards he has around him...\N He must be the commander.
+Dialogue: 0,0:19:03.40,0:19:04.95,main,Asta,0000,0000,0000,,Miz Vanessa!
+Dialogue: 0,0:19:04.95,0:19:08.42,main,Asta,0000,0000,0000,,Use your threads to blast me up to them!
+Dialogue: 0,0:19:08.42,0:19:12.48,main,Vanessa,0000,0000,0000,,What? But I won't be able to \Npull you back at that distance!
+Dialogue: 0,0:19:12.48,0:19:15.30,main,Vanessa,0000,0000,0000,,You'd be fighting in the air \Nwith nothing to hold you up!
+Dialogue: 0,0:19:15.83,0:19:17.05,main,Asta,0000,0000,0000,,I'll be fine!
+Dialogue: 0,0:19:17.44,0:19:20.22,main,Vanessa,0000,0000,0000,,Well, if you're sure... I'll trust you!
+Dialogue: 0,0:19:23.43,0:19:25.43,main,Guy,0000,0000,0000,,Who the heck is that?
+Dialogue: 0,0:19:25.43,0:19:28.48,main,Guy,0000,0000,0000,,Fool! He's headed right toward us!
+Dialogue: 0,0:19:28.48,0:19:29.43,main,Guy,0000,0000,0000,,Take this!
+Dialogue: 0,0:19:30.48,0:19:32.40,main,Asta,0000,0000,0000,,No, you take this!
+Dialogue: 0,0:19:35.00,0:19:38.69,main,Guy 2,0000,0000,0000,,That's... the anti-magic brat \Nwho defeated Lord Vetto!
+Dialogue: 0,0:19:39.40,0:19:40.86,main,Shidan,0000,0000,0000,,Kill him!
+Dialogue: 0,0:19:45.91,0:19:47.45,main,Asta,0000,0000,0000,,There!
+Dialogue: 0,0:19:47.91,0:19:50.25,main,Finral,0000,0000,0000,,He's using the enemies as stepping stones.
+Dialogue: 0,0:19:50.25,0:19:54.38,main,Vanessa,0000,0000,0000,,I can't believe that boy! \NThen again, I guess I can.
+Dialogue: 0,0:19:55.29,0:19:58.88,main,Asta,0000,0000,0000,,You guys cause trouble every single time!
+Dialogue: 0,0:19:58.88,0:20:01.63,main,Shidan,0000,0000,0000,,Wh-What's with this brat?
+Dialogue: 0,0:20:02.00,0:20:03.47,main,Vanessa,0000,0000,0000,,Now no one...
+Dialogue: 0,0:20:04.68,0:20:06.57,main,Vanessa,0000,0000,0000,,will be able to stop Asta!
+Dialogue: 0,0:20:06.57,0:20:09.68,main,Asta,0000,0000,0000,,Quit it already!
+Dialogue: 0,0:20:10.31,0:20:11.94,main,Asta,0000,0000,0000,,Now's your chance to run!
+Dialogue: 0,0:20:11.94,0:20:14.95,main,Witch,0000,0000,0000,,Stop bossing me around, you stupid man!
+Dialogue: 0,0:20:14.95,0:20:16.69,main,Witch 2,0000,0000,0000,,I'm not thanking you!
+Dialogue: 0,0:20:16.69,0:20:18.07,main,Witch 3,0000,0000,0000,,Let's go!
+Dialogue: 0,0:20:18.07,0:20:20.07,main,Asta,0000,0000,0000,,Seriously?!
+Dialogue: 0,0:20:21.19,0:20:22.58,main,Fana,0000,0000,0000,,There you are.
+Dialogue: 0,0:20:22.58,0:20:25.16,main,Fana,0000,0000,0000,,How dare you kill Vetto?
+Dialogue: 0,0:20:25.16,0:20:26.45,main,Fana,0000,0000,0000,,I'll kill you!
+Dialogue: 0,0:20:29.20,0:20:31.70,italics,Asta,0000,0000,0000,,Crap! I'm gonna die!
+Dialogue: 0,0:20:31.70,0:20:32.79,main,Asta,0000,0000,0000,,As if...
+Dialogue: 0,0:20:32.79,0:20:36.58,main,Asta,0000,0000,0000,,I'd be scared!
+Dialogue: 0,0:20:53.22,0:20:54.64,main,Finral,0000,0000,0000,,Made it just in time.
+Dialogue: 0,0:20:54.98,0:20:56.73,main,Asta,0000,0000,0000,,Thanks!
+Dialogue: 0,0:21:04.55,0:21:07.41,main,Fana,0000,0000,0000,,You keep getting in our way\N over and over again.
+Dialogue: 0,0:21:07.41,0:21:09.91,main,Fana,0000,0000,0000,,I'll kill you once and for all.
+Dialogue: 0,0:21:09.91,0:21:13.83,main,Asta,0000,0000,0000,,Bring it on! I'll just keep throwing \Nyour attacks right back at you!
+Dialogue: 0,0:22:47.88,0:22:52.35,sign_33083_276_Petit_Clover_,Sign,0000,0000,0000,,{\fad(1,520)}Pe{\c&H3BC020&}t{\c&HE2AF0F&}i{\c&H3BC020&}t C{\c&HE2AF0F&}l{\c&H3BC020&}o{\c&H0E42D4&}ve{\c&H3BC020&}r
+Dialogue: 0,0:22:48.69,0:22:51.43,main,All,0000,0000,0000,,Petit Clover!
+Dialogue: 0,0:22:51.84,0:22:55.85,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Not Yet!
+Dialogue: 0,0:22:52.47,0:22:55.85,main,Ladros,0000,0000,0000,,Not Yet!
+Dialogue: 0,0:22:55.85,0:22:57.48,sign_32988_344_Cup_o__Magic_Noo,Sign,0000,0000,0000,,Cup o' {\c&H5653CA&}Magic {\c&H6DFAFA&}Noodles
+Dialogue: 0,0:22:57.48,0:23:02.79,main,Ladros,0000,0000,0000,,Nothing beats eating a Cup o' Magic Noodles\N while everyone else is fighting.
+Dialogue: 0,0:23:02.79,0:23:07.49,main,Ladros,0000,0000,0000,,But... Tsk, tsk, tsk. \NIt's too early to eat them yet!
+Dialogue: 0,0:23:07.49,0:23:12.37,sign_33267_347_Magic_in_3_Minut,Sign,0000,0000,0000,,Magic in 3 Minutes
+Dialogue: 0,0:23:07.49,0:23:12.37,main,Ladros,0000,0000,0000,,They won't be ready until three \Nminutes after you pour the magic in.
+Dialogue: 0,0:23:12.37,0:23:14.20,main,Mars,0000,0000,0000,,Ladros, is it time yet?
+Dialogue: 0,0:23:12.37,0:23:14.20,sign_33384_349_Cup_o__Magic_Noo,Sign,0000,0000,0000,,Cup o' {\c&H5653CA&}Magic {\c&H6DFAFA&}Noodles
+Dialogue: 0,0:23:14.20,0:23:16.61,main,Ladros,0000,0000,0000,,Not yet!
+Dialogue: 0,0:23:14.20,0:23:18.45,sign_33428_350_Cup_o_Magic_Nood,Sign,0000,0000,0000,,Cup o' {\c&H5653CA&}Magic {\c&H6DFAFA&}Noodles
+Dialogue: 0,0:23:14.20,0:23:18.45,sign_33428_351_Cup_o_Magic_Nood,Sign,0000,0000,0000,,Cup o' {\c&H5653CA&}Magic {\c&H6DFAFA&}Noodles
+Dialogue: 0,0:23:16.61,0:23:18.45,main,Mars,0000,0000,0000,,But I like my noodles a little firm.
+Dialogue: 0,0:23:18.45,0:23:20.09,main,Ladros,0000,0000,0000,,No! Not yet!
+Dialogue: 0,0:23:20.09,0:23:21.05,main,Mars,0000,0000,0000,,But—
+Dialogue: 0,0:23:21.05,0:23:21.87,main,Ladros,0000,0000,0000,,Not yet!
+Dialogue: 0,0:23:21.87,0:23:23.63,main,Mars,0000,0000,0000,,I can do what I want—
+Dialogue: 0,0:23:22.80,0:23:23.63,main,Ladros,0000,0000,0000,,Not yet!
+Dialogue: 0,0:23:23.63,0:23:25.13,top,Mars,0000,0000,0000,,Hey—
+Dialogue: 0,0:23:23.63,0:23:26.38,main,Ladros,0000,0000,0000,,Not yet! Not yet! Not yet! Not yet!
+Dialogue: 0,0:23:26.38,0:23:28.65,main,Ladros,0000,0000,0000,,Not yet! Not yet! Not yet! Not yet!
+Dialogue: 0,0:23:29.29,0:23:30.88,main,Ladros,0000,0000,0000,,And they're done!
+Dialogue: 0,0:23:31.44,0:23:34.08,main,Ladros,0000,0000,0000,,Let's eat!
+Dialogue: 0,0:23:34.08,0:23:34.89,main,Mars,0000,0000,0000,,Thanks for the meal.
+Dialogue: 0,0:23:34.89,0:23:36.53,main,Ladros,0000,0000,0000,,So fast!
+Dialogue: 0,0:23:39.38,0:23:41.52,main,Finral,0000,0000,0000,,I'm so glad your arms are better now, Asta!
+Dialogue: 0,0:23:41.52,0:23:43.21,main,Firnal,0000,0000,0000,,But the Queen of Witches is amazing.
+Dialogue: 0,0:23:43.21,0:23:45.19,main,Finral,0000,0000,0000,,Scary, but get a good look\N at her, and she's pretty.
+Dialogue: 0,0:23:45.19,0:23:47.53,main,Finral,0000,0000,0000,,I guess older ladies can be charming, too.
+Dialogue: 0,0:23:47.53,0:23:50.37,main,finral,0000,0000,0000,,{\i1}Black Clover{\i0}, Page 59: "Flames of Hatred."
+Dialogue: 0,0:23:48.19,0:23:54.00,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 59\N\N{\fs18} Flames of Hatred
+Dialogue: 0,0:23:50.37,0:23:53.74,main,Finral,0000,0000,0000,,My magic is liking {\i1}all{\i0} of the ladies!

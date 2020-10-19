@@ -1,0 +1,345 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Flashback_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Narration,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,0,1,0,0,100,100,0,0,1,2,1,2,13,13,45,1
+Style: Ep_Title,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&HC8000000,&H00000000,1,0,0,0,100,100,0,0,1,1,0,2,13,13,187,1
+Style: sign_33927_268_Next_Time,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00A7121E,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,365,365,155,1
+Style: sign_33927_269__Goblin_Slayer_,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00BB060A,&H00000000,1,0,0,0,100,100,0,0,1,1,0,2,13,13,187,1
+Style: Disclaimer,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,13,13,45,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:37.19,0:01:41.15,Ep_Title,Sign,0000,0000,0000,,{\fad(273,1)}A Gathering of Adventurers
+Dialogue: 0,0:01:46.78,0:01:47.74,Main,Cow girl,0000,0000,0000,,Good morning!
+Dialogue: 0,0:01:48.18,0:01:51.53,Main,Cg,0000,0000,0000,,Just one sec. Breakfast is almost ready.
+Dialogue: 0,0:01:51.53,0:01:52.37,Main,Goblin slayer,0000,0000,0000,,Run.
+Dialogue: 0,0:01:53.20,0:01:53.85,Main,Cg,0000,0000,0000,,Huh?
+Dialogue: 0,0:01:54.52,0:01:56.25,Main,Cg,0000,0000,0000,,Why?
+Dialogue: 0,0:01:56.64,0:01:59.44,Main,CG,0000,0000,0000,,What's wrong? Where did that come from?
+Dialogue: 0,0:01:59.79,0:02:01.22,Main,GS,0000,0000,0000,,There were tracks.
+Dialogue: 0,0:02:07.64,0:02:08.73,Main,GS,0000,0000,0000,,Goblins.
+Dialogue: 0,0:02:09.11,0:02:12.87,Main,CG,0000,0000,0000,,But you can defeat them, right?
+Dialogue: 0,0:02:13.52,0:02:14.47,Main,GS,0000,0000,0000,,I can't.
+Dialogue: 0,0:02:17.80,0:02:22.66,Main,GS,0000,0000,0000,,Even if there were a hundred of \Nthem inside a cave, I could win.
+Dialogue: 0,0:02:23.66,0:02:26.18,Main,GS,0000,0000,0000,,No matter what, I'd win.
+Dialogue: 0,0:02:27.51,0:02:28.38,Main,GS,0000,0000,0000,,But...
+Dialogue: 0,0:02:30.47,0:02:33.00,Main,Gs,0000,0000,0000,,There were at least ten \Nsets of scout footprints.
+Dialogue: 0,0:02:33.92,0:02:36.27,Main,GS,0000,0000,0000,,This horde definitely has a leader.
+Dialogue: 0,0:02:39.40,0:02:41.59,Main,Gs,0000,0000,0000,,A hob... A shaman...
+Dialogue: 0,0:02:42.13,0:02:45.16,Main,Gs,0000,0000,0000,,No, judging from their numbers,
+Dialogue: 0,0:02:45.16,0:02:46.35,Main,Gs,0000,0000,0000,,it must be...
+Dialogue: 0,0:02:49.92,0:02:51.76,Main,Gs,0000,0000,0000,,The king of goblins,
+Dialogue: 0,0:02:53.26,0:02:54.76,Main,Gs,0000,0000,0000,,the Goblin Lord.
+Dialogue: 0,0:02:57.73,0:03:00.22,Main,Gs,0000,0000,0000,,They're going to attack \Ntonight or tomorrow night.
+Dialogue: 0,0:03:00.22,0:03:03.44,Main,Gs,0000,0000,0000,,We don't have time to ask any \Nother countries or lords for help.
+Dialogue: 0,0:03:03.44,0:03:07.06,Main,GS,0000,0000,0000,,A horde of more than a hundred goblins \Nwill attack this place at once.
+Dialogue: 0,0:03:07.06,0:03:09.24,Main,CG,0000,0000,0000,,A goblin... horde...
+Dialogue: 0,0:03:11.51,0:03:15.49,Main,CG,0000,0000,0000,,Why... would they attack here?
+Dialogue: 0,0:03:16.53,0:03:19.12,Main,GS,0000,0000,0000,,They probably want to make \Nthis place their stronghold
+Dialogue: 0,0:03:19.12,0:03:20.95,Main,GS,0000,0000,0000,,so that they can attack the town.
+Dialogue: 0,0:03:22.83,0:03:24.96,Main,GS,0000,0000,0000,,I'm not a platinum-ranked adventurer...
+Dialogue: 0,0:03:25.35,0:03:27.59,Main,GS,0000,0000,0000,,I'm not a hero...
+Dialogue: 0,0:03:28.13,0:03:30.23,Main,GS,0000,0000,0000,,We don't have enough people
+Dialogue: 0,0:03:30.23,0:03:34.13,Main,GS,0000,0000,0000,,to face more than a hundred \Nmonsters in an open field.
+Dialogue: 0,0:03:35.48,0:03:36.68,Main,GS,0000,0000,0000,,I lack the strength.
+Dialogue: 0,0:03:38.20,0:03:40.65,Main,Gs,0000,0000,0000,,I can't do it.
+Dialogue: 0,0:03:43.44,0:03:45.52,Main,CG,0000,0000,0000,,And that's why you're telling me to run?
+Dialogue: 0,0:03:45.86,0:03:46.52,Main,GS,0000,0000,0000,,Yes.
+Dialogue: 0,0:03:46.88,0:03:49.94,Main,CG,0000,0000,0000,,And if I go now, there'll be enough time?
+Dialogue: 0,0:03:50.21,0:03:50.90,Main,GS,0000,0000,0000,,Yes.
+Dialogue: 0,0:03:59.58,0:04:00.75,Main,CG,0000,0000,0000,,Okay.
+Dialogue: 0,0:04:01.49,0:04:02.53,Main,GS,0000,0000,0000,,Have you decided?
+Dialogue: 0,0:04:02.88,0:04:03.58,Main,CG,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:06.69,0:04:09.30,Main,CG,0000,0000,0000,,I'm sorry. I'm not going to run.
+Dialogue: 0,0:04:09.95,0:04:13.01,Main,CG,0000,0000,0000,,Because I know you're going to stay behind.
+Dialogue: 0,0:04:15.34,0:04:18.47,Main,CG,0000,0000,0000,,See? I knew it. You always go silent \Nwhen you don't know what to do.
+Dialogue: 0,0:04:18.70,0:04:19.82,Main,CG,0000,0000,0000,,You've always been that way.
+Dialogue: 0,0:04:26.11,0:04:28.19,Main,GS,0000,0000,0000,,They won't just kill you.
+Dialogue: 0,0:04:28.19,0:04:30.59,Main,CG,0000,0000,0000,,Yeah, I can imagine.
+Dialogue: 0,0:04:31.53,0:04:33.64,Main,GS,0000,0000,0000,,I was watching...
+Dialogue: 0,0:04:33.64,0:04:34.28,Main,Cg,0000,0000,0000,,Yes.
+Dialogue: 0,0:04:35.33,0:04:36.90,Main,GS,0000,0000,0000,,Don't think that you'll survive.
+Dialogue: 0,0:04:37.64,0:04:39.20,Main,Gs,0000,0000,0000,,You might live,
+Dialogue: 0,0:04:39.67,0:04:40.96,Main,Gs,0000,0000,0000,,but you'll be dead inside.
+Dialogue: 0,0:04:43.43,0:04:44.49,Main,Gs,0000,0000,0000,,So you need to run.
+Dialogue: 0,0:04:44.49,0:04:46.66,Main,Cg,0000,0000,0000,,I told you, I won't!
+Dialogue: 0,0:04:48.65,0:04:49.57,Main,Cg,0000,0000,0000,,Because...
+Dialogue: 0,0:04:51.52,0:04:53.38,Main,Cg,0000,0000,0000,,I don't want to go through \Nthat a second time.
+Dialogue: 0,0:04:55.34,0:04:59.70,Main,Cg,0000,0000,0000,,You'll lose your home again...
+Dialogue: 0,0:05:00.13,0:05:02.81,Main,Cg,0000,0000,0000,,And... You know...
+Dialogue: 0,0:05:03.16,0:05:07.62,Main,Cg,0000,0000,0000,,Even if we run, if we lose our cows, \Nsheep, and other livestock,
+Dialogue: 0,0:05:07.62,0:05:09.56,Main,Cg,0000,0000,0000,,it'd be...
+Dialogue: 0,0:05:09.56,0:05:12.82,Main,Cg,0000,0000,0000,,You know... um...
+Dialogue: 0,0:05:14.21,0:05:15.22,Main,Gs,0000,0000,0000,,I see.
+Dialogue: 0,0:05:15.79,0:05:18.74,Main,Cg,0000,0000,0000,,Yeah. I'm really sorry.
+Dialogue: 0,0:05:18.96,0:05:23.22,Main,CG,0000,0000,0000,,I know I'm being selfish here...
+Dialogue: 0,0:05:26.81,0:05:28.67,Main,GS,0000,0000,0000,,Don't make that face.
+Dialogue: 0,0:05:34.44,0:05:37.04,Main,GS,0000,0000,0000,,I'll do everything I can.
+Dialogue: 0,0:05:37.57,0:05:38.47,Main,CG,0000,0000,0000,,Okay.
+Dialogue: 0,0:05:46.84,0:05:51.56,Main,GS,0000,0000,0000,,"You have to protect girls," huh?
+Dialogue: 0,0:05:51.56,0:05:52.38,Main,Uncle,0000,0000,0000,,Hey.
+Dialogue: 0,0:05:53.78,0:05:55.86,Main,Uncle,0000,0000,0000,,At least say goodbye.
+Dialogue: 0,0:05:56.38,0:05:58.86,Main,GS,0000,0000,0000,,I'm sorry. I...
+Dialogue: 0,0:05:58.86,0:06:01.08,Main,Uncle,0000,0000,0000,,She's a good girl.
+Dialogue: 0,0:06:03.67,0:06:06.44,Main,Uncle,0000,0000,0000,,She grew up to be a good girl.
+Dialogue: 0,0:06:07.19,0:06:09.37,Main,Uncle,0000,0000,0000,,So don't make her cry.
+Dialogue: 0,0:06:09.98,0:06:12.43,Main,Uncle,0000,0000,0000,,I'll do my best.
+Dialogue: 0,0:06:19.50,0:06:22.05,Main,Uncle,0000,0000,0000,,That's what I hate about you.
+Dialogue: 0,0:06:32.30,0:06:34.00,Main,Spearman,0000,0000,0000,,Goblin Slayer.
+Dialogue: 0,0:06:35.58,0:06:37.53,Main,Spearman,0000,0000,0000,,Wow, you're still alive.
+Dialogue: 0,0:06:38.17,0:06:39.24,Main,SP,0000,0000,0000,,You need something?
+Dialogue: 0,0:06:41.19,0:06:43.12,Main,GS,0000,0000,0000,,I apologize, but hear me out.
+Dialogue: 0,0:06:44.64,0:06:45.70,Main,GS,0000,0000,0000,,I have a request.
+Dialogue: 0,0:06:45.94,0:06:47.78,Main,Guy,0000,0000,0000,,The Goblin Slayer has a request?
+Dialogue: 0,0:06:47.78,0:06:49.67,Main,Guy 2,0000,0000,0000,,Wasn't he a solo adventurer?
+Dialogue: 0,0:06:49.67,0:06:52.98,Main,Guy,0000,0000,0000,,Actually, it seems he's formed\Na party with a few people lately.
+Dialogue: 0,0:06:52.98,0:06:54.05,Main,Guy 2,0000,0000,0000,,Really?
+Dialogue: 0,0:06:54.46,0:06:56.28,Main,GS,0000,0000,0000,,A horde of goblins is coming
+Dialogue: 0,0:06:56.28,0:06:58.18,Main,GS,0000,0000,0000,,to a farm on the outskirts of town.
+Dialogue: 0,0:06:58.90,0:07:01.84,Main,GS,0000,0000,0000,,They'll probably attack tonight. \NI don't know how many there are.
+Dialogue: 0,0:07:02.27,0:07:04.46,Main,Guy 3,0000,0000,0000,,Man, I knew it'd be goblins.
+Dialogue: 0,0:07:04.46,0:07:06.60,Main,Guy 4,0000,0000,0000,,But goblins being in hordes is normal.
+Dialogue: 0,0:07:06.60,0:07:10.47,Main,GS,0000,0000,0000,,Judging by the footprints left by \Nthe scouts, they have a Goblin Lord.
+Dialogue: 0,0:07:10.81,0:07:13.06,Main,GS,0000,0000,0000,,Which means there's at least a hundred.
+Dialogue: 0,0:07:13.74,0:07:14.73,Main,Guy,0000,0000,0000,,A hundred?!
+Dialogue: 0,0:07:14.73,0:07:15.97,Main,Guy,0000,0000,0000,,A hundred goblins?!
+Dialogue: 0,0:07:15.97,0:07:17.11,Main,Guy,0000,0000,0000,,Seriously?
+Dialogue: 0,0:07:17.30,0:07:18.39,Main,Guy,0000,0000,0000,,No way.
+Dialogue: 0,0:07:18.39,0:07:19.33,Main,Guy,0000,0000,0000,,What the hell?
+Dialogue: 0,0:07:19.33,0:07:20.86,Main,Guy,0000,0000,0000,,What's going on?
+Dialogue: 0,0:07:22.15,0:07:23.35,Main,Greenhorn Warrior,0000,0000,0000,,A lord?
+Dialogue: 0,0:07:23.35,0:07:24.20,Main,Apprentice cleric,0000,0000,0000,,No idea.
+Dialogue: 0,0:07:24.37,0:07:27.60,Main,GS,0000,0000,0000,,Lords are a mutated class of goblins \Nthat specialize in leadership.
+Dialogue: 0,0:07:27.60,0:07:29.91,Main,GS,0000,0000,0000,,They can be considered \Nthe top rank of goblins.
+Dialogue: 0,0:07:29.91,0:07:31.59,Main,GW,0000,0000,0000,,The top?
+Dialogue: 0,0:07:31.59,0:07:34.75,Main,GS,0000,0000,0000,,And the horde that it's leading \Nwill be here soon.
+Dialogue: 0,0:07:34.75,0:07:35.59,Main,GS,0000,0000,0000,,There's no time.
+Dialogue: 0,0:07:36.07,0:07:40.13,Main,GS,0000,0000,0000,,I could handle them in a cave, but I \Ncan't handle them alone, out in the open.
+Dialogue: 0,0:07:43.06,0:07:45.38,Main,GS,0000,0000,0000,,I'd like your help. Please.
+Dialogue: 0,0:07:50.21,0:07:51.17,Main,Guy,0000,0000,0000,,What should we do?
+Dialogue: 0,0:07:51.17,0:07:52.56,Main,Guy 2,0000,0000,0000,,You're asking me?
+Dialogue: 0,0:07:52.56,0:07:54.01,Main,Guy 3,0000,0000,0000,,Goblins, huh?
+Dialogue: 0,0:07:54.01,0:07:55.95,Main,Guy 4,0000,0000,0000,,He should just handle them himself.
+Dialogue: 0,0:07:55.95,0:07:57.56,Main,Guy 5,0000,0000,0000,,I'm definitely out.
+Dialogue: 0,0:07:57.56,0:07:59.92,Main,Girl,0000,0000,0000,,Me, too. They're gross.
+Dialogue: 0,0:08:02.50,0:08:03.66,Main,SP,0000,0000,0000,,Hey.
+Dialogue: 0,0:08:05.62,0:08:08.37,Main,SP,0000,0000,0000,,I think you've got the \Nwrong idea about something.
+Dialogue: 0,0:08:09.14,0:08:13.04,Main,SP,0000,0000,0000,,This is an adventurers' guild, \Nand we're adventurers.
+Dialogue: 0,0:08:14.07,0:08:16.57,Main,SP,0000,0000,0000,,We're not obligated to listen to requests.
+Dialogue: 0,0:08:16.57,0:08:19.78,Main,SP,0000,0000,0000,,You need to put up a quest, \Nwhich means a reward.
+Dialogue: 0,0:08:19.78,0:08:20.47,Main,Sp,0000,0000,0000,,Right?
+Dialogue: 0,0:08:21.37,0:08:22.30,Main,BG,0000,0000,0000,,Yeah!
+Dialogue: 0,0:08:22.30,0:08:23.73,Main,,0000,0000,0000,,We're adventurers!
+Dialogue: 0,0:08:23.73,0:08:26.47,Main,,0000,0000,0000,,{\an8}You expect us to put our \Nlives on the line for free?!
+Dialogue: 0,0:08:24.88,0:08:26.47,Main,High elf archer,0000,0000,0000,,What the hell?!
+Dialogue: 0,0:08:26.47,0:08:30.42,Main,Dwarf Shaman,0000,0000,0000,,Long-ears, if you go out right now, \Nit's just going to complicate things.
+Dialogue: 0,0:08:30.42,0:08:33.36,Main,Lizardman Priest,0000,0000,0000,,I understand how you feel, \Nbut please wait a moment.
+Dialogue: 0,0:08:33.36,0:08:35.39,Main,HEA,0000,0000,0000,,Let me go!
+Dialogue: 0,0:08:37.07,0:08:39.41,Main,GS,0000,0000,0000,,Yes. You're right.
+Dialogue: 0,0:08:39.41,0:08:41.47,Main,SP,0000,0000,0000,,Okay, then, tell us.
+Dialogue: 0,0:08:41.47,0:08:44.61,Main,SP,0000,0000,0000,,How much are you going to pay us \Nfor dealing with a hundred goblins?
+Dialogue: 0,0:08:45.06,0:08:46.21,Main,GS,0000,0000,0000,,Everything.
+Dialogue: 0,0:08:46.21,0:08:46.95,Main,Sp,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:48.70,0:08:51.84,Main,GS,0000,0000,0000,,Everything I own is the reward.
+Dialogue: 0,0:08:52.20,0:08:53.53,Main,SP,0000,0000,0000,,What do you mean by that?
+Dialogue: 0,0:08:53.53,0:08:57.40,Main,GS,0000,0000,0000,,All of my belongings. \NEverything within my discretion.
+Dialogue: 0,0:08:57.40,0:09:02.05,Main,GS,0000,0000,0000,,My equipment, all of my assets, \Nknowledge, time, and...
+Dialogue: 0,0:09:02.38,0:09:03.13,Main,SP,0000,0000,0000,,Your life?
+Dialogue: 0,0:09:03.66,0:09:06.59,Main,GS,0000,0000,0000,,Yes. My life, as well.
+Dialogue: 0,0:09:06.59,0:09:09.27,Main,SP,0000,0000,0000,,And what if I tell you to go die?
+Dialogue: 0,0:09:09.27,0:09:11.15,Main,GS,0000,0000,0000,,I can't do that.
+Dialogue: 0,0:09:11.15,0:09:11.77,Main,SP,0000,0000,0000,,What?
+Dialogue: 0,0:09:12.47,0:09:15.79,Main,GS,0000,0000,0000,,There's someone who might cry if I die.
+Dialogue: 0,0:09:16.66,0:09:18.41,Main,GS,0000,0000,0000,,I was told that I can't make them cry.
+Dialogue: 0,0:09:19.45,0:09:23.82,Main,GS,0000,0000,0000,,So apparently, my life \Nisn't within my discretion.
+Dialogue: 0,0:09:25.78,0:09:29.28,Main,SP,0000,0000,0000,,I seriously have no idea what you're thinking,
+Dialogue: 0,0:09:29.74,0:09:32.39,Main,SP,0000,0000,0000,,but I can tell you're serious about this.
+Dialogue: 0,0:09:32.39,0:09:34.71,Main,GS,0000,0000,0000,,Yeah. I'm serious.
+Dialogue: 0,0:09:36.87,0:09:38.79,Main,SP,0000,0000,0000,,God damn it...
+Dialogue: 0,0:09:42.56,0:09:45.78,Main,SP,0000,0000,0000,,I don't need your life, you dumbass!
+Dialogue: 0,0:09:45.78,0:09:47.47,Main,SP,0000,0000,0000,,Just buy me a drink later.
+Dialogue: 0,0:09:48.91,0:09:50.97,Main,SP,0000,0000,0000,,Come on, that's basically market price.
+Dialogue: 0,0:09:51.46,0:09:55.05,Main,SP,0000,0000,0000,,A silver-ranked adventurer is saying \Nthat he'll slay some goblins for you.
+Dialogue: 0,0:09:55.05,0:09:56.54,Main,SP,0000,0000,0000,,Be thankful, client.
+Dialogue: 0,0:09:57.54,0:09:58.65,Main,GS,0000,0000,0000,,Yes.
+Dialogue: 0,0:09:59.14,0:10:00.06,Main,GS,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:10:01.62,0:10:02.37,Main,GS,0000,0000,0000,,Thank you.
+Dialogue: 0,0:10:02.37,0:10:06.41,Main,SP,0000,0000,0000,,Hey, cut it out. Thank me after \Nwe're done slaying those things.
+Dialogue: 0,0:10:06.41,0:10:07.72,Main,HEA,0000,0000,0000,,Me, too!
+Dialogue: 0,0:10:08.22,0:10:10.24,Main,HEA,0000,0000,0000,,I'm going to slay some goblins, too!
+Dialogue: 0,0:10:10.59,0:10:13.32,Main,HEA,0000,0000,0000,,But only if you'll come with us again!
+Dialogue: 0,0:10:13.92,0:10:17.25,Main,HEA,0000,0000,0000,,I'll take you on a real adventure next time!
+Dialogue: 0,0:10:18.33,0:10:19.55,Main,GS,0000,0000,0000,,Very well.
+Dialogue: 0,0:10:19.55,0:10:22.84,Main,DS,0000,0000,0000,,You'll need to buy me more \Nthan one drink, Beard-cutter.
+Dialogue: 0,0:10:23.32,0:10:25.25,Main,DS,0000,0000,0000,,I'm going to need a whole barrel.
+Dialogue: 0,0:10:25.25,0:10:27.04,Main,GS,0000,0000,0000,,All right. I'll get you one.
+Dialogue: 0,0:10:27.04,0:10:31.10,Main,DS,0000,0000,0000,,You mind if I tag along on this \Nadventure of yours, too, long-ears?
+Dialogue: 0,0:10:31.47,0:10:33.73,Main,HEA,0000,0000,0000,,Of course! We're a party!
+Dialogue: 0,0:10:33.73,0:10:37.48,Main,LP,0000,0000,0000,,Which would mean that I \Nmust accompany you, as well.
+Dialogue: 0,0:10:37.70,0:10:40.30,Main,LP,0000,0000,0000,,Very well. This is a request from a friend.
+Dialogue: 0,0:10:40.30,0:10:43.34,Main,LP,0000,0000,0000,,But if I were to ask for a reward...
+Dialogue: 0,0:10:43.34,0:10:44.32,Main,GS,0000,0000,0000,,Cheese?
+Dialogue: 0,0:10:44.32,0:10:46.86,Main,Lp,0000,0000,0000,,Yes, and if possible...
+Dialogue: 0,0:10:46.86,0:10:48.57,Main,GS,0000,0000,0000,,Ice crème?
+Dialogue: 0,0:10:49.25,0:10:52.68,Main,Lp,0000,0000,0000,,Yes, they are truly nectars of the gods!
+Dialogue: 0,0:10:52.68,0:10:57.78,Main,GS,0000,0000,0000,,They don't belong to me, \Nbut they're both made at the farm.
+Dialogue: 0,0:10:57.78,0:11:02.52,Main,LP,0000,0000,0000,,Then we must punish those foul \Ncreatures that come from below.
+Dialogue: 0,0:11:03.72,0:11:05.77,Main,SP,0000,0000,0000,,That makes five.
+Dialogue: 0,0:11:05.77,0:11:08.17,Main,Witch,0000,0000,0000,,No, six...
+Dialogue: 0,0:11:09.75,0:11:11.61,Main,Witch,0000,0000,0000,,Inflammarae.
+Dialogue: 0,0:11:11.61,0:11:16.25,Main,Witch,0000,0000,0000,,Though we might actually have seven...
+Dialogue: 0,0:11:16.25,0:11:17.85,Main,Guild girl,0000,0000,0000,,Everyone!
+Dialogue: 0,0:11:17.85,0:11:21.35,Main,Guild girl,0000,0000,0000,,The Guild... The Guild is offering a quest, too!
+Dialogue: 0,0:11:21.65,0:11:25.65,Main,GG,0000,0000,0000,,There is now a reward of one gold \Ncoin for every goblin you slay!
+Dialogue: 0,0:11:26.03,0:11:27.23,Main,GG,0000,0000,0000,,This is your big chance!
+Dialogue: 0,0:11:27.23,0:11:28.12,Main,Guy,0000,0000,0000,,Seriously?
+Dialogue: 0,0:11:28.12,0:11:30.28,Main,Guy 2,0000,0000,0000,,One gold coin for every goblin slain?
+Dialogue: 0,0:11:31.29,0:11:32.93,Main,Inspector,0000,0000,0000,,You're okay with this, right?
+Dialogue: 0,0:11:32.93,0:11:35.24,Main,Chief,0000,0000,0000,,It's information from a \Nsilver-ranked adventurer.
+Dialogue: 0,0:11:35.74,0:11:37.37,Main,Chief,0000,0000,0000,,I'm sure it'll be fine.
+Dialogue: 0,0:11:37.37,0:11:38.29,Main,Chief,0000,0000,0000,,Not to mention...
+Dialogue: 0,0:11:38.54,0:11:41.49,Main,Chief,0000,0000,0000,,It's hard to say no when they're \Nthat passionate about it.
+Dialogue: 0,0:11:43.97,0:11:45.39,Main,Heavy Swordsman,0000,0000,0000,,Guess I don't have a choice.
+Dialogue: 0,0:11:45.39,0:11:46.17,Main,Female Knight,0000,0000,0000,,You're going?
+Dialogue: 0,0:11:46.47,0:11:51.49,Main,HS,0000,0000,0000,,I don't care for the Goblin Slayer, \Nbut there's a reward involved.
+Dialogue: 0,0:11:51.49,0:11:53.89,Main,FK,0000,0000,0000,,Really, can't you be more honest?
+Dialogue: 0,0:11:54.37,0:11:57.36,Main,FK,0000,0000,0000,,Why don't you just tell him \Nthat this is all because
+Dialogue: 0,0:11:57.36,0:12:00.25,Main,FK,0000,0000,0000,,he's the one who slew the goblins \Nthat appeared in your hometown?
+Dialogue: 0,0:12:00.99,0:12:02.87,Main,HS,0000,0000,0000,,Shut up! He doesn't need to know that!
+Dialogue: 0,0:12:02.87,0:12:05.76,Main,HS,0000,0000,0000,,I just want the gold coins \Nfor slaying those goblins!
+Dialogue: 0,0:12:05.76,0:12:07.94,Main,FK,0000,0000,0000,,Well, I'm trying to become a Paladin myself.
+Dialogue: 0,0:12:08.12,0:12:10.65,Main,FK,0000,0000,0000,,If someone needs my help, I can't say no.
+Dialogue: 0,0:12:10.65,0:12:14.31,Main,Young Scout,0000,0000,0000,,Well, if Bro and Sis are going, \NI guess I am, too.
+Dialogue: 0,0:12:14.31,0:12:15.54,Main,Light Swordsman,0000,0000,0000,,You're right.
+Dialogue: 0,0:12:15.54,0:12:16.95,Main,Rhea Druid,0000,0000,0000,,Guess we'll have to go.
+Dialogue: 0,0:12:17.92,0:12:18.61,Main,GW,0000,0000,0000,,Hey.
+Dialogue: 0,0:12:18.61,0:12:20.00,Main,AC,0000,0000,0000,,What?
+Dialogue: 0,0:12:20.00,0:12:23.46,Main,GW,0000,0000,0000,,I haven't slain any goblins yet.
+Dialogue: 0,0:12:23.46,0:12:25.21,Main,AC,0000,0000,0000,,Well, we heard that it was dangerous.
+Dialogue: 0,0:12:25.21,0:12:28.39,Main,GW,0000,0000,0000,,But I think I should start.
+Dialogue: 0,0:12:28.39,0:12:30.67,Main,AC,0000,0000,0000,,Yeah... He did help us out, too.
+Dialogue: 0,0:12:30.67,0:12:34.11,Main,Guy,0000,0000,0000,,I became an adventurer the same day he did,
+Dialogue: 0,0:12:34.11,0:12:35.68,Main,Guy,0000,0000,0000,,so I guess this is some kind of fate.
+Dialogue: 0,0:12:35.68,0:12:39.31,Main,Guy 2,0000,0000,0000,,It'd be weird if the guy who only talks \Nabout goblins just disappeared one day.
+Dialogue: 0,0:12:39.31,0:12:43.15,Main,Guy 3,0000,0000,0000,,Yeah, he's this guild's most popular \Nproduct. Everyone talks about him.
+Dialogue: 0,0:12:43.15,0:12:45.93,Main,Guy 4,0000,0000,0000,,He's annoying when he's here, \Nbut it'd be lonely if he was gone.
+Dialogue: 0,0:12:45.93,0:12:50.11,Main,Female warrior,0000,0000,0000,,Honestly... I've never heard \Nof such a strange quest.
+Dialogue: 0,0:12:52.22,0:12:57.53,Main,Guy 1,0000,0000,0000,,We're not comrades or friends, \Nbut we are adventurers!
+Dialogue: 0,0:12:57.77,0:13:01.33,Main,All,0000,0000,0000,,Leave it to us adventurers!
+Dialogue: 0,0:13:09.30,0:13:10.80,Main,Priestess,0000,0000,0000,,This is wonderful.
+Dialogue: 0,0:13:11.04,0:13:11.94,Main,GS,0000,0000,0000,,Yeah.
+Dialogue: 0,0:13:11.94,0:13:14.26,Main,P,0000,0000,0000,,Of course, I'll be coming along, too.
+Dialogue: 0,0:13:14.84,0:13:15.93,Main,GS,0000,0000,0000,,Yeah.
+Dialogue: 0,0:14:18.53,0:14:20.49,Main,RD,0000,0000,0000,,It'll be all right.
+Dialogue: 0,0:14:22.71,0:14:24.29,Main,CG,0000,0000,0000,,Thank you.
+Dialogue: 0,0:14:25.30,0:14:26.54,Main,Guy 1,0000,0000,0000,,Hey!
+Dialogue: 0,0:14:38.56,0:14:40.07,Main,Guy 2,0000,0000,0000,,Here they come.
+Dialogue: 0,0:15:13.86,0:15:14.88,Main,DS,0000,0000,0000,,Stupor.
+Dialogue: 0,0:15:15.26,0:15:16.51,Main,W,0000,0000,0000,,Sleep.
+Dialogue: 0,0:15:16.51,0:15:19.87,Main,DS,0000,0000,0000,,Sleep, you goblins!
+Dialogue: 0,0:15:19.87,0:15:21.19,Main,Guy,0000,0000,0000,,Now!
+Dialogue: 0,0:15:22.40,0:15:24.38,Main,Guy,0000,0000,0000,,Don't worry about the goblins!
+Dialogue: 0,0:15:25.19,0:15:26.64,Main,Guy,0000,0000,0000,,Secure the shields!
+Dialogue: 0,0:15:28.23,0:15:30.60,Main,Guy,0000,0000,0000,,Hurry! Fall back! Fall back!
+Dialogue: 0,0:15:34.07,0:15:36.86,Main,Hea,0000,0000,0000,,Honestly, those are your shields?
+Dialogue: 0,0:15:37.82,0:15:39.71,Main,HEA,0000,0000,0000,,How low can you get?
+Dialogue: 0,0:15:42.37,0:15:44.19,Main,Guy,0000,0000,0000,,That's the last of the shields!
+Dialogue: 0,0:15:44.19,0:15:46.57,Main,HEA,0000,0000,0000,,I've taken care of all the \Nspellcasters I can see!
+Dialogue: 0,0:15:46.57,0:15:47.08,Main,Guy,0000,0000,0000,,All right!
+Dialogue: 0,0:15:54.75,0:15:56.38,Main,SP,0000,0000,0000,,All right, here we go!
+Dialogue: 0,0:15:56.86,0:15:58.49,Main,SP,0000,0000,0000,,Time to make some gold, boys!
+Dialogue: 0,0:15:59.38,0:16:00.26,Main,SP,0000,0000,0000,,Get them!
+Dialogue: 0,0:16:10.23,0:16:13.91,Main,FW,0000,0000,0000,,Woohoo! Look at all this gold \Nthat's runnin' toward me!
+Dialogue: 0,0:16:14.59,0:16:16.88,Main,SP,0000,0000,0000,,Damn... Hard to believe there are this many.
+Dialogue: 0,0:16:20.51,0:16:21.99,Main,sP,0000,0000,0000,,What a pain.
+Dialogue: 0,0:16:24.12,0:16:27.62,Main,LP,0000,0000,0000,,Even Sir Goblin Slayer \Ndidn't know what to do.
+Dialogue: 0,0:16:29.92,0:16:31.80,Main,LP,0000,0000,0000,,This is to be expected.
+Dialogue: 0,0:16:31.80,0:16:33.96,Main,SP,0000,0000,0000,,Man, talk about scary.
+Dialogue: 0,0:16:43.23,0:16:46.10,Main,W,0000,0000,0000,,Not that it... matters too much...
+Dialogue: 0,0:16:46.10,0:16:50.18,Main,W,0000,0000,0000,,But don't step out of range... \Nof the Deflect Missiles.
+Dialogue: 0,0:16:56.27,0:16:57.66,Main,LS,0000,0000,0000,,They're pushing hard.
+Dialogue: 0,0:16:58.94,0:17:01.73,Main,YS,0000,0000,0000,,I should've gone over there, too.
+Dialogue: 0,0:17:01.73,0:17:03.25,Main,LS,0000,0000,0000,,Wait, look over there.
+Dialogue: 0,0:17:08.00,0:17:10.28,Main,YS,0000,0000,0000,,Riders! They actually showed up!
+Dialogue: 0,0:17:13.83,0:17:15.96,Main,Guy,0000,0000,0000,,Riders! The riders are coming!
+Dialogue: 0,0:17:15.96,0:17:16.75,Main,Guy 2,0000,0000,0000,,Riders!
+Dialogue: 0,0:17:18.68,0:17:20.88,Main,HS,0000,0000,0000,,All right! Head for the designated area!
+Dialogue: 0,0:17:21.16,0:17:22.96,Main,SP,0000,0000,0000,,When you're ready, line up!
+Dialogue: 0,0:17:22.96,0:17:26.55,Main,SP,0000,0000,0000,,Back line, fill the gaps in the front line, \Nbut stay behind them, weapons drawn!
+Dialogue: 0,0:17:26.83,0:17:28.83,Main,Sp,0000,0000,0000,,They're smaller and shorter than horses!
+Dialogue: 0,0:17:28.83,0:17:30.55,Main,SP,0000,0000,0000,,Draw them in as close as you can!
+Dialogue: 0,0:17:32.46,0:17:33.23,Main,SP,0000,0000,0000,,Not yet!
+Dialogue: 0,0:17:34.44,0:17:35.56,Main,SP,0000,0000,0000,,Not yet!
+Dialogue: 0,0:17:38.09,0:17:40.07,Main,SP,0000,0000,0000,,Now! Take aim!
+Dialogue: 0,0:17:57.74,0:17:59.79,Main,LP,0000,0000,0000,,All troops, charge!
+Dialogue: 0,0:18:09.60,0:18:10.86,Main,GW,0000,0000,0000,,Whoa...
+Dialogue: 0,0:18:13.39,0:18:15.27,Main,GW,0000,0000,0000,,I-It's dead...
+Dialogue: 0,0:18:22.15,0:18:24.03,Main,FW,0000,0000,0000,,Pay attention, newbie!
+Dialogue: 0,0:18:24.03,0:18:26.21,Main,FW,0000,0000,0000,,Go on! Get in on the action!
+Dialogue: 0,0:18:27.58,0:18:28.41,Main,AC,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:18:28.87,0:18:29.93,Main,GW,0000,0000,0000,,Yeah...
+Dialogue: 0,0:18:30.62,0:18:32.62,Main,GW,0000,0000,0000,,Thank goodness I bought some armor.
+Dialogue: 0,0:18:34.13,0:18:36.03,Main,HS,0000,0000,0000,,That was some easy money.
+Dialogue: 0,0:18:36.03,0:18:37.58,Main,FK,0000,0000,0000,,Yeah, but...
+Dialogue: 0,0:18:38.23,0:18:41.71,Main,FK,0000,0000,0000,,This is all thanks to his strategy.
+Dialogue: 0,0:18:43.46,0:18:44.88,Flashback,GS,0000,0000,0000,,Set ambushes.
+Dialogue: 0,0:18:45.41,0:18:49.01,Flashback,GS,0000,0000,0000,,They're used to ambushing others, \Nbut not used to being ambushed themselves.
+Dialogue: 0,0:18:49.80,0:18:52.13,Flashback,GS,0000,0000,0000,,They'll use meat shields.
+Dialogue: 0,0:18:52.13,0:18:55.70,Flashback,GS,0000,0000,0000,,Cast sleep spells, and use that \Nmoment to rescue the hostages.
+Dialogue: 0,0:18:56.22,0:18:58.56,Flashback,GS,0000,0000,0000,,Don't bother with the \Ngoblins that are asleep.
+Dialogue: 0,0:18:58.56,0:19:00.19,Flashback,GS,0000,0000,0000,,They'll be trouble if they wake up.
+Dialogue: 0,0:19:01.23,0:19:04.59,Flashback,GS,0000,0000,0000,,When the hordes get bigger, \Nthey train wolves and ride them.
+Dialogue: 0,0:19:05.13,0:19:07.05,Flashback,GS,0000,0000,0000,,There'll probably be \Ntwenty or thirty riders,
+Dialogue: 0,0:19:07.05,0:19:09.41,Flashback,Gs,0000,0000,0000,,but we can take care of them \Nby setting up spear walls.
+Dialogue: 0,0:19:10.35,0:19:12.03,Flashback,GS,0000,0000,0000,,And you can kill them with your weapons.
+Dialogue: 0,0:19:12.64,0:19:14.49,Flashback,GS,0000,0000,0000,,When weapons aren't enough, use spells.
+Dialogue: 0,0:19:15.21,0:19:19.04,Flashback,GS,0000,0000,0000,,Also, take care of all their \Ncapable spellcasters first.
+Dialogue: 0,0:19:26.77,0:19:29.74,Main,FK,0000,0000,0000,,So despite how he looks, \Nhe really is silver-ranked.
+Dialogue: 0,0:19:31.49,0:19:35.47,Main,Guy,0000,0000,0000,,Stupid goblins, running this far away.
+Dialogue: 0,0:19:37.29,0:19:39.24,Main,Guy,0000,0000,0000,,Hey, how's it going over there?
+Dialogue: 0,0:19:45.78,0:19:46.53,Main,SP,0000,0000,0000,,What the...
+Dialogue: 0,0:19:46.53,0:19:48.65,Main,DS,0000,0000,0000,,Something's flying over here! Watch out!
+Dialogue: 0,0:20:04.57,0:20:06.33,Main,Guy,0000,0000,0000,,Now we're dealing with hobs?
+Dialogue: 0,0:20:06.33,0:20:07.71,Main,HS,0000,0000,0000,,Nope...
+Dialogue: 0,0:20:08.77,0:20:10.47,Main,HS,0000,0000,0000,,That's a big'un...
+Dialogue: 0,0:20:13.53,0:20:15.14,Main,HS,0000,0000,0000,,A goblin champion.
+Dialogue: 0,0:20:15.88,0:20:17.67,Main,SP,0000,0000,0000,,Make that two.
+Dialogue: 0,0:20:21.34,0:20:24.52,Main,HS,0000,0000,0000,,Good. I was getting bored \Nwith all the small fry.
+Dialogue: 0,0:20:25.04,0:20:28.17,Main,HS,0000,0000,0000,,These guys are much more fitting for me.
+Dialogue: 0,0:20:28.17,0:20:33.76,Main,FK,0000,0000,0000,,Jeez. I'm too busy counting all \Nthe goblin heads I lopped off.
+Dialogue: 0,0:20:33.76,0:20:35.24,Main,HS,0000,0000,0000,,Just shut up and come with me.
+Dialogue: 0,0:20:35.41,0:20:36.87,Main,SP,0000,0000,0000,,Hey, step back.
+Dialogue: 0,0:20:36.87,0:20:38.52,Main,W,0000,0000,0000,,Right...
+Dialogue: 0,0:20:38.52,0:20:43.46,Main,LP,0000,0000,0000,,Then I shall take the heads \Nright off their shoulders.
+Dialogue: 0,0:20:44.15,0:20:46.42,Main,SP,0000,0000,0000,,From here on out, \Nit's a veterans' battlefield!
+Dialogue: 0,0:20:46.70,0:20:49.13,Main,SP,0000,0000,0000,,Anyone not confident in their \Nskills better bow out!
+Dialogue: 0,0:20:59.47,0:21:00.98,Main,Guy,0000,0000,0000,,Not bad...
+Dialogue: 0,0:21:00.98,0:21:02.87,Main,W,0000,0000,0000,,May I get some... water?
+Dialogue: 0,0:21:02.87,0:21:04.23,Main,RD,0000,0000,0000,,Oh, of course!
+Dialogue: 0,0:21:04.23,0:21:06.14,Main,W,0000,0000,0000,,Thank... you.
+Dialogue: 0,0:21:06.14,0:21:08.74,Main,YS,0000,0000,0000,,Um, are you sure you don't \Nneed to be with them?
+Dialogue: 0,0:21:10.27,0:21:12.02,Main,W,0000,0000,0000,,Well, yes...
+Dialogue: 0,0:21:12.02,0:21:16.63,Main,W,0000,0000,0000,,If anything... he's more used \Nto dealing with these...
+Dialogue: 0,0:21:17.12,0:21:18.95,Main,W,0000,0000,0000,,than with normal goblins...
+Dialogue: 0,0:21:18.95,0:21:20.11,Main,GW,0000,0000,0000,,Goblins...
+Dialogue: 0,0:21:20.11,0:21:23.15,Main,YS,0000,0000,0000,,Come to think of it, where did he go?
+Dialogue: 0,0:21:23.15,0:21:23.83,Main,W,0000,0000,0000,,Oh?
+Dialogue: 0,0:21:24.15,0:21:28.03,Main,W,0000,0000,0000,,You know... who he is... right?
+Dialogue: 0,0:21:28.03,0:21:28.96,Main,HEA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:21:30.16,0:21:31.30,Main,HEA,0000,0000,0000,,Where do you think he is?
+Dialogue: 0,0:21:49.22,0:21:50.32,Main,HEA,0000,0000,0000,,He went...
+Dialogue: 0,0:21:52.53,0:21:54.49,Main,HEA,0000,0000,0000,,to slay some goblins.
+Dialogue: 0,0:23:35.88,0:23:41.18,sign_33927_268_Next_Time,Sign,0000,0000,0000,,Next Time
+Dialogue: 0,0:23:35.88,0:23:41.18,sign_33927_269__Goblin_Slayer_,Sign,0000,0000,0000,,The Fate of an Adventurer

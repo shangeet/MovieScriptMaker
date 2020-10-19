@@ -1,0 +1,310 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Sign,Open Sans Semibold,33,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,27,27,27,0
+Style: Crash,Open Sans Semibold,40,&H004647FB,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,1,8,27,27,27,0
+Style: Twitch,Open Sans Semibold,40,&H00D0C26A,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,27,27,27,0
+Style: Grab,Open Sans Semibold,40,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,7,160,240,80,0
+Style: Clang,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,6,27,40,27,0
+Style: Menacing,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,27,80,27,0
+Style: Title,Open Sans Semibold,40,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,27,27,80,0
+Style: Next,Open Sans Semibold,36,&H00000000,&H00FF0000,&H00FFFFFF,&H00FFFFFF,1,0,0,0,100,100,0,0,1,1,1,8,27,27,27,0
+Style: Sign Right,Open Sans Semibold,33,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,9,560,27,27,0
+Style: Sign Left,Open Sans Semibold,33,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,7,27,560,27,0
+Style: SignNC,Open Sans Semibold,33,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,300,300,27,0
+Style: BigSign,Open Sans Semibold,43,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,27,27,27,0
+Style: LowSign,Open Sans Semibold,33,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,9,27,27,320,0
+Style: Sign Right Large,Open Sans Semibold,33,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,9,307,27,27,0
+Style: Sign Center,Open Sans Semibold,33,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,5,27,27,27,0
+Style: Place,Open Sans Semibold,36,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,27,40,27,0
+Style: Sign Right Mid,Open Sans Semibold,33,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,6,560,120,27,0
+Style: Sign Left Mid,Open Sans Semibold,33,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,4,107,560,27,0
+Style: Sign Left Mid NM,Open Sans Semibold,33,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,107,107,253,0
+Style: Left,Open Sans Semibold,33,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,7,27,613,267,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.70,0:00:02.28,Default,NTP,0000,0000,0000,,{\i1}Even so, Satoru...{\i0}
+Dialogue: 0,0:00:02.53,0:00:05.83,Default,NTP,0000,0000,0000,,{\i1}Before, I could only imagine being alone,{\i0}
+Dialogue: 0,0:00:06.08,0:00:08.12,Default,NTP,0000,0000,0000,,{\i1}but now I've got a family,{\i0}
+Dialogue: 0,0:00:08.79,0:00:10.91,Default,NTP,0000,0000,0000,,{\i1}and it was all made possible\Nbecause of you.{\i0}
+Dialogue: 0,0:00:11.16,0:00:12.33,Default,NTP,0000,0000,0000,,{\i1}Thank you.{\i0}
+Dialogue: 0,0:00:13.46,0:00:15.84,Default,NTP,0000,0000,0000,,{\i1}Thank you...{\i0}
+Dialogue: 0,0:00:16.96,0:00:18.96,Default,NTP,0000,0000,0000,,{\i1}What did I do?{\i0}
+Dialogue: 0,0:00:22.18,0:00:23.26,Default,NTP,0000,0000,0000,,{\i1}Okay, okay.{\i0}
+Dialogue: 0,0:00:23.51,0:00:24.72,Default,NTP,0000,0000,0000,,{\i1}Are you hungry?{\i0}
+Dialogue: 0,0:00:24.72,0:00:26.26,Default,NTP,0000,0000,0000,,{\i1}Okay, okay.{\i0}
+Dialogue: 0,0:00:38.19,0:00:39.36,Default,NTP,0000,0000,0000,,{\i1}That's right.{\i0}
+Dialogue: 0,0:00:39.61,0:00:42.28,Default,NTP,0000,0000,0000,,{\i1}I saved Hinazuki.{\i0}
+Dialogue: 0,0:00:42.95,0:00:44.82,Default,NTP,0000,0000,0000,,{\i1}And after that,{\i0}
+Dialogue: 0,0:00:44.82,0:00:50.75,Default,NTP,0000,0000,0000,,{\i1}we tried to make it so that Aya Nakanishi\Nand Misato weren't alone.{\i0}
+Dialogue: 0,0:00:58.71,0:00:59.75,Default,NTP,0000,0000,0000,,Yashiro...
+Dialogue: 0,0:01:01.84,0:01:03.22,Default,NTP,0000,0000,0000,,I have...
+Dialogue: 0,0:01:03.72,0:01:05.09,Default,NTP,0000,0000,0000,,my memories back!
+Dialogue: 0,0:02:29.00,0:02:39.23,Title,NTP,0000,0000,0000,,ERASED
+Dialogue: 0,0:02:44.98,0:02:47.11,Sign Right Mid,NTP,0000,0000,0000,,{\i1}Fight!\N-Osamu{\i0}
+Dialogue: 0,0:02:44.98,0:02:47.11,Sign Left Mid,NTP,0000,0000,0000,,{\i1}Good luck!\N-Kazu{\i0}
+Dialogue: 0,0:02:45.40,0:02:47.11,Default,NTP,0000,0000,0000,,{\i1}So Kazu is a carpenter...{\i0}
+Dialogue: 0,0:02:47.53,0:02:49.82,Default,NTP,0000,0000,0000,,{\i1}Sounds like both he and Osamu\Nare working really hard.{\i0}
+Dialogue: 0,0:02:49.82,0:02:50.70,Default,NTP,0000,0000,0000,,{\i1}Yeah.{\i0}
+Dialogue: 0,0:02:50.70,0:02:54.08,Default,NTP,0000,0000,0000,,{\i1}Come to think of it, Misato said\Nshe was going to pay you a visit.{\i0}
+Dialogue: 0,0:02:54.70,0:02:55.66,Default,NTP,0000,0000,0000,,{\i1}Really?{\i0}
+Dialogue: 0,0:02:56.20,0:02:59.12,Default,NTP,0000,0000,0000,,{\i1}I thought Misato hated me.{\i0}
+Dialogue: 0,0:02:59.37,0:03:01.25,Default,NTP,0000,0000,0000,,{\i1}This brings back memories...{\i0}
+Dialogue: 0,0:03:01.25,0:03:04.13,Default,NTP,0000,0000,0000,,{\i1}Like that lunch money thing...\NA lot happened back then, huh?{\i0}
+Dialogue: 0,0:03:04.13,0:03:07.67,Default,NTP,0000,0000,0000,,{\i1}But Misato is the one\Nwho proposed fundraising activities{\i0}
+Dialogue: 0,0:03:07.67,0:03:11.01,Default,NTP,0000,0000,0000,,{\i1}to help pay for your\Nmedical expenses.{\i0}
+Dialogue: 0,0:03:08.76,0:03:11.01,Sign,NTP,0000,0000,0000,,SATORU FUJINUMA\NDONATION MONEY\NFOR MEDICAL EXPENSES
+Dialogue: 0,0:03:11.18,0:03:12.89,Default,NTP,0000,0000,0000,,{\i1}I had no idea.{\i0}
+Dialogue: 0,0:03:13.14,0:03:16.77,Default,NTP,0000,0000,0000,,{\i1}You tried to help Misato that day, right?{\i0}
+Dialogue: 0,0:03:17.39,0:03:19.60,Default,NTP,0000,0000,0000,,{\i1}You remember everything, don't you?{\i0}
+Dialogue: 0,0:03:23.65,0:03:26.53,Default,NTP,0000,0000,0000,,{\i1}Why didn't you tell us?{\i0}
+Dialogue: 0,0:03:27.69,0:03:29.61,Default,NTP,0000,0000,0000,,{\i1}I didn't want to get you involved.{\i0}
+Dialogue: 0,0:03:30.16,0:03:32.16,Default,NTP,0000,0000,0000,,{\i1}It's been 15 years.{\i0}
+Dialogue: 0,0:03:32.41,0:03:34.08,Default,NTP,0000,0000,0000,,{\i1}All of the evidence is gone{\i0}
+Dialogue: 0,0:03:34.87,0:03:37.70,Default,NTP,0000,0000,0000,,{\i1}and I doubt anyone\Nwould believe my testimony.{\i0}
+Dialogue: 0,0:03:41.25,0:03:46.05,Default,NTP,0000,0000,0000,,{\i1}I was so happy to see you\Nwake up after 15 years, Satoru.{\i0}
+Dialogue: 0,0:03:46.42,0:03:49.38,Default,NTP,0000,0000,0000,,{\i1}Nothing could've made me\Nhappier than your return.{\i0}
+Dialogue: 0,0:03:49.63,0:03:52.72,Default,NTP,0000,0000,0000,,{\i1}That's why I didn't ask you\Nabout the past.{\i0}
+Dialogue: 0,0:03:53.51,0:03:58.48,Default,NTP,0000,0000,0000,,{\i1}You've fought plenty already,\Nand I didn't want to jolt you{\i0}
+Dialogue: 0,0:03:58.73,0:04:00.69,Default,NTP,0000,0000,0000,,{\i1}when you were healing\Nyour wounded mind and body.{\i0}
+Dialogue: 0,0:04:00.69,0:04:05.32,Default,NTP,0000,0000,0000,,{\i1}But if you intend to fight alone again,{\i0}
+Dialogue: 0,0:04:05.98,0:04:07.98,Default,NTP,0000,0000,0000,,{\i1}I want you to take us with you.{\i0}
+Dialogue: 0,0:04:09.11,0:04:12.53,Default,NTP,0000,0000,0000,,{\i1}Hiromi has been coming to the hospital\Nall these years to see you{\i0}
+Dialogue: 0,0:04:12.53,0:04:14.24,Default,NTP,0000,0000,0000,,{\i1}and now his goal is to become a doctor.{\i0}
+Dialogue: 0,0:04:14.24,0:04:16.74,Default,NTP,0000,0000,0000,,{\i1}And I became a lawyer.{\i0}
+Dialogue: 0,0:04:16.74,0:04:18.91,Default,NTP,0000,0000,0000,,{\i1}Even now, Sawada\Nand I are pursuing him.{\i0}
+Dialogue: 0,0:04:19.58,0:04:22.79,Default,NTP,0000,0000,0000,,{\i1}You were our hero back then, Satoru.{\i0}
+Dialogue: 0,0:04:23.04,0:04:28.17,Default,NTP,0000,0000,0000,,{\i1}Now we understand why we wanted\Nto catch up to you and fight alongside you.{\i0}
+Dialogue: 0,0:04:28.71,0:04:30.97,Default,NTP,0000,0000,0000,,{\i1}It was the same\Nwith the stuff about Hinazuki.{\i0}
+Dialogue: 0,0:04:30.97,0:04:34.34,Default,NTP,0000,0000,0000,,{\i1}You believed in me then\Nand told me the truth.{\i0}
+Dialogue: 0,0:04:34.34,0:04:37.43,Default,NTP,0000,0000,0000,,{\i1}That's why I believed in you.{\i0}
+Dialogue: 0,0:04:39.85,0:04:42.81,Default,NTP,0000,0000,0000,,{\i1}I want to believe you for my own sake.{\i0}
+Dialogue: 0,0:04:43.06,0:04:46.69,Default,NTP,0000,0000,0000,,{\i1}It's the flip side to someone\Nsaying "please believe me."{\i0}
+Dialogue: 0,0:04:47.11,0:04:48.32,Default,NTP,0000,0000,0000,,{\i1}Airi...{\i0}
+Dialogue: 0,0:04:52.61,0:04:53.86,Default,NTP,0000,0000,0000,,{\i1}That's right.{\i0}
+Dialogue: 0,0:04:54.49,0:04:56.95,Default,NTP,0000,0000,0000,,{\i1}I have friends I can trust.{\i0}
+Dialogue: 0,0:05:01.16,0:05:02.41,Default,NTP,0000,0000,0000,,{\i1}The killer is...{\i0}
+Dialogue: 0,0:05:02.83,0:05:04.17,Default,NTP,0000,0000,0000,,{\i1}Yashiro.{\i0}
+Dialogue: 0,0:05:04.87,0:05:06.29,Default,NTP,0000,0000,0000,,I figured as much.
+Dialogue: 0,0:05:07.63,0:05:11.26,Default,NTP,0000,0000,0000,,When I deliberately tapped my finger\Non the wheelchair on the way...
+Dialogue: 0,0:05:12.72,0:05:15.47,Default,NTP,0000,0000,0000,,...you stifled a response, didn't you?
+Dialogue: 0,0:05:17.35,0:05:18.64,Default,NTP,0000,0000,0000,,15 years ago...
+Dialogue: 0,0:05:19.31,0:05:23.10,Default,NTP,0000,0000,0000,,you completely ruined my plans.
+Dialogue: 0,0:05:31.82,0:05:33.74,Default,NTP,0000,0000,0000,,That was far beyond...
+Dialogue: 0,0:05:35.32,0:05:38.37,Default,NTP,0000,0000,0000,,the level of a child.
+Dialogue: 0,0:05:41.87,0:05:45.00,Default,NTP,0000,0000,0000,,It was as if you could see the future.
+Dialogue: 0,0:05:45.29,0:05:46.92,Default,NTP,0000,0000,0000,,{\i1}Yashiro!{\i0}
+Dialogue: 0,0:05:46.92,0:05:50.09,Default,NTP,0000,0000,0000,,{\i1}I know your future!{\i0}
+Dialogue: 0,0:05:53.09,0:05:54.22,Default,NTP,0000,0000,0000,,How?
+Dialogue: 0,0:05:54.22,0:05:56.80,Default,NTP,0000,0000,0000,,How did you know what I was thinking?
+Dialogue: 0,0:05:57.05,0:05:59.68,Default,NTP,0000,0000,0000,,What did you mean\Nby "I know your future"?
+Dialogue: 0,0:06:00.26,0:06:03.64,Default,NTP,0000,0000,0000,,You intend to murder me\Nas soon as I tell you, right?
+Dialogue: 0,0:06:05.06,0:06:06.56,Default,NTP,0000,0000,0000,,I know what you're doing.
+Dialogue: 0,0:06:06.56,0:06:09.98,Default,NTP,0000,0000,0000,,You've got a cell phone in your pocket.
+Dialogue: 0,0:06:10.23,0:06:13.65,Default,NTP,0000,0000,0000,,Are you recording this?\NOr are you on the phone with someone?
+Dialogue: 0,0:06:13.65,0:06:15.61,Default,NTP,0000,0000,0000,,If so, is that person Kenya?
+Dialogue: 0,0:06:28.83,0:06:29.83,Sign,NTP,0000,0000,0000,,END CALL
+Dialogue: 0,0:06:30.17,0:06:33.13,Default,NTP,0000,0000,0000,,What happened 15 years ago\Nhas passed the statute of limitations.
+Dialogue: 0,0:06:33.13,0:06:35.51,Default,NTP,0000,0000,0000,,So you want to ask me\Nabout crimes I committed
+Dialogue: 0,0:06:35.51,0:06:37.84,Default,NTP,0000,0000,0000,,that haven't passed\Nthe statute of limitations, right?
+Dialogue: 0,0:06:38.26,0:06:41.14,Default,NTP,0000,0000,0000,,Except they don't exist.
+Dialogue: 0,0:06:41.39,0:06:45.85,Default,NTP,0000,0000,0000,,So you can never capture me, Satoru.
+Dialogue: 0,0:06:46.85,0:06:49.35,Default,NTP,0000,0000,0000,,Look, you have a text from Kumi.
+Dialogue: 0,0:06:50.48,0:06:55.07,Sign Left Mid NM,NTP,0000,0000,0000,,{\i1}Satoru, thank you for\N listening to my wishes.{\i0}
+Dialogue: 0,0:06:50.48,0:06:55.07,Sign,NTP,0000,0000,0000,,Incoming Mail\NKumi
+Dialogue: 0,0:06:51.65,0:06:55.07,Default,NTP,0000,0000,0000,,Kumi's IV drip will start at 4:30.
+Dialogue: 0,0:06:55.99,0:06:58.53,Default,NTP,0000,0000,0000,,Of course, your\Nfingerprints are on the bag
+Dialogue: 0,0:06:58.78,0:07:01.24,Default,NTP,0000,0000,0000,,that has a muscle-relaxant\Ndrug mixed in it.
+Dialogue: 0,0:07:01.53,0:07:03.79,Default,NTP,0000,0000,0000,,You've led a ten-year-old girl
+Dialogue: 0,0:07:03.79,0:07:07.54,Default,NTP,0000,0000,0000,,who was worried about her\Nsurgery to a merciful death.
+Dialogue: 0,0:07:07.79,0:07:11.84,Default,NTP,0000,0000,0000,,And feeling guilty about that,\NI jump off the roof.
+Dialogue: 0,0:07:17.09,0:07:19.97,Default,NTP,0000,0000,0000,,You read my mind again,
+Dialogue: 0,0:07:19.97,0:07:23.05,Default,NTP,0000,0000,0000,,though there's nothing\Nyou can do to save your own life.
+Dialogue: 0,0:07:23.05,0:07:26.35,Default,NTP,0000,0000,0000,,On the other hand,\Nyou can save Kumi's life.
+Dialogue: 0,0:07:26.35,0:07:29.81,Default,NTP,0000,0000,0000,,Even if I talk, what guarantee\Ndo you have that you'll help Kumi?
+Dialogue: 0,0:07:29.81,0:07:32.31,Default,NTP,0000,0000,0000,,There is no guarantee, naturally.
+Dialogue: 0,0:07:32.56,0:07:34.65,Default,NTP,0000,0000,0000,,But there is a possibility.
+Dialogue: 0,0:07:34.65,0:07:37.99,Default,NTP,0000,0000,0000,,If you don't talk,\Nthere isn't even a possibility.
+Dialogue: 0,0:07:41.36,0:07:43.83,Default,NTP,0000,0000,0000,,Too bad. We're out of time.
+Dialogue: 0,0:07:44.53,0:07:47.75,Default,NTP,0000,0000,0000,,This was a sink-or-swim gamble for me.
+Dialogue: 0,0:07:48.12,0:07:51.92,Default,NTP,0000,0000,0000,,But in the end,\Nthere was no special significance.
+Dialogue: 0,0:07:52.38,0:07:54.54,Default,NTP,0000,0000,0000,,It was all coincidence.
+Dialogue: 0,0:07:54.92,0:07:58.51,Default,NTP,0000,0000,0000,,You saying you knew\Nmy future was just a bluff, too.
+Dialogue: 0,0:08:01.59,0:08:03.14,Default,NTP,0000,0000,0000,,Have peace of mind.
+Dialogue: 0,0:08:03.72,0:08:07.31,Default,NTP,0000,0000,0000,,I'll leave a few heartfelt\Nlast words to your mother.
+Dialogue: 0,0:08:07.31,0:08:13.52,Sign Left Mid NM,NTP,0000,0000,0000,,{\i1}Please forgive me for\N dying before you.{\i0}
+Dialogue: 0,0:08:07.31,0:08:13.52,Sign,NTP,0000,0000,0000,,Text\N\NSachiko Fujinuma\NTo Mom
+Dialogue: 0,0:08:09.43,0:08:13.52,Default,NTP,0000,0000,0000,,{\i1}Well, Satoru, I work tomorrow morning,\Nso I'll see you in the afternoon.{\i0}
+Dialogue: 0,0:08:15.57,0:08:17.15,Default,NTP,0000,0000,0000,,{\i1}Sleeping, huh?{\i0}
+Dialogue: 0,0:08:19.90,0:08:21.28,Default,NTP,0000,0000,0000,,{\i1}Mom...{\i0}
+Dialogue: 0,0:08:23.91,0:08:26.03,Default,NTP,0000,0000,0000,,{\i1}To be honest, I have...{\i0}
+Dialogue: 0,0:08:26.03,0:08:27.74,Default,NTP,0000,0000,0000,,{\i1}...your memories back, right?{\i0}
+Dialogue: 0,0:08:27.74,0:08:30.54,Default,NTP,0000,0000,0000,,{\i1}I know. Since Kayo visited you, right?{\i0}
+Dialogue: 0,0:08:30.79,0:08:32.21,Default,NTP,0000,0000,0000,,{\i1}Yokai...{\i0}
+Dialogue: 0,0:08:32.79,0:08:36.29,Default,NTP,0000,0000,0000,,{\i1}When Kayo visited, you didn't forbid her\Nfrom talking about it, did you?{\i0}
+Dialogue: 0,0:08:39.13,0:08:41.97,Default,NTP,0000,0000,0000,,{\i1}Actually, after Kenya and Hiromi left,{\i0}
+Dialogue: 0,0:08:41.97,0:08:45.80,Default,NTP,0000,0000,0000,,{\i1}I felt like I'd made a mistake.{\i0}
+Dialogue: 0,0:08:46.30,0:08:49.89,Default,NTP,0000,0000,0000,,{\i1}I thought they weren't able to say\Nwhat they really wanted to tell you.{\i0}
+Dialogue: 0,0:08:49.89,0:08:54.56,Default,NTP,0000,0000,0000,,{\i1}After seeing Kayo and her baby,\NI didn't have the heart to hush her up.{\i0}
+Dialogue: 0,0:08:54.56,0:08:58.82,Default,NTP,0000,0000,0000,,{\i1}After all, she came to see you\Nafter waiting 15 years for you to wake up.{\i0}
+Dialogue: 0,0:09:00.61,0:09:04.95,Default,NTP,0000,0000,0000,,{\i1}I saw your face\Nand talked to you every day,{\i0}
+Dialogue: 0,0:09:05.24,0:09:08.45,Default,NTP,0000,0000,0000,,{\i1}but when you spoke\Nand your voice broke,{\i0}
+Dialogue: 0,0:09:09.08,0:09:12.08,Default,NTP,0000,0000,0000,,{\i1}I felt like you'd grown for the first time.{\i0}
+Dialogue: 0,0:09:12.33,0:09:13.83,Default,NTP,0000,0000,0000,,{\i1}I was moved.{\i0}
+Dialogue: 0,0:09:14.08,0:09:16.46,Default,NTP,0000,0000,0000,,{\i1}You're an adult now.{\i0}
+Dialogue: 0,0:09:22.42,0:09:23.72,Default,NTP,0000,0000,0000,,{\i1}Mom...{\i0}
+Dialogue: 0,0:09:23.97,0:09:26.18,Default,NTP,0000,0000,0000,,{\i1}I want to take the bull\Nby the horns and live.{\i0}
+Dialogue: 0,0:09:26.47,0:09:28.85,Default,NTP,0000,0000,0000,,{\i1}After all this time,\Nwhat are you talking about?{\i0}
+Dialogue: 0,0:09:28.85,0:09:33.64,Default,NTP,0000,0000,0000,,{\i1}Before the coma, you always\Ntook the bull by the horns.{\i0}
+Dialogue: 0,0:09:34.19,0:09:35.06,Default,NTP,0000,0000,0000,,{\i1}Right.{\i0}
+Dialogue: 0,0:09:40.69,0:09:43.57,Default,NTP,0000,0000,0000,,Life is filling up what's missing in you.
+Dialogue: 0,0:09:44.15,0:09:48.37,Default,NTP,0000,0000,0000,,That's what I said when I took charge\Nof the sixth grade class.
+Dialogue: 0,0:09:48.70,0:09:51.04,Default,NTP,0000,0000,0000,,The day Hinazuki was taken\Ninto protective custody,
+Dialogue: 0,0:09:51.04,0:09:53.37,Default,NTP,0000,0000,0000,,I saw your face in profile\Nreflected in the snow.
+Dialogue: 0,0:09:54.37,0:09:57.88,Default,NTP,0000,0000,0000,,That is what stuck\Nin my memory the most.
+Dialogue: 0,0:09:59.34,0:10:02.96,Default,NTP,0000,0000,0000,,My father left the picture\Nsoon after I was born.
+Dialogue: 0,0:10:03.59,0:10:05.93,Default,NTP,0000,0000,0000,,That's why I don't remember\Nwhat he looks like.
+Dialogue: 0,0:10:06.72,0:10:11.39,Default,NTP,0000,0000,0000,,But in that one moment,\Nyou were my father, Sensei.
+Dialogue: 0,0:10:12.64,0:10:15.98,Default,NTP,0000,0000,0000,,You filled the hole inside of me.
+Dialogue: 0,0:10:21.40,0:10:25.74,Default,NTP,0000,0000,0000,,I've also been waiting 15 years\Nfor you to wake up, Satoru.
+Dialogue: 0,0:10:26.49,0:10:33.12,Default,NTP,0000,0000,0000,,Ever since you left,\NI lost that impulse that defines me.
+Dialogue: 0,0:10:33.91,0:10:36.04,Default,NTP,0000,0000,0000,,It's been so long.
+Dialogue: 0,0:10:36.71,0:10:37.46,Default,NTP,0000,0000,0000,,But—
+Dialogue: 0,0:10:37.46,0:10:38.92,Default,NTP,0000,0000,0000,,You're not alone anymore.
+Dialogue: 0,0:10:40.59,0:10:42.88,Default,NTP,0000,0000,0000,,How do we settle things between us?
+Dialogue: 0,0:10:43.25,0:10:45.47,Default,NTP,0000,0000,0000,,The police catch you?
+Dialogue: 0,0:10:45.92,0:10:48.09,Default,NTP,0000,0000,0000,,You kill me?
+Dialogue: 0,0:10:49.09,0:10:51.14,Default,NTP,0000,0000,0000,,It's already settled.
+Dialogue: 0,0:10:51.14,0:10:52.97,Default,NTP,0000,0000,0000,,I think I've won.
+Dialogue: 0,0:10:54.77,0:10:58.60,Default,NTP,0000,0000,0000,,Kayo Hinazuki, Aya Nakanishi,\NHiromi, Yuuki...
+Dialogue: 0,0:10:58.60,0:11:00.48,Default,NTP,0000,0000,0000,,I saved all of them.
+Dialogue: 0,0:11:00.90,0:11:03.65,Default,NTP,0000,0000,0000,,And Mom, whom you murdered\Nin the future.
+Dialogue: 0,0:11:03.94,0:11:06.28,Default,NTP,0000,0000,0000,,Murdered in the future?
+Dialogue: 0,0:11:06.74,0:11:08.99,Default,NTP,0000,0000,0000,,Satoru, what are you...
+Dialogue: 0,0:11:09.32,0:11:11.91,Default,NTP,0000,0000,0000,,I ruined your plans...
+Dialogue: 0,0:11:12.66,0:11:15.70,Default,NTP,0000,0000,0000,,because I know your future.
+Dialogue: 0,0:11:16.12,0:11:17.62,Default,NTP,0000,0000,0000,,That's all.
+Dialogue: 0,0:11:18.46,0:11:20.42,Default,NTP,0000,0000,0000,,That's how I was able\Nto protect everyone.
+Dialogue: 0,0:11:20.88,0:11:25.05,Default,NTP,0000,0000,0000,,That's why you weren't able to kill\Nanyone with a connection to me.
+Dialogue: 0,0:11:26.30,0:11:27.51,Default,NTP,0000,0000,0000,,Including myself...
+Dialogue: 0,0:11:28.30,0:11:31.76,Default,NTP,0000,0000,0000,,Satoru, I could've killed you anytime.
+Dialogue: 0,0:11:32.01,0:11:33.43,Default,NTP,0000,0000,0000,,Of course, now too.
+Dialogue: 0,0:11:33.43,0:11:35.85,Default,NTP,0000,0000,0000,,You let me live, Sensei.
+Dialogue: 0,0:11:36.10,0:11:37.35,Default,NTP,0000,0000,0000,,For 15 years.
+Dialogue: 0,0:11:38.18,0:11:40.48,Default,NTP,0000,0000,0000,,Because you needed me!
+Dialogue: 0,0:11:41.65,0:11:43.36,Default,NTP,0000,0000,0000,,I was your reason to live.
+Dialogue: 0,0:11:43.90,0:11:45.53,Default,NTP,0000,0000,0000,,I was your hope.
+Dialogue: 0,0:11:46.69,0:11:49.28,Default,NTP,0000,0000,0000,,I filled the hole in your heart!
+Dialogue: 0,0:11:52.70,0:11:55.62,Default,NTP,0000,0000,0000,,I beat you, Sensei.
+Dialogue: 0,0:11:56.91,0:11:57.83,Default,NTP,0000,0000,0000,,Wrong!
+Dialogue: 0,0:11:58.16,0:11:58.96,Default,NTP,0000,0000,0000,,Wrong!
+Dialogue: 0,0:11:59.21,0:12:00.08,Default,NTP,0000,0000,0000,,Wrong!
+Dialogue: 0,0:12:00.25,0:12:01.54,Default,NTP,0000,0000,0000,,This time too...
+Dialogue: 0,0:12:01.88,0:12:03.13,Default,NTP,0000,0000,0000,,I'm gonna win!
+Dialogue: 0,0:12:26.65,0:12:29.03,Default,NTP,0000,0000,0000,,You can't kill me, Sensei.
+Dialogue: 0,0:12:33.24,0:12:35.99,Default,NTP,0000,0000,0000,,15 years is a long time, isn't it?
+Dialogue: 0,0:12:36.58,0:12:39.29,Default,NTP,0000,0000,0000,,I was asleep, so it passed by\Nin an instant for me,
+Dialogue: 0,0:12:39.54,0:12:44.13,Default,NTP,0000,0000,0000,,but I think 15 years went by\Nexcruciatingly slowly for you, Sensei.
+Dialogue: 0,0:13:05.81,0:13:08.44,Sign,NTP,0000,0000,0000,,FUNABASHI GENERAL HOSPITAL
+Dialogue: 0,0:13:12.95,0:13:15.87,Default,NTP,0000,0000,0000,,You're alive because I'm around.
+Dialogue: 0,0:13:16.66,0:13:18.66,Default,NTP,0000,0000,0000,,You feel like you're alive.
+Dialogue: 0,0:13:22.96,0:13:26.54,Default,NTP,0000,0000,0000,,I've relived this life a number of times.
+Dialogue: 0,0:13:26.79,0:13:29.88,Default,NTP,0000,0000,0000,,You've murdered a number\Nof my friends, Sensei.
+Dialogue: 0,0:13:30.13,0:13:33.76,Default,NTP,0000,0000,0000,,But right now, I bear you no hatred.
+Dialogue: 0,0:13:34.01,0:13:37.14,Default,NTP,0000,0000,0000,,In this world, the only person\Nwho knows the real you...
+Dialogue: 0,0:13:38.93,0:13:40.18,Default,NTP,0000,0000,0000,,is me.
+Dialogue: 0,0:13:45.81,0:13:47.06,Default,NTP,0000,0000,0000,,That's right.
+Dialogue: 0,0:13:52.03,0:13:53.24,Default,NTP,0000,0000,0000,,Satoru...
+Dialogue: 0,0:13:56.41,0:13:57.82,Default,NTP,0000,0000,0000,,I can't live...
+Dialogue: 0,0:14:07.50,0:14:08.96,Default,NTP,0000,0000,0000,,I can't live...
+Dialogue: 0,0:14:10.92,0:14:13.59,Default,NTP,0000,0000,0000,,without you.
+Dialogue: 0,0:15:01.39,0:15:04.39,Default,NTP,0000,0000,0000,,You're under arrest\Nfor attempted murder.
+Dialogue: 0,0:15:03.06,0:15:12.27,Sign,NTP,0000,0000,0000,,PRESCRIPTION INFORMATION
+Dialogue: 0,0:15:04.81,0:15:06.52,Default,NTP,0000,0000,0000,,Is Kumi okay?
+Dialogue: 0,0:15:06.52,0:15:07.39,Default,NTP,0000,0000,0000,,Yes.
+Dialogue: 0,0:15:07.64,0:15:09.56,Default,NTP,0000,0000,0000,,But we didn't tell her about Yashiro.
+Dialogue: 0,0:15:09.94,0:15:11.52,Default,NTP,0000,0000,0000,,Not with her surgery coming up...
+Dialogue: 0,0:15:11.52,0:15:12.27,Default,NTP,0000,0000,0000,,Right.
+Dialogue: 0,0:15:13.15,0:15:16.28,Default,NTP,0000,0000,0000,,"Believing in someone."\NThat's a weird phrase, isn't it?
+Dialogue: 0,0:15:16.61,0:15:19.41,Default,NTP,0000,0000,0000,,After all, if you truly\Nbelieved in a person,
+Dialogue: 0,0:15:19.41,0:15:21.74,Default,NTP,0000,0000,0000,,you wouldn't need to say,\N"I believe in you."
+Dialogue: 0,0:15:21.95,0:15:24.12,Default,NTP,0000,0000,0000,,It's like saying, "I believe in air."
+Dialogue: 0,0:15:24.66,0:15:27.83,Default,NTP,0000,0000,0000,,You mean "believing"\Nbecause there's doubt?
+Dialogue: 0,0:15:27.83,0:15:32.34,Default,NTP,0000,0000,0000,,I don't mean to say that\N"believing in something" is like a lie.
+Dialogue: 0,0:15:33.25,0:15:37.88,Default,NTP,0000,0000,0000,,"Believing" is really a term\Nof hope of wanting to believe.
+Dialogue: 0,0:15:40.84,0:15:43.89,Sign Left Mid,NTP,0000,0000,0000,,CHIBA POLICE
+Dialogue: 0,0:15:50.02,0:15:54.65,Default,NTP,0000,0000,0000,,I lost my life from the age of 11 to 25.
+Dialogue: 0,0:15:55.78,0:15:59.99,Default,NTP,0000,0000,0000,,But that lost time itself is my treasure.
+Dialogue: 0,0:16:00.82,0:16:02.82,Default,NTP,0000,0000,0000,,In a town only without me,
+Dialogue: 0,0:16:03.07,0:16:06.83,Default,NTP,0000,0000,0000,,my friends spent the precious\Nspare time in their lives on my behalf.
+Dialogue: 0,0:16:08.29,0:16:10.75,Default,NTP,0000,0000,0000,,{\i1}Heroes always come running\Nin at the last minute!{\i0}
+Dialogue: 0,0:16:11.88,0:16:13.59,Default,NTP,0000,0000,0000,,{\i1}- Here's Satoru!\N- You're late!{\i0}
+Dialogue: 0,0:16:13.59,0:16:14.84,Default,NTP,0000,0000,0000,,{\i1}- Finally!\N- Took you long enough!{\i0}
+Dialogue: 0,0:16:14.84,0:16:17.05,Default,NTP,0000,0000,0000,,{\i1}As usual. Because he's stupid.{\i0}
+Dialogue: 0,0:16:17.05,0:16:18.92,Default,NTP,0000,0000,0000,,{\i1}A town without me alone...{\i0}
+Dialogue: 0,0:16:19.17,0:16:20.72,Default,NTP,0000,0000,0000,,{\i1}Time without me alone...{\i0}
+Dialogue: 0,0:16:23.55,0:16:26.68,Default,NTP,0000,0000,0000,,{\i1}That's my treasure!{\i0}
+Dialogue: 0,0:16:28.98,0:16:31.98,Clang,NTP,0000,0000,0000,,Episode 12\NTreasure
+Dialogue: 0,0:16:34.44,0:16:39.90,Sign Right,NTP,0000,0000,0000,,BOYS' FLIGHT
+Dialogue: 0,0:16:34.69,0:16:36.15,Default,NTP,0000,0000,0000,,You're blowing me away!
+Dialogue: 0,0:16:36.40,0:16:40.65,Default,NTP,0000,0000,0000,,I love it when you take the bull\Nby the horns, Sensei.
+Dialogue: 0,0:16:41.03,0:16:43.41,Default,NTP,0000,0000,0000,,Then I'll keep going in this direction.
+Dialogue: 0,0:16:43.66,0:16:46.66,Default,NTP,0000,0000,0000,,Sorry to have you come all the way here.
+Dialogue: 0,0:16:46.99,0:16:48.37,Default,NTP,0000,0000,0000,,Are you going on a trip?
+Dialogue: 0,0:16:48.37,0:16:49.20,Default,NTP,0000,0000,0000,,Yes.
+Dialogue: 0,0:16:49.45,0:16:53.17,Default,NTP,0000,0000,0000,,After this, I'm going back\Nto Hokkaido to see old friends.
+Dialogue: 0,0:16:53.17,0:16:54.75,Default,NTP,0000,0000,0000,,Oh, that's right.
+Dialogue: 0,0:16:54.75,0:16:55.75,Sign,NTP,0000,0000,0000,,RECEPTION ROOM
+Dialogue: 0,0:16:55.75,0:16:57.84,Default,NTP,0000,0000,0000,,Please have a great weekend.
+Dialogue: 0,0:16:59.09,0:17:00.30,Default,NTP,0000,0000,0000,,And I almost forgot!
+Dialogue: 0,0:17:00.30,0:17:02.93,Sign,NTP,0000,0000,0000,,GALACTICA SWORD\N~7 HEROES~
+Dialogue: 0,0:17:00.30,0:17:02.93,Sign Left Mid,NTP,0000,0000,0000,,TO THE KING'S STRENGTH\NGATHER FELLOW COMRADES!
+Dialogue: 0,0:17:00.59,0:17:02.93,Default,NTP,0000,0000,0000,,Congratulations\Non the upcoming anime version!
+Dialogue: 0,0:17:10.02,0:17:12.69,Default,NTP,0000,0000,0000,,{\i1}Right now, I make a living\Nas a manga artist.{\i0}
+Dialogue: 0,0:17:16.48,0:17:19.73,Default,NTP,0000,0000,0000,,{\i1}Revival hasn't happened\Nto me since then.{\i0}
+Dialogue: 0,0:17:34.08,0:17:37.17,Sign Center,NTP,0000,0000,0000,,SHIRATORI FOOD PRODUCTS
+Dialogue: 0,0:18:00.94,0:18:06.16,Sign,NTP,0000,0000,0000,,YANAGIDA BAR
+Dialogue: 0,0:18:09.12,0:18:11.62,BigSign,NTP,0000,0000,0000,,SATORU FUJINUMA
+Dialogue: 0,0:18:19.63,0:18:23.13,Sign,NTP,0000,0000,0000,,MIKOTO ELEMENTARY SCHOOL
+Dialogue: 0,0:18:23.13,0:18:30.14,Sign,NTP,0000,0000,0000,,Ice Hockey Club 2010\NNational Champions
+Dialogue: 0,0:18:45.03,0:18:50.33,Default,NTP,0000,0000,0000,,{\a6}{\i1}Two weeks until the opening\Nof the 2010 Olympics in Vancouver...{\i0}
+Dialogue: 0,0:18:57.37,0:18:59.04,Default,NTP,0000,0000,0000,,I'm going for a walk.
+Dialogue: 0,0:18:59.04,0:19:00.17,Default,NTP,0000,0000,0000,,See you later!
+Dialogue: 0,0:19:00.42,0:19:01.96,Default,NTP,0000,0000,0000,,See you later.
+Dialogue: 0,0:19:03.21,0:19:06.80,Default,NTP,0000,0000,0000,,They said we're getting\Neven more snow this evening.
+Dialogue: 0,0:19:09.05,0:19:13.06,LowSign,NTP,0000,0000,0000,,HIGUMA MOVING CENTER
+Dialogue: 0,0:19:41.21,0:19:43.96,Default,NTP,0000,0000,0000,,{\i1}"My Hero" by Satoru Fujinuma.{\i0}
+Dialogue: 0,0:19:45.88,0:19:48.01,Default,NTP,0000,0000,0000,,{\i1}I don't have the courage\Nto take that first step.{\i0}
+Dialogue: 0,0:19:48.30,0:19:50.80,Default,NTP,0000,0000,0000,,{\i1}That's why I don't have\Nany good buddies.{\i0}
+Dialogue: 0,0:19:51.80,0:19:54.39,Default,NTP,0000,0000,0000,,{\i1}It's fun playing with casual friends,{\i0}
+Dialogue: 0,0:19:54.64,0:19:57.31,Default,NTP,0000,0000,0000,,{\i1}"good buddies"\Nand "casual friends" are different.{\i0}
+Dialogue: 0,0:19:58.23,0:20:03.36,Default,NTP,0000,0000,0000,,{\i1}I saw the final episode of my favorite\Nanime, "Fight, Wonder Guy!" yesterday.{\i0}
+Dialogue: 0,0:20:04.52,0:20:08.82,Default,NTP,0000,0000,0000,,{\i1}In the first part,\NWonder Guy was fighting alone.{\i0}
+Dialogue: 0,0:20:09.65,0:20:11.87,Default,NTP,0000,0000,0000,,{\i1}He'd go down again and again{\i0}
+Dialogue: 0,0:20:11.87,0:20:15.12,Default,NTP,0000,0000,0000,,{\i1}but had the courage\Nto keep fighting and never give up.{\i0}
+Dialogue: 0,0:20:15.66,0:20:18.83,Default,NTP,0000,0000,0000,,{\i1}"If you don't take that first step,\Na path won't open for you."{\i0}
+Dialogue: 0,0:20:19.00,0:20:21.12,Default,NTP,0000,0000,0000,,{\i1}That's what he said\Nand kept on fighting.{\i0}
+Dialogue: 0,0:20:21.83,0:20:25.30,Default,NTP,0000,0000,0000,,{\i1}Then other people felt his\Ncourage, and little by little,{\i0}
+Dialogue: 0,0:20:25.30,0:20:28.09,Default,NTP,0000,0000,0000,,{\i1}became buddies with him.{\i0}
+Dialogue: 0,0:20:28.63,0:20:32.01,Default,NTP,0000,0000,0000,,{\i1}That's why in the end, even when it looked\Nlike he was going to lose to the bad guy,{\i0}
+Dialogue: 0,0:20:32.14,0:20:36.93,Default,NTP,0000,0000,0000,,{\i1}he never stopped believing\Nthat his pals would come to the rescue.{\i0}
+Dialogue: 0,0:20:37.27,0:20:41.90,Default,NTP,0000,0000,0000,,{\i1}But I don't have Wonder Guy's courage\Nor good friends like that.{\i0}
+Dialogue: 0,0:20:42.44,0:20:44.90,Default,NTP,0000,0000,0000,,{\i1}So I felt really envious.{\i0}
+Dialogue: 0,0:20:45.69,0:20:47.32,Default,NTP,0000,0000,0000,,{\i1}It made me wish to have true friends,{\i0}
+Dialogue: 0,0:20:47.53,0:20:51.74,Default,NTP,0000,0000,0000,,{\i1}friends who trust each other,\Nwhen I get bigger.{\i0}
+Dialogue: 0,0:20:49.57,0:20:55.58,Left,NTP,0000,0000,0000,,BIG WAVE, SMALL WAVE
+Dialogue: 0,0:22:08.23,0:22:10.07,Default,NTP,0000,0000,0000,,Can you believe this snow?
+Dialogue: 0,0:22:10.32,0:22:14.20,Default,NTP,0000,0000,0000,,They said on TV it's the most\Nthe Kanto region has had in ten years.
+Dialogue: 0,0:22:24.71,0:22:26.96,Default,NTP,0000,0000,0000,,Can I take shelter\Nfrom the snow with you?
+Dialogue: 0,0:22:41.89,0:22:44.23,Default,NTP,0000,0000,0000,,{\i1}I never stopped believing.{\i0}
+Dialogue: 0,0:22:44.76,0:22:49.94,Title,NTP,0000,0000,0000,,ERASED

@@ -1,0 +1,428 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Signs,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Main Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Black Signs,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: sign_12062_131_Earlier_that_mor,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,27,27,161,1
+Style: sign_14550_168_Nobe_s_Game_Room,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,27,27,27,1
+Style: sign_15209_179_Nobe_s_Game_Room,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0,577,59,1
+Style: sign_17110_211_Karen,Open Sans Semibold,30,&H00F5EEEE,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,27,27,61,1
+Style: sign_17323_215_Konoha,Open Sans Semibold,30,&H00F5EEEE,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,145,63,68,1
+Style: sign_21195_260_Emergency_Exit_,Open Sans Semibold,30,&H00715E63,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,27,1
+Style: sign_29554_351_Amano_kun,Open Sans Semibold,27,&H00ECC1F0,&H000000FF,&H0044006D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,64,107,104,1
+Style: sign_31857_392_Mmmm,Open Sans Semibold,24,&H00F5FBFF,&H00000000,&H007ABFCD,&H00515152,1,0,0,0,100,100,0,0,1,0,0,8,13,13,24,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:01.77,0:00:04.47,Main Dialogue,Angry,0000,0000,0000,,You're so stupid, Amanocchi.
+Dialogue: 0,0:00:04.47,0:00:06.80,Main Dialogue,Angry,0000,0000,0000,,You're not helping me at all.
+Dialogue: 0,0:00:06.80,0:00:08.11,Main Dialogue,Keitard,0000,0000,0000,,Excuse me?!
+Dialogue: 0,0:00:08.11,0:00:09.50,sign_31857_392_Mmmm,,0000,0000,0000,,{\fad(500,1)}Mmmmmmmmmmmmmmmmmmmmmmmm?\N{\c&H0E0F0F&}Mmmmmmmmmmmmmmmmmmmmmmmmmmmm?\N{\c&H1600EC&}Mmmmmmmmmmmmm                  mmmmmmm?
+Dialogue: 0,0:00:20.18,0:00:22.33,Italics Dialogue,Taxes,0000,0000,0000,,She's blatantly depressed.
+Dialogue: 0,0:00:22.91,0:00:24.79,Italics Dialogue,Taxes,0000,0000,0000,,I'm just going to mind my own business.
+Dialogue: 0,0:00:24.79,0:00:26.73,Main Dialogue,Calling,0000,0000,0000,,Oh, Uehara-kun.
+Dialogue: 0,0:00:34.25,0:00:36.71,Main Dialogue,Calling,0000,0000,0000,,You seem really anxious.
+Dialogue: 0,0:00:36.71,0:00:38.60,Main Dialogue,Calling,0000,0000,0000,,It makes you look suspicious.
+Dialogue: 0,0:00:38.60,0:00:40.56,Main Dialogue,Taxes,0000,0000,0000,,Well, what can I do?
+Dialogue: 0,0:00:40.56,0:00:44.47,Main Dialogue,Calling,0000,0000,0000,,I thought you were more used to things.
+Dialogue: 0,0:00:44.47,0:00:48.98,Main Dialogue,Taxes,0000,0000,0000,,There's no way I can maintain my \Ncomposure with all this attention.
+Dialogue: 0,0:00:48.98,0:00:50.46,Main Dialogue,Calling,0000,0000,0000,,Really?
+Dialogue: 0,0:00:50.46,0:00:54.99,Main Dialogue,Calling,0000,0000,0000,,Amano-kun seems pretty happy \Nwhen he's with me these days.
+Dialogue: 0,0:00:54.99,0:00:57.20,Main Dialogue,Taxes,0000,0000,0000,,{\i1}Our{\i0} Amano?
+Dialogue: 0,0:00:57.67,0:01:00.19,Main Dialogue,Calling,0000,0000,0000,,I suppose it's Aguri-san's influence.
+Dialogue: 0,0:01:01.53,0:01:05.53,Main Dialogue,Taxes,0000,0000,0000,,I feel like Aguri's grown \Nup a little lately, too.
+Dialogue: 0,0:01:06.90,0:01:09.67,Main Dialogue,Calling,0000,0000,0000,,Do you think that's also \NAmano-kun's influence?
+Dialogue: 0,0:01:10.13,0:01:15.28,Main Dialogue,Taxes,0000,0000,0000,,Amano has a way of getting into \Npeople's heads, for better or for worse.
+Dialogue: 0,0:01:15.28,0:01:16.38,Main Dialogue,Calling,0000,0000,0000,,He does.
+Dialogue: 0,0:01:16.75,0:01:18.76,Main Dialogue,Taxes,0000,0000,0000,,If you were to get close \Nwith someone like that...
+Dialogue: 0,0:01:18.76,0:01:21.76,Main Dialogue,Calling,0000,0000,0000,,You suppose he's bringing out her true self?
+Dialogue: 0,0:01:26.75,0:01:31.93,Main Dialogue,Taxes,0000,0000,0000,,Aguri's taking a step into adulthood, \Ninspired by Amano.
+Dialogue: 0,0:01:31.93,0:01:37.07,Main Dialogue,Calling,0000,0000,0000,,Amano-kun's growing as a human being, \Ninfluenced by Aguri-san.
+Dialogue: 0,0:01:38.03,0:01:40.58,Italics Dialogue,Calling,0000,0000,0000,,What an ideal couple!
+Dialogue: 0,0:01:40.58,0:01:41.99,Italics Dialogue,Calling,0000,0000,0000,,Slump.
+Dialogue: 0,0:03:17.55,0:03:18.92,Main Dialogue,Calling,0000,0000,0000,,To be clear,
+Dialogue: 0,0:03:18.92,0:03:23.47,Main Dialogue,Calling,0000,0000,0000,,I'm not seriously suspicious about \NAmano-kun and Aguri-san's relationship.
+Dialogue: 0,0:03:23.47,0:03:25.45,Main Dialogue,Taxes,0000,0000,0000,,Yeah, I know.
+Dialogue: 0,0:03:25.45,0:03:29.21,Italics Dialogue,Taxes,0000,0000,0000,,Neither of them would ever be cool \Nwith such a betrayal.
+Dialogue: 0,0:03:29.21,0:03:31.30,Italics Dialogue,Taxes,0000,0000,0000,,We know that better than anyone.
+Dialogue: 0,0:03:32.23,0:03:32.98,Italics Dialogue,Taxes,0000,0000,0000,,But...
+Dialogue: 0,0:03:32.98,0:03:38.95,Main Dialogue,Calling,0000,0000,0000,,But when I think about whether or not \NI have anything more with Amano-kun
+Dialogue: 0,0:03:38.95,0:03:41.86,Main Dialogue,Calling,0000,0000,0000,,than he has with her...
+Dialogue: 0,0:03:46.53,0:03:49.95,Main Dialogue,Taxes,0000,0000,0000,,But we can still turn things around.
+Dialogue: 0,0:03:51.33,0:03:52.41,Main Dialogue,Calling,0000,0000,0000,,How so?
+Dialogue: 0,0:03:52.41,0:03:57.29,Main Dialogue,Taxes,0000,0000,0000,,We have our own ways of doing things.
+Dialogue: 0,0:03:58.45,0:04:00.02,Main Dialogue,Calling,0000,0000,0000,,Wh-What do you mean?
+Dialogue: 0,0:04:00.02,0:04:01.81,Main Dialogue,Calling,0000,0000,0000,,T-T-Tell me more!
+Dialogue: 0,0:04:03.05,0:04:04.96,Main Dialogue,Taxes,0000,0000,0000,,Er, isn't this your place?
+Dialogue: 0,0:04:04.96,0:04:06.75,Main Dialogue,Calling,0000,0000,0000,,I don't care about that, Uehara-kun!
+Dialogue: 0,0:04:06.75,0:04:08.60,Main Dialogue,Calling,0000,0000,0000,,Tell me more about how \Nwe can turn things around!
+Dialogue: 0,0:04:08.60,0:04:10.85,Main Dialogue,Calling,0000,0000,0000,,Tell! Me! More!
+Dialogue: 0,0:04:12.09,0:04:13.62,Main Dialogue,Taxes,0000,0000,0000,,All right, fine.
+Dialogue: 0,0:04:15.31,0:04:16.23,Main Dialogue,Taxes,0000,0000,0000,,Listen up.
+Dialogue: 0,0:04:16.23,0:04:18.83,Main Dialogue,Taxes,0000,0000,0000,,How do you make it absolutely \Nclear what your relationship is
+Dialogue: 0,0:04:18.83,0:04:22.11,Main Dialogue,Taxes,0000,0000,0000,,with someone who's become full of doubt?
+Dialogue: 0,0:04:22.11,0:04:23.24,Main Dialogue,Taxes,0000,0000,0000,,You do it by...
+Dialogue: 0,0:04:24.93,0:04:26.41,Main Dialogue,Calling,0000,0000,0000,,Y-You do it by?
+Dialogue: 0,0:04:27.89,0:04:29.81,Main Dialogue,Taxes,0000,0000,0000,,Creating an indisputable fact.
+Dialogue: 0,0:04:29.81,0:04:30.74,Main Dialogue,Taxes,0000,0000,0000,,It's the only way.
+Dialogue: 0,0:04:33.42,0:04:38.42,Main Dialogue,Taxes,0000,0000,0000,,That is, if we can be alone together and \Nshow each other how attached we are...
+Dialogue: 0,0:04:34.45,0:04:37.73,Main Dialogue Top,Calling,0000,0000,0000,,Indisputable fact... Indisputable fact...
+Dialogue: 0,0:04:38.42,0:04:39.80,Main Dialogue,Calling,0000,0000,0000,,Indisputable fact...
+Dialogue: 0,0:04:39.14,0:04:39.80,Main Dialogue,Taxes,0000,0000,0000,,Tendou?
+Dialogue: 0,0:04:40.27,0:04:41.43,Main Dialogue,Calling,0000,0000,0000,,Indisputable fact...
+Dialogue: 0,0:04:45.61,0:04:50.37,Main Dialogue,Taxes,0000,0000,0000,,Wait, why am I conspiring \Nwith Hoshinomori's rival?
+Dialogue: 0,0:04:46.26,0:04:53.98,Main Dialogue Top,,0000,0000,0000,,Indisputable fact... Indisputable fact...
+Dialogue: 0,0:04:57.58,0:04:59.65,Main Dialogue,Armano,0000,0000,0000,,A d-double date?
+Dialogue: 0,0:04:59.65,0:05:00.37,Italics Dialogue,Calling,0000,0000,0000,,Yes.
+Dialogue: 0,0:05:00.37,0:05:01.07,Italics Dialogue,Calling,0000,0000,0000,,What do you think?
+Dialogue: 0,0:05:01.76,0:05:03.68,Main Dialogue,Armano,0000,0000,0000,,What do I think?
+Dialogue: 0,0:05:03.68,0:05:04.95,Main Dialogue,Armano,0000,0000,0000,,Uh...
+Dialogue: 0,0:05:04.95,0:05:10.66,Main Dialogue,Calling,0000,0000,0000,,We'll invite Uehara-kun and Aguri-san \Nand go out together, the four of us.
+Dialogue: 0,0:05:11.11,0:05:16.17,Main Dialogue,Armano,0000,0000,0000,,When you put it that way, it sounds like \Nan extension of our meet-up, but...
+Dialogue: 0,0:05:16.78,0:05:17.62,Main Dialogue,Calling,0000,0000,0000,,But?
+Dialogue: 0,0:05:18.59,0:05:20.22,Main Dialogue,Armano,0000,0000,0000,,A double date?
+Dialogue: 0,0:05:20.22,0:05:23.07,Main Dialogue,Armano,0000,0000,0000,,Don't you think anyone who \Ndoes such cheeky things
+Dialogue: 0,0:05:23.07,0:05:25.45,Main Dialogue,Armano,0000,0000,0000,,deserves to go fall into a bucket toilet?
+Dialogue: 0,0:05:25.45,0:05:27.03,Italics Dialogue,Calling,0000,0000,0000,,I do not!
+Dialogue: 0,0:05:27.03,0:05:33.06,Main Dialogue,Armano,0000,0000,0000,,I mean, jokes aside, I'd be \Nembarrassed out of my mind.
+Dialogue: 0,0:05:33.06,0:05:35.49,Main Dialogue,Calling,0000,0000,0000,,W-Well, me, too.
+Dialogue: 0,0:05:35.49,0:05:37.94,Main Dialogue,Calling,0000,0000,0000,,I'd be lying if I said I wasn't \Nfeeling shy about it.
+Dialogue: 0,0:05:37.94,0:05:41.65,Main Dialogue,Calling,0000,0000,0000,,It does seem a lot more \Nnext-level than a normal date.
+Dialogue: 0,0:05:41.65,0:05:43.10,Main Dialogue,Armano,0000,0000,0000,,Th-That's the thing.
+Dialogue: 0,0:05:43.10,0:05:47.82,Main Dialogue,Armano,0000,0000,0000,,A double date could be higher-level \Nthan even marriage or childbirth!
+Dialogue: 0,0:05:47.82,0:05:50.01,Italics Dialogue,Calling,0000,0000,0000,,No, that's impossible.
+Dialogue: 0,0:05:51.14,0:05:57.25,Italics Dialogue,Calling,0000,0000,0000,,So are you absolutely opposed \Nto going on a double date?
+Dialogue: 0,0:05:58.69,0:06:01.74,Italics Dialogue,Armano,0000,0000,0000,,I want to answer to \NTendou-san's wishes, as a man.
+Dialogue: 0,0:06:02.27,0:06:05.26,Italics Dialogue,Armano,0000,0000,0000,,But even I have principles!
+Dialogue: 0,0:06:05.26,0:06:07.93,Italics Dialogue,Calling,0000,0000,0000,,No matter... what?
+Dialogue: 0,0:06:08.63,0:06:10.70,Main Dialogue,Armano,0000,0000,0000,,Of course I'll go!
+Dialogue: 0,0:06:10.70,0:06:12.15,Main Dialogue,Armano,0000,0000,0000,,Double dates for the win!
+Dialogue: 0,0:06:12.15,0:06:13.01,Italics Dialogue,Calling,0000,0000,0000,,Really?
+Dialogue: 0,0:06:13.01,0:06:13.64,Italics Dialogue,Calling,0000,0000,0000,,I'm glad.
+Dialogue: 0,0:06:14.14,0:06:16.83,Italics Dialogue,Calling,0000,0000,0000,,Then Sunday, the day after \Ntomorrow, at 10:00 AM.
+Dialogue: 0,0:06:16.83,0:06:18.54,Italics Dialogue,Calling,0000,0000,0000,,Meet at the station.
+Dialogue: 0,0:06:18.54,0:06:23.24,Italics Dialogue,Calling,0000,0000,0000,,I can get free tickets through my parents' \Nconnections, so don't worry about that.
+Dialogue: 0,0:06:23.24,0:06:27.36,Italics Dialogue,Calling,0000,0000,0000,,I just ask that everyone bring their \Nown transportation and food money.
+Dialogue: 0,0:06:27.36,0:06:31.10,Italics Dialogue,Calling,0000,0000,0000,,There are apparently parades this time \Nof year, so we'll be arriving home late.
+Dialogue: 0,0:06:31.10,0:06:32.84,Italics Dialogue,Calling,0000,0000,0000,,Please inform your family.
+Dialogue: 0,0:06:32.84,0:06:35.41,Italics Dialogue,Calling,0000,0000,0000,,How does that sound, Amano-kun?
+Dialogue: 0,0:06:35.41,0:06:36.80,Italics Dialogue,Calling,0000,0000,0000,,Any questions?
+Dialogue: 0,0:06:36.80,0:06:39.16,Main Dialogue,Armano,0000,0000,0000,,Uh... No, not really.
+Dialogue: 0,0:06:39.47,0:06:40.51,Main Dialogue,Calling,0000,0000,0000,,Great.
+Dialogue: 0,0:06:40.51,0:06:43.14,Main Dialogue,Calling,0000,0000,0000,,I look forward to seeing you then.
+Dialogue: 0,0:06:43.14,0:06:44.75,Main Dialogue,Calling,0000,0000,0000,,Goodnight, Amano-kun.
+Dialogue: 0,0:06:44.75,0:06:46.15,Main Dialogue,Armano,0000,0000,0000,,Right.
+Dialogue: 0,0:06:46.15,0:06:47.35,Main Dialogue,Armano,0000,0000,0000,,Goodnight.
+Dialogue: 0,0:07:00.42,0:07:02.90,Main Dialogue,Armano,0000,0000,0000,,Viva Spiel Kingdom!
+Dialogue: 0,0:07:03.99,0:07:07.15,Main Dialogue,Calling,0000,0000,0000,,I never get tired of this drab, \Nmid-game town vibe.
+Dialogue: 0,0:07:07.15,0:07:11.99,Main Dialogue,Armano,0000,0000,0000,,I know! This drab, mid-game \Ntown vibe is so well-done!
+Dialogue: 0,0:07:13.43,0:07:16.74,Main Dialogue,Angry,0000,0000,0000,,I really don't get why they're so excited.
+Dialogue: 0,0:07:16.74,0:07:21.03,Main Dialogue,Taxes,0000,0000,0000,,This town is pretty awesome if \Nyou're a fan of this particular RPG.
+Dialogue: 0,0:07:21.03,0:07:22.00,Main Dialogue,Taxes,0000,0000,0000,,This theme park.
+Dialogue: 0,0:07:22.42,0:07:23.04,Main Dialogue,Calling,0000,0000,0000,,Yup!
+Dialogue: 0,0:07:23.47,0:07:26.38,Main Dialogue,Calling,0000,0000,0000,,This exquisitely balanced half-assedness!
+Dialogue: 0,0:07:26.38,0:07:30.26,Main Dialogue,Armano,0000,0000,0000,,It's perfect because it has \Nthat mid-game town vibe!
+Dialogue: 0,0:07:30.26,0:07:31.61,Main Dialogue,Angry,0000,0000,0000,,Uh...
+Dialogue: 0,0:07:31.61,0:07:34.52,Main Dialogue,Angry,0000,0000,0000,,You understand this \Nmysterious excitement, Tasuku?
+Dialogue: 0,0:07:34.52,0:07:39.48,Main Dialogue,Taxes,0000,0000,0000,,No, even as a gamer, that nerd couple \Nis straight-up creepy to me.
+Dialogue: 0,0:07:39.82,0:07:41.06,Main Dialogue,Angry,0000,0000,0000,,I feel better.
+Dialogue: 0,0:07:41.06,0:07:42.11,Main Dialogue,Angry,0000,0000,0000,,They are, right?
+Dialogue: 0,0:07:42.11,0:07:44.17,Main Dialogue,Angry,0000,0000,0000,,That couple's {\i1}actually{\i0} mental, right?
+Dialogue: 0,0:07:44.17,0:07:44.91,Main Dialogue,Taxes,0000,0000,0000,,Yeah.
+Dialogue: 0,0:07:44.91,0:07:46.23,Main Dialogue,Taxes,0000,0000,0000,,They're actually mental.
+Dialogue: 0,0:07:46.23,0:07:49.93,Main Dialogue,Armano,0000,0000,0000,,This cheap real-world look is something
+Dialogue: 0,0:07:49.93,0:07:54.15,Main Dialogue,Armano,0000,0000,0000,,to cherish especially now, \Nwith VR in its prime.
+Dialogue: 0,0:07:54.15,0:07:55.42,Main Dialogue,Calling,0000,0000,0000,,Indeed!
+Dialogue: 0,0:07:56.24,0:07:57.21,Main Dialogue,Calling,0000,0000,0000,,Look over there!
+Dialogue: 0,0:07:57.21,0:08:00.00,Main Dialogue,Calling,0000,0000,0000,,The slightly under-maintainedness \Nof that statue!
+Dialogue: 0,0:08:00.00,0:08:05.26,Main Dialogue,Angry,0000,0000,0000,,Please, Tasuku, I already \Nfeel like abandoning them.
+Dialogue: 0,0:08:05.26,0:08:06.49,Main Dialogue,Taxes,0000,0000,0000,,Stay calm, Aguri.
+Dialogue: 0,0:08:06.49,0:08:08.13,Main Dialogue,Taxes,0000,0000,0000,,I totally know how you feel.
+Dialogue: 0,0:08:08.13,0:08:10.25,Main Dialogue,Angry,0000,0000,0000,,Are you two fighting already?
+Dialogue: 0,0:08:10.25,0:08:12.11,Main Dialogue,Taxes,0000,0000,0000,,Whose fault do you think that is?!
+Dialogue: 0,0:08:15.62,0:08:17.26,Italics Dialogue,Calling,0000,0000,0000,,So far, so good.
+Dialogue: 0,0:08:17.26,0:08:18.01,Italics Dialogue,Taxes,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:18.66,0:08:20.77,Main Dialogue,Angry,0000,0000,0000,,What do you think, Amanocchi?
+Dialogue: 0,0:08:20.77,0:08:23.06,Main Dialogue,Armano,0000,0000,0000,,I guess it {\i1}is{\i0}...
+Dialogue: 0,0:08:23.06,0:08:23.94,sign_12062_131_Earlier_that_mor,Text,0000,0000,0000,,Earlier That Morning
+Dialogue: 0,0:08:24.57,0:08:26.31,Flashback Dialogue,Angry,0000,0000,0000,,A double date, huh?
+Dialogue: 0,0:08:26.70,0:08:29.01,Flashback Dialogue,Angry,0000,0000,0000,,I can't figure out what \Nmy boyfriend's thinking.
+Dialogue: 0,0:08:29.01,0:08:29.78,Flashback Dialogue,Angry,0000,0000,0000,,It hurts.
+Dialogue: 0,0:08:29.78,0:08:30.79,Flashback Dialogue,Armano,0000,0000,0000,,Aguri-san,
+Dialogue: 0,0:08:30.79,0:08:33.78,Flashback Dialogue,Armano,0000,0000,0000,,it's a unique experience being at a family \Nrestaurant in the morning, isn't it?
+Dialogue: 0,0:08:34.61,0:08:36.97,Flashback Dialogue,Angry,0000,0000,0000,,You seem pretty cool about this.
+Dialogue: 0,0:08:36.97,0:08:38.15,Flashback Dialogue,Armano,0000,0000,0000,,Yup, I'm cool.
+Dialogue: 0,0:08:38.15,0:08:39.36,Flashback Dialogue,Armano,0000,0000,0000,,Because...
+Dialogue: 0,0:08:39.36,0:08:40.35,Flashback Dialogue,Angry,0000,0000,0000,,Because?
+Dialogue: 0,0:08:40.83,0:08:43.01,Flashback Dialogue,Armano,0000,0000,0000,,Because Tendou-san and Uehara-kun
+Dialogue: 0,0:08:43.01,0:08:45.98,Flashback Dialogue,Armano,0000,0000,0000,,finally declared that we're all going \Non a date in front of each other.
+Dialogue: 0,0:08:45.98,0:08:47.44,Flashback Dialogue,Armano,0000,0000,0000,,There's nothing left to stress over!
+Dialogue: 0,0:08:47.44,0:08:49.97,Flashback Dialogue,Armano,0000,0000,0000,,It's game over, man!
+Dialogue: 0,0:08:49.97,0:08:51.39,Flashback Dialogue,Angry,0000,0000,0000,,I take back what I said!
+Dialogue: 0,0:08:51.39,0:08:53.42,Flashback Dialogue,Angry,0000,0000,0000,,This kid's more messed up than I am!
+Dialogue: 0,0:08:53.42,0:08:55.18,Main Dialogue,Angry,0000,0000,0000,,I have to snap him out of it!
+Dialogue: 0,0:08:58.94,0:09:03.15,Main Dialogue,Armano,0000,0000,0000,,I've never seen Tendou-san so excited.
+Dialogue: 0,0:09:03.15,0:09:04.91,Main Dialogue,Angry,0000,0000,0000,,Do you think...
+Dialogue: 0,0:09:04.91,0:09:06.26,Main Dialogue,Armano,0000,0000,0000,,They're totally...
+Dialogue: 0,0:09:06.26,0:09:08.69,Main Dialogue,Armano,0000,0000,0000,,...covering up the fact that they're cheating!
+Dialogue: 0,0:09:17.14,0:09:20.03,Italics Dialogue,Calling,0000,0000,0000,,Uehara-kun, I'm going to make a push.
+Dialogue: 0,0:09:20.45,0:09:21.30,Italics Dialogue,Taxes,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:21.30,0:09:24.24,Italics Dialogue,Taxes,0000,0000,0000,,This is where our fight begins, in a sense.
+Dialogue: 0,0:09:24.24,0:09:27.92,Italics Dialogue,Taxes,0000,0000,0000,,We have to make ourselves attractive, \Nas a man and as a woman.
+Dialogue: 0,0:09:31.49,0:09:34.13,Main Dialogue,Erowakame,0000,0000,0000,,Oh? It's Amano-senpai!
+Dialogue: 0,0:09:36.89,0:09:37.51,Main Dialogue,Armano,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:37.51,0:09:39.29,Main Dialogue,Armano,0000,0000,0000,,Konoha-san?
+Dialogue: 0,0:09:39.29,0:09:40.86,Main Dialogue,Wakame,0000,0000,0000,,K-Konoha!
+Dialogue: 0,0:09:40.86,0:09:42.47,Main Dialogue,Wakame,0000,0000,0000,,What's going on?
+Dialogue: 0,0:09:53.90,0:09:54.95,Flashback Dialogue,Wakame,0000,0000,0000,,Tomorrow?
+Dialogue: 0,0:09:54.95,0:09:56.40,Flashback Dialogue,Wakame,0000,0000,0000,,That's so sudden.
+Dialogue: 0,0:09:56.40,0:09:58.65,Flashback Dialogue,Erowakame,0000,0000,0000,,You don't have anything to do, \Nanyway, do you?
+Dialogue: 0,0:09:58.65,0:10:02.22,Flashback Dialogue,Wakame,0000,0000,0000,,No, I spend my weekends \Nworking on my games.
+Dialogue: 0,0:10:02.22,0:10:04.66,Flashback Dialogue,Wakame,0000,0000,0000,,I have plenty of plans.
+Dialogue: 0,0:10:04.66,0:10:07.90,Flashback Dialogue,Erowakame,0000,0000,0000,,Think of it as checking it out for when \Nyou go on a date with Amano-senpai.
+Dialogue: 0,0:10:06.83,0:10:10.46,sign_14550_168_Nobe_s_Game_Room,,0000,0000,0000,,Nobe's Game Room
+Dialogue: 0,0:10:08.97,0:10:11.38,Flashback Dialogue,Wakame,0000,0000,0000,,Wh-What... Why?
+Dialogue: 0,0:10:11.83,0:10:14.88,Flashback Dialogue,Erowakame,0000,0000,0000,,I don't want to waste \Nthese two free tickets I got.
+Dialogue: 0,0:10:14.88,0:10:17.77,Flashback Dialogue,Wakame,0000,0000,0000,,B-But I can't.
+Dialogue: 0,0:10:14.88,0:10:19.84,sign_14550_168_Nobe_s_Game_Room,,0000,0000,0000,,Nobe's Game Room
+Dialogue: 0,0:10:17.77,0:10:19.84,Flashback Dialogue,Wakame,0000,0000,0000,,A d-d-date?
+Dialogue: 0,0:10:20.26,0:10:22.71,Flashback Dialogue,Erowakame,0000,0000,0000,,So are you going or not?
+Dialogue: 0,0:10:22.71,0:10:24.60,Flashback Dialogue,Wakame,0000,0000,0000,,W-Well, I...
+Dialogue: 0,0:10:24.60,0:10:26.19,Flashback Dialogue,Wakame,0000,0000,0000,,I'm not emotionally ready.
+Dialogue: 0,0:10:26.19,0:10:29.85,Flashback Dialogue,Wakame,0000,0000,0000,,And Keita has Tendou-san, anyway.
+Dialogue: 0,0:10:31.17,0:10:34.99,Flashback Dialogue,Erowakame,0000,0000,0000,,You should be more honest about \Nyour own feelings, Onee-chan.
+Dialogue: 0,0:10:34.32,0:10:41.28,sign_15209_179_Nobe_s_Game_Room,,0000,0000,0000,,Nobe's Game Room
+Dialogue: 0,0:10:36.06,0:10:40.71,Flashback Dialogue,Erowakame,0000,0000,0000,,Senpai's emotions are going to fade \Nwhile you're trying to get your own ready.
+Dialogue: 0,0:10:44.07,0:10:45.56,Flashback Dialogue,Erowakame,0000,0000,0000,,I see.
+Dialogue: 0,0:10:45.56,0:10:50.04,Flashback Dialogue,Erowakame,0000,0000,0000,,If you aren't going, maybe I'll invite him.
+Dialogue: 0,0:10:48.66,0:10:50.04,sign_14550_168_Nobe_s_Game_Room,,0000,0000,0000,,Nobe's Game Room
+Dialogue: 0,0:10:50.04,0:10:51.94,Flashback Dialogue,Erowakame,0000,0000,0000,,Right, it's settled, then.
+Dialogue: 0,0:10:51.94,0:10:53.53,Flashback Dialogue,Erowakame,0000,0000,0000,,Goodnight, Onee-chan.
+Dialogue: 0,0:10:54.03,0:10:54.98,Flashback Dialogue,Wakame,0000,0000,0000,,I'll go.
+Dialogue: 0,0:10:56.09,0:10:57.30,Flashback Dialogue,Erowakame,0000,0000,0000,,Say what, Onee-chan?
+Dialogue: 0,0:10:58.70,0:10:59.97,Flashback Dialogue,Wakame,0000,0000,0000,,I'll go.
+Dialogue: 0,0:10:59.97,0:11:02.72,Flashback Dialogue,Wakame,0000,0000,0000,,I'll go to the amusement park with you.
+Dialogue: 0,0:11:02.72,0:11:05.26,Flashback Dialogue,Erowakame,0000,0000,0000,,Okay, see you tomorrow. \NWear your cutest outfit.
+Dialogue: 0,0:11:05.26,0:11:06.26,Flashback Dialogue,Erowakame,0000,0000,0000,,Goodnight!
+Dialogue: 0,0:11:12.85,0:11:14.10,Flashback Dialogue,Wakame,0000,0000,0000,,C-Clothes!
+Dialogue: 0,0:11:15.15,0:11:17.48,Flashback Dialogue,Calling,0000,0000,0000,,I don't care about that, Uehara-kun!
+Dialogue: 0,0:11:17.48,0:11:19.29,Flashback Dialogue,Calling,0000,0000,0000,,Tell me more about how \Nwe can turn things around!
+Dialogue: 0,0:11:19.29,0:11:21.61,Flashback Dialogue,Calling,0000,0000,0000,,Tell! Me! More!
+Dialogue: 0,0:11:21.61,0:11:24.34,Flashback Dialogue,Erowakame,0000,0000,0000,,{\i1}I don't know what they're scheming,
+Dialogue: 0,0:11:24.34,0:11:28.79,Flashback Dialogue,Erowakame,0000,0000,0000,,{\i1}but they won't get away with \Nleaving me and Onee-chan behind!
+Dialogue: 0,0:11:28.79,0:11:30.75,Main Dialogue,Erowakame,0000,0000,0000,,I'm Hoshinomori Konoha.
+Dialogue: 0,0:11:30.75,0:11:31.71,Main Dialogue,Taxes,0000,0000,0000,,Uh...
+Dialogue: 0,0:11:31.71,0:11:32.61,Main Dialogue,Taxes,0000,0000,0000,,Konoha-chan?
+Dialogue: 0,0:11:32.61,0:11:34.84,Main Dialogue,Erowakame,0000,0000,0000,,Whoa, stay away from me, Uglyhara.
+Dialogue: 0,0:11:34.84,0:11:35.75,Main Dialogue,Erowakame,0000,0000,0000,,So vile.
+Dialogue: 0,0:11:35.75,0:11:37.21,Main Dialogue,Taxes,0000,0000,0000,,Uglyhara?!
+Dialogue: 0,0:11:37.21,0:11:38.65,Main Dialogue,Taxes,0000,0000,0000,,Sulk...
+Dialogue: 0,0:11:39.78,0:11:42.09,Main Dialogue,Calling,0000,0000,0000,,By the way, what brings you two here?
+Dialogue: 0,0:11:42.90,0:11:45.96,Main Dialogue,Erowakame,0000,0000,0000,,We sisters are best buddies. \NGot a problem with that?
+Dialogue: 0,0:11:45.96,0:11:48.26,Main Dialogue,Erowakame,0000,0000,0000,,I'd actually like to know
+Dialogue: 0,0:11:48.26,0:11:52.70,Main Dialogue,Erowakame,0000,0000,0000,,why you've left my sister out of a \NGamers Meet-up trip to the amusement park.
+Dialogue: 0,0:11:52.70,0:11:53.60,Main Dialogue,Erowakame,0000,0000,0000,,Just kidding.
+Dialogue: 0,0:11:53.60,0:12:02.49,sign_17110_211_Karen,,0000,0000,0000,,Karen
+Dialogue: 0,0:11:55.35,0:11:56.98,Main Dialogue Top,Calling,0000,0000,0000,,I-I'm sorry.
+Dialogue: 0,0:11:56.98,0:11:59.53,Main Dialogue Top,Calling,0000,0000,0000,,But it wasn't that we left her out.
+Dialogue: 0,0:11:59.53,0:12:02.49,Main Dialogue Top,Calling,0000,0000,0000,,The four of us, you know, have dates.
+Dialogue: 0,0:12:02.49,0:12:12.25,sign_17323_215_Konoha,,0000,0000,0000,,Konoha
+Dialogue: 0,0:12:04.37,0:12:07.75,Main Dialogue Top,Erowakame,0000,0000,0000,,Ah, so it's a double date!
+Dialogue: 0,0:12:07.75,0:12:11.02,Main Dialogue Top,Erowakame,0000,0000,0000,,I'm single, so I can't help but envy you.
+Dialogue: 0,0:12:11.02,0:12:12.25,Main Dialogue Top,Erowakame,0000,0000,0000,,A double date!
+Dialogue: 0,0:12:12.25,0:12:14.00,sign_17110_211_Karen,,0000,0000,0000,,Karen
+Dialogue: 0,0:12:14.00,0:12:15.42,Main Dialogue,Armano,0000,0000,0000,,U-Um...
+Dialogue: 0,0:12:15.42,0:12:18.75,Main Dialogue,Armano,0000,0000,0000,,Since you're here, why don't we hang out \Nso you can get to know each other?
+Dialogue: 0,0:12:18.75,0:12:20.62,Main Dialogue,Calling,0000,0000,0000,,The loner's giving us advice!
+Dialogue: 0,0:12:20.62,0:12:21.03,Main Dialogue,Armano,0000,0000,0000,,Ouch!
+Dialogue: 0,0:12:21.03,0:12:22.32,sign_17110_211_Karen,,0000,0000,0000,,Keita
+Dialogue: 0,0:12:49.28,0:12:51.52,Main Dialogue,Erowakame,0000,0000,0000,,I think I spun it too fast.
+Dialogue: 0,0:12:52.25,0:12:53.62,Main Dialogue,Armano,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:12:54.73,0:12:56.67,Main Dialogue,Wakame,0000,0000,0000,,Yes, I'm fine.
+Dialogue: 0,0:12:56.67,0:12:58.25,Main Dialogue,Wakame,0000,0000,0000,,Don't worry about me.
+Dialogue: 0,0:13:03.57,0:13:05.24,Main Dialogue,Erowakame,0000,0000,0000,,Let's go here next.
+Dialogue: 0,0:13:05.24,0:13:06.02,Main Dialogue,Calling,0000,0000,0000,,Yes.
+Dialogue: 0,0:13:06.02,0:13:08.14,Main Dialogue,Calling,0000,0000,0000,,Spiel Kingdom's most famous attraction,
+Dialogue: 0,0:13:08.60,0:13:09.89,Main Dialogue,Calling,0000,0000,0000,,Kizuna Dungeon.
+Dialogue: 0,0:13:12.43,0:13:13.96,Main Dialogue,Armano,0000,0000,0000,,It really sets the mood.
+Dialogue: 0,0:13:13.96,0:13:16.90,Main Dialogue,Angry,0000,0000,0000,,This one might do it for me!
+Dialogue: 0,0:13:17.99,0:13:19.37,Main Dialogue,Armano,0000,0000,0000,,Tendou-san?
+Dialogue: 0,0:13:19.37,0:13:21.40,Main Dialogue,Calling,0000,0000,0000,,Oh, it's nothing.
+Dialogue: 0,0:13:24.71,0:13:26.91,Italics Dialogue,Taxes,0000,0000,0000,,It's too early to give up, Tendou.
+Dialogue: 0,0:13:28.74,0:13:29.82,Italics Dialogue,Calling,0000,0000,0000,,You're right.
+Dialogue: 0,0:13:29.82,0:13:31.66,Italics Dialogue,Calling,0000,0000,0000,,We can still get back in the game.
+Dialogue: 0,0:13:34.54,0:13:36.04,Main Dialogue,Erowakame,0000,0000,0000,,Now, come on, you two.
+Dialogue: 0,0:13:36.42,0:13:38.19,Main Dialogue,Erowakame,0000,0000,0000,,Let's go inside.
+Dialogue: 0,0:13:40.04,0:13:43.83,Main Dialogue Top,A,0000,0000,0000,,{\i1}Lockie the Hero, what are you doing here?
+Dialogue: 0,0:13:43.83,0:13:45.81,Main Dialogue,Angry,0000,0000,0000,,The interior's really detailed, too.
+Dialogue: 0,0:13:43.83,0:13:48.22,Main Dialogue Top,A,0000,0000,0000,,{\i1}What? You've been trapped in this \Nmassive dungeon by the Evil King Hades?
+Dialogue: 0,0:13:45.81,0:13:48.22,Main Dialogue,Taxes,0000,0000,0000,,That's some pretty high quality.
+Dialogue: 0,0:13:48.22,0:13:51.63,Main Dialogue Top,A,0000,0000,0000,,{\i1}Here lies a trap to slow you down.
+Dialogue: 0,0:13:51.63,0:13:53.14,Main Dialogue Top,A,0000,0000,0000,,{\i1}Look out!
+Dialogue: 0,0:13:54.54,0:13:56.70,Main Dialogue Top,A,0000,0000,0000,,{\i1}There's a shock trap, too!
+Dialogue: 0,0:13:58.74,0:14:02.77,Main Dialogue Top,A,0000,0000,0000,,{\i1}And an army of Evil King Hades's\N monster minions!
+Dialogue: 0,0:14:05.39,0:14:06.70,Main Dialogue,Armano,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:14:07.23,0:14:08.66,Main Dialogue,Calling,0000,0000,0000,,Amano-kun...
+Dialogue: 0,0:14:09.30,0:14:10.28,Main Dialogue,Erowakame,0000,0000,0000,,Hmph.
+Dialogue: 0,0:14:11.27,0:14:13.24,Main Dialogue Top,A,0000,0000,0000,,{\i1}Ahead there is darkness.
+Dialogue: 0,0:14:13.24,0:14:17.00,Main Dialogue Top,A,0000,0000,0000,,{\i1}Go forth with your partner, \Nreaffirming your bond.
+Dialogue: 0,0:14:18.89,0:14:21.55,Main Dialogue,Armano,0000,0000,0000,,Chiaki, are you sure you're okay?
+Dialogue: 0,0:14:27.88,0:14:30.29,Main Dialogue,Taxes,0000,0000,0000,,Well, let's go, Aguri.
+Dialogue: 0,0:14:30.29,0:14:31.06,Main Dialogue,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:14:35.85,0:14:37.00,Main Dialogue,Calling,0000,0000,0000,,Ahem.
+Dialogue: 0,0:14:37.00,0:14:40.01,Main Dialogue,Calling,0000,0000,0000,,W-Well then, Amano-kun, shall we...
+Dialogue: 0,0:14:42.99,0:14:43.98,Main Dialogue,Calling,0000,0000,0000,,Huh?
+Dialogue: 0,0:14:43.98,0:14:45.73,sign_21195_260_Emergency_Exit_,,0000,0000,0000,,Give-up Exit
+Dialogue: 0,0:14:49.90,0:14:51.72,Main Dialogue,Erowakame,0000,0000,0000,,That was scary, wasn't it?
+Dialogue: 0,0:14:51.72,0:14:52.85,Main Dialogue,Armano,0000,0000,0000,,Konoha-san!
+Dialogue: 0,0:14:52.85,0:14:54.70,Main Dialogue,Armano,0000,0000,0000,,What do you think you're doing?
+Dialogue: 0,0:14:54.70,0:14:55.74,Main Dialogue,Erowakame,0000,0000,0000,,Huh?
+Dialogue: 0,0:14:55.74,0:14:57.37,Main Dialogue,Erowakame,0000,0000,0000,,Was that the wrong exit?
+Dialogue: 0,0:14:57.86,0:14:59.50,Main Dialogue,Armano,0000,0000,0000,,Jeez.
+Dialogue: 0,0:15:01.59,0:15:04.25,Main Dialogue,Armano,0000,0000,0000,,Hey, are you sure you're feeling okay?
+Dialogue: 0,0:15:04.25,0:15:06.03,Main Dialogue,Erowakame,0000,0000,0000,,What's wrong, Onee-chan?
+Dialogue: 0,0:15:07.06,0:15:09.35,Main Dialogue,Wakame,0000,0000,0000,,Sorry, I'm okay.
+Dialogue: 0,0:15:09.35,0:15:12.01,Main Dialogue,Wakame,0000,0000,0000,,I just feel a bit dizzy.
+Dialogue: 0,0:15:13.23,0:15:14.39,Main Dialogue,Armano,0000,0000,0000,,Chiaki!
+Dialogue: 0,0:15:14.39,0:15:15.66,Main Dialogue,Wakame,0000,0000,0000,,Onee-chan!
+Dialogue: 0,0:15:26.55,0:15:28.36,Main Dialogue,Erowakame,0000,0000,0000,,You're finally awake.
+Dialogue: 0,0:15:34.57,0:15:36.81,Main Dialogue,Erowakame,0000,0000,0000,,You're heavy, Onee-chan.
+Dialogue: 0,0:15:36.81,0:15:38.35,Main Dialogue,Wakame,0000,0000,0000,,Sorry.
+Dialogue: 0,0:15:38.35,0:15:39.69,Main Dialogue,Wakame,0000,0000,0000,,I'm okay now.
+Dialogue: 0,0:15:39.69,0:15:41.60,Main Dialogue,Armano,0000,0000,0000,,Chiaki, are you really okay?
+Dialogue: 0,0:15:41.60,0:15:42.87,Main Dialogue,Wakame,0000,0000,0000,,K-Keita!
+Dialogue: 0,0:15:43.61,0:15:46.42,Main Dialogue,Erowakame,0000,0000,0000,,Amano-senpai carried you all the way here.
+Dialogue: 0,0:15:46.93,0:15:48.65,Main Dialogue,Wakame,0000,0000,0000,,K-Keita did?
+Dialogue: 0,0:15:48.65,0:15:52.18,Main Dialogue,Erowakame,0000,0000,0000,,You have a surprisingly manly side, Senpai.
+Dialogue: 0,0:15:55.17,0:15:57.50,Main Dialogue,Armano,0000,0000,0000,,You still look pale.
+Dialogue: 0,0:15:57.50,0:15:59.85,Main Dialogue,Wakame,0000,0000,0000,,I-I'm okay, really.
+Dialogue: 0,0:16:02.22,0:16:06.86,Main Dialogue,Erowakame,0000,0000,0000,,Well, I'm going to go buy some drinks.
+Dialogue: 0,0:16:08.69,0:16:10.36,Main Dialogue,Armano,0000,0000,0000,,Oh, I'll do that.
+Dialogue: 0,0:16:10.90,0:16:13.34,Main Dialogue,Erowakame,0000,0000,0000,,You stay right here, Senpai.
+Dialogue: 0,0:16:13.34,0:16:15.84,Main Dialogue,Erowakame,0000,0000,0000,,Wait with Onee-chan, please.
+Dialogue: 0,0:16:15.84,0:16:16.81,Main Dialogue,Armano,0000,0000,0000,,Right...
+Dialogue: 0,0:16:20.45,0:16:22.71,Main Dialogue,Wakame,0000,0000,0000,,S-Stop looking at me.
+Dialogue: 0,0:16:22.71,0:16:24.25,Main Dialogue,Armano,0000,0000,0000,,Oh...
+Dialogue: 0,0:16:43.37,0:16:45.19,Main Dialogue,Armano,0000,0000,0000,,It's Tendou-san.
+Dialogue: 0,0:16:45.19,0:16:46.35,Main Dialogue,Armano,0000,0000,0000,,Sorry, one sec.
+Dialogue: 0,0:16:57.78,0:16:59.47,Main Dialogue,Wakame,0000,0000,0000,,U-Um...
+Dialogue: 0,0:17:00.01,0:17:04.62,Main Dialogue,Wakame,0000,0000,0000,,I get a bit lonely being by \Nmyself in places like this.
+Dialogue: 0,0:17:09.09,0:17:10.05,Main Dialogue,Armano,0000,0000,0000,,Okay.
+Dialogue: 0,0:17:10.66,0:17:11.99,Main Dialogue,Wakame,0000,0000,0000,,Um...
+Dialogue: 0,0:17:11.99,0:17:13.81,Main Dialogue,Armano,0000,0000,0000,,She'll contact me again.
+Dialogue: 0,0:17:13.81,0:17:15.18,Main Dialogue,Armano,0000,0000,0000,,Tendou-san's diligent.
+Dialogue: 0,0:17:15.81,0:17:17.26,Main Dialogue,Armano,0000,0000,0000,,See? Look.
+Dialogue: 0,0:17:18.90,0:17:21.61,Main Dialogue,Armano,0000,0000,0000,,She says she'll be waiting at \Nthe Kizuna Dungeon exit.
+Dialogue: 0,0:17:22.95,0:17:24.47,Main Dialogue,Wakame,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:17:25.78,0:17:27.01,Main Dialogue,Armano,0000,0000,0000,,Aren't you going to sit down?
+Dialogue: 0,0:17:31.43,0:17:35.28,Main Dialogue,Armano,0000,0000,0000,,We don't get many chances to \Ncome to places like this, huh?
+Dialogue: 0,0:17:35.28,0:17:36.86,Main Dialogue,Armano,0000,0000,0000,,There're so many people around.
+Dialogue: 0,0:17:36.86,0:17:38.95,Main Dialogue,Armano,0000,0000,0000,,It's not surprising that you collapsed.
+Dialogue: 0,0:17:40.82,0:17:43.16,Main Dialogue,Armano,0000,0000,0000,,By the way, why are you here today?
+Dialogue: 0,0:17:43.81,0:17:49.09,Main Dialogue,Wakame,0000,0000,0000,,Oh, no, Konoha kind of forced me \Ninto checking it out for a date.
+Dialogue: 0,0:17:49.09,0:17:50.12,Main Dialogue,Armano,0000,0000,0000,,A date?
+Dialogue: 0,0:17:50.12,0:17:52.42,Main Dialogue,Armano,0000,0000,0000,,Wh-Who are you going on a date with?
+Dialogue: 0,0:17:52.42,0:17:55.39,Main Dialogue,Wakame,0000,0000,0000,,Wh-What does it matter who it is?
+Dialogue: 0,0:17:55.39,0:17:57.09,Main Dialogue,Armano,0000,0000,0000,,Y-You're right.
+Dialogue: 0,0:18:14.69,0:18:15.86,Main Dialogue,Wakame,0000,0000,0000,,Keita...
+Dialogue: 0,0:18:17.41,0:18:22.75,Main Dialogue,Wakame,0000,0000,0000,,What do you think of Mono-san and Nobe-san?
+Dialogue: 0,0:18:23.18,0:18:24.56,Main Dialogue,Armano,0000,0000,0000,,Well, I mean...
+Dialogue: 0,0:18:24.56,0:18:27.19,Main Dialogue,Armano,0000,0000,0000,,They're really important to me.
+Dialogue: 0,0:18:27.19,0:18:32.46,Main Dialogue,Armano,0000,0000,0000,,Although I still haven't quite processed \Nthe fact that they're Konoha-san.
+Dialogue: 0,0:18:33.34,0:18:35.27,Main Dialogue,Wakame,0000,0000,0000,,More than Tendou-san?
+Dialogue: 0,0:18:35.88,0:18:38.19,Main Dialogue,Armano,0000,0000,0000,,Why would you ask me that?
+Dialogue: 0,0:18:38.19,0:18:40.59,Main Dialogue,Wakame,0000,0000,0000,,Sorry, I just...
+Dialogue: 0,0:18:41.10,0:18:42.87,Main Dialogue,Wakame,0000,0000,0000,,There's no real reason.
+Dialogue: 0,0:18:46.31,0:18:49.89,Main Dialogue,Armano,0000,0000,0000,,Tendou-san's important to me, too.
+Dialogue: 0,0:18:49.89,0:18:53.11,Main Dialogue,Armano,0000,0000,0000,,So I'm really fortunate that \NI'm given the opportunity to be
+Dialogue: 0,0:18:53.11,0:18:55.98,Main Dialogue,Armano,0000,0000,0000,,in a relationship with her.
+Dialogue: 0,0:18:58.49,0:19:03.94,Main Dialogue,Armano,0000,0000,0000,,But of course, Uehara-kun and Aguri-san \Nare really important to me, too.
+Dialogue: 0,0:19:03.94,0:19:07.00,Main Dialogue,Armano,0000,0000,0000,,And so are you.
+Dialogue: 0,0:19:09.06,0:19:12.69,Main Dialogue,Armano,0000,0000,0000,,I was a loner with zero \Nfriends until just recently.
+Dialogue: 0,0:19:12.69,0:19:17.01,Main Dialogue,Armano,0000,0000,0000,,I would have never imagined that I'd get \Nto hang out with you guys like this.
+Dialogue: 0,0:19:18.58,0:19:23.68,Main Dialogue,Armano,0000,0000,0000,,It's all because Tendou-san \Nsaid hi to me that day.
+Dialogue: 0,0:19:23.68,0:19:30.46,Main Dialogue,Armano,0000,0000,0000,,Though it hurts at times that I still don't \Nknow what Tendou-san really thinks of me.
+Dialogue: 0,0:19:30.46,0:19:33.09,Main Dialogue,Wakame,0000,0000,0000,,You're not that cool, Keita. Stop trying.
+Dialogue: 0,0:19:33.63,0:19:34.79,Main Dialogue,Armano,0000,0000,0000,,What's your problem?
+Dialogue: 0,0:19:34.79,0:19:37.11,Main Dialogue,Armano,0000,0000,0000,,You're the one who asked me!
+Dialogue: 0,0:19:41.15,0:19:42.22,Main Dialogue,Wakame,0000,0000,0000,,Konoha?
+Dialogue: 0,0:19:45.33,0:19:46.06,Main Dialogue,Armano,0000,0000,0000,,Huh?
+Dialogue: 0,0:19:46.06,0:19:47.30,Main Dialogue,Armano,0000,0000,0000,,What about the drinks?
+Dialogue: 0,0:19:47.85,0:19:49.42,Main Dialogue,Erowakame,0000,0000,0000,,Shut up, Senpai!
+Dialogue: 0,0:19:49.42,0:19:52.33,Main Dialogue,Erowakame,0000,0000,0000,,Why do you even care anymore?
+Dialogue: 0,0:19:57.83,0:19:59.15,Main Dialogue,Armano,0000,0000,0000,,Let's get going.
+Dialogue: 0,0:19:59.15,0:20:01.17,Main Dialogue,Armano,0000,0000,0000,,We're keeping Tendou-san \Nand the others waiting.
+Dialogue: 0,0:20:04.37,0:20:06.91,Main Dialogue,Wakame,0000,0000,0000,,No, I'm going to head home.
+Dialogue: 0,0:20:06.91,0:20:08.23,Main Dialogue,Erowakame,0000,0000,0000,,Onee-chan?
+Dialogue: 0,0:20:08.23,0:20:10.31,Main Dialogue,Armano,0000,0000,0000,,Do you still feel sick?
+Dialogue: 0,0:20:10.31,0:20:11.39,Main Dialogue,Wakame,0000,0000,0000,,No.
+Dialogue: 0,0:20:11.39,0:20:15.16,Main Dialogue,Wakame,0000,0000,0000,,You should go enjoy the \Nlast bit with Tendou-san.
+Dialogue: 0,0:20:15.16,0:20:16.35,Main Dialogue,Erowakame,0000,0000,0000,,Onee-chan...
+Dialogue: 0,0:20:16.77,0:20:17.79,Main Dialogue,Wakame,0000,0000,0000,,It's okay.
+Dialogue: 0,0:20:18.26,0:20:19.78,Main Dialogue,Armano,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:20:21.30,0:20:23.53,Main Dialogue,Armano,0000,0000,0000,,Let's go see the parade together.
+Dialogue: 0,0:20:23.85,0:20:24.61,Main Dialogue,Armano,0000,0000,0000,,Come on.
+Dialogue: 0,0:20:29.30,0:20:31.61,Main Dialogue,Erowakame,0000,0000,0000,,W-Wait for me!
+Dialogue: 0,0:20:32.62,0:20:34.62,sign_29554_351_Amano_kun,Erowakame,0000,0000,0000,,Amano-kun
+Dialogue: 0,0:20:37.09,0:20:38.81,Main Dialogue,Armano,0000,0000,0000,,Sorry for the wait.
+Dialogue: 0,0:20:40.54,0:20:41.98,Main Dialogue,Taxes,0000,0000,0000,,Took you long enough, Amano.
+Dialogue: 0,0:20:41.98,0:20:43.42,Main Dialogue,Angry,0000,0000,0000,,Where were you?
+Dialogue: 0,0:20:43.42,0:20:46.18,Main Dialogue,Armano,0000,0000,0000,,S-Sorry, Chiaki collapsed.
+Dialogue: 0,0:20:47.11,0:20:48.53,Main Dialogue,Wakame,0000,0000,0000,,I-I'm fine.
+Dialogue: 0,0:20:48.53,0:20:51.10,Main Dialogue,Wakame,0000,0000,0000,,I just got a bit dizzy.
+Dialogue: 0,0:20:51.59,0:20:52.90,Main Dialogue,Calling,0000,0000,0000,,Thank goodness.
+Dialogue: 0,0:20:59.95,0:21:00.96,Main Dialogue,Angry,0000,0000,0000,,We've gotta hurry.
+Dialogue: 0,0:21:00.96,0:21:02.82,Main Dialogue,Angry,0000,0000,0000,,The parade's starting.
+Dialogue: 0,0:21:02.82,0:21:04.51,Main Dialogue,Taxes,0000,0000,0000,,Is it already that time?
+Dialogue: 0,0:21:04.51,0:21:06.10,Main Dialogue,Calling,0000,0000,0000,,We don't want to miss it.
+Dialogue: 0,0:21:06.10,0:21:07.20,Main Dialogue,Calling,0000,0000,0000,,Let's hurry.
+Dialogue: 0,0:21:07.20,0:21:09.00,Main Dialogue,Angry,0000,0000,0000,,Let's go, Amanocchi.
+Dialogue: 0,0:21:09.00,0:21:11.11,Main Dialogue,Calling,0000,0000,0000,,Come on, Hoshinomori-san.
+Dialogue: 0,0:21:28.54,0:21:30.72,Main Dialogue,Armano,0000,0000,0000,,There are so many people.
+Dialogue: 0,0:21:37.93,0:21:39.76,Main Dialogue,Angry,0000,0000,0000,,Wh-What's wrong?
+Dialogue: 0,0:21:39.76,0:21:42.23,Main Dialogue,Taxes,0000,0000,0000,,Why don't we go up front?
+Dialogue: 0,0:21:43.15,0:21:44.74,Main Dialogue,Angry,0000,0000,0000,,T-Tasuku?
+Dialogue: 0,0:21:53.89,0:21:55.19,Main Dialogue,Calling,0000,0000,0000,,Amano-kun?
+Dialogue: 0,0:21:55.19,0:21:57.31,Main Dialogue,Armano,0000,0000,0000,,Why don't we go, too?
+Dialogue: 0,0:21:59.79,0:22:01.41,Main Dialogue,Calling,0000,0000,0000,,W-Well, I suppose.
+Dialogue: 0,0:22:01.41,0:22:05.90,Main Dialogue,Calling,0000,0000,0000,,I'll have to hold on to you \Nso you don't get lost.
+Dialogue: 0,0:22:05.90,0:22:07.71,Main Dialogue,Armano,0000,0000,0000,,Okay, let's go.
+Dialogue: 0,0:22:07.71,0:22:08.98,Main Dialogue,Calling,0000,0000,0000,,O-Okay.
+Dialogue: 0,0:22:14.05,0:22:15.31,Main Dialogue,Erowakame,0000,0000,0000,,Sorry about today.
+Dialogue: 0,0:22:15.31,0:22:17.63,Main Dialogue,Erowakame,0000,0000,0000,,I got a bit carried away.
+Dialogue: 0,0:22:17.63,0:22:19.60,Main Dialogue,Wakame,0000,0000,0000,,No, it's okay.
+Dialogue: 0,0:22:20.14,0:22:21.85,Main Dialogue,Erowakame,0000,0000,0000,,So how'd it go?
+Dialogue: 0,0:22:21.85,0:22:23.09,Main Dialogue,Wakame,0000,0000,0000,,How'd what go?
+Dialogue: 0,0:22:23.09,0:22:24.35,Main Dialogue,Erowakame,0000,0000,0000,,Did you get rejected?
+Dialogue: 0,0:22:24.97,0:22:28.03,Main Dialogue,Wakame,0000,0000,0000,,N-No, I didn't get rejected.
+Dialogue: 0,0:22:28.03,0:22:29.61,Main Dialogue,Erowakame,0000,0000,0000,,Good, good.
+Dialogue: 0,0:22:29.61,0:22:31.07,Main Dialogue,Wakame,0000,0000,0000,,Stop, Konoha.
+Dialogue: 0,0:22:32.02,0:22:33.99,Main Dialogue,Wakame,0000,0000,0000,,Though I may not have revealed the truth,
+Dialogue: 0,0:22:33.99,0:22:38.64,Main Dialogue,Wakame,0000,0000,0000,,I shall someday make that man a \Nslave to my overwhelming charms.
+Dialogue: 0,0:22:38.64,0:22:41.08,Main Dialogue,Erowakame,0000,0000,0000,,You're breaking character.
+Dialogue: 0,0:22:46.82,0:22:49.09,Main Dialogue,Wakame,0000,0000,0000,,Let's go to the front.
+Dialogue: 0,0:22:49.09,0:22:51.27,Main Dialogue,Erowakame,0000,0000,0000,,Are you sure you won't collapse again?
+Dialogue: 0,0:22:51.27,0:22:52.07,Main Dialogue,Wakame,0000,0000,0000,,Yes.
+Dialogue: 0,0:22:52.07,0:22:53.90,Main Dialogue,Wakame,0000,0000,0000,,I'm totally fine now.
+Dialogue: 0,0:22:53.90,0:22:55.51,Main Dialogue,Wakame,0000,0000,0000,,Let's go, Konoha.
+Dialogue: 0,0:23:05.83,0:23:07.10,Main Dialogue,Taxes,0000,0000,0000,,Hey...
+Dialogue: 0,0:23:07.10,0:23:09.10,Main Dialogue,Angry,0000,0000,0000,,Thanks for everything today.
+Dialogue: 0,0:23:09.10,0:23:10.35,Main Dialogue,Taxes,0000,0000,0000,,Sure.
+Dialogue: 0,0:23:10.35,0:23:12.97,Main Dialogue,Angry,0000,0000,0000,,It wasn't game over at all.
+Dialogue: 0,0:23:20.91,0:23:22.27,Main Dialogue,Calling,0000,0000,0000,,It's so pretty.
+Dialogue: 0,0:23:22.27,0:23:24.71,Main Dialogue,Armano,0000,0000,0000,,Let's go up further, Tendou-san.
+Dialogue: 0,0:23:25.21,0:23:26.70,Main Dialogue,Calling,0000,0000,0000,,Amano-kun?
+Dialogue: 0,0:23:27.43,0:23:28.71,Main Dialogue,Calling,0000,0000,0000,,Amano-kun!

@@ -1,0 +1,386 @@
+﻿[Script Info]
+
+;-----------------------------------;
+; Advanced Sub Station Alpha script ;
+;-----------------------------------;
+;                                   ;
+; This script has been created with ;
+;    MEDUSA - Subtitling Station    ;
+;-----------------------------------;
+
+Title: School Rumble Ep 2
+Original Script: WannabeFansubs
+Original Translation: MusashiKen
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 800
+PlayResY: 600
+PlayDepth: 0
+Timer: 100.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ED-Title,Comix,46,&H00AF3FDA,&H0000FFFF,&H0016091C,&H8216091C,-1,0,0,0,100,100,0,0,1,2,3,8,30,30,0,0
+Style: IntroText,Prototype,44,&H00000000,&H0000FFFF,&H00FFFFFF,&H82FFFFFF,-1,0,0,0,100,100,0,0,1,1,0,8,30,30,12,0
+Style: OP-Title,Minimal SF,48,&H00568FDC,&H0000FFFF,&H000A1632,&H820A1632,-1,0,0,0,100,100,0,0,1,2,3,8,30,30,0,0
+Style: EndingLyrics,Bolide,42,&H00D5D8EC,&H00D5D8EC,&H0064187C,&H0064187C,-1,0,0,0,90,100,0,0,1,1.5,0,2,30,30,20,0
+Style: IntroLyrics,Cookie Black,36,&H00FEE9C0,&H009E421B,&H009E421B,&HC02E1307,-1,0,0,0,90,100,0,0,1,1.8,1,2,30,30,20,0
+Style: SR-notes,ThereChat2,26,&H002F2F2F,&H00AF3FDA,&H001F1F1F,&H001F1F1F,0,0,0,0,100,100,0,0,1,1.00,0.00,7,30,30,5,0
+Style: SR-Main,Impress BT,42,&H00E9DBD6,&H00E8E6E6,&H00483831,&H82483831,-1,0,0,0,100,100,0,0,1,3,1,2,30,30,25,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.50,0:00:10.00,IntroText,,0000,0000,0000,,{\alpha&HFF&\an5}If you can read this, please install VSFilter or switch to the second subtitle track.
+Dialogue: 0,0:00:00.00,0:00:05.00,SR-Main,,0000,0000,0000,,{\fnMercedes\fs40\c&H0&\a2}{\fscy110\fsp2\3c&H0&\4c&H0&\bord3\be1\alpha&HBB&\pos(562,462)}Coming up next!
+Dialogue: 0,0:00:00.00,0:00:05.00,SR-Main,,0000,0000,0000,,{\fnMercedes\fs40\c&H0&\a2}{\fscy110\fsp2\3c&H0&\4c&H0&\bord2\be1\alpha&H77&\pos(562,462)}Coming up next!
+Dialogue: 0,0:00:00.00,0:00:05.00,SR-Main,,0000,0000,0000,,{\fnMercedes\fs40\c&H0&\a2}{\fscy110\fsp2\3c&H0&\4c&H0&\bord1\be1\alpha&H22&\pos(562,462)}Coming up next!
+Dialogue: 0,0:00:00.00,0:00:05.00,SR-Main,,0000,0000,0000,,{\fnMercedes\fs40\c&HFFFFFF&\a2}{\fscy110\fsp2\3c&HFFFFFF&\4c&H0&\bord0.8\\be1\pos(560,460)}Coming up next!
+Dialogue: 0,0:00:00.50,0:00:03.50,SR-Main,,0000,0000,0000,,{\an8}The gurugu mawaru love comedy, School Rumble...
+Dialogue: 0,0:00:03.50,0:00:04.40,SR-Main,,0000,0000,0000,,{\an8}Coming up next!
+Dialogue: 0,0:00:07.46,0:00:12.60,SR-notes,,0000,0000,0000,,{\fs35\an7\pos(60,60)\bord2\shad0\c&H000000&\3c&HFFFFFF&\be1}When watching TV,\Nwatch in a bright room and from a distance!
+Dialogue: 0,0:00:30.87,0:00:32.28,SR-Main,,0000,0000,0000,,So you came, Harima.
+Dialogue: 0,0:00:32.53,0:00:34.84,SR-Main,,0000,0000,0000,,We'll definitely settle our score today.
+Dialogue: 0,0:00:36.90,0:00:38.16,SR-Main,,0000,0000,0000,,Get him!
+Dialogue: 0,0:00:52.02,0:00:58.76,SR-Main,,0000,0000,0000,,No matter how delinquent he is, a man in love should never chicken out.
+Dialogue: 0,0:01:07.96,0:01:10.46,SR-Main,,0000,0000,0000,,Y-You bastard!
+Dialogue: 0,0:01:23.04,0:01:25.62,SR-Main,,0000,0000,0000,,I won't lose to anyone who confronts me.
+Dialogue: 0,0:01:25.62,0:01:28.39,SR-Main,,0000,0000,0000,,That's because right now, I'm in love.
+Dialogue: 0,0:01:29.62,0:01:32.17,SR-Main,,0000,0000,0000,,Everything's for your sake, Tenma-chan.
+Dialogue: 0,0:01:39.90,0:01:42.64,SR-Main,,0000,0000,0000,,Harima-kun's been coming to school every day lately.
+Dialogue: 0,0:01:42.64,0:01:44.69,SR-Main,,0000,0000,0000,,Is he planning to take over the school?
+Dialogue: 0,0:01:47.11,0:01:47.74,SR-Main,,0000,0000,0000,,Nee-san.
+Dialogue: 0,0:01:48.42,0:01:49.83,SR-Main,,0000,0000,0000,,You forgot your lunch.
+Dialogue: 0,0:01:50.13,0:01:52.13,SR-Main,,0000,0000,0000,,Ah! Thanks, Yakumo.
+Dialogue: 0,0:01:53.13,0:01:53.87,SR-Main,,0000,0000,0000,,Nee-san...
+Dialogue: 0,0:01:54.47,0:01:56.97,SR-Main,,0000,0000,0000,,Are you alright sitting here? Aren't you scared?
+Dialogue: 0,0:01:57.32,0:01:58.01,SR-Main,,0000,0000,0000,,Why?
+Dialogue: 0,0:01:58.54,0:02:00.36,SR-Main,,0000,0000,0000,,There's this weird aura...
+Dialogue: 0,0:02:04.28,0:02:05.65,SR-Main,,0000,0000,0000,,Ah! Harima-kun!
+Dialogue: 0,0:02:06.20,0:02:09.23,SR-Main,,0000,0000,0000,,That's not good, you shouldn't put the chair... on your bag.
+Dialogue: 0,0:02:09.72,0:02:11.37,SR-Main,,0000,0000,0000,,I feel sorry for the bag.
+Dialogue: 0,0:02:16.77,0:02:19.41,SR-Main,,0000,0000,0000,,Everything's for your sake, Tenma-chan.
+Dialogue: 0,0:02:20.24,0:02:24.02,SR-Main,,0000,0000,0000,,School was once a place that I didn't care about.
+Dialogue: 0,0:02:24.02,0:02:26.59,SR-Main,,0000,0000,0000,,You've changed it to an oasis that soothes my heart.
+Dialogue: 0,0:02:31.17,0:02:34.83,SR-Main,,0000,0000,0000,,This is ridiculous. I'm even coming to school on time.
+Dialogue: 0,0:02:34.83,0:02:37.64,SR-Main,,0000,0000,0000,,And attending classes, even up until cleaning duty time.
+Dialogue: 0,0:02:40.17,0:02:43.03,SR-Main,,0000,0000,0000,,Sheesh, it makes me wanna laugh at myself.
+Dialogue: 0,0:02:45.12,0:02:46.46,SR-Main,,0000,0000,0000,,He's laughing...
+Dialogue: 0,0:02:46.46,0:02:49.57,SR-Main,,0000,0000,0000,,He's definitely plotting something sinister, I'm sure.
+Dialogue: 0,0:02:56.57,0:03:03.06,IntroLyrics,,0000,0000,0000,,These feelings I want to tell you are so heavy
+Dialogue: 0,0:03:03.53,0:03:09.16,IntroLyrics,,0000,0000,0000,,At this rate, I'll be flattened down
+Dialogue: 0,0:03:11.66,0:03:17.67,IntroLyrics,,0000,0000,0000,,So many feelings I can't describe into words
+Dialogue: 0,0:03:18.67,0:03:22.31,IntroLyrics,,0000,0000,0000,,It just won't reach, to that special person
+Dialogue: 0,0:03:22.81,0:03:25.06,IntroLyrics,,0000,0000,0000,,This short yet very far distance
+Dialogue: 0,0:03:26.93,0:03:29.56,IntroLyrics,,0000,0000,0000,,The sky is always blue,
+Dialogue: 0,0:03:30.14,0:03:33.98,IntroLyrics,,0000,0000,0000,,But you just can't keep staring at it
+Dialogue: 0,0:03:34.06,0:03:37.40,IntroLyrics,,0000,0000,0000,,Round n' round, spinning Round n' Round
+Dialogue: 0,0:03:37.65,0:03:41.11,IntroLyrics,,0000,0000,0000,,Round n' round, spinning Round n' Round
+Dialogue: 0,0:03:41.60,0:03:45.08,IntroLyrics,,0000,0000,0000,,You, who always pretend to be tottering
+Dialogue: 0,0:03:45.08,0:03:48.62,IntroLyrics,,0000,0000,0000,,I just want to jump onto your chest
+Dialogue: 0,0:03:48.70,0:03:52.13,IntroLyrics,,0000,0000,0000,,Round n' round, spinning Round n' Round
+Dialogue: 0,0:03:52.37,0:03:55.71,IntroLyrics,,0000,0000,0000,,Round n' round, spinning Round n' Round
+Dialogue: 0,0:03:56.26,0:03:59.25,IntroLyrics,,0000,0000,0000,,Rising softly into the air,
+Dialogue: 0,0:03:59.26,0:04:05.42,IntroLyrics,,0000,0000,0000,,I am drifting above the clouds again today!
+Dialogue: 0,0:04:15.93,0:04:19.97,OP-Title,,0000,0000,0000,,{\c&H2D42D7&}{\be1\pos(400,213)}{\fs42\bord3\an8\fscx90\fsp3}The Test That Can't Be Understood!
+Dialogue: 0,0:04:15.93,0:04:19.97,OP-Title,,0000,0000,0000,,{\c&H3851DC&}{\be1\pos(400,360)\bord3\an8\fs48}{\fscx90\fsp3}The Toilet I Can't Leave!
+Dialogue: 0,0:04:15.93,0:04:19.97,OP-Title,,0000,0000,0000,,{\c&H336ADD&}{\fs42\be1\pos(400,530)\bord3\an8\fscx90\fsp3}The Unbelievable Physical Examination!
+Dialogue: 0,0:04:19.97,0:04:24.94,IntroText,,0000,0000,0000,,{\bord2\be0\alpha&H00&\an7}A 30-minute School Anime,
+Dialogue: 0,0:04:19.97,0:04:24.94,IntroText,,0000,0000,0000,,{\bord2\be0\alpha&H00&\an3}and it's not about delinquents.
+Dialogue: 0,0:04:24.97,0:04:30.00,IntroText,,0000,0000,0000,,{\bord2\be0\alpha&H00&\an7}The female lead, Tsukamoto Tenma,
+Dialogue: 0,0:04:24.97,0:04:30.00,IntroText,,0000,0000,0000,,{\bord2\be0\alpha&H00&\an3}as seen by Harima.
+Dialogue: 0,0:04:33.59,0:04:38.40,SR-Main,,0000,0000,0000,,For today's English lesson, we'll be having a simple test to determine everyone's level.
+Dialogue: 0,0:04:42.98,0:04:44.80,SR-Main,,0000,0000,0000,,Ready... begin!
+Dialogue: 0,0:04:54.09,0:04:56.77,SR-Main,,0000,0000,0000,,What the heck is this? Is this even Japanese?
+Dialogue: 0,0:05:05.37,0:05:08.72,SR-Main,,0000,0000,0000,,I guess I have no choice. This is also something I must do to be with Tenma-chan.
+Dialogue: 0,0:05:09.51,0:05:11.71,SR-Main,,0000,0000,0000,,If I think of it as protecting these blessed times...
+Dialogue: 0,0:05:15.95,0:05:20.12,SR-Main,,0000,0000,0000,,Te-Tenma-chan! You forgot to write your name!
+Dialogue: 0,0:05:25.22,0:05:26.83,SR-Main,,0000,0000,0000,,She hasn't realized it?
+Dialogue: 0,0:05:27.63,0:05:31.89,SR-Main,,0000,0000,0000,,If I remember correctly, those who forget to write their names will get zero.
+Dialogue: 0,0:05:31.89,0:05:33.10,SR-Main,,0000,0000,0000,,If it goes on like this...
+Dialogue: 0,0:05:33.42,0:05:35.47,SR-Main,,0000,0000,0000,,If this carries on, Tenma-chan will...
+Dialogue: 0,0:05:38.50,0:05:40.40,SR-Main,,0000,0000,0000,,We're still in the middle of the test.
+Dialogue: 0,0:05:40.40,0:05:42.40,SR-Main,,0000,0000,0000,,I can't speak up to warn her.
+Dialogue: 0,0:05:42.99,0:05:44.42,SR-Main,,0000,0000,0000,,What on earth should I do?
+Dialogue: 0,0:05:45.21,0:05:46.05,SR-Main,,0000,0000,0000,,What should I do...
+Dialogue: 0,0:05:47.14,0:05:50.65,SR-Main,,0000,0000,0000,,I know. I'll try to inform her by lip-sync.
+Dialogue: 0,0:06:01.03,0:06:04.53,SR-Main,,0000,0000,0000,,Doesn't work, huh? It's kinda difficult to tell her like this.
+Dialogue: 0,0:06:04.87,0:06:05.44,SR-Main,,0000,0000,0000,,In that case...
+Dialogue: 0,0:06:18.49,0:06:22.64,SR-Main,,0000,0000,0000,,Dammit! I gotta think of a better way.
+Dialogue: 0,0:06:22.64,0:06:25.07,SR-Main,,0000,0000,0000,,Flapping my mouth like that... It's not like I'm a goldfish!
+Dialogue: 0,0:06:25.56,0:06:27.71,SR-Main,,0000,0000,0000,,Isn't there some other way?
+Dialogue: 0,0:06:29.39,0:06:30.40,SR-Main,,0000,0000,0000,,Argh, I have no choice...
+Dialogue: 0,0:06:31.04,0:06:33.18,SR-Main,,0000,0000,0000,,I'll use a clear and orthodox way.
+Dialogue: 0,0:06:38.24,0:06:41.04,SR-Main,,0000,0000,0000,,That was close! I forgot to write my name.
+Dialogue: 0,0:06:41.40,0:06:44.41,SR-Main,,0000,0000,0000,,Even if I seriously answered these questions, it would be pointless.
+Dialogue: 0,0:06:46.89,0:06:48.16,SR-Main,,0000,0000,0000,,Be careful, Harima.
+Dialogue: 0,0:06:48.69,0:06:50.54,SR-Main,,0000,0000,0000,,Tsk. That was so laughable.
+Dialogue: 0,0:06:51.98,0:06:53.56,SR-Main,,0000,0000,0000,,Everything is for Tenma-chan's sake.
+Dialogue: 0,0:06:55.11,0:06:56.74,SR-Main,,0000,0000,0000,,Wh-What!? Hey!
+Dialogue: 0,0:06:56.74,0:06:58.60,SR-Main,,0000,0000,0000,,I was referring to you, don't you realize?
+Dialogue: 0,0:06:58.60,0:07:01.32,SR-Main,,0000,0000,0000,,Don't you know the proverb, \N"one man's fault is another man's lesson"?
+Dialogue: 0,0:07:02.02,0:07:03.42,SR-Main,,0000,0000,0000,,But in anycase, she's so damn cute!
+Dialogue: 0,0:07:14.20,0:07:14.89,SR-Main,,0000,0000,0000,,Oops!
+Dialogue: 0,0:07:43.92,0:07:44.60,SR-Main,,0000,0000,0000,,Not you!
+Dialogue: 0,0:07:52.12,0:07:54.00,SR-Main,,0000,0000,0000,,I'll let you know even if it's by willpower!
+Dialogue: 0,0:07:57.83,0:07:59.82,SR-Main,,0000,0000,0000,,This is it! It's perfect!
+Dialogue: 0,0:08:03.80,0:08:06.50,SR-Main,,0000,0000,0000,,Got the answer to last question!
+Dialogue: 0,0:08:07.03,0:08:09.48,SR-Main,,0000,0000,0000,,What is this? Isn't this a bit too easy?
+Dialogue: 0,0:08:10.23,0:08:10.89,SR-Main,,0000,0000,0000,,Let's go!
+Dialogue: 0,0:08:20.53,0:08:21.67,SR-Main,,0000,0000,0000,,Did it work?
+Dialogue: 0,0:08:26.33,0:08:28.55,SR-Main,,0000,0000,0000,,Why does it have to turn out this way?
+Dialogue: 0,0:08:28.82,0:08:32.39,SR-Main,,0000,0000,0000,,It's no use. This girl is too thickheaded. It's impossible to make her realize it.
+Dialogue: 0,0:08:32.39,0:08:33.91,SR-Main,,0000,0000,0000,,Dammit!
+Dialogue: 0,0:08:35.33,0:08:37.53,SR-Main,,0000,0000,0000,,What should I do?
+Dialogue: 0,0:08:37.72,0:08:41.45,SR-Main,,0000,0000,0000,,That Harima has been seriously worried for a while now.
+Dialogue: 0,0:08:42.05,0:08:44.86,SR-Main,,0000,0000,0000,,Is Harima really a diligent student?
+Dialogue: 0,0:08:47.60,0:08:51.36,SR-Main,,0000,0000,0000,,I know! How about if I write Tenma-chan's name on my answer sheet,
+Dialogue: 0,0:08:51.36,0:08:54.13,SR-Main,,0000,0000,0000,,and I'll be her scapegoat, being the one who forgot to write his name?
+Dialogue: 0,0:08:54.78,0:08:55.52,SR-Main,,0000,0000,0000,,And then...
+Dialogue: 0,0:08:57.42,0:08:58.19,SR-Main,,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:58.90,0:09:03.14,SR-Main,,0000,0000,0000,,Sensei, this answer sheet has my name on it, but it's not mine.
+Dialogue: 0,0:09:03.14,0:09:05.47,SR-Main,,0000,0000,0000,,Eh? That's strange...
+Dialogue: 0,0:09:05.47,0:09:07.16,SR-Main,,0000,0000,0000,,Harima's the only one who didn't write his name.
+Dialogue: 0,0:09:07.16,0:09:10.78,SR-Main,,0000,0000,0000,,Huh? Could it be that for my sake, Harima-kun...
+Dialogue: 0,0:09:11.71,0:09:13.34,SR-Main,,0000,0000,0000,,What a kind person!
+Dialogue: 0,0:09:14.54,0:09:16.53,SR-Main,,0000,0000,0000,,It was really Harima-kun, right?
+Dialogue: 0,0:09:17.25,0:09:19.87,SR-Main,,0000,0000,0000,,I'm a man who won't ignore what he sees.
+Dialogue: 0,0:09:20.24,0:09:21.42,SR-Main,,0000,0000,0000,,Harima-kun!
+Dialogue: 0,0:09:24.51,0:09:25.15,SR-Main,,0000,0000,0000,,I love you!
+Dialogue: 0,0:09:25.91,0:09:26.95,SR-Main,,0000,0000,0000,,Me too.
+Dialogue: 0,0:09:35.92,0:09:36.60,SR-Main,,0000,0000,0000,,It will work.
+Dialogue: 0,0:09:37.61,0:09:40.20,SR-Main,,0000,0000,0000,,Everything is for you Tenma-chan,
+Dialogue: 0,0:09:40.20,0:09:42.20,SR-Main,,0000,0000,0000,,For the sake of our happiness!
+Dialogue: 0,0:09:47.22,0:09:48.91,SR-Main,,0000,0000,0000,,I'm returning yesterday's test.
+Dialogue: 0,0:09:49.71,0:09:51.44,SR-Main,,0000,0000,0000,,Tsukamoto, you got a zero!
+Dialogue: 0,0:09:51.82,0:09:53.12,SR-Main,,0000,0000,0000,,Eh?
+Dialogue: 0,0:09:57.74,0:10:00.56,SR-Main,,0000,0000,0000,,Sorry! I'm sorry, Tenma-chan!!
+Dialogue: 0,0:10:00.56,0:10:05.07,SR-Main,,0000,0000,0000,,I was a huge dumbass!
+Dialogue: 0,0:10:08.80,0:10:11.72,SR-Main,,0000,0000,0000,,How about it everybody? Shall we have tea at Mercado's today?
+Dialogue: 0,0:10:11.72,0:10:12.70,SR-Main,,0000,0000,0000,,Yeah, why not?
+Dialogue: 0,0:10:13.32,0:10:18.08,SR-Main,,0000,0000,0000,,Oh! There's a special sale time at the supermarket after evening hours. I have to go...
+Dialogue: 0,0:10:18.83,0:10:21.08,SR-Main,,0000,0000,0000,,What should we have for dinner tonight?
+Dialogue: 0,0:10:21.70,0:10:25.10,SR-Main,,0000,0000,0000,,Oh? Tenma, you make your own meals?
+Dialogue: 0,0:10:25.10,0:10:26.16,SR-Main,,0000,0000,0000,,That's unexpected.
+Dialogue: 0,0:10:26.30,0:10:29.05,SR-Main,,0000,0000,0000,,Huh? Erm, yeah something like that...
+Dialogue: 0,0:10:29.28,0:10:31.17,SR-Main,,0000,0000,0000,,Yakumo's the one who makes them, right?
+Dialogue: 0,0:10:32.62,0:10:34.06,SR-Main,,0000,0000,0000,,It's just as you said...
+Dialogue: 0,0:10:34.78,0:10:35.99,SR-Main,,0000,0000,0000,,Just as I thought.
+Dialogue: 0,0:10:36.73,0:10:39.21,SR-Main,,0000,0000,0000,,Tsukamoto sure seems pampered.
+Dialogue: 0,0:10:39.34,0:10:40.37,SR-Main,,0000,0000,0000,,Eh? You think so?
+Dialogue: 0,0:10:43.61,0:10:45.35,SR-Main,,0000,0000,0000,,It-It's Karasuma-kun!
+Dialogue: 0,0:10:46.67,0:10:49.51,SR-Main,,0000,0000,0000,,Huh? Why am I hiding?
+Dialogue: 0,0:10:50.28,0:10:56.22,SR-Main,,0000,0000,0000,,That's because... somehow, I don't want the person I like to see me come out of the toilet...
+Dialogue: 0,0:10:57.28,0:10:58.03,SR-Main,,0000,0000,0000,,Oh no!
+Dialogue: 0,0:10:58.68,0:11:00.61,SR-Main,,0000,0000,0000,,Since I came back inside, I can't go out again!
+Dialogue: 0,0:11:01.38,0:11:03.14,SR-Main,,0000,0000,0000,,I'm such an idiot...
+Dialogue: 0,0:11:04.37,0:11:07.09,SR-Main,,0000,0000,0000,,It's just a bathroom, but it is a bathroom!
+Dialogue: 0,0:11:07.09,0:11:08.54,SR-Main,,0000,0000,0000,,What should I do...
+Dialogue: 0,0:11:08.54,0:11:10.46,SR-Main,,0000,0000,0000,,Um, I can't get out.
+Dialogue: 0,0:11:24.91,0:11:25.97,SR-Main,,0000,0000,0000,,He's still there.
+Dialogue: 0,0:11:28.96,0:11:30.71,SR-Main,,0000,0000,0000,,Ooooh!
+Dialogue: 0,0:11:31.17,0:11:32.99,SR-Main,,0000,0000,0000,,Karasuma-kun, you idiot, idiot, idiot!
+Dialogue: 0,0:11:33.66,0:11:37.87,SR-Main,,0000,0000,0000,,What nerve you have to stand and chat right in front of the girls' bathroom?
+Dialogue: 0,0:11:37.87,0:11:39.80,SR-Main,,0000,0000,0000,,But that's what I like about you.
+Dialogue: 0,0:11:39.80,0:11:42.00,SR-Main,,0000,0000,0000,,Wait! No!
+Dialogue: 0,0:11:42.44,0:11:44.37,SR-Main,,0000,0000,0000,,Now is not the time for that!
+Dialogue: 0,0:11:47.31,0:11:48.29,SR-Main,,0000,0000,0000,,He's still there...
+Dialogue: 0,0:11:51.14,0:11:53.40,SR-Main,,0000,0000,0000,,In that case, it's a contest of endurance!
+Dialogue: 0,0:11:54.28,0:11:56.67,SR-Main,,0000,0000,0000,,That's right! I'll show you what a girl's willpower is.
+Dialogue: 0,0:11:56.67,0:11:59.52,SR-Main,,0000,0000,0000,,Come to think of it, endurance is a requirement for love.
+Dialogue: 0,0:12:00.07,0:12:01.57,SR-Main,,0000,0000,0000,,That's right! This is a trial!
+Dialogue: 0,0:12:01.96,0:12:05.54,SR-Main,,0000,0000,0000,,Alright, I'll endure! I don't think he can stand there and chat for more than 10 minutes.
+Dialogue: 0,0:12:08.94,0:12:10.48,SR-Main,,0000,0000,0000,,It should be okay now, right?
+Dialogue: 0,0:12:12.78,0:12:14.87,SR-Main,,0000,0000,0000,,Ah! The sunlight sure is bright!
+Dialogue: 0,0:12:16.23,0:12:18.03,SR-Main,,0000,0000,0000,,He's reading a book...
+Dialogue: 0,0:12:18.03,0:12:20.03,SR-Main,,0000,0000,0000,,Moreover, it looks like a novel...
+Dialogue: 0,0:12:21.24,0:12:22.10,SR-Main,,0000,0000,0000,,Plan two!
+Dialogue: 0,0:12:26.03,0:12:28.01,SR-Main,,0000,0000,0000,,Sheesh, where did she go?
+Dialogue: 0,0:12:28.54,0:12:30.93,SR-Main,,0000,0000,0000,,Tsukamoto, are you still in the bathroom?
+Dialogue: 0,0:12:31.91,0:12:33.79,SR-Main,,0000,0000,0000,,In this situation, I can't choose any other way.
+Dialogue: 0,0:12:33.79,0:12:35.79,SR-Main,,0000,0000,0000,,As long as even I can't recognize myself, it's okay.
+Dialogue: 0,0:12:32.61,0:12:34.33,SR-Main,,0000,0000,0000,,Huh? What are you doing?
+Dialogue: 0,0:12:39.15,0:12:40.83,SR-Main,,0000,0000,0000,,Oh! You came at the right time!
+Dialogue: 0,0:12:41.40,0:12:42.83,SR-Main,,0000,0000,0000,,Guess who!
+Dialogue: 0,0:12:45.51,0:12:47.24,SR-Main,,0000,0000,0000,,I'm leaving now, Tsukamoto...
+Dialogue: 0,0:12:48.61,0:12:50.66,SR-Main,,0000,0000,0000,,Huh? How did you know?
+Dialogue: 0,0:12:51.61,0:12:54.00,SR-Main,,0000,0000,0000,,Sigh, I can't be bothered with her.
+Dialogue: 0,0:12:55.70,0:12:56.76,SR-Main,,0000,0000,0000,,Plan three!
+Dialogue: 0,0:13:02.44,0:13:05.84,SR-Main,,0000,0000,0000,,I'll use this to divert Karasuma's attention, and use that chance to escape!
+Dialogue: 0,0:13:16.37,0:13:17.50,SR-Main,,0000,0000,0000,,Ready! Set!
+Dialogue: 0,0:13:18.17,0:13:19.21,SR-Main,,0000,0000,0000,,Fly!
+Dialogue: 0,0:13:23.53,0:13:25.46,SR-Main,,0000,0000,0000,,You dare to hit me?!
+Dialogue: 0,0:13:25.46,0:13:29.13,SR-Main,,0000,0000,0000,,You sure have some guts! Who the hell did it? Was it you?!
+Dialogue: 0,0:13:29.13,0:13:30.19,SR-Main,,0000,0000,0000,,It's not me! It's not me!
+Dialogue: 0,0:13:30.19,0:13:31.42,SR-Main,,0000,0000,0000,,Or was it you?!
+Dialogue: 0,0:13:31.42,0:13:32.37,SR-Main,,0000,0000,0000,,It wasn't me, either!
+Dialogue: 0,0:13:32.95,0:13:34.49,SR-Main,,0000,0000,0000,,I'm sorry, Harima-kun!
+Dialogue: 0,0:13:34.73,0:13:36.54,SR-Main,,0000,0000,0000,,I'll apologize later...
+Dialogue: 0,0:13:40.31,0:13:42.51,SR-Main,,0000,0000,0000,,There isn't much usable stuff left...
+Dialogue: 0,0:13:43.15,0:13:44.86,SR-Main,,0000,0000,0000,,Ah! I'm stuck with no way out!
+Dialogue: 0,0:13:48.04,0:13:50.87,SR-Main,,0000,0000,0000,,I'm completely unable to get out now...
+Dialogue: 0,0:13:54.22,0:13:55.69,SR-Main,,0000,0000,0000,,Eh? I can't pull it off.
+Dialogue: 0,0:13:58.84,0:14:00.07,SR-Main,,0000,0000,0000,,Why, you!
+Dialogue: 0,0:14:07.17,0:14:07.93,SR-Main,,0000,0000,0000,,This is it!
+Dialogue: 0,0:14:09.89,0:14:10.85,SR-Main,,0000,0000,0000,,Right side, okay!
+Dialogue: 0,0:14:12.00,0:14:13.08,SR-Main,,0000,0000,0000,,Left side, ok!
+Dialogue: 0,0:14:13.92,0:14:17.10,SR-Main,,0000,0000,0000,,Distance from ground, 30 meters. Gradual descent, begin!
+Dialogue: 0,0:14:34.91,0:14:36.17,SR-Main,,0000,0000,0000,,I will not give up!
+Dialogue: 0,0:14:40.26,0:14:45.84,SR-Main,,0000,0000,0000,,I will not... I must not... let Karasuma-kun see me come out of the bathroom.
+Dialogue: 0,0:14:46.16,0:14:47.61,SR-Main,,0000,0000,0000,,This is a girl's determination!
+Dialogue: 0,0:14:53.24,0:14:54.57,SR-Main,,0000,0000,0000,,I'm finally down.
+Dialogue: 0,0:14:55.26,0:14:56.02,SR-Main,,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:14:56.02,0:14:57.33,SR-Main,,0000,0000,0000,,I'm fine, I'm fine.
+Dialogue: 0,0:14:59.94,0:15:01.23,SR-Main,,0000,0000,0000,,Be careful, okay?
+Dialogue: 0,0:15:03.42,0:15:04.72,SR-Main,,0000,0000,0000,,It's good that you aren't hurt.
+Dialogue: 0,0:15:18.43,0:15:22.77,SR-Main,,0000,0000,0000,,Nee-san. I'm not angry that you didn't make it to the special sale...
+Dialogue: 0,0:15:22.77,0:15:25.64,SR-Main,,0000,0000,0000,,No! No! That's not it!
+Dialogue: 0,0:15:36.59,0:15:37.87,SR-Main,,0000,0000,0000,,U-Umm
+Dialogue: 0,0:15:38.41,0:15:42.65,SR-Main,,0000,0000,0000,,It's been a while. Please be gentle...
+Dialogue: 0,0:15:43.06,0:15:43.89,SR-Main,,0000,0000,0000,,Nee-san.
+Dialogue: 0,0:15:44.68,0:15:45.89,SR-Main,,0000,0000,0000,,Who are you talking to?
+Dialogue: 0,0:15:47.36,0:15:50.76,SR-Main,,0000,0000,0000,,Ah! No.. I err.. umm... with this!
+Dialogue: 0,0:15:50.84,0:15:51.33,SR-Main,,0000,0000,0000,,This?
+Dialogue: 0,0:15:54.28,0:15:55.65,SR-Main,,0000,0000,0000,,What's wrong with the scale?
+Dialogue: 0,0:15:56.53,0:15:57.19,SR-Main,,0000,0000,0000,,Oh, yeah!
+Dialogue: 0,0:15:57.19,0:15:59.19,SR-Main,,0000,0000,0000,,The physical examination is tomorrow.
+Dialogue: 0,0:15:59.96,0:16:02.14,SR-Main,,0000,0000,0000,,What's with that calm reaction?
+Dialogue: 0,0:16:02.35,0:16:05.38,SR-Main,,0000,0000,0000,,I'm jealous. Yakumo, you're so slim. Hmph.
+Dialogue: 0,0:16:05.44,0:16:06.98,SR-Main,,0000,0000,0000,,Whatever, just get out!
+Dialogue: 0,0:16:16.29,0:16:17.40,SR-Main,,0000,0000,0000,,Why you...
+Dialogue: 0,0:16:17.88,0:16:20.56,SR-Main,,0000,0000,0000,,As if I'm gonna lose to a scale!
+Dialogue: 0,0:16:21.02,0:16:23.99,SR-Main,,0000,0000,0000,,I don't really think the scale is at fault here...
+Dialogue: 0,0:16:24.81,0:16:26.18,SR-Main,,0000,0000,0000,,Let's go! Tenma!
+Dialogue: 0,0:16:26.71,0:16:28.15,SR-Main,,0000,0000,0000,,Please put me in your care.
+Dialogue: 0,0:16:36.48,0:16:39.80,SR-Main,,0000,0000,0000,,This must be a dream... ah, I gotta wake up soon...
+Dialogue: 0,0:16:40.39,0:16:41.98,SR-Main,,0000,0000,0000,,You'll catch a cold, Nee-san.
+Dialogue: 0,0:16:45.99,0:16:48.11,SR-Main,,0000,0000,0000,,I skipped breakfast today.
+Dialogue: 0,0:16:48.11,0:16:50.11,SR-Main,,0000,0000,0000,,I didn't eat anything for three days!
+Dialogue: 0,0:16:50.21,0:16:51.81,SR-Main,,0000,0000,0000,,Thanks to that, I lost 700 grams!
+Dialogue: 0,0:16:51.81,0:16:52.78,SR-Main,,0000,0000,0000,,You'll give in soon.
+Dialogue: 0,0:16:52.78,0:16:54.28,SR-Main,,0000,0000,0000,,Once it's over, I'm gonna eat all I can.
+Dialogue: 0,0:16:54.28,0:16:56.48,SR-Main,,0000,0000,0000,,Three days' worth of food for just 700 grams?
+Dialogue: 0,0:16:58.55,0:17:01.93,SR-Main,,0000,0000,0000,,Oh, Tenma! Seems like you've gained it again.
+Dialogue: 0,0:17:01.97,0:17:02.61,SR-Main,,0000,0000,0000,,Your weight.
+Dialogue: 0,0:17:03.87,0:17:04.94,SR-Main,,0000,0000,0000,,Ah! Bull's eye.
+Dialogue: 0,0:17:05.43,0:17:08.50,SR-Main,,0000,0000,0000,,Even if your weight has increased, it's probably the same as mine.
+Dialogue: 0,0:17:08.86,0:17:10.15,SR-Main,,0000,0000,0000,,There's nothing to worry about.
+Dialogue: 0,0:17:10.44,0:17:11.34,SR-Main,,0000,0000,0000,,Mikoto-chan!
+Dialogue: 0,0:17:11.91,0:17:14.22,SR-Main,,0000,0000,0000,,Although the sizes of your breasts aren't same.
+Dialogue: 0,0:17:16.78,0:17:18.35,SR-Main,,0000,0000,0000,,A... B...
+Dialogue: 0,0:17:18.76,0:17:20.51,SR-Main,,0000,0000,0000,,Hmm, I think it's a B...
+Dialogue: 0,0:17:21.25,0:17:23.36,SR-Main,,0000,0000,0000,,As for this one... it's an A, I suppose.
+Dialogue: 0,0:17:24.70,0:17:26.54,SR-Main,,0000,0000,0000,,Imadori-kun, what are you doing?
+Dialogue: 0,0:17:26.93,0:17:28.01,SR-Main,,0000,0000,0000,,Guessing blood types?
+Dialogue: 0,0:17:28.45,0:17:29.80,SR-Main,,0000,0000,0000,,This, man! This!
+Dialogue: 0,0:17:30.41,0:17:34.44,SR-Main,,0000,0000,0000,,Well, without taking measurements, I can still figure it out with just my eyes.
+Dialogue: 0,0:17:34.68,0:17:38.06,SR-Main,,0000,0000,0000,,Those throbbing chests, those shy and cute postures.
+Dialogue: 0,0:17:38.39,0:17:42.49,SR-Main,,0000,0000,0000,,Ahh! It's like a page from the sweet and sour lives of students.
+Dialogue: 0,0:17:43.31,0:17:45.92,SR-Main,,0000,0000,0000,,Fuyuki-kun, what are you taking those pictures for?
+Dialogue: 0,0:17:46.03,0:17:49.47,SR-Main,,0000,0000,0000,,Foolish question! I'm preserving these as pictures for graduation.
+Dialogue: 0,0:17:51.00,0:17:52.50,SR-Main,,0000,0000,0000,,Isn't that risky today?
+Dialogue: 0,0:17:52.50,0:17:55.36,SR-Main,,0000,0000,0000,,Fuyuki! I'm reserving a full set, okay?
+Dialogue: 0,0:17:55.81,0:17:58.43,SR-Main,,0000,0000,0000,,Ehh?! You'll get into serious trouble!
+Dialogue: 0,0:17:58.87,0:18:00.28,SR-Main,,0000,0000,0000,,Hey! Hey! Hey! Hey! Hey!
+Dialogue: 0,0:18:02.25,0:18:03.74,SR-Main,,0000,0000,0000,,What are you doing, Hanai?!
+Dialogue: 0,0:18:04.03,0:18:08.90,SR-Main,,0000,0000,0000,,I, Hanai Haruki, will not allow such behavior on the school grounds!
+Dialogue: 0,0:18:11.59,0:18:14.61,SR-Main,,0000,0000,0000,,The pickled seaweed we ate at the cafe the other day was delicious!
+Dialogue: 0,0:18:14.61,0:18:15.23,SR-Main,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:18:15.43,0:18:17.21,SR-Main,,0000,0000,0000,,I preferred the cider flavored one.
+Dialogue: 0,0:18:17.21,0:18:18.51,SR-Main,,0000,0000,0000,,Yeah, well...
+Dialogue: 0,0:18:21.40,0:18:24.10,SR-Main,,0000,0000,0000,,Karasuma-kun is also taking the physical examination, isn't he?
+Dialogue: 0,0:18:24.83,0:18:27.96,SR-Main,,0000,0000,0000,,I'm interested. His height is 171 cm.
+Dialogue: 0,0:18:28.27,0:18:29.39,SR-Main,,0000,0000,0000,,No, 172 cm.
+Dialogue: 0,0:18:30.08,0:18:33.87,SR-Main,,0000,0000,0000,,His weight... he seems light, since he's so flexible.
+Dialogue: 0,0:18:34.44,0:18:38.36,SR-Main,,0000,0000,0000,,Hmm, but I do not know anything about boys' weights.
+Dialogue: 0,0:18:39.88,0:18:44.23,SR-Main,,0000,0000,0000,,I want to know! I want to know Karasuma-kun's body information! Things that only I would know.
+Dialogue: 0,0:18:44.23,0:18:48.97,SR-Main,,0000,0000,0000,,His height, his weight, breadth of his shoulders, his vision, his sitting height, his foot size and his chest measurement~!
+Dialogue: 0,0:18:49.42,0:18:52.18,SR-Main,,0000,0000,0000,,His chest... may be even bigger than mine...
+Dialogue: 0,0:18:53.89,0:18:57.89,SR-Main,,0000,0000,0000,,Hey, hey. Don't you think the guys are a little excited today?
+Dialogue: 0,0:18:58.35,0:19:02.03,SR-Main,,0000,0000,0000,,They're probably fantasizing about today's physical examination.
+Dialogue: 0,0:19:03.59,0:19:04.89,SR-Main,,0000,0000,0000,,I-I-I'm sorry!
+Dialogue: 0,0:19:05.24,0:19:07.09,SR-Main,,0000,0000,0000,,What are you sorry about?
+Dialogue: 0,0:19:07.09,0:19:10.76,SR-Main,,0000,0000,0000,,Tenma, you sure like to break the flow of our conversations.
+Dialogue: 0,0:19:10.93,0:19:13.10,SR-Main,,0000,0000,0000,,It's not the first time she's done it.
+Dialogue: 0,0:19:13.91,0:19:18.76,SR-Main,,0000,0000,0000,,But it's really disgusting. Guys who have only strong imaginations...
+Dialogue: 0,0:19:19.46,0:19:24.46,SR-notes,,0000,0000,0000,,{\fs24\c&HFCE9DA&\alpha&H11&\bord1.6\3c&H8A5C4A&\shad0\b1}Note: "Kangofu" in Japanese refers specifically to "female nurses".
+Dialogue: 0,0:19:19.46,0:19:23.77,SR-Main,,0000,0000,0000,,Geez. If they want to watch that badly, they should become doctors or nurses.
+Dialogue: 0,0:19:24.03,0:19:26.06,SR-Main,,0000,0000,0000,,You sure are extreme.
+Dialogue: 0,0:19:26.06,0:19:28.67,SR-Main,,0000,0000,0000,,And you should say "male nurses."
+Dialogue: 0,0:19:26.06,0:19:31.06,SR-notes,,0000,0000,0000,,{\fs24\c&HFCE9DA&\alpha&H11&\bord1.6\3c&H8A5C4A&\shad0\b1}Note: "Kangoshi" is a gender-neutral nurse more appropriate for male nurses.
+Dialogue: 0,0:19:29.13,0:19:31.39,SR-Main,,0000,0000,0000,,I'm saying IF they wanted to! IF!
+Dialogue: 0,0:19:31.67,0:19:33.27,SR-Main,,0000,0000,0000,,I only made a little mistake.
+Dialogue: 0,0:19:34.70,0:19:36.79,SR-Main,,0000,0000,0000,,Be a doctor or a nurse?
+Dialogue: 0,0:19:38.30,0:19:40.10,SR-Main,,0000,0000,0000,,That's it! I'll become a nurse!
+Dialogue: 0,0:19:42.01,0:19:45.78,SR-Main,,0000,0000,0000,,It seems like at that moment, she suddenly decided her career path.
+Dialogue: 0,0:19:45.98,0:19:47.58,SR-Main,,0000,0000,0000,,Ah! I'm not gonna worry about it.
+Dialogue: 0,0:19:47.68,0:19:49.76,SR-Main,,0000,0000,0000,,I hate it when she says it that seriously...
+Dialogue: 0,0:19:50.54,0:19:53.40,SR-Main,,0000,0000,0000,,No, no. I'm not talking about my career path.
+Dialogue: 0,0:19:54.31,0:19:55.04,SR-Main,,0000,0000,0000,,You're not?
+Dialogue: 0,0:19:55.80,0:19:57.77,SR-Main,,0000,0000,0000,,I have something to do, so I'll be going now.
+Dialogue: 0,0:19:59.78,0:20:01.66,SR-Main,,0000,0000,0000,,That's a relief.
+Dialogue: 0,0:20:01.66,0:20:04.23,SR-Main,,0000,0000,0000,,Well, there's a subtle feeling of wrongness here...
+Dialogue: 0,0:20:05.38,0:20:06.65,SR-Main,,0000,0000,0000,,Don't tell me she's...
+Dialogue: 0,0:20:20.39,0:20:22.60,SR-Main,,0000,0000,0000,,Alright! A perfect disguise!
+Dialogue: 0,0:20:23.64,0:20:26.54,SR-Main,,0000,0000,0000,,That idiot! Anybody can recognize that hairstyle!
+Dialogue: 0,0:20:26.54,0:20:28.07,SR-Main,,0000,0000,0000,,That's not the point!
+Dialogue: 0,0:20:28.40,0:20:32.38,SR-Main,,0000,0000,0000,,Seems like she has a motive. Oh well, I can guess what she's up to.
+Dialogue: 0,0:20:32.75,0:20:36.21,SR-Main,,0000,0000,0000,,I haven't worn a name tag since elementary school.
+Dialogue: 0,0:20:36.70,0:20:38.84,SR-Main,,0000,0000,0000,,She's happily writing her name on the name tag.
+Dialogue: 0,0:20:40.79,0:20:43.01,SR-Main,,0000,0000,0000,,She's definitely gonna write "Tsukamoto" on it.
+Dialogue: 0,0:20:43.42,0:20:44.94,SR-Main,,0000,0000,0000,,Hey, what should we do?
+Dialogue: 0,0:20:45.38,0:20:46.35,SR-Main,,0000,0000,0000,,Leave her alone!
+Dialogue: 0,0:20:46.35,0:20:46.87,SR-Main,,0000,0000,0000,,You're serious?!
+Dialogue: 0,0:20:47.30,0:20:49.23,SR-Main,,0000,0000,0000,,Nah, actually I wanna see what happens.
+Dialogue: 0,0:20:49.86,0:20:52.95,SR-Main,,0000,0000,0000,,I agree. It's better if we don't interfere.
+Dialogue: 0,0:21:04.42,0:21:05.97,SR-Main,,0000,0000,0000,,Alright! With this...
+Dialogue: 0,0:21:06.30,0:21:08.97,SR-Main,,0000,0000,0000,,Karasuma-kun's personal data...
+Dialogue: 0,0:21:08.97,0:21:10.18,SR-Main,,0000,0000,0000,,... will be mine!
+Dialogue: 0,0:21:11.70,0:21:13.01,SR-Main,,0000,0000,0000,,Sorry for the wait!
+Dialogue: 0,0:21:13.61,0:21:15.58,SR-Main,,0000,0000,0000,,I'll be in your care, Doctor!
+Dialogue: 0,0:21:16.40,0:21:18.93,SR-Main,,0000,0000,0000,,No, no. I was also late. Sorry.
+Dialogue: 0,0:21:19.82,0:21:21.95,SR-Main,,0000,0000,0000,,Due to certain circumstances, I'm here as the replacement. My name's Harima.
+Dialogue: 0,0:21:22.44,0:21:23.26,SR-Main,,0000,0000,0000,,Nice to meet you.
+Dialogue: 0,0:21:26.95,0:21:33.13,SR-Main,,0000,0000,0000,,The physical examination that was due to be conducted today, has been cancelled.
+Dialogue: 0,0:21:33.89,0:21:34.78,SR-Main,,0000,0000,0000,,I repeat.
+Dialogue: 0,0:21:35.64,0:21:41.56,SR-Main,,0000,0000,0000,,The physical examination that was due to be conducted today, has been cancelled.
+Dialogue: 0,0:21:48.31,0:21:51.86,EndingLyrics,,0000,0000,0000,,Boys are always, always...
+Dialogue: 0,0:21:52.52,0:21:54.11,EndingLyrics,,0000,0000,0000,,...Chasing after girls.
+Dialogue: 0,0:21:54.23,0:21:57.82,EndingLyrics,,0000,0000,0000,,All day long, always thinking...
+Dialogue: 0,0:21:58.48,0:22:00.07,EndingLyrics,,0000,0000,0000,,...About girls.
+Dialogue: 0,0:22:00.15,0:22:04.58,EndingLyrics,,0000,0000,0000,,But even so, boys are still so silly.
+Dialogue: 0,0:22:04.58,0:22:07.58,EndingLyrics,,0000,0000,0000,,See? They don't understand at all...
+Dialogue: 0,0:22:07.58,0:22:09.38,EndingLyrics,,0000,0000,0000,,...How the girls feel.
+Dialogue: 0,0:22:11.66,0:22:14.38,EndingLyrics,,0000,0000,0000,,Hey there, you silly silly guy.
+Dialogue: 0,0:22:14.87,0:22:17.30,EndingLyrics,,0000,0000,0000,,Shall I reveal it to you, you silly guy?
+Dialogue: 0,0:22:17.46,0:22:20.84,EndingLyrics,,0000,0000,0000,,That's right! The most important thing is this world,
+Dialogue: 0,0:22:20.84,0:22:23.76,EndingLyrics,,0000,0000,0000,,The thing you absolutely cannot take for granted,{}
+Dialogue: 0,0:22:23.76,0:22:28.05,EndingLyrics,,0000,0000,0000,,I think it's the timing after all, isn't it?
+Dialogue: 0,0:22:29.26,0:22:31.22,EndingLyrics,,0000,0000,0000,,That's right! When you say "I love you"
+Dialogue: 0,0:22:31.22,0:22:34.36,EndingLyrics,,0000,0000,0000,,Or when you're on a date, or no matter what you're doing
+Dialogue: 0,0:22:35.27,0:22:37.10,EndingLyrics,,0000,0000,0000,,Ooh, when you're kissing too
+Dialogue: 0,0:22:37.10,0:22:40.36,EndingLyrics,,0000,0000,0000,,When you say goodbye too, no matter when it is.
+Dialogue: 0,0:22:41.11,0:22:44.53,EndingLyrics,,0000,0000,0000,,That's right! The most important thing in this world is...
+Dialogue: 0,0:22:44.53,0:22:48.92,EndingLyrics,,0000,0000,0000,,I think it's timing, isn't it?
+Dialogue: 0,0:22:49.28,0:22:50.45,EndingLyrics,,0000,0000,0000,,{\fad(50,0)}Or is it so?
+Dialogue: 0,0:23:05.39,0:23:07.40,SR-Main,,0000,0000,0000,,Ahh! It's so hard to confess!
+Dialogue: 0,0:23:07.60,0:23:09.41,SR-Main,,0000,0000,0000,,And it's so simple with spoons...
+Dialogue: 0,0:23:09.61,0:23:12.51,SR-Main,,0000,0000,0000,,I know! I'll have everyone sleep over and ask about their experiences.
+Dialogue: 0,0:23:12.88,0:23:14.31,SR-Main,,0000,0000,0000,,Next on School Rumble!
+Dialogue: 0,0:23:14.31,0:23:15.31,SR-Main,,0000,0000,0000,,Sketch Me Tender!
+Dialogue: 0,0:23:15.31,0:23:16.34,SR-Main,,0000,0000,0000,,Aim That Arrow Message!
+Dialogue: 0,0:23:16.34,0:23:17.69,SR-Main,,0000,0000,0000,,Teach-me Pajama Party!
+Dialogue: 0,0:23:17.89,0:23:19.39,SR-Main,,0000,0000,0000,,Miko-chan, your breasts are too large!
+Dialogue: 0,0:23:13.54,0:23:19.93,ED-Title,,0000,0000,0000,,{\pos(380,303)\3c&H16091C&\bord2.5\be1\fscy84\shad2}Sketch Me Tender!
+Dialogue: 0,0:23:13.54,0:23:19.93,ED-Title,,0000,0000,0000,,{\pos(410,385)\3c&H16091C&\bord2.5\be1\fscy84\shad2}Aim That Arrow Message!
+Dialogue: 0,0:23:13.54,0:23:19.93,ED-Title,,0000,0000,0000,,{\5c&HC735D7&}{\pos(450,475)\3c&H16091C&\bord2.5\be1\fscy84\shad2}Teach-me Pajama Party!
+Dialogue: 0,0:23:19.92,0:23:24.38,IntroText,,0000,0000,0000,,{\bord1.6\be0\an8}Tsukamoto Tenma,
+Dialogue: 0,0:23:19.92,0:23:24.38,IntroText,,0000,0000,0000,,{\bord1.6\be0\an2}likes historical dramas.
+Dialogue: 0,0:23:24.38,0:23:29.94,IntroText,,0000,0000,0000,,{\bord1.6\be0\an8}Mangoku's comrades,
+Dialogue: 0,0:23:24.38,0:23:29.94,IntroText,,0000,0000,0000,,{\bord1.6\be0\an2}Ue-sama and Ika.
+Dialogue: 0,0:23:29.95,0:23:34.95,SR-Main,,0000,0000,0000,,{\fnMercedes\b1\fs30\c&HFFFFFF&\an4\fsp2\3c&H000000&\4c&H0&\bord1\shad0\pos(620,250)}Look forward\Nto the next\Nepisode!

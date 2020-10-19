@@ -1,0 +1,37 @@
+[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 720
+PlayResY: 480
+ScaledBorderAndShadow: yes
+Audio File: ..\workraws\ep04-pre.wav
+Video Aspect Ratio: 0
+Video Zoom: 6
+Video Position: 0
+Last Style Storage: DeathNote
+
+[V4+ Styles]
+Style: Default,Marker Felt,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,0
+Style: SIGN,Sand,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,10,0
+Style: Note,OffensiveBold,24,&H00B5B5B5,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,10,10,10,0
+Style: LongNote,OffensiveBold,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,10,10,10,0
+Style: Background,Marker Felt,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,0
+Style: SILLYSIGN,Annifont,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,0
+Style: KARA-japanese,Sand,36,&H00FFFFFF,&H00ABABAB,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,8,11,11,11,0
+Style: KARA-english,Cooper Std Black,20,&H00FFFFFF,&H00FF00FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,11,11,11,0
+Style: KiraVideo,Marker Felt,27,&H00FFCECC,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,0
+Style: MINOR SIGN,Marker Felt,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,0
+Style: KARA-english2,Cooper Std Black,20,&H00FFFFFF,&H00FF00FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,3,11,11,11,0
+Style: KARA-japanese2,Sand,36,&H00FFFFFF,&H00ABABAB,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,7,11,11,11,0
+Style: Diary,OffensiveBold,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,10,10,10,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.48,SIGN,SIGN,0000,0000,0000,,{\pos(362,262)}Preview
+Dialogue: 0,0:00:01.23,0:00:02.85,Default,Light,0000,0000,0000,,It's just as I thought. {\alpha&HFF&}He doesn't suspect me at all.
+Dialogue: 0,0:00:02.85,0:00:05.01,Default,,0000,0000,0000,,It's just as I thought. He doesn't suspect me at all.
+Dialogue: 0,0:00:06.03,0:00:09.19,Default,Light,0000,0000,0000,,All the remaining investigators will also die of heart attacks.
+Dialogue: 0,0:00:09.93,0:00:12.10,Default,Light,0000,0000,0000,,Goodbye.. Ray Penber.
+Dialogue: 0,0:00:12.99,0:00:14.99,SIGN,SIGN,0000,0000,0000,,{\pos(117,169)}Next Time
+Dialogue: 0,0:00:12.99,0:00:14.99,SIGN,SIGN,0000,0000,0000,,{\pos(564,305)}Negotiations

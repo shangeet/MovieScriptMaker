@@ -1,0 +1,40 @@
+[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 720
+PlayResY: 480
+ScaledBorderAndShadow: yes
+Video File: R\death_note\workraws\ep09-pre.avi
+Video Aspect Ratio: 2
+Video Zoom: 6
+Video Position: 0
+Audio File: R\death_note\workraws\ep09-pre.wav
+Last Style Storage: DeathNote
+
+[V4+ Styles]
+Style: Default,Marker Felt,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,0
+Style: SIGN,Sand,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,10,0
+Style: Note,OffensiveBold,24,&H00B5B5B5,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,10,10,10,0
+Style: LongNote,OffensiveBold,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,10,10,10,0
+Style: Background,Marker Felt,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,0
+Style: SILLYSIGN,Annifont,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,0
+Style: KARA-japanese,Sand,36,&H00FFFFFF,&H00ABABAB,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,8,11,11,11,0
+Style: KARA-english,Cooper Std Black,20,&H00FFFFFF,&H00FF00FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,11,11,11,0
+Style: KiraVideo,Marker Felt,27,&H00FFCECC,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,0
+Style: MINOR SIGN,Marker Felt,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,0
+Style: KARA-english2,Cooper Std Black,20,&H00FFFFFF,&H00FF00FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,3,11,11,11,0
+Style: KARA-japanese2,Sand,36,&H00FFFFFF,&H00ABABAB,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,7,11,11,11,0
+Style: Diary,OffensiveBold,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,10,10,10,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.97,SIGN,,0000,0000,0000,,{\pos(354,263)}Preview
+Dialogue: 0,0:00:01.18,0:00:02.64,Default,,0000,0000,0000,,Ryuuga Hideki... {\alpha&HFF&}L...
+Dialogue: 0,0:00:02.64,0:00:03.31,Default,,0000,0000,0000,,Ryuuga Hideki... L...
+Dialogue: 0,0:00:03.75,0:00:07.11,Default,,0000,0000,0000,,It's unlikely that he'd use a game of tennis to attempt to draw a profile of me.
+Dialogue: 0,0:00:04.73,0:00:06.06,Note,,0000,0000,0000,,L, did you know Shinigami only eat apples?
+Dialogue: 0,0:00:07.14,0:00:09.32,Default,,0000,0000,0000,,He's got some other, hidden agenda to this match.
+Dialogue: 0,0:00:09.67,0:00:12.15,Default,,0000,0000,0000,,That's why, I will win this tennis match.
+Dialogue: 0,0:00:12.15,0:00:14.99,SIGN,,0000,0000,0000,,{\pos(116,170)}Next Time
+Dialogue: 0,0:00:12.15,0:00:14.99,SIGN,,0000,0000,0000,,{\pos(564,306)}Doubt

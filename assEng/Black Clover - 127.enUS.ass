@@ -1,0 +1,393 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: OP_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H00E0F7FB,&H000000FF,&H1900122E,&H000D1728,-1,-1,0,0,100,100,0,0,1,2,0,8,0030,0030,0100,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_4757_29_Royal_Capital__M,Times New Roman,30,&H00FEFEFD,&H000000FF,&H3214100F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0080,1
+Style: sign_9150_79_Awkward,Times New Roman,28,&H00CB93EA,&H000000FF,&H00C3C9CC,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0020,0020,0030,1
+Style: sign_9252_82_Trouble,Verdana,40,&H0034E0E9,&H000000FF,&H00BEC2C9,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,4,0,2,0055,0030,0275,1
+Style: sign_12339_133_Finnes_Calmreich,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_14960_120_The_Apostles_of_,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0100,1
+Style: sign_26668_324_Black_Bulls__Hid,Times New Roman,36,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0040,0125,1
+Style: sign_27919_273_Equinox,Times New Roman,30,&H00FFFFFF,&H000000FF,&H00000302,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_8772_80_Father_Nathan,Times New Roman,20,&H00F5F6FA,&H000000FF,&H320B0800,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:05.34,0:00:07.06,italics,Nar,0000,0000,0000,,The Clover Kingdom.
+Dialogue: 0,0:00:07.54,0:00:09.61,italics,Nar,0000,0000,0000,,In this kingdom where magic is everything,
+Dialogue: 0,0:00:09.61,0:00:12.95,italics,Nar,0000,0000,0000,,there is one boy who can't use magic.
+Dialogue: 0,0:00:13.41,0:00:15.61,italics,Nar,0000,0000,0000,,His name is Asta.
+Dialogue: 0,0:00:16.30,0:00:18.97,italics,Nar,0000,0000,0000,,With guts and hard work, \Nhe made it into the Magic Knights,
+Dialogue: 0,0:00:18.97,0:00:21.70,italics,Nar,0000,0000,0000,,and he never gave up, \Ndespite how much he got hurt.
+Dialogue: 0,0:00:21.70,0:00:24.66,italics,Nar,0000,0000,0000,,He continues to diligently \Naim for the top!
+Dialogue: 0,0:00:26.25,0:00:27.79,italics,Nar,0000,0000,0000,,Even if you are a peasant,
+Dialogue: 0,0:00:27.79,0:00:29.63,italics,Nar,0000,0000,0000,,or even if you're poor...
+Dialogue: 0,0:00:29.63,0:00:32.38,italics,Nar,0000,0000,0000,,Anyone in this world can still shine!
+Dialogue: 0,0:00:32.78,0:00:34.80,italics,Nar,0000,0000,0000,,He's working hard to prove that,
+Dialogue: 0,0:00:35.17,0:00:37.90,italics,Nar,0000,0000,0000,,and to become the Wizard King!
+Dialogue: 0,0:02:05.24,0:02:08.60,Ep Title,Sign,0000,0000,0000,,{\blur2}Clues
+Dialogue: 0,0:02:11.51,0:02:14.73,main,Gordon,0000,0000,0000,,Huh? My home?
+Dialogue: 0,0:02:15.27,0:02:16.62,main,Yami,0000,0000,0000,,Jeez, you're scary.
+Dialogue: 0,0:02:18.57,0:02:22.79,main,Yami,0000,0000,0000,,The Prickly Queen mentioned it,\N but come to think of it,
+Dialogue: 0,0:02:22.79,0:02:25.34,main,Yami,0000,0000,0000,,your family's famous for \Ncurse magic, isn't it?
+Dialogue: 0,0:02:25.34,0:02:28.41,main,Yami,0000,0000,0000,,Could you go ask them about forbidden magic?
+Dialogue: 0,0:02:28.97,0:02:32.42,main,Gordon,0000,0000,0000,,Forbidden magic?
+Dialogue: 0,0:02:32.42,0:02:33.55,main,Yami,0000,0000,0000,,Yeah.
+Dialogue: 0,0:02:34.06,0:02:36.08,main,Yami,0000,0000,0000,,Forbidden magic uses power
+Dialogue: 0,0:02:36.08,0:02:40.10,main,Yami,0000,0000,0000,,from another world to meddle with the \Nways of this world or people's lives.
+Dialogue: 0,0:02:40.67,0:02:43.89,main,Yami,0000,0000,0000,,And that other world is where the devils live.
+Dialogue: 0,0:02:44.33,0:02:47.06,main,Yami,0000,0000,0000,,I was hoping we'd be able \Nto get some information.
+Dialogue: 0,0:02:48.66,0:02:51.67,main,Gordon,0000,0000,0000,,If our investigation about the \Ndevils doesn't get any further,
+Dialogue: 0,0:02:52.61,0:02:54.54,main,Gordon,0000,0000,0000,,my best friend Asta...
+Dialogue: 0,0:02:56.73,0:03:01.36,main,Gordon,0000,0000,0000,,I was going to try to go again, \Neven though I think I'll fail.
+Dialogue: 0,0:03:02.99,0:03:04.99,main,Gordon,0000,0000,0000,,For Asta's sake!
+Dialogue: 0,0:03:07.31,0:03:09.41,italics,Gordon,0000,0000,0000,,A distinguished family of curse mages...
+Dialogue: 0,0:03:09.41,0:03:12.35,italics,Gordon,0000,0000,0000,,Since cursing people was my family's trade,
+Dialogue: 0,0:03:13.05,0:03:15.25,italics,Gordon,0000,0000,0000,,I never made any friends.
+Dialogue: 0,0:03:17.25,0:03:20.13,italics,Gordon,0000,0000,0000,,On top of that, my family...
+Dialogue: 0,0:03:20.85,0:03:25.14,italics,Gordon,0000,0000,0000,,Even when Asta's arms were cursed \Nby a member of the Third Eye...
+Dialogue: 0,0:03:25.14,0:03:27.51,italics,Gordon,0000,0000,0000,,I asked them how we could \Nbreak the spell with a letter,
+Dialogue: 0,0:03:27.51,0:03:29.39,italics,Gordon,0000,0000,0000,,but they wouldn't tell me.
+Dialogue: 0,0:03:30.22,0:03:32.98,italics,Gordon,0000,0000,0000,,But things are different now.
+Dialogue: 0,0:03:32.98,0:03:36.19,italics,Gordon,0000,0000,0000,,Today, I have my friends with me,\N so I feel more confident.
+Dialogue: 0,0:03:38.28,0:03:40.61,main,Asta,0000,0000,0000,,My arms are falling asleep!
+Dialogue: 0,0:03:41.02,0:03:46.03,main,Asta,0000,0000,0000,,But I'm not done yet! My muscles are \Nscreaming in joy, not in agony!
+Dialogue: 0,0:03:46.57,0:03:50.03,main,Gauche,0000,0000,0000,,Shut up! The only one who gets \Nto ride behind me is Marie!
+Dialogue: 0,0:03:50.03,0:03:51.41,main,Gauche,0000,0000,0000,,Just shut up and hang on!
+Dialogue: 0,0:03:52.38,0:03:55.53,main,Grey,0000,0000,0000,,It's so embarrassing to meet \Nsomeone I don't know!
+Dialogue: 0,0:03:56.03,0:03:58.05,italics,Gordon,0000,0000,0000,,My friends give me strength.
+Dialogue: 0,0:03:58.05,0:04:02.38,main,Asta,0000,0000,0000,,Guys! Thanks for doing this for me!
+Dialogue: 0,0:04:02.38,0:04:04.64,main,Gauche,0000,0000,0000,,Tch. Why the hell do I have to do this?
+Dialogue: 0,0:04:05.49,0:04:08.71,flashback,Yami,0000,0000,0000,,Looks like Noelle took off \Nto the royal capital,
+Dialogue: 0,0:04:08.71,0:04:11.13,flashback,Yami,0000,0000,0000,,and since you all look so sleepy, \Nyou guys can head out, too.
+Dialogue: 0,0:04:11.13,0:04:12.69,flashback,Yami,0000,0000,0000,,You guys are pals, aren't ya?
+Dialogue: 0,0:04:13.10,0:04:16.15,flashback,Yami,0000,0000,0000,,I'm definitely not going, \Nand I'll kill you if you refuse.
+Dialogue: 0,0:04:16.57,0:04:18.52,italics,Gauche,0000,0000,0000,,Curse our captain for abusing his power.
+Dialogue: 0,0:04:18.52,0:04:21.21,main,Asta,0000,0000,0000,,So I heard your family's, like, \Nreally special somehow
+Dialogue: 0,0:04:21.21,0:04:23.77,main,Asta,0000,0000,0000,,when it comes to curse mages, Gordon.
+Dialogue: 0,0:04:24.34,0:04:27.32,main,Asta,0000,0000,0000,,What the heck are curse mages, anyway?
+Dialogue: 0,0:04:28.45,0:04:32.18,main,Gordon,0000,0000,0000,,They... are mages that made a trade out of
+Dialogue: 0,0:04:32.18,0:04:35.67,main,Gordon,0000,0000,0000,,cursing and bringing misfortune upon others.
+Dialogue: 0,0:04:35.67,0:04:38.49,main,Gordon,0000,0000,0000,,But I didn't want any part of that.
+Dialogue: 0,0:04:39.31,0:04:42.58,main,Gordon,0000,0000,0000,,I wanted to be friends with \Npeople, not to curse them.
+Dialogue: 0,0:04:43.57,0:04:46.69,main,Gordon,0000,0000,0000,,That's why I pretty much ran away from home.
+Dialogue: 0,0:04:47.17,0:04:49.05,main,Asta,0000,0000,0000,,I see.
+Dialogue: 0,0:04:49.37,0:04:50.94,main,Gauche,0000,0000,0000,,You ran away?
+Dialogue: 0,0:04:50.94,0:04:53.46,main,Gauche,0000,0000,0000,,Will you be able to get any \Ninformation from them, then?
+Dialogue: 0,0:04:53.94,0:04:56.98,main,Gauche,0000,0000,0000,,Also, they're not gonna curse us, are they?
+Dialogue: 0,0:04:56.98,0:05:01.39,main,Grey,0000,0000,0000,,Being cursed by someone I \Ndon't know is so embarrassing!
+Dialogue: 0,0:05:01.39,0:05:03.53,main,Gauche,0000,0000,0000,,The being cursed part doesn't bother you?!
+Dialogue: 0,0:05:04.17,0:05:06.31,main,Gordon,0000,0000,0000,,It'll be okay... I think.
+Dialogue: 0,0:05:06.93,0:05:08.13,main,All,0000,0000,0000,,You think?
+Dialogue: 0,0:05:18.61,0:05:20.38,main,All,0000,0000,0000,,I wanna go home...
+Dialogue: 0,0:05:20.83,0:05:21.77,main,Gordon,0000,0000,0000,,Let's go.
+Dialogue: 0,0:05:27.25,0:05:29.34,main,Gauche,0000,0000,0000,,This is basically a haunted house.
+Dialogue: 0,0:05:29.34,0:05:31.93,main,Grey,0000,0000,0000,,It's so embarrassing to meet \Na ghost I don't know!
+Dialogue: 0,0:05:32.45,0:05:35.06,main,Gauche,0000,0000,0000,,Get off of me! Damn it, Grey!
+Dialogue: 0,0:05:35.55,0:05:39.36,main,Asta,0000,0000,0000,,I wonder what Gordon's family is like.
+Dialogue: 0,0:05:41.11,0:05:43.66,main,Gordon,0000,0000,0000,,It's me. I'm home.
+Dialogue: 0,0:05:53.30,0:05:55.27,main,Jonna,0000,0000,0000,,Welcome home, Gordon.
+Dialogue: 0,0:05:55.87,0:05:57.18,main,Roxanne,0000,0000,0000,,Big Brother...
+Dialogue: 0,0:05:57.18,0:06:00.54,main,Nathan,0000,0000,0000,,So you decided to come home after all.
+Dialogue: 0,0:06:01.50,0:06:03.84,italics,All,0000,0000,0000,,They all have the same face!
+Dialogue: 0,0:06:04.45,0:06:05.84,main,Gordon,0000,0000,0000,,Let me introduce you.
+Dialogue: 0,0:06:05.84,0:06:08.49,sign_8772_80_Father_Nathan,Sign,0000,0000,0000,,{\blur3}Father\N{\fs30}Nathan
+Dialogue: 0,0:06:06.22,0:06:08.26,top,Gordon,0000,0000,0000,,First, this is my dad, Nathan.
+Dialogue: 0,0:06:08.70,0:06:10.74,sign_8772_80_Father_Nathan,Sign,0000,0000,0000,,{\blur3\fad(251,1)}Mother\N{\fs30}Jonna
+Dialogue: 0,0:06:09.07,0:06:10.53,top,Gordon,0000,0000,0000,,This is my mom, Jonna.
+Dialogue: 0,0:06:10.95,0:06:13.20,sign_8772_80_Father_Nathan,Sign,0000,0000,0000,,{\blur3\fad(254,1)}Grandmother\N{\fs30}Nilenia
+Dialogue: 0,0:06:11.38,0:06:13.06,top,Gordon,0000,0000,0000,,My grandmother, Nilenia.
+Dialogue: 0,0:06:13.49,0:06:16.16,sign_8772_80_Father_Nathan,Sign,0000,0000,0000,,{\blur3\fad(258,535)}Little Sister\N{\fs30}Roxanne
+Dialogue: 0,0:06:13.78,0:06:15.55,top,Gordon,0000,0000,0000,,My little sister, Roxanne.
+Dialogue: 0,0:06:15.55,0:06:16.35,top,Gordon,0000,0000,0000,,And...
+Dialogue: 0,0:06:17.10,0:06:19.72,main,Asta,0000,0000,0000,,Ow! Ow, ow, ow, ow!
+Dialogue: 0,0:06:19.72,0:06:21.35,main,Gordon,0000,0000,0000,,This is our dog, Nunnally.
+Dialogue: 0,0:06:21.35,0:06:23.30,italics,Both,0000,0000,0000,,Even their dog looks like them...
+Dialogue: 0,0:06:23.30,0:06:25.65,main,Jonna,0000,0000,0000,,What are you doing to our guest?!
+Dialogue: 0,0:06:24.31,0:06:25.65,main,Roxanne,0000,0000,0000,,Nunnally, stop!
+Dialogue: 0,0:06:26.06,0:06:29.38,main,Gauche,0000,0000,0000,,Whoa! Don't all of you come over here at once!
+Dialogue: 0,0:06:31.06,0:06:33.23,main,Gordon,0000,0000,0000,,Are you all right, Asta?
+Dialogue: 0,0:06:33.23,0:06:34.33,main,Asta,0000,0000,0000,,Yeah...
+Dialogue: 0,0:06:34.33,0:06:37.54,main,Asta,0000,0000,0000,,Oh, sorry for the late introduction. I'm Asta.
+Dialogue: 0,0:06:38.27,0:06:41.63,main,Asta,0000,0000,0000,,And this is Gauche and Grey.
+Dialogue: 0,0:06:42.21,0:06:46.63,main,Gordon,0000,0000,0000,,They're my friends from the Black Bulls \Nthat I mentioned in my letter.
+Dialogue: 0,0:06:46.63,0:06:50.21,main,Nathan,0000,0000,0000,,I see. Well, now that you're all here...
+Dialogue: 0,0:06:50.21,0:06:52.64,main,Jonna,0000,0000,0000,,Why don't you join us for dinner?
+Dialogue: 0,0:06:53.43,0:06:56.28,italics,Gauche,0000,0000,0000,,Weren't you two strangers \Nbefore you got married?
+Dialogue: 0,0:06:56.28,0:06:57.89,italics,Gauche,0000,0000,0000,,Why do you look so much alike?!
+Dialogue: 0,0:06:58.49,0:07:01.86,main,Nathan,0000,0000,0000,,Gordon, you haven't had your \Nmother's cooking for a while.
+Dialogue: 0,0:07:01.86,0:07:03.28,main,Nathan,0000,0000,0000,,It must taste exquisite.
+Dialogue: 0,0:07:03.28,0:07:06.49,main,Nathan,0000,0000,0000,,The eyeballs of the creepy-crawly\N snake are superb.
+Dialogue: 0,0:07:06.49,0:07:09.86,main,Jonna,0000,0000,0000,,I recommend the raw paralyzing frog, myself.
+Dialogue: 0,0:07:09.86,0:07:12.49,main,Nilenia,0000,0000,0000,,Bread... Where's the bread?
+Dialogue: 0,0:07:12.80,0:07:15.16,main,Roxanne,0000,0000,0000,,Grandma, it's in your hands.
+Dialogue: 0,0:07:15.64,0:07:18.79,main,Nilenia,0000,0000,0000,,Oh, my. And it was on the \Nplate just a moment ago...
+Dialogue: 0,0:07:20.43,0:07:21.71,main,Nilenia,0000,0000,0000,,Where did the bread go?
+Dialogue: 0,0:07:21.71,0:07:23.58,main,Roxanne,0000,0000,0000,,It's in your mouth.
+Dialogue: 0,0:07:24.25,0:07:26.49,main,Gordon,0000,0000,0000,,Dad, I want to talk to you about something.
+Dialogue: 0,0:07:26.49,0:07:28.30,main,Nathan,0000,0000,0000,,I see. You must want seconds.
+Dialogue: 0,0:07:28.30,0:07:29.84,main,Gordon,0000,0000,0000,,No, Dad...
+Dialogue: 0,0:07:29.84,0:07:32.86,italics,Grey,0000,0000,0000,,Th-They're muttering over here \Nand muttering over there...
+Dialogue: 0,0:07:32.86,0:07:35.62,italics,Grey,0000,0000,0000,,I have no idea what any of them are saying.
+Dialogue: 0,0:07:35.62,0:07:37.93,italics,Gauche,0000,0000,0000,,This is so awkward. What the hell is this?
+Dialogue: 0,0:07:37.93,0:07:41.18,italics,Gauche,0000,0000,0000,,And it's not easy to make me feel awkward.
+Dialogue: 0,0:07:41.74,0:07:43.17,main,Gauche,0000,0000,0000,,Say something, damn it.
+Dialogue: 0,0:07:43.17,0:07:45.77,main,Gauche,0000,0000,0000,,Aren't we supposed to ask \Nabout forbidden magic?
+Dialogue: 0,0:07:45.77,0:07:48.35,main,Grey,0000,0000,0000,,I-I can't...
+Dialogue: 0,0:07:48.35,0:07:51.95,main,Grey,0000,0000,0000,,Gordon, please stop shaking and ask!
+Dialogue: 0,0:07:54.01,0:07:55.70,main,Gauche,0000,0000,0000,,Hey, that's the grandma!
+Dialogue: 0,0:07:55.70,0:08:01.21,main,Asta,0000,0000,0000,,Wow, this stuff looks really gross,\N but it's super yummy!
+Dialogue: 0,0:08:02.12,0:08:03.72,main,Asta,0000,0000,0000,,It's so good!
+Dialogue: 0,0:08:03.72,0:08:06.63,italics,Gauche,0000,0000,0000,,Why the hell are you having \Nfun all by yourself?
+Dialogue: 0,0:08:08.78,0:08:10.13,main,Grey,0000,0000,0000,,H-Huh?
+Dialogue: 0,0:08:10.44,0:08:13.22,main,Roxanne,0000,0000,0000,,I think we can become the best of friends.
+Dialogue: 0,0:08:13.53,0:08:16.22,main,Grey,0000,0000,0000,,Y-You want to give me something?
+Dialogue: 0,0:08:22.02,0:08:24.06,italics,Grey,0000,0000,0000,,What is this?!
+Dialogue: 0,0:08:26.86,0:08:30.13,main,Nilenia,0000,0000,0000,,Is that you, Nathan? You've grown so big...
+Dialogue: 0,0:08:30.69,0:08:33.65,main,Nilenia,0000,0000,0000,,You have to protect the House of Agrippa.
+Dialogue: 0,0:08:34.18,0:08:35.36,italics,Gauche,0000,0000,0000,,Old lady, seriously...
+Dialogue: 0,0:08:36.09,0:08:40.65,main,Jonna,0000,0000,0000,,Oh, dear, Mother... \NPerhaps it's time for your nap.
+Dialogue: 0,0:08:40.65,0:08:44.08,main,Nilenia,0000,0000,0000,,I'm counting on Nathan.
+Dialogue: 0,0:08:44.93,0:08:50.27,main,Nilenia,0000,0000,0000,,For the sake of our ancestor who made \Nthe contract... the curse of Megicula...
+Dialogue: 0,0:08:50.27,0:08:51.78,main,Jonna,0000,0000,0000,,Yes, Mother.
+Dialogue: 0,0:08:51.78,0:08:52.59,main,Asta,0000,0000,0000,,Megi...?
+Dialogue: 0,0:08:55.43,0:08:57.34,main,Roxanne,0000,0000,0000,,Thank you for the meal.
+Dialogue: 0,0:09:02.13,0:09:05.89,italics,Grey,0000,0000,0000,,I-It suddenly got really quiet...
+Dialogue: 0,0:09:08.46,0:09:09.41,italics,Gauche,0000,0000,0000,,All right!
+Dialogue: 0,0:09:09.41,0:09:12.69,italics,Asta,0000,0000,0000,,Gordon! It's the perfect opportunity to ask!
+Dialogue: 0,0:09:20.30,0:09:22.79,main,Gordon,0000,0000,0000,,Dad, I need to talk to you about something.
+Dialogue: 0,0:09:25.62,0:09:30.67,main,Gordon,0000,0000,0000,,I basically abandoned the family, \Nso I probably have no right to ask...
+Dialogue: 0,0:09:30.67,0:09:34.80,main,Gordon,0000,0000,0000,,But I have a friend that I want \Nto save, no matter what.
+Dialogue: 0,0:09:37.17,0:09:40.66,main,Gordon,0000,0000,0000,,So could you tell me about \Nforbidden magic curses and devils,
+Dialogue: 0,0:09:40.66,0:09:42.81,main,Gordon,0000,0000,0000,,for the sake of that friend?
+Dialogue: 0,0:09:49.35,0:09:50.35,main,Nathan,0000,0000,0000,,Sure.
+Dialogue: 0,0:09:51.97,0:09:53.65,italics,All,0000,0000,0000,,That was easy.
+Dialogue: 0,0:10:00.99,0:10:05.18,main,Nathan,0000,0000,0000,,I'll show you hex research \Nworthy of a family
+Dialogue: 0,0:10:05.18,0:10:08.50,main,Nathan,0000,0000,0000,,with centuries of expertise \Nas curse mages,
+Dialogue: 0,0:10:08.50,0:10:14.50,main,Nathan,0000,0000,0000,,as well as secret arts that deal \Nwith poison, plague, and death.
+Dialogue: 0,0:10:15.87,0:10:18.01,main,Nathan,0000,0000,0000,,Are you ready?
+Dialogue: 0,0:10:30.06,0:10:31.98,main,Gauche,0000,0000,0000,,What the hell is this?
+Dialogue: 0,0:10:35.29,0:10:36.61,main,Nathan,0000,0000,0000,,Beautiful, isn't it?
+Dialogue: 0,0:10:37.19,0:10:39.83,main,Nathan,0000,0000,0000,,This is my curse research workshop.
+Dialogue: 0,0:10:39.83,0:10:43.24,main,Nathan,0000,0000,0000,,I'm researching every kind of pain there is.
+Dialogue: 0,0:10:43.81,0:10:47.58,main,Gordon,0000,0000,0000,,Dad... So you really were \Nresearching such evil things.
+Dialogue: 0,0:10:47.99,0:10:54.04,main,Nathan,0000,0000,0000,,Gordon... I've been earnestly \Nwaiting for your return.
+Dialogue: 0,0:10:54.04,0:10:59.85,main,Nathan,0000,0000,0000,,Your poison magic is a talent that makes\Nyou worthy of inheriting my research.
+Dialogue: 0,0:11:00.47,0:11:05.27,main,Gordon,0000,0000,0000,,I only came here to ask about \Ndevil-related curses for Asta.
+Dialogue: 0,0:11:05.78,0:11:07.18,main,Gordon,0000,0000,0000,,I'm not coming home to stay!
+Dialogue: 0,0:11:08.81,0:11:10.82,main,Nathan,0000,0000,0000,,Oh, don't be like that.
+Dialogue: 0,0:11:10.82,0:11:14.01,main,Nathan,0000,0000,0000,,Death by curses, poisons, drugs...
+Dialogue: 0,0:11:14.01,0:11:17.57,main,Nathan,0000,0000,0000,,If you want to learn those secrets, \NI'll teach you all of them.
+Dialogue: 0,0:11:18.41,0:11:20.07,main,Gordon,0000,0000,0000,,What do you think a person's life is?
+Dialogue: 0,0:11:20.07,0:11:22.87,main,Nathan,0000,0000,0000,,Humans die so quickly.
+Dialogue: 0,0:11:22.87,0:11:27.17,main,Nathan,0000,0000,0000,,That includes your friends. \NLife is so fleeting.
+Dialogue: 0,0:11:36.46,0:11:40.13,main,Nathan,0000,0000,0000,,Black Oil Creation Magic: \NCurse-Filled Nails.
+Dialogue: 0,0:11:40.50,0:11:41.47,main,,0000,0000,0000,,Guys!
+Dialogue: 0,0:11:48.72,0:11:49.98,main,All,0000,0000,0000,,Asta!
+Dialogue: 0,0:11:52.65,0:11:56.11,main,Asta,0000,0000,0000,,Wait, I'm fine?
+Dialogue: 0,0:11:58.61,0:12:01.70,main,Nathan,0000,0000,0000,,Hm... 36.5 degrees.
+Dialogue: 0,0:12:01.70,0:12:03.29,main,Nathan,0000,0000,0000,,Your temperature is normal.
+Dialogue: 0,0:12:03.29,0:12:05.89,main,Nathan,0000,0000,0000,,I don't see any physical abnormalities,
+Dialogue: 0,0:12:06.39,0:12:08.62,main,Nathan,0000,0000,0000,,though you really don't have magic.
+Dialogue: 0,0:12:09.35,0:12:11.16,main,Gordon,0000,0000,0000,,Dad, what are you...
+Dialogue: 0,0:12:13.14,0:12:16.87,main,Nathan,0000,0000,0000,,Well? I rechanneled what I know about \Npoisons that usually harm people,
+Dialogue: 0,0:12:16.87,0:12:19.63,main,Nathan,0000,0000,0000,,as well as our family's hereditary \Nexpertise in curse killing,
+Dialogue: 0,0:12:19.63,0:12:22.95,main,Nathan,0000,0000,0000,,into health management and medical treatment.
+Dialogue: 0,0:12:23.38,0:12:27.10,main,Nathan,0000,0000,0000,,That being said, this endeavor \Njust started with my generation,
+Dialogue: 0,0:12:27.10,0:12:30.18,main,Nathan,0000,0000,0000,,so I'm only able to cure normal diseases.
+Dialogue: 0,0:12:30.18,0:12:33.39,main,Nathan,0000,0000,0000,,I wasn't able to help when \Nyour arms were afflicted
+Dialogue: 0,0:12:33.39,0:12:35.69,main,Nathan,0000,0000,0000,,with an ancient curse, but...
+Dialogue: 0,0:12:36.89,0:12:37.94,main,Nathan,0000,0000,0000,,What's the matter?
+Dialogue: 0,0:12:37.94,0:12:41.13,main,Asta,0000,0000,0000,,So, uh... You rechanneled your \Nknowledge about killing with curses
+Dialogue: 0,0:12:41.13,0:12:44.74,main,Asta,0000,0000,0000,,toward health management \Nand medical treatment...
+Dialogue: 0,0:12:44.74,0:12:48.95,main,Asta,0000,0000,0000,,So, wait, does that make you a recovery mage?
+Dialogue: 0,0:12:48.95,0:12:52.20,main,Nathan,0000,0000,0000,,Yes, starting with my generation, at least.
+Dialogue: 0,0:12:52.89,0:12:55.03,main,Gordon,0000,0000,0000,,I had no idea...
+Dialogue: 0,0:12:55.03,0:12:58.27,main,Gordon,0000,0000,0000,,I totally thought you were \Ncursing people to death.
+Dialogue: 0,0:12:58.73,0:13:00.95,main,Gauche,0000,0000,0000,,You people need to learn how to communicate!
+Dialogue: 0,0:13:00.95,0:13:03.55,main,Gauche,0000,0000,0000,,You're going to give people the \Nwrong idea with those things!
+Dialogue: 0,0:13:04.57,0:13:07.96,main,Grey,0000,0000,0000,,You really can't judge a book by its cover!
+Dialogue: 0,0:13:07.96,0:13:11.47,main,Gordon,0000,0000,0000,,Dad, does that mean you're \Ngoing to help us out?
+Dialogue: 0,0:13:11.80,0:13:13.61,main,Nathan,0000,0000,0000,,But of course.
+Dialogue: 0,0:13:13.61,0:13:17.31,main,Nathan,0000,0000,0000,,What did you want to know about \Ndevils and forbidden magic?
+Dialogue: 0,0:13:17.77,0:13:20.73,main,Nathan,0000,0000,0000,,Let's hear the details first.
+Dialogue: 0,0:13:21.09,0:13:21.90,main,Asta,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:13:36.54,0:13:42.02,main,Dorothy,0000,0000,0000,,Okay. Now I've sent most of the \Nlarge debris into my dreams.
+Dialogue: 0,0:13:43.21,0:13:45.30,main,Man,0000,0000,0000,,In mere moments!
+Dialogue: 0,0:13:45.30,0:13:47.87,main,Man,0000,0000,0000,,That's the Captain of the \NCoral Peacocks for you!
+Dialogue: 0,0:13:47.87,0:13:50.41,main,Lady,0000,0000,0000,,Thank you so much, Lady Dorothy.
+Dialogue: 0,0:13:50.41,0:13:52.34,main,Noelle,0000,0000,0000,,I'm glad you're still awake.
+Dialogue: 0,0:13:55.46,0:13:57.38,main,Dorothy,0000,0000,0000,,Well, well...
+Dialogue: 0,0:13:57.38,0:14:00.63,main,Dorothy,0000,0000,0000,,If it isn't the littlest sister \Nof the House of Silva.
+Dialogue: 0,0:14:00.63,0:14:01.94,main,Dorothy,0000,0000,0000,,Did you need something?
+Dialogue: 0,0:14:02.38,0:14:09.53,main,Noelle,0000,0000,0000,,I want to know the truth \Nbehind my mother's death.
+Dialogue: 0,0:14:10.69,0:14:12.95,main,Dorothy,0000,0000,0000,,Did you hear something from Nozel?
+Dialogue: 0,0:14:12.95,0:14:17.82,main,Noelle,0000,0000,0000,,Yes. When we went to see \NSolid and Nebra yesterday...
+Dialogue: 0,0:14:21.22,0:14:24.19,flashback,Noelle,0000,0000,0000,,Wh-What did you just say, Nozel?
+Dialogue: 0,0:14:24.19,0:14:28.05,flashback,Noelle,0000,0000,0000,,What do you mean, Mother didn't \Ndie because she gave birth to me?
+Dialogue: 0,0:14:28.75,0:14:30.99,flashback,Nozel,0000,0000,0000,,When she was pregnant with you,
+Dialogue: 0,0:14:30.99,0:14:35.06,flashback,Nozel,0000,0000,0000,,Mother was already haunted by a \Ndeath that she could not escape.
+Dialogue: 0,0:14:36.75,0:14:39.99,flashback,Nozel,0000,0000,0000,,It was not an injury or an illness.
+Dialogue: 0,0:14:39.99,0:14:43.19,flashback,Nozel,0000,0000,0000,,It was a death that should \Nnot happen in this world.
+Dialogue: 0,0:14:44.49,0:14:47.44,flashback,Noelle,0000,0000,0000,,A death that should not happen in this world?
+Dialogue: 0,0:14:47.44,0:14:51.46,flashback,Noelle,0000,0000,0000,,But that sounds like the work of \Nthe devils we're currently investi—
+Dialogue: 0,0:14:51.46,0:14:56.37,flashback,Nozel,0000,0000,0000,,Say any more, and your life \Nwill be in danger, too.
+Dialogue: 0,0:14:58.46,0:15:03.02,flashback,Nozel,0000,0000,0000,,If you still have the courage \Nto face the truth knowing that,
+Dialogue: 0,0:15:03.53,0:15:08.35,flashback,Nozel,0000,0000,0000,,then go speak with Captain Dorothy Unsworth\N of the Coral Peacocks.
+Dialogue: 0,0:15:11.29,0:15:15.68,main,Noelle,0000,0000,0000,,Tell me. Why did my mother have to die?
+Dialogue: 0,0:15:15.68,0:15:19.64,main,Dorothy,0000,0000,0000,,Sure thing! I could never \Nsay no to a cute girl!
+Dialogue: 0,0:15:20.07,0:15:21.31,italics,Noelle,0000,0000,0000,,She's so easy.
+Dialogue: 0,0:15:21.31,0:15:23.80,main,Dorothy,0000,0000,0000,,Well, I'm leaving the rest to you guys, then.
+Dialogue: 0,0:15:23.80,0:15:25.82,main,Squad,0000,0000,0000,,Yes, Captain Dorothy!
+Dialogue: 0,0:15:25.82,0:15:27.42,main,Guy,0000,0000,0000,,Then again, it's not like \Nwe have anything to do.
+Dialogue: 0,0:15:27.42,0:15:29.82,main,Guy,0000,0000,0000,,Captain Dorothy's amazing \Nwhen she's actually awake!
+Dialogue: 0,0:15:30.22,0:15:34.60,main,Noelle,0000,0000,0000,,Um... Did my mother's death involve a devil?
+Dialogue: 0,0:15:34.60,0:15:35.91,main,Dorothy,0000,0000,0000,,Shh...
+Dialogue: 0,0:15:35.91,0:15:38.12,main,Dorothy,0000,0000,0000,,Didn't Nozel tell you?
+Dialogue: 0,0:15:38.12,0:15:41.67,main,Dorothy,0000,0000,0000,,You shouldn't speak of that.
+Dialogue: 0,0:15:41.67,0:15:43.25,main,Dorothy,0000,0000,0000,,You'll get cursed.
+Dialogue: 0,0:15:46.73,0:15:48.54,main,Dorothy,0000,0000,0000,,At least, in this world.
+Dialogue: 0,0:15:54.39,0:15:55.26,main,Noelle,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:59.95,0:16:01.17,main,Noelle,0000,0000,0000,,Where am I?
+Dialogue: 0,0:16:01.94,0:16:03.27,main,Dorothy,0000,0000,0000,,Welcome!
+Dialogue: 0,0:16:03.76,0:16:06.36,main,Dorothy,0000,0000,0000,,To Dream Magic: Glamour World!
+Dialogue: 0,0:16:06.36,0:16:08.42,main,Dorothy,0000,0000,0000,,This is a world of dreams.
+Dialogue: 0,0:16:08.42,0:16:13.28,main,Dorothy,0000,0000,0000,,A world separated from the outside world.\NEverything here is under my control.
+Dialogue: 0,0:16:15.05,0:16:16.86,main,Dorothy,0000,0000,0000,,Here, have some tea.
+Dialogue: 0,0:16:22.39,0:16:26.21,main,Dorothy,0000,0000,0000,,Usually, I trap bad people \Nin here and punish them,
+Dialogue: 0,0:16:26.66,0:16:31.80,main,Dorothy,0000,0000,0000,,or I transport buildings or \Ninjured people in here, like today.
+Dialogue: 0,0:16:31.80,0:16:34.68,italics,Noelle,0000,0000,0000,,What in the world is this large-scale spell?
+Dialogue: 0,0:16:34.68,0:16:37.05,italics,Noelle,0000,0000,0000,,So this is Glamour World?
+Dialogue: 0,0:16:37.05,0:16:40.37,italics,Noelle,0000,0000,0000,,Everything's under her control?\N But that's crazy.
+Dialogue: 0,0:16:41.10,0:16:42.31,italics,Noelle,0000,0000,0000,,This tea is good.
+Dialogue: 0,0:16:42.31,0:16:43.45,main,Asta,0000,0000,0000,,Noelle!
+Dialogue: 0,0:16:44.19,0:16:45.52,main,Asta,0000,0000,0000,,Heya.
+Dialogue: 0,0:16:45.52,0:16:48.31,main,Noelle,0000,0000,0000,,Asta! What are you doing here?
+Dialogue: 0,0:16:48.31,0:16:52.23,main,Asta,0000,0000,0000,,More importantly... Hup!
+Dialogue: 0,0:16:52.23,0:16:54.79,main,Asta,0000,0000,0000,,You sure are cute today, Noelle.
+Dialogue: 0,0:16:55.22,0:16:56.45,main,Noelle,0000,0000,0000,,Wait, wha—
+Dialogue: 0,0:16:56.82,0:16:59.58,main,Asta,0000,0000,0000,,I just want to keep staring \Nat how cute you are!
+Dialogue: 0,0:16:59.91,0:17:01.52,main,Noelle,0000,0000,0000,,W-Wait, no! Th-This isn't...
+Dialogue: 0,0:17:01.52,0:17:05.83,main,Dorothy,0000,0000,0000,,That's the boy I created from your thoughts.
+Dialogue: 0,0:17:05.83,0:17:09.63,main,Asta,0000,0000,0000,,Yup! You think about me all the time!
+Dialogue: 0,0:17:09.63,0:17:13.17,main,Noelle,0000,0000,0000,,What?! I absolutely do not!
+Dialogue: 0,0:17:13.17,0:17:16.13,main,Asta,0000,0000,0000,,Oh, no!
+Dialogue: 0,0:17:16.13,0:17:20.14,main,Dorothy,0000,0000,0000,,Oh, dearie me. You did also come \Nhere for his sake, didn't you?
+Dialogue: 0,0:17:20.46,0:17:23.14,main,Noelle,0000,0000,0000,,Not at all! Not even a little!
+Dialogue: 0,0:17:24.51,0:17:28.65,main,Dorothy,0000,0000,0000,,But just so you know, this is the perfect \Nplace to have secret conversations.
+Dialogue: 0,0:17:28.65,0:17:31.31,main,Noelle,0000,0000,0000,,Secret? You mean...
+Dialogue: 0,0:17:31.85,0:17:34.09,main,Nozel,0000,0000,0000,,It's the perfect place to talk about Mother.
+Dialogue: 0,0:17:35.14,0:17:37.49,main,Noelle,0000,0000,0000,,Now it's Nozel?
+Dialogue: 0,0:17:37.89,0:17:41.77,main,Dorothy,0000,0000,0000,,Though this is a Nozel that I thought up.
+Dialogue: 0,0:17:42.62,0:17:46.25,main,Dorothy,0000,0000,0000,,You came to visit me after \Ntalking to the real him, right?
+Dialogue: 0,0:17:46.56,0:17:50.00,main,Dorothy,0000,0000,0000,,About the thing he hasn't \Ntold any of his siblings.
+Dialogue: 0,0:17:50.54,0:17:57.01,main,Dorothy,0000,0000,0000,,Your mother, Acier Silva, lost her\N life due to a devil's curse.
+Dialogue: 0,0:17:58.11,0:18:02.01,main,Noelle,0000,0000,0000,,My mother... But why didn't Nozel tell anyone?
+Dialogue: 0,0:18:02.34,0:18:05.82,main,Dorothy,0000,0000,0000,,Because those who speak of \Nit will share the same fate.
+Dialogue: 0,0:18:06.87,0:18:12.02,main,Dorothy,0000,0000,0000,,That's the nature of the curse \Nthat befell your mother.
+Dialogue: 0,0:18:12.86,0:18:16.37,main,Dorothy,0000,0000,0000,,That's why he didn't tell \Nyou or your siblings,
+Dialogue: 0,0:18:16.37,0:18:19.74,main,Dorothy,0000,0000,0000,,and why I told him to come to me in \Nthis world, because he can only talk
+Dialogue: 0,0:18:19.74,0:18:23.37,main,Dorothy,0000,0000,0000,,about this curse in a world that's \Nseparated from the outside world.
+Dialogue: 0,0:18:23.75,0:18:27.34,main,Nozel,0000,0000,0000,,I'm sorry it took me so long \Nto tell you this, Noelle.
+Dialogue: 0,0:18:29.57,0:18:32.63,main,Nozel,0000,0000,0000,,I didn't want to put you in danger.
+Dialogue: 0,0:18:32.99,0:18:34.97,main,Nozel,0000,0000,0000,,Ah, Noelle...
+Dialogue: 0,0:18:34.97,0:18:36.06,main,Noelle,0000,0000,0000,,Nozel?
+Dialogue: 0,0:18:36.06,0:18:37.53,main,Nozel,0000,0000,0000,,Ah, Noelle!
+Dialogue: 0,0:18:37.53,0:18:39.19,main,Nozel,0000,0000,0000,,Noelle!
+Dialogue: 0,0:18:39.19,0:18:41.63,main,Nozel,0000,0000,0000,,My precious little Noelle!
+Dialogue: 0,0:18:41.63,0:18:46.64,main,Nozel,0000,0000,0000,,I love you so, so much that I just \Ndon't know what to do with myself!
+Dialogue: 0,0:18:46.64,0:18:48.94,main,Nozel,0000,0000,0000,,Noelle, Noelle, Noe—
+Dialogue: 0,0:18:52.29,0:18:53.81,main,Noelle,0000,0000,0000,,Nozel!
+Dialogue: 0,0:18:53.81,0:18:56.19,main,Noelle,0000,0000,0000,,Hey! Quit messing around with Nozel!
+Dialogue: 0,0:18:56.57,0:19:01.20,main,Dorothy,0000,0000,0000,,Aw, but that's how Nozel always seems to me!
+Dialogue: 0,0:19:04.28,0:19:06.45,main,Nozel,0000,0000,0000,,What in the world was that chill just now?
+Dialogue: 0,0:19:08.14,0:19:12.54,main,Dorothy,0000,0000,0000,,Well, now that Nozel's gone \Nflying away, let's get back on topic.
+Dialogue: 0,0:19:14.00,0:19:15.67,main,Dorothy,0000,0000,0000,,The devils that live in the other world
+Dialogue: 0,0:19:15.67,0:19:20.55,main,Dorothy,0000,0000,0000,,don't appear in our world unless \Nthere's been some kind of anomaly.
+Dialogue: 0,0:19:21.26,0:19:24.49,main,Dorothy,0000,0000,0000,,Mages can use forbidden magic, \Ncontract them by paying a price
+Dialogue: 0,0:19:24.49,0:19:27.97,main,Dorothy,0000,0000,0000,,of some sort, and use their power \Nin a limited way, but that's it.
+Dialogue: 0,0:19:28.54,0:19:30.47,main,Dorothy,0000,0000,0000,,Or that was supposed to be the case,
+Dialogue: 0,0:19:30.47,0:19:34.09,main,Dorothy,0000,0000,0000,,but now, their shadow is \Nwriggling around in our world.
+Dialogue: 0,0:19:36.57,0:19:39.15,main,Dorothy,0000,0000,0000,,The devil's name is Megicula.
+Dialogue: 0,0:19:39.15,0:19:42.91,italics,Noelle,0000,0000,0000,,Megicula... That's the \Ndevil who killed my mother!
+Dialogue: 0,0:19:42.91,0:19:45.58,italics,Noelle,0000,0000,0000,,And the key to saving Asta!
+Dialogue: 0,0:19:46.66,0:19:48.66,main,Nathan,0000,0000,0000,,Sorry to keep you waiting.
+Dialogue: 0,0:19:49.58,0:19:51.94,main,Nathan,0000,0000,0000,,After hearing what you said yesterday,
+Dialogue: 0,0:19:51.94,0:19:57.88,main,Nathan,0000,0000,0000,,I looked into what our ancestors had\Nto say about magic that collects curses.
+Dialogue: 0,0:19:57.88,0:20:04.14,main,Nathan,0000,0000,0000,,Investigating curses... Our magic \Nis basically made for that.
+Dialogue: 0,0:20:04.98,0:20:09.43,main,Nathan,0000,0000,0000,,Black Oil Creation Magic: \NCurse Candle Ritual Disk.
+Dialogue: 0,0:20:16.46,0:20:17.67,main,Grey,0000,0000,0000,,Is this...
+Dialogue: 0,0:20:17.67,0:20:19.41,main,Gauche,0000,0000,0000,,The Clover Kingdom?
+Dialogue: 0,0:20:19.41,0:20:21.03,main,Asta,0000,0000,0000,,Holy crap!
+Dialogue: 0,0:20:21.39,0:20:23.10,main,Nathan,0000,0000,0000,,The flames are curses.
+Dialogue: 0,0:20:23.10,0:20:25.54,main,Nathan,0000,0000,0000,,Flame intensity shows depth and viciousness.
+Dialogue: 0,0:20:25.54,0:20:29.08,main,Nathan,0000,0000,0000,,This is a map of the sickness \Neroding our kingdom.
+Dialogue: 0,0:20:29.08,0:20:32.53,main,Grey,0000,0000,0000,,That flame is insanely fierce! Huh?
+Dialogue: 0,0:20:33.05,0:20:34.83,main,Gauche,0000,0000,0000,,That's our hideout!
+Dialogue: 0,0:20:34.83,0:20:38.59,main,Asta,0000,0000,0000,,Wait... Then there's someone \Nin the Black Bulls who's cursed?
+Dialogue: 0,0:20:39.30,0:20:42.13,main,Gauche,0000,0000,0000,,The only one in our squad \Nwho's not normal is...
+Dialogue: 0,0:20:42.13,0:20:46.69,main,Grey,0000,0000,0000,,L-Let's see... All Luck ever \Nthinks about is fighting,
+Dialogue: 0,0:20:46.69,0:20:50.06,main,Grey,0000,0000,0000,,Finral's always thinking about girls...
+Dialogue: 0,0:20:50.06,0:20:52.35,main,Grey,0000,0000,0000,,And all Vanessa ever does is drink.
+Dialogue: 0,0:20:53.29,0:20:55.94,main,Gordon,0000,0000,0000,,Captain Yami always takes an extremely \Nlong time in the bathroom.
+Dialogue: 0,0:20:56.38,0:20:57.52,main,Gauche,0000,0000,0000,,So basically...
+Dialogue: 0,0:20:57.52,0:20:59.66,italics,All,0000,0000,0000,,None of them are normal.
+Dialogue: 0,0:20:59.66,0:21:03.74,main,Asta,0000,0000,0000,,Wait, wait, wait! What kind of curse \Nmakes you stay in the bathroom forever?
+Dialogue: 0,0:21:03.74,0:21:08.40,main,Asta,0000,0000,0000,,And if we're gonna get into it, everyone \Nhere is pretty undoubtedly unique, too!
+Dialogue: 0,0:21:08.40,0:21:09.20,main,All,0000,0000,0000,,What?
+Dialogue: 0,0:21:09.20,0:21:12.41,main,Grey,0000,0000,0000,,B-Being called unique is too embarrassing!
+Dialogue: 0,0:21:12.41,0:21:14.23,main,Grey,0000,0000,0000,,Huh? Bone!
+Dialogue: 0,0:21:14.50,0:21:15.90,main,Gordon,0000,0000,0000,,But I'm completely normal.
+Dialogue: 0,0:21:15.90,0:21:16.90,main,Gauche,0000,0000,0000,,At any rate,
+Dialogue: 0,0:21:16.90,0:21:20.05,main,Gauche,0000,0000,0000,,you're the last one I want to hear \Nthat from, you zero-magic meathead!
+Dialogue: 0,0:21:23.29,0:21:25.13,main,Asta,0000,0000,0000,,Oh, speaking of magic,
+Dialogue: 0,0:21:25.13,0:21:28.77,main,Asta,0000,0000,0000,,maybe this is reacting to Henry.
+Dialogue: 0,0:21:28.77,0:21:32.18,main,Gauche,0000,0000,0000,,Oh, yeah. I guess his condition that \Nsucks away everyone else's mana
+Dialogue: 0,0:21:32.18,0:21:33.81,main,Gauche,0000,0000,0000,,could definitely be a curse.
+Dialogue: 0,0:21:33.81,0:21:35.13,main,Gordon,0000,0000,0000,,Yeah, he's cursed.
+Dialogue: 0,0:21:35.13,0:21:36.85,main,Grey,0000,0000,0000,,Indeed, he is.
+Dialogue: 0,0:21:37.33,0:21:40.48,main,Nathan,0000,0000,0000,,There's a huge flame in \Nthe royal capital, as well.
+Dialogue: 0,0:21:40.95,0:21:44.33,main,Nathan,0000,0000,0000,,I can't tell who exactly is cursed,
+Dialogue: 0,0:21:44.33,0:21:47.49,main,Nathan,0000,0000,0000,,but if you include the smaller \Nflames, that's quite a few.
+Dialogue: 0,0:21:48.34,0:21:50.33,main,Gauche,0000,0000,0000,,Can't we get a look at a bigger area?
+Dialogue: 0,0:21:50.33,0:21:53.49,main,Nathan,0000,0000,0000,,If we go too far out, the accuracy falls.
+Dialogue: 0,0:21:56.50,0:21:57.45,main,Gauche,0000,0000,0000,,That's...
+Dialogue: 0,0:21:57.45,0:21:59.04,main,Grey,0000,0000,0000,,The Heart Kingdom...
+Dialogue: 0,0:21:59.77,0:22:02.05,main,Gordon,0000,0000,0000,,And there's a very big flame coming from there.
+Dialogue: 0,0:22:03.50,0:22:07.25,main,Asta,0000,0000,0000,,Maybe there's a clue about the devil there!
+Dialogue: 0,0:23:39.57,0:23:41.48,main,Gordon,0000,0000,0000,,You're my dad, Nathan.
+Dialogue: 0,0:23:41.48,0:23:43.07,main,Gordon,0000,0000,0000,,We found some clues \Non devils because of you.
+Dialogue: 0,0:23:43.07,0:23:45.29,main,Gordon,0000,0000,0000,,Thanks, Dad-Who's-Also-Nathan!
+Dialogue: 0,0:23:45.29,0:23:47.64,main,Gordon,0000,0000,0000,,My best friends are really happy, too!
+Dialogue: 0,0:23:47.64,0:23:51.70,main,Some,0000,0000,0000,,Next time on {\i1}Black Clover{\i0}, \NPage 128: "To the Heart Kingdom!"
+Dialogue: 0,0:23:48.65,0:23:53.95,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1186)}Page 128\N\N{\fs18} To the Heart Kingdom!
+Dialogue: 0,0:23:51.70,0:23:53.95,main,Gordon,0000,0000,0000,,{\fad(1,1168)}Wait, I'm staying home?

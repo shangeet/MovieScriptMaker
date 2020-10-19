@@ -1,0 +1,485 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,40,40,35,1
+Style: Main,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,40,40,35,1
+Style: Ep Title,Humana Sans Md ITC TT,27,&H0059FFFE,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,3,1,8,0020,0020,0020,0
+Style: Song,Humana Sans Md ITC TT,23,&H002D20DB,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,1,0040,0020,0015,0
+Style: Odd Jobs,Humana Sans Md ITC TT,23,&H00273028,&H0000FFFF,&H00D2D8DB,&H7F404040,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0110,0
+Style: Snack,Humana Sans Md ITC TT,23,&H00273028,&H0000FFFF,&H00356E7C,&H7F404040,0,0,0,0,100,100,0,0,1,2,1,2,0020,0020,0150,0
+Style: Odd Jobs 2,Humana Sans Md ITC TT,31,&H00383C3E,&H0000FFFF,&H00E0E8E7,&H00404040,1,0,0,0,100,100,0,0,1,3,1,8,0020,0020,0020,0
+Style: Gin,Humana Sans Md ITC TT,27,&H00FFFFFF,&H000000FF,&H007C736B,&H000B0C16,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: Kin,Humana Sans Md ITC TT,27,&H0055FFFA,&H000000FF,&H007C736B,&H000B0C16,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: Year1,Humana Sans Md ITC TT,21,&H000B0C16,&H000000FF,&H00C7DBEF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0020,1
+Style: Year2,Humana Sans Md ITC TT,21,&H000B0C16,&H000000FF,&H00C7DBEF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,0020,0220,0020,1
+Style: Year3,Humana Sans Md ITC TT,21,&H000B0C16,&H000000FF,&H00C7DBEF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,0020,0295,0020,1
+Style: Year4,Humana Sans Md ITC TT,21,&H000B0C16,&H000000FF,&H00C7DBEF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,0220,0020,0020,1
+Style: Year5,Humana Sans Md ITC TT,21,&H000B0C16,&H000000FF,&H00C7DBEF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,0138,0020,0020,1
+Style: ESign,Humana Sans Md ITC TT,21,&H000B0C16,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,1
+Style: End,Humana Sans Md ITC TT,27,&H000B0C16,&H000000FF,&H00C6E2E0,&H00000000,1,0,0,0,100,100,0,0,1,1,0,7,0050,0020,0150,1
+Style: Poster,Humana Sans Md ITC TT,27,&H0020403D,&H000000FF,&H007C736B,&H000B0C16,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: Wall,Humana Sans Md ITC TT,27,&H00616352,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,1
+Style: Ep Title 2,Humana Sans Md ITC TT,27,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,3,1,8,0020,0020,0020,0
+Style: Odd Jobs 3,Humana Sans Md ITC TT,27,&H00312E2D,&H0000FFFF,&H00847D7A,&H00404040,1,0,0,0,100,100,0,0,1,3,1,8,0020,0020,0020,0
+Style: Manual,Humana Sans Md ITC TT,25,&H000B0C16,&H000000FF,&H00ABABAB,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Perfect,Humana Sans Md ITC TT,23,&H0030ACE2,&H000000FF,&H00143381,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Next Ep Title,Humana Sans Md ITC TT,27,&H0059FFFE,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,3,1,3,0020,0020,0100,0
+Style: Caution,Humana Sans Md ITC TT,23,&H007ACAD4,&H0000FFFF,&H002A6774,&H7FFFFFFF,0,0,0,0,100,100,0,0,1,2,1,8,0020,0020,0020,0
+Style: YanJan,Humana Sans Md ITC TT,27,&H003B9CDA,&H000000FF,&H00175D8E,&H0032CCDC,1,0,0,0,100,100,0,0,1,1,2,8,0020,0020,0020,1
+Style: KinDVD,Humana Sans Md ITC TT,27,&H00BA846F,&H000000FF,&H00E9E6DC,&H0032CCDC,1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Yarase,Humana Sans Md ITC TT,23,&H00F7B1FA,&H000000FF,&H0090304D,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+Style: Toyadark,Humana Sans Md ITC TT,25,&H000B0C16,&H000000FF,&H005D7473,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:03.04,0:00:05.52,Manual,,0000,0000,0000,,Lake Toya
+Dialogue: 0,0:00:05.62,0:00:08.79,Main,Gin,0000,0000,0000,,Hey, I'm back.
+Dialogue: 0,0:00:12.47,0:00:15.02,Main,Gin,0000,0000,0000,,Didn't you hear that Gin-san's back?
+Dialogue: 0,0:00:15.89,0:00:18.49,Main,Gin,0000,0000,0000,,Don't you idiots know how \Nto welcome someone?!
+Dialogue: 0,0:00:22.69,0:00:25.00,Main,Gin,0000,0000,0000,,Man, they're so mean.
+Dialogue: 0,0:00:25.58,0:00:29.70,Main,Gin,0000,0000,0000,,Are they upset about the \Nsix month vacation?
+Dialogue: 0,0:00:29.70,0:00:33.01,Main,Gin,0000,0000,0000,,Seriously, kids need way \Ntoo much attention.
+Dialogue: 0,0:00:33.41,0:00:34.40,Main,Gin,0000,0000,0000,,Hi!
+Dialogue: 0,0:00:34.40,0:00:36.24,Main,Gin,0000,0000,0000,,Long time no see, \NShin-chan, Kagura-chan!
+Dialogue: 0,0:00:36.24,0:00:37.56,Main,Gin,0000,0000,0000,,How's it going?
+Dialogue: 0,0:00:37.56,0:00:40.40,Main,Gin,0000,0000,0000,,Sorry I ran out on you for so long.
+Dialogue: 0,0:00:40.40,0:00:44.56,Main,Gin,0000,0000,0000,,I brought you some Shinsengumi \Nmanju, so cheer up.
+Dialogue: 0,0:00:47.27,0:00:49.43,Main,Shin,0000,0000,0000,,Honestly, what were you doing?
+Dialogue: 0,0:00:49.43,0:00:50.36,Main,Shin,0000,0000,0000,,You're late.
+Dialogue: 0,0:00:50.68,0:00:52.58,Main,Kag,0000,0000,0000,,Get dressed.
+Dialogue: 0,0:00:52.58,0:00:53.78,Main,Kag,0000,0000,0000,,We have a visitor.
+Dialogue: 0,0:00:53.78,0:00:55.61,Main,,0000,0000,0000,,Oh, yeah, sorry.
+Dialogue: 0,0:00:54.29,0:00:55.61,Main,Shin,0000,0000,0000,,Hurry up!
+Dialogue: 0,0:00:55.61,0:00:56.70,Main,Shin,0000,0000,0000,,Kin-san!
+Dialogue: 0,0:00:55.61,0:00:56.70,Main,Kag,0000,0000,0000,,Kin-chan!
+Dialogue: 0,0:00:57.52,0:00:59.20,Main,Gin,0000,0000,0000,,Kin-san?
+Dialogue: 0,0:00:59.60,0:01:09.63,Caution,,0000,0000,0000,,{\fad(709,1)}Be sure to watch Kintama in a well-lit room \Nand sit some distance from the TV!!
+Dialogue: 0,0:00:59.94,0:01:02.39,Main,Kin,0000,0000,0000,,Oh, sorry about that.
+Dialogue: 0,0:01:02.39,0:01:05.12,Main,Kin,0000,0000,0000,,I've got a splitting headache after \Ndrinking too much last night.
+Dialogue: 0,0:01:06.33,0:01:09.63,Main,Kin,0000,0000,0000,,Sorry about the poor reception.
+Dialogue: 0,0:01:10.95,0:01:14.63,Main,Kin,0000,0000,0000,,I'm Odd Jobs Sakata Kintoki.
+Dialogue: 0,0:01:15.19,0:01:16.97,Main,Kin,0000,0000,0000,,Please have a seat,
+Dialogue: 0,0:01:18.11,0:01:19.51,Main,Kin,0000,0000,0000,,sir.
+Dialogue: 0,0:02:49.98,0:02:55.98,Ep Title,EpTitle,0000,0000,0000,,{\fad(481,1)}Nobody with Natural Straight \NHair Can Be That Bad
+Dialogue: 0,0:02:56.22,0:02:58.91,Main,Gin,0000,0000,0000,,Sorry, I'm in the wrong place.
+Dialogue: 0,0:03:01.51,0:03:03.13,Main,Gin,0000,0000,0000,,What the hell?
+Dialogue: 0,0:03:03.13,0:03:07.44,Main,Gin,0000,0000,0000,,I'm so drunk, I ended up in a different \Nanime and pulled a Breakfast Attack.
+Dialogue: 0,0:03:07.44,0:03:08.68,Main,Gin,0000,0000,0000,,Yeah, that was a shock.
+Dialogue: 0,0:03:08.68,0:03:12.56,Main,Gin,0000,0000,0000,,I didn't hear about this \Nshow being on TV Tokyo.
+Dialogue: 0,0:03:12.56,0:03:15.79,Main,Gin,0000,0000,0000,,It looks like a ratings bomb \Nto me, so I'd be worried.
+Dialogue: 0,0:03:15.79,0:03:18.78,Main,Gin,0000,0000,0000,,The last time I saw a \Nfirst episode this bad,
+Dialogue: 0,0:03:18.78,0:03:21.76,Main,Gin,0000,0000,0000,,Gintama was switched to a different \Ntime slot six months later.
+Dialogue: 0,0:03:21.76,0:03:24.00,Main,Gin,0000,0000,0000,,Maybe I should have \Ngiven them some advice.
+Dialogue: 0,0:03:24.00,0:03:26.89,Main,Gin,0000,0000,0000,,Like, to add a special \Nattack or something.
+Dialogue: 0,0:03:27.46,0:03:30.45,Main,Gin,0000,0000,0000,,And {\i1}Kintama{\i0} is such a crass title.
+Dialogue: 0,0:03:30.45,0:03:33.60,Main,Gin,0000,0000,0000,,Why not something flashy \Nlike {\i1}Kin no Exorcist{\i0}?
+Dialogue: 0,0:03:33.60,0:03:35.96,Main,Gin,0000,0000,0000,,They'll need to give that boring \Nfour-eyes a bunch of moles
+Dialogue: 0,0:03:35.96,0:03:37.66,Main,,0000,0000,0000,,and turn him into the \Nmain character's little brother
+Dialogue: 0,0:03:37.66,0:03:39.90,Main,,0000,0000,0000,,if they want the manga \Nto sell a million copies.
+Dialogue: 0,0:03:40.15,0:03:41.91,Main,Gin,0000,0000,0000,,{\an8}And if they're going with \Na heroine that's a kid,
+Dialogue: 0,0:03:40.88,0:03:44.85,Song,Song,0000,0000,0000,,Sada-Sada Haru-Haru\NGobbles everyone down
+Dialogue: 0,0:03:41.91,0:03:44.23,Main,Gin,0000,0000,0000,,{\an8}they should make her small \Nenough to be a mascot,
+Dialogue: 0,0:03:44.23,0:03:47.21,Main,Gin,0000,0000,0000,,{\an8}then make her dance with that dog.
+Dialogue: 0,0:03:44.89,0:03:50.35,Song,Song,0000,0000,0000,,Tears everyone up\NTomorrow will be another bloody day
+Dialogue: 0,0:03:50.51,0:03:52.61,Main,Gin,0000,0000,0000,,The nail in the coffin would \Nbe the main character.
+Dialogue: 0,0:03:52.61,0:03:54.82,Main,Gin,0000,0000,0000,,He's too polished.
+Dialogue: 0,0:03:54.82,0:03:56.92,Main,Gin,0000,0000,0000,,Nobody's gonna remember a \Nguy with straight hair.
+Dialogue: 0,0:03:56.92,0:03:59.30,Main,Gin,0000,0000,0000,,The main character needs wavy hair.
+Dialogue: 0,0:03:59.32,0:04:09.01,Odd Jobs,Caption,0000,0000,0000,,Odd Jobs Kin-chan
+Dialogue: 0,0:03:59.32,0:04:09.01,Snack,Caption,0000,0000,0000,,Snack Otose
+Dialogue: 0,0:04:00.05,0:04:02.96,Main,Gin,0000,0000,0000,,Anyway, their faces looked \Nawfully familiar,
+Dialogue: 0,0:04:02.96,0:04:04.93,Main,Gin,0000,0000,0000,,despite being a new show...
+Dialogue: 0,0:04:04.93,0:04:06.11,Main,Gin,0000,0000,0000,,Whatever.
+Dialogue: 0,0:04:06.11,0:04:07.61,Main,Gin,0000,0000,0000,,Time to go home.
+Dialogue: 0,0:04:09.59,0:04:10.59,Main,Gin,0000,0000,0000,,{\i1}Where is home?{\i0}
+Dialogue: 0,0:04:11.02,0:04:13.64,Main,Gin,0000,0000,0000,,{\i1}Wait, it's not my hangover.{\i0}
+Dialogue: 0,0:04:11.04,0:04:16.94,Odd Jobs 2,Caption,0000,0000,0000,,Odd Jobs Kin-chan
+Dialogue: 0,0:04:13.64,0:04:16.94,Main,Gin,0000,0000,0000,,{\i1}The sign's changed, but \Nthat's clearly my home!{\i0}
+Dialogue: 0,0:04:17.35,0:04:20.94,Main,Gin,0000,0000,0000,,{\i1}This isn't {\i0}Ao no Exorcist{\i1} \Nor {\i0}Aka no Exorcist{\i1}.{\i0}
+Dialogue: 0,0:04:21.24,0:04:23.62,Main,Gin,0000,0000,0000,,{\i1}It's {\i0}Dumb and Dumbercist{\i1}!{\i0}
+Dialogue: 0,0:04:23.62,0:04:26.20,Main,Gin,0000,0000,0000,,{\i1}That was clearly Shinpachi and Kagura!{\i0}
+Dialogue: 0,0:04:26.20,0:04:28.90,Main,Gin,0000,0000,0000,,{\i1}The title changed from Gin to Kin.{\i0}
+Dialogue: 0,0:04:26.22,0:04:27.89,Gin,Caption,0000,0000,0000,,Gintama
+Dialogue: 0,0:04:27.89,0:04:32.39,Kin,Caption,0000,0000,0000,,Kintama
+Dialogue: 0,0:04:28.90,0:04:30.26,Main,Gin,0000,0000,0000,,{\i1}Gold is more valuable than silver,{\i0}
+Dialogue: 0,0:04:30.26,0:04:32.38,Main,,0000,0000,0000,,{\i1}but the title's gone down the gutter.{\i0}
+Dialogue: 0,0:04:32.38,0:04:35.73,Main,Gin,0000,0000,0000,,{\i1}But everything else about this show{\i0}
+Dialogue: 0,0:04:35.73,0:04:38.25,Main,Gin,0000,0000,0000,,{\i1}is clearly {\i0}Gintama{\i1}!
+Dialogue: 0,0:04:38.25,0:04:39.38,Main,Gin,0000,0000,0000,,{\i1}So, so...{\i0}
+Dialogue: 0,0:04:39.38,0:04:41.88,Main,Gin,0000,0000,0000,,{\i1}Who is this guy, this man \Nwith blond straight hair?{\i0}
+Dialogue: 0,0:04:41.88,0:04:43.84,Main,Gin,0000,0000,0000,,{\i1}Who is Sakata Kintoki?!{\i0}
+Dialogue: 0,0:04:44.26,0:04:47.51,Main,Gin,0000,0000,0000,,{\i1}I wasn't gone that long.{\i0}
+Dialogue: 0,0:04:48.24,0:04:48.96,Main,Gin,0000,0000,0000,,{\i1}What?{\i0}
+Dialogue: 0,0:04:48.96,0:04:49.58,Main,Gin,0000,0000,0000,,{\i1}How?{\i0}
+Dialogue: 0,0:04:49.58,0:04:50.67,Main,Gin,0000,0000,0000,,{\i1}Why?{\i0}
+Dialogue: 0,0:04:51.88,0:04:55.22,Main,Shin,0000,0000,0000,,So who was that guy anyway?
+Dialogue: 0,0:04:55.22,0:04:58.02,Main,Kagura,0000,0000,0000,,He kind of reminded me of Kin-chan.
+Dialogue: 0,0:04:58.54,0:05:02.78,Main,Kin,0000,0000,0000,,Really? My head isn't that screwy.
+Dialogue: 0,0:05:02.78,0:05:03.90,Main,Shin,0000,0000,0000,,That's right.
+Dialogue: 0,0:05:04.19,0:05:08.80,Main,Shin,0000,0000,0000,,You were born with straight hair \Nand a straight personality.
+Dialogue: 0,0:05:10.53,0:05:16.92,Main,Shin,0000,0000,0000,,{\i1}Why was the main character's throne \Nchanged from silver to gold?!{\i0}
+Dialogue: 0,0:05:19.18,0:05:22.42,Main,Shin,0000,0000,0000,,Oh, so you have a job for us?
+Dialogue: 0,0:05:23.17,0:05:24.97,Main,Shin,0000,0000,0000,,You just turned around \Nand left earlier.
+Dialogue: 0,0:05:24.97,0:05:27.70,Main,Shin,0000,0000,0000,,Is it something difficult \Nto talk about?
+Dialogue: 0,0:05:27.70,0:05:29.50,Main,Kag,0000,0000,0000,,Just let it all out!
+Dialogue: 0,0:05:29.50,0:05:33.43,Main,Kag,0000,0000,0000,,Odd Jobs is here to help people!
+Dialogue: 0,0:05:33.84,0:05:36.56,Main,Gin,0000,0000,0000,,Oh, really...
+Dialogue: 0,0:05:36.56,0:05:39.69,Main,Gin,0000,0000,0000,,Then I'll talk.
+Dialogue: 0,0:05:40.18,0:05:43.02,Main,Gin,0000,0000,0000,,The thing is, you see,
+Dialogue: 0,0:05:43.73,0:05:47.70,Main,,0000,0000,0000,,I left the house for a while, and when \NI came back, something was wrong.
+Dialogue: 0,0:05:48.41,0:05:50.54,Main,Gin,0000,0000,0000,,The entire anime was wrong.
+Dialogue: 0,0:05:50.54,0:05:52.70,Main,Gin,0000,0000,0000,,I've lost my place.
+Dialogue: 0,0:05:52.70,0:05:54.25,Main,Shin,0000,0000,0000,,Ah, I see.
+Dialogue: 0,0:05:54.25,0:05:56.21,Main,Kag,0000,0000,0000,,Like returning from a business trip
+Dialogue: 0,0:05:56.21,0:05:58.21,Main,,0000,0000,0000,,to find your wife with another man?
+Dialogue: 0,0:05:58.21,0:05:59.74,Main,Gin,0000,0000,0000,,Yeah, yeah...
+Dialogue: 0,0:05:59.74,0:06:02.26,Main,Gin,0000,0000,0000,,A strange man was wearing my bathrobe,
+Dialogue: 0,0:06:02.26,0:06:05.43,Main,,0000,0000,0000,,digging through my fridge, \Nand eating my pudding.
+Dialogue: 0,0:06:05.43,0:06:07.04,Main,Kag,0000,0000,0000,,That would make me mad!
+Dialogue: 0,0:06:07.04,0:06:09.09,Main,Gin,0000,0000,0000,,Right? Don't you want to kill him?
+Dialogue: 0,0:06:09.09,0:06:13.36,Main,Gin,0000,0000,0000,,{\i1}I'll **** the ***** **** \N*** ** **** *****!{\i0}
+Dialogue: 0,0:06:13.36,0:06:17.32,Main,Gin,0000,0000,0000,,{\i1}I'm gone a few months and *** \N****** ** * **** into my house!{\i0}
+Dialogue: 0,0:06:17.32,0:06:18.73,Main,Gin,0000,0000,0000,,{\i1}What the hell is his deal?!{\i0}
+Dialogue: 0,0:06:19.09,0:06:21.06,Main,Shin,0000,0000,0000,,Anyway, there's some \Npaperwork to be done,
+Dialogue: 0,0:06:21.06,0:06:22.99,Main,,0000,0000,0000,,so please give us your name.
+Dialogue: 0,0:06:22.99,0:06:24.72,Main,Gin,0000,0000,0000,,Sakata Gintoki.
+Dialogue: 0,0:06:24.72,0:06:27.49,Main,Kag,0000,0000,0000,,Wow, even your name is like Kin-chan's.
+Dialogue: 0,0:06:27.49,0:06:29.99,Main,Kag,0000,0000,0000,,Are you long lost brothers?
+Dialogue: 0,0:06:30.36,0:06:33.74,Main,Gin,0000,0000,0000,,{\i1}They've completely forgotten \Nabout the main character?!{\i0}
+Dialogue: 0,0:06:33.74,0:06:35.46,Main,Oto,0000,0000,0000,,Stop it, now.
+Dialogue: 0,0:06:35.46,0:06:39.31,Main,,0000,0000,0000,,He wouldn't want this \Nloser as a brother.
+Dialogue: 0,0:06:39.31,0:06:41.25,Main,Kin,0000,0000,0000,,Hey, that's cold, Gran.
+Dialogue: 0,0:06:41.72,0:06:43.00,Main,Gin,0000,0000,0000,,{\i1}Gran, too!{\i0}
+Dialogue: 0,0:06:43.00,0:06:47.19,Main,Cath,0000,0000,0000,,Absolutely, gold is \Nmuch better than silver.
+Dialogue: 0,0:06:47.19,0:06:49.01,Main,Kin,0000,0000,0000,,You're joining in, Catherine?
+Dialogue: 0,0:06:49.01,0:06:50.51,Main,Gin,0000,0000,0000,,{\i1}And Catherine!{\i0}
+Dialogue: 0,0:06:50.77,0:06:55.02,Main,Gin,0000,0000,0000,,{\i1}It didn't take them long to \Nswitch from silver to gold!{\i0}
+Dialogue: 0,0:06:56.02,0:06:57.57,Main,Gin,0000,0000,0000,,{\i1}What's going on?!{\i0}
+Dialogue: 0,0:06:57.57,0:07:01.27,Main,Gin,0000,0000,0000,,{\i1}Did they pawn off five years \Nof memories with Gin-san?!{\i0}
+Dialogue: 0,0:07:01.54,0:07:05.27,Main,Gin,0000,0000,0000,,{\i1}How did you erase all the \Ntime spent with Gin-san?!{\i0}
+Dialogue: 0,0:07:05.27,0:07:07.15,Main,Gin,0000,0000,0000,,{\i1}And worst of all...{\i0}
+Dialogue: 0,0:07:07.54,0:07:10.15,Main,Kin,0000,0000,0000,,Now, now. Have a drink, \NGin-san or whatever.
+Dialogue: 0,0:07:10.15,0:07:12.28,Main,Kin,0000,0000,0000,,We may not be related by blood,
+Dialogue: 0,0:07:12.28,0:07:15.16,Main,Kin,0000,0000,0000,,but men can form bonds by \Nhaving a drink together.
+Dialogue: 0,0:07:15.56,0:07:17.70,Main,Kin,0000,0000,0000,,If you're having problems, let me know,
+Dialogue: 0,0:07:17.70,0:07:18.97,Main,Kin,0000,0000,0000,,brother!
+Dialogue: 0,0:07:18.97,0:07:22.17,Main,Gin,0000,0000,0000,,{\i1}...he's a much better main \Ncharacter than Gin-san!{\i0}
+Dialogue: 0,0:07:22.17,0:07:24.80,Main,Kag,0000,0000,0000,,Super, Kin-chan! That's \Nwhy I love you!
+Dialogue: 0,0:07:24.80,0:07:26.32,Main,Shin,0000,0000,0000,,Way to be a man, Kin-san!
+Dialogue: 0,0:07:26.32,0:07:29.05,Main,Gin,0000,0000,0000,,{\i1}And he's much better \Nliked than Gin-san!{\i0}
+Dialogue: 0,0:07:27.47,0:07:29.05,Main,Kin,0000,0000,0000,,Well, let's get going.
+Dialogue: 0,0:07:29.05,0:07:31.47,Main,Oto,0000,0000,0000,,Honestly, he's too nice.
+Dialogue: 0,0:07:31.47,0:07:32.68,Main,,0000,0000,0000,,Don't do anything stupid.
+Dialogue: 0,0:07:32.68,0:07:35.68,Main,Kin,0000,0000,0000,,Yeah, I'll leave this here to be safe.
+Dialogue: 0,0:07:36.07,0:07:37.50,Main,Kin,0000,0000,0000,,That'll cover this month's rent.
+Dialogue: 0,0:07:37.50,0:07:41.69,Main,Oto,0000,0000,0000,,Hold on. I don't charge \Nthis much for rent.
+Dialogue: 0,0:07:42.18,0:07:45.86,Main,Kin,0000,0000,0000,,Please, you must be getting old.
+Dialogue: 0,0:07:45.86,0:07:48.63,Main,Kin,0000,0000,0000,,In that case, you might as \Nwell forget about your job
+Dialogue: 0,0:07:48.63,0:07:50.90,Main,,0000,0000,0000,,and go visit a hot spring.
+Dialogue: 0,0:07:54.16,0:07:56.49,Main,Oto,0000,0000,0000,,Come back in one piece!
+Dialogue: 0,0:07:56.49,0:07:59.54,Main,Gin,0000,0000,0000,,{\i1}And he certainly has enough \Nmoney to be golden!{\i0}
+Dialogue: 0,0:08:00.89,0:08:04.53,Main,Gin,0000,0000,0000,,{\i1}My eyes! This guy is blinding me!{\i0}
+Dialogue: 0,0:08:04.53,0:08:08.83,Main,Gin,0000,0000,0000,,{\i1}So my dull silver luster was \Ndevoured by his golden shine?!{\i0}
+Dialogue: 0,0:08:08.83,0:08:10.83,Main,Gin,0000,0000,0000,,{\i1}That's why everyone forgot about{\i0}
+Dialogue: 0,0:08:10.83,0:08:13.34,Main,,0000,0000,0000,,{\i1}Gin-san and switched to Kin-san?!{\i0}
+Dialogue: 0,0:08:13.34,0:08:14.80,Main,Gin,0000,0000,0000,,{\i1}Seriously?! Are you serious?!{\i0}
+Dialogue: 0,0:08:14.80,0:08:18.31,Main,Gin,0000,0000,0000,,{\an8}Gin-san's given you over \Nsixty volumes of DVDs!
+Dialogue: 0,0:08:15.01,0:08:16.34,Year1,Caption,0000,0000,0000,,{\fad(568,1)}Year 1
+Dialogue: 0,0:08:16.34,0:08:16.85,Year1,Caption,0000,0000,0000,,Year 2    Year 1
+Dialogue: 0,0:08:16.85,0:08:17.35,Year1,Caption,0000,0000,0000,,Year 3    Year 2    Year 1
+Dialogue: 0,0:08:17.35,0:08:17.85,Year1,Caption,0000,0000,0000,,Year 4    Year 3    Year 2    Year 1
+Dialogue: 0,0:08:17.85,0:08:23.79,Year1,Caption,0000,0000,0000,,Year 5    Year 4    Year 3    Year 2    Year 1
+Dialogue: 0,0:08:18.31,0:08:19.74,Main,Gin,0000,0000,0000,,{\an8}If you line up sixty volumes of DVDs,
+Dialogue: 0,0:08:19.74,0:08:21.22,Main,,0000,0000,0000,,{\an8}that's enough room
+Dialogue: 0,0:08:21.22,0:08:22.54,Main,,0000,0000,0000,,{\an8}for Tamo-san to take a nap!
+Dialogue: 0,0:08:22.54,0:08:23.98,Main,Gin,0000,0000,0000,,{\an8}Sleep your heart out!
+Dialogue: 0,0:08:24.00,0:08:26.17,YanJan,Gin,0000,0000,0000,,Young Jump
+Dialogue: 0,0:08:24.45,0:08:26.21,Main,Gin,0000,0000,0000,,Meanwhile, that guy's \Nonly been on a single DVD
+Dialogue: 0,0:08:26.17,0:08:32.36,KinDVD,,0000,0000,0000,,Kintama \N{\fs20}Bonus DVD
+Dialogue: 0,0:08:26.21,0:08:27.93,Main,,0000,0000,0000,,that came with a volume of manga!
+Dialogue: 0,0:08:27.93,0:08:30.47,Main,Gin,0000,0000,0000,,You can't even fit Tamo-san's \Nsunglasses on that!
+Dialogue: 0,0:08:30.47,0:08:32.36,Main,Gin,0000,0000,0000,,He's still wet behind the ears!
+Dialogue: 0,0:08:32.87,0:08:35.36,Main,Gin,0000,0000,0000,,{\i1}Yet, look at the love he's getting.{\i0}
+Dialogue: 0,0:08:36.08,0:08:39.83,Main,Gin,0000,0000,0000,,{\i1}In half a year, while I was gone,{\i0}
+Dialogue: 0,0:08:39.83,0:08:43.37,Main,Gin,0000,0000,0000,,{\i1}he's repainted this city, \Nthis anime, from silver to gold?!{\i0}
+Dialogue: 0,0:08:43.64,0:08:47.24,Main,Kin,0000,0000,0000,,So, Bro, about your request...
+Dialogue: 0,0:08:47.63,0:08:49.55,Main,Kin,0000,0000,0000,,Do you want to punish your wife,
+Dialogue: 0,0:08:49.55,0:08:52.40,Main,Kin,0000,0000,0000,,or do you want payback \Non the other man?
+Dialogue: 0,0:08:52.40,0:08:53.13,Main,Kin,0000,0000,0000,,Which would you prefer?
+Dialogue: 0,0:08:54.01,0:08:55.43,Main,Gin,0000,0000,0000,,Neither.
+Dialogue: 0,0:08:55.43,0:08:56.35,Main,Kin,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:56.35,0:08:57.89,Main,Kin,0000,0000,0000,,What do you want to do then?
+Dialogue: 0,0:08:58.26,0:08:59.81,Main,Gin,0000,0000,0000,,{\i1}Forget about gold and silver!{\i0}
+Dialogue: 0,0:08:59.81,0:09:03.34,Main,Gin,0000,0000,0000,,{\i1}I'm going to paint this town red!{\i0}
+Dialogue: 0,0:09:03.34,0:09:07.90,Main,Gin,0000,0000,0000,,Could you help me carry these DVDs?
+Dialogue: 0,0:09:09.63,0:09:10.79,Main,Gin,0000,0000,0000,,Oh, sorry!
+Dialogue: 0,0:09:10.79,0:09:13.53,Main,Gin,0000,0000,0000,,The sixty volumes are so heavy \Nthat my hands slipped!
+Dialogue: 0,0:09:13.53,0:09:15.28,Main,Gin,0000,0000,0000,,{\i1}You're going to die from the impact{\i0}
+Dialogue: 0,0:09:15.28,0:09:16.66,Main,,0000,0000,0000,,{\i1}of sixty volumes of DVDs to your skull!{\i0}
+Dialogue: 0,0:09:16.66,0:09:17.99,Main,Kag,0000,0000,0000,,Kin-chan!
+Dialogue: 0,0:09:17.99,0:09:20.16,Main,Shin,0000,0000,0000,,Hey! What are you doing?!
+Dialogue: 0,0:09:20.16,0:09:22.73,Main,Gin,0000,0000,0000,,{\i1}Kochikame{\i0} VHS tape collection slam!
+Dialogue: 0,0:09:22.48,0:09:23.66,Main,Shin,0000,0000,0000,,{\an8}Stop it!
+Dialogue: 0,0:09:22.58,0:09:26.79,Main,Gin,0000,0000,0000,,{\i1}If I let him survive, it'll be big trouble!{\i0}
+Dialogue: 0,0:09:22.73,0:09:24.66,Main,Gin,0000,0000,0000,,Complete {\i1}One Piece{\i0} DVD collection slam!
+Dialogue: 0,0:09:23.66,0:09:24.58,Main,Shin,0000,0000,0000,,{\an8}Stop!
+Dialogue: 0,0:09:24.58,0:09:25.87,Main,Shi,0000,0000,0000,,{\an8}Hey, stop it!
+Dialogue: 0,0:09:24.66,0:09:25.58,Main,Gin,0000,0000,0000,,{\i1}Naruto{\i0} slam!
+Dialogue: 0,0:09:25.58,0:09:27.15,Main,Gin,0000,0000,0000,,{\i1}Bleach{\i0} slam!
+Dialogue: 0,0:09:28.27,0:09:30.67,Main,Shin,0000,0000,0000,,Didn't you hear me tell you to stop?!
+Dialogue: 0,0:09:33.07,0:09:35.35,Main,Shin,0000,0000,0000,,What do you think you're \Ndoing to our Kin-san?!
+Dialogue: 0,0:09:33.07,0:09:37.72,Main,,0000,0000,0000,,{\an8}Kin-chan! Kin-chan, get up!
+Dialogue: 0,0:09:35.35,0:09:36.93,Main,Shin,0000,0000,0000,,You're despicable!
+Dialogue: 0,0:09:36.93,0:09:41.02,Main,Shin,0000,0000,0000,,Kin-san was trying to help \Nyou, a total stranger!
+Dialogue: 0,0:09:39.32,0:09:41.02,Main,Kag,0000,0000,0000,,{\an8}Kin-chan!
+Dialogue: 0,0:09:41.02,0:09:42.35,Main,Shin,0000,0000,0000,,How could you do this to him?!
+Dialogue: 0,0:09:42.35,0:09:44.69,Main,Gin,0000,0000,0000,,Hold on, Pachi-boy.
+Dialogue: 0,0:09:44.69,0:09:46.64,Main,Gin,0000,0000,0000,,I'm not a total stranger.
+Dialogue: 0,0:09:47.07,0:09:48.93,Main,Shin,0000,0000,0000,,Don't call me Pachi-boy!
+Dialogue: 0,0:09:48.93,0:09:50.27,Main,Shin,0000,0000,0000,,How do you have the nerve?
+Dialogue: 0,0:09:50.75,0:09:53.00,Main,Gin,0000,0000,0000,,Tell me you're lying, Kagura!
+Dialogue: 0,0:09:53.00,0:09:54.84,Main,Gin,0000,0000,0000,,This is all an act, right?
+Dialogue: 0,0:09:54.84,0:09:57.08,Main,Gin,0000,0000,0000,,You're trying to trick me again.
+Dialogue: 0,0:09:57.08,0:09:58.28,Main,Kag,0000,0000,0000,,Get lost.
+Dialogue: 0,0:09:58.97,0:10:01.37,Main,Kag,0000,0000,0000,,Never show your face \Nin this town again.
+Dialogue: 0,0:10:01.37,0:10:04.54,Main,Kag,0000,0000,0000,,If you come near Kin-chan \Nagain, you'll get it.
+Dialogue: 0,0:10:05.04,0:10:07.50,Main,Gin,0000,0000,0000,,W-Wait, Shinpachi! Kagura!
+Dialogue: 0,0:10:07.50,0:10:11.03,Main,Gin,0000,0000,0000,,Who is this Kin-san you \Nkeep talking about?!
+Dialogue: 0,0:10:11.03,0:10:14.47,Main,Gin,0000,0000,0000,,Didn't the three of us work \Ntogether as Odd Jobs?!
+Dialogue: 0,0:10:14.47,0:10:17.51,Main,Gin,0000,0000,0000,,Are you saying the \Nsixty volumes of DVDs
+Dialogue: 0,0:10:17.51,0:10:19.68,Main,,0000,0000,0000,,we spent together meant nothing?!
+Dialogue: 0,0:10:20.61,0:10:22.18,Main,Shin,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:10:22.80,0:10:25.27,Main,Shin,0000,0000,0000,,We spent sixty volumes of DVDs
+Dialogue: 0,0:10:26.18,0:10:27.27,Main,,0000,0000,0000,,with Kin-san!
+Dialogue: 0,0:10:36.82,0:10:38.75,Main,Shin,0000,0000,0000,,{\i1}A-A samurai?{\i0}
+Dialogue: 0,0:10:45.09,0:10:47.91,Main,Kin,0000,0000,0000,,{\i1}Enough jabbering.{\i0}
+Dialogue: 0,0:10:47.91,0:10:49.87,Main,Kin,0000,0000,0000,,{\i1}Are you in heat, fool?{\i0}
+Dialogue: 0,0:10:56.95,0:11:00.47,Main,Gin,0000,0000,0000,,{\i1}Every episode's been edited!{\i0}
+Dialogue: 0,0:11:01.25,0:11:02.64,Main,Gin,0000,0000,0000,,{\i1}I-Impossible!{\i0}
+Dialogue: 0,0:11:02.64,0:11:05.51,Main,Gin,0000,0000,0000,,{\i1}This is... This is...{\i0}
+Dialogue: 0,0:11:06.56,0:11:09.83,Main,Gin,0000,0000,0000,,{\i1}Wh-Who would have done \Nan edit job worse{\i0}
+Dialogue: 0,0:11:09.83,0:11:11.35,Main,,0000,0000,0000,,{\i1}than {\i0}To Love-Ru Doki Doki{\i1}?!{\i0}
+Dialogue: 0,0:11:12.38,0:11:15.98,Main,Kyu,0000,0000,0000,,{\i1}You think you can beat the \Nlightning speed of my sword?!{\i0}
+Dialogue: 0,0:11:15.98,0:11:17.10,Main,Gin,0000,0000,0000,,{\i1}This one, too?!{\i0}
+Dialogue: 0,0:11:17.10,0:11:18.74,Main,Otae,0000,0000,0000,,Is he okay?
+Dialogue: 0,0:11:19.15,0:11:20.77,Main,Otae,0000,0000,0000,,His hair's so wavy.
+Dialogue: 0,0:11:20.77,0:11:22.80,Main,Otae,0000,0000,0000,,Perhaps he needs help?
+Dialogue: 0,0:11:22.80,0:11:24.55,Main,Kyu,0000,0000,0000,,No, you should stay away from him.
+Dialogue: 0,0:11:24.55,0:11:27.07,Main,Kyu,0000,0000,0000,,He might be one of those \Nwavy-haired con artists.
+Dialogue: 0,0:11:27.07,0:11:28.99,Main,Kyu,0000,0000,0000,,Let sleeping waves lie.
+Dialogue: 0,0:11:29.24,0:11:30.96,Main,Otae,0000,0000,0000,,But we can't just ignore him.
+Dialogue: 0,0:11:30.96,0:11:33.68,Main,Otae,0000,0000,0000,,I know. Let's ask Kin-san for help.
+Dialogue: 0,0:11:33.68,0:11:37.23,Main,Kyu,0000,0000,0000,,Yes, Kintoki has helped us many times.
+Dialogue: 0,0:11:37.23,0:11:38.51,Main,Kyu,0000,0000,0000,,He'll know what to do.
+Dialogue: 0,0:11:38.51,0:11:40.87,Main,Gin,0000,0000,0000,,What's going on?
+Dialogue: 0,0:11:40.87,0:11:41.92,Main,Gin,0000,0000,0000,,This DVD is also...
+Dialogue: 0,0:11:41.92,0:11:43.45,Main,Sa,0000,0000,0000,,Guess who?
+Dialogue: 0,0:11:44.35,0:11:45.30,Main,Gin,0000,0000,0000,,Sa-chan!
+Dialogue: 0,0:11:46.00,0:11:49.07,Main,Gin,0000,0000,0000,,Do you recognize me?
+Dialogue: 0,0:11:49.88,0:11:51.64,Main,Sa,0000,0000,0000,,Who are you?!
+Dialogue: 0,0:11:52.25,0:11:55.52,Main,Sa,0000,0000,0000,,That's odd. I thought he was Kin-san.
+Dialogue: 0,0:11:56.40,0:11:58.25,Main,Gin,0000,0000,0000,,So this DVD is also...
+Dialogue: 0,0:11:58.71,0:11:59.75,Main,Tsu,0000,0000,0000,,What do you think?
+Dialogue: 0,0:11:59.75,0:12:02.37,Main,,0000,0000,0000,,This is the Kabuki district, where \NKintoki and his friends live.
+Dialogue: 0,0:12:02.37,0:12:05.15,Main,Hino,0000,0000,0000,,Oh, it reminds me of Yoshiwara.
+Dialogue: 0,0:12:05.15,0:12:06.31,Main,Sei,0000,0000,0000,,Right?
+Dialogue: 0,0:12:06.31,0:12:08.54,Main,,0000,0000,0000,,There's strands of torn-out \Nhair everywhere.
+Dialogue: 0,0:12:08.54,0:12:09.54,Main,Gin,0000,0000,0000,,And this one!
+Dialogue: 0,0:12:10.41,0:12:12.21,Main,Zura,0000,0000,0000,,Hurry, Elizabeth!
+Dialogue: 0,0:12:10.52,0:12:16.00,ESign,Caption,0000,0000,0000,,Win the Costume \NGrand Prix!!
+Dialogue: 0,0:12:12.21,0:12:13.94,Main,Zura,0000,0000,0000,,We've spent six months perfecting
+Dialogue: 0,0:12:13.94,0:12:16.00,Main,,0000,0000,0000,,our techniques to use against Kin-chan!
+Dialogue: 0,0:12:16.00,0:12:17.95,Main,Zura,0000,0000,0000,,Why would you do that?
+Dialogue: 0,0:12:17.95,0:12:19.51,Main,Zura,0000,0000,0000,,Cut me some slack!
+Dialogue: 0,0:12:19.51,0:12:20.62,Main,Zura,0000,0000,0000,,Okay, you pass!
+Dialogue: 0,0:12:20.62,0:12:24.04,Main,Gin,0000,0000,0000,,{\i1}I-I haven't just been forgotten.{\i0}
+Dialogue: 0,0:12:24.54,0:12:29.04,Main,Gin,0000,0000,0000,,{\i1}My existence has been wiped \Nclean from this town,{\i0}
+Dialogue: 0,0:12:29.04,0:12:30.52,Main,,0000,0000,0000,,{\i1}from the sixty volumes of DVDs...{\i0}
+Dialogue: 0,0:12:31.11,0:12:36.02,Main,Gin,0000,0000,0000,,{\i1}Sakata Gintoki's accomplishments \Nand history{\i0}
+Dialogue: 0,0:12:36.80,0:12:41.03,Main,Gin,0000,0000,0000,,{\i1}have been stolen by Sakata Kintoki!{\i0}
+Dialogue: 0,0:12:49.20,0:12:53.29,Main,Gin,0000,0000,0000,,Pops, give me another one \Nso I can forget everything.
+Dialogue: 0,0:12:54.58,0:12:57.00,Main,Pop,0000,0000,0000,,Honestly, you should \Nstop for the night.
+Dialogue: 0,0:12:57.35,0:12:59.68,Main,Gin,0000,0000,0000,,If it's money you're \Nworried about, don't.
+Dialogue: 0,0:12:59.68,0:13:03.21,Main,Gin,0000,0000,0000,,You'll forget I was \Never here soon enough.
+Dialogue: 0,0:13:03.21,0:13:04.78,Main,Pop,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:13:06.32,0:13:07.72,Main,Kin,0000,0000,0000,,Give me a hot one, Pops.
+Dialogue: 0,0:13:07.72,0:13:09.22,Main,Kin,0000,0000,0000,,One for this guy, too.
+Dialogue: 0,0:13:09.22,0:13:11.10,Main,Kin,0000,0000,0000,,Oh, sir. Thank you.
+Dialogue: 0,0:13:11.10,0:13:13.78,Main,Kin,0000,0000,0000,,There are times when men have no choice
+Dialogue: 0,0:13:13.78,0:13:15.37,Main,,0000,0000,0000,,but to drink.
+Dialogue: 0,0:13:15.37,0:13:16.60,Main,Kin,0000,0000,0000,,Right, Bro?
+Dialogue: 0,0:13:17.07,0:13:18.50,Main,Kin,0000,0000,0000,,What happened?
+Dialogue: 0,0:13:18.50,0:13:20.03,Main,Gin,0000,0000,0000,,Nothing.
+Dialogue: 0,0:13:20.92,0:13:23.99,Main,Gin,0000,0000,0000,,I have nothing left.
+Dialogue: 0,0:13:24.83,0:13:26.61,Main,Gin,0000,0000,0000,,Nothing at all...
+Dialogue: 0,0:13:26.89,0:13:28.80,Main,Kin,0000,0000,0000,,Did you lose at the tracks?
+Dialogue: 0,0:13:28.80,0:13:30.87,Main,Gin,0000,0000,0000,,Yeah, something like that.
+Dialogue: 0,0:13:31.08,0:13:35.33,Main,Gin,0000,0000,0000,,I gambled my life and lost \Nit all in a single night.
+Dialogue: 0,0:13:35.33,0:13:41.85,Main,Kin,0000,0000,0000,,A golden horse stole victory \Nat the very last second?
+Dialogue: 0,0:13:44.03,0:13:45.17,Main,Gin,0000,0000,0000,,B-Bastard!
+Dialogue: 0,0:13:46.33,0:13:48.13,Main,Kin,0000,0000,0000,,Calm down, Bro.
+Dialogue: 0,0:13:48.68,0:13:51.99,Main,Kin,0000,0000,0000,,I bought you a drink \Nas a peace offering.
+Dialogue: 0,0:13:51.99,0:13:53.18,Main,Kin,0000,0000,0000,,Sit down and join me.
+Dialogue: 0,0:13:53.18,0:13:55.26,Main,Gin,0000,0000,0000,,Don't mess with me!
+Dialogue: 0,0:13:58.01,0:14:00.65,Main,Kin,0000,0000,0000,,I told you to drink.
+Dialogue: 0,0:14:00.65,0:14:02.86,Main,Gin,0000,0000,0000,,{\i1}B-Bastard!{\i0}
+Dialogue: 0,0:14:04.12,0:14:07.31,Main,Gin,0000,0000,0000,,Who the hell are you?!
+Dialogue: 0,0:14:09.23,0:14:11.38,Main,Gin,0000,0000,0000,,What did you do to Shinpachi \Nand everyone else?!
+Dialogue: 0,0:14:11.38,0:14:13.10,Main,Kin,0000,0000,0000,,I didn't do a thing.
+Dialogue: 0,0:14:13.53,0:14:15.55,Main,Kin,0000,0000,0000,,Didn't you watch the DVDs?
+Dialogue: 0,0:14:15.55,0:14:17.25,Main,Kin,0000,0000,0000,,They should have been self-explanatory.
+Dialogue: 0,0:14:17.25,0:14:20.30,Main,Gin,0000,0000,0000,,Bullshit! I was the one \Nwho did everything!
+Dialogue: 0,0:14:20.30,0:14:23.30,Main,Kin,0000,0000,0000,,But how can you prove it?
+Dialogue: 0,0:14:23.30,0:14:25.99,Main,Kin,0000,0000,0000,,You're the only one who believes that.
+Dialogue: 0,0:14:25.99,0:14:29.26,Main,Kin,0000,0000,0000,,Nobody can even remember you.
+Dialogue: 0,0:14:29.66,0:14:31.32,Main,Kin,0000,0000,0000,,I can guess what you're thinking.
+Dialogue: 0,0:14:32.53,0:14:36.51,Main,Kin,0000,0000,0000,,That I'm using illusions \Nto trick everyone.
+Dialogue: 0,0:14:36.51,0:14:38.27,Main,Kin,0000,0000,0000,,But there's another way to look at it.
+Dialogue: 0,0:14:38.77,0:14:41.45,Main,Kin,0000,0000,0000,,You're the one who's gone crazy.
+Dialogue: 0,0:14:41.45,0:14:45.53,Main,Kin,0000,0000,0000,,Your memories are all delusions.
+Dialogue: 0,0:14:46.79,0:14:49.61,Main,Kin,0000,0000,0000,,As you watched my success,
+Dialogue: 0,0:14:49.61,0:14:53.06,Main,,0000,0000,0000,,you began to think that you were me.
+Dialogue: 0,0:14:53.06,0:14:56.54,Main,Kin,0000,0000,0000,,Maybe, as you were watching \Nthose sixty DVD volumes,
+Dialogue: 0,0:14:56.54,0:14:59.54,Main,,0000,0000,0000,,you were fantasizing that \Nthey were about you.
+Dialogue: 0,0:15:00.29,0:15:01.37,Main,Gin,0000,0000,0000,,That's impossible!
+Dialogue: 0,0:15:01.37,0:15:03.08,Main,Kin,0000,0000,0000,,But you're the only person in
+Dialogue: 0,0:15:03.08,0:15:05.05,Main,,0000,0000,0000,,this world who thinks that way.
+Dialogue: 0,0:15:05.36,0:15:06.99,Main,Kin,0000,0000,0000,,Don't you get it?
+Dialogue: 0,0:15:06.99,0:15:09.08,Main,Kin,0000,0000,0000,,You're the one who's crazy.
+Dialogue: 0,0:15:09.08,0:15:12.18,Main,Kin,0000,0000,0000,,You're the only one complaining.
+Dialogue: 0,0:15:12.55,0:15:13.71,Main,Kin,0000,0000,0000,,Weren't you watching?
+Dialogue: 0,0:15:13.71,0:15:17.98,Main,Kin,0000,0000,0000,,Life goes on just fine without you.
+Dialogue: 0,0:15:17.98,0:15:21.40,Main,Kin,0000,0000,0000,,I dare say it's going better \Nthan in your fantasy world.
+Dialogue: 0,0:15:22.48,0:15:24.44,Main,Kin,0000,0000,0000,,That's reality.
+Dialogue: 0,0:15:24.92,0:15:27.39,Main,Kin,0000,0000,0000,,Nobody's looking at you.
+Dialogue: 0,0:15:27.39,0:15:30.46,Main,Kin,0000,0000,0000,,Nobody needs you.
+Dialogue: 0,0:15:30.46,0:15:32.42,Main,Kin,0000,0000,0000,,Because I'm here.
+Dialogue: 0,0:15:32.93,0:15:36.22,Main,Kin,0000,0000,0000,,There's no place for you here.
+Dialogue: 0,0:15:39.45,0:15:41.33,Main,A,0000,0000,0000,,Hey, watch where you're going!
+Dialogue: 0,0:15:41.33,0:15:42.88,Main,B,0000,0000,0000,,Hold it right there!
+Dialogue: 0,0:15:42.88,0:15:44.34,Main,A,0000,0000,0000,,I told you to wait!
+Dialogue: 0,0:15:43.47,0:15:46.30,Main,Gin,0000,0000,0000,,{\i1}Yeah, he's right.{\i0}
+Dialogue: 0,0:15:46.49,0:15:48.77,Main,Mid,0000,0000,0000,,Damn drunk!
+Dialogue: 0,0:15:48.77,0:15:51.84,Main,Mid,0000,0000,0000,,Don't show your face \Nin this town again!
+Dialogue: 0,0:15:51.84,0:15:55.85,Main,Gin,0000,0000,0000,,{\i1}I'm the one who isn't \Nneeded in this world.{\i0}
+Dialogue: 0,0:15:55.85,0:16:01.23,Yarase,,0000,0000,0000,,You Will Not Defeat Me!
+Dialogue: 0,0:15:56.55,0:16:01.23,Main,Gin,0000,0000,0000,,{\i1}I'm the one who doesn't belong \Nin a prime time anime.{\i0}
+Dialogue: 0,0:16:01.80,0:16:04.23,Main,A,0000,0000,0000,,Sir, time's up.
+Dialogue: 0,0:16:04.69,0:16:06.31,Main,B,0000,0000,0000,,S-Sir?
+Dialogue: 0,0:16:06.31,0:16:07.23,Main,C,0000,0000,0000,,Wait, look!
+Dialogue: 0,0:16:07.23,0:16:08.98,Main,Mid,0000,0000,0000,,B-Boss!
+Dialogue: 0,0:16:10.59,0:16:11.97,Main,Gin,0000,0000,0000,,{\i1}I'm burned...{\i0}
+Dialogue: 0,0:16:12.99,0:16:14.30,Main,Gin,0000,0000,0000,,{\i1}Completely burned out...{\i0}
+Dialogue: 0,0:16:14.86,0:16:16.67,Main,Gin,0000,0000,0000,,{\i1}Not gold, not silver...{\i0}
+Dialogue: 0,0:16:17.88,0:16:20.59,Main,Gin,0000,0000,0000,,{\i1}I've been reduced to white ash.{\i0}
+Dialogue: 0,0:16:20.62,0:16:23.50,End,Caption,0000,0000,0000,,{\fad(1277,0)}The End
+Dialogue: 0,0:16:23.50,0:16:26.67,Main,A,0000,0000,0000,,Don't try to end the show so \Nyou don't have to pay up!
+Dialogue: 0,0:16:26.67,0:16:29.55,Main,B,0000,0000,0000,,It's not over yet! There's \Nplenty more to come!
+Dialogue: 0,0:16:29.55,0:16:30.44,Main,B,0000,0000,0000,,Stand up!
+Dialogue: 0,0:16:30.44,0:16:32.44,Main,B,0000,0000,0000,,Stand up, bastard!
+Dialogue: 0,0:16:48.62,0:16:50.44,Main,Gin,0000,0000,0000,,Shut up, dog.
+Dialogue: 0,0:16:50.44,0:16:51.52,Main,Gin,0000,0000,0000,,Leave me alone.
+Dialogue: 0,0:16:51.52,0:16:54.25,Main,Gin,0000,0000,0000,,You can ignore a side \Ncharacter like me.
+Dialogue: 0,0:16:57.00,0:16:59.56,Main,Gin,0000,0000,0000,,I told you to go away...
+Dialogue: 0,0:17:05.55,0:17:07.24,Main,Gin,0000,0000,0000,,Sadaharu...
+Dialogue: 0,0:17:15.17,0:17:17.97,Main,Gin,0000,0000,0000,,Sadaharu, do you recognize me?
+Dialogue: 0,0:17:20.55,0:17:21.80,Main,Tama,0000,0000,0000,,I found you.
+Dialogue: 0,0:17:22.22,0:17:27.67,Main,Tama,0000,0000,0000,,The gold hasn't gotten to \None person, one animal,
+Dialogue: 0,0:17:29.35,0:17:30.36,Main,Tama,0000,0000,0000,,and one machine.
+Dialogue: 0,0:17:32.08,0:17:34.74,Main,,0000,0000,0000,,I've been looking for you, Master Gintoki.
+Dialogue: 0,0:17:37.06,0:17:38.75,Main,Gin,0000,0000,0000,,Ta-Tama...
+Dialogue: 0,0:17:38.75,0:17:40.74,Main,Gin,0000,0000,0000,,Why are you...
+Dialogue: 0,0:17:40.74,0:17:42.29,Main,Tama,0000,0000,0000,,Do not worry.
+Dialogue: 0,0:17:42.29,0:17:45.13,Main,Tama,0000,0000,0000,,The rest of the world may \Nhave forgotten about you,
+Dialogue: 0,0:17:45.13,0:17:48.62,Main,,0000,0000,0000,,but you will always \Nremain in my data bank.
+Dialogue: 0,0:17:48.62,0:17:50.75,Main,Tama,0000,0000,0000,,Because I always hold \Nthe reset button when
+Dialogue: 0,0:17:50.75,0:17:52.31,Main,,0000,0000,0000,,I turn off the power and go to sleep.
+Dialogue: 0,0:17:53.48,0:17:55.59,Main,Tama,0000,0000,0000,,I'm sure you do the same thing.
+Dialogue: 0,0:17:58.29,0:17:59.76,Main,Tama,0000,0000,0000,,True,
+Dialogue: 0,0:18:00.39,0:18:03.46,Main,,0000,0000,0000,,your luster may not have \Nbeen as bright as gold...
+Dialogue: 0,0:18:03.46,0:18:07.09,Main,Tama,0000,0000,0000,,You only shined on occasion.
+Dialogue: 0,0:18:08.07,0:18:12.07,Main,Tama,0000,0000,0000,,You were always arguing and fighting.
+Dialogue: 0,0:18:12.52,0:18:15.03,Main,Tama,0000,0000,0000,,You had wavy hair. You were lazy.
+Dialogue: 0,0:18:15.28,0:18:17.12,Main,Tama,0000,0000,0000,,You were the king of sexual harassment.
+Dialogue: 0,0:18:17.12,0:18:19.07,Main,Tama,0000,0000,0000,,You never paid the rent.
+Dialogue: 0,0:18:19.07,0:18:21.08,Main,Tama,0000,0000,0000,,You paid your people late.
+Dialogue: 0,0:18:21.63,0:18:26.54,Main,Tama,0000,0000,0000,,Still, you were brighter than \Nthe fake glint of gold plating.
+Dialogue: 0,0:18:26.79,0:18:29.75,Main,Tama,0000,0000,0000,,When you were angry, your \Nentire soul was enraged.
+Dialogue: 0,0:18:29.75,0:18:32.17,Main,Tama,0000,0000,0000,,When you laughed, you laughed \Nwith all your heart.
+Dialogue: 0,0:18:33.74,0:18:37.48,Main,Tama,0000,0000,0000,,Your silver was much more beautiful.
+Dialogue: 0,0:18:42.15,0:18:45.11,Main,Tama,0000,0000,0000,,You haven't forgotten \Nthat light, have you?
+Dialogue: 0,0:18:45.79,0:18:49.81,Main,Tama,0000,0000,0000,,You haven't allowed that fake \Nlight to trick you, have you?
+Dialogue: 0,0:18:50.52,0:18:55.19,Main,Tama,0000,0000,0000,,In that case, you should stand \Nup and take this sword
+Dialogue: 0,0:18:55.61,0:19:00.20,Main,Tama,0000,0000,0000,,to repaint this world that \Nhas been repainted gold.
+Dialogue: 0,0:19:01.05,0:19:03.95,Main,Tama,0000,0000,0000,,You will never lose to Sakata Kintoki.
+Dialogue: 0,0:19:03.97,0:19:08.52,Poster,Caption,0000,0000,0000,,Kin-chan has your back\NOdd Jobs Kin-chan
+Dialogue: 0,0:19:04.80,0:19:08.16,Main,Tama,0000,0000,0000,,You won't lose to a blond. \NYou won't lose to straight hair.
+Dialogue: 0,0:19:08.16,0:19:09.96,Main,Tama,0000,0000,0000,,You won't lose to gold.
+Dialogue: 0,0:19:09.98,0:19:14.46,Toyadark,Tama,0000,0000,0000,,Lake Toya
+Dialogue: 0,0:19:10.49,0:19:14.46,Main,Tama,0000,0000,0000,,Try to remember what \Ncolor your soul is.
+Dialogue: 0,0:19:19.45,0:19:20.77,Main,Gin,0000,0000,0000,,I haven't forgotten.
+Dialogue: 0,0:19:21.23,0:19:22.65,Main,Gin,0000,0000,0000,,I will never forget.
+Dialogue: 0,0:19:24.06,0:19:27.72,Main,Gin,0000,0000,0000,,My soul has been colored \Nby every one of you fools.
+Dialogue: 0,0:19:31.44,0:19:35.24,Main,Gin,0000,0000,0000,,It's a dirty silver!
+Dialogue: 0,0:19:49.51,0:19:52.87,Main,Gin,0000,0000,0000,,This isn't over yet.
+Dialogue: 0,0:19:54.86,0:19:57.59,Main,Gin,0000,0000,0000,,I'm just getting started.
+Dialogue: 0,0:19:59.34,0:20:05.35,Wall,EpTitle,0000,0000,0000,,Gintama Episode 253\NNobody with Straight Blond Hair \NCan Be That Good
+Dialogue: 0,0:20:05.35,0:20:11.35,Ep Title 2,EpTitle,0000,0000,0000,,{\fad(479,1)}Nobody with Straight Blond Hair \NCan Be That Good
+Dialogue: 0,0:20:12.08,0:20:14.36,Main,Gin,0000,0000,0000,,We're taking back our color.
+Dialogue: 0,0:20:14.92,0:20:17.50,Main,Gin,0000,0000,0000,,We're taking down this world of gold!
+Dialogue: 0,0:20:17.86,0:20:21.38,Wall,,0000,0000,0000,,{\fad(1,1000)}Gintama Episode 253\NNobody with Straight Blond Hair \NCan Be That Good
+Dialogue: 0,0:20:18.67,0:20:20.58,Main,Gin,0000,0000,0000,,Let's go!
+Dialogue: 0,0:20:22.74,0:20:25.24,Odd Jobs 3,Caption,0000,0000,0000,,Odd Jobs Kin-chan
+Dialogue: 0,0:20:25.61,0:20:27.37,Main,Gin,0000,0000,0000,,Uh, excuse me.
+Dialogue: 0,0:20:27.37,0:20:29.20,Main,Gin,0000,0000,0000,,Is Kintoki-kun here?
+Dialogue: 0,0:20:29.20,0:20:32.01,Main,Kin,0000,0000,0000,,Sorry, I'm taking a bath right now.
+Dialogue: 0,0:20:32.01,0:20:33.54,Main,Kin,0000,0000,0000,,Could you wait a bit?
+Dialogue: 0,0:20:33.54,0:20:35.94,Main,Gin,0000,0000,0000,,Oh, it's okay.
+Dialogue: 0,0:20:35.94,0:20:38.45,Main,Gin,0000,0000,0000,,Then I'll leave this letter \Nof challenge here.
+Dialogue: 0,0:20:38.45,0:20:40.76,Main,Gin,0000,0000,0000,,Oh, maybe I should just come back.
+Dialogue: 0,0:20:40.99,0:20:42.32,Main,Tama,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:20:42.32,0:20:44.44,Main,,0000,0000,0000,,Are you here to fool \Naround? Are you an idiot?
+Dialogue: 0,0:20:44.44,0:20:46.50,Main,Gin,0000,0000,0000,,Well, for some reason, it feels awkward
+Dialogue: 0,0:20:46.50,0:20:47.75,Main,,0000,0000,0000,,to step inside my own home,
+Dialogue: 0,0:20:47.75,0:20:50.27,Main,Gin,0000,0000,0000,,but at the same time, I don't \Nwant to wreck my own place.
+Dialogue: 0,0:20:50.27,0:20:51.97,Main,Tama,0000,0000,0000,,Come over here.
+Dialogue: 0,0:20:51.97,0:20:54.44,Main,,0000,0000,0000,,Do you believe we can \Nwin without a plan?
+Dialogue: 0,0:20:57.19,0:20:58.39,Main,Tama,0000,0000,0000,,I'll be blunt.
+Dialogue: 0,0:20:58.39,0:21:01.39,Main,,0000,0000,0000,,The way things stand now, it's \Nimpossible for you to win.
+Dialogue: 0,0:21:01.39,0:21:03.93,Main,Gin,0000,0000,0000,,Didn't you just say I will never lose?
+Dialogue: 0,0:21:03.93,0:21:07.68,Main,Tama,0000,0000,0000,,Straight blond hair, honest, \Nand fairly well-off.
+Dialogue: 0,0:21:07.68,0:21:11.05,Main,Tama,0000,0000,0000,,How could you ever defeat \Nsomeone who has conquered
+Dialogue: 0,0:21:11.05,0:21:13.29,Main,,0000,0000,0000,,every one of your weaknesses?
+Dialogue: 0,0:21:13.29,0:21:14.67,Main,Gin,0000,0000,0000,,Huh? What?
+Dialogue: 0,0:21:14.67,0:21:16.40,Main,Gin,0000,0000,0000,,Are you trying to beat my ass
+Dialogue: 0,0:21:16.40,0:21:18.49,Main,,0000,0000,0000,,or tear my rectum out of my ass?
+Dialogue: 0,0:21:18.49,0:21:19.38,Main,,0000,0000,0000,,Which is it?
+Dialogue: 0,0:21:19.38,0:21:21.60,Main,Tama,0000,0000,0000,,I'm beating your ass with your rectum.
+Dialogue: 0,0:21:21.60,0:21:23.30,Main,Tama,0000,0000,0000,,Start by reading this.
+Dialogue: 0,0:21:23.30,0:21:25.88,Main,Tama,0000,0000,0000,,You must know your enemy \Nbefore you can start a war.
+Dialogue: 0,0:21:27.02,0:21:29.68,Main,Gin,0000,0000,0000,,An instruction manual? \NAre you serious?
+Dialogue: 0,0:21:29.68,0:21:34.69,Manual,Caption,0000,0000,0000,,Instruction Manual\NConfidential
+Dialogue: 0,0:21:30.04,0:21:32.69,Main,Gin,0000,0000,0000,,How am I supposed to find \Ninformation about him in here?
+Dialogue: 0,0:21:32.69,0:21:34.27,Main,Gin,0000,0000,0000,,He's not a plastic model.
+Dialogue: 0,0:21:37.48,0:21:40.19,Main,Kin,0000,0000,0000,,Sorry to keep you waiting.
+Dialogue: 0,0:21:40.19,0:21:43.69,Main,Kin,0000,0000,0000,,I was washing my head.
+Dialogue: 0,0:21:45.11,0:21:47.32,Main,Kin,0000,0000,0000,,Huh? Nobody's here?
+Dialogue: 0,0:21:49.59,0:21:52.02,Main,Tama,0000,0000,0000,,Yes, Sakata Kintoki was created
+Dialogue: 0,0:21:52.02,0:21:54.82,Main,,0000,0000,0000,,by Gengai-sama at the request of
+Dialogue: 0,0:21:54.82,0:21:57.71,Main,Tama,0000,0000,0000,,Shinpachi-sama and Kagura-sama \Nas a substitute Odd Jobs leader.
+Dialogue: 0,0:21:58.18,0:22:02.96,Main,Tama,0000,0000,0000,,A perfect Sakata Gintoki who \Nhad overcome his weaknesses.
+Dialogue: 0,0:22:04.97,0:22:12.47,Perfect,Caption,0000,0000,0000,,Ginpla Collection\NPerfect Kintoki
+Dialogue: 0,0:22:06.15,0:22:10.16,Main,Tama,0000,0000,0000,,The Perfect Super Golden Alloy, \NSakata Gintoki Unit 02.
+Dialogue: 0,0:22:10.75,0:22:12.47,Main,Tama,0000,0000,0000,,Or Kin-san, for short.
+Dialogue: 0,0:22:12.49,0:22:15.00,Ep Title 2,Caption,0000,0000,0000,,{\an6}To be continued...
+Dialogue: 0,0:23:45.00,0:23:49.84,Next Ep Title,Caption,0000,0000,0000,,{\fad(340,1)}Kintoki and Gintoki
+Dialogue: 0,0:23:46.18,0:23:47.93,Main,Kin,0000,0000,0000,,Next time on Kintama:
+Dialogue: 0,0:23:47.93,0:23:49.54,Main,Kin,0000,0000,0000,,Kintoki and Gintoki.

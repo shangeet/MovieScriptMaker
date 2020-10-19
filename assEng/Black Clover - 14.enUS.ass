@@ -1,0 +1,430 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H00F7FCFD,&H000000FF,&H00070805,&H000D1728,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0080,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_6302_46_Black_Bulls__Bas,Times New Roman,30,&H00FFFFFF,&H000000FF,&H00020301,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0090,1
+Style: sign_11566_153_Clover_Kingdom,Times New Roman,16,&H00061421,&H000000FF,&H00BCC9D3,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,9,0010,0530,0085,1
+Style: sign_11639_155_Dungeon,Times New Roman,12,&H001D353C,&H000000FF,&H00B7D3D8,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,0145,0030,0265,1
+Style: sign_11713_157_Diamond__Kingdom,Times New Roman,14,&H00002125,&H000000FF,&H00B2D3D7,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0200,0020,1
+Style: sign_32916_371_Mana,Trebuchet MS,22,&H00262525,&H000000FF,&H00E9EDE1,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0040,0155,1
+Style: sign_32971_372_Mana,Trebuchet MS,30,&H00262525,&H000000FF,&H00E9EDE1,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33024_375_Serious_,Trebuchet MS,22,&H00262525,&H000000FF,&H00E9EDE1,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0265,0030,0180,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:06.57,0:00:10.68,italics,Nar,0000,0000,0000,,It appeared as though humanity \Nwould be destroyed by the demons.
+Dialogue: 0,0:00:14.93,0:00:19.16,italics,Nar,0000,0000,0000,,But a single mage saved them all.
+Dialogue: 0,0:00:26.37,0:00:31.46,italics,Nar,0000,0000,0000,,He was called the Wizard King,\Nand he became a legend.
+Dialogue: 0,0:00:35.83,0:00:38.65,italics,Nar,0000,0000,0000,,In a certain world,\Nwhere magic is everything...
+Dialogue: 0,0:00:40.73,0:00:43.35,italics,Nar,0000,0000,0000,,Asta and Yuno were abandoned \Non the same day at
+Dialogue: 0,0:00:43.35,0:00:46.30,italics,Nar,0000,0000,0000,,a church in the village of Hage, \Nwhich lies in the boonies.
+Dialogue: 0,0:00:46.30,0:00:50.60,italics,Nar,0000,0000,0000,,They both dreamed of becoming the Wizard \NKing, the highest rank among mages,
+Dialogue: 0,0:00:50.60,0:00:53.53,italics,Nar,0000,0000,0000,,and worked hard every day.
+Dialogue: 0,0:00:56.01,0:00:57.95,italics,Nar,0000,0000,0000,,In the year they turned fifteen,
+Dialogue: 0,0:00:57.95,0:01:01.37,italics,Nar,0000,0000,0000,,they both received grimoires,\Nwhich enhance the owner's magical powers.
+Dialogue: 0,0:01:01.74,0:01:04.50,italics,Nar,0000,0000,0000,,They then took the Magic Knights \NEntrance Exam to join
+Dialogue: 0,0:01:04.50,0:01:07.21,italics,Nar,0000,0000,0000,,the Magic Knights, which are \Nled by the Wizard King.
+Dialogue: 0,0:01:08.58,0:01:12.92,main,Both,0000,0000,0000,,Let's see who can become the Wizard King!
+Dialogue: 0,0:01:14.73,0:01:18.39,italics,Nar,0000,0000,0000,,As a result, because Yuno possesses \Nimmense magical powers,
+Dialogue: 0,0:01:18.39,0:01:22.06,italics,Nar,0000,0000,0000,,out of the nine squads, he chose \Nthe elite Golden Dawn to join.
+Dialogue: 0,0:01:22.39,0:01:24.27,italics,Nar,0000,0000,0000,,As for Asta, who had no magical powers,
+Dialogue: 0,0:01:24.27,0:01:27.98,italics,Nar,0000,0000,0000,,he ended up joining the squad \Nof rogues, the Black Bulls.
+Dialogue: 0,0:01:28.65,0:01:32.82,main,ASta,0000,0000,0000,,I'm still going to become \Nthe Wizard King someday!
+Dialogue: 0,0:01:36.90,0:01:42.47,italics,Nar,0000,0000,0000,,Thus the two finally took the first step \Ntoward becoming the Wizard King.
+Dialogue: 0,0:01:57.49,0:02:01.14,main,Farmer,0000,0000,0000,,Wh-What's going on?
+Dialogue: 0,0:02:17.57,0:02:22.97,main,Farmer,0000,0000,0000,,Wh-What the heck is this?!
+Dialogue: 0,0:02:35.09,0:02:38.36,main,Marx,0000,0000,0000,,Sir, there's trouble. An anomaly—
+Dialogue: 0,0:02:37.46,0:02:40.05,main,Julius,0000,0000,0000,,An anomaly has occurred, right?
+Dialogue: 0,0:02:41.75,0:02:47.62,main,Julius,0000,0000,0000,,Well... Let's have them work on this mission.
+Dialogue: 0,0:02:48.23,0:02:49.29,main,Marx,0000,0000,0000,,Them?
+Dialogue: 0,0:03:06.99,0:03:11.81,italics,,0000,0000,0000,,I would always close my eyes
+Dialogue: 0,0:03:11.81,0:03:16.01,italics,,0000,0000,0000,,And cower at reality
+Dialogue: 0,0:03:16.01,0:03:20.77,italics,,0000,0000,0000,,I can't stand the idea
+Dialogue: 0,0:03:20.77,0:03:25.23,italics,,0000,0000,0000,,Of just making excuses to give up
+Dialogue: 0,0:03:25.23,0:03:26.10,italics,,0000,0000,0000,,Stand right there
+Dialogue: 0,0:03:26.10,0:03:27.40,italics,,0000,0000,0000,,I don't want to be near you
+Dialogue: 0,0:03:27.40,0:03:28.35,italics,,0000,0000,0000,,Any minute now
+Dialogue: 0,0:03:28.35,0:03:31.94,italics,,0000,0000,0000,,Just wait right there
+Dialogue: 0,0:03:29.52,0:03:31.94,italics,,0000,0000,0000,,(The decisive battle is still a long way off)
+Dialogue: 0,0:03:31.94,0:03:34.10,italics,,0000,0000,0000,,Black and blue
+Dialogue: 0,0:03:34.10,0:03:39.99,italics,,0000,0000,0000,,I'll give up on giving up
+Dialogue: 0,0:03:39.99,0:03:43.16,italics,,0000,0000,0000,,And get the world on my side
+Dialogue: 0,0:03:43.16,0:03:46.83,italics,,0000,0000,0000,,I'm looking for the reason I'm alive
+Dialogue: 0,0:03:46.83,0:03:52.16,italics,,0000,0000,0000,,Every time somewhere under this sky
+Dialogue: 0,0:03:52.16,0:03:58.18,italics,,0000,0000,0000,,Break through the tearful nights
+Dialogue: 0,0:03:58.18,0:04:01.47,italics,,0000,0000,0000,,And head where the light shines
+Dialogue: 0,0:04:01.47,0:04:05.30,italics,,0000,0000,0000,,I want to keep my promise
+Dialogue: 0,0:04:05.30,0:04:08.85,italics,,0000,0000,0000,,I'll deliver it to you
+Dialogue: 0,0:04:08.85,0:04:12.82,italics,,0000,0000,0000,,shape of love
+Dialogue: 0,0:04:17.48,0:04:20.57,Ep Title,Sign,0000,0000,0000,,Dungeon
+Dialogue: 0,0:04:22.82,0:04:26.82,sign_6302_46_Black_Bulls__Bas,Sign,0000,0000,0000,,Black Bulls' Base
+Dialogue: 0,0:04:27.19,0:04:30.84,main,Luck,0000,0000,0000,,Hey, Magna. Let's fight. No holding back.
+Dialogue: 0,0:04:27.77,0:04:30.11,top,,0000,0000,0000,,Nine hundred eighty-two...
+Dialogue: 0,0:04:30.11,0:04:33.05,top,,0000,0000,0000,,Nine hundred eighty-three...
+Dialogue: 0,0:04:30.84,0:04:33.83,main,Magna,0000,0000,0000,,No way, you battle-obsessed freak.
+Dialogue: 0,0:04:33.05,0:04:35.65,top,,0000,0000,0000,,Nine hundred eighty-four...
+Dialogue: 0,0:04:33.83,0:04:36.83,main,Luck,0000,0000,0000,,Oh, come on. Let's do it.
+Dialogue: 0,0:04:35.65,0:04:38.07,top,,0000,0000,0000,,Nine hundred eighty-five...
+Dialogue: 0,0:04:36.83,0:04:39.06,main,Luck,0000,0000,0000,,I'm gonna eat your pudding.
+Dialogue: 0,0:04:38.07,0:04:40.73,top,,0000,0000,0000,,Nine hundred eighty-six...
+Dialogue: 0,0:04:39.78,0:04:41.46,main,Magna,0000,0000,0000,,If you do that, I'll—
+Dialogue: 0,0:04:41.18,0:04:43.89,top,,0000,0000,0000,,Nine hundred eighty-seven...
+Dialogue: 0,0:04:41.46,0:04:42.41,main,Luck,0000,0000,0000,,Will you fight me?!
+Dialogue: 0,0:04:42.41,0:04:43.34,main,Luck,0000,0000,0000,,Will you?!
+Dialogue: 0,0:04:43.34,0:04:45.14,main,Magna,0000,0000,0000,,No.
+Dialogue: 0,0:04:43.89,0:04:45.89,top,Asta,0000,0000,0000,,Nine hundred eighty-eight...
+Dialogue: 0,0:04:45.14,0:04:46.49,main,Luck,0000,0000,0000,,Aw...
+Dialogue: 0,0:04:46.49,0:04:49.05,top,Asta,0000,0000,0000,,Nine hundred eighty-nine...
+Dialogue: 0,0:04:47.09,0:04:49.05,main,Noelle,0000,0000,0000,,Silvantus Schnauzer.
+Dialogue: 0,0:04:49.05,0:04:51.42,top,Asta,0000,0000,0000,,Nine hundred ninety...
+Dialogue: 0,0:04:49.05,0:04:51.89,main,Vanessa,0000,0000,0000,,I think something else would be better.
+Dialogue: 0,0:04:51.42,0:04:53.85,top,Asta,0000,0000,0000,,Nine hundred ninety-one...
+Dialogue: 0,0:04:51.89,0:04:56.20,main,Vanessa,0000,0000,0000,,Let's see... Like "Wine"!
+Dialogue: 0,0:04:53.85,0:04:56.40,top,Asta,0000,0000,0000,,Nine hundred ninety-two...
+Dialogue: 0,0:04:56.40,0:04:59.37,top,Asta,0000,0000,0000,,Nine hundred ninety-three...
+Dialogue: 0,0:04:56.70,0:04:57.65,main,Noelle,0000,0000,0000,,Wine?
+Dialogue: 0,0:04:59.37,0:05:02.10,top,Asta,0000,0000,0000,,Nine hundred ninety-four...
+Dialogue: 0,0:05:01.11,0:05:03.77,main,Gauche,0000,0000,0000,,I will allow you to borrow a single letter
+Dialogue: 0,0:05:02.10,0:05:05.21,top,Asta,0000,0000,0000,,Nine hundred ninety-five...
+Dialogue: 0,0:05:03.77,0:05:06.04,main,Gauche,0000,0000,0000,,from the name of my little sister,\Nthe goddess Marie.
+Dialogue: 0,0:05:05.21,0:05:07.93,top,Asta,0000,0000,0000,,Nine hundred ninety-six...
+Dialogue: 0,0:05:06.04,0:05:09.58,main,Gauche,0000,0000,0000,,I will let you take the "M." Be grateful.
+Dialogue: 0,0:05:08.36,0:05:10.44,top,Asta,0000,0000,0000,,Nine hundred ninety-seven...
+Dialogue: 0,0:05:09.97,0:05:12.53,main,Magna,0000,0000,0000,,Make it something cooler!
+Dialogue: 0,0:05:10.85,0:05:14.20,top,Asta,0000,0000,0000,,Nine hundred ninety-eight...
+Dialogue: 0,0:05:13.19,0:05:14.20,main,Magna,0000,0000,0000,,Like, let's see...
+Dialogue: 0,0:05:14.20,0:05:16.18,top,,0000,0000,0000,,Nine hundred ninety-nine...
+Dialogue: 0,0:05:16.18,0:05:17.92,main,Magna,0000,0000,0000,,Magnam Fire!
+Dialogue: 0,0:05:16.66,0:05:17.92,top,,0000,0000,0000,,One thousand...
+Dialogue: 0,0:05:18.25,0:05:19.67,main,Noelle,0000,0000,0000,,Lame.
+Dialogue: 0,0:05:19.00,0:05:21.38,top,,0000,0000,0000,,One thousand and one...
+Dialogue: 0,0:05:19.67,0:05:22.01,main,Magna,0000,0000,0000,,You have no taste, Lady Noe.
+Dialogue: 0,0:05:22.01,0:05:22.92,main,Noelle,0000,0000,0000,,More like {\i1}you{\i0} don't.
+Dialogue: 0,0:05:22.01,0:05:24.07,top,,0000,0000,0000,,One thousand and two...
+Dialogue: 0,0:05:24.97,0:05:26.71,main,Gordon,0000,0000,0000,,Thinking of names looks like fun.
+Dialogue: 0,0:05:25.43,0:05:27.53,top,,0000,0000,0000,,One thousand and three...
+Dialogue: 0,0:05:26.74,0:05:30.57,main,Gordon,0000,0000,0000,,I thought of one, too. I wonder if \Nthey'll ask. I think it's a good name.
+Dialogue: 0,0:05:28.41,0:05:30.57,top,,0000,0000,0000,,One thousand and four...
+Dialogue: 0,0:05:30.57,0:05:32.74,main,Charmy,0000,0000,0000,,Munchy, munchy, munchy...
+Dialogue: 0,0:05:30.98,0:05:32.74,top,,0000,0000,0000,,One thousand and five...
+Dialogue: 0,0:05:32.74,0:05:36.94,main,Charmy,0000,0000,0000,,Can I fatten that bird up? \NHe looks really yummy.
+Dialogue: 0,0:05:33.11,0:05:35.37,top,,0000,0000,0000,,One thousand and six...
+Dialogue: 0,0:05:35.85,0:05:36.94,top,,0000,0000,0000,,One thousand and seven...
+Dialogue: 0,0:05:36.94,0:05:38.82,main,Noelle,0000,0000,0000,,Absolutely not!
+Dialogue: 0,0:05:37.72,0:05:40.36,top,,0000,0000,0000,,One thousand and eight...
+Dialogue: 0,0:05:39.51,0:05:40.82,main,Charmy,0000,0000,0000,,Does he lay eggs?
+Dialogue: 0,0:05:40.82,0:05:41.80,main,Noelle,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:42.05,0:05:43.78,main,Asta,0000,0000,0000,,Definitely Toritaro!
+Dialogue: 0,0:05:43.78,0:05:46.39,main,Noelle,0000,0000,0000,,No, it's Silvantus Schnauzer.
+Dialogue: 0,0:05:48.09,0:05:49.36,main,Asta,0000,0000,0000,,Toritaro!
+Dialogue: 0,0:05:49.36,0:05:51.35,main,Noelle,0000,0000,0000,,Silvantus Schnauzer!
+Dialogue: 0,0:05:51.35,0:05:52.81,main,Asta,0000,0000,0000,,Toritaro!
+Dialogue: 0,0:05:53.33,0:05:55.68,main,Asta,0000,0000,0000,,Ow! Ow! Ow! Ow! Ow!
+Dialogue: 0,0:05:55.68,0:05:57.95,main,Asta,0000,0000,0000,,The heck was that for, Toritaro?!
+Dialogue: 0,0:05:57.95,0:05:59.40,main,Noelle,0000,0000,0000,,There, you see?
+Dialogue: 0,0:06:01.35,0:06:04.22,main,Noelle,0000,0000,0000,,You prefer Silvantus Schnauzer, don't you?
+Dialogue: 0,0:06:04.22,0:06:06.09,main,Noelle,0000,0000,0000,,Right? Right?
+Dialogue: 0,0:06:06.09,0:06:07.76,main,Magna,0000,0000,0000,,Magnam Fire!
+Dialogue: 0,0:06:07.76,0:06:08.76,main,Gauche,0000,0000,0000,,"M."
+Dialogue: 0,0:06:08.76,0:06:09.89,main,Vanessa,0000,0000,0000,,Wine!
+Dialogue: 0,0:06:12.92,0:06:14.93,main,Luck,0000,0000,0000,,Why not Nero?
+Dialogue: 0,0:06:14.93,0:06:16.60,main,All,0000,0000,0000,,What?!
+Dialogue: 0,0:06:16.60,0:06:18.26,main,Luck,0000,0000,0000,,Looks like he approves.
+Dialogue: 0,0:06:18.26,0:06:19.90,main,Luck,0000,0000,0000,,"Nero" means "black."
+Dialogue: 0,0:06:20.26,0:06:22.02,main,Both,0000,0000,0000,,Nero?
+Dialogue: 0,0:06:26.04,0:06:28.98,main,Yami,0000,0000,0000,,All right, listen up.
+Dialogue: 0,0:06:28.98,0:06:31.81,main,Magna,0000,0000,0000,,Mister Yami! Hello!
+Dialogue: 0,0:06:31.81,0:06:34.12,main,Finral,0000,0000,0000,,We're back, everyone.
+Dialogue: 0,0:06:34.12,0:06:35.73,main,Charmy,0000,0000,0000,,Welcome back.
+Dialogue: 0,0:06:36.26,0:06:38.76,main,Vanessa,0000,0000,0000,,What did they want at the castle?
+Dialogue: 0,0:06:40.36,0:06:43.96,main,Gordon,0000,0000,0000,,If it's a mission, I want \Nto go with everyone, too.
+Dialogue: 0,0:06:44.54,0:06:46.57,main,Luck,0000,0000,0000,,Mission? Is it a mission?
+Dialogue: 0,0:06:48.28,0:06:50.93,main,Yami,0000,0000,0000,,I have an announcement for you all.
+Dialogue: 0,0:06:51.54,0:06:54.35,main,Yami,0000,0000,0000,,A new dungeon has been discovered.
+Dialogue: 0,0:06:56.04,0:06:58.07,main,Magna,0000,0000,0000,,A dungeon?!
+Dialogue: 0,0:06:58.07,0:06:59.77,main,Magna,0000,0000,0000,,Are you serious, Mister Yami?!
+Dialogue: 0,0:07:01.65,0:07:03.48,main,Asta,0000,0000,0000,,What the heck is a dungeon?!
+Dialogue: 0,0:07:03.48,0:07:04.79,main,All,0000,0000,0000,,Huh?
+Dialogue: 0,0:07:06.10,0:07:09.65,main,Magna,0000,0000,0000,,Are you serious? You were surprised, \Nand you didn't even know what it is?
+Dialogue: 0,0:07:09.65,0:07:11.03,main,Asta,0000,0000,0000,,I just went with the flow!
+Dialogue: 0,0:07:11.03,0:07:12.87,main,Magna,0000,0000,0000,,Talk about predictable!
+Dialogue: 0,0:07:12.87,0:07:15.80,main,Magna,0000,0000,0000,,Listen up. Dungeons are...
+Dialogue: 0,0:07:16.66,0:07:20.68,main,Magna,0000,0000,0000,,Kind of like ancient tombs that contain\Nrelics made by the people from back then.
+Dialogue: 0,0:07:20.68,0:07:23.16,main,Magna,0000,0000,0000,,Sometimes they have info \Nabout powerful ancient magic
+Dialogue: 0,0:07:23.16,0:07:25.69,main,Magna,0000,0000,0000,,or super rare magical items.
+Dialogue: 0,0:07:25.69,0:07:28.26,main,Magna,0000,0000,0000,,They're absolutely amazing!
+Dialogue: 0,0:07:29.38,0:07:31.15,main,Luck,0000,0000,0000,,But you know...
+Dialogue: 0,0:07:31.15,0:07:36.26,main,Luck,0000,0000,0000,,The people back then set \Ninsane magical traps in them
+Dialogue: 0,0:07:36.26,0:07:39.08,main,Luck,0000,0000,0000,,so that they wouldn't get misused by anyone.
+Dialogue: 0,0:07:39.08,0:07:42.31,main,Luck,0000,0000,0000,,They're super dangerous and really fun!
+Dialogue: 0,0:07:44.31,0:07:48.63,main,Vanessa,0000,0000,0000,,The Magic Knights always investigate them\Nsince they're so dangerous,
+Dialogue: 0,0:07:48.63,0:07:51.57,main,Vanessa,0000,0000,0000,,and to make sure none of \Nthe treasures get stolen.
+Dialogue: 0,0:07:51.57,0:07:53.54,main,Asta,0000,0000,0000,,Oh, okay!
+Dialogue: 0,0:07:54.01,0:07:55.65,main,Noelle,0000,0000,0000,,I see.
+Dialogue: 0,0:07:56.10,0:07:59.18,main,Noelle,0000,0000,0000,,Which means the Black Bulls are \Nsupposed to investigate this
+Dialogue: 0,0:07:59.18,0:08:00.87,main,Noelle,0000,0000,0000,,newly discovered dungeon?
+Dialogue: 0,0:08:00.87,0:08:02.36,main,Yami,0000,0000,0000,,Yes.
+Dialogue: 0,0:08:02.36,0:08:10.38,sign_11566_153_Clover_Kingdom,Sign,0000,0000,0000,,{\fad(288,1)}Clover\NKingdom
+Dialogue: 0,0:08:02.90,0:08:07.75,main,Yami,0000,0000,0000,,Particularly because this dungeon \Npopped up near our enemy's border.
+Dialogue: 0,0:08:05.44,0:08:10.38,sign_11639_155_Dungeon,Sign,0000,0000,0000,,{\fad(211,1)}Dungeon
+Dialogue: 0,0:08:07.75,0:08:08.80,main,Asta,0000,0000,0000,,Enemy?
+Dialogue: 0,0:08:08.52,0:08:10.38,sign_11713_157_Diamond__Kingdom,Sign,0000,0000,0000,,{\fad(218,1)}Diamond\NKingdom
+Dialogue: 0,0:08:08.80,0:08:10.38,main,Yami,0000,0000,0000,,The Diamond Kingdom.
+Dialogue: 0,0:08:11.57,0:08:17.89,main,Yami,0000,0000,0000,,We need to take care of this mission fast \Nso Diamond's people won't steal anything.
+Dialogue: 0,0:08:18.92,0:08:22.62,main,Yami,0000,0000,0000,,By the way, there have been instances \Nin which someone found a magical item
+Dialogue: 0,0:08:22.62,0:08:25.22,main,Yami,0000,0000,0000,,that could change civilization\Nitself in a dungeon,
+Dialogue: 0,0:08:25.22,0:08:28.12,main,Yami,0000,0000,0000,,and someone even learned how \Nto use the ultimate magic there.
+Dialogue: 0,0:08:28.12,0:08:31.16,main,Asta,0000,0000,0000,,Me! Me! Please let me go!
+Dialogue: 0,0:08:31.16,0:08:34.04,main,Asta,0000,0000,0000,,I might be able to use \Nthe ultimate magic, too!
+Dialogue: 0,0:08:34.04,0:08:36.97,main,Yami,0000,0000,0000,,You don't have any magic, \Nso that's not happening.
+Dialogue: 0,0:08:36.97,0:08:39.74,main,Asta,0000,0000,0000,,You never know!
+Dialogue: 0,0:08:40.60,0:08:43.54,main,Yami,0000,0000,0000,,Actually, you can go, kid.
+Dialogue: 0,0:08:44.12,0:08:47.75,main,Yami,0000,0000,0000,,In fact, the Wizard King chose you himself.
+Dialogue: 0,0:08:47.75,0:08:49.25,main,Asta,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:49.25,0:08:51.02,main,Asta,0000,0000,0000,,Huh?!
+Dialogue: 0,0:08:51.02,0:08:54.05,main,Asta,0000,0000,0000,,The Wizard King?! Why?!
+Dialogue: 0,0:08:54.05,0:08:56.71,main,Magna,0000,0000,0000,,That's awesome, Asta!
+Dialogue: 0,0:08:56.71,0:08:59.96,main,Magna,0000,0000,0000,,What the heck? Did you bump \Ninto the Wizard King somewhere?
+Dialogue: 0,0:08:59.96,0:09:01.27,main,Asta,0000,0000,0000,,No, never!
+Dialogue: 0,0:09:03.22,0:09:05.81,main,Asta,0000,0000,0000,,The Wizard King chose me!
+Dialogue: 0,0:09:05.81,0:09:07.62,main,Asta,0000,0000,0000,,I don't know why, but...
+Dialogue: 0,0:09:08.77,0:09:10.94,main,Asta,0000,0000,0000,,Great Wizard King!
+Dialogue: 0,0:09:10.94,0:09:16.78,main,Asta,0000,0000,0000,,Asta the Unworthy will give\Nhis all on this mission!
+Dialogue: 0,0:09:17.28,0:09:19.80,main,Yami,0000,0000,0000,,Noelle, you're also going with him.
+Dialogue: 0,0:09:19.80,0:09:20.82,main,Noelle,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:20.82,0:09:22.82,main,Yami,0000,0000,0000,,Everything counts as experience.
+Dialogue: 0,0:09:23.67,0:09:25.09,main,Yami,0000,0000,0000,,Oh, and Luck.
+Dialogue: 0,0:09:26.02,0:09:27.72,main,Yami,0000,0000,0000,,You're the leader.
+Dialogue: 0,0:09:28.49,0:09:30.05,main,Yami,0000,0000,0000,,I'm leaving those two to you.
+Dialogue: 0,0:09:30.05,0:09:31.05,main,Luck,0000,0000,0000,,Really?
+Dialogue: 0,0:09:31.05,0:09:31.97,main,Yami,0000,0000,0000,,Yup.
+Dialogue: 0,0:09:31.97,0:09:34.68,main,Yami,0000,0000,0000,,You'll lose your touch if you \Nstay cooped up all the time.
+Dialogue: 0,0:09:34.68,0:09:35.80,main,Luck,0000,0000,0000,,Yay!
+Dialogue: 0,0:09:36.21,0:09:40.30,main,Yami,0000,0000,0000,,Listen up. Make sure you \Nlook after the newbies.
+Dialogue: 0,0:09:40.90,0:09:42.13,main,Luck,0000,0000,0000,,Leave it to me!
+Dialogue: 0,0:09:44.31,0:09:47.83,main,Gordon,0000,0000,0000,,I want to go, too. I wish \Nthey'd take me with them.
+Dialogue: 0,0:09:53.14,0:09:54.79,main,Vanessa,0000,0000,0000,,Be careful.
+Dialogue: 0,0:09:54.79,0:09:57.50,main,Magna,0000,0000,0000,,Asta! Lady Noe! Give it your all!
+Dialogue: 0,0:09:57.50,0:09:58.43,main,Asta,0000,0000,0000,,Got it!
+Dialogue: 0,0:09:58.43,0:09:59.82,main,Noelle,0000,0000,0000,,I guess I don't have a choice.
+Dialogue: 0,0:10:01.14,0:10:04.14,main,Finral,0000,0000,0000,,I think I'll go find some cute girls, then.
+Dialogue: 0,0:10:04.14,0:10:05.29,main,All,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:05.29,0:10:07.62,main,Gauche,0000,0000,0000,,May I go see my sister?
+Dialogue: 0,0:10:08.34,0:10:10.63,main,Yami,0000,0000,0000,,If you're prepared to die.
+Dialogue: 0,0:10:17.17,0:10:20.68,main,Finral,0000,0000,0000,,The sunset is beautiful from here.
+Dialogue: 0,0:10:21.22,0:10:23.95,main,Finral,0000,0000,0000,,I recommend this location for dates.
+Dialogue: 0,0:10:23.95,0:10:26.77,main,Charmy,0000,0000,0000,,I'll have some nummies ready \Nfor you when you get back!
+Dialogue: 0,0:10:27.46,0:10:29.30,main,Yami,0000,0000,0000,,We're counting on you.
+Dialogue: 0,0:10:29.30,0:10:30.43,main,Asta,0000,0000,0000,,Got it.
+Dialogue: 0,0:10:30.43,0:10:31.44,main,Luck,0000,0000,0000,,Okay!
+Dialogue: 0,0:10:34.01,0:10:36.42,main,Luck,0000,0000,0000,,Let's see... It's this way.
+Dialogue: 0,0:10:40.74,0:10:44.73,main,Noelle,0000,0000,0000,,They could've just dropped us off \Nright in front of the dungeon.
+Dialogue: 0,0:10:46.01,0:10:49.96,main,Luck,0000,0000,0000,,Finral's only able to go to \Nplaces he's been to before.
+Dialogue: 0,0:10:52.71,0:10:55.43,main,Luck,0000,0000,0000,,But thankfully, it was \Nstill near the dungeon.
+Dialogue: 0,0:11:12.65,0:11:14.00,main,Luck,0000,0000,0000,,Let's go!
+Dialogue: 0,0:11:14.73,0:11:17.73,main,Asta,0000,0000,0000,,Why the heck did you come?
+Dialogue: 0,0:11:20.26,0:11:23.74,main,Magna,0000,0000,0000,,I wonder how the Wizard \NKing even knew about Asta.
+Dialogue: 0,0:11:24.49,0:11:26.49,main,Yami,0000,0000,0000,,That guy...
+Dialogue: 0,0:11:29.80,0:11:33.32,main,Yami,0000,0000,0000,,is able to see things we can't.
+Dialogue: 0,0:11:34.25,0:11:35.50,main,Yami,0000,0000,0000,,He's also a weirdo.
+Dialogue: 0,0:11:40.57,0:11:42.02,main,Noelle,0000,0000,0000,,It's so dark.
+Dialogue: 0,0:11:42.02,0:11:45.42,main,Asta,0000,0000,0000,,Don't cling to me. It's hard to walk.
+Dialogue: 0,0:11:45.42,0:11:47.31,main,Noelle,0000,0000,0000,,Wh-Who's clinging?
+Dialogue: 0,0:11:52.29,0:11:53.93,main,Asta,0000,0000,0000,,I can't see anything!
+Dialogue: 0,0:11:57.83,0:11:59.05,main,Noelle,0000,0000,0000,,Ow...
+Dialogue: 0,0:11:59.05,0:12:01.83,main,Noelle,0000,0000,0000,,Hey, could you not step on my foot?
+Dialogue: 0,0:12:01.83,0:12:04.45,main,Asta,0000,0000,0000,,I can't help it! It's pitch black in here!
+Dialogue: 0,0:12:04.45,0:12:06.30,main,Asta,0000,0000,0000,,Stop being so pissy.
+Dialogue: 0,0:12:06.30,0:12:08.97,main,Noelle,0000,0000,0000,,It's all because you broke the lamp!
+Dialogue: 0,0:12:08.97,0:12:10.84,main,Noelle,0000,0000,0000,,Honestly, you have some nerve.
+Dialogue: 0,0:12:10.84,0:12:13.82,main,Asta,0000,0000,0000,,It's your fault for tripping \Nand running into me!
+Dialogue: 0,0:12:13.82,0:12:15.99,main,Noelle,0000,0000,0000,,How dare you? I'm royalty!
+Dialogue: 0,0:12:15.99,0:12:17.18,main,Asta,0000,0000,0000,,So what?!
+Dialogue: 0,0:12:17.18,0:12:18.25,main,Noelle,0000,0000,0000,,Insect.
+Dialogue: 0,0:12:20.05,0:12:21.51,main,Luck,0000,0000,0000,,Is this it?
+Dialogue: 0,0:13:09.81,0:13:12.85,main,Asta,0000,0000,0000,,W-Wow!
+Dialogue: 0,0:13:12.85,0:13:15.64,main,Asta,0000,0000,0000,,What the heck's going on with this place?
+Dialogue: 0,0:13:17.80,0:13:19.17,main,Noelle,0000,0000,0000,,What is this?
+Dialogue: 0,0:13:19.17,0:13:22.02,main,Luck,0000,0000,0000,,Looks like the space is \Nwarped because of magic.
+Dialogue: 0,0:13:23.96,0:13:27.57,main,Luck,0000,0000,0000,,There's even stronger mana floating \Naround here than outside.
+Dialogue: 0,0:13:27.57,0:13:32.02,main,Noelle,0000,0000,0000,,Yes. I've never been anywhere \Nthis full of mana before.
+Dialogue: 0,0:13:32.71,0:13:34.08,main,Asta,0000,0000,0000,,Really?
+Dialogue: 0,0:13:34.84,0:13:38.27,main,Noelle,0000,0000,0000,,Are you saying you can't feel all this mana?
+Dialogue: 0,0:13:38.27,0:13:39.91,main,Asta,0000,0000,0000,,Not at all.
+Dialogue: 0,0:13:39.91,0:13:44.09,main,Noelle,0000,0000,0000,,Amazing. I guess people who don't \Nhave magic really are different.
+Dialogue: 0,0:13:44.09,0:13:46.05,main,Asta,0000,0000,0000,,Shut up!
+Dialogue: 0,0:13:46.44,0:13:50.40,main,Asta,0000,0000,0000,,I want to feel mana, too!
+Dialogue: 0,0:13:50.40,0:13:52.25,main,Asta,0000,0000,0000,,I want mana!
+Dialogue: 0,0:13:52.25,0:13:54.17,main,Asta,0000,0000,0000,,Must be nice being one of you royals!
+Dialogue: 0,0:13:54.17,0:13:56.56,main,Asta,0000,0000,0000,,You have a ridiculous amount of mana!
+Dialogue: 0,0:13:57.35,0:14:00.38,main,Asta,0000,0000,0000,,In my body, I don't have even an ounce
+Dialogue: 0,0:14:00.38,0:14:03.61,main,Asta,0000,0000,0000,,of the foundation of magic... Mana!
+Dialogue: 0,0:14:05.94,0:14:07.40,main,Asta,0000,0000,0000,,God damn!
+Dialogue: 0,0:14:10.32,0:14:12.12,main,Asta,0000,0000,0000,,Huh?
+Dialogue: 0,0:14:12.50,0:14:14.66,main,Noelle,0000,0000,0000,,T-Trap magic?
+Dialogue: 0,0:14:24.70,0:14:27.62,main,Noelle,0000,0000,0000,,That was dangerous. Be more careful.
+Dialogue: 0,0:14:27.62,0:14:29.16,main,Asta,0000,0000,0000,,My bad.
+Dialogue: 0,0:14:30.95,0:14:32.18,main,Luck,0000,0000,0000,,Here it is, Asta.
+Dialogue: 0,0:14:32.18,0:14:33.68,main,Luck,0000,0000,0000,,This.
+Dialogue: 0,0:14:34.60,0:14:36.31,main,Asta,0000,0000,0000,,Where?
+Dialogue: 0,0:14:36.31,0:14:37.50,main,Luck,0000,0000,0000,,Hup.
+Dialogue: 0,0:14:45.67,0:14:47.65,main,Asta,0000,0000,0000,,What was that for?!
+Dialogue: 0,0:14:47.65,0:14:49.78,main,Luck,0000,0000,0000,,That was amazing!
+Dialogue: 0,0:14:49.78,0:14:51.59,main,Noelle,0000,0000,0000,,Listen, you!
+Dialogue: 0,0:14:51.59,0:14:53.45,main,Noelle,0000,0000,0000,,Oh, there's another one.
+Dialogue: 0,0:14:53.45,0:14:54.83,main,Luck,0000,0000,0000,,Hup!
+Dialogue: 0,0:15:06.69,0:15:07.93,main,Luck,0000,0000,0000,,Whee!
+Dialogue: 0,0:15:11.80,0:15:13.05,main,Luck,0000,0000,0000,,And another one!
+Dialogue: 0,0:15:20.45,0:15:22.19,main,Luck,0000,0000,0000,,This is so much fun!
+Dialogue: 0,0:15:22.73,0:15:24.69,main,Luck,0000,0000,0000,,Isn't this exciting?
+Dialogue: 0,0:15:26.05,0:15:28.69,italics,Both,0000,0000,0000,,We're going to die if we stay with this guy.
+Dialogue: 0,0:15:29.40,0:15:33.19,main,Vanessa,0000,0000,0000,,I wonder if those kids are okay.
+Dialogue: 0,0:15:33.75,0:15:39.41,main,Yami,0000,0000,0000,,The more dangerous the mission, the more \Nnewbies will surpass their limits and grow.
+Dialogue: 0,0:15:39.41,0:15:40.80,main,Yami,0000,0000,0000,,I think.
+Dialogue: 0,0:15:40.80,0:15:42.36,main,Vanessa,0000,0000,0000,,You {\i1}think{\i0}?
+Dialogue: 0,0:15:42.36,0:15:45.21,main,Yami,0000,0000,0000,,Well, Luck's with them, \Nso they should be fine.
+Dialogue: 0,0:15:46.15,0:15:51.40,main,Yami,0000,0000,0000,,His ability to detect mana is off the charts.\NIt's even greater than a noble's.
+Dialogue: 0,0:15:51.97,0:15:56.84,main,Yami,0000,0000,0000,,If his personality wasn't so messed up, \Nany other squad would've taken him.
+Dialogue: 0,0:15:58.74,0:16:01.85,main,Magna,0000,0000,0000,,I think it's that personality \Nwe're worried about.
+Dialogue: 0,0:16:01.85,0:16:03.49,main,Vanessa,0000,0000,0000,,Yeah.
+Dialogue: 0,0:16:05.23,0:16:10.57,main,Luck,0000,0000,0000,,Man... Your anti-magic weapon is amazing.
+Dialogue: 0,0:16:10.57,0:16:13.86,main,Luck,0000,0000,0000,,I wonder if that's why the \NWizard King chose you.
+Dialogue: 0,0:16:14.31,0:16:17.06,main,Luck,0000,0000,0000,,I'd love to fight you for real \Nin about two to three years!
+Dialogue: 0,0:16:18.71,0:16:21.91,main,Luck,0000,0000,0000,,If you're prepared to keep swinging \Nyour sword around like that,
+Dialogue: 0,0:16:21.91,0:16:23.88,main,Luck,0000,0000,0000,,this dungeon won't be any problem.
+Dialogue: 0,0:16:23.88,0:16:24.79,main,Asta,0000,0000,0000,,Got it!
+Dialogue: 0,0:16:26.01,0:16:27.61,main,Luck,0000,0000,0000,,Now, then...
+Dialogue: 0,0:16:29.93,0:16:31.88,italics,Luck,0000,0000,0000,,I think I'm about to reach my limit.
+Dialogue: 0,0:16:45.91,0:16:47.24,italics,Luck,0000,0000,0000,,I knew it.
+Dialogue: 0,0:16:48.20,0:16:49.61,italics,Luck,0000,0000,0000,,There are others here.
+Dialogue: 0,0:16:51.05,0:16:53.30,italics,Luck,0000,0000,0000,,The strongest looking one is...
+Dialogue: 0,0:16:55.81,0:16:58.41,italics,Luck,0000,0000,0000,,Lightning Creation Magic:
+Dialogue: 0,0:17:00.45,0:17:02.33,italics,Luck,0000,0000,0000,,Holy Lightning Boots.
+Dialogue: 0,0:17:03.58,0:17:06.33,main,Luck,0000,0000,0000,,Something important just came up.
+Dialogue: 0,0:17:07.64,0:17:10.92,main,Luck,0000,0000,0000,,So I'm leaving the dungeon \Nexploration to you guys!
+Dialogue: 0,0:17:12.12,0:17:13.62,main,Noelle,0000,0000,0000,,Hey, where are you—
+Dialogue: 0,0:17:14.79,0:17:17.68,main,Noelle,0000,0000,0000,,Wh-What in the world is he thinking?!
+Dialogue: 0,0:17:18.10,0:17:21.04,main,Asta,0000,0000,0000,,S-So cool!
+Dialogue: 0,0:17:21.04,0:17:23.02,main,Noelle,0000,0000,0000,,This is insane!
+Dialogue: 0,0:17:29.21,0:17:31.97,main,Luck,0000,0000,0000,,Left turn next...
+Dialogue: 0,0:17:31.97,0:17:34.96,main,Luck,0000,0000,0000,,I can't wait to see how \Nstrong this person is!
+Dialogue: 0,0:17:39.19,0:17:42.51,main,Noelle,0000,0000,0000,,Honestly... He's unbelievable.
+Dialogue: 0,0:17:42.51,0:17:47.71,main,Noelle,0000,0000,0000,,Captain Yami clearly told him to \Nkeep an eye on us, and he just left!
+Dialogue: 0,0:17:47.71,0:17:50.09,main,Asta,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:17:50.09,0:17:54.23,main,Asta,0000,0000,0000,,No matter what kind of traps might spring up,\NI'll slice through them with my sword.
+Dialogue: 0,0:17:54.87,0:17:57.30,main,Noelle,0000,0000,0000,,Must be nice being as carefree as you.
+Dialogue: 0,0:17:58.36,0:18:01.27,main,Asta,0000,0000,0000,,This dungeon ain't nothin'!
+Dialogue: 0,0:18:01.27,0:18:04.82,main,Asta,0000,0000,0000,,I'm going to become the \NWizard King, after all.
+Dialogue: 0,0:18:04.82,0:18:06.26,main,Noelle,0000,0000,0000,,Again with that?
+Dialogue: 0,0:18:07.00,0:18:10.13,main,Asta,0000,0000,0000,,I'm gonna become the Wizard King before Yuno.
+Dialogue: 0,0:18:10.13,0:18:11.20,main,Noelle,0000,0000,0000,,Yuno?
+Dialogue: 0,0:18:11.20,0:18:13.88,main,Asta,0000,0000,0000,,Yeah. I haven't told you about him before?
+Dialogue: 0,0:18:14.39,0:18:16.97,main,Asta,0000,0000,0000,,He's a childhood friend\NI grew up with in Hage Village.
+Dialogue: 0,0:18:17.75,0:18:20.58,main,Asta,0000,0000,0000,,We took the Magic Knights \NEntrance Exam together,
+Dialogue: 0,0:18:20.58,0:18:23.41,main,Asta,0000,0000,0000,,and he got into the Golden Dawn.
+Dialogue: 0,0:18:23.78,0:18:26.65,main,Noelle,0000,0000,0000,,That's amazing, isn't it?
+Dialogue: 0,0:18:26.65,0:18:29.42,main,Noelle,0000,0000,0000,,He got into the Golden Dawn \Nwithout being a noble.
+Dialogue: 0,0:18:29.42,0:18:32.17,main,Asta,0000,0000,0000,,Yeah! He's amazing!
+Dialogue: 0,0:18:32.57,0:18:34.20,main,Asta,0000,0000,0000,,But I'm not gonna lose to him!
+Dialogue: 0,0:18:36.90,0:18:40.85,italics,Noelle,0000,0000,0000,,I guess even he has his own goal.
+Dialogue: 0,0:18:40.85,0:18:42.68,main,Asta,0000,0000,0000,,Come on. Let's go.
+Dialogue: 0,0:18:44.09,0:18:46.52,main,Asta,0000,0000,0000,,Looks like we can cross over there.
+Dialogue: 0,0:18:46.52,0:18:47.86,main,Asta,0000,0000,0000,,Let's hurry!
+Dialogue: 0,0:18:49.40,0:18:52.02,italics,Noelle,0000,0000,0000,,We're alone right now.
+Dialogue: 0,0:18:52.65,0:18:56.53,italics,Noelle,0000,0000,0000,,Silvantus... I mean, Nero's with us, but...
+Dialogue: 0,0:19:01.56,0:19:02.57,main,Asta,0000,0000,0000,,Something wrong?
+Dialogue: 0,0:19:03.46,0:19:06.21,main,Noelle,0000,0000,0000,,It's nothing! Nothing at all!
+Dialogue: 0,0:19:07.21,0:19:09.08,main,Noelle,0000,0000,0000,,Let's hurry.
+Dialogue: 0,0:19:14.92,0:19:17.10,main,Noelle,0000,0000,0000,,A trap! Oh, no!
+Dialogue: 0,0:19:17.10,0:19:18.21,main,Asta,0000,0000,0000,,Noelle!
+Dialogue: 0,0:19:28.13,0:19:30.39,main,Noelle,0000,0000,0000,,S-Such powerful magic...
+Dialogue: 0,0:19:38.44,0:19:41.03,main,Asta,0000,0000,0000,,Run!
+Dialogue: 0,0:19:47.19,0:19:48.24,main,Noelle,0000,0000,0000,,Asta!
+Dialogue: 0,0:19:49.41,0:19:50.82,main,Noelle,0000,0000,0000,,Oh, no!
+Dialogue: 0,0:19:58.47,0:19:59.92,main,Asta,0000,0000,0000,,Crap!
+Dialogue: 0,0:20:25.20,0:20:26.52,main,Asta,0000,0000,0000,,What the heck?
+Dialogue: 0,0:20:27.08,0:20:30.21,main,Noelle,0000,0000,0000,,Such precise and powerful magic...
+Dialogue: 0,0:20:31.08,0:20:32.83,main,Noelle,0000,0000,0000,,Who could it be?
+Dialogue: 0,0:20:33.69,0:20:36.10,main,Yami,0000,0000,0000,,Oh, come to think of it...
+Dialogue: 0,0:20:36.95,0:20:42.26,main,Yami,0000,0000,0000,,Apparently, a few from the Golden Dawn \Nhave also been assigned to that dungeon.
+Dialogue: 0,0:20:42.26,0:20:44.59,main,Magna,0000,0000,0000,,Huh? The Golden Dawn?!
+Dialogue: 0,0:20:44.97,0:20:49.14,main,Yami,0000,0000,0000,,I wonder if they'll be able to get along.
+Dialogue: 0,0:20:58.58,0:20:59.61,main,Yuno,0000,0000,0000,,Now...
+Dialogue: 0,0:21:02.20,0:21:04.28,main,Yuno,0000,0000,0000,,I've repaid my debt,
+Dialogue: 0,0:21:05.85,0:21:07.28,main,Yuno,0000,0000,0000,,Asta.
+Dialogue: 0,0:21:07.28,0:21:08.57,main,Asta,0000,0000,0000,,Yuno...
+Dialogue: 0,0:21:29.22,0:21:34.60,italics,,0000,0000,0000,,My dry emotions gaze at the me from that day
+Dialogue: 0,0:21:34.60,0:21:37.57,italics,,0000,0000,0000,,And push me forward
+Dialogue: 0,0:21:37.57,0:21:39.61,italics,,0000,0000,0000,,(I can't find a place to go)
+Dialogue: 0,0:21:39.61,0:21:44.89,italics,,0000,0000,0000,,Even the faintest light can \Nstill break through the darkness
+Dialogue: 0,0:21:44.89,0:21:50.39,italics,,0000,0000,0000,,And change the flow of time
+Dialogue: 0,0:21:49.12,0:21:52.81,italics,,0000,0000,0000,,(I will keep believing in you)
+Dialogue: 0,0:21:51.81,0:21:55.69,italics,,0000,0000,0000,,In this ever-vivid place
+Dialogue: 0,0:21:55.69,0:21:58.62,italics,,0000,0000,0000,,(Break free yourself)
+Dialogue: 0,0:21:58.62,0:22:01.53,italics,,0000,0000,0000,,In order to grasp my endless dream
+Dialogue: 0,0:22:01.53,0:22:04.19,italics,,0000,0000,0000,,If there is a path that I should choose
+Dialogue: 0,0:22:04.19,0:22:06.25,italics,,0000,0000,0000,,(Do you wanna try? Do you wanna try?)
+Dialogue: 0,0:22:06.25,0:22:09.16,italics,,0000,0000,0000,,Wherever it may lead us
+Dialogue: 0,0:22:09.16,0:22:11.65,italics,,0000,0000,0000,,Until my life comes to an end
+Dialogue: 0,0:22:11.65,0:22:14.33,italics,,0000,0000,0000,,I will accept any pain that comes my way
+Dialogue: 0,0:22:14.33,0:22:16.35,italics,,0000,0000,0000,,(We can try again, we can try again)
+Dialogue: 0,0:22:16.35,0:22:20.71,italics,,0000,0000,0000,,Even if we can't see tomorrow
+Dialogue: 0,0:22:20.71,0:22:26.26,italics,,0000,0000,0000,,Holding onto feelings too intense to voice
+Dialogue: 0,0:22:26.82,0:22:29.99,italics,,0000,0000,0000,,I'll keep screaming them in my heart
+Dialogue: 0,0:22:40.88,0:22:45.34,sign_33083_276_Petit_Clover_,Sign,0000,0000,0000,,{\fad(1,520)}Pe{\c&H3BC020&}t{\c&HE2AF0F&}i{\c&H3BC020&}t C{\c&HE2AF0F&}l{\c&H3BC020&}o{\c&H0E42D4&}ve{\c&H3BC020&}r
+Dialogue: 0,0:22:42.13,0:22:44.81,main,All,0000,0000,0000,,Petit Clover!
+Dialogue: 0,0:22:44.84,0:22:48.84,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,What's Mana?
+Dialogue: 0,0:22:45.97,0:22:48.84,main,Finral,0000,0000,0000,,What's Mana?
+Dialogue: 0,0:22:49.32,0:22:52.40,main,Finral,0000,0000,0000,,Asta, do you know what mana is?
+Dialogue: 0,0:22:52.40,0:22:53.49,main,Asta,0000,0000,0000,,Yup!
+Dialogue: 0,0:22:52.85,0:22:55.14,sign_32916_371_Mana,Sign,0000,0000,0000,,{\fad(355,1)}Mana
+Dialogue: 0,0:22:53.49,0:22:55.14,main,Asta,0000,0000,0000,,It's written like this!
+Dialogue: 0,0:22:55.14,0:22:57.35,sign_32971_372_Mana,Sign,0000,0000,0000,,Mana
+Dialogue: 0,0:22:55.56,0:22:57.35,main,Asta,0000,0000,0000,,It's written with the same \Ncharacter for "magic"!
+Dialogue: 0,0:22:57.35,0:22:59.58,sign_33024_375_Serious_,Sign,0000,0000,0000,,{\fad(1,244)}Serious
+Dialogue: 0,0:22:57.88,0:23:00.19,main,Magna,0000,0000,0000,,These both mean "serious"!
+Dialogue: 0,0:23:00.19,0:23:05.82,main,Finral,0000,0000,0000,,Yes. Mana is a powerful energy \Nthat exists in this world.
+Dialogue: 0,0:23:06.13,0:23:09.82,main,Asta,0000,0000,0000,,Yup! And everyone has it...
+Dialogue: 0,0:23:10.20,0:23:11.82,main,Asta,0000,0000,0000,,Except me!
+Dialogue: 0,0:23:12.36,0:23:16.45,main,Finral,0000,0000,0000,,Mages use up their mana to use magic.
+Dialogue: 0,0:23:16.45,0:23:18.43,main,Finral,0000,0000,0000,,That's why if they run out of it,
+Dialogue: 0,0:23:18.43,0:23:21.46,main,Finral,0000,0000,0000,,they might not be able to use \Nmagic again until they recover.
+Dialogue: 0,0:23:21.87,0:23:22.96,main,Finral,0000,0000,0000,,Do you understand?
+Dialogue: 0,0:23:22.96,0:23:24.50,main,Asta,0000,0000,0000,,Yes!
+Dialogue: 0,0:23:27.21,0:23:29.02,main,Finral,0000,0000,0000,,What a lovely flower!
+Dialogue: 0,0:23:29.02,0:23:32.30,main,Finral,0000,0000,0000,,Perfect for giving to a girl.
+Dialogue: 0,0:23:32.30,0:23:33.34,main,Asta,0000,0000,0000,,Finral!
+Dialogue: 0,0:23:33.68,0:23:36.00,main,Finral,0000,0000,0000,,Wow, you're so aggressive!
+Dialogue: 0,0:23:36.00,0:23:37.88,main,Finral,0000,0000,0000,,I've never met a flower like you!
+Dialogue: 0,0:23:40.31,0:23:42.44,main,Luck,0000,0000,0000,,You've got really powerful magic, mister.
+Dialogue: 0,0:23:42.90,0:23:46.40,main,Luck,0000,0000,0000,,Let's fight with everything \Nwe have, to the death.
+Dialogue: 0,0:23:46.40,0:23:50.91,main,Luck,0000,0000,0000,,{\i1}Black Clover{\i0}, Page 15:\N"The Diamond Mage."
+Dialogue: 0,0:23:47.69,0:23:55.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 15\N\N{\fs18}The Diamond Mage
+Dialogue: 0,0:23:50.91,0:23:53.74,main,Luck,0000,0000,0000,,Not giving up is my magic.

@@ -1,0 +1,524 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Signs,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Main Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Black Signs,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Game Club,Open Sans Semibold,33,&H004F4F9F,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: sign_1263_2_Spring,Open Sans Semibold,48,&H00EF071F,&H000000FF,&H00DCF7F0,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,27,27,32,1
+Style: sign_1368_5_DVD__On_Sale,Open Sans Semibold,30,&H00000000,&H000000FF,&H005880D5,&H00000000,1,0,0,0,100,100,0,0,1,3,0,2,67,640,107,1
+Style: sign_1401_7_Red_Sign,Open Sans Semibold,27,&H005837C6,&H000000FF,&H00DCD6E8,&H00000000,1,0,0,0,100,100,0,1,1,4,0,8,269,467,107,1
+Style: sign_1401_8_Yellow_Sign,Open Sans Semibold,24,&H007DD1D8,&H000000FF,&H00653ADA,&H00000000,1,0,0,0,100,100,0,1,1,4,0,8,287,433,147,1
+Style: sign_1524_9_Huge_Bargain_,Open Sans Semibold,42,&H001C07DA,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,104,195,13,1
+Style: sign_1714_11_Golden_Memories,Open Sans Semibold,27,&H009AE6FF,&H000000FF,&H00487DD5,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,75,285,360,1
+Style: sign_2549_19_Tendo_Karen,Open Sans Semibold,36,&H0037EAF4,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,27,27,148,1
+Style: sign_2768_23___She_eventually,Open Sans Semibold,42,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,1,27,27,140,1
+Style: sign_2804_24_Blonde_hair__gre,Open Sans Semibold,29,&H00000000,&H000000FF,&H0083E5EE,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,435,27,27,1
+Style: sign_2804_25_165_cm__81_57_82,Open Sans Semibold,30,&H00000000,&H000000FF,&H0083E5EE,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,571,27,85,1
+Style: sign_2858_26_Standard_deviati,Open Sans Semibold,24,&H00000000,&H000000FF,&H0063D9E4,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,27,51,191,1
+Style: sign_2834_27_100m_in_12_3_sec,Open Sans Semibold,30,&H00000000,&H000000FF,&H007ADAE3,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,408,53,293,1
+Style: sign_3023_29___She_eventually,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,107,83,1
+Style: sign_3035_30___And_he_s_the_m,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,87,27,133,1
+Style: sign_3314_34__Idol_,Open Sans Semibold,54,&H00000000,&H000000FF,&H007ADAE3,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,27,27,37,1
+Style: sign_3414_36_Height__159cm,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,48,27,15,1
+Style: sign_3426_37_Grades__Average_,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,48,27,317,1
+Style: sign_3438_38_Friends__0___Gam,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,48,27,196,1
+Style: sign_4893_61_Golden_Memories,Open Sans Semibold,30,&H00DFF9FF,&H000000FF,&H0066ABE8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,307,280,11,1
+Style: sign_4929_62_Ba_bump_,Open Sans Semibold,27,&H007D00F0,&H000000FF,&H00FFF9FD,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,13,687,52,1
+Style: sign_4947_63_Dating_simulatio,Open Sans Semibold,27,&H007D00F0,&H000000FF,&H00FFF9FD,&H00000000,1,0,0,0,100,100,0,0,1,3,0,1,157,27,336,1
+Style: sign_4983_64_Sexiness_packed_,Open Sans Semibold,27,&H007D00F0,&H000000FF,&H00FFF9FD,&H00000000,1,0,0,0,100,100,0,0,1,3,0,1,128,27,245,1
+Style: sign_5049_65_Wardrobe_malfunc,Open Sans Semibold,27,&H007D00F0,&H000000FF,&H00FFF9FD,&H00000000,1,0,0,0,100,100,0,0,1,3,0,1,128,387,152,1
+Style: sign_5049_66_Something_missin,Open Sans Semibold,24,&H007D00F0,&H000000FF,&H00FFF9FD,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,552,13,93,1
+Style: sign_5321_77_Idol_Warriors___,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,49,49,24,1
+Style: sign_5430_78_Sell_Us_Your_Gam,Open Sans Semibold,30,&H00B0EAF4,&H000000FF,&H004D51C6,&H00000000,1,0,0,0,100,100,0,0.5,1,3,0,8,156,148,121,1
+Style: sign_7140_100_Would_you_join_m,Open Sans Semibold,30,&H00000000,&H000000FF,&H00F1EFED,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,69,411,36,1
+Style: sign_7227_101_Huh_,Open Sans Semibold,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100,100,0,0,1,2,0,8,383,49,63,1
+Style: sign_7302_104_TSUMO,Open Sans Semibold,45,&H006ECCF3,&H000000FF,&H00F2001E,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,27,27,137,1
+Style: sign_9481_133_Fail,Open Sans Semibold,42,&H00E3E237,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,361,143,52,1
+Style: sign_9770_137___He_ll_soon_fai,Open Sans Semibold,36,&H00E3E237,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,1,55,27,101,1
+Style: sign_10643_148_Hot_girlfriend,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,35,27,149,1
+Style: sign_10733_150_Said_loser,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,644,27,107,1
+Style: sign_10757_151_and_the__hot_gir,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,32,27,357,1
+Style: sign_10782_152_will_come_to_mee,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,413,27,20,1
+Style: sign_11702_166_I_thank_you_for_,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,80,101,48,1
+Style: sign_15786_210_Mono_san_is_requ,Open Sans Semibold,30,&H00E7DDCA,&H000000FF,&H00665C48,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,44,39,11,1
+Style: sign_15786_211_Accept,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H007263D2,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,325,437,279,1
+Style: sign_15786_212_Decline,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H00D9947F,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,435,323,279,1
+Style: sign_15786_213_96_seconds_remai,Open Sans Semibold,24,&H0066ABE8,&H000000FF,&H0077695F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,27,27,331,1
+Style: sign_16664_221_Mono_san_is__req,Open Sans Semibold,24,&H00E7DDCA,&H000000FF,&H00665C48,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,43,27,73,1
+Style: sign_16664_222_Accept,Open Sans Semibold,21,&H00FFFFFF,&H000000FF,&H005D54D5,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,365,407,325,1
+Style: sign_16664_223_Decline,Open Sans Semibold,21,&H00FFFFFF,&H000000FF,&H00AA6256,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,459,312,329,1
+Style: sign_17392_233_Request_declined,Open Sans Semibold,30,&H00E2D8D3,&H000000FF,&H003B2F2A,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,195,133,147,1
+Style: sign_21669_287_Trophy,Open Sans Semibold,33,&H001F14B5,&H000000FF,&H00D2C9CE,&H00000000,1,0,0,0,100,100,0,336.7,1,4,0,8,408,333,21,1
+Style: sign_22034_292_Game_1,Open Sans Semibold,42,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,27,27,80,1
+Style: sign_22651_304_Two_hours_later_,Open Sans Semibold,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,120,1
+Style: sign_23480_314_KILLS,Open Sans Semibold,24,&H00C3C4C3,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,363,421,103,1
+Style: sign_23480_314_POINTS,Open Sans Semibold,18,&H00C3C4C3,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,353,27,69,1
+Style: sign_23480_315_KILLS,Open Sans Semibold,27,&H00C3C4C3,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,357,140,1
+Style: sign_23480_316_ASSISTS,Open Sans Semibold,24,&H00C3C4C3,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,509,240,103,1
+Style: sign_23480_317_DEATHS,Open Sans Semibold,24,&H00C3C4C3,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,604,151,103,1
+Style: sign_29882_408_20_seconds_remai,Open Sans Semibold,21,&H0066ABE8,&H000000FF,&H002F2421,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,77,21,369,1
+Style: sign_34083_444_Message_from_Mon,Open Sans Semibold,24,&H00E7DDCA,&H000000FF,&H00694F3A,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,45,27,104,1
+Style: sign_34083_445_Thanks_again,Open Sans Semibold,24,&H00E7DDCA,&H000000FF,&H002D2923,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,31,135,309,1
+Style: sign_5430_78_Sell_Us_Your_Gam - Copy,Open Sans Semibold,30,&H00B0EAF4,&H000000FF,&H004D51C6,&H00000000,1,0,0,0,100,100,0,0.5,1,3,0,5,156,148,121,1
+Style: sign_5430_78_Sell_Us_Your_Gam2,Open Sans Semibold,24,&H00605FC1,&H000000FF,&H00040461,&H00000000,1,0,0,0,100,100,0,0.5,1,2,0,8,156,148,240,1
+Style: tsukamu,Open Sans Semibold,33,&H004B27CE,&H00000000,&H00C5D8D5,&H00515152,1,0,0,0,100,100,0,0,1,2,0,2,520,27,240,1
+Style: remaining,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,1,0,0,28,1
+Style: Game Club1,Open Sans Semibold,33,&H008C3EBE,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,168,27,24,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:52.67,0:00:54.03,sign_1263_2_Spring,Text,0000,0000,0000,,Spring
+Dialogue: 0,0:00:54.78,0:00:57.03,Italics Dialogue,A,0000,0000,0000,,Some people are, as they say, \N"above the clouds."
+Dialogue: 0,0:00:57.03,0:00:58.41,Main Dialogue,,0000,0000,0000,,G'morning!
+Dialogue: 0,0:00:57.03,0:00:58.41,sign_1368_5_DVD__On_Sale,Text,0000,0000,0000,,DVD \NOn Sale
+Dialogue: 0,0:00:59.45,0:01:04.54,Italics Dialogue,A,0000,0000,0000,,They might be your favorite idol, \Nor an athlete on the world stage.
+Dialogue: 0,0:01:03.54,0:01:04.54,sign_1524_9_Huge_Bargain_,Text,0000,0000,0000,,Huge {\c&HAB5EEA&}Bargain!
+Dialogue: 0,0:01:06.42,0:01:10.67,Italics Dialogue,A,0000,0000,0000,,And for some people, they're 2D characters.
+Dialogue: 0,0:01:11.48,0:01:12.96,sign_1714_11_Golden_Memories,Text,0000,0000,0000,,{\fad(200,1)}Golden Memories
+Dialogue: 0,0:01:12.96,0:01:17.00,Italics Dialogue,A,0000,0000,0000,,Most people can only watch them from afar.
+Dialogue: 0,0:01:17.00,0:01:18.97,Italics Dialogue,A,0000,0000,0000,,That's why they're "above the clouds."
+Dialogue: 0,0:01:21.02,0:01:23.06,Main Dialogue,B,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:01:24.69,0:01:30.59,Italics Dialogue,A,0000,0000,0000,,So when the cutest girl in school\Nspoke to me out of the blue...
+Dialogue: 0,0:01:31.86,0:01:37.02,Italics Dialogue,A,0000,0000,0000,,I, Amano Keita, lost \Ncommunication with my brain.
+Dialogue: 0,0:01:37.70,0:01:39.84,Main Dialogue,B,0000,0000,0000,,This is our first time speaking, isn't it?
+Dialogue: 0,0:01:40.30,0:01:44.29,Main Dialogue,B,0000,0000,0000,,I'm Tendou Karen, of Class 2-A \Nat Otobuki High School.
+Dialogue: 0,0:01:46.29,0:01:48.31,Italics Dialogue,Text,0000,0000,0000,,Tendou Karen.
+Dialogue: 0,0:01:46.29,0:01:49.77,sign_2549_19_Tendo_Karen,Text,0000,0000,0000,,{\fad(1,626)}Tendou Karen
+Dialogue: 0,0:01:48.31,0:01:52.29,Italics Dialogue,Keita,0000,0000,0000,,Even as a second-year, she stands \Nat the top of the school hierarchy.
+Dialogue: 0,0:01:49.77,0:01:51.42,Main Dialogue Top,Karen,0000,0000,0000,,Good morning!
+Dialogue: 0,0:01:54.11,0:01:55.21,Main Dialogue,Karen,0000,0000,0000,,Morning!
+Dialogue: 0,0:01:55.44,0:01:56.67,sign_2768_23___She_eventually,Text,0000,0000,0000,,* She eventually loses it
+Dialogue: 0,0:01:56.89,0:01:58.20,Main Dialogue,,0000,0000,0000,,Morning!
+Dialogue: 0,0:01:56.94,0:02:03.68,sign_2804_24_Blonde_hair__gre,Text,0000,0000,0000,,Blonde hair, green eyes
+Dialogue: 0,0:01:56.94,0:02:03.68,sign_2804_25_165_cm__81_57_82,Text,0000,0000,0000,,165 cm, 81/57/82
+Dialogue: 0,0:01:58.20,0:01:59.35,Main Dialogue,,0000,0000,0000,,Great weather, huh?
+Dialogue: 0,0:01:58.20,0:02:03.68,sign_2834_27_100m_in_12_3_sec,Text,0000,0000,0000,,100m in 12.30 seconds
+Dialogue: 0,0:01:59.20,0:02:03.68,sign_2858_26_Standard_deviati,Text,0000,0000,0000,,Standard deviation of 73 on the national exams
+Dialogue: 0,0:01:59.35,0:02:02.39,Italics Dialogue,Keita,0000,0000,0000,,With brains, beauty, \Nand unrivaled athleticism,
+Dialogue: 0,0:02:02.39,0:02:06.82,Italics Dialogue,Keita,0000,0000,0000,,she almost seems too perfect to be real.
+Dialogue: 0,0:02:06.08,0:02:07.89,sign_3023_29___She_eventually,Text,0000,0000,0000,,* She eventually loses it
+Dialogue: 0,0:02:06.58,0:02:07.89,sign_3035_30___And_he_s_the_m,Text,0000,0000,0000,,* And he's the main reason
+Dialogue: 0,0:02:09.42,0:02:12.53,Italics Dialogue,Keita,0000,0000,0000,,So even though she's not a celebrity \Nor anything, at Otobuki,
+Dialogue: 0,0:02:12.53,0:02:15.19,Italics Dialogue,Keita,0000,0000,0000,,she's basically treated like a deity.
+Dialogue: 0,0:02:15.51,0:02:18.22,Italics Dialogue,Keita,0000,0000,0000,,She's a so-called school idol.
+Dialogue: 0,0:02:18.22,0:02:19.16,sign_3314_34__Idol_,Text,0000,0000,0000,,"Idol"
+Dialogue: 0,0:02:20.05,0:02:21.21,Italics Dialogue,Keita,0000,0000,0000,,Meanwhile...
+Dialogue: 0,0:02:22.39,0:02:24.87,sign_3414_36_Height__159cm,Text,0000,0000,0000,,Height: 159cm
+Dialogue: 0,0:02:22.89,0:02:24.87,sign_3426_37_Grades__Average_,Text,0000,0000,0000,,Grades: Average of average
+Dialogue: 0,0:02:23.39,0:02:24.87,sign_3438_38_Friends__0___Gam,Text,0000,0000,0000,,Friends: 0\N(Games are his friends)
+Dialogue: 0,0:02:25.48,0:02:26.42,Main Dialogue,Karen,0000,0000,0000,,Um...
+Dialogue: 0,0:02:27.29,0:02:30.23,Main Dialogue,Keita,0000,0000,0000,,Huh?! Um, er... I-I'm Amano.
+Dialogue: 0,0:02:30.23,0:02:30.91,Main Dialogue,Keita,0000,0000,0000,,Class F...
+Dialogue: 0,0:02:30.91,0:02:33.00,Main Dialogue,Keita,0000,0000,0000,,Wait, no, I'm in Otobuki with you!
+Dialogue: 0,0:02:34.03,0:02:35.42,Italics Dialogue,Keita,0000,0000,0000,,I'm way too creepy!
+Dialogue: 0,0:02:35.42,0:02:37.46,Italics Dialogue,Keita,0000,0000,0000,,I'm totally acting like a creep otaku!
+Dialogue: 0,0:02:37.46,0:02:39.84,Main Dialogue,Karen,0000,0000,0000,,Nice to meet you, Amano-kun.
+Dialogue: 0,0:02:40.41,0:02:42.17,Main Dialogue,Keita,0000,0000,0000,,R-Right.
+Dialogue: 0,0:02:42.67,0:02:45.05,Main Dialogue,Karen,0000,0000,0000,,Why don't we pick those up?
+Dialogue: 0,0:02:45.05,0:02:46.47,Main Dialogue,Keita,0000,0000,0000,,H-Huh?
+Dialogue: 0,0:02:51.34,0:02:53.48,Italics Dialogue,Keita,0000,0000,0000,,What the heck is going on?
+Dialogue: 0,0:02:53.88,0:02:56.23,Italics Dialogue,Keita,0000,0000,0000,,Is this some new extortion tactic?
+Dialogue: 0,0:03:00.09,0:03:02.26,Italics Dialogue,Keita,0000,0000,0000,,Or, wait... Is she...
+Dialogue: 0,0:03:02.26,0:03:04.03,Main Dialogue,Karen,0000,0000,0000,,Do you like this stuff?
+Dialogue: 0,0:03:06.04,0:03:07.14,Main Dialogue,Karen,0000,0000,0000,,Games, I mean.
+Dialogue: 0,0:03:07.14,0:03:09.18,Main Dialogue,Keita,0000,0000,0000,,O-Of course, right?
+Dialogue: 0,0:03:09.18,0:03:10.26,Main Dialogue,Keita,0000,0000,0000,,I knew that!
+Dialogue: 0,0:03:10.26,0:03:13.87,Main Dialogue,Keita,0000,0000,0000,,I knew, but I was getting flustered on purpose!
+Dialogue: 0,0:03:14.53,0:03:16.61,Main Dialogue,Keita,0000,0000,0000,,Er, uh... never mind.
+Dialogue: 0,0:03:16.61,0:03:17.25,Main Dialogue,Keita,0000,0000,0000,,Sorry.
+Dialogue: 0,0:03:17.58,0:03:20.97,Main Dialogue,Karen,0000,0000,0000,,This is the one you picked up earlier, right?
+Dialogue: 0,0:03:22.77,0:03:23.55,Main Dialogue,Keita,0000,0000,0000,,Wait, that's—
+Dialogue: 0,0:03:24.07,0:03:32.56,sign_4893_61_Golden_Memories,Text,0000,0000,0000,,{\fad(500,1)}Golden Memories
+Dialogue: 0,0:03:24.29,0:03:25.57,Main Dialogue,,0000,0000,0000,,{\i1}Golden Memories.{\i0}
+Dialogue: 0,0:03:25.57,0:03:26.63,Main Dialogue,,0000,0000,0000,,"Ba-bump!"
+Dialogue: 0,0:03:25.57,0:03:32.56,sign_4929_62_Ba_bump_,Text,0000,0000,0000,,{\fad(100,1)}Ba-bump!
+Dialogue: 0,0:03:26.31,0:03:32.56,sign_4947_63_Dating_simulatio,Text,0000,0000,0000,,{\fad(500,1)}A Dating Simulation
+Dialogue: 0,0:03:26.63,0:03:30.55,Main Dialogue,,0000,0000,0000,,"A dating simulation adventure \Nfull of blonde girls."
+Dialogue: 0,0:03:27.81,0:03:32.56,sign_4983_64_Sexiness_packed_,Text,0000,0000,0000,,{\fad(500,1)}Full of Blonde Girls
+Dialogue: 0,0:03:29.31,0:03:32.56,sign_5049_65_Wardrobe_malfunc,Text,0000,0000,0000,,{\fad(500,1)}Sexiness-Packed Adventure
+Dialogue: 0,0:03:30.55,0:03:31.94,Main Dialogue,,0000,0000,0000,,"Wardrobe malfunctions included."
+Dialogue: 0,0:03:30.56,0:03:32.56,sign_5049_66_Something_missin,Text,0000,0000,0000,,Wardrobe malfunctions \Nincluded <3
+Dialogue: 0,0:03:32.56,0:03:33.62,Main Dialogue,Keita,0000,0000,0000,,I love it!
+Dialogue: 0,0:03:34.19,0:03:35.87,Main Dialogue,Keita,0000,0000,0000,,I mean... games in general!
+Dialogue: 0,0:03:35.87,0:03:36.93,Main Dialogue,Karen,0000,0000,0000,,O-Of course, right?
+Dialogue: 0,0:03:36.93,0:03:37.79,Main Dialogue,Karen,0000,0000,0000,,I knew that.
+Dialogue: 0,0:03:37.79,0:03:41.90,Main Dialogue,Karen,0000,0000,0000,,I knew, but I was getting flustered on purpose.
+Dialogue: 0,0:03:46.45,0:03:51.08,sign_5430_78_Sell_Us_Your_Gam,Text,0000,0000,0000,,Sell Us Your Games
+Dialogue: 0,0:03:46.45,0:03:51.08,sign_5430_78_Sell_Us_Your_Gam2,Text,0000,0000,0000,,We Buy High
+Dialogue: 0,0:03:47.09,0:03:49.87,Italics Dialogue,Keita,0000,0000,0000,,I want to disappear without a trace.
+Dialogue: 0,0:03:52.13,0:03:55.51,Main Dialogue,Keita,0000,0000,0000,,I, uh, like games.
+Dialogue: 0,0:03:55.51,0:03:59.88,Main Dialogue,Keita,0000,0000,0000,,That game had some unique content, \Nso I was a bit interested.
+Dialogue: 0,0:04:00.20,0:04:04.39,Main Dialogue,Keita,0000,0000,0000,,So I couldn't help but want \Nto read the back cover.
+Dialogue: 0,0:04:04.73,0:04:06.61,Main Dialogue,Karen,0000,0000,0000,,Oh, I get it.
+Dialogue: 0,0:04:07.03,0:04:09.27,Main Dialogue,Karen,0000,0000,0000,,Package back covers are \Npretty interesting, right?
+Dialogue: 0,0:04:11.32,0:04:12.36,Main Dialogue,Keita,0000,0000,0000,,You get it?
+Dialogue: 0,0:04:12.36,0:04:14.10,Main Dialogue,Keita,0000,0000,0000,,It's great, isn't it?
+Dialogue: 0,0:04:14.10,0:04:17.82,Main Dialogue,Keita,0000,0000,0000,,The way they jam-pack all of the game's \Nselling points into that small space.
+Dialogue: 0,0:04:17.82,0:04:19.31,Main Dialogue,Keita,0000,0000,0000,,It's irresistible!
+Dialogue: 0,0:04:19.31,0:04:21.45,Main Dialogue,Keita,0000,0000,0000,,Oh, yeah, speaking of back covers...
+Dialogue: 0,0:04:23.66,0:04:24.52,Italics Dialogue,Keita,0000,0000,0000,,Crap.
+Dialogue: 0,0:04:26.42,0:04:27.66,Italics Dialogue,Keita,0000,0000,0000,,She's totally creeped out.
+Dialogue: 0,0:04:29.55,0:04:30.62,Main Dialogue,Keita,0000,0000,0000,,Tendou-san...
+Dialogue: 0,0:04:32.10,0:04:34.85,Main Dialogue,Karen,0000,0000,0000,,Sorry, I didn't mean to interrupt.
+Dialogue: 0,0:04:35.40,0:04:38.02,Main Dialogue,Karen,0000,0000,0000,,You were just so passionate, Amano-kun.
+Dialogue: 0,0:04:39.35,0:04:41.88,Main Dialogue,Karen,0000,0000,0000,,Also... How do I put it?
+Dialogue: 0,0:04:42.81,0:04:45.30,Main Dialogue,Karen,0000,0000,0000,,You're just so perfect.
+Dialogue: 0,0:04:47.71,0:04:52.18,Main Dialogue,Karen,0000,0000,0000,,Hey, if it's all right with you... \N{\i1}If{\i0} it's all right with you...
+Dialogue: 0,0:04:53.88,0:04:55.48,Main Dialogue,Karen,0000,0000,0000,,Would you join me...
+Dialogue: 0,0:04:57.67,0:04:59.46,Main Dialogue,Karen,0000,0000,0000,,in the game club?
+Dialogue: 0,0:04:57.79,0:05:01.40,sign_7140_100_Would_you_join_m,Text,0000,0000,0000,,{\fad(400,1)}Would you join me\Nin the game club?
+Dialogue: 0,0:05:01.40,0:05:02.21,Main Dialogue,Keita,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:01.40,0:05:02.78,sign_7227_101_Huh_,,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:04.22,0:05:04.90,Main Dialogue,A,0000,0000,0000,,Tsumo!
+Dialogue: 0,0:05:04.55,0:05:04.90,sign_7302_104_TSUMO,,0000,0000,0000,,TSUMO
+Dialogue: 0,0:05:05.40,0:05:06.28,Main Dialogue,A,0000,0000,0000,,Woohoo!
+Dialogue: 0,0:05:06.28,0:05:08.12,Main Dialogue,A,0000,0000,0000,,Sanbaiman!
+Dialogue: 0,0:05:08.12,0:05:09.78,Main Dialogue,B,0000,0000,0000,,Not bad.
+Dialogue: 0,0:05:09.78,0:05:10.92,Main Dialogue,C,0000,0000,0000,,You little...
+Dialogue: 0,0:05:10.92,0:05:12.75,Main Dialogue,D,0000,0000,0000,,Hey, Tasuku...
+Dialogue: 0,0:05:17.33,0:05:19.34,Main Dialogue,D,0000,0000,0000,,Isn't this amazing?
+Dialogue: 0,0:05:20.81,0:05:23.61,Main Dialogue,Tasuku,0000,0000,0000,,What, so you want me to get it?
+Dialogue: 0,0:05:23.61,0:05:24.46,Main Dialogue,D,0000,0000,0000,,Yup!
+Dialogue: 0,0:05:24.46,0:05:27.07,Main Dialogue,D,0000,0000,0000,,You're mega-good at gaming.
+Dialogue: 0,0:05:27.07,0:05:28.55,Main Dialogue,Tasuku,0000,0000,0000,,Uh, mega-good?
+Dialogue: 0,0:05:29.89,0:05:32.39,Main Dialogue,D,0000,0000,0000,,Get it for me, please, Tasuku?
+Dialogue: 0,0:05:33.93,0:05:37.02,Main Dialogue,Tasuku,0000,0000,0000,,I mean, I guess I could.
+Dialogue: 0,0:05:40.31,0:05:42.23,Main Dialogue,Tasuku,0000,0000,0000,,Come on, money.
+Dialogue: 0,0:05:43.80,0:05:45.72,Main Dialogue,D,0000,0000,0000,,T-Tasuku...
+Dialogue: 0,0:05:45.72,0:05:46.65,Italics Dialogue,Tasuku,0000,0000,0000,,This girl...
+Dialogue: 0,0:05:48.63,0:05:50.57,tsukamu,,0000,0000,0000,,Grab
+Dialogue: 0,0:05:48.63,0:05:50.57,remaining,,0000,0000,0000,,Plays \NRemaining
+Dialogue: 0,0:05:50.57,0:05:54.54,Main Dialogue,D,0000,0000,0000,,Go, go, Tasuku! Yay! Yay!
+Dialogue: 0,0:05:58.75,0:06:00.30,Main Dialogue,D,0000,0000,0000,,A little more to the right.
+Dialogue: 0,0:06:00.30,0:06:00.94,Main Dialogue,D,0000,0000,0000,,That's it.
+Dialogue: 0,0:06:00.94,0:06:02.23,Main Dialogue,D,0000,0000,0000,,There, there!
+Dialogue: 0,0:06:02.23,0:06:03.48,Main Dialogue,Tasuku,0000,0000,0000,,Shut up.
+Dialogue: 0,0:06:03.48,0:06:05.27,Main Dialogue,Tasuku,0000,0000,0000,,Quit talking and watch.
+Dialogue: 0,0:06:08.62,0:06:10.62,Main Dialogue,D,0000,0000,0000,,What are you doing, Tasuku?
+Dialogue: 0,0:06:10.62,0:06:12.03,Main Dialogue,D,0000,0000,0000,,You suck!
+Dialogue: 0,0:06:19.80,0:06:21.11,Main Dialogue,D,0000,0000,0000,,Ta-da!
+Dialogue: 0,0:06:22.48,0:06:25.56,Main Dialogue,D,0000,0000,0000,,Oh my God, it's so fluffy!
+Dialogue: 0,0:06:25.56,0:06:27.67,Main Dialogue,D,0000,0000,0000,,You sure are good at games!
+Dialogue: 0,0:06:27.67,0:06:29.95,Main Dialogue,Tasuku,0000,0000,0000,,Don't get too excited.
+Dialogue: 0,0:06:32.75,0:06:35.77,Italics Dialogue,Tasuku,0000,0000,0000,,I'm so badass, as always.
+Dialogue: 0,0:06:35.43,0:06:36.70,sign_9481_133_Fail,Text,0000,0000,0000,,Fail
+Dialogue: 0,0:06:36.70,0:06:39.79,Italics Dialogue,Tasuku,0000,0000,0000,,Plus, I have a girlfriend who might not\N have much going on in her head,
+Dialogue: 0,0:06:39.79,0:06:43.46,Italics Dialogue,Tasuku,0000,0000,0000,,but who you could say is cute as hell.
+Dialogue: 0,0:06:43.87,0:06:47.48,Italics Dialogue,Tasuku,0000,0000,0000,,Dude, I'm such a winner. Right?
+Dialogue: 0,0:06:47.48,0:06:49.59,sign_9770_137___He_ll_soon_fai,Text,0000,0000,0000,,* He'll soon fail even harder.
+Dialogue: 0,0:06:53.85,0:06:56.36,Main Dialogue,Tasuku,0000,0000,0000,,Why are you so happy?
+Dialogue: 0,0:06:56.36,0:06:59.35,Main Dialogue,D,0000,0000,0000,,Because you got this for me.
+Dialogue: 0,0:06:59.87,0:07:02.27,Main Dialogue,D,0000,0000,0000,,I'm going to cherish it for life.
+Dialogue: 0,0:07:06.75,0:07:08.36,Italics Dialogue,Tasuku,0000,0000,0000,,Isn't he in my class?
+Dialogue: 0,0:07:09.37,0:07:11.33,Italics Dialogue,Tasuku,0000,0000,0000,,Amano, was it?
+Dialogue: 0,0:07:11.33,0:07:13.13,Italics Dialogue,Tasuku,0000,0000,0000,,The guy who's gaming all the time.
+Dialogue: 0,0:07:14.91,0:07:17.62,Italics Dialogue,Tasuku,0000,0000,0000,,What the hell is he even \Ndoing over there, anyway?
+Dialogue: 0,0:07:18.11,0:07:20.00,Main Dialogue,Aguri,0000,0000,0000,,What's up, Tasuku?
+Dialogue: 0,0:07:20.00,0:07:21.62,Main Dialogue,Tasuku,0000,0000,0000,,Nothing.
+Dialogue: 0,0:07:21.62,0:07:25.88,Italics Dialogue,Tasuku,0000,0000,0000,,Guys like him will never have \Na hot girlfriend like mine.
+Dialogue: 0,0:07:23.90,0:07:25.88,sign_10643_148_Hot_girlfriend,Text,0000,0000,0000,,Hot girlfriend
+Dialogue: 0,0:07:26.47,0:07:27.65,Italics Dialogue,Tasuku,0000,0000,0000,,Loser.
+Dialogue: 0,0:07:27.65,0:07:28.65,sign_10733_150_Said_loser,Text,0000,0000,0000,,Said loser
+Dialogue: 0,0:07:28.65,0:07:29.69,sign_10757_151_and_the__hot_gir,Text,0000,0000,0000,,and the \Nhot girlfriend
+Dialogue: 0,0:07:29.69,0:07:31.13,sign_10782_152_will_come_to_mee,Text,0000,0000,0000,,will later meet in secret \Nmany times.
+Dialogue: 0,0:07:33.71,0:07:37.64,Main Dialogue,Karen,0000,0000,0000,,So I ended up creating it by myself,
+Dialogue: 0,0:07:37.64,0:07:40.83,Main Dialogue,Karen,0000,0000,0000,,but I haven't really recruited \Nmembers or anything yet.
+Dialogue: 0,0:07:41.41,0:07:43.23,Main Dialogue,Keita,0000,0000,0000,,I-Is that so?
+Dialogue: 0,0:07:44.18,0:07:45.61,Main Dialogue,Karen,0000,0000,0000,,So polite.
+Dialogue: 0,0:07:46.45,0:07:48.04,Main Dialogue,Karen,0000,0000,0000,,I don't get it.
+Dialogue: 0,0:07:48.04,0:07:51.80,Main Dialogue,Karen,0000,0000,0000,,Even my classmates talk to me politely.
+Dialogue: 0,0:07:51.80,0:07:53.55,Main Dialogue,Keita,0000,0000,0000,,I-Is that so?
+Dialogue: 0,0:07:53.55,0:07:54.38,Main Dialogue,Karen,0000,0000,0000,,Yup.
+Dialogue: 0,0:07:54.38,0:07:57.58,Main Dialogue,Karen,0000,0000,0000,,Even my teacher talked to me \Nin polite language the other day.
+Dialogue: 0,0:07:58.26,0:08:02.82,Main Dialogue,Karen,0000,0000,0000,,Heck, even King Koopa \Ntalks to me in polite language.
+Dialogue: 0,0:08:02.82,0:08:04.06,Main Dialogue,Keita,0000,0000,0000,,Wow...
+Dialogue: 0,0:08:04.06,0:08:06.08,Main Dialogue,Keita,0000,0000,0000,,Wait, no, that one's a lie!
+Dialogue: 0,0:08:06.39,0:08:08.05,Main Dialogue,Karen,0000,0000,0000,,No, it's true.
+Dialogue: 0,0:08:08.05,0:08:11.23,sign_11702_166_I_thank_you_for_,Text,0000,0000,0000,,{\fad(1,500)}I thank you for visiting me\Nin this treacherous weather.
+Dialogue: 0,0:08:12.43,0:08:13.68,Main Dialogue,Karen,0000,0000,0000,,Maybe it was a bug.
+Dialogue: 0,0:08:13.68,0:08:14.61,Main Dialogue,Keita,0000,0000,0000,,That's obviously a bug!
+Dialogue: 0,0:08:14.61,0:08:17.39,Main Dialogue,Keita,0000,0000,0000,,How do you even get that to happen?
+Dialogue: 0,0:08:17.39,0:08:20.17,Main Dialogue,Karen,0000,0000,0000,,Like when I pulled three all-nighters \Nin a row trying to beat
+Dialogue: 0,0:08:20.17,0:08:22.14,Main Dialogue,Karen,0000,0000,0000,,the speedrun world record?
+Dialogue: 0,0:08:24.65,0:08:26.18,Main Dialogue,Keita,0000,0000,0000,,You were dreaming, then!
+Dialogue: 0,0:08:26.18,0:08:27.90,Main Dialogue,Keita,0000,0000,0000,,That's clearly a dream!
+Dialogue: 0,0:08:27.90,0:08:30.65,Main Dialogue,Keita,0000,0000,0000,,{\i1}You're{\i0} the one that was glitched, Tendou-san!
+Dialogue: 0,0:08:31.91,0:08:34.58,Main Dialogue,Karen,0000,0000,0000,,Sorry, I went off-topic.
+Dialogue: 0,0:08:34.58,0:08:35.54,Main Dialogue,Keita,0000,0000,0000,,It's okay.
+Dialogue: 0,0:08:35.98,0:08:40.29,Main Dialogue,Keita,0000,0000,0000,,Uh, I'm actually surprised \Nthat you like gaming.
+Dialogue: 0,0:08:40.29,0:08:43.72,Main Dialogue,Karen,0000,0000,0000,,I haven't really told my friends about it.
+Dialogue: 0,0:08:43.72,0:08:48.75,Main Dialogue,Karen,0000,0000,0000,,Actually, I came to Otobuki because \NI'd heard it had a famous game club.
+Dialogue: 0,0:08:49.99,0:08:53.57,Main Dialogue,Karen,0000,0000,0000,,It fell apart before we entered, though.
+Dialogue: 0,0:08:54.81,0:08:57.43,Main Dialogue,Keita,0000,0000,0000,,I-Is that so?
+Dialogue: 0,0:08:57.87,0:08:58.85,Main Dialogue,Karen,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:59.27,0:08:59.93,Main Dialogue,Karen,0000,0000,0000,,So...
+Dialogue: 0,0:09:01.52,0:09:02.38,Main Dialogue,Karen,0000,0000,0000,,Last year,
+Dialogue: 0,0:09:02.38,0:09:08.74,Main Dialogue,Karen,0000,0000,0000,,I worked behind the scenes to revive it, \Nand this year, I managed to succeed.
+Dialogue: 0,0:09:08.74,0:09:11.01,Main Dialogue,Keita,0000,0000,0000,,C-Congratulations.
+Dialogue: 0,0:09:11.01,0:09:12.05,Main Dialogue,Karen,0000,0000,0000,,Thank you.
+Dialogue: 0,0:09:12.99,0:09:16.85,Main Dialogue,Keita,0000,0000,0000,,So, uh, what exactly is the game club?
+Dialogue: 0,0:09:18.04,0:09:19.87,Main Dialogue,Karen,0000,0000,0000,,Yeah, that's an obvious question to ask.
+Dialogue: 0,0:09:20.91,0:09:24.74,Main Dialogue,Karen,0000,0000,0000,,But we don't {\i1}just{\i0} play games.
+Dialogue: 0,0:09:24.74,0:09:28.02,Main Dialogue,Karen,0000,0000,0000,,We play seriously, as club work.
+Dialogue: 0,0:09:28.02,0:09:29.63,Main Dialogue,Keita,0000,0000,0000,,I see.
+Dialogue: 0,0:09:30.07,0:09:36.19,Main Dialogue,Karen,0000,0000,0000,,So I've been looking for new members \Nwho are undeniably true gamers.
+Dialogue: 0,0:09:37.05,0:09:40.36,Main Dialogue,Karen,0000,0000,0000,,That's when I found you.
+Dialogue: 0,0:09:48.21,0:09:54.07,Main Dialogue,Karen,0000,0000,0000,,So would you be willing to come visit \Nthe game club sometime? Please?
+Dialogue: 0,0:09:58.44,0:09:59.55,Main Dialogue,Karen,0000,0000,0000,,Amano-kun?
+Dialogue: 0,0:10:03.79,0:10:05.33,Main Dialogue,Karen,0000,0000,0000,,M-Mom!
+Dialogue: 0,0:10:05.97,0:10:08.32,Main Dialogue,Karen,0000,0000,0000,,Sorry, I have a curfew.
+Dialogue: 0,0:10:08.32,0:10:09.83,Main Dialogue,Karen,0000,0000,0000,,Anyway, think about it.
+Dialogue: 0,0:10:11.38,0:10:12.34,Main Dialogue,Karen,0000,0000,0000,,See you!
+Dialogue: 0,0:10:12.34,0:10:15.80,Main Dialogue,Karen,0000,0000,0000,,Wait for me in class after school tomorrow.
+Dialogue: 0,0:10:16.76,0:10:17.42,Main Dialogue,Keita,0000,0000,0000,,Okay.
+Dialogue: 0,0:10:18.65,0:10:20.03,Main Dialogue,Keita,0000,0000,0000,,Goodbye.
+Dialogue: 0,0:10:33.64,0:10:34.86,Main Dialogue,Keita,0000,0000,0000,,Game club!
+Dialogue: 0,0:10:36.90,0:10:39.98,Main Dialogue,Keita,0000,0000,0000,,Who would have thought there'd be \Nsuch a huge event in my life?
+Dialogue: 0,0:10:39.98,0:10:41.61,Main Dialogue,Keita,0000,0000,0000,,This isn't a dream, is it?
+Dialogue: 0,0:10:41.61,0:10:43.62,Main Dialogue,Keita,0000,0000,0000,,No way... But...
+Dialogue: 0,0:10:57.24,0:10:58.95,Main Dialogue,Keita,0000,0000,0000,,Oh.
+Dialogue: 0,0:10:58.38,0:10:58.94,sign_15786_213_96_seconds_remai,,0000,0000,0000,,96 {\c&HE7DDCA&}seconds remaining
+Dialogue: 0,0:10:58.38,0:11:00.63,sign_15786_210_Mono_san_is_requ,Text,0000,0000,0000,,Mono-san is requesting assistance.
+Dialogue: 0,0:10:58.38,0:11:00.63,sign_15786_211_Accept,Text,0000,0000,0000,,Accept
+Dialogue: 0,0:10:58.38,0:11:00.63,sign_15786_212_Decline,Text,0000,0000,0000,,Decline
+Dialogue: 0,0:10:58.94,0:10:59.94,sign_15786_213_96_seconds_remai,Text,0000,0000,0000,,95 {\c&HE7DDCA&}seconds remaining
+Dialogue: 0,0:10:58.95,0:11:00.63,Main Dialogue,Keita,0000,0000,0000,,It's Mono-san.
+Dialogue: 0,0:10:59.94,0:11:00.63,sign_15786_213_96_seconds_remai,Text,0000,0000,0000,,94 {\c&HE7DDCA&}seconds remaining
+Dialogue: 0,0:11:22.49,0:11:23.17,Main Dialogue,A,0000,0000,0000,,Let's go.
+Dialogue: 0,0:11:23.17,0:11:24.57,Main Dialogue,B,0000,0000,0000,,What do you want to do today?
+Dialogue: 0,0:11:24.57,0:11:25.68,Main Dialogue,C,0000,0000,0000,,Want to go for karaoke again?
+Dialogue: 0,0:11:25.68,0:11:28.02,Italics Dialogue,Keita,0000,0000,0000,,I-I need to calm down.
+Dialogue: 0,0:11:35.00,0:11:36.38,sign_16664_221_Mono_san_is__req,Text,0000,0000,0000,,Mono-san is \Nrequesting assistance.
+Dialogue: 0,0:11:35.00,0:11:36.38,sign_16664_222_Accept,Text,0000,0000,0000,,Accept
+Dialogue: 0,0:11:35.00,0:11:36.38,sign_16664_223_Decline,Text,0000,0000,0000,,Decline
+Dialogue: 0,0:11:40.57,0:11:42.38,Main Dialogue,Karen,0000,0000,0000,,Sorry I'm late.
+Dialogue: 0,0:11:42.70,0:11:45.39,Main Dialogue,Keita,0000,0000,0000,,It's fine! I was killing time.
+Dialogue: 0,0:11:45.84,0:11:49.36,Main Dialogue,Karen,0000,0000,0000,,Wow, you play social network games too, huh?
+Dialogue: 0,0:11:49.36,0:11:51.24,Italics Dialogue,Keita,0000,0000,0000,,T-Too close!
+Dialogue: 0,0:11:53.83,0:11:54.81,Italics Dialogue,Keita,0000,0000,0000,,God in Heaven!
+Dialogue: 0,0:11:54.81,0:11:58.69,Main Dialogue,Keita,0000,0000,0000,,T-Tendou-san, never mind that. \NLet's just go to the club room already.
+Dialogue: 0,0:11:58.69,0:11:59.36,Main Dialogue,Karen,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:59.36,0:12:00.43,Main Dialogue,Karen,0000,0000,0000,,Oh, yeah.
+Dialogue: 0,0:12:00.43,0:12:02.61,Main Dialogue,Karen,0000,0000,0000,,You're right. Let's go.
+Dialogue: 0,0:12:05.37,0:12:07.49,sign_17392_233_Request_declined,Text,0000,0000,0000,,Request declined.
+Dialogue: 0,0:12:07.49,0:12:09.49,Italics Dialogue,Karen,0000,0000,0000,,Sorry, Mono-san.
+Dialogue: 0,0:12:10.18,0:12:13.16,Italics Dialogue,Karen,0000,0000,0000,,The dating sim gods have chosen me.
+Dialogue: 0,0:12:17.51,0:12:20.01,Main Dialogue,Eiichi,0000,0000,0000,,Hello! My name is Misumi Eiichi.
+Dialogue: 0,0:12:22.23,0:12:24.71,Main Dialogue,Keita,0000,0000,0000,,U-Um... Tendou-san?
+Dialogue: 0,0:12:24.71,0:12:26.79,Main Dialogue,Karen,0000,0000,0000,,Oh, didn't I tell you?
+Dialogue: 0,0:12:26.79,0:12:29.86,Main Dialogue,Karen,0000,0000,0000,,I had actually invited \Nanother member already.
+Dialogue: 0,0:12:29.86,0:12:32.84,Main Dialogue,Karen,0000,0000,0000,,Misumi-kun, this is \NAmano Keita-kun from Class F.
+Dialogue: 0,0:12:32.84,0:12:35.15,Main Dialogue,Keita,0000,0000,0000,,N-Nice to meet you.
+Dialogue: 0,0:12:35.81,0:12:38.97,Main Dialogue,Karen,0000,0000,0000,,He was glued to a block \Npuzzle game at the arcade.
+Dialogue: 0,0:12:38.97,0:12:41.11,Main Dialogue,Eiichi,0000,0000,0000,,Don't tell people that! Jeez!
+Dialogue: 0,0:12:41.11,0:12:42.65,Main Dialogue,Eiichi,0000,0000,0000,,It's embarrassing!
+Dialogue: 0,0:12:42.65,0:12:43.91,Main Dialogue,Karen,0000,0000,0000,,Why?
+Dialogue: 0,0:12:43.91,0:12:46.59,Main Dialogue,Karen,0000,0000,0000,,You were unbelievably good at it.
+Dialogue: 0,0:12:46.59,0:12:48.28,Main Dialogue,Eiichi,0000,0000,0000,,No, that's not true.
+Dialogue: 0,0:12:48.28,0:12:51.65,Italics Dialogue,Keita,0000,0000,0000,,I want to smack myself for \Nthinking I was the chosen one!
+Dialogue: 0,0:12:53.05,0:12:54.41,Main Dialogue,Eiichi,0000,0000,0000,,Amano-kun...
+Dialogue: 0,0:12:54.41,0:12:58.82,Main Dialogue,Eiichi,0000,0000,0000,,You know, I don't really have many friends.
+Dialogue: 0,0:12:59.45,0:13:00.34,Main Dialogue,Eiichi,0000,0000,0000,,So...
+Dialogue: 0,0:13:01.84,0:13:05.59,Main Dialogue,Eiichi,0000,0000,0000,,I'd be happy if we could be friends.
+Dialogue: 0,0:13:09.30,0:13:11.00,Main Dialogue,Keita,0000,0000,0000,,Th-Thank you!
+Dialogue: 0,0:13:11.00,0:13:13.31,Main Dialogue,Eiichi,0000,0000,0000,,Th-Thank you, too.
+Dialogue: 0,0:13:18.94,0:13:22.94,Main Dialogue,Eiichi,0000,0000,0000,,I'm surprised the school \Napproved of a game club, though.
+Dialogue: 0,0:13:22.94,0:13:24.33,Main Dialogue,Karen,0000,0000,0000,,I know.
+Dialogue: 0,0:13:24.33,0:13:28.90,Main Dialogue,Karen,0000,0000,0000,,But we work more properly \Nthan you guys might think.
+Dialogue: 0,0:13:28.90,0:13:29.78,Main Dialogue,Keita,0000,0000,0000,,Properly?
+Dialogue: 0,0:13:30.57,0:13:33.95,Main Dialogue,Karen,0000,0000,0000,,Well, seeing is believing.
+Dialogue: 0,0:13:38.89,0:13:41.67,Main Dialogue,Karen,0000,0000,0000,,Welcome to the game club.
+Dialogue: 0,0:13:40.17,0:13:41.67,Game Club1,,0000,0000,0000,,Game Club
+Dialogue: 0,0:13:46.84,0:13:48.18,Main Dialogue,Eiichi,0000,0000,0000,,Pardon me.
+Dialogue: 0,0:13:50.84,0:13:53.14,Main Dialogue,Eiichi,0000,0000,0000,,Wow, there really are games everywhere.
+Dialogue: 0,0:13:56.48,0:13:59.11,Main Dialogue,Karen,0000,0000,0000,,Sorry. Senpai isn't very approachable.
+Dialogue: 0,0:13:59.11,0:14:01.01,Main Dialogue,A,0000,0000,0000,,You're so rude.
+Dialogue: 0,0:14:01.01,0:14:03.18,Main Dialogue,A,0000,0000,0000,,How exactly am I not approachable?
+Dialogue: 0,0:14:03.18,0:14:05.86,Main Dialogue,Karen,0000,0000,0000,,Come on! You're super unapproachable.
+Dialogue: 0,0:14:07.99,0:14:09.32,Main Dialogue,Karen,0000,0000,0000,,I'll make introductions.
+Dialogue: 0,0:14:09.32,0:14:12.53,Main Dialogue,Karen,0000,0000,0000,,This wannabe-cool guy with \Nglasses is Kase Gakuto-Senpai.
+Dialogue: 0,0:14:12.53,0:14:13.37,Main Dialogue,Gakuto,0000,0000,0000,,You...
+Dialogue: 0,0:14:13.69,0:14:15.75,Main Dialogue,Keita,0000,0000,0000,,N-Nice to meet you.
+Dialogue: 0,0:14:16.37,0:14:20.67,Main Dialogue,Karen,0000,0000,0000,,The lady over there playing a \Nfighting game is Oohiso Niina-senpai.
+Dialogue: 0,0:14:23.10,0:14:28.59,Main Dialogue,Karen,0000,0000,0000,,Uh, as you can see, she's a bit distant \Nwhen she's playing fighting games. Yes.
+Dialogue: 0,0:14:29.00,0:14:30.66,Main Dialogue,Eiichi,0000,0000,0000,,That's amazing.
+Dialogue: 0,0:14:30.66,0:14:32.41,Main Dialogue,Karen,0000,0000,0000,,You may not believe it from how he looks,
+Dialogue: 0,0:14:32.41,0:14:35.68,Main Dialogue,Karen,0000,0000,0000,,but Kase-senpai is one of the \Ntop FPS players in the world.
+Dialogue: 0,0:14:35.68,0:14:36.66,Main Dialogue,Keita,0000,0000,0000,,Huh...
+Dialogue: 0,0:14:36.66,0:14:38.56,Main Dialogue,Gakuto,0000,0000,0000,,What do you mean, "from how I look"?
+Dialogue: 0,0:14:41.06,0:14:42.93,Main Dialogue,Keita,0000,0000,0000,,Whoa, COS!
+Dialogue: 0,0:14:42.93,0:14:43.78,Main Dialogue,Eiichi,0000,0000,0000,,Wow.
+Dialogue: 0,0:14:43.78,0:14:45.77,Main Dialogue,Eiichi,0000,0000,0000,,I've never seen a game like this one.
+Dialogue: 0,0:14:46.49,0:14:49.31,Main Dialogue,Karen,0000,0000,0000,,Is this your first time \Nseeing an FPS, Misumi-kun?
+Dialogue: 0,0:14:49.31,0:14:51.86,Main Dialogue,Eiichi,0000,0000,0000,,Beyond block puzzles, I'm clueless.
+Dialogue: 0,0:14:51.86,0:14:53.45,Main Dialogue,Keita,0000,0000,0000,,O-Oh, really?
+Dialogue: 0,0:14:56.52,0:14:57.95,Main Dialogue,Keita,0000,0000,0000,,Another headshot.
+Dialogue: 0,0:14:58.28,0:15:02.73,Main Dialogue,Karen,0000,0000,0000,,Also, we bought everything here \Nusing prize money from competitions.
+Dialogue: 0,0:15:02.73,0:15:03.75,Main Dialogue,Keita,0000,0000,0000,,Prize money?
+Dialogue: 0,0:15:03.75,0:15:08.38,Main Dialogue,Eiichi,0000,0000,0000,,So that's what you meant when \Nyou said you work properly.
+Dialogue: 0,0:15:09.14,0:15:12.14,Main Dialogue,Karen,0000,0000,0000,,Now, it's no fun just watching.
+Dialogue: 0,0:15:12.14,0:15:13.57,Main Dialogue,Karen,0000,0000,0000,,You guys should play, too.
+Dialogue: 0,0:15:15.17,0:15:17.10,Main Dialogue,Gakuto,0000,0000,0000,,Let's see what you've got.
+Dialogue: 0,0:15:19.27,0:15:20.60,sign_22034_292_Game_1,Text,0000,0000,0000,,Game 1
+Dialogue: 0,0:15:22.49,0:15:24.06,Main Dialogue,Keita,0000,0000,0000,,That was so fun.
+Dialogue: 0,0:15:24.06,0:15:24.98,Main Dialogue,Gakuto,0000,0000,0000,,One more.
+Dialogue: 0,0:15:26.65,0:15:27.98,sign_22034_292_Game_1,Text,0000,0000,0000,,Game 5
+Dialogue: 0,0:15:30.17,0:15:32.00,Main Dialogue,Keita,0000,0000,0000,,I'm getting a bit tired.
+Dialogue: 0,0:15:32.00,0:15:33.00,Main Dialogue,Gakuto,0000,0000,0000,,We're going again.
+Dialogue: 0,0:15:33.00,0:15:33.57,Main Dialogue,Gakuto,0000,0000,0000,,Get ready.
+Dialogue: 0,0:15:35.12,0:15:36.45,sign_22034_292_Game_1,Keita,0000,0000,0000,,Game 30
+Dialogue: 0,0:15:37.90,0:15:39.64,Main Dialogue,Keita,0000,0000,0000,,Good work, everyone.
+Dialogue: 0,0:15:39.64,0:15:40.81,Main Dialogue,Keita,0000,0000,0000,,How about a brea—
+Dialogue: 0,0:15:40.81,0:15:42.58,Main Dialogue,Gakuto,0000,0000,0000,,We're all waiting on you. Hurry up.
+Dialogue: 0,0:15:44.73,0:15:47.96,sign_22651_304_Two_hours_later_,Text,0000,0000,0000,,Two hours later...
+Dialogue: 0,0:15:50.01,0:15:53.21,Main Dialogue,Karen,0000,0000,0000,,Kase-senpai, you should go easy on him.
+Dialogue: 0,0:15:53.21,0:15:56.95,Main Dialogue,Gakuto,0000,0000,0000,,In my mind, there's no such thing as \N"going easy" when it comes to FPS games.
+Dialogue: 0,0:15:56.95,0:15:58.92,Main Dialogue,Karen,0000,0000,0000,,You're such a crank.
+Dialogue: 0,0:15:58.92,0:16:01.14,Main Dialogue,Karen,0000,0000,0000,,You're going to scare away our new members.
+Dialogue: 0,0:16:01.48,0:16:05.41,Main Dialogue,Keita,0000,0000,0000,,Y-You're awesome, though, Kase-senpai.
+Dialogue: 0,0:16:05.41,0:16:07.73,Main Dialogue,Keita,0000,0000,0000,,The bots were so strong, too.
+Dialogue: 0,0:16:08.06,0:16:10.10,Main Dialogue,Gakuto,0000,0000,0000,,They were all scrubs.
+Dialogue: 0,0:16:11.42,0:16:15.32,Main Dialogue,Gakuto,0000,0000,0000,,Although, is this really your \Nfirst time playing this game?
+Dialogue: 0,0:16:15.32,0:16:18.74,Main Dialogue,Gakuto,0000,0000,0000,,I've never had a newbie \Nkill me three times before.
+Dialogue: 0,0:16:18.74,0:16:19.35,sign_23480_314_POINTS,Text,0000,0000,0000,,{\fad(1,100)}POINTS  KILLS  ASSISTS  DEATHS
+Dialogue: 0,0:16:19.31,0:16:21.96,sign_23480_315_KILLS,Text,0000,0000,0000,,KILLS        ASSISTS        DEATHS
+Dialogue: 0,0:16:21.96,0:16:23.96,Main Dialogue,Eiichi,0000,0000,0000,,I-I just got lucky.
+Dialogue: 0,0:16:23.96,0:16:27.21,Main Dialogue,Eiichi,0000,0000,0000,,I was imitating your motions, that's all.
+Dialogue: 0,0:16:27.52,0:16:29.24,Main Dialogue,Keita,0000,0000,0000,,That's amazing, Misumi-kun!
+Dialogue: 0,0:16:29.24,0:16:31.48,Main Dialogue,Keita,0000,0000,0000,,Are you sure you haven't played before?
+Dialogue: 0,0:16:31.48,0:16:34.27,Main Dialogue,Eiichi,0000,0000,0000,,Yeah, this really is my first time.
+Dialogue: 0,0:16:34.27,0:16:36.22,Main Dialogue,Eiichi,0000,0000,0000,,It turns out it's surprisingly fun, huh?
+Dialogue: 0,0:16:36.22,0:16:38.76,Main Dialogue,Karen,0000,0000,0000,,This is huge, Misumi-kun!
+Dialogue: 0,0:16:39.82,0:16:41.14,Main Dialogue,Eiichi,0000,0000,0000,,You're embarrassing me.
+Dialogue: 0,0:16:41.14,0:16:43.84,Main Dialogue,Gakuto,0000,0000,0000,,You actually have promise.
+Dialogue: 0,0:16:43.84,0:16:47.47,Main Dialogue,Gakuto,0000,0000,0000,,The observational skills to steal \Ntechniques from other players
+Dialogue: 0,0:16:47.47,0:16:50.35,Main Dialogue,Gakuto,0000,0000,0000,,are an absolute requirement \Nfor becoming better at FPS games.
+Dialogue: 0,0:16:50.35,0:16:52.17,Main Dialogue,Eiichi,0000,0000,0000,,Thank you.
+Dialogue: 0,0:16:52.17,0:16:53.91,Main Dialogue,Gakuto,0000,0000,0000,,On the other hand...
+Dialogue: 0,0:16:53.91,0:16:54.86,Main Dialogue,Gakuto,0000,0000,0000,,You.
+Dialogue: 0,0:16:54.86,0:16:55.99,Main Dialogue,Keita,0000,0000,0000,,Y-Yes?
+Dialogue: 0,0:16:56.59,0:16:59.99,Main Dialogue,Gakuto,0000,0000,0000,,What the hell were you doing, \Njumping up and down on the car?
+Dialogue: 0,0:16:59.99,0:17:05.62,Main Dialogue,Keita,0000,0000,0000,,Oh, I thought I might get to see \Nsome really pretty scenery.
+Dialogue: 0,0:17:05.62,0:17:09.32,Main Dialogue,Gakuto,0000,0000,0000,,Can't you tell you're making \Nthings harder for your team?
+Dialogue: 0,0:17:11.84,0:17:15.88,Main Dialogue,Karen,0000,0000,0000,,I-It's okay. Senpai is just really passionate \Nwhen it comes to FPS games.
+Dialogue: 0,0:17:15.88,0:17:17.33,Main Dialogue,Karen,0000,0000,0000,,Sorry, Amano-kun.
+Dialogue: 0,0:17:17.33,0:17:18.62,Main Dialogue,Keita,0000,0000,0000,,I-It's fine.
+Dialogue: 0,0:17:21.31,0:17:25.10,Main Dialogue,Karen,0000,0000,0000,,Wh-Why don't we all take a break, okay?
+Dialogue: 0,0:17:34.15,0:17:35.80,Main Dialogue,Karen,0000,0000,0000,,It feels so nice.
+Dialogue: 0,0:17:37.14,0:17:38.61,Main Dialogue,Keita,0000,0000,0000,,I'm impressed.
+Dialogue: 0,0:17:38.61,0:17:40.53,Main Dialogue,Keita,0000,0000,0000,,After all the playing we just did...
+Dialogue: 0,0:17:40.53,0:17:44.13,Main Dialogue,Karen,0000,0000,0000,,They both really love gaming.
+Dialogue: 0,0:17:44.13,0:17:46.73,Main Dialogue,Karen,0000,0000,0000,,More than they love eating every day, even.
+Dialogue: 0,0:17:46.73,0:17:47.87,Main Dialogue,Keita,0000,0000,0000,,Uh-huh.
+Dialogue: 0,0:17:50.18,0:17:54.54,Main Dialogue,Karen,0000,0000,0000,,By the way, why did you guys become gamers?
+Dialogue: 0,0:17:55.17,0:17:56.26,Main Dialogue,Keita,0000,0000,0000,,Why?
+Dialogue: 0,0:17:56.26,0:17:57.30,Main Dialogue,Karen,0000,0000,0000,,Yeah.
+Dialogue: 0,0:17:57.30,0:17:59.39,Main Dialogue,Karen,0000,0000,0000,,Did you have a specific reason?
+Dialogue: 0,0:17:59.74,0:18:01.14,Main Dialogue,Keita,0000,0000,0000,,A reason?
+Dialogue: 0,0:18:01.14,0:18:06.05,Main Dialogue,Karen,0000,0000,0000,,Kase-senpai was trained really hard \Nby his mercenary dad as a kid,
+Dialogue: 0,0:18:06.05,0:18:08.65,Main Dialogue,Karen,0000,0000,0000,,so he became crazy good at FPS games.
+Dialogue: 0,0:18:08.65,0:18:13.69,Main Dialogue,Karen,0000,0000,0000,,Niina-senpai is apparently bettering herself\Nto try to bring her best friend
+Dialogue: 0,0:18:13.69,0:18:15.40,Main Dialogue,Karen,0000,0000,0000,,back from the dark side.
+Dialogue: 0,0:18:15.40,0:18:17.03,Game Club,Text,0000,0000,0000,,Game Club
+Dialogue: 0,0:18:15.40,0:18:17.03,Italics Dialogue,Keita,0000,0000,0000,,What's the deal with this club?
+Dialogue: 0,0:18:17.36,0:18:19.46,Main Dialogue,Keita,0000,0000,0000,,Uh, I...
+Dialogue: 0,0:18:19.46,0:18:20.52,Main Dialogue,Karen,0000,0000,0000,,Yeah?
+Dialogue: 0,0:18:20.52,0:18:23.27,Main Dialogue,Keita,0000,0000,0000,,I just kind of like gaming.
+Dialogue: 0,0:18:27.81,0:18:30.04,Italics Dialogue,Keita,0000,0000,0000,,What's with this vibe?
+Dialogue: 0,0:18:30.04,0:18:31.70,Main Dialogue,Karen,0000,0000,0000,,Oh, of course.
+Dialogue: 0,0:18:31.70,0:18:33.67,Main Dialogue,Karen,0000,0000,0000,,That's a good reason, too.
+Dialogue: 0,0:18:33.67,0:18:34.99,Main Dialogue,Karen,0000,0000,0000,,What about you, Misumi-kun?
+Dialogue: 0,0:18:34.99,0:18:38.41,Main Dialogue,Eiichi,0000,0000,0000,,I, uh... What can I say?
+Dialogue: 0,0:18:38.41,0:18:41.08,Main Dialogue,Eiichi,0000,0000,0000,,I don't have a very good reason, either.
+Dialogue: 0,0:18:41.64,0:18:42.93,Italics Dialogue,Keita,0000,0000,0000,,Thank goodness.
+Dialogue: 0,0:18:42.93,0:18:47.50,Main Dialogue,Eiichi,0000,0000,0000,,I lost all of my memories, and the only thing \NI was good at was that block puzzle.
+Dialogue: 0,0:18:47.93,0:18:50.78,Main Dialogue,Eiichi,0000,0000,0000,,Sorry, that kind of killed the conversation.
+Dialogue: 0,0:18:50.78,0:18:53.16,Italics Dialogue,Keita,0000,0000,0000,,Traitor!
+Dialogue: 0,0:18:50.78,0:18:53.82,Main Dialogue,Karen,0000,0000,0000,,Everyone's got their own reasons, huh?
+Dialogue: 0,0:18:54.45,0:18:55.40,Main Dialogue,Karen,0000,0000,0000,,Ahem.
+Dialogue: 0,0:18:55.40,0:19:01.00,Main Dialogue,Karen,0000,0000,0000,,S-So, guys, do you have a better idea \Nof what the game club is about now?
+Dialogue: 0,0:19:01.00,0:19:01.47,Main Dialogue,Eiichi,0000,0000,0000,,Yes.
+Dialogue: 0,0:19:01.47,0:19:02.58,Main Dialogue,Keita,0000,0000,0000,,Y-Yes.
+Dialogue: 0,0:19:02.58,0:19:03.47,Main Dialogue,Karen,0000,0000,0000,,Yup.
+Dialogue: 0,0:19:03.47,0:19:05.99,Main Dialogue,Karen,0000,0000,0000,,I'm sure our senpai were a bit scary,
+Dialogue: 0,0:19:05.99,0:19:09.29,Main Dialogue,Karen,0000,0000,0000,,but they're basically just game addicts, \Nso don't let them get to you.
+Dialogue: 0,0:19:09.93,0:19:14.04,Main Dialogue,Karen,0000,0000,0000,,You don't have to be really good \Nat gaming or anything, either.
+Dialogue: 0,0:19:14.04,0:19:19.30,Main Dialogue,Karen,0000,0000,0000,,The game club's mission is just to \Nmake ourselves better gamers.
+Dialogue: 0,0:19:19.61,0:19:25.43,Main Dialogue,Karen,0000,0000,0000,,So I just want us to really work hard at it.
+Dialogue: 0,0:19:25.43,0:19:26.36,Main Dialogue,Eiichi,0000,0000,0000,,Yes.
+Dialogue: 0,0:19:26.36,0:19:28.28,Main Dialogue,Eiichi,0000,0000,0000,,I had a lot of fun today.
+Dialogue: 0,0:19:28.28,0:19:29.98,Main Dialogue,Eiichi,0000,0000,0000,,Please let me join.
+Dialogue: 0,0:19:29.98,0:19:31.41,Main Dialogue,Karen,0000,0000,0000,,Thanks!
+Dialogue: 0,0:19:31.41,0:19:32.69,Main Dialogue,Karen,0000,0000,0000,,What about you, Amano-kun?
+Dialogue: 0,0:19:32.69,0:19:35.69,Main Dialogue,Karen,0000,0000,0000,,Would you be in the game club with me?
+Dialogue: 0,0:19:37.80,0:19:40.82,Main Dialogue,Keita,0000,0000,0000,,Tendou-san... Misumi-kun...
+Dialogue: 0,0:19:40.82,0:19:42.50,Main Dialogue,Gakuto,0000,0000,0000,,You're going to need help.
+Dialogue: 0,0:19:42.50,0:19:45.87,Main Dialogue,Gakuto,0000,0000,0000,,I'll teach you the basics of FPS games.
+Dialogue: 0,0:19:52.30,0:19:53.75,Main Dialogue,Gakuto,0000,0000,0000,,Senpai...
+Dialogue: 0,0:19:54.79,0:19:58.25,Italics Dialogue,Keita,0000,0000,0000,,My first friends since I started high school.
+Dialogue: 0,0:19:58.68,0:20:02.51,Italics Dialogue,Keita,0000,0000,0000,,They're a bit hard to talk to, \Nbut they're kind.
+Dialogue: 0,0:20:02.95,0:20:05.83,Italics Dialogue,Keita,0000,0000,0000,,And Tendou-san's smile...
+Dialogue: 0,0:20:08.27,0:20:12.48,Italics Dialogue,Keita,0000,0000,0000,,An ideal school life, surrounded \Nby my beloved games.
+Dialogue: 0,0:20:12.48,0:20:15.42,Italics Dialogue,Keita,0000,0000,0000,,Could things get any better?
+Dialogue: 0,0:20:19.28,0:20:21.84,Main Dialogue,Keita,0000,0000,0000,,No, thank you. I'll pass.
+Dialogue: 0,0:20:21.84,0:20:24.28,Main Dialogue,Keita,0000,0000,0000,,It doesn't look like this club plays \Nany of the games I want to.
+Dialogue: 0,0:20:26.17,0:20:26.78,Main Dialogue,A,0000,0000,0000,,Huh?
+Dialogue: 0,0:20:33.39,0:20:35.07,Italics Dialogue,Keita,0000,0000,0000,,You idiot!
+Dialogue: 0,0:20:35.07,0:20:35.65,Italics Dialogue,Keita,0000,0000,0000,,Why?
+Dialogue: 0,0:20:35.65,0:20:36.76,Italics Dialogue,Keita,0000,0000,0000,,Why did you turn it down?
+Dialogue: 0,0:20:36.76,0:20:38.66,Italics Dialogue,Keita,0000,0000,0000,,Wasn't it the invitation of my dreams?
+Dialogue: 0,0:20:38.66,0:20:40.44,Italics Dialogue,Keita,0000,0000,0000,,What am I, stupid? Am I dead?
+Dialogue: 0,0:20:46.30,0:20:47.07,sign_29882_408_20_seconds_remai,,0000,0000,0000,,20{\c&HE7DDCA&} seconds remaining
+Dialogue: 0,0:20:46.30,0:20:48.55,sign_16664_221_Mono_san_is__req,Text,0000,0000,0000,,Mono-san is requesting assistance.
+Dialogue: 0,0:20:46.30,0:20:48.55,sign_16664_222_Accept,Text,0000,0000,0000,,Accept
+Dialogue: 0,0:20:46.30,0:20:48.55,sign_16664_223_Decline,Text,0000,0000,0000,,Decline
+Dialogue: 0,0:20:47.07,0:20:48.08,sign_29882_408_20_seconds_remai,Text,0000,0000,0000,,19{\c&HE7DDCA&} seconds remaining
+Dialogue: 0,0:20:48.08,0:20:48.55,sign_29882_408_20_seconds_remai,,0000,0000,0000,,18{\c&HE7DDCA&} seconds remaining
+Dialogue: 0,0:20:50.89,0:20:52.74,Main Dialogue,Keita,0000,0000,0000,,T-Tendou-san?!
+Dialogue: 0,0:20:54.29,0:20:56.58,Main Dialogue,Karen,0000,0000,0000,,You're still playing that, huh?
+Dialogue: 0,0:20:57.15,0:20:59.61,Main Dialogue,Karen,0000,0000,0000,,N-Never mind that.
+Dialogue: 0,0:20:59.95,0:21:02.84,Main Dialogue,Karen,0000,0000,0000,,I still want you in our club, Amano-kun.
+Dialogue: 0,0:21:02.84,0:21:04.24,Main Dialogue,Karen,0000,0000,0000,,Please?
+Dialogue: 0,0:21:04.64,0:21:07.05,Main Dialogue,Karen,0000,0000,0000,,I'm kind of interested in you.
+Dialogue: 0,0:21:46.77,0:21:47.93,Main Dialogue,Keita,0000,0000,0000,,That was close.
+Dialogue: 0,0:21:47.93,0:21:50.13,Main Dialogue,Keita,0000,0000,0000,,We're safe for now.
+Dialogue: 0,0:21:51.77,0:21:53.62,Main Dialogue,Karen,0000,0000,0000,,A-Amano-kun...
+Dialogue: 0,0:21:54.25,0:21:57.91,Main Dialogue,Keita,0000,0000,0000,,N-No... I'm sorry! You were talking!
+Dialogue: 0,0:21:57.91,0:22:00.88,Main Dialogue,Keita,0000,0000,0000,,Ugh, how could I be so rude?
+Dialogue: 0,0:22:02.01,0:22:03.63,Main Dialogue,Karen,0000,0000,0000,,Th-Then...
+Dialogue: 0,0:22:07.34,0:22:09.15,Main Dialogue,Keita,0000,0000,0000,,I'm sorry, though.
+Dialogue: 0,0:22:09.91,0:22:12.51,Main Dialogue,Keita,0000,0000,0000,,I can't join the game club.
+Dialogue: 0,0:22:13.77,0:22:17.51,Main Dialogue,Karen,0000,0000,0000,,A-Are you worried that you \Nmight not be good enough?
+Dialogue: 0,0:22:17.51,0:22:22.12,Main Dialogue,Karen,0000,0000,0000,,In that case, don't worry. Kase-senpai takes \Ngood care of people, believe it or not.
+Dialogue: 0,0:22:22.67,0:22:25.13,Main Dialogue,Keita,0000,0000,0000,,No, that's not it.
+Dialogue: 0,0:22:25.13,0:22:26.47,Main Dialogue,Keita,0000,0000,0000,,It's not about that.
+Dialogue: 0,0:22:26.47,0:22:28.03,Main Dialogue,Karen,0000,0000,0000,,Then what is it?
+Dialogue: 0,0:22:31.01,0:22:35.29,Main Dialogue,Keita,0000,0000,0000,,I want to play games for the enjoyment.
+Dialogue: 0,0:22:35.29,0:22:39.13,Main Dialogue,Keita,0000,0000,0000,,I guess I found out that I don't like \Nplaying for the competition.
+Dialogue: 0,0:22:41.30,0:22:44.98,Main Dialogue,Keita,0000,0000,0000,,So, um... I'm sorry, Tendou-san.
+Dialogue: 0,0:22:44.98,0:22:50.55,Main Dialogue,Keita,0000,0000,0000,,I think the game club is fantastic, but I \Nwant to keep gaming the way I like to play.
+Dialogue: 0,0:22:52.31,0:22:55.06,Main Dialogue,Karen,0000,0000,0000,,Why do I feel like I was just rejected?
+Dialogue: 0,0:22:55.06,0:22:58.73,Main Dialogue,Keita,0000,0000,0000,,Oh, but I'm really happy you invited me.
+Dialogue: 0,0:22:58.73,0:23:00.19,Main Dialogue,Keita,0000,0000,0000,,Thank you.
+Dialogue: 0,0:23:00.19,0:23:02.73,Main Dialogue,Karen,0000,0000,0000,,You're nothing to me.
+Dialogue: 0,0:23:02.73,0:23:04.15,Main Dialogue,Karen,0000,0000,0000,,You suck at games.
+Dialogue: 0,0:23:04.70,0:23:08.70,Main Dialogue,Karen,0000,0000,0000,,It's not like I enjoyed spending time with you...
+Dialogue: 0,0:23:08.70,0:23:11.69,Main Dialogue,Keita,0000,0000,0000,,Keep up the good work at the game club.
+Dialogue: 0,0:23:11.69,0:23:12.70,Main Dialogue,Keita,0000,0000,0000,,I'm rooting for you.
+Dialogue: 0,0:23:14.73,0:23:16.16,Main Dialogue,Karen,0000,0000,0000,,Sure, you're right.
+Dialogue: 0,0:23:34.76,0:23:36.59,Italics Dialogue,Keita,0000,0000,0000,,Did I make her angry?
+Dialogue: 0,0:23:41.52,0:23:45.98,sign_34083_444_Message_from_Mon,Text,0000,0000,0000,,Message from Mono-san
+Dialogue: 0,0:23:41.52,0:23:45.98,sign_34083_445_Thanks_again,Text,0000,0000,0000,,Thanks again

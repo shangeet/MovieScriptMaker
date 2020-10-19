@@ -1,0 +1,380 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Flashback_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Ep_Title,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&HC8000000,&H00000000,1,0,0,0,100,100,0,0,1,1,0,2,13,13,187,1
+Style: sign_33927_268_Next_Time,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00A7121E,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,365,365,155,1
+Style: sign_33927_269__Goblin_Slayer_,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00BB060A,&H00000000,1,0,0,0,100,100,0,0,1,1,0,2,329,332,185,1
+Style: Disclaimer,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,13,13,45,1
+Style: Narration,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,0,1,0,0,100,100,0,0,1,2,1,2,13,13,45,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.80,0:00:08.09,Narration,Nar,0000,0000,0000,,Long, long ago, when there were \Nfewer stars shining in the sky...
+Dialogue: 0,0:00:08.52,0:00:11.22,Narration,Nar,0000,0000,0000,,The gods of light, order, and fate
+Dialogue: 0,0:00:12.09,0:00:14.93,Narration,Nar,0000,0000,0000,,and the gods of darkness, \Nchaos, and coincidence
+Dialogue: 0,0:00:15.39,0:00:20.93,Narration,Nar,0000,0000,0000,,decided to throw dice in order to \Ndetermine which side would rule the world.
+Dialogue: 0,0:00:21.81,0:00:27.52,Narration,Nar,0000,0000,0000,,The gods threw the dice over \Nand over and over again,
+Dialogue: 0,0:00:27.52,0:00:29.57,Narration,Nar,0000,0000,0000,,until they began to feel faint.
+Dialogue: 0,0:02:05.96,0:02:09.92,Ep_Title,Sign,0000,0000,0000,,{\fad(271,1)}Unexpected Visitors
+Dialogue: 0,0:02:07.57,0:02:09.92,Main,greenhorn Warrior,0000,0000,0000,,Hey, look at that hottie over there!
+Dialogue: 0,0:02:10.59,0:02:11.76,Main,Apprentice Cleric,0000,0000,0000,,Hey.
+Dialogue: 0,0:02:11.76,0:02:13.21,Main,greenhorn warrior,0000,0000,0000,,Whoops. Sorry.
+Dialogue: 0,0:02:13.52,0:02:17.83,Main,Light warrior,0000,0000,0000,,She's a high elf. They're blood \Ndescendants of the faeries.
+Dialogue: 0,0:02:17.83,0:02:21.10,Main,Druid,0000,0000,0000,,She definitely has longer\Nears than other elves...
+Dialogue: 0,0:02:21.68,0:02:22.97,Main,High Elf Archer,0000,0000,0000,,I'm asking about Orcbolg.
+Dialogue: 0,0:02:23.34,0:02:25.35,Main,Guild girl,0000,0000,0000,,Oak...?
+Dialogue: 0,0:02:26.37,0:02:31.31,Main,High elf archer,0000,0000,0000,,No. Orc. Orcbolg. I heard that he was here.
+Dialogue: 0,0:02:31.54,0:02:33.59,Main,Guild girl,0000,0000,0000,,Are you referring to an adventurer?
+Dialogue: 0,0:02:34.02,0:02:35.28,Main,Dwarf shaman,0000,0000,0000,,You fool.
+Dialogue: 0,0:02:35.28,0:02:37.45,Main,Dwarf shaman,0000,0000,0000,,We're in the realm of the humans.
+Dialogue: 0,0:02:37.45,0:02:40.03,Main,Dwarf shaman,0000,0000,0000,,They won't understand your \Nfunny talk, long-ears.
+Dialogue: 0,0:02:40.41,0:02:43.34,Main,High elf archer,0000,0000,0000,,Then what exactly am I supposed to call him?
+Dialogue: 0,0:02:43.34,0:02:45.54,Main,Dwarf shaman,0000,0000,0000,,Beard-cutter, of course!
+Dialogue: 0,0:02:45.94,0:02:48.33,Main,Guild girl,0000,0000,0000,,Um... I'm afraid I've never \Nheard of them, either...
+Dialogue: 0,0:02:48.51,0:02:49.99,Main,Dwarf shaman,0000,0000,0000,,You haven't?
+Dialogue: 0,0:02:49.99,0:02:53.26,Main,High elf archer,0000,0000,0000,,You dwarfs are useless. \NYou're stubborn and narrow-minded.
+Dialogue: 0,0:02:53.26,0:02:55.61,Main,High elf archer,0000,0000,0000,,You always think you're \Nthe only ones who are right.
+Dialogue: 0,0:02:56.20,0:02:58.05,Main,Dwarf shaman,0000,0000,0000,,Look who's talking, elf.
+Dialogue: 0,0:02:58.05,0:03:01.14,Main,Dwarf shaman,0000,0000,0000,,Your chest is as flat as your heart is small.
+Dialogue: 0,0:03:01.14,0:03:01.97,Main,High elf archer,0000,0000,0000,,Wha—
+Dialogue: 0,0:03:02.09,0:03:04.94,Main,High elf archer,0000,0000,0000,,If we're gonna go there, \Ndwarf women just look like barrels!
+Dialogue: 0,0:03:04.94,0:03:06.30,Main,Dwarf shaman,0000,0000,0000,,You mean they're voluptuous!
+Dialogue: 0,0:03:06.30,0:03:08.58,Main,Guild girl,0000,0000,0000,,Um... Uh...
+Dialogue: 0,0:03:08.97,0:03:10.64,Main,Lizardman priest,0000,0000,0000,,Pardon me, you two,
+Dialogue: 0,0:03:10.64,0:03:13.77,Main,Lizardman priest,0000,0000,0000,,but if you're going to fight, \Ncould you do so where I can't see you?
+Dialogue: 0,0:03:14.24,0:03:17.50,Main,Lizardman priest,0000,0000,0000,,I apologize for the ruckus \Nmy companions have caused.
+Dialogue: 0,0:03:17.50,0:03:19.03,Main,Guild girl,0000,0000,0000,,Oh, it's fine. I'm used to it...
+Dialogue: 0,0:03:19.52,0:03:22.52,Italics,Guild girl,0000,0000,0000,,But what a strange party.
+Dialogue: 0,0:03:22.52,0:03:25.49,Italics,Guild girl,0000,0000,0000,,A high elf traveling with \Nher ancestral foe, a dwarf...
+Dialogue: 0,0:03:25.67,0:03:27.45,Italics,Guild girl,0000,0000,0000,,And a lizardman, a race you rarely see.
+Dialogue: 0,0:03:27.62,0:03:30.21,Italics,Guild girl,0000,0000,0000,,Not to mention they're all silver-ranked.
+Dialogue: 0,0:03:30.21,0:03:35.14,Main,Lizardman priest,0000,0000,0000,,You see, we're looking for a fellow whose \Nnicknames are "Orcbolg" and "Beard-cutter."
+Dialogue: 0,0:03:35.14,0:03:39.09,Main,Lizardman priest,0000,0000,0000,,I'm also not well-versed \Nin the human tongue, but...
+Dialogue: 0,0:03:39.65,0:03:41.90,Main,Lizardman priest,0000,0000,0000,,They mean "goblin slayer."
+Dialogue: 0,0:03:41.90,0:03:43.14,Main,Guild girl,0000,0000,0000,,Oh! Goblin...
+Dialogue: 0,0:03:52.18,0:03:53.27,Main,High elf archer,0000,0000,0000,,Hey, you!
+Dialogue: 0,0:03:53.86,0:03:55.09,Main,Goblin slayer,0000,0000,0000,,We're done.
+Dialogue: 0,0:03:55.09,0:03:57.82,Main,Guild girl,0000,0000,0000,,Welcome back, Goblin Slayer!
+Dialogue: 0,0:03:58.48,0:03:58.86,Main,High elf archer,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:59.35,0:04:00.99,Main,Priestess,0000,0000,0000,,We've returned.
+Dialogue: 0,0:04:01.35,0:04:03.22,Main,Guild girl,0000,0000,0000,,I'm glad you're safe.
+Dialogue: 0,0:04:03.22,0:04:04.70,Main,Priestess,0000,0000,0000,,Yes, somewhat.
+Dialogue: 0,0:04:05.24,0:04:07.45,Main,Goblin slayer,0000,0000,0000,,You just mentioned goblins. Where are they?
+Dialogue: 0,0:04:07.94,0:04:10.60,Main,Guild girl,0000,0000,0000,,Well... You should ask them.
+Dialogue: 0,0:04:12.22,0:04:13.34,Main,Goblin slayer,0000,0000,0000,,Are you goblins?
+Dialogue: 0,0:04:13.34,0:04:17.71,Main,High elf archer,0000,0000,0000,,Of course not! Are you Orcbolg? \NYou don't look it.
+Dialogue: 0,0:04:18.12,0:04:21.22,Main,Goblin slayer,0000,0000,0000,,Why would I? I've never been called that.
+Dialogue: 0,0:04:21.22,0:04:24.89,Main,Lizardman priest,0000,0000,0000,,There's something we'd like to \Ndiscuss with you, Sir Goblin Slayer.
+Dialogue: 0,0:04:24.89,0:04:26.64,Main,Lizardman priest,0000,0000,0000,,May we have a moment of your time?
+Dialogue: 0,0:04:28.10,0:04:29.00,Main,Goblin slayer,0000,0000,0000,,Fine.
+Dialogue: 0,0:04:29.00,0:04:33.16,Main,Guild girl,0000,0000,0000,,If you'd like, there are some \Nmeeting rooms upstairs...
+Dialogue: 0,0:04:33.16,0:04:34.24,Main,Goblin slayer,0000,0000,0000,,Then let's go.
+Dialogue: 0,0:04:35.99,0:04:38.48,Main,Priestess,0000,0000,0000,,U-Um, sh-should I...
+Dialogue: 0,0:04:41.97,0:04:43.00,Main,Goblin Slayer,0000,0000,0000,,You should rest.
+Dialogue: 0,0:04:44.90,0:04:46.92,Main,High elf archer,0000,0000,0000,,We'll just borrow him for a bit, okay?
+Dialogue: 0,0:04:58.76,0:04:59.49,Main,Greenhorn warrior,0000,0000,0000,,Hey.
+Dialogue: 0,0:05:00.22,0:05:01.00,Main,Priestess,0000,0000,0000,,Yes?
+Dialogue: 0,0:05:01.46,0:05:05.69,Main,Greenhorn warrior,0000,0000,0000,,You're porcelain-ranked, too, right? \NWhy don't you join us?
+Dialogue: 0,0:05:07.03,0:05:10.31,Main,Priestess,0000,0000,0000,,No... I appreciate the offer, \Nbut I already have—
+Dialogue: 0,0:05:10.31,0:05:13.42,Main,Apprentice cleric,0000,0000,0000,,The guy who never takes \Noff his helmet, right?
+Dialogue: 0,0:05:13.42,0:05:14.79,Main,Greenhorn warrior,0000,0000,0000,,We know.
+Dialogue: 0,0:05:14.79,0:05:16.49,Main,Greenhorn warrior,0000,0000,0000,,There's something off about him, though.
+Dialogue: 0,0:05:16.49,0:05:19.27,Main,Greenhorn warrior,0000,0000,0000,,He's silver-ranked, but all \Nhe ever does is slay goblins.
+Dialogue: 0,0:05:19.59,0:05:22.04,Main,Greenhorn warrior,0000,0000,0000,,Silvers would usually go \Nfor bigger prey than that.
+Dialogue: 0,0:05:22.49,0:05:26.77,Main,Apprentice cleric,0000,0000,0000,,I've heard rumors that he's just dragging \Nnewbies around to use them as bait.
+Dialogue: 0,0:05:26.77,0:05:27.70,Main,Priestess,0000,0000,0000,,That's not—
+Dialogue: 0,0:05:27.99,0:05:29.24,Main,Witch,0000,0000,0000,,Now, now...
+Dialogue: 0,0:05:30.52,0:05:32.37,Main,Witch,0000,0000,0000,,You shouldn't... talk nonsense...
+Dialogue: 0,0:05:32.57,0:05:34.44,Main,Greenhorn warrior,0000,0000,0000,,Nonsense? But we weren't—
+Dialogue: 0,0:05:34.44,0:05:38.59,Main,Witch,0000,0000,0000,,It's all right... \NLeave the rest to me, okay?
+Dialogue: 0,0:05:40.01,0:05:41.59,Main,Witch,0000,0000,0000,,Well... then...
+Dialogue: 0,0:05:42.17,0:05:46.01,Main,Witch,0000,0000,0000,,You are... the girl... \Ntraveling with him... right?
+Dialogue: 0,0:05:46.01,0:05:49.17,Main,Priestess,0000,0000,0000,,Y-Yes, ma'am. He's letting me accompany him.
+Dialogue: 0,0:05:50.84,0:05:53.19,Main,Priestess,0000,0000,0000,,Accompany... eh?
+Dialogue: 0,0:05:54.06,0:05:55.18,Main,Witch,0000,0000,0000,,He's...
+Dialogue: 0,0:05:56.04,0:05:57.71,Main,Witch,0000,0000,0000,,a handful... right?
+Dialogue: 0,0:05:58.36,0:05:59.83,Main,Witch,0000,0000,0000,,He's quite dense.
+Dialogue: 0,0:06:01.94,0:06:02.65,Main,Witch,0000,0000,0000,,Right?
+Dialogue: 0,0:06:03.16,0:06:04.58,Main,Witch,0000,0000,0000,,Inflammarae.
+Dialogue: 0,0:06:06.20,0:06:11.20,Main,Witch,0000,0000,0000,,A truly powerful word... \Nand I'm wasting a spell... right?
+Dialogue: 0,0:06:14.55,0:06:16.50,Main,Witch,0000,0000,0000,,You see...
+Dialogue: 0,0:06:16.50,0:06:20.96,Main,Witch,0000,0000,0000,,he also asked a strange favor of \Nme once... that friend of yours.
+Dialogue: 0,0:06:21.28,0:06:22.09,Main,Priestess,0000,0000,0000,,What?
+Dialogue: 0,0:06:23.70,0:06:26.47,Main,Witch,0000,0000,0000,,You just imagined something \Nnaughty... didn't you?
+Dialogue: 0,0:06:26.47,0:06:27.63,Main,Priestess,0000,0000,0000,,N-No...
+Dialogue: 0,0:06:28.14,0:06:31.73,Main,Witch,0000,0000,0000,,He wanted some help with a scroll.
+Dialogue: 0,0:06:31.73,0:06:36.25,Main,Witch,0000,0000,0000,,It's difficult... accompanying him... isn't it?
+Dialogue: 0,0:06:36.77,0:06:40.41,Main,Priestess,0000,0000,0000,,It's taking everything I have \Njust to keep up with him.
+Dialogue: 0,0:06:40.76,0:06:42.40,Main,Priestess,0000,0000,0000,,All I do is cause him trouble.
+Dialogue: 0,0:06:43.29,0:06:47.90,Main,Witch,0000,0000,0000,,No to mention... he's a bit crazy... right?
+Dialogue: 0,0:06:53.74,0:06:55.33,Main,Witch,0000,0000,0000,,I mean...
+Dialogue: 0,0:06:55.79,0:06:58.52,Main,Witch,0000,0000,0000,,He might only slay goblins...
+Dialogue: 0,0:06:58.52,0:07:02.49,Main,Witch,0000,0000,0000,,but he's been doing that for years \Nwith barely any rest... you see?
+Dialogue: 0,0:07:02.89,0:07:06.90,Main,Witch,0000,0000,0000,,He is definitely helping out in the world...
+Dialogue: 0,0:07:07.28,0:07:10.51,Main,Witch,0000,0000,0000,,Much more than other unskilled \Nmonster slayers...
+Dialogue: 0,0:07:12.46,0:07:14.06,Main,Witch,0000,0000,0000,,But that being said,
+Dialogue: 0,0:07:14.06,0:07:18.18,Main,Witch,0000,0000,0000,,one shouldn't just keep slaying... goblins.
+Dialogue: 0,0:07:19.10,0:07:22.09,Main,Witch,0000,0000,0000,,There are many demons in the capital,
+Dialogue: 0,0:07:22.09,0:07:25.22,Main,Witch,0000,0000,0000,,and the world is filled with monsters.
+Dialogue: 0,0:07:25.56,0:07:27.73,Main,Witch,0000,0000,0000,,If you wanted to help people...
+Dialogue: 0,0:07:27.73,0:07:31.32,Main,Witch,0000,0000,0000,,you could do so with those two you \Nwere talking to... couldn't you?
+Dialogue: 0,0:07:31.32,0:07:34.78,Main,Priestess,0000,0000,0000,,Well... Yes, you're right, but...
+Dialogue: 0,0:07:39.98,0:07:41.87,Main,Witch,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:07:43.19,0:07:45.31,Main,Witch,0000,0000,0000,,There are many paths... right?
+Dialogue: 0,0:07:45.71,0:07:48.01,Main,Witch,0000,0000,0000,,There is no... right answer.
+Dialogue: 0,0:07:48.59,0:07:50.24,Main,Witch,0000,0000,0000,,It's difficult.
+Dialogue: 0,0:07:50.99,0:07:54.65,Main,Witch,0000,0000,0000,,If you are going to accompany him,
+Dialogue: 0,0:07:54.65,0:07:57.84,Main,Witch,0000,0000,0000,,you should really make up your own mind.
+Dialogue: 0,0:08:01.74,0:08:03.32,Main,Priestess,0000,0000,0000,,Make up my own mind...
+Dialogue: 0,0:08:05.88,0:08:08.86,Main,High elf archer,0000,0000,0000,,Are you truly a silver rank?
+Dialogue: 0,0:08:08.86,0:08:10.15,Main,Goblin slayer,0000,0000,0000,,The guild thinks so.
+Dialogue: 0,0:08:10.35,0:08:12.50,Main,High elf archer,0000,0000,0000,,Unbelievable.
+Dialogue: 0,0:08:12.50,0:08:14.66,Main,High elf archer,0000,0000,0000,,You look so weak.
+Dialogue: 0,0:08:14.91,0:08:18.58,Main,Dwarf shaman,0000,0000,0000,,Don't be a fool, long-ears.
+Dialogue: 0,0:08:18.86,0:08:21.57,Main,Dwarf shaman,0000,0000,0000,,That leather armor is easier to move in,
+Dialogue: 0,0:08:21.57,0:08:24.46,Main,Dwarf shaman,0000,0000,0000,,and the chain mail would \Nstop a sudden stabbing.
+Dialogue: 0,0:08:24.46,0:08:25.92,Main,Dwarf shaman,0000,0000,0000,,That goes for the helmet, too,
+Dialogue: 0,0:08:25.92,0:08:30.47,Main,Dwarf shaman,0000,0000,0000,,His sword and shield are tiny, \Nbut easier to wave around in tight spaces.
+Dialogue: 0,0:08:31.26,0:08:34.32,Main,High elf archer,0000,0000,0000,,Shouldn't you at least \Nkeep your equipment clean?
+Dialogue: 0,0:08:34.32,0:08:36.86,Main,Goblin slayer,0000,0000,0000,,It's a necessary precaution \Nto cover the metal smell.
+Dialogue: 0,0:08:36.86,0:08:38.31,Main,Goblin slayer,0000,0000,0000,,Those bastards have keen noses.
+Dialogue: 0,0:08:38.74,0:08:41.98,Main,Dwarf shaman,0000,0000,0000,,You may be a high elf, but you're \Nstill an inexperienced whelp who
+Dialogue: 0,0:08:41.98,0:08:43.79,Main,Dwarf shaman,0000,0000,0000,,just left the forest because she was bored.
+Dialogue: 0,0:08:43.79,0:08:46.77,Main,Dwarf shaman,0000,0000,0000,,You really ought to learn from your elders.
+Dialogue: 0,0:08:46.95,0:08:50.46,Main,High elf archer,0000,0000,0000,,I'm 2,000 years old. \NHow old were you again?
+Dialogue: 0,0:08:51.04,0:08:52.74,Main,Dwarf shaman,0000,0000,0000,,One hundred and seven...
+Dialogue: 0,0:08:53.39,0:08:56.49,Main,High elf archer,0000,0000,0000,,My, my, you definitely look much older.
+Dialogue: 0,0:08:56.49,0:08:58.37,Main,High elf archer,0000,0000,0000,,You at least {\i1}look{\i0} old enough to be wise.
+Dialogue: 0,0:08:59.61,0:09:01.71,Main,Lizardman priest,0000,0000,0000,,That's enough talk about age.
+Dialogue: 0,0:09:01.71,0:09:04.08,Main,Lizardman priest,0000,0000,0000,,It shames those of us who \Nwon't live nearly so long.
+Dialogue: 0,0:09:04.70,0:09:06.16,Main,Goblin slayer,0000,0000,0000,,What's your business with me?
+Dialogue: 0,0:09:07.56,0:09:11.01,Main,High elf archer,0000,0000,0000,,I'm sure you've heard about the growing \Nnumber of demons in the capital...
+Dialogue: 0,0:09:11.19,0:09:11.80,Main,Goblin slayer,0000,0000,0000,,Nope.
+Dialogue: 0,0:09:12.04,0:09:15.12,Main,High elf archer,0000,0000,0000,,The reason for it is that the \Ndemon king has been resurrected.
+Dialogue: 0,0:09:15.12,0:09:18.30,Main,High elf archer,0000,0000,0000,,He's gathering forces so \Nhe can take over the world.
+Dialogue: 0,0:09:18.30,0:09:19.10,Main,Goblin slayer,0000,0000,0000,,I see.
+Dialogue: 0,0:09:19.21,0:09:21.89,Main,High elf archer,0000,0000,0000,,And that's why we want your—
+Dialogue: 0,0:09:21.89,0:09:24.98,Main,Goblin slayer,0000,0000,0000,,Ask someone else. I have no \Ninterest in anything but goblins.
+Dialogue: 0,0:09:26.60,0:09:28.31,Main,High elf archer,0000,0000,0000,,Don't you understand what I'm saying?!
+Dialogue: 0,0:09:28.74,0:09:31.04,Main,High elf archer,0000,0000,0000,,Hordes of demons are going to attack!
+Dialogue: 0,0:09:31.04,0:09:33.90,Main,High elf archer,0000,0000,0000,,Do you realize that the \Nworld is at stake here?!
+Dialogue: 0,0:09:33.90,0:09:35.03,Main,Goblin slayer,0000,0000,0000,,Yes.
+Dialogue: 0,0:09:35.33,0:09:38.95,Main,Goblin slayer,0000,0000,0000,,But before the demons destroy the world, \Nthe goblins will destroy the villages.
+Dialogue: 0,0:09:39.68,0:09:42.55,Main,Goblin slayer,0000,0000,0000,,The world being in danger isn't \Nan excuse to let the goblins live.
+Dialogue: 0,0:09:42.55,0:09:43.71,Main,High elf archer,0000,0000,0000,,Listen here—
+Dialogue: 0,0:09:43.71,0:09:45.77,Main,Dwarf shaman,0000,0000,0000,,Hold it, long-ears!
+Dialogue: 0,0:09:45.77,0:09:49.67,Main,Dwarf shaman,0000,0000,0000,,We didn't come here to ask him to do \Nsomething about the chaos to begin with.
+Dialogue: 0,0:09:49.90,0:09:54.42,Main,Lizardman priest,0000,0000,0000,,Sir Goblin Slayer, we've come \Nto ask you to slay some goblins.
+Dialogue: 0,0:09:54.42,0:09:56.43,Main,Goblin slayer,0000,0000,0000,,I see. In that case, I accept.
+Dialogue: 0,0:09:56.43,0:09:58.93,Main,Goblin slayer,0000,0000,0000,,Where are they? How many are there? \NHow big is their nest?
+Dialogue: 0,0:09:58.93,0:10:00.81,Main,Goblin slayer,0000,0000,0000,,Have you confirmed if they \Nhave a shaman or a hob?
+Dialogue: 0,0:10:01.67,0:10:03.37,Main,High elf archer,0000,0000,0000,,What's with this guy?
+Dialogue: 0,0:10:05.43,0:10:07.19,Main,Lizardman priest,0000,0000,0000,,As my companion mentioned...
+Dialogue: 0,0:10:08.09,0:10:12.36,Main,Lizardman priest,0000,0000,0000,,a horde of demons are \Nready to make their move.
+Dialogue: 0,0:10:12.78,0:10:16.68,Main,Lizardman priest,0000,0000,0000,,So the chieftains of my kind, \Nthe kings of men,
+Dialogue: 0,0:10:16.68,0:10:21.23,Main,Lizardman priest,0000,0000,0000,,and the elders of the elves and \Ndwarves are going to hold a meeting.
+Dialogue: 0,0:10:21.74,0:10:25.50,Main,Dwarf shaman,0000,0000,0000,,We're adventurers who've been \Nhired as their representatives.
+Dialogue: 0,0:10:26.09,0:10:28.72,Main,High elf archer,0000,0000,0000,,There's eventually going \Nto be a great battle...
+Dialogue: 0,0:10:28.72,0:10:31.19,Main,High elf archer,0000,0000,0000,,Though I'm sure you don't care.
+Dialogue: 0,0:10:31.19,0:10:37.97,Main,Dwarf shaman,0000,0000,0000,,The problem is, those goblins are currently \Nbecoming more active on elven lands.
+Dialogue: 0,0:10:38.15,0:10:40.55,Main,Goblin slayer,0000,0000,0000,,Have any champions or lords emerged?
+Dialogue: 0,0:10:41.24,0:10:43.37,Main,High elf archer,0000,0000,0000,,Champions? Lords?
+Dialogue: 0,0:10:43.37,0:10:45.71,Main,Goblin slayer,0000,0000,0000,,Goblin heroes or kings.
+Dialogue: 0,0:10:45.71,0:10:48.65,Main,Goblin slayer,0000,0000,0000,,They're basically equal to \Nplatinum-ranked adventurers.
+Dialogue: 0,0:10:48.87,0:10:54.35,Main,Lizardman priest,0000,0000,0000,,We have found one giant \Nnest during our investigations.
+Dialogue: 0,0:10:54.35,0:10:57.61,Main,Goblin slayer,0000,0000,0000,,The military won't move for goblins, as usual.
+Dialogue: 0,0:10:58.04,0:11:01.49,Main,High elf archer,0000,0000,0000,,The human kings don't see us as equals.
+Dialogue: 0,0:11:01.49,0:11:04.74,Main,High elf archer,0000,0000,0000,,If we brought our soldiers into this, \Nthey'd think we were plotting something.
+Dialogue: 0,0:11:04.95,0:11:10.50,Main,Lizardman priest,0000,0000,0000,,That's why they sent us adventurers, \Nbut we still need a human.
+Dialogue: 0,0:11:10.73,0:11:14.75,Main,High elf archer,0000,0000,0000,,And that's why, Orcbolg, we've chosen you.
+Dialogue: 0,0:11:15.35,0:11:16.59,Main,Goblin slayer,0000,0000,0000,,Do you have a map?
+Dialogue: 0,0:11:16.83,0:11:17.56,Main,Lizardman priest,0000,0000,0000,,Right here.
+Dialogue: 0,0:11:19.94,0:11:21.04,Main,Goblin slayer,0000,0000,0000,,Ruins?
+Dialogue: 0,0:11:21.04,0:11:22.04,Main,Lizardman priest,0000,0000,0000,,We believe so.
+Dialogue: 0,0:11:22.04,0:11:22.78,Main,Goblin slayer,0000,0000,0000,,How many?
+Dialogue: 0,0:11:22.78,0:11:24.22,Main,Lizard priest,0000,0000,0000,,We only know that there are many.
+Dialogue: 0,0:11:24.55,0:11:25.77,Main,Goblin slayer,0000,0000,0000,,I'll leave immediately.
+Dialogue: 0,0:11:25.77,0:11:26.54,Main,High elf archer,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:26.54,0:11:29.08,Main,Goblin slayer,0000,0000,0000,,You can decide how much you want to pay me.
+Dialogue: 0,0:11:32.02,0:11:35.07,Main,High elf archer,0000,0000,0000,,Is he planning to go alone?
+Dialogue: 0,0:11:40.61,0:11:42.14,Main,Spearman,0000,0000,0000,,Miss Receptionist!
+Dialogue: 0,0:11:41.09,0:11:42.14,Main,Goblin slayer,0000,0000,0000,,Goblins.
+Dialogue: 0,0:11:42.98,0:11:45.53,Main,Guild girl,0000,0000,0000,,Oh, Goblin Slayer.
+Dialogue: 0,0:11:45.53,0:11:47.75,Main,Guild girl,0000,0000,0000,,So they did come to offer you a quest.
+Dialogue: 0,0:11:48.14,0:11:52.09,Main,Goblin slayer,0000,0000,0000,,That lizardman will give you the \Ndetails of the quest. I'm heading out.
+Dialogue: 0,0:11:52.09,0:11:53.88,Main,Goblin slayer,0000,0000,0000,,Give me my pay for that last quest.
+Dialogue: 0,0:11:54.04,0:11:56.24,Main,Guild girl,0000,0000,0000,,But you haven't made your report yet...
+Dialogue: 0,0:11:56.24,0:11:59.03,Main,Guild girl,0000,0000,0000,,I'll make an exception for you, though.
+Dialogue: 0,0:11:59.03,0:12:01.54,Main,Spearman,0000,0000,0000,,Who does he think he is?
+Dialogue: 0,0:12:01.54,0:12:03.85,Main,Witch,0000,0000,0000,,Come, now... No pouting.
+Dialogue: 0,0:12:05.18,0:12:07.93,Main,Goblin slayer,0000,0000,0000,,Give the rest to her.
+Dialogue: 0,0:12:07.93,0:12:10.01,Main,Guild girl,0000,0000,0000,,Oh, are you going alone?
+Dialogue: 0,0:12:10.01,0:12:11.40,Main,Guild girl,0000,0000,0000,,What about her?
+Dialogue: 0,0:12:11.40,0:12:12.69,Main,Goblin slayer,0000,0000,0000,,I'm going to let her rest.
+Dialogue: 0,0:12:12.69,0:12:14.21,Main,Priestess,0000,0000,0000,,Goblin Slayer!
+Dialogue: 0,0:12:15.34,0:12:17.60,Main,Priestess,0000,0000,0000,,U-Um, you received a quest, right?
+Dialogue: 0,0:12:17.60,0:12:19.61,Main,Goblin Slayer,0000,0000,0000,,Yes. Slaying goblins.
+Dialogue: 0,0:12:19.61,0:12:21.85,Main,Priestess,0000,0000,0000,,Then I'll get ready immediately!
+Dialogue: 0,0:12:21.85,0:12:22.45,Main,Goblin slayer,0000,0000,0000,,No.
+Dialogue: 0,0:12:23.19,0:12:24.45,Main,Goblin slayer,0000,0000,0000,,I'll go on my own.
+Dialogue: 0,0:12:27.34,0:12:28.55,Main,Priestess,0000,0000,0000,,That's not fair!
+Dialogue: 0,0:12:30.06,0:12:30.96,Main,Priestess,0000,0000,0000,,You could've...
+Dialogue: 0,0:12:31.73,0:12:34.64,Main,Priestess,0000,0000,0000,,discussed it with me, at least...
+Dialogue: 0,0:12:38.37,0:12:39.63,Main,Goblin slayer,0000,0000,0000,,I am now.
+Dialogue: 0,0:12:42.17,0:12:45.71,Main,Priestess,0000,0000,0000,,Oh... So this is a discussion?
+Dialogue: 0,0:12:46.10,0:12:47.59,Main,Goblin slayer,0000,0000,0000,,That was my intention.
+Dialogue: 0,0:12:50.74,0:12:54.78,Main,Priestess,0000,0000,0000,,Not giving the other person a choice \Ndoesn't really qualify as a discussion.
+Dialogue: 0,0:12:55.35,0:12:56.19,Main,Goblin slayer,0000,0000,0000,,It doesn't?
+Dialogue: 0,0:13:00.18,0:13:01.40,Main,Priestess,0000,0000,0000,,I'm going with you.
+Dialogue: 0,0:13:01.84,0:13:04.36,Main,Priestess,0000,0000,0000,,I can't leave you alone.
+Dialogue: 0,0:13:05.67,0:13:06.73,Main,Goblin slayer,0000,0000,0000,,Do as you wish.
+Dialogue: 0,0:13:07.25,0:13:09.42,Main,Priestess,0000,0000,0000,,Indeed, I will.
+Dialogue: 0,0:13:11.66,0:13:15.63,Main,Dwarf shaman,0000,0000,0000,,Even we're not that hard to read.
+Dialogue: 0,0:13:15.84,0:13:17.97,Main,Dwarf shaman,0000,0000,0000,,I look forward to seeing what \Nthat young'un does next.
+Dialogue: 0,0:13:17.97,0:13:20.34,Main,Lizardman priest,0000,0000,0000,,If I were to put in the quest \Nand not go with him,
+Dialogue: 0,0:13:20.34,0:13:23.37,Main,Lizardman priest,0000,0000,0000,,I wouldn't be able to face my ancestors.
+Dialogue: 0,0:13:24.74,0:13:28.10,Main,High elf archer,0000,0000,0000,,A strange and incomprehensible being, huh?
+Dialogue: 0,0:13:28.53,0:13:30.82,Main,High elf archer,0000,0000,0000,,I left the forest to see something like that.
+Dialogue: 0,0:13:30.82,0:13:34.98,Main,High elf archer,0000,0000,0000,,Honestly... Don't you think you \Nought to respect your elders?
+Dialogue: 0,0:13:44.39,0:13:47.09,Main,High elf archer,0000,0000,0000,,So why did you all become adventurers?
+Dialogue: 0,0:13:48.35,0:13:51.82,Main,Dwarf shaman,0000,0000,0000,,Why, to eat all the delicious \Nfoods, of course.
+Dialogue: 0,0:13:51.82,0:13:53.18,Main,Lizardman priest,0000,0000,0000,,They're ready.
+Dialogue: 0,0:13:54.13,0:13:55.94,Main,Dwarf shaman,0000,0000,0000,,What about you, long-ears?
+Dialogue: 0,0:13:55.94,0:13:58.11,Main,High elf archer,0000,0000,0000,,I've always longed for the outside world—
+Dialogue: 0,0:13:58.11,0:13:59.27,Main,Dwarf shaman,0000,0000,0000,,This is delicious!
+Dialogue: 0,0:13:59.27,0:14:00.69,Main,High elf archer,0000,0000,0000,,Hey, listen to me!
+Dialogue: 0,0:14:00.93,0:14:02.59,Main,Lizardman priest,0000,0000,0000,,I'm glad you find it to your liking.
+Dialogue: 0,0:14:02.83,0:14:05.14,Main,Dwarf shaman,0000,0000,0000,,What kind of meat is this?
+Dialogue: 0,0:14:05.14,0:14:07.15,Main,Lizardman priest,0000,0000,0000,,That is the meat of a swamp creature.
+Dialogue: 0,0:14:07.15,0:14:08.86,Main,High elf archer,0000,0000,0000,,Swamp? Really?
+Dialogue: 0,0:14:09.35,0:14:13.98,Main,Dwarf shaman,0000,0000,0000,,A rabbit like you who only eats vegetables \Ncould never understand this bliss.
+Dialogue: 0,0:14:13.98,0:14:14.56,Main,Dwarf shaman,0000,0000,0000,,So good!
+Dialogue: 0,0:14:15.31,0:14:17.51,Main,Priestess,0000,0000,0000,,Would you like some soup?
+Dialogue: 0,0:14:17.51,0:14:18.52,Main,High elf archer,0000,0000,0000,,I'd love some.
+Dialogue: 0,0:14:22.60,0:14:24.03,Main,High elf archer,0000,0000,0000,,It has such a gentle taste!
+Dialogue: 0,0:14:24.24,0:14:28.58,Main,Lizardman priest,0000,0000,0000,,I seek to raise my status by rooting out \Nheresy so that I may become a dragon.
+Dialogue: 0,0:14:30.05,0:14:32.72,Main,Lizardman priest,0000,0000,0000,,That's the reason I became an adventurer.
+Dialogue: 0,0:14:32.72,0:14:34.33,Main,Priestess,0000,0000,0000,,I-I see...
+Dialogue: 0,0:14:39.76,0:14:40.59,Main,Goblin slayer,0000,0000,0000,,So I could slay...
+Dialogue: 0,0:14:41.03,0:14:43.91,Main,High elf archer,0000,0000,0000,,Yeah, I think we can figure out your reason.
+Dialogue: 0,0:14:45.83,0:14:49.38,Main,High elf archer,0000,0000,0000,,I'll have to give you something in return.
+Dialogue: 0,0:14:51.66,0:14:53.50,Main,High elf archer,0000,0000,0000,,These are elven traveling rations.
+Dialogue: 0,0:14:53.50,0:14:56.35,Main,High elf archer,0000,0000,0000,,We're not supposed to give them to others, \Nbut this is a special occasion.
+Dialogue: 0,0:14:59.12,0:14:59.85,Main,Priestess,0000,0000,0000,,It's delicious!
+Dialogue: 0,0:15:00.33,0:15:01.74,Main,High elf archer,0000,0000,0000,,Really? Glad you like it.
+Dialogue: 0,0:15:01.74,0:15:05.16,Main,Dwarf shaman,0000,0000,0000,,Now I guess I'll have to offer something, too.
+Dialogue: 0,0:15:07.89,0:15:11.58,Main,Dwarf shaman,0000,0000,0000,,Our cherished dwarven fire \Nwine created in our cellars.
+Dialogue: 0,0:15:11.58,0:15:13.23,Main,High elf archer,0000,0000,0000,,Fire... wine?
+Dialogue: 0,0:15:13.23,0:15:16.82,Main,Dwarf shaman,0000,0000,0000,,You aren't suggesting you're a \Nchild who's never had wine before,
+Dialogue: 0,0:15:16.82,0:15:18.62,Main,Dwarf shaman,0000,0000,0000,,are you, long-ears?
+Dialogue: 0,0:15:19.02,0:15:22.05,Main,High elf archer,0000,0000,0000,,D-Don't mock me! Of course I have.
+Dialogue: 0,0:15:26.70,0:15:29.62,Main,Priestess,0000,0000,0000,,A-Are you all right? \NWould you like some water?
+Dialogue: 0,0:15:30.77,0:15:33.30,Main,Dwarf shaman,0000,0000,0000,,Go on, Beard-cutter. Have some.
+Dialogue: 0,0:15:38.16,0:15:39.89,Main,Dwarf shaman,0000,0000,0000,,Not bad, kid.
+Dialogue: 0,0:15:45.28,0:15:49.89,Main,High elf archer,0000,0000,0000,,Why don't you at least take off \Nyour helmet when you're eating?
+Dialogue: 0,0:15:50.31,0:15:53.74,Main,Goblin slayer,0000,0000,0000,,So I don't get knocked unconscious \Nin the event of an ambush.
+Dialogue: 0,0:15:54.42,0:15:56.83,Main,Dwarf shaman,0000,0000,0000,,Yeah, she's out of it.
+Dialogue: 0,0:15:57.66,0:16:02.00,Main,High elf archer,0000,0000,0000,,Quit eating and share \Nsomething of yours with us!
+Dialogue: 0,0:16:04.44,0:16:06.89,Main,Priestess,0000,0000,0000,,He's lost in thought.
+Dialogue: 0,0:16:06.89,0:16:07.96,Main,Dwarf shaman,0000,0000,0000,,You can tell?
+Dialogue: 0,0:16:09.41,0:16:10.67,Main,Goblin slayer,0000,0000,0000,,Will this do?
+Dialogue: 0,0:16:10.67,0:16:12.60,Main,Lizardman priest,0000,0000,0000,,What is it?
+Dialogue: 0,0:16:12.60,0:16:13.78,Main,Goblin slayer,0000,0000,0000,,Cheese.
+Dialogue: 0,0:16:13.78,0:16:16.81,Main,Goblin slayer,0000,0000,0000,,It's made from fermented cow \Nor goat's milk, then hardened.
+Dialogue: 0,0:16:17.14,0:16:20.64,Main,Dwarf shaman,0000,0000,0000,,You've never heard of cheese before, Scaly?
+Dialogue: 0,0:16:20.64,0:16:23.76,Main,Lizardman priest,0000,0000,0000,,My people hunt beasts.
+Dialogue: 0,0:16:23.76,0:16:25.90,Main,Lizardman priest,0000,0000,0000,,We do not raise them.
+Dialogue: 0,0:16:28.09,0:16:30.19,Main,High elf archer,0000,0000,0000,,Gimme! I'll cut it up.
+Dialogue: 0,0:16:35.16,0:16:37.70,Main,Dwarf shaman,0000,0000,0000,,This is some fine cheese!
+Dialogue: 0,0:16:46.84,0:16:47.80,Main,Lizardman priest,0000,0000,0000,,Nectar!
+Dialogue: 0,0:16:47.98,0:16:51.15,Main,Lizardman priest,0000,0000,0000,,This is surely the nectar of the gods!
+Dialogue: 0,0:16:51.15,0:16:52.30,Main,Dwarf shaman,0000,0000,0000,,Goes great with the wine.
+Dialogue: 0,0:16:56.11,0:16:58.01,Main,High elf archer,0000,0000,0000,,It's so sweet! It's almost like a banana!
+Dialogue: 0,0:16:58.69,0:17:01.14,Main,Priestess,0000,0000,0000,,Is this from that farm?
+Dialogue: 0,0:17:01.14,0:17:02.07,Main,Goblin slayer,0000,0000,0000,,It is.
+Dialogue: 0,0:17:02.39,0:17:03.27,Main,Priestess,0000,0000,0000,,It's delicious.
+Dialogue: 0,0:17:03.71,0:17:04.69,Main,Goblin slayer,0000,0000,0000,,Good.
+Dialogue: 0,0:17:06.04,0:17:07.14,Main,High elf archer,0000,0000,0000,,Sneak...
+Dialogue: 0,0:17:07.14,0:17:08.19,Main,Goblin slayer,0000,0000,0000,,Don't touch that.
+Dialogue: 0,0:17:09.54,0:17:10.54,Main,Goblin slayer,0000,0000,0000,,It's dangerous.
+Dialogue: 0,0:17:11.13,0:17:13.41,Main,High elf archer,0000,0000,0000,,I-I just wanted a peek...
+Dialogue: 0,0:17:13.41,0:17:14.95,Main,Goblin slayer,0000,0000,0000,,Don't. It's dangerous.
+Dialogue: 0,0:17:15.14,0:17:17.22,Main,High elf archer,0000,0000,0000,,That's a scroll, right?
+Dialogue: 0,0:17:17.22,0:17:19.12,Main,High elf archer,0000,0000,0000,,I've never seen one before.
+Dialogue: 0,0:17:19.39,0:17:23.87,Main,Lizardman priest,0000,0000,0000,,Scrolls contain ancient magic\Nthat is now lost to us.
+Dialogue: 0,0:17:24.15,0:17:29.09,Main,Lizardman priest,0000,0000,0000,,Once you unroll one, even a child \Ncould use the spell within.
+Dialogue: 0,0:17:29.09,0:17:30.11,Main,Dwarf shaman,0000,0000,0000,,Indeed.
+Dialogue: 0,0:17:30.11,0:17:33.88,Main,Dwarf shaman,0000,0000,0000,,But it could be any one of many spells,\Nand it can be only used once.
+Dialogue: 0,0:17:34.26,0:17:37.14,Main,Dwarf shaman,0000,0000,0000,,Most people would just \Nsell them off as antiques
+Dialogue: 0,0:17:37.14,0:17:39.64,Main,Dwarf shaman,0000,0000,0000,,to a collector or researcher at a high price.
+Dialogue: 0,0:17:40.07,0:17:43.73,Flashback,Witch,0000,0000,0000,,He wanted some help with a scroll.
+Dialogue: 0,0:17:45.49,0:17:48.80,Main,High elf archer,0000,0000,0000,,Then at least tell me what kind \Nof spell you've got in there.
+Dialogue: 0,0:17:48.80,0:17:49.56,Main,Goblin slayer,0000,0000,0000,,No.
+Dialogue: 0,0:17:49.56,0:17:52.65,Main,Goblin slayer,0000,0000,0000,,What if the goblins capture you \Nand you tell them what's in it?
+Dialogue: 0,0:17:53.56,0:17:56.49,Main,High elf archer,0000,0000,0000,,You don't like me, do you?
+Dialogue: 0,0:17:56.99,0:17:58.49,Main,Goblin slayer,0000,0000,0000,,I'm not particular.
+Dialogue: 0,0:17:58.49,0:18:01.89,Main,Dwarf shaman,0000,0000,0000,,It's no use, long-ears.
+Dialogue: 0,0:18:01.89,0:18:04.89,Main,Dwarf shaman,0000,0000,0000,,He's far more narrow-minded than any of us.
+Dialogue: 0,0:18:04.89,0:18:07.25,Main,Dwarf shaman,0000,0000,0000,,He's Beard-cutter, after all.
+Dialogue: 0,0:18:05.29,0:18:07.25,Main,High elf archer,0000,0000,0000,,{\an8}He's Orcbolg, after all.
+Dialogue: 0,0:18:05.34,0:18:07.25,Main,Lizardman priest,0000,0000,0000,,He's Sir Goblin Slayer, after all.
+Dialogue: 0,0:18:08.39,0:18:09.58,Main,High elf archer,0000,0000,0000,,{\an8}Oh, jeez...
+Dialogue: 0,0:18:09.16,0:18:11.00,Main,Goblin slayer,0000,0000,0000,,I'm Goblin Slayer.
+Dialogue: 0,0:18:13.73,0:18:14.89,Main,High elf archer,0000,0000,0000,,Hey!
+Dialogue: 0,0:18:18.24,0:18:20.51,Main,Lizardman priest,0000,0000,0000,,There's one thing that's been on my mind...
+Dialogue: 0,0:18:20.91,0:18:23.53,Main,Lizardman priest,0000,0000,0000,,Where do the goblins come from?
+Dialogue: 0,0:18:23.53,0:18:26.39,Main,Lizardman priest,0000,0000,0000,,I was taught that they came \Nfrom an underground kingdom.
+Dialogue: 0,0:18:26.71,0:18:32.25,Main,Priestess,0000,0000,0000,,We're taught that when someone makes \Na mistake, a goblin is formed.
+Dialogue: 0,0:18:32.25,0:18:33.72,Main,High elf archer,0000,0000,0000,,What's that supposed to mean?
+Dialogue: 0,0:18:33.72,0:18:36.05,Main,Priestess,0000,0000,0000,,Folks say it to keep children in line.
+Dialogue: 0,0:18:36.05,0:18:38.66,Main,Priestess,0000,0000,0000,,Children are told that if they make \Na mistake, goblins will come.
+Dialogue: 0,0:18:38.91,0:18:40.40,Main,Dwarf shaman,0000,0000,0000,,That's awful!
+Dialogue: 0,0:18:40.40,0:18:44.66,Main,Dwarf shaman,0000,0000,0000,,That means if we'd left long-ears to her own \Ndevices, we'd be neck-deep in them now!
+Dialogue: 0,0:18:44.66,0:18:46.95,Main,High elf archer,0000,0000,0000,,How rude!
+Dialogue: 0,0:18:46.95,0:18:50.13,Main,High elf archer,0000,0000,0000,,Tomorrow, I'll show you just \Nhow skilled I am with my bow!
+Dialogue: 0,0:18:50.44,0:18:53.55,Main,Dwarf shaman,0000,0000,0000,,Ooh, how scary. I'm terrified.
+Dialogue: 0,0:18:53.55,0:18:54.54,Main,Goblin slayer,0000,0000,0000,,I heard...
+Dialogue: 0,0:18:58.94,0:19:01.47,Main,Goblin slayer,0000,0000,0000,,I heard they came from the moon.
+Dialogue: 0,0:19:01.67,0:19:04.97,Main,Lizardman priest,0000,0000,0000,,Moon? You mean the two in the sky?
+Dialogue: 0,0:19:05.86,0:19:06.79,Main,Goblin slayer,0000,0000,0000,,Yes.
+Dialogue: 0,0:19:10.77,0:19:12.22,Main,Goblin slayer,0000,0000,0000,,The green one.
+Dialogue: 0,0:19:12.69,0:19:16.44,Main,Goblin slayer,0000,0000,0000,,The goblins come from that green rock.
+Dialogue: 0,0:19:16.44,0:19:19.54,Main,High elf archer,0000,0000,0000,,Does that mean shooting stars are goblins?
+Dialogue: 0,0:19:19.54,0:19:24.00,Main,Goblin slayer,0000,0000,0000,,I'm not sure, but the moon has \Nno grass, trees, or water.
+Dialogue: 0,0:19:24.45,0:19:26.45,Main,Goblin slayer,0000,0000,0000,,It's a desolate place with only rocks.
+Dialogue: 0,0:19:26.80,0:19:31.89,Main,Goblin slayer,0000,0000,0000,,It makes them envious and jealous, \Nand makes them want what they don't have.
+Dialogue: 0,0:19:31.89,0:19:33.24,Main,Goblin slayer,0000,0000,0000,,That's why they come here.
+Dialogue: 0,0:19:34.02,0:19:38.34,Main,Goblin slayer,0000,0000,0000,,Which is why, if you ever feel envious \Nof someone, you become like a goblin.
+Dialogue: 0,0:19:39.06,0:19:41.23,Main,Priestess,0000,0000,0000,,Who did you hear that from?
+Dialogue: 0,0:19:42.06,0:19:43.24,Main,Goblin slayer,0000,0000,0000,,My older sister.
+Dialogue: 0,0:19:43.24,0:19:45.39,Main,Priestess,0000,0000,0000,,You have an older sister?
+Dialogue: 0,0:19:46.29,0:19:48.47,Main,Goblin slayer,0000,0000,0000,,Yes... I did.
+Dialogue: 0,0:19:48.95,0:19:53.15,Main,High elf archer,0000,0000,0000,,So you believe that goblins \Ncome from the moon.
+Dialogue: 0,0:19:53.55,0:19:54.82,Main,Goblin slayer,0000,0000,0000,,If nothing else...
+Dialogue: 0,0:19:56.54,0:20:00.54,Main,Goblin slayer,0000,0000,0000,,I know my sister never made mistakes.
+Dialogue: 0,0:20:13.54,0:20:15.30,Main,High elf archer,0000,0000,0000,,He fell asleep.
+Dialogue: 0,0:20:16.24,0:20:18.22,Main,Dwarf shaman,0000,0000,0000,,Looks like the fire wine finally kicked in.
+Dialogue: 0,0:20:18.71,0:20:21.64,Main,Priestess,0000,0000,0000,,Well, he did have plenty of it.
+Dialogue: 0,0:20:21.64,0:20:23.51,Main,Lizardman priest,0000,0000,0000,,We should also sleep.
+Dialogue: 0,0:20:23.51,0:20:26.84,Main,Lizardman priest,0000,0000,0000,,If we don't get enough rest, \Nthat could very well lead to mistakes.
+Dialogue: 0,0:20:27.13,0:20:29.17,Main,Lizardman priest,0000,0000,0000,,The lookout will be who we agreed upon.
+Dialogue: 0,0:20:48.95,0:20:53.17,Main,Cow girl,0000,0000,0000,,Head on back. Time to go home.
+Dialogue: 0,0:21:02.70,0:21:04.34,Main,Cow girl,0000,0000,0000,,He didn't come back again today...
+Dialogue: 0,0:21:31.13,0:21:33.68,Main,Dwarf shaman,0000,0000,0000,,Whatever you do, don't miss.
+Dialogue: 0,0:21:34.14,0:21:35.25,Main,High elf archer,0000,0000,0000,,Hush.
+Dialogue: 0,0:21:39.71,0:21:41.54,Main,Dwarf shaman,0000,0000,0000,,Where in the world are you aiming?!
+Dialogue: 0,0:21:55.19,0:21:56.00,Main,Goblin slayer,0000,0000,0000,,Let's go.
+Dialogue: 0,0:23:35.91,0:23:41.21,sign_33927_268_Next_Time,Sign,0000,0000,0000,,Next Time
+Dialogue: 0,0:23:35.91,0:23:41.21,sign_33927_269__Goblin_Slayer_,Sign,0000,0000,0000,,The Strong

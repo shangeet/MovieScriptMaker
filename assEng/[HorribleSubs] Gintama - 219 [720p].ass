@@ -1,0 +1,534 @@
+﻿[Script Info]
+Title: fuckoff
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main01,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,20,20,20,1
+Style: Main02,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,20,20,20,1
+Style: On Screen,Humana Sans Md ITC TT,25,&H0072F9FB,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,8,80,80,15,0
+Style: Secondary,Humana Sans Md ITC TT,27,&H00EDEBE8,&H000000FF,&H002F2724,&H96000000,-1,0,0,0,100,120,0,0,1,1.7,0,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:01:32.92,0:01:35.14,Main01,A,0000,0000,0000,,{\a6}Oh! A clean hit!
+Dialogue: 0,0:01:35.14,0:01:36.69,Main01,A,0000,0000,0000,,{\a6}-That's it! Keep it up!
+Dialogue: 0,0:01:35.14,0:01:36.69,Main01,Salary,0000,0000,0000,,{\a6}-Stupid boss!
+Dialogue: 0,0:01:36.69,0:01:38.95,Main01,Salary,0000,0000,0000,,{\a6}Take that! Take that!
+Dialogue: 0,0:01:41.93,0:01:43.64,Main01,Salary,0000,0000,0000,,Whew, I feel so much better.
+Dialogue: 0,0:01:43.64,0:01:45.36,Main01,Salary,0000,0000,0000,,Thanks, big guy.
+Dialogue: 0,0:01:45.50,0:01:46.76,Main01,Iwamatsu,0000,0000,0000,,It was nothing.
+Dialogue: 0,0:01:46.76,0:01:49.63,Main01,Iwamatsu,0000,0000,0000,,If a few punches to the \Nface can help you forget
+Dialogue: 0,0:01:49.63,0:01:51.50,Main01,,0000,0000,0000,,your troubles, come on down
+Dialogue: 0,0:01:51.97,0:01:54.55,Main01,Iwamatsu,0000,0000,0000,,to see Iwamatsu, the Punching Bag.
+Dialogue: 0,0:01:55.09,0:01:56.01,Main01,Salary,0000,0000,0000,,Did you see that?
+Dialogue: 0,0:01:56.01,0:01:57.60,Main01,Salary,0000,0000,0000,,I got a wicked jab, right?
+Dialogue: 0,0:01:57.60,0:01:58.68,Main01,Iwamatsu,0000,0000,0000,,Come again!
+Dialogue: 0,0:02:00.72,0:02:02.76,Main01,Iwamatsu,0000,0000,0000,,Weak-ass punches.
+Dialogue: 0,0:02:02.76,0:02:06.48,Main01,Iwamatsu,0000,0000,0000,,You can't hurt me with those.
+Dialogue: 0,0:02:06.91,0:02:08.99,Main01,Iwamatsu,0000,0000,0000,,The Kabuki district, a town of outlaws.
+Dialogue: 0,0:02:08.99,0:02:10.74,Main01,Iwamatsu,0000,0000,0000,,My first impression was correct.
+Dialogue: 0,0:02:10.74,0:02:12.75,Main01,Iwamatsu,0000,0000,0000,,There's a sucker around every corner.
+Dialogue: 0,0:02:12.75,0:02:16.17,Main01,Iwamatsu,0000,0000,0000,,These wannabe punks and \Ntheir girly punches
+Dialogue: 0,0:02:16.17,0:02:19.49,Main01,Iwamatsu,0000,0000,0000,,can't hurt me, the former \Npro boxer, Iwamatsu.
+Dialogue: 0,0:02:20.22,0:02:22.92,Main01,Iwamatsu,0000,0000,0000,,I'm gonna make a killing today.
+Dialogue: 0,0:02:22.92,0:02:25.24,Main01,Iwamatsu,0000,0000,0000,,Hey! Come on down!
+Dialogue: 0,0:02:25.27,0:02:27.24,Main01,Iwamatsu,0000,0000,0000,,You're allowed to hit me as many \Ntimes as you want for one minute!
+Dialogue: 0,0:02:27.24,0:02:30.62,Main01,Iwamatsu,0000,0000,0000,,I'm known as Iwamatsu, \Nthe human punching bag!
+Dialogue: 0,0:02:30.62,0:02:34.57,Main01,Iwamatsu,0000,0000,0000,,Anyone up for blowing off some steam?
+Dialogue: 0,0:02:34.57,0:02:37.50,Main01,Iwamatsu,0000,0000,0000,,If you can knock me out, \Nyou won't have to pay,
+Dialogue: 0,0:02:37.50,0:02:39.63,Main01,,0000,0000,0000,,plus you get a prize!
+Dialogue: 0,0:02:39.63,0:02:41.51,Main01,Kagura,0000,0000,0000,,Ooh, ooh! Let me try!
+Dialogue: 0,0:02:41.59,0:02:43.74,Main01,Iwamatsu,0000,0000,0000,,Hmm? What? A kid?
+Dialogue: 0,0:02:43.74,0:02:46.27,Main01,Iwamatsu,0000,0000,0000,,This will be the perfect demonstration.
+Dialogue: 0,0:02:47.27,0:02:49.38,Main01,Iwamatsu,0000,0000,0000,,You wanna give it a shot, little girl?
+Dialogue: 0,0:02:49.38,0:02:51.61,Main01,Iwamatsu,0000,0000,0000,,Okay, you shouldn't need a glove.
+Dialogue: 0,0:02:51.61,0:02:53.11,Main01,Iwamatsu,0000,0000,0000,,Hit me as hard as you can.
+Dialogue: 0,0:02:59.40,0:03:02.41,Main01,Kagura,0000,0000,0000,,Yay! Knocked him out with one punch!
+Dialogue: 0,0:03:02.74,0:03:08.25,On Screen,EpTitle,0000,0000,0000,,People Forget to Return Stuff All \Nthe Time Without Even Realizing It
+Dialogue: 0,0:03:09.17,0:03:11.06,Main01,Kagura,0000,0000,0000,,Food for me!
+Dialogue: 0,0:03:13.25,0:03:14.64,Main01,Kagura,0000,0000,0000,,Delicious!
+Dialogue: 0,0:03:14.64,0:03:15.56,Main01,Iwamatsu,0000,0000,0000,,R-Really.
+Dialogue: 0,0:03:15.56,0:03:16.75,Main01,Iwamatsu,0000,0000,0000,,Enjoy yourself.
+Dialogue: 0,0:03:17.01,0:03:19.44,Main01,Iwamatsu,0000,0000,0000,,Ka-Kabuki's crazy!
+Dialogue: 0,0:03:19.44,0:03:21.39,Main01,Iwamatsu,0000,0000,0000,,I-I was too naive!
+Dialogue: 0,0:03:21.39,0:03:25.18,Main01,Iwamatsu,0000,0000,0000,,I-I wasn't expecting \Na monster like this!
+Dialogue: 0,0:03:25.18,0:03:27.07,Main01,Iwamatsu,0000,0000,0000,,And she's just a kid!
+Dialogue: 0,0:03:27.07,0:03:30.60,Main01,Iwamatsu,0000,0000,0000,,How scary are the adults \Nin the Kabuki District?!
+Dialogue: 0,0:03:31.09,0:03:32.99,Main01,Iwamatsu,0000,0000,0000,,U-Uh, young lady...
+Dialogue: 0,0:03:32.99,0:03:35.42,Main01,Iwamatsu,0000,0000,0000,,Have you been practicing the \NDivine Fist of the North Star?
+Dialogue: 0,0:03:35.42,0:03:37.55,Main01,Iwamatsu,0000,0000,0000,,I was really surprised.
+Dialogue: 0,0:03:37.55,0:03:38.96,Main01,Iwamatsu,0000,0000,0000,,I didn't expect a little \Ngirl to be so strong,
+Dialogue: 0,0:03:38.96,0:03:40.57,Main01,,0000,0000,0000,,though you're not as strong as I am.
+Dialogue: 0,0:03:40.99,0:03:42.91,Main01,Iwamatsu,0000,0000,0000,,S-So, are there other people in
+Dialogue: 0,0:03:42.91,0:03:45.31,Main01,,0000,0000,0000,,the Kabuki District who \Nare strong like you?
+Dialogue: 0,0:03:45.31,0:03:48.12,Main01,Kagura,0000,0000,0000,,Nope, I'm queen of the Kabuki District.
+Dialogue: 0,0:03:48.47,0:03:50.11,Main01,Iwamatsu,0000,0000,0000,,O-Of course!
+Dialogue: 0,0:03:50.11,0:03:53.37,Main01,Iwamatsu,0000,0000,0000,,You're not gonna find too \Nmany people this strong!
+Dialogue: 0,0:03:53.92,0:03:56.44,Main01,Kagura,0000,0000,0000,,Is this your first time \Nin the Kabuki District?
+Dialogue: 0,0:03:56.44,0:03:58.42,Main01,Iwamatsu,0000,0000,0000,,Huh? Oh, yeah.
+Dialogue: 0,0:03:58.42,0:04:00.74,Main01,Iwamatsu,0000,0000,0000,,I came from the countryside \Nto do business,
+Dialogue: 0,0:04:00.74,0:04:02.81,Main01,Iwamatsu,0000,0000,0000,,but I don't know my way around the city.
+Dialogue: 0,0:04:02.81,0:04:04.90,Main01,Kagura,0000,0000,0000,,Want me to show you around?
+Dialogue: 0,0:04:04.90,0:04:08.85,Main01,Kagura,0000,0000,0000,,I can show you some nice places \Nin return for the meat bun.
+Dialogue: 0,0:04:08.85,0:04:09.86,Main01,Iwamatsu,0000,0000,0000,,What? Really?
+Dialogue: 0,0:04:09.86,0:04:12.14,Main01,Kagura,0000,0000,0000,,You can ask me anything \Nabout the Kabuki District.
+Dialogue: 0,0:04:12.47,0:04:15.40,Main01,Kagura,0000,0000,0000,,So basically, you're looking \Nfor a place with a bunch
+Dialogue: 0,0:04:15.40,0:04:18.09,Main01,Kagura,0000,0000,0000,,of irritated guys who \Nwill want to hit you.
+Dialogue: 0,0:04:18.09,0:04:22.15,Main01,Iwamatsu,0000,0000,0000,,Yes, and I would prefer that \Nthey not be too strong.
+Dialogue: 0,0:04:22.47,0:04:24.84,Main01,Iwamatsu,0000,0000,0000,,Well, I suppose it doesn't matter.
+Dialogue: 0,0:04:24.84,0:04:26.53,Main01,Iwamatsu,0000,0000,0000,,But if they're too strong,
+Dialogue: 0,0:04:26.53,0:04:28.20,Main01,Iwamatsu,0000,0000,0000,,it will be harder for me \Nto control my strength
+Dialogue: 0,0:04:28.20,0:04:29.82,Main01,,0000,0000,0000,,and I might end up injuring them.
+Dialogue: 0,0:04:29.82,0:04:30.56,Main01,Kagura,0000,0000,0000,,Leave it to me.
+Dialogue: 0,0:04:30.56,0:04:31.79,Main01,Kagura,0000,0000,0000,,I know the perfect place.
+Dialogue: 0,0:04:31.79,0:04:40.17,On Screen,Caption,0000,0000,0000,,Otose
+Dialogue: 0,0:04:32.27,0:04:33.28,Main01,Iwamatsu,0000,0000,0000,,What's this place?
+Dialogue: 0,0:04:33.28,0:04:35.31,Main01,Kagura,0000,0000,0000,,A bar for drinking cheap booze.
+Dialogue: 0,0:04:35.31,0:04:37.10,Main01,Kagura,0000,0000,0000,,The patrons don't have much money.
+Dialogue: 0,0:04:37.10,0:04:40.17,Main01,Kagura,0000,0000,0000,,Most of them come here to \Nbitch about their life.
+Dialogue: 0,0:04:40.63,0:04:41.89,Main01,Iwamatsu,0000,0000,0000,,I see.
+Dialogue: 0,0:04:41.89,0:04:44.51,Main01,Iwamatsu,0000,0000,0000,,There should be plenty of \Nirritated patrons here.
+Dialogue: 0,0:04:44.51,0:04:46.18,Main01,Iwamatsu,0000,0000,0000,,The queen of the Kabuki \NDistrict knows her territory.
+Dialogue: 0,0:04:46.59,0:04:49.18,Main01,Iwamatsu,0000,0000,0000,,My first customer just happened to be
+Dialogue: 0,0:04:49.18,0:04:50.89,Main01,,0000,0000,0000,,this anomaly of a girl.
+Dialogue: 0,0:04:50.93,0:04:53.68,Main01,Iwamatsu,0000,0000,0000,,But I shouldn't need to be scared \Nof a bunch of old drunks.
+Dialogue: 0,0:04:55.48,0:04:59.08,Main01,Otose,0000,0000,0000,,Don't come here if don't have any money!
+Dialogue: 0,0:04:59.08,0:05:01.44,Main01,Catherine,0000,0000,0000,,You're always drinking \Nand never paying up!
+Dialogue: 0,0:05:01.75,0:05:03.90,Main01,Catherine,0000,0000,0000,,This isn't your home!
+Dialogue: 0,0:05:03.90,0:05:05.87,Main01,Otose,0000,0000,0000,,Crush! Crush! Crush!
+Dialogue: 0,0:05:07.03,0:05:11.62,Main01,Iwamatsu,0000,0000,0000,,M-My potential customers \Nare already punching bags!
+Dialogue: 0,0:05:14.28,0:05:16.15,Main01,Kagura,0000,0000,0000,,Hey, Gin-chan, Madao.
+Dialogue: 0,0:05:16.15,0:05:17.67,Main01,Kagura,0000,0000,0000,,This guy sells himself \Nas a punching bag.
+Dialogue: 0,0:05:17.98,0:05:20.20,Main01,Kagura,0000,0000,0000,,Want to blow off some steam?
+Dialogue: 0,0:05:20.20,0:05:21.73,Main01,Kagura,0000,0000,0000,,You can hit him as many \Ntimes as you want.
+Dialogue: 0,0:05:21.73,0:05:25.67,Main01,Iwamatsu,0000,0000,0000,,Wait! I refuse! It's obvious \Nthat they have no money!
+Dialogue: 0,0:05:25.89,0:05:27.76,Main01,Madao,0000,0000,0000,,Punching bag?
+Dialogue: 0,0:05:27.76,0:05:30.17,Main01,Madao,0000,0000,0000,,People treat me like a \Npunching bag every day.
+Dialogue: 0,0:05:30.50,0:05:33.00,Main01,Madao,0000,0000,0000,,People like me should die.
+Dialogue: 0,0:05:33.00,0:05:34.35,Main01,Iwamatsu,0000,0000,0000,,This guy's dangerous!
+Dialogue: 0,0:05:34.35,0:05:36.69,Main01,Iwamatsu,0000,0000,0000,,He's not irritated! He \Nshould be on suicide watch!
+Dialogue: 0,0:05:37.34,0:05:38.76,Main01,Kagura,0000,0000,0000,,Wake up, Gin-chan.
+Dialogue: 0,0:05:38.76,0:05:39.81,Main01,Kagura,0000,0000,0000,,This guy sells himself \Nas a punching bag.
+Dialogue: 0,0:05:40.05,0:05:41.85,Main01,Gin,0000,0000,0000,,Punching bag?
+Dialogue: 0,0:05:42.48,0:05:43.50,Main01,Gin,0000,0000,0000,,Can I?
+Dialogue: 0,0:05:43.50,0:05:44.37,Main01,Gin,0000,0000,0000,,Don't blame me though.
+Dialogue: 0,0:05:44.37,0:05:47.52,Main01,Gin,0000,0000,0000,,He might go from punching \Nbag to body bag.
+Dialogue: 0,0:05:47.52,0:05:48.83,Main01,Iwamatsu,0000,0000,0000,,You're scaring me!
+Dialogue: 0,0:05:48.83,0:05:49.78,Main01,Iwamatsu,0000,0000,0000,,What's wrong with this snack bar?!
+Dialogue: 0,0:05:49.78,0:05:52.16,Main01,Iwamatsu,0000,0000,0000,,Why are the customers all deranged?!
+Dialogue: 0,0:05:52.40,0:05:53.81,Main01,Kagura,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:05:53.81,0:05:55.91,Main01,Kagura,0000,0000,0000,,Gin-chan and Madao can \Nbe super when they try.
+Dialogue: 0,0:05:56.23,0:05:57.57,Main01,Iwamatsu,0000,0000,0000,,No, it's impossible!
+Dialogue: 0,0:05:57.57,0:05:59.64,Main01,Iwamatsu,0000,0000,0000,,They're completely smashed!  \NAnd they're broke!
+Dialogue: 0,0:05:59.64,0:06:00.81,Main01,Iwamatsu,0000,0000,0000,,Forget it! Forget it!
+Dialogue: 0,0:06:00.81,0:06:01.82,Main01,Iwamatsu,0000,0000,0000,,I'll look for customers somewhere else!
+Dialogue: 0,0:06:01.82,0:06:03.72,Main01,Gin,0000,0000,0000,,Don't make fun of me.
+Dialogue: 0,0:06:04.10,0:06:06.97,Main01,Gin,0000,0000,0000,,Everybody's obsessed with money!
+Dialogue: 0,0:06:06.97,0:06:08.22,Main01,Gin,0000,0000,0000,,So I don't have money.
+Dialogue: 0,0:06:08.22,0:06:10.14,Main01,Gin,0000,0000,0000,,I still got something \Nthat's damn valuable.
+Dialogue: 0,0:06:10.30,0:06:20.60,On Screen,Caption,0000,0000,0000,,Destiny of an Emperor
+Dialogue: 0,0:06:11.10,0:06:13.25,Main01,Iwamatsu,0000,0000,0000,,It's an NES cartridge!
+Dialogue: 0,0:06:13.25,0:06:14.23,Main01,Gin,0000,0000,0000,,You fool!
+Dialogue: 0,0:06:14.23,0:06:15.93,Main01,Gin,0000,0000,0000,,Destiny of an Emperor \Nwas a brilliant RPG that
+Dialogue: 0,0:06:15.93,0:06:17.46,Main01,,0000,0000,0000,,was loved by everyone important!
+Dialogue: 0,0:06:17.46,0:06:19.36,Main01,Gin,0000,0000,0000,,If you find the right buyer, \Nit'll fetch a pretty penny.
+Dialogue: 0,0:06:19.47,0:06:20.49,Main01,Iwamatsu,0000,0000,0000,,Who cares?!
+Dialogue: 0,0:06:20.49,0:06:22.41,Main01,Iwamatsu,0000,0000,0000,,And the name Takeshi \Nis written on there!
+Dialogue: 0,0:06:20.60,0:06:24.61,On Screen,Caption,0000,0000,0000,,Takeshi
+Dialogue: 0,0:06:22.41,0:06:24.61,Main01,Iwamatsu,0000,0000,0000,,You obviously borrowed \Nit and never returned it!
+Dialogue: 0,0:06:24.70,0:06:26.39,Main01,Madao,0000,0000,0000,,Hey, hold on!
+Dialogue: 0,0:06:26.39,0:06:28.49,Main01,Madao,0000,0000,0000,,Isn't that the game I let you borrow?!
+Dialogue: 0,0:06:28.53,0:06:30.22,Main01,Gin,0000,0000,0000,,You were just letting me borrow a game
+Dialogue: 0,0:06:30.20,0:06:31.79,Main01,Gin,0000,0000,0000,,that you borrowed from someone \Nelse and never returned!
+Dialogue: 0,0:06:31.79,0:06:32.70,Main01,Gin,0000,0000,0000,,It doesn't belong to you!
+Dialogue: 0,0:06:33.45,0:06:34.29,Main01,Madao,0000,0000,0000,,Shut up!
+Dialogue: 0,0:06:34.29,0:06:36.12,Main01,Madao,0000,0000,0000,,How can you sell something that \Nyou borrowed from someone else?!
+Dialogue: 0,0:06:36.12,0:06:38.41,Main01,Gin,0000,0000,0000,,You're the one who let me borrow a \Ngame you borrowed from someone else!
+Dialogue: 0,0:06:38.41,0:06:39.65,Main01,Madao,0000,0000,0000,,Let go!
+Dialogue: 0,0:06:39.65,0:06:40.91,Main01,Gin,0000,0000,0000,,Stop it!
+Dialogue: 0,0:06:41.58,0:06:43.84,Main01,Iwamatsu,0000,0000,0000,,This might be the most \Npointless fight ever!
+Dialogue: 0,0:06:46.95,0:06:48.75,Main01,Madao,0000,0000,0000,,Bastard! What was that for?!
+Dialogue: 0,0:06:48.75,0:06:51.57,Main01,Madao,0000,0000,0000,,Destiny of an Emperor \Nwas Three-Kingdom'd!
+Dialogue: 0,0:06:51.57,0:06:52.14,Main01,Gin,0000,0000,0000,,That's not funny!
+Dialogue: 0,0:06:52.72,0:06:53.97,Main01,Madao,0000,0000,0000,,Apologize to Takeshi!
+Dialogue: 0,0:06:54.43,0:06:55.11,Main01,Gin,0000,0000,0000,,Shut up!
+Dialogue: 0,0:06:55.11,0:06:56.43,Main01,Gin,0000,0000,0000,,You should apologize to Takeshi!
+Dialogue: 0,0:06:56.83,0:07:00.85,Main01,Iwamatsu,0000,0000,0000,,Apologize to the people who \Nare watching this crap on TV!
+Dialogue: 0,0:07:00.85,0:07:03.49,Main01,Kagura,0000,0000,0000,,Oh, now they're punching each other.
+Dialogue: 0,0:07:03.49,0:07:05.74,Main01,Kagura,0000,0000,0000,,I guess they won't need a punching bag.
+Dialogue: 0,0:07:05.74,0:07:07.23,Main01,Iwamatsu,0000,0000,0000,,I'm pretty sure they never did.
+Dialogue: 0,0:07:07.73,0:07:11.01,Main01,Iwamatsu,0000,0000,0000,,Uh, forget about looking \Nfor irritated people.
+Dialogue: 0,0:07:11.01,0:07:12.57,Main01,Iwamatsu,0000,0000,0000,,Could you take me to a place
+Dialogue: 0,0:07:12.57,0:07:14.83,Main01,,0000,0000,0000,,with friendly and energetic people?
+Dialogue: 0,0:07:15.23,0:07:16.57,Main01,Kagura,0000,0000,0000,,Hmm...
+Dialogue: 0,0:07:16.57,0:07:18.78,Main01,Kagura,0000,0000,0000,,Energetic...
+Dialogue: 0,0:07:18.78,0:07:20.86,Main01,Kagura,0000,0000,0000,,I guess there's a place.
+Dialogue: 0,0:07:21.03,0:07:21.98,Main01,Iwamatsu,0000,0000,0000,,There is?
+Dialogue: 0,0:07:21.98,0:07:23.46,Main01,Iwamatsu,0000,0000,0000,,Could you take me there?
+Dialogue: 0,0:07:25.46,0:07:27.46,Main01,Katsura,0000,0000,0000,,It is time for action!
+Dialogue: 0,0:07:27.98,0:07:31.04,Main01,Katsura,0000,0000,0000,,We must punish the dogs \Nof the hated Bakufu
+Dialogue: 0,0:07:31.04,0:07:33.39,Main01,,0000,0000,0000,,who have persecuted us for so long!
+Dialogue: 0,0:07:33.39,0:07:34.50,Main01,Katsura,0000,0000,0000,,Tomorrow at dawn,
+Dialogue: 0,0:07:34.50,0:07:37.18,Main01,,0000,0000,0000,,we will attack the \NShinsengumi headquarters!
+Dialogue: 0,0:07:37.18,0:07:38.16,Main01,Katsura,0000,0000,0000,,And...
+Dialogue: 0,0:07:38.16,0:07:40.85,Main01,Katsura,0000,0000,0000,,...do this to all of their toilet paper!
+Dialogue: 0,0:07:41.50,0:07:44.56,Main01,Katsura,0000,0000,0000,,Turn the roll so it comes out backwards!
+Dialogue: 0,0:07:44.92,0:07:46.61,Main01,A,0000,0000,0000,,Damn Shinsengumi!
+Dialogue: 0,0:07:46.61,0:07:48.99,Main01,A,0000,0000,0000,,Today will be the last day you can take \Na dump without having to think twice!
+Dialogue: 0,0:07:48.99,0:07:50.98,Main01,B,0000,0000,0000,,After tomorrow morning,
+Dialogue: 0,0:07:50.99,0:07:52.51,Main01,B,0000,0000,0000,,they will suffer a living hell
+Dialogue: 0,0:07:52.51,0:07:55.32,Main01,,0000,0000,0000,,of toilet paper that \Nnever stops rolling!
+Dialogue: 0,0:07:56.39,0:07:58.01,Main01,Iwamatsu,0000,0000,0000,,Who are these idiots?
+Dialogue: 0,0:07:58.01,0:07:59.83,Main01,Kagura,0000,0000,0000,,Energetic terrorists.
+Dialogue: 0,0:08:00.07,0:08:01.29,Main01,Iwamatsu,0000,0000,0000,,Terrorists?!
+Dialogue: 0,0:08:01.29,0:08:03.30,Main01,Iwamatsu,0000,0000,0000,,Why did you bring me here?!
+Dialogue: 0,0:08:03.30,0:08:05.36,Main01,Kagura,0000,0000,0000,,They have plenty of energy.
+Dialogue: 0,0:08:05.36,0:08:08.21,Main01,Kagura,0000,0000,0000,,I'm sure they'll be great customers.
+Dialogue: 0,0:08:08.21,0:08:10.21,Main01,Kagura,0000,0000,0000,,Hey, Zura!
+Dialogue: 0,0:08:10.44,0:08:11.59,Main01,Katsura,0000,0000,0000,,Oh, leader!
+Dialogue: 0,0:08:11.59,0:08:13.71,Main01,Joi,0000,0000,0000,,Good evening, leader!
+Dialogue: 0,0:08:13.71,0:08:16.98,Main01,Kagura,0000,0000,0000,,Want to warm up before you \Ngo take on the Shinsengumi?
+Dialogue: 0,0:08:16.98,0:08:18.97,Main01,Kagura,0000,0000,0000,,I brought a punching bag!
+Dialogue: 0,0:08:19.36,0:08:20.47,Main01,Katsura,0000,0000,0000,,Punching bag?
+Dialogue: 0,0:08:20.47,0:08:23.65,Main01,Kagura,0000,0000,0000,,You can beat up this human \Npunching bag for a whole minute.
+Dialogue: 0,0:08:23.65,0:08:27.06,Main01,Kagura,0000,0000,0000,,Pretend that he's from the Shinsengumi \Nand vent your frustration!
+Dialogue: 0,0:08:27.42,0:08:30.00,Main01,A,0000,0000,0000,,I get it! Brilliant, leader!
+Dialogue: 0,0:08:30.00,0:08:33.27,Main01,B,0000,0000,0000,,We were letting our emotions \Nget the better of us!
+Dialogue: 0,0:08:33.27,0:08:35.78,Main01,B,0000,0000,0000,,We should beat him up \Nand calm ourselves down!
+Dialogue: 0,0:08:35.78,0:08:37.86,Main01,A,0000,0000,0000,,Okay! Let's do this!
+Dialogue: 0,0:08:37.86,0:08:39.62,Main01,Iwamatsu,0000,0000,0000,,Ah! Wait!
+Dialogue: 0,0:08:39.62,0:08:40.88,Main01,Iwamatsu,0000,0000,0000,,I can't handle all of you at once!
+Dialogue: 0,0:08:40.88,0:08:41.62,Main01,Iwamatsu,0000,0000,0000,,One at a time!
+Dialogue: 0,0:08:41.62,0:08:43.33,Main01,Katsura,0000,0000,0000,,Stop, you fools!
+Dialogue: 0,0:08:44.75,0:08:47.92,Main01,Katsura,0000,0000,0000,,A samurai should never attack someone
+Dialogue: 0,0:08:47.92,0:08:49.92,Main01,,0000,0000,0000,,who is not fighting back!
+Dialogue: 0,0:08:50.15,0:08:52.24,Main01,Katsura,0000,0000,0000,,And you call yourself Joi patriots?!
+Dialogue: 0,0:08:52.67,0:08:55.68,Main01,Joi,0000,0000,0000,,W-We're sorry, Katsura-san!
+Dialogue: 0,0:08:55.87,0:08:58.11,Main01,Katsura,0000,0000,0000,,I apologize for their behavior.
+Dialogue: 0,0:08:58.11,0:08:59.18,Main01,Katsura,0000,0000,0000,,Forgive us.
+Dialogue: 0,0:08:59.56,0:09:01.68,Main01,Katsura,0000,0000,0000,,They are normally well-behaved.
+Dialogue: 0,0:09:01.68,0:09:04.52,Main01,Katsura,0000,0000,0000,,I suppose that they're excited \Nabout the upcoming battle.
+Dialogue: 0,0:09:04.90,0:09:07.83,Main01,Iwamatsu,0000,0000,0000,,Nah, don't sweat it.
+Dialogue: 0,0:09:07.83,0:09:10.23,Main01,Iwamatsu,0000,0000,0000,,This is my job, so as long \Nas they come one at a time...
+Dialogue: 0,0:09:10.56,0:09:12.59,Main01,Katsura,0000,0000,0000,,I wish to settle accounts.
+Dialogue: 0,0:09:12.59,0:09:15.15,Main01,Katsura,0000,0000,0000,,Could you please give each member
+Dialogue: 0,0:09:15.15,0:09:16.83,Main01,,0000,0000,0000,,a double slap in the face?
+Dialogue: 0,0:09:16.83,0:09:18.57,Main01,Iwamatsu,0000,0000,0000,,I'm asking you to hit me!
+Dialogue: 0,0:09:19.01,0:09:20.53,Main01,Iwamatsu,0000,0000,0000,,Don't worry about it.
+Dialogue: 0,0:09:20.53,0:09:22.74,Main01,Iwamatsu,0000,0000,0000,,Really, this is my job.
+Dialogue: 0,0:09:22.74,0:09:24.26,Main01,Iwamatsu,0000,0000,0000,,I'm asking you to hit me.
+Dialogue: 0,0:09:24.26,0:09:26.33,Main01,Katsura,0000,0000,0000,,But I will not accept it!
+Dialogue: 0,0:09:26.33,0:09:27.77,Main01,Kagura,0000,0000,0000,,{\a6}Watch your tongue!
+Dialogue: 0,0:09:27.03,0:09:29.19,Main01,Katsura,0000,0000,0000,,You must slap each of \Nthem the way she is!
+Dialogue: 0,0:09:29.19,0:09:31.09,Main01,Iwamatsu,0000,0000,0000,,Why are you punching them?!
+Dialogue: 0,0:09:31.28,0:09:34.25,Main01,Iwamatsu,0000,0000,0000,,I can't put food on the \Ntable by hitting you people!
+Dialogue: 0,0:09:34.25,0:09:36.22,Main01,Iwamatsu,0000,0000,0000,,I'm begging you to hit me!
+Dialogue: 0,0:09:36.54,0:09:38.66,Main01,Katsura,0000,0000,0000,,You are so generous!
+Dialogue: 0,0:09:38.66,0:09:41.63,Main01,Katsura,0000,0000,0000,,You refuse to hit my men, even after they disrespected you!
+Dialogue: 0,0:09:42.03,0:09:43.22,Main01,Katsura,0000,0000,0000,,I understand.
+Dialogue: 0,0:09:44.93,0:09:47.76,Main01,Katsura,0000,0000,0000,,I am responsible for \Nthe failures of my men.
+Dialogue: 0,0:09:48.09,0:09:49.14,Main01,Katsura,0000,0000,0000,,I shall also offer...
+Dialogue: 0,0:09:49.14,0:09:50.36,Main01,Iwamatsu,0000,0000,0000,,That's not the issue here!
+Dialogue: 0,0:09:50.56,0:09:51.92,Main01,Katsura,0000,0000,0000,,...that you give my treasure,
+Dialogue: 0,0:09:51.92,0:09:56.03,Main01,,0000,0000,0000,,a Super Monkey Adventure \Ncartridge, a double slap!
+Dialogue: 0,0:09:56.03,0:09:57.43,Main01,Iwamatsu,0000,0000,0000,,Why?!
+Dialogue: 0,0:09:57.43,0:10:00.20,Main01,Iwamatsu,0000,0000,0000,,What does Super Monkey Adventure \Nhave to do with anything?!
+Dialogue: 0,0:10:00.46,0:10:02.17,Main01,Katsura,0000,0000,0000,,I'm sorry, Takeshi.
+Dialogue: 0,0:10:01.33,0:10:09.92,On Screen,Caption,0000,0000,0000,,Takeshi
+Dialogue: 0,0:10:02.17,0:10:04.36,Main01,Katsura,0000,0000,0000,,I intended to return this game to you...
+Dialogue: 0,0:10:04.36,0:10:04.89,Main01,Katsura,0000,0000,0000,,Such sorrow!
+Dialogue: 0,0:10:04.89,0:10:07.43,Main01,Iwamatsu,0000,0000,0000,,And it's another game that was \Nnever returned to Takeshi!
+Dialogue: 0,0:10:07.43,0:10:08.78,Main01,Iwamatsu,0000,0000,0000,,Who's Takeshi?!
+Dialogue: 0,0:10:08.78,0:10:10.37,Main01,Iwamatsu,0000,0000,0000,,Is it the same Takeshi?!
+Dialogue: 0,0:10:10.37,0:10:12.42,Main01,A,0000,0000,0000,,Don't be too hasty, Katsura-san!
+Dialogue: 0,0:10:12.42,0:10:14.61,Main01,A,0000,0000,0000,,Have you forgotten your \Npromise to Takeshi?!
+Dialogue: 0,0:10:14.61,0:10:15.70,Main01,Katsura,0000,0000,0000,,Not another word!
+Dialogue: 0,0:10:15.70,0:10:17.52,Main01,Katsura,0000,0000,0000,,Forgive me, Takeshi!
+Dialogue: 0,0:10:17.52,0:10:20.80,Main01,Iwamatsu,0000,0000,0000,,Hey! I can't tell if \NTakeshi is loved or hated!
+Dialogue: 0,0:10:22.68,0:10:24.35,Main01,Okita,0000,0000,0000,,The gig's up!
+Dialogue: 0,0:10:24.35,0:10:25.24,Main01,Okita,0000,0000,0000,,Katsura!
+Dialogue: 0,0:10:25.24,0:10:26.73,Main01,Okita,0000,0000,0000,,Turn yourself in!
+Dialogue: 0,0:10:27.25,0:10:28.49,Main01,Katsura,0000,0000,0000,,Shit!
+Dialogue: 0,0:10:28.49,0:10:30.63,Main01,Katsura,0000,0000,0000,,The enemy has learned of our plan!
+Dialogue: 0,0:10:30.63,0:10:31.48,Main01,Katsura,0000,0000,0000,,Then I have no choice!
+Dialogue: 0,0:10:31.70,0:10:32.98,Main01,Katsura,0000,0000,0000,,Onward, men!
+Dialogue: 0,0:10:32.98,0:10:34.23,Main01,Joi,0000,0000,0000,,Take this!
+Dialogue: 0,0:10:34.44,0:10:36.86,Main01,Joi,0000,0000,0000,,Super Monkey Adventure!
+Dialogue: 0,0:10:36.86,0:10:38.82,Main01,Iwamatsu,0000,0000,0000,,Why are you throwing cartridges?!
+Dialogue: 0,0:10:38.82,0:10:41.87,Main01,Iwamatsu,0000,0000,0000,,And how many copies do you have?!
+Dialogue: 0,0:10:44.52,0:10:45.87,Main01,Okita,0000,0000,0000,,They escaped outside!
+Dialogue: 0,0:10:45.87,0:10:47.60,Main01,Okita,0000,0000,0000,,Contact the 3rd Squad!
+Dialogue: 0,0:10:48.18,0:10:49.53,Main01,Okita,0000,0000,0000,,Huh? China girl?
+Dialogue: 0,0:10:49.53,0:10:51.56,Main01,Okita,0000,0000,0000,,Why are you here?
+Dialogue: 0,0:10:51.56,0:10:53.77,Main01,Kagura,0000,0000,0000,,Oh, the perfect sucker.
+Dialogue: 0,0:10:53.77,0:10:56.73,Main01,Kagura,0000,0000,0000,,He's a sadist, so he'd \Nbe a perfect customer.
+Dialogue: 0,0:10:56.73,0:10:58.26,Main01,Iwamatsu,0000,0000,0000,,First terrorists, now cops?!
+Dialogue: 0,0:10:58.47,0:10:59.59,Main01,Okita,0000,0000,0000,,A punching bag?
+Dialogue: 0,0:10:59.59,0:11:02.58,Main01,Kagura,0000,0000,0000,,Yup. You must be pissed \Nabout letting Zura escape.
+Dialogue: 0,0:11:02.58,0:11:03.97,Main01,Kagura,0000,0000,0000,,You can use him to blow off some steam.
+Dialogue: 0,0:11:03.97,0:11:05.56,Main01,Okita,0000,0000,0000,,It's not my thing.
+Dialogue: 0,0:11:05.56,0:11:08.82,Main01,Okita,0000,0000,0000,,There's nothing fun about hitting \Nsomeone who wants to be hit.
+Dialogue: 0,0:11:08.82,0:11:12.20,Main01,Okita,0000,0000,0000,,But I love to see the contorted \Nfaces of people in pain.
+Dialogue: 0,0:11:12.20,0:11:13.39,Main01,Iwamatsu,0000,0000,0000,,You're twisted!
+Dialogue: 0,0:11:13.39,0:11:14.32,Main01,Iwamatsu,0000,0000,0000,,What's wrong with this guy?!
+Dialogue: 0,0:11:14.32,0:11:15.41,Main01,Iwamatsu,0000,0000,0000,,Is he really a cop?!
+Dialogue: 0,0:11:15.41,0:11:18.80,Main01,Okita,0000,0000,0000,,If he was an artful dodger \Ninstead of a human punching bag,
+Dialogue: 0,0:11:18.80,0:11:22.86,Main01,Okita,0000,0000,0000,,and he offered to pay me instead \Nof charging, I might hit him.
+Dialogue: 0,0:11:22.86,0:11:24.95,Main01,Iwamatsu,0000,0000,0000,,That would make me a sick bastard!
+Dialogue: 0,0:11:25.22,0:11:26.99,Main01,Kagura,0000,0000,0000,,That's that, then.
+Dialogue: 0,0:11:26.99,0:11:27.68,Main01,Kagura,0000,0000,0000,,Pay up.
+Dialogue: 0,0:11:27.68,0:11:28.43,Main01,Iwamatsu,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:28.43,0:11:30.25,Main01,Kagura,0000,0000,0000,,I'm telling you to pay up!
+Dialogue: 0,0:11:30.50,0:11:31.91,Main01,Iwamatsu,0000,0000,0000,,What?!
+Dialogue: 0,0:11:31.91,0:11:35.03,Main01,Iwamatsu,0000,0000,0000,,I'm supposed to pay him to hit me?!
+Dialogue: 0,0:11:35.03,0:11:36.25,Main01,Iwamatsu,0000,0000,0000,,I'm trying to make money here!
+Dialogue: 0,0:11:36.49,0:11:38.71,Main01,Kagura,0000,0000,0000,,So you come all the way out to the city,
+Dialogue: 0,0:11:38.71,0:11:39.98,Main01,Kagura,0000,0000,0000,,and then you turn around and go back
+Dialogue: 0,0:11:39.98,0:11:41.38,Main01,,0000,0000,0000,,without even getting hit once?!
+Dialogue: 0,0:11:41.38,0:11:42.38,Main01,Kagura,0000,0000,0000,,Aren't you a punching bag?!
+Dialogue: 0,0:11:42.38,0:11:44.15,Main01,Kagura,0000,0000,0000,,If you have to pay for someone \Nto hit you, so be it!
+Dialogue: 0,0:11:44.15,0:11:47.26,Main01,Iwamatsu,0000,0000,0000,,That would make me some kind of S&M \Nfreak who's paying to be punished!
+Dialogue: 0,0:11:47.99,0:11:50.52,Main01,Okita,0000,0000,0000,,Well, twenty grand will do.
+Dialogue: 0,0:11:51.02,0:11:52.53,Main01,Iwamatsu,0000,0000,0000,,Why is this happening?
+Dialogue: 0,0:11:52.53,0:11:56.52,Main01,Okita,0000,0000,0000,,Now say, I'll give you all \Nmy money, so stop hitting me.
+Dialogue: 0,0:11:56.84,0:11:59.83,Main01,Iwamatsu,0000,0000,0000,,I'll give you all my \Nmoney, so stop hitting me.
+Dialogue: 0,0:11:59.83,0:12:01.84,Main01,Okita,0000,0000,0000,,Pretend like you're \Nback in middle school.
+Dialogue: 0,0:12:01.84,0:12:03.42,Main01,Iwamatsu,0000,0000,0000,,That's my whole allowance.
+Dialogue: 0,0:12:03.42,0:12:05.14,Main01,Iwamatsu,0000,0000,0000,,Cut me some slack, man.
+Dialogue: 0,0:12:05.14,0:12:06.03,Main01,Okita,0000,0000,0000,,Now like you're a foreigner.
+Dialogue: 0,0:12:06.25,0:12:08.04,Main01,Iwamatsu,0000,0000,0000,,All the money!
+Dialogue: 0,0:12:08.04,0:12:09.04,Main01,Iwamatsu,0000,0000,0000,,But not the body!
+Dialogue: 0,0:12:10.58,0:12:13.11,Main01,Okita,0000,0000,0000,,I guess I'll let you go this time.
+Dialogue: 0,0:12:13.11,0:12:15.85,Main01,Iwamatsu,0000,0000,0000,,That was highway robbery!
+Dialogue: 0,0:12:15.85,0:12:17.10,Main01,Iwamatsu,0000,0000,0000,,Give me back my money!
+Dialogue: 0,0:12:17.10,0:12:18.62,Main01,Iwamatsu,0000,0000,0000,,Aren't you a cop?!
+Dialogue: 0,0:12:18.62,0:12:19.70,Main01,Iwamatsu,0000,0000,0000,,You want a fight?!
+Dialogue: 0,0:12:19.70,0:12:20.63,Main01,Kondo,0000,0000,0000,,Sorry.
+Dialogue: 0,0:12:20.63,0:12:23.08,Main01,Kondo,0000,0000,0000,,It appears that one of \Nmy men was upsetting you.
+Dialogue: 0,0:12:23.93,0:12:25.03,Main01,Iwamatsu,0000,0000,0000,,What?
+Dialogue: 0,0:12:25.03,0:12:27.30,Main01,Kondo,0000,0000,0000,,Man, he's so hopeless.
+Dialogue: 0,0:12:27.56,0:12:28.84,Main01,Kondo,0000,0000,0000,,Sorry!
+Dialogue: 0,0:12:28.84,0:12:30.52,Main01,Kondo,0000,0000,0000,,I must apologize, as his superior.
+Dialogue: 0,0:12:30.52,0:12:33.56,Main01,Kondo,0000,0000,0000,,So, please keep this quiet.
+Dialogue: 0,0:12:33.81,0:12:37.75,Main01,Kondo,0000,0000,0000,,Here, consider this compensation \Ninstead of a bribe.
+Dialogue: 0,0:12:37.75,0:12:39.82,Main01,Iwamatsu,0000,0000,0000,,Huh? Should a cop be doing this?
+Dialogue: 0,0:12:39.82,0:12:43.25,Main01,Kondo,0000,0000,0000,,Please! It's not a big \Ndeal! Just take it!
+Dialogue: 0,0:12:43.25,0:12:44.76,Main01,Iwamatsu,0000,0000,0000,,Uh, this is wrong.
+Dialogue: 0,0:12:44.76,0:12:45.27,Main01,Iwamatsu,0000,0000,0000,,Are you sure about this?
+Dialogue: 0,0:12:45.27,0:12:46.12,Main01,Kondo,0000,0000,0000,,It's perfectly fine.
+Dialogue: 0,0:12:47.42,0:12:49.33,Main01,Kondo,0000,0000,0000,,Anyway, please forgive him.
+Dialogue: 0,0:12:49.33,0:12:51.37,Main01,Kondo,0000,0000,0000,,I'm counting on your silence.
+Dialogue: 0,0:12:53.37,0:12:56.38,Main01,Kondo,0000,0000,0000,,Hemosoro suparami bachiguso nemosamu...
+Dialogue: 0,0:12:56.38,0:12:58.88,Main01,Iwamatsu,0000,0000,0000,,It's a spell of resurrection!
+Dialogue: 0,0:12:59.15,0:13:01.63,Main01,Iwamatsu,0000,0000,0000,,For what game?!
+Dialogue: 0,0:13:01.88,0:13:03.22,Main01,Iwamatsu,0000,0000,0000,,I don't need this crap!
+Dialogue: 0,0:13:03.22,0:13:04.75,Main01,Iwamatsu,0000,0000,0000,,It's a worthless piece of paper!
+Dialogue: 0,0:13:05.63,0:13:12.64,On Screen,Caption,0000,0000,0000,,Takeshi
+Dialogue: 0,0:13:05.90,0:13:08.61,Main01,Iwamatsu,0000,0000,0000,,You again, Takeshi?!
+Dialogue: 0,0:13:08.61,0:13:10.59,Main01,Iwamatsu,0000,0000,0000,,How many of your games are \Nfloating around out there?!
+Dialogue: 0,0:13:10.59,0:13:13.16,Main01,Iwamatsu,0000,0000,0000,,Why did you even bother \Nwriting your name?!
+Dialogue: 0,0:13:13.16,0:13:15.34,Main01,Iwamatsu,0000,0000,0000,,Everybody must hate you!
+Dialogue: 0,0:13:15.34,0:13:18.04,Main01,Iwamatsu,0000,0000,0000,,Your crap's scattered around the \Nworld like the Dragon Balls!
+Dialogue: 0,0:13:18.04,0:13:21.65,Main01,Yamazaki,0000,0000,0000,,I apologize for my \Nsuperior's rude behavior.
+Dialogue: 0,0:13:21.87,0:13:23.95,Main01,Yamazaki,0000,0000,0000,,Please keep this quiet.
+Dialogue: 0,0:13:23.95,0:13:26.99,Main01,Iwamatsu,0000,0000,0000,,Hey, what's wrong with the cops here?
+Dialogue: 0,0:13:26.99,0:13:29.90,Main01,Kondo,0000,0000,0000,,Here, consider this compensation \Ninstead of a bribe.
+Dialogue: 0,0:13:29.90,0:13:31.20,Main01,Iwamatsu,0000,0000,0000,,No, enough of that already.
+Dialogue: 0,0:13:31.20,0:13:32.41,Main01,Iwamatsu,0000,0000,0000,,No more.
+Dialogue: 0,0:13:36.46,0:13:38.02,Main01,Iwamatsu,0000,0000,0000,,Hey!
+Dialogue: 0,0:13:38.02,0:13:39.34,Main01,Iwamatsu,0000,0000,0000,,I don't need any more \Nspells of resurrection!
+Dialogue: 0,0:13:39.34,0:13:41.84,Main01,Yamazaki,0000,0000,0000,,Anpan anpan anpan anpan anpan anpan \Nanpan anpan anpan anpan anpan anpan...
+Dialogue: 0,0:13:41.84,0:13:44.80,Main01,Iwamatsu,0000,0000,0000,,What is he trying to resurrect?!
+Dialogue: 0,0:13:44.80,0:13:46.15,Main01,Iwamatsu,0000,0000,0000,,What the hell?!
+Dialogue: 0,0:13:46.15,0:13:47.53,Main01,Iwamatsu,0000,0000,0000,,What does this mean?!
+Dialogue: 0,0:13:47.53,0:13:49.51,Main01,Iwamatsu,0000,0000,0000,,I have no idea, but I'm \Nscared to death now!
+Dialogue: 0,0:13:49.51,0:13:51.20,Main01,Kagura,0000,0000,0000,,Hey, he's looking at us.
+Dialogue: 0,0:13:52.32,0:13:54.13,Main01,Iwamatsu,0000,0000,0000,,He just said something.
+Dialogue: 0,0:13:54.13,0:13:55.12,Main01,Iwamatsu,0000,0000,0000,,What did he say?!
+Dialogue: 0,0:13:55.12,0:13:56.41,Main01,Iwamatsu,0000,0000,0000,,Hey, am I going to be okay?!
+Dialogue: 0,0:13:56.41,0:13:58.32,Main01,Iwamatsu,0000,0000,0000,,Did he just curse me?!
+Dialogue: 0,0:13:58.32,0:13:59.70,Main01,Iwamatsu,0000,0000,0000,,Hey! Wait!
+Dialogue: 0,0:13:59.70,0:14:01.32,Main01,Iwamatsu,0000,0000,0000,,Is it really okay?!
+Dialogue: 0,0:14:01.32,0:14:03.32,On Screen,Caption,0000,0000,0000,,Greater Edo Parking Lot
+Dialogue: 0,0:14:03.32,0:14:04.82,On Screen,Caption,0000,0000,0000,,Meat Bun
+Dialogue: 0,0:14:04.82,0:14:07.57,Main01,Kagura,0000,0000,0000,,Sorry I couldn't help you.
+Dialogue: 0,0:14:08.48,0:14:09.95,Main01,Iwamatsu,0000,0000,0000,,It's okay.
+Dialogue: 0,0:14:10.59,0:14:12.95,Main01,Iwamatsu,0000,0000,0000,,I'll give up on being a punching bag.
+Dialogue: 0,0:14:13.81,0:14:17.15,Main01,Iwamatsu,0000,0000,0000,,I guess this town doesn't need one.
+Dialogue: 0,0:14:17.55,0:14:19.94,Main01,Iwamatsu,0000,0000,0000,,There aren't any nasty \Npeople in this town
+Dialogue: 0,0:14:19.94,0:14:23.55,Main01,Iwamatsu,0000,0000,0000,,who get pleasure out of hitting \Nsomeone who doesn't fight back.
+Dialogue: 0,0:14:24.23,0:14:27.42,Main01,Iwamatsu,0000,0000,0000,,The people here tackle their problems
+Dialogue: 0,0:14:27.42,0:14:31.74,Main01,,0000,0000,0000,,head-on and blow off \Nstress by running wild.
+Dialogue: 0,0:14:32.24,0:14:36.39,Main01,Iwamatsu,0000,0000,0000,,I knew that the people \Nin this town were strong.
+Dialogue: 0,0:14:37.37,0:14:40.06,Main01,Iwamatsu,0000,0000,0000,,I wanted to be strong like they were,
+Dialogue: 0,0:14:40.06,0:14:43.23,Main01,,0000,0000,0000,,instead of working this creepy job.
+Dialogue: 0,0:14:43.91,0:14:45.45,Main01,Kagura,0000,0000,0000,,Really?
+Dialogue: 0,0:14:45.45,0:14:46.91,Main01,Kagura,0000,0000,0000,,It's too bad.
+Dialogue: 0,0:14:47.17,0:14:49.11,Main01,Kagura,0000,0000,0000,,I didn't understand \Nthe complicated stuff,
+Dialogue: 0,0:14:49.11,0:14:50.83,Main01,,0000,0000,0000,,but I feel better now,
+Dialogue: 0,0:14:51.39,0:14:53.99,Main01,Kagura,0000,0000,0000,,since you let me punch you.
+Dialogue: 0,0:14:55.99,0:15:00.00,Main01,Kagura,0000,0000,0000,,I'm sure there are people who need you.
+Dialogue: 0,0:15:00.00,0:15:02.68,Main01,Kagura,0000,0000,0000,,Like, for instance...
+Dialogue: 0,0:15:03.58,0:15:05.00,Main01,Kagura,0000,0000,0000,,Over there.
+Dialogue: 0,0:15:06.76,0:15:15.26,On Screen,Caption,0000,0000,0000,,Takeshi
+Dialogue: 0,0:15:07.32,0:15:10.59,Main01,Takeshi,0000,0000,0000,,I agreed to co-sign the loan
+Dialogue: 0,0:15:10.60,0:15:13.49,Main01,Takeshi,0000,0000,0000,,'cause he promised to \Npay the money back,
+Dialogue: 0,0:15:13.49,0:15:15.26,Main01,,0000,0000,0000,,and then he runs away.
+Dialogue: 0,0:15:16.26,0:15:19.31,Main01,Takeshi,0000,0000,0000,,I'm doomed to live a life where \Nnobody ever returns anything to me.
+Dialogue: 0,0:15:19.31,0:15:21.77,Main01,Takeshi,0000,0000,0000,,I should have written \Nmy name on the money...
+Dialogue: 0,0:15:19.52,0:15:21.77,On Screen,Caption,0000,0000,0000,,Takeshi
+Dialogue: 0,0:15:22.01,0:15:24.89,Main01,Iwamatsu,0000,0000,0000,,Is that... Is that...?
+Dialogue: 0,0:15:25.45,0:15:27.95,Main01,Kagura,0000,0000,0000,,I wouldn't say that everybody is strong.
+Dialogue: 0,0:15:27.95,0:15:31.74,Main01,Kagura,0000,0000,0000,,Some people are overwhelmed \Nby their gloomy feelings.
+Dialogue: 0,0:15:32.09,0:15:35.62,Main01,Kagura,0000,0000,0000,,Your job isn't creepy.
+Dialogue: 0,0:15:35.62,0:15:38.29,Main01,Kagura,0000,0000,0000,,You should be proud.
+Dialogue: 0,0:15:38.85,0:15:40.35,Main01,Kagura,0000,0000,0000,,You're the only one who
+Dialogue: 0,0:15:40.35,0:15:43.01,Main01,,0000,0000,0000,,can receive the fist of the \Ninjured soul who never has
+Dialogue: 0,0:15:43.01,0:15:45.52,Main01,Kagura,0000,0000,0000,,anything returned by the idiots \Nof the Kabuki district.
+Dialogue: 0,0:15:56.06,0:15:57.50,Main01,Iwamatsu,0000,0000,0000,,I never truly understood
+Dialogue: 0,0:15:58.07,0:16:00.76,Main01,,0000,0000,0000,,what it meant to be a punching bag.
+Dialogue: 0,0:16:02.06,0:16:05.28,Main01,Iwamatsu,0000,0000,0000,,My job wasn't to let \Nother people hit me.
+Dialogue: 0,0:16:06.87,0:16:12.91,Main01,Iwamatsu,0000,0000,0000,,It was to accept their \Nfists, their feelings...
+Dialogue: 0,0:16:17.40,0:16:21.03,Main01,Iwamatsu,0000,0000,0000,,Takeshi-kun, you can have \Nme for a whole minute.
+Dialogue: 0,0:16:21.03,0:16:23.83,Main01,Iwamatsu,0000,0000,0000,,I'll help you forget \Nall the bad memories.
+Dialogue: 0,0:16:23.83,0:16:24.79,Main01,Iwamatsu,0000,0000,0000,,How about it?
+Dialogue: 0,0:16:24.79,0:16:26.42,Main01,Takeshi,0000,0000,0000,,Gah! Pervert!
+Dialogue: 0,0:16:41.37,0:16:42.43,Main01,Kagura,0000,0000,0000,,Congratulations.
+Dialogue: 0,0:16:42.82,0:16:44.85,Main01,Kagura,0000,0000,0000,,Somebody finally punched you.
+Dialogue: 0,0:16:50.29,0:16:52.25,Main01,Iwamatsu,0000,0000,0000,,This doesn't seem right.
+Dialogue: 0,0:18:23.91,0:18:28.87,On Screen,EpTitle,0000,0000,0000,,We Ended Kind of Early So We're Gonna \NStart the Next Episode (Take Two)
+Dialogue: 0,0:18:29.13,0:18:32.63,Main01,Kagura,0000,0000,0000,,Have you forgotten
+Dialogue: 0,0:18:32.91,0:18:36.72,Main01,Kagura,0000,0000,0000,,about the red kerchief?
+Dialogue: 0,0:18:36.72,0:18:39.89,Main01,Kagura,0000,0000,0000,,When we went to the bath \Nin the neighboring town...
+Dialogue: 0,0:18:39.89,0:18:42.39,Main01,Gin,0000,0000,0000,,Hey, want me to drop \Nyou in the Kanda River?
+Dialogue: 0,0:18:42.39,0:18:49.02,On Screen,Caption,0000,0000,0000,,Greater Edo Bathhouse
+Dialogue: 0,0:18:43.15,0:18:46.39,Main01,Gin,0000,0000,0000,,Don't forget that you fell asleep \Nin the bath, almost drowned,
+Dialogue: 0,0:18:46.39,0:18:48.54,Main01,Gin,0000,0000,0000,,and destroyed everything in the process!
+Dialogue: 0,0:18:49.02,0:18:51.77,Main01,A,0000,0000,0000,,Adults are 200 yen. \NChildren are 100 yen.
+Dialogue: 0,0:18:52.11,0:19:04.79,On Screen,Caption,0000,0000,0000,,{\an9}Men
+Dialogue: 0,0:18:52.11,0:19:04.79,On Screen,Caption,0000,0000,0000,,{\an7}Women
+Dialogue: 0,0:18:52.20,0:18:54.09,Main01,Kagura,0000,0000,0000,,Don't treat me like a child.
+Dialogue: 0,0:18:54.09,0:18:55.98,Main01,Kagura,0000,0000,0000,,I'm a woman now.
+Dialogue: 0,0:18:55.98,0:18:57.69,Main01,Kagura,0000,0000,0000,,Charge me another 100 yen.
+Dialogue: 0,0:18:57.69,0:18:59.37,Main01,Gin,0000,0000,0000,,Shut your mouth.
+Dialogue: 0,0:18:59.37,0:19:01.74,Main01,Gin,0000,0000,0000,,Lady, I have the soul of a boy,
+Dialogue: 0,0:19:01.74,0:19:03.84,Main01,Gin,0000,0000,0000,,so how's 200 for both of us sound?
+Dialogue: 0,0:19:04.99,0:19:06.96,Main01,Kagura,0000,0000,0000,,Gin-chan, please give \Nme another 100 yen.
+Dialogue: 0,0:19:06.96,0:19:09.29,Main01,Kagura,0000,0000,0000,,I want to have some coffee \Nmilk after my bath.
+Dialogue: 0,0:19:09.41,0:19:12.27,Main01,Gin,0000,0000,0000,,You can drink the water \Nin the bath, you brat.
+Dialogue: 0,0:19:13.79,0:19:14.91,Main01,Shin,0000,0000,0000,,Huh?
+Dialogue: 0,0:19:14.91,0:19:16.48,Main01,Shin,0000,0000,0000,,Why are you here, Gin-san?
+Dialogue: 0,0:19:16.48,0:19:17.77,Main01,Gin,0000,0000,0000,,Commercial break finally ends and
+Dialogue: 0,0:19:17.77,0:19:19.55,Main01,,0000,0000,0000,,they're treated to a shot of your ass.
+Dialogue: 0,0:19:20.04,0:19:21.48,Main01,Gin,0000,0000,0000,,Why are you here?
+Dialogue: 0,0:19:21.48,0:19:23.44,Main01,Shin,0000,0000,0000,,There was a special \Nabout hot springs on TV,
+Dialogue: 0,0:19:23.44,0:19:25.87,Main01,Shin,0000,0000,0000,,so Sis decided she wanted \Nto enjoy a large bath.
+Dialogue: 0,0:19:25.87,0:19:29.28,Main01,Gin,0000,0000,0000,,You should have tossed her into \Na big puddle or something.
+Dialogue: 0,0:19:29.28,0:19:32.52,Main01,Gin,0000,0000,0000,,I figured I would have \Nthe place to myself.
+Dialogue: 0,0:19:32.52,0:19:34.26,Main01,Shin,0000,0000,0000,,Nice to see you, too.
+Dialogue: 0,0:19:34.26,0:19:37.11,Main01,Shin,0000,0000,0000,,You were probably going to \Npeek at the women, right?
+Dialogue: 0,0:19:37.11,0:19:40.40,Main01,Gin,0000,0000,0000,,I'm not gonna pick a fight with Agnes.
+Dialogue: 0,0:19:43.04,0:19:44.86,Main01,Kondo,0000,0000,0000,,Oh, sorry!
+Dialogue: 0,0:19:44.86,0:19:46.12,Main01,Kondo,0000,0000,0000,,There's construction work \Nbeing done on this bath,
+Dialogue: 0,0:19:46.12,0:19:47.91,Main01,,0000,0000,0000,,so could you go somewhere else?
+Dialogue: 0,0:19:49.09,0:19:51.54,Main01,Gin,0000,0000,0000,,Hey, how did the gorilla find out?
+Dialogue: 0,0:19:52.07,0:19:54.38,Main01,Gin,0000,0000,0000,,I don't want to share a bath with him.
+Dialogue: 0,0:19:54.38,0:19:55.90,Main01,Gin,0000,0000,0000,,I'll probably catch \Nsome kind of disease.
+Dialogue: 0,0:19:55.90,0:19:57.55,Main01,Hijikata,0000,0000,0000,,You're the disease.
+Dialogue: 0,0:19:57.95,0:20:01.39,Main01,Hijikata,0000,0000,0000,,You can use the tepid \Nkiddy bath over there.
+Dialogue: 0,0:20:01.39,0:20:02.79,Main01,Hijikata,0000,0000,0000,,It's probably your style.
+Dialogue: 0,0:20:02.30,0:20:06.22,On Screen,Caption,0000,0000,0000,,Kiddy Pool\NDo not jump in.
+Dialogue: 0,0:20:02.79,0:20:04.31,Main01,Okita,0000,0000,0000,,That's the Hijikata-san we know.
+Dialogue: 0,0:20:04.31,0:20:07.00,Main01,Okita,0000,0000,0000,,A real Edo boy loves steaming hot baths.
+Dialogue: 0,0:20:07.00,0:20:08.57,Main01,Hijikata,0000,0000,0000,,Yeah, this ain't hot enough.
+Dialogue: 0,0:20:08.57,0:20:09.56,Main01,Hijikata,0000,0000,0000,,Load 'er up.
+Dialogue: 0,0:20:09.86,0:20:10.43,Main01,Okita,0000,0000,0000,,Here.
+Dialogue: 0,0:20:10.43,0:20:11.24,Main01,Hijikata,0000,0000,0000,,Hey!
+Dialogue: 0,0:20:11.24,0:20:13.72,Main01,Hijikata,0000,0000,0000,,Where'd you get leftover \Nwater from cooking yakisoba?!
+Dialogue: 0,0:20:13.72,0:20:16.06,Main01,Gin,0000,0000,0000,,I'll use this chance to wash \Nthe underwear I was wearing.
+Dialogue: 0,0:20:16.06,0:20:17.29,Main01,Gin,0000,0000,0000,,Saves money.
+Dialogue: 0,0:20:17.29,0:20:19.53,Main01,Hijikata,0000,0000,0000,,This isn't the Ganges River!
+Dialogue: 0,0:20:19.97,0:20:21.39,Main01,Kondo,0000,0000,0000,,Stop it, people!
+Dialogue: 0,0:20:21.39,0:20:23.03,Main01,Kondo,0000,0000,0000,,We're here to take a bath!
+Dialogue: 0,0:20:23.03,0:20:24.87,Main01,Kondo,0000,0000,0000,,If you're going to make a ruckus, leave!
+Dialogue: 0,0:20:24.87,0:20:26.00,Main01,Kondo,0000,0000,0000,,Otae-san can stay!
+Dialogue: 0,0:20:26.00,0:20:27.83,Main01,Gin,0000,0000,0000,,You're obviously not \Nhere to take a bath.
+Dialogue: 0,0:20:28.29,0:20:31.17,Main01,Gin,0000,0000,0000,,If you're looking for a quick \Ncleaning, jump in a washing machine.
+Dialogue: 0,0:20:31.17,0:20:34.18,Main01,Gin,0000,0000,0000,,This is no place for \Ndirty bastards like you!
+Dialogue: 0,0:20:34.18,0:20:34.99,Main01,Kondo,0000,0000,0000,,What was that?!
+Dialogue: 0,0:20:34.99,0:20:37.39,Main01,Kondo,0000,0000,0000,,I'll Vidal Sassoon your pubes!
+Dialogue: 0,0:20:37.39,0:20:37.88,Main01,Gin,0000,0000,0000,,Eh?!
+Dialogue: 0,0:20:37.88,0:20:40.45,Main01,Gin,0000,0000,0000,,I'll pluck out your \Nass hairs one by one!
+Dialogue: 0,0:20:40.45,0:20:41.21,Main01,Kondo,0000,0000,0000,,Get out!
+Dialogue: 0,0:20:41.21,0:20:43.73,Main01,Kondo,0000,0000,0000,,You're in Vidal Sassoon territory!
+Dialogue: 0,0:20:43.73,0:20:45.46,Main01,Gin,0000,0000,0000,,Fine! Let's take this outside!
+Dialogue: 0,0:20:45.46,0:20:47.22,Main01,Gin,0000,0000,0000,,I'll show you what tweezers can do!
+Dialogue: 0,0:20:48.25,0:20:50.64,Main01,Chibi,0000,0000,0000,,Whoa, this is a bathhouse?
+Dialogue: 0,0:20:50.64,0:20:51.65,Main01,Chibi,0000,0000,0000,,It's huge!
+Dialogue: 0,0:20:51.67,0:20:53.23,Main01,Chibi,0000,0000,0000,,I wanna swim!
+Dialogue: 0,0:20:53.79,0:20:54.99,Main01,Gin,0000,0000,0000,,Eh?! Swim?!
+Dialogue: 0,0:20:54.99,0:20:56.57,Main01,Gin,0000,0000,0000,,This isn't the pool!
+Dialogue: 0,0:20:56.57,0:20:58.86,Main01,Kondo,0000,0000,0000,,Only Vidal Sassooners \Nare allowed here, kid!
+Dialogue: 0,0:20:58.86,0:21:00.48,Main01,Kondo,0000,0000,0000,,We booked the place!
+Dialogue: 0,0:21:01.19,0:21:02.99,Main01,Chibi,0000,0000,0000,,What? Booked the place?
+Dialogue: 0,0:21:03.31,0:21:04.39,Main01,Chibi,0000,0000,0000,,No way.
+Dialogue: 0,0:21:04.39,0:21:07.24,Main01,Chibi,0000,0000,0000,,I heard that everybody's \Nallowed in a bathhouse.
+Dialogue: 0,0:21:07.44,0:21:08.89,Main01,Shin,0000,0000,0000,,G-Gin-san...
+Dialogue: 0,0:21:08.89,0:21:10.28,Main01,Shin,0000,0000,0000,,Th-That's...
+Dialogue: 0,0:21:10.61,0:21:13.86,Main01,Chibi,0000,0000,0000,,Papa, they said that \Nthey booked the bath.
+Dialogue: 0,0:21:13.86,0:21:14.94,Main01,Goro,0000,0000,0000,,What's that?
+Dialogue: 0,0:21:14.94,0:21:16.15,Main01,Goro,0000,0000,0000,,That's odd.
+Dialogue: 0,0:21:16.15,0:21:18.54,Main01,Goro,0000,0000,0000,,I heard that the bathhouse \Nis a public place.
+Dialogue: 0,0:21:18.54,0:21:20.00,Main01,Goro,0000,0000,0000,,Brother, they booked the place.
+Dialogue: 0,0:21:20.00,0:21:21.51,Main01,Shiro,0000,0000,0000,,What? That's impossible.
+Dialogue: 0,0:21:21.74,0:21:25.21,Main01,Shiro,0000,0000,0000,,Brother Saburo said we could \Nall take a bath here, right?
+Dialogue: 0,0:21:25.21,0:21:27.19,Main01,Saburo,0000,0000,0000,,Don't look at me.
+Dialogue: 0,0:21:27.19,0:21:28.51,Main01,Saburo,0000,0000,0000,,Well, Brother Jiro?
+Dialogue: 0,0:21:28.51,0:21:30.28,Main01,Jiro,0000,0000,0000,,Father, where's our eldest brother?
+Dialogue: 0,0:21:30.28,0:21:32.02,Main01,Dad,0000,0000,0000,,Beats me.
+Dialogue: 0,0:21:32.02,0:21:34.48,Main01,Hedoro,0000,0000,0000,,Hey. What are you all doing?
+Dialogue: 0,0:21:34.48,0:21:35.52,Main01,Saburo,0000,0000,0000,,Ah, Big Brother!
+Dialogue: 0,0:21:37.48,0:21:38.46,Main01,Hedoro,0000,0000,0000,,Huh?
+Dialogue: 0,0:21:38.46,0:21:40.27,Main01,Hedoro,0000,0000,0000,,The Odd Jobs members.
+Dialogue: 0,0:21:40.72,0:21:42.27,Main01,Hedoro,0000,0000,0000,,It's been a while.
+Dialogue: 0,0:21:42.66,0:21:45.28,Main01,Hedoro,0000,0000,0000,,It's me, the Hedoro next door.
+Dialogue: 0,0:21:49.84,0:21:54.83,Main01,Gin,0000,0000,0000,,He-Hedoro has multiplied!
+Dialogue: 0,0:21:55.05,0:21:58.21,Main01,Saburo,0000,0000,0000,,Uh, I heard that you booked the place?
+Dialogue: 0,0:21:58.21,0:22:00.29,Main01,Jiro,0000,0000,0000,,We're not allowed in here?
+Dialogue: 0,0:22:01.34,0:22:03.30,On Screen,Caption,0000,0000,0000,,Kiddy Pool\NDo not jump in.
+Dialogue: 0,0:22:05.02,0:22:06.49,Main01,Both,0000,0000,0000,,Welcome!
+Dialogue: 0,0:22:06.49,0:22:08.55,Main01,Both,0000,0000,0000,,Enjoy yourselves!
+Dialogue: 0,0:22:08.82,0:22:09.93,Main01,Chibi,0000,0000,0000,,Yay!
+Dialogue: 0,0:22:09.93,0:22:11.37,Main01,Hedoro,0000,0000,0000,,I apologize.
+Dialogue: 0,0:22:11.37,0:22:13.64,Main01,Hedoro,0000,0000,0000,,It appears that we are imposing on you.
+Dialogue: 0,0:22:13.92,0:22:16.71,Main01,Kondo,0000,0000,0000,,H-Hey! Why is the Addams Family here?!
+Dialogue: 0,0:22:16.71,0:22:18.38,Main01,Kondo,0000,0000,0000,,You know them?!
+Dialogue: 0,0:22:18.38,0:22:20.56,Main01,Both,0000,0000,0000,,N-No! We never knew there were so many!
+Dialogue: 0,0:22:21.64,0:22:25.79,Main01,Hedoro,0000,0000,0000,,You see, my family's visiting \Nfrom the countryside,
+Dialogue: 0,0:22:25.79,0:22:27.91,Main01,Hedoro,0000,0000,0000,,so I decided to bring \Nthem to a bathhouse
+Dialogue: 0,0:22:27.91,0:22:29.91,Main01,,0000,0000,0000,,to show them what Edo's like.
+Dialogue: 0,0:22:29.91,0:22:32.53,Main01,All,0000,0000,0000,,Wr-Wring Edo to death?!
+Dialogue: 0,0:22:32.53,0:22:37.46,Main01,Hedoro,0000,0000,0000,,We don't take baths \Ntogether on our planet.
+Dialogue: 0,0:22:37.46,0:22:41.54,Main01,Hedoro,0000,0000,0000,,I think it's dynamite to strip \Ndown and spend time together.
+Dialogue: 0,0:22:41.74,0:22:44.55,Main01,All,0000,0000,0000,,St-Strip down dynamite!
+Dialogue: 0,0:22:44.76,0:22:46.47,Main01,Gin,0000,0000,0000,,I-I don't believe it!
+Dialogue: 0,0:22:46.49,0:22:51.22,Main01,Gin,0000,0000,0000,,Th-They're finally \Nmoving to invade Earth!
+Dialogue: 0,0:22:51.44,0:22:53.52,Main01,Hijikata,0000,0000,0000,,I-Invade Earth?!
+Dialogue: 0,0:22:53.52,0:22:54.39,Main01,Hijikata,0000,0000,0000,,Impossible!
+Dialogue: 0,0:22:54.39,0:22:57.18,Main01,Okita,0000,0000,0000,,They're starting by taking \Nover this bathhouse.
+Dialogue: 0,0:22:57.18,0:22:58.23,Main01,Okita,0000,0000,0000,,Damn monsters!
+Dialogue: 0,0:22:58.23,0:23:02.12,Main01,Kondo,0000,0000,0000,,We don't have time to argue about \NVidal Sassoons and tweezers.
+Dialogue: 0,0:23:02.12,0:23:03.98,Main01,Kondo,0000,0000,0000,,We need to warn everyone!
+Dialogue: 0,0:23:04.61,0:23:08.49,Main01,Kondo,0000,0000,0000,,Run for it as soon as they \Nget in the adult bath.
+Dialogue: 0,0:23:18.81,0:23:21.83,Main01,Hedoro,0000,0000,0000,,Yes, such a wonderful bath.
+Dialogue: 0,0:23:24.34,0:23:27.84,Main01,All,0000,0000,0000,,They got in the kiddy bath!
+Dialogue: 0,0:23:27.84,0:23:29.88,On Screen,Caption,0000,0000,0000,,To Be Continued Next Episode
+Dialogue: 0,0:23:29.88,0:23:34.81,On Screen,Caption,0000,0000,0000,,Next Episode\NThe Bathhouse, Where You're Naked in Body and Soul
+Dialogue: 0,0:23:30.44,0:23:34.81,Main01,Hedoro,0000,0000,0000,,And so, we will continue \Nthis story next week.
+Dialogue: 0,2:12:16.70,2:12:37.30,Main01,,0000,0000,0000,,#ED

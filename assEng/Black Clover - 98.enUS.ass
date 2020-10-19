@@ -1,0 +1,387 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: OP_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H00F7FCFD,&H000000FF,&H00070805,&H000D1728,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0075,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_138_1_Black_Clover_is_,Trebuchet MS,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_1785_19_Vice_Captain_of_,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0070,0275,0090,1
+Style: sign_6730_49_Captain_of_the_A,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_7061_51_A_Team_Coral_Pea,Times New Roman,20,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0150,1
+Style: sign_7198_131_Nean,Times New Roman,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0336,0254,0134,1
+Style: sign_7198_132_Common_Realm,Times New Roman,24,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0450,0190,1
+Style: sign_7198_133_Kikka,Times New Roman,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0265,0315,0260,1
+Style: sign_9194_75_Yay____Yay____,Times New Roman,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_10111_106_Venue_for_the_Ro,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_11720_132_Bell_,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0235,0030,0070,1
+Style: sign_12339_133_Finnes_Calmreich,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_13177_157_1st_Class_Interm,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0015,0424,0080,1
+Style: sign_13177_158_4th_Class_Senior,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0230,0250,0080,1
+Style: sign_13177_159_1st_Class_Interm,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0415,0030,0080,1
+Style: sign_14555_151_4_years_ago,Times New Roman,28,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0085,1
+Style: sign_15736_152_Sandler,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0060,0505,0205,1
+Style: sign_15736_154_Solid,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0135,0455,0225,1
+Style: sign_15736_155_O_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0110,0440,0060,1
+Style: sign_15736_156_En___Noelle___Yu,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0070,0205,1
+Style: sign_16031_175_The_Eye_of_the_M,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_16031_176_Sally,Times New Roman,26,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0350,0075,1
+Style: sign_16031_177_Rades,Times New Roman,26,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0335,0030,0075,1
+Style: sign_17323_210_Also_got_in_thro,Times New Roman,24,&H000B0B0B,&H000000FF,&H00FFFFFF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0159,0156,0020,1
+Style: sign_21447_269_Mage_Attendant_t,Times New Roman,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0310,0095,1
+Style: sign_21447_270_1st_Class_Interm,Times New Roman,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0355,0030,0095,1
+Style: sign_25640_274_Group_1_En_Ringa,Times New Roman,24,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0040,0030,0125,1
+Style: sign_32950_385_Halt_,Times New Roman,30,&H00332E32,&H000000FF,&H00DADEE2,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0360,0030,0020,1
+Style: sign_33089_334_Bulls,Verdana,30,&H0007A0E4,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,6,0030,0030,0020,1
+Style: sign_33137_335_Hello__we_re_Gor,Trebuchet MS,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33018_294_Sa,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0045,0030,0275,1
+Style: sign_33018_295_Rii,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,1,0480,0030,0130,1
+Style: sign_33126_298_Shi,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0275,1
+Style: sign_33126_299_Rii,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,1,0465,0030,0130,1
+Style: sign_33427_257_Weaken__Naeru_,Trebuchet MS,30,&H00000100,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:06.67,0:00:10.80,italics,Nar,0000,0000,0000,,It appeared as though humanity \Nwould be destroyed by the demons.
+Dialogue: 0,0:00:15.05,0:00:19.29,italics,Nar,0000,0000,0000,,But a single mage saved them all.
+Dialogue: 0,0:00:26.42,0:00:31.59,italics,Nar,0000,0000,0000,,He was called the Wizard King,\Nand he became a legend.
+Dialogue: 0,0:00:34.47,0:00:36.62,italics,Nar,0000,0000,0000,,The royal capital was thrown into chaos.
+Dialogue: 0,0:00:36.62,0:00:38.64,italics,Nar,0000,0000,0000,,The Magic Knights that had been
+Dialogue: 0,0:00:38.64,0:00:41.39,italics,Nar,0000,0000,0000,,reincarnated as elves began \Ntheir assault on the humans.
+Dialogue: 0,0:00:41.39,0:00:44.27,italics,Nar,0000,0000,0000,,Also, back at the Eye of the \NMidnight Sun's hideout,
+Dialogue: 0,0:00:44.27,0:00:47.06,italics,Nar,0000,0000,0000,,Luck and some others turned\Non their fellow Royal Knights.
+Dialogue: 0,0:00:47.51,0:00:51.25,italics,Nar,0000,0000,0000,,Meanwhile, Raia was somewhat \Nmoved by Asta's view that
+Dialogue: 0,0:00:51.25,0:00:54.20,italics,Nar,0000,0000,0000,,humans and elves could come \Nto understand each other...
+Dialogue: 0,0:00:54.58,0:00:56.45,flashback,Bro,0000,0000,0000,,We can come to understand each other.
+Dialogue: 0,0:00:57.11,0:00:59.83,italics,Raia,0000,0000,0000,,He wasn't lying, either.
+Dialogue: 0,0:01:00.15,0:01:01.58,italics,Raia,0000,0000,0000,,That's why I believed him.
+Dialogue: 0,0:01:02.33,0:01:05.95,italics,Raia,0000,0000,0000,,But because I believed him, {\i0}that{\i1} happened.
+Dialogue: 0,0:01:07.51,0:01:10.38,italics,Raia,0000,0000,0000,,That's why I'll never trust them again.
+Dialogue: 0,0:01:12.88,0:01:14.63,main,Asta,0000,0000,0000,,Rill...?
+Dialogue: 0,0:01:14.63,0:01:16.76,main,Rill,0000,0000,0000,,Oh, hey, it's Raia.
+Dialogue: 0,0:01:21.26,0:01:22.39,main,asta,0000,0000,0000,,Them, too?
+Dialogue: 0,0:01:22.76,0:01:24.85,italics,Zora,0000,0000,0000,,How are we supposed to win against them?
+Dialogue: 0,0:01:25.23,0:01:27.39,italics,Nar,0000,0000,0000,,In order to protect Asta and Zora,
+Dialogue: 0,0:01:27.39,0:01:31.61,italics,Nar,0000,0000,0000,,Mereoleona threw them out of the \Nbattle and faced the enemy alone.
+Dialogue: 0,0:01:31.61,0:01:34.65,main,Raia,0000,0000,0000,,Well, aren't you nice to \Nyour friends, Miss Royalty?
+Dialogue: 0,0:01:34.65,0:01:37.15,main,Mere,0000,0000,0000,,You seem to have the wrong idea.
+Dialogue: 0,0:01:37.15,0:01:40.72,main,Mere,0000,0000,0000,,Those kiddos would've just been in my way.
+Dialogue: 0,0:01:40.72,0:01:43.29,main,Mere,0000,0000,0000,,Stall you? Don't make me laugh.
+Dialogue: 0,0:01:43.74,0:01:47.02,main,Mere,0000,0000,0000,,I intend to kill all of you!
+Dialogue: 0,0:01:58.24,0:02:03.81,Ep Title,Sign,0000,0000,0000,,{\fad(299,1)}The Sleeping Lion
+Dialogue: 0,0:03:20.51,0:03:22.69,main,Girl,0000,0000,0000,,What in the world is going on?
+Dialogue: 0,0:03:23.13,0:03:26.50,main,Guy,0000,0000,0000,,Regardless, we must protect Lord Fuegoleon!
+Dialogue: 0,0:03:33.87,0:03:38.74,main,Randall,0000,0000,0000,,Is that all you can do despite the whole \Nlot of you coming after me, humans?
+Dialogue: 0,0:03:38.74,0:03:42.72,top,Guy,0000,0000,0000,,Please stop this, Vice Captain Randall!
+Dialogue: 0,0:03:41.92,0:03:47.66,sign_6730_49_Captain_of_the_A,Sign,0000,0000,0000,,{\blur3\fad(760,1)}Vice Captain of the Crimson Lion Kings\N{\fs30}Randall Luftair
+Dialogue: 0,0:03:42.72,0:03:44.47,top,Randall,0000,0000,0000,,That's not happening.
+Dialogue: 0,0:03:44.47,0:03:47.66,top,Randall,0000,0000,0000,,Not until all of you humans are dead.
+Dialogue: 0,0:03:47.66,0:03:51.66,main,Randall,0000,0000,0000,,Also, my name's not Randall.
+Dialogue: 0,0:03:51.66,0:03:54.01,main,Guy,0000,0000,0000,,H-His magic's on a whole different level.
+Dialogue: 0,0:03:54.01,0:03:56.09,main,Guy,0000,0000,0000,,It's no use. H-He's too strong!
+Dialogue: 0,0:03:56.09,0:03:57.67,main,Guy,0000,0000,0000,,We can't stop him on our own.
+Dialogue: 0,0:03:57.67,0:03:59.17,main,Leo,0000,0000,0000,,Do not falter!
+Dialogue: 0,0:04:01.78,0:04:03.18,main,Leo,0000,0000,0000,,Have you forgotten?
+Dialogue: 0,0:04:03.18,0:04:07.18,main,Leo,0000,0000,0000,,We have been trained by the best captains.
+Dialogue: 0,0:04:07.18,0:04:09.60,main,Leo,0000,0000,0000,,We are the proudest, most powerful squad!
+Dialogue: 0,0:04:09.60,0:04:11.18,main,Leo,0000,0000,0000,,We are the Crimson Lion Kings!
+Dialogue: 0,0:04:14.23,0:04:16.77,main,Leo,0000,0000,0000,,We cannot lose this battle!
+Dialogue: 0,0:04:16.77,0:04:18.77,main,Randall,0000,0000,0000,,Come on, now.
+Dialogue: 0,0:04:23.55,0:04:27.26,main,Randall,0000,0000,0000,,My air magic's mana has \Nbasically filled this place up.
+Dialogue: 0,0:04:27.26,0:04:31.38,main,Randall,0000,0000,0000,,You've barely been able \Nto use your magic at all.
+Dialogue: 0,0:04:32.75,0:04:38.13,italics,Leo,0000,0000,0000,,Usually, he'd add air to my flame magic,\Nmaking it burn even brighter.
+Dialogue: 0,0:04:38.68,0:04:41.71,italics,Leo,0000,0000,0000,,To think he'd be this \Nterrifying as an opponent...
+Dialogue: 0,0:04:41.71,0:04:42.97,main,Leo,0000,0000,0000,,I will not lose!
+Dialogue: 0,0:04:42.97,0:04:45.72,main,Leo,0000,0000,0000,,I will defeat you and \Nreturn you to your senses!
+Dialogue: 0,0:04:46.37,0:04:48.09,italics,Leo,0000,0000,0000,,Concentrate...
+Dialogue: 0,0:04:51.34,0:04:54.89,main,Leo,0000,0000,0000,,Flame Magic: Spiral Flames!
+Dialogue: 0,0:04:54.89,0:04:57.92,main,Randall,0000,0000,0000,,Well, look at you. You were \Nable to use magic after all.
+Dialogue: 0,0:04:57.92,0:04:59.33,main,Randall,0000,0000,0000,,But too bad...
+Dialogue: 0,0:04:59.91,0:05:02.82,main,Randall,0000,0000,0000,,Air Magic: Air Blockade!
+Dialogue: 0,0:05:05.82,0:05:09.80,main,Randall,0000,0000,0000,,I can wave my hand and put out \Nthat puny little flame in no time.
+Dialogue: 0,0:05:09.80,0:05:12.37,main,Randall,0000,0000,0000,,Air Magic: Crushing Air Blast!
+Dialogue: 0,0:05:19.81,0:05:20.63,main,Guy,0000,0000,0000,,Leo!
+Dialogue: 0,0:05:20.63,0:05:26.13,main,Randall,0000,0000,0000,,Give it up already. You'll be in less \Npain if you just give up and die.
+Dialogue: 0,0:05:28.02,0:05:30.15,main,Leo,0000,0000,0000,,I will not lose.
+Dialogue: 0,0:05:31.22,0:05:36.64,main,Leo,0000,0000,0000,,The flames of the proud Crimson \NLion Kings cannot be extinguished!
+Dialogue: 0,0:05:38.85,0:05:40.56,main,Gareth,0000,0000,0000,,Leo's right!
+Dialogue: 0,0:05:40.56,0:05:43.79,main,Gareth,0000,0000,0000,,All remaining Senior Magic Knights who \Ncan still fight will attack him at once!
+Dialogue: 0,0:05:43.79,0:05:46.49,main,Gareth,0000,0000,0000,,We will bring the vice \Ncaptain back to his senses!
+Dialogue: 0,0:05:46.49,0:05:47.81,main,All,0000,0000,0000,,Yeah!
+Dialogue: 0,0:05:48.90,0:05:52.37,main,Gareth,0000,0000,0000,,Iron Creation Magic: Iron Bullet!
+Dialogue: 0,0:05:53.29,0:05:55.66,main,Guy,0000,0000,0000,,Flame Magic: Burst Javelin!
+Dialogue: 0,0:05:56.51,0:05:59.12,main,Guy,0000,0000,0000,,Stone Magic: Solid Rock!
+Dialogue: 0,0:05:59.12,0:06:02.29,main,Gareth,0000,0000,0000,,Show him the pride of the Crimson Lion Kings!
+Dialogue: 0,0:06:05.53,0:06:07.67,main,Randall,0000,0000,0000,,You humans sure are intense.
+Dialogue: 0,0:06:08.39,0:06:11.26,main,Randall,0000,0000,0000,,It doesn't matter how many of you come at me.
+Dialogue: 0,0:06:17.78,0:06:18.73,main,Guy,0000,0000,0000,,You're not getting away!
+Dialogue: 0,0:06:21.61,0:06:23.73,main,Randall,0000,0000,0000,,Guess it's my turn now.
+Dialogue: 0,0:06:24.51,0:06:27.49,main,Randall,0000,0000,0000,,Air Magic: Explosive Air Wave Palm!
+Dialogue: 0,0:06:29.95,0:06:31.07,main,Leo,0000,0000,0000,,Forti!
+Dialogue: 0,0:06:34.11,0:06:34.91,main,Leo,0000,0000,0000,,He's fast!
+Dialogue: 0,0:06:36.41,0:06:39.45,main,Rokken,0000,0000,0000,,He kicks at the air to launch \Nhimself in any direction,
+Dialogue: 0,0:06:39.45,0:06:42.08,main,Rokken,0000,0000,0000,,then he attacks with a blast \Nof air that we can't see!
+Dialogue: 0,0:06:42.63,0:06:44.67,main,Rokken,0000,0000,0000,,Vice Captain Randall's Air Magic...
+Dialogue: 0,0:06:44.67,0:06:46.42,main,Rokken,0000,0000,0000,,We don't stand a chance against it!
+Dialogue: 0,0:06:47.43,0:06:51.05,main,Randall,0000,0000,0000,,Air Magic: Crushing Air Blast!
+Dialogue: 0,0:06:55.31,0:06:58.93,main,Girl,0000,0000,0000,,All those Senior Magic Knights \Ndon't even stand a chance!
+Dialogue: 0,0:06:59.29,0:07:01.43,main,Girl,0000,0000,0000,,If only Lord Fuegoleon...
+Dialogue: 0,0:07:01.43,0:07:02.65,main,Guy,0000,0000,0000,,Don't say that!
+Dialogue: 0,0:07:02.65,0:07:05.61,main,Guy,0000,0000,0000,,This is our moment to prove our true worth!
+Dialogue: 0,0:07:05.61,0:07:08.24,main,Guy,0000,0000,0000,,We're going to protect him, no matter what.
+Dialogue: 0,0:07:12.47,0:07:15.83,main,Guy,0000,0000,0000,,Endure! If we endure this, \Nwe'll have our chance to counter!
+Dialogue: 0,0:07:15.83,0:07:17.33,main,Randall,0000,0000,0000,,No, you won't.
+Dialogue: 0,0:07:23.47,0:07:27.21,main,Randall,0000,0000,0000,,The strongest squad? Don't make me laugh.
+Dialogue: 0,0:07:27.21,0:07:28.48,main,Leo,0000,0000,0000,,Take this!
+Dialogue: 0,0:07:32.65,0:07:33.45,main,Randall,0000,0000,0000,,What?
+Dialogue: 0,0:07:37.55,0:07:40.64,main,Randall,0000,0000,0000,,Did you actually think I'd be surprised?
+Dialogue: 0,0:07:40.64,0:07:44.96,main,Randall,0000,0000,0000,,I wondered why you were being quiet. \NSo you were waiting for an opening.
+Dialogue: 0,0:07:44.96,0:07:46.57,main,Randall,0000,0000,0000,,It's time for your nap now.
+Dialogue: 0,0:07:46.57,0:07:49.07,main,Randall,0000,0000,0000,,Air Magic: Crushing Air Blast!
+Dialogue: 0,0:07:51.07,0:07:53.99,italics,Leo,0000,0000,0000,,Don't rely on your eyes. Feel it.
+Dialogue: 0,0:07:56.81,0:07:57.74,main,Gareth,0000,0000,0000,,He dodged it!
+Dialogue: 0,0:07:58.62,0:07:59.66,main,Randall,0000,0000,0000,,Oh?
+Dialogue: 0,0:07:59.66,0:08:02.26,italics,Leo,0000,0000,0000,,The only way to battle against
+Dialogue: 0,0:08:02.26,0:08:06.88,italics,Leo,0000,0000,0000,,the invisible air magic within this \Nmana-filled space is to read the mana.
+Dialogue: 0,0:08:06.88,0:08:10.38,italics,Leo,0000,0000,0000,,It's not as if I was just \Nsitting idly by, watching.
+Dialogue: 0,0:08:11.23,0:08:13.47,italics,Leo,0000,0000,0000,,I'm able to feel it more and more.
+Dialogue: 0,0:08:15.01,0:08:18.31,italics,Leo,0000,0000,0000,,I've found an ideal way to use my flames.
+Dialogue: 0,0:08:18.82,0:08:21.31,main,Randall,0000,0000,0000,,Don't start celebrating \Njust because you got lucky.
+Dialogue: 0,0:08:21.66,0:08:24.81,main,Randall,0000,0000,0000,,Air Magic: Explosive Air Wave Palm!
+Dialogue: 0,0:08:37.28,0:08:41.25,main,Randall,0000,0000,0000,,You were willing to lessen \Nthe blow by making it a draw.
+Dialogue: 0,0:08:42.00,0:08:46.17,main,Randall,0000,0000,0000,,And then, as I was stepping back, \Nyou attacked again with flames.
+Dialogue: 0,0:08:48.98,0:08:51.34,main,Randall,0000,0000,0000,,Guess it wasn't luck after all.
+Dialogue: 0,0:08:51.82,0:08:54.05,main,Randall,0000,0000,0000,,Well done, royal.
+Dialogue: 0,0:08:54.05,0:08:56.84,main,Randall,0000,0000,0000,,You're all so intuitive, \Nand you adapt at a terrifying rate.
+Dialogue: 0,0:08:56.84,0:08:58.47,main,Gareth,0000,0000,0000,,Precisely!
+Dialogue: 0,0:08:59.56,0:09:03.85,main,Gareth,0000,0000,0000,,Leo, you're going to lead this squad one day.
+Dialogue: 0,0:09:03.85,0:09:06.16,main,Guy,0000,0000,0000,,We'll buy you some time.
+Dialogue: 0,0:09:06.16,0:09:09.27,main,Guy,0000,0000,0000,,Take everyone who can't \Nfight right now and survive!
+Dialogue: 0,0:09:09.27,0:09:13.74,main,Leo,0000,0000,0000,,Guys! I can still fight alongside you!
+Dialogue: 0,0:09:13.74,0:09:14.61,main,Gareth,0000,0000,0000,,Leo!
+Dialogue: 0,0:09:15.02,0:09:16.45,main,Forti,0000,0000,0000,,Go!
+Dialogue: 0,0:09:16.45,0:09:18.78,main,Rokken,0000,0000,0000,,We're entrusting the squad to you!
+Dialogue: 0,0:09:19.17,0:09:22.51,main,Gareth,0000,0000,0000,,We are the proud Crimson Lion Kings!
+Dialogue: 0,0:09:22.51,0:09:27.81,main,Gareth,0000,0000,0000,,We will boldly fall for the future \Nof this squad and this kingdom!
+Dialogue: 0,0:09:27.81,0:09:29.29,main,All,0000,0000,0000,,Yeah!
+Dialogue: 0,0:09:29.29,0:09:30.61,main,Leo,0000,0000,0000,,No!
+Dialogue: 0,0:09:32.31,0:09:37.83,main,Leo,0000,0000,0000,,You can't do that. We're all \Ngoing to make it through this!
+Dialogue: 0,0:09:39.17,0:09:43.31,italics,Leo,0000,0000,0000,,I feel like I'm almost onto something.
+Dialogue: 0,0:09:49.83,0:09:51.33,italics,Leo,0000,0000,0000,,M-My body...
+Dialogue: 0,0:09:52.35,0:09:53.15,main,Gareth,0000,0000,0000,,Leo!
+Dialogue: 0,0:09:58.01,0:10:01.24,main,Randall,0000,0000,0000,,You awakened a little too late.
+Dialogue: 0,0:10:01.24,0:10:05.49,main,Randall,0000,0000,0000,,Fighting in a manner you're not \Nused to drains you instantly.
+Dialogue: 0,0:10:05.49,0:10:08.00,main,Randall,0000,0000,0000,,You won't be able to stand any longer.
+Dialogue: 0,0:10:08.34,0:10:11.46,main,Randall,0000,0000,0000,,So you're going to lead \Nthis squad one day, eh?
+Dialogue: 0,0:10:11.46,0:10:14.00,main,Randall,0000,0000,0000,,Sorry, but I'm going to make \Nsure that never happens.
+Dialogue: 0,0:10:14.00,0:10:16.76,italics,Leo,0000,0000,0000,,Damn it... Damn it!
+Dialogue: 0,0:10:16.76,0:10:19.72,italics,Leo,0000,0000,0000,,Move, body!
+Dialogue: 0,0:10:20.25,0:10:22.26,main,Gareth,0000,0000,0000,,Leo!
+Dialogue: 0,0:10:23.76,0:10:28.13,main,Randall,0000,0000,0000,,Humans... and royals, especially...
+Dialogue: 0,0:10:28.13,0:10:30.27,main,Randall,0000,0000,0000,,shall die violent deaths.
+Dialogue: 0,0:10:30.27,0:10:33.78,main,Leo,0000,0000,0000,,I will not... give up!
+Dialogue: 0,0:10:34.65,0:10:37.28,main,Leo,0000,0000,0000,,I swore an oath...
+Dialogue: 0,0:10:39.86,0:10:42.07,main,Leo,0000,0000,0000,,I will not...
+Dialogue: 0,0:10:42.57,0:10:44.91,main,Leo,0000,0000,0000,,Not here...
+Dialogue: 0,0:10:44.91,0:10:48.91,main,Leo,0000,0000,0000,,Move... Move!
+Dialogue: 0,0:10:52.38,0:10:55.71,italics,Leo,0000,0000,0000,,What is this strange mana?
+Dialogue: 0,0:11:06.83,0:11:07.77,main,Randall,0000,0000,0000,,This is...
+Dialogue: 0,0:11:07.77,0:11:08.95,italics,Leo,0000,0000,0000,,Another enemy?
+Dialogue: 0,0:11:09.41,0:11:15.65,italics,Leo,0000,0000,0000,,No... This warm, embracing flame mana...
+Dialogue: 0,0:11:27.70,0:11:30.41,main,Fuego,0000,0000,0000,,You fought well, Leo.
+Dialogue: 0,0:11:30.90,0:11:32.92,main,Leo,0000,0000,0000,,Brother!
+Dialogue: 0,0:11:36.69,0:11:41.53,main,Fuego,0000,0000,0000,,But the battle's not over yet. \NI'll take over from here.
+Dialogue: 0,0:11:46.39,0:11:49.68,italics,Leo,0000,0000,0000,,This mana is what I felt a moment ago...
+Dialogue: 0,0:11:55.46,0:11:57.69,main,Randall,0000,0000,0000,,Salamander...
+Dialogue: 0,0:11:58.03,0:12:00.69,main,Fuego,0000,0000,0000,,As the captain of the Crimson Lion Kings,
+Dialogue: 0,0:12:01.14,0:12:02.77,main,Fuego,0000,0000,0000,,and as your older brother,
+Dialogue: 0,0:12:03.26,0:12:06.46,main,Fuego,0000,0000,0000,,I will never lose... again!
+Dialogue: 0,0:12:16.42,0:12:17.75,flashback,Fuego,0000,0000,0000,,Where am I?
+Dialogue: 0,0:12:21.67,0:12:26.18,flashback,Fuego,0000,0000,0000,,I can feel it... their fiery \Nmana as they're in battle.
+Dialogue: 0,0:12:27.18,0:12:31.33,flashback,Fuego,0000,0000,0000,,I must go. As a Magic Knight...
+Dialogue: 0,0:12:31.33,0:12:34.55,flashback,Fuego,0000,0000,0000,,As the captain of the Crimson Lion Kings.
+Dialogue: 0,0:12:37.98,0:12:39.84,flashback,Fuego,0000,0000,0000,,Is this all you have?
+Dialogue: 0,0:12:39.84,0:12:42.51,flashback,Fuego,0000,0000,0000,,Is this the limit of your powers,
+Dialogue: 0,0:12:42.51,0:12:44.59,flashback,Fuego,0000,0000,0000,,Fuegoleon Vermillion?!
+Dialogue: 0,0:12:54.62,0:12:59.38,flashback,Fuego,0000,0000,0000,,It can't be. The Fire Spirit...\NSalamander?
+Dialogue: 0,0:13:06.29,0:13:07.75,flashbackitalics,Fuego,0000,0000,0000,,None shall...
+Dialogue: 0,0:13:09.35,0:13:12.64,flashbackitalics,Fuego,0000,0000,0000,,stand in my way.
+Dialogue: 0,0:13:12.64,0:13:18.01,flashbackitalics,Fuego,0000,0000,0000,,Even if I lose an arm, or my \Nflesh is burned by flames...
+Dialogue: 0,0:13:18.01,0:13:20.65,flashbackitalics,Fuego,0000,0000,0000,,As long as there are people waiting for me,
+Dialogue: 0,0:13:23.06,0:13:26.06,flashbackitalics,Fuego,0000,0000,0000,,I shall go to them, for I \Nam Fuegoleon Vermillion,
+Dialogue: 0,0:13:26.06,0:13:28.23,flashbackitalics,Fuego,0000,0000,0000,,the Captain of the Crimson Lion Kings!
+Dialogue: 0,0:13:35.74,0:13:37.08,flashbackitalics,Fuego,0000,0000,0000,,I can feel it...
+Dialogue: 0,0:13:38.59,0:13:41.23,flashbackitalics,Fuego,0000,0000,0000,,Its mana and life force are flowing into me.
+Dialogue: 0,0:13:48.10,0:13:51.05,flashbackitalics,Fuego,0000,0000,0000,,There is something I must do!
+Dialogue: 0,0:13:52.01,0:13:53.93,flashbackitalics,Fuego,0000,0000,0000,,That's what you're telling me, isn't it?
+Dialogue: 0,0:14:01.36,0:14:06.24,main,Fuego,0000,0000,0000,,I will be using this power to its \Nfull extent, my spirit friend.
+Dialogue: 0,0:14:08.07,0:14:10.06,main,Fuego,0000,0000,0000,,I apologize for worrying you, Leo.
+Dialogue: 0,0:14:10.06,0:14:11.41,main,Leo,0000,0000,0000,,Please don't apologize!
+Dialogue: 0,0:14:11.41,0:14:15.29,main,Leo,0000,0000,0000,,I knew you'd wake up, Brother!
+Dialogue: 0,0:14:15.78,0:14:18.06,main,Fuego,0000,0000,0000,,The rest of you fought well, too.
+Dialogue: 0,0:14:18.50,0:14:24.59,main,Fuego,0000,0000,0000,,Despite my deep sleep, I was \Nable to feel your fiery mana.
+Dialogue: 0,0:14:26.59,0:14:27.97,main,Gareth,0000,0000,0000,,Lord Fuegoleon!
+Dialogue: 0,0:14:28.74,0:14:32.76,italics,Leo,0000,0000,0000,,So this is the fire spirit, Salamander.
+Dialogue: 0,0:14:33.89,0:14:35.56,italics,Leo,0000,0000,0000,,According to Asta, it was accompanying
+Dialogue: 0,0:14:35.56,0:14:38.28,italics,Leo,0000,0000,0000,,one of the members of the upper echelon \Nof the Eye of the Midnight Sun,
+Dialogue: 0,0:14:38.28,0:14:41.60,italics,Leo,0000,0000,0000,,but then it disappeared after the last battle.
+Dialogue: 0,0:14:42.77,0:14:46.74,italics,Leo,0000,0000,0000,,Forever faithful and highly \Ntrusted by the people,
+Dialogue: 0,0:14:46.74,0:14:50.58,italics,Leo,0000,0000,0000,,the eldest brother of the royal \NVermillion siblings and a great Magic Knight...
+Dialogue: 0,0:14:50.58,0:14:54.91,italics,Leo,0000,0000,0000,,It's no wonder Salamander chose my brother!
+Dialogue: 0,0:14:56.31,0:14:59.58,main,Randall,0000,0000,0000,,A mere human earned the blessing of a spirit?
+Dialogue: 0,0:14:59.90,0:15:04.03,main,Randall,0000,0000,0000,,Not only that! Why did it \Nhave to be a filthy royal?
+Dialogue: 0,0:15:04.59,0:15:06.61,main,Fuego,0000,0000,0000,,Randall!
+Dialogue: 0,0:15:08.19,0:15:10.78,main,Fuego,0000,0000,0000,,I've just woken up, so I may \Nnot be able to hold back.
+Dialogue: 0,0:15:11.30,0:15:13.47,main,Fuego,0000,0000,0000,,Try not to die.
+Dialogue: 0,0:15:13.47,0:15:15.02,main,Randall,0000,0000,0000,,You sure talk big.
+Dialogue: 0,0:15:15.02,0:15:18.54,main,Randall,0000,0000,0000,,You may have been chosen by a spirit, \Nbut you're still just a human.
+Dialogue: 0,0:15:18.54,0:15:22.05,main,Randall,0000,0000,0000,,There's no way you stand \Na chance against us elves!
+Dialogue: 0,0:15:22.77,0:15:24.27,main,Leo,0000,0000,0000,,Brother!
+Dialogue: 0,0:15:24.83,0:15:28.98,main,Fuego,0000,0000,0000,,Flame Spirit Magic: Salamander's Breath!
+Dialogue: 0,0:15:34.17,0:15:38.45,italics,Randall,0000,0000,0000,,The flames are so strong \Nthat I can't blow them away!
+Dialogue: 0,0:15:38.45,0:15:42.04,italics,Randall,0000,0000,0000,,I can't breathe because of \Nthe heat. The air is...
+Dialogue: 0,0:15:42.04,0:15:45.01,italics,Randall,0000,0000,0000,,It's all being swept away!
+Dialogue: 0,0:15:45.01,0:15:49.06,italics,Randall,0000,0000,0000,,C-Curse you, royals!
+Dialogue: 0,0:15:49.95,0:15:53.39,main,Fuego,0000,0000,0000,,Flame Binding Magic: Leo Palma!
+Dialogue: 0,0:15:56.97,0:15:59.13,main,Fuego,0000,0000,0000,,You may be inhabiting the \Nbody of my vice captain,
+Dialogue: 0,0:15:59.13,0:16:01.64,main,Fuego,0000,0000,0000,,but I will not allow any more violence.
+Dialogue: 0,0:16:04.52,0:16:06.67,main,All,0000,0000,0000,,Lord Fuegoleon!
+Dialogue: 0,0:16:06.67,0:16:10.03,main,Guy,0000,0000,0000,,You are truly the ultimate Magic Knight!
+Dialogue: 0,0:16:10.03,0:16:12.51,main,Fuego,0000,0000,0000,,Hurry! Treat the wounded at once!
+Dialogue: 0,0:16:12.51,0:16:13.53,main,Gareth,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:16:13.53,0:16:15.16,italics,Leo,0000,0000,0000,,He's too amazing.
+Dialogue: 0,0:16:15.16,0:16:17.22,italics,Leo,0000,0000,0000,,Way to go, Brother!
+Dialogue: 0,0:16:17.22,0:16:20.66,italics,Leo,0000,0000,0000,,But I'm still going to surpass you someday!
+Dialogue: 0,0:16:20.98,0:16:23.28,main,Fuego,0000,0000,0000,,As the Captain of the Crimson Lion Kings,
+Dialogue: 0,0:16:23.28,0:16:25.44,main,Fuego,0000,0000,0000,,I swear I will bring you \Nback to your senses.
+Dialogue: 0,0:16:25.44,0:16:27.82,main,Leo,0000,0000,0000,,Er, however, while you were asleep,
+Dialogue: 0,0:16:27.82,0:16:29.84,main,Leo,0000,0000,0000,,our sister took your spot as captain for now.
+Dialogue: 0,0:16:30.23,0:16:31.30,main,Fuego,0000,0000,0000,,What?!
+Dialogue: 0,0:16:31.63,0:16:32.82,main,Fuego,0000,0000,0000,,Is that true?
+Dialogue: 0,0:16:32.82,0:16:34.64,main,Guy,0000,0000,0000,,Y-Yes...
+Dialogue: 0,0:16:34.64,0:16:37.70,main,All,0000,0000,0000,,You are currently former \NCaptain Fuegoleon.
+Dialogue: 0,0:16:39.90,0:16:45.06,italics,Fuego,0000,0000,0000,,So my sister... That's how it\N should've been to begin with,
+Dialogue: 0,0:16:45.43,0:16:48.98,italics,Fuego,0000,0000,0000,,but she didn't even bother joining the \NMagic Knights because it was a hassle.
+Dialogue: 0,0:16:49.57,0:16:52.57,italics,Fuego,0000,0000,0000,,It appears I've made you do \Nsomething out of character.
+Dialogue: 0,0:16:55.07,0:16:57.49,italics,Fuego,0000,0000,0000,,Salamander is showing me
+Dialogue: 0,0:16:57.93,0:17:01.93,italics,Fuego,0000,0000,0000,,all of the mana from those who are \Nnot human in the royal capital.
+Dialogue: 0,0:17:01.93,0:17:05.87,italics,Fuego,0000,0000,0000,,It appears as though the situation has \Nescalated quite a bit while I was asleep.
+Dialogue: 0,0:17:08.88,0:17:12.30,italics,Fuego,0000,0000,0000,,The day the royal capital \Nwas attacked, I learned
+Dialogue: 0,0:17:12.30,0:17:18.33,italics,Fuego,0000,0000,0000,,that the enemy was after me and decided \Nto go along with their scheme.
+Dialogue: 0,0:17:19.43,0:17:21.54,flashback,Fuego,0000,0000,0000,,What is this place?
+Dialogue: 0,0:17:26.67,0:17:28.35,flashback,Fuego,0000,0000,0000,,You're...
+Dialogue: 0,0:17:29.39,0:17:33.20,flashback,Fuego,0000,0000,0000,,This mana... Is that you, William?
+Dialogue: 0,0:17:33.20,0:17:34.73,flashback,Fuego,0000,0000,0000,,What are you doing here?
+Dialogue: 0,0:17:36.79,0:17:38.04,flashback,William,0000,0000,0000,,I know you too well.
+Dialogue: 0,0:17:39.04,0:17:43.24,flashback,William,0000,0000,0000,,I was hoping you wouldn't come \Nhere knowing it was a trap...
+Dialogue: 0,0:17:43.93,0:17:45.80,flashback,William,0000,0000,0000,,I truly hoped you wouldn't.
+Dialogue: 0,0:17:45.80,0:17:47.29,flashback,Fuego,0000,0000,0000,,What are you...
+Dialogue: 0,0:17:47.81,0:17:50.13,flashback,Fuego,0000,0000,0000,,Answer my question, William!
+Dialogue: 0,0:17:50.13,0:17:53.30,flashback,William,0000,0000,0000,,You'll know the answer soon enough...
+Dialogue: 0,0:17:55.81,0:17:56.90,flashback,Fuego,0000,0000,0000,,You're...
+Dialogue: 0,0:17:57.45,0:17:59.64,flashback,William,0000,0000,0000,,This is a secret that even the man
+Dialogue: 0,0:17:59.64,0:18:02.41,flashback,William,0000,0000,0000,,who gave me my mask, \Nthe Wizard King, doesn't know.
+Dialogue: 0,0:18:04.09,0:18:06.64,flashback,Patlicht,0000,0000,0000,,...once you've seen the other me.
+Dialogue: 0,0:18:07.60,0:18:09.18,flashback,Fuego,0000,0000,0000,,Who are you?!
+Dialogue: 0,0:18:09.82,0:18:11.31,flashback,Fuego,0000,0000,0000,,What did you do with William?!
+Dialogue: 0,0:18:12.99,0:18:15.71,flashback,Patlicht,0000,0000,0000,,Ah, the Captain of the Crimson Lion Kings.
+Dialogue: 0,0:18:15.71,0:18:19.70,flashback,Patlicht,0000,0000,0000,,Though you're always calm, \Nthis seems to have startled even you.
+Dialogue: 0,0:18:20.74,0:18:23.33,flashback,Patlicht,0000,0000,0000,,That moment is all I need.
+Dialogue: 0,0:18:32.94,0:18:37.09,italics,Fuego,0000,0000,0000,,Back then, he should've \Nbeen able to finish me off.
+Dialogue: 0,0:18:37.94,0:18:41.61,italics,Fuego,0000,0000,0000,,I was also concerned about William \Nwhen he revealed himself to me.
+Dialogue: 0,0:18:42.59,0:18:46.89,italics,Fuego,0000,0000,0000,,I will keep this concealed within my \Nheart until I find out the truth.
+Dialogue: 0,0:18:47.90,0:18:51.93,main,Fuego,0000,0000,0000,,I will not allow any more violence \Nto befall the Clover Kingdom!
+Dialogue: 0,0:18:52.39,0:18:54.39,main,Fuego,0000,0000,0000,,We are the Crimson Lion Kings!
+Dialogue: 0,0:18:54.86,0:18:58.33,main,Fuego,0000,0000,0000,,With the proud flames \Nthat reside in our hearts,
+Dialogue: 0,0:18:58.33,0:19:00.63,main,Fuego,0000,0000,0000,,we will stop them, no matter what!
+Dialogue: 0,0:19:00.63,0:19:02.95,main,All,0000,0000,0000,,Yeah!
+Dialogue: 0,0:19:02.95,0:19:05.42,italics,Fuego,0000,0000,0000,,The true battle is about to begin.
+Dialogue: 0,0:19:12.79,0:19:18.17,sign_6730_49_Captain_of_the_A,Sign,0000,0000,0000,,{\blur3\fad(612,1)}Member of the Golden Dawn\N{\fs30}David Swallow
+Dialogue: 0,0:19:13.17,0:19:18.17,top,David,0000,0000,0000,,Why the heck are we dressed\N like that one human royal was?
+Dialogue: 0,0:19:20.93,0:19:26.14,sign_6730_49_Captain_of_the_A,Sign,0000,0000,0000,,{\blur3}Member of the Golden Dawn\N{\fs30}Letoile Becquerel
+Dialogue: 0,0:19:20.93,0:19:26.14,top,Letoile,0000,0000,0000,,Oh, I see. Our comrade who summoned \Nus here must be rather twisted.
+Dialogue: 0,0:19:27.09,0:19:28.22,main,David,0000,0000,0000,,What do you mean by that?
+Dialogue: 0,0:19:28.71,0:19:31.81,main,Letoile,0000,0000,0000,,They're telling us to kill those humans.
+Dialogue: 0,0:19:31.81,0:19:34.15,main,David,0000,0000,0000,,Ah, I see.
+Dialogue: 0,0:19:34.15,0:19:36.95,main,David,0000,0000,0000,,It does piss me off that \Nthey killed all of us
+Dialogue: 0,0:19:36.95,0:19:42.34,main,David,0000,0000,0000,,and got to live such rich, fulfilling lives.
+Dialogue: 0,0:19:42.34,0:19:43.99,main,Letoile,0000,0000,0000,,So you're here, too.
+Dialogue: 0,0:19:43.99,0:19:47.37,main,Latry,0000,0000,0000,,Well, well, it looks like you're all here.
+Dialogue: 0,0:19:48.02,0:19:53.58,main,Latry,0000,0000,0000,,I was imprisoned in a peculiar place \Nwhen I woke up, so I had a little fun.
+Dialogue: 0,0:19:54.43,0:19:56.17,main,Latry,0000,0000,0000,,Those foolish humans...
+Dialogue: 0,0:19:56.17,0:19:58.38,main,Latry,0000,0000,0000,,Who do they think they are? \NThey piss me off so much.
+Dialogue: 0,0:19:58.85,0:20:02.90,main,Letoile,0000,0000,0000,,I'm guessing it was your cousin \Nwho gathered us all here, Latry.
+Dialogue: 0,0:20:02.90,0:20:05.45,main,Latry,0000,0000,0000,,Ah, so it was Patry.
+Dialogue: 0,0:20:07.30,0:20:10.49,main,Latry,0000,0000,0000,,I guess that's why we get along \Nso well. We're both twisted.
+Dialogue: 0,0:20:10.49,0:20:14.69,main,Latry,0000,0000,0000,,I can't wait to kill all these royals myself.
+Dialogue: 0,0:20:15.13,0:20:17.22,main,Latry,0000,0000,0000,,The white night is over.
+Dialogue: 0,0:20:17.22,0:20:21.43,main,Latry,0000,0000,0000,,Let us show the humans the golden dawn!
+Dialogue: 0,0:20:24.13,0:20:25.20,main,Langris,0000,0000,0000,,Brother...
+Dialogue: 0,0:20:26.35,0:20:27.53,main,Langris,0000,0000,0000,,Brother...
+Dialogue: 0,0:20:27.53,0:20:28.70,main,Finral,0000,0000,0000,,Langris!
+Dialogue: 0,0:20:29.78,0:20:31.41,main,Finral,0000,0000,0000,,Thank goodness! \NYou've returned to your senses!
+Dialogue: 0,0:20:33.59,0:20:35.86,main,Finral,0000,0000,0000,,Wait! Hey!
+Dialogue: 0,0:20:35.86,0:20:37.29,main,Finral,0000,0000,0000,,Don't go, Langris!
+Dialogue: 0,0:20:37.29,0:20:38.34,main,Finral,0000,0000,0000,,Langris!
+Dialogue: 0,0:20:41.51,0:20:42.88,main,Finral,0000,0000,0000,,Ow!
+Dialogue: 0,0:20:43.26,0:20:45.93,main,Finral,0000,0000,0000,,Wh-Wh-What the... Wait, where am I?!
+Dialogue: 0,0:20:45.93,0:20:48.14,main,Finral,0000,0000,0000,,It's been a while! I'm Finral!
+Dialogue: 0,0:20:48.53,0:20:51.24,main,Yami,0000,0000,0000,,How long do you plan on sleeping,\N you dumb bastard?
+Dialogue: 0,0:20:51.24,0:20:52.64,main,Finral,0000,0000,0000,,Y-Yami?!
+Dialogue: 0,0:20:53.99,0:20:57.72,main,Yami,0000,0000,0000,,As you can see, the royal capital's in trouble.
+Dialogue: 0,0:20:57.72,0:20:59.44,main,Yami,0000,0000,0000,,You feel it, too, don't you?
+Dialogue: 0,0:20:59.93,0:21:05.57,main,Yami,0000,0000,0000,,The inhuman magic that was coming from \Nyour brother is now coming from all over.
+Dialogue: 0,0:21:07.50,0:21:09.45,main,Finral,0000,0000,0000,,Let's go, Yami.
+Dialogue: 0,0:21:10.49,0:21:14.43,italics,Finral,0000,0000,0000,,Langris... This time, I'm going to save you!
+Dialogue: 0,0:22:45.00,0:22:49.51,sign_33083_276_Petit_Clover_,Sign,0000,0000,0000,,{\fad(1,520)}Pe{\c&H3BC020&}t{\c&HE2AF0F&}i{\c&H3BC020&}t C{\c&HE2AF0F&}l{\c&H3BC020&}o{\c&H0E42D4&}ve{\c&H3BC020&}r
+Dialogue: 0,0:22:45.94,0:22:48.61,main,All,0000,0000,0000,,Petit Clover!
+Dialogue: 0,0:22:49.01,0:22:53.01,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Just Woke Up
+Dialogue: 0,0:22:50.31,0:22:51.51,main,Fuego,0000,0000,0000,,Just Woke Up.
+Dialogue: 0,0:22:53.01,0:22:54.25,main,Guy,0000,0000,0000,,Lord Fuegoleon!
+Dialogue: 0,0:22:54.25,0:22:56.56,main,Girl,0000,0000,0000,,You're finally awake!
+Dialogue: 0,0:22:57.06,0:22:59.01,main,Fuego,0000,0000,0000,,There is something I must do!
+Dialogue: 0,0:22:59.01,0:22:59.81,main,Both,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:23:00.17,0:23:01.71,main,Girl,0000,0000,0000,,What?!
+Dialogue: 0,0:23:01.71,0:23:06.42,italics,Nar,0000,0000,0000,,A man who will not allow a single tangle\N to remain! That is Fuegoleon Vermillion.
+Dialogue: 0,0:23:06.42,0:23:09.53,main,Guy,0000,0000,0000,,Um... I think your bedhead is okay now.
+Dialogue: 0,0:23:09.53,0:23:12.53,main,Fuego,0000,0000,0000,,In that case, there is something I must do!
+Dialogue: 0,0:23:12.53,0:23:13.57,main,Both,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:23:13.57,0:23:15.50,main,Girl,0000,0000,0000,,What?!
+Dialogue: 0,0:23:15.50,0:23:18.13,italics,Nar,0000,0000,0000,,A man who will make sure every \Nlast tooth is as white as can be!
+Dialogue: 0,0:23:18.13,0:23:20.25,italics,Nar,0000,0000,0000,,That is Fuegoleon Vermillion.
+Dialogue: 0,0:23:20.25,0:23:23.13,main,Guy,0000,0000,0000,,Um... I think you've brushed them enough.
+Dialogue: 0,0:23:23.13,0:23:26.50,main,Fuego,0000,0000,0000,,In that case, there is something I must do!
+Dialogue: 0,0:23:26.50,0:23:28.17,main,Fuego,0000,0000,0000,,Just five more minutes.
+Dialogue: 0,0:23:28.17,0:23:30.49,main,both,0000,0000,0000,,What?!
+Dialogue: 0,0:23:30.49,0:23:34.29,italics,Nar,0000,0000,0000,,A charming man who always goes back \Nto sleep! That is Fuegoleon Vermillio—
+Dialogue: 0,0:23:34.29,0:23:37.53,main,Fuego,0000,0000,0000,,I will not allow any more blasphemy \Nagainst me for the sake of jokes!
+Dialogue: 0,0:23:40.01,0:23:44.40,main,Fuego,0000,0000,0000,,I am the Captain of the Crimson \NLion Kings, Fuegoleon Vermillion!
+Dialogue: 0,0:23:45.18,0:23:49.69,main,fuego,0000,0000,0000,,Next time on {\i1}Black Clover{\i0}, Page 99: \N"The Desperate Path Toward Survival."
+Dialogue: 0,0:23:46.19,0:23:54.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 99\N\N{\fs18} The Desperate Path Toward Survival
+Dialogue: 0,0:23:50.28,0:23:53.43,main,Fuego,0000,0000,0000,,What? I'm the {\i1}former{\i0} captain?

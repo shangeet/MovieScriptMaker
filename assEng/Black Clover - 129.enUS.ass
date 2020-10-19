@@ -1,0 +1,422 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Flashback_Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00500000,&H00500000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Narration,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: OP_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H00F7FFFB,&H000000FF,&H1900122E,&H000D1728,-1,0,0,0,100,100,0,0,1,1,0,8,0030,0030,0075,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_4757_29_Royal_Capital__M,Times New Roman,30,&H00FEFEFD,&H000000FF,&H3214100F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0080,1
+Style: sign_4918_40_Heart_Kingdom,Trebuchet MS,30,&H19E1E4E9,&H000000FF,&H32121618,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,4,0,2,0030,0370,0270,1
+Style: sign_4918_41_Clover_Kingdom,Trebuchet MS,30,&H19D5DCE3,&H000000FF,&H32253642,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,4,0,2,0360,0030,0170,1
+Style: sign_8772_80_Father_Nathan,Times New Roman,20,&H00F5F6FA,&H000000FF,&H320B0800,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_9150_79_Awkward,Times New Roman,28,&H00CB93EA,&H000000FF,&H00C3C9CC,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0020,0020,0030,1
+Style: sign_9252_82_Trouble,Verdana,40,&H0034E0E9,&H000000FF,&H00BEC2C9,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,4,0,2,0055,0030,0275,1
+Style: sign_9601_108_Playboy,Verdana,40,&H003D0F9E,&H000000FF,&H00231C31,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0020,1
+Style: sign_9669_112_Failure,Verdana,40,&H005D7926,&H000000FF,&H00231C31,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0020,1
+Style: sign_9747_115_Bad_Habits,Verdana,28,&H00A54A31,&H000000FF,&H003B2B19,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0020,1
+Style: sign_12339_133_Finnes_Calmreich,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_14960_120_The_Apostles_of_,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0100,1
+Style: sign_18968_247_Heart_Kingdom,Times New Roman,30,&H00FEFEFD,&H000000FF,&H32303329,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0080,1
+Style: sign_19987_258_Spirit_Guardian_,Times New Roman,20,&H00F5F6FA,&H000000FF,&H320E0F23,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_26668_324_Black_Bulls__Hid,Times New Roman,36,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0040,0125,1
+Style: sign_27919_273_Equinox,Times New Roman,30,&H00FFFFFF,&H000000FF,&H00000302,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_28504_355_Water_Spirit_Und,Times New Roman,20,&H00F5F6FA,&H000000FF,&H32272729,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0259,0259,0110,1
+Style: sign_7000_55_Stage_Zero,Times New Roman,20,&H00D2D2D2,&H000000FF,&H32000000,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0030,0030,0020,1
+Style: sign_17907_179_Stage_Zero,Times New Roman,20,&H00E8E8E8,&H000000FF,&H32000000,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_17948_180_Arcane_Stage,Times New Roman,40,&H00D82D86,&H000000FF,&H320E0E0E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,4,0,8,0030,0030,0020,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:05.37,0:00:07.09,italics,Nar,0000,0000,0000,,The Clover Kingdom.
+Dialogue: 0,0:00:07.58,0:00:09.55,italics,Nar,0000,0000,0000,,In this kingdom where magic is everything,
+Dialogue: 0,0:00:09.55,0:00:12.95,italics,Nar,0000,0000,0000,,there is one boy who can't use magic.
+Dialogue: 0,0:00:13.38,0:00:15.61,italics,Nar,0000,0000,0000,,His name is Asta.
+Dialogue: 0,0:00:16.25,0:00:18.98,italics,Nar,0000,0000,0000,,With guts and hard work, \Nhe made it into the Magic Knights,
+Dialogue: 0,0:00:18.98,0:00:21.82,italics,Nar,0000,0000,0000,,and he never gave up, \Ndespite how much he got hurt.
+Dialogue: 0,0:00:21.82,0:00:24.69,italics,Nar,0000,0000,0000,,He continues to diligently \Naim for the top!
+Dialogue: 0,0:00:26.22,0:00:27.79,italics,Nar,0000,0000,0000,,Even if you are a peasant,
+Dialogue: 0,0:00:27.79,0:00:29.63,italics,Nar,0000,0000,0000,,or even if you're poor...
+Dialogue: 0,0:00:29.95,0:00:32.38,italics,Nar,0000,0000,0000,,Anyone in this world can still shine!
+Dialogue: 0,0:00:32.38,0:00:34.80,italics,Nar,0000,0000,0000,,He's working hard to prove that,
+Dialogue: 0,0:00:35.21,0:00:37.89,italics,Nar,0000,0000,0000,,and to become the Wizard King!
+Dialogue: 0,0:00:40.74,0:00:42.61,italics,Nar,0000,0000,0000,,Asta and the others arrived
+Dialogue: 0,0:00:42.61,0:00:45.44,italics,Nar,0000,0000,0000,,in the Heart Kingdom to learn \Nmore about the devil's curse,
+Dialogue: 0,0:00:45.44,0:00:48.34,italics,Nar,0000,0000,0000,,but Asta was taken away, and Noelle, Mimosa,
+Dialogue: 0,0:00:48.34,0:00:51.94,italics,Nar,0000,0000,0000,,and Finral were forced to fight \Nthe Spirit Guardian Gaja.
+Dialogue: 0,0:00:52.61,0:00:55.46,italics,Nar,0000,0000,0000,,Meanwhile, Asta, after being taken away,
+Dialogue: 0,0:00:55.46,0:00:59.74,italics,Nar,0000,0000,0000,,was forced into a fight with \Nthe Water Spirit, Undine.
+Dialogue: 0,0:01:00.05,0:01:04.10,main,Undine,0000,0000,0000,,I'm Undine. I'm one of the four \NGreat Spirits, and I'm contracted
+Dialogue: 0,0:01:04.10,0:01:06.03,main,Undine,0000,0000,0000,,to the Queen of the Heart Kingdom.
+Dialogue: 0,0:01:06.69,0:01:08.25,italics,Nar,0000,0000,0000,,Undine and Gaja...
+Dialogue: 0,0:01:08.25,0:01:10.73,italics,Nar,0000,0000,0000,,Asta and the others were \Nforced to face one of
+Dialogue: 0,0:01:10.73,0:01:13.63,italics,Nar,0000,0000,0000,,the four Great Spirits as well \Nas a Spirit Guardian, but...
+Dialogue: 0,0:01:13.63,0:01:15.63,main,Nero,0000,0000,0000,,Sealing Magic: Inverse Release!
+Dialogue: 0,0:01:16.43,0:01:20.35,main,Noelle,0000,0000,0000,,Sorry, but we can't just back down \Nafter you did all that showing off!
+Dialogue: 0,0:01:21.18,0:01:24.42,main,Asta,0000,0000,0000,,Pardon me! I'm coming in!
+Dialogue: 0,0:01:43.31,0:01:47.81,Ep Title,Sign,0000,0000,0000,,{\fad(210,1871)\t(210,2419,\fscx120\fscy120)}The Devil Megicula
+Dialogue: 0,0:03:04.26,0:03:05.58,italics,Asta,0000,0000,0000,,A doll?
+Dialogue: 0,0:03:05.58,0:03:08.50,italics,Asta,0000,0000,0000,,But I could've sworn I felt \Na person's ki in here.
+Dialogue: 0,0:03:13.82,0:03:15.38,main,Asta,0000,0000,0000,,Uh...
+Dialogue: 0,0:03:15.91,0:03:16.86,main,Asta,0000,0000,0000,,Hey.
+Dialogue: 0,0:03:17.95,0:03:19.34,main,Loropechika,0000,0000,0000,,I'm sorry! I'm so sorry!
+Dialogue: 0,0:03:19.34,0:03:23.34,main,Loropechika,0000,0000,0000,,This thick-pelted beaver just \Nfelt so good on my skin!
+Dialogue: 0,0:03:25.95,0:03:27.73,main,Asta,0000,0000,0000,,What the heck was that fo—
+Dialogue: 0,0:03:31.27,0:03:33.60,main,Loropechika,0000,0000,0000,,Glasses... My glasses....
+Dialogue: 0,0:03:35.36,0:03:38.86,main,Undine,0000,0000,0000,,Goodness... What are you doing, Loropechika?
+Dialogue: 0,0:03:39.27,0:03:42.70,main,Undine,0000,0000,0000,,I told you to hurry up and \Nchange out of your pajamas.
+Dialogue: 0,0:03:42.70,0:03:45.23,top,Loropechika,0000,0000,0000,,I'm sorry, I'm sorry...
+Dialogue: 0,0:03:42.70,0:03:46.78,sign_12339_133_Finnes_Calmreich,Sign,0000,0000,0000,,{\blur3\fad(773,1)}Loropechika
+Dialogue: 0,0:03:47.91,0:03:50.91,italics,Asta,0000,0000,0000,,So she's the queen of the Heart Kingdom?!
+Dialogue: 0,0:03:56.25,0:04:00.05,italics,Gaja,0000,0000,0000,,I might've been in trouble if \Nmy technique hadn't defended me.
+Dialogue: 0,0:04:00.05,0:04:04.76,italics,Gaja,0000,0000,0000,,It appears that she was holding back.\N What a magnificent talent.
+Dialogue: 0,0:04:04.76,0:04:06.43,italics,Gaja,0000,0000,0000,,Now, as for them...
+Dialogue: 0,0:04:14.59,0:04:15.98,italics,Noelle,0000,0000,0000,,He's way too fast!
+Dialogue: 0,0:04:17.19,0:04:18.98,main,Gaja,0000,0000,0000,,I do apologize.
+Dialogue: 0,0:04:19.49,0:04:23.99,main,Gaja,0000,0000,0000,,I forced you into a fight in order \Nto assess your magic stages.
+Dialogue: 0,0:04:24.58,0:04:25.61,main,Noelle,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:26.07,0:04:27.98,main,Nero,0000,0000,0000,,Magic stages?
+Dialogue: 0,0:04:27.98,0:04:30.89,main,Nero,0000,0000,0000,,The stage nine, eight, seven thing,
+Dialogue: 0,0:04:30.89,0:04:33.16,main,Nero,0000,0000,0000,,where the smaller the number is,\Nthe stronger you are?
+Dialogue: 0,0:04:33.66,0:04:38.42,main,Loropechika,0000,0000,0000,,Yes. Mages fight not with force of numbers, \Nbut with how powerful their magic is.
+Dialogue: 0,0:04:38.86,0:04:41.19,main,Loropechika,0000,0000,0000,,There are cases where dozens may attack,
+Dialogue: 0,0:04:41.19,0:04:44.99,main,Loropechika,0000,0000,0000,,and they would be no match for a single mage.
+Dialogue: 0,0:04:45.54,0:04:51.93,main,Loropechika,0000,0000,0000,,That's why, in wars between magical nations,\N power is measured by magic stages.
+Dialogue: 0,0:04:51.93,0:04:56.43,main,Loropechika,0000,0000,0000,,In other words, a kingdom's power \Nis determined by how many mages
+Dialogue: 0,0:04:51.93,0:04:58.69,sign_7000_55_Stage_Zero,Sign,0000,0000,0000,,Stage Zero\NStage One\NStage Two\NStage Three\NStage Four\NStage Five\NStage Six\NStage Seven\NStage Eight\NStage Nine
+Dialogue: 0,0:04:56.43,0:04:58.69,main,Loropechika,0000,0000,0000,,it has that are near stage zero.
+Dialogue: 0,0:04:58.69,0:05:01.57,main,Loropechika,0000,0000,0000,,And if you're dealing with a devil,
+Dialogue: 0,0:05:01.57,0:05:04.32,main,Loropechika,0000,0000,0000,,no one lower than stage one will \Nbe able to keep up with it.
+Dialogue: 0,0:05:04.32,0:05:07.65,main,Asta,0000,0000,0000,,A devil... That's right!
+Dialogue: 0,0:05:07.65,0:05:11.62,main,Asta,0000,0000,0000,,We came here because we detected \Na huge curse signal here that may be
+Dialogue: 0,0:05:11.62,0:05:12.79,main,Asta,0000,0000,0000,,the work of a devil!
+Dialogue: 0,0:05:13.90,0:05:17.42,italics,Undine,0000,0000,0000,,Why do they know something that \Nonly a Spirit Guardian should know?
+Dialogue: 0,0:05:17.42,0:05:20.67,main,Asta,0000,0000,0000,,Do you know anything about devil curses?
+Dialogue: 0,0:05:20.67,0:05:22.71,italics,Nero,0000,0000,0000,,You don't hold back, do you?
+Dialogue: 0,0:05:23.25,0:05:26.63,italics,Undine,0000,0000,0000,,It's too bad for you, but no one's \Ngoing to talk about them.
+Dialogue: 0,0:05:26.63,0:05:30.82,main,Loropechika,0000,0000,0000,,Oh, that's me... I got cursed by a devil.
+Dialogue: 0,0:05:30.82,0:05:34.52,main,Loropechika,0000,0000,0000,,If nothing is done, I'll die in about a year.
+Dialogue: 0,0:05:34.52,0:05:35.68,main,Asta,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:35.68,0:05:36.77,main,Undine,0000,0000,0000,,Huh?!
+Dialogue: 0,0:05:36.77,0:05:37.77,main,Loropechika,0000,0000,0000,,Huh?!
+Dialogue: 0,0:05:38.11,0:05:39.99,main,Undine,0000,0000,0000,,Huh? Why did you tell them?! What?
+Dialogue: 0,0:05:39.99,0:05:40.54,main,loropechika,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:40.54,0:05:41.19,main,Undine,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:41.19,0:05:42.41,main,Loropechika,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:44.81,0:05:46.98,main,Undine,0000,0000,0000,,Honestly... What am I going to do with you?
+Dialogue: 0,0:05:46.98,0:05:49.62,main,Undine,0000,0000,0000,,That side of you is adorable, too.
+Dialogue: 0,0:05:50.59,0:05:56.47,main,Undine,0000,0000,0000,,That's right. The reason we brought \Nyou here and measured your magic stages
+Dialogue: 0,0:05:56.89,0:05:59.63,main,Undine,0000,0000,0000,,was so that we can defeat Megicula,
+Dialogue: 0,0:05:59.63,0:06:01.75,main,Undine,0000,0000,0000,,the devil that cursed Loropechika.
+Dialogue: 0,0:06:03.63,0:06:06.97,main,Undine,0000,0000,0000,,I'm sure this interests you, too.
+Dialogue: 0,0:06:07.30,0:06:11.15,main,Loropechika,0000,0000,0000,,Citizens of the Clover Kingdom,\N please join us in—
+Dialogue: 0,0:06:12.70,0:06:13.76,main,Asta,0000,0000,0000,,What's wrong?!
+Dialogue: 0,0:06:13.76,0:06:17.36,main,Loropechika,0000,0000,0000,,I forgot to water the poplatatta trees!
+Dialogue: 0,0:06:17.36,0:06:18.77,main,Asta,0000,0000,0000,,D'oh!
+Dialogue: 0,0:06:18.77,0:06:22.41,main,Asta,0000,0000,0000,,I'm pretty sure we were in the \Nmiddle of talking about something
+Dialogue: 0,0:06:22.41,0:06:24.05,main,Asta,0000,0000,0000,,really important just now!
+Dialogue: 0,0:06:24.05,0:06:27.53,main,Nero,0000,0000,0000,,Is it okay for the queen of \Na kingdom to act like that?
+Dialogue: 0,0:06:46.87,0:06:48.86,main,Asta,0000,0000,0000,,Holy crap!
+Dialogue: 0,0:06:48.86,0:06:51.67,main,Loropechika,0000,0000,0000,,There you go. Have some water.
+Dialogue: 0,0:06:56.36,0:06:59.02,main,Loropechika,0000,0000,0000,,I see the zozo squirrels \Nare as lively as ever today.
+Dialogue: 0,0:06:59.02,0:07:02.85,main,Loropechika,0000,0000,0000,,Hey now, Michely. Don't run too fast.
+Dialogue: 0,0:07:02.85,0:07:06.44,main,Loropechika,0000,0000,0000,,Old man Kakalasa's cough seems \Nto be better. That's great.
+Dialogue: 0,0:07:06.44,0:07:10.03,main,Loropechika,0000,0000,0000,,Oh, the totohl fruits grew so splendidly!
+Dialogue: 0,0:07:12.17,0:07:14.28,main,Asta,0000,0000,0000,,She's watering whole forests at once!
+Dialogue: 0,0:07:14.28,0:07:16.90,italics,Nero,0000,0000,0000,,She obtained information from all \Naround the kingdom in an instant.
+Dialogue: 0,0:07:16.90,0:07:19.66,italics,Nero,0000,0000,0000,,And she's controlling the water everywhere.
+Dialogue: 0,0:07:20.17,0:07:22.81,italics,Nero,0000,0000,0000,,An all-encompassing benevolence
+Dialogue: 0,0:07:22.81,0:07:26.59,italics,Nero,0000,0000,0000,,combined with delicacy that \Ndoesn't miss a single thing...
+Dialogue: 0,0:07:27.03,0:07:30.15,italics,Nero,0000,0000,0000,,So this is the magic of \Nthe Heart Kingdom's queen.
+Dialogue: 0,0:07:30.79,0:07:32.59,main,Undine,0000,0000,0000,,Now, now, Loropechika...
+Dialogue: 0,0:07:33.09,0:07:35.85,main,Undine,0000,0000,0000,,Go and get changed into \Nsome proper clothes already.
+Dialogue: 0,0:07:35.85,0:07:41.35,main,Undine,0000,0000,0000,,The current queen has inherited the \Npower of most of the previous queens.
+Dialogue: 0,0:07:42.02,0:07:45.35,main,Undine,0000,0000,0000,,The guardian deity of the beautiful \Nand peaceful Heart Kingdom...
+Dialogue: 0,0:07:45.35,0:07:46.91,main,Undine,0000,0000,0000,,The all-knowing priestess...
+Dialogue: 0,0:07:47.86,0:07:51.61,main,Undine,0000,0000,0000,,Someone who cannot be lost to a devil's curse.
+Dialogue: 0,0:07:52.37,0:07:54.87,main,Undine,0000,0000,0000,,There is no one else like her!
+Dialogue: 0,0:08:00.37,0:08:05.06,main,Undine,0000,0000,0000,,See? You're beautiful when you \Nactually clean yourself up.
+Dialogue: 0,0:08:05.06,0:08:06.84,main,Loropechika,0000,0000,0000,,But it's so hard to move in this...
+Dialogue: 0,0:08:11.42,0:08:12.51,main,Asta,0000,0000,0000,,Why, though?!
+Dialogue: 0,0:08:13.38,0:08:15.03,main,Undine,0000,0000,0000,,For crying out loud, Loropechika...
+Dialogue: 0,0:08:15.03,0:08:19.01,main,Asta,0000,0000,0000,,I get it! Her insane klutziness must \Nbe due to the devil's curse, too!
+Dialogue: 0,0:08:19.01,0:08:21.62,main,Loropechika,0000,0000,0000,,Oh, no. That's just me.
+Dialogue: 0,0:08:21.62,0:08:23.37,main,Asta,0000,0000,0000,,What?!
+Dialogue: 0,0:08:23.37,0:08:28.36,main,Undine,0000,0000,0000,,Curse... The loathsome devil that \Ncursed my beloved Loropechika...
+Dialogue: 0,0:08:28.68,0:08:31.74,main,Undine,0000,0000,0000,,Megicula is in that kingdom.
+Dialogue: 0,0:08:31.74,0:08:35.11,sign_18968_247_Heart_Kingdom,Sign,0000,0000,0000,,{\blur3}Diamond Kingdom
+Dialogue: 0,0:08:37.57,0:08:41.57,main,Magna,0000,0000,0000,,We came to scout the Diamond \NKingdom just in case, but...
+Dialogue: 0,0:08:41.57,0:08:42.75,main,vanessa,0000,0000,0000,,This is...
+Dialogue: 0,0:08:48.71,0:08:52.01,main,vanessa,0000,0000,0000,,He managed to defeat all those \NDiamond soldiers on his own...
+Dialogue: 0,0:08:52.01,0:08:55.07,main,magna,0000,0000,0000,,Some of them were as strong as our captains,
+Dialogue: 0,0:08:55.07,0:08:56.39,main,magna,0000,0000,0000,,yet he defeated them so easily.
+Dialogue: 0,0:09:01.34,0:09:03.48,main,Vanessa,0000,0000,0000,,Don't you dare get any stupid ideas, Luck!
+Dialogue: 0,0:09:03.48,0:09:07.15,main,Luck,0000,0000,0000,,I hate to admit it, but I've \Nnever felt like this before.
+Dialogue: 0,0:09:07.86,0:09:09.02,main,Luck,0000,0000,0000,,I actually...
+Dialogue: 0,0:09:09.79,0:09:11.33,main,Luck,0000,0000,0000,,don't want to fight him.
+Dialogue: 0,0:09:17.11,0:09:21.08,sign_18968_247_Heart_Kingdom,,0000,0000,0000,,{\blur3\fad(738,1)}Heart Kingdom   Royal Palace
+Dialogue: 0,0:09:21.83,0:09:25.08,sign_18968_247_Heart_Kingdom,,0000,0000,0000,,{\blur3\fad(1023,1)}The Queen's Chamber
+Dialogue: 0,0:09:26.18,0:09:27.12,main,Asta,0000,0000,0000,,Hey, guys!
+Dialogue: 0,0:09:27.12,0:09:28.39,main,Finral,0000,0000,0000,,Asta!
+Dialogue: 0,0:09:27.63,0:09:29.11,main,Asta,0000,0000,0000,,Hey!
+Dialogue: 0,0:09:28.39,0:09:30.63,main,Mimosa,0000,0000,0000,,Thank goodness you're okay.
+Dialogue: 0,0:09:30.63,0:09:33.27,main,Noelle,0000,0000,0000,,You get kidnapped way too often.
+Dialogue: 0,0:09:33.27,0:09:35.38,main,Noelle,0000,0000,0000,,Give it a rest already.
+Dialogue: 0,0:09:35.81,0:09:37.88,main,Gaja,0000,0000,0000,,The queen has arrived.
+Dialogue: 0,0:09:49.01,0:09:51.13,italics,Mimosa,0000,0000,0000,,She's so majestic and beautiful.
+Dialogue: 0,0:09:51.13,0:09:54.19,italics,Mimosa,0000,0000,0000,,And she possesses vast, immeasurable magic!
+Dialogue: 0,0:09:54.82,0:09:57.70,italics,Noelle,0000,0000,0000,,So this is the queen of the Heart Kingdom?
+Dialogue: 0,0:09:57.70,0:10:00.55,main,Finral,0000,0000,0000,,She's so beautiful!
+Dialogue: 0,0:10:00.55,0:10:03.95,main,Finral,0000,0000,0000,,You are truly a goddess who \Nhas descended upon this land!
+Dialogue: 0,0:10:03.95,0:10:07.86,main,Finral,0000,0000,0000,,Damn it! You know better than that, Finral!
+Dialogue: 0,0:10:07.86,0:10:10.83,main,Finral,0000,0000,0000,,You! Are! Going! To! Change!
+Dialogue: 0,0:10:11.23,0:10:13.91,main,Asta,0000,0000,0000,,What the heck's going on with Finral?
+Dialogue: 0,0:10:13.91,0:10:14.71,main,Noelle,0000,0000,0000,,Who knows?
+Dialogue: 0,0:10:15.31,0:10:17.49,main,Loropechika,0000,0000,0000,,Citizens of the Clover Kingdom,
+Dialogue: 0,0:10:18.31,0:10:20.79,main,Loropechika,0000,0000,0000,,please lend us your strength.
+Dialogue: 0,0:10:25.05,0:10:25.85,main,Both,0000,0000,0000,,Wait, why?!
+Dialogue: 0,0:10:26.35,0:10:30.58,main,Undine,0000,0000,0000,,Come on, Loropechika! \NYou need to act like a queen!
+Dialogue: 0,0:10:27.71,0:10:29.74,top,Loropechika,0000,0000,0000,,Ow...
+Dialogue: 0,0:10:30.58,0:10:33.73,main,Undine,0000,0000,0000,,Oh, your nose is bleeding...\NBut you're so cute!
+Dialogue: 0,0:10:36.67,0:10:38.15,main,Noelle,0000,0000,0000,,Wh-What was that?
+Dialogue: 0,0:10:38.15,0:10:40.32,main,Loropechika,0000,0000,0000,,I got some blood on my dress.
+Dialogue: 0,0:10:40.32,0:10:42.95,main,Undine,0000,0000,0000,,Okay, okay, just a second...
+Dialogue: 0,0:10:43.78,0:10:47.42,main,Gaja,0000,0000,0000,,This is why I said she shouldn't \Nmeet them in person.
+Dialogue: 0,0:10:50.90,0:10:54.25,main,Asta,0000,0000,0000,,Why do you need our help?
+Dialogue: 0,0:10:54.25,0:11:00.02,main,Mimosa,0000,0000,0000,,Doesn't the Heart Kingdom have many \Nmages who are stage one or higher,
+Dialogue: 0,0:11:00.02,0:11:01.80,main,Mimosa,0000,0000,0000,,including the Spirit Guardians?
+Dialogue: 0,0:11:01.80,0:11:05.97,main,Loropechika,0000,0000,0000,,I mentioned earlier that everyone \Nneeds to be stage one or higher
+Dialogue: 0,0:11:05.97,0:11:07.93,main,Loropechika,0000,0000,0000,,to keep up in a fight with devils,
+Dialogue: 0,0:11:07.93,0:11:09.82,main,Loropechika,0000,0000,0000,,but even if one was stage zero,
+Dialogue: 0,0:11:09.82,0:11:12.48,main,Loropechika,0000,0000,0000,,they would not be able to finish off a devil.
+Dialogue: 0,0:11:13.91,0:11:19.65,main,Loropechika,0000,0000,0000,,The Spirit Guardians borrow some power \Nfrom natural mana to use powerful magic,
+Dialogue: 0,0:11:19.65,0:11:21.49,main,Loropechika,0000,0000,0000,,but they still cannot defeat devils.
+Dialogue: 0,0:11:22.22,0:11:27.25,main,Loropechika,0000,0000,0000,,Unlike us, the Clover Kingdom has \Ncreated types of magic that are not natural,
+Dialogue: 0,0:11:27.25,0:11:30.18,main,Loropechika,0000,0000,0000,,such as chain, steel, \Nand the eccentric spatial magic,
+Dialogue: 0,0:11:30.18,0:11:33.41,main,Loropechika,0000,0000,0000,,in exchange for giving up the \Ndivine protection of natural mana.
+Dialogue: 0,0:11:34.22,0:11:36.77,main,Loropechika,0000,0000,0000,,Some of the irregulars who were born
+Dialogue: 0,0:11:36.77,0:11:39.80,main,Loropechika,0000,0000,0000,,in that environment have the \Npower to defeat a devil.
+Dialogue: 0,0:11:41.71,0:11:45.76,main,Loropechika,0000,0000,0000,,For example, the Wizard King who \Nuses time magic, Julius Novachrono,
+Dialogue: 0,0:11:45.76,0:11:50.46,main,Loropechika,0000,0000,0000,,or the Captain of the Black Bulls, \NYami Sukehiro, who uses dark magic.
+Dialogue: 0,0:11:51.62,0:11:56.27,main,Loropechika,0000,0000,0000,,Though it appears that Julius \Nhas lost most of his power...
+Dialogue: 0,0:11:57.43,0:11:59.00,italics,Noelle,0000,0000,0000,,She even knows about that?
+Dialogue: 0,0:11:59.00,0:12:01.82,italics,Noelle,0000,0000,0000,,Just how much does she know?
+Dialogue: 0,0:12:02.39,0:12:03.66,main,Loropechika,0000,0000,0000,,And...
+Dialogue: 0,0:12:04.21,0:12:05.89,main,Loropechika,0000,0000,0000,,Asta and Nero.
+Dialogue: 0,0:12:07.83,0:12:10.50,main,Loropechika,0000,0000,0000,,In terms of combat magic alone, \NNero is about a stage six,
+Dialogue: 0,0:12:10.50,0:12:14.17,main,Loropechika,0000,0000,0000,,but she has ancient sealing magic \Nand has used forbidden magic.
+Dialogue: 0,0:12:14.97,0:12:16.53,main,Loropechika,0000,0000,0000,,And Asta doesn't have any magic,
+Dialogue: 0,0:12:16.53,0:12:19.59,main,Loropechika,0000,0000,0000,,but he was able to obtain \Nanti-magic because of that.
+Dialogue: 0,0:12:21.17,0:12:26.85,main,Loropechika,0000,0000,0000,,People with inexplicable powers such \Nas yours are known as arcane stages.
+Dialogue: 0,0:12:26.85,0:12:30.72,sign_17907_179_Stage_Zero,Sign,0000,0000,0000,,{\move(320,275,320,325)}Stage Zero
+Dialogue: 0,0:12:28.58,0:12:30.72,sign_17948_180_Arcane_Stage,Sign,0000,0000,0000,,{\move(320,120,320,150)\fad(668,1)\fscx150\fscy150\fsp1}Arcane Stage
+Dialogue: 0,0:12:30.72,0:12:33.06,main,Nero,0000,0000,0000,,Arcane stage...
+Dialogue: 0,0:12:33.47,0:12:37.49,main,Loropechika,0000,0000,0000,,I'd like you to lend us your arcane \Npowers to help defeat that devil.
+Dialogue: 0,0:12:37.91,0:12:41.82,main,Loropechika,0000,0000,0000,,In exchange, I'll offer you any \Ninformation that is available to me.
+Dialogue: 0,0:12:42.45,0:12:45.47,main,Noelle,0000,0000,0000,,We can't make decisions like that.
+Dialogue: 0,0:12:45.47,0:12:48.41,main,Asta,0000,0000,0000,,I'll use a transmission magic item\N to ask Captain Yami!
+Dialogue: 0,0:12:49.41,0:12:51.41,main,Yami,0000,0000,0000,,I'm taking a dump right now!
+Dialogue: 0,0:12:52.21,0:12:55.27,main,Yami,0000,0000,0000,,What? You've got something \Nreally important to tell me?
+Dialogue: 0,0:12:55.27,0:12:58.27,main,Yami,0000,0000,0000,,Well, what I'm doing right \Nnow is really important, too.
+Dialogue: 0,0:12:58.27,0:13:01.00,main,Yami,0000,0000,0000,,This might be the biggest dump in history.
+Dialogue: 0,0:13:01.00,0:13:02.50,italics,Yami,0000,0000,0000,,Call back later!
+Dialogue: 0,0:13:02.50,0:13:04.01,main,Asta,0000,0000,0000,,What?!
+Dialogue: 0,0:13:04.36,0:13:05.85,main,Loropechika,0000,0000,0000,,Pooping is indeed very important.
+Dialogue: 0,0:13:05.85,0:13:07.01,main,Asta,0000,0000,0000,,She agreed with him?!
+Dialogue: 0,0:13:07.49,0:13:10.37,main,Undine,0000,0000,0000,,You mustn't use such vulgar words, Loropechika!
+Dialogue: 0,0:13:11.52,0:13:14.66,main,Mimosa,0000,0000,0000,,Um... I figured something \Nlike this may happen,
+Dialogue: 0,0:13:14.66,0:13:19.03,main,Mimosa,0000,0000,0000,,so I borrowed a magic item that lets us \Nconnect with Marx's transmission magic.
+Dialogue: 0,0:13:19.03,0:13:20.16,main,Noelle,0000,0000,0000,,Good job, Mimosa!
+Dialogue: 0,0:13:20.16,0:13:21.53,main,Asta,0000,0000,0000,,Way to go, Mimosa!
+Dialogue: 0,0:13:21.53,0:13:23.28,main,Mimosa,0000,0000,0000,,All right, I'll go ahead and connect.
+Dialogue: 0,0:13:24.70,0:13:27.28,italics,Marx,0000,0000,0000,,Mimosa? Did something happen?
+Dialogue: 0,0:13:27.28,0:13:30.11,italics,Marx,0000,0000,0000,,Wait, is that...
+Dialogue: 0,0:13:30.11,0:13:34.54,italics,Julius,0000,0000,0000,,You must be the queen of the Heart Kingdom!\N What kind of magic do you use?!
+Dialogue: 0,0:13:34.54,0:13:37.68,italics,Marx,0000,0000,0000,,Please don't just pop up \Nlike that, Master Julius!
+Dialogue: 0,0:13:37.68,0:13:39.89,italics,Marx,0000,0000,0000,,You're small right now, remember?
+Dialogue: 0,0:13:39.89,0:13:41.11,italics,Marx,0000,0000,0000,,People will find out.
+Dialogue: 0,0:13:41.11,0:13:44.55,italics,Julius,0000,0000,0000,,Well, yeah, you did just \Ncall me "Master Julius."
+Dialogue: 0,0:13:46.53,0:13:49.00,main,Asta,0000,0000,0000,,Don't worry. The queen already knew.
+Dialogue: 0,0:13:49.00,0:13:49.80,italics,Marx,0000,0000,0000,,Huh?!
+Dialogue: 0,0:13:51.39,0:13:55.30,italics,Asta,0000,0000,0000,,And so, in order to defeat \Ndevils, we need to be...
+Dialogue: 0,0:13:55.30,0:13:57.65,italics,Asta,0000,0000,0000,,at the arcane stage, or something.
+Dialogue: 0,0:13:57.65,0:13:59.11,main,Julius,0000,0000,0000,,Of course, that's fine.
+Dialogue: 0,0:13:59.11,0:14:02.07,main,Julius,0000,0000,0000,,You all might get something \Namazing out of this, too.
+Dialogue: 0,0:14:02.07,0:14:05.02,main,Julius,0000,0000,0000,,To tell you the truth, \NI'd prefer to be over there myself.
+Dialogue: 0,0:14:05.02,0:14:06.53,main,Marx,0000,0000,0000,,You absolutely may not!
+Dialogue: 0,0:14:06.53,0:14:10.45,main,Loropechika,0000,0000,0000,,It's settled, then. Thank goodness.
+Dialogue: 0,0:14:10.45,0:14:15.16,main,Loropechika,0000,0000,0000,,But in your present states, \Nall of you will be killed so easily.
+Dialogue: 0,0:14:15.16,0:14:17.54,main,Asta,0000,0000,0000,,Wow, she's honest!
+Dialogue: 0,0:14:18.14,0:14:21.67,main,Asta,0000,0000,0000,,So the Spade devil is that strong?
+Dialogue: 0,0:14:21.67,0:14:26.05,main,Loropechika,0000,0000,0000,,Yes. Stronger than the devil\N you fought, I believe.
+Dialogue: 0,0:14:26.05,0:14:27.78,italics,Asta,0000,0000,0000,,Stronger than that guy?!
+Dialogue: 0,0:14:28.43,0:14:29.64,italics,Asta,0000,0000,0000,,During that fight,
+Dialogue: 0,0:14:29.64,0:14:32.20,italics,Asta,0000,0000,0000,,we only managed to win because we had help
+Dialogue: 0,0:14:32.20,0:14:36.93,italics,Asta,0000,0000,0000,,from incredible people like the first \NWizard King and the leader of the elves.
+Dialogue: 0,0:14:37.33,0:14:40.73,main,Loropechika,0000,0000,0000,,The scar Gaja has is the \Nwork of that devil, too.
+Dialogue: 0,0:14:41.63,0:14:44.52,italics,Noelle,0000,0000,0000,,Him? The guy we barely \Nstood a chance against?
+Dialogue: 0,0:14:46.65,0:14:52.00,italics,Julius,0000,0000,0000,,That Spirit Guardian fellow fought \Nme in the past. He's quite skilled.
+Dialogue: 0,0:14:52.00,0:14:53.20,main,Asta,0000,0000,0000,,He fought you?!
+Dialogue: 0,0:14:53.54,0:14:58.71,italics,Noelle,0000,0000,0000,,A devil that can't be beaten by\N someone the Wizard King praises...
+Dialogue: 0,0:15:00.62,0:15:02.86,italics,Asta,0000,0000,0000,,We don't stand a chance right now...
+Dialogue: 0,0:15:03.27,0:15:05.46,italics,Asta,0000,0000,0000,,We have to get stronger.
+Dialogue: 0,0:15:05.98,0:15:09.42,main,Loropechika,0000,0000,0000,,The devil Megicula is \Nhaunting the Spade Kingdom,
+Dialogue: 0,0:15:09.42,0:15:12.99,main,Loropechika,0000,0000,0000,,using its citizens to amass power...
+Dialogue: 0,0:15:14.26,0:15:17.05,main,Loropechika,0000,0000,0000,,in order to invade and \Nconquer the Clover Kingdom,
+Dialogue: 0,0:15:17.05,0:15:19.61,main,Loropechika,0000,0000,0000,,the Heart Kingdom, and the Diamond Kingdom.
+Dialogue: 0,0:15:23.31,0:15:27.70,main,Loropechika,0000,0000,0000,,As things stand, I will \Nalso die from this curse.
+Dialogue: 0,0:15:28.22,0:15:32.99,main,Loropechika,0000,0000,0000,,I'd like to invade the Spade Kingdom\N before my power weakens.
+Dialogue: 0,0:15:34.70,0:15:36.49,main,Loropechika,0000,0000,0000,,We have half a year.
+Dialogue: 0,0:15:37.19,0:15:39.50,main,Loropechika,0000,0000,0000,,We'll need all the combat \Npower we can get.
+Dialogue: 0,0:15:40.61,0:15:44.50,main,Loropechika,0000,0000,0000,,Please gather those who stand \Na chance in a fight with a devil.
+Dialogue: 0,0:15:44.87,0:15:49.76,main,Loropechika,0000,0000,0000,,I'd like you to get stronger and \Nfight alongside us in six months.
+Dialogue: 0,0:15:49.76,0:15:51.51,main,Asta,0000,0000,0000,,Right! We'd also appreciate...
+Dialogue: 0,0:15:51.51,0:15:53.02,main,All,0000,0000,0000,,...your help!
+Dialogue: 0,0:16:00.21,0:16:03.23,main,Marx,0000,0000,0000,,Master Julius, are you sure \Nyou're all right with this?
+Dialogue: 0,0:16:03.58,0:16:08.05,main,Marx,0000,0000,0000,,The Magic Knights are still exhausted \Nfrom the battle against the elves.
+Dialogue: 0,0:16:08.50,0:16:10.55,main,Marx,0000,0000,0000,,Though we have half a year,
+Dialogue: 0,0:16:10.55,0:16:14.02,main,Marx,0000,0000,0000,,if we fight alongside the Heart \NKingdom to defeat a devil,
+Dialogue: 0,0:16:14.02,0:16:15.80,main,Marx,0000,0000,0000,,we may face even greater casualties.
+Dialogue: 0,0:16:16.62,0:16:20.25,main,Julius,0000,0000,0000,,I'm sure you heard what our scouts said.
+Dialogue: 0,0:16:20.83,0:16:23.73,main,Julius,0000,0000,0000,,With the Diamond Kingdom in its current state,
+Dialogue: 0,0:16:23.73,0:16:27.00,main,Julius,0000,0000,0000,,our only hope is to have the \NMagic Knights get stronger.
+Dialogue: 0,0:16:27.34,0:16:31.01,main,Julius,0000,0000,0000,,I'm sure the Queen of the Heart \NKingdom understands that, too.
+Dialogue: 0,0:16:31.01,0:16:32.78,main,Marx,0000,0000,0000,,Master Julius...
+Dialogue: 0,0:16:32.78,0:16:36.70,main,Julius,0000,0000,0000,,Marx, gather all of the \NMagic Knights Squad Captains.
+Dialogue: 0,0:16:36.70,0:16:38.01,main,Marx,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:16:41.27,0:16:44.31,main,Charmy,0000,0000,0000,,Munchy, munchy, munchy, munchy, munchy...
+Dialogue: 0,0:16:44.70,0:16:47.06,main,Asta,0000,0000,0000,,When's the captain gonna show up?
+Dialogue: 0,0:16:47.06,0:16:49.44,main,Asta,0000,0000,0000,,We have a super important announcement!
+Dialogue: 0,0:16:49.44,0:16:51.94,main,Zora,0000,0000,0000,,Shut up, you stupid shrimp.
+Dialogue: 0,0:16:51.94,0:16:55.66,main,Zora,0000,0000,0000,,If you don't quit yappin', the captain \Nwon't be able to finish his business.
+Dialogue: 0,0:16:55.66,0:16:57.27,main,Asta,0000,0000,0000,,He's taking a dump again?!
+Dialogue: 0,0:16:58.95,0:17:00.20,main,Yami,0000,0000,0000,,I won.
+Dialogue: 0,0:17:00.20,0:17:03.11,main,Asta,0000,0000,0000,,Wait, have you been in there ever since then?!
+Dialogue: 0,0:17:03.11,0:17:04.90,main,Yami,0000,0000,0000,,This isn't the end.
+Dialogue: 0,0:17:04.90,0:17:07.69,main,Yami,0000,0000,0000,,As much as I want to celebrate my victory,
+Dialogue: 0,0:17:07.69,0:17:10.21,main,Yami,0000,0000,0000,,the next battle is just around the corner.
+Dialogue: 0,0:17:10.21,0:17:12.42,main,Noelle,0000,0000,0000,,That's seriously enough about that.
+Dialogue: 0,0:17:12.90,0:17:16.29,main,Yami,0000,0000,0000,,Right. Let's hear what the group that \Nwent to the Heart Kingdom has to say.
+Dialogue: 0,0:17:16.29,0:17:17.43,main,Finral,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:17:17.43,0:17:20.26,main,Finral,0000,0000,0000,,Actually, I'm not sure where to begin.
+Dialogue: 0,0:17:20.26,0:17:21.81,main,Asta,0000,0000,0000,,Me, me!
+Dialogue: 0,0:17:21.81,0:17:25.89,main,Asta,0000,0000,0000,,The one cursed by a devil there \Nis the Heart Kingdom's queen!
+Dialogue: 0,0:17:26.33,0:17:29.91,main,Noelle,0000,0000,0000,,And because of that curse, the queen \Nonly has about a year to live.
+Dialogue: 0,0:17:30.55,0:17:33.18,main,Finral,0000,0000,0000,,The queen is the most powerful in the kingdom,
+Dialogue: 0,0:17:33.18,0:17:35.25,main,Finral,0000,0000,0000,,and a mage chosen by one \Nof the Four Great Spirits.
+Dialogue: 0,0:17:35.81,0:17:38.49,main,Finral,0000,0000,0000,,If they lose someone like that, \Nthe Heart Kingdom will...
+Dialogue: 0,0:17:41.82,0:17:44.59,main,Yami,0000,0000,0000,,This goes without saying,\Nbut keep this on the down-low.
+Dialogue: 0,0:17:44.59,0:17:48.42,main,Yami,0000,0000,0000,,So, did you find anything out about this devil?
+Dialogue: 0,0:17:49.31,0:17:51.42,main,Noelle,0000,0000,0000,,The devil's name is Megicula.
+Dialogue: 0,0:17:51.42,0:17:54.38,main,Asta,0000,0000,0000,,And they're in the Spade Kingdom right now!
+Dialogue: 0,0:17:54.38,0:17:55.57,main,Vanessa,0000,0000,0000,,Spade?
+Dialogue: 0,0:17:56.14,0:17:59.14,main,Magna,0000,0000,0000,,Then maybe that explains what we saw.
+Dialogue: 0,0:17:59.49,0:18:02.37,main,Asta,0000,0000,0000,,Huh? What are you talking about?
+Dialogue: 0,0:18:02.37,0:18:07.52,main,Yami,0000,0000,0000,,Apparently, they saw a Spade mage near \Nthe border of the Diamond Kingdom.
+Dialogue: 0,0:18:07.52,0:18:08.60,main,Asta,0000,0000,0000,,A Spade?!
+Dialogue: 0,0:18:09.62,0:18:12.86,main,Luck,0000,0000,0000,,He was no ordinary mage.
+Dialogue: 0,0:18:13.57,0:18:15.22,main,Magna,0000,0000,0000,,He managed to
+Dialogue: 0,0:18:15.22,0:18:19.45,main,Magna,0000,0000,0000,,single-handedly finish off hundreds \Nof Diamond soldiers in an instant.
+Dialogue: 0,0:18:19.87,0:18:23.09,main,Vanessa,0000,0000,0000,,And that cold, dark magic...
+Dialogue: 0,0:18:23.09,0:18:25.45,main,Vanessa,0000,0000,0000,,Everything would make sense \Nif he's possessed by a devil.
+Dialogue: 0,0:18:27.71,0:18:32.67,main,Luck,0000,0000,0000,,It's very possible that the guy \Nwe saw was Megicula himself.
+Dialogue: 0,0:18:32.67,0:18:36.09,main,Grey,0000,0000,0000,,Th-Then the Diamond Kingdom...
+Dialogue: 0,0:18:36.09,0:18:39.91,main,Yami,0000,0000,0000,,They're pretty much done for. \NAll because of that one guy.
+Dialogue: 0,0:18:44.93,0:18:46.19,main,Asta,0000,0000,0000,,Mars...
+Dialogue: 0,0:18:47.35,0:18:52.37,main,Vanessa,0000,0000,0000,,It was clear just from being near him \Nfor a little while... We stood no chance.
+Dialogue: 0,0:18:53.05,0:18:57.11,main,Vanessa,0000,0000,0000,,Even if we had acted, we would've faced \Nthe same fate as the Diamond soldiers.
+Dialogue: 0,0:18:57.65,0:18:59.89,main,Yami,0000,0000,0000,,Yeah, as you guys are right now.
+Dialogue: 0,0:18:59.89,0:19:01.42,main,Yami,0000,0000,0000,,If we can't defeat that devil,
+Dialogue: 0,0:19:01.42,0:19:04.79,main,Yami,0000,0000,0000,,both the Heart Kingdom and the \NClover Kingdom are gonna be finished.
+Dialogue: 0,0:19:04.79,0:19:06.58,main,Yami,0000,0000,0000,,In order to stop that...
+Dialogue: 0,0:19:07.12,0:19:09.12,main,Yami,0000,0000,0000,,We're gonna have to get stronger.
+Dialogue: 0,0:19:09.78,0:19:12.29,main,Noelle,0000,0000,0000,,The queen gave us six months.
+Dialogue: 0,0:19:12.79,0:19:16.24,main,Noelle,0000,0000,0000,,In six months, the Heart Kingdom \Nwill attack the Spade Kingdom.
+Dialogue: 0,0:19:16.24,0:19:18.66,main,Asta,0000,0000,0000,,We Magic Knights of the Clover Kingdom
+Dialogue: 0,0:19:18.66,0:19:21.90,main,Asta,0000,0000,0000,,need to train as hard as we can for \Nsix months, get super strong,
+Dialogue: 0,0:19:21.90,0:19:25.39,main,Asta,0000,0000,0000,,and defeat Megicula along \Nwith the Heart Kingdom!
+Dialogue: 0,0:19:25.39,0:19:26.95,main,Zora,0000,0000,0000,,Question.
+Dialogue: 0,0:19:26.95,0:19:28.39,main,Asta,0000,0000,0000,,Sure thing, Zora!
+Dialogue: 0,0:19:28.70,0:19:34.63,main,Zora,0000,0000,0000,,So this devil's actually \Nbeatable if all we do is train?
+Dialogue: 0,0:19:34.63,0:19:36.26,main,Nero,0000,0000,0000,,We won't be able to keep up in a fight
+Dialogue: 0,0:19:36.26,0:19:38.80,main,Nero,0000,0000,0000,,against a devil unless we're \Nall stage one or higher.
+Dialogue: 0,0:19:39.06,0:19:41.83,main,Nero,0000,0000,0000,,For perspective, that would \Nmean we'd all have to be
+Dialogue: 0,0:19:41.83,0:19:44.61,main,Nero,0000,0000,0000,,as strong as 1st Class Senior Magic Knights...
+Dialogue: 0,0:19:44.61,0:19:47.79,main,Nero,0000,0000,0000,,no, we need to be above that, \Nor we don't stand a chance.
+Dialogue: 0,0:19:47.79,0:19:53.46,main,Magna,0000,0000,0000,,So you're telling us to get to a \Nvice captain's level in six months?!
+Dialogue: 0,0:19:53.46,0:19:55.34,main,Vanessa,0000,0000,0000,,You sure make it sound easy.
+Dialogue: 0,0:19:55.66,0:19:59.69,main,Finral,0000,0000,0000,,And currently, the only ones who \Nstand a chance against the devil
+Dialogue: 0,0:19:59.69,0:20:03.09,main,Finral,0000,0000,0000,,are the Wizard King, Yami, Asta, and Nero,
+Dialogue: 0,0:20:03.09,0:20:06.10,main,Finral,0000,0000,0000,,who all belong to a group \Ncalled the arcane stage.
+Dialogue: 0,0:20:06.10,0:20:10.89,main,Noelle,0000,0000,0000,,Though I don't plan on giving up even \Nif I'm told I don't stand a chance.
+Dialogue: 0,0:20:11.97,0:20:15.86,italics,Noelle,0000,0000,0000,,Because Megicula is the \None who killed my mother.
+Dialogue: 0,0:20:16.26,0:20:19.00,main,Magna,0000,0000,0000,,Come on! Pull yourself together, Luck!
+Dialogue: 0,0:20:19.00,0:20:21.68,main,Magna,0000,0000,0000,,Lady Noe just said she wasn't gonna give up!
+Dialogue: 0,0:20:21.68,0:20:24.93,main,Magna,0000,0000,0000,,We're her seniors! We can't chicken out!
+Dialogue: 0,0:20:26.19,0:20:27.81,main,Luck,0000,0000,0000,,I wasn't being myself.
+Dialogue: 0,0:20:28.34,0:20:31.96,main,Luck,0000,0000,0000,,I don't have time to be scared \Nwhen our friend's life is at stake.
+Dialogue: 0,0:20:32.70,0:20:34.21,main,Asta,0000,0000,0000,,Friend's life?
+Dialogue: 0,0:20:34.98,0:20:38.16,main,Gordon,0000,0000,0000,,Of course, I'll do everything \NI can to become a stage one.
+Dialogue: 0,0:20:38.16,0:20:41.01,main,Gordon,0000,0000,0000,,In order to protect my bestest friend, Asta!
+Dialogue: 0,0:20:41.01,0:20:44.94,main,Asta,0000,0000,0000,,That's right! I need to do \Nsomething about Megicula,
+Dialogue: 0,0:20:44.94,0:20:46.78,main,Asta,0000,0000,0000,,or I'm gonna be sentenced to death!
+Dialogue: 0,0:20:46.78,0:20:48.39,main,Noelle,0000,0000,0000,,How could you forget that?
+Dialogue: 0,0:20:48.39,0:20:50.85,main,Zora,0000,0000,0000,,Guess we don't have a choice, then.
+Dialogue: 0,0:20:50.85,0:20:55.40,italics,Zora,0000,0000,0000,,True Magic Knights can't just \Nlet devils do whatever they want.
+Dialogue: 0,0:20:55.40,0:20:59.58,main,Grey,0000,0000,0000,,I-I have no idea what I can do...
+Dialogue: 0,0:20:59.58,0:21:01.36,main,Grey,0000,0000,0000,,But I'll do my best!
+Dialogue: 0,0:21:01.75,0:21:04.85,italics,Finral,0000,0000,0000,,I'm gonna use these six months \Nto become even stronger
+Dialogue: 0,0:21:04.85,0:21:07.05,italics,Finral,0000,0000,0000,,and defeat this loathsome curse!
+Dialogue: 0,0:21:08.38,0:21:11.45,italics,Finral,0000,0000,0000,,So that I can become a man \Nworthy of Miss Finnes, as well.
+Dialogue: 0,0:21:11.83,0:21:15.34,italics,Noelle,0000,0000,0000,,After we defeat Megicula \Nand our curse is broken,
+Dialogue: 0,0:21:15.34,0:21:17.19,italics,Noelle,0000,0000,0000,,I want to talk to Nozel again...
+Dialogue: 0,0:21:18.33,0:21:20.09,italics,Noelle,0000,0000,0000,,about Mother.
+Dialogue: 0,0:21:20.66,0:21:23.78,italics,Asta,0000,0000,0000,,Anyway, we just need to kick Megicula's ass!
+Dialogue: 0,0:21:23.78,0:21:27.93,italics,Asta,0000,0000,0000,,Then I might be able to find \Nout more about my devil, too!
+Dialogue: 0,0:21:27.93,0:21:31.12,italics,Nero,0000,0000,0000,,For the sake of their futures and this world...
+Dialogue: 0,0:21:31.12,0:21:33.69,italics,Nero,0000,0000,0000,,I can't let another devil \Nhave its way any longer.
+Dialogue: 0,0:21:35.38,0:21:38.38,main,Yami,0000,0000,0000,,So that means for the next six months,
+Dialogue: 0,0:21:38.38,0:21:40.64,main,Yami,0000,0000,0000,,the Black Bulls are free \Nto do whatever they want.
+Dialogue: 0,0:21:40.64,0:21:44.19,main,Yami,0000,0000,0000,,You can go wherever you want. \NYou can team up with whoever you want.
+Dialogue: 0,0:21:45.15,0:21:48.25,main,Yami,0000,0000,0000,,You have one mission: to become stronger.
+Dialogue: 0,0:21:48.25,0:21:50.59,main,Yami,0000,0000,0000,,We're dealing with a devil \Nand the Spade Kingdom.
+Dialogue: 0,0:21:50.59,0:21:52.47,main,Yami,0000,0000,0000,,You need to train like your life depends on it.
+Dialogue: 0,0:21:52.47,0:21:54.88,main,Yami,0000,0000,0000,,If you don't, I'll kill you.
+Dialogue: 0,0:21:54.88,0:21:57.59,main,Yami,0000,0000,0000,,I always tell you to do this in the moment,
+Dialogue: 0,0:21:57.59,0:21:59.96,main,Yami,0000,0000,0000,,so if you have six months, \Nthat should be plenty of time.
+Dialogue: 0,0:22:00.33,0:22:02.96,main,Yami,0000,0000,0000,,Surpass your limits!
+Dialogue: 0,0:22:02.96,0:22:04.18,main,All,0000,0000,0000,,Right!
+Dialogue: 0,0:23:40.06,0:23:42.10,main,Julius,0000,0000,0000,,It's not just the Clover Kingdom.
+Dialogue: 0,0:23:42.10,0:23:44.02,main,Julius,0000,0000,0000,,This is a life-or-death situation \Nfor the Heart Kingdom
+Dialogue: 0,0:23:44.02,0:23:44.98,main,Julius,0000,0000,0000,,and Diamond Kingdom, too.
+Dialogue: 0,0:23:45.39,0:23:47.69,main,Some,0000,0000,0000,,Next time on {\i1}Black Clover{\i0}, Page 130:
+Dialogue: 0,0:23:46.32,0:23:54.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 130\N\N{\fs18}The New Magic Knights Captain Conference
+Dialogue: 0,0:23:47.69,0:23:50.24,main,Some,0000,0000,0000,,"The New Magic Knights Captain Conference."
+Dialogue: 0,0:23:50.24,0:23:54.07,main,Julius,0000,0000,0000,,We must become stronger in order to \Nface that devil and the Spade Kingdom.

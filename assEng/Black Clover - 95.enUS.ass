@@ -1,0 +1,393 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: OP_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H00F7FCFD,&H000000FF,&H00070805,&H000D1728,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0075,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_138_1_Black_Clover_is_,Trebuchet MS,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_1785_19_Vice_Captain_of_,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0070,0275,0090,1
+Style: sign_6730_49_Captain_of_the_A,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_7061_51_A_Team_Coral_Pea,Times New Roman,20,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0150,1
+Style: sign_7198_131_Nean,Times New Roman,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0336,0254,0134,1
+Style: sign_7198_132_Common_Realm,Times New Roman,24,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0450,0190,1
+Style: sign_7198_133_Kikka,Times New Roman,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0265,0315,0260,1
+Style: sign_9194_75_Yay____Yay____,Times New Roman,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_10111_106_Venue_for_the_Ro,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_11720_132_Bell_,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0235,0030,0070,1
+Style: sign_12339_133_Finnes_Calmreich,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_13177_157_1st_Class_Interm,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0015,0424,0080,1
+Style: sign_13177_158_4th_Class_Senior,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0230,0250,0080,1
+Style: sign_13177_159_1st_Class_Interm,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0415,0030,0080,1
+Style: sign_14555_151_4_years_ago,Times New Roman,28,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0085,1
+Style: sign_15736_152_Sandler,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0060,0505,0205,1
+Style: sign_15736_154_Solid,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0135,0455,0225,1
+Style: sign_15736_155_O_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0110,0440,0060,1
+Style: sign_15736_156_En___Noelle___Yu,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0070,0205,1
+Style: sign_16031_175_The_Eye_of_the_M,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_16031_176_Sally,Times New Roman,26,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0350,0075,1
+Style: sign_16031_177_Rades,Times New Roman,26,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0335,0030,0075,1
+Style: sign_17323_210_Also_got_in_thro,Times New Roman,24,&H000B0B0B,&H000000FF,&H00FFFFFF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0159,0156,0020,1
+Style: sign_21447_269_Mage_Attendant_t,Times New Roman,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0310,0095,1
+Style: sign_21447_270_1st_Class_Interm,Times New Roman,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0355,0030,0095,1
+Style: sign_25640_274_Group_1_En_Ringa,Times New Roman,24,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0040,0030,0125,1
+Style: sign_32950_385_Halt_,Times New Roman,30,&H00332E32,&H000000FF,&H00DADEE2,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0360,0030,0020,1
+Style: sign_33089_334_Bulls,Verdana,30,&H0007A0E4,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,6,0030,0030,0020,1
+Style: sign_33137_335_Hello__we_re_Gor,Trebuchet MS,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33018_294_Sa,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0045,0030,0275,1
+Style: sign_33018_295_Rii,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,1,0480,0030,0130,1
+Style: sign_33126_298_Shi,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0275,1
+Style: sign_33126_299_Rii,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,1,0465,0030,0130,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:06.63,0:00:10.88,italics,Nar,0000,0000,0000,,It appeared as though humanity \Nwould be destroyed by the demons.
+Dialogue: 0,0:00:14.95,0:00:19.29,italics,Nar,0000,0000,0000,,But a single mage saved them all.
+Dialogue: 0,0:00:26.41,0:00:31.59,italics,Nar,0000,0000,0000,,He was called the Wizard King,\Nand he became a legend.
+Dialogue: 0,0:00:34.47,0:00:37.76,italics,Nar,0000,0000,0000,,The Wizard King, Julius Novachrono, \Nprotected the kingdom's citizens
+Dialogue: 0,0:00:37.76,0:00:40.99,italics,Nar,0000,0000,0000,,from an attack by the Eye of \Nthe Midnight Sun's leader, Licht.
+Dialogue: 0,0:00:40.99,0:00:44.77,italics,Nar,0000,0000,0000,,But as a result, he was gravely injured.
+Dialogue: 0,0:00:44.77,0:00:46.94,main,Yami,0000,0000,0000,,What the hell's going on here...
+Dialogue: 0,0:00:46.94,0:00:49.23,main,Yami,0000,0000,0000,,Vangeance?!
+Dialogue: 0,0:00:49.23,0:00:52.16,main,Licht,0000,0000,0000,,Good day to you, Yami Sukehiro.
+Dialogue: 0,0:00:52.16,0:00:53.65,main,Licht,0000,0000,0000,,I am Licht.
+Dialogue: 0,0:00:54.31,0:00:56.82,italics,Nar,0000,0000,0000,,Yami attacked Licht, but...
+Dialogue: 0,0:00:56.82,0:00:58.12,main,Yami,0000,0000,0000,,Dark Magic...
+Dialogue: 0,0:00:59.03,0:01:00.37,main,Yami,0000,0000,0000,,Dark Cloaked...
+Dialogue: 0,0:01:00.99,0:01:02.87,main,Yami,0000,0000,0000,,Dimension Slash!
+Dialogue: 0,0:01:03.75,0:01:05.33,italics,Nar,0000,0000,0000,,He got away.
+Dialogue: 0,0:01:05.33,0:01:07.63,italics,Nar,0000,0000,0000,,And Julius...
+Dialogue: 0,0:01:08.94,0:01:11.80,main,Julius,0000,0000,0000,,I leave the rest to you...
+Dialogue: 0,0:01:13.62,0:01:14.42,main,Yami,0000,0000,0000,,You got it.
+Dialogue: 0,0:01:17.84,0:01:20.89,main,Licht,0000,0000,0000,,This is goodbye for all of you.
+Dialogue: 0,0:01:22.10,0:01:24.98,main,Licht,0000,0000,0000,,You will serve as the foundation \Nof the resurrection.
+Dialogue: 0,0:01:25.62,0:01:30.98,italics,Nar,0000,0000,0000,,Licht's true intentions were\N about to come to light!
+Dialogue: 0,0:01:41.26,0:01:46.79,Ep Title,Sign,0000,0000,0000,,{\fad(299,1)}Reincarnation
+Dialogue: 0,0:03:11.81,0:03:13.63,main,Guy,0000,0000,0000,,A four-leaf grimoire!
+Dialogue: 0,0:03:13.63,0:03:17.88,main,Guy,0000,0000,0000,,Licht of sword magic was chosen \Nby a four-leaf grimoire!
+Dialogue: 0,0:03:18.22,0:03:20.51,main,kid,0000,0000,0000,,What's a four-leaf grimoire, Mommy?
+Dialogue: 0,0:03:20.51,0:03:23.56,main,Mom,0000,0000,0000,,It's a grimoire with good fortune in it.
+Dialogue: 0,0:03:23.56,0:03:26.29,main,Mom,0000,0000,0000,,Only those it chooses can wield it!
+Dialogue: 0,0:03:29.73,0:03:33.77,sign_12339_133_Finnes_Calmreich,Sign,0000,0000,0000,,{\blur3\fad(688,1)}Licht
+Dialogue: 0,0:03:30.54,0:03:32.93,top,Patry,0000,0000,0000,,Licht, with the four-leaf grimoire...
+Dialogue: 0,0:03:34.51,0:03:35.91,main,Patry,0000,0000,0000,,He's so cool!
+Dialogue: 0,0:03:42.21,0:03:43.46,main,Patry,0000,0000,0000,,Licht!
+Dialogue: 0,0:03:46.66,0:03:48.49,main,Raia,0000,0000,0000,,You again?
+Dialogue: 0,0:03:48.49,0:03:51.83,main,Raia,0000,0000,0000,,You're so annoying,\N coming by every day. Go away.
+Dialogue: 0,0:03:51.83,0:03:53.17,top,Raia,0000,0000,0000,,Shoo, shoo.
+Dialogue: 0,0:03:51.83,0:03:56.59,sign_12339_133_Finnes_Calmreich,Sign,0000,0000,0000,,{\blur3\fad(777,1)}Patry
+Dialogue: 0,0:03:54.05,0:03:56.59,top,Patry,0000,0000,0000,,I'm not here to see you.
+Dialogue: 0,0:03:56.59,0:03:58.22,main,Raia,0000,0000,0000,,What did you just say, shrimp?
+Dialogue: 0,0:03:58.95,0:04:01.86,main,Licht,0000,0000,0000,,Oh, come on. He's not annoying, Raia.
+Dialogue: 0,0:04:02.61,0:04:05.71,main,Licht,0000,0000,0000,,I'm glad you came to see me.
+Dialogue: 0,0:04:05.71,0:04:07.35,main,Raia,0000,0000,0000,,Oh, I see.
+Dialogue: 0,0:04:09.06,0:04:11.10,main,Patry,0000,0000,0000,,So what do you think, Licht?
+Dialogue: 0,0:04:11.10,0:04:12.23,main,Licht,0000,0000,0000,,Hm?
+Dialogue: 0,0:04:12.23,0:04:16.56,main,Patry,0000,0000,0000,,About the rumors that the \Nhumans might attack us.
+Dialogue: 0,0:04:18.29,0:04:20.03,main,Licht,0000,0000,0000,,I believe they're just rumors.
+Dialogue: 0,0:04:20.03,0:04:23.13,main,Patry,0000,0000,0000,,But I wouldn't say it's \Ncompletely impossible.
+Dialogue: 0,0:04:23.13,0:04:24.39,main,Patry,0000,0000,0000,,They're...
+Dialogue: 0,0:04:24.39,0:04:30.46,main,Patry,0000,0000,0000,,Humans are a wicked-hearted\Nrace that kills animals for sport.
+Dialogue: 0,0:04:31.45,0:04:33.88,main,Patry,0000,0000,0000,,Their magical powers are weak,
+Dialogue: 0,0:04:33.88,0:04:36.47,main,Patry,0000,0000,0000,,but their increased numbers \Nhave made them overconfident.
+Dialogue: 0,0:04:36.94,0:04:38.75,main,Patry,0000,0000,0000,,Even though we elves have saved them
+Dialogue: 0,0:04:38.75,0:04:41.80,main,Patry,0000,0000,0000,,from countless natural disasters in the past...
+Dialogue: 0,0:04:42.42,0:04:44.21,main,Licht,0000,0000,0000,,I'm sure they're just scared.
+Dialogue: 0,0:04:44.21,0:04:45.05,main,Patry,0000,0000,0000,,Scared?
+Dialogue: 0,0:04:45.47,0:04:47.31,main,Licht,0000,0000,0000,,They're just like us.
+Dialogue: 0,0:04:47.31,0:04:50.56,main,Licht,0000,0000,0000,,We're much alike, but they don't \Nknow that, so they fear us.
+Dialogue: 0,0:04:50.98,0:04:55.65,main,Licht,0000,0000,0000,,But we should be able to \Nunderstand each other...
+Dialogue: 0,0:04:56.41,0:04:58.31,main,Licht,0000,0000,0000,,because we both receive grimoires.
+Dialogue: 0,0:05:02.38,0:05:03.37,main,Patry,0000,0000,0000,,That's...
+Dialogue: 0,0:05:05.03,0:05:08.28,main,Licht,0000,0000,0000,,It's a tornado caused by \Nnatural mana running wild.
+Dialogue: 0,0:05:08.59,0:05:10.29,main,Patry,0000,0000,0000,,It's pretty big.
+Dialogue: 0,0:05:10.29,0:05:12.78,main,Raia,0000,0000,0000,,It'll go away on its own if we ignore it.
+Dialogue: 0,0:05:27.05,0:05:28.30,main,Patry,0000,0000,0000,,Licht!
+Dialogue: 0,0:05:30.29,0:05:32.26,main,Patry,0000,0000,0000,,Someone else appeared \Nbehind the tornado?
+Dialogue: 0,0:05:32.26,0:05:33.22,main,Raia,0000,0000,0000,,That's...
+Dialogue: 0,0:05:33.69,0:05:34.90,main,Licht,0000,0000,0000,,Sword Magic:
+Dialogue: 0,0:05:36.90,0:05:38.27,main,Licht,0000,0000,0000,,Origin Flash!
+Dialogue: 0,0:05:39.66,0:05:40.69,main,Bro,0000,0000,0000,,Light Magic:
+Dialogue: 0,0:05:42.14,0:05:43.78,main,Bro,0000,0000,0000,,Lamp of Avior!
+Dialogue: 0,0:05:52.39,0:05:53.33,main,Patry,0000,0000,0000,,Licht!
+Dialogue: 0,0:05:53.33,0:05:56.98,main,Patry,0000,0000,0000,,He managed to destroy a tornado \Nthat big! He really is amazing.
+Dialogue: 0,0:05:56.98,0:05:58.08,main,Patry,0000,0000,0000,,But...
+Dialogue: 0,0:05:58.08,0:06:02.00,main,Patry,0000,0000,0000,,Who's that guy who just used\Nlight magic that seemed
+Dialogue: 0,0:06:02.00,0:06:04.09,main,Patry,0000,0000,0000,,just as powerful as Licht's magic?
+Dialogue: 0,0:06:06.15,0:06:07.25,main,Licht,0000,0000,0000,,Are you all right?
+Dialogue: 0,0:06:07.66,0:06:09.09,main,Tetia,0000,0000,0000,,Y-Yes.
+Dialogue: 0,0:06:09.53,0:06:11.34,main,Tetia,0000,0000,0000,,Thank you so much.
+Dialogue: 0,0:06:13.55,0:06:16.44,main,Bro,0000,0000,0000,,Tetia! Why did you leave the \Ncastle without permission?
+Dialogue: 0,0:06:16.44,0:06:17.60,main,Tetia,0000,0000,0000,,Brother...
+Dialogue: 0,0:06:18.17,0:06:20.17,main,Bro,0000,0000,0000,,Your magical attribute is wind.
+Dialogue: 0,0:06:20.17,0:06:23.50,main,Bro,0000,0000,0000,,How did you, of all people, \Nget caught up in a mana tornado?
+Dialogue: 0,0:06:25.43,0:06:27.52,main,Bro,0000,0000,0000,,Thank you for saving my little sister.
+Dialogue: 0,0:06:27.52,0:06:28.87,main,Licht,0000,0000,0000,,It's nothing...
+Dialogue: 0,0:06:41.38,0:06:44.88,main,Patry,0000,0000,0000,,He has a four-leaf grimoire, \Njust like Licht.
+Dialogue: 0,0:06:45.75,0:06:46.98,main,Patry,0000,0000,0000,,A human...
+Dialogue: 0,0:06:55.26,0:06:59.15,main,Vetto,0000,0000,0000,,Licht sure has been hanging \Naround those two a lot lately.
+Dialogue: 0,0:06:59.15,0:07:03.65,main,Raia,0000,0000,0000,,He sure has. I guess he's happy \Nto have some human friends.
+Dialogue: 0,0:07:03.65,0:07:07.37,main,Raia,0000,0000,0000,,I mean, those two are really decent people,
+Dialogue: 0,0:07:07.37,0:07:10.62,main,Raia,0000,0000,0000,,and they seem to have the \Nsame thoughts as Licht.
+Dialogue: 0,0:07:10.62,0:07:11.70,main,Vetto,0000,0000,0000,,The same thoughts?
+Dialogue: 0,0:07:11.70,0:07:15.91,main,Raia,0000,0000,0000,,They were wondering if elves \Nand humans could get along, too.
+Dialogue: 0,0:07:15.91,0:07:17.20,main,Vetto,0000,0000,0000,,I see.
+Dialogue: 0,0:07:17.20,0:07:20.81,italics,Patry,0000,0000,0000,,Why must Licht keep hanging \Naround those humans?
+Dialogue: 0,0:07:20.81,0:07:24.46,italics,Patry,0000,0000,0000,,But Licht is never wrong.
+Dialogue: 0,0:07:24.78,0:07:26.94,italics,Patry,0000,0000,0000,,And that human was also
+Dialogue: 0,0:07:26.94,0:07:31.30,italics,Patry,0000,0000,0000,,selected by one of the four-leaf \Ngrimoires, just like Licht.
+Dialogue: 0,0:07:40.61,0:07:42.77,main,Bro,0000,0000,0000,,We can come to understand each other.
+Dialogue: 0,0:07:42.77,0:07:45.86,main,Bro,0000,0000,0000,,You elves have truly amazing mana.
+Dialogue: 0,0:07:46.30,0:07:49.71,main,Bro,0000,0000,0000,,By combining that with the magic-item \Ntechnology that we humans created,
+Dialogue: 0,0:07:49.71,0:07:53.11,main,Bro,0000,0000,0000,,we can make this land \Nsafer and more prosperous.
+Dialogue: 0,0:07:53.11,0:07:55.85,main,Bro,0000,0000,0000,,Let us live together, hand in hand.
+Dialogue: 0,0:08:06.95,0:08:09.13,main,Vetto,0000,0000,0000,,You're with child?
+Dialogue: 0,0:08:10.35,0:08:12.90,main,Fana,0000,0000,0000,,With you two as its parents,\NI'm sure it'll be a wonderful child!
+Dialogue: 0,0:08:12.90,0:08:15.68,main,Raia,0000,0000,0000,,Congrats, Tetia... and Licht, too, I guess.
+Dialogue: 0,0:08:16.70,0:08:19.43,main,Licht,0000,0000,0000,,Well, thanks, I guess.
+Dialogue: 0,0:08:20.67,0:08:23.22,main,Raia,0000,0000,0000,,What? Something bothering you?
+Dialogue: 0,0:08:23.22,0:08:24.14,main,Patry,0000,0000,0000,,Well...
+Dialogue: 0,0:08:24.65,0:08:27.06,main,Raia,0000,0000,0000,,I guess you are still a kid.
+Dialogue: 0,0:08:27.37,0:08:31.63,main,Patry,0000,0000,0000,,Be quiet! Stop treating me like a child!
+Dialogue: 0,0:08:31.63,0:08:33.70,main,Raia,0000,0000,0000,,Yeah, yeah... Ooh, aren't you scary?
+Dialogue: 0,0:08:34.42,0:08:35.70,main,Raia,0000,0000,0000,,Oh, there they are.
+Dialogue: 0,0:08:40.85,0:08:42.20,main,Licht,0000,0000,0000,,Hey there, Raia.
+Dialogue: 0,0:08:42.59,0:08:44.85,main,Vetto,0000,0000,0000,,Are you too lazy to even wake up nowadays?
+Dialogue: 0,0:08:44.85,0:08:46.00,main,Fana,0000,0000,0000,,You're the worst.
+Dialogue: 0,0:08:46.00,0:08:47.77,main,Raia,0000,0000,0000,,Oh, shut up.
+Dialogue: 0,0:08:48.30,0:08:53.09,main,Raia,0000,0000,0000,,Jeez, Patry. Hogging the \Nspot next to Licht again?
+Dialogue: 0,0:08:53.51,0:08:56.90,main,Raia,0000,0000,0000,,After tomorrow's ceremony, \Nhe's going to belong to someone else,
+Dialogue: 0,0:08:56.90,0:08:59.08,main,Raia,0000,0000,0000,,so you should probably cut the cord now.
+Dialogue: 0,0:08:59.08,0:09:02.35,main,Patry,0000,0000,0000,,Shut up. I can do what I want.
+Dialogue: 0,0:09:02.35,0:09:03.99,main,Raia,0000,0000,0000,,What, you little brat?!
+Dialogue: 0,0:09:03.99,0:09:08.52,main,Tetia,0000,0000,0000,,It's fine. Even if I marry Licht, \Nhe still belongs to everyone.
+Dialogue: 0,0:09:08.52,0:09:11.33,main,Raia,0000,0000,0000,,The human princess sure is nice.
+Dialogue: 0,0:09:11.33,0:09:14.28,main,Raia,0000,0000,0000,,That kindness is going to \Nbring you trouble someday.
+Dialogue: 0,0:09:14.79,0:09:18.53,main,Raia,0000,0000,0000,,And pretty soon, there won't be \Nany room for you anymore.
+Dialogue: 0,0:09:18.53,0:09:22.98,main,Vetto,0000,0000,0000,,Stop picking on him. Patry knows that.
+Dialogue: 0,0:09:22.98,0:09:26.79,main,Fana,0000,0000,0000,,So, Licht, how does it feel, knowing you're\N going to be a father in a few months?
+Dialogue: 0,0:09:27.54,0:09:30.50,main,Licht,0000,0000,0000,,I can feel the mana blessing us.
+Dialogue: 0,0:09:30.50,0:09:35.38,main,Licht,0000,0000,0000,,I'm very happy our child will come into \Nthis world welcomed by everyone.
+Dialogue: 0,0:09:37.10,0:09:39.54,main,Licht,0000,0000,0000,,This child is our future.
+Dialogue: 0,0:09:40.05,0:09:42.35,main,Licht,0000,0000,0000,,It'll bridge the gap \Nbetween elves and humans.
+Dialogue: 0,0:09:59.86,0:10:00.93,main,Girl,0000,0000,0000,,Congratulations!
+Dialogue: 0,0:10:00.93,0:10:02.57,main,Girl,0000,0000,0000,,I wish you both years of happiness!
+Dialogue: 0,0:10:02.57,0:10:04.09,main,Girl,0000,0000,0000,,May the mana bless you!
+Dialogue: 0,0:10:05.12,0:10:06.87,main,Tetia,0000,0000,0000,,Thank you so much.
+Dialogue: 0,0:10:11.90,0:10:14.53,flashback,Bro,0000,0000,0000,,Please take care of my little sister for me.
+Dialogue: 0,0:10:14.53,0:10:17.97,flashbackitalics,Licht,0000,0000,0000,,Yes. I will protect her, no matter what.
+Dialogue: 0,0:10:19.67,0:10:21.78,main,Licht,0000,0000,0000,,Thank you for being here today, everyone.
+Dialogue: 0,0:10:21.78,0:10:23.74,main,Some,0000,0000,0000,,Congratulations!
+Dialogue: 0,0:10:24.71,0:10:27.75,main,Licht,0000,0000,0000,,Tomorrow's the day you get your grimoire.
+Dialogue: 0,0:10:27.75,0:10:29.73,main,Patry,0000,0000,0000,,Licht, you remembered!
+Dialogue: 0,0:10:29.73,0:10:32.06,main,Licht,0000,0000,0000,,Of course. How could I forget?
+Dialogue: 0,0:10:33.35,0:10:37.52,main,Licht,0000,0000,0000,,I'm excited to see which \Ngrimoire chooses you.
+Dialogue: 0,0:10:37.52,0:10:38.32,main,Patry,0000,0000,0000,,Yes!
+Dialogue: 0,0:10:38.32,0:10:41.41,main,Fana,0000,0000,0000,,Aw... I hope someday I'll also...
+Dialogue: 0,0:10:41.79,0:10:44.62,main,Tetia,0000,0000,0000,,I'm sure you'll meet \Nsomeone lovely soon, Fana.
+Dialogue: 0,0:10:44.62,0:10:46.16,main,Fana,0000,0000,0000,,I sure hope so.
+Dialogue: 0,0:10:46.62,0:10:48.65,main,Vetto,0000,0000,0000,,I wish you a lifetime of happiness.
+Dialogue: 0,0:10:48.65,0:10:49.67,main,Tetia,0000,0000,0000,,Thank you.
+Dialogue: 0,0:10:50.06,0:10:52.67,main,Raia,0000,0000,0000,,If this guy ever cheats on you,\N let me know right away.
+Dialogue: 0,0:10:52.67,0:10:54.45,main,Raia,0000,0000,0000,,I'll make sure to kick his ass.
+Dialogue: 0,0:10:55.42,0:10:56.96,main,Licht,0000,0000,0000,,Hey, come on now, Raia...
+Dialogue: 0,0:10:56.96,0:10:59.09,main,Raia,0000,0000,0000,,I'm just kidding.
+Dialogue: 0,0:10:59.09,0:11:01.97,italics,Patry,0000,0000,0000,,Licht seems so happy.
+Dialogue: 0,0:11:02.42,0:11:05.93,italics,Patry,0000,0000,0000,,I mean, Licht always seemed happy.
+Dialogue: 0,0:11:06.46,0:11:09.94,italics,Patry,0000,0000,0000,,I'm a bit jealous she's the one \Nwho made him happier, but...
+Dialogue: 0,0:11:10.63,0:11:12.73,italics,Patry,0000,0000,0000,,It's because of those two humans.
+Dialogue: 0,0:11:12.73,0:11:14.61,flashback,Bro,0000,0000,0000,,We can come to understand each other.
+Dialogue: 0,0:11:16.82,0:11:21.32,italics,Patry,0000,0000,0000,,I wonder if we can come to understand \Nhumans someday, just like he said.
+Dialogue: 0,0:11:21.32,0:11:23.28,italics,Patry,0000,0000,0000,,Licht seems to believe that, too.
+Dialogue: 0,0:11:24.45,0:11:29.71,italics,Patry,0000,0000,0000,,I guess it's possible... for elves \Nand humans to join hands someday.
+Dialogue: 0,0:11:33.15,0:11:34.92,main,Patry,0000,0000,0000,,Wh-What's going on?!
+Dialogue: 0,0:11:34.92,0:11:37.57,main,Guy,0000,0000,0000,,The humans are attacking!
+Dialogue: 0,0:11:39.91,0:11:42.09,main,Fana,0000,0000,0000,,This way! Hurry!
+Dialogue: 0,0:11:42.97,0:11:44.83,main,Raia,0000,0000,0000,,I can't use any magic!
+Dialogue: 0,0:11:45.85,0:11:48.54,main,Vetto,0000,0000,0000,,Our magic has been sealed!
+Dialogue: 0,0:11:50.46,0:11:51.48,main,Vetto,0000,0000,0000,,Get down!
+Dialogue: 0,0:11:58.77,0:12:00.61,main,Vetto,0000,0000,0000,,Run... quickly...
+Dialogue: 0,0:12:04.02,0:12:05.89,main,Vetto,0000,0000,0000,,You loathsome humans...
+Dialogue: 0,0:12:08.02,0:12:11.16,italics,Patry,0000,0000,0000,,This is light magic. That means...
+Dialogue: 0,0:12:13.65,0:12:15.62,main,Patry,0000,0000,0000,,...dare you...
+Dialogue: 0,0:12:16.55,0:12:18.00,main,Patry,0000,0000,0000,,How dare you?!
+Dialogue: 0,0:12:22.17,0:12:23.30,main,Girl,0000,0000,0000,,Mommy!
+Dialogue: 0,0:12:23.30,0:12:24.47,main,Mom,0000,0000,0000,,Run!
+Dialogue: 0,0:12:24.47,0:12:27.43,main,Guy,0000,0000,0000,,Hey, wake up! Open your eyes!
+Dialogue: 0,0:12:31.48,0:12:32.93,main,Guy,0000,0000,0000,,This can't be happening!
+Dialogue: 0,0:12:32.93,0:12:34.14,main,Girl,0000,0000,0000,,This has to be a dream!
+Dialogue: 0,0:12:34.14,0:12:35.49,main,Girl,0000,0000,0000,,Hey, answer me!
+Dialogue: 0,0:12:35.49,0:12:37.69,top,Some,0000,0000,0000,,It hurts! It burns!
+Dialogue: 0,0:12:35.49,0:12:40.45,italics,Patry,0000,0000,0000,,How dare you, how dare you, how dare you,\N how dare you, how dare you?!
+Dialogue: 0,0:12:38.02,0:12:40.09,top,,0000,0000,0000,,They put up a barrier! We can't go—
+Dialogue: 0,0:12:40.45,0:12:42.94,italics,Patry,0000,0000,0000,,How dare you... How dare you...
+Dialogue: 0,0:12:41.43,0:12:42.94,top,,0000,0000,0000,,It's all over!
+Dialogue: 0,0:12:42.94,0:12:46.10,italics,Patry,0000,0000,0000,,How dare you?! How dare you?! \NHow dare you?! How dare you?!
+Dialogue: 0,0:12:46.10,0:12:47.87,italics,Patry,0000,0000,0000,,How dare you?! How dare you?!
+Dialogue: 0,0:12:48.46,0:12:49.83,main,Patry,0000,0000,0000,,I'll never...
+Dialogue: 0,0:13:24.33,0:13:26.25,main,Patry,0000,0000,0000,,Licht...
+Dialogue: 0,0:13:30.45,0:13:32.62,main,Patry,0000,0000,0000,,Lich...
+Dialogue: 0,0:13:40.53,0:13:41.33,main,Patry,0000,0000,0000,,...t...
+Dialogue: 0,0:13:51.78,0:13:53.31,main,Patry,0000,0000,0000,,Where... am I?
+Dialogue: 0,0:13:54.19,0:13:56.06,main,Patry,0000,0000,0000,,What in the world is going on?!
+Dialogue: 0,0:13:56.83,0:13:59.14,main,Patry,0000,0000,0000,,Didn't I die?
+Dialogue: 0,0:14:00.11,0:14:02.86,main,Patry,0000,0000,0000,,These aren't... my hands.
+Dialogue: 0,0:14:06.11,0:14:09.45,main,Patry,0000,0000,0000,,Huh?! Licht?
+Dialogue: 0,0:14:09.93,0:14:13.37,italics,Patry,0000,0000,0000,,What's going on? \NI somehow look like Licht!
+Dialogue: 0,0:14:14.10,0:14:17.96,italics,Patry,0000,0000,0000,,Did my soul somehow end up in Licht?
+Dialogue: 0,0:14:18.63,0:14:21.77,italics,Patry,0000,0000,0000,,No... The feeling of this mana...
+Dialogue: 0,0:14:21.77,0:14:24.06,italics,Patry,0000,0000,0000,,This body... It's human!
+Dialogue: 0,0:14:24.47,0:14:26.97,italics,Patry,0000,0000,0000,,A human that looks like Licht?
+Dialogue: 0,0:14:27.46,0:14:30.72,italics,Patry,0000,0000,0000,,That's right... I'm sure that I died.
+Dialogue: 0,0:14:31.62,0:14:36.41,italics,Patry,0000,0000,0000,,The thing that Licht activated \Nwhen our magic was sealed...
+Dialogue: 0,0:14:36.41,0:14:38.83,italics,Patry,0000,0000,0000,,It must've been forbidden magic!
+Dialogue: 0,0:14:39.27,0:14:41.93,italics,Patry,0000,0000,0000,,Meaning... a reincarnation spell.
+Dialogue: 0,0:14:46.03,0:14:47.06,main,Patry,0000,0000,0000,,This is...
+Dialogue: 0,0:14:52.46,0:14:54.59,italics,Patry,0000,0000,0000,,I can tell... I can feel them.
+Dialogue: 0,0:14:54.59,0:14:56.85,italics,Patry,0000,0000,0000,,Raia's soul...
+Dialogue: 0,0:14:56.85,0:14:59.75,italics,Patry,0000,0000,0000,,The souls of all the elves from the village!
+Dialogue: 0,0:15:00.69,0:15:04.75,italics,Patry,0000,0000,0000,,Licht must have activated a reincarnation \Nspell in those last moments!
+Dialogue: 0,0:15:05.69,0:15:08.76,italics,Patry,0000,0000,0000,,In order to save us elves!
+Dialogue: 0,0:15:12.76,0:15:16.52,italics,Patry,0000,0000,0000,,But not everyone's been fully reborn.
+Dialogue: 0,0:15:16.52,0:15:17.77,italics,Patry,0000,0000,0000,,It's just me.
+Dialogue: 0,0:15:18.77,0:15:20.77,italics,Patry,0000,0000,0000,,Right... my grimoire.
+Dialogue: 0,0:15:23.10,0:15:29.73,italics,Patry,0000,0000,0000,,This grimoire chose the soul that \Ninhabits this body, so I can't use it.
+Dialogue: 0,0:15:30.73,0:15:34.37,italics,Patry,0000,0000,0000,,I don't know if I was chosen \Nor if this is sheer coincidence.
+Dialogue: 0,0:15:34.89,0:15:38.06,italics,Patry,0000,0000,0000,,But... I was the only one who was reborn.
+Dialogue: 0,0:15:38.06,0:15:40.62,italics,Patry,0000,0000,0000,,And in Licht's form!
+Dialogue: 0,0:15:41.81,0:15:43.88,italics,Patry,0000,0000,0000,,I'm the only one who can save them all!
+Dialogue: 0,0:15:44.42,0:15:46.86,italics,Patry,0000,0000,0000,,I'm the only one who can!
+Dialogue: 0,0:15:55.33,0:15:56.39,italics,Patry,0000,0000,0000,,I have...
+Dialogue: 0,0:15:58.14,0:16:00.10,italics,Patry,0000,0000,0000,,been chosen.
+Dialogue: 0,0:16:00.66,0:16:01.93,italics,Patry,0000,0000,0000,,I will become Licht.
+Dialogue: 0,0:16:03.75,0:16:05.53,italics,Patry,0000,0000,0000,,No matter what I have to do...
+Dialogue: 0,0:16:06.63,0:16:09.11,italics,Patry,0000,0000,0000,,I will bring back all the elves.
+Dialogue: 0,0:16:10.02,0:16:11.61,italics,Patry,0000,0000,0000,,And this time...
+Dialogue: 0,0:16:13.11,0:16:17.88,main,Patry,0000,0000,0000,,The humans betrayed someone precious \Nto me. They betrayed all of us!
+Dialogue: 0,0:16:17.88,0:16:18.87,main,Patry,0000,0000,0000,,This time...
+Dialogue: 0,0:16:19.99,0:16:22.63,main,Patry,0000,0000,0000,,This time, we'll destroy the humans!
+Dialogue: 0,0:16:29.88,0:16:32.51,main,Patry,0000,0000,0000,,Forbidden Magic: Evil Eye.
+Dialogue: 0,0:16:38.09,0:16:42.62,main,Patry,0000,0000,0000,,I've added magic from the other \Nworld to your soul and assisted
+Dialogue: 0,0:16:42.62,0:16:47.74,main,Patry,0000,0000,0000,,your reincarnation in a human \Nwith a similar wavelength.
+Dialogue: 0,0:16:49.75,0:16:54.53,main,Patry,0000,0000,0000,,Gathering the magical power I needed \Nto use this spell was no small task.
+Dialogue: 0,0:16:55.05,0:16:58.53,main,Patry,0000,0000,0000,,I'd appreciate it if you didn't \Ncause me any trouble, Raia.
+Dialogue: 0,0:16:58.93,0:17:01.09,main,Raia,0000,0000,0000,,You're Pat—
+Dialogue: 0,0:17:01.09,0:17:07.79,main,Patry,0000,0000,0000,,However, bringing you back \Nis Licht's—no, my mission.
+Dialogue: 0,0:17:08.61,0:17:10.71,main,Patry,0000,0000,0000,,Isn't that right, Raia?
+Dialogue: 0,0:17:11.69,0:17:13.99,main,Raia,0000,0000,0000,,It sure is, Licht.
+Dialogue: 0,0:17:17.13,0:17:18.34,main,Raia,0000,0000,0000,,You guys...
+Dialogue: 0,0:17:18.34,0:17:19.50,main,Fana,0000,0000,0000,,Raia...
+Dialogue: 0,0:17:19.50,0:17:22.47,main,Vetto,0000,0000,0000,,So you're finally awake. You overslept.
+Dialogue: 0,0:17:24.89,0:17:28.23,main,Raia,0000,0000,0000,,All things considered, I wish \NI could've slept a little longer.
+Dialogue: 0,0:17:29.11,0:17:31.93,main,Patry,0000,0000,0000,,I was also able to resurrect these two.
+Dialogue: 0,0:17:36.41,0:17:41.64,flashback,Patry,0000,0000,0000,,Vetto... You're a kind soul \Nwho can talk to the animals.
+Dialogue: 0,0:17:41.64,0:17:44.19,flashback,Patry,0000,0000,0000,,And yet, even now, you're being persecuted.
+Dialogue: 0,0:17:45.41,0:17:48.67,flashback,Patry,0000,0000,0000,,Come live with us once more.
+Dialogue: 0,0:17:51.04,0:17:53.56,flashback,Patry,0000,0000,0000,,You're not the one who should be in despair.
+Dialogue: 0,0:17:53.56,0:17:54.78,flashback,Patry,0000,0000,0000,,It's the humans.
+Dialogue: 0,0:17:55.23,0:17:58.23,flashback,Patry,0000,0000,0000,,Remember your true self.
+Dialogue: 0,0:18:03.42,0:18:07.43,flashback,Patry,0000,0000,0000,,How unfortunate, my old friend.
+Dialogue: 0,0:18:08.09,0:18:09.81,flashback,Patry,0000,0000,0000,,Nothing has changed.
+Dialogue: 0,0:18:10.55,0:18:13.46,flashback,Patry,0000,0000,0000,,Humans still continue to harm other humans.
+Dialogue: 0,0:18:14.23,0:18:16.32,flashback,Patry,0000,0000,0000,,I shall destroy you all, \Nas you seem to desire.
+Dialogue: 0,0:18:16.32,0:18:19.88,flashback,Patry,0000,0000,0000,,But I need your body.
+Dialogue: 0,0:18:19.88,0:18:21.45,flashback,Patry,0000,0000,0000,,I need you to live.
+Dialogue: 0,0:18:22.61,0:18:28.10,flashback,Patry,0000,0000,0000,,Fana, not only do you look alike, \Nbut you both share the same name.
+Dialogue: 0,0:18:28.10,0:18:30.08,flashback,Patry,0000,0000,0000,,This cannot be a coincidence.
+Dialogue: 0,0:18:30.53,0:18:35.02,flashback,Patry,0000,0000,0000,,You shouldn't have to meet the same \Nsad ending in this lifetime, too.
+Dialogue: 0,0:18:36.05,0:18:38.29,flashback,Patry,0000,0000,0000,,Now... awaken.
+Dialogue: 0,0:18:44.94,0:18:49.35,main,Patry,0000,0000,0000,,The only ones I can resurrect \Nright now are these three.
+Dialogue: 0,0:18:49.70,0:18:55.03,main,Patry,0000,0000,0000,,For a complete rebirth... In order \Nto resurrect everyone else,
+Dialogue: 0,0:18:55.03,0:18:58.45,main,Patry,0000,0000,0000,,I will require a phenomenal \Namount of power and sacrifices.
+Dialogue: 0,0:19:01.30,0:19:05.06,main,Patry,0000,0000,0000,,We'll gather the magic stones \Nthat were once in our village,
+Dialogue: 0,0:19:05.06,0:19:08.70,main,Patry,0000,0000,0000,,which have now been scattered.
+Dialogue: 0,0:19:09.46,0:19:11.50,main,Patry,0000,0000,0000,,By using the humans, of course.
+Dialogue: 0,0:19:12.03,0:19:13.42,main,Patry,0000,0000,0000,,Isn't that a wonderful idea?
+Dialogue: 0,0:19:13.42,0:19:14.38,main,Raia,0000,0000,0000,,Yeah.
+Dialogue: 0,0:19:14.38,0:19:16.00,main,Fana,0000,0000,0000,,Let's do this, Licht.
+Dialogue: 0,0:19:16.00,0:19:18.27,main,Vetto,0000,0000,0000,,We will get revenge against \Nthose loathsome humans.
+Dialogue: 0,0:19:18.27,0:19:21.05,main,Vetto,0000,0000,0000,,I will give them endless despair!
+Dialogue: 0,0:19:23.05,0:19:27.23,main,Patry,0000,0000,0000,,Humans, you shall serve as the\Nfoundation of the resurrection.
+Dialogue: 0,0:19:35.32,0:19:40.54,main,Rades,0000,0000,0000,,Foundation of the resurrection? \NWhat the hell are you talking about?!
+Dialogue: 0,0:19:40.54,0:19:43.66,main,Rades,0000,0000,0000,,We're about to awaken to an insane \Namount of magical power now!
+Dialogue: 0,0:19:44.04,0:19:47.53,main,Rades,0000,0000,0000,,Don't tell me you actually tricked us?!
+Dialogue: 0,0:19:50.11,0:19:50.91,main,Rades,0000,0000,0000,,What the...
+Dialogue: 0,0:19:53.17,0:19:54.82,main,Valtos,0000,0000,0000,,Th-This is...
+Dialogue: 0,0:19:55.88,0:20:02.38,main,Patry,0000,0000,0000,,When I gave you your new names and \Nwelcomed you as comrades, I marked you...
+Dialogue: 0,0:20:02.38,0:20:05.78,main,Patry,0000,0000,0000,,as sacrifices for this forbidden spell.
+Dialogue: 0,0:20:11.45,0:20:13.10,main,Valtos,0000,0000,0000,,Forbidden spell?!
+Dialogue: 0,0:20:13.10,0:20:15.34,main,Rades,0000,0000,0000,,You can't be serious!
+Dialogue: 0,0:20:15.34,0:20:19.45,main,Rades,0000,0000,0000,,You just randomly gave me that name!\N I've never used it!
+Dialogue: 0,0:20:19.45,0:20:22.24,main,Rades,0000,0000,0000,,My name is Rades Spirito!
+Dialogue: 0,0:20:22.24,0:20:24.66,main,Sally,0000,0000,0000,,Master... Licht...
+Dialogue: 0,0:20:25.71,0:20:28.20,main,Valtos,0000,0000,0000,,Were we not...
+Dialogue: 0,0:20:29.79,0:20:32.69,main,Valtos,0000,0000,0000,,your precious comrades?!
+Dialogue: 0,0:20:33.29,0:20:35.79,main,Patry,0000,0000,0000,,Yes, you truly were precious.
+Dialogue: 0,0:20:36.31,0:20:37.73,main,Valtos,0000,0000,0000,,Then why...
+Dialogue: 0,0:20:37.73,0:20:39.30,main,Patry,0000,0000,0000,,Because...
+Dialogue: 0,0:20:39.30,0:20:45.30,main,Patry,0000,0000,0000,,You are sacrifices that will help \Nbring back my true comrades.
+Dialogue: 0,0:20:46.80,0:20:48.71,main,Valtos,0000,0000,0000,,You bastard!
+Dialogue: 0,0:21:12.10,0:21:13.94,main,Mimosa,0000,0000,0000,,Yuno?
+Dialogue: 0,0:22:49.09,0:22:53.60,sign_33083_276_Petit_Clover_,Sign,0000,0000,0000,,{\fad(1,520)}Pe{\c&H3BC020&}t{\c&HE2AF0F&}i{\c&H3BC020&}t C{\c&HE2AF0F&}l{\c&H3BC020&}o{\c&H0E42D4&}ve{\c&H3BC020&}r
+Dialogue: 0,0:22:49.77,0:22:52.27,main,All,0000,0000,0000,,Petit Clover!
+Dialogue: 0,0:22:53.10,0:22:57.10,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Sally, the Strange Little \NGlasses Girl of the "Sa" Column
+Dialogue: 0,0:22:53.99,0:22:57.10,main,Sally,0000,0000,0000,,Sally, the Strange Little \NGlasses Girl of the "Sa" Column.
+Dialogue: 0,0:22:57.10,0:22:58.68,sign_33018_295_Rii,Sign,0000,0000,0000,,{\fad(1,137)}Rii
+Dialogue: 0,0:22:57.10,0:22:58.89,sign_33018_294_Sa,Sign,0000,0000,0000,,{\fad(1,347)}Sa
+Dialogue: 0,0:22:57.62,0:22:58.83,italics,Nar,0000,0000,0000,,Sally (Sarii).
+Dialogue: 0,0:22:59.58,0:23:01.07,main,Sally,0000,0000,0000,,Yay!
+Dialogue: 0,0:23:01.60,0:23:02.77,sign_33126_299_Rii,Sign,0000,0000,0000,,{\fad(1,139)}Rii
+Dialogue: 0,0:23:01.60,0:23:02.88,italics,Nar,0000,0000,0000,,Butt (shiri).
+Dialogue: 0,0:23:01.60,0:23:02.90,sign_33126_298_Shi,Sign,0000,0000,0000,,{\fad(1,269)}Shi
+Dialogue: 0,0:23:03.66,0:23:05.54,main,Sally,0000,0000,0000,,Boingy, boingy, boingy, boingy.
+Dialogue: 0,0:23:05.54,0:23:07.36,main,Sally,0000,0000,0000,,Jeez, this is embarrassing.
+Dialogue: 0,0:23:07.36,0:23:08.49,sign_33018_295_Rii,Sign,0000,0000,0000,,{\fad(1,145)}Rii
+Dialogue: 0,0:23:07.36,0:23:08.65,sign_33018_294_Sa,Sign,0000,0000,0000,,{\fad(1,305)}Su
+Dialogue: 0,0:23:07.73,0:23:08.85,italics,Nar,0000,0000,0000,,Rub (suri).
+Dialogue: 0,0:23:09.54,0:23:11.36,main,Sally,0000,0000,0000,,I'm gonna rub up against you.
+Dialogue: 0,0:23:11.36,0:23:12.49,sign_33018_295_Rii,Sign,0000,0000,0000,,{\fad(1,141)}Ri
+Dialogue: 0,0:23:11.36,0:23:12.70,sign_33018_294_Sa,Sign,0000,0000,0000,,{\fad(1,351)}Sero
+Dialogue: 0,0:23:11.36,0:23:13.12,italics,Sign,0000,0000,0000,,Celery (serori).
+Dialogue: 0,0:23:14.30,0:23:16.30,main,Sally,0000,0000,0000,,Did you think we were going to say "serii"?
+Dialogue: 0,0:23:16.30,0:23:20.34,main,Sally,0000,0000,0000,,Well, that wouldn't make any sense, \Nso we went with "celery."
+Dialogue: 0,0:23:20.34,0:23:21.62,main,Sally,0000,0000,0000,,Om, nom, nom...
+Dialogue: 0,0:23:21.62,0:23:22.75,sign_33018_295_Rii,Sign,0000,0000,0000,,{\fad(1,141)}Rii
+Dialogue: 0,0:23:21.62,0:23:22.92,sign_33018_294_Sa,Sign,0000,0000,0000,,{\fad(1,311)}So
+Dialogue: 0,0:23:21.98,0:23:23.49,italics,Nar,0000,0000,0000,,Sled (sori).
+Dialogue: 0,0:23:23.49,0:23:25.05,main,Sally,0000,0000,0000,,This feels great!
+Dialogue: 0,0:23:25.05,0:23:28.85,italics,Nar,0000,0000,0000,,This is the strange little \Nglasses girl of the "sa" column, Sally!
+Dialogue: 0,0:23:29.72,0:23:31.40,main,Sally,0000,0000,0000,,How y'all doin'?
+Dialogue: 0,0:23:31.40,0:23:34.30,main,Sally,0000,0000,0000,,Let me dissect you guys while \Nyou're still alive sometime, okay?
+Dialogue: 0,0:23:34.30,0:23:37.33,main,Sally,0000,0000,0000,,Oh, of course, there won't be any anesthesia.
+Dialogue: 0,0:23:39.91,0:23:43.02,italics,Nar,0000,0000,0000,,Suddenly, Marx and Owen attack Yami.
+Dialogue: 0,0:23:43.02,0:23:46.13,italics,Nar,0000,0000,0000,,Despite all the confusion,\NYami incapacitates them.
+Dialogue: 0,0:23:46.13,0:23:48.39,italics,Nar,0000,0000,0000,,Next time on {\i0}Black Clover{\i1}, Page 96:
+Dialogue: 0,0:23:47.29,0:23:54.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 96\N\N{\fs18} The Black Bulls Captain VS the Crimson Wild Rose
+Dialogue: 0,0:23:48.39,0:23:51.36,italics,Nar,0000,0000,0000,,"The Black Bulls Captain \Nvs. the Crimson Wild Rose."
+Dialogue: 0,0:23:51.36,0:23:54.07,italics,Nar,0000,0000,0000,,Every beautiful rose has its thorns.

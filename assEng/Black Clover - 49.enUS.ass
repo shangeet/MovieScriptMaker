@@ -1,0 +1,416 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H00F7FCFD,&H000000FF,&H00070805,&H000D1728,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0080,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_24411_232_One_Hit,Times New Roman,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,0100,0030,0020,1
+Style: sign_24453_234_Two_Hit,Times New Roman,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,9,0030,0100,0020,1
+Style: sign_29031_286_One_Hit_,Times New Roman,30,&H00FAFAFA,&H000000FF,&H00070707,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,9,0030,0100,0020,1
+Style: sign_29073_288_Two_Hit_,Times New Roman,30,&H00FAFAFA,&H000000FF,&H00070707,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_29125_290_Mega_Hit__,Times New Roman,30,&H00D7D7D7,&H000000FF,&H00010101,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_32020_343_Captain_of_the_B,Times New Roman,15,&H00FFFCFE,&H000000FF,&H00060D0C,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,0095,0030,0045,1
+Style: sign_32099_344_The_Professional,Arial,20,&H00C1B5C1,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0040,0210,1
+Style: sign_32196_345_The_Professional,Arial,12,&H00C1B5C1,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0010,0480,0070,1
+Style: sign_32477_350_Why_the_toilet__,Verdana,24,&H00FCFCFC,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0030,0040,0140,1
+Style: sign_33587_363_How_long_are_you,Verdana,20,&H00FCFCFC,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0030,0040,0140,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:06.61,0:00:10.99,italics,nar,0000,0000,0000,,It appeared as though humanity \Nwould be destroyed by the demons.
+Dialogue: 0,0:00:14.93,0:00:19.16,italics,Nar,0000,0000,0000,,But a single mage saved them all.
+Dialogue: 0,0:00:26.33,0:00:31.46,italics,Nar,0000,0000,0000,,He was called the Wizard King,\Nand he became a legend.
+Dialogue: 0,0:00:34.59,0:00:40.10,italics,Nar,0000,0000,0000,,Working together with his friends, \NAsta continued his battle with Vetto.
+Dialogue: 0,0:00:40.10,0:00:40.93,italics,Nar,0000,0000,0000,,But...
+Dialogue: 0,0:00:43.33,0:00:46.74,italics,Nar,0000,0000,0000,,Vetto was able to overcome \Nthose attacks, too.
+Dialogue: 0,0:00:46.74,0:00:49.14,main,Vetto,0000,0000,0000,,Not bad for insects!
+Dialogue: 0,0:00:49.14,0:00:53.94,main,Vetto,0000,0000,0000,,If even one of you makes the \Nsmallest mistake, you'll die instantly!
+Dialogue: 0,0:00:53.94,0:00:56.10,italics,Nar,0000,0000,0000,,In this life-or-death situation,
+Dialogue: 0,0:00:56.10,0:00:57.54,italics,Nar,0000,0000,0000,,Asta continued to swing his sword,
+Dialogue: 0,0:00:57.54,0:00:59.88,italics,Nar,0000,0000,0000,,believing in his friends \Nand in their victory.
+Dialogue: 0,0:00:59.88,0:01:00.90,italics,Nar,0000,0000,0000,,Then...
+Dialogue: 0,0:01:00.90,0:01:02.29,main,Gauche,0000,0000,0000,,It's not just them.
+Dialogue: 0,0:01:03.75,0:01:05.50,main,Gauche,0000,0000,0000,,Guess we got here in time.
+Dialogue: 0,0:01:05.81,0:01:09.38,main,Gauche,0000,0000,0000,,Mirror Magic: Reflect Refrain!
+Dialogue: 0,0:01:09.38,0:01:11.65,main,Charmy,0000,0000,0000,,Cotton Creation Magic:
+Dialogue: 0,0:01:11.65,0:01:13.38,main,Charmy,0000,0000,0000,,Sleeping Sheep's...
+Dialogue: 0,0:01:13.38,0:01:14.63,sign_29031_286_One_Hit_,Sign,0000,0000,0000,,One Hit
+Dialogue: 0,0:01:13.80,0:01:14.63,main,Charmy,0000,0000,0000,,One Hit!
+Dialogue: 0,0:01:14.99,0:01:15.59,sign_29073_288_Two_Hit_,Sign,0000,0000,0000,,Two Hit
+Dialogue: 0,0:01:14.99,0:01:16.06,main,Charmy,0000,0000,0000,,Two Hit!
+Dialogue: 0,0:01:16.06,0:01:17.69,main,Charmy,0000,0000,0000,,Mega Hit!
+Dialogue: 0,0:01:16.36,0:01:16.97,sign_29125_290_Mega_Hit__,Sign,0000,0000,0000,,Mega Hit!!
+Dialogue: 0,0:01:19.27,0:01:20.10,main,Noelle,0000,0000,0000,,What's going on?
+Dialogue: 0,0:01:20.10,0:01:22.35,main,Grey,0000,0000,0000,,It's my transformation magic!
+Dialogue: 0,0:01:22.35,0:01:27.21,main,Vetto,0000,0000,0000,,You pesky insects! Despair already!
+Dialogue: 0,0:01:27.21,0:01:28.71,main,Asta,0000,0000,0000,,Despair?
+Dialogue: 0,0:01:28.71,0:01:33.98,main,Asta,0000,0000,0000,,We don't have time for that!
+Dialogue: 0,0:01:35.32,0:01:40.92,italics,,0000,0000,0000,,We're being led far away
+Dialogue: 0,0:01:40.92,0:01:49.71,italics,,0000,0000,0000,,Until we shatter the road \Nbetween light and darkness
+Dialogue: 0,0:01:51.38,0:01:52.71,italics,,0000,0000,0000,,Yo Guess who's back
+Dialogue: 0,0:01:52.71,0:01:54.37,italics,,0000,0000,0000,,Everybody get down
+Dialogue: 0,0:01:54.37,0:01:55.38,italics,,0000,0000,0000,,Guess who's back
+Dialogue: 0,0:01:55.38,0:01:57.01,italics,,0000,0000,0000,,Hey step up step up!
+Dialogue: 0,0:02:04.91,0:02:07.64,Ep Title,Sign,0000,0000,0000,,{\fad(1,480)}Beyond Limits
+Dialogue: 0,0:02:07.77,0:02:12.29,italics,,0000,0000,0000,,I'm falling down because of a twist of fate
+Dialogue: 0,0:02:12.29,0:02:16.44,italics,,0000,0000,0000,,The harmony we had is in the past
+Dialogue: 0,0:02:16.44,0:02:17.95,italics,,0000,0000,0000,,Still left behind
+Dialogue: 0,0:02:17.95,0:02:21.45,italics,,0000,0000,0000,,The scent of you is stuck in my head
+Dialogue: 0,0:02:21.45,0:02:23.24,italics,,0000,0000,0000,,Can't shake it
+Dialogue: 0,0:02:23.24,0:02:28.54,italics,,0000,0000,0000,,Waiting just isn't enough anymore, Yai yah!
+Dialogue: 0,0:02:27.25,0:02:29.41,italicstop,,0000,0000,0000,,Hey Guess Who is back!?
+Dialogue: 0,0:02:29.41,0:02:32.59,italics,,0000,0000,0000,,As I hold on to my wish
+Dialogue: 0,0:02:32.59,0:02:34.60,italics,,0000,0000,0000,,Hey Guess Who is back!?
+Dialogue: 0,0:02:34.60,0:02:37.80,italics,,0000,0000,0000,,The roulette points to tomorrow
+Dialogue: 0,0:02:37.80,0:02:39.88,italics,,0000,0000,0000,,Hey Guess Who is back!?
+Dialogue: 0,0:02:39.88,0:02:43.18,italics,,0000,0000,0000,,Let the light shine
+Dialogue: 0,0:02:43.18,0:02:45.17,italics,,0000,0000,0000,,Hey Guess Who is back!?
+Dialogue: 0,0:02:45.17,0:02:48.57,italics,,0000,0000,0000,,In the dark maze
+Dialogue: 0,0:02:48.57,0:02:50.60,italics,,0000,0000,0000,,Hey Guess Who is back!?
+Dialogue: 0,0:02:53.69,0:02:55.40,italics,,0000,0000,0000,,Hey Guess Who is back!?
+Dialogue: 0,0:02:57.99,0:03:00.86,italics,,0000,0000,0000,,Until we seize the hope in front of us
+Dialogue: 0,0:03:12.53,0:03:13.45,main,Finral,0000,0000,0000,,We...
+Dialogue: 0,0:03:13.45,0:03:14.50,main,Vanessa,0000,0000,0000,,We did it!
+Dialogue: 0,0:03:14.83,0:03:16.34,main,Both,0000,0000,0000,,Yes!
+Dialogue: 0,0:03:21.46,0:03:22.89,main,Noelle,0000,0000,0000,,Finally...
+Dialogue: 0,0:03:23.33,0:03:24.81,main,All,0000,0000,0000,,We won!
+Dialogue: 0,0:03:25.88,0:03:28.60,main,Vetto,0000,0000,0000,,Is that what you thought?
+Dialogue: 0,0:03:32.85,0:03:37.48,main,Vetto,0000,0000,0000,,Did you think your puny strengths \Ncombined would actually work against me?
+Dialogue: 0,0:03:37.97,0:03:39.86,main,Vetto,0000,0000,0000,,Well? Did you?
+Dialogue: 0,0:03:39.86,0:03:46.12,main,Vetto,0000,0000,0000,,I let you hit me on purpose, in a non-vital \Nspot, so I could steal your weapon!
+Dialogue: 0,0:03:47.37,0:03:49.12,main,Noelle,0000,0000,0000,,N-No...
+Dialogue: 0,0:03:49.46,0:03:57.38,main,Vetto,0000,0000,0000,,I know that once you lose all hope,\Nthe most unmistakable despair is created!
+Dialogue: 0,0:04:01.35,0:04:05.89,main,Vetto,0000,0000,0000,,Fall into the darkness of despair!
+Dialogue: 0,0:04:09.00,0:04:10.18,main,Noelle,0000,0000,0000,,Asta!
+Dialogue: 0,0:04:10.52,0:04:11.61,main,Yami,0000,0000,0000,,Kid!
+Dialogue: 0,0:04:14.85,0:04:19.86,main,Vetto,0000,0000,0000,,That's right! That's the way I wanted\Nto hear you humans scream!
+Dialogue: 0,0:04:19.86,0:04:22.36,main,Vetto,0000,0000,0000,,Now, fall fully into despair!
+Dialogue: 0,0:04:22.36,0:04:25.05,main,Vetto,0000,0000,0000,,Despair! Despair! Despair!
+Dialogue: 0,0:04:25.05,0:04:27.21,main,Vetto,0000,0000,0000,,Despair! Despair! Despair!
+Dialogue: 0,0:04:27.21,0:04:28.87,main,Vetto,0000,0000,0000,,Despair! Despair!
+Dialogue: 0,0:04:28.87,0:04:30.74,main,Vetto,0000,0000,0000,,Despair! Despair!
+Dialogue: 0,0:04:30.74,0:04:34.81,main,Vetto,0000,0000,0000,,Despair! Despair! Despair!
+Dialogue: 0,0:04:34.81,0:04:38.31,main,Vetto,0000,0000,0000,,Despair!
+Dialogue: 0,0:04:45.24,0:04:46.91,main,Noelle,0000,0000,0000,,As...ta...
+Dialogue: 0,0:04:49.38,0:04:53.02,main,Vetto,0000,0000,0000,,How do you like that, insect?!\NI'd like to see you try to stand again now!
+Dialogue: 0,0:04:53.73,0:04:54.69,main,,0000,0000,0000,,...yet...
+Dialogue: 0,0:04:56.53,0:04:58.06,main,Asta,0000,0000,0000,,Not yet!
+Dialogue: 0,0:04:59.69,0:05:00.94,main,Asta,0000,0000,0000,,Not yet...
+Dialogue: 0,0:05:00.94,0:05:02.32,main,Asta,0000,0000,0000,,I'm not...
+Dialogue: 0,0:05:02.79,0:05:04.28,main,Asta,0000,0000,0000,,giving up yet!
+Dialogue: 0,0:05:09.49,0:05:12.83,main,Finral,0000,0000,0000,,Asta... You're so...
+Dialogue: 0,0:05:13.14,0:05:15.83,main,Vanessa,0000,0000,0000,,He's right. We're not...
+Dialogue: 0,0:05:15.83,0:05:17.48,main,All,0000,0000,0000,,...giving up yet!
+Dialogue: 0,0:05:19.88,0:05:22.94,main,Vetto,0000,0000,0000,,Curse you!
+Dialogue: 0,0:05:23.42,0:05:24.65,main,Yami,0000,0000,0000,,Vanessa!
+Dialogue: 0,0:05:31.06,0:05:33.60,main,Vetto,0000,0000,0000,,You're not getting away!
+Dialogue: 0,0:05:40.15,0:05:41.97,main,Gauche,0000,0000,0000,,How'd you like that, you despair freak?!
+Dialogue: 0,0:05:41.97,0:05:44.57,main,Grey,0000,0000,0000,,That's the last of our magic!
+Dialogue: 0,0:05:44.57,0:05:45.44,main,Charmy,0000,0000,0000,,La!
+Dialogue: 0,0:05:45.44,0:05:47.74,main,Noelle,0000,0000,0000,,We'll never give up.
+Dialogue: 0,0:05:48.13,0:05:49.75,main,Noelle,0000,0000,0000,,We'll never lose
+Dialogue: 0,0:05:50.20,0:05:52.08,main,Noelle,0000,0000,0000,,to someone like you!
+Dialogue: 0,0:06:02.97,0:06:04.80,main,Finral,0000,0000,0000,,Asta, are you all right?!
+Dialogue: 0,0:06:10.17,0:06:12.54,italics,Vanessa,0000,0000,0000,,He's different from us.
+Dialogue: 0,0:06:12.98,0:06:17.82,italics,Vanessa,0000,0000,0000,,He was born without magic into this \Nworld where magic is everything.
+Dialogue: 0,0:06:18.47,0:06:25.82,italics,Vanessa,0000,0000,0000,,But... Perhaps the gods of fate didn't \Ngive him magic {\i0}because{\i1} he's like this.
+Dialogue: 0,0:06:26.28,0:06:29.72,italics,Vanessa,0000,0000,0000,,He's someone who's going to make \Nit to the top in this world.
+Dialogue: 0,0:06:30.28,0:06:33.45,italics,Vanessa,0000,0000,0000,,We need to let him fight and guide him!
+Dialogue: 0,0:06:33.91,0:06:36.95,main,Vanessa,0000,0000,0000,,Little boy, I'll support your broken arm!
+Dialogue: 0,0:06:37.61,0:06:40.33,main,Asta,0000,0000,0000,,Thanks, Miss Vanessa!
+Dialogue: 0,0:06:40.33,0:06:44.71,main,Asta,0000,0000,0000,,Now I... can still fight!
+Dialogue: 0,0:06:45.09,0:06:47.71,main,Vanessa,0000,0000,0000,,We're doing this again, Finral!
+Dialogue: 0,0:06:48.26,0:06:49.09,main,Finral,0000,0000,0000,,Right!
+Dialogue: 0,0:06:49.47,0:06:51.72,main,Finral,0000,0000,0000,,I'm going to do this! No matter \Nhow many times it takes!
+Dialogue: 0,0:06:54.47,0:06:56.39,italics,Asta,0000,0000,0000,,I still have one sword left!
+Dialogue: 0,0:07:05.75,0:07:06.61,main,Vetto,0000,0000,0000,,Why?
+Dialogue: 0,0:07:07.00,0:07:08.61,main,Vetto,0000,0000,0000,,Why won't you despair?
+Dialogue: 0,0:07:09.25,0:07:13.12,main,Asta,0000,0000,0000,,I told you! I don't have time for that!
+Dialogue: 0,0:07:13.78,0:07:17.12,main,Asta,0000,0000,0000,,There's someone I can't lose to!
+Dialogue: 0,0:07:17.69,0:07:25.88,main,Asta,0000,0000,0000,,You and despair... are in \Nthe way of our promise!
+Dialogue: 0,0:07:25.88,0:07:29.91,main,Vetto,0000,0000,0000,,Silence! You insects can be swatted away!
+Dialogue: 0,0:07:29.91,0:07:33.39,main,Vetto,0000,0000,0000,,I've already seen through your movements—
+Dialogue: 0,0:07:34.47,0:07:37.18,italics,Vetto,0000,0000,0000,,My eyes can't keep up with his movements.
+Dialogue: 0,0:07:39.41,0:07:42.16,italics,Vetto,0000,0000,0000,,Because the Demon-Dweller Sword\Nis still embedded in me,
+Dialogue: 0,0:07:42.16,0:07:45.96,italics,Vetto,0000,0000,0000,,the magic I was using to increase \Nmy physical abilities has weakened!
+Dialogue: 0,0:07:45.96,0:07:49.03,italics,Vetto,0000,0000,0000,,I thought that I had stolen his weapon.
+Dialogue: 0,0:07:49.03,0:07:53.03,italics,Vetto,0000,0000,0000,,But are you saying it was my \Nweapon that was actually stolen?!
+Dialogue: 0,0:07:56.89,0:08:01.54,main,Vetto,0000,0000,0000,,There is no way that I would\Nlose... against you humans!
+Dialogue: 0,0:08:01.54,0:08:04.79,main,Asta,0000,0000,0000,,You haven't won against anyone!
+Dialogue: 0,0:08:04.79,0:08:08.30,main,Asta,0000,0000,0000,,Did any of them actually give up before you?
+Dialogue: 0,0:08:09.00,0:08:13.21,main,Asta,0000,0000,0000,,No one has despaired!
+Dialogue: 0,0:08:13.21,0:08:15.99,main,Vetto,0000,0000,0000,,Shut your mouth!
+Dialogue: 0,0:08:23.62,0:08:24.97,main,Noelle,0000,0000,0000,,Asta!
+Dialogue: 0,0:08:27.81,0:08:30.23,italics,Vetto,0000,0000,0000,,My magic... But...
+Dialogue: 0,0:08:30.23,0:08:32.67,main,Vetto,0000,0000,0000,,This time I'll end you for good—
+Dialogue: 0,0:08:47.22,0:08:48.25,main,Asta,0000,0000,0000,,Not yet...
+Dialogue: 0,0:08:50.05,0:08:51.30,main,Asta,0000,0000,0000,,Not yet...
+Dialogue: 0,0:08:51.30,0:08:53.01,main,Asta,0000,0000,0000,,I'm not giving up yet!
+Dialogue: 0,0:09:00.65,0:09:04.17,italics,Vetto,0000,0000,0000,,He's the same as me... No...
+Dialogue: 0,0:09:04.17,0:09:07.61,italics,Vetto,0000,0000,0000,,He's no beast.
+Dialogue: 0,0:09:09.41,0:09:15.29,italics,Nar,0000,0000,0000,,The three leaves of the clover\Nrepresent faith, hope, and love.
+Dialogue: 0,0:09:15.29,0:09:18.45,italics,Nar,0000,0000,0000,,Within a fourth leaf dwells good luck.
+Dialogue: 0,0:09:20.01,0:09:21.41,italics,Nar,0000,0000,0000,,Within a fifth leaf...
+Dialogue: 0,0:09:24.50,0:09:31.30,italics,Vetto,0000,0000,0000,,He's... a demon who devours even despair.
+Dialogue: 0,0:09:31.30,0:09:36.51,italicstop,,0000,0000,0000,,Grey words can't make anything happen
+Dialogue: 0,0:09:36.51,0:09:39.43,italicstop,,0000,0000,0000,,I know, yeah I know
+Dialogue: 0,0:09:39.43,0:09:44.57,italicstop,,0000,0000,0000,,Wishing to fly freely across the sky
+Dialogue: 0,0:09:44.57,0:09:47.14,italicstop,,0000,0000,0000,,I dreamed it all my life
+Dialogue: 0,0:09:47.14,0:09:50.65,italicstop,,0000,0000,0000,,Step by step I go, though \Nit's a doubtful world 
+Dialogue: 0,0:09:50.65,0:09:52.46,italicstop,,0000,0000,0000,,Don't care how much I fall
+Dialogue: 0,0:09:52.46,0:09:55.78,italicstop,,0000,0000,0000,,Instinct is my guide, I never give up
+Dialogue: 0,0:09:56.92,0:10:02.33,italicstop,,0000,0000,0000,,To faraway future, I burst out running
+Dialogue: 0,0:10:02.33,0:10:07.69,italicstop,,0000,0000,0000,,Go beyond even the unseen fears
+Dialogue: 0,0:10:07.69,0:10:12.84,italicstop,,0000,0000,0000,,The vision I had, so I can be myself
+Dialogue: 0,0:10:12.04,0:10:14.51,main,Asta,0000,0000,0000,,Despair...
+Dialogue: 0,0:10:12.84,0:10:18.13,italicstop,,0000,0000,0000,,Someday I will write the next page
+Dialogue: 0,0:10:15.71,0:10:21.18,main,Asta,0000,0000,0000,,You've lost!
+Dialogue: 0,0:10:18.13,0:10:21.80,italicstop,,0000,0000,0000,,You are my hope
+Dialogue: 0,0:10:21.80,0:10:24.39,italicstop,,0000,0000,0000,,Like that page from someday
+Dialogue: 0,0:10:24.39,0:10:26.89,italicstop,,0000,0000,0000,,I was able to meet you
+Dialogue: 0,0:10:26.89,0:10:30.07,italicstop,,0000,0000,0000,,I call this a miracle
+Dialogue: 0,0:10:50.02,0:10:51.74,main,Noelle,0000,0000,0000,,His magic disappeared.
+Dialogue: 0,0:10:52.33,0:10:54.46,main,Noelle,0000,0000,0000,,Th-There's no question this time!
+Dialogue: 0,0:10:55.19,0:10:56.80,main,Noelle,0000,0000,0000,,We won!
+Dialogue: 0,0:11:00.29,0:11:02.04,main,Asta,0000,0000,0000,,How do you like that, you bastard?!
+Dialogue: 0,0:11:05.17,0:11:06.68,main,Finral,0000,0000,0000,,Asta!
+Dialogue: 0,0:11:05.17,0:11:06.68,main,Vanessa,0000,0000,0000,,Little boy!
+Dialogue: 0,0:11:06.68,0:11:10.60,main,Finral,0000,0000,0000,,Well done! I'm so proud of you!
+Dialogue: 0,0:11:10.60,0:11:13.48,main,Vanessa,0000,0000,0000,,I knew you could win, little boy!
+Dialogue: 0,0:11:13.48,0:11:15.19,main,Charmy,0000,0000,0000,,You're so amazing, la!
+Dialogue: 0,0:11:15.61,0:11:18.65,main,Grey,0000,0000,0000,,Thank goodness you didn't despair!
+Dialogue: 0,0:11:20.57,0:11:23.66,main,Gauche,0000,0000,0000,,Damn... That shrimp is full of guts.
+Dialogue: 0,0:11:25.21,0:11:26.33,main,Asta,0000,0000,0000,,Guys...
+Dialogue: 0,0:11:26.33,0:11:30.15,main,Asta,0000,0000,0000,,That hurts! I'm injured all over, remember?!
+Dialogue: 0,0:11:30.15,0:11:31.79,main,Both,0000,0000,0000,,Oh... Sorry.
+Dialogue: 0,0:11:32.79,0:11:36.29,main,Gifso,0000,0000,0000,,He did it! He defeated that beast!
+Dialogue: 0,0:11:36.87,0:11:40.30,italics,Yami,0000,0000,0000,,What was the power that\Ncame from the kid earlier?
+Dialogue: 0,0:11:40.30,0:11:42.57,main,Guy,0000,0000,0000,,That kid's amazing!
+Dialogue: 0,0:11:43.46,0:11:45.40,main,Guy,0000,0000,0000,,I thought we were done for!
+Dialogue: 0,0:11:45.40,0:11:47.45,main,Girl,0000,0000,0000,,Thank you, Magic Knights!
+Dialogue: 0,0:11:47.45,0:11:49.73,main,Guy,0000,0000,0000,,Thank you so much!
+Dialogue: 0,0:11:50.34,0:11:52.98,main,Asta,0000,0000,0000,,Miss Vanessa, how are their wounds?
+Dialogue: 0,0:11:52.98,0:11:56.41,main,Vanessa,0000,0000,0000,,They're deep, but none of \Nthem are life-threatening.
+Dialogue: 0,0:11:56.84,0:11:59.41,main,Vanessa,0000,0000,0000,,Finral, do you think you can transport \Nthem with your spatial magic?
+Dialogue: 0,0:11:59.41,0:12:03.85,main,Finral,0000,0000,0000,,I'm exhausted. I think it'll take a \Nlittle longer for my magic to recover.
+Dialogue: 0,0:12:03.85,0:12:06.49,main,Gauche,0000,0000,0000,,You're so useless, you coward.
+Dialogue: 0,0:12:07.19,0:12:10.20,main,Finral,0000,0000,0000,,Useless?! I have seniority, damn it!
+Dialogue: 0,0:12:10.52,0:12:14.66,main,Asta,0000,0000,0000,,I hope Kiato and Kahono will be \Nable to dance and sing again.
+Dialogue: 0,0:12:14.66,0:12:17.88,main,Finral,0000,0000,0000,,Jeez. Do you really have time \Nto worry about other people?
+Dialogue: 0,0:12:17.88,0:12:21.46,main,Finral,0000,0000,0000,,Look at how beat up you are. \NAnd to think you actually believed in us.
+Dialogue: 0,0:12:21.46,0:12:23.68,main,Finral,0000,0000,0000,,There's something seriously \Nwrong with you, Asta.
+Dialogue: 0,0:12:24.14,0:12:28.39,main,Vanessa,0000,0000,0000,,Yeah. You never know when that \Ncoward Finral will run away.
+Dialogue: 0,0:12:28.39,0:12:29.72,main,All,0000,0000,0000,,Yup, yup...
+Dialogue: 0,0:12:30.19,0:12:35.06,main,Finral,0000,0000,0000,,Hey, that's mean. Though it's true \Nthat I did want to run away.
+Dialogue: 0,0:12:35.44,0:12:39.57,main,Finral,0000,0000,0000,,But when I saw Asta,\Nmy body moved on its own.
+Dialogue: 0,0:12:40.02,0:12:42.44,main,Vanessa,0000,0000,0000,,Little boy, because you didn't give up...
+Dialogue: 0,0:12:42.90,0:12:45.75,main,Finral,0000,0000,0000,,Because you believed in us,\Nwe were able to win.
+Dialogue: 0,0:12:45.75,0:12:46.66,main,Finral,0000,0000,0000,,Thank you.
+Dialogue: 0,0:12:48.18,0:12:49.91,main,Asta,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:12:49.91,0:12:52.63,main,Asta,0000,0000,0000,,You're my seniors, who Captain Yami \Naccepted into the Black Bulls.
+Dialogue: 0,0:12:52.63,0:12:53.79,main,Asta,0000,0000,0000,,Of course I believe in you!
+Dialogue: 0,0:12:53.79,0:12:55.96,main,Vanessa,0000,0000,0000,,You sure know how to make a girl smile.
+Dialogue: 0,0:12:56.89,0:12:58.92,main,Finral,0000,0000,0000,,Stop making your seniors cry.
+Dialogue: 0,0:12:58.92,0:13:01.63,main,Charmy,0000,0000,0000,,You've got some great seniors, la.
+Dialogue: 0,0:13:02.24,0:13:05.59,main,Grey,0000,0000,0000,,I'd expect nothing less from the \Njuniors that Captain Yami accepted.
+Dialogue: 0,0:13:05.97,0:13:09.00,main,Gauche,0000,0000,0000,,Well, I'm pretty sure he's the \Nonly one who'd ever accept
+Dialogue: 0,0:13:09.00,0:13:10.60,main,Gauche,0000,0000,0000,,someone who has no magic.
+Dialogue: 0,0:13:11.19,0:13:14.43,main,Noelle,0000,0000,0000,,Hey, I'm one of your juniors too, you know.
+Dialogue: 0,0:13:14.43,0:13:18.39,main,Vanessa,0000,0000,0000,,Noelle! I heard you did great, too!
+Dialogue: 0,0:13:18.39,0:13:20.94,main,Vanessa,0000,0000,0000,,You learned some insane\Nnew attack spell, right?
+Dialogue: 0,0:13:20.94,0:13:24.01,main,Asta,0000,0000,0000,,That's right! The Sea Dragon's Roar!
+Dialogue: 0,0:13:24.01,0:13:25.53,main,Asta,0000,0000,0000,,It was seriously amazing!
+Dialogue: 0,0:13:25.53,0:13:28.29,main,Noelle,0000,0000,0000,,Y-Yeah! You'd better compliment me more!
+Dialogue: 0,0:13:28.29,0:13:29.77,main,Finral,0000,0000,0000,,And she's cute to boot!
+Dialogue: 0,0:13:29.77,0:13:31.62,main,Charmy,0000,0000,0000,,This royal's basically a celebrity!
+Dialogue: 0,0:13:31.62,0:13:36.71,main,Noelle,0000,0000,0000,,Y-Yeah! That has nothing to do with the \Nbattle, but keep the compliments coming!
+Dialogue: 0,0:13:36.71,0:13:38.65,italics,Noelle,0000,0000,0000,,And just once more...
+Dialogue: 0,0:13:43.59,0:13:47.34,main,Noelle,0000,0000,0000,,D-D-Don't get any weird ideas!
+Dialogue: 0,0:13:48.58,0:13:51.43,main,Asta,0000,0000,0000,,I wasn't even thinking!
+Dialogue: 0,0:13:49.64,0:13:51.43,main,Noelle,0000,0000,0000,,Oh, sorry.
+Dialogue: 0,0:13:51.75,0:13:56.15,main,Vanessa,0000,0000,0000,,All right! Let's have a drink \Nto celebrate our victory!
+Dialogue: 0,0:13:56.15,0:13:58.14,main,Asta,0000,0000,0000,,Now's not the time to drink!
+Dialogue: 0,0:13:58.47,0:14:01.93,main,Asta,0000,0000,0000,,We need to figure out a way to tie up \Nthat guy and haul him outta here.
+Dialogue: 0,0:14:01.93,0:14:05.29,main,Asta,0000,0000,0000,,He has an eyeball in his forehead and \Nsaid something about my sword...
+Dialogue: 0,0:14:05.29,0:14:08.15,main,Asta,0000,0000,0000,,But most of all, he's one of the \Nleaders of the Eye of the Midnight Sun!
+Dialogue: 0,0:14:08.15,0:14:10.41,main,Asta,0000,0000,0000,,There's a lot we have to ask him!
+Dialogue: 0,0:14:14.58,0:14:16.67,flashbackitalics,Licht,0000,0000,0000,,Vetto... Vetto...
+Dialogue: 0,0:14:22.26,0:14:24.17,flashback,Licht,0000,0000,0000,,Stop crying, Vetto.
+Dialogue: 0,0:14:24.73,0:14:29.67,flashback,Vetto,0000,0000,0000,,Those damn humans...\Nhurting this tiny little bird...
+Dialogue: 0,0:14:29.67,0:14:31.10,flashback,Vetto,0000,0000,0000,,I can't forgive them.
+Dialogue: 0,0:14:31.10,0:14:34.96,flashback,Licht,0000,0000,0000,,I chased them away. Let's go \Nhome and tend to its wounds.
+Dialogue: 0,0:14:34.96,0:14:38.94,flashback,Vetto,0000,0000,0000,,I'm sorry that you always \Nhave to save me, Licht.
+Dialogue: 0,0:14:39.61,0:14:42.63,flashback,Licht,0000,0000,0000,,What are you talking about? \NWe're friends, aren't we?
+Dialogue: 0,0:14:42.63,0:14:44.44,flashback,Licht,0000,0000,0000,,I'll always save you.
+Dialogue: 0,0:14:45.22,0:14:47.69,flashback,Licht,0000,0000,0000,,We're just like this bird.
+Dialogue: 0,0:14:47.69,0:14:52.19,flashback,Licht,0000,0000,0000,,Because it can fly,\Nlike we can use special magic,
+Dialogue: 0,0:14:52.19,0:14:56.44,flashback,Licht,0000,0000,0000,,they envy and want to hurt us.
+Dialogue: 0,0:14:57.01,0:15:01.42,flashback,Licht,0000,0000,0000,,But I believe that one day, we and the humans\Nwill be able to understand each other.
+Dialogue: 0,0:15:01.88,0:15:05.69,flashback,Vetto,0000,0000,0000,,Licht... I'm sure if you \Nsay so, it'll come true.
+Dialogue: 0,0:15:05.69,0:15:07.92,italics,Vetto,0000,0000,0000,,Hope, eh?
+Dialogue: 0,0:15:07.92,0:15:10.47,italics,Vetto,0000,0000,0000,,It's a very sweet notion.
+Dialogue: 0,0:15:10.90,0:15:15.85,italics,Vetto,0000,0000,0000,,To me, Licht was... yes, \Nhe was hope personified.
+Dialogue: 0,0:15:16.47,0:15:19.98,italics,Vetto,0000,0000,0000,,But the ones who stole \Nthat hope away from me...
+Dialogue: 0,0:15:19.98,0:15:22.48,italics,Vetto,0000,0000,0000,,were you humans!
+Dialogue: 0,0:15:27.91,0:15:29.07,main,Vanessa,0000,0000,0000,,This magic...
+Dialogue: 0,0:15:29.55,0:15:31.24,main,Finral,0000,0000,0000,,You're kidding, right?
+Dialogue: 0,0:15:31.91,0:15:35.86,main,Vetto,0000,0000,0000,,I'm taking you all down with me... No...
+Dialogue: 0,0:15:35.86,0:15:38.91,main,Vetto,0000,0000,0000,,I'll blow this whole temple to smithereens!
+Dialogue: 0,0:15:40.01,0:15:41.25,main,Gifso,0000,0000,0000,,Th-That's...
+Dialogue: 0,0:15:41.25,0:15:42.79,main,Yami,0000,0000,0000,,That bastard!
+Dialogue: 0,0:15:42.79,0:15:45.92,main,Yami,0000,0000,0000,,Even they won't be able to stop that.
+Dialogue: 0,0:15:47.25,0:15:51.16,main,Yami,0000,0000,0000,,Let me the hell out of here!
+Dialogue: 0,0:15:53.89,0:15:56.07,main,Abari,0000,0000,0000,,It's no use.
+Dialogue: 0,0:16:04.68,0:16:06.28,main,Finral,0000,0000,0000,,It's the same as last time!
+Dialogue: 0,0:16:06.28,0:16:09.37,main,Finral,0000,0000,0000,,Even the captains could barely stop it!
+Dialogue: 0,0:16:09.37,0:16:13.07,main,Finral,0000,0000,0000,,It's the same as him... \NNo, this magic's even stronger!
+Dialogue: 0,0:16:13.07,0:16:15.30,main,Vanessa,0000,0000,0000,,Don't tell me he's planning to self-destruct!
+Dialogue: 0,0:16:15.30,0:16:18.62,main,Vanessa,0000,0000,0000,,My threads are being erased... \NIt's growing even bigger!
+Dialogue: 0,0:16:19.51,0:16:21.25,main,Gauche,0000,0000,0000,,I can't get any closer like this!
+Dialogue: 0,0:16:21.63,0:16:24.68,main,Asta,0000,0000,0000,,Guys, we're not going to be \Ndoing anything different!
+Dialogue: 0,0:16:24.68,0:16:26.33,main,Asta,0000,0000,0000,,We'll just kick his ass again!
+Dialogue: 0,0:16:26.33,0:16:27.70,main,Finral,0000,0000,0000,,No, no, no, that's not—
+Dialogue: 0,0:16:27.70,0:16:30.12,main,Finral,0000,0000,0000,,What the heck am I saying?
+Dialogue: 0,0:16:30.12,0:16:32.40,main,Finral,0000,0000,0000,,I almost gave up again!
+Dialogue: 0,0:16:32.40,0:16:35.26,main,Finral,0000,0000,0000,,We've come this far! I'm not \Ngiving up until the end!
+Dialogue: 0,0:16:35.26,0:16:37.24,main,Vanessa,0000,0000,0000,,Well said, Finral!
+Dialogue: 0,0:16:37.24,0:16:39.26,main,Vanessa,0000,0000,0000,,If you figure this out, \NI'll go on a date with you.
+Dialogue: 0,0:16:39.26,0:16:41.98,main,Finral,0000,0000,0000,,Seriously?! I'll do it!
+Dialogue: 0,0:16:42.34,0:16:44.48,main,Noelle,0000,0000,0000,,There must be something we can still do!
+Dialogue: 0,0:16:44.92,0:16:47.69,main,Gauche,0000,0000,0000,,I won't forgive anyone who gets \Nin the way of my seeing Marie!
+Dialogue: 0,0:16:47.69,0:16:51.36,main,Charmy,0000,0000,0000,,I'm going to defeat him and eat seafood \NI haven't even discovered yet!
+Dialogue: 0,0:16:52.39,0:16:54.57,main,Grey,0000,0000,0000,,I'm scared, but I'll do my best!
+Dialogue: 0,0:16:59.45,0:17:02.58,main,Asta,0000,0000,0000,,All right! Bring it on!
+Dialogue: 0,0:17:03.49,0:17:05.08,main,Yami,0000,0000,0000,,Right, consider it brought.
+Dialogue: 0,0:17:11.83,0:17:14.34,main,Yami,0000,0000,0000,,Hey, you dumbasses. You good?
+Dialogue: 0,0:17:14.34,0:17:15.88,main,All,0000,0000,0000,,Captain Yami!
+Dialogue: 0,0:17:15.88,0:17:18.73,main,Finral,0000,0000,0000,,Yami! You finally came!
+Dialogue: 0,0:17:19.16,0:17:21.47,main,Noelle,0000,0000,0000,,B-But I thought you were trapped...
+Dialogue: 0,0:17:21.80,0:17:25.64,main,Yami,0000,0000,0000,,As you can see, I broke through \Nthe spatial magic and got out.
+Dialogue: 0,0:17:29.11,0:17:30.82,main,Yami,0000,0000,0000,,Though I might've been\Na bit forceful about it.
+Dialogue: 0,0:17:30.82,0:17:33.03,main,Noelle,0000,0000,0000,,F-Forceful?
+Dialogue: 0,0:17:33.03,0:17:36.95,main,Asta,0000,0000,0000,,Couldn't you have done that a bit sooner?
+Dialogue: 0,0:17:37.32,0:17:40.79,main,Yami,0000,0000,0000,,Shut it! I have my reasons!
+Dialogue: 0,0:17:40.79,0:17:42.41,main,Yami,0000,0000,0000,,If I'm not wanted here,\NI can go home, you know.
+Dialogue: 0,0:17:42.41,0:17:44.70,main,All,0000,0000,0000,,What?!
+Dialogue: 0,0:17:44.70,0:17:46.75,italics,Asta,0000,0000,0000,,He's sulking!
+Dialogue: 0,0:17:48.50,0:17:51.29,main,Gifso,0000,0000,0000,,Kiato! Kahono!
+Dialogue: 0,0:17:52.85,0:17:57.30,main,Gifso,0000,0000,0000,,All because I wanted to \Nplay this stupid game...
+Dialogue: 0,0:17:57.30,0:18:02.31,main,Gifso,0000,0000,0000,,Gio... I'm sorry to drag you into \Nthis old fool's mess, too.
+Dialogue: 0,0:18:02.87,0:18:08.31,italics,Gifso,0000,0000,0000,,B-But to think this man \Ncould use magic like that...
+Dialogue: 0,0:18:08.31,0:18:10.31,italics,Gifso,0000,0000,0000,,He's truly a monster.
+Dialogue: 0,0:18:10.31,0:18:15.36,main,Gifso,0000,0000,0000,,I was right not to let him\Nparticipate in the game.
+Dialogue: 0,0:18:15.36,0:18:20.12,main,Yami,0000,0000,0000,,Looks like we don't have much time,\Nso let's get this over with.
+Dialogue: 0,0:18:20.47,0:18:22.97,main,Asta,0000,0000,0000,,All right! Now that Captain Yami's here,
+Dialogue: 0,0:18:22.97,0:18:26.00,main,Asta,0000,0000,0000,,we've basically got a whole \Ncavalry... no, a whole army!
+Dialogue: 0,0:18:26.00,0:18:28.87,main,Asta,0000,0000,0000,,Let's beat the snot outta that guy!
+Dialogue: 0,0:18:28.87,0:18:31.97,main,Asta,0000,0000,0000,,Ow, ow, ow, ow, ow...
+Dialogue: 0,0:18:28.87,0:18:31.97,main,Yami,0000,0000,0000,,What? Who do you think you're talking to?
+Dialogue: 0,0:18:31.97,0:18:34.57,main,Yami,0000,0000,0000,,Did your head swell because you \Nthought you took the enemy down?
+Dialogue: 0,0:18:34.57,0:18:38.94,main,Asta,0000,0000,0000,,Ow, ow, ow... What do you mean?!
+Dialogue: 0,0:18:38.94,0:18:41.90,main,Yami,0000,0000,0000,,I'm saying that I can take him on my own.
+Dialogue: 0,0:18:43.27,0:18:46.11,main,Yami,0000,0000,0000,,You guys risked your lives fighting him.
+Dialogue: 0,0:18:46.11,0:18:49.27,main,Yami,0000,0000,0000,,I'm the captain, so I've gotta go all-out.
+Dialogue: 0,0:18:49.86,0:18:50.77,main,Yami,0000,0000,0000,,Finral...
+Dialogue: 0,0:18:50.77,0:18:52.15,main,Yami,0000,0000,0000,,Vanessa...
+Dialogue: 0,0:18:52.15,0:18:53.57,main,Yami,0000,0000,0000,,Noelle...
+Dialogue: 0,0:18:53.57,0:18:54.82,main,Yami,0000,0000,0000,,Gauche...
+Dialogue: 0,0:18:55.21,0:18:56.11,main,Yami,0000,0000,0000,,Charmy...
+Dialogue: 0,0:18:55.24,0:18:56.11,main,Charmy,0000,0000,0000,,La!
+Dialogue: 0,0:18:57.40,0:18:58.28,main,Yami,0000,0000,0000,,Who are you again?
+Dialogue: 0,0:18:58.28,0:19:00.16,main,Grey,0000,0000,0000,,I'm Grey!
+Dialogue: 0,0:19:00.69,0:19:03.95,main,Yami,0000,0000,0000,,And Magna and Luck...
+Dialogue: 0,0:19:04.85,0:19:06.95,main,Yami,0000,0000,0000,,You guys did good.
+Dialogue: 0,0:19:09.08,0:19:11.18,italics,Finral,0000,0000,0000,,Yami complimented me!
+Dialogue: 0,0:19:11.86,0:19:15.17,main,Yami,0000,0000,0000,,I'll be nice and take care of the cleanup.
+Dialogue: 0,0:19:15.54,0:19:19.17,main,Yami,0000,0000,0000,,Or rather, I'm taking all the glory.
+Dialogue: 0,0:19:20.05,0:19:23.18,italics,Yami,0000,0000,0000,,Seriously... You guys did well.
+Dialogue: 0,0:19:24.29,0:19:27.06,italics,Yami,0000,0000,0000,,The reason I was able to surpass my limits...
+Dialogue: 0,0:19:28.84,0:19:32.56,italics,Yami,0000,0000,0000,,is because of all of you, you dumbasses!
+Dialogue: 0,0:19:35.75,0:19:40.65,italics,Yami,0000,0000,0000,,Getting trapped and pushed \Nagainst a wall was worth it.
+Dialogue: 0,0:19:41.67,0:19:45.40,italics,Yami,0000,0000,0000,,This spell reminds me a bit of\Na certain stretched-out weirdo,
+Dialogue: 0,0:19:45.40,0:19:47.95,italics,Yami,0000,0000,0000,,and that bothers me, but still...
+Dialogue: 0,0:19:47.95,0:19:49.56,main,Vetto,0000,0000,0000,,It's no use...
+Dialogue: 0,0:19:49.56,0:19:54.71,main,Vetto,0000,0000,0000,,You humans shall taste despair... Despair!
+Dialogue: 0,0:19:55.05,0:19:58.63,main,Yami,0000,0000,0000,,Shut up with the despair this, despair\Nthat already, you three-eyed goon!
+Dialogue: 0,0:19:59.05,0:20:03.27,main,Yami,0000,0000,0000,,It doesn't matter how strong your magic is!
+Dialogue: 0,0:20:04.39,0:20:08.95,main,Yami,0000,0000,0000,,This spell cuts through dimensions!
+Dialogue: 0,0:20:15.64,0:20:20.03,main,Yami,0000,0000,0000,,Dark Magic: Dark Cloaked Dimension Slash!
+Dialogue: 0,0:20:31.77,0:20:34.62,main,Yami,0000,0000,0000,,Consider that my thanks for \Nlooking after my squad.
+Dialogue: 0,0:20:34.97,0:20:37.87,main,Yami,0000,0000,0000,,See ya, Mister Despair.
+Dialogue: 0,0:20:40.36,0:20:43.38,italics,,0000,0000,0000,,4 AM in the morning
+Dialogue: 0,0:20:43.38,0:20:45.74,italics,,0000,0000,0000,,Why can't I sleep?
+Dialogue: 0,0:20:45.74,0:20:48.35,italics,,0000,0000,0000,,On such a bad day, whispering \N"Bye Bye Black Birds"
+Dialogue: 0,0:20:48.35,0:20:52.35,italics,,0000,0000,0000,,Won't make my anxiety go away
+Dialogue: 0,0:20:52.85,0:20:54.87,italics,,0000,0000,0000,,for hours, lately
+Dialogue: 0,0:20:54.87,0:20:58.39,italics,,0000,0000,0000,,I've been crying for hours Baby
+Dialogue: 0,0:20:59.44,0:21:02.95,italics,,0000,0000,0000,,I wish you were here
+Dialogue: 0,0:21:04.78,0:21:09.49,italics,,0000,0000,0000,,All those letters that you gave to me
+Dialogue: 0,0:21:09.49,0:21:15.37,italics,,0000,0000,0000,,Every time I read them again, the pain's gone
+Dialogue: 0,0:21:15.37,0:21:21.49,italics,,0000,0000,0000,,We're not alone, cause we're perfect as four
+Dialogue: 0,0:21:21.49,0:21:27.51,italics,,0000,0000,0000,,Even though we're far apart, \Nwe're connected, believing you
+Dialogue: 0,0:21:27.51,0:21:33.64,italics,,0000,0000,0000,,I always feel you next to me
+Dialogue: 0,0:21:33.64,0:21:38.73,italics,,0000,0000,0000,,closer to me and a "clover" for you
+Dialogue: 0,0:21:38.73,0:21:41.40,italicstop,,0000,0000,0000,,I wish you the best of luck
+Dialogue: 0,0:21:40.23,0:21:45.99,italics,,0000,0000,0000,,You know you're not alone, \Ncause we're perfect as four
+Dialogue: 0,0:21:45.99,0:21:52.20,italics,,0000,0000,0000,,Even though we're far apart, \Nwe're connected, you live in me
+Dialogue: 0,0:21:52.20,0:21:58.44,italics,,0000,0000,0000,,I'll always be by your side
+Dialogue: 0,0:21:58.44,0:22:03.13,italics,,0000,0000,0000,,closer to me and a "clover" for you
+Dialogue: 0,0:22:03.13,0:22:05.82,italics,,0000,0000,0000,,I wish you the best of luck
+Dialogue: 0,0:22:08.80,0:22:12.76,sign_33083_276_Petit_Clover_,Sign,0000,0000,0000,,Pe{\c&H3BC020&}t{\c&HE2AF0F&}i{\c&H3BC020&}t C{\c&HE2AF0F&}l{\c&H3BC020&}o{\c&H0E42D4&}ve{\c&H3BC020&}r
+Dialogue: 0,0:22:09.62,0:22:12.76,main,All,0000,0000,0000,,Petit Clover!
+Dialogue: 0,0:22:15.49,0:22:18.77,sign_32020_343_Captain_of_the_B,Sign,0000,0000,0000,,Captain of the Black Bulls
+Dialogue: 0,0:22:18.77,0:22:23.78,sign_32099_344_The_Professional,sign,0000,0000,0000,,{\fad(1,1928)}The Professional\N{\fs16\c&H6F6F6F&}The Way {\c&HFFFFFF&}of the Toilet
+Dialogue: 0,0:22:22.84,0:23:25.86,sign_32196_345_The_Professional,sign,0000,0000,0000,,{\fad(502,1749)}The Professional\N{\fs12\c&H6F6F6F&}The Way {\c&HFFFFFF&}of the Toilet
+Dialogue: 0,0:22:23.85,0:22:25.24,italics,nar,0000,0000,0000,,Yami Sukehiro.
+Dialogue: 0,0:22:25.24,0:22:28.15,italics,nar,0000,0000,0000,,As the captain who leads \Nthe rest of the Black Bulls,
+Dialogue: 0,0:22:28.15,0:22:31.08,italics,nar,0000,0000,0000,,he does most of his thinking on the toilet.
+Dialogue: 0,0:22:31.08,0:22:34.54,italics,Nar,0000,0000,0000,,Our investigative team \Nasked him one question.
+Dialogue: 0,0:22:34.54,0:22:39.56,sign_32477_350_Why_the_toilet__,Sign,0000,0000,0000,,{\fad(1,1787)}Why the toilet...?
+Dialogue: 0,0:22:40.44,0:22:44.05,main,Yami,0000,0000,0000,,Why else? It's because the toilet is there.
+Dialogue: 0,0:22:44.05,0:22:46.09,main,Yami,0000,0000,0000,,But let me just say one thing.
+Dialogue: 0,0:22:46.09,0:22:48.94,main,Yami,0000,0000,0000,,Before going in, you need to \Nmake sure there's toilet paper.
+Dialogue: 0,0:22:48.94,0:22:51.30,main,Yami,0000,0000,0000,,Those who enter a bathroom\N without toilet paper
+Dialogue: 0,0:22:51.30,0:22:54.01,main,Yami,0000,0000,0000,,are like birds who've had\N their wings torn off.
+Dialogue: 0,0:22:54.01,0:22:56.12,main,Yami,0000,0000,0000,,They'll never be able to \Nfly out to the blue sky
+Dialogue: 0,0:22:56.12,0:22:58.81,main,Yami,0000,0000,0000,,that lies beyond the bathroom ever again.
+Dialogue: 0,0:22:59.27,0:23:04.39,main,Yami,0000,0000,0000,,By the way, the one in charge of the toilet\Npaper here is the brat, but he always forgets.
+Dialogue: 0,0:23:04.39,0:23:10.31,main,Yami,0000,0000,0000,,I've seen hell many times because of him, \Nbut I showed him an even worse hell.
+Dialogue: 0,0:23:07.37,0:23:10.31,italicstop,Asta,0000,0000,0000,,Captain Yami! I'm going to fall!
+Dialogue: 0,0:23:11.06,0:23:14.88,italics,Nar,0000,0000,0000,,After that, his remarks about the \Ntoilet continued for hours.
+Dialogue: 0,0:23:14.88,0:23:20.83,italics,Nar,0000,0000,0000,,But there was one thing we wanted to ask \Nhim before we finished this interview.
+Dialogue: 0,0:23:20.83,0:23:25.86,sign_33587_363_How_long_are_you,Sign,0000,0000,0000,,{\fad(1,1791)}How long are you going to stay on the toilet...?
+Dialogue: 0,0:23:25.13,0:23:27.80,main,Asta,0000,0000,0000,,Hey! Hey! Captain Yami!
+Dialogue: 0,0:23:27.80,0:23:29.96,main,Asta,0000,0000,0000,,How long are you going to stay in there?!
+Dialogue: 0,0:23:28.74,0:23:32.84,top,Yami,0000,0000,0000,,Shut up! I can't come out because \Nyou didn't restock the toilet paper!
+Dialogue: 0,0:23:33.17,0:23:36.60,main,Yami,0000,0000,0000,,Let me out of here, damn it!
+Dialogue: 0,0:23:39.43,0:23:44.77,main,Yami,0000,0000,0000,,Damn it... I can't just fool around \Nafter you guys worked so hard.
+Dialogue: 0,0:23:44.77,0:23:49.53,main,Yami,0000,0000,0000,,{\i1}Black Clover{\i0}, Page 50: \N"End of the Battle, End of Despair."
+Dialogue: 0,0:23:45.77,0:23:54.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 50\N\N{\fs18}End of the Battle, End of Despair
+Dialogue: 0,0:23:49.53,0:23:53.70,main,Yami,0000,0000,0000,,See ya, Mister Despair.\NThat's important, so I said it twice!

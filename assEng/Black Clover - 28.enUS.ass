@@ -1,0 +1,433 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H00F7FCFD,&H000000FF,&H00070805,&H000D1728,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0080,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_10213_108_City_in_the_Comm,Times New Roman,22,&H00FDFCF9,&H000000FF,&H00080213,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0080,1
+Style: sign_11469_121_Pub_Mibawau_,Times New Roman,30,&H00FDFCF9,&H000000FF,&H00383926,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0080,1
+Style: sign_11989_127_Finral_Roulacase,Times New Roman,30,&H00FDFCF9,&H000000FF,&H00292026,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0120,1
+Style: sign_13533_146_Asta_15_Year_Old,Times New Roman,30,&H00FDFCF9,&H000000FF,&H00292026,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_14688_165_Rebecca_Scarlet,Times New Roman,20,&H00FDFCF9,&H000000FF,&H002B3132,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0035,0435,0055,1
+Style: sign_14688_166_Helene_Barbary,Times New Roman,20,&H00FDFCF9,&H000000FF,&H002B3132,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0255,0220,0055,1
+Style: sign_14688_167_Erika_Sitate_,Times New Roman,20,&H00FDFCF9,&H000000FF,&H002B3132,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0475,0025,0055,1
+Style: sign_19264_241___Lies__,Times New Roman,30,&H00FDFCF9,&H000000FF,&H000F1D1C,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0080,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:06.57,0:00:10.66,italics,Nar,0000,0000,0000,,It appeared as though humanity \Nwould be destroyed by the demons.
+Dialogue: 0,0:00:14.94,0:00:19.15,italics,Nar,0000,0000,0000,,But a single mage saved them all.
+Dialogue: 0,0:00:26.35,0:00:31.46,italics,Nar,0000,0000,0000,,He was called the Wizard King,\Nand he became a legend.
+Dialogue: 0,0:00:46.87,0:00:50.82,Ep Title,Sign,0000,0000,0000,,{\fad(500,1)}The One I've Set My Heart On
+Dialogue: 0,0:02:10.19,0:02:15.05,italics,Nar,0000,0000,0000,,Finral Roulacase, a member of the Black \NBulls Magic Knights Squad, was troubled.
+Dialogue: 0,0:02:15.62,0:02:18.11,italics,Nar,0000,0000,0000,,It was a very important matter.
+Dialogue: 0,0:02:18.62,0:02:21.66,italics,Finral,0000,0000,0000,,What do I do? What should I do?
+Dialogue: 0,0:02:22.07,0:02:25.41,italics,Nar,0000,0000,0000,,Finral's troubles had nothing \Nto do with a mission...
+Dialogue: 0,0:02:25.41,0:02:27.56,italics,Finral,0000,0000,0000,,...about tonight's mixer?
+Dialogue: 0,0:02:27.56,0:02:30.40,italics,Nar,0000,0000,0000,,A mixer, meaning a gathering \Nbetween men and women.
+Dialogue: 0,0:02:30.40,0:02:33.25,italics,Nar,0000,0000,0000,,It is a dinner intended to help \Nmen and women get acquainted.
+Dialogue: 0,0:02:33.60,0:02:38.48,italics,Finral,0000,0000,0000,,When I set this up, three girls \Nagreed to come, and that's great!
+Dialogue: 0,0:02:38.48,0:02:40.88,italics,Finral,0000,0000,0000,,The more girls, the merrier!
+Dialogue: 0,0:02:40.88,0:02:45.73,italics,Finral,0000,0000,0000,,But the problem is who \Nelse I'm going to bring.
+Dialogue: 0,0:02:45.73,0:02:49.98,italics,Finral,0000,0000,0000,,Asta's a delight, so I'm bringing him \Nfor sure. I just need one more...
+Dialogue: 0,0:02:56.07,0:02:56.97,main,Finral,0000,0000,0000,,Hup!
+Dialogue: 0,0:03:01.74,0:03:03.66,main,Magna,0000,0000,0000,,Flame Magic:
+Dialogue: 0,0:03:06.05,0:03:07.16,main,Magna,0000,0000,0000,,Exploding...
+Dialogue: 0,0:03:08.81,0:03:12.06,main,Magna,0000,0000,0000,,Fireball!
+Dialogue: 0,0:03:20.93,0:03:23.87,main,Magna,0000,0000,0000,,Home run!
+Dialogue: 0,0:03:23.87,0:03:25.21,main,Magna,0000,0000,0000,,Didja see that?
+Dialogue: 0,0:03:25.21,0:03:29.68,top,Magna,0000,0000,0000,,This is what truly makes a man!
+Dialogue: 0,0:03:26.78,0:03:29.68,italics,Finral,0000,0000,0000,,Yeah, no. I know there are girls\Nwho like delinquents, but...
+Dialogue: 0,0:03:31.98,0:03:37.07,main,Magna,0000,0000,0000,,Pleased to meet ya!\NMy Crazy Cyclone's on fire!
+Dialogue: 0,0:03:37.07,0:03:41.26,main,Magna,0000,0000,0000,,This is what truly makes a man!\NBrr-r-r-rm, brr-r-r-rm!
+Dialogue: 0,0:03:45.16,0:03:47.67,italics,Finral,0000,0000,0000,,Magna's too much of a delinquent. \NHe'd just scare them off.
+Dialogue: 0,0:03:55.23,0:03:58.39,main,Gauche,0000,0000,0000,,Almost... I'm almost done
+Dialogue: 0,0:03:58.39,0:04:00.34,main,Gauche,0000,0000,0000,,with my life-size statue of Marie.
+Dialogue: 0,0:04:00.34,0:04:04.22,main,Gauche,0000,0000,0000,,Ah, Marie. It feels like \Nyou're right next to me!
+Dialogue: 0,0:04:04.22,0:04:06.37,main,Gauche,0000,0000,0000,,My beloved little sister, Marie!
+Dialogue: 0,0:04:06.37,0:04:08.85,top,,0000,0000,0000,,Ah, you truly are an angel!
+Dialogue: 0,0:04:06.37,0:04:08.85,italics,Finral,0000,0000,0000,,Yeah, no. Even if I took him to a mixer...
+Dialogue: 0,0:04:13.21,0:04:15.11,main,Gauche,0000,0000,0000,,Marie's more of an angel than any of you.
+Dialogue: 0,0:04:15.11,0:04:17.70,main,Gauche,0000,0000,0000,,I want to have a mixer \Nwith a hundred Maries.
+Dialogue: 0,0:04:17.70,0:04:21.14,main,Gauche,0000,0000,0000,,Yes. Marie was already an angel \Nbefore she was even born.
+Dialogue: 0,0:04:22.57,0:04:25.55,italics,Girl B,0000,0000,0000,,Ugh... A sister complex?
+Dialogue: 0,0:04:25.55,0:04:26.57,italics,Girl C,0000,0000,0000,,Really?
+Dialogue: 0,0:04:26.93,0:04:28.81,italics,Finral,0000,0000,0000,,He'd definitely scare them away!
+Dialogue: 0,0:04:28.81,0:04:31.55,main,Gordon,0000,0000,0000,,I heard that you were having a mixer.
+Dialogue: 0,0:04:31.55,0:04:33.43,top,Gordon,0000,0000,0000,,You want me to come with you?
+Dialogue: 0,0:04:32.58,0:04:38.15,main,Finral,0000,0000,0000,,Yeah, I have no idea what Gordon's \Nthinking, so that's not happening.
+Dialogue: 0,0:04:33.43,0:04:38.15,top,Gordon,0000,0000,0000,,No, really. You don't need to hold back. \NIt's not as if I don't like girls.
+Dialogue: 0,0:04:56.65,0:05:00.98,main,Finral,0000,0000,0000,,It might be fun to bring Charmy along,\Nsince she's sort of like a mascot character.
+Dialogue: 0,0:05:00.98,0:05:01.94,main,Finral,0000,0000,0000,,But...
+Dialogue: 0,0:05:01.94,0:05:05.38,main,Charmy,0000,0000,0000,,Munchy, munchy, munchy, munchy...
+Dialogue: 0,0:05:06.71,0:05:08.74,main,Charmy,0000,0000,0000,,This is so yummy, too!
+Dialogue: 0,0:05:09.69,0:05:12.12,main,Charmy,0000,0000,0000,,Excuse me, could I get seconds?
+Dialogue: 0,0:05:12.12,0:05:14.66,main,Guy,0000,0000,0000,,I do apologize. It's only been \Nfive minutes since we opened,
+Dialogue: 0,0:05:14.66,0:05:16.83,main,Guy,0000,0000,0000,,but we're out of ingredients, \Nso we must close for the day.
+Dialogue: 0,0:05:17.21,0:05:18.79,main,Charmy,0000,0000,0000,,D'oh!
+Dialogue: 0,0:05:18.79,0:05:20.65,main,Finral,0000,0000,0000,,The mixer'd be over in five minutes!
+Dialogue: 0,0:05:20.65,0:05:22.98,main,Finral,0000,0000,0000,,At least, that's what I assume would happen.
+Dialogue: 0,0:05:22.98,0:05:24.55,main,Finral,0000,0000,0000,,Maybe I could take Vanessa...
+Dialogue: 0,0:05:29.22,0:05:30.60,main,Finral,0000,0000,0000,,But she's a woman!
+Dialogue: 0,0:05:31.15,0:05:32.39,main,Finral,0000,0000,0000,,Let's not.
+Dialogue: 0,0:05:37.07,0:05:39.43,main,Yami,0000,0000,0000,,Now this is paradise.
+Dialogue: 0,0:05:42.09,0:05:44.71,main,Finral,0000,0000,0000,,Maybe I could go all-out and invite Yami...
+Dialogue: 0,0:05:44.71,0:05:47.31,main,Finral,0000,0000,0000,,I'm sure there are girls \Nwho like older guys.
+Dialogue: 0,0:05:47.31,0:05:50.49,main,Finral,0000,0000,0000,,Yami does hate gaudy types, though.
+Dialogue: 0,0:05:53.05,0:05:56.53,main,Yami,0000,0000,0000,,Why the hell are you three \Ndressed like that, huh?
+Dialogue: 0,0:05:56.53,0:05:59.19,main,Yami,0000,0000,0000,,Aren't you showing too much skin?
+Dialogue: 0,0:05:59.19,0:06:03.17,main,Yami,0000,0000,0000,,What if you catch a cold? \NPut something warm over your stomachs!
+Dialogue: 0,0:06:03.17,0:06:04.86,italics,Girl 1,0000,0000,0000,,Uh...
+Dialogue: 0,0:06:04.86,0:06:06.14,italics,Girl 2,0000,0000,0000,,Not happening.
+Dialogue: 0,0:06:06.14,0:06:07.17,italics,Girl 3,0000,0000,0000,,So overbearing.
+Dialogue: 0,0:06:07.48,0:06:08.34,italics,Finral,0000,0000,0000,,Maybe not.
+Dialogue: 0,0:06:11.74,0:06:13.76,main,Finral,0000,0000,0000,,Basically, that leaves...
+Dialogue: 0,0:06:16.02,0:06:18.18,main,Luck,0000,0000,0000,,A mixer? Yeah, sure.
+Dialogue: 0,0:06:18.18,0:06:20.35,main,Finral,0000,0000,0000,,Great! Thanks for agreeing to come.
+Dialogue: 0,0:06:20.81,0:06:24.36,italics,Finral,0000,0000,0000,,Well, Luck looks decent, \Nso I'm sure things will work out.
+Dialogue: 0,0:06:24.76,0:06:26.69,main,Luck,0000,0000,0000,,So, what's a mixer, anyway?
+Dialogue: 0,0:06:27.11,0:06:28.70,main,Finral,0000,0000,0000,,Will this actually work out?
+Dialogue: 0,0:06:32.83,0:06:34.80,main,Luck,0000,0000,0000,,All right, it looks like we're all set.
+Dialogue: 0,0:06:34.80,0:06:36.50,main,Asta,0000,0000,0000,,Should we go dressed like this?
+Dialogue: 0,0:06:36.50,0:06:39.53,main,Finral,0000,0000,0000,,We have to make sure they know \Nthat we're Magic Knights.
+Dialogue: 0,0:06:39.53,0:06:43.75,main,Finral,0000,0000,0000,,Magic Knights are the most admired figures \Nin the Clover Kingdom, after all.
+Dialogue: 0,0:06:44.09,0:06:45.45,main,Asta,0000,0000,0000,,Got it!
+Dialogue: 0,0:06:45.45,0:06:48.99,main,Luck,0000,0000,0000,,Are mixers strong? I'm so excited!
+Dialogue: 0,0:06:48.99,0:06:51.30,main,Asta,0000,0000,0000,,Yeah! I'm excited, too!
+Dialogue: 0,0:06:52.75,0:06:53.97,main,Finral,0000,0000,0000,,Well, let's go.
+Dialogue: 0,0:06:55.67,0:06:57.50,main,Finral,0000,0000,0000,,Come on. Hurry on through.
+Dialogue: 0,0:06:57.50,0:06:58.49,main,Asta,0000,0000,0000,,Got it!
+Dialogue: 0,0:07:02.99,0:07:05.52,main,Gordon,0000,0000,0000,,Can I go, too? I promise \NI won't get in the way...
+Dialogue: 0,0:07:05.96,0:07:09.74,sign_10213_108_City_in_the_Comm,Sign,0000,0000,0000,,{\fad(966,1)}City in the Common Realm: Nean
+Dialogue: 0,0:07:12.62,0:07:13.74,main,Asta,0000,0000,0000,,Hup!
+Dialogue: 0,0:07:20.58,0:07:22.29,italics,Noelle,0000,0000,0000,,I-I'm in the clear.
+Dialogue: 0,0:07:24.38,0:07:27.38,main,Noelle,0000,0000,0000,,Sneak... Sneak, sneak... Sneak, sneak, sneak.
+Dialogue: 0,0:07:27.38,0:07:29.50,italics,Noelle,0000,0000,0000,,When I heard they were going to a mixer,
+Dialogue: 0,0:07:29.50,0:07:31.47,italics,Noelle,0000,0000,0000,,I was so worried, I ended up following them.
+Dialogue: 0,0:07:31.47,0:07:33.94,italics,Noelle,0000,0000,0000,,I can't believe this. Why are\Nthey going to a mixer?
+Dialogue: 0,0:07:33.94,0:07:36.47,italics,Noelle,0000,0000,0000,,This is the problem with lowly fools.
+Dialogue: 0,0:07:36.47,0:07:40.46,italics,Noelle,0000,0000,0000,,I-I mean, it's not as if I like that\Nmuscle-brained shrimp or anything!
+Dialogue: 0,0:07:40.46,0:07:43.51,italics,Noelle,0000,0000,0000,,I don't care who he hangs out \Nwith or what happens after that!
+Dialogue: 0,0:07:43.51,0:07:47.61,italics,Noelle,0000,0000,0000,,Wait, who am I even making excuses to?!
+Dialogue: 0,0:07:51.25,0:07:53.50,main,Finral,0000,0000,0000,,I'm pretty sure it was \Nsomewhere around here.
+Dialogue: 0,0:07:53.50,0:07:55.24,main,Finral,0000,0000,0000,,Oh, there it is!
+Dialogue: 0,0:07:58.35,0:08:00.95,sign_11469_121_Pub_Mibawau_,Sign,0000,0000,0000,,The Dreavy Hinker
+Dialogue: 0,0:08:11.01,0:08:15.76,main,Finral,0000,0000,0000,,Okay! Looks like we all have our drinks,\Nso let's get right to the introductions!
+Dialogue: 0,0:08:16.18,0:08:18.18,main,Finral,0000,0000,0000,,I'll go ahead and start.
+Dialogue: 0,0:08:20.02,0:08:27.69,sign_11989_127_Finral_Roulacase,Sign,0000,0000,0000,,{\fad(480,1)}Finral Roulacase\N{\fs20}21-Year-Old Member of the Black Bulls From Touta
+Dialogue: 0,0:08:20.29,0:08:22.47,top,Finral,0000,0000,0000,,I'm 21 years old and from Touta!
+Dialogue: 0,0:08:22.47,0:08:26.89,top,Finral,0000,0000,0000,,I'm Finral Roulacase, the spatial \Nmagic user from the Black Bulls!
+Dialogue: 0,0:08:26.89,0:08:27.69,top,Finral,0000,0000,0000,,Nice to meet you!
+Dialogue: 0,0:08:29.43,0:08:31.13,main,Finral,0000,0000,0000,,These are freshly picked moon blossoms.
+Dialogue: 0,0:08:31.13,0:08:33.45,main,Finral,0000,0000,0000,,Please take them as a \Ntoken of our friendship.
+Dialogue: 0,0:08:33.45,0:08:35.77,main,Helene,0000,0000,0000,,Wow! They're beautiful!
+Dialogue: 0,0:08:35.77,0:08:39.45,main,Erika,0000,0000,0000,,These only bloom at night \Non Mount Anahu, right?
+Dialogue: 0,0:08:39.45,0:08:41.30,main,Erika,0000,0000,0000,,They smell so nice!
+Dialogue: 0,0:08:41.30,0:08:42.20,main,Rebecca,0000,0000,0000,,Thanks...
+Dialogue: 0,0:08:42.20,0:08:46.92,italics,Finral,0000,0000,0000,,Hook, line, and sinker! I'm finally \Ngoing to get a girlfriend!
+Dialogue: 0,0:08:46.92,0:08:50.67,italics,Finral,0000,0000,0000,,But for that to happen, I need both \NAsta and Luck to do their best.
+Dialogue: 0,0:08:51.26,0:08:53.47,main,Finral,0000,0000,0000,,Go on, introduce yourselves.
+Dialogue: 0,0:08:53.47,0:08:55.21,main,Luck,0000,0000,0000,,Introduce myself...
+Dialogue: 0,0:08:55.21,0:08:57.63,italics,Luck,0000,0000,0000,,Am I just supposed to say what I like?
+Dialogue: 0,0:08:57.63,0:08:58.47,italics,Luck,0000,0000,0000,,Okay.
+Dialogue: 0,0:08:58.47,0:09:06.50,sign_11989_127_Finral_Roulacase,Sign,0000,0000,0000,,{\fad(526,997)}Luck Voltia\N{\fs20}18-Year-Old Member of the Black Bulls From Ibon
+Dialogue: 0,0:08:58.82,0:09:03.11,top,Luck,0000,0000,0000,,I'm Luck Voltia, and I'm 18 years old.\NI'm from Ibon and belong to the Black Bulls.
+Dialogue: 0,0:09:03.11,0:09:07.53,top,Luck,0000,0000,0000,,My hobbies include fighting tough \Nenemies in bloody, mortal combat!
+Dialogue: 0,0:09:07.53,0:09:10.32,main,Luck,0000,0000,0000,,Isn't "fighting for your life"\Na wonderful phrase?
+Dialogue: 0,0:09:16.36,0:09:20.70,italics,Asta,0000,0000,0000,,Introduce myself... A manly man should \Nprobably talk about his dreams.
+Dialogue: 0,0:09:20.70,0:09:21.73,italics,Asta,0000,0000,0000,,Right...
+Dialogue: 0,0:09:24.41,0:09:30.15,sign_13533_146_Asta_15_Year_Old,Sign,0000,0000,0000,,{\fad(487,999)}Asta\N{\fs20}15-Year-Old Member of the Black Bulls From Hage Village
+Dialogue: 0,0:09:24.89,0:09:29.46,top,Asta,0000,0000,0000,,I-I'm Asta. I'm fifteen. I'm from Hage\NVillage. I'm a member of the Black Bulls!
+Dialogue: 0,0:09:29.46,0:09:32.88,top,Asta,0000,0000,0000,,Um... my dream is to become \Nthe Wizard King someday!
+Dialogue: 0,0:09:33.55,0:09:35.18,italics,Erika,0000,0000,0000,,The Wizard King?
+Dialogue: 0,0:09:35.18,0:09:37.38,italics,Helene,0000,0000,0000,,That'll never happen. \NHe's just a kid, anyway.
+Dialogue: 0,0:09:37.38,0:09:39.26,italics,Erika,0000,0000,0000,,These two seem kinda...
+Dialogue: 0,0:09:37.38,0:09:39.26,top,,0000,0000,0000,,How d'ya like these biceps?
+Dialogue: 0,0:09:39.26,0:09:41.39,italics,Helene,0000,0000,0000,,...sketchy.
+Dialogue: 0,0:09:41.91,0:09:44.39,italics,Erika,0000,0000,0000,,I mean, I heard they'd be Magic Knights,
+Dialogue: 0,0:09:44.39,0:09:47.39,italics,Erika,0000,0000,0000,,but they just had to be Black Bulls, \Nthe lowest of the low?
+Dialogue: 0,0:09:47.70,0:09:49.79,italics,Helene,0000,0000,0000,,And if he's from Hage, isn't he a peasant?
+Dialogue: 0,0:09:49.79,0:09:51.11,italics,Helene,0000,0000,0000,,Like, a total peasant?
+Dialogue: 0,0:09:51.11,0:09:54.18,italics,Erika,0000,0000,0000,,I'd never go out with any of these guys \Nif they didn't earn more than me.
+Dialogue: 0,0:09:54.18,0:09:56.60,italics,Erika,0000,0000,0000,,And if they're younger, shorter, \Nand socially beneath me...
+Dialogue: 0,0:09:56.60,0:09:58.36,italics,Helene,0000,0000,0000,,Not happening.
+Dialogue: 0,0:09:58.36,0:10:01.95,italics,Finral,0000,0000,0000,,Crap... This seems to be going south.
+Dialogue: 0,0:10:03.15,0:10:07.99,main,Finral,0000,0000,0000,,Okay! We've introduced ourselves, \Nso now it's your turn, girls!
+Dialogue: 0,0:10:07.99,0:10:10.93,main,Finral,0000,0000,0000,,Let's keep things rolling! Yeah!
+Dialogue: 0,0:10:10.93,0:10:12.59,main,Finral,0000,0000,0000,,We're passing the baton to you!
+Dialogue: 0,0:10:12.59,0:10:15.54,top,Erika,0000,0000,0000,,Um... We're friends.
+Dialogue: 0,0:10:12.59,0:10:22.12,sign_14688_165_Rebecca_Scarlet,Sign,0000,0000,0000,,{\fad(1,1001)}Rebecca Scarlet
+Dialogue: 0,0:10:12.59,0:10:22.12,sign_14688_166_Helene_Barbary,Sign,0000,0000,0000,,{\fad(1,1001)}Helene Barbary
+Dialogue: 0,0:10:12.59,0:10:22.12,sign_14688_167_Erika_Sitate_,Sign,0000,0000,0000,,{\fad(1,1001)}Erika Sitate
+Dialogue: 0,0:10:15.54,0:10:17.99,top,Erika,0000,0000,0000,,I'm Erika. I work at a dressmaker shop.
+Dialogue: 0,0:10:17.99,0:10:20.63,top,Helene,0000,0000,0000,,I'm Helene, and I work as a hairdresser.
+Dialogue: 0,0:10:20.63,0:10:22.42,top,Rebecca,0000,0000,0000,,Rebecca. I work at a restaurant.
+Dialogue: 0,0:10:22.42,0:10:24.93,italics,Finral,0000,0000,0000,,They're clearly losing interest!
+Dialogue: 0,0:10:25.33,0:10:28.41,main,Finral,0000,0000,0000,,Wow, so you all have \Nsolid jobs. That's great!
+Dialogue: 0,0:10:28.41,0:10:31.06,main,Finral,0000,0000,0000,,Say, I'd love to hear about your work.
+Dialogue: 0,0:10:31.48,0:10:34.62,main,Finral,0000,0000,0000,,I'd love it if you made some clothes for me. \NWhat do you think would look good on me?
+Dialogue: 0,0:10:34.62,0:10:36.53,main,Finral,0000,0000,0000,,Maybe you could cut my hair sometime.
+Dialogue: 0,0:10:36.53,0:10:39.15,main,Finral,0000,0000,0000,,I've been thinking of \Nchanging up my hairstyle.
+Dialogue: 0,0:10:39.15,0:10:40.32,main,Finral,0000,0000,0000,,Could I eat at your place sometime?
+Dialogue: 0,0:10:41.73,0:10:45.79,italics,Finral,0000,0000,0000,,No reaction whatsoever! I need to think \Nof something they'd be interested in!
+Dialogue: 0,0:10:46.42,0:10:49.33,main,Finral,0000,0000,0000,,W-Want to hear about the Magic Knights?
+Dialogue: 0,0:10:49.33,0:10:51.31,main,Erika,0000,0000,0000,,Yeah, tell us!
+Dialogue: 0,0:10:51.31,0:10:52.86,main,Helene,0000,0000,0000,,I'd love to!
+Dialogue: 0,0:10:52.86,0:10:53.78,italics,Finral,0000,0000,0000,,Bingo!
+Dialogue: 0,0:10:53.78,0:10:59.21,main,Finral,0000,0000,0000,,That's great to hear. Well, I use spatial\Nmagic to go to all sorts of places.
+Dialogue: 0,0:10:59.21,0:11:01.68,main,Finral,0000,0000,0000,,Something I've done recently at my job...
+Dialogue: 0,0:11:01.68,0:11:02.80,main,Erika,0000,0000,0000,,Yes?
+Dialogue: 0,0:11:04.38,0:11:05.26,italics,Finral,0000,0000,0000,,Crap.
+Dialogue: 0,0:11:05.57,0:11:07.53,flashback,Yami,0000,0000,0000,,Hey. Send me to the john.
+Dialogue: 0,0:11:07.53,0:11:08.55,flashback,Finral,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:11:10.87,0:11:12.45,flashback,Yami,0000,0000,0000,,Hey. Send me to the bath.
+Dialogue: 0,0:11:12.45,0:11:13.27,flashback,Finral,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:11:14.07,0:11:15.82,flashback,Yami,0000,0000,0000,,Hey. Send me to my bed.
+Dialogue: 0,0:11:15.82,0:11:16.86,flashback,Finral,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:11:17.45,0:11:20.28,italics,Finral,0000,0000,0000,,I don't think I've done anything lately \Nother than move Yami around.
+Dialogue: 0,0:11:20.66,0:11:24.30,main,Finral,0000,0000,0000,,Luck! You've been working hard! \NWhat have you done recently?
+Dialogue: 0,0:11:24.30,0:11:25.29,main,Luck,0000,0000,0000,,Me?
+Dialogue: 0,0:11:25.29,0:11:27.37,main,Finral,0000,0000,0000,,Tell them something interesting \Nyou've done at work lately.
+Dialogue: 0,0:11:27.37,0:11:29.71,main,Finral,0000,0000,0000,,Helene and the other girls \Nreally want to know.
+Dialogue: 0,0:11:29.71,0:11:32.37,main,Luck,0000,0000,0000,,Work, huh? Let's see... Oh!
+Dialogue: 0,0:11:33.17,0:11:35.54,main,Luck,0000,0000,0000,,The other day, we ran into \Na group of ten bandits...
+Dialogue: 0,0:11:35.54,0:11:36.75,main,Both,0000,0000,0000,,Yes, and?
+Dialogue: 0,0:11:36.75,0:11:38.94,main,Luck,0000,0000,0000,,...and I beat them all to a pulp!
+Dialogue: 0,0:11:38.94,0:11:41.74,main,Luck,0000,0000,0000,,It was so brutal! And so much fun!
+Dialogue: 0,0:11:41.74,0:11:45.68,main,Luck,0000,0000,0000,,I could've easily killed them all,\Nbut I just broke three of their bones.
+Dialogue: 0,0:11:46.73,0:11:48.22,italics,Finral,0000,0000,0000,,It completely backfired!
+Dialogue: 0,0:11:48.22,0:11:51.10,main,Luck,0000,0000,0000,,Oh, and when I fought this mage, I—
+Dialogue: 0,0:11:51.10,0:11:52.64,main,Finral,0000,0000,0000,,Right. Thanks, Luck!
+Dialogue: 0,0:11:52.64,0:11:54.58,main,Finral,0000,0000,0000,,Now, go on and eat up, my boy!
+Dialogue: 0,0:11:54.58,0:11:55.87,main,Luck,0000,0000,0000,,Oh, I'm done?
+Dialogue: 0,0:11:55.87,0:11:58.11,main,Finral,0000,0000,0000,,I'd love to hear what Asta's been up to!
+Dialogue: 0,0:11:58.11,0:12:01.53,main,Finral,0000,0000,0000,,You protected the people of the\Nroyal capital, didn't you? Great job!
+Dialogue: 0,0:12:01.89,0:12:03.57,main,Asta,0000,0000,0000,,Y-Yes! I did!
+Dialogue: 0,0:12:03.57,0:12:06.83,main,Erika,0000,0000,0000,,Oh, you mean the incident the other day?
+Dialogue: 0,0:12:06.83,0:12:08.51,main,Helene,0000,0000,0000,,When the capital was attacked?
+Dialogue: 0,0:12:08.51,0:12:12.08,main,Luck,0000,0000,0000,,Yup! Asta worked really \Nhard and got promoted!
+Dialogue: 0,0:12:12.08,0:12:13.37,main,Both,0000,0000,0000,,Really?
+Dialogue: 0,0:12:13.90,0:12:18.00,italics,Finral,0000,0000,0000,,Hey, this is going well. We just need to keep\Ntaking the conversation in this direction!
+Dialogue: 0,0:12:18.00,0:12:19.42,main,Erika,0000,0000,0000,,You must be amazing!
+Dialogue: 0,0:12:19.42,0:12:24.85,main,Asta,0000,0000,0000,,Well, I didn't manage to protect myself.\NThey put three holes in me.
+Dialogue: 0,0:12:24.85,0:12:27.35,main,Asta,0000,0000,0000,,They hurt like hell!
+Dialogue: 0,0:12:28.51,0:12:30.86,main,Luck,0000,0000,0000,,Hey, it's all squishy!
+Dialogue: 0,0:12:30.86,0:12:34.10,main,Asta,0000,0000,0000,,Ow! Hey, don't poke at them.
+Dialogue: 0,0:12:34.94,0:12:36.34,italics,Finral,0000,0000,0000,,These two are useless!
+Dialogue: 0,0:12:36.34,0:12:38.94,italics,Finral,0000,0000,0000,,I should've known a mixer \Nwouldn't work with these two!
+Dialogue: 0,0:12:38.94,0:12:42.36,italics,Finral,0000,0000,0000,,All of our members suck!
+Dialogue: 0,0:12:42.36,0:12:45.65,main,Asta,0000,0000,0000,,Ow, ow, ow! Come on, stop!
+Dialogue: 0,0:12:45.65,0:12:47.07,main,Luck,0000,0000,0000,,Hey, are you mad?
+Dialogue: 0,0:12:47.07,0:12:47.91,main,Asta,0000,0000,0000,,No, but...
+Dialogue: 0,0:12:55.98,0:12:59.11,italics,Noelle,0000,0000,0000,,I heard them mention a mixer, \Nso I ended up tagging along.
+Dialogue: 0,0:12:59.11,0:13:01.97,italics,Noelle,0000,0000,0000,,But thankfully, it doesn't \Nseem to be going well.
+Dialogue: 0,0:13:02.46,0:13:06.18,main,Noelle,0000,0000,0000,,Like I {\i1}said{\i0}! I don't care \Nwhat happens to Shrimpsta!
+Dialogue: 0,0:13:06.18,0:13:07.55,main,Guy,0000,0000,0000,,Hey!
+Dialogue: 0,0:13:08.39,0:13:09.58,main,Guy,0000,0000,0000,,Hey, waitress!
+Dialogue: 0,0:13:09.58,0:13:10.58,main,Noelle,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:10.58,0:13:11.89,main,Guy,0000,0000,0000,,Get me another beer!
+Dialogue: 0,0:13:11.89,0:13:14.39,main,Noelle,0000,0000,0000,,Get it yourself, insect.
+Dialogue: 0,0:13:14.39,0:13:15.65,main,Guy,0000,0000,0000,,What?
+Dialogue: 0,0:13:15.65,0:13:19.61,main,Sekke,0000,0000,0000,,So you know about that huge incident \Nat the capital the other day?
+Dialogue: 0,0:13:19.61,0:13:23.93,top,Sekke,0000,0000,0000,,I just happened to be on bodyguard duty \Nfor a VIP in the capital that day,
+Dialogue: 0,0:13:23.46,0:13:33.75,sign_19264_241___Lies__,Sign,0000,0000,0000,,{\fad(885,1)}< Lies >
+Dialogue: 0,0:13:23.93,0:13:27.82,top,Sekke,0000,0000,0000,,and just happened to defeat \Na number of the intruders.
+Dialogue: 0,0:13:27.82,0:13:29.43,top,,0000,0000,0000,,Bah-ha!
+Dialogue: 0,0:13:29.82,0:13:31.22,top,Sekke,0000,0000,0000,,They gave me an exceptional promotion
+Dialogue: 0,0:13:31.22,0:13:33.75,top,Sekke,0000,0000,0000,,and bumped me up to \NIntermediate Magic Knight all at once!
+Dialogue: 0,0:13:33.75,0:13:35.62,main,Sekke,0000,0000,0000,,It's a such a hassle, really.
+Dialogue: 0,0:13:35.62,0:13:39.54,top,Sekke,0000,0000,0000,,It's not like I'm even that talented.
+Dialogue: 0,0:13:36.98,0:13:40.98,sign_19264_241___Lies__,Sign,0000,0000,0000,,{\fad(503,536)}< This is true >
+Dialogue: 0,0:13:39.54,0:13:41.21,top,Sekke,0000,0000,0000,,Bah-ha...
+Dialogue: 0,0:13:41.21,0:13:44.01,main,Sekke,0000,0000,0000,,Whoops. Maybe I'm a little intoxicated...
+Dialogue: 0,0:13:44.69,0:13:45.94,main,Sekke,0000,0000,0000,,with myself.
+Dialogue: 0,0:13:48.81,0:13:52.51,main,Sekke,0000,0000,0000,,Oh, and you were looking at a \Ndirty mag during all that, right?
+Dialogue: 0,0:13:52.51,0:13:55.97,main,Hurgh,0000,0000,0000,,Hey, what are you talking \Nabout? Of course not!
+Dialogue: 0,0:13:55.97,0:13:57.19,main,Hurgh,0000,0000,0000,,Shh, shh!
+Dialogue: 0,0:13:57.19,0:14:00.58,main,Herf Herf,0000,0000,0000,,What's wrong? You guys \Nnervous to be around us?
+Dialogue: 0,0:14:01.82,0:14:05.44,main,Sekke,0000,0000,0000,,Bah-ha! You don't have to be so nervous.
+Dialogue: 0,0:14:05.89,0:14:08.51,italics,Girl 1,0000,0000,0000,,He just squeezed lemon all over\Nthe fried chicken without asking first.
+Dialogue: 0,0:14:08.51,0:14:10.74,italics,Girl 2,0000,0000,0000,,At least ask first...
+Dialogue: 0,0:14:10.74,0:14:13.37,italics,Noelle,0000,0000,0000,,What the heck is this mixer from hell?
+Dialogue: 0,0:14:13.37,0:14:16.97,italics,Noelle,0000,0000,0000,,I'm pretty sure I've seen this \Nguy before. He's, um...
+Dialogue: 0,0:14:16.97,0:14:17.80,main,Sekke,0000,0000,0000,,Bah-ha!
+Dialogue: 0,0:14:17.80,0:14:19.00,italics,Noelle,0000,0000,0000,,Right! Bah-ha!
+Dialogue: 0,0:14:19.81,0:14:23.57,main,Sekke,0000,0000,0000,,To think that my bronze magic \Nwould be so formidable.
+Dialogue: 0,0:14:23.57,0:14:26.26,main,Sekke,0000,0000,0000,,I even terrify myself.
+Dialogue: 0,0:14:26.74,0:14:30.35,main,Sekke,0000,0000,0000,,You there, waitress! Get me another drink!
+Dialogue: 0,0:14:30.35,0:14:31.64,main,Sekke,0000,0000,0000,,Bah-ha!
+Dialogue: 0,0:14:30.35,0:14:31.64,main,Hurgh,0000,0000,0000,,Hurgh!
+Dialogue: 0,0:14:30.35,0:14:31.64,top,Herf Herf,0000,0000,0000,,Herf herf!
+Dialogue: 0,0:14:32.01,0:14:33.26,italics,,0000,0000,0000,,Nice!
+Dialogue: 0,0:14:34.89,0:14:38.60,main,Luck,0000,0000,0000,,Oh, so that's the kind of magic \Nyou use when you cut hair.
+Dialogue: 0,0:14:38.60,0:14:41.61,main,Erika,0000,0000,0000,,Yup. I just go like this.
+Dialogue: 0,0:14:42.81,0:14:47.61,main,Luck,0000,0000,0000,,It doesn't take much magic, but you \Nneed really good control! Show me more!
+Dialogue: 0,0:14:47.61,0:14:50.38,main,Erika,0000,0000,0000,,Huh? Oh, sure...
+Dialogue: 0,0:14:50.38,0:14:52.13,italics,Erika,0000,0000,0000,,His eyes are so pure.
+Dialogue: 0,0:14:52.13,0:14:55.17,italics,Erika,0000,0000,0000,,He has such a cute smile,\Nbut there's danger behind it.
+Dialogue: 0,0:14:55.17,0:14:57.84,italics,Erika,0000,0000,0000,,I think I might like that gap \Nmore than I want to admit.
+Dialogue: 0,0:14:57.84,0:15:01.37,italics,Erika,0000,0000,0000,,Crap... I think I'm starting \Nto like bad boys.
+Dialogue: 0,0:15:01.74,0:15:04.50,main,Erika,0000,0000,0000,,Hey, could you show me your magic, too, Luck?
+Dialogue: 0,0:15:04.50,0:15:08.19,main,Luck,0000,0000,0000,,Sure! It's a bit cramped\Nin here, so let's go outside.
+Dialogue: 0,0:15:08.19,0:15:09.33,main,Erika,0000,0000,0000,,Okay!
+Dialogue: 0,0:15:12.35,0:15:14.77,italics,Finral,0000,0000,0000,,Well done, Luck!
+Dialogue: 0,0:15:14.77,0:15:18.31,main,Finral,0000,0000,0000,,And the sunrise looks really \Nbeautiful from there.
+Dialogue: 0,0:15:18.75,0:15:20.05,main,Helene,0000,0000,0000,,Really?
+Dialogue: 0,0:15:20.05,0:15:23.06,main,Finral,0000,0000,0000,,I'll take you there with my \Nspatial magic sometime.
+Dialogue: 0,0:15:23.06,0:15:24.47,main,Finral,0000,0000,0000,,Want to go camping with me?
+Dialogue: 0,0:15:24.47,0:15:26.19,main,Helene,0000,0000,0000,,I think I might like that.
+Dialogue: 0,0:15:26.19,0:15:29.69,main,Finral,0000,0000,0000,,Hey, want another drink? Excuse me,\Ncould we get another drink?
+Dialogue: 0,0:15:30.01,0:15:34.45,italics,Helene,0000,0000,0000,,He's a bit gaudy and not really my type,\Nbut he's the best out of the three.
+Dialogue: 0,0:15:34.45,0:15:37.49,italics,Helene,0000,0000,0000,,He seems like a noble, and spatial magic\Nwould be really handy.
+Dialogue: 0,0:15:37.49,0:15:38.95,italics,Helene,0000,0000,0000,,Plus, he's considerate and kind.
+Dialogue: 0,0:15:38.95,0:15:41.66,main,Finral,0000,0000,0000,,Say, want to step out to the patio?
+Dialogue: 0,0:15:41.66,0:15:43.33,main,Helene,0000,0000,0000,,I guess I wouldn't mind.
+Dialogue: 0,0:15:47.34,0:15:49.58,italics,Finral,0000,0000,0000,,I wasn't sure how things \Nwould go for a second,
+Dialogue: 0,0:15:49.58,0:15:52.22,italics,Finral,0000,0000,0000,,but I think things might just work out!
+Dialogue: 0,0:15:55.38,0:15:56.85,italics,Asta,0000,0000,0000,,This is so awkward.
+Dialogue: 0,0:15:56.85,0:15:59.90,italics,Asta,0000,0000,0000,,Why does this lady keep \Nlooking away and down?
+Dialogue: 0,0:15:59.90,0:16:02.23,italics,Asta,0000,0000,0000,,Is she mad? Did I do \Nsomething to make her mad?
+Dialogue: 0,0:16:02.55,0:16:04.53,italics,Asta,0000,0000,0000,,Not good. I need to liven things up.
+Dialogue: 0,0:16:04.53,0:16:06.98,italics,Asta,0000,0000,0000,,I'm not really sure how, \Nbut I have to liven things up!
+Dialogue: 0,0:16:06.98,0:16:08.86,italics,Asta,0000,0000,0000,,Right! It's my turn!
+Dialogue: 0,0:16:08.86,0:16:09.80,main,Asta,0000,0000,0000,,Um...
+Dialogue: 0,0:16:10.82,0:16:13.05,main,Asta,0000,0000,0000,,What's your favorite food?
+Dialogue: 0,0:16:13.05,0:16:14.86,main,Asta,0000,0000,0000,,I love tatoes.
+Dialogue: 0,0:16:16.82,0:16:20.30,main,Rebecca,0000,0000,0000,,You don't have to force yourself \Nto make small talk. This is dumb.
+Dialogue: 0,0:16:21.70,0:16:24.53,main,Rebecca,0000,0000,0000,,Erika told me that I should \Nfind a good guy for the sake
+Dialogue: 0,0:16:24.53,0:16:27.20,main,Rebecca,0000,0000,0000,,of my siblings, so I came along.
+Dialogue: 0,0:16:27.20,0:16:32.80,main,Rebecca,0000,0000,0000,,But this isn't the real me, and I'm \Ntoo worried about my siblings at home.
+Dialogue: 0,0:16:32.80,0:16:35.18,main,Asta,0000,0000,0000,,So you live with your siblings?
+Dialogue: 0,0:16:35.18,0:16:37.54,main,Rebecca,0000,0000,0000,,I have three younger brothers \Nand two younger sisters.
+Dialogue: 0,0:16:37.54,0:16:39.85,main,Asta,0000,0000,0000,,Really? That's nice.
+Dialogue: 0,0:16:39.85,0:16:45.05,main,Asta,0000,0000,0000,,Oh, I have five siblings, too,\Nthough we're not related by blood.
+Dialogue: 0,0:16:45.05,0:16:48.61,main,Asta,0000,0000,0000,,I'm not with them right now,\Nbut they're all a bunch of little brats.
+Dialogue: 0,0:16:49.05,0:16:51.94,main,Asta,0000,0000,0000,,They annoyed me sometimes, \Nbut we had so much fun.
+Dialogue: 0,0:16:53.45,0:16:56.22,main,Asta,0000,0000,0000,,We used to all sleep in the same bed.
+Dialogue: 0,0:16:56.22,0:17:00.55,main,Asta,0000,0000,0000,,Now that I'm in the Magic Knights, I get \Nmy own room, so it's a little easier,
+Dialogue: 0,0:17:00.55,0:17:04.46,main,Asta,0000,0000,0000,,but not having those fidgety little brats \Nsleeping next to me gets a bit lonely, too.
+Dialogue: 0,0:17:04.46,0:17:08.49,main,Rebecca,0000,0000,0000,,Yeah! They can be a pain, but it \Ngets lonely when they're not around!
+Dialogue: 0,0:17:08.49,0:17:11.91,main,Asta,0000,0000,0000,,Exactly! And you can act like a \Ndork in front of your friends,
+Dialogue: 0,0:17:11.91,0:17:14.22,main,Asta,0000,0000,0000,,but you always want to impress your siblings!
+Dialogue: 0,0:17:15.10,0:17:16.16,main,Rebecca,0000,0000,0000,,I totally get that!
+Dialogue: 0,0:17:16.16,0:17:18.61,main,Noelle,0000,0000,0000,,Hey! They're actually having fun?!
+Dialogue: 0,0:17:18.61,0:17:20.54,main,Noelle,0000,0000,0000,,Wh-What the heck's going on?
+Dialogue: 0,0:17:20.54,0:17:22.98,main,Owner,0000,0000,0000,,H-Hey! What do you think you're doing?
+Dialogue: 0,0:17:22.98,0:17:25.13,main,Owner,0000,0000,0000,,You just asked for a job out \Nof the blue, so I hired you,
+Dialogue: 0,0:17:25.13,0:17:27.65,main,Owner,0000,0000,0000,,but then you blew away some customers! \NWho do you think you are?
+Dialogue: 0,0:17:28.05,0:17:29.62,main,Noelle,0000,0000,0000,,Silence, insect.
+Dialogue: 0,0:17:29.62,0:17:30.94,main,Owner,0000,0000,0000,,What?!
+Dialogue: 0,0:17:31.34,0:17:33.99,main,Asta,0000,0000,0000,,Come to think of it, you seem \Nlike a big sister, Rebecca.
+Dialogue: 0,0:17:33.99,0:17:37.99,main,Rebecca,0000,0000,0000,,You definitely don't seem \Nlike the oldest, though.
+Dialogue: 0,0:17:37.99,0:17:41.46,main,Asta,0000,0000,0000,,I have one brother who's the \Nsame age as me named Yuno...
+Dialogue: 0,0:17:41.46,0:17:43.42,main,Drunk,0000,0000,0000,,Well, well...
+Dialogue: 0,0:17:44.79,0:17:50.50,main,Drunk,0000,0000,0000,,You look like you're having fun,\No great Magic Knight.
+Dialogue: 0,0:17:51.95,0:17:53.35,main,Drunk,0000,0000,0000,,Aren't you a little small to be one?
+Dialogue: 0,0:17:53.35,0:17:56.08,main,Drunk,0000,0000,0000,,Are you really a Magic Knight?
+Dialogue: 0,0:17:56.08,0:18:01.77,main,Drunk,0000,0000,0000,,If a little twerp like you got in,\NI could probably get in, too.
+Dialogue: 0,0:18:01.77,0:18:05.50,main,Asta,0000,0000,0000,,Yeah, I'm surprised I made it in, too.
+Dialogue: 0,0:18:05.50,0:18:10.21,main,Drunk,0000,0000,0000,,And being out with a flashy little \Nthing like this? I sure envy you.
+Dialogue: 0,0:18:10.21,0:18:14.25,main,Drunk,0000,0000,0000,,Bet you're desperate to catch yourself \Na Magic Knight, aren't ya, missy?
+Dialogue: 0,0:18:17.53,0:18:20.73,main,Drunk,0000,0000,0000,,Pretty sure I've seen you somewhere before.
+Dialogue: 0,0:18:21.59,0:18:25.12,main,Drunk,0000,0000,0000,,Oh, you're the girl who works \Nat the local restaurant,
+Dialogue: 0,0:18:25.12,0:18:29.12,main,Drunk,0000,0000,0000,,always carrying a kid on your back and\Nworking until you're drenched in sweat.
+Dialogue: 0,0:18:31.43,0:18:35.82,main,Drunk,0000,0000,0000,,Are all those brats yours? That must \Nmean your man walked out on you.
+Dialogue: 0,0:18:35.82,0:18:37.51,main,Rebecca,0000,0000,0000,,No! That was my brother!
+Dialogue: 0,0:18:37.51,0:18:40.58,main,Drunk,0000,0000,0000,,Well, then, of course you'd like \Nto get yourself a Magic Knight
+Dialogue: 0,0:18:40.58,0:18:42.72,main,Drunk,0000,0000,0000,,and enjoy the easy life.
+Dialogue: 0,0:18:42.72,0:18:45.43,main,Drunk,0000,0000,0000,,If you want a man that much,
+Dialogue: 0,0:18:45.43,0:18:47.93,main,Drunk,0000,0000,0000,,come hang out with me.
+Dialogue: 0,0:18:47.93,0:18:49.77,main,Rebecca,0000,0000,0000,,Hey! Let go of me!
+Dialogue: 0,0:18:52.31,0:18:56.48,main,Asta,0000,0000,0000,,I don't know what your deal is, mister, \Nbut don't judge people by their appearances!
+Dialogue: 0,0:18:56.48,0:18:59.49,main,Asta,0000,0000,0000,,You don't know anything about her, do you?
+Dialogue: 0,0:18:59.95,0:19:01.93,main,Drunk,0000,0000,0000,,Ooh, scary!
+Dialogue: 0,0:19:01.93,0:19:07.25,main,Drunk,0000,0000,0000,,What kind of amazing magic are you \Ngonna show me, widdle Magic Knight?
+Dialogue: 0,0:19:07.67,0:19:09.71,main,Asta,0000,0000,0000,,I can't use magic.
+Dialogue: 0,0:19:09.71,0:19:13.53,main,Drunk,0000,0000,0000,,What? A Magic Knight that can't use magic?
+Dialogue: 0,0:19:13.53,0:19:15.69,main,Drunk,0000,0000,0000,,What kind of lousy joke is that?
+Dialogue: 0,0:19:16.75,0:19:17.71,main,Asta,0000,0000,0000,,But...
+Dialogue: 0,0:19:18.09,0:19:19.54,main,Asta,0000,0000,0000,,Hup!
+Dialogue: 0,0:19:33.15,0:19:34.53,main,Girl 3,0000,0000,0000,,Okay, time to go home.
+Dialogue: 0,0:19:34.53,0:19:36.13,main,Girl 1,0000,0000,0000,,That was a waste of time.
+Dialogue: 0,0:19:36.13,0:19:37.61,main,Girl 2,0000,0000,0000,,Let's get more drinks somewhere else.
+Dialogue: 0,0:19:37.61,0:19:40.23,main,Owner,0000,0000,0000,,H-Hey, sir!
+Dialogue: 0,0:19:40.73,0:19:41.80,main,Rebecca,0000,0000,0000,,Let's get out of here!
+Dialogue: 0,0:19:41.80,0:19:42.86,main,Asta,0000,0000,0000,,H-Huh?
+Dialogue: 0,0:19:41.80,0:19:43.34,main,Owner,0000,0000,0000,,Hey!
+Dialogue: 0,0:19:43.90,0:19:46.13,main,Noelle,0000,0000,0000,,Hey, boss! I quit!
+Dialogue: 0,0:19:46.13,0:19:47.74,main,Owner,0000,0000,0000,,What?! Hey!
+Dialogue: 0,0:20:00.27,0:20:03.15,main,Rebecca,0000,0000,0000,,Thanks, Asta. I feel so much better!
+Dialogue: 0,0:20:03.15,0:20:06.39,main,Asta,0000,0000,0000,,Nah. Sorry for ruining the mixer.
+Dialogue: 0,0:20:06.39,0:20:08.02,main,Rebecca,0000,0000,0000,,It's fine.
+Dialogue: 0,0:20:12.03,0:20:15.43,italics,Rebecca,0000,0000,0000,,He's a bit short, but he's actually...
+Dialogue: 0,0:20:18.33,0:20:24.28,main,Rebecca,0000,0000,0000,,Hey, Asta... D-Do you have \Nanyone that you like?
+Dialogue: 0,0:20:24.28,0:20:26.78,main,Asta,0000,0000,0000,,Yup! There's somebody \NI've got my heart set on!
+Dialogue: 0,0:20:26.78,0:20:28.33,main,Noelle,0000,0000,0000,,What?!
+Dialogue: 0,0:20:29.62,0:20:31.05,main,Rebecca,0000,0000,0000,,I see.
+Dialogue: 0,0:20:31.05,0:20:32.86,main,Rebecca,0000,0000,0000,,I'm sure she's a wonderful person.
+Dialogue: 0,0:20:32.86,0:20:34.22,main,Asta,0000,0000,0000,,She is! We're from the same—
+Dialogue: 0,0:20:34.22,0:20:35.33,main,Rebecca,0000,0000,0000,,I wish you both the best.
+Dialogue: 0,0:20:36.23,0:20:37.67,main,,0000,0000,0000,,Thanks!
+Dialogue: 0,0:20:37.67,0:20:40.18,main,Rebecca,0000,0000,0000,,Hey, come by my restaurant sometime.
+Dialogue: 0,0:20:40.18,0:20:41.70,main,Rebecca,0000,0000,0000,,You can play with my siblings.
+Dialogue: 0,0:20:41.70,0:20:43.02,main,Asta,0000,0000,0000,,I will!
+Dialogue: 0,0:20:43.02,0:20:44.23,main,Noelle,0000,0000,0000,,"Same"?
+Dialogue: 0,0:20:45.68,0:20:53.51,italics,Noelle,0000,0000,0000,,The same squad?! Then... could... \Ncould that mean... mean m-m-m-me...
+Dialogue: 0,0:20:53.51,0:20:56.94,italics,Noelle,0000,0000,0000,,No! No, no, no! And what if it is?!
+Dialogue: 0,0:20:56.94,0:21:01.23,italics,Noelle,0000,0000,0000,,It's not like I th-think... anything... anything of...
+Dialogue: 0,0:21:03.49,0:21:06.53,italics,Asta,0000,0000,0000,,Sister, we spent so many \Nyears together in Hage.
+Dialogue: 0,0:21:06.53,0:21:09.50,italics,Asta,0000,0000,0000,,One day, I'll become the \NWizard King and come for you!
+Dialogue: 0,0:21:09.50,0:21:11.87,italics,Asta,0000,0000,0000,,Please marry me then!
+Dialogue: 0,0:21:12.47,0:21:15.74,italics,Rebecca,0000,0000,0000,,Just because I'm supporting him \Ndoesn't mean I'm going to give up.
+Dialogue: 0,0:21:17.26,0:21:20.54,main,Asta,0000,0000,0000,,By the way, what's the \Npoint of a mixer, anyway?
+Dialogue: 0,0:21:20.54,0:21:21.84,main,Rebecca,0000,0000,0000,,What?!
+Dialogue: 0,0:21:21.84,0:21:23.38,main,Noelle,0000,0000,0000,,What?!
+Dialogue: 0,0:21:24.97,0:21:29.46,main,Erika,0000,0000,0000,,Apparently he threw some drunkard to \Nthe ground. Black Bulls are so violent!
+Dialogue: 0,0:21:29.46,0:21:30.93,main,Helene,0000,0000,0000,,Right? Let's go home!
+Dialogue: 0,0:21:33.19,0:21:34.30,main,Finral,0000,0000,0000,,She shot me down...
+Dialogue: 0,0:23:05.90,0:23:10.36,sign_33083_276_Petit_Clover_,Sign,0000,0000,0000,,{\fad(1,520)}Pe{\c&H3BC020&}t{\c&HE2AF0F&}i{\c&H3BC020&}t C{\c&HE2AF0F&}l{\c&H3BC020&}o{\c&H0E42D4&}ve{\c&H3BC020&}r
+Dialogue: 0,0:23:06.85,0:23:09.81,main,All,0000,0000,0000,,Petit Clover!
+Dialogue: 0,0:23:09.86,0:23:13.87,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}If Gordon, Grey, and Sekke\NWent to a Mixer Together
+Dialogue: 0,0:23:10.47,0:23:13.87,main,Gordon,0000,0000,0000,,If Gordon, Grey, and Sekke \NWent to a Mixer Together.
+Dialogue: 0,0:23:10.47,0:23:13.87,top,Sekke,0000,0000,0000,,Bah-ha! Bah-ha! Bah-ha-ha-haha!
+Dialogue: 0,0:23:16.22,0:23:17.55,main,Helene,0000,0000,0000,,I'm Helene.
+Dialogue: 0,0:23:17.55,0:23:18.87,main,Erika,0000,0000,0000,,I'm Erika.
+Dialogue: 0,0:23:18.87,0:23:20.14,main,Gordon,0000,0000,0000,,I'm Gordon.
+Dialogue: 0,0:23:20.14,0:23:22.96,main,Gordon,0000,0000,0000,,I'm so happy to be at a mixer \Nwith people as cute as you two.
+Dialogue: 0,0:23:22.96,0:23:26.13,main,Gordon,0000,0000,0000,,Will you be my friend? You will? Thanks!
+Dialogue: 0,0:23:25.15,0:23:26.13,main,Sekke,0000,0000,0000,,Bah-ha!
+Dialogue: 0,0:23:26.13,0:23:30.38,main,Gordon,0000,0000,0000,,Could we exchange contact info? \NI'll write you a letter.
+Dialogue: 0,0:23:29.26,0:23:30.38,main,Sekke,0000,0000,0000,,Bah-ha-ha!
+Dialogue: 0,0:23:32.55,0:23:34.39,main,Sekke,0000,0000,0000,,Bah-ha-ha-ha-ha!
+Dialogue: 0,0:23:35.66,0:23:37.29,italics,Both,0000,0000,0000,,I want to go home.
+Dialogue: 0,0:23:39.34,0:23:40.94,main,Asta,0000,0000,0000,,I'm going to become the Wizard King!
+Dialogue: 0,0:23:40.94,0:23:42.52,main,Asta,0000,0000,0000,,I'm not going to lose to anyone!
+Dialogue: 0,0:23:42.52,0:23:45.73,main,Asta,0000,0000,0000,,I'll prove that even peasants \Ncan move up the ranks!
+Dialogue: 0,0:23:46.20,0:23:49.01,main,Asta,0000,0000,0000,,{\i1}Black Clover{\i0}, Page 29: "Path."
+Dialogue: 0,0:23:47.23,0:23:55.00,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 29\N\N{\fs18}Path
+Dialogue: 0,0:23:49.01,0:23:53.74,main,Asta,0000,0000,0000,,Not yet! Not yet! Not giving up is my magic!

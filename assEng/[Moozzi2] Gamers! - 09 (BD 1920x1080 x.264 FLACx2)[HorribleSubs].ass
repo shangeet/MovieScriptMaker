@@ -1,0 +1,441 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Signs,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Main Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Black Signs,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Game Club,Open Sans Semibold,33,&H004F4F9F,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Flashback Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: sign_582_5_Nobe_s_Game_Room,Open Sans Semibold,36,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,27,27,13,1
+Style: sign_582_6_Home_________Abo,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,13,13,191,1
+Style: sign_582_7_Freeware_games_b,Open Sans Semibold,27,&H00000000,&H000000FF,&H00F9EBEA,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,291,27,255,1
+Style: sign_873_11_Subject__Review_,Open Sans Semibold,30,&H00000000,&H000000FF,&H00CFFEFF,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,75,27,29,1
+Style: sign_873_12_Posted_by__Redo_,Open Sans Semibold,27,&H00000000,&H000000FF,&H00F4FFF6,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,124,27,168,1
+Style: sign_873_13_Subject__Re__Rev,Open Sans Semibold,29,&H00000000,&H000000FF,&H00F4FFF6,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,212,27,265,1
+Style: sign_873_14_Posted_by__Rin__,Open Sans Semibold,27,&H00000000,&H000000FF,&H00F4FFF6,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,249,27,307,1
+Style: sign_929_15_Posted_by__Shiru,Open Sans Semibold,29,&H00000000,&H000000FF,&H00F4FFF6,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,211,27,60,1
+Style: sign_929_16_Why_did_you_publ,Open Sans Semibold,27,&H00000000,&H000000FF,&H00F4FFF6,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,227,27,171,1
+Style: sign_929_17_Posted_by__Mikot,Open Sans Semibold,29,&H00000000,&H000000FF,&H00F4FFF6,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,212,27,273,1
+Style: sign_929_18_It_s_boring_,Open Sans Semibold,27,&H00000000,&H000000FF,&H00F4FFF6,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,251,27,312,1
+Style: sign_1151_23_Posted_by__Yama_,Open Sans Semibold,36,&H00000000,&H000000FF,&H00F4FFF6,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,83,27,57,1
+Style: sign_1151_24_I_liked_it__It_s,Open Sans Semibold,33,&H00000000,&H000000FF,&H00F4FFF6,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,160,27,192,1
+Style: sign_6857_65_Subject__Re__Rev,Open Sans Semibold,30,&H00000000,&H000000FF,&H00F8F8F8,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,193,27,11,1
+Style: sign_6857_66_Name__Nobe__Long,Open Sans Semibold,30,&H00000000,&H000000FF,&H00F8F8F8,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,59,27,261,1
+Style: sign_7477_68_Famitsu,Open Sans Semibold,30,&H009E9B9E,&H000000FF,&H005C5060,&H00000000,1,0,0,0,100,100,0,0,1,2,2,8,27,701,25,1
+Style: sign_17604_191_Message_from_Tsu,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,4,40,27,113,1
+Style: sign_25013_292_New__Dating_sims,Open Sans Semibold,30,&H00F88BF9,&H000000FF,&H00FBDBFA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,301,27,228,1
+Style: sign_6857_65_Subject__Re__Name,Open Sans Semibold,30,&H00000000,&H000000FF,&H00F8F8F8,&H00000000,0,0,0,0,100,100,0,0,1,4,0,7,193,27,80,1
+Style: sign_7477_68_Famitsu2,Open Sans Semibold,30,&H00474EC3,&H000000FF,&H00C9E3FB,&H003007B7,1,0,0,0,100,100,0,0,1,2,2,8,27,413,25,1
+Style: sign_25013_292_New,Open Sans Semibold,29,&H002F40DD,&H000000FF,&H00AAE7EB,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,457,191,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:03.95,0:00:08.48,Italics Dialogue,Kelp,0000,0000,0000,,The first time I wrote a game \Nwas back in fourth grade.
+Dialogue: 0,0:00:09.18,0:00:13.70,Italics Dialogue,Kelp,0000,0000,0000,,The creator has fun making the game, \Nand the player laughs.
+Dialogue: 0,0:00:13.70,0:00:18.97,Italics Dialogue,Kelp,0000,0000,0000,,I was completely enamored with \Nthat simple, happy communication.
+Dialogue: 0,0:00:19.96,0:00:24.25,Italics Dialogue,Kelp,0000,0000,0000,,Before I knew it, I was a serious \Nfreeware game developer.
+Dialogue: 0,0:00:24.25,0:00:27.38,sign_582_5_Nobe_s_Game_Room,Text,0000,0000,0000,,Nobe's Game Room
+Dialogue: 0,0:00:24.25,0:00:27.38,sign_582_6_Home_________Abo,Text,0000,0000,0000,,Home             About            Projects            Forum            Contact
+Dialogue: 0,0:00:24.25,0:00:27.38,sign_582_7_Freeware_games_b,Text,0000,0000,0000,,Freeware games by Nobe! \NPlease download and enjoy. \NI appreciate feedback on the forums.
+Dialogue: 0,0:00:25.05,0:00:31.51,Italics Dialogue,Kelp,0000,0000,0000,,But if you ask me if making games \Nwas always fun, the answer is no.
+Dialogue: 0,0:00:32.51,0:00:34.28,Italics Dialogue,Kelp,0000,0000,0000,,I started it as a hobby,
+Dialogue: 0,0:00:34.28,0:00:36.39,Italics Dialogue,Kelp,0000,0000,0000,,but with the chronic pain of creation,
+Dialogue: 0,0:00:35.28,0:00:38.33,sign_873_11_Subject__Review_,Text,0000,0000,0000,,Subject: Review of the new game
+Dialogue: 0,0:00:35.28,0:00:38.33,sign_873_12_Posted_by__Redo_,Text,0000,0000,0000,,Posted by: Redo \N{\c&H1C175B&}Game sucks
+Dialogue: 0,0:00:35.28,0:00:38.33,sign_873_13_Subject__Re__Rev,Text,0000,0000,0000,,Re: Review of the new game
+Dialogue: 0,0:00:35.28,0:00:38.33,sign_873_14_Posted_by__Rin__,Text,0000,0000,0000,,Posted by: Rin \N{\c&H1C175B&}The setting is too weird. It stresses me out.
+Dialogue: 0,0:00:36.39,0:00:38.70,Italics Dialogue,,0000,0000,0000,,and seeing brutal comments,
+Dialogue: 0,0:00:38.70,0:00:39.89,Italics Dialogue,,0000,0000,0000,,I spent days bummed out.
+Dialogue: 0,0:00:38.74,0:00:39.89,sign_929_15_Posted_by__Shiru,Text,0000,0000,0000,,Re: Review of the new game
+Dialogue: 0,0:00:38.74,0:00:39.89,sign_929_16_Why_did_you_publ,Text,0000,0000,0000,,Posted by: Shirura\N{\c&H1C175B&}Why did you publish this?
+Dialogue: 0,0:00:38.74,0:00:39.89,sign_929_17_Posted_by__Mikot,Text,0000,0000,0000,,Re: Review of the new game
+Dialogue: 0,0:00:38.74,0:00:39.89,sign_929_18_It_s_boring_,Text,0000,0000,0000,,Posted by: Mikoto\N{\c&H1C175B&}It's boring.
+Dialogue: 0,0:00:41.01,0:00:45.99,Italics Dialogue,Kelp,0000,0000,0000,,The reason I couldn't stop releasing \Nmore games under the name Nobe
+Dialogue: 0,0:00:46.59,0:00:49.88,Italics Dialogue,,0000,0000,0000,,was because there was \Njust one person who always
+Dialogue: 0,0:00:48.00,0:00:52.61,sign_1151_24_I_liked_it__It_s,Text,0000,0000,0000,,Posted by: Yama-san\N{\c&H1C175B&}I liked it! It's chill, as always!
+Dialogue: 0,0:00:48.00,0:00:52.61,sign_1151_23_Posted_by__Yama_,Text,0000,0000,0000,,Re: Review of the new game
+Dialogue: 0,0:00:49.88,0:00:54.71,Italics Dialogue,,0000,0000,0000,,had the same tastes I did, \Nand kept rooting for me
+Dialogue: 0,0:00:54.71,0:00:57.26,Italics Dialogue,,0000,0000,0000,,with respect and warmth.
+Dialogue: 0,0:01:01.27,0:01:04.30,Main Dialogue,Minikelp,0000,0000,0000,,Onee-chan, your writhing \Ntechnique isn't cute at all.
+Dialogue: 0,0:01:10.50,0:01:11.47,Main Dialogue,Kelp,0000,0000,0000,,Huh?
+Dialogue: 0,0:01:11.47,0:01:15.17,Main Dialogue,Kelp,0000,0000,0000,,Wasn't I playing a board game with \NUehara-san and the others since noon?
+Dialogue: 0,0:01:15.17,0:01:16.30,Main Dialogue,Minikelp,0000,0000,0000,,Yeah.
+Dialogue: 0,0:01:16.30,0:01:18.52,Main Dialogue,Minikelp,0000,0000,0000,,I think they left in the evening.
+Dialogue: 0,0:01:18.88,0:01:21.37,Main Dialogue,Kelp,0000,0000,0000,,Huh? That's weird.
+Dialogue: 0,0:01:21.37,0:01:23.06,Main Dialogue,Kelp,0000,0000,0000,,I don't remember what happened then...
+Dialogue: 0,0:01:30.86,0:01:32.19,Main Dialogue,Kelp,0000,0000,0000,,Hey, Konoha...
+Dialogue: 0,0:01:32.19,0:01:32.91,Main Dialogue,Minikelp,0000,0000,0000,,Yeah?
+Dialogue: 0,0:01:33.48,0:01:38.40,Main Dialogue,Kelp,0000,0000,0000,,I don't really like how, in manga and stuff,\Nthe girl sees the delinquent guy
+Dialogue: 0,0:01:38.40,0:01:42.36,Main Dialogue,,0000,0000,0000,,helping a puppy in the rain,\Nand changes her mind about him
+Dialogue: 0,0:01:42.36,0:01:43.91,Main Dialogue,,0000,0000,0000,,and falls in love.
+Dialogue: 0,0:01:43.91,0:01:45.63,Main Dialogue,Minikelp,0000,0000,0000,,Where'd that come from?
+Dialogue: 0,0:01:45.63,0:01:48.63,Main Dialogue,Minikelp,0000,0000,0000,,I get what you mean, but...
+Dialogue: 0,0:01:48.63,0:01:55.11,Main Dialogue,Kelp,0000,0000,0000,,Of course, I accept that it's just \Na common cliché in storytelling.
+Dialogue: 0,0:01:55.86,0:01:56.63,Main Dialogue,Minikelp,0000,0000,0000,,And?
+Dialogue: 0,0:01:56.63,0:01:58.59,Main Dialogue,Kelp,0000,0000,0000,,B-But...
+Dialogue: 0,0:01:59.19,0:02:03.35,Main Dialogue,,0000,0000,0000,,I think it's cheap to tug at the heartstrings \Nby playing on surprises in your character.
+Dialogue: 0,0:02:03.35,0:02:08.56,Main Dialogue,Kelp,0000,0000,0000,,I-I guess I'm trying to say it's \Nabsolutely not a true feeling.
+Dialogue: 0,0:02:09.10,0:02:11.81,Main Dialogue,Minikelp,0000,0000,0000,,Sorry, Onee-chan, what are you talking about?
+Dialogue: 0,0:02:11.81,0:02:13.05,Main Dialogue,Kelp,0000,0000,0000,,I-I'm saying...
+Dialogue: 0,0:02:13.05,0:02:14.25,Main Dialogue,Kelp,0000,0000,0000,,I...
+Dialogue: 0,0:02:14.25,0:02:19.17,Main Dialogue,Kelp,0000,0000,0000,,I should stick to my position that \NI still absolutely hate him, right?
+Dialogue: 0,0:02:19.17,0:02:20.90,Main Dialogue,Kelp,0000,0000,0000,,I'm not wrong, am I?
+Dialogue: 0,0:02:20.90,0:02:21.55,Main Dialogue,Kelp,0000,0000,0000,,Right?!
+Dialogue: 0,0:02:23.61,0:02:24.86,Main Dialogue,Minikelp,0000,0000,0000,,Sure.
+Dialogue: 0,0:02:24.86,0:02:27.20,Main Dialogue,Minikelp,0000,0000,0000,,I think that's good.
+Dialogue: 0,0:02:27.20,0:02:28.62,Main Dialogue,Kelp,0000,0000,0000,,I know, right?
+Dialogue: 0,0:02:28.62,0:02:29.82,Main Dialogue,Minikelp,0000,0000,0000,,Yeah.
+Dialogue: 0,0:02:29.82,0:02:32.66,Main Dialogue,Minikelp,0000,0000,0000,,I'm confused, but, uh... who is it?
+Dialogue: 0,0:02:32.66,0:02:33.76,Main Dialogue,Kelp,0000,0000,0000,,Yama-san.
+Dialogue: 0,0:02:33.76,0:02:37.84,Main Dialogue,Minikelp,0000,0000,0000,,And I bet he's just acting \Nto make it look like it.
+Dialogue: 0,0:02:37.84,0:02:39.72,Main Dialogue,Kelp,0000,0000,0000,,That's impossible!
+Dialogue: 0,0:02:39.72,0:02:43.24,Main Dialogue,Kelp,0000,0000,0000,,No one talks bad about Yama-san. \NNot even my sister.
+Dialogue: 0,0:02:43.24,0:02:44.43,Main Dialogue,Kelp,0000,0000,0000,,Take it back.
+Dialogue: 0,0:02:44.43,0:02:46.60,Main Dialogue,Minikelp,0000,0000,0000,,I-I'm sorry?
+Dialogue: 0,0:02:46.60,0:02:49.44,Main Dialogue,Minikelp,0000,0000,0000,,Uh... Yama-san is a great person.
+Dialogue: 0,0:02:49.44,0:02:50.77,Main Dialogue,Kelp,0000,0000,0000,,Good.
+Dialogue: 0,0:02:55.64,0:02:57.13,Main Dialogue,Minikelp,0000,0000,0000,,Uh...
+Dialogue: 0,0:02:57.13,0:02:58.90,Main Dialogue,Minikelp,0000,0000,0000,,Onee-chan?
+Dialogue: 0,0:04:45.97,0:04:51.93,sign_6857_65_Subject__Re__Rev,Text,0000,0000,0000,,Subject: Re: Review of the new game
+Dialogue: 0,0:04:45.97,0:04:51.93,sign_6857_65_Subject__Re__Name,Text,0000,0000,0000,,Name: Nobe
+Dialogue: 0,0:04:45.97,0:04:51.93,sign_6857_66_Name__Nobe__Long,Text,0000,0000,0000,,Long time no talk.
+Dialogue: 0,0:05:01.24,0:05:02.91,Main Dialogue,Kelp,0000,0000,0000,,Damn it!
+Dialogue: 0,0:05:11.83,0:05:14.29,sign_7477_68_Famitsu,Text,0000,0000,0000,,Famitsu
+Dialogue: 0,0:05:12.61,0:05:14.29,Main Dialogue,Kelp,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:05:15.78,0:05:17.04,Main Dialogue,Kelp,0000,0000,0000,,Konoha?
+Dialogue: 0,0:05:24.31,0:05:25.67,Main Dialogue,Minikelp,0000,0000,0000,,What, Onee-chan?
+Dialogue: 0,0:05:25.67,0:05:27.07,Main Dialogue,Kelp,0000,0000,0000,,Uh...
+Dialogue: 0,0:05:27.07,0:05:29.51,Main Dialogue,Kelp,0000,0000,0000,,Why are you so out of breath?
+Dialogue: 0,0:05:29.51,0:05:31.28,Main Dialogue,Kelp,0000,0000,0000,,Your face is beet-red.
+Dialogue: 0,0:05:31.28,0:05:34.58,Main Dialogue,Minikelp,0000,0000,0000,,I-I was doing some light exercise.
+Dialogue: 0,0:05:34.58,0:05:35.70,Main Dialogue,Minikelp,0000,0000,0000,,Yeah.
+Dialogue: 0,0:05:35.70,0:05:38.02,Main Dialogue,Minikelp,0000,0000,0000,,Nothing suspicious, of course.
+Dialogue: 0,0:05:38.02,0:05:39.52,Main Dialogue,Minikelp,0000,0000,0000,,Wholesome exercise.
+Dialogue: 0,0:05:39.52,0:05:40.55,Main Dialogue,Kelp,0000,0000,0000,,Okay...
+Dialogue: 0,0:05:40.55,0:05:42.11,Main Dialogue,Minikelp,0000,0000,0000,,So what do you want?
+Dialogue: 0,0:05:42.11,0:05:44.00,Main Dialogue,Kelp,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:05:44.00,0:05:46.24,Main Dialogue,Kelp,0000,0000,0000,,I'm going to the convenience store.
+Dialogue: 0,0:05:46.24,0:05:47.43,Main Dialogue,Kelp,0000,0000,0000,,Is there anything you want?
+Dialogue: 0,0:05:47.43,0:05:49.39,Main Dialogue,Minikelp,0000,0000,0000,,Oh, you're going to buy {\i1}Famitsu{\i0}.
+Dialogue: 0,0:05:49.39,0:05:50.82,Main Dialogue,Kelp,0000,0000,0000,,Y-You got me!
+Dialogue: 0,0:05:53.43,0:05:57.14,Main Dialogue,Minikelp,0000,0000,0000,,Oh, yeah. Onee-chan, can I borrow your PC?
+Dialogue: 0,0:05:57.14,0:05:58.58,Main Dialogue,Kelp,0000,0000,0000,,Sure, but why?
+Dialogue: 0,0:05:58.88,0:06:03.60,Main Dialogue,Minikelp,0000,0000,0000,,My PC doesn't seem to have the \Nspecs I need to watch this video.
+Dialogue: 0,0:06:03.60,0:06:04.84,Main Dialogue,Kelp,0000,0000,0000,,I see.
+Dialogue: 0,0:06:04.84,0:06:07.00,Main Dialogue,Kelp,0000,0000,0000,,By the way, what are you watching?
+Dialogue: 0,0:06:08.17,0:06:11.85,Main Dialogue,Minikelp,0000,0000,0000,,The opening movie of the \Nnew BUILD game that I lov—
+Dialogue: 0,0:06:11.85,0:06:12.81,Main Dialogue,Kelp,0000,0000,0000,,Buil...?
+Dialogue: 0,0:06:12.81,0:06:16.27,Main Dialogue,Minikelp,0000,0000,0000,,I-I want to watch my favorite band's \Nnew music video! Okay?
+Dialogue: 0,0:06:16.70,0:06:18.46,Main Dialogue,Minikelp,0000,0000,0000,,J-Just go already.
+Dialogue: 0,0:06:18.46,0:06:19.36,Main Dialogue,Kelp,0000,0000,0000,,Huh?
+Dialogue: 0,0:06:19.36,0:06:21.41,Main Dialogue,Kelp,0000,0000,0000,,Okay, See you.
+Dialogue: 0,0:06:48.65,0:06:50.06,Main Dialogue,A,0000,0000,0000,,Welcome.
+Dialogue: 0,0:06:50.43,0:06:53.76,sign_7477_68_Famitsu2,Text,0000,0000,0000,,Famitsu
+Dialogue: 0,0:07:00.61,0:07:03.02,Main Dialogue,Kelp,0000,0000,0000,,I always knew you were creepy.
+Dialogue: 0,0:07:03.02,0:07:05.02,Main Dialogue,Kelp,0000,0000,0000,,So you {\i1}are{\i0} a stalker type.
+Dialogue: 0,0:07:05.02,0:07:07.06,Main Dialogue,Katie,0000,0000,0000,,I'm not, okay?
+Dialogue: 0,0:07:07.35,0:07:09.86,Main Dialogue,Katie,0000,0000,0000,,But thanks for the freezie.
+Dialogue: 0,0:07:09.86,0:07:11.88,Main Dialogue,Kelp,0000,0000,0000,,Don't get the wrong idea.
+Dialogue: 0,0:07:11.88,0:07:13.91,Main Dialogue,Kelp,0000,0000,0000,,It's just that I wanted one.
+Dialogue: 0,0:07:13.91,0:07:16.45,Main Dialogue,Kelp,0000,0000,0000,,I'm just sharing because \NI didn't want the whole thing.
+Dialogue: 0,0:07:17.10,0:07:18.21,Main Dialogue,Katie,0000,0000,0000,,I know what you mean.
+Dialogue: 0,0:07:18.21,0:07:21.62,Main Dialogue,Katie,0000,0000,0000,,You feel weirdly guilty when you \Neat the whole thing by yourself.
+Dialogue: 0,0:07:22.36,0:07:23.51,Main Dialogue,Kelp,0000,0000,0000,,Right?
+Dialogue: 0,0:07:23.51,0:07:25.63,Main Dialogue,Kelp,0000,0000,0000,,Uh... Shut up, stalker.
+Dialogue: 0,0:07:25.63,0:07:27.82,Main Dialogue,Katie,0000,0000,0000,,I'm not! It's just...
+Dialogue: 0,0:07:27.82,0:07:30.23,Main Dialogue,Katie,0000,0000,0000,,I forgot my transit pass.
+Dialogue: 0,0:07:30.23,0:07:32.26,Main Dialogue,Katie,0000,0000,0000,,I was just on my way to go get it.
+Dialogue: 0,0:07:32.55,0:07:34.74,Main Dialogue,Kelp,0000,0000,0000,,And that's how you ran into me?
+Dialogue: 0,0:07:34.74,0:07:37.68,Main Dialogue,Katie,0000,0000,0000,,I mean, I get that it's weird for me to go
+Dialogue: 0,0:07:37.68,0:07:39.92,Main Dialogue,,0000,0000,0000,,to a girl's place by myself out of the blue.
+Dialogue: 0,0:07:39.92,0:07:42.45,Main Dialogue,Katie,0000,0000,0000,,But let me make an excuse.
+Dialogue: 0,0:07:42.45,0:07:44.37,Main Dialogue,Kelp,0000,0000,0000,,Depending on what it is, \NI may call the police.
+Dialogue: 0,0:07:44.37,0:07:46.74,Main Dialogue,Katie,0000,0000,0000,,Is your phone turned off, Chiaki?
+Dialogue: 0,0:07:47.03,0:07:48.03,Main Dialogue,Kelp,0000,0000,0000,,Huh?
+Dialogue: 0,0:07:52.93,0:07:56.55,Main Dialogue,Katie,0000,0000,0000,,Who forgets to charge their \Nphone in this day and age?
+Dialogue: 0,0:07:56.55,0:07:57.99,Main Dialogue,Katie,0000,0000,0000,,Don't you play games or anything?
+Dialogue: 0,0:07:58.42,0:08:00.22,Main Dialogue,Kelp,0000,0000,0000,,Huh? Uh...
+Dialogue: 0,0:08:00.22,0:08:02.96,Main Dialogue,Kelp,0000,0000,0000,,N-No, I mean, how should I put it...
+Dialogue: 0,0:08:03.25,0:08:07.40,Main Dialogue,Kelp,0000,0000,0000,,G-Girls like me get asked out by \Na ton of boys during the summer.
+Dialogue: 0,0:08:07.40,0:08:09.61,Main Dialogue,Kelp,0000,0000,0000,,It makes it hard to check my phone.
+Dialogue: 0,0:08:09.61,0:08:11.55,Main Dialogue,Katie,0000,0000,0000,,You couldn't have come up \Nwith a worse excuse.
+Dialogue: 0,0:08:11.91,0:08:15.45,Main Dialogue,Kelp,0000,0000,0000,,Wh-What do you know about me, Keita?
+Dialogue: 0,0:08:15.45,0:08:16.40,Main Dialogue,Katie,0000,0000,0000,,Your body.
+Dialogue: 0,0:08:19.42,0:08:22.23,Main Dialogue,Katie,0000,0000,0000,,You don't have the body of someone \Nwho's out doing stuff all summer.
+Dialogue: 0,0:08:22.23,0:08:24.07,Main Dialogue,Katie,0000,0000,0000,,Look at your skin.
+Dialogue: 0,0:08:24.51,0:08:27.23,Main Dialogue,Kelp,0000,0000,0000,,Wh-What gives you the right to say that?
+Dialogue: 0,0:08:28.61,0:08:33.10,Main Dialogue,Katie,0000,0000,0000,,Because I sport the same \Nkind of skin, I guess.
+Dialogue: 0,0:08:34.65,0:08:36.35,Main Dialogue,Kelp,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:08:39.10,0:08:43.25,Main Dialogue,Kelp,0000,0000,0000,,Now that you mention it,\NI think I saw your card wallet.
+Dialogue: 0,0:08:43.25,0:08:44.43,Main Dialogue,Katie,0000,0000,0000,,Yeah?
+Dialogue: 0,0:08:44.43,0:08:45.85,Main Dialogue,Katie,0000,0000,0000,,Thank goodness.
+Dialogue: 0,0:08:46.36,0:08:49.25,Main Dialogue,Katie,0000,0000,0000,,I'm really sorry for \Ncoming uninvited, though.
+Dialogue: 0,0:08:49.25,0:08:54.51,Main Dialogue,Kelp,0000,0000,0000,,But don't you just spend all summer \Nplaying games at home?
+Dialogue: 0,0:08:54.51,0:08:57.90,Main Dialogue,Katie,0000,0000,0000,,Well, yeah, but I get the feeling
+Dialogue: 0,0:08:57.90,0:09:01.47,Main Dialogue,,0000,0000,0000,,this summer break is going \Nto be different from usual.
+Dialogue: 0,0:09:01.47,0:09:03.56,Italics Dialogue,Kelp,0000,0000,0000,,Different from usual?
+Dialogue: 0,0:09:09.48,0:09:15.02,Main Dialogue,Katie,0000,0000,0000,,Well, not that we have any specific \Ndate plans or anything yet.
+Dialogue: 0,0:09:15.02,0:09:16.44,Main Dialogue,Kelp,0000,0000,0000,,Really?
+Dialogue: 0,0:09:16.44,0:09:18.70,Main Dialogue,Kelp,0000,0000,0000,,You're so self-conscious. It's creepy.
+Dialogue: 0,0:09:18.70,0:09:20.41,Main Dialogue,Katie,0000,0000,0000,,Sh-Shut up.
+Dialogue: 0,0:09:21.79,0:09:25.37,Main Dialogue,Katie,0000,0000,0000,,Although it's true that \NI didn't need it just now.
+Dialogue: 0,0:09:25.37,0:09:29.67,Main Dialogue,Katie,0000,0000,0000,,But I guess I acted outside \Nof my comfort zone
+Dialogue: 0,0:09:29.67,0:09:31.80,Main Dialogue,,0000,0000,0000,,because I wanted to change myself.
+Dialogue: 0,0:09:32.43,0:09:36.26,Main Dialogue,Katie,0000,0000,0000,,I wanted to gather my courage \Nand get a little closer.
+Dialogue: 0,0:09:37.15,0:09:38.24,Main Dialogue,Katie,0000,0000,0000,,To Tendou-san.
+Dialogue: 0,0:09:40.39,0:09:47.23,Main Dialogue,Katie,0000,0000,0000,,I mean... I know people like me tend to \Nmake excuses out of the smallest things.
+Dialogue: 0,0:09:47.23,0:09:50.46,Main Dialogue,Katie,0000,0000,0000,,Even I think it's pathetic.
+Dialogue: 0,0:09:53.82,0:09:58.66,Main Dialogue,Katie,0000,0000,0000,,Oh, yeah. I remember I gathered my courage \Nto come talk to you before, too.
+Dialogue: 0,0:10:00.05,0:10:03.06,Main Dialogue,Kelp,0000,0000,0000,,You seemed pretty awkward that time, too.
+Dialogue: 0,0:10:03.06,0:10:06.61,Main Dialogue,Katie,0000,0000,0000,,You know how hard it is to talk to the \Nopposite sex when you've never had contact
+Dialogue: 0,0:10:06.61,0:10:07.80,Main Dialogue,Katie,0000,0000,0000,,with them before, right?
+Dialogue: 0,0:10:07.80,0:10:11.67,Main Dialogue,Kelp,0000,0000,0000,,I get chills just thinking about it.
+Dialogue: 0,0:10:11.67,0:10:13.09,Main Dialogue,Katie,0000,0000,0000,,See?
+Dialogue: 0,0:10:13.09,0:10:15.84,Main Dialogue,Katie,0000,0000,0000,,Although I'm glad it was you, Chiaki.
+Dialogue: 0,0:10:16.66,0:10:19.68,Main Dialogue,Katie,0000,0000,0000,,When I saw you having so much \Nfun playing {\i1}Aegis VIII{\i0},
+Dialogue: 0,0:10:19.68,0:10:22.39,Main Dialogue,Katie,0000,0000,0000,,I totally forgot how nervous I was.
+Dialogue: 0,0:10:22.39,0:10:25.12,Main Dialogue,Katie,0000,0000,0000,,I was actually really happy.
+Dialogue: 0,0:10:25.12,0:10:27.73,Main Dialogue,Katie,0000,0000,0000,,It was like I'd found a true friend.
+Dialogue: 0,0:10:28.19,0:10:31.22,Main Dialogue,Katie,0000,0000,0000,,Although I guess that was a misunderstanding.
+Dialogue: 0,0:10:32.06,0:10:33.02,Main Dialogue,Katie,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:10:33.86,0:10:36.99,Main Dialogue,Kelp,0000,0000,0000,,W-Well, that was a total nuisance to me.
+Dialogue: 0,0:10:36.99,0:10:39.89,Main Dialogue,Kelp,0000,0000,0000,,Have you thought about \Nhow it feels, as a girl,
+Dialogue: 0,0:10:39.89,0:10:41.91,Main Dialogue,,0000,0000,0000,,to be eyed by a gross guy \Nwith heavy breathing?
+Dialogue: 0,0:10:43.18,0:10:45.71,Main Dialogue,Katie,0000,0000,0000,,You just shot down my tiny victory.
+Dialogue: 0,0:10:45.71,0:10:47.04,Main Dialogue,Katie,0000,0000,0000,,You're trying to break me, aren't you?
+Dialogue: 0,0:10:47.04,0:10:52.55,Main Dialogue,Kelp,0000,0000,0000,,It meant I got to meet Uehara-san, \Nthough, so I can forgive you.
+Dialogue: 0,0:11:07.29,0:11:09.23,Main Dialogue,Katie,0000,0000,0000,,Th-Thanks for having me.
+Dialogue: 0,0:11:09.23,0:11:10.69,Main Dialogue,Kelp,0000,0000,0000,,Have a seat.
+Dialogue: 0,0:11:10.69,0:11:12.79,Main Dialogue,Katie,0000,0000,0000,,Oh, it's fine. I'll be leaving right away.
+Dialogue: 0,0:11:12.79,0:11:14.46,Main Dialogue,Kelp,0000,0000,0000,,Why don't you have some...
+Dialogue: 0,0:11:17.69,0:11:20.43,Main Dialogue,Kelp,0000,0000,0000,,Why don't you have some tea first?
+Dialogue: 0,0:11:20.43,0:11:21.41,Main Dialogue,Katie,0000,0000,0000,,Thanks.
+Dialogue: 0,0:11:21.41,0:11:22.58,Main Dialogue,Katie,0000,0000,0000,,I feel kind of bad.
+Dialogue: 0,0:11:22.58,0:11:24.62,Main Dialogue,Kelp,0000,0000,0000,,Just make yourself at home.
+Dialogue: 0,0:11:32.92,0:11:35.50,Main Dialogue,Kelp,0000,0000,0000,,D-Don't look, pervert!
+Dialogue: 0,0:11:35.50,0:11:36.27,Main Dialogue,Katie,0000,0000,0000,,Sorry.
+Dialogue: 0,0:11:36.27,0:11:38.45,Main Dialogue,Katie,0000,0000,0000,,I guess I should get going.
+Dialogue: 0,0:11:38.45,0:11:40.65,Main Dialogue,Kelp,0000,0000,0000,,Actually, I'll allow it. \NView to your heart's content.
+Dialogue: 0,0:11:40.65,0:11:42.06,Main Dialogue,Katie,0000,0000,0000,,Why the change of heart?!
+Dialogue: 0,0:11:42.06,0:11:42.89,Main Dialogue,Katie,0000,0000,0000,,I won't!
+Dialogue: 0,0:11:45.03,0:11:49.85,Main Dialogue,Kelp,0000,0000,0000,,Oh, i-is it okay if I go to \Nmy room to charge my phone?
+Dialogue: 0,0:11:49.85,0:11:51.31,Main Dialogue,Katie,0000,0000,0000,,In that case, I really should...
+Dialogue: 0,0:11:51.31,0:11:53.39,Main Dialogue,Kelp,0000,0000,0000,,J-Just give me a moment.
+Dialogue: 0,0:11:53.39,0:11:55.40,Main Dialogue,Kelp,0000,0000,0000,,I'll be right back.
+Dialogue: 0,0:12:14.21,0:12:16.86,sign_17604_191_Message_from_Tsu,Text,0000,0000,0000,,Message from Tsucchie \NLet's do this \N\NMessage from Tsucchie \NThanks \N\NMessage from Tsucchie \NI appreciate it
+Dialogue: 0,0:12:18.97,0:12:22.43,sign_17604_191_Message_from_Tsu,,0000,0000,0000,,Message from Tsucchie \NLet's do this \N\NMessage from Tsucchie \NThanks \N\NMessage from Tsucchie \NI appreciate it
+Dialogue: 0,0:12:24.10,0:12:25.25,Main Dialogue,Kelp,0000,0000,0000,,Keita...
+Dialogue: 0,0:12:25.25,0:12:26.35,Main Dialogue,Katie,0000,0000,0000,,Chiaki?
+Dialogue: 0,0:12:26.35,0:12:27.66,Main Dialogue,Kelp,0000,0000,0000,,Y-Yes?
+Dialogue: 0,0:12:28.37,0:12:30.26,Main Dialogue,Katie,0000,0000,0000,,It just started raining.
+Dialogue: 0,0:12:30.26,0:12:32.59,Main Dialogue,Katie,0000,0000,0000,,You might want to bring your laundry inside.
+Dialogue: 0,0:12:32.59,0:12:34.31,Main Dialogue,Kelp,0000,0000,0000,,Um... Got it.
+Dialogue: 0,0:12:35.90,0:12:36.56,sign_582_5_Nobe_s_Game_Room,Text,0000,0000,0000,,Nobe's Game Room
+Dialogue: 0,0:12:35.90,0:12:36.56,sign_582_6_Home_________Abo,Text,0000,0000,0000,,Home         About        Projects        Forum        Contact
+Dialogue: 0,0:12:43.97,0:12:45.62,Main Dialogue,Katie,0000,0000,0000,,A-Are you okay?
+Dialogue: 0,0:12:48.39,0:12:49.39,Main Dialogue,Kelp,0000,0000,0000,,No!
+Dialogue: 0,0:12:49.39,0:12:51.50,Main Dialogue,Kelp,0000,0000,0000,,Don't! Not my phone... or my PC, either!
+Dialogue: 0,0:12:51.50,0:12:53.46,Main Dialogue,Katie,0000,0000,0000,,Your phone and PC?
+Dialogue: 0,0:12:53.46,0:12:54.79,Main Dialogue,Kelp,0000,0000,0000,,N-No!
+Dialogue: 0,0:12:57.13,0:12:59.59,sign_582_5_Nobe_s_Game_Room,Text,0000,0000,0000,,Nobe's Game Room
+Dialogue: 0,0:12:57.13,0:12:59.59,sign_582_6_Home_________Abo,Text,0000,0000,0000,,Home         About        Projects        Forum        Contact
+Dialogue: 0,0:12:57.77,0:12:58.92,Main Dialogue,Katie,0000,0000,0000,,Nobe-san?
+Dialogue: 0,0:13:02.06,0:13:03.17,Main Dialogue,Katie,0000,0000,0000,,Mono-san?
+Dialogue: 0,0:13:05.57,0:13:06.46,Main Dialogue,Kelp,0000,0000,0000,,Keita...
+Dialogue: 0,0:13:06.46,0:13:08.18,Main Dialogue,Katie,0000,0000,0000,,Y-Yes? How can I help you?
+Dialogue: 0,0:13:08.67,0:13:11.31,Main Dialogue,Kelp,0000,0000,0000,,I never intended to tell you,
+Dialogue: 0,0:13:11.78,0:13:14.27,Main Dialogue,,0000,0000,0000,,but I need to tell you now.
+Dialogue: 0,0:13:14.27,0:13:16.35,Main Dialogue,Katie,0000,0000,0000,,S-Sure.
+Dialogue: 0,0:13:16.35,0:13:20.40,Main Dialogue,Kelp,0000,0000,0000,,As you might have realized by now, \Nit's what it looks like.
+Dialogue: 0,0:13:22.03,0:13:25.51,Main Dialogue,Kelp,0000,0000,0000,,As you can see, Nobe the \Nfreeware game developer,
+Dialogue: 0,0:13:25.51,0:13:28.49,Main Dialogue,,0000,0000,0000,,and Mono on the social \Nnetwork game, are both...
+Dialogue: 0,0:13:29.74,0:13:30.95,Main Dialogue,Kelp,0000,0000,0000,,Both...
+Dialogue: 0,0:13:33.64,0:13:35.11,Main Dialogue,Minikelp,0000,0000,0000,,That was a good nap.
+Dialogue: 0,0:13:35.11,0:13:36.04,Main Dialogue,Katie,0000,0000,0000,,Konoha...
+Dialogue: 0,0:13:36.04,0:13:40.04,Main Dialogue,Minikelp,0000,0000,0000,,Sorry, Onee-chan. I was using \Nthe computer in bed, and...
+Dialogue: 0,0:13:40.56,0:13:41.50,Main Dialogue,Minikelp,0000,0000,0000,,You!
+Dialogue: 0,0:13:43.94,0:13:45.17,Main Dialogue,Kelp,0000,0000,0000,,Th-That's right.
+Dialogue: 0,0:13:45.17,0:13:49.74,Main Dialogue,Kelp,0000,0000,0000,,Nobe and Mono are actually my \Nsister, Hoshinomori Konoha!
+Dialogue: 0,0:13:50.75,0:13:51.97,Main Dialogue,Katie,0000,0000,0000,,What?
+Dialogue: 0,0:14:03.30,0:14:06.28,Main Dialogue,Tax,0000,0000,0000,,Nobe and Mono are actually \NHoshinomori's sister?!
+Dialogue: 0,0:14:06.28,0:14:07.64,Main Dialogue,Katie,0000,0000,0000,,That's right.
+Dialogue: 0,0:14:07.64,0:14:09.10,Main Dialogue,Katie,0000,0000,0000,,Shocker, huh?
+Dialogue: 0,0:14:09.10,0:14:11.96,Main Dialogue,Tax,0000,0000,0000,,Well, yeah, that's a shocker, but...
+Dialogue: 0,0:14:11.96,0:14:13.30,Main Dialogue,Tax,0000,0000,0000,,Wait, what?
+Dialogue: 0,0:14:13.30,0:14:14.50,Main Dialogue,Tax,0000,0000,0000,,But didn't you...
+Dialogue: 0,0:14:14.50,0:14:18.40,Italics Dialogue,Tax,0000,0000,0000,,I've been spending the past few days trying \Nto decide if I should help Hoshinomori,
+Dialogue: 0,0:14:18.40,0:14:20.41,Italics Dialogue,,0000,0000,0000,,and meanwhile, they throw this curveball.
+Dialogue: 0,0:14:20.41,0:14:21.50,Italics Dialogue,Tax,0000,0000,0000,,That's Amano for you.
+Dialogue: 0,0:14:22.68,0:14:25.90,Main Dialogue,Katie,0000,0000,0000,,Konoha-san's reaction was \Nkind of weird, though.
+Dialogue: 0,0:14:25.90,0:14:28.82,Main Dialogue,Katie,0000,0000,0000,,It's like she didn't really \Nknow what was going on.
+Dialogue: 0,0:14:28.82,0:14:29.72,Italics Dialogue,Tax,0000,0000,0000,,Well, duh.
+Dialogue: 0,0:14:30.04,0:14:31.90,Italics Dialogue,Tax,0000,0000,0000,,She isn't Nobe, after all.
+Dialogue: 0,0:14:32.57,0:14:34.48,Main Dialogue,Tax,0000,0000,0000,,So, what did you do then?
+Dialogue: 0,0:14:34.48,0:14:35.81,Main Dialogue,Katie,0000,0000,0000,,Well...
+Dialogue: 0,0:14:39.70,0:14:41.93,Flashback Dialogue,Kelp,0000,0000,0000,,Don't you dare leave the living room.
+Dialogue: 0,0:14:41.93,0:14:43.29,Flashback Dialogue,Kelp,0000,0000,0000,,Don't even move one step.
+Dialogue: 0,0:14:43.29,0:14:44.80,Flashback Dialogue,Katie,0000,0000,0000,,R-Right.
+Dialogue: 0,0:14:44.80,0:14:46.54,Flashback Dialogue,Katie,0000,0000,0000,,I'll be going once we're done, though.
+Dialogue: 0,0:14:46.54,0:14:48.22,Flashback Dialogue,Kelp,0000,0000,0000,,Just stay there.
+Dialogue: 0,0:14:49.24,0:14:50.92,Main Dialogue,Katie,0000,0000,0000,,Maybe she was harassing me or something.
+Dialogue: 0,0:14:50.92,0:14:52.91,Main Dialogue,Katie,0000,0000,0000,,She wouldn't let me leave.
+Dialogue: 0,0:14:52.91,0:14:54.49,Main Dialogue,Tax,0000,0000,0000,,Yeah...
+Dialogue: 0,0:14:54.49,0:14:56.72,Main Dialogue,Katie,0000,0000,0000,,I must have waited for about ten minutes.
+Dialogue: 0,0:14:56.72,0:14:59.61,Flashback Dialogue,Kelp,0000,0000,0000,,So, um, allow me to introduce her.
+Dialogue: 0,0:14:59.61,0:15:01.68,Flashback Dialogue,Kelp,0000,0000,0000,,This is my sister, Konoha.
+Dialogue: 0,0:15:01.68,0:15:03.25,Flashback Dialogue,Minikelp,0000,0000,0000,,I'm Nobe and Mono.
+Dialogue: 0,0:15:03.25,0:15:06.76,Flashback Dialogue,Minikelp,0000,0000,0000,,Nice to meet you, Yama-san, Tsucchie-san.
+Dialogue: 0,0:15:06.76,0:15:08.62,Flashback Dialogue,Katie,0000,0000,0000,,R-Right.
+Dialogue: 0,0:15:08.62,0:15:11.44,Flashback Dialogue,Katie,0000,0000,0000,,I recently learned of your connection,
+Dialogue: 0,0:15:11.44,0:15:17.09,Flashback Dialogue,,0000,0000,0000,,and I was trying to figure out how to \Ntell you, and I came across a bit weird.
+Dialogue: 0,0:15:17.09,0:15:18.14,Flashback Dialogue,Minikelp,0000,0000,0000,,That's it.
+Dialogue: 0,0:15:18.63,0:15:23.52,Main Dialogue,Katie,0000,0000,0000,,It was like I was talking to a \Nstate-of-the-art bishoujo AI.
+Dialogue: 0,0:15:24.08,0:15:27.86,Main Dialogue,Katie,0000,0000,0000,,So then we just kind of said hi, \Nand I went home.
+Dialogue: 0,0:15:27.86,0:15:31.06,Main Dialogue,Katie,0000,0000,0000,,Something just doesn't sit right.
+Dialogue: 0,0:15:31.06,0:15:32.41,Main Dialogue,Tax,0000,0000,0000,,I can imagine.
+Dialogue: 0,0:15:32.71,0:15:38.64,Main Dialogue,Katie,0000,0000,0000,,I was really shocked and happy that Nobe-san \Nand Mono-san were the same person...
+Dialogue: 0,0:15:38.64,0:15:42.42,Main Dialogue,Katie,0000,0000,0000,,But I just can't see them as Konoha-san.
+Dialogue: 0,0:15:43.00,0:15:47.38,Main Dialogue,Katie,0000,0000,0000,,I just can't see her as anything more \Nor less than Chiaki's younger sister.
+Dialogue: 0,0:15:50.08,0:15:53.31,Main Dialogue,Katie,0000,0000,0000,,I'm being cold, though, right?
+Dialogue: 0,0:15:53.31,0:15:58.41,Main Dialogue,Katie,0000,0000,0000,,I finally got to meet the person I admire\Nand who treats me really well...
+Dialogue: 0,0:15:59.67,0:16:03.11,Italics Dialogue,Tax,0000,0000,0000,,Of course you can't see that person as her.
+Dialogue: 0,0:16:03.11,0:16:05.44,Italics Dialogue,Tax,0000,0000,0000,,There's nothing at all wrong about that!
+Dialogue: 0,0:16:05.44,0:16:10.00,Italics Dialogue,Tax,0000,0000,0000,,I'd like to tell him that, \Nbut I can't tell him the truth.
+Dialogue: 0,0:16:10.60,0:16:14.76,Italics Dialogue,Tax,0000,0000,0000,,This is the answer that \NHoshinomori chose for herself.
+Dialogue: 0,0:16:15.69,0:16:19.33,Italics Dialogue,Tax,0000,0000,0000,,I'm just a bystander. I don't have \Nthe right to object to that decision.
+Dialogue: 0,0:16:21.46,0:16:24.54,Italics Dialogue,Tax,0000,0000,0000,,But this is just too much.
+Dialogue: 0,0:16:27.09,0:16:31.26,Main Dialogue,Tax,0000,0000,0000,,I can't be happy for Amano and Tendou, \Neven if things work out for them.
+Dialogue: 0,0:16:31.26,0:16:32.13,Main Dialogue,Katie,0000,0000,0000,,Huh?
+Dialogue: 0,0:16:32.13,0:16:34.12,Main Dialogue,Tax,0000,0000,0000,,Oh, it's nothing.
+Dialogue: 0,0:16:34.12,0:16:35.39,Main Dialogue,Tax,0000,0000,0000,,I have to head to work.
+Dialogue: 0,0:16:35.39,0:16:37.39,Main Dialogue,Tax,0000,0000,0000,,I'm going. Later.
+Dialogue: 0,0:16:37.39,0:16:39.30,Main Dialogue,Katie,0000,0000,0000,,Okay...
+Dialogue: 0,0:16:43.01,0:16:45.20,Italics Dialogue,Tax,0000,0000,0000,,I almost blurted out the truth.
+Dialogue: 0,0:16:45.20,0:16:48.23,Italics Dialogue,Tax,0000,0000,0000,,I still want to root for Hoshinomori.
+Dialogue: 0,0:16:48.78,0:16:50.79,Italics Dialogue,Tax,0000,0000,0000,,There's nothing I can do \Nif she's already told him.
+Dialogue: 0,0:16:53.21,0:16:57.16,Flashback Italics Dialogue,Tax,0000,0000,0000,,I can't be happy for Amano and Tendou, \Neven if things work out for them.
+Dialogue: 0,0:16:57.16,0:16:58.63,Main Dialogue,Katie,0000,0000,0000,,I see.
+Dialogue: 0,0:16:58.63,0:17:01.81,Main Dialogue,Katie,0000,0000,0000,,So Uehara-kun does like Tendou-san.
+Dialogue: 0,0:17:01.81,0:17:05.25,Main Dialogue,Katie,0000,0000,0000,,I guess there's no mistake about it.
+Dialogue: 0,0:17:06.64,0:17:10.21,Italics Dialogue,Katie,0000,0000,0000,,Could it be that there's another \Ngirl who has a crush on me,
+Dialogue: 0,0:17:10.21,0:17:13.76,Italics Dialogue,,0000,0000,0000,,and Uehara-kun decided to back her up?
+Dialogue: 0,0:17:14.32,0:17:15.42,Italics Dialogue,Katie,0000,0000,0000,,Or something?
+Dialogue: 0,0:17:16.87,0:17:17.98,Italics Dialogue,Katie,0000,0000,0000,,Nope.
+Dialogue: 0,0:17:17.98,0:17:19.10,Italics Dialogue,Katie,0000,0000,0000,,Nah.
+Dialogue: 0,0:17:19.10,0:17:22.41,Italics Dialogue,Katie,0000,0000,0000,,Let's just accept reality \Nand do the best I can.
+Dialogue: 0,0:17:23.23,0:17:24.18,sign_25013_292_New,Text,0000,0000,0000,,New
+Dialogue: 0,0:17:23.23,0:17:24.18,sign_25013_292_New__Dating_sims,Text,0000,0000,0000,,Dating sims
+Dialogue: 0,0:17:24.18,0:17:26.51,Italics Dialogue,Katie,0000,0000,0000,,And now here I am, buying dating sims!
+Dialogue: 0,0:17:26.51,0:17:28.59,Italics Dialogue,Katie,0000,0000,0000,,I'm so sorry, Tendou-san!
+Dialogue: 0,0:17:29.57,0:17:30.64,Main Dialogue,Katie,0000,0000,0000,,Found it.
+Dialogue: 0,0:17:32.08,0:17:33.84,Main Dialogue,Katie,0000,0000,0000,,What a beautiful design!
+Dialogue: 0,0:17:33.84,0:17:36.85,Main Dialogue,Katie,0000,0000,0000,,The logo and colors are so down-to-earth. \NThe illustration is simple, too.
+Dialogue: 0,0:17:36.85,0:17:38.65,Main Dialogue,Katie,0000,0000,0000,,And yet it's gripping.
+Dialogue: 0,0:17:47.10,0:17:51.67,Main Dialogue,Minikelp,0000,0000,0000,,Why didn't I bother to disguise \Nmyself today, of all days?
+Dialogue: 0,0:17:51.67,0:17:53.06,Italics Dialogue,Katie,0000,0000,0000,,Konoha-san?
+Dialogue: 0,0:17:53.06,0:17:55.80,Italics Dialogue,Katie,0000,0000,0000,,Wait, was Nobe-san always like this?
+Dialogue: 0,0:17:56.25,0:18:00.28,Main Dialogue,Minikelp,0000,0000,0000,,Why do you keep messing with \Nme in all the worst ways?
+Dialogue: 0,0:18:00.28,0:18:01.02,Main Dialogue,Katie,0000,0000,0000,,Huh?
+Dialogue: 0,0:18:01.02,0:18:02.65,Main Dialogue,Minikelp,0000,0000,0000,,U-Um...
+Dialogue: 0,0:18:02.65,0:18:05.35,Main Dialogue,Minikelp,0000,0000,0000,,That wasn't me as Nobe or Mono or anything.
+Dialogue: 0,0:18:05.35,0:18:07.66,Main Dialogue,Minikelp,0000,0000,0000,,That was just me reacting as Konoha.
+Dialogue: 0,0:18:07.66,0:18:08.93,Main Dialogue,Minikelp,0000,0000,0000,,Don't mind me.
+Dialogue: 0,0:18:08.93,0:18:10.04,Main Dialogue,Katie,0000,0000,0000,,Huh?
+Dialogue: 0,0:18:10.04,0:18:11.98,Main Dialogue,Katie,0000,0000,0000,,I'm kind of confused.
+Dialogue: 0,0:18:11.98,0:18:14.24,Main Dialogue,Katie,0000,0000,0000,,You're the same person, aren't you?
+Dialogue: 0,0:18:14.24,0:18:18.34,Main Dialogue,Minikelp,0000,0000,0000,,I-I'm saying, I might be \Nangry at you right now,
+Dialogue: 0,0:18:18.34,0:18:21.16,Main Dialogue,,0000,0000,0000,,but Nobe and Mono are \Nstill just fine with you!
+Dialogue: 0,0:18:21.52,0:18:22.65,Main Dialogue,Katie,0000,0000,0000,,Right...
+Dialogue: 0,0:18:22.65,0:18:24.79,Main Dialogue,Katie,0000,0000,0000,,So you have multiple personality \Ndisorder or something?
+Dialogue: 0,0:18:26.12,0:18:27.91,Main Dialogue,Minikelp,0000,0000,0000,,Yeah, that sounds good!
+Dialogue: 0,0:18:27.91,0:18:29.26,Main Dialogue,Minikelp,0000,0000,0000,,That's a good interpretation!
+Dialogue: 0,0:18:29.26,0:18:30.58,Main Dialogue,Minikelp,0000,0000,0000,,All right, let's use that.
+Dialogue: 0,0:18:31.16,0:18:32.04,Main Dialogue,Katie,0000,0000,0000,,Use that?
+Dialogue: 0,0:18:32.47,0:18:36.21,Main Dialogue,Minikelp,0000,0000,0000,,Think of me and Nobe as two different people.
+Dialogue: 0,0:18:36.21,0:18:38.97,Main Dialogue,Minikelp,0000,0000,0000,,Of course, I'm Nobe and also Mono, but...
+Dialogue: 0,0:18:39.69,0:18:40.93,Main Dialogue,Katie,0000,0000,0000,,Right.
+Dialogue: 0,0:18:47.58,0:18:50.36,Main Dialogue,Minikelp,0000,0000,0000,,By the way, you're technically my senpai, right?
+Dialogue: 0,0:18:50.36,0:18:51.66,Main Dialogue,Katie,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:18:51.66,0:18:53.07,Main Dialogue,Katie,0000,0000,0000,,By a year.
+Dialogue: 0,0:18:53.37,0:18:58.57,Main Dialogue,Minikelp,0000,0000,0000,,That means I'm supposed to show \Nyou some more respect, right?
+Dialogue: 0,0:18:58.88,0:19:02.39,Main Dialogue,Katie,0000,0000,0000,,That would be kind of awkward at this point.
+Dialogue: 0,0:19:02.39,0:19:04.91,Main Dialogue,Katie,0000,0000,0000,,We've already kind of skipped over that.
+Dialogue: 0,0:19:04.91,0:19:06.35,Main Dialogue,Minikelp,0000,0000,0000,,You're right.
+Dialogue: 0,0:19:06.35,0:19:10.21,Main Dialogue,Minikelp,0000,0000,0000,,Okay, I'm just going to keep \Nthat attitude, then, Senpai.
+Dialogue: 0,0:19:11.19,0:19:15.15,Main Dialogue,Minikelp,0000,0000,0000,,Don't tell anyone I was buying adult games.
+Dialogue: 0,0:19:15.15,0:19:16.80,Main Dialogue,Katie,0000,0000,0000,,Anyone? Like?
+Dialogue: 0,0:19:16.80,0:19:18.75,Main Dialogue,Minikelp,0000,0000,0000,,Just don't tell {\i1}anyone{\i0}.
+Dialogue: 0,0:19:19.32,0:19:21.05,Main Dialogue,Katie,0000,0000,0000,,Got it, I guess.
+Dialogue: 0,0:19:21.46,0:19:22.97,Main Dialogue,Minikelp,0000,0000,0000,,Good.
+Dialogue: 0,0:19:22.97,0:19:26.91,Main Dialogue,Minikelp,0000,0000,0000,,So, Amano-senpai, \Nwhat do you think of my sister?
+Dialogue: 0,0:19:26.91,0:19:29.23,Main Dialogue,Katie,0000,0000,0000,,Why do you ask?
+Dialogue: 0,0:19:29.57,0:19:31.39,Main Dialogue,Minikelp,0000,0000,0000,,Is it weird for me to be curious?
+Dialogue: 0,0:19:31.39,0:19:36.42,Main Dialogue,Katie,0000,0000,0000,,It just so happened that Mono-san \Nand Nobe-san were actually her sister.
+Dialogue: 0,0:19:36.42,0:19:38.36,Main Dialogue,Katie,0000,0000,0000,,It's not much to think about.
+Dialogue: 0,0:19:39.24,0:19:40.70,Italics Dialogue,Minikelp,0000,0000,0000,,This situation is a pain in the ass.
+Dialogue: 0,0:19:41.03,0:19:44.93,Main Dialogue,Minikelp,0000,0000,0000,,Okay, then what do you \Nthink of Mono and Nobe?
+Dialogue: 0,0:19:44.93,0:19:47.58,Main Dialogue,Katie,0000,0000,0000,,I'm just really happy.
+Dialogue: 0,0:19:47.58,0:19:50.04,Main Dialogue,Katie,0000,0000,0000,,I seriously love your work as Nobe-san!
+Dialogue: 0,0:19:53.47,0:19:54.97,Main Dialogue,Katie,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:19:54.97,0:19:58.68,Main Dialogue,Minikelp,0000,0000,0000,,Man, the embarrassment, the envy, \Nthe guilt, the annoyance...
+Dialogue: 0,0:19:58.68,0:20:02.13,Main Dialogue,Minikelp,0000,0000,0000,,There's a huge traffic jam of emotions \Nhappening inside me right now.
+Dialogue: 0,0:20:02.13,0:20:06.26,Main Dialogue,Minikelp,0000,0000,0000,,All right, Amano-senpai, would you take \Nresponsibility and allow me to hit you once?
+Dialogue: 0,0:20:06.26,0:20:07.80,Main Dialogue,Katie,0000,0000,0000,,What?! Why?
+Dialogue: 0,0:20:07.80,0:20:08.65,Main Dialogue,Katie,0000,0000,0000,,That makes no sense!
+Dialogue: 0,0:20:15.84,0:20:17.51,Main Dialogue,Katie,0000,0000,0000,,Huh? Chiaki?
+Dialogue: 0,0:20:18.27,0:20:19.35,Main Dialogue,Kelp,0000,0000,0000,,K-Keita!
+Dialogue: 0,0:20:19.35,0:20:21.37,Main Dialogue,Kelp,0000,0000,0000,,Wh-Why are you here?
+Dialogue: 0,0:20:21.37,0:20:23.53,Main Dialogue,Katie,0000,0000,0000,,How am I supposed to answer that?
+Dialogue: 0,0:20:23.53,0:20:27.27,Main Dialogue,Minikelp,0000,0000,0000,,Onee-chan and I already \Nhad plans to meet up here.
+Dialogue: 0,0:20:27.27,0:20:28.62,Main Dialogue,Katie,0000,0000,0000,,Oh, okay.
+Dialogue: 0,0:20:28.62,0:20:30.45,Main Dialogue,Katie,0000,0000,0000,,So that's why you went \Nadult game shopping by your—
+Dialogue: 0,0:20:30.93,0:20:32.21,Main Dialogue,Minikelp,0000,0000,0000,,Senpai!
+Dialogue: 0,0:20:32.80,0:20:36.81,Main Dialogue,Katie,0000,0000,0000,,So that's why you ran into me while I was \Nhappily buying adult games by myself.
+Dialogue: 0,0:20:36.81,0:20:38.40,Main Dialogue,Kelp,0000,0000,0000,,Wow. Ew.
+Dialogue: 0,0:20:39.37,0:20:42.30,Main Dialogue,Kelp,0000,0000,0000,,Were you two ever that close, though?
+Dialogue: 0,0:20:43.60,0:20:46.69,Main Dialogue,Minikelp,0000,0000,0000,,Well, you know, Senpai and I talk \Nabout my work and stuff.
+Dialogue: 0,0:20:46.69,0:20:47.44,Main Dialogue,Minikelp,0000,0000,0000,,Right?
+Dialogue: 0,0:20:47.44,0:20:48.22,Main Dialogue,Katie,0000,0000,0000,,Right.
+Dialogue: 0,0:20:49.15,0:20:51.93,Main Dialogue,Kelp,0000,0000,0000,,Wh-What specifically do you talk about?
+Dialogue: 0,0:20:53.04,0:20:54.31,Main Dialogue,Katie,0000,0000,0000,,Um...
+Dialogue: 0,0:20:54.31,0:20:56.32,Main Dialogue,Katie,0000,0000,0000,,Wait, why do you care?
+Dialogue: 0,0:20:56.32,0:21:01.72,Main Dialogue,Minikelp,0000,0000,0000,,You can talk to my sister about \NNobe and Mono all you want, Senpai.
+Dialogue: 0,0:21:01.72,0:21:03.57,Main Dialogue,Minikelp,0000,0000,0000,,We don't keep any secrets from each other.
+Dialogue: 0,0:21:03.57,0:21:05.53,Italics Dialogue,Katie,0000,0000,0000,,Look who's talking!
+Dialogue: 0,0:21:06.13,0:21:11.87,Main Dialogue,Katie,0000,0000,0000,,We got to know each other \Na little better, I guess.
+Dialogue: 0,0:21:11.87,0:21:14.83,Main Dialogue,Kelp,0000,0000,0000,,A scum-of-the-earth who buys adult games
+Dialogue: 0,0:21:14.83,0:21:18.13,Main Dialogue,,0000,0000,0000,,in the light of day, with my adorable, \Nintelligent, kind sister?
+Dialogue: 0,0:21:20.83,0:21:21.84,Main Dialogue,Kelp,0000,0000,0000,,It's mine.
+Dialogue: 0,0:21:22.81,0:21:23.96,Main Dialogue,Kelp,0000,0000,0000,,Hello?
+Dialogue: 0,0:21:23.96,0:21:25.21,Main Dialogue,Kelp,0000,0000,0000,,Yes.
+Dialogue: 0,0:21:25.21,0:21:25.80,Main Dialogue,Kelp,0000,0000,0000,,Yes...
+Dialogue: 0,0:21:27.63,0:21:29.74,Main Dialogue,Katie,0000,0000,0000,,Okay, I'll be going now.
+Dialogue: 0,0:21:29.74,0:21:31.29,Main Dialogue,Minikelp,0000,0000,0000,,Okay.
+Dialogue: 0,0:21:31.78,0:21:34.05,Main Dialogue,Minikelp,0000,0000,0000,,Well, then, uh...
+Dialogue: 0,0:21:34.05,0:21:35.31,Main Dialogue,Minikelp,0000,0000,0000,,Later.
+Dialogue: 0,0:21:37.24,0:21:38.65,Main Dialogue,Katie,0000,0000,0000,,Okay...
+Dialogue: 0,0:21:38.65,0:21:40.91,Main Dialogue,Katie,0000,0000,0000,,Um, see you later.
+Dialogue: 0,0:21:40.91,0:21:41.48,Main Dialogue,Kelp,0000,0000,0000,,What?
+Dialogue: 0,0:21:41.48,0:21:43.53,Main Dialogue,Kelp,0000,0000,0000,,What does that mean?
+Dialogue: 0,0:21:43.53,0:21:45.13,Main Dialogue,Kelp,0000,0000,0000,,U-Uehara-san?
+Dialogue: 0,0:21:45.13,0:21:45.95,Main Dialogue,Kelp,0000,0000,0000,,Uehara-san?
+Dialogue: 0,0:21:46.63,0:21:48.31,Main Dialogue,Minikelp,0000,0000,0000,,What's wrong, Onee-chan?
+Dialogue: 0,0:21:48.31,0:21:53.72,Main Dialogue,Kelp,0000,0000,0000,,Uehara-san just blurted something out \Nin a serious tone, and hung up.
+Dialogue: 0,0:21:53.72,0:21:54.66,Main Dialogue,Katie,0000,0000,0000,,What?
+Dialogue: 0,0:21:54.66,0:21:57.11,Main Dialogue,Kelp,0000,0000,0000,,He said,
+Dialogue: 0,0:21:57.78,0:22:00.88,Main Dialogue,,0000,0000,0000,,"I've decided I'm choosing you."
+Dialogue: 0,0:22:03.07,0:22:05.34,Main Dialogue,Katie,0000,0000,0000,,Isn't that...
+Dialogue: 0,0:22:08.27,0:22:10.85,Main Dialogue,Katie,0000,0000,0000,,...a confession?!

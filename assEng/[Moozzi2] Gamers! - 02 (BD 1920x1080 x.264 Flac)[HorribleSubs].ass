@@ -1,0 +1,400 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Signs,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Main Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Black Signs,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Game Club,Open Sans Semibold,33,&H004F4F9F,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Game Club1,Open Sans Semibold,33,&H008C3EBE,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,168,27,24,1
+Style: sign_4933_37_Pink_SFX_Missing,Open Sans Semibold,36,&H009C59ED,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,27,27,27,1
+Style: sign_6808_63_Pink_Part__Missi,Open Sans Semibold,33,&H00B147D7,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,9,523,15,89,1
+Style: sign_7039_68_Retro_Games,Open Sans Semibold,33,&H00D16AC9,&H000000FF,&H00EDCBDA,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,27,27,80,1
+Style: sign_9766_98_Video_Games,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,27,27,49,1
+Style: sign_14239_153_Try_all_the_move,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,88,1
+Style: sign_14364_156_Always_forgets_t,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,167,1
+Style: sign_14459_158_Remembers_that_y,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,208,1
+Style: sign_14510_159_Becomes_dependen,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,111,1
+Style: sign_14542_160_Goes_for_a_last_,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,233,1
+Style: sign_14578_161_Misses,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,123,1
+Style: sign_25480_284_Prologue_to_Tend,Open Sans Semibold,33,&H00000000,&H000000FF,&H006ECCF3,&H00000000,1,0,0,0,100,100,0,0,1,3,0,1,47,27,125,1
+Style: sign_25508_285_The_End,Open Sans Semibold,33,&H00000000,&H000000FF,&H006ECCF3,&H00000000,1,0,0,0,100,100,0,0,1,3,0,8,47,136,309,1
+Style: sign_30445_349_Be_Passionate,Open Sans Semibold,30,&H0069F5FA,&H000000FF,&H00269AC2,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,27,27,24,1
+Style: sign_33647_364_Sometime_later__,Open Sans Semibold,36,&H00000000,&H000000FF,&H00BAC9CC,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,37,27,116,1
+Style: sign_29214_328_Otobuki_High_Sch,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,8,5,515,95,1
+Style: konk,Open Sans Semibold,33,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,180,27,203,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:01.29,0:00:03.74,Main Dialogue,Karen,0000,0000,0000,,You're nothing to me.
+Dialogue: 0,0:00:03.74,0:00:05.66,Main Dialogue,Karen,0000,0000,0000,,You suck at games.
+Dialogue: 0,0:00:05.66,0:00:08.98,Main Dialogue,Karen,0000,0000,0000,,It's not like I enjoyed spending time with you...
+Dialogue: 0,0:00:09.30,0:00:12.28,Main Dialogue,Keita,0000,0000,0000,,Keep up the good work at the game club.
+Dialogue: 0,0:00:12.28,0:00:13.24,Main Dialogue,Keita,0000,0000,0000,,I'm rooting for you.
+Dialogue: 0,0:00:15.32,0:00:16.70,Main Dialogue,Karen,0000,0000,0000,,Sure, you're right.
+Dialogue: 0,0:00:26.55,0:00:28.00,Italics Dialogue,Tasuku,0000,0000,0000,,What the hell is this?
+Dialogue: 0,0:02:03.64,0:02:04.52,Main Dialogue,A,0000,0000,0000,,What was that?
+Dialogue: 0,0:02:04.52,0:02:06.02,Main Dialogue,A,0000,0000,0000,,Wasn't Tendou-san just crying?
+Dialogue: 0,0:02:06.02,0:02:08.02,Main Dialogue,B,0000,0000,0000,,Is it relationship drama of some kind?
+Dialogue: 0,0:02:08.39,0:02:11.36,Main Dialogue,C,0000,0000,0000,,Weren't they talking about a club, though?
+Dialogue: 0,0:02:11.69,0:02:15.03,Main Dialogue,Daiki,0000,0000,0000,,If you're curious, why don't you ask Amano \Nwhat they were talking about?
+Dialogue: 0,0:02:15.03,0:02:16.15,Main Dialogue,Mika,0000,0000,0000,,Me?
+Dialogue: 0,0:02:16.15,0:02:17.99,Main Dialogue,Tasuku,0000,0000,0000,,Don't bother.
+Dialogue: 0,0:02:18.32,0:02:20.74,Main Dialogue,Tasuku,0000,0000,0000,,There's no way we could hold \Na conversation with that guy.
+Dialogue: 0,0:02:20.74,0:02:22.20,Main Dialogue,A,0000,0000,0000,,That's true.
+Dialogue: 0,0:02:23.78,0:02:26.25,Italics Dialogue,Tasuku,0000,0000,0000,,Just what is your deal?
+Dialogue: 0,0:02:28.04,0:02:31.21,Main Dialogue,Mika,0000,0000,0000,,Isn't it kind of frustrating, though?
+Dialogue: 0,0:02:31.21,0:02:32.25,Main Dialogue,Tasuku,0000,0000,0000,,Huh?
+Dialogue: 0,0:02:32.25,0:02:37.88,Main Dialogue,Mika,0000,0000,0000,,Er, well, not for any particular reason,\N but he seems kind of stuck-up.
+Dialogue: 0,0:02:37.88,0:02:41.09,Main Dialogue,Daiki,0000,0000,0000,,He does seem a bit high-and-mighty.
+Dialogue: 0,0:02:41.09,0:02:43.80,Main Dialogue,A,0000,0000,0000,,He deserves almost nothing, \Nand yet he's condescending.
+Dialogue: 0,0:02:43.80,0:02:45.72,Main Dialogue,A,0000,0000,0000,,He really should learn his place.
+Dialogue: 0,0:02:45.72,0:02:46.85,Main Dialogue,Mika,0000,0000,0000,,I know, right?
+Dialogue: 0,0:02:47.56,0:02:48.60,Main Dialogue,Tasuku,0000,0000,0000,,Lame.
+Dialogue: 0,0:02:49.73,0:02:54.98,Main Dialogue,Tasuku,0000,0000,0000,,No, I mean, his life seems lame.
+Dialogue: 0,0:02:54.98,0:02:56.48,Main Dialogue,A,0000,0000,0000,,Oh, that's what you meant.
+Dialogue: 0,0:02:56.48,0:02:59.61,Main Dialogue,B,0000,0000,0000,,You scared me. I thought you'd snapped.
+Dialogue: 0,0:03:00.07,0:03:02.49,Main Dialogue,Tasuku,0000,0000,0000,,No, I didn't.
+Dialogue: 0,0:03:05.99,0:03:07.87,Main Dialogue,Sensei,0000,0000,0000,,In regards to auxiliary verbs,
+Dialogue: 0,0:03:08.58,0:03:13.71,Main Dialogue,Sensei,0000,0000,0000,,it's important to understand \Nhow conjunctions are used.
+Dialogue: 0,0:03:14.08,0:03:18.59,Main Dialogue Top,,0000,0000,0000,,In other words, what \Nprecedes the auxiliary verb?
+Dialogue: 0,0:03:16.34,0:03:17.88,Italics Dialogue,Tasuku,0000,0000,0000,,Damn him.
+Dialogue: 0,0:03:19.76,0:03:21.09,sign_4933_37_Pink_SFX_Missing,,0000,0000,0000,,Tasuku!
+Dialogue: 0,0:03:19.76,0:03:21.72,Main Dialogue,Aguri,0000,0000,0000,,Tasuku!
+Dialogue: 0,0:03:21.72,0:03:23.59,Main Dialogue,Aguri,0000,0000,0000,,Let's eat together!
+Dialogue: 0,0:03:25.93,0:03:28.22,Main Dialogue,Aguri,0000,0000,0000,,Time to charge up on Tasuku-power!
+Dialogue: 0,0:03:28.22,0:03:31.19,Main Dialogue,A,0000,0000,0000,,You sure do like Uehara.
+Dialogue: 0,0:03:32.73,0:03:35.44,Main Dialogue,Aguri,0000,0000,0000,,I made lunch today.
+Dialogue: 0,0:03:35.94,0:03:36.77,Main Dialogue,Aguri,0000,0000,0000,,Ta-da!
+Dialogue: 0,0:03:36.77,0:03:38.19,Main Dialogue,Aguri,0000,0000,0000,,It's a cute kitty.
+Dialogue: 0,0:03:42.32,0:03:45.62,Main Dialogue,Aguri,0000,0000,0000,,It's all squished together!
+Dialogue: 0,0:03:46.78,0:03:50.87,Main Dialogue,Aguri,0000,0000,0000,,Hey, hey, that Amano-whatshisface \Nis in your class, right?
+Dialogue: 0,0:03:50.87,0:03:51.58,Main Dialogue,Tasuku,0000,0000,0000,,Yeah.
+Dialogue: 0,0:03:51.58,0:03:54.58,Main Dialogue,Aguri,0000,0000,0000,,Everyone was talking about him in Class C.
+Dialogue: 0,0:03:54.58,0:03:57.75,Main Dialogue,Aguri,0000,0000,0000,,Something about {\i1}the{\i0} Tendou-san being rejected.
+Dialogue: 0,0:03:57.75,0:03:58.67,Main Dialogue,Tasuku,0000,0000,0000,,Oh, yeah?
+Dialogue: 0,0:03:58.67,0:04:00.01,Main Dialogue,A,0000,0000,0000,,You're not surprised?
+Dialogue: 0,0:04:00.01,0:04:02.30,Main Dialogue,B,0000,0000,0000,,Are you two really even dating?
+Dialogue: 0,0:04:02.30,0:04:04.13,Main Dialogue,Tasuku,0000,0000,0000,,You think so?
+Dialogue: 0,0:04:04.13,0:04:05.97,Main Dialogue,Tasuku,0000,0000,0000,,I think it's pretty normal.
+Dialogue: 0,0:04:14.73,0:04:19.11,Italics Dialogue,Tasuku,0000,0000,0000,,I just never had a reason to refuse.
+Dialogue: 0,0:04:19.11,0:04:22.24,Main Dialogue,Aguri,0000,0000,0000,,It doesn't matter, as long as I love Tasuku.
+Dialogue: 0,0:04:22.24,0:04:22.82,Main Dialogue,Tasuku,0000,0000,0000,,Sure.
+Dialogue: 0,0:04:22.82,0:04:25.61,Main Dialogue,A,0000,0000,0000,,Really? You're happy with that?
+Dialogue: 0,0:04:25.61,0:04:29.62,Main Dialogue,Aguri,0000,0000,0000,,I don't care. I'm happy \Nas long as we're together.
+Dialogue: 0,0:04:31.04,0:04:33.00,Main Dialogue,A,0000,0000,0000,,Do you think we'll all fit?
+Dialogue: 0,0:04:33.00,0:04:35.96,Main Dialogue,B,0000,0000,0000,,I don't have money. Masaya, can you take it?
+Dialogue: 0,0:04:35.96,0:04:37.96,Main Dialogue,Masaya,0000,0000,0000,,It's on me again?
+Dialogue: 0,0:04:38.63,0:04:39.50,Main Dialogue,Aguri,0000,0000,0000,,Tasuku?
+Dialogue: 0,0:04:39.50,0:04:41.67,Main Dialogue,Tasuku,0000,0000,0000,,I think you already have too many people.
+Dialogue: 0,0:04:42.38,0:04:44.51,Main Dialogue,Aguri,0000,0000,0000,,Come on, join us.
+Dialogue: 0,0:04:44.51,0:04:45.80,Main Dialogue,Tasuku,0000,0000,0000,,I'm going to the bathroom.
+Dialogue: 0,0:04:47.59,0:04:49.10,sign_7039_68_Retro_Games,Text,0000,0000,0000,,Retro {\c&HD9B919&}Games
+Dialogue: 0,0:05:09.24,0:05:10.83,Main Dialogue,Tasuku,0000,0000,0000,,Quit staring.
+Dialogue: 0,0:05:23.05,0:05:23.96,Main Dialogue,Tasuku,0000,0000,0000,,Yes!
+Dialogue: 0,0:05:25.42,0:05:26.63,Italics Dialogue,Tasuku,0000,0000,0000,,Damn it.
+Dialogue: 0,0:05:26.63,0:05:29.01,Italics Dialogue,Tasuku,0000,0000,0000,,When am I going to stop having these visions?
+Dialogue: 0,0:05:30.14,0:05:31.60,Italics Dialogue,Tasuku,0000,0000,0000,,Wait, it's you!
+Dialogue: 0,0:05:34.06,0:05:35.85,Main Dialogue,Amano,0000,0000,0000,,Um...
+Dialogue: 0,0:05:35.85,0:05:37.06,Main Dialogue,Amano,0000,0000,0000,,I'm Amano.
+Dialogue: 0,0:05:37.06,0:05:38.31,Main Dialogue,Amano,0000,0000,0000,,I'm in your class.
+Dialogue: 0,0:05:38.31,0:05:40.27,Main Dialogue,Tasuku,0000,0000,0000,,I know.
+Dialogue: 0,0:05:40.27,0:05:41.77,Main Dialogue,Tasuku,0000,0000,0000,,So? What do you want?
+Dialogue: 0,0:05:42.11,0:05:45.90,Main Dialogue,Amano,0000,0000,0000,,U-Um, do you like games, Uehara-kun?
+Dialogue: 0,0:05:48.57,0:05:50.74,Main Dialogue,Tasuku,0000,0000,0000,,I haven't really thought about it.
+Dialogue: 0,0:05:53.58,0:05:54.75,Main Dialogue,Tasuku,0000,0000,0000,,This game...
+Dialogue: 0,0:05:54.75,0:05:55.91,Main Dialogue,Amano,0000,0000,0000,,Let's see!
+Dialogue: 0,0:05:57.08,0:05:59.63,Main Dialogue,Tasuku,0000,0000,0000,,I've never played it, \Nbut it's famous, isn't it?
+Dialogue: 0,0:06:00.04,0:06:01.79,Main Dialogue,Tasuku,0000,0000,0000,,{\i1}Paradigm of Phantasia{\i0}.
+Dialogue: 0,0:06:02.59,0:06:04.05,Main Dialogue,Amano,0000,0000,0000,,This one's a masterpiece!
+Dialogue: 0,0:06:04.05,0:06:06.88,Main Dialogue,Amano,0000,0000,0000,,You should definitely play \Nit if you haven't yet.
+Dialogue: 0,0:06:06.88,0:06:08.88,Main Dialogue,Tasuku,0000,0000,0000,,Y-Yeah?
+Dialogue: 0,0:06:08.88,0:06:09.55,Main Dialogue,Amano,0000,0000,0000,,Yeah.
+Dialogue: 0,0:06:09.55,0:06:13.51,Main Dialogue,Amano,0000,0000,0000,,They pitched the game as revolutionizing \Nthe concept of gaming,
+Dialogue: 0,0:06:13.51,0:06:15.47,Main Dialogue,Amano,0000,0000,0000,,but it turned out to be extremely orthodox,
+Dialogue: 0,0:06:15.47,0:06:18.35,Main Dialogue,Amano,0000,0000,0000,,so it was blasted at the time, \Nbut it's really polished.
+Dialogue: 0,0:06:18.35,0:06:20.31,Main Dialogue,Amano,0000,0000,0000,,I recommend it wholeheartedly.
+Dialogue: 0,0:06:21.11,0:06:24.27,Main Dialogue,Tasuku,0000,0000,0000,,Er, I don't need your recommendations.
+Dialogue: 0,0:06:26.53,0:06:29.24,Main Dialogue,Amano,0000,0000,0000,,Sorry, I got a bit passionate.
+Dialogue: 0,0:06:29.24,0:06:31.24,Main Dialogue,Tasuku,0000,0000,0000,,You don't need to apologize.
+Dialogue: 0,0:06:32.41,0:06:34.83,Main Dialogue,Amano,0000,0000,0000,,O-Okay, I'll be going now.
+Dialogue: 0,0:06:41.33,0:06:42.84,sign_9766_98_Video_Games,Text,0000,0000,0000,,Video Games
+Dialogue: 0,0:06:48.88,0:06:51.30,Italics Dialogue,Tasuku,0000,0000,0000,,What the heck is he doing?
+Dialogue: 0,0:06:57.31,0:07:01.31,Italics Dialogue,Tasuku,0000,0000,0000,,Don't tell me he doesn't come to arcades, \Neven though he likes gaming.
+Dialogue: 0,0:07:04.36,0:07:05.94,Main Dialogue,Tasuku,0000,0000,0000,,Hold up.
+Dialogue: 0,0:07:05.94,0:07:07.99,Main Dialogue,Amano,0000,0000,0000,,U-Uehara-kun?
+Dialogue: 0,0:07:09.61,0:07:11.70,Main Dialogue,Tasuku,0000,0000,0000,,Come with me for a bit.
+Dialogue: 0,0:07:12.66,0:07:14.70,Main Dialogue,Amano,0000,0000,0000,,I have no interest in men!
+Dialogue: 0,0:07:14.70,0:07:16.95,Main Dialogue,Tasuku,0000,0000,0000,,Spare me the clichés, would you?
+Dialogue: 0,0:07:17.29,0:07:18.50,Main Dialogue,Tasuku,0000,0000,0000,,Well?
+Dialogue: 0,0:07:18.50,0:07:20.91,Main Dialogue,Tasuku,0000,0000,0000,,Are we playing or not?
+Dialogue: 0,0:07:22.17,0:07:24.67,Main Dialogue,Amano,0000,0000,0000,,Please! I'd be happy to!
+Dialogue: 0,0:07:26.80,0:07:29.01,Main Dialogue,Tasuku,0000,0000,0000,,Is this the one you wanted to play?
+Dialogue: 0,0:07:29.01,0:07:29.84,Main Dialogue,Amano,0000,0000,0000,,Yeah.
+Dialogue: 0,0:07:29.84,0:07:33.34,Main Dialogue,Amano,0000,0000,0000,,I've always liked this game, \Nand I've been wanting to play.
+Dialogue: 0,0:07:33.34,0:07:34.68,Main Dialogue,Tasuku,0000,0000,0000,,Yeah?
+Dialogue: 0,0:07:35.26,0:07:36.89,Main Dialogue,Amano,0000,0000,0000,,I was here before, too,
+Dialogue: 0,0:07:36.89,0:07:40.02,Main Dialogue,Amano,0000,0000,0000,,but I felt bad wasting time watching \Nthe demo videos and stuff.
+Dialogue: 0,0:07:40.35,0:07:43.81,Main Dialogue,Tasuku,0000,0000,0000,,So you just went home without doing anything?
+Dialogue: 0,0:07:43.81,0:07:46.15,Main Dialogue,Amano,0000,0000,0000,,I guess so.
+Dialogue: 0,0:07:46.15,0:07:48.61,Italics Dialogue,Tasuku,0000,0000,0000,,How passive can you get?
+Dialogue: 0,0:07:48.61,0:07:52.11,Italics Dialogue,Tasuku,0000,0000,0000,,I can't believe this is the kid \Nwho straight-up rejected Tendou.
+Dialogue: 0,0:07:53.20,0:07:57.12,Main Dialogue,Tasuku,0000,0000,0000,,Amano, what's your relationship with Tendou?
+Dialogue: 0,0:07:57.49,0:08:01.62,Main Dialogue,Amano,0000,0000,0000,,Oh-Oh, yeah... You saw that, huh?
+Dialogue: 0,0:08:01.62,0:08:04.42,Main Dialogue,Tasuku,0000,0000,0000,,You don't have to tell me \Nif you don't want to.
+Dialogue: 0,0:08:05.42,0:08:07.92,Main Dialogue,Amano,0000,0000,0000,,Well, actually...
+Dialogue: 0,0:08:10.46,0:08:12.42,Main Dialogue,A,0000,0000,0000,,Holy crap, that's hilarious!
+Dialogue: 0,0:08:12.42,0:08:13.59,Main Dialogue,B,0000,0000,0000,,That's way too much.
+Dialogue: 0,0:08:13.93,0:08:18.06,Main Dialogue,Aguri,0000,0000,0000,,Come back, Tasuku, or I'm going home.
+Dialogue: 0,0:08:22.73,0:08:24.31,Main Dialogue,Aguri,0000,0000,0000,,Who's she?
+Dialogue: 0,0:08:26.06,0:08:27.86,Main Dialogue,Tasuku,0000,0000,0000,,The game club, huh?
+Dialogue: 0,0:08:27.86,0:08:29.90,Main Dialogue,Tasuku,0000,0000,0000,,I never knew there was such a club.
+Dialogue: 0,0:08:29.90,0:08:30.69,Main Dialogue,Amano,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:31.44,0:08:32.86,Main Dialogue,Tasuku,0000,0000,0000,,What I don't get is,
+Dialogue: 0,0:08:32.86,0:08:37.20,Main Dialogue,Tasuku,0000,0000,0000,,how were the games in game club different \Nfrom the games that you want to play?
+Dialogue: 0,0:08:37.20,0:08:43.25,Main Dialogue,Amano,0000,0000,0000,,Um... I don't know. It's hard to explain.
+Dialogue: 0,0:08:43.83,0:08:47.13,Main Dialogue,Tasuku,0000,0000,0000,,You wanted friends you could \Ntalk about games with, right?
+Dialogue: 0,0:08:47.13,0:08:49.13,Main Dialogue,Amano,0000,0000,0000,,Y-Yeah, but...
+Dialogue: 0,0:08:51.05,0:08:52.46,Italics Dialogue,Tasuku,0000,0000,0000,,Get a grip.
+Dialogue: 0,0:08:53.05,0:08:55.51,Main Dialogue,Amano,0000,0000,0000,,It's open, Uehara-kun.
+Dialogue: 0,0:08:58.01,0:09:00.10,Main Dialogue,Tasuku,0000,0000,0000,,Don't you want to take time \Nto watch the videos?
+Dialogue: 0,0:09:00.10,0:09:02.31,Main Dialogue,Amano,0000,0000,0000,,I'm good. Let's play!
+Dialogue: 0,0:09:02.31,0:09:03.73,Main Dialogue,Tasuku,0000,0000,0000,,Okay.
+Dialogue: 0,0:09:03.73,0:09:05.73,Main Dialogue,Tasuku,0000,0000,0000,,I'll mesmerize you with my skills.
+Dialogue: 0,0:09:05.73,0:09:07.10,Main Dialogue,Amano,0000,0000,0000,,Okay. Go easy on me, please.
+Dialogue: 0,0:09:08.56,0:09:09.82,Italics Dialogue,Tasuku,0000,0000,0000,,He's throwing me off.
+Dialogue: 0,0:09:13.24,0:09:15.53,Italics Dialogue,Tasuku,0000,0000,0000,,Amano's playing the main character, huh?
+Dialogue: 0,0:09:17.91,0:09:20.37,Main Dialogue,Amano,0000,0000,0000,,Uehara-kun, have you played this game before?
+Dialogue: 0,0:09:20.37,0:09:23.33,Main Dialogue,Tasuku,0000,0000,0000,,No, I just chose the one that looked cool.
+Dialogue: 0,0:09:23.33,0:09:24.45,Main Dialogue,Amano,0000,0000,0000,,Oh, really?
+Dialogue: 0,0:09:35.38,0:09:37.51,Italics Dialogue,Tasuku,0000,0000,0000,,No surprise, he's better than Aguri.
+Dialogue: 0,0:09:37.51,0:09:39.22,Italics Dialogue,Tasuku,0000,0000,0000,,She just mashes the controls.
+Dialogue: 0,0:09:39.22,0:09:41.47,Main Dialogue,Aguri,0000,0000,0000,,Go, go, go!
+Dialogue: 0,0:09:41.81,0:09:46.77,Italics Dialogue,Tasuku,0000,0000,0000,,Players like Amano are easier \Nto get a read on, though.
+Dialogue: 0,0:09:46.77,0:09:47.89,Italics Dialogue,Tasuku,0000,0000,0000,,I mean...
+Dialogue: 0,0:09:47.89,0:09:49.40,sign_14239_153_Try_all_the_move,Text,0000,0000,0000,,Tries all the moves
+Dialogue: 0,0:09:49.52,0:09:51.36,sign_14239_153_Try_all_the_move,Text,0000,0000,0000,,Makes an approach with unnecessary jumps
+Dialogue: 0,0:09:51.48,0:09:52.98,sign_14239_153_Try_all_the_move,Text,0000,0000,0000,,Uses only heavy attacks
+Dialogue: 0,0:09:51.48,0:09:52.98,sign_14542_160_Goes_for_a_last_,Text,0000,0000,0000,,Always forgets to do throws
+Dialogue: 0,0:09:53.11,0:09:55.49,sign_14364_156_Always_forgets_t,Text,0000,0000,0000,,Inevitably gets thrown
+Dialogue: 0,0:09:55.49,0:09:56.95,sign_14364_156_Always_forgets_t,Text,0000,0000,0000,,Remembers that you can throw
+Dialogue: 0,0:09:57.07,0:09:59.07,sign_14459_158_Remembers_that_y,Text,0000,0000,0000,,Tries to get behind to throw, and gets beaten up
+Dialogue: 0,0:09:59.20,0:10:00.41,sign_14510_159_Becomes_dependen,Text,0000,0000,0000,,Becomes dependent on projectiles
+Dialogue: 0,0:10:00.53,0:10:02.08,sign_14542_160_Goes_for_a_last_,Text,0000,0000,0000,,Goes for a last-ditch special attack \Nwhen he's low on health
+Dialogue: 0,0:10:02.08,0:10:02.33,sign_14578_161_Misses,Text,0000,0000,0000,,Misses
+Dialogue: 0,0:10:02.58,0:10:03.62,sign_14239_153_Try_all_the_move,Text,0000,0000,0000,,Loses unceremoniously
+Dialogue: 0,0:10:07.66,0:10:09.29,Main Dialogue,Amano,0000,0000,0000,,You're so good, Uehara-kun.
+Dialogue: 0,0:10:09.63,0:10:11.54,Italics Dialogue,Tasuku,0000,0000,0000,,You just suck.
+Dialogue: 0,0:10:13.00,0:10:14.38,Main Dialogue,Amano,0000,0000,0000,,I'm winning this time.
+Dialogue: 0,0:10:18.26,0:10:18.97,Main Dialogue,Amano,0000,0000,0000,,Already?!
+Dialogue: 0,0:10:18.97,0:10:21.01,Main Dialogue,Amano,0000,0000,0000,,Wait... Wait, wait, wait!
+Dialogue: 0,0:10:21.01,0:10:24.31,Italics Dialogue,Tasuku,0000,0000,0000,,It's just a fighting game. I don't know \Nwhy he's having so much fun.
+Dialogue: 0,0:10:33.36,0:10:35.32,Main Dialogue,Amano,0000,0000,0000,,You got me again!
+Dialogue: 0,0:10:35.32,0:10:37.90,Italics Dialogue,Tasuku,0000,0000,0000,,You're way too bad at this.
+Dialogue: 0,0:10:37.90,0:10:40.86,Italics Dialogue,Tasuku,0000,0000,0000,,Even elementary school kids are trickier.
+Dialogue: 0,0:10:42.66,0:10:44.91,Main Dialogue,Amano,0000,0000,0000,,That was really fun, Uehara-kun!
+Dialogue: 0,0:10:44.91,0:10:46.08,Main Dialogue,Tasuku,0000,0000,0000,,Sure.
+Dialogue: 0,0:10:48.50,0:10:50.71,Main Dialogue,Tasuku,0000,0000,0000,,So what should we play next?
+Dialogue: 0,0:10:52.04,0:10:54.46,Main Dialogue,Tasuku,0000,0000,0000,,It's no fun if I just keep winning, is it?
+Dialogue: 0,0:10:56.09,0:10:58.38,Main Dialogue,Amano,0000,0000,0000,,Y-Yeah, you're right!
+Dialogue: 0,0:10:58.38,0:11:01.47,Main Dialogue,Amano,0000,0000,0000,,Oh, then let's play that one next!
+Dialogue: 0,0:11:22.53,0:11:24.62,Main Dialogue,Amano,0000,0000,0000,,What should we play next?
+Dialogue: 0,0:11:24.62,0:11:28.87,Main Dialogue,Tasuku,0000,0000,0000,,You're planning to play all the games \Nyou couldn't play alone, aren't you?
+Dialogue: 0,0:11:29.37,0:11:31.25,Main Dialogue,Amano,0000,0000,0000,,Th-That's not true.
+Dialogue: 0,0:11:31.25,0:11:34.88,Main Dialogue,Amano,0000,0000,0000,,All right, what should we play next?
+Dialogue: 0,0:11:36.59,0:11:37.63,Main Dialogue,Tasuku,0000,0000,0000,,Jeez.
+Dialogue: 0,0:11:38.67,0:11:41.43,Italics Dialogue,Tasuku,0000,0000,0000,,Come to think of it, \Nthis has happened before...
+Dialogue: 0,0:11:42.80,0:11:43.59,Italics Dialogue,Tasuku,0000,0000,0000,,What was it?
+Dialogue: 0,0:11:47.72,0:11:50.02,Italics Dialogue,Tasuku,0000,0000,0000,,What is she doing?
+Dialogue: 0,0:11:54.19,0:11:56.11,Main Dialogue,Tasuku,0000,0000,0000,,Hey, Amano.
+Dialogue: 0,0:11:58.07,0:11:59.78,Main Dialogue,Amano,0000,0000,0000,,Uehara-kun...
+Dialogue: 0,0:12:00.74,0:12:03.53,Italics Dialogue,Tasuku,0000,0000,0000,,I totally forgot.
+Dialogue: 0,0:12:03.53,0:12:04.95,Main Dialogue,Amano,0000,0000,0000,,Thanks for today.
+Dialogue: 0,0:12:04.95,0:12:06.53,Main Dialogue,Amano,0000,0000,0000,,S-See you.
+Dialogue: 0,0:12:06.53,0:12:07.41,Main Dialogue,,0000,0000,0000,,H-Hey!
+Dialogue: 0,0:12:07.95,0:12:09.29,Main Dialogue,Aguri,0000,0000,0000,,Tasuku!
+Dialogue: 0,0:12:09.79,0:12:11.25,Main Dialogue,Karen,0000,0000,0000,,A-Amano-kun!
+Dialogue: 0,0:12:11.25,0:12:13.50,Main Dialogue,Karen,0000,0000,0000,,I haven't given up yet...
+Dialogue: 0,0:12:14.79,0:12:16.54,Main Dialogue,Aguri,0000,0000,0000,,There you are.
+Dialogue: 0,0:12:16.54,0:12:18.17,Main Dialogue,Aguri,0000,0000,0000,,I've been calling you this whole time!
+Dialogue: 0,0:12:18.17,0:12:19.88,Main Dialogue,Aguri,0000,0000,0000,,Where were you?
+Dialogue: 0,0:12:19.88,0:12:20.63,Main Dialogue,Tasuku,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:21.67,0:12:24.80,Main Dialogue,Tasuku,0000,0000,0000,,Oh, sorry, I didn't notice.
+Dialogue: 0,0:12:27.93,0:12:30.06,Main Dialogue,A,0000,0000,0000,,That's awful, Uehara.
+Dialogue: 0,0:12:30.06,0:12:32.18,Main Dialogue,B,0000,0000,0000,,Wait, Masaya, didn't you have work?
+Dialogue: 0,0:12:32.18,0:12:33.52,Main Dialogue,Masaya,0000,0000,0000,,Crap! I forgot!
+Dialogue: 0,0:12:33.52,0:12:34.85,Main Dialogue,B,0000,0000,0000,,You're hopeless.
+Dialogue: 0,0:12:34.85,0:12:37.23,Main Dialogue,Tasuku,0000,0000,0000,,Sorry, I have to be somewhere.
+Dialogue: 0,0:12:37.23,0:12:38.19,Main Dialogue,Tasuku,0000,0000,0000,,I'll be right back.
+Dialogue: 0,0:12:38.52,0:12:40.15,Main Dialogue,Aguri,0000,0000,0000,,Wait, Tasuku!
+Dialogue: 0,0:12:45.24,0:12:46.41,Italics Dialogue,Tasuku,0000,0000,0000,,Damn it!
+Dialogue: 0,0:12:46.70,0:12:48.41,Italics Dialogue,Tasuku,0000,0000,0000,,What am I doing?
+Dialogue: 0,0:13:13.10,0:13:13.98,Italics Dialogue,Tasuku,0000,0000,0000,,There he is.
+Dialogue: 0,0:13:14.77,0:13:15.85,Main Dialogue,Tasuku,0000,0000,0000,,Amano!
+Dialogue: 0,0:13:17.06,0:13:18.65,Main Dialogue,Amano,0000,0000,0000,,H-Huh?
+Dialogue: 0,0:13:18.65,0:13:20.65,Main Dialogue,Amano,0000,0000,0000,,What's wrong, Uehara-kun?
+Dialogue: 0,0:13:23.99,0:13:25.45,Main Dialogue,Tasuku,0000,0000,0000,,Why did you run away?
+Dialogue: 0,0:13:26.11,0:13:29.70,Main Dialogue,Amano,0000,0000,0000,,What? I wasn't running away.
+Dialogue: 0,0:13:29.70,0:13:30.95,Main Dialogue,Tasuku,0000,0000,0000,,You were!
+Dialogue: 0,0:13:34.79,0:13:36.75,Main Dialogue,Amano,0000,0000,0000,,I wasn't running away.
+Dialogue: 0,0:13:36.75,0:13:41.21,Main Dialogue,Amano,0000,0000,0000,,But, I mean, why would you want me around?
+Dialogue: 0,0:13:41.21,0:13:45.09,Main Dialogue,Amano,0000,0000,0000,,You have a life, after all.
+Dialogue: 0,0:13:46.63,0:13:50.01,Italics Dialogue,Tasuku,0000,0000,0000,,Seriously, the more I look at this kid...
+Dialogue: 0,0:13:56.56,0:13:57.27,Main Dialogue,Amano,0000,0000,0000,,What are you—
+Dialogue: 0,0:13:57.27,0:13:58.52,Main Dialogue,Tasuku,0000,0000,0000,,Screw that!
+Dialogue: 0,0:13:58.52,0:14:00.48,Main Dialogue,Tasuku,0000,0000,0000,,Who do you think you are?
+Dialogue: 0,0:14:00.48,0:14:02.36,Main Dialogue,Tasuku,0000,0000,0000,,What the hell do you mean, I "have a life"?
+Dialogue: 0,0:14:02.36,0:14:04.82,Main Dialogue,Tasuku,0000,0000,0000,,Don't you dare try to \Nsum people up like that!
+Dialogue: 0,0:14:05.28,0:14:08.82,Main Dialogue,Tasuku,0000,0000,0000,,If it looks like I'm content, \Nit's because I make an effort!
+Dialogue: 0,0:14:09.11,0:14:12.91,Main Dialogue,Tasuku,0000,0000,0000,,It's because I busted my ass to \Nstop being a geek in high school!
+Dialogue: 0,0:14:13.66,0:14:16.79,Main Dialogue,Tasuku,0000,0000,0000,,Don't you dare give me that \Npatronizing "you have a life" bull!
+Dialogue: 0,0:14:17.66,0:14:19.04,Main Dialogue,Amano,0000,0000,0000,,I'm not patronizing...
+Dialogue: 0,0:14:19.04,0:14:25.30,Main Dialogue,Tasuku,0000,0000,0000,,I bet you think your time's way better \Nspent gaming by yourself, don't you?
+Dialogue: 0,0:14:25.30,0:14:27.17,Main Dialogue,Tasuku,0000,0000,0000,,You just want to have fun playing?
+Dialogue: 0,0:14:27.51,0:14:29.97,Main Dialogue,Tasuku,0000,0000,0000,,That's some salty excuse.
+Dialogue: 0,0:14:29.97,0:14:32.14,Main Dialogue,Tasuku,0000,0000,0000,,"A different perspective," my ass.
+Dialogue: 0,0:14:32.14,0:14:33.18,Main Dialogue,Tasuku,0000,0000,0000,,You think you're so cool?
+Dialogue: 0,0:14:33.18,0:14:34.22,Main Dialogue,Tasuku,0000,0000,0000,,Like hell you are!
+Dialogue: 0,0:14:34.22,0:14:38.23,Main Dialogue,Tasuku,0000,0000,0000,,Why are you even getting so serious \Nover video games? It's stupid!
+Dialogue: 0,0:14:38.94,0:14:44.98,Main Dialogue,Tasuku,0000,0000,0000,,Then again, I think Tendou's \Ngame club is stupid, too.
+Dialogue: 0,0:14:49.45,0:14:52.28,Main Dialogue,Tasuku,0000,0000,0000,,Why don't you say something?
+Dialogue: 0,0:14:54.28,0:14:55.70,Main Dialogue,Amano,0000,0000,0000,,Take it back.
+Dialogue: 0,0:15:00.87,0:15:03.88,Main Dialogue,Amano,0000,0000,0000,,Take back what you just said!
+Dialogue: 0,0:15:03.88,0:15:08.92,Main Dialogue,Amano,0000,0000,0000,,Sure, I'm just a slacker with \Nno interests other than gaming!
+Dialogue: 0,0:15:08.92,0:15:10.38,Main Dialogue,Amano,0000,0000,0000,,I knew that from the beginning!
+Dialogue: 0,0:15:10.38,0:15:11.64,Main Dialogue,Amano,0000,0000,0000,,I'm sorry!
+Dialogue: 0,0:15:11.64,0:15:14.43,Main Dialogue,Amano,0000,0000,0000,,You're so right about me thinking I'm cool for
+Dialogue: 0,0:15:13.05,0:15:14.43,Main Dialogue,Tasuku,0000,0000,0000,,Dude, calm down...
+Dialogue: 0,0:15:14.43,0:15:16.14,Main Dialogue,Amano,0000,0000,0000,,sticking to my position \Non gaming that it hurts!
+Dialogue: 0,0:15:16.68,0:15:17.97,Main Dialogue,Amano,0000,0000,0000,,Yeah, I'm a pest, aren't I?
+Dialogue: 0,0:15:17.97,0:15:19.52,Main Dialogue,Amano,0000,0000,0000,,I'm crazy, right?
+Dialogue: 0,0:15:18.56,0:15:21.65,Main Dialogue Top,Tasuku,0000,0000,0000,,N-No, no, I never said that!
+Dialogue: 0,0:15:19.52,0:15:22.35,Main Dialogue,Amano,0000,0000,0000,,I'll even admit that games are stupid, \Nfor the sake of argument!
+Dialogue: 0,0:15:22.90,0:15:28.28,Main Dialogue,Amano,0000,0000,0000,,But that doesn't give you the right to insult \Nsomeone you barely know for being
+Dialogue: 0,0:15:27.73,0:15:29.65,Italics Dialogue,Tasuku,0000,0000,0000,,{\an8}H-He's going to kill me!
+Dialogue: 0,0:15:28.28,0:15:31.36,Main Dialogue,Amano,0000,0000,0000,,engaged in something, even if it's \Nsomething as stupid as gaming!
+Dialogue: 0,0:15:32.45,0:15:34.62,Main Dialogue,Amano,0000,0000,0000,,You don't get to insult me!
+Dialogue: 0,0:15:35.37,0:15:38.12,Main Dialogue,Amano,0000,0000,0000,,Tendou-san really is a good person.
+Dialogue: 0,0:15:38.62,0:15:41.21,Main Dialogue,Amano,0000,0000,0000,,She's kind, she takes action,
+Dialogue: 0,0:15:41.62,0:15:44.63,Main Dialogue,Amano,0000,0000,0000,,and she invited me, of all people, \Ninto the game club, twice.
+Dialogue: 0,0:15:45.59,0:15:50.84,Main Dialogue,Amano,0000,0000,0000,,So I want you to take back your \Ninsulting remarks about Tendou-san
+Dialogue: 0,0:15:50.84,0:15:52.55,Main Dialogue,Amano,0000,0000,0000,,and the game club!
+Dialogue: 0,0:15:54.14,0:15:56.55,Main Dialogue,Tasuku,0000,0000,0000,,All right, just calm down!
+Dialogue: 0,0:15:56.55,0:15:58.01,Main Dialogue,Tasuku,0000,0000,0000,,Calm down, all right?
+Dialogue: 0,0:16:03.02,0:16:04.65,Main Dialogue,Amano,0000,0000,0000,,I-I'm sorry!
+Dialogue: 0,0:16:10.53,0:16:11.53,Italics Dialogue,Tasuku,0000,0000,0000,,What the hell?
+Dialogue: 0,0:16:12.40,0:16:16.24,Italics Dialogue,Tasuku,0000,0000,0000,,It was stupid to compare him \Nto myself and get all pissed.
+Dialogue: 0,0:16:19.33,0:16:21.37,Main Dialogue,Tasuku,0000,0000,0000,,I feel bad.
+Dialogue: 0,0:16:22.75,0:16:23.71,Main Dialogue,Tasuku,0000,0000,0000,,Sorry.
+Dialogue: 0,0:16:23.71,0:16:25.21,Main Dialogue,Amano,0000,0000,0000,,N-No...
+Dialogue: 0,0:16:26.75,0:16:30.71,Main Dialogue,Tasuku,0000,0000,0000,,But, man, I never thought the \Nsame guy who turned down
+Dialogue: 0,0:16:30.71,0:16:34.01,Main Dialogue,Tasuku,0000,0000,0000,,a direct invitation from Tendou would \Ndefend the game club so passionately.
+Dialogue: 0,0:16:34.63,0:16:36.97,Main Dialogue,Amano,0000,0000,0000,,Th-That's, um...
+Dialogue: 0,0:16:44.19,0:16:46.86,Main Dialogue,Tasuku,0000,0000,0000,,All right, I'm heading back to the arcade.
+Dialogue: 0,0:16:46.86,0:16:48.44,Main Dialogue,Tasuku,0000,0000,0000,,What about you?
+Dialogue: 0,0:16:51.44,0:16:52.82,Main Dialogue,Amano,0000,0000,0000,,I'll go home for today.
+Dialogue: 0,0:16:53.24,0:16:55.11,Main Dialogue,Amano,0000,0000,0000,,There's a game I want to play at home, too.
+Dialogue: 0,0:16:56.16,0:16:57.03,Main Dialogue,Tasuku,0000,0000,0000,,Yeah?
+Dialogue: 0,0:16:57.74,0:16:59.83,Main Dialogue,Tasuku,0000,0000,0000,,All right. Later.
+Dialogue: 0,0:16:59.83,0:17:00.70,Main Dialogue,Amano,0000,0000,0000,,Yeah.
+Dialogue: 0,0:17:04.33,0:17:07.00,Main Dialogue,Amano,0000,0000,0000,,Sorry I talked down to you \Nabout having a life.
+Dialogue: 0,0:17:07.96,0:17:10.00,Main Dialogue,Tasuku,0000,0000,0000,,Forget about it.
+Dialogue: 0,0:17:17.89,0:17:22.06,Italics Dialogue,Tasuku,0000,0000,0000,,My past self has got nothing on him.
+Dialogue: 0,0:17:30.52,0:17:32.90,Italics Dialogue,Tasuku,0000,0000,0000,,I've just witnessed something insane.
+Dialogue: 0,0:17:33.57,0:17:36.40,Italics Dialogue,Tasuku,0000,0000,0000,,Our school idol... Oh, dear.
+Dialogue: 0,0:17:36.74,0:17:37.91,sign_25480_284_Prologue_to_Tend,Text,0000,0000,0000,,Prologue to Tendou Karen's Breakdown
+Dialogue: 0,0:17:37.91,0:17:39.53,sign_25508_285_The_End,Text,0000,0000,0000,,The End
+Dialogue: 0,0:17:40.16,0:17:41.87,Main Dialogue,Tasuku,0000,0000,0000,,Yo, Tendou.
+Dialogue: 0,0:17:42.91,0:17:45.29,Main Dialogue,Karen,0000,0000,0000,,What do you want of {\i1}the{\i0} Tendou Karen?
+Dialogue: 0,0:17:44.79,0:17:45.29,konk,,0000,0000,0000,,Konk
+Dialogue: 0,0:17:47.42,0:17:49.75,Main Dialogue,Tasuku,0000,0000,0000,,Okay, got it.
+Dialogue: 0,0:17:49.75,0:17:51.25,Main Dialogue,Tasuku,0000,0000,0000,,I wish you well.
+Dialogue: 0,0:17:51.25,0:17:53.05,Main Dialogue,Karen,0000,0000,0000,,Wait up!
+Dialogue: 0,0:17:53.05,0:17:54.84,Main Dialogue,Karen,0000,0000,0000,,What do you mean? You "got" what?
+Dialogue: 0,0:17:54.84,0:17:57.05,Main Dialogue,Karen,0000,0000,0000,,You wish me well how?
+Dialogue: 0,0:17:57.05,0:17:58.76,Main Dialogue,Tasuku,0000,0000,0000,,I...
+Dialogue: 0,0:17:59.14,0:18:02.89,Main Dialogue,Tasuku,0000,0000,0000,,think you and Amano look cute together.
+Dialogue: 0,0:18:04.68,0:18:05.52,Main Dialogue,Tasuku,0000,0000,0000,,Later.
+Dialogue: 0,0:18:08.06,0:18:12.02,Italics Dialogue,Tasuku,0000,0000,0000,,To think the cutest girl at school \Nwould fall so madly in love...
+Dialogue: 0,0:18:12.57,0:18:14.90,Italics Dialogue,Tasuku,0000,0000,0000,,I'm going to egg those two on like hell.
+Dialogue: 0,0:18:14.90,0:18:17.70,Italics Dialogue,Tasuku,0000,0000,0000,,It'll be a good way to harass Amano.
+Dialogue: 0,0:18:20.57,0:18:21.83,Italics Dialogue,Tasuku,0000,0000,0000,,I forgot.
+Dialogue: 0,0:18:23.28,0:18:25.29,Main Dialogue,Aguri,0000,0000,0000,,Hey, get this one for me!
+Dialogue: 0,0:18:25.29,0:18:27.21,Main Dialogue,Tasuku,0000,0000,0000,,Give me a break.
+Dialogue: 0,0:18:27.21,0:18:29.83,Main Dialogue,Tasuku,0000,0000,0000,,How much money do you \Nthink I've spent already?
+Dialogue: 0,0:18:29.83,0:18:30.83,Main Dialogue,Aguri,0000,0000,0000,,I knew it!
+Dialogue: 0,0:18:30.83,0:18:33.29,Main Dialogue,Aguri,0000,0000,0000,,You won plushies for \Nsomeone else, didn't you?
+Dialogue: 0,0:18:33.29,0:18:36.34,Main Dialogue,Tasuku,0000,0000,0000,,No, I was just playing video \Ngames with another guy.
+Dialogue: 0,0:18:37.34,0:18:39.51,Main Dialogue,Aguri,0000,0000,0000,,Gaming with someone besides me, huh?
+Dialogue: 0,0:18:39.51,0:18:42.60,Main Dialogue,Aguri,0000,0000,0000,,Good for you, Tasuku-san, you cheater!
+Dialogue: 0,0:18:51.90,0:18:54.98,Italics Dialogue,Tasuku,0000,0000,0000,,We've been dating for the past half-year,
+Dialogue: 0,0:18:54.98,0:18:58.70,Italics Dialogue,Tasuku,0000,0000,0000,,but all we've really done \Nis hang out after school.
+Dialogue: 0,0:18:59.07,0:19:01.82,Italics Dialogue,Tasuku,0000,0000,0000,,Why am I even dating her?
+Dialogue: 0,0:19:03.95,0:19:08.08,Main Dialogue,Tasuku,0000,0000,0000,,So, Aguri, what was it you liked about me \Nthat made you want to confess to me?
+Dialogue: 0,0:19:08.08,0:19:09.04,Main Dialogue,Aguri,0000,0000,0000,,Huh?
+Dialogue: 0,0:19:09.04,0:19:10.83,Main Dialogue,Aguri,0000,0000,0000,,Haven't I told you?
+Dialogue: 0,0:19:10.83,0:19:13.71,Italics Dialogue,Tasuku,0000,0000,0000,,I bet she just liked my face or something.
+Dialogue: 0,0:19:13.71,0:19:18.51,Main Dialogue,Aguri,0000,0000,0000,,That's because you were awesome, of course.
+Dialogue: 0,0:19:18.51,0:19:19.63,Italics Dialogue,Tasuku,0000,0000,0000,,See?
+Dialogue: 0,0:19:19.63,0:19:24.05,Main Dialogue,Aguri,0000,0000,0000,,Back in middle school, \Nwhen you got me a plushie.
+Dialogue: 0,0:19:25.93,0:19:27.85,Main Dialogue,Aguri,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:19:30.23,0:19:31.98,Main Dialogue,Tasuku,0000,0000,0000,,Middle school?
+Dialogue: 0,0:19:31.98,0:19:33.35,Main Dialogue,Tasuku,0000,0000,0000,,Me and you?
+Dialogue: 0,0:19:33.35,0:19:34.15,Main Dialogue,Aguri,0000,0000,0000,,Yeah.
+Dialogue: 0,0:19:34.15,0:19:36.94,Main Dialogue,Aguri,0000,0000,0000,,I could tell you were having a lot of \Nfun when you were playing here,
+Dialogue: 0,0:19:36.94,0:19:38.78,Main Dialogue,Aguri,0000,0000,0000,,every now and then.
+Dialogue: 0,0:19:38.78,0:19:41.74,Main Dialogue,Aguri,0000,0000,0000,,I've been in love with you ever since.
+Dialogue: 0,0:19:42.32,0:19:43.87,Italics Dialogue,Tasuku,0000,0000,0000,,Middle school?
+Dialogue: 0,0:19:44.41,0:19:47.20,Italics Dialogue,Tasuku,0000,0000,0000,,Back in my dark ages?
+Dialogue: 0,0:19:49.70,0:19:52.00,Italics Dialogue,Tasuku,0000,0000,0000,,That's right, I remember now.
+Dialogue: 0,0:19:52.50,0:19:57.84,Italics Dialogue,Tasuku,0000,0000,0000,,I came here sometimes to distract \Nmyself, and I just happened to...
+Dialogue: 0,0:19:59.26,0:20:00.30,Italics Dialogue,Tasuku,0000,0000,0000,,Just happened to...
+Dialogue: 0,0:20:08.01,0:20:12.48,Main Dialogue,Aguri,0000,0000,0000,,So when I found out we were going to the same \Nhigh school, I was like, "It's my chance!"
+Dialogue: 0,0:20:12.48,0:20:15.73,sign_29214_328_Otobuki_High_Sch,Text,0000,0000,0000,,Otobuki High School \N{\fs16}Entrance Ceremony
+Dialogue: 0,0:20:12.48,0:20:15.73,Main Dialogue,Aguri,0000,0000,0000,,But you'd turned into a real hottie.
+Dialogue: 0,0:20:15.73,0:20:20.11,Main Dialogue,Aguri,0000,0000,0000,,I heard you liked girly girls, \Nso I worked really hard.
+Dialogue: 0,0:20:23.61,0:20:25.03,Main Dialogue,Aguri,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:20:31.08,0:20:33.21,Main Dialogue,Tasuku,0000,0000,0000,,I-I'm done for the day.
+Dialogue: 0,0:20:33.21,0:20:36.13,Main Dialogue,Aguri,0000,0000,0000,,Aw, let's walk home together.
+Dialogue: 0,0:20:36.50,0:20:38.25,Main Dialogue,Tasuku,0000,0000,0000,,You live nearby!
+Dialogue: 0,0:20:38.25,0:20:38.92,Main Dialogue,Tasuku,0000,0000,0000,,Bye!
+Dialogue: 0,0:20:38.92,0:20:40.51,Main Dialogue,Aguri,0000,0000,0000,,Wait, Tasuku!
+Dialogue: 0,0:20:42.42,0:20:43.88,Italics Dialogue,Tasuku,0000,0000,0000,,What the hell?
+Dialogue: 0,0:20:43.88,0:20:45.01,Italics Dialogue,Tasuku,0000,0000,0000,,What the hell?!
+Dialogue: 0,0:20:45.01,0:20:47.47,Italics Dialogue,Tasuku,0000,0000,0000,,Why am I feeling for Aguri {\i0}now{\i1}?
+Dialogue: 0,0:20:47.47,0:20:50.27,Italics Dialogue,Tasuku,0000,0000,0000,,She's had her eye on me since middle school?
+Dialogue: 0,0:20:50.27,0:20:52.10,Italics Dialogue,Tasuku,0000,0000,0000,,When I was such a loser?
+Dialogue: 0,0:20:56.52,0:20:58.86,Italics Dialogue,Tasuku,0000,0000,0000,,Was she ever that cute?
+Dialogue: 0,0:20:59.52,0:21:02.32,Italics Dialogue,Tasuku,0000,0000,0000,,Why does she look so cute all of a sudden?
+Dialogue: 0,0:21:02.32,0:21:05.95,Main Dialogue,Tasuku,0000,0000,0000,,Why?!
+Dialogue: 0,0:21:03.82,0:21:06.53,sign_30445_349_Be_Passionate,Text,0000,0000,0000,,Be Passionate
+Dialogue: 0,0:21:07.95,0:21:09.33,Main Dialogue,A,0000,0000,0000,,Morning.
+Dialogue: 0,0:21:09.33,0:21:09.95,Main Dialogue,Tasuku,0000,0000,0000,,Yo.
+Dialogue: 0,0:21:14.33,0:21:16.21,Main Dialogue,Tasuku,0000,0000,0000,,Hey, Amano.
+Dialogue: 0,0:21:17.67,0:21:19.09,Main Dialogue,Amano,0000,0000,0000,,Morning, Uehara-kun.
+Dialogue: 0,0:21:19.09,0:21:21.63,Main Dialogue,Tasuku,0000,0000,0000,,You were right. It was fun.
+Dialogue: 0,0:21:21.63,0:21:23.09,Main Dialogue,Tasuku,0000,0000,0000,,{\i1}Paradigm of Phantasia{\i0}.
+Dialogue: 0,0:21:24.01,0:21:26.93,Main Dialogue,Tasuku,0000,0000,0000,,Let me know whenever you \Nfind more good games.
+Dialogue: 0,0:21:27.80,0:21:29.85,Main Dialogue,Amano,0000,0000,0000,,Sure, I will!
+Dialogue: 0,0:21:29.85,0:21:32.68,Main Dialogue,A,0000,0000,0000,,Tasuku, were you that close \Nwith Amano before?
+Dialogue: 0,0:21:32.68,0:21:34.35,Main Dialogue,Tasuku,0000,0000,0000,,I guess.
+Dialogue: 0,0:21:34.68,0:21:36.73,Main Dialogue,A,0000,0000,0000,,You're in a good mood.
+Dialogue: 0,0:21:36.73,0:21:38.15,Main Dialogue,A,0000,0000,0000,,Did something good happen?
+Dialogue: 0,0:21:40.65,0:21:46.15,Main Dialogue,Tasuku,0000,0000,0000,,I've been having a blast \Nwith video games lately.
+Dialogue: 0,0:23:17.37,0:23:19.21,sign_33647_364_Sometime_later__,Text,0000,0000,0000,,Some Days Later
+Dialogue: 0,0:23:21.25,0:23:23.79,Main Dialogue,A,0000,0000,0000,,I wonder what's wrong with Tendou-san...
+Dialogue: 0,0:23:28.46,0:23:30.13,Main Dialogue,B,0000,0000,0000,,Huh? Amano-kun?
+Dialogue: 0,0:23:32.01,0:23:33.14,Main Dialogue,B,0000,0000,0000,,What's up?
+Dialogue: 0,0:23:33.14,0:23:35.10,Main Dialogue,B,0000,0000,0000,,Are you here to see Tendou-san?
+Dialogue: 0,0:23:35.10,0:23:39.52,Main Dialogue,Tasuku,0000,0000,0000,,I'm here to meet another girl \Ntoday, not Tendou-san.

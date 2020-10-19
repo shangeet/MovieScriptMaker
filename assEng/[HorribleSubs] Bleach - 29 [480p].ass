@@ -1,0 +1,463 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: B1,Open Sans Semibold,58,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,2,93,93,40,0
+Style: OS,Open Sans Semibold,33,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,8,1,1,20,0
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Ep Title,Open Sans Semibold,33,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,3,227,93,27,0
+Style: Copy of Ep Title,Open Sans Semibold,33,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,3,93,301,87,0
+Style: On Top,Open Sans Semibold,36,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,8,27,27,29,0
+Style: Copy of OS,Open Sans Semibold,33,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100,100,0,0,1,2,1,9,27,27,27,0
+Style: DefaultLow,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.04,0:00:02.65,Default,Default,0000,0000,0000,,Pain that won’t heal
+Dialogue: 0,0:00:02.65,0:00:04.19,Default,Default,0000,0000,0000,,Sadness you feel
+Dialogue: 0,0:00:04.19,0:00:06.19,Default,Default,0000,0000,0000,,Scars that just refuse to fade\Nfrom memory
+Dialogue: 0,0:00:06.19,0:00:09.03,Default,Default,0000,0000,0000,,Sometimes the burden’s too much\Nfor one to bear
+Dialogue: 0,0:00:09.03,0:00:12.40,Default,Default,0000,0000,0000,,Don’t give up on me,\Nplease don’t turn me away
+Dialogue: 0,0:00:12.45,0:00:15.19,Default,Default,0000,0000,0000,,Whoa!
+Dialogue: 0,0:00:15.19,0:00:18.32,Default,Default,0000,0000,0000,,I’ll hold your hand in mine
+Dialogue: 0,0:00:21.70,0:00:25.54,Default,Default,0000,0000,0000,,Will I lose my hold on her someday?
+Dialogue: 0,0:00:25.90,0:00:32.30,Default,Default,0000,0000,0000,,Will her smile fade  In a flood of tears\NOr can I keep the fears at bay?
+Dialogue: 0,0:00:32.43,0:00:37.36,Default,Default,0000,0000,0000,,Echoing, distant voices wither into silence.
+Dialogue: 0,0:00:37.36,0:00:42.08,Default,Default,0000,0000,0000,,But there is one thing that\Nwill never ever age…
+Dialogue: 0,0:00:44.40,0:00:46.82,Default,Default,0000,0000,0000,,my love for you is timeless
+Dialogue: 0,0:00:46.82,0:00:48.28,Default,Default,0000,0000,0000,,Pain that won’t heal
+Dialogue: 0,0:00:48.28,0:00:50.03,Default,Default,0000,0000,0000,,Sadness you feel
+Dialogue: 0,0:00:50.03,0:00:52.07,Default,Default,0000,0000,0000,,Smiles with hearts’ bitterness replaced
+Dialogue: 0,0:00:52.07,0:00:53.36,Default,Default,0000,0000,0000,,“I’ll never smile again”
+Dialogue: 0,0:00:53.36,0:00:54.61,Default,Default,0000,0000,0000,,“I’ll never let love in”
+Dialogue: 0,0:00:54.61,0:00:57.28,Default,Default,0000,0000,0000,,Don’t ever say such things to me
+Dialogue: 0,0:00:57.28,0:01:00.40,Default,Default,0000,0000,0000,,A future we cannot see
+Dialogue: 0,0:01:00.40,0:01:03.36,Default,Default,0000,0000,0000,,All happenings\NFind meaning in the story
+Dialogue: 0,0:01:03.36,0:01:07.61,Default,Default,0000,0000,0000,,In time the clouds will clear away,
+Dialogue: 0,0:01:07.61,0:01:11.51,Default,Default,0000,0000,0000,,so just stay, please stay with me…\NWhoa!
+Dialogue: 0,0:01:12.31,0:01:17.38,Default,Default,0000,0000,0000,,Who are we to pass through you?\NWhoa!
+Dialogue: 0,0:01:17.38,0:01:19.65,Default,Default,0000,0000,0000,,That answer will find you someday
+Dialogue: 0,0:01:26.87,0:01:27.53,Default,Default,0000,0000,0000,,Tsubaki!
+Dialogue: 0,0:01:28.31,0:01:31.03,Default,Default,0000,0000,0000,,Koten Zanshun!\N“I reject!”
+Dialogue: 0,0:01:35.01,0:01:35.71,Default,Default,0000,0000,0000,,Tsubaki!
+Dialogue: 0,0:01:37.36,0:01:38.67,Default,Default,0000,0000,0000,,Fool…
+Dialogue: 0,0:01:39.29,0:01:41.83,Default,Default,0000,0000,0000,,Faltering like that…!
+Dialogue: 0,0:01:43.86,0:01:46.61,Default,Default,0000,0000,0000,,That was the first time\NI saw such a technique.
+Dialogue: 0,0:01:47.15,0:01:50.50,Default,Default,0000,0000,0000,,There’s no intent to kill\Nin your attack.
+Dialogue: 0,0:01:51.40,0:01:54.76,Default,Default,0000,0000,0000,,Though you might kill\NHollows with that move,
+Dialogue: 0,0:01:54.76,0:01:57.72,Default,Default,0000,0000,0000,,it will have no effect\Non Soul Reapers.
+Dialogue: 0,0:01:58.40,0:02:02.03,Default,Default,0000,0000,0000,,Have you mistaken this place\Nfor a playground?
+Dialogue: 0,0:02:02.70,0:02:04.00,Default,Default,0000,0000,0000,,This is a battlefield!
+Dialogue: 0,0:02:04.24,0:02:08.81,Default,Default,0000,0000,0000,,Without the intent to kill…\Nyou’ll never stop anyone!
+Dialogue: 0,0:02:08.81,0:02:09.56,Default,Default,0000,0000,0000,,Wha--?!
+Dialogue: 0,0:02:13.70,0:02:16.64,Default,Default,0000,0000,0000,,So you want an attack\Nwith intent to kill?
+Dialogue: 0,0:02:17.68,0:02:19.76,Default,Default,0000,0000,0000,,Then fight me.
+Dialogue: 0,0:02:20.43,0:02:25.94,Default,Default,0000,0000,0000,,It’s here in my bow…\NThe intent to kill you love so much.
+Dialogue: 0,0:02:28.83,0:02:32.47,Default,Default,0000,0000,0000,,Huh…Very interesting.
+Dialogue: 0,0:02:32.96,0:02:35.39,Default,Default,0000,0000,0000,,Would you be a Quincy?
+Dialogue: 0,0:02:36.32,0:02:37.83,Default,Default,0000,0000,0000,,That’s right.
+Dialogue: 0,0:02:38.82,0:02:40.26,Default,Default,0000,0000,0000,,Ishida’s bow…
+Dialogue: 0,0:02:40.80,0:02:42.92,Default,Default,0000,0000,0000,,It’s totally different from\Nthe one I saw!
+Dialogue: 0,0:02:43.62,0:02:46.60,Default,Default,0000,0000,0000,,In its appearance and\Neven in its Spiritual Pressure…!
+Dialogue: 0,0:02:47.26,0:02:48.86,Default,Default,0000,0000,0000,,That glove…
+Dialogue: 0,0:02:49.60,0:02:54.30,Default,Default,0000,0000,0000,,He must have been practicing\Nin order to use it properly.
+Dialogue: 0,0:02:55.82,0:02:57.47,Default,Default,0000,0000,0000,,This is interesting.
+Dialogue: 0,0:02:57.68,0:03:01.21,Default,Default,0000,0000,0000,,One uses an unfamiliar skill;\Nthe other is a Quincy.
+Dialogue: 0,0:03:01.21,0:03:03.55,Default,Default,0000,0000,0000,,And both employ projectile weapons.
+Dialogue: 0,0:03:03.87,0:03:08.24,Default,Default,0000,0000,0000,,And you’ve both come to fight me.
+Dialogue: 0,0:03:08.24,0:03:11.43,Default,Default,0000,0000,0000,,What coincidence!\NWhat a twist of fate.
+Dialogue: 0,0:03:12.00,0:03:16.40,Default,Default,0000,0000,0000,,Now I must show you.\NThe true form of my Zanpaku-to.
+Dialogue: 0,0:03:17.04,0:03:19.81,Default,Default,0000,0000,0000,,Spread your wings, Tsunzaki Garasu!
+Dialogue: 0,0:03:19.91,0:03:20.71,Default,Default,0000,0000,0000,,Huh!
+Dialogue: 0,0:03:20.89,0:03:22.06,Default,Default,0000,0000,0000,,What do you think?
+Dialogue: 0,0:03:22.06,0:03:23.83,Default,Default,0000,0000,0000,,Now, lament.
+Dialogue: 0,0:03:23.83,0:03:27.68,Default,Default,0000,0000,0000,,I am 4th Seat of Squad 7!\NJirobo Ikkanzaka!
+Dialogue: 0,0:03:27.85,0:03:30.57,Default,Default,0000,0000,0000,,Also known as Jirobo Wind Scythe!
+Dialogue: 0,0:03:30.99,0:03:32.46,Default,Default,0000,0000,0000,,The nickname, Wind Scythe,\Nproves that
+Dialogue: 0,0:03:32.46,0:03:35.15,Default,Default,0000,0000,0000,,I am the most skilled\Nin projectile weapons.
+Dialogue: 0,0:03:35.15,0:03:37.58,Default,Default,0000,0000,0000,,My countless blades\Ndance through space.
+Dialogue: 0,0:03:37.58,0:03:42.13,Default,Default,0000,0000,0000,,No one has seen my\NTsunzaki Garasu and lived!
+Dialogue: 0,0:03:42.40,0:03:44.17,Default,Default,0000,0000,0000,,Here, here.  How do you like it?
+Dialogue: 0,0:03:44.17,0:03:46.51,Default,Default,0000,0000,0000,,You can’t even follow them\Nwith your eyes, can you?
+Dialogue: 0,0:03:46.51,0:03:52.15,Default,Default,0000,0000,0000,,As a fellow master of flying weapons,\Nyou’ll fully regret having met me…
+Dialogue: 0,0:03:53.95,0:03:54.68,Default,Default,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:55.29,0:03:58.79,Default,Default,0000,0000,0000,,How interesting.\NUnlike the human world…
+Dialogue: 0,0:03:59.53,0:04:06.01,Default,Default,0000,0000,0000,,Here, the so-called strongest fighter\Nseems to be the most long-winded whiner.
+Dialogue: 0,0:04:07.17,0:04:09.79,Default,Default,0000,0000,0000,,R-Ridiculous!\NThat was a fluke!
+Dialogue: 0,0:04:10.21,0:04:11.59,Default,Default,0000,0000,0000,,Don’t be so cocky.
+Dialogue: 0,0:04:11.59,0:04:13.32,Default,Default,0000,0000,0000,,You still don’t understand?
+Dialogue: 0,0:04:16.89,0:04:20.62,Default,Default,0000,0000,0000,,Sorry, but if you’re supposed\Nto be the strongest,
+Dialogue: 0,0:04:20.99,0:04:23.27,Default,Default,0000,0000,0000,,I take back your nickname\Nas of today.
+Dialogue: 0,0:04:24.07,0:04:27.39,Default,Default,0000,0000,0000,,Where flying weapons are concerned,\NI seem to be the better man.
+Dialogue: 0,0:04:28.20,0:04:32.93,Default,Default,0000,0000,0000,,The name, “Uryu Weasel with Scythe,”\Nthough, doesn’t sound all too cool.
+Dialogue: 0,0:04:34.58,0:04:36.61,Default,Default,0000,0000,0000,,M-My hand… My hand…
+Dialogue: 0,0:04:36.94,0:04:39.34,Default,Default,0000,0000,0000,,My left hand…!
+Dialogue: 0,0:04:39.59,0:04:41.79,Default,Default,0000,0000,0000,,Amazing… Uryu…
+Dialogue: 0,0:04:42.69,0:04:47.05,Default,Default,0000,0000,0000,,Compared to that time he was battling\Nthe Hollows alongside Ichigo…
+Dialogue: 0,0:04:47.48,0:04:49.05,Default,Default,0000,0000,0000,,He’s become\Na completely different person!
+Dialogue: 0,0:04:49.91,0:04:52.15,Default,Default,0000,0000,0000,,Do you lament it even a little?
+Dialogue: 0,0:04:52.88,0:04:55.34,Default,Default,0000,0000,0000,,As a fellow practitioner of\Nprojectile weaponry…
+Dialogue: 0,0:04:55.61,0:04:58.31,Default,Default,0000,0000,0000,,Your misfortune of meeting me…
+Dialogue: 0,0:04:58.48,0:05:01.34,Default,Default,0000,0000,0000,,Me…lament?! Damn you brat!
+Dialogue: 0,0:05:08.17,0:05:11.82,Default,Default,0000,0000,0000,,You do realize that I missed\Non purpose.
+Dialogue: 0,0:05:12.12,0:05:15.34,Default,Default,0000,0000,0000,,And next time, I won’t miss.
+Dialogue: 0,0:05:16.15,0:05:17.62,Default,Default,0000,0000,0000,,Amazing!
+Dialogue: 0,0:05:18.28,0:05:22.80,Default,Default,0000,0000,0000,,That was amazing! The speed, power and\Naccuracy of your technique…
+Dialogue: 0,0:05:22.95,0:05:26.82,Default,Default,0000,0000,0000,,All of which surpass mine.
+Dialogue: 0,0:05:27.12,0:05:31.37,Default,Default,0000,0000,0000,,To think that I should meet\Nsuch a skillful practitioner…
+Dialogue: 0,0:05:32.27,0:05:33.74,Default,Default,0000,0000,0000,,I am utterly defeated.
+Dialogue: 0,0:05:33.94,0:05:37.72,Default,Default,0000,0000,0000,,Please, boil me, bake me,\Ndo whatever you want to me.
+Dialogue: 0,0:05:41.30,0:05:43.17,Default,Default,0000,0000,0000,,Why won’t you shoot me?
+Dialogue: 0,0:05:43.41,0:05:46.30,Default,Default,0000,0000,0000,,Could it be that you are letting me go?
+Dialogue: 0,0:05:46.79,0:05:52.34,Default,Default,0000,0000,0000,,I’m a Quincy.\NI have no mercy for a Soul Reaper.
+Dialogue: 0,0:05:53.15,0:05:58.34,Default,Default,0000,0000,0000,,It’s just that I don’t like\Nbullying the weak.
+Dialogue: 0,0:05:59.16,0:06:02.72,Default,Default,0000,0000,0000,,Hurry up and get lost…\NBefore I change my mind.
+Dialogue: 0,0:06:04.01,0:06:07.37,Default,Default,0000,0000,0000,,It seems you are\Na kind-hearted person.
+Dialogue: 0,0:06:07.53,0:06:08.86,Default,Default,0000,0000,0000,,However…
+Dialogue: 0,0:06:09.34,0:06:12.69,Default,Default,0000,0000,0000,,that will be…your…undoing!
+Dialogue: 0,0:06:14.29,0:06:18.38,Default,Default,0000,0000,0000,,Since you couldn’t beat me,\Nyou thought you could at least get Orihime?
+Dialogue: 0,0:06:18.38,0:06:22.05,Default,Default,0000,0000,0000,,Or were you planning to\Ntake her hostage?
+Dialogue: 0,0:06:22.30,0:06:24.53,Default,Default,0000,0000,0000,,H-How did you know?
+Dialogue: 0,0:06:24.73,0:06:31.83,Default,Default,0000,0000,0000,,I don’t like bullying the weak…\NBut I don’t mind exposing cowards.
+Dialogue: 0,0:06:32.57,0:06:38.34,Default,Default,0000,0000,0000,,From the moment you showed up,\Nyou were targeting her, not me.
+Dialogue: 0,0:06:39.00,0:06:43.02,Default,Default,0000,0000,0000,,Most would find it beneath themselves\Nto attack a lady when she’s not looking.
+Dialogue: 0,0:06:43.63,0:06:46.64,Default,Default,0000,0000,0000,,An honorable person with any\Ndecent pride wouldn’t do such a thing;
+Dialogue: 0,0:06:46.85,0:06:48.68,Default,Default,0000,0000,0000,,that’s a coward’s way of fighting.
+Dialogue: 0,0:06:49.60,0:06:50.63,Default,Default,0000,0000,0000,,Amazing.
+Dialogue: 0,0:06:51.44,0:06:53.05,Default,Default,0000,0000,0000,,And good-bye.
+Dialogue: 0,0:06:53.28,0:06:56.89,Default,Default,0000,0000,0000,,You don’t even deserve\Nthe time to lament.
+Dialogue: 0,0:07:06.18,0:07:08.10,Default,Default,0000,0000,0000,,Thank you, Uryu.
+Dialogue: 0,0:07:09.15,0:07:10.73,Default,Default,0000,0000,0000,,I-It’s okay,\Nyou don’t need to thank me.
+Dialogue: 0,0:07:10.73,0:07:11.49,Default,Default,0000,0000,0000,,I…
+Dialogue: 0,0:07:11.49,0:07:13.68,Default,Default,0000,0000,0000,,“Didn’t really do much?”
+Dialogue: 0,0:07:17.86,0:07:19.34,Default,Default,0000,0000,0000,,Did he die?
+Dialogue: 0,0:07:19.60,0:07:20.48,Default,Default,0000,0000,0000,,No…
+Dialogue: 0,0:07:21.21,0:07:23.02,Default,Default,0000,0000,0000,,I shot out the Soul Chain\Nand Hakusui - Soul Sleep,
+Dialogue: 0,0:07:23.02,0:07:26.21,Default,Default,0000,0000,0000,,vital spots that control the\Ngeneration of the spiritual energy.
+Dialogue: 0,0:07:26.79,0:07:30.25,Default,Default,0000,0000,0000,,He’s not dead.\NHowever, he’ll lose his spirit powers.
+Dialogue: 0,0:07:30.93,0:07:35.65,Default,Default,0000,0000,0000,,And once he awakes, he’ll no longer\Nreturn to being a Soul Reaper.
+Dialogue: 0,0:07:36.12,0:07:38.69,Default,Default,0000,0000,0000,,As a result of this battle…\Nthat’s sufficient.
+Dialogue: 0,0:07:40.63,0:07:41.55,Default,Default,0000,0000,0000,,Shall we go?
+Dialogue: 0,0:07:41.72,0:07:42.51,Default,Default,0000,0000,0000,,Uh-huh.
+Dialogue: 0,0:07:43.74,0:07:45.48,Default,Default,0000,0000,0000,,I’ve heard from Yoruichi,
+Dialogue: 0,0:07:46.21,0:07:50.12,Default,Default,0000,0000,0000,,“A Quincy gathers the spiritual\Nparticles around them to fight.”
+Dialogue: 0,0:07:50.73,0:07:55.25,Default,Default,0000,0000,0000,,I’m sure he uses that glove to increase\Nhis ability to gather spiritual particles.
+Dialogue: 0,0:07:56.34,0:08:01.55,Default,Default,0000,0000,0000,,Because of its overwhelming power,\Nin order to avoid harming us,
+Dialogue: 0,0:08:01.86,0:08:04.22,Default,Default,0000,0000,0000,,Uryu was training by himself.
+Dialogue: 0,0:08:05.29,0:08:08.23,Default,Default,0000,0000,0000,,And he was able to master it\Nto that degree…
+Dialogue: 0,0:08:09.60,0:08:12.93,Default,Default,0000,0000,0000,,In just ten days, all by himself.
+Dialogue: 0,0:08:14.34,0:08:15.93,Default,Default,0000,0000,0000,,You’re incredible, Uryu.
+Dialogue: 0,0:08:16.52,0:08:19.43,Default,Default,0000,0000,0000,,What have I done\Nin those ten days?
+Dialogue: 0,0:08:19.81,0:08:20.33,Default,Default,0000,0000,0000,,Oops!
+Dialogue: 0,0:08:21.91,0:08:22.92,Default,Default,0000,0000,0000,,T-Thank you.
+Dialogue: 0,0:08:22.92,0:08:23.52,Default,Default,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:27.96,0:08:29.19,Default,Default,0000,0000,0000,,This isn’t…
+Dialogue: 0,0:08:30.08,0:08:31.05,Default,Default,0000,0000,0000,,Orihime!
+Dialogue: 0,0:08:32.41,0:08:34.47,Default,Default,0000,0000,0000,,Hang in there, Orihime!
+Dialogue: 0,0:08:35.69,0:08:39.20,Default,Default,0000,0000,0000,,That’s right – I promised!
+Dialogue: 0,0:08:39.20,0:08:40.23,Default,Default,0000,0000,0000,,Orihime!
+Dialogue: 0,0:08:40.23,0:08:40.56,Default,Default,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:40.56,0:08:43.19,Default,Default,0000,0000,0000,,A-Are you all right?\NDid you get hurt earlier?
+Dialogue: 0,0:08:43.19,0:08:46.04,Default,Default,0000,0000,0000,,Ah, oh no! I’m sorry, it’s nothing!
+Dialogue: 0,0:08:46.48,0:08:49.01,Default,Default,0000,0000,0000,,I just got teary-eyed looking\Nat the sun.
+Dialogue: 0,0:08:49.01,0:08:51.47,Default,Default,0000,0000,0000,,Don’t you get that sometimes?\NYou know, like sneezing.
+Dialogue: 0,0:08:51.47,0:08:54.24,Default,Default,0000,0000,0000,,Or wanting to go to the restroom\Nwhen you’re at the bookstore,
+Dialogue: 0,0:08:54.24,0:08:56.98,Default,Default,0000,0000,0000,,or your gums bleeding when\Nyou bite into an apple.
+Dialogue: 0,0:08:57.50,0:08:59.04,Default,Default,0000,0000,0000,,Well, let’s go, Uryu!
+Dialogue: 0,0:08:59.18,0:09:01.01,Default,Default,0000,0000,0000,,I’m going to do my best too!
+Dialogue: 0,0:09:02.94,0:09:03.98,Default,Default,0000,0000,0000,,Orihime…
+Dialogue: 0,0:09:03.98,0:09:05.06,Default,Default,0000,0000,0000,,What?
+Dialogue: 0,0:09:05.65,0:09:07.93,Default,Default,0000,0000,0000,,Are you sure you’re all right?
+Dialogue: 0,0:09:07.93,0:09:09.46,Default,Default,0000,0000,0000,,Huh? How come?
+Dialogue: 0,0:09:09.79,0:09:10.51,Default,Default,0000,0000,0000,,Well…
+Dialogue: 0,0:09:13.52,0:09:17.10,Default,Default,0000,0000,0000,,Why am I the only one getting\Nchased around over and over?!
+Dialogue: 0,0:09:17.10,0:09:18.53,Default,Default,0000,0000,0000,,Hey stop, you side burned monkey!
+Dialogue: 0,0:09:18.53,0:09:20.04,Default,Default,0000,0000,0000,,Stop squirming, you lower eyelash!
+Dialogue: 0,0:09:20.04,0:09:21.06,Default,Default,0000,0000,0000,,You with that ugly face!
+Dialogue: 0,0:09:21.06,0:09:23.07,Default,Default,0000,0000,0000,,W-What did you say?!
+Dialogue: 0,0:09:23.07,0:09:25.07,Default,Default,0000,0000,0000,,That other guy was\Nkind of good-looking,
+Dialogue: 0,0:09:25.07,0:09:28.34,Default,Default,0000,0000,0000,,but no matter how I look at it, you have\Nno place to comment on my looks!
+Dialogue: 0,0:09:28.34,0:09:29.83,Default,Default,0000,0000,0000,,What did you say?!
+Dialogue: 0,0:09:29.18,0:09:30.38,Default,Default,0000,0000,0000,,We’re going to eat you, Ugly!
+Dialogue: 0,0:09:30.87,0:09:33.51,Default,Default,0000,0000,0000,,With this many on my tail,\NI can’t even win an argument!
+Dialogue: 0,0:09:34.24,0:09:34.83,Default,Default,0000,0000,0000,,Oh?!
+Dialogue: 0,0:09:34.83,0:09:35.63,Default,Default,0000,0000,0000,,Ichigo!
+Dialogue: 0,0:09:35.95,0:09:38.06,Default,Default,0000,0000,0000,,Reinforcements! Just in time…
+Dialogue: 0,0:09:45.57,0:09:47.27,Default,Default,0000,0000,0000,,Or not!
+Dialogue: 0,0:09:45.57,0:09:47.27,Default,Default,0000,0000,0000,,He—y, Ganju—!
+Dialogue: 0,0:09:45.57,0:09:47.27,Default,Default,0000,0000,0000,,W-Wait minute!\NWhy are you getting chased around too?
+Dialogue: 0,0:09:45.57,0:09:47.27,Default,Default,0000,0000,0000,,It makes no sense to get together!
+Dialogue: 0,0:09:47.27,0:09:49.03,Default,Default,0000,0000,0000,,Idiot! Stop waving at me!
+Dialogue: 0,0:09:49.03,0:09:51.15,Default,Default,0000,0000,0000,,You’re riling up the guys\Nrunning behind you!
+Dialogue: 0,0:09:51.15,0:09:52.98,Default,Default,0000,0000,0000,,I said don’t come this way…
+Dialogue: 0,0:09:57.51,0:09:59.69,Default,Default,0000,0000,0000,,Let’s go, Ganju!\NDuck!
+Dialogue: 0,0:10:05.09,0:10:06.68,Default,Default,0000,0000,0000,,This is Iemura.
+Dialogue: 0,0:10:06.80,0:10:08.74,Default,Default,0000,0000,0000,,Squad 4, Unohana Relief Crew,
+Dialogue: 0,0:10:08.74,0:10:13.15,Default,Default,0000,0000,0000,,Groups 1, 6 and 14 are approaching\Nenemy position.
+Dialogue: 0,0:10:13.44,0:10:16.45,Default,Default,0000,0000,0000,,Let’s hustle! This is not a drill!
+Dialogue: 0,0:10:16.60,0:10:17.58,Default,Default,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:10:20.63,0:10:22.66,Default,Default,0000,0000,0000,,That was dangerous, you fool!
+Dialogue: 0,0:10:22.66,0:10:24.34,Default,Default,0000,0000,0000,,Why’d you swing that blade out\Nof the blue like that?!
+Dialogue: 0,0:10:24.34,0:10:25.63,Default,Default,0000,0000,0000,,Are you crazy?!
+Dialogue: 0,0:10:25.63,0:10:28.03,Default,Default,0000,0000,0000,,What? I told you to duck, didn’t I ?!
+Dialogue: 0,0:10:28.03,0:10:29.67,Default,Default,0000,0000,0000,,The problem is that the time\Nbetween warning me and doing it
+Dialogue: 0,0:10:29.68,0:10:30.96,Default,Default,0000,0000,0000,,was too short, too fast!
+Dialogue: 0,0:10:30.96,0:10:32.92,Default,Default,0000,0000,0000,,Well, you should have\Nreacted right away!
+Dialogue: 0,0:10:32.92,0:10:34.35,Default,Default,0000,0000,0000,,Like I could have,\Nyou moron!
+Dialogue: 0,0:10:35.79,0:10:38.60,Default,Default,0000,0000,0000,,Let’s see… So, now what?
+Dialogue: 0,0:10:39.13,0:10:41.90,Default,Default,0000,0000,0000,,We got away with\Na surprise attack just now,
+Dialogue: 0,0:10:41.90,0:10:44.45,Default,Default,0000,0000,0000,,but just ‘cause we showed them\Nsome muscle…
+Dialogue: 0,0:10:44.45,0:10:48.28,Default,Default,0000,0000,0000,,These guys don’t look like\Nthe type to back off.
+Dialogue: 0,0:10:48.42,0:10:49.12,Default,Default,0000,0000,0000,,Damn.
+Dialogue: 0,0:10:50.45,0:10:52.65,Default,Default,0000,0000,0000,,I’m totally late.
+Dialogue: 0,0:10:53.20,0:10:56.17,Default,Default,0000,0000,0000,,What should I do…?\NShould I go back?
+Dialogue: 0,0:10:56.17,0:10:57.83,Default,Default,0000,0000,0000,,But if Mr. Iemura asks,\N“Where’d you go?”
+Dialogue: 0,0:10:57.83,0:11:00.16,Default,Default,0000,0000,0000,,it’ll be hard to answer.
+Dialogue: 0,0:11:00.41,0:11:03.86,Default,Default,0000,0000,0000,,Oh, but if I don’t go,\Nhe’ll get even angrier…
+Dialogue: 0,0:11:03.86,0:11:06.12,Default,Default,0000,0000,0000,,Anyway, where did everyone go?
+Dialogue: 0,0:11:07.05,0:11:08.01,Default,Default,0000,0000,0000,,I wonder…
+Dialogue: 0,0:11:08.29,0:11:10.34,Default,Default,0000,0000,0000,,Oh yeah!\NI’ll ask those people up ahead!
+Dialogue: 0,0:11:10.71,0:11:14.04,Default,Default,0000,0000,0000,,Ah, umm…\NExcuse me, I’m from the Squad…4…
+Dialogue: 0,0:11:15.31,0:11:17.06,Default,Default,0000,0000,0000,,W-What are you doing, twerp!
+Dialogue: 0,0:11:17.06,0:11:17.80,Default,Default,0000,0000,0000,,Excuse me!
+Dialogue: 0,0:11:17.06,0:11:18.04,Default,Default,0000,0000,0000,,Damn it, stay away!
+Dialogue: 0,0:11:18.04,0:11:19.02,Default,Default,0000,0000,0000,,Who the heck are you?
+Dialogue: 0,0:11:19.02,0:11:19.68,Default,Default,0000,0000,0000,,E-Excuse me!
+Dialogue: 0,0:11:19.68,0:11:20.75,Default,Default,0000,0000,0000,,What’s the commotion?
+Dialogue: 0,0:11:20.94,0:11:21.73,Default,Default,0000,0000,0000,,Hmm?
+Dialogue: 0,0:11:23.86,0:11:24.49,Default,Default,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:24.49,0:11:27.22,Default,Default,0000,0000,0000,,O-Ouch… That was terrible…
+Dialogue: 0,0:11:27.44,0:11:31.87,Default,Default,0000,0000,0000,,Ichigo… I’ve got an easy plan\Nto get us out of here.
+Dialogue: 0,0:11:31.87,0:11:33.17,Default,Default,0000,0000,0000,,What a coincidence.\NMe too.
+Dialogue: 0,0:11:34.22,0:11:38.63,Default,Default,0000,0000,0000,,A-Ah… A plan to get out of here?
+Dialogue: 0,0:11:38.80,0:11:48.31,Default,Default,0000,0000,0000,,Ah, umm…c-could it be…\Nthat you two are the…alleged…Ryoka?!
+Dialogue: 0,0:11:48.77,0:11:50.99,Default,Default,0000,0000,0000,,Hey! Open up a path, you punks!
+Dialogue: 0,0:11:51.00,0:11:53.69,Default,Default,0000,0000,0000,,If you punks value your friend’s life!
+Dialogue: 0,0:11:54.25,0:11:56.59,Default,Default,0000,0000,0000,,No way! It’s them!
+Dialogue: 0,0:11:58.41,0:12:00.47,Default,Default,0000,0000,0000,,Aren’t we there yet, Yachiru?!
+Dialogue: 0,0:12:00.47,0:12:01.93,Default,Default,0000,0000,0000,,Is it really this way?
+Dialogue: 0,0:12:01.93,0:12:02.87,Default,Default,0000,0000,0000,,I’m sure, I’m sure.
+Dialogue: 0,0:12:02.87,0:12:05.10,Default,Default,0000,0000,0000,,I’m positive it’s this way…\NI think.
+Dialogue: 0,0:12:05.10,0:12:07.04,Default,Default,0000,0000,0000,,“I think"? Did you just say “I think”?
+Dialogue: 0,0:12:07.22,0:12:10.45,Default,Default,0000,0000,0000,,Oh, be quiet. Then, this way!
+Dialogue: 0,0:12:10.45,0:12:12.38,Default,Default,0000,0000,0000,,“Then”? Did you just say “then”?
+Dialogue: 0,0:12:12.38,0:12:14.34,Default,Default,0000,0000,0000,,Why are you always complaining?
+Dialogue: 0,0:12:14.34,0:12:17.19,Default,Default,0000,0000,0000,,You decide then!\NI don’t care anymore!
+Dialogue: 0,0:12:17.19,0:12:20.44,Default,Default,0000,0000,0000,,Ugh… This way, right?
+Dialogue: 0,0:12:20.44,0:12:22.25,Default,Default,0000,0000,0000,,Yup, yup, this way, this way!
+Dialogue: 0,0:12:22.25,0:12:25.20,Default,Default,0000,0000,0000,,You’re positive?\NYou’re absolutely positive, right?
+Dialogue: 0,0:12:29.03,0:12:31.30,Default,Default,0000,0000,0000,,Hey! Open up a path, you punks!
+Dialogue: 0,0:12:31.30,0:12:34.09,Default,Default,0000,0000,0000,,If you punks value your friend’s life!
+Dialogue: 0,0:12:34.77,0:12:38.59,Default,Default,0000,0000,0000,,No, let me go! Let me…
+Dialogue: 0,0:12:41.92,0:12:44.45,Default,Default,0000,0000,0000,,W-What’s with this vibe?
+Dialogue: 0,0:12:44.59,0:12:47.46,Default,Default,0000,0000,0000,,Maybe they didn’t hear us…\NWanna try again?
+Dialogue: 0,0:12:48.06,0:12:49.01,Default,Default,0000,0000,0000,,O-Okay.
+Dialogue: 0,0:12:49.23,0:12:52.10,Default,Default,0000,0000,0000,,Hey. Open up a path,\Nyou punks!
+Dialogue: 0,0:12:52.10,0:12:55.51,Default,Default,0000,0000,0000,,If you punks value\Nyour friend’s life!
+Dialogue: 0,0:12:56.00,0:12:56.67,Default,Default,0000,0000,0000,,Hey!
+Dialogue: 0,0:12:56.86,0:12:58.29,Default,Default,0000,0000,0000,,Uh, y-yes…
+Dialogue: 0,0:13:01.21,0:13:02.89,Default,Default,0000,0000,0000,,What…
+Dialogue: 0,0:13:02.89,0:13:04.70,Default,Default,0000,0000,0000,,are you jerks doing?
+Dialogue: 0,0:13:04.98,0:13:05.68,Default,Default,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:05.68,0:13:08.67,Default,Default,0000,0000,0000,,Well, umm, taking a hostage?
+Dialogue: 0,0:13:09.22,0:13:11.89,Default,Default,0000,0000,0000,,And he looks like our friend?
+Dialogue: 0,0:13:13.74,0:13:14.98,Default,Default,0000,0000,0000,,You’re not?
+Dialogue: 0,0:13:14.98,0:13:19.57,Default,Default,0000,0000,0000,,I-I’m from the Squad 4.\NThese guys are from Squad 11.
+Dialogue: 0,0:13:19.57,0:13:21.10,Default,Default,0000,0000,0000,,So, what’s the difference?
+Dialogue: 0,0:13:21.36,0:13:25.12,Default,Default,0000,0000,0000,,Heh, I guess it’s true\Nthese Ryoka are outsiders.
+Dialogue: 0,0:13:25.60,0:13:28.27,Default,Default,0000,0000,0000,,I don’t want you to lump us together,\Nso I’ll tell you.
+Dialogue: 0,0:13:28.27,0:13:30.82,Default,Default,0000,0000,0000,,Clean out your ear holes\Nand listen carefully!
+Dialogue: 0,0:13:31.38,0:13:34.59,Default,Default,0000,0000,0000,,There are a total of 13 Guard Squads\Nthat protect the Seireitei.
+Dialogue: 0,0:13:34.66,0:13:38.79,Default,Default,0000,0000,0000,,We, the Squad 11, are lead\Nby the strongest of the 13 captains.
+Dialogue: 0,0:13:38.90,0:13:42.28,Default,Default,0000,0000,0000,,As such, we are the strongest\Nin battle of the 13!
+Dialogue: 0,0:13:42.28,0:13:43.69,Default,Default,0000,0000,0000,,Oh!
+Dialogue: 0,0:13:43.79,0:13:47.17,Default,Default,0000,0000,0000,,Now that you mention it,\Nthese guys all have weird hairstyles,
+Dialogue: 0,0:13:47.17,0:13:48.55,Default,Default,0000,0000,0000,,but yours is normal.
+Dialogue: 0,0:13:48.55,0:13:49.94,Default,Default,0000,0000,0000,,T-Thanks.
+Dialogue: 0,0:13:49.94,0:13:51.10,Default,Default,0000,0000,0000,,So, you’re from where?
+Dialogue: 0,0:13:51.10,0:13:53.77,Default,Default,0000,0000,0000,,I-I’m from the Squad 4.
+Dialogue: 0,0:13:53.77,0:13:55.27,Default,Default,0000,0000,0000,,The Squad 4 is\Nthe rear echelon
+Dialogue: 0,0:13:55.49,0:13:58.52,Default,Default,0000,0000,0000,,that specializes in relief and aid.
+Dialogue: 0,0:13:55.49,0:14:00.39,Default,Default,0000,0000,0000,,Ouwie, ouwie, go away!
+Dialogue: 0,0:13:58.68,0:14:00.40,Default,Default,0000,0000,0000,,A bunch of wimps that can’t
+Dialogue: 0,0:14:00.40,0:14:01.78,Default,Default,0000,0000,0000,,even wield a sword properly.
+Dialogue: 0,0:14:00.41,0:14:01.76,Default,Default,0000,0000,0000,,Yay, he’s all better!
+Dialogue: 0,0:14:01.78,0:14:04.54,Default,Default,0000,0000,0000,,They’re the weakling pansies\Nof the 13 squads.
+Dialogue: 0,0:14:03.58,0:14:05.23,Default,Default,0000,0000,0000,,Oh boy, it’s heavy…
+Dialogue: 0,0:14:04.54,0:14:08.28,Default,Default,0000,0000,0000,,To be honest, I don’t know\Nwhy they even exist.
+Dialogue: 0,0:14:07.41,0:14:10.49,Default,Default,0000,0000,0000,,Hip, hip, hooray!
+Dialogue: 0,0:14:08.28,0:14:09.15,Default,Default,0000,0000,0000,,We can’t stand them!
+Dialogue: 0,0:14:09.15,0:14:10.44,Default,Default,0000,0000,0000,,They annoy us!
+Dialogue: 0,0:14:10.44,0:14:13.26,Default,Default,0000,0000,0000,,Therefore, we, the Squad 11…
+Dialogue: 0,0:14:13.26,0:14:15.29,Default,Default,0000,0000,0000,,Hate the Squad 4!
+Dialogue: 0,0:14:15.29,0:14:18.24,Default,Default,0000,0000,0000,,So if you want to kill him, go ahead!\NYou’ll be doing us a favor!
+Dialogue: 0,0:14:18.36,0:14:19.46,Default,Default,0000,0000,0000,,Nooo—!
+Dialogue: 0,0:14:19.46,0:14:21.25,Default,Default,0000,0000,0000,,W-W-Wait a minute!
+Dialogue: 0,0:14:21.25,0:14:23.30,Default,Default,0000,0000,0000,,Isn’t it too cruel to say\Nyou don’t care what happens to him
+Dialogue: 0,0:14:23.30,0:14:25.01,Default,Default,0000,0000,0000,,just because you don’t like him?\NHuh, you guys?!
+Dialogue: 0,0:14:25.01,0:14:26.70,Default,Default,0000,0000,0000,,Wow, that’s a rational argument.
+Dialogue: 0,0:14:27.62,0:14:29.01,Default,Default,0000,0000,0000,,Let’s go! Go get them!
+Dialogue: 0,0:14:29.01,0:14:31.76,Default,Default,0000,0000,0000,,Damn, I guess we’re going to\Nhave to muscle our way out of here.
+Dialogue: 0,0:14:31.76,0:14:32.21,Default,Default,0000,0000,0000,,Huh!
+Dialogue: 0,0:14:34.36,0:14:36.21,Default,Default,0000,0000,0000,,W-What was that?
+Dialogue: 0,0:14:36.21,0:14:37.85,Default,Default,0000,0000,0000,,I-I don’t know…
+Dialogue: 0,0:14:37.85,0:14:38.65,Default,Default,0000,0000,0000,,Anyway!
+Dialogue: 0,0:14:38.65,0:14:41.78,Default,Default,0000,0000,0000,,I’m certain that it halved our enemy,\Nso this is our chance now!
+Dialogue: 0,0:14:41.78,0:14:43.36,Default,Default,0000,0000,0000,,Oryah!
+Dialogue: 0,0:14:43.64,0:14:45.91,Default,Default,0000,0000,0000,,Move it, move it!
+Dialogue: 0,0:14:54.37,0:14:57.98,Default,Default,0000,0000,0000,,I thought I sensed\NIchigo’s Spiritual Pressure…
+Dialogue: 0,0:14:58.61,0:15:00.08,Default,Default,0000,0000,0000,,I must have missed him.
+Dialogue: 0,0:15:00.23,0:15:01.87,Default,Default,0000,0000,0000,,Hey, you there!
+Dialogue: 0,0:15:02.05,0:15:05.13,Default,Default,0000,0000,0000,,Did you just do that, you jerk?!
+Dialogue: 0,0:15:05.13,0:15:07.43,Default,Default,0000,0000,0000,,What’s with the weird get-up?
+Dialogue: 0,0:15:07.43,0:15:09.35,Default,Default,0000,0000,0000,,Are you a friend of those guys\Nfrom earlier?
+Dialogue: 0,0:15:09.43,0:15:11.47,Default,Default,0000,0000,0000,,Guys? Earlier?
+Dialogue: 0,0:15:13.92,0:15:15.32,Default,Default,0000,0000,0000,,Probably, yeah.
+Dialogue: 0,0:15:15.63,0:15:20.59,Default,Default,0000,0000,0000,,Great! You think you can mock\Nthe Squad 11 and get out of here alive?
+Dialogue: 0,0:15:20.59,0:15:22.90,Default,Default,0000,0000,0000,,We’ll crush you in five minutes!
+Dialogue: 0,0:15:23.54,0:15:27.26,Default,Default,0000,0000,0000,,Sorry, but I can’t accommodate\Nyour wishes…
+Dialogue: 0,0:15:27.34,0:15:28.22,Default,Default,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:28.22,0:15:29.78,Default,Default,0000,0000,0000,,What did you say?
+Dialogue: 0,0:15:29.78,0:15:31.55,Default,Default,0000,0000,0000,,It won’t take five minutes.
+Dialogue: 0,0:15:32.19,0:15:33.92,Default,Default,0000,0000,0000,,I’ll be done in two minutes.
+Dialogue: 0,0:15:39.08,0:15:41.62,On Top,Default,0000,0000,0000,,Fourth Squad - General Relief Station
+Dialogue: 0,0:15:45.01,0:15:48.12,Default,Default,0000,0000,0000,,So, you’re not going to say\Nanything no matter what?
+Dialogue: 0,0:15:49.59,0:15:51.67,Default,Default,0000,0000,0000,,Ikkaku Madarame…
+Dialogue: 0,0:15:53.37,0:15:55.15,Default,Default,0000,0000,0000,,Why don’t you say something?
+Dialogue: 0,0:15:55.15,0:15:57.80,Default,Default,0000,0000,0000,,Please sir! Mr. Captain of Squad 12!
+Dialogue: 0,0:15:57.98,0:16:00.99,Default,Default,0000,0000,0000,,Such interrogation is prohibited\Non these premises.
+Dialogue: 0,0:16:00.28,0:16:01.61,Default,Default,0000,0000,0000,,Shut up!
+Dialogue: 0,0:16:03.15,0:16:04.09,Default,Default,0000,0000,0000,,Sir Mayuri…
+Dialogue: 0,0:16:04.09,0:16:05.57,Default,Default,0000,0000,0000,,You be quiet too, Nemu!
+Dialogue: 0,0:16:05.74,0:16:07.17,Default,Default,0000,0000,0000,,Just shut up, okay?
+Dialogue: 0,0:16:07.17,0:16:09.24,Default,Default,0000,0000,0000,,Do you want to be\Npulled to pieces again?
+Dialogue: 0,0:16:09.24,0:16:11.55,Default,Default,0000,0000,0000,,No, sir. Forgive me.
+Dialogue: 0,0:16:13.37,0:16:14.74,Default,Default,0000,0000,0000,,It’s not that I don’t want to say…
+Dialogue: 0,0:16:15.64,0:16:17.62,Default,Default,0000,0000,0000,,I really don’t know.
+Dialogue: 0,0:16:17.99,0:16:21.48,Default,Default,0000,0000,0000,,I don’t know the Ryoka’s objective,\Ndestination or anything, for that matter.
+Dialogue: 0,0:16:23.28,0:16:24.97,Default,Default,0000,0000,0000,,Then, what?
+Dialogue: 0,0:16:25.26,0:16:28.46,Default,Default,0000,0000,0000,,So you’re saying that although\Nyou’ve met and fought these Ryoka,
+Dialogue: 0,0:16:28.46,0:16:30.45,Default,Default,0000,0000,0000,,you were just defeated in battle
+Dialogue: 0,0:16:30.45,0:16:32.96,Default,Default,0000,0000,0000,,and retreated like a dog\Nwithout gaining any information?
+Dialogue: 0,0:16:33.20,0:16:34.87,Default,Default,0000,0000,0000,,Is that it?
+Dialogue: 0,0:16:34.88,0:16:36.51,Default,Default,0000,0000,0000,,Exactly.
+Dialogue: 0,0:16:36.85,0:16:38.27,Default,Default,0000,0000,0000,,Furthermore…
+Dialogue: 0,0:16:38.63,0:16:42.61,Default,Default,0000,0000,0000,,I have not seen the enemy’s face,\Nnor heard his voice.
+Dialogue: 0,0:16:42.99,0:16:47.69,Default,Default,0000,0000,0000,,So, I have not a shred of information\Nto give to you.
+Dialogue: 0,0:16:48.65,0:16:49.97,Default,Default,0000,0000,0000,,Fine…
+Dialogue: 0,0:16:50.65,0:16:56.75,Default,Default,0000,0000,0000,,Then you shall receive a punishment…\Nbefitting your failure. Right?!
+Dialogue: 0,0:16:58.23,0:16:59.75,Default,Default,0000,0000,0000,,I’m surprised.
+Dialogue: 0,0:17:00.00,0:17:04.20,Default,Default,0000,0000,0000,,Since when did you get so powerful\Nthat you can punish those of other squads…
+Dialogue: 0,0:17:04.20,0:17:05.27,Default,Default,0000,0000,0000,,Kurotsuchi?
+Dialogue: 0,0:17:06.19,0:17:07.75,Default,Default,0000,0000,0000,,Zaraki…!
+Dialogue: 0,0:17:09.86,0:17:13.40,Default,Default,0000,0000,0000,,Humph, well, if his captain is here,
+Dialogue: 0,0:17:13.40,0:17:15.94,Default,Default,0000,0000,0000,,then there’s no need for me\Nto interrogate him.
+Dialogue: 0,0:17:15.94,0:17:18.54,Default,Default,0000,0000,0000,,I’ll withdraw for now.
+Dialogue: 0,0:17:18.65,0:17:21.51,Default,Default,0000,0000,0000,,Let’s go, Nemu!\NStop stalling, you dullard.
+Dialogue: 0,0:17:21.51,0:17:22.32,Default,Default,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:17:27.11,0:17:28.36,Default,Default,0000,0000,0000,,Captain…
+Dialogue: 0,0:17:29.13,0:17:32.03,Default,Default,0000,0000,0000,,You got yourself\Npretty beat up there, huh?
+Dialogue: 0,0:17:32.03,0:17:33.25,Default,Default,0000,0000,0000,,Are you here just to visit me?
+Dialogue: 0,0:17:33.25,0:17:35.96,Default,Default,0000,0000,0000,,Nope, we got lost on our way!
+Dialogue: 0,0:17:35.96,0:17:38.66,Default,Default,0000,0000,0000,,Oh, the Lieutenant is here too?
+Dialogue: 0,0:17:38.66,0:17:43.21,Default,Default,0000,0000,0000,,It’s by coincidence that we wound up here,\Nbut we were worried about you.
+Dialogue: 0,0:17:43.21,0:17:44.89,Default,Default,0000,0000,0000,,Are you okay, Baldy?
+Dialogue: 0,0:17:44.89,0:17:47.40,Default,Default,0000,0000,0000,,I told you not to call me that,\Nyou brat!
+Dialogue: 0,0:17:47.40,0:17:48.99,Default,Default,0000,0000,0000,,Then, Shiny Baldy?
+Dialogue: 0,0:17:48.99,0:17:50.64,Default,Default,0000,0000,0000,,You heard me, didn’t you?
+Dialogue: 0,0:17:50.72,0:17:52.70,Default,Default,0000,0000,0000,,Shiny, Shiny Baldy!
+Dialogue: 0,0:17:52.70,0:17:55.12,Default,Default,0000,0000,0000,,I heard…that you lost.
+Dialogue: 0,0:17:55.48,0:17:57.05,Default,Default,0000,0000,0000,,My deepest apologies.
+Dialogue: 0,0:17:57.63,0:18:01.60,Default,Default,0000,0000,0000,,I’ve come back despite the\Nshame of my defeat.
+Dialogue: 0,0:18:02.30,0:18:03.69,Default,Default,0000,0000,0000,,Is he strong?
+Dialogue: 0,0:18:04.27,0:18:05.43,Default,Default,0000,0000,0000,,Yes, indeed.
+Dialogue: 0,0:18:06.29,0:18:08.20,Default,Default,0000,0000,0000,,He appears to be a Soul Reaper.
+Dialogue: 0,0:18:08.60,0:18:11.65,Default,Default,0000,0000,0000,,He wears a Shihakusho,\Nshort orange hair,
+Dialogue: 0,0:18:11.65,0:18:14.30,Default,Default,0000,0000,0000,,with a body-length sword\Nwithout a guard or grip.
+Dialogue: 0,0:18:15.15,0:18:18.67,Default,Default,0000,0000,0000,,He is headed\Ntowards Senzaikyu Shishinro.
+Dialogue: 0,0:18:18.87,0:18:20.64,Default,Default,0000,0000,0000,,That maximum-security prison.
+Dialogue: 0,0:18:20.97,0:18:24.94,Default,Default,0000,0000,0000,,I gave him your description,\Nand told him to be on the lookout for you.
+Dialogue: 0,0:18:25.68,0:18:28.19,Default,Default,0000,0000,0000,,If he heeded my words…
+Dialogue: 0,0:18:28.82,0:18:32.62,Default,Default,0000,0000,0000,,you will surely enjoy an excellent battle,\Nregardless of where you meet him.
+Dialogue: 0,0:18:33.33,0:18:38.17,Default,Default,0000,0000,0000,,He’s strong, and I fear that\Nstrength is still growing.
+Dialogue: 0,0:18:38.87,0:18:43.70,Default,Default,0000,0000,0000,,By the time he meets up with you,\Nhe will probably be stronger still.
+Dialogue: 0,0:18:45.09,0:18:46.35,Default,Default,0000,0000,0000,,I see…
+Dialogue: 0,0:18:48.55,0:18:50.13,Default,Default,0000,0000,0000,,And his name is…?
+Dialogue: 0,0:18:50.87,0:18:52.83,Default,Default,0000,0000,0000,,I’m Hanataro Yamada.
+Dialogue: 0,0:18:52.83,0:18:54.81,Default,Default,0000,0000,0000,,It’s hard to remember!
+Dialogue: 0,0:18:54.81,0:18:58.85,Default,Default,0000,0000,0000,,Really? Everyone tells me\Nit’s an easy name to remember!
+Dialogue: 0,0:18:58.85,0:19:02.33,Default,Default,0000,0000,0000,,Oh, yeah? I get “Taro Yamada”\Nor “Hanako Yamada,”
+Dialogue: 0,0:19:02.33,0:19:05.31,Default,Default,0000,0000,0000,,but “Hanataro” is so hard\Nto remember, hard.
+Dialogue: 0,0:19:05.31,0:19:06.39,Default,Default,0000,0000,0000,,Gosh…
+Dialogue: 0,0:19:06.39,0:19:08.78,Default,Default,0000,0000,0000,,Besides, aren’t you our enemy?
+Dialogue: 0,0:19:08.93,0:19:09.58,Default,Default,0000,0000,0000,,Huh?
+Dialogue: 0,0:19:09.58,0:19:12.33,Default,Default,0000,0000,0000,,Why are you so laid back and\Nintroducing yourself?
+Dialogue: 0,0:19:13.28,0:19:16.29,Default,Default,0000,0000,0000,,Ah, I guess so.\NNow that you’ve mentioned it…
+Dialogue: 0,0:19:16.29,0:19:18.42,Default,Default,0000,0000,0000,,Why did we bring\Nthis guy with us?
+Dialogue: 0,0:19:18.42,0:19:19.76,Default,Default,0000,0000,0000,,Couldn’t help it.
+Dialogue: 0,0:19:19.76,0:19:22.43,Default,Default,0000,0000,0000,,He was nearby,\Nso I accidentally carried him with us!
+Dialogue: 0,0:19:22.43,0:19:24.45,Default,Default,0000,0000,0000,,Accidentally?!\NWhat do you mean, accidentally?
+Dialogue: 0,0:19:24.45,0:19:26.63,Default,Default,0000,0000,0000,,Do you pick up whatever is\Nlying on the ground?
+Dialogue: 0,0:19:26.63,0:19:29.47,Default,Default,0000,0000,0000,,Shut up! You didn’t notice him yourself\Nuntil just now!
+Dialogue: 0,0:19:29.47,0:19:33.11,Default,Default,0000,0000,0000,,P-Please, you two.\NStop fighting over me!
+Dialogue: 0,0:19:33.32,0:19:35.46,Default,Default,0000,0000,0000,,Who’s fighting over you?!
+Dialogue: 0,0:19:35.46,0:19:39.31,Default,Default,0000,0000,0000,,But, if you raise your voices,\Nsomeone might find us!
+Dialogue: 0,0:19:40.66,0:19:42.12,Default,Default,0000,0000,0000,,Are we all right?
+Dialogue: 0,0:19:42.47,0:19:44.04,Default,Default,0000,0000,0000,,It seems so.
+Dialogue: 0,0:19:45.87,0:19:49.86,Default,Default,0000,0000,0000,,But still, if it’s true what that\Nbald guy said, and even if Rukia
+Dialogue: 0,0:19:49.86,0:19:52.89,Default,Default,0000,0000,0000,,is in that white tower,
+Dialogue: 0,0:19:51.86,0:19:52.49,Default,Default,0000,0000,0000,,Oh!
+Dialogue: 0,0:19:53.15,0:19:57.05,Default,Default,0000,0000,0000,,the problem is which road\Nto take to get there.
+Dialogue: 0,0:19:57.17,0:19:59.89,Default,Default,0000,0000,0000,,Oh, that’s right. I have a map.
+Dialogue: 0,0:20:00.71,0:20:03.44,Default,Default,0000,0000,0000,,We wouldn’t want to run into\Nany Captains along the way, huh?
+Dialogue: 0,0:20:04.04,0:20:06.10,Default,Default,0000,0000,0000,,If we only knew\Nthe enemy’s positions…
+Dialogue: 0,0:20:06.10,0:20:07.12,Default,Default,0000,0000,0000,,By the way…
+Dialogue: 0,0:20:07.12,0:20:09.41,Default,Default,0000,0000,0000,,There are no roads on this map…
+Dialogue: 0,0:20:09.47,0:20:11.42,Default,Default,0000,0000,0000,,What? Huh?
+Dialogue: 0,0:20:11.60,0:20:12.33,Default,Default,0000,0000,0000,,What’s this?
+Dialogue: 0,0:20:12.33,0:20:13.21,Default,Default,0000,0000,0000,,Peace!
+Dialogue: 0,0:20:13.21,0:20:15.74,Default,Default,0000,0000,0000,,Did you draw this yourself?
+Dialogue: 0,0:20:15.74,0:20:18.45,Default,Default,0000,0000,0000,,What? It’s better than having nothing.
+Dialogue: 0,0:20:18.45,0:20:19.17,Default,Default,0000,0000,0000,,Umm…
+Dialogue: 0,0:20:19.17,0:20:22.55,Default,Default,0000,0000,0000,,Shut up, we’re in the middle\Nof strategizing. Don’t butt in.
+Dialogue: 0,0:20:22.55,0:20:25.04,Default,Default,0000,0000,0000,,Actually, you can go home already.
+Dialogue: 0,0:20:25.04,0:20:26.78,Default,Default,0000,0000,0000,,You’re not going to be of\Nmuch use anyway.
+Dialogue: 0,0:20:26.78,0:20:27.30,Default,Default,0000,0000,0000,,I swear…
+Dialogue: 0,0:20:27.30,0:20:29.97,Default,Default,0000,0000,0000,,Rukia…\NAre you talking about Rukia Kuchiki?
+Dialogue: 0,0:20:31.47,0:20:34.38,Default,Default,0000,0000,0000,,Just as I thought…\NIt’s her, isn’t it?
+Dialogue: 0,0:20:34.57,0:20:37.64,Default,Default,0000,0000,0000,,The younger sister of\Nthe Captain of Squad 6,
+Dialogue: 0,0:20:37.64,0:20:39.32,Default,Default,0000,0000,0000,,currently held in maximum security…
+Dialogue: 0,0:20:40.52,0:20:45.45,Default,Default,0000,0000,0000,,Then that “white tower”\Nyou referred to is the Senzaikyu.
+Dialogue: 0,0:20:48.69,0:20:49.71,Default,Default,0000,0000,0000,,I…
+Dialogue: 0,0:20:51.18,0:20:54.87,Default,Default,0000,0000,0000,,I know the hidden way into that tower.
+Dialogue: 0,0:20:57.57,0:20:59.91,Default,Default,0000,0000,0000,,Kenny, you seem pretty happy.
+Dialogue: 0,0:20:59.91,0:21:01.21,Default,Default,0000,0000,0000,,Huh? Are you talking about me?
+Dialogue: 0,0:21:01.21,0:21:05.35,Default,Default,0000,0000,0000,,Yup! I haven’t seen you\Nthis happy in a while.
+Dialogue: 0,0:21:05.35,0:21:08.35,Default,Default,0000,0000,0000,,Is that so? You might be right…
+Dialogue: 0,0:21:09.03,0:21:13.28,Default,Default,0000,0000,0000,,He survived against Ichimaru.\NHe defeated Ikkaku.
+Dialogue: 0,0:21:13.37,0:21:15.51,Default,Default,0000,0000,0000,,And, Ikkaku said he was strong.
+Dialogue: 0,0:21:15.51,0:21:17.52,Default,Default,0000,0000,0000,,Ikkaku said he would\Nbecome stronger still!
+Dialogue: 0,0:21:18.13,0:21:20.32,Default,Default,0000,0000,0000,,Where? Where are you?
+Dialogue: 0,0:21:20.50,0:21:23.76,Default,Default,0000,0000,0000,,I, Kenpachi Zaraki,\Nam waiting for you!
+Dialogue: 0,0:21:23.96,0:21:26.49,Default,Default,0000,0000,0000,,Come out!\NIchigo Kurosaki!
+Dialogue: 0,0:21:35.75,0:21:42.23,Default,Default,0000,0000,0000,,I looked up into the night sky\Nand saw a comet
+Dialogue: 0,0:21:42.23,0:21:49.05,Default,Default,0000,0000,0000,,I want to see you right now,\Nbut I can't fly
+Dialogue: 0,0:21:49.05,0:21:56.82,Default,Default,0000,0000,0000,,If I could become a comet
+Dialogue: 0,0:22:01.84,0:22:09.12,Default,Default,0000,0000,0000,,I would fly across the sky… I'm sure
+Dialogue: 0,0:22:01.84,0:22:09.12,Default,Default,0000,0000,0000,,I would circle the skies and shine over you
+Dialogue: 0,0:22:09.12,0:22:14.13,Default,Default,0000,0000,0000,,With this instantaneous light\Nthat will definitely reach you
+Dialogue: 0,0:22:14.13,0:22:21.66,Default,Default,0000,0000,0000,,If I could become a comet
+Dialogue: 0,0:22:21.66,0:22:25.27,Default,Default,0000,0000,0000,,I'm sure I'll always stay close to you
+Dialogue: 0,0:22:25.27,0:22:27.43,Default,Default,0000,0000,0000,,Now and forever
+Dialogue: 0,0:22:33.74,0:22:35.20,Default,Default,0000,0000,0000,,Yo, how's everyone doing?
+Dialogue: 0,0:22:35.20,0:22:38.20,Default,Default,0000,0000,0000,,This is everyone's idol, Kon!\NWhy isn't it my turn yet?
+Dialogue: 0,0:22:38.20,0:22:40.57,Default,Default,0000,0000,0000,,I've been ready and waiting over here!\NHey, are you listening to me?
+Dialogue: 0,0:22:40.57,0:22:43.00,Default,Default,0000,0000,0000,,If you make too much of a fuss,\Nyou may never get your turn.
+Dialogue: 0,0:22:43.00,0:22:48.05,Default,Default,0000,0000,0000,,Oh, yes. I will always be waiting,\Nso please be nice to this stuffed doll.

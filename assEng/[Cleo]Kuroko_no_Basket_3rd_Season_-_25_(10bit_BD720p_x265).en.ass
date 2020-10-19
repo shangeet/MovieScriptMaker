@@ -1,0 +1,389 @@
+[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: CRKuro,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: ScoreboardL,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,7,27,27,27,0
+Style: ScoreboardR,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,9,27,27,27,0
+Style: EpTitle,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H000D0D13,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,0,0,160,1
+Style: Exam,Open Sans Semibold,30,&H000B1822,&H000000FF,&H00F2F2F2,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,13,13,133,1
+Style: Bro,Open Sans Semibold,30,&H00070706,&H000000FF,&H00E1E1E1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,40,13,173,1
+Style: Text,Open Sans Semibold,33,&H00DEDCDA,&H000000FF,&H00345CAD,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,27,13,27,1
+Style: curry,Open Sans Semibold,27,&H00282D4E,&H000000FF,&H0089BCD0,&H00000000,1,0,0,0,100,100,0,0,1,2,0,3,13,80,107,1
+Style: maiu,Open Sans Semibold,42,&H003B3BA1,&H000000FF,&H00A7C4C6,&H00000000,1,0,0,0,100,100,0,0,1,3,0,7,253,80,120,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:34.04,0:01:38.03,CRKuro,AKASHI,0000,0000,0000,,{\i1}They're synchronizing their movements \Nwith a second of eye contact.{\i0}
+Dialogue: 0,0:01:40.94,0:01:44.70,CRKuro,AKASHI,0000,0000,0000,,{\i1}Super high-speed teamwork \Nmatching Kagami's Zone speed.{\i0}
+Dialogue: 0,0:01:49.62,0:01:51.67,CRKuro,AKASHI,0000,0000,0000,,{\i1}The Direct Drive Zone!{\i0}
+Dialogue: 0,0:02:04.38,0:02:06.37,CRKuro,HYUGA,0000,0000,0000,,If we can stop them, \Nvictory will be in reach!
+Dialogue: 0,0:02:06.37,0:02:08.89,CRKuro,HYUGA,0000,0000,0000,,Dig deep! Give every last drop!
+Dialogue: 0,0:02:15.70,0:02:18.53,CRKuro,AKASHI,0000,0000,0000,,I will win.
+Dialogue: 0,0:02:20.32,0:02:24.40,CRKuro,AKASHI,0000,0000,0000,,You're far too inexperienced to beat Rakuzan.
+Dialogue: 0,0:02:25.04,0:02:30.04,EpTitle,EPTITLE,0000,0000,0000,,Again and Again
+Dialogue: 0,0:02:30.83,0:02:32.09,CRKuro,KASAMATSU,0000,0000,0000,,This is terrible.
+Dialogue: 0,0:02:32.63,0:02:35.97,CRKuro,KASAMATSU,0000,0000,0000,,Just when they started riding the momentum \Nfrom being only three points behind...
+Dialogue: 0,0:02:36.95,0:02:40.38,CRKuro,TAKAO,0000,0000,0000,,Akashi's shot made the gap even wider.
+Dialogue: 0,0:02:40.96,0:02:41.97,CRKuro,TAKAO,0000,0000,0000,,They're down seven points.
+Dialogue: 0,0:02:42.56,0:02:43.99,CRKuro,HIMURO,0000,0000,0000,,Forty more seconds.
+Dialogue: 0,0:02:44.44,0:02:47.89,ScoreboardL,TEXT,0000,0000,0000,,Rakuzan
+Dialogue: 0,0:02:44.44,0:02:47.89,ScoreboardR,TEXT,0000,0000,0000,,Seirin
+Dialogue: 0,0:02:44.73,0:02:47.50,CRKuro,HIMURO,0000,0000,0000,,Hurry, Seirin. There's no time.
+Dialogue: 0,0:02:47.89,0:02:50.70,CRKuro,AKASHI,0000,0000,0000,,Defense! Focus up, everyone!
+Dialogue: 0,0:02:50.70,0:02:52.31,CRKuro,AKASHI,0000,0000,0000,,Once we stop them, it's over!
+Dialogue: 0,0:02:52.31,0:02:53.61,CRKuro,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:02:58.99,0:03:00.63,CRKuro,IZUKI,0000,0000,0000,,{\i1}So much pressure.{\i0}
+Dialogue: 0,0:03:01.08,0:03:03.60,CRKuro,IZUKI,0000,0000,0000,,{\i1}We need to score as quickly \Nas possible, but...{\i0}
+Dialogue: 0,0:03:05.27,0:03:06.57,CRKuro,IZUKI,0000,0000,0000,,{\i1}They're double-teaming him!{\i0}
+Dialogue: 0,0:03:09.41,0:03:10.58,CRKuro,ALEX,0000,0000,0000,,{\i1}This is bad.{\i0}
+Dialogue: 0,0:03:11.11,0:03:16.25,CRKuro,ALEX,0000,0000,0000,,{\i1}At this rate, he'll instantly consume \Nthe little strength he has left.{\i0}
+Dialogue: 0,0:03:16.70,0:03:17.58,CRKuro,KIYOSHI,0000,0000,0000,,Izuki!
+Dialogue: 0,0:03:22.60,0:03:24.55,CRKuro,NEBUYA,0000,0000,0000,,{\i1}He's barely pushing!{\i0}
+Dialogue: 0,0:03:25.01,0:03:28.64,CRKuro,NEBUYA,0000,0000,0000,,{\i1}That's not strong enough to go \Nfor a shot under the basket!{\i0}
+Dialogue: 0,0:03:28.64,0:03:30.12,CRKuro,HYUGA,0000,0000,0000,,Kiyoshi!
+Dialogue: 0,0:03:30.12,0:03:31.06,CRKuro,KIYOSHI,0000,0000,0000,,Damn!
+Dialogue: 0,0:03:33.09,0:03:35.48,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}We're keeping a close eye on you!{\i0}
+Dialogue: 0,0:03:36.85,0:03:38.40,CRKuro,FURIHATA,0000,0000,0000,,There's less than 30 seconds!
+Dialogue: 0,0:03:38.40,0:03:39.57,CRKuro,FURIHATA,0000,0000,0000,,Please!
+Dialogue: 0,0:03:40.95,0:03:41.86,CRKuro,KUROKO,0000,0000,0000,,Captain!
+Dialogue: 0,0:03:43.71,0:03:45.99,CRKuro,HIMURO,0000,0000,0000,,That's a sideways long pass!
+Dialogue: 0,0:03:46.44,0:03:49.20,CRKuro,AKASHI,0000,0000,0000,,Don't let up on your mark, \NHayama and Mayuzumi!
+Dialogue: 0,0:03:59.71,0:04:00.80,CRKuro,RIKO,0000,0000,0000,,What's the time?
+Dialogue: 0,0:04:00.80,0:04:02.55,CRKuro,RIKO,0000,0000,0000,,Twenty-seven seconds left.
+Dialogue: 0,0:04:02.87,0:04:04.05,CRKuro,HYUGA,0000,0000,0000,,Defense!
+Dialogue: 0,0:04:04.05,0:04:05.80,CRKuro,HYUGA,0000,0000,0000,,Give them everything!
+Dialogue: 0,0:04:05.80,0:04:07.05,CRKuro,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:04:07.05,0:04:09.31,CRKuro,ALL,0000,0000,0000,,Defense! Defense!
+Dialogue: 0,0:04:10.05,0:04:13.02,CRKuro,MIDORIMA,0000,0000,0000,,Their defense couldn't be better.
+Dialogue: 0,0:04:13.02,0:04:16.54,CRKuro,KASAMATSU,0000,0000,0000,,But Rakuzan is unbelievable.
+Dialogue: 0,0:04:17.73,0:04:19.03,CRKuro,KASAMATSU,0000,0000,0000,,They're unshaken.
+Dialogue: 0,0:04:20.86,0:04:23.11,CRKuro,KASAMATSU,0000,0000,0000,,There's no way they can steal the ball.
+Dialogue: 0,0:04:28.72,0:04:30.37,CRKuro,IMAYOSHI,0000,0000,0000,,{\i1}What's he doing?{\i0}
+Dialogue: 0,0:04:30.37,0:04:35.87,CRKuro,IMAYOSHI,0000,0000,0000,,{\i1}The rest of his team is fired \Nup, but he's staying cool.{\i0}
+Dialogue: 0,0:04:36.99,0:04:39.71,CRKuro,IZUKI,0000,0000,0000,,{\i1}Calm down. Don't get too excited.{\i0}
+Dialogue: 0,0:04:40.35,0:04:43.01,CRKuro,IZUKI,0000,0000,0000,,{\i1}You need to be clever.{\i0}
+Dialogue: 0,0:04:43.91,0:04:45.90,CRKuro,IZUKI,0000,0000,0000,,{\i1}I may not be able to catch{\i0}
+Dialogue: 0,0:04:45.90,0:04:49.32,CRKuro,,0000,0000,0000,,{\i1}Akashi off guard, but it's \Npossible against the other four.{\i0}
+Dialogue: 0,0:04:50.16,0:04:51.54,CRKuro,IZUKI,0000,0000,0000,,{\i1}I need to stay calm to win.{\i0}
+Dialogue: 0,0:04:52.14,0:04:56.64,CRKuro,IZUKI,0000,0000,0000,,{\i1}A point guard with inferior skills \Nhas to use his head to win.{\i0}
+Dialogue: 0,0:04:57.66,0:04:58.73,CRKuro,HIMURO,0000,0000,0000,,It's no use.
+Dialogue: 0,0:04:58.73,0:05:01.65,ScoreboardL,TEXT,0000,0000,0000,,Rakuzan
+Dialogue: 0,0:04:58.73,0:05:01.65,ScoreboardR,TEXT,0000,0000,0000,,Seirin
+Dialogue: 0,0:04:58.94,0:05:01.65,CRKuro,HIMURO,0000,0000,0000,,Rakuzan won't rush their attack.
+Dialogue: 0,0:05:02.00,0:05:05.46,CRKuro,HIMURO,0000,0000,0000,,They'll use up the remaining 24 \Nseconds without forcing a shot.
+Dialogue: 0,0:05:05.46,0:05:06.99,CRKuro,HIMURO,0000,0000,0000,,They won't show any weakness.
+Dialogue: 0,0:05:07.38,0:05:08.61,CRKuro,IZUKI,0000,0000,0000,,{\i1}No.{\i0}
+Dialogue: 0,0:05:08.61,0:05:10.49,CRKuro,IZUKI,0000,0000,0000,,{\i1}They will shoot.{\i0}
+Dialogue: 0,0:05:10.99,0:05:13.81,CRKuro,IZUKI,0000,0000,0000,,{\i1}Their pride will force them to shoot.{\i0}
+Dialogue: 0,0:05:14.25,0:05:19.17,CRKuro,IZUKI,0000,0000,0000,,{\i1}But Rakuzan knows Kiyoshi is \Nat his limit, too!{\i0}
+Dialogue: 0,0:05:27.05,0:05:27.84,CRKuro,MIBUCHI,0000,0000,0000,,What?
+Dialogue: 0,0:05:27.85,0:05:28.64,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}Huh?{\i0}
+Dialogue: 0,0:05:29.15,0:05:30.35,CRKuro,IZUKI,0000,0000,0000,,Run!
+Dialogue: 0,0:05:30.35,0:05:31.87,CRKuro,HYUGA,0000,0000,0000,,Let's go!
+Dialogue: 0,0:05:33.73,0:05:34.81,CRKuro,IZUKI,0000,0000,0000,,Kagami!
+Dialogue: 0,0:05:37.21,0:05:38.01,CRKuro,IZUKI,0000,0000,0000,,{\i1}Damn it!{\i0}
+Dialogue: 0,0:05:38.01,0:05:38.69,CRKuro,HYUGA,0000,0000,0000,,Izuki!
+Dialogue: 0,0:05:44.47,0:05:45.99,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}This pass...{\i0}
+Dialogue: 0,0:05:45.99,0:05:46.82,CRKuro,MORIYAMA,0000,0000,0000,,{\i1}A coincidence?{\i0}
+Dialogue: 0,0:05:47.31,0:05:50.20,CRKuro,MIDORIMA,0000,0000,0000,,{\i1}But it was equal to Akashi's passes.{\i0}
+Dialogue: 0,0:05:50.20,0:05:51.37,CRKuro,SAKURAI,0000,0000,0000,,{\i1}They'll make it.{\i0}
+Dialogue: 0,0:05:51.37,0:05:52.83,CRKuro,HIMURO,0000,0000,0000,,{\i1}For sure.{\i0}
+Dialogue: 0,0:05:55.85,0:05:57.09,CRKuro,HYUGA,0000,0000,0000,,{\i1}There's a way.{\i0}
+Dialogue: 0,0:05:57.09,0:06:00.67,CRKuro,HYUGA,0000,0000,0000,,{\i1}Not just to retaliate, but to win.{\i0}
+Dialogue: 0,0:06:01.01,0:06:02.84,CRKuro,HYUGA,0000,0000,0000,,{\i1}I haven't practiced it.{\i0}
+Dialogue: 0,0:06:02.84,0:06:05.52,CRKuro,HYUGA,0000,0000,0000,,{\i1}But I've seen more than enough examples.{\i0}
+Dialogue: 0,0:06:06.25,0:06:09.51,CRKuro,HYUGA,0000,0000,0000,,{\i1}As long as I have an idea of \Nwhat I'm doing, it could work!{\i0}
+Dialogue: 0,0:06:09.51,0:06:10.72,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}Could it be?{\i0}
+Dialogue: 0,0:06:23.12,0:06:25.69,CRKuro,REF,0000,0000,0000,,Basket counts, one free throw!
+Dialogue: 0,0:06:23.73,0:06:25.69,ScoreboardL,TEXT,0000,0000,0000,,Rakuzan
+Dialogue: 0,0:06:23.73,0:06:25.69,ScoreboardR,TEXT,0000,0000,0000,,Seirin
+Dialogue: 0,0:06:27.39,0:06:30.13,CRKuro,KOGA,0000,0000,0000,,He made the three!
+Dialogue: 0,0:06:30.13,0:06:31.92,CRKuro,TSUCHIDA,0000,0000,0000,,And he gets one free throw.
+Dialogue: 0,0:06:31.92,0:06:33.87,CRKuro,TSUCHIDA,0000,0000,0000,,It's a miraculous four point play!
+Dialogue: 0,0:06:33.87,0:06:36.33,CRKuro,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:06:36.33,0:06:38.29,CRKuro,FURIHATA,0000,0000,0000,,You did it, Captain!
+Dialogue: 0,0:06:39.40,0:06:40.75,CRKuro,RIKO,0000,0000,0000,,{\i1}Junpei!{\i0}
+Dialogue: 0,0:06:40.75,0:06:42.68,CRKuro,SHIROGANE,0000,0000,0000,,What?
+Dialogue: 0,0:06:43.38,0:06:44.93,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}They were four points behind.{\i0}
+Dialogue: 0,0:06:45.72,0:06:48.67,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}We could've won if I'd let \Nhim shoot a normal three,{\i0}
+Dialogue: 0,0:06:49.55,0:06:50.63,CRKuro,,0000,0000,0000,,{\i1}but...{\i0}
+Dialogue: 0,0:06:51.33,0:06:53.79,CRKuro,MIBUCHI,0000,0000,0000,,Sorry, guys.
+Dialogue: 0,0:06:53.79,0:06:55.04,CRKuro,AKASHI,0000,0000,0000,,Don't apologize.
+Dialogue: 0,0:06:55.70,0:06:58.13,CRKuro,AKASHI,0000,0000,0000,,Now isn't the time to blame yourself.
+Dialogue: 0,0:06:59.09,0:07:01.06,CRKuro,AKASHI,0000,0000,0000,,The next rebound will be the moment of truth.
+Dialogue: 0,0:07:07.03,0:07:10.49,CRKuro,KIYOSHI,0000,0000,0000,,Leave it to me. I'll get the ball.
+Dialogue: 0,0:07:10.49,0:07:12.09,CRKuro,KAGAMI,0000,0000,0000,,I'll jump for it, too.
+Dialogue: 0,0:07:12.09,0:07:13.41,CRKuro,KAGAMI,0000,0000,0000,,Don't do anything crazy.
+Dialogue: 0,0:07:13.41,0:07:15.45,CRKuro,KIYOSHI,0000,0000,0000,,It's too late for that.
+Dialogue: 0,0:07:16.94,0:07:19.29,CRKuro,KIYOSHI,0000,0000,0000,,Getting rebounds is my job.
+Dialogue: 0,0:07:19.29,0:07:20.51,CRKuro,KIYOSHI,0000,0000,0000,,So
+Dialogue: 0,0:07:21.29,0:07:23.24,CRKuro,,0000,0000,0000,,don't accidentally make the shot, Hyuga.
+Dialogue: 0,0:07:24.69,0:07:26.42,CRKuro,HYUGA,0000,0000,0000,,You're one to talk.
+Dialogue: 0,0:07:28.52,0:07:30.09,CRKuro,KIYOSHI,0000,0000,0000,,Let's have some fun.
+Dialogue: 0,0:07:30.45,0:07:32.48,CRKuro,KIYOSHI,0000,0000,0000,,This is the final play.
+Dialogue: 0,0:07:34.84,0:07:36.01,CRKuro,REF,0000,0000,0000,,One free throw!
+Dialogue: 0,0:07:37.09,0:07:39.18,CRKuro,HYUGA,0000,0000,0000,,{\i1}Huh? Crap.{\i0}
+Dialogue: 0,0:07:39.70,0:07:41.19,CRKuro,HYUGA,0000,0000,0000,,{\i1}I'm about to cry.{\i0}
+Dialogue: 0,0:07:42.34,0:07:43.55,CRKuro,HYUGA,0000,0000,0000,,{\i1}Damn it.{\i0}
+Dialogue: 0,0:07:44.33,0:07:46.73,CRKuro,,0000,0000,0000,,{\i1}It's his fault for saying it's the last play.{\i0}
+Dialogue: 0,0:07:55.85,0:07:56.90,CRKuro,HYUGA,0000,0000,0000,,{\i1}This is{\i0}
+Dialogue: 0,0:07:58.58,0:07:59.45,CRKuro,,0000,0000,0000,,{\i1}the end.{\i0}
+Dialogue: 0,0:08:01.76,0:08:04.55,CRKuro,KIYOSHI,0000,0000,0000,,{\i1}That's not what I meant.{\i0}
+Dialogue: 0,0:08:05.32,0:08:07.88,CRKuro,KIYOSHI,0000,0000,0000,,{\i1}But it can also mean that.{\i0}
+Dialogue: 0,0:08:10.42,0:08:13.47,CRKuro,KIYOSHI,0000,0000,0000,,{\i1}This is the last play we'll make together.{\i0}
+Dialogue: 0,0:08:14.06,0:08:16.18,CRKuro,KIYOSHI,0000,0000,0000,,{\i1}But I don't regret anything.{\i0}
+Dialogue: 0,0:08:16.48,0:08:20.22,CRKuro,KIYOSHI,0000,0000,0000,,{\i1}All that's left is to give everything I have.{\i0}
+Dialogue: 0,0:08:24.37,0:08:25.77,CRKuro,HYUGA,0000,0000,0000,,Rebound!
+Dialogue: 0,0:08:26.20,0:08:29.43,CRKuro,KIYOSHI,0000,0000,0000,,{\i1}My entire being rides on this play!{\i0}
+Dialogue: 0,0:08:33.64,0:08:35.33,CRKuro,ALL,0000,0000,0000,,He did it!
+Dialogue: 0,0:08:35.99,0:08:38.45,CRKuro,SHIROGANE,0000,0000,0000,,Stop them! Don't let them shoot!
+Dialogue: 0,0:08:38.45,0:08:40.55,CRKuro,NEBUYA,0000,0000,0000,,{\i1}Who? Who will it be?{\i0}
+Dialogue: 0,0:08:41.41,0:08:42.87,CRKuro,NEBUYA,0000,0000,0000,,{\i1}Will he take it himself?{\i0}
+Dialogue: 0,0:08:42.87,0:08:44.33,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}Or will he pass?{\i0}
+Dialogue: 0,0:08:47.16,0:08:50.21,CRKuro,MAYUZUMI,0000,0000,0000,,{\i1}Piece of crap! I knew.{\i0}
+Dialogue: 0,0:08:50.39,0:08:51.84,CRKuro,MAYUZUMI,0000,0000,0000,,{\i1}I was keeping an eye on him!{\i0}
+Dialogue: 0,0:08:52.15,0:08:57.14,CRKuro,MAYUZUMI,0000,0000,0000,,{\i1}But the moment I thought someone \Nmight shoot, I forgot about him!{\i0}
+Dialogue: 0,0:09:00.13,0:09:04.27,CRKuro,MIBUCHI,0000,0000,0000,,{\i1}Did he avoid shooting until now \Nto prepare for this moment?{\i0}
+Dialogue: 0,0:09:06.34,0:09:08.91,CRKuro,ALL,0000,0000,0000,,Go!
+Dialogue: 0,0:09:11.07,0:09:12.48,CRKuro,HAYAMA,0000,0000,0000,,Akashi!
+Dialogue: 0,0:09:12.48,0:09:14.45,CRKuro,AKASHI,0000,0000,0000,,It's over, Kuroko!
+Dialogue: 0,0:09:15.06,0:09:17.13,CRKuro,KUROKO,0000,0000,0000,,No, not yet.
+Dialogue: 0,0:09:17.78,0:09:19.32,CRKuro,KUROKO,0000,0000,0000,,I am a shadow.
+Dialogue: 0,0:09:46.06,0:09:47.12,CRKuro,REF,0000,0000,0000,,Time's up!
+Dialogue: 0,0:09:47.12,0:09:48.52,CRKuro,REF,0000,0000,0000,,Seirin High
+Dialogue: 0,0:09:49.54,0:09:51.99,CRKuro,,0000,0000,0000,,wins the Winter Cup!
+Dialogue: 0,0:10:29.45,0:10:30.48,CRKuro,AKASHI,0000,0000,0000,,{\i1}I lost.{\i0}
+Dialogue: 0,0:10:31.92,0:10:34.29,CRKuro,AKASHI,0000,0000,0000,,{\i1}So this is defeat.{\i0}
+Dialogue: 0,0:10:36.66,0:10:38.06,CRKuro,AKASHI,0000,0000,0000,,{\i1}This is awful.{\i0}
+Dialogue: 0,0:10:38.69,0:10:41.07,CRKuro,,0000,0000,0000,,{\i1}It's hard to describe this pain in my chest.{\i0}
+Dialogue: 0,0:10:41.97,0:10:46.51,CRKuro,AKASHI,0000,0000,0000,,{\i1}I don't think I can stay \Ncomposed until we line up.{\i0}
+Dialogue: 0,0:10:48.09,0:10:49.10,CRKuro,AKASHI,0000,0000,0000,,{\i1}But{\i0}
+Dialogue: 0,0:10:49.90,0:10:51.30,CRKuro,,0000,0000,0000,,{\i1}that's why...{\i0}
+Dialogue: 0,0:10:52.38,0:10:54.34,CRKuro,AKASHI,0000,0000,0000,,{\i1}I'm glad I played basketball.{\i0}
+Dialogue: 0,0:10:55.14,0:10:57.51,CRKuro,AKASHI,0000,0000,0000,,{\i1}And I'm glad I met you.{\i0}
+Dialogue: 0,0:10:59.43,0:11:00.58,CRKuro,AKASHI,0000,0000,0000,,You...
+Dialogue: 0,0:11:01.11,0:11:04.21,CRKuro,,0000,0000,0000,,No, your team won.
+Dialogue: 0,0:11:05.11,0:11:06.18,CRKuro,AKASHI,0000,0000,0000,,Congratulations.
+Dialogue: 0,0:11:07.23,0:11:08.95,CRKuro,AKASHI,0000,0000,0000,,And prepare yourselves.
+Dialogue: 0,0:11:09.57,0:11:12.69,CRKuro,AKASHI,0000,0000,0000,,Next time, we'll win.
+Dialogue: 0,0:11:15.34,0:11:16.15,CRKuro,KUROKO,0000,0000,0000,,Yes.
+Dialogue: 0,0:11:16.63,0:11:17.79,CRKuro,KUROKO,0000,0000,0000,,Let's play again.
+Dialogue: 0,0:11:18.52,0:11:22.45,CRKuro,KUROKO,0000,0000,0000,,And again and again and again.
+Dialogue: 0,0:11:24.22,0:11:25.15,CRKuro,KUROKO,0000,0000,0000,,{\i1}Yes.{\i0}
+Dialogue: 0,0:11:25.74,0:11:26.84,CRKuro,KUROKO,0000,0000,0000,,{\i1}Again and again.{\i0}
+Dialogue: 0,0:11:28.25,0:11:30.43,CRKuro,KUROKO,0000,0000,0000,,{\i1}This isn't the end of everything.{\i0}
+Dialogue: 0,0:11:31.21,0:11:34.13,CRKuro,KUROKO,0000,0000,0000,,{\i1}In fact, this is just the beginning.{\i0}
+Dialogue: 0,0:11:38.55,0:11:42.76,CRKuro,KUROKO,0000,0000,0000,,{\i1}We will fight by playing \Nthe game we love again{\i0}
+Dialogue: 0,0:11:43.84,0:11:44.88,CRKuro,,0000,0000,0000,,{\i1}and again.{\i0}
+Dialogue: 0,0:12:01.31,0:12:02.25,CRKuro,KAGAMI,0000,0000,0000,,Hey.
+Dialogue: 0,0:12:04.40,0:12:06.41,CRKuro,KAGAMI,0000,0000,0000,,Huh? Where are the upperclassmen?
+Dialogue: 0,0:12:06.41,0:12:09.26,CRKuro,FUKUDA,0000,0000,0000,,What are you talking about, you idiot?
+Dialogue: 0,0:12:09.26,0:12:11.02,CRKuro,FURIHATA,0000,0000,0000,,They're seeing Kiyoshi-senpai off.
+Dialogue: 0,0:12:11.02,0:12:13.06,CRKuro,FURIHATA,0000,0000,0000,,We just had a going away party for him.
+Dialogue: 0,0:12:13.06,0:12:14.74,CRKuro,KAGAMI,0000,0000,0000,,Oh, shit. That was today?
+Dialogue: 0,0:12:14.74,0:12:16.42,CRKuro,KAWAHARA,0000,0000,0000,,You're so forgetful.
+Dialogue: 0,0:12:16.88,0:12:19.93,CRKuro,KAWAHARA,0000,0000,0000,,He said we didn't need to, but...
+Dialogue: 0,0:12:24.87,0:12:28.35,CRKuro,KIYOSHI,0000,0000,0000,,I told them they didn't have to come,
+Dialogue: 0,0:12:28.88,0:12:30.79,CRKuro,,0000,0000,0000,,but I can't believe they really didn't.
+Dialogue: 0,0:12:30.79,0:12:32.67,CRKuro,KOGA,0000,0000,0000,,You wanted them to come?
+Dialogue: 0,0:12:32.67,0:12:34.27,CRKuro,RIKO,0000,0000,0000,,They're just doing what you wanted.
+Dialogue: 0,0:12:34.61,0:12:36.94,CRKuro,TSUCHIDA,0000,0000,0000,,They're probably sad, too.
+Dialogue: 0,0:12:37.51,0:12:38.98,CRKuro,IZUKI,0000,0000,0000,,Take care.
+Dialogue: 0,0:12:38.98,0:12:39.97,CRKuro,KIYOSHI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:12:41.25,0:12:45.27,CRKuro,ALEX,0000,0000,0000,,After surgery, depending on how rehab \Ngoes, he could recover quickly.
+Dialogue: 0,0:12:45.74,0:12:48.96,CRKuro,ALEX,0000,0000,0000,,You'll see the guys who couldn't \Ncome today soon enough.
+Dialogue: 0,0:12:54.73,0:12:55.92,CRKuro,HYUGA,0000,0000,0000,,We'll be waiting.
+Dialogue: 0,0:12:59.01,0:13:00.07,CRKuro,KIYOSHI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:13:03.64,0:13:05.88,CRKuro,SHIGE,0000,0000,0000,,{\i1}That was an amazing game.{\i0}
+Dialogue: 0,0:13:05.88,0:13:07.22,CRKuro,SHIGE,0000,0000,0000,,{\i1}I had goosebumps.{\i0}
+Dialogue: 0,0:13:08.88,0:13:11.72,CRKuro,SHIGE,0000,0000,0000,,{\i1}Monthly Basketball{\i0} had a \Nhuge article on Seirin, too.
+Dialogue: 0,0:13:13.34,0:13:16.06,CRKuro,SHIGE,0000,0000,0000,,Kuroko, I've decided.
+Dialogue: 0,0:13:16.74,0:13:18.77,CRKuro,SHIGE,0000,0000,0000,,Next year, I'll play you guys.
+Dialogue: 0,0:13:19.64,0:13:22.74,CRKuro,SHIGE,0000,0000,0000,,We'll duke it out. I promise.
+Dialogue: 0,0:13:24.33,0:13:26.80,CRKuro,KUROKO,0000,0000,0000,,Okay. I look forward to it.
+Dialogue: 0,0:13:28.48,0:13:30.31,CRKuro,MOMOI,0000,0000,0000,,Tetsu-kun!
+Dialogue: 0,0:13:31.57,0:13:33.14,CRKuro,MOMOI,0000,0000,0000,,Were you waiting long?
+Dialogue: 0,0:13:33.14,0:13:35.31,CRKuro,KUROKO,0000,0000,0000,,No, it's okay.
+Dialogue: 0,0:13:35.91,0:13:37.28,CRKuro,MOMOI,0000,0000,0000,,Here's the thing you asked for.
+Dialogue: 0,0:13:42.96,0:13:44.42,CRKuro,KUROKO,0000,0000,0000,,Thank you.
+Dialogue: 0,0:13:49.36,0:13:50.05,CRKuro,KOBORI,0000,0000,0000,,Wha—
+Dialogue: 0,0:13:50.63,0:13:52.22,CRKuro,KOBORI,0000,0000,0000,,What's wrong with you, Kasamatsu?
+Dialogue: 0,0:13:52.22,0:13:56.77,CRKuro,MORIYAMA,0000,0000,0000,,Kasamatsu and I have the \Nsame first choice school.
+Dialogue: 0,0:13:58.36,0:14:01.98,CRKuro,MORIYAMA,0000,0000,0000,,{\i1}That college is full of cute girls.{\i0}
+Dialogue: 0,0:14:01.98,0:14:03.72,CRKuro,KASAMATSU,0000,0000,0000,,{\i1}Can't you take your exams more seriously?{\i0}
+Dialogue: 0,0:14:03.72,0:14:05.36,CRKuro,KASAMATSU,0000,0000,0000,,{\i1}You think you'll pass \Nwith that kind of motive?{\i0}
+Dialogue: 0,0:14:05.36,0:14:07.09,CRKuro,MORIYAMA,0000,0000,0000,,{\i1}What? But...{\i0}
+Dialogue: 0,0:14:05.36,0:14:10.07,Exam,TEXT,0000,0000,0000,,Evaluation Exam
+Dialogue: 0,0:14:10.07,0:14:11.15,CRKuro,KOBORI,0000,0000,0000,,That's a bit...
+Dialogue: 0,0:14:11.15,0:14:12.32,CRKuro,MORIYAMA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:14:12.32,0:14:15.37,CRKuro,MORIYAMA,0000,0000,0000,,Kobori, you're applying there, too, right?
+Dialogue: 0,0:14:15.37,0:14:16.39,CRKuro,KOBORI,0000,0000,0000,,It's my backup.
+Dialogue: 0,0:14:18.72,0:14:20.33,CRKuro,KOBORI,0000,0000,0000,,Cheer up, Kasamatsu!
+Dialogue: 0,0:14:20.33,0:14:23.56,CRKuro,KOBORI,0000,0000,0000,,I know. Let's go check out the gym!
+Dialogue: 0,0:14:23.56,0:14:25.93,CRKuro,KOBORI,0000,0000,0000,,You'll feel better once \Nyou knock Kise around!
+Dialogue: 0,0:14:25.93,0:14:27.84,CRKuro,MORIYAMA,0000,0000,0000,,That's an awful thing to say!
+Dialogue: 0,0:14:27.84,0:14:30.01,CRKuro,HAYAKAWA,0000,0000,0000,,Look around you, Kise!
+Dialogue: 0,0:14:30.01,0:14:33.18,CRKuro,HAYAKAWA,0000,0000,0000,,That won't work against Seirin!
+Dialogue: 0,0:14:33.18,0:14:35.88,CRKuro,KISE,0000,0000,0000,,Yeah, I know!
+Dialogue: 0,0:14:36.53,0:14:39.31,CRKuro,NAKAMURA,0000,0000,0000,,You understand him now?
+Dialogue: 0,0:14:39.31,0:14:41.70,CRKuro,KISE,0000,0000,0000,,No, just by feel.
+Dialogue: 0,0:14:41.70,0:14:44.58,CRKuro,NAKAMURA,0000,0000,0000,,By feel. By feel, huh?
+Dialogue: 0,0:14:44.58,0:14:45.81,CRKuro,HAYAKAWA,0000,0000,0000,,Once again!
+Dialogue: 0,0:14:45.81,0:14:47.11,CRKuro,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:14:48.53,0:14:51.58,CRKuro,KASAMATSU,0000,0000,0000,,Oh, well. Time to study.
+Dialogue: 0,0:14:53.00,0:14:56.38,CRKuro,TAKAO,0000,0000,0000,,Isn't this pretty bad?
+Dialogue: 0,0:14:56.38,0:14:57.54,CRKuro,MIDORIMA,0000,0000,0000,,What's bad?
+Dialogue: 0,0:14:58.03,0:15:02.13,CRKuro,TAKAO,0000,0000,0000,,Otsubo-san, Miyaji-san, Kimura-san.
+Dialogue: 0,0:15:02.13,0:15:03.70,CRKuro,TAKAO,0000,0000,0000,,They're all third-years.
+Dialogue: 0,0:15:03.70,0:15:06.08,CRKuro,TAKAO,0000,0000,0000,,You and I will be the only ones left.
+Dialogue: 0,0:15:07.30,0:15:11.86,CRKuro,TAKAO,0000,0000,0000,,Everyone else is keeping at least \Nthree of their core players.
+Dialogue: 0,0:15:11.86,0:15:14.85,CRKuro,TAKAO,0000,0000,0000,,Won't we be pretty far behind?
+Dialogue: 0,0:15:15.81,0:15:18.06,CRKuro,MIYAJI BRO,0000,0000,0000,,You don't think much of me, do you?
+Dialogue: 0,0:15:18.06,0:15:19.36,CRKuro,TAKAO,0000,0000,0000,,Miyaji-san.
+Dialogue: 0,0:15:19.36,0:15:23.38,CRKuro,MIYAJI BRO,0000,0000,0000,,{\an8}I fell one step short of my brother, \Nbut this year I'll surpass him.
+Dialogue: 0,0:15:21.58,0:15:24.02,Bro,TEXT,0000,0000,0000,,Miyaji Yuya 2nd Year SF\N(Miyaji Kiyoshi's Younger Brother)
+Dialogue: 0,0:15:24.02,0:15:27.44,CRKuro,MIYAJI BRO,0000,0000,0000,,As your captain, I'll prove \Nit to you with results.
+Dialogue: 0,0:15:27.44,0:15:30.30,CRKuro,MIYAJI BRO,0000,0000,0000,,I'm not as gentle as Otsubo-senpai.
+Dialogue: 0,0:15:30.30,0:15:31.49,CRKuro,MIYAJI BRO,0000,0000,0000,,Prepare yourselves.
+Dialogue: 0,0:15:32.25,0:15:35.56,CRKuro,MIYAJI BRO,0000,0000,0000,,And next year, Kimura-senpai's \Nbrother is joining, too.
+Dialogue: 0,0:15:35.56,0:15:36.49,CRKuro,TAKAO,0000,0000,0000,,Seriously?
+Dialogue: 0,0:15:36.88,0:15:39.39,CRKuro,MIYAJI BRO,0000,0000,0000,,We still have first- and \Nsecond-years with potential,
+Dialogue: 0,0:15:39.39,0:15:41.26,CRKuro,,0000,0000,0000,,and the new first-years are promising, too.
+Dialogue: 0,0:15:41.73,0:15:44.57,CRKuro,MIYAJI BRO,0000,0000,0000,,It's not as simple as who \Nhas how many guys left.
+Dialogue: 0,0:15:44.98,0:15:47.39,CRKuro,TAKAO,0000,0000,0000,,You're right. Sorry.
+Dialogue: 0,0:15:47.39,0:15:48.48,CRKuro,MIYAJI BRO,0000,0000,0000,,Come to think of it,
+Dialogue: 0,0:15:48.48,0:15:51.70,CRKuro,MIYAJI BRO,0000,0000,0000,,Otsubo-senpai has a younger sibling \Nwho wants to play basketball, too.
+Dialogue: 0,0:15:51.70,0:15:54.93,CRKuro,TAKAO,0000,0000,0000,,What? Just how many brothers \Ndo we have on the team?
+Dialogue: 0,0:15:54.93,0:15:56.51,CRKuro,MIYAJI BRO,0000,0000,0000,,I've got a picture.
+Dialogue: 0,0:15:57.25,0:15:58.30,CRKuro,MIYAJI BRO,0000,0000,0000,,Otsubo Tae-chan.
+Dialogue: 0,0:15:58.30,0:16:00.93,CRKuro,TAKAO,0000,0000,0000,,A girl? She looks nothing like him!
+Dialogue: 0,0:16:02.23,0:16:04.77,CRKuro,OTSUBO,0000,0000,0000,,How did the practice exam go?
+Dialogue: 0,0:16:05.07,0:16:06.63,CRKuro,MIYAJI,0000,0000,0000,,All right, I guess.
+Dialogue: 0,0:16:07.62,0:16:10.54,CRKuro,MIYAJI,0000,0000,0000,,By the way, I met Seiho's Kasuga.
+Dialogue: 0,0:16:12.03,0:16:14.13,CRKuro,OTSUBO,0000,0000,0000,,He's pretty smart.
+Dialogue: 0,0:16:15.45,0:16:18.36,CRKuro,MURASAKI,0000,0000,0000,,You can't be serious.
+Dialogue: 0,0:16:18.36,0:16:19.91,CRKuro,HIMURO,0000,0000,0000,,What do you mean, Atsushi?
+Dialogue: 0,0:16:19.91,0:16:21.78,CRKuro,MURASAKI,0000,0000,0000,,It snows too much in Akita.
+Dialogue: 0,0:16:21.78,0:16:24.38,CRKuro,HIMURO,0000,0000,0000,,Yeah, I agree.
+Dialogue: 0,0:16:24.38,0:16:27.25,CRKuro,HIMURO,0000,0000,0000,,I thought it was a natural \Ndisaster at first, too.
+Dialogue: 0,0:16:27.25,0:16:31.60,CRKuro,MURASAKI,0000,0000,0000,,I'd understand if this \Nwere dried wheat cakes...
+Dialogue: 0,0:16:32.61,0:16:35.39,CRKuro,HIMRUO,0000,0000,0000,,Sorry, but I don't get you.
+Dialogue: 0,0:16:35.81,0:16:38.81,CRKuro,MURASAKI,0000,0000,0000,,Also, I've been wondering...
+Dialogue: 0,0:16:39.94,0:16:41.36,CRKuro,MURASAKI,0000,0000,0000,,But why are you here?
+Dialogue: 0,0:16:41.36,0:16:42.43,CRKuro,FUKUI,0000,0000,0000,,Of course we're here!
+Dialogue: 0,0:16:42.43,0:16:44.20,CRKuro,OKAMURA,0000,0000,0000,,We haven't graduated yet!
+Dialogue: 0,0:16:44.20,0:16:47.11,CRKuro,OKAMURA,0000,0000,0000,,Did you think school ended \Nwhen the season ended?
+Dialogue: 0,0:16:47.45,0:16:51.79,CRKuro,FUKUI,0000,0000,0000,,We will be missing a few days starting \Nnext week for entrance exams.
+Dialogue: 0,0:16:51.79,0:16:55.01,CRKuro,OKAMURA,0000,0000,0000,,Our first choice schools are in Tokyo.
+Dialogue: 0,0:16:55.74,0:16:59.81,CRKuro,MURASAKI,0000,0000,0000,,I thought you couldn't get \Ninto college without studying.
+Dialogue: 0,0:16:59.81,0:17:01.35,CRKuro,FUKUI,0000,0000,0000,,That's why we're studying!
+Dialogue: 0,0:17:01.35,0:17:03.00,CRKuro,FUKUI,0000,0000,0000,,Quit messing with me!
+Dialogue: 0,0:17:03.68,0:17:04.96,CRKuro,MURASAKI,0000,0000,0000,,Huh?
+Dialogue: 0,0:17:04.96,0:17:07.07,CRKuro,MURASAKI,0000,0000,0000,,You can have this, then.
+Dialogue: 0,0:17:07.07,0:17:07.96,CRKuro,FUKUI,0000,0000,0000,,What?
+Dialogue: 0,0:17:07.46,0:17:10.38,maiu,,0000,0000,0000,,{\fad(1276,1)}Maiu
+Dialogue: 0,0:17:07.46,0:17:10.38,curry,,0000,0000,0000,,Katsu Curry \NFlavor
+Dialogue: 0,0:17:10.57,0:17:12.18,CRKuro,MURASAKI,0000,0000,0000,,Study hard.
+Dialogue: 0,0:17:13.41,0:17:14.36,CRKuro,OKAMURA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:17:15.67,0:17:17.08,CRKuro,FUKUI,0000,0000,0000,,They're just snacks.
+Dialogue: 0,0:17:17.80,0:17:21.24,CRKuro,MOMOI,0000,0000,0000,,Practice, practice.
+Dialogue: 0,0:17:23.02,0:17:27.26,CRKuro,SAKURAI,0000,0000,0000,,You've been smiling more since \NAomine-san started attending practice.
+Dialogue: 0,0:17:28.26,0:17:29.30,CRKuro,MOMOI,0000,0000,0000,,You think so?
+Dialogue: 0,0:17:30.15,0:17:33.24,CRKuro,WAKAMATSU,0000,0000,0000,,Aomine's late? That brat!
+Dialogue: 0,0:17:34.92,0:17:36.18,CRKuro,MOMOI,0000,0000,0000,,Captain...
+Dialogue: 0,0:17:36.18,0:17:37.24,CRKuro,WAKAMATSU,0000,0000,0000,,Hey, Momoi.
+Dialogue: 0,0:17:37.24,0:17:38.99,CRKuro,WAKAMATSU,0000,0000,0000,,Could you do that again?
+Dialogue: 0,0:17:44.87,0:17:47.79,Text,TEXT,0000,0000,0000,,If you don't come, \NI'm burning this.
+Dialogue: 0,0:17:48.78,0:17:50.46,CRKuro,AOMINE,0000,0000,0000,,Give me back my Mai-chan!
+Dialogue: 0,0:17:50.46,0:17:51.80,CRKuro,WAKAMATSU,0000,0000,0000,,You're here.
+Dialogue: 0,0:17:51.80,0:17:54.00,CRKuro,AOMINE,0000,0000,0000,,That's one underhanded way to...
+Dialogue: 0,0:17:54.00,0:17:55.56,CRKuro,WAKAMATSU,0000,0000,0000,,You just have to show up.
+Dialogue: 0,0:17:55.56,0:17:57.82,CRKuro,WAKAMATSU,0000,0000,0000,,You don't have to play. Just watch.
+Dialogue: 0,0:17:57.82,0:17:58.76,CRKuro,AOMINE,0000,0000,0000,,What?
+Dialogue: 0,0:17:59.14,0:18:03.59,CRKuro,WAKAMATSU,0000,0000,0000,,But don't blame me if you run out of \Nsteam before Kagami at the end of a game.
+Dialogue: 0,0:18:03.59,0:18:06.52,CRKuro,WAKAMATSU,0000,0000,0000,,It'll just end like it did last time.
+Dialogue: 0,0:18:06.98,0:18:09.65,CRKuro,WAKAMATSU,0000,0000,0000,,Hey, you! I told you to get closer!
+Dialogue: 0,0:18:09.65,0:18:11.85,CRKuro,AOMINE,0000,0000,0000,,Just watching is boring.
+Dialogue: 0,0:18:11.85,0:18:12.64,CRKuro,WAKAMATSU,0000,0000,0000,,What?
+Dialogue: 0,0:18:12.64,0:18:14.35,CRKuro,AOMINE,0000,0000,0000,,I'm saying I'll play.
+Dialogue: 0,0:18:16.51,0:18:18.45,CRKuro,NEBUYA,0000,0000,0000,,I'm hungry.
+Dialogue: 0,0:18:19.09,0:18:22.17,CRKuro,NEBUYA,0000,0000,0000,,Are you sure we don't need \Nto practice since we lost?
+Dialogue: 0,0:18:22.17,0:18:24.89,CRKuro,MIBUCHI,0000,0000,0000,,What are you talking about? Today is special.
+Dialogue: 0,0:18:24.89,0:18:27.16,CRKuro,MIBUCHI,0000,0000,0000,,The third-years retired from the team.
+Dialogue: 0,0:18:27.54,0:18:29.42,CRKuro,HAYAMA,0000,0000,0000,,They're leaving, huh?
+Dialogue: 0,0:18:29.42,0:18:31.28,CRKuro,HAYAMA,0000,0000,0000,,I wonder if that was all right, though.
+Dialogue: 0,0:18:31.28,0:18:33.38,CRKuro,HAYAMA,0000,0000,0000,,He never showed up.
+Dialogue: 0,0:18:35.07,0:18:36.28,CRKuro,AKASHI,0000,0000,0000,,Mayuzumi-san.
+Dialogue: 0,0:18:37.74,0:18:39.53,CRKuro,MAYUZUMI,0000,0000,0000,,It's you, Akashi.
+Dialogue: 0,0:18:39.53,0:18:41.98,CRKuro,MAYUZUMI,0000,0000,0000,,And honorifics? I thought we were equals.
+Dialogue: 0,0:18:41.98,0:18:44.86,CRKuro,AKASHI,0000,0000,0000,,Only when I'm your captain during practice.
+Dialogue: 0,0:18:45.37,0:18:48.31,CRKuro,AKASHI,0000,0000,0000,,Now we're just a first-year and a third-year.
+Dialogue: 0,0:18:50.83,0:18:52.59,CRKuro,AKASHI,0000,0000,0000,,Thanks for your hard work.
+Dialogue: 0,0:18:54.38,0:18:55.46,CRKuro,MAYUZUMI,0000,0000,0000,,Sure.
+Dialogue: 0,0:18:56.42,0:18:59.32,CRKuro,AKASHI,0000,0000,0000,,Are you sure you didn't want to \Nattend the retirement ceremony?
+Dialogue: 0,0:18:59.63,0:19:05.13,CRKuro,MAYUZUMI,0000,0000,0000,,Yeah. That's not really my thing, \Nand I'm not that attached to the team.
+Dialogue: 0,0:19:05.68,0:19:08.46,CRKuro,MAYUZUMI,0000,0000,0000,,It's not like I've got great \Nmemories from being on it.
+Dialogue: 0,0:19:08.96,0:19:12.71,CRKuro,MAYUZUMI,0000,0000,0000,,The last year wasn't bad, though.
+Dialogue: 0,0:19:12.71,0:19:14.17,CRKuro,MAYUZUMI,0000,0000,0000,,Thanks to you.
+Dialogue: 0,0:19:15.10,0:19:16.09,CRKuro,AKASHI,0000,0000,0000,,Yes.
+Dialogue: 0,0:19:17.88,0:19:21.68,CRKuro,MAYUZUMI,0000,0000,0000,,Anyway, just leave me be until graduation.
+Dialogue: 0,0:19:21.68,0:19:25.52,CRKuro,MAYUZUMI,0000,0000,0000,,It'd be lame if we kept talking after today.
+Dialogue: 0,0:19:28.66,0:19:30.82,CRKuro,FUKUDA,0000,0000,0000,,What are we going to do about practice?
+Dialogue: 0,0:19:30.82,0:19:33.40,CRKuro,KAWAHARA,0000,0000,0000,,Huh? You haven't heard from anyone?
+Dialogue: 0,0:19:33.40,0:19:35.23,CRKuro,FURIHATA,0000,0000,0000,,Do we have the day off?
+Dialogue: 0,0:19:36.46,0:19:38.36,CRKuro,HYUGA,0000,0000,0000,,Of course not, idiots.
+Dialogue: 0,0:19:38.36,0:19:40.05,CRKuro,FURIHATA,0000,0000,0000,,Captain, hey!
+Dialogue: 0,0:19:40.05,0:19:41.19,CRKuro,FUKUDA,0000,0000,0000,,What about seeing him off?
+Dialogue: 0,0:19:41.19,0:19:43.37,CRKuro,HYUGA,0000,0000,0000,,I'm here because I already did.
+Dialogue: 0,0:19:43.97,0:19:46.36,CRKuro,HYUGA,0000,0000,0000,,These days you can e-mail \Nguys in foreign countries,
+Dialogue: 0,0:19:46.36,0:19:48.37,CRKuro,,0000,0000,0000,,and it's not that hard to get there.
+Dialogue: 0,0:19:48.81,0:19:52.83,CRKuro,HYUGA,0000,0000,0000,,It's not the last time we'll see \Neach other, so I made it quick.
+Dialogue: 0,0:19:53.31,0:19:57.20,CRKuro,IZUKI,0000,0000,0000,,You seemed more hurt and quiet \Nthan anyone else, though.
+Dialogue: 0,0:19:57.20,0:19:58.80,CRKuro,HYUGA,0000,0000,0000,,Shut up, Izuki!
+Dialogue: 0,0:19:59.15,0:20:02.88,CRKuro,RIKO,0000,0000,0000,,More importantly, I can't \Nignore what you just said.
+Dialogue: 0,0:20:02.88,0:20:05.26,CRKuro,RIKO,0000,0000,0000,,You think we don't have practice?
+Dialogue: 0,0:20:05.26,0:20:10.71,CRKuro,RIKO,0000,0000,0000,,The Kanto Inter-High qualifiers start \Nright after the newbie matches end.
+Dialogue: 0,0:20:10.71,0:20:15.27,CRKuro,RIKO,0000,0000,0000,,When did you get too good to \Ncare, huh, you little brats?
+Dialogue: 0,0:20:16.09,0:20:19.38,CRKuro,RIKO,0000,0000,0000,,At this rate, you're not getting \Nout of a buck-naked confession.
+Dialogue: 0,0:20:19.38,0:20:21.78,CRKuro,FURIHATA,0000,0000,0000,,What? But we already did that.
+Dialogue: 0,0:20:21.78,0:20:24.20,CRKuro,RIKO,0000,0000,0000,,And now it's reset.
+Dialogue: 0,0:20:24.44,0:20:27.79,CRKuro,RIKO,0000,0000,0000,,When the new semester starts and new \Nplayers join the team, we'll do it again.
+Dialogue: 0,0:20:27.79,0:20:29.97,CRKuro,RIKO,0000,0000,0000,,And we'll aim higher this time.
+Dialogue: 0,0:20:29.97,0:20:32.16,CRKuro,KAGAMI,0000,0000,0000,,Doesn't that mean another championship?
+Dialogue: 0,0:20:32.16,0:20:33.34,CRKuro,RIKO,0000,0000,0000,,Of course.
+Dialogue: 0,0:20:33.34,0:20:36.43,CRKuro,RIKO,0000,0000,0000,,Everyone else is practicing \Nwith their new lineups
+Dialogue: 0,0:20:36.43,0:20:40.13,CRKuro,,0000,0000,0000,,and reaching out to players \Nto strengthen their teams.
+Dialogue: 0,0:20:40.58,0:20:43.15,CRKuro,RIKO,0000,0000,0000,,If we just sit around, we'll fall behind.
+Dialogue: 0,0:20:43.15,0:20:45.32,CRKuro,RIKO,0000,0000,0000,,Come on. Let's start practice.
+Dialogue: 0,0:20:45.32,0:20:47.19,CRKuro,TSUCHIDA,0000,0000,0000,,But Kuroko's still not here.
+Dialogue: 0,0:20:48.80,0:20:50.27,CRKuro,FURIHATA,0000,0000,0000,,He was just in the club room.
+Dialogue: 0,0:20:50.27,0:20:51.32,CRKuro,FURIHATA,0000,0000,0000,,He should be here soon.
+Dialogue: 0,0:20:51.32,0:20:52.43,CRKuro,HYUGA,0000,0000,0000,,Sheesh...
+Dialogue: 0,0:20:52.43,0:20:53.93,CRKuro,HYUGA,0000,0000,0000,,Kagami, go check on him.
+Dialogue: 0,0:20:53.93,0:20:56.06,CRKuro,KAGAMI,0000,0000,0000,,Who, me?
+Dialogue: 0,0:20:57.88,0:20:59.38,CRKuro,KAGAMI,0000,0000,0000,,Hey, Kuroko.
+Dialogue: 0,0:20:59.38,0:21:01.03,CRKuro,KAGAMI,0000,0000,0000,,What's taking so long?
+Dialogue: 0,0:21:01.38,0:21:02.41,CRKuro,KAGAMI,0000,0000,0000,,Hurry...
+Dialogue: 0,0:21:02.82,0:21:05.48,CRKuro,KAGAMI,0000,0000,0000,,Huh? Where'd he go?
+Dialogue: 0,0:21:05.99,0:21:06.92,CRKuro,KUROKO,0000,0000,0000,,Did you call?
+Dialogue: 0,0:21:07.62,0:21:09.69,CRKuro,KAGAMI,0000,0000,0000,,You... I told you!
+Dialogue: 0,0:21:09.69,0:21:14.58,CRKuro,KUROKO,0000,0000,0000,,Sorry. I was getting a photo from Momoi-san.
+Dialogue: 0,0:21:14.58,0:21:17.46,CRKuro,KAGAMI,0000,0000,0000,,Oh, of that thing you planned \Nfor your birthday...
+Dialogue: 0,0:21:18.26,0:21:19.21,CRKuro,KAGAMI,0000,0000,0000,,No, wait!
+Dialogue: 0,0:21:19.21,0:21:20.68,CRKuro,KAGAMI,0000,0000,0000,,Practice! Let's go!
+Dialogue: 0,0:21:20.68,0:21:21.83,CRKuro,KUROKO,0000,0000,0000,,Okay.
+Dialogue: 0,0:21:37.34,0:21:38.99,CRKuro,HYUGA,0000,0000,0000,,You're late, Kuroko!
+Dialogue: 0,0:21:39.51,0:21:42.16,CRKuro,HYUGA,0000,0000,0000,,Now let's start practice!
+Dialogue: 0,0:21:42.16,0:21:44.46,CRKuro,HYUGA,0000,0000,0000,,Seirin, fight!
+Dialogue: 0,0:21:44.46,0:21:46.02,CRKuro,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:21:46.02,0:21:48.02,CRKuro,,0000,0000,0000,,
+
+

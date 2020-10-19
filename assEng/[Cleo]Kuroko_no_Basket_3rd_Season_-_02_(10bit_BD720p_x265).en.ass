@@ -1,0 +1,341 @@
+[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: CRKuro,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Next EpTitle,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H000D0D13,&H00000000,1,0,0,0,100,100,0,0,1,1,1,8,27,27,27,1
+Style: Preview,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H000D0D13,&H00000000,1,0,0,0,100,100,0,0,1,1,0,7,67,20,80,1
+Style: ScoreboardL,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,7,27,27,27,0
+Style: ScoreboardR,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,1,9,27,27,27,0
+Style: EpTitle,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H000D0D13,&H00000000,1,0,0,0,100,100,0,0,1,0,0,2,0,0,160,1
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Teiko,Open Sans Semibold,39,&H00D5DFD9,&H000000FF,&H0021251E,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,13,13,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.64,0:00:03.27,Teiko,TEXT,0000,0000,0000,,{\fad(1400,900)}Teiko Middle School
+Dialogue: 0,0:00:02.80,0:00:05.71,CRKuro,NARRATOR,0000,0000,0000,,The Teiko Middle School basketball club.
+Dialogue: 0,0:00:06.52,0:00:09.06,CRKuro,NARRATOR,0000,0000,0000,,Even amidst their brilliant record,
+Dialogue: 0,0:00:09.06,0:00:14.03,CRKuro,,0000,0000,0000,,there was a generation of five prodigies \Nknown as the "Generation of Miracles."
+Dialogue: 0,0:00:14.85,0:00:15.85,CRKuro,NARRATOR,0000,0000,0000,,Kise Ryota.
+Dialogue: 0,0:00:16.31,0:00:17.79,CRKuro,NARRATOR,0000,0000,0000,,Midorima Shintaro.
+Dialogue: 0,0:00:17.79,0:00:19.31,CRKuro,NARRATOR,0000,0000,0000,,Aomine Daiki.
+Dialogue: 0,0:00:19.31,0:00:21.07,CRKuro,NARRATOR,0000,0000,0000,,Murasakibara Atsushi.
+Dialogue: 0,0:00:21.07,0:00:23.04,CRKuro,NARRATOR,0000,0000,0000,,Akashi Seijuro.
+Dialogue: 0,0:00:26.79,0:00:30.25,CRKuro,NARRATOR,0000,0000,0000,,They are threatened by Seirin High's
+Dialogue: 0,0:00:31.02,0:00:33.17,CRKuro,,0000,0000,0000,,shadow and light.
+Dialogue: 0,0:02:14.01,0:02:15.57,Flashback,HAIZAKI,0000,0000,0000,,Got your meatball.
+Dialogue: 0,0:02:17.53,0:02:19.32,Flashback,AOMINE,0000,0000,0000,,Damn it, Haizaki.
+Dialogue: 0,0:02:19.32,0:02:22.26,Flashback,AOMINE,0000,0000,0000,,If you're hungry, ask for extra \Nor go get another helping.
+Dialogue: 0,0:02:22.69,0:02:25.12,Flashback,AOMINE,0000,0000,0000,,Quit taking people's stuff.
+Dialogue: 0,0:02:25.12,0:02:27.00,Flashback,KUROKO,0000,0000,0000,,I don't mind.
+Dialogue: 0,0:02:28.11,0:02:29.94,Flashback,HAIZAKI,0000,0000,0000,,Who cares?
+Dialogue: 0,0:02:29.94,0:02:32.71,Flashback,HAIZAKI,0000,0000,0000,,You eat people's stuff all the time.
+Dialogue: 0,0:02:32.96,0:02:35.41,Flashback,AOMINE,0000,0000,0000,,I only do it when I'm hungry.
+Dialogue: 0,0:02:35.41,0:02:37.17,Flashback,MIDORIMA,0000,0000,0000,,That's the same thing, Aomine.
+Dialogue: 0,0:02:37.77,0:02:40.53,Flashback,MIDORIMA,0000,0000,0000,,Also, don't chew so noisily, Haizaki.
+Dialogue: 0,0:02:40.53,0:02:41.41,Flashback,MIDORIMA,0000,0000,0000,,It's low class.
+Dialogue: 0,0:02:41.41,0:02:42.18,Flashback,HAIZAKI,0000,0000,0000,,What?
+Dialogue: 0,0:02:42.74,0:02:46.00,Flashback,MIDORIMA,0000,0000,0000,,And you should learn to hold your \Nchopsticks properly, Murasakibara.
+Dialogue: 0,0:02:46.66,0:02:47.77,Flashback,MURASAKI,0000,0000,0000,,What?
+Dialogue: 0,0:02:47.77,0:02:51.65,Flashback,MURASAKI,0000,0000,0000,,I'm getting caught in your \Ncrossfire, Zaki-chin.
+Dialogue: 0,0:02:52.73,0:02:54.84,Flashback,HAIZAKI,0000,0000,0000,,Your fried chicken looks good, too.
+Dialogue: 0,0:02:54.84,0:02:55.69,Flashback,HAIZAKI,0000,0000,0000,,Got your...
+Dialogue: 0,0:02:56.92,0:03:00.79,Flashback,MURASASKI,0000,0000,0000,,Take a single pickle, and I'll crush you.
+Dialogue: 0,0:03:00.79,0:03:03.32,Flashback,AOMINE,0000,0000,0000,,You're more fired up now than \Nyou are during our games.
+Dialogue: 0,0:03:04.29,0:03:06.42,Flashback,HAIZAKI,0000,0000,0000,,Man, shut up.
+Dialogue: 0,0:03:06.42,0:03:11.20,Flashback,HAIZAKI,0000,0000,0000,,I'm always telling you it's \Nnot because I'm hungry.
+Dialogue: 0,0:03:12.92,0:03:17.25,Flashback,HAIZAKI,0000,0000,0000,,Food always looks so good when \Nsomeone else is eating it.
+Dialogue: 0,0:03:17.25,0:03:18.43,Flashback,HAIZAKI,0000,0000,0000,,I can't help myself.
+Dialogue: 0,0:03:22.81,0:03:26.58,Flashback,MIDORIMA,0000,0000,0000,,Come to think of it, a second year \Nis joining the first string today.
+Dialogue: 0,0:03:27.66,0:03:30.42,Flashback,MIDORIMA,0000,0000,0000,,Apparently he just started \Nplaying two weeks ago.
+Dialogue: 0,0:03:30.93,0:03:31.96,Flashback,KUROKO,0000,0000,0000,,What's his name?
+Dialogue: 0,0:03:32.41,0:03:33.52,Flashback,MIDORIMA,0000,0000,0000,,Kise Ryota.
+Dialogue: 0,0:03:34.10,0:03:36.29,Flashback,MIDORIMA,0000,0000,0000,,He's the first rapid promotion since us.
+Dialogue: 0,0:03:37.11,0:03:38.73,Flashback,AOMINE,0000,0000,0000,,I know that guy.
+Dialogue: 0,0:03:38.73,0:03:39.68,Flashback,AOMINE,0000,0000,0000,,I've met him before.
+Dialogue: 0,0:03:39.68,0:03:41.07,Flashback,MURASAKI,0000,0000,0000,,Who cares?
+Dialogue: 0,0:03:41.67,0:03:44.66,Flashback,HAIZAKI,0000,0000,0000,,Kise Ryota, huh?
+Dialogue: 0,0:03:45.31,0:03:49.33,Flashback,MIDORIMA,0000,0000,0000,,How unusual for you to remember \Na person's name, Haizaki.
+Dialogue: 0,0:03:49.82,0:03:54.78,Flashback,HAIZAKI,0000,0000,0000,,Call it a hunch, but I \Nthink he'll be pretty good.
+Dialogue: 0,0:03:55.67,0:03:59.98,Flashback,HAIZAKI,0000,0000,0000,,I don't think we'll be friends, though.
+Dialogue: 0,0:04:08.97,0:04:10.36,CRKuro,HAIZAKI,0000,0000,0000,,Now then...
+Dialogue: 0,0:04:10.36,0:04:12.94,CRKuro,HAIZAKI,0000,0000,0000,,Try not to drag me down, idiots.
+Dialogue: 0,0:04:16.60,0:04:18.40,CRKuro,ISHIDA,0000,0000,0000,,Yeah, we know.
+Dialogue: 0,0:04:19.03,0:04:20.86,CRKuro,MORIYAMA,0000,0000,0000,,He's got an attitude.
+Dialogue: 0,0:04:21.19,0:04:22.60,CRKuro,MORIYAMA,0000,0000,0000,,Isn't that their captain?
+Dialogue: 0,0:04:22.60,0:04:23.61,CRKuro,KASAMATSU,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:24.05,0:04:26.58,CRKuro,KASAMATSU,0000,0000,0000,,He's an exceptionally quick point guard.
+Dialogue: 0,0:04:26.58,0:04:29.20,CRKuro,KASAMATSU,0000,0000,0000,,He's good enough to be a national champion.
+Dialogue: 0,0:04:29.83,0:04:32.49,CRKuro,KASAMATSU,0000,0000,0000,,{\i1}He's a serious and well-mannered player.{\i0}
+Dialogue: 0,0:04:33.15,0:04:37.41,CRKuro,KASAMATSU,0000,0000,0000,,{\i1}Is Haizaki so strong he has to use him?{\i0}
+Dialogue: 0,0:04:38.58,0:04:42.77,CRKuro,HYUGA,0000,0000,0000,,Though the Teiko Middle School team \Nand "Generation of Miracles"
+Dialogue: 0,0:04:42.77,0:04:47.76,CRKuro,,0000,0000,0000,,are now exalted for their overwhelming \Nstrength, it wasn't always that way.
+Dialogue: 0,0:04:47.76,0:04:51.69,CRKuro,HYUGA,0000,0000,0000,,Their great strength bred \Nresentment and antipathy.
+Dialogue: 0,0:04:52.48,0:04:54.73,CRKuro,HYUGA,0000,0000,0000,,They were practically considered villains.
+Dialogue: 0,0:04:55.87,0:04:58.36,CRKuro,HYUGA,0000,0000,0000,,Though I've only heard rumors,
+Dialogue: 0,0:04:58.84,0:05:04.01,CRKuro,,0000,0000,0000,,it's possible Haizaki's brutality \Ncontributed to that reputation.
+Dialogue: 0,0:05:04.49,0:05:09.45,EpTitle,EPTITLE,0000,0000,0000,,It's Mine
+Dialogue: 0,0:05:15.80,0:05:17.37,CRKuro,KISE,0000,0000,0000,,What was that for?
+Dialogue: 0,0:05:17.37,0:05:18.91,CRKuro,KASAMATSU,0000,0000,0000,,You're stiff.
+Dialogue: 0,0:05:18.91,0:05:21.39,CRKuro,KASAMATSU,0000,0000,0000,,I don't know what happened between you guys,
+Dialogue: 0,0:05:21.39,0:05:24.00,CRKuro,,0000,0000,0000,,but you just have to play your own game.
+Dialogue: 0,0:05:24.00,0:05:26.47,CRKuro,KASAMATSU,0000,0000,0000,,Don't let him throw you off your game.
+Dialogue: 0,0:05:26.47,0:05:27.32,CRKuro,KISE,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:05:27.89,0:05:30.60,CRKuro,MORIYAMA,0000,0000,0000,,Today I'll become her hero.
+Dialogue: 0,0:05:30.60,0:05:32.26,CRKuro,HAYAKAWA,0000,0000,0000,,I'm gonna do my best!
+Dialogue: 0,0:05:32.26,0:05:34.84,CRKuro,HAYAKAWA,0000,0000,0000,,No one's gonna beat me to the rebounds!
+Dialogue: 0,0:05:34.84,0:05:38.09,CRKuro,KASAMATSU,0000,0000,0000,,Those guys are too comfortable \Ndoing it their way.
+Dialogue: 0,0:05:52.68,0:05:55.34,CRKuro,KASAMATSU,0000,0000,0000,,{\i1}Their defense isn't bad.{\i0}
+Dialogue: 0,0:05:55.34,0:05:56.12,CRKuro,KASAMATSU,0000,0000,0000,,{\i1}In that case...{\i0}
+Dialogue: 0,0:05:59.16,0:05:59.92,CRKuro,ISHIDA,0000,0000,0000,,What?
+Dialogue: 0,0:06:00.25,0:06:00.97,CRKuro,KOGA,0000,0000,0000,,He's fast!
+Dialogue: 0,0:06:00.97,0:06:03.38,CRKuro,TSUCHIDA,0000,0000,0000,,He's quicker than he was this summer!
+Dialogue: 0,0:06:03.94,0:06:05.13,CRKuro,N12,0000,0000,0000,,Damn it!
+Dialogue: 0,0:06:09.59,0:06:10.62,CRKuro,FAN 1,0000,0000,0000,,All right!
+Dialogue: 0,0:06:10.62,0:06:12.26,CRKuro,FAN 2,0000,0000,0000,,Kaijo scores first!
+Dialogue: 0,0:06:12.73,0:06:13.86,CRKuro,KOBORI,0000,0000,0000,,Nice shot.
+Dialogue: 0,0:06:15.22,0:06:18.06,CRKuro,HAIZAKI,0000,0000,0000,,That's it, huh?
+Dialogue: 0,0:06:20.68,0:06:21.79,CRKuro,HAIZAKI,0000,0000,0000,,Give me the ball!
+Dialogue: 0,0:06:28.66,0:06:29.49,CRKuro,KASAMATSU,0000,0000,0000,,What?
+Dialogue: 0,0:06:29.88,0:06:31.28,CRKuro,KISE,0000,0000,0000,,You're not going anywhere!
+Dialogue: 0,0:06:31.28,0:06:32.21,CRKuro,HAIZAKI,0000,0000,0000,,What?
+Dialogue: 0,0:06:34.80,0:06:37.66,CRKuro,KISE,0000,0000,0000,,{\i1}H-He's fast! He's way faster than before!{\i0}
+Dialogue: 0,0:06:37.66,0:06:39.58,CRKuro,HAIZAKI,0000,0000,0000,,This is ridiculous.
+Dialogue: 0,0:06:41.08,0:06:43.31,CRKuro,HAIZAKI,0000,0000,0000,,Get out of the way!
+Dialogue: 0,0:06:44.08,0:06:45.12,CRKuro,HYUGA,0000,0000,0000,,Seriously?
+Dialogue: 0,0:06:45.12,0:06:46.42,CRKuro,RIKO,0000,0000,0000,,He pushed his teammate aside!
+Dialogue: 0,0:06:49.68,0:06:50.51,CRKuro,HAIZAKI,0000,0000,0000,,Huh?
+Dialogue: 0,0:06:53.09,0:06:54.14,CRKuro,HAYAKAWA,0000,0000,0000,,All right!
+Dialogue: 0,0:06:55.51,0:06:59.55,CRKuro,HAIZAKI,0000,0000,0000,,You got in my way and slowed me down.
+Dialogue: 0,0:07:02.06,0:07:04.65,CRKuro,KAGAMI,0000,0000,0000,,That guy's his senior!
+Dialogue: 0,0:07:07.69,0:07:08.84,CRKuro,MOCHIZUKI,0000,0000,0000,,Sorry.
+Dialogue: 0,0:07:11.82,0:07:14.25,CRKuro,KASAMATSU,0000,0000,0000,,Kirisaki Daiichi's Hanamiya is a shithead,
+Dialogue: 0,0:07:14.25,0:07:18.00,CRKuro,,0000,0000,0000,,but he was the center of his team.
+Dialogue: 0,0:07:18.89,0:07:21.85,CRKuro,KASAMATSU,0000,0000,0000,,This guy doesn't have a shred of team spirit.
+Dialogue: 0,0:07:21.85,0:07:24.14,CRKuro,KASAMATSU,0000,0000,0000,,I hate guys like him more than anything.
+Dialogue: 0,0:07:29.93,0:07:31.76,CRKuro,KASAMATSU,0000,0000,0000,,Let me tell you something.
+Dialogue: 0,0:07:31.76,0:07:32.79,CRKuro,HAIZAKI,0000,0000,0000,,Huh?
+Dialogue: 0,0:07:33.37,0:07:36.60,CRKuro,KASAMATSU,0000,0000,0000,,You should respect your elders!
+Dialogue: 0,0:07:45.34,0:07:47.44,CRKuro,MORIYAMA,0000,0000,0000,,He just passed him, but he's already...
+Dialogue: 0,0:07:47.44,0:07:50.40,CRKuro,HAIZAKI,0000,0000,0000,,Don't lecture me, idiot.
+Dialogue: 0,0:07:50.40,0:07:52.15,CRKuro,KASAMATSU,0000,0000,0000,,Who's the idiot?
+Dialogue: 0,0:07:59.58,0:08:01.39,CRKuro,HAIZAKI,0000,0000,0000,,You've got something to tell me, huh?
+Dialogue: 0,0:08:06.26,0:08:07.73,CRKuro,KOGA,0000,0000,0000,,Fukuda Sogo is counterattacking!
+Dialogue: 0,0:08:07.73,0:08:09.04,CRKuro,TSUCHIDA,0000,0000,0000,,These guys are fast, too!
+Dialogue: 0,0:08:09.92,0:08:11.69,CRKuro,HAYAKAWA,0000,0000,0000,,All right! Come on!
+Dialogue: 0,0:08:17.19,0:08:18.64,CRKuro,IZUKI,0000,0000,0000,,{\i1}A scoop shot.{\i0}
+Dialogue: 0,0:08:19.33,0:08:21.66,CRKuro,IZUKI,0000,0000,0000,,{\i1}That's Seiho's Kasuga's specialty shot.{\i0}
+Dialogue: 0,0:08:24.50,0:08:27.06,CRKuro,RIKO,0000,0000,0000,,They made it this far.
+Dialogue: 0,0:08:27.06,0:08:29.29,CRKuro,RIKO,0000,0000,0000,,Their other players are pretty good, too.
+Dialogue: 0,0:08:29.29,0:08:30.28,CRKuro,HYUGA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:30.55,0:08:32.89,CRKuro,KAGAMI,0000,0000,0000,,Both teams are going all out \Nfrom the start of the game.
+Dialogue: 0,0:08:33.26,0:08:36.74,CRKuro,KAGAMI,0000,0000,0000,,But Kise's hardly touched the ball yet.
+Dialogue: 0,0:08:36.74,0:08:39.20,CRKuro,KUROKO,0000,0000,0000,,No. It's coming.
+Dialogue: 0,0:08:41.74,0:08:42.45,CRKuro,N12,0000,0000,0000,,This is...
+Dialogue: 0,0:08:46.70,0:08:48.59,CRKuro,N12,0000,0000,0000,,A scoop shot?
+Dialogue: 0,0:08:50.35,0:08:51.30,CRKuro,FAN 1,0000,0000,0000,,Seriously?
+Dialogue: 0,0:08:51.30,0:08:52.59,CRKuro,FAN 1,0000,0000,0000,,He picked up the move he just saw in a flash!
+Dialogue: 0,0:08:52.84,0:08:55.55,CRKuro,FAN 2,0000,0000,0000,,The Generation of Miracles is the real deal!
+Dialogue: 0,0:08:57.02,0:08:59.06,CRKuro,KISE,0000,0000,0000,,Try harder.
+Dialogue: 0,0:08:59.06,0:09:02.58,CRKuro,KISE,0000,0000,0000,,Or was what you said earlier all talk?
+Dialogue: 0,0:09:03.48,0:09:07.31,CRKuro,HAIZAKI,0000,0000,0000,,It really is impossible for us to get along.
+Dialogue: 0,0:09:09.18,0:09:12.65,CRKuro,HAIZAKI,0000,0000,0000,,Our styles are too similar.
+Dialogue: 0,0:09:15.15,0:09:16.91,CRKuro,TAKEUCHI,0000,0000,0000,,That's it, Kise!
+Dialogue: 0,0:09:17.92,0:09:19.74,CRKuro,TAKEUCHI,0000,0000,0000,,{\i1}This is still within our expectations.{\i0}
+Dialogue: 0,0:09:19.74,0:09:22.43,CRKuro,TAKEUCHI,0000,0000,0000,,{\i1}But why do I feel like something's wrong?{\i0}
+Dialogue: 0,0:09:28.54,0:09:30.08,CRKuro,KISE,0000,0000,0000,,I'll stop you this time.
+Dialogue: 0,0:09:30.08,0:09:32.50,CRKuro,HAIZAKI,0000,0000,0000,,Is this right?
+Dialogue: 0,0:09:39.23,0:09:41.56,CRKuro,KASAMATSU,0000,0000,0000,,That's the move I just used!
+Dialogue: 0,0:09:45.72,0:09:50.38,CRKuro,MORYIAMA,0000,0000,0000,,It's like he's saying he can \Ndo anything Kise can do.
+Dialogue: 0,0:09:50.38,0:09:53.28,CRKuro,KOBORI,0000,0000,0000,,Is he doing it out of spite? What an ass.
+Dialogue: 0,0:09:54.34,0:09:56.55,CRKuro,ISHIDA,0000,0000,0000,,{\i1}His engine's finally running.{\i0}
+Dialogue: 0,0:09:57.22,0:10:00.19,CRKuro,MOCHIZUKI,0000,0000,0000,,I hate to admit it, but we \Nwouldn't stand a chance
+Dialogue: 0,0:10:00.19,0:10:03.19,CRKuro,,0000,0000,0000,,against a team with one of the\NGeneration of Miracles without him.
+Dialogue: 0,0:10:03.19,0:10:06.75,CRKuro,ISHIDA,0000,0000,0000,,Yeah. In for a penny, in for a pound.
+Dialogue: 0,0:10:09.89,0:10:14.37,CRKuro,KASAMATSU,0000,0000,0000,,{\i1}He'll be tough to deal with if \Nwe let him get carried away.{\i0}
+Dialogue: 0,0:10:15.34,0:10:16.51,CRKuro,KASAMATSU,0000,0000,0000,,{\i1}In that case...{\i0}
+Dialogue: 0,0:10:19.62,0:10:22.85,CRKuro,KASAMATSU,0000,0000,0000,,{\i1}We don't just score from the inside!{\i0}
+Dialogue: 0,0:10:23.92,0:10:24.81,CRKuro,MORIYAMA,0000,0000,0000,,Nice pass.
+Dialogue: 0,0:10:32.39,0:10:33.05,CRKuro,MORIYAMA,0000,0000,0000,,All right!
+Dialogue: 0,0:10:33.05,0:10:34.40,CRKuro,HAYAKAWA,0000,0000,0000,,Nice shot, Moriyama-san!
+Dialogue: 0,0:10:35.15,0:10:38.03,CRKuro,KOGA,0000,0000,0000,,How does he make shots with that form?
+Dialogue: 0,0:10:38.03,0:10:40.06,CRKuro,TSUCHIDA,0000,0000,0000,,The spin on it was terrible.
+Dialogue: 0,0:10:40.06,0:10:41.87,CRKuro,TSUCHIDA,0000,0000,0000,,In fact, it's hardly spinning at all.
+Dialogue: 0,0:10:42.74,0:10:47.00,CRKuro,HYUGA,0000,0000,0000,,His form comes from prioritizing his \Nown ease of shooting during practice.
+Dialogue: 0,0:10:48.09,0:10:51.30,CRKuro,HYUGA,0000,0000,0000,,As a result, his shot's unique \Ntiming is difficult to block.
+Dialogue: 0,0:10:51.96,0:10:54.13,CRKuro,HYUGA,0000,0000,0000,,It's his own personal weapon.
+Dialogue: 0,0:10:55.89,0:10:58.94,CRKuro,HAIZAKI,0000,0000,0000,,{\i1}Huh. That's pretty nice.{\i0}
+Dialogue: 0,0:11:00.94,0:11:02.01,CRKuro,ISHIDA,0000,0000,0000,,Fast break!
+Dialogue: 0,0:11:02.32,0:11:03.54,CRKuro,MORIYAMA,0000,0000,0000,,Shit! It's a counter!
+Dialogue: 0,0:11:03.54,0:11:04.30,CRKuro,KASAMATSU,0000,0000,0000,,Run back!
+Dialogue: 0,0:11:05.75,0:11:08.56,CRKuro,HAIZAKI,0000,0000,0000,,Quit scampering around, pipsqueaks!
+Dialogue: 0,0:11:12.23,0:11:15.08,CRKuro,HAIZAKI,0000,0000,0000,,I told you to keep giving me the ball.
+Dialogue: 0,0:11:15.84,0:11:18.61,CRKuro,KIYOSHI,0000,0000,0000,,He stole his teammate's pass...
+Dialogue: 0,0:11:20.80,0:11:24.78,CRKuro,HYUGA,0000,0000,0000,,If he'd joined our team, I would \Nhave taught him some manners...
+Dialogue: 0,0:11:24.78,0:11:26.58,CRKuro,KOGA,0000,0000,0000,,Are you getting fired up \Nwhile watching a game?!
+Dialogue: 0,0:11:28.44,0:11:31.07,CRKuro,RIKO,0000,0000,0000,,It's not too late to start now!
+Dialogue: 0,0:11:31.07,0:11:32.29,CRKuro,BOTH,0000,0000,0000,,Both of them?!
+Dialogue: 0,0:11:37.41,0:11:39.26,CRKuro,ISHIDA,0000,0000,0000,,Bring the ball back, Haizaki!
+Dialogue: 0,0:11:39.26,0:11:41.68,CRKuro,HAIZAKI,0000,0000,0000,,What? Don't be stupid.
+Dialogue: 0,0:11:46.39,0:11:47.57,CRKuro,HAIZAKI,0000,0000,0000,,That shot
+Dialogue: 0,0:11:48.80,0:11:50.51,CRKuro,,0000,0000,0000,,is mine!
+Dialogue: 0,0:11:50.85,0:11:51.64,CRKuro,KASAMATSU,0000,0000,0000,,What?!
+Dialogue: 0,0:11:51.64,0:11:53.06,CRKuro,HAYAKAWA,0000,0000,0000,,That's Moriyama-san's...
+Dialogue: 0,0:11:53.48,0:11:55.04,CRKuro,KOBORI,0000,0000,0000,,...abnormal shot!
+Dialogue: 0,0:11:56.02,0:11:57.32,CRKuro,TAKEUCHI,0000,0000,0000,,Impossible!
+Dialogue: 0,0:11:58.78,0:12:01.24,CRKuro,MORIYAMA,0000,0000,0000,,You must be joking!
+Dialogue: 0,0:12:01.24,0:12:04.45,CRKuro,MORIYAMA,0000,0000,0000,,{\i1}That's not possible. He copied my shot{\i0}
+Dialogue: 0,0:12:05.95,0:12:08.91,CRKuro,MORIYAMA,0000,0000,0000,,{\i1}after seeing it only once.{\i0}
+Dialogue: 0,0:12:15.28,0:12:19.13,CRKuro,KAGAMI,0000,0000,0000,,Do Haizaki and Kise have the same ability?
+Dialogue: 0,0:12:19.13,0:12:20.29,CRKuro,KUROKO,0000,0000,0000,,No.
+Dialogue: 0,0:12:21.38,0:12:22.67,CRKuro,,0000,0000,0000,,They're slightly different.
+Dialogue: 0,0:12:40.03,0:12:41.99,ScoreboardL,TEXT,0000,0000,0000,,Kaijo
+Dialogue: 0,0:12:40.03,0:12:41.99,ScoreboardR,TEXT,0000,0000,0000,,Fukuda Sogo
+Dialogue: 0,0:13:00.21,0:13:01.52,CRKuro,MORIYAMA,0000,0000,0000,,Kasamatsu's drive...
+Dialogue: 0,0:13:01.52,0:13:02.21,CRKuro,KOBORI,0000,0000,0000,,...was beaten!
+Dialogue: 0,0:13:03.59,0:13:04.53,CRKuro,MORIYAMA,0000,0000,0000,,Damn it!
+Dialogue: 0,0:13:07.49,0:13:09.04,CRKuro,TAKEUCHI,0000,0000,0000,,{\i1}This isn't good.{\i0}
+Dialogue: 0,0:13:09.04,0:13:10.94,CRKuro,TAKEUCHI,0000,0000,0000,,{\i1}Have they been holding back until now?{\i0}
+Dialogue: 0,0:13:11.34,0:13:14.55,CRKuro,TAKEUCHI,0000,0000,0000,,{\i1}They're far better than what we expected \Nfrom the videos and Kise's stories.{\i0}
+Dialogue: 0,0:13:14.95,0:13:18.75,CRKuro,TAKEUCHI,0000,0000,0000,,{\i1}Our team's acting strange, too.{\i0}
+Dialogue: 0,0:13:19.15,0:13:20.75,CRKuro,TAKEUCHI,0000,0000,0000,,{\i1}There's something wrong with them.{\i0}
+Dialogue: 0,0:13:21.17,0:13:23.07,CRKuro,TAKEUCHI,0000,0000,0000,,{\i1}What's going on?{\i0}
+Dialogue: 0,0:13:23.07,0:13:24.55,CRKuro,TSUCHIDA,0000,0000,0000,,You're kidding, right?
+Dialogue: 0,0:13:24.55,0:13:26.82,CRKuro,,0000,0000,0000,,I can't believe Kaijo's on the back foot.
+Dialogue: 0,0:13:26.82,0:13:28.78,CRKuro,KAGAMI,0000,0000,0000,,What is Kise doing?
+Dialogue: 0,0:13:29.43,0:13:31.75,CRKuro,RIKO,0000,0000,0000,,Their other players are lifeless, too.
+Dialogue: 0,0:13:31.75,0:13:33.75,CRKuro,HYUGA,0000,0000,0000,,Yeah. Something's wrong.
+Dialogue: 0,0:13:44.30,0:13:45.13,CRKuro,MORIYAMA,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:46.09,0:13:48.62,CRKuro,KOBORI,0000,0000,0000,,{\i1}Moriyama missed an easy shot.{\i0}
+Dialogue: 0,0:13:49.40,0:13:53.10,CRKuro,KOBORI,0000,0000,0000,,{\i1}First Kasamatsu, \Nnow Moriyama. What's going on?{\i0}
+Dialogue: 0,0:13:54.48,0:13:56.54,CRKuro,HAYAKAWA,0000,0000,0000,,I'm not finished yet!
+Dialogue: 0,0:14:03.23,0:14:04.44,CRKuro,KASAMATSU,0000,0000,0000,,Nice rebound, Hayakawa!
+Dialogue: 0,0:14:04.92,0:14:07.18,CRKuro,HAYAKAWA,0000,0000,0000,,The area under the hoop is my territory!
+Dialogue: 0,0:14:07.18,0:14:08.27,CRKuro,HAYAKAWA,0000,0000,0000,,I'm gonna do it!
+Dialogue: 0,0:14:08.27,0:14:09.41,CRKuro,HAYAKAWA,0000,0000,0000,,I'm just getting started!
+Dialogue: 0,0:14:10.31,0:14:13.37,CRKuro,KOBORI,0000,0000,0000,,I never have any idea what he's saying...
+Dialogue: 0,0:14:14.90,0:14:17.57,CRKuro,HYUGA,0000,0000,0000,,Hayakawa's rebounds are impressive.
+Dialogue: 0,0:14:17.57,0:14:21.29,CRKuro,IZUKI,0000,0000,0000,,He doesn't jump that high, though. \NIt's strange.
+Dialogue: 0,0:14:21.29,0:14:24.38,CRKuro,KIYOSHI,0000,0000,0000,,Well, there are two types of jumping power.
+Dialogue: 0,0:14:25.94,0:14:27.72,CRKuro,KIYOSHI,0000,0000,0000,,There's explosiveness and hang time.
+Dialogue: 0,0:14:28.29,0:14:31.72,CRKuro,KIYOSHI,0000,0000,0000,,Kagami, you possess the latter.
+Dialogue: 0,0:14:32.80,0:14:36.15,CRKuro,KIYOSHI,0000,0000,0000,,The secret behind Hayakawa's \Nrebounds is his explosive power.
+Dialogue: 0,0:14:37.18,0:14:41.39,CRKuro,KIYOSHI,0000,0000,0000,,Because he's initially very fast, \Nhe reaches the apex of his jump
+Dialogue: 0,0:14:41.39,0:14:44.94,CRKuro,,0000,0000,0000,,before other players, \Neven if he jumps after them.
+Dialogue: 0,0:14:45.26,0:14:46.90,CRKuro,KAGAMI,0000,0000,0000,,Which means...
+Dialogue: 0,0:14:47.40,0:14:51.15,CRKuro,KIYOSHI,0000,0000,0000,,It allows him to jump from a \Nmore advantageous position.
+Dialogue: 0,0:14:53.00,0:14:56.83,CRKuro,HAIZAKI,0000,0000,0000,,Huh. That's pretty nice.
+Dialogue: 0,0:15:11.21,0:15:12.14,CRKuro,ISHIDA,0000,0000,0000,,{\i1}Crap!{\i0}
+Dialogue: 0,0:15:12.14,0:15:13.79,CRKuro,,0000,0000,0000,,{\i1}I released too late!{\i0}
+Dialogue: 0,0:15:23.08,0:15:24.52,CRKuro,HAIZAKI,0000,0000,0000,,That's mine.
+Dialogue: 0,0:15:27.23,0:15:28.49,CRKuro,KASAMATSU,0000,0000,0000,,Hayakawa!
+Dialogue: 0,0:15:28.49,0:15:30.20,CRKuro,KISE,0000,0000,0000,,He lost the rebound!
+Dialogue: 0,0:15:31.47,0:15:33.16,CRKuro,HAYAKAWA,0000,0000,0000,,I-I'm sorry!
+Dialogue: 0,0:15:35.66,0:15:38.66,ScoreboardL,TEXT,0000,0000,0000,,Kaijo
+Dialogue: 0,0:15:35.66,0:15:38.66,ScoreboardR,TEXT,0000,0000,0000,,Fukuda Sogo
+Dialogue: 0,0:15:38.91,0:15:40.51,CRKuro,KISE,0000,0000,0000,,{\i1}This game isn't going well.{\i0}
+Dialogue: 0,0:15:41.30,0:15:43.11,CRKuro,KISE,0000,0000,0000,,{\i1}I need to do something.{\i0}
+Dialogue: 0,0:15:47.45,0:15:49.84,CRKuro,HAIZAKI,0000,0000,0000,,Are you running again?
+Dialogue: 0,0:15:50.54,0:15:51.84,CRKuro,HAIZAKI,0000,0000,0000,,Not that I care.
+Dialogue: 0,0:15:52.34,0:15:54.89,CRKuro,KISE,0000,0000,0000,,Who said I was running?
+Dialogue: 0,0:16:02.86,0:16:03.97,CRKuro,KOGA,0000,0000,0000,,That's...
+Dialogue: 0,0:16:03.97,0:16:07.09,CRKuro,TSUCHIDA,0000,0000,0000,,That's the drive into a \Nrolling one-handed dunk
+Dialogue: 0,0:16:07.09,0:16:10.71,CRKuro,,0000,0000,0000,,Kagami used in his first game against Kise!
+Dialogue: 0,0:16:12.37,0:16:13.66,CRKuro,KAGAMI,0000,0000,0000,,That guy...
+Dialogue: 0,0:16:17.00,0:16:18.79,CRKuro,HAIZAKI,0000,0000,0000,,That's mine.
+Dialogue: 0,0:16:24.59,0:16:28.30,CRKuro,KISE,0000,0000,0000,,Sheesh. We really are similar.
+Dialogue: 0,0:16:28.30,0:16:31.37,CRKuro,HAIZAKI,0000,0000,0000,,Oh, right. You don't know.
+Dialogue: 0,0:16:32.64,0:16:37.68,CRKuro,HAIZAKI,0000,0000,0000,,You said we're similar, \Nbut I'm not a copycat like you.
+Dialogue: 0,0:16:38.58,0:16:39.96,CRKuro,KISE,0000,0000,0000,,What did you say?
+Dialogue: 0,0:16:42.14,0:16:44.56,CRKuro,MORIYAMA,0000,0000,0000,,All right! This time...
+Dialogue: 0,0:16:44.56,0:16:48.49,CRKuro,HAIZAKI,0000,0000,0000,,Oh, no. It won't work, no matter \Nhow many times you try it.
+Dialogue: 0,0:16:48.49,0:16:51.03,CRKuro,HAIZAKI,0000,0000,0000,,That doesn't belong to you anymore.
+Dialogue: 0,0:16:55.70,0:16:57.01,CRKuro,KOBORI,0000,0000,0000,,No way!
+Dialogue: 0,0:16:57.01,0:16:59.16,CRKuro,KOBORI,0000,0000,0000,,I can't believe he missed two in a row!
+Dialogue: 0,0:17:00.49,0:17:01.87,CRKuro,KASAMATSU,0000,0000,0000,,{\i1}That's impossible.{\i0}
+Dialogue: 0,0:17:01.87,0:17:03.33,CRKuro,KASAMATSU,0000,0000,0000,,{\i1}Something's definitely up.{\i0}
+Dialogue: 0,0:17:03.33,0:17:07.85,CRKuro,KASAMATSU,0000,0000,0000,,{\i1}We can't use any of the moves Haizaki copied.{\i0}
+Dialogue: 0,0:17:09.21,0:17:15.15,CRKuro,KAGAMI,0000,0000,0000,,Kuroko, you said Kise and Haizaki's \Nabilities are slightly different, right?
+Dialogue: 0,0:17:15.15,0:17:16.14,CRKuro,KUROKO,0000,0000,0000,,Yes.
+Dialogue: 0,0:17:16.85,0:17:18.01,CRKuro,KAGAMI,0000,0000,0000,,What does that mean?
+Dialogue: 0,0:17:19.35,0:17:23.39,CRKuro,KUROKO,0000,0000,0000,,Kise-kun replaced Haizaki-kun as a regular.
+Dialogue: 0,0:17:24.33,0:17:28.36,CRKuro,KUROKO,0000,0000,0000,,Haizaki-kun was lazy during practice \Nwhen he didn't skip it outright.
+Dialogue: 0,0:17:28.94,0:17:33.45,CRKuro,KUROKO,0000,0000,0000,,Since Kise-kun never saw him play in a \Nreal game, it's possible he doesn't know.
+Dialogue: 0,0:17:35.06,0:17:40.01,CRKuro,KUROKO,0000,0000,0000,,Like Kise-kun, Haizaki-kun makes moves \Nhis own after seeing them only once.
+Dialogue: 0,0:17:40.55,0:17:44.33,CRKuro,KUROKO,0000,0000,0000,,However, he uses his own rhythm and tempo.
+Dialogue: 0,0:17:46.88,0:17:48.85,CRKuro,KUROKO,0000,0000,0000,,When players see an opponent use
+Dialogue: 0,0:17:48.85,0:17:52.25,CRKuro,,0000,0000,0000,,a move that appears identical but \Nhas a slightly different rhythm,
+Dialogue: 0,0:17:52.66,0:17:57.93,CRKuro,,0000,0000,0000,,they unconsciously disrupt their own rhythm \Nand become unable to use the ability.
+Dialogue: 0,0:18:01.80,0:18:05.47,CRKuro,KUROKO,0000,0000,0000,,Haizaki-kun doesn't copy moves.
+Dialogue: 0,0:18:05.47,0:18:06.94,CRKuro,KUROKO,0000,0000,0000,,He steals them.
+Dialogue: 0,0:18:11.48,0:18:13.78,CRKuro,HAIZAKI,0000,0000,0000,,This is mine.
+Dialogue: 0,0:18:25.08,0:18:30.04,ScoreboardL,TEXT,0000,0000,0000,,Kaijo
+Dialogue: 0,0:18:25.08,0:18:30.04,ScoreboardR,TEXT,0000,0000,0000,,Fukuda Sogo
+Dialogue: 0,0:18:25.51,0:18:27.06,CRKuro,REFEREE,0000,0000,0000,,The second quarter is now over!
+Dialogue: 0,0:18:27.06,0:18:30.04,CRKuro,REFEREE,0000,0000,0000,,We will now take a ten minute break!
+Dialogue: 0,0:18:31.24,0:18:33.13,CRKuro,HAIZAKI,0000,0000,0000,,Walk faster.
+Dialogue: 0,0:18:49.64,0:18:51.40,CRKuro,TAKEUCHI,0000,0000,0000,,Kise, can you still play?
+Dialogue: 0,0:18:56.11,0:18:58.11,CRKuro,KISE,0000,0000,0000,,I can do it. Let me play.
+Dialogue: 0,0:18:59.70,0:19:03.36,CRKuro,KISE,0000,0000,0000,,I will defeat Shogo-kun.
+Dialogue: 0,0:19:03.75,0:19:06.48,Flashback,HAIZAKI,0000,0000,0000,,Huh? What'd you say, Ryota?
+Dialogue: 0,0:19:07.18,0:19:11.83,Flashback,KISE,0000,0000,0000,,I said I want to play for \Nthe starting position.
+Dialogue: 0,0:19:12.69,0:19:16.39,Flashback,HAIZAKI,0000,0000,0000,,You just joined the team. Don't be stupid.
+Dialogue: 0,0:19:16.39,0:19:19.60,Flashback,HAIZAKI,0000,0000,0000,,Besides, you can't even beat me at practice.
+Dialogue: 0,0:19:19.60,0:19:21.09,Flashback,HAIZAKI,0000,0000,0000,,What do you think you're doing?
+Dialogue: 0,0:19:21.77,0:19:24.28,Flashback,KISE,0000,0000,0000,,I may not stand a chance \Nagainst the other four,
+Dialogue: 0,0:19:24.28,0:19:26.52,Flashback,,0000,0000,0000,,but I think I'm ready to take you.
+Dialogue: 0,0:19:27.35,0:19:29.19,Flashback,HAIZAKI,0000,0000,0000,,You must not think much of me.
+Dialogue: 0,0:19:29.92,0:19:33.27,Flashback,HAIZAKI,0000,0000,0000,,It's obvious I just don't \Ntake practice seriously.
+Dialogue: 0,0:19:35.51,0:19:40.11,Flashback,HAIZAKI,0000,0000,0000,,Fine. I'll give you a taste \Nof what I can really do.
+Dialogue: 0,0:19:40.73,0:19:42.36,Flashback,MIDORIMA,0000,0000,0000,,Are you going to let them play, Akashi?
+Dialogue: 0,0:20:09.64,0:20:13.20,Flashback,MURASAKI,0000,0000,0000,,Uh-oh. Kise-chin's getting destroyed.
+Dialogue: 0,0:20:13.20,0:20:16.70,Flashback,AOMINE,0000,0000,0000,,No. He's way too good for a beginner.
+Dialogue: 0,0:20:16.70,0:20:18.52,Flashback,AOMINE,0000,0000,0000,,He's just strong.
+Dialogue: 0,0:20:18.94,0:20:23.07,Flashback,AOMINE,0000,0000,0000,,He may be annoying, but that has \Nnothing to do with his skill.
+Dialogue: 0,0:20:25.08,0:20:27.33,Flashback,KISE,0000,0000,0000,,More! I'm not done yet!
+Dialogue: 0,0:20:27.72,0:20:30.20,Flashback,HAIZAKI,0000,0000,0000,,It'll end the same way every time.
+Dialogue: 0,0:20:34.08,0:20:35.71,Flashback,HAIZAKI,0000,0000,0000,,You and I are cut from different cloth.
+Dialogue: 0,0:20:51.34,0:20:54.53,Flashback,AOMINE,0000,0000,0000,,He wasn't ready for this yet, though.
+Dialogue: 0,0:20:54.53,0:20:56.92,Flashback,MURASAKI,0000,0000,0000,,I'm going to buy some snacks.
+Dialogue: 0,0:20:56.92,0:20:59.47,Flashback,KUROKO,0000,0000,0000,,We're still in the middle of \Npractice, Murasakibara-kun.
+Dialogue: 0,0:20:59.47,0:21:02.03,Flashback,MURASAKI,0000,0000,0000,,Shut up. I'll crush you.
+Dialogue: 0,0:21:02.60,0:21:06.28,Flashback,MIDORIMA,0000,0000,0000,,Kise has grown extraordinarily \Nquickly, though.
+Dialogue: 0,0:21:09.81,0:21:12.33,Flashback,GIRL,0000,0000,0000,,Shogo-kun, are you done with practice?
+Dialogue: 0,0:21:12.33,0:21:15.29,Flashback,HAIZAKI,0000,0000,0000,,Yeah, sorry. I just finished.
+Dialogue: 0,0:21:17.31,0:21:18.95,Flashback,GIRL,0000,0000,0000,,You're drenched in sweat.
+Dialogue: 0,0:21:18.95,0:21:20.91,Flashback,HAIZAKI,0000,0000,0000,,I'll take a quick shower.
+Dialogue: 0,0:21:20.91,0:21:22.28,Flashback,HAIZAKI,0000,0000,0000,,Do you want to come with me?
+Dialogue: 0,0:21:22.28,0:21:23.63,Flashback,GIRL,0000,0000,0000,,Oh, come on.
+Dialogue: 0,0:21:23.94,0:21:25.29,Flashback,AOMINE,0000,0000,0000,,That bastard...
+Dialogue: 0,0:21:25.29,0:21:26.59,Flashback,PLAYER A,0000,0000,0000,,Hey, isn't that...
+Dialogue: 0,0:21:27.24,0:21:29.62,Flashback,PLAYER B,0000,0000,0000,,That's Kise's new girlfriend.
+Dialogue: 0,0:21:30.25,0:21:31.81,Flashback,GIRL,0000,0000,0000,,Ryota-kun?
+Dialogue: 0,0:21:33.28,0:21:35.77,Flashback,HAIZAKI,0000,0000,0000,,This guy just challenged me and lost.
+Dialogue: 0,0:21:35.77,0:21:39.73,Flashback,GIRL,0000,0000,0000,,Seriously? Talk about lame.
+Dialogue: 0,0:21:39.96,0:21:41.53,Flashback,HAIZAKI,0000,0000,0000,,Anyway, that's that.
+Dialogue: 0,0:21:41.53,0:21:44.32,Flashback,HAIZAKI,0000,0000,0000,,Later, Ryota-kun.
+Dialogue: 0,0:21:51.54,0:21:53.75,CRKuro,HAIZAKI,0000,0000,0000,,You won't let me have it \Nfor free? Yeah, right.
+Dialogue: 0,0:21:53.75,0:21:55.51,CRKuro,HAIZAKI,0000,0000,0000,,The Generation of Miracles?
+Dialogue: 0,0:21:56.07,0:21:57.34,CRKuro,HAIZAKI,0000,0000,0000,,Don't make me laugh.
+Dialogue: 0,0:21:57.34,0:21:59.21,CRKuro,HAIZAKI,0000,0000,0000,,That's some big talk when \Nthis is all you can do.
+Dialogue: 0,0:21:59.77,0:22:03.05,CRKuro,HAIZAKI,0000,0000,0000,,You're so insignificant, I can't \Neven call this killing time.
+Dialogue: 0,0:22:03.44,0:22:06.15,CRKuro,MORIYAMA,0000,0000,0000,,He beat Kise?
+Dialogue: 0,0:22:06.15,0:22:07.05,CRKuro,KASAMATSU,0000,0000,0000,,Damn it!
+Dialogue: 0,0:22:08.23,0:22:12.22,CRKuro,IZUKI,0000,0000,0000,,Is Kaijo going to lose?
+Dialogue: 0,0:23:51.99,0:23:57.58,Preview,TEXT,0000,0000,0000,,Preview
+Dialogue: 0,0:23:52.87,0:23:57.58,CRKuro,HAIZAKI,0000,0000,0000,,Who said he was going to beat me, Ryota?
+Dialogue: 0,0:23:57.58,0:23:59.66,CRKuro,KISE,0000,0000,0000,,Not yet! It's not over yet!
+Dialogue: 0,0:24:00.46,0:24:03.82,CRKuro,HAIZAKI,0000,0000,0000,,No matter what play you \Nmake, I'll just steal it!
+Dialogue: 0,0:24:01.48,0:24:06.75,Next EpTitle,TEXT,0000,0000,0000,,{\fad(250,515)}Stay Out of My Way
+Dialogue: 0,0:24:03.82,0:24:06.41,CRKuro,KISE,0000,0000,0000,,I will win, Shogo-kun!
+Dialogue: 0,0:24:07.00,0:24:09.00,CRKuro,,0000,0000,0000,,
+
+

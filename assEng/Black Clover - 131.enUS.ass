@@ -1,0 +1,427 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: OP_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H00F7FFFB,&H000000FF,&H1900122E,&H000D1728,-1,0,0,0,100,100,0,0,1,1,0,8,0030,0030,0090,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_4757_29_Royal_Capital__M,Times New Roman,30,&H00FEFEFD,&H000000FF,&H3214100F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0080,1
+Style: sign_4918_40_Heart_Kingdom,Trebuchet MS,30,&H19E1E4E9,&H000000FF,&H32121618,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,4,0,2,0030,0370,0270,1
+Style: sign_4918_41_Clover_Kingdom,Trebuchet MS,30,&H19D5DCE3,&H000000FF,&H32253642,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,4,0,2,0360,0030,0170,1
+Style: sign_7000_55_Stage_Zero,Times New Roman,20,&H00D2D2D2,&H000000FF,&H32000000,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0030,0030,0020,1
+Style: sign_8772_80_Father_Nathan,Times New Roman,20,&H00F5F6FA,&H000000FF,&H320B0800,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_9150_79_Awkward,Times New Roman,28,&H00CB93EA,&H000000FF,&H00C3C9CC,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0020,0020,0030,1
+Style: sign_9252_82_Trouble,Verdana,40,&H0034E0E9,&H000000FF,&H00BEC2C9,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,4,0,2,0055,0030,0275,1
+Style: sign_9601_108_Playboy,Verdana,40,&H003D0F9E,&H000000FF,&H00231C31,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0020,1
+Style: sign_9669_112_Failure,Verdana,40,&H005D7926,&H000000FF,&H00231C31,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0020,1
+Style: sign_9747_115_Bad_Habits,Verdana,28,&H00A54A31,&H000000FF,&H003B2B19,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,2,0,8,0030,0030,0020,1
+Style: sign_12339_133_Finnes_Calmreich,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_14960_120_The_Apostles_of_,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0100,1
+Style: sign_17907_179_Stage_Zero,Times New Roman,20,&H00E8E8E8,&H000000FF,&H32000000,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0020,1
+Style: sign_17948_180_Arcane_Stage,Times New Roman,40,&H00D82D86,&H000000FF,&H320E0E0E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,4,0,8,0030,0030,0020,1
+Style: sign_18968_247_Heart_Kingdom,Times New Roman,30,&H00FEFEFD,&H000000FF,&H32303329,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0080,1
+Style: sign_19987_258_Spirit_Guardian_,Times New Roman,20,&H00F5F6FA,&H000000FF,&H320E0F23,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_26668_324_Black_Bulls__Hid,Times New Roman,36,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0040,0125,1
+Style: sign_27919_273_Equinox,Times New Roman,30,&H00FFFFFF,&H000000FF,&H00000302,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_28504_355_Water_Spirit_Und,Times New Roman,20,&H00F5F6FA,&H000000FF,&H32272729,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0259,0259,0110,1
+Style: sign_8830_80_Orsi_Orfai,Times New Roman,30,&H00FFFFFD,&H000000FF,&H325F5D5D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:05.55,0:00:07.45,italics,Nar,0000,0000,0000,,The Clover Kingdom.
+Dialogue: 0,0:00:07.45,0:00:09.58,italics,Nar,0000,0000,0000,,In this kingdom where magic is everything,
+Dialogue: 0,0:00:09.58,0:00:12.95,italics,Nar,0000,0000,0000,,there is one boy who can't use magic.
+Dialogue: 0,0:00:13.38,0:00:15.61,italics,Nar,0000,0000,0000,,His name is Asta.
+Dialogue: 0,0:00:16.22,0:00:18.94,italics,Nar,0000,0000,0000,,With guts and hard work, \Nhe made it into the Magic Knights,
+Dialogue: 0,0:00:18.94,0:00:21.77,italics,Nar,0000,0000,0000,,and he never gave up, \Ndespite how much he got hurt.
+Dialogue: 0,0:00:21.77,0:00:24.65,italics,Nar,0000,0000,0000,,He continues to diligently aim for the top!
+Dialogue: 0,0:00:25.88,0:00:27.79,italics,Nar,0000,0000,0000,,Even if you are a peasant,
+Dialogue: 0,0:00:27.79,0:00:29.00,italics,Nar,0000,0000,0000,,or even if you're poor...
+Dialogue: 0,0:00:29.95,0:00:32.38,italics,Nar,0000,0000,0000,,Anyone in this world can still shine!
+Dialogue: 0,0:00:32.38,0:00:34.80,italics,Nar,0000,0000,0000,,He's working hard to prove that,
+Dialogue: 0,0:00:35.19,0:00:37.86,italics,Nar,0000,0000,0000,,and to become the Wizard King!
+Dialogue: 0,0:00:58.34,0:01:02.68,Ep Title,Sign,0000,0000,0000,,{\fad(210,1871)\t(210,2419,\fscx120\fscy120)}A New Resolve
+Dialogue: 0,0:02:26.66,0:02:29.08,main,Nero,0000,0000,0000,,Noelle, control your broom!
+Dialogue: 0,0:02:29.08,0:02:30.92,main,Noelle,0000,0000,0000,,I am!
+Dialogue: 0,0:02:31.97,0:02:33.80,main,Asta,0000,0000,0000,,We're gonna fall!
+Dialogue: 0,0:02:33.80,0:02:36.19,main,Noelle,0000,0000,0000,,What are you grabbing, Stupidsta?!
+Dialogue: 0,0:02:36.19,0:02:38.84,main,Noelle,0000,0000,0000,,I'm royalty!
+Dialogue: 0,0:02:38.84,0:02:40.22,main,Nero,0000,0000,0000,,In front of you! Look in front of you!
+Dialogue: 0,0:02:41.13,0:02:41.93,main,Noelle,0000,0000,0000,,In front?
+Dialogue: 0,0:02:50.38,0:02:53.69,main,Noelle,0000,0000,0000,,Dang it, stop shaking my broom! \NI can't regain control.
+Dialogue: 0,0:02:53.69,0:02:56.57,main,Asta,0000,0000,0000,,You never had control to begin with!
+Dialogue: 0,0:02:56.57,0:02:59.45,main,Asta,0000,0000,0000,,That's why I said I'd run! And yet...
+Dialogue: 0,0:02:59.45,0:03:04.70,main,Asta,0000,0000,0000,,"You're going back to Hage Village? \NF-Fine, I guess I can take you!
+Dialogue: 0,0:03:04.70,0:03:08.20,main,Asta,0000,0000,0000,,I've got complete control \Nof my broom now!"
+Dialogue: 0,0:03:08.20,0:03:09.12,main,Asta,0000,0000,0000,,My ass!
+Dialogue: 0,0:03:09.12,0:03:11.23,main,Noelle,0000,0000,0000,,There's no way you could \Nrun all the way there!
+Dialogue: 0,0:03:11.23,0:03:13.13,main,Noelle,0000,0000,0000,,How many days would that take?!
+Dialogue: 0,0:03:13.13,0:03:16.25,main,Noelle,0000,0000,0000,,Also, quit complaining when I'm \Nkind enough to give you a ride.
+Dialogue: 0,0:03:16.25,0:03:18.51,main,Asta,0000,0000,0000,,You consider this giving me a ride?!
+Dialogue: 0,0:03:18.51,0:03:20.51,main,Nero,0000,0000,0000,,I'm going on ahead.
+Dialogue: 0,0:03:20.51,0:03:23.65,main,Asta,0000,0000,0000,,Hey! No fair, Nero! Take me with you!
+Dialogue: 0,0:03:23.65,0:03:24.45,main,Nero,0000,0000,0000,,Nope.
+Dialogue: 0,0:03:24.45,0:03:26.76,main,Asta,0000,0000,0000,,Nero!
+Dialogue: 0,0:03:30.15,0:03:36.81,main,Noelle,0000,0000,0000,,S-See? I told you that I was \Nable to control my magic now.
+Dialogue: 0,0:03:36.81,0:03:39.66,main,Noelle,0000,0000,0000,,This is n-no biggie at all.
+Dialogue: 0,0:03:39.66,0:03:44.22,italics,Asta,0000,0000,0000,,I knew I should've had Finral take me.
+Dialogue: 0,0:03:44.22,0:03:46.41,main,Noelle,0000,0000,0000,,Hey, look, Asta! Over there!
+Dialogue: 0,0:03:46.78,0:03:48.87,main,Noelle,0000,0000,0000,,I see the demon head.
+Dialogue: 0,0:03:48.87,0:03:50.33,main,Asta,0000,0000,0000,,Y-Yeah...
+Dialogue: 0,0:03:50.33,0:03:53.63,main,Noelle,0000,0000,0000,,You'd better be grateful! I'm royalty!
+Dialogue: 0,0:03:56.54,0:03:57.46,main,Asta,0000,0000,0000,,Whoa!
+Dialogue: 0,0:03:57.46,0:03:59.09,main,Asta,0000,0000,0000,,Yuno!
+Dialogue: 0,0:04:01.06,0:04:02.34,main,Noelle,0000,0000,0000,,Hey!
+Dialogue: 0,0:04:04.43,0:04:05.51,main,Asta,0000,0000,0000,,Hngh!
+Dialogue: 0,0:04:07.26,0:04:09.77,main,Asta,0000,0000,0000,,Yuno!
+Dialogue: 0,0:04:09.77,0:04:11.59,main,Bell,0000,0000,0000,,Hey, it's Meathead.
+Dialogue: 0,0:04:11.59,0:04:13.77,main,Yuno,0000,0000,0000,,Yeah, the biggest meathead I know.
+Dialogue: 0,0:04:14.57,0:04:18.29,main,Asta,0000,0000,0000,,Yuno! Are you going home to the village, too?!
+Dialogue: 0,0:04:18.29,0:04:21.36,main,Yuno,0000,0000,0000,,Yeah. Captain Vangeance gave me permission.
+Dialogue: 0,0:04:21.36,0:04:24.75,main,Asta,0000,0000,0000,,I'm in the same boat! \NAll right, it's competition time!
+Dialogue: 0,0:04:24.75,0:04:26.38,main,Bell,0000,0000,0000,,What competition?
+Dialogue: 0,0:04:26.38,0:04:29.62,main,Asta,0000,0000,0000,,To see who can get to the church first, duh!
+Dialogue: 0,0:04:29.62,0:04:31.39,main,Asta,0000,0000,0000,,Of course, it's going to be me!
+Dialogue: 0,0:04:33.12,0:04:37.58,main,Bell,0000,0000,0000,,Seriously, a race? \NYou're not children. What an idiot.
+Dialogue: 0,0:04:37.58,0:04:38.63,main,Bell,0000,0000,0000,,Right, Yuno?
+Dialogue: 0,0:04:38.63,0:04:40.13,main,Yuno,0000,0000,0000,,You can't be serious.
+Dialogue: 0,0:04:43.03,0:04:44.13,main,Nero,0000,0000,0000,,Nom.
+Dialogue: 0,0:04:48.83,0:04:52.08,main,Guy,0000,0000,0000,,Thank goodness the damage \Nwas minimal over here.
+Dialogue: 0,0:04:52.08,0:04:55.14,main,Guy,0000,0000,0000,,It's a blessing in disguise, I'd say.
+Dialogue: 0,0:05:03.85,0:05:04.90,main,Guy,0000,0000,0000,,What's that?
+Dialogue: 0,0:05:05.35,0:05:06.81,main,Guy,0000,0000,0000,,That's...
+Dialogue: 0,0:05:08.75,0:05:11.91,main,Asta,0000,0000,0000,,All right! I win!
+Dialogue: 0,0:05:11.91,0:05:13.61,main,Yuno,0000,0000,0000,,Took you long enough.
+Dialogue: 0,0:05:25.13,0:05:26.96,main,Yuno,0000,0000,0000,,Looks like I win, Asta.
+Dialogue: 0,0:05:26.96,0:05:29.55,main,Asta,0000,0000,0000,,You just got here, too, dang it!
+Dialogue: 0,0:05:29.55,0:05:31.02,main,Yuno,0000,0000,0000,,I win.
+Dialogue: 0,0:05:33.35,0:05:35.81,italics,Bell,0000,0000,0000,,Jeez, even Yuno's acting like a kid.
+Dialogue: 0,0:05:35.81,0:05:36.69,italics,Bell,0000,0000,0000,,But...
+Dialogue: 0,0:05:36.69,0:05:39.99,main,Bell,0000,0000,0000,,That's what's so cute about you. Poke!
+Dialogue: 0,0:05:42.14,0:05:45.94,main,Bell,0000,0000,0000,,Look at you, being all bashful! \NThat just makes you even cuter!
+Dialogue: 0,0:05:46.58,0:05:48.97,main,Father,0000,0000,0000,,Asta?! Yuno?!
+Dialogue: 0,0:05:48.97,0:05:50.85,main,Asta,0000,0000,0000,,Hey, Father.
+Dialogue: 0,0:05:51.34,0:05:52.45,main,Yuno,0000,0000,0000,,I'm home.
+Dialogue: 0,0:05:53.83,0:05:58.34,main,Father,0000,0000,0000,,Asta! Yuno! You've gotten so big!
+Dialogue: 0,0:05:58.34,0:06:00.46,main,Father,0000,0000,0000,,Look at the two of you!
+Dialogue: 0,0:06:01.34,0:06:02.80,main,Yuno,0000,0000,0000,,You just saw us recently.
+Dialogue: 0,0:06:03.82,0:06:05.98,main,Father,0000,0000,0000,,Oh, right. I just couldn't help myself.
+Dialogue: 0,0:06:05.98,0:06:08.22,main,Asta,0000,0000,0000,,Are you okay now, Father?
+Dialogue: 0,0:06:08.26,0:06:12.47,sign_8830_80_Orsi_Orfai,Sign,0000,0000,0000,,{\blur3\fad(483,1)}Orsi Orfai
+Dialogue: 0,0:06:09.77,0:06:12.47,top,Father,0000,0000,0000,,Yup! I'm all better!
+Dialogue: 0,0:06:13.75,0:06:15.52,main,Father,0000,0000,0000,,More importantly, Asta...
+Dialogue: 0,0:06:15.52,0:06:17.59,main,Father,0000,0000,0000,,I saw you in the paper.
+Dialogue: 0,0:06:17.59,0:06:19.69,main,Asta,0000,0000,0000,,Right. About that...
+Dialogue: 0,0:06:19.69,0:06:21.96,main,Yuno,0000,0000,0000,,That article is mistaken.
+Dialogue: 0,0:06:21.96,0:06:22.98,main,Asta,0000,0000,0000,,Yuno...
+Dialogue: 0,0:06:23.33,0:06:28.44,main,Yuno,0000,0000,0000,,Asta isn't a devil's servant. \NHe's actually trying to defeat them.
+Dialogue: 0,0:06:28.44,0:06:29.99,main,Yuno,0000,0000,0000,,Please believe that.
+Dialogue: 0,0:06:31.43,0:06:32.91,main,Father,0000,0000,0000,,Of course I do.
+Dialogue: 0,0:06:34.66,0:06:38.78,main,Father,0000,0000,0000,,No one in Hage Village believes that article.
+Dialogue: 0,0:06:38.78,0:06:40.42,main,Father,0000,0000,0000,,Asta, Yuno...
+Dialogue: 0,0:06:41.10,0:06:43.86,main,Father,0000,0000,0000,,You two saved this village.
+Dialogue: 0,0:06:48.05,0:06:50.68,main,Father,0000,0000,0000,,We're all proud of you.
+Dialogue: 0,0:06:50.68,0:06:53.05,main,Asta,0000,0000,0000,,I see. Thank goodness.
+Dialogue: 0,0:06:53.05,0:06:55.31,main,Father,0000,0000,0000,,By the way, about that newspaper article...
+Dialogue: 0,0:06:56.26,0:06:58.24,main,Father,0000,0000,0000,,I made sure to get it framed!
+Dialogue: 0,0:06:58.24,0:06:59.35,main,Asta,0000,0000,0000,,Please don't!
+Dialogue: 0,0:06:59.35,0:07:01.13,main,Father,0000,0000,0000,,Could you sign it later?
+Dialogue: 0,0:07:01.13,0:07:02.30,main,Asta,0000,0000,0000,,No!
+Dialogue: 0,0:07:03.31,0:07:04.59,main,Yuno,0000,0000,0000,,Where's everyone else?
+Dialogue: 0,0:07:08.82,0:07:10.13,main,Father,0000,0000,0000,,They...
+Dialogue: 0,0:07:11.74,0:07:13.22,main,Yuno,0000,0000,0000,,Did something happen?
+Dialogue: 0,0:07:13.22,0:07:14.45,main,Asta,0000,0000,0000,,Father!
+Dialogue: 0,0:07:15.11,0:07:18.85,main,Father,0000,0000,0000,,They've... They've all left!
+Dialogue: 0,0:07:20.25,0:07:23.06,main,Father,0000,0000,0000,,They've all left!
+Dialogue: 0,0:07:25.49,0:07:27.13,main,Asta,0000,0000,0000,,A school?
+Dialogue: 0,0:07:27.13,0:07:31.38,main,Father,0000,0000,0000,,Yes. The magic school that everyone \Nin Hage Village always wanted.
+Dialogue: 0,0:07:33.09,0:07:36.57,main,Father,0000,0000,0000,,We were finally able to build \Na school in this village.
+Dialogue: 0,0:07:36.57,0:07:40.37,main,Father,0000,0000,0000,,Thinking back... on everything \NHage Village has been through...
+Dialogue: 0,0:07:40.37,0:07:43.90,main,Father,0000,0000,0000,,since we were basically abandoned \Nby the royal capital...
+Dialogue: 0,0:07:45.55,0:07:51.08,main,Father,0000,0000,0000,,After you two joined the Magic Knights,\N everyone felt more motivated,
+Dialogue: 0,0:07:51.08,0:07:53.45,main,Father,0000,0000,0000,,and we were finally able to make it a reality.
+Dialogue: 0,0:07:53.45,0:07:57.73,main,Father,0000,0000,0000,,Sister Lily is teaching the \Nchildren as an instructor.
+Dialogue: 0,0:07:58.18,0:08:00.16,main,Asta,0000,0000,0000,,Way to go, Sister!
+Dialogue: 0,0:08:00.49,0:08:03.15,main,Father,0000,0000,0000,,I teach some lessons now and then, too.
+Dialogue: 0,0:08:03.58,0:08:05.52,main,Guy,0000,0000,0000,,Hey, welcome back!
+Dialogue: 0,0:08:05.52,0:08:08.42,main,Guy,0000,0000,0000,,Asta! Yuno! Thanks for saving the village!
+Dialogue: 0,0:08:08.42,0:08:09.94,main,Asta,0000,0000,0000,,Sure!
+Dialogue: 0,0:08:09.94,0:08:12.31,main,Father,0000,0000,0000,,And that's the magic school.
+Dialogue: 0,0:08:12.93,0:08:17.93,main,Father,0000,0000,0000,,The whole village got together and remodeled \Nthe tato storage we weren't using anymore.
+Dialogue: 0,0:08:18.50,0:08:22.05,main,Asta,0000,0000,0000,,Remember when we'd play hide-and-seek \Nin there all the time, Yuno?
+Dialogue: 0,0:08:22.05,0:08:23.77,main,Yuno,0000,0000,0000,,Did we?
+Dialogue: 0,0:08:23.77,0:08:26.41,main,Asta,0000,0000,0000,,Sure we did! You hid in there until it got dark,
+Dialogue: 0,0:08:26.41,0:08:30.19,main,Asta,0000,0000,0000,,then you started crying because you \Ngot scared when I couldn't find you.
+Dialogue: 0,0:08:30.54,0:08:31.42,main,Yuno,0000,0000,0000,,You can't be serious.
+Dialogue: 0,0:08:31.42,0:08:33.36,main,Asta,0000,0000,0000,,I'm totally serious!
+Dialogue: 0,0:08:33.36,0:08:34.67,main,Asta,0000,0000,0000,,Now you're ignoring me?!
+Dialogue: 0,0:08:58.02,0:08:58.94,italics,Nero,0000,0000,0000,,My prince...
+Dialogue: 0,0:09:00.74,0:09:07.42,main,Nash,0000,0000,0000,,197... 198... 199...
+Dialogue: 0,0:09:08.67,0:09:13.49,main,Nash,0000,0000,0000,,200... 201... 202...
+Dialogue: 0,0:09:17.91,0:09:20.28,main,Rekka,0000,0000,0000,,Asta! Yuno!
+Dialogue: 0,0:09:20.28,0:09:21.49,main,Arlu,0000,0000,0000,,Welcome home!
+Dialogue: 0,0:09:21.49,0:09:22.91,main,Horo,0000,0000,0000,,Home!
+Dialogue: 0,0:09:23.31,0:09:25.25,main,Asta,0000,0000,0000,,Hey! It's good to be back!
+Dialogue: 0,0:09:27.17,0:09:28.38,main,Lammy,0000,0000,0000,,It's really them?
+Dialogue: 0,0:09:29.73,0:09:32.42,main,Kids,0000,0000,0000,,Asta! Yuno!
+Dialogue: 0,0:09:31.29,0:09:32.42,main,Asta,0000,0000,0000,,Whoa...
+Dialogue: 0,0:09:33.77,0:09:36.43,main,Parum,0000,0000,0000,,Yay! It's really them!
+Dialogue: 0,0:09:36.43,0:09:37.68,main,Lammy,0000,0000,0000,,Wow!
+Dialogue: 0,0:09:37.68,0:09:41.02,main,Rekka,0000,0000,0000,,Asta, I think maybe you grew a bit... or not.
+Dialogue: 0,0:09:41.02,0:09:42.30,main,Asta,0000,0000,0000,,Hey!
+Dialogue: 0,0:09:42.30,0:09:44.98,main,Rekka,0000,0000,0000,,And Yuno is as cool as ever.
+Dialogue: 0,0:09:44.98,0:09:48.60,main,Bell,0000,0000,0000,,He's not just cool. He can be cute, too.
+Dialogue: 0,0:09:48.60,0:09:51.25,main,Kids,0000,0000,0000,,The dolly talked!
+Dialogue: 0,0:09:51.25,0:09:53.35,main,Arlu,0000,0000,0000,,She's the Wind Spirit!
+Dialogue: 0,0:09:53.35,0:09:54.53,main,Horo,0000,0000,0000,,Spiwit!
+Dialogue: 0,0:09:55.02,0:09:55.94,main,Bell,0000,0000,0000,,I'm Bell.
+Dialogue: 0,0:09:55.94,0:09:59.36,main,Bell,0000,0000,0000,,I'd prefer it if you didn't \Ntreat me like a dol—
+Dialogue: 0,0:09:59.36,0:10:02.66,main,Parum,0000,0000,0000,,I'm gonna play with the spirit dolly.
+Dialogue: 0,0:10:02.66,0:10:05.25,main,Lammy,0000,0000,0000,,Me, too! Me, too!
+Dialogue: 0,0:10:05.25,0:10:08.66,main,Parum,0000,0000,0000,,Spirit dolly!
+Dialogue: 0,0:10:05.82,0:10:09.71,top,Bell,0000,0000,0000,,Uh, hello?! Hey, Yuno! Save me! Yuno!
+Dialogue: 0,0:10:11.01,0:10:13.69,main,Lily,0000,0000,0000,,Asta... Yuno...
+Dialogue: 0,0:10:15.57,0:10:20.30,sign_12339_133_Finnes_Calmreich,Sign,0000,0000,0000,,{\blur3\fad(754,1)}Lily Aquaria
+Dialogue: 0,0:10:16.47,0:10:20.30,top,Lily,0000,0000,0000,,I'm so glad you're both safe.
+Dialogue: 0,0:10:21.07,0:10:22.46,main,Asta,0000,0000,0000,,Sister...
+Dialogue: 0,0:10:31.25,0:10:34.07,main,Asta,0000,0000,0000,,Please marry me!
+Dialogue: 0,0:10:34.41,0:10:37.57,main,Asta,0000,0000,0000,,Please marry me!
+Dialogue: 0,0:10:38.32,0:10:40.72,main,Guy,0000,0000,0000,,Wow, that takes me back.
+Dialogue: 0,0:10:40.72,0:10:44.53,main,Guy,0000,0000,0000,,We used to hear that every day \Nwhen Asta still lived here.
+Dialogue: 0,0:10:46.50,0:10:48.99,main,Noelle,0000,0000,0000,,I think I finally got the hang of it.
+Dialogue: 0,0:10:48.99,0:10:52.98,main,Asta,0000,0000,0000,,Please marry me!
+Dialogue: 0,0:10:52.98,0:10:54.89,main,Noelle,0000,0000,0000,,M-Marry?!
+Dialogue: 0,0:10:54.89,0:10:58.31,main,Noelle,0000,0000,0000,,Wait, you can't just propose \Nto me out of nowhe—
+Dialogue: 0,0:11:02.09,0:11:04.97,main,Asta,0000,0000,0000,,I missed this feeling.
+Dialogue: 0,0:11:06.51,0:11:08.67,main,Lily,0000,0000,0000,,Sorry, it was a reflex.
+Dialogue: 0,0:11:16.25,0:11:20.29,main,Noelle,0000,0000,0000,,Don't come charging at me like that, Stupidsta!
+Dialogue: 0,0:11:20.29,0:11:21.11,main,Asta,0000,0000,0000,,Uh, okay...
+Dialogue: 0,0:11:21.64,0:11:26.98,main,Noelle,0000,0000,0000,,N-Not to mention, m-m-m-m-marriage?
+Dialogue: 0,0:11:26.98,0:11:28.15,main,Noelle,0000,0000,0000,,That's so sudden...
+Dialogue: 0,0:11:29.90,0:11:34.69,main,Father,0000,0000,0000,,You must be a fellow Magic Knight \Nfrom the Black Bulls, young lady.
+Dialogue: 0,0:11:34.69,0:11:35.84,main,Noelle,0000,0000,0000,,Yes.
+Dialogue: 0,0:11:36.22,0:11:40.37,main,Lily,0000,0000,0000,,Thank you for always taking care \Nof Asta. You must be Noelle.
+Dialogue: 0,0:11:40.37,0:11:44.09,main,Lily,0000,0000,0000,,Asta always mentions you in his letters.
+Dialogue: 0,0:11:44.09,0:11:46.82,main,Noelle,0000,0000,0000,,Huh? Letters?
+Dialogue: 0,0:11:48.34,0:11:52.93,italics,Noelle,0000,0000,0000,,J-Jeez... What could you possibly \Nbe saying about me in those letters?
+Dialogue: 0,0:11:53.41,0:11:54.44,italics,Noelle,0000,0000,0000,,Could it be...
+Dialogue: 0,0:11:55.26,0:11:58.15,main,Asta,0000,0000,0000,,My heart is set on someone.
+Dialogue: 0,0:11:58.15,0:12:01.28,main,Asta,0000,0000,0000,,Yes... Noelle.
+Dialogue: 0,0:12:01.82,0:12:03.80,main,Noelle,0000,0000,0000,,How dare you?!
+Dialogue: 0,0:12:03.80,0:12:05.71,main,Asta,0000,0000,0000,,Wait, why?!
+Dialogue: 0,0:12:07.25,0:12:09.43,italics,Nero,0000,0000,0000,,What in the world are they doing?
+Dialogue: 0,0:12:10.15,0:12:13.47,main,Father,0000,0000,0000,,Oh? Are you also a member \Nof the Black Bulls, miss?
+Dialogue: 0,0:12:14.51,0:12:15.58,main,Asta,0000,0000,0000,,That's Nero!
+Dialogue: 0,0:12:15.58,0:12:17.99,main,Asta,0000,0000,0000,,She's our new squad member!
+Dialogue: 0,0:12:17.99,0:12:19.47,main,Father,0000,0000,0000,,My, my...
+Dialogue: 0,0:12:19.47,0:12:22.54,main,Lily,0000,0000,0000,,Please continue to look after Asta.
+Dialogue: 0,0:12:23.91,0:12:25.47,main,Nero,0000,0000,0000,,Likewise.
+Dialogue: 0,0:12:25.47,0:12:28.47,main,Lily,0000,0000,0000,,I know! Asta, Yuno...
+Dialogue: 0,0:12:28.47,0:12:32.23,main,Lily,0000,0000,0000,,I know you just got here, but I have \Na favor to ask you. Is that all right?
+Dialogue: 0,0:12:32.23,0:12:33.23,main,Yuno,0000,0000,0000,,Yes.
+Dialogue: 0,0:12:33.23,0:12:37.02,main,Asta,0000,0000,0000,,I'll do anything for you, Sister!
+Dialogue: 0,0:12:46.79,0:12:47.95,flashbackitalics,Lily,0000,0000,0000,,So you see...
+Dialogue: 0,0:12:48.33,0:12:52.95,flashback,Lily,0000,0000,0000,,I'd like you two to act as \Nteachers for the little ones.
+Dialogue: 0,0:12:54.51,0:12:55.85,flashback,Asta,0000,0000,0000,,Us?
+Dialogue: 0,0:12:55.85,0:12:57.17,flashback,Yuno,0000,0000,0000,,Teachers?
+Dialogue: 0,0:12:57.17,0:13:01.53,flashback,Lily,0000,0000,0000,,Yes. Everyone in this kingdom \Nlooks up to the Magic Knights,
+Dialogue: 0,0:13:01.53,0:13:06.19,flashback,Lily,0000,0000,0000,,so I think being instructed by some \NMagic Knights would be a nice memory.
+Dialogue: 0,0:13:10.95,0:13:14.67,main,Father,0000,0000,0000,,They've truly grown up so much.
+Dialogue: 0,0:13:15.94,0:13:17.81,main,Arlu,0000,0000,0000,,Instructor Asta!
+Dialogue: 0,0:13:17.81,0:13:19.23,main,Lammy,0000,0000,0000,,Instructor Yuno!
+Dialogue: 0,0:13:19.23,0:13:20.73,main,Horo,0000,0000,0000,,Structor!
+Dialogue: 0,0:13:21.22,0:13:23.07,italics,Asta,0000,0000,0000,,Instructor...
+Dialogue: 0,0:13:23.07,0:13:29.09,main,Asta,0000,0000,0000,,All right, leave it to me! I'll teach\N you all the important things!
+Dialogue: 0,0:13:33.02,0:13:36.49,main,Asta,0000,0000,0000,,Listen up! Magic equals muscles!
+Dialogue: 0,0:13:37.35,0:13:39.10,main,Yuno,0000,0000,0000,,What are you even talking about?
+Dialogue: 0,0:13:39.10,0:13:43.96,main,Asta,0000,0000,0000,,You guys haven't got much mana yet! \NSo how are you gonna make up for it?
+Dialogue: 0,0:13:43.96,0:13:46.58,main,Asta,0000,0000,0000,,That's right! With muscles!
+Dialogue: 0,0:13:47.65,0:13:49.42,main,Asta,0000,0000,0000,,That's why you all need to train!
+Dialogue: 0,0:13:49.42,0:13:52.31,main,Asta,0000,0000,0000,,All right, let's do this! Go run!
+Dialogue: 0,0:13:57.62,0:13:59.35,main,Noelle,0000,0000,0000,,What in the world are they doing?
+Dialogue: 0,0:14:01.69,0:14:03.61,main,Girls,0000,0000,0000,,Instructor Yuno!
+Dialogue: 0,0:14:03.61,0:14:07.27,main,Lily,0000,0000,0000,,Will you be the girls' instructor, then, Yuno?
+Dialogue: 0,0:14:07.27,0:14:08.84,main,Yuno,0000,0000,0000,,Instructor...
+Dialogue: 0,0:14:08.84,0:14:12.79,main,Lily,0000,0000,0000,,You don't need to think too \Nhard about the "instructor" part.
+Dialogue: 0,0:14:12.79,0:14:15.20,main,Lily,0000,0000,0000,,Just playing with them is fine.
+Dialogue: 0,0:14:15.20,0:14:17.10,main,Yuno,0000,0000,0000,,Playing with them?
+Dialogue: 0,0:14:17.10,0:14:21.16,main,Lily,0000,0000,0000,,I'm sure the little ones will learn \Nsomething just by observing you.
+Dialogue: 0,0:14:21.16,0:14:22.59,main,Yuno,0000,0000,0000,,I see.
+Dialogue: 0,0:14:22.59,0:14:25.34,main,Parum,0000,0000,0000,,Instructor Yuno, let's play house!
+Dialogue: 0,0:14:25.34,0:14:27.47,main,Yuno,0000,0000,0000,,Play... house?
+Dialogue: 0,0:14:33.56,0:14:36.01,italics,Noelle,0000,0000,0000,,Why do I have to be the baby?
+Dialogue: 0,0:14:36.01,0:14:37.94,italics,Noelle,0000,0000,0000,,I'm royalty...
+Dialogue: 0,0:14:38.85,0:14:41.90,main,Parum,0000,0000,0000,,You're so cute, Noelle!
+Dialogue: 0,0:14:41.90,0:14:43.52,main,Noelle,0000,0000,0000,,R-Really?
+Dialogue: 0,0:14:44.30,0:14:46.92,italics,Noelle,0000,0000,0000,,If I'm doing this, \Nthen I need to give it my all.
+Dialogue: 0,0:14:46.92,0:14:48.58,italics,Noelle,0000,0000,0000,,I'm a baby...
+Dialogue: 0,0:14:49.36,0:14:50.54,italics,Noelle,0000,0000,0000,,I'll do it!
+Dialogue: 0,0:14:50.54,0:14:56.54,main,Noelle,0000,0000,0000,,Wah! Wah! Wah! Wah!
+Dialogue: 0,0:14:52.86,0:14:54.69,main,Arlu,0000,0000,0000,,You're so good!
+Dialogue: 0,0:14:54.69,0:14:56.54,main,Parum,0000,0000,0000,,Mommy, please calm your baby.
+Dialogue: 0,0:14:56.54,0:14:58.53,main,Yuno,0000,0000,0000,,O-Okay...
+Dialogue: 0,0:15:00.39,0:15:02.54,main,Yuno,0000,0000,0000,,Th-There, there...
+Dialogue: 0,0:15:02.54,0:15:06.25,main,Arlu,0000,0000,0000,,That's not right, Yuno! You need to be nicer!
+Dialogue: 0,0:15:06.25,0:15:07.78,italics,Yuno,0000,0000,0000,,Nicer?
+Dialogue: 0,0:15:09.55,0:15:10.63,main,Yuno,0000,0000,0000,,Sister!
+Dialogue: 0,0:15:10.63,0:15:12.59,main,Lily,0000,0000,0000,,You need to take this seriously.
+Dialogue: 0,0:15:12.59,0:15:16.18,main,Lily,0000,0000,0000,,The little ones will definitely \Nlearn something by watching you.
+Dialogue: 0,0:15:18.42,0:15:19.98,main,Yuno,0000,0000,0000,,All right.
+Dialogue: 0,0:15:24.94,0:15:28.31,main,Yuno,0000,0000,0000,,Come here, little one. There, there.
+Dialogue: 0,0:15:28.31,0:15:30.29,main,Yuno,0000,0000,0000,,There's no need to cry.
+Dialogue: 0,0:15:30.29,0:15:32.82,main,Yuno,0000,0000,0000,,Oh, you must be hungry.
+Dialogue: 0,0:15:32.82,0:15:35.29,main,Yuno,0000,0000,0000,,Here, have some milk.
+Dialogue: 0,0:15:35.29,0:15:41.36,main,Noelle,0000,0000,0000,,Suckle, suckle, suckle...
+Dialogue: 0,0:15:37.22,0:15:41.36,main,Yuno,0000,0000,0000,,Is that good? Excellent. Now, now...
+Dialogue: 0,0:15:41.36,0:15:45.32,main,Yuno,0000,0000,0000,,Parum, you've got ketchup on your cheek.
+Dialogue: 0,0:15:45.32,0:15:49.05,main,Yuno,0000,0000,0000,,Whatever am I going to do with you?\NYou're such a little troublemaker.
+Dialogue: 0,0:15:49.05,0:15:50.67,italics,Bell,0000,0000,0000,,Yuno...
+Dialogue: 0,0:15:49.55,0:15:51.98,top,Yuno,0000,0000,0000,,I wonder who you took after.
+Dialogue: 0,0:15:51.98,0:15:56.46,top,Yuno,0000,0000,0000,,It must be your father.
+Dialogue: 0,0:15:53.39,0:15:55.47,italics,Father,0000,0000,0000,,Well done, Yuno.
+Dialogue: 0,0:15:55.49,0:16:01.14,italics,Father,0000,0000,0000,,But what are the children \Nsupposed to learn from this?
+Dialogue: 0,0:16:02.98,0:16:05.44,main,Father,0000,0000,0000,,This is the "new leaves" class.
+Dialogue: 0,0:16:06.29,0:16:09.57,main,Father,0000,0000,0000,,They're all working hard for the \Nday they get their grimoire.
+Dialogue: 0,0:16:09.57,0:16:11.86,main,Asta,0000,0000,0000,,The grimoire awarding ceremony...
+Dialogue: 0,0:16:12.62,0:16:17.87,main,Asta,0000,0000,0000,,It hasn't even been that long since \Nwe had ours, but it feels so long ago.
+Dialogue: 0,0:16:17.87,0:16:19.66,main,Yuno,0000,0000,0000,,Yeah...
+Dialogue: 0,0:16:26.09,0:16:27.84,main,Guy,0000,0000,0000,,All right, that's it.
+Dialogue: 0,0:16:28.29,0:16:29.46,main,Asta,0000,0000,0000,,They're...
+Dialogue: 0,0:16:29.46,0:16:30.46,main,Yuno,0000,0000,0000,,Yeah.
+Dialogue: 0,0:16:33.83,0:16:35.41,main,Guy,0000,0000,0000,,And stop.
+Dialogue: 0,0:16:35.41,0:16:38.54,main,Guy,0000,0000,0000,,Wonderful! You're doing wonderfully!
+Dialogue: 0,0:16:38.54,0:16:41.35,main,Guy,0000,0000,0000,,Your magic is improving so \Nmuch through your studies.
+Dialogue: 0,0:16:41.35,0:16:42.80,main,Guy,0000,0000,0000,,Keep it up.
+Dialogue: 0,0:16:42.80,0:16:44.74,main,Kids,0000,0000,0000,,Yay!
+Dialogue: 0,0:16:47.70,0:16:49.93,main,Guy,0000,0000,0000,,It's Asta and Yuno!
+Dialogue: 0,0:16:49.93,0:16:52.03,main,Guy,0000,0000,0000,,It's been so long! \NI'm honored to see you again!
+Dialogue: 0,0:16:53.50,0:16:55.03,main,Kids,0000,0000,0000,,Asta!
+Dialogue: 0,0:16:54.07,0:16:55.78,main,Rekka,0000,0000,0000,,Yuno!
+Dialogue: 0,0:16:56.54,0:16:59.53,main,Guy,0000,0000,0000,,We feel really bad for what we did back then.
+Dialogue: 0,0:16:59.99,0:17:04.15,main,Guy,0000,0000,0000,,We decided to turn over a new leaf \Nafter we saw how amazing you two were,
+Dialogue: 0,0:17:04.15,0:17:06.46,main,Guy,0000,0000,0000,,and became assistant instructors here.
+Dialogue: 0,0:17:06.46,0:17:08.00,italics,Asta,0000,0000,0000,,They actually became good guys!
+Dialogue: 0,0:17:08.00,0:17:09.79,main,Yuno,0000,0000,0000,,Did you hit your heads?
+Dialogue: 0,0:17:12.05,0:17:13.47,main,Guy,0000,0000,0000,,Oh, Headmaster.
+Dialogue: 0,0:17:14.59,0:17:16.09,main,Asta,0000,0000,0000,,Headmaster?
+Dialogue: 0,0:17:16.63,0:17:20.43,main,Asta,0000,0000,0000,,Oh! It's the old guy who gave us our \Ngrimoires at the grimoire tower!
+Dialogue: 0,0:17:22.34,0:17:25.62,main,Doruo,0000,0000,0000,,Asta, Yuno, welcome back.
+Dialogue: 0,0:17:25.62,0:17:28.18,main,Doruo,0000,0000,0000,,I heard of all the wonderful \Nthings you've been doing.
+Dialogue: 0,0:17:28.18,0:17:29.69,main,Doruo,0000,0000,0000,,I'm very proud of you.
+Dialogue: 0,0:17:30.07,0:17:35.38,main,Doruo,0000,0000,0000,,Because of your feats, the children have more\N motivation when it comes to learning magic.
+Dialogue: 0,0:17:35.38,0:17:37.70,main,Doruo,0000,0000,0000,,That's why we built this school.
+Dialogue: 0,0:17:38.35,0:17:40.49,main,Asta,0000,0000,0000,,It's thanks to us?
+Dialogue: 0,0:17:40.85,0:17:42.00,main,Doruo,0000,0000,0000,,Now, then...
+Dialogue: 0,0:17:42.00,0:17:47.85,main,Doruo,0000,0000,0000,,The Grimoire Tower is home to many \Na grimoire, each waiting for its master.
+Dialogue: 0,0:17:47.85,0:17:50.50,main,Doruo,0000,0000,0000,,They are all unique.
+Dialogue: 0,0:17:50.50,0:17:52.51,main,Doruo,0000,0000,0000,,That includes size and thickness.
+Dialogue: 0,0:17:52.51,0:17:54.53,main,Doruo,0000,0000,0000,,But the ones who will increase the number
+Dialogue: 0,0:17:54.53,0:17:57.56,main,Doruo,0000,0000,0000,,and the power of the spells \Nwithin them are you children.
+Dialogue: 0,0:17:57.56,0:18:00.76,main,Doruo,0000,0000,0000,,With a little bit of hard work, \Nyou can become whatever you'd like.
+Dialogue: 0,0:18:01.29,0:18:04.77,main,Doruo,0000,0000,0000,,Yes, just like Yuno and Asta here.
+Dialogue: 0,0:18:04.77,0:18:06.39,main,Asta,0000,0000,0000,,Aw, shucks.
+Dialogue: 0,0:18:06.39,0:18:08.59,main,Doruo,0000,0000,0000,,I have a dream.
+Dialogue: 0,0:18:08.59,0:18:14.74,main,Doruo,0000,0000,0000,,I dream that some of you children will \Nsomeday become like Yuno and Asta.
+Dialogue: 0,0:18:15.90,0:18:17.40,main,Doruo,0000,0000,0000,,No, seriously!
+Dialogue: 0,0:18:17.40,0:18:18.94,main,Kids,0000,0000,0000,,Okay!
+Dialogue: 0,0:18:21.97,0:18:23.03,main,Lily,0000,0000,0000,,I see.
+Dialogue: 0,0:18:23.03,0:18:25.83,main,Lily,0000,0000,0000,,So you'll be going back in the morning.
+Dialogue: 0,0:18:25.83,0:18:29.84,main,Father,0000,0000,0000,,All right, then. We're going to throw \Nthe biggest tato party tonight!
+Dialogue: 0,0:18:29.84,0:18:32.04,main,Father,0000,0000,0000,,Look forward to it, Asta and Yuno.
+Dialogue: 0,0:18:32.04,0:18:33.63,main,Asta,0000,0000,0000,,Yeah!
+Dialogue: 0,0:18:34.11,0:18:38.16,main,Father,0000,0000,0000,,Miss Noelle, Miss Nero, \NI hope you'll both join us.
+Dialogue: 0,0:18:38.16,0:18:40.05,main,Noelle,0000,0000,0000,,Thank you...
+Dialogue: 0,0:18:40.05,0:18:42.80,italics,Noelle,0000,0000,0000,,I'm pretty sure it's going to \Nmake my mouth a desert again.
+Dialogue: 0,0:18:42.80,0:18:45.35,main,Asta,0000,0000,0000,,Hey, is that Nash?
+Dialogue: 0,0:18:45.66,0:18:46.98,main,Asta,0000,0000,0000,,Hey, Nash!
+Dialogue: 0,0:18:50.97,0:18:52.65,main,Nash,0000,0000,0000,,Oh, it's just you, Asta.
+Dialogue: 0,0:18:52.65,0:18:54.90,main,Asta,0000,0000,0000,,Don't give me that.
+Dialogue: 0,0:18:54.90,0:18:57.64,main,Asta,0000,0000,0000,,By the way, why weren't you at school?
+Dialogue: 0,0:18:57.64,0:18:58.57,main,Asta,0000,0000,0000,,Playing hooky?
+Dialogue: 0,0:18:58.57,0:19:00.50,main,Nash,0000,0000,0000,,I had something I needed to do.
+Dialogue: 0,0:19:00.50,0:19:02.26,main,Asta,0000,0000,0000,,Like what?
+Dialogue: 0,0:19:02.26,0:19:04.58,main,Nash,0000,0000,0000,,That's none of your business.
+Dialogue: 0,0:19:04.58,0:19:06.83,main,Asta,0000,0000,0000,,Hey, wait a second!
+Dialogue: 0,0:19:06.83,0:19:09.75,main,Asta,0000,0000,0000,,Nash! You shouldn't be playing hooky!
+Dialogue: 0,0:19:09.75,0:19:14.02,main,Lily,0000,0000,0000,,You know, Nash isn't actually skipping school.
+Dialogue: 0,0:19:14.67,0:19:18.42,main,Father,0000,0000,0000,,Yes. We're all trying to \Nact like we don't know...
+Dialogue: 0,0:19:18.42,0:19:21.59,main,Lily,0000,0000,0000,,But you know how much he \Nlooks up to Asta, right?
+Dialogue: 0,0:19:21.59,0:19:27.18,main,Lily,0000,0000,0000,,So he said he wanted to be like Asta \Nand join the Magic Knights someday.
+Dialogue: 0,0:19:27.60,0:19:28.81,main,Yuno,0000,0000,0000,,I see.
+Dialogue: 0,0:19:32.02,0:19:37.65,flashback,Nash,0000,0000,0000,,298... 299... 300!
+Dialogue: 0,0:19:38.46,0:19:40.57,flashback,Nash,0000,0000,0000,,And now for this moguro leaf juice,\Nwhich is supposed to be
+Dialogue: 0,0:19:40.57,0:19:42.99,flashback,Nash,0000,0000,0000,,good for increasing magical powers!
+Dialogue: 0,0:19:43.33,0:19:44.62,flashback,Nash,0000,0000,0000,,So gross...
+Dialogue: 0,0:19:44.62,0:19:46.33,flashback,Nash,0000,0000,0000,,One more drink!
+Dialogue: 0,0:19:46.33,0:19:49.95,flashback,Nash,0000,0000,0000,,All right! I can feel my mana overflowing!
+Dialogue: 0,0:19:53.31,0:19:55.60,flashbackitalics,Nash,0000,0000,0000,,That even if you're poor... or an orphan...
+Dialogue: 0,0:19:55.60,0:19:59.80,flashbackitalics,Nash,0000,0000,0000,,I'll prove that you can become more \Namazing than anyone else in this world!
+Dialogue: 0,0:19:59.80,0:20:01.23,flashbackitalics,Nash,0000,0000,0000,,Just like Asta!
+Dialogue: 0,0:20:05.51,0:20:08.56,italics,Nero,0000,0000,0000,,My prince, please continue \Nto watch over them.
+Dialogue: 0,0:20:09.01,0:20:12.87,italics,Nero,0000,0000,0000,,I'm sure this kingdom's future... will be bright.
+Dialogue: 0,0:20:16.06,0:20:18.78,main,Lady,0000,0000,0000,,Here, give this to Asta and Yuno to eat.
+Dialogue: 0,0:20:18.78,0:20:21.65,main,Lady,0000,0000,0000,,I brought so many tatoes!
+Dialogue: 0,0:20:20.70,0:20:21.65,main,Father,0000,0000,0000,,Yes, yes...
+Dialogue: 0,0:20:21.65,0:20:23.40,main,Guy,0000,0000,0000,,Do you need any help?
+Dialogue: 0,0:20:23.40,0:20:25.62,main,Guy,0000,0000,0000,,Leave peeling that tato to me!
+Dialogue: 0,0:20:26.12,0:20:26.94,main,Father,0000,0000,0000,,Thanks.
+Dialogue: 0,0:20:27.82,0:20:29.12,main,Noelle,0000,0000,0000,,Honestly...
+Dialogue: 0,0:20:29.12,0:20:31.89,main,Noelle,0000,0000,0000,,Where could Asta have gone?
+Dialogue: 0,0:20:31.89,0:20:36.71,italics,Noelle,0000,0000,0000,,But really... What did he write about \Nme in the letters he sent here?
+Dialogue: 0,0:20:46.51,0:20:47.75,main,Yuno,0000,0000,0000,,You crying?
+Dialogue: 0,0:20:47.75,0:20:50.13,main,Asta,0000,0000,0000,,Of course I'm not!
+Dialogue: 0,0:20:54.13,0:20:56.06,main,Asta,0000,0000,0000,,I'm just really happy.
+Dialogue: 0,0:20:56.67,0:21:01.40,main,Asta,0000,0000,0000,,Not only was I an orphan, \Nbut unlike you, I had no magic.
+Dialogue: 0,0:21:01.40,0:21:04.28,main,Asta,0000,0000,0000,,I was always made fun of when we lived here.
+Dialogue: 0,0:21:04.28,0:21:05.91,main,Asta,0000,0000,0000,,But...
+Dialogue: 0,0:21:05.91,0:21:09.67,flashback,Doruo,0000,0000,0000,,Asta, Yuno, welcome back.
+Dialogue: 0,0:21:09.67,0:21:12.17,flashback,Doruo/Asta,0000,0000,0000,,{\t(1,2500,\4c&H000000&\3c&H000000&)}"I heard of all the wonderful \Nthings you've been doing.
+Dialogue: 0,0:21:12.17,0:21:13.57,main,Asta,0000,0000,0000,,I'm very proud of you."
+Dialogue: 0,0:21:14.29,0:21:15.92,main,Asta,0000,0000,0000,,So, yeah...
+Dialogue: 0,0:21:15.92,0:21:17.05,main,Yuno,0000,0000,0000,,Of course.
+Dialogue: 0,0:21:17.83,0:21:21.01,main,Yuno,0000,0000,0000,,Because we've accomplished that much.
+Dialogue: 0,0:21:22.18,0:21:24.42,main,Yuno,0000,0000,0000,,We've proven that you can \Nbecome whatever you want
+Dialogue: 0,0:21:24.83,0:21:26.43,main,Yuno,0000,0000,0000,,through hard work with our actions.
+Dialogue: 0,0:21:26.88,0:21:29.87,main,Yuno,0000,0000,0000,,But it's not over yet.
+Dialogue: 0,0:21:30.47,0:21:31.81,main,Yuno,0000,0000,0000,,We've only just begun.
+Dialogue: 0,0:21:32.62,0:21:36.23,main,Asta,0000,0000,0000,,Yeah. In order to face the \Nthreat of the Spade Kingdom...
+Dialogue: 0,0:21:37.58,0:21:39.27,main,Yuno,0000,0000,0000,,And the devils...
+Dialogue: 0,0:21:39.69,0:21:43.63,main,Yuno,0000,0000,0000,,We have to become even stronger.
+Dialogue: 0,0:21:43.63,0:21:45.36,main,Asta,0000,0000,0000,,In order to protect everyone...
+Dialogue: 0,0:21:45.76,0:21:47.82,main,Yuno,0000,0000,0000,,...let's continue moving forward.
+Dialogue: 0,0:21:49.09,0:21:51.08,main,Asta,0000,0000,0000,,Let's get stronger, Yuno.
+Dialogue: 0,0:21:51.91,0:21:56.04,main,Yuno,0000,0000,0000,,Of course, I'm going to become \Nfar stronger than you.
+Dialogue: 0,0:21:56.53,0:21:59.23,main,Asta,0000,0000,0000,,Guess we're about even for now.
+Dialogue: 0,0:22:00.59,0:22:02.05,main,Yuno,0000,0000,0000,,You can't be serious.
+Dialogue: 0,0:23:39.81,0:23:41.27,main,Yuno,0000,0000,0000,,I'm going to become the Wizard King.
+Dialogue: 0,0:23:41.67,0:23:45.11,main,Yuno,0000,0000,0000,,No matter what hardships await us,\N I will overcome them.
+Dialogue: 0,0:23:45.43,0:23:47.05,main,Yuno,0000,0000,0000,,I will become stronger.
+Dialogue: 0,0:23:47.05,0:23:50.82,main,Some,0000,0000,0000,,Next time on {\i1}Black Clover{\i0}, \NPage 132: "The Lion Awakens."
+Dialogue: 0,0:23:48.07,0:23:54.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 132\N\N{\fs18}The Lion Awakens
+Dialogue: 0,0:23:50.82,0:23:53.41,main,Yuno,0000,0000,0000,,There are others trying to \Nbecome stronger, too.

@@ -1,0 +1,422 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Flashback_Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00500000,&H00500000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: Narration,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: OP_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H0065A7CE,&H000000FF,&H64070805,&H000D1728,-1,-1,0,0,100,100,0,0,1,1,0,8,0030,0030,0075,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+Style: sign_138_1_Black_Clover_is_,Trebuchet MS,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_1785_19_Vice_Captain_of_,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0070,0275,0090,1
+Style: sign_6730_49_Captain_of_the_A,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0110,1
+Style: sign_7061_51_A_Team_Coral_Pea,Times New Roman,20,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0150,1
+Style: sign_7198_131_Nean,Times New Roman,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0336,0254,0134,1
+Style: sign_7198_132_Common_Realm,Times New Roman,24,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0450,0190,1
+Style: sign_7198_133_Kikka,Times New Roman,20,&H00F6F7FB,&H000000FF,&H00BCC5C7,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0265,0315,0260,1
+Style: sign_9194_75_Yay____Yay____,Times New Roman,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_10111_106_Venue_for_the_Ro,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_11720_132_Bell_,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0235,0030,0070,1
+Style: sign_12339_133_Finnes_Calmreich,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_13177_157_1st_Class_Interm,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0015,0424,0080,1
+Style: sign_13177_158_4th_Class_Senior,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0230,0250,0080,1
+Style: sign_13177_159_1st_Class_Interm,Times New Roman,11,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0415,0030,0080,1
+Style: sign_14555_151_4_years_ago,Times New Roman,28,&H00FFFFFD,&H000000FF,&H322E312E,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0085,1
+Style: sign_15736_152_Sandler,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0060,0505,0205,1
+Style: sign_15736_154_Solid,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0135,0455,0225,1
+Style: sign_15736_155_O_Team,Times New Roman,24,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0110,0440,0060,1
+Style: sign_15736_156_En___Noelle___Yu,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0395,0070,0205,1
+Style: sign_16031_175_The_Eye_of_the_M,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_16031_176_Sally,Times New Roman,26,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0350,0075,1
+Style: sign_16031_177_Rades,Times New Roman,26,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0335,0030,0075,1
+Style: sign_17323_210_Also_got_in_thro,Times New Roman,24,&H000B0B0B,&H000000FF,&H00FFFFFF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0159,0156,0020,1
+Style: sign_21447_269_Mage_Attendant_t,Times New Roman,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0310,0095,1
+Style: sign_21447_270_1st_Class_Interm,Times New Roman,16,&H00FFFFFD,&H000000FF,&H32292119,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0355,0030,0095,1
+Style: sign_24182_226_Member_of_the_Pu,Times New Roman,20,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_25640_274_Group_1_En_Ringa,Times New Roman,24,&H00FFFFFD,&H000000FF,&H320C0A05,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0040,0030,0125,1
+Style: sign_32950_385_Halt_,Times New Roman,30,&H00332E32,&H000000FF,&H00DADEE2,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0360,0030,0020,1
+Style: sign_33089_334_Bulls,Verdana,30,&H0007A0E4,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,6,0030,0030,0020,1
+Style: sign_33137_335_Hello__we_re_Gor,Trebuchet MS,24,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33018_294_Sa,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0045,0030,0275,1
+Style: sign_33018_295_Rii,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,1,0480,0030,0130,1
+Style: sign_33126_298_Shi,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,2,0030,0030,0275,1
+Style: sign_33126_299_Rii,Verdana,30,&H00161622,&H000000FF,&H32213F6F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,0,0,1,0465,0030,0130,1
+Style: sign_33427_257_Weaken__Naeru_,Trebuchet MS,30,&H00000100,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33236_349_Luck,Trebuchet MS,30,&H00000100,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0115,1
+Style: sign_33248_350_Ahaha_,Verdana,30,&H00161622,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,9,0030,0030,0020,1
+Style: sign_33332_352_Rucksack,Verdana,30,&H00161622,&H000000FF,&H32EDEFEF,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0030,0030,0020,1
+Style: sign_5516_38_King_of_the_Clov,Times New Roman,20,&H00FFFFFD,&H000000FF,&H32343232,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0105,1
+Style: sign_22029_222_Wimpy,Arial,30,&H00171816,&H000000FF,&H00EEEDED,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,7,0040,0030,0040,1
+Style: sign_22078_223_Carefree,Arial,30,&H00171816,&H000000FF,&H00EEEDED,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,6,0040,0030,0020,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:06.70,0:00:10.78,italics,Nar,0000,0000,0000,,It appeared as though humanity \Nwould be destroyed by the demons.
+Dialogue: 0,0:00:14.97,0:00:19.29,italics,Nar,0000,0000,0000,,But a single mage saved them all.
+Dialogue: 0,0:00:26.41,0:00:31.59,italics,Nar,0000,0000,0000,,He was called the Wizard King,\Nand he became a legend.
+Dialogue: 0,0:00:39.47,0:00:40.95,italics,Nar,0000,0000,0000,,The Raging Black Bull
+Dialogue: 0,0:00:40.95,0:00:44.10,italics,Nar,0000,0000,0000,,charged for the royal capital\Nwith the Black Bulls on its back.
+Dialogue: 0,0:00:44.10,0:00:45.77,main,Vanessa,0000,0000,0000,,Rescue!
+Dialogue: 0,0:00:46.61,0:00:47.90,main,Charmy,0000,0000,0000,,La!
+Dialogue: 0,0:00:48.70,0:00:50.86,main,Grey,0000,0000,0000,,Magic Conversion!
+Dialogue: 0,0:00:50.86,0:00:52.90,italics,Nar,0000,0000,0000,,They rescued the townspeople...
+Dialogue: 0,0:00:52.90,0:00:55.20,main,All,0000,0000,0000,,Asta Cannon!
+Dialogue: 0,0:01:00.08,0:01:03.57,italics,Nar,0000,0000,0000,,...and freed the Magic Knights \Nwho had reincarnated into elves.
+Dialogue: 0,0:01:03.57,0:01:07.29,main,All,0000,0000,0000,,Heck yeah!
+Dialogue: 0,0:01:07.29,0:01:08.38,italics,Nar,0000,0000,0000,,And then,
+Dialogue: 0,0:01:08.38,0:01:10.78,italics,Nar,0000,0000,0000,,returning thanks to their hatred for Licht,
+Dialogue: 0,0:01:10.78,0:01:14.63,italics,Nar,0000,0000,0000,,Rades, Sally, and Valtos appeared \Nbefore them once more.
+Dialogue: 0,0:01:14.63,0:01:16.89,main,Rades,0000,0000,0000,,You guys want to hurry to the \Nroyal capital, too, don't you?
+Dialogue: 0,0:01:16.89,0:01:18.80,main,Rades,0000,0000,0000,,Then we have the same goal.
+Dialogue: 0,0:01:18.80,0:01:20.72,main,Rades,0000,0000,0000,,Lend me your strength.
+Dialogue: 0,0:01:20.72,0:01:22.72,main,Asta,0000,0000,0000,,You're so annoying!
+Dialogue: 0,0:01:22.72,0:01:23.97,main,Rades,0000,0000,0000,,What?!
+Dialogue: 0,0:01:23.97,0:01:26.64,main,Asta,0000,0000,0000,,"Revenge," my ass, you stupid jerk!
+Dialogue: 0,0:01:26.64,0:01:30.02,main,Asta,0000,0000,0000,,From now on, you're going \Nto help save the kingdom!
+Dialogue: 0,0:01:30.02,0:01:33.36,main,Rades,0000,0000,0000,,Huh?! You can't be serious, you bastard!
+Dialogue: 0,0:01:33.36,0:01:35.15,main,Asta,0000,0000,0000,,I'm totally serious!
+Dialogue: 0,0:01:35.57,0:01:38.99,italics,Nar,0000,0000,0000,,After some convincing from Asta,\N they became allies.
+Dialogue: 0,0:01:39.70,0:01:41.89,main,Rades,0000,0000,0000,,Fine!
+Dialogue: 0,0:01:41.89,0:01:44.37,main,Rades,0000,0000,0000,,I'll go to the royal capital with you!
+Dialogue: 0,0:01:44.72,0:01:45.75,italics,Nar,0000,0000,0000,,Meanwhile...
+Dialogue: 0,0:01:45.75,0:01:49.33,italics,Nar,0000,0000,0000,,Langris appeared before the \Nmembers of the Golden Dawn,
+Dialogue: 0,0:01:49.75,0:01:51.38,italics,Nar,0000,0000,0000,,who had reincarnated as elves.
+Dialogue: 0,0:01:51.75,0:01:55.00,main,Latry,0000,0000,0000,,I guess that's why we get along \Nso well. We're both twisted.
+Dialogue: 0,0:01:55.00,0:01:59.18,main,Latry,0000,0000,0000,,I can't wait to kill all these royals myself.
+Dialogue: 0,0:01:59.70,0:02:01.71,main,Latry,0000,0000,0000,,The white night is over.
+Dialogue: 0,0:02:01.71,0:02:06.02,main,Latry,0000,0000,0000,,Let us show the humans the golden dawn!
+Dialogue: 0,0:02:12.71,0:02:15.93,main,Latry,0000,0000,0000,,It won't be much longer, you vile pests.
+Dialogue: 0,0:02:52.77,0:02:55.69,Ep Title,Sign,0000,0000,0000,,The Battle for Clover Castle
+Dialogue: 0,0:03:47.03,0:03:50.00,sign_12339_133_Finnes_Calmreich,Sign,0000,0000,0000,,{\blur3\fad(739,1)}Kira Residence – Central Tower
+Dialogue: 0,0:03:50.00,0:03:54.25,top,Kira,0000,0000,0000,,So what's the meaning of this, Vaude?
+Dialogue: 0,0:03:50.04,0:03:54.25,sign_5516_38_King_of_the_Clov,Sign,0000,0000,0000,,{\blur3\fad(773,1)}King of the Clover Kingdom\N{\fs30}Augustus Kira Clover XIII
+Dialogue: 0,0:03:54.99,0:04:00.89,main,Kira,0000,0000,0000,,I hear that your son,\N who engaged in violent acts
+Dialogue: 0,0:04:00.89,0:04:03.21,main,Kira,0000,0000,0000,,at my Royal Knights Selection Exam,
+Dialogue: 0,0:04:03.21,0:04:05.55,main,Kira,0000,0000,0000,,is now under suspicion of treason.
+Dialogue: 0,0:04:05.55,0:04:08.24,top,Vaude,0000,0000,0000,,Your Majesty, there must be\N some kind of mistake!
+Dialogue: 0,0:04:05.59,0:04:11.07,sign_12339_133_Finnes_Calmreich,Sign,0000,0000,0000,,{\blur3\fad(739,779)}Ledior Vaude
+Dialogue: 0,0:04:08.24,0:04:11.07,top,Vaude,0000,0000,0000,,There's no way someone from the \NHouse of Vaude would do such a thing!
+Dialogue: 0,0:04:11.07,0:04:17.06,top,Liliane Vaude,0000,0000,0000,,Th-That's right! My little Langris \Ncould never be a traitor!
+Dialogue: 0,0:04:11.83,0:04:17.06,sign_12339_133_Finnes_Calmreich,Sign,0000,0000,0000,,{\blur3\fad(755,1)}Liliane Vaude
+Dialogue: 0,0:04:17.06,0:04:20.26,main,Kira,0000,0000,0000,,Regardless, I cannot allow \Nsomeone of my bloodline
+Dialogue: 0,0:04:20.26,0:04:23.67,main,Kira,0000,0000,0000,,to marry someone with a reputation like that.
+Dialogue: 0,0:04:24.49,0:04:25.55,Default,Finnes,0000,0000,0000,,Great Uncle...
+Dialogue: 0,0:04:25.57,0:04:31.54,sign_12339_133_Finnes_Calmreich,Sign,0000,0000,0000,,{\blur3\fad(737,1)}Finnes Calmreich
+Dialogue: 0,0:04:26.21,0:04:29.60,top,Finnes,0000,0000,0000,,I'm not troubled by Lord Langris.
+Dialogue: 0,0:04:29.60,0:04:31.54,top,Finnes,0000,0000,0000,,Please be lenient with him.
+Dialogue: 0,0:04:31.54,0:04:35.54,main,Kira,0000,0000,0000,,Finnes, this matter does not concern you!
+Dialogue: 0,0:04:35.54,0:04:39.33,main,Kira,0000,0000,0000,,And you should be ashamed that Finnes \Nis even trying to protect you!
+Dialogue: 0,0:04:44.22,0:04:48.81,flashback,Vaude,0000,0000,0000,,This is Lady Finnes, the fiancée of \Nthe next head of the House of Vaude.
+Dialogue: 0,0:04:50.33,0:04:51.52,flashback,Finnes,0000,0000,0000,,Good day to you.
+Dialogue: 0,0:04:58.82,0:05:01.73,main,Guy,0000,0000,0000,,Your Majesty, I have an urgent report!
+Dialogue: 0,0:05:01.73,0:05:04.69,main,Guy,0000,0000,0000,,It's regarding the mage attacks...
+Dialogue: 0,0:05:04.69,0:05:05.99,main,Kira,0000,0000,0000,,Silence!
+Dialogue: 0,0:05:05.99,0:05:09.15,main,Kira,0000,0000,0000,,I'm sure the Magic Knights\N have gathered by now!
+Dialogue: 0,0:05:09.15,0:05:12.62,main,Kira,0000,0000,0000,,They can do whatever they \Nwant until I get over there!
+Dialogue: 0,0:05:16.54,0:05:20.75,main,Knight Captain,0000,0000,0000,,What are so many members of \Nthe Golden Dawn doing here?
+Dialogue: 0,0:05:20.75,0:05:24.21,main,Knight Captain,0000,0000,0000,,This area is protected by us,\N the Castle Knights.
+Dialogue: 0,0:05:24.67,0:05:27.61,main,Knight Captain,0000,0000,0000,,You need to hurry and go help the citizens.
+Dialogue: 0,0:05:27.61,0:05:31.91,main,Latry,0000,0000,0000,,We have business with the \Nhumans beyond that door.
+Dialogue: 0,0:05:32.67,0:05:35.14,main,Knight Captain,0000,0000,0000,,What kind of sick joke is \Nthat at a time like this?
+Dialogue: 0,0:05:35.81,0:05:40.13,main,Knight Captain,0000,0000,0000,,The castles where the three great royal \Nfamilies live lie beyond this gate.
+Dialogue: 0,0:05:40.13,0:05:42.78,main,Knight captain,0000,0000,0000,,Even Magic Knights may not \Nenter without permission.
+Dialogue: 0,0:05:42.78,0:05:46.90,main,Latry,0000,0000,0000,,That's just a stupid rule \Nthat you humans made up.
+Dialogue: 0,0:05:46.90,0:05:48.03,main,Knight Captain,0000,0000,0000,,Wh-What are you...
+Dialogue: 0,0:05:50.99,0:05:52.53,main,Latry,0000,0000,0000,,Like I care about it.
+Dialogue: 0,0:05:53.10,0:05:55.53,main,Knight Captain,0000,0000,0000,,This is treason! Capture them!
+Dialogue: 0,0:05:57.04,0:06:00.42,main,Kivn,0000,0000,0000,,Compass Magic: Willful Compass.
+Dialogue: 0,0:06:05.06,0:06:06.67,main,Knight Captain,0000,0000,0000,,D-Do not falter!
+Dialogue: 0,0:06:06.67,0:06:08.45,main,Kivn,0000,0000,0000,,I'll leave the rest to you.
+Dialogue: 0,0:06:08.45,0:06:09.30,main,Squad A,0000,0000,0000,,Understood.
+Dialogue: 0,0:06:11.21,0:06:13.10,main,Kivn,0000,0000,0000,,My group will go right.
+Dialogue: 0,0:06:13.10,0:06:15.85,main,Baval,0000,0000,0000,,Then we'll go left.
+Dialogue: 0,0:06:15.85,0:06:20.02,main,Latry,0000,0000,0000,,I'll continue straight forward\N and rip them apart!
+Dialogue: 0,0:06:20.43,0:06:21.61,main,Knight Captain,0000,0000,0000,,Hey, wait!
+Dialogue: 0,0:06:21.61,0:06:25.03,main,Squad A,0000,0000,0000,,You're the ones who will wait, humans.
+Dialogue: 0,0:06:27.78,0:06:30.87,main,Finral,0000,0000,0000,,So that hole in the castle \Ngate really was Langris!
+Dialogue: 0,0:06:30.87,0:06:35.28,main,Yami,0000,0000,0000,,I could honestly care less about \Nthe royals, but this ki...
+Dialogue: 0,0:06:35.28,0:06:39.68,main,Yami,0000,0000,0000,,Looks like a bunch of pretty tough \Ncharacters got into the castle.
+Dialogue: 0,0:06:39.68,0:06:42.99,main,Yami,0000,0000,0000,,We'll have to let the other guys handle \Nthe town. We're going in, Finral!
+Dialogue: 0,0:06:42.99,0:06:43.79,main,Finral,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:06:52.59,0:06:53.43,main,Finral,0000,0000,0000,,Yami!
+Dialogue: 0,0:06:55.43,0:06:58.56,main,Yami,0000,0000,0000,,Dark Magic: Dark Cloaked \NLightless Blunt Strike!
+Dialogue: 0,0:07:02.71,0:07:05.93,main,Finral,0000,0000,0000,,All of these guys are \Nbrimming with magical power!
+Dialogue: 0,0:07:05.93,0:07:08.09,main,Finral,0000,0000,0000,,And there are, like, dozens of them!
+Dialogue: 0,0:07:08.09,0:07:09.40,main,Finral,0000,0000,0000,,This is terribad!
+Dialogue: 0,0:07:09.79,0:07:12.94,main,Squad A,0000,0000,0000,,You aren't going to try to kill us? How naïve.
+Dialogue: 0,0:07:13.69,0:07:16.37,main,Yami,0000,0000,0000,,Nah, I have plenty of reasons to kill you.
+Dialogue: 0,0:07:16.37,0:07:19.91,main,Yami,0000,0000,0000,,At least, the you that had the nerve to \Ntake that body, as if it belongs to you.
+Dialogue: 0,0:07:19.91,0:07:21.44,main,Squad D,0000,0000,0000,,Such nonsense!
+Dialogue: 0,0:07:21.44,0:07:23.33,main,Yami,0000,0000,0000,,Dark Magic: Black Hole!
+Dialogue: 0,0:07:27.18,0:07:29.67,italics,Yami,0000,0000,0000,,In the end, there are four of them.\N This is going to be tough.
+Dialogue: 0,0:07:29.67,0:07:33.81,main,Squad,0000,0000,0000,,It doesn't matter how many of you \Nhumans try and attack us! You cannot wi—
+Dialogue: 0,0:07:37.06,0:07:38.72,main,Finral,0000,0000,0000,,This crazy magic is...
+Dialogue: 0,0:07:39.18,0:07:43.21,main,Jack,0000,0000,0000,,Damn it, you stupid bastards! \NGetting your bodies taken over...
+Dialogue: 0,0:07:43.73,0:07:46.61,main,Jack,0000,0000,0000,,Talk about entertainment!
+Dialogue: 0,0:07:47.00,0:07:52.24,sign_5516_38_King_of_the_Clov,Sign,0000,0000,0000,,{\blur3\fad(758,1)}Captain of the Green Praying Mantises\N{\fs30}Jack the Ripper
+Dialogue: 0,0:07:47.56,0:07:50.53,top,Jack,0000,0000,0000,,Of course the ones who \Nare most worth slicing up
+Dialogue: 0,0:07:50.53,0:07:52.24,top,Jack,0000,0000,0000,,would show up at the castle, huh?
+Dialogue: 0,0:07:52.24,0:07:57.40,main,Finral,0000,0000,0000,,The Captain of the Green Praying Mantises,\N Jack the Ripper!
+Dialogue: 0,0:07:57.40,0:08:01.75,main,Yami,0000,0000,0000,,Geh. Did our reinforcements \Nreally have to be this weirdo?
+Dialogue: 0,0:08:01.75,0:08:05.42,main,Jack,0000,0000,0000,,What? You wanna get sliced open first, Yami?
+Dialogue: 0,0:08:05.77,0:08:08.49,main,Yami,0000,0000,0000,,Actually, you already almost got me.
+Dialogue: 0,0:08:09.02,0:08:13.18,main,Yami,0000,0000,0000,,Welp, I'm glad you didn't turn \Non us, you giant string bean!
+Dialogue: 0,0:08:13.18,0:08:17.43,main,Jack,0000,0000,0000,,Who'd get taken over with this much \Nfun to be had, you stupid meathead?!
+Dialogue: 0,0:08:18.79,0:08:25.40,main,Squad,0000,0000,0000,,We won't let any of you leave alive, humans!
+Dialogue: 0,0:08:25.40,0:08:28.15,main,Jack,0000,0000,0000,,Severing Magic: Death Scythe!
+Dialogue: 0,0:08:28.15,0:08:31.33,main,Squad a,0000,0000,0000,,Corundum Magic: Ideal Closer!
+Dialogue: 0,0:08:32.53,0:08:36.06,main,Squad A,0000,0000,0000,,You won't be able to cut \Nthrough my magic with that.
+Dialogue: 0,0:08:44.21,0:08:46.01,main,Jack,0000,0000,0000,,Death Scythe!
+Dialogue: 0,0:08:50.86,0:08:51.84,main,Squad A,0000,0000,0000,,I told you, it's useless.
+Dialogue: 0,0:08:56.23,0:08:58.47,main,Guy,0000,0000,0000,,Your moves are totally obvious.
+Dialogue: 0,0:08:58.47,0:09:00.17,main,Yami,0000,0000,0000,,This is such a pain in the ass.
+Dialogue: 0,0:09:00.17,0:09:03.48,italics,Yami,0000,0000,0000,,Dark Magic: Dark Cloaked Lightless Blade Storm!
+Dialogue: 0,0:09:04.75,0:09:08.15,italics,Yami,0000,0000,0000,,It's taking all I have to read \Ntheir ki and dodge their attacks.
+Dialogue: 0,0:09:09.44,0:09:11.61,main,Yami,0000,0000,0000,,Watch what you're doing, \Nyou giant string bean!
+Dialogue: 0,0:09:13.86,0:09:16.69,main,Jack,0000,0000,0000,,Death Scythe! Death Scythe!
+Dialogue: 0,0:09:22.27,0:09:23.62,main,Jack,0000,0000,0000,,I'm getting excited!
+Dialogue: 0,0:09:25.22,0:09:28.58,italics,Yami,0000,0000,0000,,The crazy dude's being even crazier than usual.
+Dialogue: 0,0:09:29.83,0:09:32.63,italics,Finral,0000,0000,0000,,Two captains are struggling this much?
+Dialogue: 0,0:09:34.69,0:09:38.14,main,Yami,0000,0000,0000,,Hey, you get it by now, don't you,\Nyou giant string bean weirdo?
+Dialogue: 0,0:09:38.14,0:09:40.90,main,Jack,0000,0000,0000,,Hell yeah, I do.
+Dialogue: 0,0:09:40.90,0:09:43.31,main,Jack,0000,0000,0000,,Severing Magic: Death Scythe!
+Dialogue: 0,0:09:43.31,0:09:46.27,main,Squad A,0000,0000,0000,,Your magic won't work on m—
+Dialogue: 0,0:09:49.85,0:09:52.61,main,Jack,0000,0000,0000,,There's nothing I can't sever.
+Dialogue: 0,0:09:52.61,0:09:57.11,main,Jack,0000,0000,0000,,All right, now show me \Nyou're worth slashing apart!
+Dialogue: 0,0:09:57.70,0:10:01.24,main,Guy,0000,0000,0000,,Impossible... The property \Nof the magic itself changed?
+Dialogue: 0,0:10:01.24,0:10:03.24,main,Yami,0000,0000,0000,,Found someone who let down his guard.
+Dialogue: 0,0:10:03.24,0:10:06.38,main,Yami,0000,0000,0000,,Dark Magic: Dark Cloaked \NLightless Blunt Strike!
+Dialogue: 0,0:10:07.46,0:10:10.00,main,Yami,0000,0000,0000,,I think you're starting to see it, too...
+Dialogue: 0,0:10:10.51,0:10:11.75,main,Yami,0000,0000,0000,,Finral!
+Dialogue: 0,0:10:11.75,0:10:13.12,main,Finral,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:10:13.12,0:10:16.22,italics,Finral,0000,0000,0000,,Spatial Magic: Fallen Angel Gate!
+Dialogue: 0,0:10:18.06,0:10:19.05,main,Guy,0000,0000,0000,,What?
+Dialogue: 0,0:10:23.73,0:10:27.06,main,Finral,0000,0000,0000,,Heck yeah! Great job, you two!
+Dialogue: 0,0:10:27.83,0:10:31.58,main,Yami,0000,0000,0000,,Looks like you're finally \Nstarting to get it, Finral.
+Dialogue: 0,0:10:31.58,0:10:36.21,main,Jack,0000,0000,0000,,You've got some skill if you can \Nsupport me in combat, you bastard.
+Dialogue: 0,0:10:36.21,0:10:38.09,main,Finral,0000,0000,0000,,Th-Thanks...
+Dialogue: 0,0:10:38.09,0:10:39.82,italics,Finral,0000,0000,0000,,Holy crap, he's scary!
+Dialogue: 0,0:10:39.82,0:10:43.82,main,Yami,0000,0000,0000,,Hey, he's my ride.
+Dialogue: 0,0:10:43.82,0:10:45.58,italics,Finral,0000,0000,0000,,He's terrifying, too!
+Dialogue: 0,0:10:45.58,0:10:48.31,main,Jack,0000,0000,0000,,Don't be stingy. \NLet me borrow him sometime.
+Dialogue: 0,0:10:48.31,0:10:50.54,main,Yami,0000,0000,0000,,Like hell I will, string bean man.
+Dialogue: 0,0:10:50.54,0:10:53.75,main,Finral,0000,0000,0000,,C-Come on, you two... We have to hurry.
+Dialogue: 0,0:10:54.77,0:10:55.78,main,Finral,0000,0000,0000,,That's—
+Dialogue: 0,0:10:57.80,0:11:00.76,sign_12339_133_Finnes_Calmreich,Sign,0000,0000,0000,,{\blur3\fad(732,1)}Silva Residence
+Dialogue: 0,0:11:03.85,0:11:06.27,main,Guy,0000,0000,0000,,What in the world are you doing, Golden Dawn?!
+Dialogue: 0,0:11:06.27,0:11:10.75,main,Guy,0000,0000,0000,,You Magic Knights exist to protect \Nthose of us in the upper classes!
+Dialogue: 0,0:11:11.94,0:11:14.71,italics,Guy,0000,0000,0000,,Why?! What's going on?
+Dialogue: 0,0:11:14.71,0:11:16.50,italics,Guy,0000,0000,0000,,This is the royal palace!
+Dialogue: 0,0:11:16.50,0:11:18.73,italics,Guy,0000,0000,0000,,We'd only gather here to curry \Nfavor with the House of Silva,
+Dialogue: 0,0:11:18.73,0:11:21.18,italics,Guy,0000,0000,0000,,to see if they'd grant us \Na share of their power.
+Dialogue: 0,0:11:21.18,0:11:23.57,italics,Guy,0000,0000,0000,,Why in the world is this happening?!
+Dialogue: 0,0:11:23.59,0:11:26.92,main,Guy,0000,0000,0000,,Be my shield, you common servant!
+Dialogue: 0,0:11:26.92,0:11:30.66,main,Guy,0000,0000,0000,,You lower classes only exist for us—
+Dialogue: 0,0:11:31.83,0:11:33.60,main,Lady,0000,0000,0000,,No!
+Dialogue: 0,0:11:33.60,0:11:35.59,main,kivn,0000,0000,0000,,There's no point in seeking out a decoy.
+Dialogue: 0,0:11:35.98,0:11:39.04,main,kivn,0000,0000,0000,,My needles will only pierce \Ntheir intended targets.
+Dialogue: 0,0:11:39.04,0:11:42.18,main,Kivn,0000,0000,0000,,They'll pursue you, no matter how \Nfar you go, until they hit you.
+Dialogue: 0,0:11:45.25,0:11:49.78,main,Kivn,0000,0000,0000,,Of course, we're killing all the humans \Nanyway, so I guess that didn't matter much.
+Dialogue: 0,0:11:58.15,0:11:59.85,main,Solid,0000,0000,0000,,Damn it... Damn it!
+Dialogue: 0,0:11:59.85,0:12:01.24,main,Solid,0000,0000,0000,,I can't quell my rage!
+Dialogue: 0,0:12:01.73,0:12:05.24,main,Nebra,0000,0000,0000,,You lost to Noelle? How pathetic, Solid.
+Dialogue: 0,0:12:05.71,0:12:08.24,main,Nebra,0000,0000,0000,,I'm sure you just let your guard down.
+Dialogue: 0,0:12:10.51,0:12:14.21,flashbackitalics,Solid,0000,0000,0000,,You can't be serious! \NNoelle couldn't cast a spell like that!
+Dialogue: 0,0:12:14.21,0:12:16.46,flashback,Noelle,0000,0000,0000,,Solid...
+Dialogue: 0,0:12:16.98,0:12:19.67,flashback,Noelle,0000,0000,0000,,It's all right if I hit you, right?
+Dialogue: 0,0:12:19.67,0:12:21.97,flashback,Solid,0000,0000,0000,,Just go ahead and try it!
+Dialogue: 0,0:12:21.97,0:12:24.47,flashback,Solid,0000,0000,0000,,You complete failure!
+Dialogue: 0,0:12:24.47,0:12:26.39,flashback,Noelle,0000,0000,0000,,Sea Dragon's Roar!
+Dialogue: 0,0:12:32.46,0:12:34.40,main,Solid,0000,0000,0000,,Curse that Noelle!
+Dialogue: 0,0:12:34.40,0:12:36.69,main,Solid,0000,0000,0000,,I'll make her pay for this!
+Dialogue: 0,0:12:37.59,0:12:39.44,main,Nebra,0000,0000,0000,,What's this presence I sense?
+Dialogue: 0,0:12:39.44,0:12:41.82,main,Nebra,0000,0000,0000,,I feel a bit uneasy.
+Dialogue: 0,0:12:46.99,0:12:49.24,main,Solid,0000,0000,0000,,A Golden Dawn member?
+Dialogue: 0,0:12:49.24,0:12:51.31,main,Solid,0000,0000,0000,,Do you know where you are?!
+Dialogue: 0,0:12:51.31,0:12:53.25,main,Solid,0000,0000,0000,,What do you think you're doing?!
+Dialogue: 0,0:12:53.25,0:12:56.47,main,Kivn,0000,0000,0000,,This magical power... You must be royals.
+Dialogue: 0,0:12:57.08,0:12:59.80,main,Kivn,0000,0000,0000,,Descendants of that tainted bloodline...
+Dialogue: 0,0:12:59.80,0:13:02.13,main,Kivn,0000,0000,0000,,I've come to kill you.
+Dialogue: 0,0:13:03.21,0:13:05.30,italics,Nebra,0000,0000,0000,,This immense power...
+Dialogue: 0,0:13:06.09,0:13:10.14,main,Nebra,0000,0000,0000,,It looks like we need to \Nteach you some manners.
+Dialogue: 0,0:13:11.19,0:13:13.68,main,Nebra,0000,0000,0000,,Mist Magic: Solid Mist Clones!
+Dialogue: 0,0:13:14.06,0:13:16.10,main,Nebra,0000,0000,0000,,I guess I'll play with you for a bit.
+Dialogue: 0,0:13:16.10,0:13:17.52,main,Nebra,0000,0000,0000,,Mist Spider's Threads!
+Dialogue: 0,0:13:19.39,0:13:22.34,main,Nebra,0000,0000,0000,,You can taste how powerful \Na royal's magic is yourself!
+Dialogue: 0,0:13:24.03,0:13:25.95,main,Nebra,0000,0000,0000,,The lowly shall always be lowly.
+Dialogue: 0,0:13:30.37,0:13:33.50,main,Kivn,0000,0000,0000,,Compass Magic: Useless North.
+Dialogue: 0,0:13:36.87,0:13:38.25,main,Nebra,0000,0000,0000,,Impossible...
+Dialogue: 0,0:13:39.11,0:13:44.13,main,Nebra,0000,0000,0000,,She was able to find my location \Nwithout even trying to hit my clones?
+Dialogue: 0,0:13:45.97,0:13:48.71,main,Kivn,0000,0000,0000,,What an underhanded spell. \NIt's perfect for you humans.
+Dialogue: 0,0:13:48.71,0:13:49.72,main,Solid,0000,0000,0000,,Nebra!
+Dialogue: 0,0:13:49.72,0:13:54.06,main,Solid,0000,0000,0000,,How dare you?! Don't think you're \Ngoing to get away with this!
+Dialogue: 0,0:13:54.06,0:13:58.06,main,Kivn,0000,0000,0000,,Oh? You're royalty, but you can't tell?
+Dialogue: 0,0:13:59.34,0:14:03.44,italics,Solid,0000,0000,0000,,What? I sense an even more \Nimmense power outside.
+Dialogue: 0,0:14:04.31,0:14:06.95,main,Kivn,0000,0000,0000,,You humans are about to be destroyed.
+Dialogue: 0,0:14:21.47,0:14:24.34,main,Jack,0000,0000,0000,,There's something crazy in there!
+Dialogue: 0,0:14:24.34,0:14:27.51,main,Jack,0000,0000,0000,,Looks like this is gonna \Nbe even more fun now.
+Dialogue: 0,0:14:27.51,0:14:28.85,main,Finral,0000,0000,0000,,Wait, wait, wait, wait, wait, wait!
+Dialogue: 0,0:14:28.85,0:14:31.49,main,Finral,0000,0000,0000,,There's absolutely nothing fun \Nabout this! Not in the least!
+Dialogue: 0,0:14:31.49,0:14:34.35,main,Finral,0000,0000,0000,,That's probably the enemy's hideout, \Nisn't it? That's super bad!
+Dialogue: 0,0:14:34.35,0:14:37.60,main,Finral,0000,0000,0000,,Why are there even more crazy enemies now?!
+Dialogue: 0,0:14:37.91,0:14:39.91,main,Yami,0000,0000,0000,,Damn it...
+Dialogue: 0,0:14:39.91,0:14:44.14,main,Yami,0000,0000,0000,,Who the hell invited that giant rock?
+Dialogue: 0,0:14:44.67,0:14:48.24,main,Yami,0000,0000,0000,,But look. A pretty little \Nbird just showed up, too.
+Dialogue: 0,0:14:52.13,0:14:55.24,main,Nozel,0000,0000,0000,,We will not let the castle fall,\N no matter what.
+Dialogue: 0,0:14:55.59,0:14:59.25,main,Yami,0000,0000,0000,,Welcome home, royals.
+Dialogue: 0,0:15:00.10,0:15:02.91,main,Finral,0000,0000,0000,,Hey, Noelle!
+Dialogue: 0,0:15:02.00,0:15:05.21,main,Noelle,0000,0000,0000,,That's... Captain Yami?
+Dialogue: 0,0:15:02.91,0:15:04.83,top,Finral,0000,0000,0000,,Over here!
+Dialogue: 0,0:15:04.83,0:15:09.42,top,Finral,0000,0000,0000,,I'm with Captain Yami! Do you see me?
+Dialogue: 0,0:15:05.21,0:15:07.73,main,Noelle,0000,0000,0000,,And... Finral?!
+Dialogue: 0,0:15:07.73,0:15:09.42,main,En,0000,0000,0000,,And Captain Jack...
+Dialogue: 0,0:15:09.42,0:15:13.37,main,Finral,0000,0000,0000,,I'm so sorry to make you worry, Noelle!
+Dialogue: 0,0:15:13.37,0:15:15.81,main,Finral,0000,0000,0000,,I'm sure it was rough without me around—
+Dialogue: 0,0:15:15.81,0:15:17.56,main,Noelle,0000,0000,0000,,You've got at least a hundred years
+Dialogue: 0,0:15:17.56,0:15:20.69,main,Noelle,0000,0000,0000,,before I start worrying \Nabout you, wimpy Finral!
+Dialogue: 0,0:15:18.77,0:15:24.77,sign_22029_222_Wimpy,Sign,0000,0000,0000,,Wimpy
+Dialogue: 0,0:15:20.69,0:15:24.77,main,Noelle,0000,0000,0000,,You'd better start making up for all \Nthat carefree sleep you got to have!
+Dialogue: 0,0:15:20.83,0:15:24.77,sign_22078_223_Carefree,Sign,0000,0000,0000,,Carefree
+Dialogue: 0,0:15:25.22,0:15:26.89,main,Noelle,0000,0000,0000,,Honestly...
+Dialogue: 0,0:15:26.89,0:15:30.07,italics,Noelle,0000,0000,0000,,Jeez... I'm so glad he's okay!
+Dialogue: 0,0:15:30.07,0:15:31.93,main,Kirsch,0000,0000,0000,,Were you waiting
+Dialogue: 0,0:15:31.93,0:15:37.35,main,Kirsch,0000,0000,0000,,in anticipation for my beautiful \Nself to make my beautiful entrance?
+Dialogue: 0,0:15:37.78,0:15:39.96,main,Mimosa,0000,0000,0000,,Brother, that's just painful...
+Dialogue: 0,0:15:41.34,0:15:42.37,main,Yami,0000,0000,0000,,That's...
+Dialogue: 0,0:15:44.19,0:15:47.22,main,Zora,0000,0000,0000,,It's been a while, Psycho Captain.
+Dialogue: 0,0:15:47.22,0:15:52.13,main,Zora,0000,0000,0000,,I finally joined the Magic Knights, \Nsince the rest of you are all so damn useless.
+Dialogue: 0,0:15:52.13,0:15:54.23,main,Yami,0000,0000,0000,,Wait, who are you again?
+Dialogue: 0,0:15:55.66,0:15:57.75,main,Zora,0000,0000,0000,,Quit messing with me!
+Dialogue: 0,0:15:57.75,0:16:00.89,main,Zora,0000,0000,0000,,I'm a member of your squad! \NThe one that's filled with troublemakers!
+Dialogue: 0,0:16:00.89,0:16:03.79,main,Zora,0000,0000,0000,,You'd better take responsibility \Nfor giving me this robe,
+Dialogue: 0,0:16:03.79,0:16:05.48,main,Zora,0000,0000,0000,,you random-ass captain!
+Dialogue: 0,0:16:05.86,0:16:08.27,italics,Yami,0000,0000,0000,,Took you long enough, dumbass.
+Dialogue: 0,0:16:08.27,0:16:09.99,italics,Yami,0000,0000,0000,,How long were you going to make me wait?
+Dialogue: 0,0:16:10.46,0:16:13.15,main,Yami,0000,0000,0000,,You better work hard to make \Nup for being so late, Zora!
+Dialogue: 0,0:16:13.70,0:16:18.20,main,Yami,0000,0000,0000,,So, where the hell have \Nyou been, Captain Royalty?
+Dialogue: 0,0:16:18.20,0:16:21.30,main,Yami,0000,0000,0000,,Your house is a huge mess right now.
+Dialogue: 0,0:16:22.53,0:16:26.67,main,Jack,0000,0000,0000,,If you waste too much time, \Nwe're gonna beat you into the castle!
+Dialogue: 0,0:16:27.82,0:16:30.33,main,Nozel,0000,0000,0000,,Foreigners and former commoners...
+Dialogue: 0,0:16:30.33,0:16:35.59,main,Kirsch,0000,0000,0000,,Fear not. You're one of the few \Nthat I actually consider beautiful.
+Dialogue: 0,0:16:35.59,0:16:37.22,main,Nozel,0000,0000,0000,,And you can shut your mouth.
+Dialogue: 0,0:16:37.54,0:16:40.17,main,Yami,0000,0000,0000,,We're gonna go to the king,
+Dialogue: 0,0:16:40.17,0:16:42.98,main,Yami,0000,0000,0000,,so you guys can figure out what \Nto do about your house!
+Dialogue: 0,0:16:43.87,0:16:47.20,main,Yami,0000,0000,0000,,The enemy's powerful. Don't try \Nto take them down recklessly.
+Dialogue: 0,0:16:47.20,0:16:50.07,main,Yami,0000,0000,0000,,Your only goal is to rescue and retreat!
+Dialogue: 0,0:16:50.07,0:16:53.07,main,Jack,0000,0000,0000,,Who the hell died and \Nmade you the boss, Yami?!
+Dialogue: 0,0:16:53.07,0:16:56.07,main,Yami,0000,0000,0000,,None of you bastards better die, got it?!
+Dialogue: 0,0:16:56.49,0:16:59.33,main,Nozel,0000,0000,0000,,You're the last person \NI need to hear that from.
+Dialogue: 0,0:17:02.77,0:17:07.62,italics,Noelle,0000,0000,0000,,My home... I never thought I'd come\Nback to it under these circumstances.
+Dialogue: 0,0:17:11.35,0:17:12.45,main,Noelle,0000,0000,0000,,This is so cruel.
+Dialogue: 0,0:17:12.89,0:17:16.05,main,Nozel,0000,0000,0000,,How dare they taint our castle like this?
+Dialogue: 0,0:17:16.05,0:17:17.64,main,Nozel,0000,0000,0000,,They will pay for this.
+Dialogue: 0,0:17:17.64,0:17:19.47,main,Zora,0000,0000,0000,,Hup!
+Dialogue: 0,0:17:20.47,0:17:25.18,main,Zora,0000,0000,0000,,Just a reminder that I don't \Ngive a shit about you royals.
+Dialogue: 0,0:17:25.18,0:17:27.22,main,Zora,0000,0000,0000,,I'm gonna do whatever I want.
+Dialogue: 0,0:17:27.73,0:17:31.69,italics,Zora,0000,0000,0000,,We've gotta move smart, \Ngiven the number of enemies we have.
+Dialogue: 0,0:17:31.69,0:17:34.72,main,Noelle,0000,0000,0000,,Hey! Who said you could leave?
+Dialogue: 0,0:17:34.72,0:17:35.82,main,Nozel,0000,0000,0000,,Leave him be.
+Dialogue: 0,0:17:36.99,0:17:39.88,main,Nozel,0000,0000,0000,,He was selected to be a Royal Knight.
+Dialogue: 0,0:17:39.88,0:17:42.11,main,Nozel,0000,0000,0000,,I'm sure he has his own way of fighting.
+Dialogue: 0,0:17:42.73,0:17:43.57,main,Nozel,0000,0000,0000,,Here they come.
+Dialogue: 0,0:17:45.50,0:17:47.50,main,Guy,0000,0000,0000,,There you are, royals!
+Dialogue: 0,0:17:50.88,0:17:53.09,main,Guy,0000,0000,0000,,I shall mete out your punishment!
+Dialogue: 0,0:17:54.47,0:17:57.72,main,Nozel,0000,0000,0000,,To think you'd lose your \Ncomposure in front of me...
+Dialogue: 0,0:17:58.15,0:18:00.13,italics,Noelle,0000,0000,0000,,Using fine mana control to use
+Dialogue: 0,0:18:00.13,0:18:03.56,italics,Noelle,0000,0000,0000,,free-transforming mercury magic \Nfor both attack and defense...
+Dialogue: 0,0:18:03.56,0:18:06.31,italics,Noelle,0000,0000,0000,,Nozel is truly amazing.
+Dialogue: 0,0:18:14.51,0:18:15.87,italics,Noelle,0000,0000,0000,,Mother...
+Dialogue: 0,0:18:17.34,0:18:19.82,main,Nozel,0000,0000,0000,,We're going to take down \Nthe strongest first!
+Dialogue: 0,0:18:20.77,0:18:22.33,main,Noelle,0000,0000,0000,,That's—
+Dialogue: 0,0:18:29.39,0:18:33.96,italics,Solid,0000,0000,0000,,Her stupidly huge magical powers are \Ngetting in the way! I can't hit her!
+Dialogue: 0,0:18:33.96,0:18:37.34,italics,Solid,0000,0000,0000,,This... This can't be happening!
+Dialogue: 0,0:18:39.22,0:18:42.26,italics,Solid,0000,0000,0000,,Water Creation Magic: Sea Serpent's Coils!
+Dialogue: 0,0:18:45.65,0:18:49.82,main,Solid,0000,0000,0000,,Damn it... Damn it, damn it, damn it!
+Dialogue: 0,0:18:49.82,0:18:51.10,main,Nebra,0000,0000,0000,,Solid...
+Dialogue: 0,0:18:51.10,0:18:53.40,main,Solid,0000,0000,0000,,I'm royalty, damn it!
+Dialogue: 0,0:18:53.40,0:18:54.83,main,Kivn,0000,0000,0000,,How pathetic.
+Dialogue: 0,0:18:55.46,0:18:57.03,main,Kivn,0000,0000,0000,,You can die now.
+Dialogue: 0,0:18:57.90,0:19:00.11,main,Solid,0000,0000,0000,,Damn it!
+Dialogue: 0,0:19:06.06,0:19:07.49,main,Solid,0000,0000,0000,,Nozel!
+Dialogue: 0,0:19:09.00,0:19:10.23,main,Solid,0000,0000,0000,,Noelle!
+Dialogue: 0,0:19:11.05,0:19:12.50,italics,Noelle,0000,0000,0000,,Mana Skin!
+Dialogue: 0,0:19:13.13,0:19:16.13,main,Noelle,0000,0000,0000,,Water Creation Magic: Sea Dragon's Roar!
+Dialogue: 0,0:19:17.13,0:19:18.37,italics,Noelle,0000,0000,0000,,I've got her!
+Dialogue: 0,0:19:18.87,0:19:23.01,main,Kivn,0000,0000,0000,,Compass Magic: Willful Compass!
+Dialogue: 0,0:19:25.61,0:19:26.83,italics,Noelle,0000,0000,0000,,She deflected it!
+Dialogue: 0,0:19:28.02,0:19:32.52,italics,Solid,0000,0000,0000,,Noelle managed to get a spell \Nthrough the enemy's mana?!
+Dialogue: 0,0:19:33.14,0:19:37.53,main,Nebra,0000,0000,0000,,Nozel... Thank you... very much.
+Dialogue: 0,0:19:38.21,0:19:41.47,italics,Nebra,0000,0000,0000,,Noelle managed to cast that incredible spell?
+Dialogue: 0,0:19:42.71,0:19:44.82,italics,Nebra,0000,0000,0000,,But that didn't work, either.
+Dialogue: 0,0:19:45.27,0:19:48.97,italics,Nebra,0000,0000,0000,,I hate to admit it, but I'd \Njust hold them back right now.
+Dialogue: 0,0:19:49.43,0:19:52.33,italics,Nebra,0000,0000,0000,,I should probably retreat.
+Dialogue: 0,0:19:52.89,0:19:56.05,main,Nebra,0000,0000,0000,,Mist Magic: Bewildering Forest of Mist!
+Dialogue: 0,0:19:57.05,0:19:59.05,main,Kivn,0000,0000,0000,,I won't let any of you get away.
+Dialogue: 0,0:19:59.05,0:20:02.76,italics,Kivn,0000,0000,0000,,Compass Magic: Another Atlas!
+Dialogue: 0,0:20:07.39,0:20:11.39,main,Kivn,0000,0000,0000,,You won't be able to escape this \Nplace unless you defeat me!
+Dialogue: 0,0:20:12.87,0:20:14.26,italics,Nozel,0000,0000,0000,,This is...
+Dialogue: 0,0:20:14.26,0:20:16.65,italics,Nozel,0000,0000,0000,,I can't control my magic!
+Dialogue: 0,0:20:16.65,0:20:21.03,main,Kivn,0000,0000,0000,,This spell forcibly disturbs \Nthe mana in this area.
+Dialogue: 0,0:20:21.51,0:20:27.59,main,Kivn,0000,0000,0000,,No matter how powerful your magic, \N your spells won't hit me now.
+Dialogue: 0,0:20:27.59,0:20:28.66,main,Kivn,0000,0000,0000,,However...
+Dialogue: 0,0:20:34.99,0:20:38.75,main,Kivn,0000,0000,0000,,My spells won't fail to hit you.
+Dialogue: 0,0:20:39.42,0:20:41.14,main,Solid,0000,0000,0000,,Nozel!
+Dialogue: 0,0:20:41.94,0:20:43.22,main,Nozel,0000,0000,0000,,Calm down.
+Dialogue: 0,0:20:44.03,0:20:46.34,main,Nozel,0000,0000,0000,,You can no longer fight.
+Dialogue: 0,0:20:46.34,0:20:47.97,main,Nozel,0000,0000,0000,,Worry about your own—
+Dialogue: 0,0:20:49.30,0:20:53.39,main,Noelle,0000,0000,0000,,It's okay... It's okay...
+Dialogue: 0,0:20:54.58,0:20:56.39,main,Noelle,0000,0000,0000,,I did all that training.
+Dialogue: 0,0:20:57.01,0:20:59.34,main,Noelle,0000,0000,0000,,I can do this... I can do this!
+Dialogue: 0,0:21:00.11,0:21:02.86,main,Noelle,0000,0000,0000,,I can still fight!
+Dialogue: 0,0:21:05.45,0:21:07.81,main,Solid,0000,0000,0000,,Come, Noelle. Let's show her the true power
+Dialogue: 0,0:21:08.50,0:21:10.34,main,Solid,0000,0000,0000,,of the royal House of Silva!
+Dialogue: 0,0:22:42.00,0:22:46.51,sign_33083_276_Petit_Clover_,Sign,0000,0000,0000,,{\fad(1,520)}Pe{\c&H3BC020&}t{\c&HE2AF0F&}i{\c&H3BC020&}t C{\c&HE2AF0F&}l{\c&H3BC020&}o{\c&H0E42D4&}ve{\c&H3BC020&}r
+Dialogue: 0,0:22:42.95,0:22:45.98,main,All,0000,0000,0000,,Petit Clover!
+Dialogue: 0,0:22:46.41,0:22:50.01,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Jack the Amazing (Rippa)
+Dialogue: 0,0:22:46.95,0:22:49.13,main,Jack,0000,0000,0000,,Jack the Amazing (Rippa).
+Dialogue: 0,0:22:50.01,0:22:52.26,main,Jack,0000,0000,0000,,There's nothing I can't sever.
+Dialogue: 0,0:22:52.26,0:22:55.52,main,Jack,0000,0000,0000,,All right, now show me \Nyou're worth slashing apart!
+Dialogue: 0,0:22:55.52,0:22:59.77,main,Jack,0000,0000,0000,,So with these... you gotta \Ncut them just the right size.
+Dialogue: 0,0:22:59.77,0:23:01.27,main,Jack,0000,0000,0000,,Death Scythe.
+Dialogue: 0,0:23:01.63,0:23:04.52,main,Jack,0000,0000,0000,,All right, now show me \Nyou're worth slashing apart!
+Dialogue: 0,0:23:04.90,0:23:09.78,main,Jack,0000,0000,0000,,So for this, you gotta dice it all up.\N Dicing things up is great.
+Dialogue: 0,0:23:09.78,0:23:12.62,main,Jack,0000,0000,0000,,Gotta love how that sounds.
+Dialogue: 0,0:23:12.62,0:23:14.12,main,Jack,0000,0000,0000,,Death Scythe.
+Dialogue: 0,0:23:14.12,0:23:17.87,main,Jack,0000,0000,0000,,All right, now show me \Nyou're worth slashing apart!
+Dialogue: 0,0:23:17.87,0:23:22.67,main,Jack,0000,0000,0000,,They said bite-size, but isn't that pretty \Nbig when you're considering my mouth?
+Dialogue: 0,0:23:23.11,0:23:24.17,main,Jack,0000,0000,0000,,Death Scythe.
+Dialogue: 0,0:23:24.17,0:23:27.17,main,Jack,0000,0000,0000,,You need to make sure it doesn't \Nboil over once you put the miso in.
+Dialogue: 0,0:23:27.17,0:23:28.81,main,Jack,0000,0000,0000,,It's done!
+Dialogue: 0,0:23:28.81,0:23:31.93,main,Jack,0000,0000,0000,,Look at this amazing pork miso soup!
+Dialogue: 0,0:23:34.13,0:23:37.86,main,Jack,0000,0000,0000,,I forgot the dashi! Damn it!
+Dialogue: 0,0:23:39.79,0:23:43.06,italics,Nar,0000,0000,0000,,There was once a warrior called \Nthe Steel Warrior Princess.
+Dialogue: 0,0:23:43.06,0:23:45.77,italics,Nar,0000,0000,0000,,She would dance across the battlefield.
+Dialogue: 0,0:23:45.77,0:23:49.94,italics,nar,0000,0000,0000,,Next time on {\i0}Black Clover{\i1}, \NPage 108: "Battlefield Dancer."
+Dialogue: 0,0:23:47.15,0:23:54.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 108\N\N{\fs18} Battlefield Dancer
+Dialogue: 0,0:23:49.94,0:23:53.99,italics,Nar,0000,0000,0000,,Time has passed, and now Noelle Silva \Nwill dance across the battlefield.

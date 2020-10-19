@@ -1,0 +1,361 @@
+[Script Info]
+Title: English (US)
+Original Script: tvtm  [http://www.crunchyroll.com/user/tvtm]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0020,1
+Style: Default - Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0020,1
+Style: OP_ED,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: main,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: italicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,0
+Style: flashbacktop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: flashbackitalicstop,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,-1,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Ep Title,Trebuchet MS,24,&H00E0F7FB,&H000000FF,&H1900122E,&H000D1728,-1,-1,0,0,100,100,0,0,1,2,0,8,0030,0030,0020,1
+Style: sign_34238_338_Page_2_The_Boys_,Trebuchet MS,14,&H00FFFFF8,&H000000FF,&H002D2F36,&H000D1728,0,0,0,0,100,100,0,0,1,1,1,2,0030,0030,0210,1
+Style: sign_12339_133_Finnes_Calmreich,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0075,1
+Style: sign_14960_120_The_Apostles_of_,Times New Roman,30,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0100,1
+Style: sign_26668_324_Black_Bulls__Hid,Times New Roman,36,&H00FFFFFD,&H000000FF,&H3220221D,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0040,0125,1
+Style: sign_27919_273_Equinox,Times New Roman,30,&H00FFFFFF,&H000000FF,&H00000302,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_4757_29_Royal_Capital__M,Times New Roman,30,&H00FEFEFD,&H000000FF,&H3214100F,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0030,0030,0080,1
+Style: sign_9150_79_Awkward,Times New Roman,28,&H00CB93EA,&H000000FF,&H00C3C9CC,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,3,0,2,0020,0020,0030,1
+Style: sign_9252_82_Trouble,Verdana,40,&H0034E0E9,&H000000FF,&H00BEC2C9,&H00E9EAEE,-1,0,0,0,100,100,0,0,1,4,0,2,0055,0030,0275,1
+Style: sign_33083_276_Petit_Clover_,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0030,0030,0020,1
+Style: sign_33188_278_The_Mystery_of_t,Verdana,30,&H000E42D4,&H000000FF,&H00FFFFFF,&H001900B0,-1,0,0,0,100,100,0,0,1,3,3,5,0030,0030,0018,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:05.33,0:00:07.06,italics,Nar,0000,0000,0000,,The Clover Kingdom.
+Dialogue: 0,0:00:07.58,0:00:09.61,italics,Nar,0000,0000,0000,,In this kingdom where magic is everything,
+Dialogue: 0,0:00:09.61,0:00:12.95,italics,Nar,0000,0000,0000,,there is one boy who can't use magic.
+Dialogue: 0,0:00:13.41,0:00:15.61,italics,Nar,0000,0000,0000,,His name is Asta.
+Dialogue: 0,0:00:16.31,0:00:18.87,italics,Nar,0000,0000,0000,,With guts and hard work, \Nhe made it into the Magic Knights,
+Dialogue: 0,0:00:18.87,0:00:21.70,italics,Nar,0000,0000,0000,,and he never gave up, \Ndespite how much he got hurt.
+Dialogue: 0,0:00:21.70,0:00:24.69,italics,Nar,0000,0000,0000,,He continues to diligently \Naim for the top!
+Dialogue: 0,0:00:26.23,0:00:27.79,italics,Nar,0000,0000,0000,,Even if you are a peasant,
+Dialogue: 0,0:00:27.79,0:00:29.63,italics,Nar,0000,0000,0000,,or even if you're poor...
+Dialogue: 0,0:00:29.94,0:00:32.38,italics,Nar,0000,0000,0000,,Anyone in this world can still shine!
+Dialogue: 0,0:00:32.82,0:00:35.15,italics,Nar,0000,0000,0000,,He's working hard to prove that,
+Dialogue: 0,0:00:35.15,0:00:37.85,italics,Nar,0000,0000,0000,,and to become the Wizard King!
+Dialogue: 0,0:02:05.24,0:02:08.60,Ep Title,Sign,0000,0000,0000,,{\blur2}The Blue Rose's Confession
+Dialogue: 0,0:02:18.74,0:02:20.74,main,Asta,0000,0000,0000,,Doing this! Doing that!
+Dialogue: 0,0:02:34.71,0:02:37.72,main,Asta,0000,0000,0000,,There, there, good boys. Here's your food.
+Dialogue: 0,0:02:43.46,0:02:44.41,main,Nero,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:02:44.41,0:02:47.80,main,Asta,0000,0000,0000,,And after I played with you guys...
+Dialogue: 0,0:02:47.80,0:02:50.03,main,Yami,0000,0000,0000,,Do you have to be so loud \Nthis early in the morning, kid?
+Dialogue: 0,0:02:50.03,0:02:52.48,main,Yami,0000,0000,0000,,You're not even letting me \Npush one out in peace.
+Dialogue: 0,0:02:55.18,0:02:58.27,main,Yami,0000,0000,0000,,Hey, how long are you gonna \Nkeep messing around? Let's go!
+Dialogue: 0,0:02:59.95,0:03:01.49,main,Asta,0000,0000,0000,,Where are we going?
+Dialogue: 0,0:03:01.83,0:03:03.82,main,Yami,0000,0000,0000,,Huh? Where the hell do you think?
+Dialogue: 0,0:03:03.82,0:03:05.50,main,Yami,0000,0000,0000,,To find out more about the devils.
+Dialogue: 0,0:03:05.50,0:03:08.61,main,Yami,0000,0000,0000,,We're going to start with the curse, weg.
+Dialogue: 0,0:03:08.61,0:03:11.30,main,Yami,0000,0000,0000,,We'll get some clues from that.
+Dialogue: 0,0:03:11.83,0:03:12.88,main,Asta,0000,0000,0000,,Right!
+Dialogue: 0,0:03:14.22,0:03:15.38,main,Yami,0000,0000,0000,,You come, too.
+Dialogue: 0,0:03:16.67,0:03:17.53,main,Secre,0000,0000,0000,,All right.
+Dialogue: 0,0:03:18.38,0:03:21.38,sign_4757_29_Royal_Capital__M,Sign,0000,0000,0000,,{\blur2}Royal Capital: Magic Knights Squad Hospital
+Dialogue: 0,0:03:22.98,0:03:25.39,main,Charlotte,0000,0000,0000,,I'm very sorry, Sol.
+Dialogue: 0,0:03:26.73,0:03:31.39,main,Charlotte,0000,0000,0000,,An elf stole my body... \Nand I couldn't protect all of you.
+Dialogue: 0,0:03:31.97,0:03:33.65,main,Charlotte,0000,0000,0000,,I'm a failure as a captain.
+Dialogue: 0,0:03:33.65,0:03:34.85,main,Sol,0000,0000,0000,,That's not true!
+Dialogue: 0,0:03:35.71,0:03:37.66,main,Sol,0000,0000,0000,,It wasn't your fault, Sis!
+Dialogue: 0,0:03:38.11,0:03:40.65,main,Sol,0000,0000,0000,,I was completely useless, too.
+Dialogue: 0,0:03:41.35,0:03:45.60,main,Sol,0000,0000,0000,,The Black Bulls' captain... As much \Nas I hate to admit it, he saved us.
+Dialogue: 0,0:03:45.60,0:03:46.79,main,Charlotte,0000,0000,0000,,Yami did?
+Dialogue: 0,0:03:47.45,0:03:48.57,main,Charlotte,0000,0000,0000,,I see...
+Dialogue: 0,0:03:49.29,0:03:53.32,main,Charlotte,0000,0000,0000,,Also, don't call me "Sis." Call me "Captain."
+Dialogue: 0,0:03:53.32,0:03:54.67,main,Sol,0000,0000,0000,,Sure thing, Sis.
+Dialogue: 0,0:03:54.67,0:03:59.84,main,Sol,0000,0000,0000,,More importantly, that guy... \NI guess he's not so bad for a guy.
+Dialogue: 0,0:03:59.84,0:04:01.17,main,Sol,0000,0000,0000,,For a guy, at least.
+Dialogue: 0,0:04:01.61,0:04:04.55,main,Sol,0000,0000,0000,,I mean, he's still no match \Nfor you, though, Sis.
+Dialogue: 0,0:04:10.93,0:04:14.23,italics,Charlotte,0000,0000,0000,,Don't tell me all that wasn't a dream...
+Dialogue: 0,0:04:14.23,0:04:17.48,italics,Charlotte,0000,0000,0000,,They're things that happened \Nwhen I was possessed?
+Dialogue: 0,0:04:17.48,0:04:19.73,flashback,Charlotte,0000,0000,0000,,Well done, human.
+Dialogue: 0,0:04:20.15,0:04:25.34,italics,Charlotte,0000,0000,0000,,Y-Yami in my memories is so... close! And...
+Dialogue: 0,0:04:29.69,0:04:33.58,flashback,Charlotte,0000,0000,0000,,But I had fun fighting \Nby your side, Yami Sukehiro.
+Dialogue: 0,0:04:33.90,0:04:38.04,flashback,Yami,0000,0000,0000,,Well, look at you. Being all nice \Nand honest in the end, Charla.
+Dialogue: 0,0:04:41.25,0:04:45.58,flashback,Charla,0000,0000,0000,,I'm pretty sure I'm not as awkward \Nas the owner of this body.
+Dialogue: 0,0:04:46.94,0:04:53.07,italics,Charlotte,0000,0000,0000,,I can't remember exactly, but I think \Nit was something like that.
+Dialogue: 0,0:04:53.07,0:04:57.78,italics,Charlotte,0000,0000,0000,,Wait... Does that mean Yami \Nknows how I feel about him?
+Dialogue: 0,0:04:57.78,0:04:59.93,italics,Charlotte,0000,0000,0000,,No, that can't be...
+Dialogue: 0,0:04:59.93,0:05:01.13,main,Sol,0000,0000,0000,,Sis...
+Dialogue: 0,0:05:01.13,0:05:02.03,main,Sol,0000,0000,0000,,Hey, Sis!
+Dialogue: 0,0:05:04.34,0:05:05.45,main,Charlotte,0000,0000,0000,,What is it, Sol?
+Dialogue: 0,0:05:05.45,0:05:06.43,main,Yami,0000,0000,0000,,Yo.
+Dialogue: 0,0:05:07.46,0:05:09.95,main,Sol,0000,0000,0000,,The Captain of the Black Bulls is here.
+Dialogue: 0,0:05:15.87,0:05:18.96,main,Charlotte,0000,0000,0000,,Yami?!
+Dialogue: 0,0:05:19.49,0:05:22.21,main,Charlotte,0000,0000,0000,,Yami!
+Dialogue: 0,0:05:22.86,0:05:24.83,main,Charlotte,0000,0000,0000,,Yami!
+Dialogue: 0,0:05:25.47,0:05:29.72,main,Charlotte,0000,0000,0000,,Yami!
+Dialogue: 0,0:05:29.72,0:05:32.86,main,Charlotte,0000,0000,0000,,Wh-Wh-Wh-Wh-Wh-Wh-What are you...
+Dialogue: 0,0:05:33.29,0:05:35.31,main,Yami,0000,0000,0000,,What do you mean? I came \Nto see how you were doing.
+Dialogue: 0,0:05:35.31,0:05:37.14,main,Yami,0000,0000,0000,,Here you go, Prickly Queen.
+Dialogue: 0,0:05:38.55,0:05:42.21,italics,Charlotte,0000,0000,0000,,I-I-I do not currently have the \Nmental or emotional capacity
+Dialogue: 0,0:05:42.21,0:05:44.33,italics,Charlotte,0000,0000,0000,,to be in the same room as Yami right now...
+Dialogue: 0,0:05:44.86,0:05:48.56,italics,Charlotte,0000,0000,0000,,Sol... Chase him away \Nlike you usually do, Sol!
+Dialogue: 0,0:05:48.56,0:05:53.41,main,Sol,0000,0000,0000,,Yeah... I mean, I guess he did save you,
+Dialogue: 0,0:05:53.41,0:05:55.71,main,Sol,0000,0000,0000,,so it wouldn't hurt to let \Nhim stay for a little while.
+Dialogue: 0,0:05:55.71,0:05:57.54,italics,Charlotte,0000,0000,0000,,Sol!
+Dialogue: 0,0:05:57.54,0:06:00.13,main,Yami,0000,0000,0000,,You all better?
+Dialogue: 0,0:06:01.99,0:06:03.55,main,Sol,0000,0000,0000,,Sis?
+Dialogue: 0,0:06:06.19,0:06:08.26,main,Charlotte,0000,0000,0000,,It's not like I can stay in bed forever.
+Dialogue: 0,0:06:08.60,0:06:12.14,italics,Charlotte,0000,0000,0000,,Wh-Wh-Wh-Wh-What does my \Nface look like right now?!
+Dialogue: 0,0:06:12.14,0:06:15.43,italics,Charlotte,0000,0000,0000,,Calm down, Charlotte... \NYou can do this, Charlotte.
+Dialogue: 0,0:06:16.05,0:06:17.98,main,Yami,0000,0000,0000,,Don't push yourself too hard.
+Dialogue: 0,0:06:17.98,0:06:21.95,main,Yami,0000,0000,0000,,You've always been the \Nstubborn, awkward type.
+Dialogue: 0,0:06:21.63,0:06:25.86,sign_9150_79_Awkward,Sign,0000,0000,0000,,{\frz-89.43\pos(362,58)}Awkwa{\3c&H92979F&}rd
+Dialogue: 0,0:06:22.61,0:06:24.10,italics,Charlotte,0000,0000,0000,,Awkward...
+Dialogue: 0,0:06:24.10,0:06:25.86,main,Yami,0000,0000,0000,,You always cause so much trouble.
+Dialogue: 0,0:06:25.86,0:06:28.65,sign_9252_82_Trouble,Sign,0000,0000,0000,,{\fscx200\fscy200}Trouble
+Dialogue: 0,0:06:26.94,0:06:28.65,italics,Charlotte,0000,0000,0000,,Trouble...
+Dialogue: 0,0:06:28.65,0:06:33.16,sign_9252_82_Trouble,Sign,0000,0000,0000,,{\pos(180,146)\fscx200\fscy200}Trouble
+Dialogue: 0,0:06:29.00,0:06:30.93,main,Yami,0000,0000,0000,,But I'm a bit relieved now.
+Dialogue: 0,0:06:31.55,0:06:35.73,main,Yami,0000,0000,0000,,By the way, there's something \NI wanted to ask you, Prickly Queen.
+Dialogue: 0,0:06:37.16,0:06:39.81,italics,Charlotte,0000,0000,0000,,S-Something he wants to ask me?!
+Dialogue: 0,0:06:39.81,0:06:43.17,italics,Charlotte,0000,0000,0000,,Wh-What... D-D-D-Don't tell me...
+Dialogue: 0,0:06:43.91,0:06:45.75,main,Yami,0000,0000,0000,,You said something earlier, remember?
+Dialogue: 0,0:06:48.63,0:06:49.84,Default,Yami,0000,0000,0000,,You know...
+Dialogue: 0,0:06:50.31,0:06:52.47,italics,Charlotte,0000,0000,0000,,Wha-Wha-Wha-Wha...
+Dialogue: 0,0:06:52.85,0:06:55.68,main,Yami,0000,0000,0000,,When you were under that spell...
+Dialogue: 0,0:06:57.61,0:07:00.20,italics,Charlotte,0000,0000,0000,,S-Spell?
+Dialogue: 0,0:07:02.78,0:07:06.98,main,Yami,0000,0000,0000,,I want you to give me the details. \NSo that thing of yours...
+Dialogue: 0,0:07:08.93,0:07:10.09,main,Yami,0000,0000,0000,,I'm pretty sure it was...
+Dialogue: 0,0:07:11.25,0:07:12.51,main,Yami,0000,0000,0000,,A forbidden curse...
+Dialogue: 0,0:07:20.06,0:07:21.66,main,Asta,0000,0000,0000,,The heck?
+Dialogue: 0,0:07:23.62,0:07:25.84,main,Asta,0000,0000,0000,,Th-The Captain of the Blue Rose Knights?!
+Dialogue: 0,0:07:28.23,0:07:31.84,italics,Nero,0000,0000,0000,,Was he able to ask about the curse? About weg?
+Dialogue: 0,0:07:35.31,0:07:37.66,main,Guy,0000,0000,0000,,Come on. Why so scared?
+Dialogue: 0,0:07:37.66,0:07:40.98,main,,0000,0000,0000,,Let's just go. It'll be fine.
+Dialogue: 0,0:07:38.13,0:07:40.18,Default,Girl,0000,0000,0000,,P-Please stop.
+Dialogue: 0,0:07:40.98,0:07:44.06,main,Guy,0000,0000,0000,,Oh, come on. The country's a \Nmess right now, so we gotta—
+Dialogue: 0,0:07:44.54,0:07:46.57,main,,0000,0000,0000,,Not happening!
+Dialogue: 0,0:07:47.63,0:07:49.32,main,Girl,0000,0000,0000,,Thank you very much!
+Dialogue: 0,0:08:14.49,0:08:17.43,main,Grandma,0000,0000,0000,,That was a close one!
+Dialogue: 0,0:08:17.43,0:08:18.94,main,Grandma,0000,0000,0000,,Thank you!
+Dialogue: 0,0:08:19.37,0:08:20.18,main,Grandma,0000,0000,0000,,Oh?
+Dialogue: 0,0:08:22.18,0:08:23.81,main,Owner,0000,0000,0000,,Burglar!
+Dialogue: 0,0:08:29.32,0:08:32.74,main,Owner,0000,0000,0000,,Thank you, miss—W-Wait! \NThere's a river over there!
+Dialogue: 0,0:08:43.21,0:08:47.03,main,Yami,0000,0000,0000,,I was just hoping you could tell \Nme about the forbidden magic...
+Dialogue: 0,0:08:47.03,0:08:51.00,main,Sol,0000,0000,0000,,Sis! Come back!
+Dialogue: 0,0:09:03.09,0:09:04.75,italics,Charlotte,0000,0000,0000,,Now I've done it.
+Dialogue: 0,0:09:05.46,0:09:08.02,italics,Charlotte,0000,0000,0000,,Why am I like this?
+Dialogue: 0,0:09:08.02,0:09:10.71,italics,Charlotte,0000,0000,0000,,I wasn't able to be honest \Nwith Yami yet again.
+Dialogue: 0,0:09:11.50,0:09:14.78,italics,Charlotte,0000,0000,0000,,I'm sure he just thinks I'm a freak now...
+Dialogue: 0,0:09:15.70,0:09:19.95,italics,Charlotte,0000,0000,0000,,I became strong to persevere over \Nthe House of Roselei's curse.
+Dialogue: 0,0:09:21.74,0:09:23.94,flashback,Guy,0000,0000,0000,,Apparently, she raised her rank again.
+Dialogue: 0,0:09:23.94,0:09:27.81,flashback,Guy,0000,0000,0000,,That newbie from the \NBlue Rose Knights is so powerful!
+Dialogue: 0,0:09:27.81,0:09:30.79,flashback,Guy,0000,0000,0000,,Not to mention beautiful!
+Dialogue: 0,0:09:32.80,0:09:36.03,flashback,Suitor,0000,0000,0000,,Lady Charlotte, please marry me.
+Dialogue: 0,0:09:36.03,0:09:38.30,flashback,Suitor 2,0000,0000,0000,,No, marry me!
+Dialogue: 0,0:09:38.30,0:09:42.56,italics,Charlotte,0000,0000,0000,,But I couldn't trust men, who were all talk.
+Dialogue: 0,0:09:44.81,0:09:48.69,flashback,Charlotte,0000,0000,0000,,If you cannot defeat me, \Nyou could never accept my curse.
+Dialogue: 0,0:09:52.18,0:09:55.14,italics,Charlotte,0000,0000,0000,,And then, my curse went out of control.
+Dialogue: 0,0:09:57.43,0:09:59.00,flashback,Guy,0000,0000,0000,,The curse!
+Dialogue: 0,0:09:59.00,0:10:01.86,flashback,Guy,0000,0000,0000,,The curse upon the House \Nof Roselei has activated!
+Dialogue: 0,0:10:05.25,0:10:07.81,flashback,Guy,0000,0000,0000,,It's no use. We can't stop it! Ru—
+Dialogue: 0,0:10:12.66,0:10:14.50,flashbackitalics,Charlotte,0000,0000,0000,,It won't... stop...
+Dialogue: 0,0:10:14.97,0:10:17.84,flashbackitalics,Charlotte,0000,0000,0000,,At this rate, the town...
+Dialogue: 0,0:10:19.10,0:10:23.35,flashbackitalics,Charlotte,0000,0000,0000,,Curses! How pathetic... I'm so pathetic!
+Dialogue: 0,0:10:26.89,0:10:32.36,flashbackitalics,Charlotte,0000,0000,0000,,I'm so sorry... Mother and Father...
+Dialogue: 0,0:10:47.63,0:10:50.34,flashback,Yami,0000,0000,0000,,What the hell's the big idea, you jerk?
+Dialogue: 0,0:10:50.92,0:10:54.84,flashback,Yami,0000,0000,0000,,You flung the pasta soup \NI was eating everywhere.
+Dialogue: 0,0:10:56.19,0:11:00.66,flashbackitalics,Charlotte,0000,0000,0000,,Yami Sukehiro? To think I'd let him see \Nme in such a disgraceful situation!
+Dialogue: 0,0:11:02.01,0:11:02.84,flashbackitalics,Charlotte,0000,0000,0000,,What a failure I am.
+Dialogue: 0,0:11:02.84,0:11:08.35,flashback,Yami,0000,0000,0000,,On missions, you're as cool as a cucumber \Nand always raring to go. So what gives?
+Dialogue: 0,0:11:11.13,0:11:13.36,flashback,Yami,0000,0000,0000,,I like tough girls.
+Dialogue: 0,0:11:15.27,0:11:18.86,flashback,Yami,0000,0000,0000,,But it probably wouldn't hurt to ask\Nsomeone for help once in a while.
+Dialogue: 0,0:11:23.01,0:11:28.12,flashback,Yami,0000,0000,0000,,Our Magic Knights Squads are full \Nof strong people you can rely on.
+Dialogue: 0,0:11:30.49,0:11:33.75,italics,Charlotte,0000,0000,0000,,Yami saved me when all that was happening.
+Dialogue: 0,0:11:35.83,0:11:38.47,italics,Charlotte,0000,0000,0000,,But still, there was a part of me \Nthat didn't want to admit that,
+Dialogue: 0,0:11:38.90,0:11:43.23,italics,Charlotte,0000,0000,0000,,and I continued fighting as the captain \Nof an all-women Magic Knights Squad.
+Dialogue: 0,0:11:52.65,0:11:53.86,main,Charlotte,0000,0000,0000,,I...
+Dialogue: 0,0:11:57.02,0:11:58.18,main,Charlotte,0000,0000,0000,,I'm...
+Dialogue: 0,0:11:59.11,0:12:02.86,sign_4757_29_Royal_Capital__M,Sign,0000,0000,0000,,{\blur3}Blue Rose Knights' Headquarters
+Dialogue: 0,0:12:05.66,0:12:08.17,main,Sol,0000,0000,0000,,What's up, Sis?
+Dialogue: 0,0:12:08.59,0:12:09.70,main,BRK 1,0000,0000,0000,,Captain...
+Dialogue: 0,0:12:10.62,0:12:12.18,main,BRK 2,0000,0000,0000,,What did you want to tell us?
+Dialogue: 0,0:12:16.37,0:12:17.92,main,Charlotte,0000,0000,0000,,As all of you know,
+Dialogue: 0,0:12:17.92,0:12:21.57,main,Charlotte,0000,0000,0000,,we, the Blue Rose Knights, \Nare female knights who pride ourselves
+Dialogue: 0,0:12:21.57,0:12:24.68,main,Charlotte,0000,0000,0000,,in achieving acts of valor on \Nour own, without the help of men.
+Dialogue: 0,0:12:27.68,0:12:29.73,main,Charlotte,0000,0000,0000,,Therefore...
+Dialogue: 0,0:12:29.73,0:12:32.18,main,Charlotte,0000,0000,0000,,I'm prepared to resign as \Nyour captain after I say this.
+Dialogue: 0,0:12:35.44,0:12:37.48,main,Charlotte,0000,0000,0000,,I-I...
+Dialogue: 0,0:12:42.53,0:12:48.41,main,Charlotte,0000,0000,0000,,I like Yami!
+Dialogue: 0,0:12:49.20,0:12:51.63,main,Charlotte,0000,0000,0000,,No matter how hard I tried to \Nrid myself of these feelings...
+Dialogue: 0,0:12:51.63,0:12:54.16,main,Charlotte,0000,0000,0000,,No matter how much I tried to \Nforget him, it was no use!
+Dialogue: 0,0:12:54.16,0:12:56.74,main,Charlotte,0000,0000,0000,,I... I'm just...
+Dialogue: 0,0:12:56.74,0:13:03.13,main,Charlotte,0000,0000,0000,,I'm just hopelessly in love with that man!
+Dialogue: 0,0:13:08.93,0:13:10.76,main,Sol,0000,0000,0000,,Sis...
+Dialogue: 0,0:13:18.39,0:13:19.27,italics,Charlotte,0000,0000,0000,,As I figured...
+Dialogue: 0,0:13:20.13,0:13:22.03,italics,Charlotte,0000,0000,0000,,This is unforgivable.
+Dialogue: 0,0:13:22.74,0:13:26.47,italics,Charlotte,0000,0000,0000,,I'm... a failure as a captain.
+Dialogue: 0,0:13:33.14,0:13:35.16,main,Squad,0000,0000,0000,,Oh my gosh!
+Dialogue: 0,0:13:36.37,0:13:38.21,main,Squad,0000,0000,0000,,We'll support you, Captain!
+Dialogue: 0,0:13:38.69,0:13:39.79,main,Charlotte,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:39.79,0:13:41.92,main,BRK E,0000,0000,0000,,They're totally Beauty and the Beast!
+Dialogue: 0,0:13:41.92,0:13:44.67,main,BRK C,0000,0000,0000,,What a grand romance!
+Dialogue: 0,0:13:45.02,0:13:46.93,main,BRK D,0000,0000,0000,,You're both captains, so you're \Nperfect for each other!
+Dialogue: 0,0:13:46.93,0:13:52.25,main,BRK F,0000,0000,0000,,I actually have a boyfriend, too! \NWe've been secretly dating this whole time.
+Dialogue: 0,0:13:52.25,0:13:53.06,main,Charlotte and Sol,0000,0000,0000,,What?!
+Dialogue: 0,0:13:53.39,0:13:56.66,main,BRK E,0000,0000,0000,,Me, too! It's been so hard to keep it secret.
+Dialogue: 0,0:13:56.66,0:13:57.69,main,Charlotte and Sol,0000,0000,0000,,What?!
+Dialogue: 0,0:13:57.69,0:13:59.10,main,BRK C,0000,0000,0000,,Me, too!
+Dialogue: 0,0:13:59.10,0:14:00.59,main,BRK D,0000,0000,0000,,Actually, me, too!
+Dialogue: 0,0:14:01.73,0:14:04.04,main,BRK B,0000,0000,0000,,You should totally ask him out on a date!
+Dialogue: 0,0:14:04.04,0:14:05.53,main,Charlotte,0000,0000,0000,,A d-date?!
+Dialogue: 0,0:14:05.53,0:14:09.29,main,BRK D,0000,0000,0000,,You've got this, Captain! I mean, \Nyou could win any guy over!
+Dialogue: 0,0:14:09.29,0:14:10.09,main,Charlotte,0000,0000,0000,,Wha—
+Dialogue: 0,0:14:10.09,0:14:14.24,main,BRK C,0000,0000,0000,,But before that, you have to \Nlet him know you're interested!
+Dialogue: 0,0:14:14.24,0:14:16.00,main,Charlotte,0000,0000,0000,,I-Interested?!
+Dialogue: 0,0:14:16.75,0:14:18.62,main,BRK A,0000,0000,0000,,You should tell him you love him!
+Dialogue: 0,0:14:20.88,0:14:23.78,main,BRK B,0000,0000,0000,,I know! There's a perfect restaurant!
+Dialogue: 0,0:14:23.78,0:14:26.13,main,BRK B,0000,0000,0000,,The night view there will \Ndefinitely set the mood!
+Dialogue: 0,0:14:26.54,0:14:30.92,main,BRK D,0000,0000,0000,,You'll be fine! No man could ever hate you.
+Dialogue: 0,0:14:30.92,0:14:33.01,main,BRK D,0000,0000,0000,,I'm sure he likes you, too!
+Dialogue: 0,0:14:33.01,0:14:36.89,main,BRK E,0000,0000,0000,,Captain, you have a cool complexion... \NAnd you're a summer!
+Dialogue: 0,0:14:36.89,0:14:39.02,main,BRK E,0000,0000,0000,,So pink and pastel colors \Nwould look best on you!
+Dialogue: 0,0:14:39.37,0:14:44.35,main,BRK E,0000,0000,0000,,Wow, your skin is so beautiful!\NDo you have a skin care routine? Oh, and...
+Dialogue: 0,0:14:44.35,0:14:46.29,main,Sol,0000,0000,0000,,You've got great romance luck!
+Dialogue: 0,0:14:46.29,0:14:47.78,main,BRK E,0000,0000,0000,,I think a rose color would...
+Dialogue: 0,0:14:47.78,0:14:49.53,main,BRK A,0000,0000,0000,,Tell him how you feel!
+Dialogue: 0,0:14:49.53,0:14:51.03,main,Charlotte,0000,0000,0000,,Tell him how I feel?!
+Dialogue: 0,0:14:51.03,0:14:52.53,main,BRK B,0000,0000,0000,,Tell him how you feel!
+Dialogue: 0,0:14:52.53,0:14:53.78,main,Sol,0000,0000,0000,,H-Hey...
+Dialogue: 0,0:14:53.78,0:14:57.57,main,BRKs,0000,0000,0000,,Tell him how you feel! Tell him how you feel!
+Dialogue: 0,0:14:57.57,0:14:59.45,main,BRKs,0000,0000,0000,,Tell him how you feel!
+Dialogue: 0,0:14:59.45,0:15:03.35,main,Charlotte,0000,0000,0000,,I'm... going to tell Yami... how I feel...
+Dialogue: 0,0:15:04.51,0:15:07.30,main,Sol,0000,0000,0000,,Sis! W-Wait! Calm down!
+Dialogue: 0,0:15:07.95,0:15:10.81,main,Yami,0000,0000,0000,,I don't know what's going on, but it \Nlooks like you're having a blast.
+Dialogue: 0,0:15:14.97,0:15:16.68,main,Asta,0000,0000,0000,,Sorry for butting in!
+Dialogue: 0,0:15:17.11,0:15:20.56,main,Asta,0000,0000,0000,,Wow, so this is the \NBlue Rose Knights' headquarters!
+Dialogue: 0,0:15:20.56,0:15:22.19,main,Asta,0000,0000,0000,,It's really pretty!
+Dialogue: 0,0:15:25.26,0:15:26.73,main,Yami,0000,0000,0000,,The hell are you doing?
+Dialogue: 0,0:15:26.73,0:15:29.70,italics,Sol,0000,0000,0000,,Of all the times for him to show up!
+Dialogue: 0,0:15:33.11,0:15:37.35,main,BRK C,0000,0000,0000,,Go on, Captain! This is \Nyour big, big, big chance!
+Dialogue: 0,0:15:37.35,0:15:38.42,main,Charlotte,0000,0000,0000,,Wh-What?
+Dialogue: 0,0:15:38.42,0:15:40.21,main,BRK D,0000,0000,0000,,Go ask him out on a date!
+Dialogue: 0,0:15:40.21,0:15:41.01,main,Charlotte,0000,0000,0000,,What?!
+Dialogue: 0,0:15:41.01,0:15:41.95,main,BRK E,0000,0000,0000,,You can do it!
+Dialogue: 0,0:15:41.95,0:15:42.87,main,Charlotte,0000,0000,0000,,H-Hey!
+Dialogue: 0,0:15:43.18,0:15:46.89,main,Charlotte,0000,0000,0000,,Y-Yami... Um, uh... you see...
+Dialogue: 0,0:15:49.48,0:15:51.84,main,BRK D,0000,0000,0000,,Captain! I can't hear you at all!
+Dialogue: 0,0:15:51.84,0:15:53.21,main,BRK E,0000,0000,0000,,How cute are you?!
+Dialogue: 0,0:15:53.21,0:15:57.63,main,Yami,0000,0000,0000,,Why'd you turn into a statue and \Nstart muttering? Are you Gordon now?
+Dialogue: 0,0:15:58.81,0:16:01.14,main,Yami,0000,0000,0000,,I know how you feel.
+Dialogue: 0,0:16:01.14,0:16:02.44,italics,Charlotte,0000,0000,0000,,Ba-dump!
+Dialogue: 0,0:16:02.91,0:16:04.37,main,Yami,0000,0000,0000,,I've known all along.
+Dialogue: 0,0:16:08.46,0:16:10.19,italics,Charlotte,0000,0000,0000,,Ba-dump, ba-dump...
+Dialogue: 0,0:16:12.20,0:16:15.30,main,Yami,0000,0000,0000,,Your ki is unique and indescribable...
+Dialogue: 0,0:16:16.70,0:16:18.20,main,Yami,0000,0000,0000,,You...
+Dialogue: 0,0:16:20.45,0:16:22.62,main,Yami,0000,0000,0000,,really don't like being around me, do you?
+Dialogue: 0,0:16:22.62,0:16:24.21,main,Yami,0000,0000,0000,,Like, you can't stand me.
+Dialogue: 0,0:16:24.21,0:16:25.34,main,Charlotte,0000,0000,0000,,Huh?
+Dialogue: 0,0:16:25.34,0:16:28.21,main,Yami,0000,0000,0000,,But did you really have to scream your \Nlungs out and run away like that?
+Dialogue: 0,0:16:29.19,0:16:32.15,main,Yami,0000,0000,0000,,You're going to scar my delicate little heart.
+Dialogue: 0,0:16:34.15,0:16:37.01,main,Yami,0000,0000,0000,,We've known each other for years.
+Dialogue: 0,0:16:37.01,0:16:40.97,main,Yami,0000,0000,0000,,It wouldn't hurt just to hear me out, would it?
+Dialogue: 0,0:16:40.97,0:16:43.64,italics,BRK A,0000,0000,0000,,He's such an insanely oblivious, uncouth man!
+Dialogue: 0,0:16:43.64,0:16:44.46,italics,BRK B,0000,0000,0000,,She's doomed.
+Dialogue: 0,0:16:44.46,0:16:47.23,italics,BRK C,0000,0000,0000,,She won't even be able to \Ntell him how she feels!
+Dialogue: 0,0:16:48.07,0:16:49.73,main,Charlotte,0000,0000,0000,,Th-That's not...
+Dialogue: 0,0:16:49.73,0:16:53.34,italics,Charlotte,0000,0000,0000,,I-I-I-It's no use! I can't get \Nthe right words to come out!
+Dialogue: 0,0:16:53.34,0:16:56.24,italics,Charlotte,0000,0000,0000,,A-At this rate, he's going \Nto get the wrong idea...
+Dialogue: 0,0:16:56.71,0:17:01.37,main,Asta,0000,0000,0000,,That's not true, Captain Yami! \NI don't think she hates you.
+Dialogue: 0,0:17:01.37,0:17:02.17,main,Asta,0000,0000,0000,,Ow!
+Dialogue: 0,0:17:02.17,0:17:07.75,top,Asta,0000,0000,0000,,Ow, ow, ow, ow!
+Dialogue: 0,0:17:02.37,0:17:05.99,main,Yami,0000,0000,0000,,Who the hell asked for your opinion,\N Mr. Suspended Sentence?
+Dialogue: 0,0:17:07.75,0:17:12.30,main,Asta,0000,0000,0000,,Th-The way the Blue Rose captain \Nis acting... it reminds me of Noelle.
+Dialogue: 0,0:17:12.30,0:17:13.11,main,Yami,0000,0000,0000,,What?
+Dialogue: 0,0:17:13.11,0:17:17.57,main,Asta,0000,0000,0000,,So she doesn't hate you. \NShe just really trusts you, I think.
+Dialogue: 0,0:17:17.57,0:17:21.91,main,Asta,0000,0000,0000,,The more she trusts you, the harder \Nit is for her to tell you how she feels!
+Dialogue: 0,0:17:22.77,0:17:25.35,main,Asta,0000,0000,0000,,I just recently realized this myself.
+Dialogue: 0,0:17:26.51,0:17:32.01,main,Yami,0000,0000,0000,,So you just said yourself \Nthat Noelle trusts you,
+Dialogue: 0,0:17:32.01,0:17:33.70,main,Yami,0000,0000,0000,,and you're not embarrassed?
+Dialogue: 0,0:17:33.70,0:17:35.55,main,Asta,0000,0000,0000,,Not one bit!
+Dialogue: 0,0:17:35.55,0:17:39.16,main,Asta,0000,0000,0000,,We're comrades who've come through \Nso many life-or-death situations together!
+Dialogue: 0,0:17:39.57,0:17:43.66,main,Asta,0000,0000,0000,,Seriously, Noelle just has a hard \Ntime expressing how she really feels.
+Dialogue: 0,0:17:45.16,0:17:49.10,main,Asta,0000,0000,0000,,So, Captain Blue Rose, if you have \Na hard time saying something,
+Dialogue: 0,0:17:49.10,0:17:51.17,main,Asta,0000,0000,0000,,just keep carrying on like you usually do!
+Dialogue: 0,0:17:51.50,0:17:55.97,main,Asta,0000,0000,0000,,You're comrades who've been through \Nlife-or-death situations, after all!
+Dialogue: 0,0:17:56.70,0:18:00.69,main,Sol,0000,0000,0000,,Who the hell gave you permission to \Ntouch Sis like that, you shrimp?!
+Dialogue: 0,0:18:03.42,0:18:06.41,main,Charlotte,0000,0000,0000,,Looks like we've both been blessed \Nwith wonderful Magic Knights.
+Dialogue: 0,0:18:06.41,0:18:09.27,main,Yami,0000,0000,0000,,No, he's caused me \Nnothing but trouble, really.
+Dialogue: 0,0:18:09.69,0:18:11.98,main,Charlotte,0000,0000,0000,,Asta, was it?
+Dialogue: 0,0:18:11.98,0:18:13.53,main,Charlotte,0000,0000,0000,,I was informed of what happened.
+Dialogue: 0,0:18:13.99,0:18:16.78,main,Charlotte,0000,0000,0000,,I'm sorry for all of the trouble \Nwe caused while we were possessed.
+Dialogue: 0,0:18:17.14,0:18:20.71,main,Asta,0000,0000,0000,,Nah, it wasn't your fault at all!
+Dialogue: 0,0:18:21.85,0:18:25.50,main,Charlotte,0000,0000,0000,,Y-Yami... Um... You wanted to talk \Nto me about something, right?
+Dialogue: 0,0:18:25.50,0:18:27.97,main,Charlotte,0000,0000,0000,,H-How about we have dinner?
+Dialogue: 0,0:18:28.90,0:18:29.83,main,Yami,0000,0000,0000,,Sure.
+Dialogue: 0,0:18:30.78,0:18:33.96,italics,Yami,0000,0000,0000,,I have no idea what's going on, but finally...
+Dialogue: 0,0:18:48.73,0:18:53.73,italics,Sol,0000,0000,0000,,Sis... If she ends up with that guy,\N what am I supposed to do?
+Dialogue: 0,0:18:55.98,0:18:58.40,main,Charlotte,0000,0000,0000,,So... What did you want to talk about?
+Dialogue: 0,0:18:58.40,0:19:00.49,main,Yami,0000,0000,0000,,Well, you see...
+Dialogue: 0,0:19:01.13,0:19:03.03,main,Charlotte,0000,0000,0000,,Ba-dump, ba-dump...
+Dialogue: 0,0:19:04.23,0:19:05.41,main,Yami,0000,0000,0000,,I wanted to know...
+Dialogue: 0,0:19:05.75,0:19:07.41,main,Charlotte,0000,0000,0000,,Ba-dump, ba-dump...
+Dialogue: 0,0:19:12.42,0:19:15.49,main,Yami,0000,0000,0000,,...more about your rose curse.
+Dialogue: 0,0:19:17.27,0:19:18.42,main,Yami,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:19:18.86,0:19:22.28,italics,Sol,0000,0000,0000,,Thank goodness! Thank goodness \Nthey didn't get together!
+Dialogue: 0,0:19:22.28,0:19:26.93,italics,Sol,0000,0000,0000,,But I also sorta feel bad for Sis, \Nsince her feelings didn't get across to him.
+Dialogue: 0,0:19:28.09,0:19:31.61,main,Charlotte,0000,0000,0000,,O-Oh... So that's what you wanted to talk about.
+Dialogue: 0,0:19:31.61,0:19:33.39,main,Yami,0000,0000,0000,,Was there something else?
+Dialogue: 0,0:19:33.39,0:19:35.69,italics,Charlotte,0000,0000,0000,,Curse you for getting my hopes up!
+Dialogue: 0,0:19:35.69,0:19:38.78,main,Yami,0000,0000,0000,,You know. The Black Bulls have to
+Dialogue: 0,0:19:38.78,0:19:42.45,main,Yami,0000,0000,0000,,investigate the devils on \Nthe Wizard King's orders.
+Dialogue: 0,0:19:43.34,0:19:49.77,main,Yami,0000,0000,0000,,That psycho scales judge guy is \Njust itching to execute the kid.
+Dialogue: 0,0:19:50.71,0:19:54.96,main,Yami,0000,0000,0000,,So I've gotta gather some clues, \Nbeing the kid's captain and all.
+Dialogue: 0,0:19:57.54,0:19:58.80,main,Charlotte,0000,0000,0000,,It all began
+Dialogue: 0,0:19:58.80,0:20:02.88,main,Charlotte,0000,0000,0000,,with a spell cast by a curse mage \Nwho had a grudge against my family.
+Dialogue: 0,0:20:02.88,0:20:08.19,main,Charlotte,0000,0000,0000,,But that spell was unlike any other in \Nthis kingdom and impossible to break.
+Dialogue: 0,0:20:09.61,0:20:13.49,main,Charlotte,0000,0000,0000,,Forbidden magic interferes with the \Nshape of your life and of the world.
+Dialogue: 0,0:20:14.01,0:20:16.73,main,Charlotte,0000,0000,0000,,The curse that activated when I was eighteen
+Dialogue: 0,0:20:17.67,0:20:22.91,main,Charlotte,0000,0000,0000,,changed the shape of my soul and \Nthe quality of my magic itself.
+Dialogue: 0,0:20:22.91,0:20:24.46,main,Charlotte,0000,0000,0000,,It is extremely likely that this was
+Dialogue: 0,0:20:24.46,0:20:27.30,main,Charlotte,0000,0000,0000,,a forbidden curse that used \Npower from another world.
+Dialogue: 0,0:20:29.25,0:20:31.00,main,Yami,0000,0000,0000,,I knew it.
+Dialogue: 0,0:20:31.58,0:20:34.00,main,Charlotte,0000,0000,0000,,But I don't know much else about it.
+Dialogue: 0,0:20:34.55,0:20:35.82,main,Yami,0000,0000,0000,,I see.
+Dialogue: 0,0:20:39.00,0:20:42.29,main,Charlotte,0000,0000,0000,,I guess I wasn't much help.
+Dialogue: 0,0:20:43.07,0:20:45.26,main,Charlotte,0000,0000,0000,,But if you need to know \Nabout forbidden curses...
+Dialogue: 0,0:20:46.98,0:20:49.70,main,Charlotte,0000,0000,0000,,There's someone in your own squad
+Dialogue: 0,0:20:49.70,0:20:53.26,main,Charlotte,0000,0000,0000,,who has been affected far more than I have.
+Dialogue: 0,0:20:54.61,0:20:55.98,main,Yami,0000,0000,0000,,In my squad?
+Dialogue: 0,0:21:09.39,0:21:12.57,main,Gordon,0000,0000,0000,,So many close friends... I'm so happy.
+Dialogue: 0,0:21:12.57,0:21:14.01,main,Gordon,0000,0000,0000,,So happy...
+Dialogue: 0,0:22:47.05,0:22:51.55,sign_33083_276_Petit_Clover_,Sign,0000,0000,0000,,{\fad(1,520)}Pe{\c&H3BC020&}t{\c&HE2AF0F&}i{\c&H3BC020&}t C{\c&HE2AF0F&}l{\c&H3BC020&}o{\c&H0E42D4&}ve{\c&H3BC020&}r
+Dialogue: 0,0:22:48.07,0:22:50.78,main,All,0000,0000,0000,,Petit Clover!
+Dialogue: 0,0:22:51.05,0:22:55.06,sign_33188_278_The_Mystery_of_t,Sign,0000,0000,0000,,{\fad(520,1)}Practice
+Dialogue: 0,0:22:51.93,0:22:55.06,main,Charlotte,0000,0000,0000,,P-Practice?
+Dialogue: 0,0:22:55.39,0:22:57.98,main,Charlotte,0000,0000,0000,,P-Practicing telling him how I feel about him?
+Dialogue: 0,0:22:59.60,0:23:04.23,main,Charlotte,0000,0000,0000,,This is so embarrassing. But if it's \Nto help let him know how I feel...
+Dialogue: 0,0:23:06.02,0:23:06.82,main,Charlotte,0000,0000,0000,,Ya...
+Dialogue: 0,0:23:07.57,0:23:08.89,main,Charlotte,0000,0000,0000,,Yami...
+Dialogue: 0,0:23:08.89,0:23:12.47,main,Charlotte,0000,0000,0000,,Your eyes are like jewels.
+Dialogue: 0,0:23:12.47,0:23:14.98,main,Charlotte,0000,0000,0000,,They're so clear and pure...
+Dialogue: 0,0:23:16.03,0:23:18.07,main,Charlotte,0000,0000,0000,,I love you!
+Dialogue: 0,0:23:19.31,0:23:22.88,main,Charlotte,0000,0000,0000,,I love you too, Prickly Queen.
+Dialogue: 0,0:23:22.88,0:23:25.70,main,Charlotte,0000,0000,0000,,I-Is that so? I see...
+Dialogue: 0,0:23:28.97,0:23:31.51,main,Sol,0000,0000,0000,,Whatcha doin', Sis?
+Dialogue: 0,0:23:35.49,0:23:37.10,main,Sol,0000,0000,0000,,S-Sis!
+Dialogue: 0,0:23:40.10,0:23:44.06,main,Charlotte,0000,0000,0000,,Curse you, Yami. I was hoping \Nyou'd at least take the hint...
+Dialogue: 0,0:23:44.06,0:23:46.57,main,Charlotte,0000,0000,0000,,But I guess that's one of his charms.
+Dialogue: 0,0:23:46.57,0:23:50.30,main,Some,0000,0000,0000,,Next time on {\i1}Black Clover{\i0}, \NPage 127: "Clues."
+Dialogue: 0,0:23:47.86,0:23:54.25,sign_34238_338_Page_2_The_Boys_,Sign,0000,0000,0000,,{\fad(234,1)}Page 127\N\N{\fs18} Clues
+Dialogue: 0,0:23:50.71,0:23:53.22,main,Charlotte,0000,0000,0000,,One day, my thorns will prick \Nhim right in the heart! Squee!

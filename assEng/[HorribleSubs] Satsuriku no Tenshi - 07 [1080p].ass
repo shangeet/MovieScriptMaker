@@ -1,0 +1,299 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,27,27,24,0
+Style: italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: italicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: flashbackitalics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: flashbacktop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: flashbackitalicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: sign_8521_45_Spit_out_your_si,Open Sans Semibold,36,&H00F2FBFF,&H000000FF,&H003D3E4A,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,40,40,87,1
+Style: sign_8598_46_And_that_will_be,Open Sans Semibold,30,&H00F2FBFF,&H000000FF,&H003D3E4A,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,40,407,220,1
+Style: sign_8654_47_What_do_you_feel,Open Sans Semibold,24,&H00F2FBFF,&H000000FF,&H003D3E4A,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,407,40,80,1
+Style: sign_8728_48_The_doors_opened,Open Sans Semibold,20,&H00F2FBFF,&H000000FF,&H003D3E4A,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,40,313,80,1
+Style: sign_9234_50_Look_at_yourself,Open Sans Semibold,36,&H00F2FBFF,&H000000FF,&H003D3E4A,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,40,413,140,1
+Style: sign_9297_51_A_sacrifice__or_,Open Sans Semibold,24,&H00F2FBFF,&H000000FF,&H003D3E4A,&H00000000,0,0,0,0,100,100,0,0,1,1,1,3,212,349,81,1
+Style: sign_9338_52____or_a_demon_,Open Sans Semibold,24,&H00F2FBFF,&H000000FF,&H003D3E4A,&H00000000,0,0,0,0,100,100,0,0,1,1,1,1,547,40,80,1
+Style: sign_9438_53_The_only_thing_G,Open Sans Semibold,36,&H00F2FBFF,&H000000FF,&H003D3E4A,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,47,40,180,1
+Style: sign_9483_54_you_without_lies,Open Sans Semibold,36,&H00F2FBFF,&H000000FF,&H003D3E4A,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,47,40,133,1
+Style: sign_9990_60_To_leave,Open Sans Semibold,36,&H00F2FBFF,&H000000FF,&H003D3E4A,&H00000000,0,0,0,0,100,100,0,0,1,1,1,8,213,520,60,1
+Style: sign_10022_61_collect_your_own,Open Sans Semibold,30,&H00F2FBFF,&H000000FF,&H003D3E4A,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,440,93,280,1
+Style: sign_10061_62_and_know_the_tru,Open Sans Semibold,24,&H00F2FBFF,&H000000FF,&H003D3E4A,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,40,320,153,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.59,0:00:02.86,main,Rachel,0000,0000,0000,,You're in a good mood.
+Dialogue: 0,0:00:02.86,0:00:03.81,main,Zack,0000,0000,0000,,Kinda.
+Dialogue: 0,0:00:04.52,0:00:07.17,main,Zack,0000,0000,0000,,You are, too, aren't you?
+Dialogue: 0,0:00:10.12,0:00:10.84,main,Rachel,0000,0000,0000,,Yeah.
+Dialogue: 0,0:00:14.63,0:00:16.94,main,Rachel,0000,0000,0000,,We're here, Zack.
+Dialogue: 0,0:00:18.43,0:00:18.99,main,Rachel,0000,0000,0000,,Zack?
+Dialogue: 0,0:00:23.09,0:00:24.04,main,Rachel,0000,0000,0000,,Zack...
+Dialogue: 0,0:00:24.41,0:00:25.25,main,Rachel,0000,0000,0000,,Zack...
+Dialogue: 0,0:00:26.21,0:00:27.28,main,Rachel,0000,0000,0000,,Zack!
+Dialogue: 0,0:00:46.90,0:00:48.77,main,Rachel,0000,0000,0000,,Zack, wake up.
+Dialogue: 0,0:00:49.40,0:00:50.23,main,Rachel,0000,0000,0000,,Zack!
+Dialogue: 0,0:00:54.64,0:00:55.91,main,Zack,0000,0000,0000,,Huh?
+Dialogue: 0,0:00:57.08,0:00:58.28,main,Rachel,0000,0000,0000,,Thank goodness.
+Dialogue: 0,0:00:59.06,0:01:00.81,main,Zack,0000,0000,0000,,We're here?
+Dialogue: 0,0:01:01.30,0:01:03.08,main,Zack,0000,0000,0000,,Well, let's go, then...
+Dialogue: 0,0:01:05.02,0:01:06.55,main,Rachel,0000,0000,0000,,Zack, you're bleeding!
+Dialogue: 0,0:01:08.37,0:01:10.59,main,Zack,0000,0000,0000,,Oh, this is nothing—
+Dialogue: 0,0:01:12.46,0:01:14.80,main,Rachel,0000,0000,0000,,Don't. You shouldn't move.
+Dialogue: 0,0:01:15.22,0:01:18.22,main,Zack,0000,0000,0000,,I said... I'm fine.
+Dialogue: 0,0:01:18.81,0:01:19.60,main,Rachel,0000,0000,0000,,No.
+Dialogue: 0,0:01:20.49,0:01:22.03,main,Zack,0000,0000,0000,,Huh?
+Dialogue: 0,0:01:23.48,0:01:26.56,main,Zack,0000,0000,0000,,Ray, why...
+Dialogue: 0,0:01:28.86,0:01:32.61,main,Zack,0000,0000,0000,,...are you making that weird face?
+Dialogue: 0,0:01:36.32,0:01:37.45,main,Rachel,0000,0000,0000,,Zack!
+Dialogue: 0,0:01:41.47,0:01:42.70,italics,Rachel,0000,0000,0000,,He's breathing.
+Dialogue: 0,0:01:44.44,0:01:46.12,italics,Rachel,0000,0000,0000,,He's just unconscious.
+Dialogue: 0,0:01:48.60,0:01:52.36,italics,Rachel,0000,0000,0000,,But I can't carry him any farther.
+Dialogue: 0,0:01:57.81,0:01:59.23,main,Rachel,0000,0000,0000,,Wait here.
+Dialogue: 0,0:01:59.79,0:02:01.94,main,Rachel,0000,0000,0000,,I'll look for some medicine or something.
+Dialogue: 0,0:02:06.26,0:02:08.19,italics,Rachel,0000,0000,0000,,I swear I'll be useful to you,
+Dialogue: 0,0:02:09.08,0:02:09.94,italics,Rachel,0000,0000,0000,,Zack!
+Dialogue: 0,0:04:13.27,0:04:16.31,main,Rachel,0000,0000,0000,,Something seems... strange...
+Dialogue: 0,0:04:21.89,0:04:22.78,main,Rachel,0000,0000,0000,,What's that?
+Dialogue: 0,0:04:25.83,0:04:28.82,main,Rachel,0000,0000,0000,,This smoke... smells...
+Dialogue: 0,0:04:29.39,0:04:32.00,main,Rachel,0000,0000,0000,,...kind of... sweet...
+Dialogue: 0,0:04:35.62,0:04:38.80,main,Rachel,0000,0000,0000,,I have to hurry, or Zack...
+Dialogue: 0,0:04:44.68,0:04:47.10,main,Rachel,0000,0000,0000,,What was that?
+Dialogue: 0,0:04:52.40,0:04:56.81,main,Rachel,0000,0000,0000,,"God desires those who are \Nclean and without falsehood.
+Dialogue: 0,0:04:57.49,0:05:01.57,main,Rachel,0000,0000,0000,,Ask yourself: who are you?
+Dialogue: 0,0:05:02.43,0:05:04.89,main,Rachel,0000,0000,0000,,Are you a desirable sacrifice?
+Dialogue: 0,0:05:04.89,0:05:06.79,main,Rachel,0000,0000,0000,,Are you an angel?
+Dialogue: 0,0:05:08.12,0:05:12.67,main,Rachel,0000,0000,0000,,Or, if you are any other form of \Nbeing who seeks God's salvation...
+Dialogue: 0,0:05:15.43,0:05:18.15,main,Rachel,0000,0000,0000,,Reveal and confess all your sins!"
+Dialogue: 0,0:05:27.26,0:05:29.85,main,Rachel,0000,0000,0000,,Rachel Gardner.
+Dialogue: 0,0:05:55.37,0:05:57.66,sign_8521_45_Spit_out_your_si,Text,0000,0000,0000,,{\fad(944,1)}Spit out your sins
+Dialogue: 0,0:05:58.58,0:06:03.63,sign_8598_46_And_that_will_be,Text,0000,0000,0000,,{\fad(820,1)}And that will be your proof
+Dialogue: 0,0:06:00.88,0:06:03.63,sign_8654_47_What_do_you_feel,Text,0000,0000,0000,,{\fad(898,1)}What do you feel as you gaze upon the proof
+Dialogue: 0,0:06:04.00,0:06:06.84,sign_8728_48_The_doors_opened,Text,0000,0000,0000,,{\fad(906,1)}The doors opened so that you can know the stains you bear
+Dialogue: 0,0:06:22.38,0:06:23.59,main,Rachel,0000,0000,0000,,A mirror?
+Dialogue: 0,0:06:25.11,0:06:31.37,sign_9234_50_Look_at_yourself,Text,0000,0000,0000,,{\fad(900,1)}Look at yourself
+Dialogue: 0,0:06:27.74,0:06:31.37,sign_9297_51_A_sacrifice__or_,Text,0000,0000,0000,,{\fad(1000,1)}A sacrifice, or a lost sheep
+Dialogue: 0,0:06:29.45,0:06:31.37,sign_9338_52____or_a_demon_,Text,0000,0000,0000,,{\fad(981,1)}...or a demon?
+Dialogue: 0,0:06:33.62,0:06:38.12,sign_9438_53_The_only_thing_G,Text,0000,0000,0000,,{\fad(940,1)}The only thing God wants is
+Dialogue: 0,0:06:35.49,0:06:38.12,sign_9483_54_you_without_lies,Text,0000,0000,0000,,{\fad(864,1)}you without lies
+Dialogue: 0,0:06:39.17,0:06:40.66,main,Rachel,0000,0000,0000,,What does it mean?
+Dialogue: 0,0:06:41.74,0:06:43.62,main,Rachel,0000,0000,0000,,I see myself...
+Dialogue: 0,0:06:44.56,0:06:46.56,main,Rachel,0000,0000,0000,,But that's all.
+Dialogue: 0,0:06:50.22,0:06:53.76,sign_9483_54_you_without_lies,Text,0000,0000,0000,,{\fad(899,1)}Are you just an ignorant? Or are \Nyou hiding the true yourself?
+Dialogue: 0,0:06:54.14,0:06:56.22,sign_8521_45_Spit_out_your_si,Text,0000,0000,0000,,{\fad(857,1)}Here is the Confessional
+Dialogue: 0,0:06:56.64,0:07:02.19,sign_9990_60_To_leave,Text,0000,0000,0000,,{\fad(777,1)}To leave
+Dialogue: 0,0:06:57.98,0:07:02.19,sign_10022_61_collect_your_own,Text,0000,0000,0000,,{\fad(938,1)}collect your own pieces
+Dialogue: 0,0:06:59.60,0:07:02.19,sign_10061_62_and_know_the_tru,Text,0000,0000,0000,,{\fad(945,1)}and know the true yourself
+Dialogue: 0,0:07:10.83,0:07:15.74,main,Rachel,0000,0000,0000,,"Collect your own pieces and \Nknow the true yourself..."
+Dialogue: 0,0:07:21.76,0:07:23.13,main,Rachel,0000,0000,0000,,"Spit out your sins.
+Dialogue: 0,0:07:23.94,0:07:26.11,main,Rachel,0000,0000,0000,,If you don't know,
+Dialogue: 0,0:07:26.11,0:07:29.21,main,Rachel,0000,0000,0000,,tear up and drag them out."
+Dialogue: 0,0:07:34.80,0:07:38.72,main,Rachel,0000,0000,0000,,What is this place? \NAll these writings are so weird.
+Dialogue: 0,0:07:41.73,0:07:45.31,italics,Gray,0000,0000,0000,,Can you recognize your sins?
+Dialogue: 0,0:07:46.20,0:07:52.42,italics,Gray,0000,0000,0000,,If they are blacked out, you did so yourself.
+Dialogue: 0,0:07:53.03,0:07:55.30,italics,Gray,0000,0000,0000,,Did you erase them?
+Dialogue: 0,0:07:55.30,0:07:58.74,italics,Gray,0000,0000,0000,,Or did you not realize they were sins?
+Dialogue: 0,0:07:59.68,0:08:03.96,italics,Gray,0000,0000,0000,,If you lost your own sins, \Nmake them complete again.
+Dialogue: 0,0:08:03.96,0:08:07.31,italics,Gray,0000,0000,0000,,Accept the sins that flow forth.
+Dialogue: 0,0:08:20.05,0:08:22.06,italics,Gray,0000,0000,0000,,Here is the Confessional.
+Dialogue: 0,0:08:22.29,0:08:22.99,main,Rachel,0000,0000,0000,,Who are you?
+Dialogue: 0,0:08:22.99,0:08:24.90,italics,Gray,0000,0000,0000,,Spit out your sins.
+Dialogue: 0,0:08:25.23,0:08:27.57,italics,Gray,0000,0000,0000,,Accept your sins.
+Dialogue: 0,0:08:27.57,0:08:28.52,main,Rachel,0000,0000,0000,,Sins?
+Dialogue: 0,0:08:28.52,0:08:31.89,italics,Gray,0000,0000,0000,,Tear up and drag them out.
+Dialogue: 0,0:08:31.89,0:08:34.51,italics,Gray,0000,0000,0000,,Tear up and drag them out!
+Dialogue: 0,0:08:34.51,0:08:37.07,italics,Gray/Cathy/Eddie,0000,0000,0000,,Tear up and drag them out!
+Dialogue: 0,0:08:37.07,0:08:39.87,italics,Gray/Cathy/Eddie,0000,0000,0000,,Tear up and drag them out!
+Dialogue: 0,0:08:39.87,0:08:41.99,italics,Gray/Cathy/Eddie,0000,0000,0000,,Tear up and drag them out!
+Dialogue: 0,0:08:41.99,0:08:45.75,italics,Gray/Cathy/Eddie,0000,0000,0000,,Tear up and drag them out!
+Dialogue: 0,0:08:46.25,0:08:49.50,main,Rachel,0000,0000,0000,,Tear up and drag them out.
+Dialogue: 0,0:08:50.05,0:08:53.43,main,Rachel,0000,0000,0000,,Tear up and drag them out.
+Dialogue: 0,0:08:54.31,0:08:55.64,main,Rachel,0000,0000,0000,,Tear up...
+Dialogue: 0,0:08:56.80,0:08:57.89,main,Rachel,0000,0000,0000,,...and drag them out!
+Dialogue: 0,0:09:08.96,0:09:12.18,main,Rachel,0000,0000,0000,,A family... of sheep?
+Dialogue: 0,0:09:13.22,0:09:16.03,italics,Mom,0000,0000,0000,,Ray... Ray...
+Dialogue: 0,0:09:16.03,0:09:16.84,main,Mom,0000,0000,0000,,Ray!
+Dialogue: 0,0:09:16.84,0:09:18.20,main,Dad,0000,0000,0000,,Come here.
+Dialogue: 0,0:09:21.24,0:09:22.76,main,Dad,0000,0000,0000,,What's the matter?
+Dialogue: 0,0:09:23.51,0:09:25.41,main,Dad,0000,0000,0000,,Come here.
+Dialogue: 0,0:09:26.88,0:09:28.25,main,Rachel,0000,0000,0000,,That doesn't matter.
+Dialogue: 0,0:09:28.77,0:09:31.28,main,Rachel,0000,0000,0000,,What I need to do right now
+Dialogue: 0,0:09:31.28,0:09:33.46,main,Rachel,0000,0000,0000,,is save Zack.
+Dialogue: 0,0:09:39.16,0:09:40.80,main,Rachel,0000,0000,0000,,Spit out your sins...
+Dialogue: 0,0:09:42.20,0:09:44.80,main,Rachel,0000,0000,0000,,And that will be your proof.
+Dialogue: 0,0:09:52.75,0:09:54.59,main,Rachel,0000,0000,0000,,Another weird place...
+Dialogue: 0,0:09:55.44,0:09:57.53,main,Rachel,0000,0000,0000,,And I'm in a hurry.
+Dialogue: 0,0:10:00.49,0:10:02.29,main,Rachel,0000,0000,0000,,My footprints are red.
+Dialogue: 0,0:10:03.49,0:10:05.02,main,Rachel,0000,0000,0000,,Is that blood?
+Dialogue: 0,0:10:06.97,0:10:08.54,main,Rachel,0000,0000,0000,,I don't have time to stand around.
+Dialogue: 0,0:10:21.03,0:10:22.25,italics,Rachel,0000,0000,0000,,It's coming from inside?
+Dialogue: 0,0:10:28.24,0:10:31.15,italics,Rachel,0000,0000,0000,,Where is this sound coming from?
+Dialogue: 0,0:10:38.02,0:10:40.27,main,Rachel,0000,0000,0000,,"What is your confession?
+Dialogue: 0,0:10:41.25,0:10:45.29,main,Rachel,0000,0000,0000,,Does your heart truly wish to be saved?
+Dialogue: 0,0:10:46.33,0:10:50.29,main,Rachel,0000,0000,0000,,Can you lift your sins up to \NGod as the sins that they are?
+Dialogue: 0,0:10:50.66,0:10:55.17,main,Rachel,0000,0000,0000,,More importantly, you lack the \Nability to recognize a sinful heart.
+Dialogue: 0,0:10:55.86,0:10:58.12,main,Rachel,0000,0000,0000,,If you seek salvation,
+Dialogue: 0,0:10:58.12,0:11:00.76,main,Rachel,0000,0000,0000,,declare in this place the \Nnature of your sins."
+Dialogue: 0,0:11:01.88,0:11:03.51,main,Rachel,0000,0000,0000,,Declare my sins?
+Dialogue: 0,0:11:07.86,0:11:09.81,main,Rachel,0000,0000,0000,,Stain the angel?
+Dialogue: 0,0:11:24.04,0:11:25.17,main,Rachel,0000,0000,0000,,Not so loud...
+Dialogue: 0,0:11:27.58,0:11:30.75,main,Rachel,0000,0000,0000,,My head... It hurts...
+Dialogue: 0,0:11:56.04,0:11:58.90,main,Gray,0000,0000,0000,,Who are you?
+Dialogue: 0,0:12:04.82,0:12:07.62,main,Gray,0000,0000,0000,,Who are you?
+Dialogue: 0,0:12:10.40,0:12:12.28,main,Gray,0000,0000,0000,,Why are you silent?
+Dialogue: 0,0:12:12.28,0:12:13.58,main,Rachel,0000,0000,0000,,What about you?
+Dialogue: 0,0:12:13.86,0:12:14.82,main,Rachel,0000,0000,0000,,Who are you?
+Dialogue: 0,0:12:15.32,0:12:18.58,main,Gray,0000,0000,0000,,I am the priest of this church.
+Dialogue: 0,0:12:18.58,0:12:19.80,main,Gray,0000,0000,0000,,My name is Gray.
+Dialogue: 0,0:12:20.48,0:12:21.97,main,Rachel,0000,0000,0000,,You're a priest?
+Dialogue: 0,0:12:21.97,0:12:24.51,main,Gray,0000,0000,0000,,Now it's your turn to answer me.
+Dialogue: 0,0:12:24.51,0:12:27.82,main,Rachel,0000,0000,0000,,I'm... Rachel Gardner.
+Dialogue: 0,0:12:28.86,0:12:31.89,main,Rachel,0000,0000,0000,,Are you a resident of this floor?
+Dialogue: 0,0:12:32.47,0:12:33.62,main,Gray,0000,0000,0000,,Indeed.
+Dialogue: 0,0:12:34.05,0:12:37.32,main,Gray,0000,0000,0000,,From your perspective, I suppose I would be.
+Dialogue: 0,0:12:38.77,0:12:41.32,main,Gray,0000,0000,0000,,You needn't be so frightened.
+Dialogue: 0,0:12:41.78,0:12:45.78,main,Gray,0000,0000,0000,,I have not yet judged what \Nkind of person you are.
+Dialogue: 0,0:12:46.34,0:12:49.64,main,Gray,0000,0000,0000,,Since I do not know that,
+Dialogue: 0,0:12:49.64,0:12:53.66,main,Gray,0000,0000,0000,,I will not pass blind judgment on you.
+Dialogue: 0,0:12:55.36,0:12:57.35,main,Gray,0000,0000,0000,,What are you doing here?
+Dialogue: 0,0:12:58.05,0:13:01.21,main,Rachel,0000,0000,0000,,I'm looking... for something \Nto stop bleeding.
+Dialogue: 0,0:13:01.21,0:13:04.12,main,Gray,0000,0000,0000,,I see. An antihemorrhagic, then?
+Dialogue: 0,0:13:04.12,0:13:07.09,main,Gray,0000,0000,0000,,This is something Zack needs, correct?
+Dialogue: 0,0:13:08.40,0:13:10.35,main,Rachel,0000,0000,0000,,How do you know Zack?
+Dialogue: 0,0:13:09.35,0:13:10.35,main,,0000,0000,0000,,That is obvious.
+Dialogue: 0,0:13:10.61,0:13:14.81,main,Gray,0000,0000,0000,,I know more about them than anyone else.
+Dialogue: 0,0:13:15.05,0:13:19.61,main,Gray,0000,0000,0000,,Sadly, however, there is nothing \Nhere that you can use to treat him.
+Dialogue: 0,0:13:19.61,0:13:22.33,main,Gray,0000,0000,0000,,If there is such a thing...
+Dialogue: 0,0:13:22.33,0:13:24.82,main,Gray,0000,0000,0000,,I would expect it to be on Danny's floor.
+Dialogue: 0,0:13:24.82,0:13:27.76,main,Rachel,0000,0000,0000,,But... How do I get down there?
+Dialogue: 0,0:13:28.36,0:13:30.54,main,Gray,0000,0000,0000,,You want to go back down?
+Dialogue: 0,0:13:31.63,0:13:32.24,main,Rachel,0000,0000,0000,,Yes.
+Dialogue: 0,0:13:33.36,0:13:36.33,main,Gray,0000,0000,0000,,Then what you must do is not difficult.
+Dialogue: 0,0:13:36.62,0:13:39.84,main,Gray,0000,0000,0000,,With me, you can return there.
+Dialogue: 0,0:13:40.55,0:13:42.53,main,Rachel,0000,0000,0000,,With you?
+Dialogue: 0,0:13:42.53,0:13:44.10,main,Gray,0000,0000,0000,,Yes, indeed.
+Dialogue: 0,0:13:44.52,0:13:47.22,main,Gray,0000,0000,0000,,I know the way to get there.
+Dialogue: 0,0:13:47.99,0:13:50.68,main,Rachel,0000,0000,0000,,Can I trust what you say?
+Dialogue: 0,0:13:51.11,0:13:53.57,main,Gray,0000,0000,0000,,I do not lie.
+Dialogue: 0,0:13:53.57,0:13:55.43,main,Gray,0000,0000,0000,,But if we are to go,
+Dialogue: 0,0:13:55.43,0:13:59.44,main,Gray,0000,0000,0000,,I will need you to undergo a bit of a test.
+Dialogue: 0,0:14:00.08,0:14:01.41,main,Rachel,0000,0000,0000,,A test?
+Dialogue: 0,0:14:01.41,0:14:03.65,main,Gray,0000,0000,0000,,It is nothing difficult.
+Dialogue: 0,0:14:04.01,0:14:07.24,main,Gray,0000,0000,0000,,I only want to know who you truly are.
+Dialogue: 0,0:14:07.54,0:14:10.13,main,Gray,0000,0000,0000,,I do not require an immediate answer.
+Dialogue: 0,0:14:10.13,0:14:12.83,main,Gray,0000,0000,0000,,Make the choice within your own heart.
+Dialogue: 0,0:14:13.19,0:14:15.60,main,Gray,0000,0000,0000,,I will wait here a while.
+Dialogue: 0,0:14:15.60,0:14:19.17,main,Gray,0000,0000,0000,,Make your own decision as \Nto what you wish to do.
+Dialogue: 0,0:14:27.91,0:14:31.06,main,Rachel,0000,0000,0000,,I'd like a little more time.
+Dialogue: 0,0:14:33.90,0:14:36.49,italics,Rachel,0000,0000,0000,,This priest is the only lead I have.
+Dialogue: 0,0:14:36.49,0:14:39.19,italics,Rachel,0000,0000,0000,,I should go see Zack first.
+Dialogue: 0,0:14:49.88,0:14:51.08,main,Rachel,0000,0000,0000,,That's odd...
+Dialogue: 0,0:14:51.08,0:14:53.74,main,Rachel,0000,0000,0000,,A few rooms are missing.
+Dialogue: 0,0:15:04.28,0:15:05.23,main,Rachel,0000,0000,0000,,Zack!
+Dialogue: 0,0:15:10.92,0:15:12.19,main,Rachel,0000,0000,0000,,Don't try to move.
+Dialogue: 0,0:15:12.19,0:15:13.43,main,Zack,0000,0000,0000,,Ray...
+Dialogue: 0,0:15:13.43,0:15:16.10,main,Zack,0000,0000,0000,,Where have you been?
+Dialogue: 0,0:15:16.79,0:15:18.98,main,Rachel,0000,0000,0000,,I was looking for something \Nto stop the bleeding.
+Dialogue: 0,0:15:19.19,0:15:22.51,main,Zack,0000,0000,0000,,Huh? By yourself?
+Dialogue: 0,0:15:23.17,0:15:25.32,main,Zack,0000,0000,0000,,What the hell were you thinking?
+Dialogue: 0,0:15:26.18,0:15:30.69,main,Rachel,0000,0000,0000,,Well, I can't move you around too much.
+Dialogue: 0,0:15:30.69,0:15:32.78,main,Rachel,0000,0000,0000,,Besides, you were asleep.
+Dialogue: 0,0:15:32.78,0:15:34.99,main,Zack,0000,0000,0000,,Dumbass! You should've woken me up!
+Dialogue: 0,0:15:34.99,0:15:36.83,main,Rachel,0000,0000,0000,,I couldn't do that.
+Dialogue: 0,0:15:41.54,0:15:44.29,main,Zack,0000,0000,0000,,And? Did you find anything?
+Dialogue: 0,0:15:44.29,0:15:45.28,main,Rachel,0000,0000,0000,,No...
+Dialogue: 0,0:15:45.28,0:15:49.27,main,Rachel,0000,0000,0000,,But someone said that if I go back to \NDoctor Danny's floor, I'll find medicine.
+Dialogue: 0,0:15:49.27,0:15:52.60,main,Zack,0000,0000,0000,,Huh? You wanna go back now?
+Dialogue: 0,0:15:53.12,0:15:54.88,main,Rachel,0000,0000,0000,,Yeah, but...
+Dialogue: 0,0:15:55.64,0:15:56.85,main,Rachel,0000,0000,0000,,Zack!
+Dialogue: 0,0:15:56.85,0:15:58.86,main,Rachel,0000,0000,0000,,Stay still for a while!
+Dialogue: 0,0:15:58.86,0:16:01.81,main,Zack,0000,0000,0000,,Shut up! I'm not a little kid!
+Dialogue: 0,0:16:07.32,0:16:09.29,main,Zack,0000,0000,0000,,My scythe's so heavy...
+Dialogue: 0,0:16:09.29,0:16:12.61,main,Zack,0000,0000,0000,,The hell? This doesn't make sense.
+Dialogue: 0,0:16:12.92,0:16:14.36,main,Rachel,0000,0000,0000,,You'll die.
+Dialogue: 0,0:16:14.89,0:16:18.12,main,Rachel,0000,0000,0000,,The scythe's heaviness is your body \Ntelling you it can't handle it.
+Dialogue: 0,0:16:18.72,0:16:21.00,main,Zack,0000,0000,0000,,Don't just tell me I'm gonna die!
+Dialogue: 0,0:16:21.24,0:16:25.42,main,Zack,0000,0000,0000,,You know I'm not gonna kick \Nthe bucket that easily!
+Dialogue: 0,0:16:25.86,0:16:26.78,main,Rachel,0000,0000,0000,,But...
+Dialogue: 0,0:16:29.17,0:16:31.05,main,Rachel,0000,0000,0000,,Please, Zack.
+Dialogue: 0,0:16:31.46,0:16:33.47,main,Rachel,0000,0000,0000,,Let me be useful to you.
+Dialogue: 0,0:16:33.97,0:16:35.78,main,Zack,0000,0000,0000,,"Please," huh?
+Dialogue: 0,0:16:36.23,0:16:40.18,main,Zack,0000,0000,0000,,I hope you don't think that's \Ngonna make any difference.
+Dialogue: 0,0:16:42.01,0:16:42.93,main,Rachel,0000,0000,0000,,Please.
+Dialogue: 0,0:16:46.92,0:16:50.03,main,Zack,0000,0000,0000,,So? Is there a way to go back?
+Dialogue: 0,0:16:50.03,0:16:53.32,main,Rachel,0000,0000,0000,,Well... I think it'll be fine.
+Dialogue: 0,0:16:53.86,0:16:58.18,main,Zack,0000,0000,0000,,You really think you can go there \Nand make it back here alone?
+Dialogue: 0,0:16:59.09,0:17:00.79,main,Rachel,0000,0000,0000,,I think I can.
+Dialogue: 0,0:17:03.02,0:17:08.24,main,Zack,0000,0000,0000,,Fine. I'd just be dead weight \Nif I went with you now.
+Dialogue: 0,0:17:08.24,0:17:09.40,main,Rachel,0000,0000,0000,,You're wrong!
+Dialogue: 0,0:17:09.40,0:17:11.38,main,Zack,0000,0000,0000,,I'm not wrong.
+Dialogue: 0,0:17:11.38,0:17:16.08,main,Zack,0000,0000,0000,,But if you can tell me \Nhonestly that you won't die,
+Dialogue: 0,0:17:16.08,0:17:18.11,main,Zack,0000,0000,0000,,then go.
+Dialogue: 0,0:17:18.95,0:17:21.96,main,Zack,0000,0000,0000,,I'll just... sleep.
+Dialogue: 0,0:17:23.20,0:17:24.03,main,Rachel,0000,0000,0000,,Okay.
+Dialogue: 0,0:17:28.69,0:17:33.01,main,Zack,0000,0000,0000,,If you're going down,\N go as far as my old floor.
+Dialogue: 0,0:17:33.01,0:17:33.69,main,Rachel,0000,0000,0000,,Huh?
+Dialogue: 0,0:17:33.69,0:17:37.61,main,Zack,0000,0000,0000,,The place where I first found you.
+Dialogue: 0,0:17:37.79,0:17:40.67,main,Zack,0000,0000,0000,,My room is there.
+Dialogue: 0,0:17:40.67,0:17:45.75,main,Zack,0000,0000,0000,,There's a knife in the room.\NBring it... to me...
+Dialogue: 0,0:17:46.66,0:17:47.75,main,Rachel,0000,0000,0000,,Zack?
+Dialogue: 0,0:17:59.51,0:18:02.43,main,Gray,0000,0000,0000,,Have you decided what you will do?
+Dialogue: 0,0:18:03.35,0:18:05.85,italics,Rachel,0000,0000,0000,,I can't let Zack die.
+Dialogue: 0,0:18:05.85,0:18:09.15,italics,Rachel,0000,0000,0000,,If there's even the slightest chance...
+Dialogue: 0,0:18:11.15,0:18:14.81,main,Rachel,0000,0000,0000,,I want to go back to Doctor Danny's \Nfloor to get the medicine.
+Dialogue: 0,0:18:15.36,0:18:16.11,main,Rachel,0000,0000,0000,,So...
+Dialogue: 0,0:18:17.60,0:18:18.99,main,Rachel,0000,0000,0000,,I'll take your test.
+Dialogue: 0,0:18:20.68,0:18:21.95,main,Gray,0000,0000,0000,,Very well.
+Dialogue: 0,0:18:22.67,0:18:24.80,main,Rachel,0000,0000,0000,,Please, I'm begging you...
+Dialogue: 0,0:18:24.80,0:18:27.00,main,Rachel,0000,0000,0000,,Don't do anything to Zack.
+Dialogue: 0,0:18:27.00,0:18:28.24,main,Gray,0000,0000,0000,,Of course.
+Dialogue: 0,0:18:31.17,0:18:32.63,italics,Rachel,0000,0000,0000,,That smell again...
+Dialogue: 0,0:18:33.57,0:18:37.55,main,Gray,0000,0000,0000,,Well, shall we go, Rachel Gardner?
+Dialogue: 0,0:18:45.33,0:18:49.27,main,Gray,0000,0000,0000,,I see you are determined \Nto keep me away from Zack.
+Dialogue: 0,0:18:49.67,0:18:53.40,main,Gray,0000,0000,0000,,You needn't glare so.\N I won't do anything to him.
+Dialogue: 0,0:18:55.40,0:18:59.20,main,Gray,0000,0000,0000,,Why do you wish to save Zack?
+Dialogue: 0,0:19:00.08,0:19:03.17,main,Rachel,0000,0000,0000,,If he dies, it'll be a problem for me.
+Dialogue: 0,0:19:03.17,0:19:06.33,main,Gray,0000,0000,0000,,A problem? Why is that?
+Dialogue: 0,0:19:06.59,0:19:09.12,main,Rachel,0000,0000,0000,,Zack swore to God...
+Dialogue: 0,0:19:09.89,0:19:12.96,main,Rachel,0000,0000,0000,,...that he would kill me.
+Dialogue: 0,0:19:13.42,0:19:17.25,main,Gray,0000,0000,0000,,Oh? And that is your reason? Truly?
+Dialogue: 0,0:19:17.75,0:19:20.18,main,Gray,0000,0000,0000,,What an outlandish promise to make.
+Dialogue: 0,0:19:21.13,0:19:22.14,italics,Rachel,0000,0000,0000,,This smell...
+Dialogue: 0,0:19:24.57,0:19:26.12,italics,Rachel,0000,0000,0000,,It's coming from him.
+Dialogue: 0,0:19:28.58,0:19:31.80,main,Gray,0000,0000,0000,,We have arrived, Rachel Gardner.
+Dialogue: 0,0:19:32.26,0:19:33.71,main,Rachel,0000,0000,0000,,So soon?
+Dialogue: 0,0:19:33.71,0:19:36.23,main,Gray,0000,0000,0000,,I mentioned a test, yes?
+Dialogue: 0,0:19:36.89,0:19:39.29,main,Rachel,0000,0000,0000,,We haven't reached Doctor Danny's floor yet!
+Dialogue: 0,0:19:39.29,0:19:42.78,main,Gray,0000,0000,0000,,There will be a test for you on each floor.
+Dialogue: 0,0:19:43.88,0:19:46.02,main,Gray,0000,0000,0000,,They will not be difficult.
+Dialogue: 0,0:19:46.02,0:19:50.08,main,Gray,0000,0000,0000,,You need only turn on the electricity \Nthat powers the elevator in the prison.
+Dialogue: 0,0:19:51.88,0:19:54.96,main,Rachel,0000,0000,0000,,Is the power source really there?
+Dialogue: 0,0:19:55.32,0:20:00.32,main,Gray,0000,0000,0000,,Per Cathy's wishes, this floor is rigged \Nwith more mechanisms than the others.
+Dialogue: 0,0:20:00.32,0:20:04.04,main,Gray,0000,0000,0000,,She was very skilled at using \Nthem to manipulate people's minds
+Dialogue: 0,0:20:04.04,0:20:09.68,main,Gray,0000,0000,0000,,and guide them toward repenting and \Nseeking salvation from the heart.
+Dialogue: 0,0:20:10.07,0:20:12.93,main,Gray,0000,0000,0000,,Although she could be a \Nbit of a spendthrift...
+Dialogue: 0,0:20:13.33,0:20:15.90,main,Gray,0000,0000,0000,,But let us just say that \Nwas part of her charm.
+Dialogue: 0,0:20:16.39,0:20:20.57,main,Gray,0000,0000,0000,,And with her gone, those who \Nseek repentance and salvation
+Dialogue: 0,0:20:20.57,0:20:23.45,main,Gray,0000,0000,0000,,may now be roaming about this floor.
+Dialogue: 0,0:20:25.73,0:20:28.70,main,Gray,0000,0000,0000,,Now, let us begin the test.
+Dialogue: 0,0:20:29.19,0:20:33.80,main,Gray,0000,0000,0000,,Go, Rachel Gardner.
+Dialogue: 0,0:20:35.22,0:20:36.51,italics,Rachel,0000,0000,0000,,I have to hurry.
+Dialogue: 0,0:20:51.02,0:20:51.94,italics,Rachel,0000,0000,0000,,There it is!
+Dialogue: 0,0:21:05.77,0:21:07.91,italics,Rachel,0000,0000,0000,,Ugh... They're in the way.
+Dialogue: 0,0:21:23.55,0:21:24.81,italics,Rachel,0000,0000,0000,,If I go in there...
+Dialogue: 0,0:21:30.82,0:21:33.35,italics,Rachel,0000,0000,0000,,The body... is gone?
+Dialogue: 0,0:21:34.34,0:21:35.85,main,Rachel,0000,0000,0000,,I don't have time to worry about that.
+Dialogue: 0,0:21:44.75,0:21:47.16,main,Rachel,0000,0000,0000,,She watched us from here...
+Dialogue: 0,0:21:52.05,0:21:53.19,main,Rachel,0000,0000,0000,,I have to get rid of them.
+Dialogue: 0,0:21:54.51,0:21:58.08,main,Rachel,0000,0000,0000,,Please... Don't get in my way.

@@ -1,0 +1,288 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Flashback_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Ep_Title,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&HC8000000,&H00000000,1,0,0,0,100,100,0,0,1,1,0,2,13,13,187,1
+Style: sign_33927_268_Next_Time,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00A7121E,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,365,365,155,1
+Style: sign_33927_269__Goblin_Slayer_,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00BB060A,&H00000000,1,0,0,0,100,100,0,0,1,1,0,2,329,332,185,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:38.11,0:00:40.19,Main,Priestess,0000,0000,0000,,I want to be an adventurer!
+Dialogue: 0,0:00:53.86,0:00:56.17,Main,Guild Girl,0000,0000,0000,,Can you read and write?
+Dialogue: 0,0:00:57.09,0:00:59.31,Main,Priestess,0000,0000,0000,,Yes, I learned how at the temple.
+Dialogue: 0,0:00:59.61,0:01:02.06,Main,Guild girl,0000,0000,0000,,Then please fill this out.
+Dialogue: 0,0:01:05.61,0:01:08.30,Main,Adventurer A,0000,0000,0000,,How was dealing with the \Nmanticore at the pass?
+Dialogue: 0,0:01:08.30,0:01:10.29,Main,Adventurer B,0000,0000,0000,,It wasn't too bad.
+Dialogue: 0,0:01:09.61,0:01:13.11,Ep_Title,Sign,0000,0000,0000,,{\fad(273,1)}The Fate of Particular Adventurers
+Dialogue: 0,0:01:11.10,0:01:13.57,Main,Adventurer C,0000,0000,0000,,Hey, I heard that a demon lord \Nappeared in the capital,
+Dialogue: 0,0:01:13.57,0:01:16.70,Main,Adventurer C,0000,0000,0000,,and it's the perfect time to head \Nover there to earn some coin.
+Dialogue: 0,0:01:17.53,0:01:21.60,Main,Adventurer D,0000,0000,0000,,I'm sure I could at least \Nhandle a low-level demon.
+Dialogue: 0,0:01:23.57,0:01:27.38,Main,Guild girl,0000,0000,0000,,So you're fifteen and \Nyour job is a priestess.
+Dialogue: 0,0:01:27.63,0:01:28.81,Main,Priestess,0000,0000,0000,,Yes.
+Dialogue: 0,0:01:28.81,0:01:33.45,Main,Priestess,0000,0000,0000,,I'm an adult now, so I wanted \Nto help other adventurers.
+Dialogue: 0,0:01:34.13,0:01:37.34,Main,Guild girl,0000,0000,0000,,This will act as your ID in the guild.
+Dialogue: 0,0:01:37.98,0:01:42.06,Main,Guild girl,0000,0000,0000,,There are ten ranks of adventurers, \Nand platinum is the highest rank.
+Dialogue: 0,0:01:42.58,0:01:44.23,Main,Guild girl,0000,0000,0000,,Next is gold,
+Dialogue: 0,0:01:44.23,0:01:48.52,Main,Guild girl,0000,0000,0000,,but the highest-ranked out in\Nthe field would be the silvers.
+Dialogue: 0,0:01:49.40,0:01:53.23,Main,Guild girl,0000,0000,0000,,Your identification tag shows \Nthat your rank is porcelain,
+Dialogue: 0,0:01:53.23,0:01:55.36,Main,Guild girl,0000,0000,0000,,the lowest rank for adventurers.
+Dialogue: 0,0:01:55.36,0:01:57.39,Main,Priestess,0000,0000,0000,,So I'm a beginner.
+Dialogue: 0,0:01:57.39,0:01:58.58,Main,Guild girl,0000,0000,0000,,Yes.
+Dialogue: 0,0:01:58.58,0:02:02.29,Main,Guild girl,0000,0000,0000,,It will also help identify you if \Nsomething were to happen to you,
+Dialogue: 0,0:02:02.66,0:02:04.03,Main,Guild girl,0000,0000,0000,,so make sure not to lose it.
+Dialogue: 0,0:02:04.03,0:02:04.79,Main,Priestess,0000,0000,0000,,Yes, ma'am.
+Dialogue: 0,0:02:05.24,0:02:07.39,Main,Guild girl,0000,0000,0000,,And that ends your registration.
+Dialogue: 0,0:02:07.80,0:02:10.32,Main,Guild girl,0000,0000,0000,,You can find quests on the board there.
+Dialogue: 0,0:02:10.32,0:02:12.80,Main,Guild girl,0000,0000,0000,,Please go ahead and find one \Nsuitable for your rank.
+Dialogue: 0,0:02:13.28,0:02:16.05,Main,Guild girl,0000,0000,0000,,Or you could join a veteran \Nadventurer's party and—
+Dialogue: 0,0:02:16.05,0:02:19.10,Main,Warrior,0000,0000,0000,,Hey, wanna go adventuring with us?
+Dialogue: 0,0:02:19.10,0:02:19.79,Main,Priestess,0000,0000,0000,,Huh?
+Dialogue: 0,0:02:19.79,0:02:21.55,Main,Warrior,0000,0000,0000,,You're a priestess, right?
+Dialogue: 0,0:02:22.12,0:02:26.91,Main,Warrior,0000,0000,0000,,My party's missing a priest, \Nbut we've got an urgent quest to do,
+Dialogue: 0,0:02:26.91,0:02:29.28,Main,Warrior,0000,0000,0000,,so we were looking for \Nat least one more person.
+Dialogue: 0,0:02:29.28,0:02:30.19,Main,Warrior,0000,0000,0000,,Would you come with us?
+Dialogue: 0,0:02:30.62,0:02:33.01,Main,Priestess,0000,0000,0000,,An urgent quest?
+Dialogue: 0,0:02:33.58,0:02:35.07,Main,Warrior,0000,0000,0000,,We're gonna go slay some goblins.
+Dialogue: 0,0:02:36.63,0:02:38.07,Main,Priestess,0000,0000,0000,,Goblins?
+Dialogue: 0,0:02:38.43,0:02:42.89,Main,Warrior,0000,0000,0000,,Yeah, they attacked a village, \Nstole supplies and livestock,
+Dialogue: 0,0:02:42.89,0:02:45.79,Main,Warrior,0000,0000,0000,,and even kidnapped some girls.
+Dialogue: 0,0:02:45.79,0:02:47.58,Main,Warrior,0000,0000,0000,,We need to hurry up and save them.
+Dialogue: 0,0:02:47.58,0:02:51.43,Main,Guild girl,0000,0000,0000,,Um... You're all porcelain-ranked, right?
+Dialogue: 0,0:02:51.43,0:02:55.85,Main,Guild girl,0000,0000,0000,,I'm sure if you wait a little while, \Nother adventurers will show up...
+Dialogue: 0,0:02:55.85,0:02:59.51,Main,Warrior,0000,0000,0000,,With the four of us, we shouldn't have \Nany trouble dealing with goblins.
+Dialogue: 0,0:02:59.51,0:03:00.05,Main,Warrior,0000,0000,0000,,Right?
+Dialogue: 0,0:03:01.66,0:03:02.94,Main,Fighter,0000,0000,0000,,Come with us.
+Dialogue: 0,0:03:02.94,0:03:04.31,Main,Wizard,0000,0000,0000,,Make up your mind already.
+Dialogue: 0,0:03:09.08,0:03:12.06,Main,Priestess,0000,0000,0000,,Okay. If you think that I can help you.
+Dialogue: 0,0:03:12.27,0:03:15.07,Main,Warrior,0000,0000,0000,,All right! We can finally go on an adventure!
+Dialogue: 0,0:03:15.07,0:03:17.66,Main,Fighter,0000,0000,0000,,Yeah! It's great to have you!
+Dialogue: 0,0:03:15.55,0:03:16.78,Main,Warrior,0000,0000,0000,,Welcome aboard!
+Dialogue: 0,0:03:17.66,0:03:19.91,Main,Warrior,0000,0000,0000,,Now slaying goblins will be a breeze!
+Dialogue: 0,0:03:19.91,0:03:21.19,Main,Wizard,0000,0000,0000,,Calm down.
+Dialogue: 0,0:03:21.19,0:03:23.91,Main,Fighter,0000,0000,0000,,Well, if things get hairy, \NI'll take care of it!
+Dialogue: 0,0:03:44.06,0:03:48.77,Main,Priestess,0000,0000,0000,,Um... Are you sure we should\Nsuddenly barge in here?
+Dialogue: 0,0:03:49.57,0:03:51.85,Main,Priestess,0000,0000,0000,,Maybe we should go back \Nand prepare a bit more...
+Dialogue: 0,0:03:52.14,0:03:55.33,Main,Wizard,0000,0000,0000,,Huh? We've come this far, \Nand you bring that up now?
+Dialogue: 0,0:03:56.60,0:03:58.28,Main,Warrior,0000,0000,0000,,You're such a worrywart.
+Dialogue: 0,0:03:58.28,0:04:01.36,Main,Warrior,0000,0000,0000,,Goblins are as small as children, \Nand just as dumb, too.
+Dialogue: 0,0:04:01.36,0:04:03.89,Main,Warrior,0000,0000,0000,,They're the weakest \Nmonsters you can run into.
+Dialogue: 0,0:04:03.89,0:04:07.65,Main,Warrior,0000,0000,0000,,I even managed to chase away some \Nthat came to my village once!
+Dialogue: 0,0:04:07.65,0:04:09.50,Main,Fighter,0000,0000,0000,,That's not even worth bragging about.
+Dialogue: 0,0:04:10.81,0:04:14.85,Main,Warrior,0000,0000,0000,,I'm sure we'd be able to handle things, \Neven if we ran into like a dragon!
+Dialogue: 0,0:04:14.85,0:04:18.14,Main,Wizard,0000,0000,0000,,You're getting ahead of yourself,\N but yeah, we'll eventually get there.
+Dialogue: 0,0:04:18.14,0:04:21.13,Main,Warrior,0000,0000,0000,,One day, I'm gonna be a dragon slayer!
+Dialogue: 0,0:04:22.34,0:04:24.34,Main,Warrior,0000,0000,0000,,Wh-Whoa!
+Dialogue: 0,0:04:26.21,0:04:28.32,Main,Fighter,0000,0000,0000,,Even if that idiot can't cut them all down,
+Dialogue: 0,0:04:28.32,0:04:30.50,Main,Fighter,0000,0000,0000,,I'll beat them down with my bare hands.
+Dialogue: 0,0:04:30.90,0:04:32.77,Main,Fighter,0000,0000,0000,,Don't you worry.
+Dialogue: 0,0:04:33.27,0:04:37.70,Main,Fighter,0000,0000,0000,,Besides, she's a wizard who graduated \Nfrom the Sages' Academy in the capital.
+Dialogue: 0,0:04:43.25,0:04:47.13,Main,Warrior,0000,0000,0000,,Okay, that's enough talking. Let's go.
+Dialogue: 0,0:04:50.67,0:04:53.98,Main,Priestess,0000,0000,0000,,Do any of you have any potions?
+Dialogue: 0,0:04:53.98,0:04:54.90,Main,Warrior,0000,0000,0000,,Nope!
+Dialogue: 0,0:04:56.20,0:04:59.43,Main,Warrior,0000,0000,0000,,We didn't have the time or \Nmoney to do any shopping.
+Dialogue: 0,0:04:59.43,0:05:00.08,Main,Priestess,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:00.62,0:05:03.09,Main,Warrior,0000,0000,0000,,Besides, I'm worried about \Nthose kidnapped girls.
+Dialogue: 0,0:05:03.09,0:05:06.37,Main,Warrior,0000,0000,0000,,And if we do get hurt, you'll heal us, right?
+Dialogue: 0,0:05:06.71,0:05:12.11,Main,Priestess,0000,0000,0000,,I do have the miracles of \Nhealing and light, but...
+Dialogue: 0,0:05:12.47,0:05:14.14,Main,Priestess,0000,0000,0000,,I can only use them three times...
+Dialogue: 0,0:05:14.71,0:05:15.56,Main,Warrior,0000,0000,0000,,Hold up!
+Dialogue: 0,0:05:22.84,0:05:24.03,Main,Warrior,0000,0000,0000,,What the heck is this?
+Dialogue: 0,0:05:24.75,0:05:26.51,Main,Fighter,0000,0000,0000,,There was one at the entrance, too.
+Dialogue: 0,0:05:26.51,0:05:27.51,Main,Warrior,0000,0000,0000,,Was there?
+Dialogue: 0,0:05:28.08,0:05:30.31,Main,Priestess,0000,0000,0000,,O merciful Earth Mother,
+Dialogue: 0,0:05:30.31,0:05:33.71,Main,Priestess,0000,0000,0000,,please provide us protection \Nas we step into the darkness.
+Dialogue: 0,0:05:33.92,0:05:38.24,Main,Wizard,0000,0000,0000,,Come on, we're falling behind. \NThe other two ran ahead.
+Dialogue: 0,0:05:38.76,0:05:39.95,Main,Priestess,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:05:51.31,0:05:52.60,Main,Wizard,0000,0000,0000,,What's the matter now?
+Dialogue: 0,0:05:52.60,0:05:54.95,Main,Priestess,0000,0000,0000,,I thought I just heard a sound...
+Dialogue: 0,0:05:54.95,0:05:56.20,Main,Wizard,0000,0000,0000,,From where?
+Dialogue: 0,0:05:57.54,0:05:59.72,Main,Priestess,0000,0000,0000,,From behind us, I think...
+Dialogue: 0,0:06:02.64,0:06:06.83,Main,Wizard,0000,0000,0000,,We've only come straight from the entrance.
+Dialogue: 0,0:06:06.83,0:06:08.65,Main,Wizard,0000,0000,0000,,There's no way they'd be behind—
+Dialogue: 0,0:06:12.60,0:06:13.54,Main,Wizard,0000,0000,0000,,Goblins!
+Dialogue: 0,0:06:22.62,0:06:26.34,Main,Wizard,0000,0000,0000,,Sagitta... inflammarae... radius!
+Dialogue: 0,0:06:28.12,0:06:29.34,Main,Wizard,0000,0000,0000,,Firebolt!
+Dialogue: 0,0:06:30.85,0:06:31.93,Main,Wizard,0000,0000,0000,,I got one!
+Dialogue: 0,0:06:36.13,0:06:38.02,Main,Wizard,0000,0000,0000,,Sagitta inflammarae radius!
+Dialogue: 0,0:06:47.86,0:06:49.40,Main,Wizard,0000,0000,0000,,G-Give that back!
+Dialogue: 0,0:06:57.40,0:06:59.08,Main,Priestess,0000,0000,0000,,Get away from her!
+Dialogue: 0,0:07:14.08,0:07:16.59,Main,Warrior,0000,0000,0000,,Curse you, goblins! How dare you?!
+Dialogue: 0,0:07:16.59,0:07:17.23,Main,Fighter,0000,0000,0000,,Over here!
+Dialogue: 0,0:07:20.04,0:07:21.26,Main,Warrior,0000,0000,0000,,Take that!
+Dialogue: 0,0:07:21.26,0:07:23.42,Main,Fighter,0000,0000,0000,,Hurry and perform a healing miracle on her!
+Dialogue: 0,0:07:23.42,0:07:24.23,Main,Priestess,0000,0000,0000,,Of course!
+Dialogue: 0,0:07:24.84,0:07:26.87,Main,Priestess,0000,0000,0000,,O merciful Earth Mother,
+Dialogue: 0,0:07:26.87,0:07:30.06,Main,Priestess,0000,0000,0000,,please lay your revered hand \Nupon this child's wounds!
+Dialogue: 0,0:07:30.06,0:07:31.16,Main,Priestess,0000,0000,0000,,Heal!
+Dialogue: 0,0:07:31.63,0:07:34.20,Main,Warrior,0000,0000,0000,,Take that! And that!
+Dialogue: 0,0:07:34.61,0:07:37.21,Main,Fighter,0000,0000,0000,,Stop swinging that thing around!\NI can't get closer!
+Dialogue: 0,0:07:38.43,0:07:40.24,Main,Warrior,0000,0000,0000,,You protect the other two!
+Dialogue: 0,0:07:40.24,0:07:42.00,Main,Warrior,0000,0000,0000,,I'll take care of these!
+Dialogue: 0,0:07:42.00,0:07:43.75,Main,Warrior,0000,0000,0000,,What's the matter, goblins?!
+Dialogue: 0,0:07:56.67,0:07:58.86,Main,Warrior,0000,0000,0000,,You bastard!
+Dialogue: 0,0:08:00.79,0:08:02.69,Main,Warrior,0000,0000,0000,,You're in my way!
+Dialogue: 0,0:08:21.28,0:08:24.75,Main,Priestess,0000,0000,0000,,Why? I used Heal, but she's \Nnot getting any better...
+Dialogue: 0,0:08:26.21,0:08:27.59,Main,Fighter,0000,0000,0000,,You two, run!
+Dialogue: 0,0:08:27.59,0:08:28.99,Main,Priestess,0000,0000,0000,,B-But...
+Dialogue: 0,0:08:51.87,0:08:52.77,Main,Fighter,0000,0000,0000,,Ow...
+Dialogue: 0,0:09:22.53,0:09:24.20,Main,Fighter,0000,0000,0000,,R... Run....
+Dialogue: 0,0:09:39.33,0:09:40.66,Main,Priestess,0000,0000,0000,,I'm so sorry...
+Dialogue: 0,0:09:41.27,0:09:42.62,Main,Priestess,0000,0000,0000,,I'm so sorry...
+Dialogue: 0,0:09:42.62,0:09:43.79,Main,Priestess,0000,0000,0000,,I'm so sorry...
+Dialogue: 0,0:09:44.66,0:09:46.04,Main,Priestess,0000,0000,0000,,I'm so sorry...
+Dialogue: 0,0:09:46.64,0:09:47.97,Main,Priestess,0000,0000,0000,,I'm so sorry...
+Dialogue: 0,0:09:51.59,0:09:52.75,Main,Priestess,0000,0000,0000,,I'm so sorry...
+Dialogue: 0,0:09:55.94,0:09:57.23,Main,Priestess,0000,0000,0000,,I'm so sorry.
+Dialogue: 0,0:10:00.65,0:10:03.09,Main,Priestess,0000,0000,0000,,Forgive me! Are you all right?
+Dialogue: 0,0:10:05.41,0:10:06.77,Main,Priestess,0000,0000,0000,,Wh-Why...
+Dialogue: 0,0:10:24.58,0:10:29.08,Main,Priestess,0000,0000,0000,,O... merciful... Earth Mother...
+Dialogue: 0,0:11:21.44,0:11:22.64,Main,Goblin Slayer,0000,0000,0000,,That's one...
+Dialogue: 0,0:11:42.73,0:11:44.10,Main,Goblin Slayer,0000,0000,0000,,And that makes two.
+Dialogue: 0,0:11:45.52,0:11:47.84,Main,Priestess,0000,0000,0000,,Um... Who are you?
+Dialogue: 0,0:11:55.91,0:11:57.53,Main,Goblin Slayer,0000,0000,0000,,Goblin Slayer.
+Dialogue: 0,0:12:02.57,0:12:04.17,Italics,Priestess,0000,0000,0000,,Goblin Slayer?
+Dialogue: 0,0:12:06.90,0:12:07.81,Italics,Priestess,0000,0000,0000,,He's a silver?
+Dialogue: 0,0:12:08.27,0:12:09.49,Main,Goblin slayer,0000,0000,0000,,Are you a rookie?
+Dialogue: 0,0:12:09.49,0:12:10.77,Main,Priestess,0000,0000,0000,,Y-Yes...
+Dialogue: 0,0:12:11.34,0:12:13.73,Main,Goblin slayer,0000,0000,0000,,I see you can talk. You're lucky.
+Dialogue: 0,0:12:21.66,0:12:23.78,Main,Goblin slayer,0000,0000,0000,,Drink this. It'll help with the pain.
+Dialogue: 0,0:12:24.42,0:12:27.99,Main,Priestess,0000,0000,0000,,U-Um... P-Please, give it to her...
+Dialogue: 0,0:12:30.58,0:12:31.56,Main,Goblin slayer,0000,0000,0000,,Give up on her.
+Dialogue: 0,0:12:37.14,0:12:38.15,Main,Goblin slayer,0000,0000,0000,,She's been poisoned.
+Dialogue: 0,0:12:38.55,0:12:40.17,Main,Priestess,0000,0000,0000,,P-Poisoned?
+Dialogue: 0,0:12:40.17,0:12:42.86,Main,Goblin slayer,0000,0000,0000,,I have an antidote, but it's too late.
+Dialogue: 0,0:12:44.85,0:12:47.78,Main,Wizard,0000,0000,0000,,Kill... me...
+Dialogue: 0,0:12:48.28,0:12:49.18,Main,Goblin Slayer,0000,0000,0000,,All right.
+Dialogue: 0,0:13:02.03,0:13:05.47,Main,Priestess,0000,0000,0000,,We might've been able to save her!
+Dialogue: 0,0:13:05.47,0:13:06.95,Main,Goblin slayer,0000,0000,0000,,You'd only make her suffer more.
+Dialogue: 0,0:13:07.92,0:13:08.49,Main,Goblin slayer,0000,0000,0000,,Drink.
+Dialogue: 0,0:13:21.09,0:13:22.85,Main,Goblin slayer,0000,0000,0000,,Did you see a bigger one somewhere?
+Dialogue: 0,0:13:23.30,0:13:24.70,Main,Priestess,0000,0000,0000,,I believe so.
+Dialogue: 0,0:13:25.21,0:13:26.32,Main,Priestess,0000,0000,0000,,But...
+Dialogue: 0,0:13:26.32,0:13:29.89,Main,Goblin slayer,0000,0000,0000,,That was a hobgoblin. Maybe they \Ntook on a wanderer as a guard.
+Dialogue: 0,0:13:30.98,0:13:32.89,Main,Goblin slayer,0000,0000,0000,,I'm going to go kill some goblins.
+Dialogue: 0,0:13:33.57,0:13:35.00,Main,Goblin slayer,0000,0000,0000,,What are you going to do?
+Dialogue: 0,0:13:35.00,0:13:37.21,Main,Priestess,0000,0000,0000,,I'll go... with you...
+Dialogue: 0,0:13:37.66,0:13:39.31,Main,Goblin slayer,0000,0000,0000,,What can you use?
+Dialogue: 0,0:13:39.31,0:13:42.46,Main,Priestess,0000,0000,0000,,I can use Heal and Holy Light.
+Dialogue: 0,0:13:42.46,0:13:43.56,Main,Goblin slayer,0000,0000,0000,,How many times?
+Dialogue: 0,0:13:43.97,0:13:47.80,Main,Priestess,0000,0000,0000,,Three times... So I have two uses left.
+Dialogue: 0,0:13:47.80,0:13:48.32,Main,Goblin slayer,0000,0000,0000,,All right.
+Dialogue: 0,0:13:54.70,0:13:56.00,Main,Priestess,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:13:57.39,0:13:59.42,Main,Goblin slayer,0000,0000,0000,,We have to get rid of our scents.
+Dialogue: 0,0:14:02.30,0:14:04.55,Main,Goblin slayer,0000,0000,0000,,Get used to the smell of blood.
+Dialogue: 0,0:14:04.90,0:14:05.88,Main,Priestess,0000,0000,0000,,All right...
+Dialogue: 0,0:14:08.04,0:14:09.64,Main,Goblin slayer,0000,0000,0000,,Eight, nine...
+Dialogue: 0,0:14:21.07,0:14:23.07,Main,Goblin slayer,0000,0000,0000,,This is too long to swing \Naround in this cave.
+Dialogue: 0,0:14:26.61,0:14:28.84,Main,Priestess,0000,0000,0000,,How did this happen?
+Dialogue: 0,0:14:28.84,0:14:31.46,Main,Goblin slayer,0000,0000,0000,,Were you attacked by a horde from behind?
+Dialogue: 0,0:14:31.46,0:14:31.99,Main,Priestess,0000,0000,0000,,Huh?
+Dialogue: 0,0:14:35.49,0:14:38.42,Main,priestess,0000,0000,0000,,But... when we went through...
+Dialogue: 0,0:14:38.69,0:14:41.93,Main,goblin slayer,0000,0000,0000,,In a dark cave, if all you have is a torch,
+Dialogue: 0,0:14:41.93,0:14:45.09,Main,goblin slayer,0000,0000,0000,,you wouldn't notice the \Nshadows along the cave walls.
+Dialogue: 0,0:14:45.09,0:14:47.26,Main,goblin slayer,0000,0000,0000,,That over there would \Ncatch your eye first.
+Dialogue: 0,0:14:49.11,0:14:51.18,Main,Goblin slayer,0000,0000,0000,,It's a common mistake that rookies make.
+Dialogue: 0,0:14:59.79,0:15:03.13,Main,Goblin slayer,0000,0000,0000,,Listen, they're not bright creatures, \Nbut they aren't complete fools.
+Dialogue: 0,0:15:03.13,0:15:05.65,Main,Goblin slayer,0000,0000,0000,,This horde is being led by a shaman.
+Dialogue: 0,0:15:05.65,0:15:07.12,Main,Priestess,0000,0000,0000,,A shaman?
+Dialogue: 0,0:15:07.12,0:15:09.07,Main,Goblin slayer,0000,0000,0000,,They're powerful spell casters.
+Dialogue: 0,0:15:09.65,0:15:10.95,Main,Goblin slayer,0000,0000,0000,,How many were in your party?
+Dialogue: 0,0:15:10.95,0:15:12.61,Main,Priestess,0000,0000,0000,,Four...
+Dialogue: 0,0:15:13.11,0:15:14.79,Main,Goblin slayer,0000,0000,0000,,Is the last one a woman?
+Dialogue: 0,0:15:15.15,0:15:16.75,Main,Goblin slayer,0000,0000,0000,,Looks like they dragged her in deeper.
+Dialogue: 0,0:15:17.02,0:15:18.25,Main,Priestess,0000,0000,0000,,We have to save her!
+Dialogue: 0,0:15:32.11,0:15:32.64,Main,Goblin slayer,0000,0000,0000,,Ten.
+Dialogue: 0,0:15:33.56,0:15:35.81,Main,Priestess,0000,0000,0000,,Can you see in the dark, too?
+Dialogue: 0,0:15:35.81,0:15:38.42,Main,Goblin slayer,0000,0000,0000,,Of course not. I just practiced.
+Dialogue: 0,0:15:38.42,0:15:40.73,Main,Goblin slayer,0000,0000,0000,,I always aim for where their necks would be.
+Dialogue: 0,0:15:40.73,0:15:42.79,Main,Priestess,0000,0000,0000,,Practiced? How much did you practice?
+Dialogue: 0,0:15:46.96,0:15:48.13,Main,Goblin slayer,0000,0000,0000,,A lot.
+Dialogue: 0,0:15:49.10,0:15:50.05,Main,Priestess,0000,0000,0000,,What about your sword?
+Dialogue: 0,0:15:50.58,0:15:52.62,Main,Goblin slayer,0000,0000,0000,,It's useless now. Too much blood on it.
+Dialogue: 0,0:15:53.76,0:15:57.58,Main,Goblin slayer,0000,0000,0000,,That was a scout. This is the right way.
+Dialogue: 0,0:16:01.69,0:16:02.65,Main,Goblin slayer,0000,0000,0000,,Let's go.
+Dialogue: 0,0:16:02.65,0:16:04.46,Main,Priestess,0000,0000,0000,,Y-Yes, sir...
+Dialogue: 0,0:16:08.39,0:16:10.09,Main,Goblin slayer,0000,0000,0000,,Use Holy Light from here.
+Dialogue: 0,0:16:10.40,0:16:12.86,Main,Goblin slayer,0000,0000,0000,,Once you do, get back to \Nthe entrance immediately.
+Dialogue: 0,0:16:12.86,0:16:13.85,Main,Priestess,0000,0000,0000,,All right...
+Dialogue: 0,0:16:13.85,0:16:14.56,Main,Goblin slayer,0000,0000,0000,,Let's go.
+Dialogue: 0,0:16:18.15,0:16:22.25,Main,Priestess,0000,0000,0000,,O merciful Earth Mother, please bless us,
+Dialogue: 0,0:16:22.25,0:16:25.01,Main,Priestess,0000,0000,0000,,the wanderers in the \Ndarkness, with holy light!
+Dialogue: 0,0:16:25.01,0:16:26.15,Main,Priestess,0000,0000,0000,,Holy Light!
+Dialogue: 0,0:16:29.33,0:16:32.49,Main,Goblin slayer,0000,0000,0000,,Six. One hob and one shaman.
+Dialogue: 0,0:16:35.05,0:16:35.99,Main,Goblin slayer,0000,0000,0000,,Eight remaining.
+Dialogue: 0,0:16:38.82,0:16:39.75,Main,Goblin slayer,0000,0000,0000,,Fall back!
+Dialogue: 0,0:16:39.75,0:16:40.85,Main,Priestess,0000,0000,0000,,O-Okay...
+Dialogue: 0,0:16:56.68,0:16:57.44,Main,Goblin slayer,0000,0000,0000,,Do it.
+Dialogue: 0,0:17:00.35,0:17:04.33,Main,Priestess,0000,0000,0000,,O merciful Earth Mother, please bless us,
+Dialogue: 0,0:17:04.33,0:17:06.63,Main,Priestess,0000,0000,0000,,the wanderers in the \Ndarkness, with holy light!
+Dialogue: 0,0:17:12.39,0:17:13.40,Main,Goblin slayer,0000,0000,0000,,Eleven.
+Dialogue: 0,0:17:16.73,0:17:20.05,Main,Priestess,0000,0000,0000,,Th-There are more coming! \NBut I can't use any more...
+Dialogue: 0,0:17:20.05,0:17:21.29,Main,Goblin slayer,0000,0000,0000,,I know.
+Dialogue: 0,0:17:26.47,0:17:27.36,Main,Goblin slayer,0000,0000,0000,,See ya.
+Dialogue: 0,0:17:33.29,0:17:35.26,Main,Goblin slayer,0000,0000,0000,,Twelve, thirteen...
+Dialogue: 0,0:17:40.14,0:17:41.67,Main,Priestess,0000,0000,0000,,What was that?
+Dialogue: 0,0:17:41.67,0:17:44.39,Main,Goblin slayer,0000,0000,0000,,Gasoline that I bought from an alchemist.
+Dialogue: 0,0:17:44.97,0:17:47.15,Main,Goblin slayer,0000,0000,0000,,Wasn't very effective, for the amount it cost.
+Dialogue: 0,0:17:47.15,0:17:50.40,Main,Priestess,0000,0000,0000,,B-But inside... The kidnapped girls...
+Dialogue: 0,0:17:50.77,0:17:54.40,Main,Goblin slayer,0000,0000,0000,,The flames won't spread too far \Nwith just two or three corpses.
+Dialogue: 0,0:17:54.84,0:17:56.11,Main,Goblin slayer,0000,0000,0000,,They won't die.
+Dialogue: 0,0:17:56.62,0:17:58.92,Main,Priestess,0000,0000,0000,,Are you going in again?
+Dialogue: 0,0:17:58.92,0:17:59.82,Main,Goblin slayer,0000,0000,0000,,No.
+Dialogue: 0,0:18:03.48,0:18:07.77,Main,Goblin slayer,0000,0000,0000,,They probably have no idea that \NI'm waiting out here for them.
+Dialogue: 0,0:18:33.25,0:18:34.19,Main,Priestess,0000,0000,0000,,It's okay...
+Dialogue: 0,0:18:35.83,0:18:38.06,Main,Priestess,0000,0000,0000,,You're okay now.
+Dialogue: 0,0:18:41.83,0:18:44.41,Main,Goblin slayer,0000,0000,0000,,Now, then... As I thought...
+Dialogue: 0,0:18:48.17,0:18:49.49,Main,Goblin slayer,0000,0000,0000,,Eighteen.
+Dialogue: 0,0:18:49.49,0:18:51.50,Main,Goblin slayer,0000,0000,0000,,The high-leveled ones are tough.
+Dialogue: 0,0:18:54.02,0:18:55.02,Main,Priestess,0000,0000,0000,,What's this?
+Dialogue: 0,0:19:03.73,0:19:04.95,Main,Priestess,0000,0000,0000,,Children?
+Dialogue: 0,0:19:04.95,0:19:06.94,Main,Goblin slayer,0000,0000,0000,,They multiply fast.
+Dialogue: 0,0:19:06.94,0:19:08.61,Main,Goblin slayer,0000,0000,0000,,If we had waited any longer,
+Dialogue: 0,0:19:08.61,0:19:11.95,Main,Goblin slayer,0000,0000,0000,,there'd be about fifty of them,\Nand they would've attacked.
+Dialogue: 0,0:19:11.95,0:19:13.62,Main,Goblin slayer,0000,0000,0000,,You were lucky.
+Dialogue: 0,0:19:18.02,0:19:19.24,Main,Priestess,0000,0000,0000,,Are you going to kill them?
+Dialogue: 0,0:19:19.72,0:19:21.15,Main,Goblin slayer,0000,0000,0000,,Of course I am.
+Dialogue: 0,0:19:21.15,0:19:23.28,Main,Goblin slayer,0000,0000,0000,,They hold on to grudges for life.
+Dialogue: 0,0:19:23.74,0:19:27.44,Main,Goblin slayer,0000,0000,0000,,And the survivors of the nest learn \Nfrom their mistakes and adapt.
+Dialogue: 0,0:19:30.40,0:19:33.37,Main,Goblin slayer,0000,0000,0000,,There isn't a single reason to let them live.
+Dialogue: 0,0:19:34.18,0:19:36.80,Main,Priestess,0000,0000,0000,,Even if there was a good goblin?
+Dialogue: 0,0:19:37.57,0:19:41.73,Main,Goblin slayer,0000,0000,0000,,A good goblin? I guess there might \Nbe one if you looked really hard.
+Dialogue: 0,0:19:41.73,0:19:46.18,Main,Goblin slayer,0000,0000,0000,,But in the end, the only good goblins are \Nthe ones who never come out of their holes.
+Dialogue: 0,0:20:19.21,0:20:20.72,Main,Goblin slayer,0000,0000,0000,,That makes twenty-two.
+Dialogue: 0,0:20:34.07,0:20:36.35,Italics,Priestess,0000,0000,0000,,They say it's a common occurrence.
+Dialogue: 0,0:20:36.82,0:20:40.73,Italics,Priestess,0000,0000,0000,,Goblins attacking a village \Nand kidnapping girls...
+Dialogue: 0,0:20:41.40,0:20:43.42,Italics,Priestess,0000,0000,0000,,A party of rookie adventurers
+Dialogue: 0,0:20:43.42,0:20:46.99,Italics,Priestess,0000,0000,0000,,going out to slay some goblins \Nonly to end up slaughtered...
+Dialogue: 0,0:20:48.03,0:20:52.93,Italics,Priestess,0000,0000,0000,,Rescued girls joining temples due \Nto their despair after being treated
+Dialogue: 0,0:20:52.93,0:20:54.65,Italics,Priestess,0000,0000,0000,,as the goblins' playthings...
+Dialogue: 0,0:20:55.70,0:20:58.02,Italics,Priestess,0000,0000,0000,,An adventurer losing all of their comrades and
+Dialogue: 0,0:20:58.02,0:20:59.92,Italics,Priestess,0000,0000,0000,,going home, never to be heard from again...
+Dialogue: 0,0:21:00.92,0:21:04.65,Italics,Priestess,0000,0000,0000,,All these things happen \Nquite often in this world.
+Dialogue: 0,0:21:05.89,0:21:08.85,Italics,Priestess,0000,0000,0000,,But is that really true?
+Dialogue: 0,0:21:09.57,0:21:11.31,Italics,Priestess,0000,0000,0000,,I don't have the answer.
+Dialogue: 0,0:21:12.75,0:21:15.94,Italics,Priestess,0000,0000,0000,,In the end, there are only \Ntwo things I'm certain of.
+Dialogue: 0,0:21:20.00,0:21:24.22,Italics,Priestess,0000,0000,0000,,The first is that I'm still an adventurer.
+Dialogue: 0,0:21:25.32,0:21:26.47,Italics,Priestess,0000,0000,0000,,The other...
+Dialogue: 0,0:21:34.82,0:21:37.60,Main,Priestess,0000,0000,0000,,H-Hello, Goblin Slayer.
+Dialogue: 0,0:21:37.60,0:21:41.01,Main,Priestess,0000,0000,0000,,Um, I bought some armor, \Njust as you instructed.
+Dialogue: 0,0:21:41.98,0:21:43.47,Main,Priestess,0000,0000,0000,,It's chain mail.
+Dialogue: 0,0:21:47.68,0:21:48.69,Main,Goblin slayer,0000,0000,0000,,I see.
+Dialogue: 0,0:21:49.66,0:21:51.74,Main,Priestess,0000,0000,0000,,Um... Are you going again today?
+Dialogue: 0,0:21:52.71,0:21:53.92,Main,Goblin slayer,0000,0000,0000,,I'm slaying goblins again.
+Dialogue: 0,0:21:55.30,0:21:56.02,Main,Goblin slayer,0000,0000,0000,,Are you coming?
+Dialogue: 0,0:22:01.06,0:22:01.83,Main,Priestess,0000,0000,0000,,Yes!
+Dialogue: 0,0:23:35.95,0:23:41.24,sign_33927_268_Next_Time,Sign,0000,0000,0000,,Next Time
+Dialogue: 0,0:23:35.95,0:23:41.24,sign_33927_269__Goblin_Slayer_,Sign,0000,0000,0000,,Goblin Slayer

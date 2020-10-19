@@ -1,0 +1,416 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Main Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Italics Dialogue Top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Flashback Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Flashback Italics Dialogue,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Signs,Open Sans Semibold,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Black Signs,Open Sans Semibold,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: Game Club,Open Sans Semibold,33,&H004F4F9F,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,27,24,1
+Style: sign_4269_31_A_few_days_ago,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,0,0,8,27,27,24,1
+Style: sign_19287_216_I_m_going_to_go_,Open Sans Semibold,27,&H00000000,&H000000FF,&H00FBF9F9,&H00FBF9F9,0,0,0,0,100,100,0,0,1,4,2,7,208,0,41,1
+Style: sign_25152_303_Aguri,Open Sans Semibold,18,&H00C9ADA2,&H00000000,&H00786056,&H00515152,0,0,0,0,100,100,0,0,1,2,0,2,119,427,335,1
+Style: sign_31857_392_Mmmm,Open Sans Semibold,24,&H00F5FBFF,&H00000000,&H007ABFCD,&H00515152,1,0,0,0,100,100,0,0,1,0,0,8,13,13,24,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:02.33,0:00:05.10,Main Dialogue,Angry,0000,0000,0000,,You want me to join the Gamers Meet-up?
+Dialogue: 0,0:00:05.10,0:00:06.27,Main Dialogue,Keitard,0000,0000,0000,,Yes.
+Dialogue: 0,0:00:07.18,0:00:09.99,Main Dialogue,Angry,0000,0000,0000,,But I don't play games at all.
+Dialogue: 0,0:00:09.99,0:00:11.25,Main Dialogue,Keitard,0000,0000,0000,,That doesn't matter.
+Dialogue: 0,0:00:11.25,0:00:13.46,Main Dialogue,Keitard,0000,0000,0000,,As long as you have a love for gaming.
+Dialogue: 0,0:00:13.46,0:00:16.28,Main Dialogue,Angry,0000,0000,0000,,Nah, I have zero love for gaming.
+Dialogue: 0,0:00:16.62,0:00:19.83,Main Dialogue,Keitard,0000,0000,0000,,As long as you have love for \Nsomeone who has a love for gaming!
+Dialogue: 0,0:00:19.83,0:00:20.78,Main Dialogue,Angry,0000,0000,0000,,That's it?
+Dialogue: 0,0:00:20.78,0:00:23.04,Main Dialogue,Angry,0000,0000,0000,,That's the condition for joining?
+Dialogue: 0,0:00:23.04,0:00:27.20,Main Dialogue,Angry,0000,0000,0000,,It does sound fun being in \Na meet-up with Tasuku...
+Dialogue: 0,0:00:27.20,0:00:31.29,Main Dialogue,Angry,0000,0000,0000,,But I don't want to be {\i1}that {\i0}\Nbig a pain in the ass.
+Dialogue: 0,0:00:32.39,0:00:35.47,Main Dialogue,Keitard,0000,0000,0000,,Actually, I've invited Tendou-san, too.
+Dialogue: 0,0:00:36.65,0:00:38.39,Main Dialogue,Angry,0000,0000,0000,,Tendou-san's joining?
+Dialogue: 0,0:00:39.02,0:00:40.98,Main Dialogue,Angry,0000,0000,0000,,I-I guess that's fine.
+Dialogue: 0,0:00:40.98,0:00:43.45,Main Dialogue,Angry,0000,0000,0000,,Tendou-san's always been a gamer.
+Dialogue: 0,0:00:43.45,0:00:45.90,Main Dialogue,Angry,0000,0000,0000,,That seems perfectly normal.
+Dialogue: 0,0:00:47.27,0:00:51.07,Main Dialogue,Angry,0000,0000,0000,,This is so good, though, Amanocchi.
+Dialogue: 0,0:00:51.07,0:00:52.43,Main Dialogue,Keitard,0000,0000,0000,,Have this one, if you'd like.
+Dialogue: 0,0:00:52.43,0:00:53.53,Main Dialogue,Angry,0000,0000,0000,,Really?
+Dialogue: 0,0:00:53.53,0:00:55.14,Main Dialogue,Angry,0000,0000,0000,,Yay!
+Dialogue: 0,0:00:56.22,0:00:59.53,Main Dialogue,Keitard,0000,0000,0000,,If you'll join the meet-up, \NI'll give you this one.
+Dialogue: 0,0:00:59.78,0:01:00.58,Main Dialogue,Angry,0000,0000,0000,,I'll join!
+Dialogue: 0,0:01:00.58,0:01:02.54,Main Dialogue,Angry,0000,0000,0000,,I'll join the meet-up!
+Dialogue: 0,0:01:02.54,0:01:04.33,Main Dialogue,Keitard,0000,0000,0000,,You will?
+Dialogue: 0,0:01:04.33,0:01:06.00,Main Dialogue,Keitard,0000,0000,0000,,Thank you!
+Dialogue: 0,0:01:09.58,0:01:11.07,Italics Dialogue,Keitard,0000,0000,0000,,Eat up, dear.
+Dialogue: 0,0:01:11.65,0:01:14.88,Italics Dialogue,Keitard,0000,0000,0000,,If that's all it takes to make you happy.
+Dialogue: 0,0:01:15.51,0:01:19.89,Italics Dialogue,Keitard,0000,0000,0000,,I mean, your boyfriend was confessing \Nto another girl behind your back.
+Dialogue: 0,0:01:20.53,0:01:23.97,Italics Dialogue,Keitard,0000,0000,0000,,I feel way too sorry for you!
+Dialogue: 0,0:02:58.03,0:02:59.51,sign_4269_31_A_few_days_ago,Text,0000,0000,0000,,{\fad(1,457)}A Few Days Ago
+Dialogue: 0,0:02:59.98,0:03:04.99,Main Dialogue,Keitard,0000,0000,0000,,So setting aside all the questions I have, \Nfirst of all, congratulations, Chiaki.
+Dialogue: 0,0:03:04.99,0:03:08.16,Main Dialogue,Keitard,0000,0000,0000,,I mean, your crush confessed to you.
+Dialogue: 0,0:03:08.16,0:03:09.93,Main Dialogue,Keitard,0000,0000,0000,,That's great news.
+Dialogue: 0,0:03:11.85,0:03:13.08,Main Dialogue,Keitard,0000,0000,0000,,Is it not?
+Dialogue: 0,0:03:14.27,0:03:16.57,Main Dialogue,Seaweed,0000,0000,0000,,I guess it is.
+Dialogue: 0,0:03:18.09,0:03:20.05,Main Dialogue,Seaweed,0000,0000,0000,,I think I'm happy.
+Dialogue: 0,0:03:20.05,0:03:24.85,Main Dialogue,Seaweed,0000,0000,0000,,For someone I'm interested in \Nto say they like me... Really...
+Dialogue: 0,0:03:27.54,0:03:31.35,Main Dialogue,Miniweed,0000,0000,0000,,Personally, I'd turn him down \Nwithout a second thought.
+Dialogue: 0,0:03:31.35,0:03:36.57,Main Dialogue,Miniweed,0000,0000,0000,,Doesn't this Uehara-san have \Na girlfriend named Aguri-san?
+Dialogue: 0,0:03:36.57,0:03:39.01,Main Dialogue,Miniweed,0000,0000,0000,,And now he's going after Onee-chan?
+Dialogue: 0,0:03:39.01,0:03:40.36,Main Dialogue,Miniweed,0000,0000,0000,,He's nothing but trouble.
+Dialogue: 0,0:03:42.37,0:03:43.09,Italics Dialogue,Keitard,0000,0000,0000,,She's right!
+Dialogue: 0,0:03:43.09,0:03:48.83,Italics Dialogue,Keitard,0000,0000,0000,,What am I supposed to say to Aguri-san \Nif Chiaki and Uehara-kun start dating?
+Dialogue: 0,0:03:48.83,0:03:52.54,Main Dialogue,Miniweed,0000,0000,0000,,All right, let's call him and \Nturn him down immediately.
+Dialogue: 0,0:03:52.54,0:03:55.42,Main Dialogue,Seaweed,0000,0000,0000,,I don't know if I can do that.
+Dialogue: 0,0:03:55.42,0:03:59.39,Main Dialogue,Seaweed,0000,0000,0000,,I can't think of a good excuse \Nfor turning him down.
+Dialogue: 0,0:04:00.80,0:04:04.89,Main Dialogue,Keitard,0000,0000,0000,,In that case, let's ask \Nthe professional rejector.
+Dialogue: 0,0:04:07.81,0:04:09.86,Italics Dialogue,Call-in,0000,0000,0000,,Y-Yes? Hello?
+Dialogue: 0,0:04:09.86,0:04:12.95,Main Dialogue,Keitard,0000,0000,0000,,Tendou-san, sorry this is out of the blue,
+Dialogue: 0,0:04:12.95,0:04:16.58,Main Dialogue,Keitard,0000,0000,0000,,but could you please teach me \Nhow to turn someone down?
+Dialogue: 0,0:04:16.96,0:04:17.70,Italics Dialogue,,0000,0000,0000,,What?
+Dialogue: 0,0:04:17.70,0:04:21.63,Main Dialogue,Keitard,0000,0000,0000,,I really need to know how to \Nreject someone, right now.
+Dialogue: 0,0:04:22.71,0:04:27.35,Italics Dialogue,Call-in,0000,0000,0000,,I-Is that something you need \Nto know for your own use?
+Dialogue: 0,0:04:27.87,0:04:30.08,Main Dialogue,Keitard,0000,0000,0000,,Yes, I'm using it.
+Dialogue: 0,0:04:30.08,0:04:31.01,Italics Dialogue,Call-in,0000,0000,0000,,No!
+Dialogue: 0,0:04:31.01,0:04:32.20,Main Dialogue,Keitard,0000,0000,0000,,What?!
+Dialogue: 0,0:04:32.53,0:04:35.71,Main Dialogue,Keitard,0000,0000,0000,,Please! I don't know who else to turn to!
+Dialogue: 0,0:04:35.71,0:04:38.34,Main Dialogue,Keitard,0000,0000,0000,,Your opinion's the most effective!
+Dialogue: 0,0:04:38.34,0:04:39.76,Italics Dialogue,Call-in,0000,0000,0000,,Yeah, I'm sure!
+Dialogue: 0,0:04:39.76,0:04:42.70,Italics Dialogue,Call-in,0000,0000,0000,,Of course my opinion would \Nbe the most useful to you!
+Dialogue: 0,0:04:42.70,0:04:46.97,Main Dialogue,Keitard,0000,0000,0000,,So you mean you're going to teach me?
+Dialogue: 0,0:04:46.97,0:04:49.25,Italics Dialogue,Call-in,0000,0000,0000,,Of course not!
+Dialogue: 0,0:04:49.25,0:04:53.38,Italics Dialogue,Call-in,0000,0000,0000,,Why don't you... Why don't you \Nfigure it out for yourself?!
+Dialogue: 0,0:04:55.59,0:04:56.57,Main Dialogue,Keitard,0000,0000,0000,,Tendou-san?!
+Dialogue: 0,0:04:56.57,0:04:57.82,Main Dialogue,Keitard,0000,0000,0000,,What's wrong?!
+Dialogue: 0,0:04:57.82,0:05:00.52,Main Dialogue,Keitard,0000,0000,0000,,Did a passing boxer punch you in the gut?
+Dialogue: 0,0:05:00.52,0:05:05.54,Italics Dialogue,Call-in,0000,0000,0000,,I'm rarely in that much mortal peril, \Nbut I might as well have been!
+Dialogue: 0,0:05:05.54,0:05:08.57,Main Dialogue,Keitard,0000,0000,0000,,Huh? Hang on! I'll come help you!
+Dialogue: 0,0:05:10.06,0:05:12.52,Main Dialogue,Call-in,0000,0000,0000,,You'll come help me?
+Dialogue: 0,0:05:12.52,0:05:13.33,Main Dialogue,Call-in,0000,0000,0000,,Me?
+Dialogue: 0,0:05:13.33,0:05:15.11,Main Dialogue,Keitard,0000,0000,0000,,Of course I will!
+Dialogue: 0,0:05:15.11,0:05:18.51,Main Dialogue,Keitard,0000,0000,0000,,What boyfriend wouldn't help \Nhis beloved girlfriend?
+Dialogue: 0,0:05:18.51,0:05:19.77,Italics Dialogue,Call-in,0000,0000,0000,,Beloved?
+Dialogue: 0,0:05:20.81,0:05:21.87,Main Dialogue,Keitard,0000,0000,0000,,Tendou-san?!
+Dialogue: 0,0:05:23.34,0:05:24.61,Italics Dialogue,Call-in,0000,0000,0000,,Received.
+Dialogue: 0,0:05:24.61,0:05:25.89,Main Dialogue,Keitard,0000,0000,0000,,Received what?!
+Dialogue: 0,0:05:26.43,0:05:28.64,Italics Dialogue,Call-in,0000,0000,0000,,I'm sorry for causing you trouble.
+Dialogue: 0,0:05:28.64,0:05:31.51,Italics Dialogue,Call-in,0000,0000,0000,,Tendou Karen is okay now!
+Dialogue: 0,0:05:31.51,0:05:34.06,Main Dialogue,Keitard,0000,0000,0000,,You don't sound okay at all!
+Dialogue: 0,0:05:34.49,0:05:35.58,Italics Dialogue,Call-in,0000,0000,0000,,Amano-kun...
+Dialogue: 0,0:05:35.58,0:05:36.60,Main Dialogue,Keitard,0000,0000,0000,,Y-Yes?
+Dialogue: 0,0:05:38.21,0:05:39.27,Italics Dialogue,Call-in,0000,0000,0000,,I love you.
+Dialogue: 0,0:05:52.58,0:05:56.33,Main Dialogue,Keitard,0000,0000,0000,,Why is my girlfriend so adorable?
+Dialogue: 0,0:05:56.64,0:05:58.75,Main Dialogue,Miniweed,0000,0000,0000,,What are you even talking about?!
+Dialogue: 0,0:05:58.75,0:05:59.84,Main Dialogue,Keitard,0000,0000,0000,,Ow...
+Dialogue: 0,0:05:59.84,0:06:00.98,Main Dialogue,Keitard,0000,0000,0000,,Um...
+Dialogue: 0,0:06:00.98,0:06:03.98,Main Dialogue,Keitard,0000,0000,0000,,Then what about you, Konoha-san?
+Dialogue: 0,0:06:03.98,0:06:05.34,Main Dialogue,Miniweed,0000,0000,0000,,What the heck do you mean?
+Dialogue: 0,0:06:05.34,0:06:09.31,Main Dialogue,Keitard,0000,0000,0000,,How do you turn people down \Nwhen they confess to you?
+Dialogue: 0,0:06:09.31,0:06:12.93,Main Dialogue,Keitard,0000,0000,0000,,You're really cute, so you must get it a lot.
+Dialogue: 0,0:06:13.85,0:06:15.95,Main Dialogue,Miniweed,0000,0000,0000,,W-Well, in my case,
+Dialogue: 0,0:06:15.95,0:06:20.79,Main Dialogue,Miniweed,0000,0000,0000,,I say something like, "I have no interest \Nin that kind of thing right now."
+Dialogue: 0,0:06:21.81,0:06:24.90,Main Dialogue,Keitard,0000,0000,0000,,That's totally an adult gamer thing to—
+Dialogue: 0,0:06:23.48,0:06:24.90,Main Dialogue,Miniweed,0000,0000,0000,,Senpai.
+Dialogue: 0,0:06:26.09,0:06:29.38,Main Dialogue,Keitard,0000,0000,0000,,If you ask an adult gamer like me,
+Dialogue: 0,0:06:29.38,0:06:33.78,Main Dialogue,Keitard,0000,0000,0000,,chicks are always looking \Nfor a man to squeeze them.
+Dialogue: 0,0:06:36.90,0:06:43.54,Main Dialogue,Miniweed,0000,0000,0000,,I-I can tell people I'm too busy for that stuff \Nbecause I'm a student council president.
+Dialogue: 0,0:06:43.54,0:06:44.71,Main Dialogue,Miniweed,0000,0000,0000,,But Onee-chan...
+Dialogue: 0,0:06:45.57,0:06:46.74,Main Dialogue,Seaweed,0000,0000,0000,,Um...
+Dialogue: 0,0:06:46.74,0:06:49.93,Main Dialogue,Seaweed,0000,0000,0000,,I do make games and stuff, but...
+Dialogue: 0,0:06:49.93,0:06:54.30,Main Dialogue,Keitard,0000,0000,0000,,Oh, yeah. You sisters both \Nmake freeware games, right?
+Dialogue: 0,0:06:55.21,0:06:56.62,Main Dialogue,Miniweed,0000,0000,0000,,Yo, Nobe here.
+Dialogue: 0,0:06:56.62,0:06:57.94,Main Dialogue,Miniweed,0000,0000,0000,,Kapow!
+Dialogue: 0,0:06:58.54,0:07:00.67,Main Dialogue,Seaweed,0000,0000,0000,,Whoo, you go, Konoha!
+Dialogue: 0,0:07:01.38,0:07:04.67,Main Dialogue,Keitard,0000,0000,0000,,Um, could you two sit down?
+Dialogue: 0,0:07:04.67,0:07:06.05,Main Dialogue,Keitard,0000,0000,0000,,You're embarrassing me.
+Dialogue: 0,0:07:09.77,0:07:12.28,Main Dialogue,Keitard,0000,0000,0000,,About this situation with \NChiaki and Uehara-kun,
+Dialogue: 0,0:07:12.28,0:07:14.33,Main Dialogue,Keitard,0000,0000,0000,,and all the other women involved...
+Dialogue: 0,0:07:14.33,0:07:18.66,Main Dialogue,Keitard,0000,0000,0000,,I think there's only one solution.
+Dialogue: 0,0:07:19.18,0:07:20.60,Main Dialogue,Keitard,0000,0000,0000,,I think we should bring
+Dialogue: 0,0:07:22.29,0:07:27.96,Main Dialogue,Keitard,0000,0000,0000,,Tendou-san and Aguri-san into the meet-up, \Nand talk things through together.
+Dialogue: 0,0:07:27.96,0:07:28.91,Italics Dialogue,Keitard,0000,0000,0000,,Booyah!
+Dialogue: 0,0:07:40.22,0:07:41.58,Main Dialogue,Uehard,0000,0000,0000,,Hey, Amano—
+Dialogue: 0,0:07:40.59,0:07:41.55,Main Dialogue,Keitard,0000,0000,0000,,Everyone,
+Dialogue: 0,0:07:41.84,0:07:46.19,Main Dialogue,Keitard,0000,0000,0000,,thank you for making time to gather here.
+Dialogue: 0,0:07:46.90,0:07:52.28,Main Dialogue,Keitard,0000,0000,0000,,I brought you here today to discuss \Nsomething of grave importance.
+Dialogue: 0,0:07:52.28,0:07:55.21,Main Dialogue,Call-in,0000,0000,0000,,Amano-kun, what exactly are you...
+Dialogue: 0,0:07:55.21,0:08:00.58,Main Dialogue,Angry,0000,0000,0000,,Are you about to say something \Nincredibly important?
+Dialogue: 0,0:08:01.05,0:08:01.86,Main Dialogue,Keitard,0000,0000,0000,,Yes.
+Dialogue: 0,0:08:01.86,0:08:04.33,Main Dialogue,Keitard,0000,0000,0000,,I really need to talk to you all about this.
+Dialogue: 0,0:08:05.14,0:08:06.29,Main Dialogue,Keitard,0000,0000,0000,,To talk to you about...
+Dialogue: 0,0:08:08.95,0:08:10.21,Main Dialogue,Keitard,0000,0000,0000,,About...
+Dialogue: 0,0:08:10.94,0:08:13.72,Main Dialogue,Keitard,0000,0000,0000,,T-Tomorrow, I'm...
+Dialogue: 0,0:08:14.07,0:08:17.79,Main Dialogue,Keitard,0000,0000,0000,,going to go run full-speed \Nto buy {\i1}Space Ocean 5{\i0}!
+Dialogue: 0,0:08:17.79,0:08:19.65,Main Dialogue,A,0000,0000,0000,,Talk about what?!
+Dialogue: 0,0:08:19.65,0:08:20.51,Main Dialogue,Seaweed,0000,0000,0000,,Keita!
+Dialogue: 0,0:08:20.51,0:08:22.82,Main Dialogue,Seaweed,0000,0000,0000,,What the heck are you talking about?!
+Dialogue: 0,0:08:22.82,0:08:23.94,Main Dialogue,Keitard,0000,0000,0000,,I can't!
+Dialogue: 0,0:08:23.94,0:08:26.81,Main Dialogue,Keitard,0000,0000,0000,,There's no way I can bring it up right now!
+Dialogue: 0,0:08:27.19,0:08:31.37,Main Dialogue,Uehard,0000,0000,0000,,So what exactly is this Space... whatever?
+Dialogue: 0,0:08:31.37,0:08:36.76,Main Dialogue,Keitard,0000,0000,0000,,Oh, well, tomorrow's the release date for \Nthe new game in the {\i1}Space Ocean{\i0} series,
+Dialogue: 0,0:08:36.76,0:08:38.68,Main Dialogue,Keitard,0000,0000,0000,,my all-time favorite series.
+Dialogue: 0,0:08:38.68,0:08:42.75,Main Dialogue,Keitard,0000,0000,0000,,So I'm thinking of running full-speed \Nto buy it as soon as classes end.
+Dialogue: 0,0:08:42.75,0:08:48.37,Main Dialogue,Seaweed,0000,0000,0000,,It's true that the game comes out tomorrow, \Nand in fact, I plan to buy it, too.
+Dialogue: 0,0:08:48.37,0:08:49.84,Main Dialogue,Seaweed,0000,0000,0000,,But, Keita, did you reserve it?
+Dialogue: 0,0:08:50.17,0:08:56.97,Main Dialogue,Keitard,0000,0000,0000,,Normally, I'd never forget to reserve \Nit, but this summer's been...
+Dialogue: 0,0:08:56.97,0:08:59.66,Main Dialogue,Keitard,0000,0000,0000,,Y'know, a lot happened.
+Dialogue: 0,0:08:59.66,0:09:01.38,Main Dialogue,Angry,0000,0000,0000,,It sure did.
+Dialogue: 0,0:09:01.38,0:09:05.69,Main Dialogue,Seaweed,0000,0000,0000,,Buying it after school might \Nbe tough without a reservation.
+Dialogue: 0,0:09:05.69,0:09:09.86,Main Dialogue,Call-in,0000,0000,0000,,There might be one copy left if \Nyou're really lucky, at best.
+Dialogue: 0,0:09:09.86,0:09:10.57,Main Dialogue,Keitard,0000,0000,0000,,Right.
+Dialogue: 0,0:09:10.57,0:09:13.61,Main Dialogue,Keitard,0000,0000,0000,,So I intend to run full-speed tomorrow.
+Dialogue: 0,0:09:13.61,0:09:17.24,Main Dialogue,Keitard,0000,0000,0000,,I simply wanted to express \Nmy determination to you all.
+Dialogue: 0,0:09:17.24,0:09:18.69,Main Dialogue,Uehard,0000,0000,0000,,I see.
+Dialogue: 0,0:09:18.69,0:09:21.29,Main Dialogue,Uehard,0000,0000,0000,,So you want us to stay out of your way tomorrow.
+Dialogue: 0,0:09:21.29,0:09:23.04,Main Dialogue,Keitard,0000,0000,0000,,Yeah. That's the idea.
+Dialogue: 0,0:09:23.04,0:09:26.79,Main Dialogue,Angry,0000,0000,0000,,You must really like that game, Amanocchi.
+Dialogue: 0,0:09:26.79,0:09:27.57,Main Dialogue,Keitard,0000,0000,0000,,Yes.
+Dialogue: 0,0:09:27.57,0:09:31.69,Main Dialogue,Keitard,0000,0000,0000,,This really is incredibly important to me.
+Dialogue: 0,0:09:31.69,0:09:36.84,Main Dialogue,Call-in,0000,0000,0000,,I've played it before, of course, but is it \Nreally worth getting {\i1}that{\i0} obsessed about?
+Dialogue: 0,0:09:36.84,0:09:40.83,Main Dialogue,Keitard,0000,0000,0000,,This game is kind of a first for me.
+Dialogue: 0,0:09:40.83,0:09:43.92,Main Dialogue,Keitard,0000,0000,0000,,It wasn't the first game \NI ever played or anything,
+Dialogue: 0,0:09:43.92,0:09:47.52,Main Dialogue,Keitard,0000,0000,0000,,but you could say it was the first \Ngame that really touched my heart.
+Dialogue: 0,0:09:47.89,0:09:49.84,Main Dialogue,Angry,0000,0000,0000,,Touched your heart?
+Dialogue: 0,0:09:49.84,0:09:54.04,Main Dialogue,Keitard,0000,0000,0000,,The second game in the series \Nwas especially my kind of game.
+Dialogue: 0,0:09:54.04,0:09:58.45,Main Dialogue,Keitard,0000,0000,0000,,Of course, I'd played many \Nmore famous RPGs by then,
+Dialogue: 0,0:09:58.45,0:10:02.49,Main Dialogue,Keitard,0000,0000,0000,,but that one {\i1}really{\i0} hit the spot for me.
+Dialogue: 0,0:10:02.49,0:10:07.83,Main Dialogue,Keitard,0000,0000,0000,,It's silly, but I actually felt like \NI was born to play this game.
+Dialogue: 0,0:10:08.37,0:10:12.11,Main Dialogue,Keitard,0000,0000,0000,,So there's something seriously \Nwrong with me for forgetting
+Dialogue: 0,0:10:12.11,0:10:14.27,Main Dialogue,Keitard,0000,0000,0000,,to reserve a copy of this game...
+Dialogue: 0,0:10:14.69,0:10:18.64,Main Dialogue,Keitard,0000,0000,0000,,But I really can't be content \Nwith the download version.
+Dialogue: 0,0:10:18.64,0:10:23.03,Main Dialogue,Keitard,0000,0000,0000,,So I'm determined to go buy \Nit, even if it kills me!
+Dialogue: 0,0:10:23.03,0:10:24.89,Main Dialogue,Uehard,0000,0000,0000,,That's some spirit.
+Dialogue: 0,0:10:24.89,0:10:27.25,Main Dialogue,Uehard,0000,0000,0000,,I guess I'll have to wish you the best.
+Dialogue: 0,0:10:27.25,0:10:28.84,Main Dialogue,Keitard,0000,0000,0000,,Yeah, thanks.
+Dialogue: 0,0:10:28.84,0:10:32.70,Main Dialogue,Keitard,0000,0000,0000,,I'm going to do my best tomorrow \Nso I don't let you all down.
+Dialogue: 0,0:10:32.70,0:10:34.09,Main Dialogue,Angry,0000,0000,0000,,Go, Amanocchi!
+Dialogue: 0,0:10:34.09,0:10:35.21,Main Dialogue,Angry,0000,0000,0000,,Break a leg!
+Dialogue: 0,0:10:35.21,0:10:36.82,Main Dialogue,Angry,0000,0000,0000,,Applause!
+Dialogue: 0,0:10:50.38,0:10:51.46,Main Dialogue,Miniweed,0000,0000,0000,,Onee-chan?
+Dialogue: 0,0:10:51.46,0:10:52.46,Main Dialogue,Seaweed,0000,0000,0000,,Yes?
+Dialogue: 0,0:10:52.79,0:10:54.71,Main Dialogue,Miniweed,0000,0000,0000,,At least turn on the lights.
+Dialogue: 0,0:10:55.30,0:10:56.34,Main Dialogue,Miniweed,0000,0000,0000,,What the heck?
+Dialogue: 0,0:10:56.96,0:10:59.26,Main Dialogue,Seaweed,0000,0000,0000,,Sorry.
+Dialogue: 0,0:10:59.26,0:11:02.18,Main Dialogue,Seaweed,0000,0000,0000,,I was looking for an old game.
+Dialogue: 0,0:11:03.10,0:11:03.76,Main Dialogue,Miniweed,0000,0000,0000,,What's that?
+Dialogue: 0,0:11:04.65,0:11:06.64,Main Dialogue,Seaweed,0000,0000,0000,,The second {\i1}Space Ocean{\i0} game.
+Dialogue: 0,0:11:07.15,0:11:09.39,Main Dialogue,Seaweed,0000,0000,0000,,It's really good.
+Dialogue: 0,0:11:09.39,0:11:10.89,Main Dialogue,Seaweed,0000,0000,0000,,Do you want to play it, Konoha?
+Dialogue: 0,0:11:11.27,0:11:12.80,Main Dialogue,Miniweed,0000,0000,0000,,I'll pass.
+Dialogue: 0,0:11:12.80,0:11:15.42,Main Dialogue,Miniweed,0000,0000,0000,,Also, how did the meeting go today?
+Dialogue: 0,0:11:15.42,0:11:18.18,Main Dialogue,Miniweed,0000,0000,0000,,You cleared things up enough that \Nyou feel good enough to game, huh?
+Dialogue: 0,0:11:19.69,0:11:22.48,Main Dialogue,Seaweed,0000,0000,0000,,Nothing's been cleared up.
+Dialogue: 0,0:11:22.48,0:11:26.99,Main Dialogue,Seaweed,0000,0000,0000,,Keita chickened out, \Nand nothing got solved at all.
+Dialogue: 0,0:11:27.98,0:11:29.89,Main Dialogue,Miniweed,0000,0000,0000,,I figured that'd happen.
+Dialogue: 0,0:11:29.89,0:11:33.78,Main Dialogue,Miniweed,0000,0000,0000,,Half of that mess is your fault, though.
+Dialogue: 0,0:11:33.78,0:11:35.13,Main Dialogue,Miniweed,0000,0000,0000,,You even dragged me into it.
+Dialogue: 0,0:11:36.27,0:11:38.13,Main Dialogue,Seaweed,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:11:38.13,0:11:40.58,Main Dialogue,Seaweed,0000,0000,0000,,I'm really grateful to you.
+Dialogue: 0,0:11:41.54,0:11:43.76,Main Dialogue,Seaweed,0000,0000,0000,,So, what did you want?
+Dialogue: 0,0:11:44.59,0:11:46.32,Main Dialogue,Miniweed,0000,0000,0000,,I don't know.
+Dialogue: 0,0:11:46.32,0:11:49.98,Main Dialogue,Miniweed,0000,0000,0000,,I figured I'd find out how \Nmy sister {\i1}really{\i0} feels.
+Dialogue: 0,0:11:50.67,0:11:52.81,Main Dialogue,Seaweed,0000,0000,0000,,How I feel? About what?
+Dialogue: 0,0:11:52.81,0:11:54.27,Main Dialogue,Miniweed,0000,0000,0000,,What else?
+Dialogue: 0,0:11:57.78,0:11:59.59,Main Dialogue,Seaweed,0000,0000,0000,,Um...
+Dialogue: 0,0:11:59.59,0:12:03.27,Main Dialogue,Seaweed,0000,0000,0000,,Keita has a girlfriend named Tendou-san.
+Dialogue: 0,0:12:03.94,0:12:10.14,Main Dialogue,Miniweed,0000,0000,0000,,Could you at least make up \Nyour mind about what {\i1}you{\i0} want?
+Dialogue: 0,0:12:10.14,0:12:15.17,Main Dialogue,Miniweed,0000,0000,0000,,Otherwise, my position as \NNobe and Mono is going to get shaky.
+Dialogue: 0,0:12:15.59,0:12:18.13,Main Dialogue,Seaweed,0000,0000,0000,,You're right.
+Dialogue: 0,0:12:18.98,0:12:23.22,Main Dialogue,Miniweed,0000,0000,0000,,So do you want to get close to Senpai?
+Dialogue: 0,0:12:23.22,0:12:26.15,Main Dialogue,Miniweed,0000,0000,0000,,Or do you want to keep fighting \Nwith him like always?
+Dialogue: 0,0:12:26.62,0:12:30.17,Main Dialogue,Miniweed,0000,0000,0000,,Or do you want to just put \Nsome distance between you?
+Dialogue: 0,0:12:39.51,0:12:43.38,Main Dialogue,Miniweed,0000,0000,0000,,I mean, I'm not telling you to \Nmake a decision here and now.
+Dialogue: 0,0:12:43.99,0:12:49.53,Main Dialogue,Miniweed,0000,0000,0000,,Okay, with that said, goodnight, Onee-chan.
+Dialogue: 0,0:12:49.53,0:12:52.22,Main Dialogue,Miniweed,0000,0000,0000,,And sorry for springing that on you.
+Dialogue: 0,0:12:52.22,0:12:54.54,Main Dialogue,Seaweed,0000,0000,0000,,No, it's okay.
+Dialogue: 0,0:12:54.54,0:12:55.83,Main Dialogue,Seaweed,0000,0000,0000,,Goodnight.
+Dialogue: 0,0:13:00.81,0:13:02.05,Italics Dialogue,Seaweed,0000,0000,0000,,What do I...
+Dialogue: 0,0:13:02.93,0:13:07.43,Italics Dialogue,Seaweed,0000,0000,0000,,What do I want to have happen with Keita?
+Dialogue: 0,0:13:12.97,0:13:15.14,Italics Dialogue,Keitard,0000,0000,0000,,All right, here I go, Uehara-kun.
+Dialogue: 0,0:13:15.53,0:13:16.85,Italics Dialogue,Uehard,0000,0000,0000,,Good luck, man.
+Dialogue: 0,0:13:20.01,0:13:24.40,Main Dialogue,Uehard,0000,0000,0000,,He {\i1}does{\i0} have an amazing \Npassion for video games.
+Dialogue: 0,0:13:24.40,0:13:27.03,sign_19287_216_I_m_going_to_go_,<-,0000,0000,0000,,I'm going to go out to eat\Nwith my middle school friends,\Nso walk home without me
+Dialogue: 0,0:13:27.62,0:13:29.70,Main Dialogue,Uehard,0000,0000,0000,,Well, I should get going, too.
+Dialogue: 0,0:13:32.57,0:13:34.75,Italics Dialogue,Uehard,0000,0000,0000,,So long as Amano and Tendou are dating,
+Dialogue: 0,0:13:34.75,0:13:37.67,Italics Dialogue,Uehard,0000,0000,0000,,I'm the only one who can \Nlook out for Hoshinomori.
+Dialogue: 0,0:13:37.67,0:13:40.42,Italics Dialogue,Uehard,0000,0000,0000,,I need to at least make that clear.
+Dialogue: 0,0:13:40.42,0:13:43.34,Italics Dialogue,Uehard,0000,0000,0000,,This is my chance, now that neither \NAguri nor Amano are here!
+Dialogue: 0,0:13:44.97,0:13:46.75,Main Dialogue,Uehard,0000,0000,0000,,Well, then...
+Dialogue: 0,0:13:48.10,0:13:49.58,Main Dialogue,Seaweed,0000,0000,0000,,U-Uehara-san.
+Dialogue: 0,0:13:49.58,0:13:50.81,Main Dialogue,Uehard,0000,0000,0000,,Hey, Hoshinomori.
+Dialogue: 0,0:13:50.81,0:13:52.39,Main Dialogue,Uehard,0000,0000,0000,,Can we talk?
+Dialogue: 0,0:13:52.39,0:13:54.58,Main Dialogue,Seaweed,0000,0000,0000,,W-Well.. About that...
+Dialogue: 0,0:13:54.58,0:13:58.02,Main Dialogue,Seaweed,0000,0000,0000,,I-I still don't have an answer.
+Dialogue: 0,0:13:58.81,0:14:01.23,Main Dialogue,Seaweed,0000,0000,0000,,I'm not prepared to cause heartbreak.
+Dialogue: 0,0:14:02.77,0:14:03.94,Italics Dialogue,Uehard,0000,0000,0000,,I see.
+Dialogue: 0,0:14:03.94,0:14:06.85,Italics Dialogue,Uehard,0000,0000,0000,,She's not entirely sure about \Nher feelings for Amano yet.
+Dialogue: 0,0:14:07.38,0:14:11.01,Italics Dialogue,Uehard,0000,0000,0000,,She's not ready to hurt Tendou \Nby taking Amano away from her.
+Dialogue: 0,0:14:11.01,0:14:12.03,Italics Dialogue,Uehard,0000,0000,0000,,Is that it?
+Dialogue: 0,0:14:12.79,0:14:13.96,Main Dialogue,Uehard,0000,0000,0000,,Got it.
+Dialogue: 0,0:14:13.96,0:14:15.42,Main Dialogue,Uehard,0000,0000,0000,,Sorry, Hoshinomori.
+Dialogue: 0,0:14:15.42,0:14:16.85,Main Dialogue,Uehard,0000,0000,0000,,I didn't want to rush you.
+Dialogue: 0,0:14:17.69,0:14:18.50,Main Dialogue,Seaweed,0000,0000,0000,,I-It's fine.
+Dialogue: 0,0:14:18.97,0:14:23.78,Main Dialogue,Seaweed,0000,0000,0000,,It's understandable that you \Nwant to know how I feel, yes.
+Dialogue: 0,0:14:24.43,0:14:25.34,Main Dialogue,Call-in,0000,0000,0000,,Um...
+Dialogue: 0,0:14:25.34,0:14:29.47,Main Dialogue,Call-in,0000,0000,0000,,I'm not sure what's going on, \Nbut may I assume you're done talking?
+Dialogue: 0,0:14:30.19,0:14:34.35,Main Dialogue,Uehard,0000,0000,0000,,S-Sure, it kind of ended before I knew it.
+Dialogue: 0,0:14:34.35,0:14:35.71,Main Dialogue,Call-in,0000,0000,0000,,Um...
+Dialogue: 0,0:14:35.71,0:14:40.48,Main Dialogue,Call-in,0000,0000,0000,,There's actually something I'd \Nlike to run by the two of you.
+Dialogue: 0,0:14:42.02,0:14:43.73,sign_19287_216_I_m_going_to_go_,<-,0000,0000,0000,,The girls from middle school are getting together.\NWant to join, Aguri?
+Dialogue: 0,0:14:48.58,0:14:50.86,Italics Dialogue,Angry,0000,0000,0000,,Crap, it was a trap.
+Dialogue: 0,0:14:51.19,0:14:52.43,Main Dialogue,A,0000,0000,0000,,Check this out.
+Dialogue: 0,0:14:52.43,0:14:53.70,Main Dialogue,A,0000,0000,0000,,Aguri from middle school.
+Dialogue: 0,0:14:53.70,0:14:55.54,Main Dialogue,A,0000,0000,0000,,Isn't that crazy?
+Dialogue: 0,0:14:55.54,0:14:56.26,Main Dialogue,A,0000,0000,0000,,See?
+Dialogue: 0,0:14:56.26,0:14:57.82,Main Dialogue,Angry,0000,0000,0000,,H-Hey!
+Dialogue: 0,0:14:59.67,0:15:03.04,Main Dialogue,B,0000,0000,0000,,You totally changed your look, Aguri-chan.
+Dialogue: 0,0:15:03.04,0:15:05.78,Main Dialogue,C,0000,0000,0000,,Your drab look wasn't bad, either.
+Dialogue: 0,0:15:07.73,0:15:09.94,Main Dialogue,Angry,0000,0000,0000,,Who even are these guys?
+Dialogue: 0,0:15:09.94,0:15:11.94,Main Dialogue,Angry,0000,0000,0000,,I have a boyfriend right now, you know.
+Dialogue: 0,0:15:11.94,0:15:12.83,Main Dialogue,A,0000,0000,0000,,So?
+Dialogue: 0,0:15:12.83,0:15:15.04,Main Dialogue,A,0000,0000,0000,,I have a boyfriend. What's your point?
+Dialogue: 0,0:15:15.04,0:15:16.49,Main Dialogue,Angry,0000,0000,0000,,S-Seriously?
+Dialogue: 0,0:15:16.49,0:15:17.68,Main Dialogue,C,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:15:17.68,0:15:18.66,Main Dialogue,A,0000,0000,0000,,Nothing.
+Dialogue: 0,0:15:18.66,0:15:20.10,Main Dialogue,C,0000,0000,0000,,Come on.
+Dialogue: 0,0:15:20.10,0:15:22.71,Italics Dialogue,Angry,0000,0000,0000,,I really don't like Sarina.
+Dialogue: 0,0:15:22.71,0:15:24.55,Main Dialogue,C,0000,0000,0000,,Hey, hey, Aguri-chan.
+Dialogue: 0,0:15:25.58,0:15:28.44,Main Dialogue,C,0000,0000,0000,,Is it true that you're in a \NGamers Meet-up or something?
+Dialogue: 0,0:15:28.44,0:15:29.59,Main Dialogue,Angry,0000,0000,0000,,It's true.
+Dialogue: 0,0:15:29.59,0:15:31.17,Main Dialogue,Angry,0000,0000,0000,,What if I am?
+Dialogue: 0,0:15:31.17,0:15:32.99,Main Dialogue,B,0000,0000,0000,,Not bad, Aguri-chan.
+Dialogue: 0,0:15:32.99,0:15:33.97,Main Dialogue,Angry,0000,0000,0000,,What?
+Dialogue: 0,0:15:33.97,0:15:37.14,Main Dialogue,C,0000,0000,0000,,It's full of nasty, porky nerds, right?
+Dialogue: 0,0:15:37.14,0:15:39.46,Main Dialogue,A,0000,0000,0000,,Dude, that's mean, oink.
+Dialogue: 0,0:15:39.46,0:15:40.58,Main Dialogue,Angry,0000,0000,0000,,Um...
+Dialogue: 0,0:15:40.58,0:15:43.37,Main Dialogue,B,0000,0000,0000,,They're totally jerking off to Aguri-chan.
+Dialogue: 0,0:15:43.37,0:15:44.96,Main Dialogue,A,0000,0000,0000,,Dude, that's gross.
+Dialogue: 0,0:15:44.96,0:15:48.59,Main Dialogue,C,0000,0000,0000,,Hey, it's better than pulling \Ntheir pork over 2D chicks.
+Dialogue: 0,0:15:48.59,0:15:51.45,Main Dialogue,C,0000,0000,0000,,Aguri-chan's totally the otaku princess.
+Dialogue: 0,0:15:52.03,0:15:53.87,Main Dialogue,B,0000,0000,0000,,I could never deal with it.
+Dialogue: 0,0:15:53.87,0:15:56.03,Main Dialogue,B,0000,0000,0000,,What if I ended up with their stench?
+Dialogue: 0,0:15:59.57,0:16:05.70,Main Dialogue,Angry,0000,0000,0000,,Sorry, but I have {\i1}way{\i0} more fun talking \Nto those nasty, porky nerds,
+Dialogue: 0,0:16:05.70,0:16:07.35,Main Dialogue,Angry,0000,0000,0000,,so I'm leaving now.
+Dialogue: 0,0:16:11.35,0:16:12.70,Main Dialogue,A,0000,0000,0000,,Hey, Aguri.
+Dialogue: 0,0:16:12.70,0:16:14.64,Main Dialogue,A,0000,0000,0000,,What do you think you're doing?
+Dialogue: 0,0:16:14.64,0:16:16.70,Main Dialogue,Angry,0000,0000,0000,,I'm just leaving.
+Dialogue: 0,0:16:16.70,0:16:21.38,Main Dialogue,A,0000,0000,0000,,Your boyfriend isn't one of \Nthose nasty otakus, is he?
+Dialogue: 0,0:16:21.38,0:16:22.62,Main Dialogue,Angry,0000,0000,0000,,No.
+Dialogue: 0,0:16:22.62,0:16:25.47,Main Dialogue,A,0000,0000,0000,,Then what was that back there?
+Dialogue: 0,0:16:25.47,0:16:26.25,Main Dialogue,Angry,0000,0000,0000,,What was what?
+Dialogue: 0,0:16:26.25,0:16:29.32,Main Dialogue,A,0000,0000,0000,,If the guy's not even your boyfriend,
+Dialogue: 0,0:16:29.32,0:16:31.78,Main Dialogue,A,0000,0000,0000,,why are you so angry \Nthat we dissed him a bit?
+Dialogue: 0,0:16:31.78,0:16:32.84,Main Dialogue,A,0000,0000,0000,,Unbelievable.
+Dialogue: 0,0:16:33.17,0:16:35.34,Main Dialogue,A,0000,0000,0000,,How could you ruin the vibe just for that?
+Dialogue: 0,0:16:35.34,0:16:36.87,Main Dialogue,Angry,0000,0000,0000,,{\i1}Just{\i0} for that?
+Dialogue: 0,0:16:38.50,0:16:44.19,Main Dialogue,Angry,0000,0000,0000,,Amanocchi might be a nasty, porky \Nnerd, but that's not the point.
+Dialogue: 0,0:16:44.95,0:16:47.25,Main Dialogue,A,0000,0000,0000,,What are you talking about? \NYou're not making sense.
+Dialogue: 0,0:16:47.25,0:16:49.29,Main Dialogue,A,0000,0000,0000,,He isn't your boyfriend, right?
+Dialogue: 0,0:16:49.29,0:16:50.53,Main Dialogue,Angry,0000,0000,0000,,So what?
+Dialogue: 0,0:16:50.53,0:16:51.79,Main Dialogue,A,0000,0000,0000,,"What"?
+Dialogue: 0,0:16:53.39,0:16:56.89,Main Dialogue,Angry,0000,0000,0000,,If you have nothing else to say, I'm going.
+Dialogue: 0,0:16:59.93,0:17:02.78,Main Dialogue,A,0000,0000,0000,,You haven't changed at all!
+Dialogue: 0,0:17:02.78,0:17:04.66,Main Dialogue,A,0000,0000,0000,,You're still a wallflower inside.
+Dialogue: 0,0:17:06.42,0:17:08.38,Main Dialogue,Angry,0000,0000,0000,,That makes me super happy.
+Dialogue: 0,0:17:08.38,0:17:09.88,Main Dialogue,Angry,0000,0000,0000,,Thanks, Sarina.
+Dialogue: 0,0:17:25.87,0:17:27.29,Main Dialogue,Angry,0000,0000,0000,,Tasuku...
+Dialogue: 0,0:17:29.04,0:17:31.00,sign_25152_303_Aguri,Text,0000,0000,0000,,{\fad(1,250)}Aguri
+Dialogue: 0,0:17:31.82,0:17:34.90,Main Dialogue,Uehard,0000,0000,0000,,So what is it that you wanted to run by us?
+Dialogue: 0,0:17:34.90,0:17:37.24,Main Dialogue,Seaweed,0000,0000,0000,,Yeah, I'm curious, too.
+Dialogue: 0,0:17:38.23,0:17:43.24,Main Dialogue,Call-in,0000,0000,0000,,I know it's weird for me to \Nask you two about this...
+Dialogue: 0,0:17:43.86,0:17:48.15,Main Dialogue,Call-in,0000,0000,0000,,The thing is, I've been kind of weird lately.
+Dialogue: 0,0:17:49.07,0:17:55.15,Main Dialogue,Call-in,0000,0000,0000,,I mean... Ever since I started dating \NAmano-kun, my skin's been really supple.
+Dialogue: 0,0:17:55.15,0:17:57.71,Main Dialogue,Call-in,0000,0000,0000,,Things I eat all the time \Nsuddenly taste so good.
+Dialogue: 0,0:17:57.71,0:18:01.14,Main Dialogue,Call-in,0000,0000,0000,,The whole world is so beautiful!
+Dialogue: 0,0:18:01.14,0:18:02.72,Italics Dialogue,Uehard,0000,0000,0000,,Wow, she's borked.
+Dialogue: 0,0:18:02.72,0:18:08.05,Main Dialogue,Call-in,0000,0000,0000,,Personally, I want to be \Nwith Amano-kun all the time.
+Dialogue: 0,0:18:08.82,0:18:13.30,Main Dialogue,Call-in,0000,0000,0000,,But like today, it seems like \Ngames are more important to him.
+Dialogue: 0,0:18:13.73,0:18:18.82,Main Dialogue,Call-in,0000,0000,0000,,But then again, apparently he goes \Nto eat with Aguri-san all the time.
+Dialogue: 0,0:18:19.24,0:18:21.21,Main Dialogue,Uehard,0000,0000,0000,,You've got it rough, too.
+Dialogue: 0,0:18:22.47,0:18:26.08,Main Dialogue,Uehard,0000,0000,0000,,Well, I don't think it's a problem \Nthat he's meeting up with Aguri.
+Dialogue: 0,0:18:26.08,0:18:30.97,Main Dialogue,Uehard,0000,0000,0000,,Aguri even said she only thinks of him \Nas a high-maintenance kid brother.
+Dialogue: 0,0:18:30.97,0:18:32.77,Main Dialogue,Call-in,0000,0000,0000,,R-Really?
+Dialogue: 0,0:18:33.23,0:18:35.67,Main Dialogue,Call-in,0000,0000,0000,,That's... a relief.
+Dialogue: 0,0:18:35.67,0:18:40.90,Main Dialogue,Uehard,0000,0000,0000,,But man, if you took video games \Naway from Amano, that would be...
+Dialogue: 0,0:18:43.42,0:18:47.06,Main Dialogue,Seaweed,0000,0000,0000,,I don't think that can be helped, Tendou-san.
+Dialogue: 0,0:18:47.06,0:18:50.69,Main Dialogue,Seaweed,0000,0000,0000,,That's how Keita is, you know?
+Dialogue: 0,0:18:50.69,0:18:53.50,Main Dialogue,Seaweed,0000,0000,0000,,Even though he's a wuss, \Nhe can be stubborn in weird ways.
+Dialogue: 0,0:18:53.50,0:18:58.24,Main Dialogue,Seaweed,0000,0000,0000,,Sometimes, he puts his gaming ahead \Nof finding happiness in real life.
+Dialogue: 0,0:18:58.24,0:18:59.82,Main Dialogue,Seaweed,0000,0000,0000,,He's a nerd through and through.
+Dialogue: 0,0:19:01.82,0:19:04.08,Main Dialogue,Seaweed,0000,0000,0000,,That's exactly why you're...
+Dialogue: 0,0:19:06.86,0:19:09.07,Main Dialogue,Call-in,0000,0000,0000,,You're right.
+Dialogue: 0,0:19:10.07,0:19:11.01,Main Dialogue,Call-in,0000,0000,0000,,Yeah.
+Dialogue: 0,0:19:11.01,0:19:12.66,Main Dialogue,Call-in,0000,0000,0000,,You're absolutely right.
+Dialogue: 0,0:19:13.22,0:19:17.34,Main Dialogue,Call-in,0000,0000,0000,,Choosing games over me or \Nhis friends is just who he is.
+Dialogue: 0,0:19:18.10,0:19:22.17,Italics Dialogue,Uehard,0000,0000,0000,,Man, Tendou must {\i0}really{\i1} like Amano.
+Dialogue: 0,0:19:25.81,0:19:30.21,Main Dialogue,Call-in,0000,0000,0000,,Still, I really can't stop thinking \Nabout Amano-kun these days—
+Dialogue: 0,0:19:30.21,0:19:31.38,Main Dialogue,Call-in,0000,0000,0000,,Uehara-kun?
+Dialogue: 0,0:19:31.38,0:19:34.69,Main Dialogue,Uehard,0000,0000,0000,,That's enough bragging about \Nyour relationship for now.
+Dialogue: 0,0:19:34.69,0:19:36.42,Main Dialogue,Angry,0000,0000,0000,,T-Tasuku...
+Dialogue: 0,0:19:38.68,0:19:39.50,Main Dialogue,,0000,0000,0000,,Th...
+Dialogue: 0,0:19:40.12,0:19:40.98,Main Dialogue,,0000,0000,0000,,Th?
+Dialogue: 0,0:19:42.74,0:19:46.05,Main Dialogue,Angry,0000,0000,0000,,This just proves you're cheating on me!
+Dialogue: 0,0:19:46.05,0:19:48.62,Main Dialogue,Uehard,0000,0000,0000,,I remember that scream!
+Dialogue: 0,0:19:49.25,0:19:50.12,Main Dialogue,Uehard,0000,0000,0000,,Aguri!
+Dialogue: 0,0:19:51.62,0:19:53.63,Main Dialogue,Call-in,0000,0000,0000,,Wait, Aguri-san, it's okay!
+Dialogue: 0,0:19:53.63,0:19:58.25,Main Dialogue,Call-in,0000,0000,0000,,I just see Uehara-kun as a bug \Nthat buzzes around Amano-kun!
+Dialogue: 0,0:19:58.25,0:19:59.31,Main Dialogue,Seaweed,0000,0000,0000,,She's right!
+Dialogue: 0,0:19:59.31,0:20:02.98,Main Dialogue,Seaweed,0000,0000,0000,,I'm way past the point where I was \Nhonored that Uehara-kun liked me!
+Dialogue: 0,0:20:02.98,0:20:04.70,Main Dialogue,Uehard,0000,0000,0000,,Thanks for having my back, guys!
+Dialogue: 0,0:20:04.70,0:20:07.69,Main Dialogue,Uehard,0000,0000,0000,,But for some reason, \NI'm kind of hurt right now!
+Dialogue: 0,0:20:07.69,0:20:09.48,Main Dialogue,Angry,0000,0000,0000,,Shut up, cheater!
+Dialogue: 0,0:20:09.48,0:20:10.31,Main Dialogue,Uehard,0000,0000,0000,,Hurgle!
+Dialogue: 0,0:20:11.23,0:20:15.45,Main Dialogue,Angry,0000,0000,0000,,My boyfriend's being called a cheater \Nby the girls he's cheating on me with!
+Dialogue: 0,0:20:15.45,0:20:19.14,Main Dialogue,Angry,0000,0000,0000,,Help me, Amanocchi!
+Dialogue: 0,0:20:23.14,0:20:24.40,Main Dialogue,Angry,0000,0000,0000,,Sorry.
+Dialogue: 0,0:20:24.40,0:20:27.33,Main Dialogue,Angry,0000,0000,0000,,I kind of got carried away.
+Dialogue: 0,0:20:27.33,0:20:28.77,Main Dialogue,Call-in,0000,0000,0000,,It's okay.
+Dialogue: 0,0:20:28.77,0:20:30.46,Main Dialogue,Call-in,0000,0000,0000,,It's not your fault, Aguri-san.
+Dialogue: 0,0:20:30.46,0:20:31.21,Main Dialogue,Seaweed,0000,0000,0000,,She's right.
+Dialogue: 0,0:20:31.21,0:20:35.21,Main Dialogue,Uehard,0000,0000,0000,,You say that like there's another \Nsource of evil somewhere.
+Dialogue: 0,0:20:37.25,0:20:40.85,Main Dialogue,Angry,0000,0000,0000,,Oh, that's right! I called Amanocchi over.
+Dialogue: 0,0:20:40.85,0:20:42.09,Main Dialogue,Angry,0000,0000,0000,,I have to take it back.
+Dialogue: 0,0:20:42.09,0:20:45.27,Main Dialogue,Call-in,0000,0000,0000,,I'm sure you won't need to.
+Dialogue: 0,0:20:45.27,0:20:48.56,Main Dialogue,Seaweed,0000,0000,0000,,He's probably running around \Nlooking for that game.
+Dialogue: 0,0:20:48.56,0:20:50.77,Main Dialogue,Uehard,0000,0000,0000,,Yeah, considering how gung-ho he was.
+Dialogue: 0,0:20:50.77,0:20:52.61,Main Dialogue,Angry,0000,0000,0000,,Oh, yeah.
+Dialogue: 0,0:20:53.46,0:20:54.77,Main Dialogue,Keitard,0000,0000,0000,,Aguri-san!
+Dialogue: 0,0:21:00.02,0:21:01.78,Main Dialogue,Angry,0000,0000,0000,,Oh, Amanocchi.
+Dialogue: 0,0:21:02.34,0:21:03.14,Main Dialogue,Keitard,0000,0000,0000,,Huh?
+Dialogue: 0,0:21:03.55,0:21:05.28,Main Dialogue,Keitard,0000,0000,0000,,Aguri-san?
+Dialogue: 0,0:21:05.28,0:21:09.66,Main Dialogue,Keitard,0000,0000,0000,,I thought you broke up with Uehara-kun \Nand were depressed as hell.
+Dialogue: 0,0:21:09.66,0:21:11.37,Main Dialogue,Angry,0000,0000,0000,,Oh, um...
+Dialogue: 0,0:21:11.37,0:21:12.41,Main Dialogue,Angry,0000,0000,0000,,Well...
+Dialogue: 0,0:21:12.41,0:21:14.01,Main Dialogue,Angry,0000,0000,0000,,How should I put it...
+Dialogue: 0,0:21:14.01,0:21:15.42,Main Dialogue,Angry,0000,0000,0000,,Er...
+Dialogue: 0,0:21:15.86,0:21:17.92,Main Dialogue,Keitard,0000,0000,0000,,Don't tell me...
+Dialogue: 0,0:21:19.86,0:21:21.94,Main Dialogue,Angry,0000,0000,0000,,I-It was a misunderstanding!
+Dialogue: 0,0:21:21.94,0:21:22.67,Main Dialogue,Angry,0000,0000,0000,,Tee-hee.
+Dialogue: 0,0:21:23.06,0:21:24.88,Main Dialogue,Keitard,0000,0000,0000,,I knew it!
+Dialogue: 0,0:21:24.88,0:21:27.30,Main Dialogue,Keitard,0000,0000,0000,,Jeez! I shouldn't have bothered worrying!
+Dialogue: 0,0:21:27.30,0:21:28.86,Main Dialogue,Angry,0000,0000,0000,,I-I'm sorry.
+Dialogue: 0,0:21:28.86,0:21:29.93,Main Dialogue,Angry,0000,0000,0000,,I really am.
+Dialogue: 0,0:21:31.53,0:21:34.69,Main Dialogue,Call-in,0000,0000,0000,,A-Amano-kun, why are you here?
+Dialogue: 0,0:21:34.69,0:21:35.56,Main Dialogue,Keitard,0000,0000,0000,,Huh?
+Dialogue: 0,0:21:35.56,0:21:37.03,Main Dialogue,Keitard,0000,0000,0000,,Why?
+Dialogue: 0,0:21:37.03,0:21:40.90,Main Dialogue,Keitard,0000,0000,0000,,Aguri-san called me over. \NIt seemed really serious.
+Dialogue: 0,0:21:40.90,0:21:45.28,Main Dialogue,Call-in,0000,0000,0000,,B-But weren't you out to buy {\i1}Space Ocean{\i0}?
+Dialogue: 0,0:21:45.28,0:21:48.22,Main Dialogue,Keitard,0000,0000,0000,,Huh? I put that on hold.
+Dialogue: 0,0:21:48.22,0:21:50.79,Main Dialogue,Keitard,0000,0000,0000,,This was more important than the game.
+Dialogue: 0,0:21:52.50,0:21:54.55,Main Dialogue,Angry,0000,0000,0000,,You're all sweaty, Amanocchi.
+Dialogue: 0,0:21:54.55,0:21:57.54,Main Dialogue,Angry,0000,0000,0000,,Eww, maybe you {\i1}are{\i0} a nasty, porky nerd!
+Dialogue: 0,0:21:57.54,0:21:59.54,Main Dialogue,Keitard,0000,0000,0000,,What's with the verbal abuse?
+Dialogue: 0,0:21:59.54,0:22:04.45,Main Dialogue,Keitard,0000,0000,0000,,It's all because this selfish, \Ngun-jumping chick called me over!
+Dialogue: 0,0:22:05.79,0:22:08.51,Main Dialogue,Angry,0000,0000,0000,,You're so stupid, Amanocchi.
+Dialogue: 0,0:22:08.51,0:22:11.10,Main Dialogue,Angry,0000,0000,0000,,You're not helping me at all.
+Dialogue: 0,0:22:08.70,0:22:13.97,sign_31857_392_Mmmm,Text,0000,0000,0000,,{\fad(500,1)}Mmmmmmmmmmmmmmmmmmmmmmmm?\N{\c&H0E0F0F&}Mmmmmmmmmmmmmmmmmmmmmmmmmmmm?\N{\c&H1600EC&}Mmmmmmmmmmmmm                  mmmmmmm?
+Dialogue: 0,0:22:11.10,0:22:12.47,Main Dialogue,Keitard,0000,0000,0000,,Excuse me?!

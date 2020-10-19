@@ -1,0 +1,387 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Flashback_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,30,30,45,1
+Style: Narration,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,0,1,0,0,100,100,0,0,1,2,1,2,13,13,45,1
+Style: Ep_Title,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&HC8000000,&H00000000,1,0,0,0,100,100,0,0,1,1,0,2,13,13,187,1
+Style: sign_33927_268_Next_Time,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00A7121E,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,365,365,155,1
+Style: sign_33927_269__Goblin_Slayer_,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00BB060A,&H00000000,1,0,0,0,100,100,0,0,1,1,0,2,13,13,185,1
+Style: Disclaimer,Open Sans Semibold,33,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,13,13,45,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.42,0:00:04.34,Main,Inspector,0000,0000,0000,,How are the promotion exam \Napplications going?
+Dialogue: 0,0:00:04.51,0:00:07.75,Main,Guild girl,0000,0000,0000,,There's one today, and one tomorrow.
+Dialogue: 0,0:00:07.75,0:00:09.68,Main,Guild girl,0000,0000,0000,,Oh, this is...
+Dialogue: 0,0:00:10.29,0:00:12.99,Main,Guild girl,0000,0000,0000,,The one who's traveling with Goblin Slayer...
+Dialogue: 0,0:00:12.99,0:00:15.12,Main,Inspector,0000,0000,0000,,Goblin Slayer?
+Dialogue: 0,0:00:15.53,0:00:17.32,Main,Inspector,0000,0000,0000,,Oh, that guy...
+Dialogue: 0,0:00:17.32,0:00:18.52,Main,Guild girl,0000,0000,0000,,What?
+Dialogue: 0,0:00:18.84,0:00:21.19,Main,Inspector,0000,0000,0000,,Oh, nothing.
+Dialogue: 0,0:00:24.38,0:00:27.03,Main,Cow girl,0000,0000,0000,,Good morning! You're awake, huh?
+Dialogue: 0,0:00:27.03,0:00:27.99,Main,Goblin slayer,0000,0000,0000,,Yeah.
+Dialogue: 0,0:00:29.70,0:00:31.02,Main,Cow girl,0000,0000,0000,,Everything okay?
+Dialogue: 0,0:00:31.64,0:00:33.65,Main,Goblin slayer,0000,0000,0000,,There's no sign that any goblins came by.
+Dialogue: 0,0:00:34.71,0:00:35.96,Main,Cow girl,0000,0000,0000,,That's not what I mean.
+Dialogue: 0,0:00:36.29,0:00:37.76,Main,Cow girl,0000,0000,0000,,I'm talking about you.
+Dialogue: 0,0:00:37.76,0:00:42.41,Main,Cow girl,0000,0000,0000,,You collapsed as soon as you got \Nhome and were asleep for days.
+Dialogue: 0,0:00:42.41,0:00:43.93,Main,Goblin slayer,0000,0000,0000,,I rested for three days.
+Dialogue: 0,0:00:43.93,0:00:45.63,Main,Cow girl,0000,0000,0000,,{\i1}Only{\i0} three days.
+Dialogue: 0,0:00:45.63,0:00:47.51,Main,Cow girl,0000,0000,0000,,You need to get proper rest.
+Dialogue: 0,0:00:47.51,0:00:50.17,Main,Goblin slayer,0000,0000,0000,,It was just exhaustion. \NNothing to worry about.
+Dialogue: 0,0:00:50.17,0:00:54.53,Main,Goblin slayer,0000,0000,0000,,That said, I was told that my lack of \Nability to take care of myself is a problem.
+Dialogue: 0,0:00:54.53,0:00:56.54,Main,Cow girl,0000,0000,0000,,From that Priestess girl?
+Dialogue: 0,0:00:56.54,0:00:58.90,Main,Goblin slayer,0000,0000,0000,,No, another adventurer.
+Dialogue: 0,0:00:58.90,0:01:00.03,Main,Cow girl,0000,0000,0000,,I see.
+Dialogue: 0,0:01:00.68,0:01:02.49,Main,Cow girl,0000,0000,0000,,So you're going with more people now.
+Dialogue: 0,0:01:02.83,0:01:04.53,Main,Goblin slayer,0000,0000,0000,,Just once so far.
+Dialogue: 0,0:01:04.53,0:01:08.00,Main,Cow girl,0000,0000,0000,,That makes it sound like you \Nplan on going with them again.
+Dialogue: 0,0:01:08.00,0:01:08.95,Main,Goblin slayer,0000,0000,0000,,Does it?
+Dialogue: 0,0:01:09.22,0:01:09.90,Main,Cow girl,0000,0000,0000,,Yup.
+Dialogue: 0,0:01:11.47,0:01:12.44,Main,Goblin slayer,0000,0000,0000,,I see.
+Dialogue: 0,0:02:44.05,0:02:48.01,Ep_Title,Sign,0000,0000,0000,,{\fad(271,1)}Adventures and Daily Life
+Dialogue: 0,0:03:02.19,0:03:03.29,Main,Apprentice cleric,0000,0000,0000,,Take care of that thing!
+Dialogue: 0,0:03:03.29,0:03:04.48,Main,Greenhorn warrior,0000,0000,0000,,I know!
+Dialogue: 0,0:03:11.17,0:03:13.32,Main,Apprentice cleric,0000,0000,0000,,Are you okay? It didn't bite you, did it?
+Dialogue: 0,0:03:13.90,0:03:15.51,Main,Greenhorn warrior,0000,0000,0000,,Yeah, I'm fine.
+Dialogue: 0,0:03:15.51,0:03:16.74,Main,Greenhorn warrior,0000,0000,0000,,My sword...
+Dialogue: 0,0:03:18.24,0:03:19.08,Main,Greenhorn warrior,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:19.08,0:03:20.96,Main,Greenhorn warrior,0000,0000,0000,,I-I can't get it out!
+Dialogue: 0,0:03:22.76,0:03:25.33,Main,Greenhorn warrior,0000,0000,0000,,H-Hey, time out! My sword's still stu—
+Dialogue: 0,0:03:25.33,0:03:28.48,Main,Apprentice cleric,0000,0000,0000,,Chief of justice, lord of the \Nsword, ward of the scale...
+Dialogue: 0,0:03:28.48,0:03:30.27,Main,Apprentice cleric,0000,0000,0000,,May your forces manifest before me!
+Dialogue: 0,0:03:30.27,0:03:31.76,Main,Apprentice cleric,0000,0000,0000,,Holy Smite!
+Dialogue: 0,0:03:36.45,0:03:40.16,Main,Greenhorn warrior,0000,0000,0000,,Must be nice. Miracles from the gods can \Ntake those things out with one blow.
+Dialogue: 0,0:03:40.16,0:03:41.97,Main,Apprentice cleric,0000,0000,0000,,Quit your complaining.
+Dialogue: 0,0:03:41.97,0:03:45.52,Main,Apprentice cleric,0000,0000,0000,,They only answer my wishes once a day...
+Dialogue: 0,0:03:50.77,0:03:52.24,Main,Greenhorn warrior,0000,0000,0000,,You idiot! Run!
+Dialogue: 0,0:03:56.36,0:03:59.03,Main,Guild girl,0000,0000,0000,,You weren't able to complete the quest, so...
+Dialogue: 0,0:03:59.03,0:04:01.88,Main,Guild girl,0000,0000,0000,,No reward. Sorry...
+Dialogue: 0,0:04:02.71,0:04:03.96,Main,Both,0000,0000,0000,,Right...
+Dialogue: 0,0:04:04.32,0:04:09.34,Main,Guild girl,0000,0000,0000,,Um... I think it'd be best to \Nwash up as soon as you can...
+Dialogue: 0,0:04:10.07,0:04:11.00,Main,Both,0000,0000,0000,,Right...
+Dialogue: 0,0:04:12.93,0:04:15.22,Main,Greenhorn warrior,0000,0000,0000,,We'll need weapons before we do anything else.
+Dialogue: 0,0:04:15.53,0:04:20.57,Main,Apprentice cleric,0000,0000,0000,,Yeah. It's a waste to leave \Nthat sword in the sewer.
+Dialogue: 0,0:04:20.57,0:04:24.12,Main,Greenhorn warrior,0000,0000,0000,,No, I mean, we're going to need \Nweapons just to go retrieve it.
+Dialogue: 0,0:04:24.12,0:04:26.01,Main,Apprentice cleric,0000,0000,0000,,Do you have any money?
+Dialogue: 0,0:04:26.01,0:04:27.14,Main,Greenhorn warrior,0000,0000,0000,,Well...
+Dialogue: 0,0:04:27.14,0:04:29.05,Main,Apprentice cleric,0000,0000,0000,,Then what are we going to do?
+Dialogue: 0,0:04:29.05,0:04:30.78,Main,Greenhorn warrior,0000,0000,0000,,Maybe I can get someone to loan me one.
+Dialogue: 0,0:04:30.78,0:04:32.96,Main,Apprentice cleric,0000,0000,0000,,Let's try to avoid going into debt.
+Dialogue: 0,0:04:32.96,0:04:37.78,Main,Greenhorn warrior,0000,0000,0000,,No, I mean, maybe I could \Nborrow someone's spare weapon.
+Dialogue: 0,0:04:37.78,0:04:39.29,Main,Apprentice cleric,0000,0000,0000,,From who?
+Dialogue: 0,0:04:39.29,0:04:40.70,Main,Greenhorn warrior,0000,0000,0000,,Yeah, about that...
+Dialogue: 0,0:04:41.38,0:04:43.79,Main,Cow girl,0000,0000,0000,,I'm going to go get the receptionist's signature.
+Dialogue: 0,0:04:43.79,0:04:44.80,Main,Goblin slayer,0000,0000,0000,,All right.
+Dialogue: 0,0:04:46.32,0:04:47.67,Main,High elf archer,0000,0000,0000,,Orcbolg?
+Dialogue: 0,0:04:47.99,0:04:49.33,Main,High elf archer,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:04:49.88,0:04:51.56,Main,Goblin slayer,0000,0000,0000,,Unloading cargo.
+Dialogue: 0,0:04:51.56,0:04:54.69,Main,Dwarf shaman,0000,0000,0000,,Are you sure you should be moving \Naround already, Beard-cutter?
+Dialogue: 0,0:04:54.69,0:04:55.43,Main,Goblin slayer,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:55.85,0:04:58.89,Main,Lizardman priest,0000,0000,0000,,I heard you were asleep for three days,
+Dialogue: 0,0:04:59.37,0:05:02.01,Main,Lizardman priest,0000,0000,0000,,but you seem to be back on your feet.
+Dialogue: 0,0:05:02.01,0:05:02.60,Main,Goblin slayer,0000,0000,0000,,Yeah.
+Dialogue: 0,0:05:03.38,0:05:08.06,Main,Lizardman priest,0000,0000,0000,,Sir Goblin Slayer, we had a favor \Nwe wanted to ask... You see...
+Dialogue: 0,0:05:08.06,0:05:09.69,Main,Lizardman priest,0000,0000,0000,,How do I put this?
+Dialogue: 0,0:05:09.69,0:05:10.78,Main,Goblin slayer,0000,0000,0000,,What is it?
+Dialogue: 0,0:05:10.78,0:05:14.59,Main,Lizardman priest,0000,0000,0000,,I'd like to request, um... that one item.
+Dialogue: 0,0:05:14.59,0:05:15.57,Main,Goblin slayer,0000,0000,0000,,What item?
+Dialogue: 0,0:05:15.57,0:05:19.56,Main,Dwarf shaman,0000,0000,0000,,Scaly here wants more of that cheese.
+Dialogue: 0,0:05:19.56,0:05:22.95,Main,High elf archer,0000,0000,0000,,All he's talked about the \Npast three days is cheese.
+Dialogue: 0,0:05:26.36,0:05:27.67,Main,Goblin slayer,0000,0000,0000,,Will this suffice?
+Dialogue: 0,0:05:30.74,0:05:32.51,Main,Goblin slayer,0000,0000,0000,,You can pay the guild for it.
+Dialogue: 0,0:05:32.50,0:05:36.97,Main,Lizardman priest,0000,0000,0000,,Yes, yes, of course, Sir Goblin Slayer!
+Dialogue: 0,0:05:37.12,0:05:38.69,Main,High elf archer,0000,0000,0000,,H-Hey...
+Dialogue: 0,0:05:39.12,0:05:40.35,Main,Goblin slayer,0000,0000,0000,,Now what?
+Dialogue: 0,0:05:41.01,0:05:43.85,Main,High elf archer,0000,0000,0000,,Well... you see,
+Dialogue: 0,0:05:43.85,0:05:46.10,Main,High elf archer,0000,0000,0000,,we're currently surveying some ruins.
+Dialogue: 0,0:05:46.29,0:05:47.06,Main,Goblin slayer,0000,0000,0000,,I see.
+Dialogue: 0,0:05:47.25,0:05:52.03,Main,High elf archer,0000,0000,0000,,So, um... We might be asking for your help.
+Dialogue: 0,0:05:53.65,0:05:54.92,Main,Goblin slayer,0000,0000,0000,,I'll think about it.
+Dialogue: 0,0:05:56.60,0:05:59.74,Main,High elf archer,0000,0000,0000,,Yeah, you do that.
+Dialogue: 0,0:06:01.98,0:06:05.12,Main,Dwarf shaman,0000,0000,0000,,You're so difficult, long-ears.
+Dialogue: 0,0:06:05.12,0:06:07.61,Main,Dwarf shaman,0000,0000,0000,,Why don't you just ask him to join us?
+Dialogue: 0,0:06:08.35,0:06:09.71,Main,High elf archer,0000,0000,0000,,Shut your mouth, dwarf!
+Dialogue: 0,0:06:09.71,0:06:11.29,Main,High elf archer,0000,0000,0000,,Don't make me shoot you!
+Dialogue: 0,0:06:11.77,0:06:13.17,Main,Lizardman priest,0000,0000,0000,,Sweet nectar!
+Dialogue: 0,0:06:13.43,0:06:14.65,Main,Inspector,0000,0000,0000,,Thank you.
+Dialogue: 0,0:06:14.65,0:06:16.59,Main,Cow girl,0000,0000,0000,,And thank you.
+Dialogue: 0,0:06:17.33,0:06:21.18,Main,Spearman,0000,0000,0000,,You lost your weapon? Yeah, that sucks.
+Dialogue: 0,0:06:21.47,0:06:24.60,Main,Greenhorn warrior,0000,0000,0000,,I'd like to go retrieve it, \Nbut I don't have another weapon...
+Dialogue: 0,0:06:25.19,0:06:27.44,Main,Greenhorn warrior,0000,0000,0000,,So I was hoping I could \Nborrow someone's spare...
+Dialogue: 0,0:06:27.80,0:06:31.69,Main,Spearman,0000,0000,0000,,I mean, I've got plenty to spare,\Nso I could lend you one, but...
+Dialogue: 0,0:06:32.30,0:06:34.42,Main,Spearman,0000,0000,0000,,you aren't strong enough to wield them.
+Dialogue: 0,0:06:35.44,0:06:40.49,Main,Witch,0000,0000,0000,,Magical weapons... that aren't... \Na good match for you...
+Dialogue: 0,0:06:40.49,0:06:43.87,Main,Witch,0000,0000,0000,,would be a bad idea... right?
+Dialogue: 0,0:06:44.03,0:06:48.28,Main,Greenhorn warrior,0000,0000,0000,,R-Right. Um... Sorry for bothering you.
+Dialogue: 0,0:06:48.28,0:06:49.79,Main,Witch,0000,0000,0000,,Wait...
+Dialogue: 0,0:06:52.74,0:06:57.50,Main,Witch,0000,0000,0000,,I'll give you... something... even better.
+Dialogue: 0,0:06:59.88,0:07:01.31,Main,Greenhorn warrior,0000,0000,0000,,A candle?
+Dialogue: 0,0:07:01.31,0:07:05.10,Main,Witch,0000,0000,0000,,This candle... will help you \Nfind what you're looking for.
+Dialogue: 0,0:07:08.65,0:07:14.49,Main,Witch,0000,0000,0000,,When you get close... to what you're \Nlooking for... it gets hot.
+Dialogue: 0,0:07:14.49,0:07:19.79,Main,Witch,0000,0000,0000,,Say... You could also... \Nsell it for cash... you know?
+Dialogue: 0,0:07:19.79,0:07:23.37,Main,Greenhorn warrior,0000,0000,0000,,Er, right... Thank you very much.
+Dialogue: 0,0:07:23.76,0:07:25.82,Main,Witch,0000,0000,0000,,Don't mention... it.
+Dialogue: 0,0:07:25.82,0:07:29.02,Main,Witch,0000,0000,0000,,I just... wanted to help...
+Dialogue: 0,0:07:29.60,0:07:32.33,Main,Spearman,0000,0000,0000,,Right. Let's head off to our next adventure.
+Dialogue: 0,0:07:32.60,0:07:34.59,Main,Cow girl,0000,0000,0000,,Well, I'm going to head home.
+Dialogue: 0,0:07:34.59,0:07:35.43,Main,Goblin slayer,0000,0000,0000,,Okay.
+Dialogue: 0,0:07:39.33,0:07:41.05,Main,Goblin slayer,0000,0000,0000,,I'd like to request some repairs.
+Dialogue: 0,0:07:41.75,0:07:42.89,Main,Smith,0000,0000,0000,,Again?
+Dialogue: 0,0:07:43.61,0:07:45.81,Main,Smith,0000,0000,0000,,How many times must you destroy my work?
+Dialogue: 0,0:07:45.81,0:07:48.02,Main,Smith,0000,0000,0000,,Be more careful!
+Dialogue: 0,0:07:48.02,0:07:49.64,Main,Goblin slayer,0000,0000,0000,,I am careful.
+Dialogue: 0,0:07:49.64,0:07:51.77,Main,Smith,0000,0000,0000,,Damn, you don't even get sarcasm.
+Dialogue: 0,0:07:52.40,0:07:54.86,Main,Goblin slayer,0000,0000,0000,,Also, I'd like you to procure a scroll.
+Dialogue: 0,0:07:54.86,0:07:58.52,Main,Smith,0000,0000,0000,,Scrolls are hard to come by as it is, \Nand they're expensive to boot.
+Dialogue: 0,0:07:58.52,0:08:00.07,Main,Goblin slayer,0000,0000,0000,,I'll pay whatever you want.
+Dialogue: 0,0:08:00.27,0:08:03.75,Main,Smith,0000,0000,0000,,If some adventurer comes around \Nand tries to sell me one, I'll buy it,
+Dialogue: 0,0:08:03.75,0:08:06.16,Main,Smith,0000,0000,0000,,but don't get your hopes up.
+Dialogue: 0,0:08:06.16,0:08:08.16,Main,Goblin slayer,0000,0000,0000,,I know. That's fine.
+Dialogue: 0,0:08:11.55,0:08:13.15,Main,Priestess,0000,0000,0000,,Goblin Slayer!
+Dialogue: 0,0:08:15.12,0:08:17.38,Main,Goblin slayer,0000,0000,0000,,I'm running into everyone today.
+Dialogue: 0,0:08:19.48,0:08:21.56,Main,Priestess,0000,0000,0000,,Look at this! See?
+Dialogue: 0,0:08:22.89,0:08:24.59,Main,Goblin slayer,0000,0000,0000,,So you went from 10th to 9th.
+Dialogue: 0,0:08:24.94,0:08:28.08,Main,Priestess,0000,0000,0000,,Yes! I got promoted yesterday!
+Dialogue: 0,0:08:28.51,0:08:33.04,Main,Priestess,0000,0000,0000,,I was a bit nervous, but apparently \Nfighting an ogre really helped!
+Dialogue: 0,0:08:33.04,0:08:35.44,Main,Goblin slayer,0000,0000,0000,,I see. Good for you.
+Dialogue: 0,0:08:35.80,0:08:39.44,Main,Priestess,0000,0000,0000,,And it's all thanks to you, Goblin Slayer.
+Dialogue: 0,0:08:40.91,0:08:42.57,Main,Goblin slayer,0000,0000,0000,,I didn't do anything.
+Dialogue: 0,0:08:42.74,0:08:46.02,Main,Priestess,0000,0000,0000,,But you saved me the first time we met.
+Dialogue: 0,0:08:46.02,0:08:48.99,Main,Goblin slayer,0000,0000,0000,,But the rest of your party didn't make it.
+Dialogue: 0,0:08:49.45,0:08:54.16,Main,Priestess,0000,0000,0000,,Yes, but... You still saved me.
+Dialogue: 0,0:08:54.58,0:08:57.88,Main,Priestess,0000,0000,0000,,I thought that I should at \Nleast thank you properly.
+Dialogue: 0,0:08:58.93,0:09:00.60,Main,Priestess,0000,0000,0000,,Thank you very much.
+Dialogue: 0,0:09:02.34,0:09:07.19,Main,Priestess,0000,0000,0000,,Well, I'm going to the temple to report \Nto Mother Superior about my promotion!
+Dialogue: 0,0:09:12.10,0:09:13.81,Main,Scout,0000,0000,0000,,No way, no how!
+Dialogue: 0,0:09:13.81,0:09:16.63,Main,Scout,0000,0000,0000,,I just lost my own short sword,\Nand I'm using a loaner myself.
+Dialogue: 0,0:09:16.63,0:09:19.25,Main,Scout,0000,0000,0000,,If I let someone else borrow that, \Nthe boss is gonna kill me.
+Dialogue: 0,0:09:19.25,0:09:21.11,Main,Greenhorn warrior,0000,0000,0000,,You lost it? How?
+Dialogue: 0,0:09:21.54,0:09:25.74,Main,Druid,0000,0000,0000,,A giant slug melted it. Unbelievable.
+Dialogue: 0,0:09:26.03,0:09:28.99,Main,Greenhorn warrior,0000,0000,0000,,A giant slug, huh? Must be nice...
+Dialogue: 0,0:09:29.91,0:09:33.29,Main,Apprentice cleric,0000,0000,0000,,We're porcelain, and they're silver.
+Dialogue: 0,0:09:33.52,0:09:35.22,Main,Apprentice cleric,0000,0000,0000,,We're no match for them.
+Dialogue: 0,0:09:37.47,0:09:39.89,Main,Scout,0000,0000,0000,,You were out hunting rats?
+Dialogue: 0,0:09:39.89,0:09:41.75,Main,Greenhorn warrior,0000,0000,0000,,Yeah, and I lost my sword.
+Dialogue: 0,0:09:42.53,0:09:44.13,Main,Greenhorn warrior,0000,0000,0000,,Man... I'm so jealous.
+Dialogue: 0,0:09:44.13,0:09:47.73,Main,Greenhorn warrior,0000,0000,0000,,I want a two-handed sword...
+Dialogue: 0,0:09:48.72,0:09:50.56,Main,Greenhorn warrior,0000,0000,0000,,like that great sword.
+Dialogue: 0,0:09:50.56,0:09:54.58,Main,Apprentice cleric,0000,0000,0000,,If you even tried to hold that \Nthing up, you'd collapse.
+Dialogue: 0,0:09:54.58,0:09:55.64,Main,Apprentice cleric,0000,0000,0000,,Not to mention...
+Dialogue: 0,0:09:56.05,0:09:59.36,Main,Apprentice cleric,0000,0000,0000,,it costs m-o-n-e-y.
+Dialogue: 0,0:10:02.68,0:10:04.92,Main,Scout,0000,0000,0000,,Looks like he got Silent cast on him.
+Dialogue: 0,0:10:04.92,0:10:07.41,Main,Druid,0000,0000,0000,,Hey, why not talk to the guild about it?
+Dialogue: 0,0:10:07.63,0:10:09.83,Main,Apprentice cleric,0000,0000,0000,,Talk to them? About borrowing a weapon?
+Dialogue: 0,0:10:09.83,0:10:12.87,Main,Druid,0000,0000,0000,,No, about how to slay those rats.
+Dialogue: 0,0:10:13.12,0:10:16.02,Main,Druid,0000,0000,0000,,Maybe they could suggest a good method.
+Dialogue: 0,0:10:16.02,0:10:17.83,Main,Apprentice cleric,0000,0000,0000,,Would it really be that easy?
+Dialogue: 0,0:10:21.94,0:10:23.63,Main,Guild girl,0000,0000,0000,,Goblin Slayer!
+Dialogue: 0,0:10:24.56,0:10:25.65,Main,Apprentice cleric,0000,0000,0000,,Pardon me...
+Dialogue: 0,0:10:25.65,0:10:26.34,Main,Guild girl,0000,0000,0000,,Yes?
+Dialogue: 0,0:10:29.29,0:10:32.72,Main,Guild girl,0000,0000,0000,,How to slay giant rats...
+Dialogue: 0,0:10:32.94,0:10:35.44,Main,Guild girl,0000,0000,0000,,I'm afraid it's not that simple.
+Dialogue: 0,0:10:35.44,0:10:38.50,Main,Guild girl,0000,0000,0000,,I mean, we're asking \Nadventurers for help because
+Dialogue: 0,0:10:38.50,0:10:40.36,Main,Guild girl,0000,0000,0000,,they're difficult to deal with...
+Dialogue: 0,0:10:40.36,0:10:41.73,Main,Greenhorn warrior,0000,0000,0000,,Isn't there anything you can do?
+Dialogue: 0,0:10:41.73,0:10:44.28,Main,Apprentice cleric,0000,0000,0000,,Anything would be great! Please!
+Dialogue: 0,0:10:44.44,0:10:50.03,Main,Guild girl,0000,0000,0000,,This is pretty simple, but why not boost your \Ndefense with chain mail or something?
+Dialogue: 0,0:10:50.03,0:10:52.19,Main,Greenhorn warrior,0000,0000,0000,,We don't have any money.
+Dialogue: 0,0:10:52.19,0:10:58.58,Main,Guild girl,0000,0000,0000,,In that case, it's probably best to ask for help \Nwith adventures from another adventurer.
+Dialogue: 0,0:10:59.54,0:11:02.04,Main,Greenhorn warrior,0000,0000,0000,,G-Goblin Slayer?
+Dialogue: 0,0:11:02.56,0:11:03.94,Main,Guild girl,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:11:03.94,0:11:05.49,Main,Greenhorn warrior,0000,0000,0000,,Oh, um, it's just...
+Dialogue: 0,0:11:05.49,0:11:08.55,Main,Apprentice cleric,0000,0000,0000,,Um... We were kind of rude to him before.
+Dialogue: 0,0:11:09.05,0:11:13.05,Main,Guild girl,0000,0000,0000,,Oh, don't worry. That sort \Nof thing doesn't bother him.
+Dialogue: 0,0:11:13.35,0:11:14.64,Main,Apprentice cleric,0000,0000,0000,,You think so?
+Dialogue: 0,0:11:14.64,0:11:16.51,Main,Guild girl,0000,0000,0000,,Yes, I guarantee it.
+Dialogue: 0,0:11:19.15,0:11:20.73,Main,Apprentice cleric,0000,0000,0000,,Um...
+Dialogue: 0,0:11:21.16,0:11:22.40,Main,Goblin slayer,0000,0000,0000,,What?
+Dialogue: 0,0:11:22.40,0:11:24.99,Main,Greenhorn warrior,0000,0000,0000,,Th-There's something we wanted to ask.
+Dialogue: 0,0:11:24.99,0:11:28.36,Main,Greenhorn warrior,0000,0000,0000,,When you lose your sword, \Nwhat's the best way to fight enemies?
+Dialogue: 0,0:11:28.92,0:11:30.49,Main,Goblin slayer,0000,0000,0000,,Steal one from a goblin.
+Dialogue: 0,0:11:30.87,0:11:33.29,Main,Greenhorn warrior,0000,0000,0000,,But we're not fighting goblins.
+Dialogue: 0,0:11:33.29,0:11:34.39,Main,Goblin slayer,0000,0000,0000,,I see.
+Dialogue: 0,0:11:35.30,0:11:37.38,Main,Goblin slayer,0000,0000,0000,,Have you ever used any \Nweapon other than a sword?
+Dialogue: 0,0:11:37.38,0:11:38.40,Main,Greenhorn warrior,0000,0000,0000,,No...
+Dialogue: 0,0:11:38.40,0:11:40.00,Main,Apprentice cleric,0000,0000,0000,,Also, we have no money.
+Dialogue: 0,0:11:41.58,0:11:43.89,Main,Goblin slayer,0000,0000,0000,,In that case, how about a club?
+Dialogue: 0,0:11:43.89,0:11:45.02,Main,Greenhorn warrior,0000,0000,0000,,A club?
+Dialogue: 0,0:11:45.02,0:11:48.78,Main,Goblin slayer,0000,0000,0000,,Yeah. Throw, stab, break, and shatter.
+Dialogue: 0,0:11:48.78,0:11:52.01,Main,Goblin slayer,0000,0000,0000,,Even using a sword properly, you couldn't \Ncut five goblins with one sword.
+Dialogue: 0,0:11:52.75,0:11:54.26,Main,Greenhorn warrior,0000,0000,0000,,What about rats or bugs?
+Dialogue: 0,0:11:54.67,0:11:58.79,Main,Goblin slayer,0000,0000,0000,,I couldn't say. I'm sure if you swung one \Naround and it hit them, it'd at least hurt.
+Dialogue: 0,0:11:58.79,0:12:02.02,Main,Goblin slayer,0000,0000,0000,,If nothing else, it wouldn't get nicked \Nlike a sword, so it's easier to use.
+Dialogue: 0,0:12:02.62,0:12:03.69,Main,Greenhorn warrior,0000,0000,0000,,Easier...
+Dialogue: 0,0:12:04.02,0:12:05.43,Main,Greenhorn warrior,0000,0000,0000,,A club, huh?
+Dialogue: 0,0:12:05.43,0:12:07.00,Main,Goblin slayer,0000,0000,0000,,Yeah, a club.
+Dialogue: 0,0:12:07.00,0:12:09.21,Main,Guild girl,0000,0000,0000,,The observer can't come?
+Dialogue: 0,0:12:09.21,0:12:13.08,Main,Inspector,0000,0000,0000,,They apparently got hurt in a quest \Nyesterday. Do you have anyone else?
+Dialogue: 0,0:12:13.47,0:12:16.20,Main,Guild girl,0000,0000,0000,,Um... In that case...
+Dialogue: 0,0:12:17.31,0:12:18.82,Main,Guild girl,0000,0000,0000,,Goblin Slayer!
+Dialogue: 0,0:12:19.49,0:12:20.46,Main,Goblin slayers,0000,0000,0000,,Goblins?
+Dialogue: 0,0:12:20.69,0:12:22.42,Main,Guild girl,0000,0000,0000,,No, no goblins—
+Dialogue: 0,0:12:23.09,0:12:25.20,Main,Guild girl,0000,0000,0000,,Wait, please don't leave!
+Dialogue: 0,0:12:25.71,0:12:27.96,Main,Goblin slayer,0000,0000,0000,,But there are no goblins, right?
+Dialogue: 0,0:12:28.14,0:12:31.94,Main,Guild girl,0000,0000,0000,,Er, um... Yes, that's correct, but...
+Dialogue: 0,0:12:31.94,0:12:37.45,Main,Guild girl,0000,0000,0000,,Does it absolutely have \Nto... involve... goblins?
+Dialogue: 0,0:12:40.38,0:12:41.64,Main,Goblin slayer,0000,0000,0000,,Keep it short.
+Dialogue: 0,0:12:41.64,0:12:45.17,Main,Guild girl,0000,0000,0000,,I will! You see, there was a mix-up...
+Dialogue: 0,0:12:45.17,0:12:48.11,Main,Guild girl,0000,0000,0000,,so I'd like you to act as an observer.
+Dialogue: 0,0:12:48.46,0:12:51.46,Main,Goblin slayer,0000,0000,0000,,An observer? For a promotion exam?
+Dialogue: 0,0:12:56.36,0:13:00.04,Main,Apprentice cleric,0000,0000,0000,,This candle's supposed to react when \NI think about the sword, right?
+Dialogue: 0,0:13:00.29,0:13:01.22,Main,Greenhorn warrior,0000,0000,0000,,Well?
+Dialogue: 0,0:13:02.84,0:13:05.17,Main,Apprentice cleric,0000,0000,0000,,I think it feels warmer over here.
+Dialogue: 0,0:13:05.68,0:13:07.50,Main,Greenhorn warrior,0000,0000,0000,,So my sword's over there?
+Dialogue: 0,0:13:16.72,0:13:17.81,Main,Greenhorn warrior,0000,0000,0000,,There they are.
+Dialogue: 0,0:13:23.32,0:13:24.47,Main,Greenhorn warrior,0000,0000,0000,,Why, you—
+Dialogue: 0,0:13:28.02,0:13:31.25,Main,Greenhorn warrior,0000,0000,0000,,Die! Die! Die!
+Dialogue: 0,0:13:34.24,0:13:35.57,Main,Greenhorn warrior,0000,0000,0000,,Where's the other one?
+Dialogue: 0,0:13:35.57,0:13:36.77,Main,Apprentice cleric,0000,0000,0000,,It ran away.
+Dialogue: 0,0:13:37.29,0:13:38.97,Main,Apprentice cleric,0000,0000,0000,,So what do you think of the club?
+Dialogue: 0,0:13:39.53,0:13:44.00,Main,Greenhorn warrior,0000,0000,0000,,I'm not sure, but they do die when \NI hit them really hard with it.
+Dialogue: 0,0:13:44.48,0:13:46.43,Main,Apprentice cleric,0000,0000,0000,,It suits you much better than a sword.
+Dialogue: 0,0:13:46.43,0:13:47.77,Main,Greenhorn warrior,0000,0000,0000,,Oh, shut up.
+Dialogue: 0,0:13:52.61,0:13:56.34,Main,Guild girl,0000,0000,0000,,All right, let's begin the promotion exam.
+Dialogue: 0,0:13:56.64,0:13:58.69,Main,Rhea scout,0000,0000,0000,,Bring it on!
+Dialogue: 0,0:13:58.69,0:14:02.01,Main,Rhea scout,0000,0000,0000,,Let's just skip sapphire and \Nemerald and go straight to ruby...
+Dialogue: 0,0:14:02.01,0:14:05.02,Main,Rhea scout,0000,0000,0000,,no, bronze, even!
+Dialogue: 0,0:14:05.18,0:14:07.92,Main,Guild girl,0000,0000,0000,,No, that's not how this works.
+Dialogue: 0,0:14:07.92,0:14:11.55,Main,Guild girl,0000,0000,0000,,Your leather armor and boots... \NThose are new, right?
+Dialogue: 0,0:14:11.55,0:14:13.20,Main,Rhea scout,0000,0000,0000,,Oh, you can tell?
+Dialogue: 0,0:14:13.63,0:14:15.88,Main,Rhea scout,0000,0000,0000,,They're excellent quality.
+Dialogue: 0,0:14:15.88,0:14:19.24,Main,Rhea scout,0000,0000,0000,,I had them matted. They're a perfect fit for me.
+Dialogue: 0,0:14:19.60,0:14:22.88,Main,Guild girl,0000,0000,0000,,How is it that you seem to be \Ndoing so well for yourself
+Dialogue: 0,0:14:22.88,0:14:25.50,Main,Guild girl,0000,0000,0000,,when the same quests are \Navailable to everyone?
+Dialogue: 0,0:14:25.71,0:14:29.09,Main,Rhea scout,0000,0000,0000,,Oh, uh... Well, that's, uh...
+Dialogue: 0,0:14:29.09,0:14:33.42,Main,Rhea scout,0000,0000,0000,,I actually had my family send me some money.
+Dialogue: 0,0:14:33.62,0:14:34.30,Main,Inspector,0000,0000,0000,,That's a lie.
+Dialogue: 0,0:14:34.48,0:14:35.26,Main,Rhea scout,0000,0000,0000,,Huh?
+Dialogue: 0,0:14:35.46,0:14:40.60,Main,Inspector,0000,0000,0000,,I swear on the name of the Supreme \NGod that what he just said was a lie.
+Dialogue: 0,0:14:40.99,0:14:44.30,Italics,Rhea scout,0000,0000,0000,,Sense Lie! The ability to see through lies!
+Dialogue: 0,0:14:44.30,0:14:46.43,Italics,Rhea scout,0000,0000,0000,,Damn it! Curse these seekers!
+Dialogue: 0,0:14:46.59,0:14:51.16,Main,Guild girl,0000,0000,0000,,It appears that you acquired some new gear \Nin the raid at those ruins the other day.
+Dialogue: 0,0:14:51.47,0:14:53.68,Main,Guild girl,0000,0000,0000,,Oh, I get it!
+Dialogue: 0,0:14:53.68,0:14:57.32,Main,Guild girl,0000,0000,0000,,You told the others that you were going \Nto scout, found a treasure chest,
+Dialogue: 0,0:14:57.32,0:14:59.24,Main,Guild girl,0000,0000,0000,,kept it for yourself, and sold the contents!
+Dialogue: 0,0:14:59.24,0:15:01.78,Main,Rhea Scout,0000,0000,0000,,N-N-No, I-I would never...
+Dialogue: 0,0:15:01.78,0:15:03.53,Main,Rhea scout,0000,0000,0000,,I-I'm sorry!
+Dialogue: 0,0:15:03.53,0:15:07.63,Main,Guild girl,0000,0000,0000,,This is truly a problem. \NIt's because of guys like you that
+Dialogue: 0,0:15:07.63,0:15:11.79,Main,Guild girl,0000,0000,0000,,so many people have prejudiced views \Nagainst other rheas and scouts.
+Dialogue: 0,0:15:11.79,0:15:15.32,Main,Guild girl,0000,0000,0000,,But since it's your first offense, \Njust demoting you to porcelain and
+Dialogue: 0,0:15:15.32,0:15:17.51,Main,Guild girl,0000,0000,0000,,banning you from adventuring \Nin this town will suffice.
+Dialogue: 0,0:15:17.51,0:15:20.73,Main,Rhea scout,0000,0000,0000,,H-Hang on a second! That's messed up!
+Dialogue: 0,0:15:20.73,0:15:25.52,Main,Rhea scout,0000,0000,0000,,I'm getting kicked out just because \NI kept a treasure chest to myself?!
+Dialogue: 0,0:15:25.52,0:15:26.47,Main,Guild girl,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:26.47,0:15:29.25,Main,Guild girl,0000,0000,0000,,"Just"? Are you stupid?
+Dialogue: 0,0:15:29.25,0:15:33.27,Main,Guild girl,0000,0000,0000,,Those who betray other people's trust \Ndon't deserve to be adventurers.
+Dialogue: 0,0:15:34.22,0:15:38.82,Main,Guild girl,0000,0000,0000,,You are hereby demoted on the \Ngrounds of falsifying a reward,
+Dialogue: 0,0:15:38.82,0:15:40.69,Main,Guild girl,0000,0000,0000,,though you may stick around if you'd like.
+Dialogue: 0,0:15:41.84,0:15:43.57,Main,Inspector,0000,0000,0000,,Don't get any silly ideas.
+Dialogue: 0,0:15:44.11,0:15:49.08,Main,Rhea scout,0000,0000,0000,,C-Come on, Goblin Slayer! \NYou're a fellow adventurer of this town!
+Dialogue: 0,0:15:49.39,0:15:54.09,Main,Goblin slayer,0000,0000,0000,,What? I'm just an observer. \NNothing more and nothing less.
+Dialogue: 0,0:15:54.54,0:15:57.55,Main,Rhea scout,0000,0000,0000,,But you're an adventurer...
+Dialogue: 0,0:15:57.88,0:16:02.05,Main,Goblin Slayer,0000,0000,0000,,I am, but you also tricked other adventurers.
+Dialogue: 0,0:16:02.05,0:16:04.30,Main,Rhea scout,0000,0000,0000,,D-Damn it!
+Dialogue: 0,0:16:22.64,0:16:24.17,Main,Rhea scout,0000,0000,0000,,You'll regret this!
+Dialogue: 0,0:16:25.72,0:16:27.26,Main,Guild girl,0000,0000,0000,,I think not.
+Dialogue: 0,0:16:30.50,0:16:32.04,Main,Apprentice cleric,0000,0000,0000,,It's hot!
+Dialogue: 0,0:16:32.04,0:16:33.21,Main,Greenhorn warrior,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:16:33.21,0:16:35.96,Main,Apprentice cleric,0000,0000,0000,,This thing's getting hotter and hotter.
+Dialogue: 0,0:16:36.28,0:16:39.45,Main,Greenhorn warrior,0000,0000,0000,,That means my sword's getting closer.
+Dialogue: 0,0:16:43.80,0:16:44.70,Main,Greenhorn warrior,0000,0000,0000,,Watch out!
+Dialogue: 0,0:16:46.12,0:16:47.72,Main,Apprentice cleric,0000,0000,0000,,Hey, what are you doing?
+Dialogue: 0,0:16:51.82,0:16:52.69,Main,Greenhorn warrior,0000,0000,0000,,This way!
+Dialogue: 0,0:16:54.09,0:16:54.92,Main,Greenhorn warrior,0000,0000,0000,,How's the candle?
+Dialogue: 0,0:16:54.92,0:16:56.40,Main,Apprentice cleric,0000,0000,0000,,It's really hot!
+Dialogue: 0,0:16:56.40,0:16:57.19,Main,Greenhorn warrior,0000,0000,0000,,Don't tell me...
+Dialogue: 0,0:16:57.59,0:16:59.15,Main,Greenhorn warrior,0000,0000,0000,,It's inside that thing?!
+Dialogue: 0,0:16:59.15,0:17:00.68,Main,Apprentice cleric,0000,0000,0000,,What should we do?
+Dialogue: 0,0:17:00.68,0:17:02.20,Main,Greenhorn warrior,0000,0000,0000,,Go back to the surface?
+Dialogue: 0,0:17:02.20,0:17:04.37,Main,Apprentice cleric,0000,0000,0000,,They'll catch up to us \Nwhile we climb the ladder!
+Dialogue: 0,0:17:04.37,0:17:05.93,Main,Greenhorn warrior,0000,0000,0000,,Should we jump into the water?
+Dialogue: 0,0:17:05.93,0:17:07.85,Main,Apprentice cleric,0000,0000,0000,,Do you want to get the black plague?!
+Dialogue: 0,0:17:08.92,0:17:09.86,Main,Greenhorn warrior,0000,0000,0000,,In that case...
+Dialogue: 0,0:17:18.75,0:17:19.84,Main,Greenhorn warrior,0000,0000,0000,,Use a miracle!
+Dialogue: 0,0:17:19.84,0:17:20.66,Main,Apprentice cleric,0000,0000,0000,,What are you—
+Dialogue: 0,0:17:20.66,0:17:21.80,Main,Greenhorn warrior,0000,0000,0000,,Just hurry!
+Dialogue: 0,0:17:28.40,0:17:29.06,Main,Greenhorn warrior,0000,0000,0000,,Now!
+Dialogue: 0,0:17:29.06,0:17:31.86,Main,Apprentice cleric,0000,0000,0000,,Chief of justice, lord of the \Nsword, ward of the scale...
+Dialogue: 0,0:17:31.86,0:17:33.58,Main,Apprentice cleric,0000,0000,0000,,May your forces manifest before me!
+Dialogue: 0,0:17:33.58,0:17:35.06,Main,Apprentice cleric,0000,0000,0000,,Holy Smite!
+Dialogue: 0,0:18:06.89,0:18:09.03,Main,Apprentice cleric,0000,0000,0000,,I-Is it still alive?
+Dialogue: 0,0:18:11.15,0:18:14.21,Main,Greenhorn warrior,0000,0000,0000,,S-Stay back. It's dangerous.
+Dialogue: 0,0:18:15.90,0:18:18.22,Main,Greenhorn warrior,0000,0000,0000,,I'm sure my sword doesn't taste good.
+Dialogue: 0,0:18:18.22,0:18:21.48,Main,Greenhorn warrior,0000,0000,0000,,So just... give it back already!
+Dialogue: 0,0:18:22.87,0:18:24.87,Main,Guild girl,0000,0000,0000,,That was so scary...
+Dialogue: 0,0:18:25.76,0:18:28.59,Main,Guild girl,0000,0000,0000,,Thank you so much, Goblin Slayer.
+Dialogue: 0,0:18:28.99,0:18:30.83,Main,Goblin slayer,0000,0000,0000,,I didn't do anything.
+Dialogue: 0,0:18:30.83,0:18:33.02,Main,Guild girl,0000,0000,0000,,That's not true.
+Dialogue: 0,0:18:33.02,0:18:36.79,Main,Guild girl,0000,0000,0000,,When I was going through the training \Ncourses at the capital, it was awful.
+Dialogue: 0,0:18:37.23,0:18:40.91,Main,Guild girl,0000,0000,0000,,All those creeps who couldn't open their \Nmouths without making lewd remarks...
+Dialogue: 0,0:18:40.91,0:18:43.92,Main,Guild girl,0000,0000,0000,,And the ones who wanted to hit on me...
+Dialogue: 0,0:18:43.92,0:18:46.80,Main,Inspector,0000,0000,0000,,There are so many of those in the capital.
+Dialogue: 0,0:18:47.18,0:18:50.70,Main,Guild girl,0000,0000,0000,,I'd have to deal with people \Nlike that on my own, so...
+Dialogue: 0,0:18:52.71,0:18:58.14,Main,Guild girl,0000,0000,0000,,I feel so much more relaxed just having \Nsomeone I trust acting as an observer.
+Dialogue: 0,0:18:58.38,0:18:59.28,Main,Goblin slayer,0000,0000,0000,,Really?
+Dialogue: 0,0:18:59.28,0:19:01.52,Main,Guild girl,0000,0000,0000,,Yes, absolutely!
+Dialogue: 0,0:19:01.52,0:19:03.86,Main,Goblin slayer,0000,0000,0000,,If we're done here, I'm leaving.
+Dialogue: 0,0:19:03.86,0:19:08.55,Main,Guild girl,0000,0000,0000,,O-Oh, sure. If you go to the front desk, \Nthey should give you your compensation...
+Dialogue: 0,0:19:08.55,0:19:09.60,Main,Goblin slayer,0000,0000,0000,,All right.
+Dialogue: 0,0:19:10.70,0:19:11.49,Main,Guild girl,0000,0000,0000,,U-Um!
+Dialogue: 0,0:19:13.44,0:19:14.37,Main,Goblin slayer,0000,0000,0000,,What?
+Dialogue: 0,0:19:14.78,0:19:19.27,Main,Guild girl,0000,0000,0000,,Uh, um... Good work today.
+Dialogue: 0,0:19:19.27,0:19:21.24,Main,Goblin slayer,0000,0000,0000,,Yeah, you, too.
+Dialogue: 0,0:19:25.27,0:19:26.92,Main,Inspector,0000,0000,0000,,Good work.
+Dialogue: 0,0:19:26.92,0:19:29.26,Main,Inspector,0000,0000,0000,,That rhea's probably going \Nto try something again.
+Dialogue: 0,0:19:29.60,0:19:33.39,Main,Guild girl,0000,0000,0000,,But surviving adventurers are rare these days.
+Dialogue: 0,0:19:33.39,0:19:36.25,Main,Guild girl,0000,0000,0000,,What he did wasn't clearly illegal...
+Dialogue: 0,0:19:36.67,0:19:38.98,Main,Guild girl,0000,0000,0000,,It'd be worse if he gave up \Non being an adventurer
+Dialogue: 0,0:19:38.98,0:19:40.60,Main,Guild girl,0000,0000,0000,,and became an actual troublemaker.
+Dialogue: 0,0:19:40.91,0:19:46.49,Main,Inspector,0000,0000,0000,,Well, the adventurers run the gamut\Nfrom Lawful Good to Chaotic Evil.
+Dialogue: 0,0:19:46.49,0:19:50.61,Main,Guild girl,0000,0000,0000,,As long as they're adventurers, \Nthey're allowed to make that choice.
+Dialogue: 0,0:19:51.29,0:19:52.62,Main,Guild girl,0000,0000,0000,,Thank you for everything.
+Dialogue: 0,0:19:52.89,0:19:58.12,Main,Inspector,0000,0000,0000,,It was nothing. It's my job as a priest for \Nthe Supreme God, so it's no problem at all.
+Dialogue: 0,0:19:58.67,0:20:02.38,Main,Guild girl,0000,0000,0000,,And from the perspective of the God of \NLaw, how do you think I handled that?
+Dialogue: 0,0:20:02.65,0:20:06.59,Main,Inspector,0000,0000,0000,,Most people seem to misunderstand \Nthe God of Justice.
+Dialogue: 0,0:20:06.59,0:20:08.76,Main,Inspector,0000,0000,0000,,You see that all the time in plays.
+Dialogue: 0,0:20:09.86,0:20:11.79,Main,Inspector,0000,0000,0000,,Justice is not about striking down evil,
+Dialogue: 0,0:20:11.79,0:20:15.10,Main,Inspector,0000,0000,0000,,but making people aware that \Nevil exists in the world.
+Dialogue: 0,0:20:15.76,0:20:18.06,Main,Guild girl,0000,0000,0000,,That's a lovely way of thinking.
+Dialogue: 0,0:20:18.32,0:20:20.02,Main,Inspector,0000,0000,0000,,If you can put it into practice.
+Dialogue: 0,0:20:20.02,0:20:25.02,Main,Inspector,0000,0000,0000,,I'm still nowhere near the \NSword Maiden, not even close.
+Dialogue: 0,0:20:26.25,0:20:29.42,Main,Inspector,0000,0000,0000,,She was one of the adventurers \Nthat defeated the Demon Lord.
+Dialogue: 0,0:20:30.03,0:20:33.92,Main,Inspector,0000,0000,0000,,The Sword Maiden, a servant of \Nthe all-powerful Supreme God.
+Dialogue: 0,0:20:34.44,0:20:35.93,Main,Inspector,0000,0000,0000,,I admire her so much.
+Dialogue: 0,0:20:38.21,0:20:42.51,Main,Inspector,0000,0000,0000,,Well, all I have to do is see \Nthrough lies, so I have it easy.
+Dialogue: 0,0:20:42.51,0:20:44.25,Main,Inspector,0000,0000,0000,,You still have work, right?
+Dialogue: 0,0:20:44.25,0:20:47.13,Main,Guild girl,0000,0000,0000,,I have to get started on the \Npaperwork to demote him...
+Dialogue: 0,0:20:47.46,0:20:49.92,Main,Inspector,0000,0000,0000,,So... that other guy's the one you like?
+Dialogue: 0,0:20:49.92,0:20:51.87,Main,Guild girl,0000,0000,0000,,Huh? U-Um...
+Dialogue: 0,0:20:53.36,0:20:55.47,Main,Guild girl,0000,0000,0000,,Y-Yeah, so what?
+Dialogue: 0,0:20:57.98,0:21:01.64,Main,Inspector,0000,0000,0000,,You always had a soft spot for strait-laced \Npeople, even back at the capital.
+Dialogue: 0,0:21:02.76,0:21:06.88,Main,Spearman,0000,0000,0000,,To the brave adventurer who \Ngot his sword back on his own!
+Dialogue: 0,0:21:06.88,0:21:08.52,Main,All,0000,0000,0000,,Cheers!
+Dialogue: 0,0:21:09.06,0:21:14.58,Main,Guild girl,0000,0000,0000,,I mean, I wondered if there were \Nmore stoic adventurers around...
+Dialogue: 0,0:21:15.18,0:21:18.83,Main,Guild girl,0000,0000,0000,,But maybe he's a bit {\i1}too{\i0} stoic...
+Dialogue: 0,0:21:20.41,0:21:24.59,Main,Inspector,0000,0000,0000,,I'm glad you seem happy. \NSo, don't you have work to do?
+Dialogue: 0,0:21:24.59,0:21:28.68,Main,Guild girl,0000,0000,0000,,Yeah, I need to stop thinking about \Nsilly things and get to work.
+Dialogue: 0,0:21:29.03,0:21:29.79,Main,Goblin slayer,0000,0000,0000,,Hey.
+Dialogue: 0,0:21:30.57,0:21:33.97,Main,Guild,0000,0000,0000,,Wh-Wh-Wh-What is it, Goblin Slayer?
+Dialogue: 0,0:21:33.97,0:21:37.12,Main,Goblin slayer,0000,0000,0000,,What else? I'm going to slay some goblins.
+Dialogue: 0,0:21:38.55,0:21:40.23,Main,Guild girl,0000,0000,0000,,That quest listing...
+Dialogue: 0,0:21:40.23,0:21:43.75,Main,Guild girl,0000,0000,0000,,It's a special one that arrived on \Na parcel carriage from far away.
+Dialogue: 0,0:21:48.37,0:21:50.94,Main,Guild girl,0000,0000,0000,,It's specifically asking for Goblin Slayer?
+Dialogue: 0,0:21:52.60,0:21:55.65,Main,Guild girl,0000,0000,0000,,Who could it be from?
+Dialogue: 0,0:23:35.92,0:23:41.22,sign_33927_268_Next_Time,Sign,0000,0000,0000,,Next Time
+Dialogue: 0,0:23:35.92,0:23:41.22,sign_33927_269__Goblin_Slayer_,Sign,0000,0000,0000,,Goblin Slayer in the Water Town

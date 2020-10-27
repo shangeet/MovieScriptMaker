@@ -22,7 +22,7 @@ def selectCharacter(characters, previousCharacter):
         
 def generateSentence(model, speaker, previousSpeaker, previousState, previousSentence):
     if previousState is None:
-        sentence = model.make_sentence(init_state=previousState, max_words=10)
+        sentence = model.make_sentence(init_state=previousState, max_words=20)
         previousSpeaker = speaker
         words = sentence.split(" ")
         previousState = tuple([words[-2], words[-1]])
@@ -34,7 +34,7 @@ def generateSentence(model, speaker, previousSpeaker, previousState, previousSen
         senLen = len(previousSentence.split(" "))
         while(abs(second) < senLen):
             try:
-                sentence = model.make_sentence(init_state=previousState, max_words=10)
+                sentence = model.make_sentence(init_state=previousState, max_words=20)
                 previousSpeaker = speaker
                 words = sentence.split(" ")
                 senLen = len(words)
@@ -47,7 +47,7 @@ def generateSentence(model, speaker, previousSpeaker, previousState, previousSen
                 words = previousSentence.split(" ")
                 previousState = tuple([words[second], words[first]])
                 
-        sentence = model.make_sentence(init_state=None, max_words=10)
+        sentence = model.make_sentence(init_state=None, max_words=20)
         previousSpeaker = speaker
         words = sentence.split(" ")
         previousState = tuple([words[second], words[first]])

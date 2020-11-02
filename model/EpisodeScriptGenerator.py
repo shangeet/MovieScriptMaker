@@ -25,18 +25,72 @@ def stripDescription(string):
     return string
          
 def get_data_from_file(batch_size, seq_size):
-    quotes = dataframe["Quote"]
-    #Logic to split up the data into words (Option 1
-    character = dataframe['Character']
-    quote_word_count = Counter(quotes)
-    print(quote_word_count)
-    sorted_vocab = sorted(quote_word_counts, 
-                          key=quote_word_count.get, reverse=True)
-    int_to_vocab = {k: w for k, w in enumerate(sorted_vocab)}
-    vocab_to_int = {w: k for k, w in int_to_vocab.items()}
-    n_vocab = len(int_to_vocab)
+    df = dataframe
+    df.dropna(inplace=True)
 
-    int_text = [vocab_to_int[w] for w in text]
+    quoteList = []
+    charList = []
+    print("Quote/Char list added...")
+    
+    curId = None
+    
+    for index, row in df.iterrows():
+        if curId is None:
+            curId = row['EpisodeID']
+            charList.append("START")
+            quoteList.append("")
+        elif curId != row['EpisodeID']:
+            curId = row['EpisodeID']
+            charList.append("END")
+            quoteList.append("")
+        quote = row['Quote']
+        char = row['Character']
+        quote = quote.replace("♪", "")
+        quote = quote.strip()
+        quoteList += quote.split(" ")
+        charList.append(char)
+    
+        
+    quote_word_count = Counter(quoteList)
+    sorted_vocab_quote = sorted(quote_word_count, 
+                          key=quote_word_count.get, reverse=True)
+    
+    int_to_vocab_quotes = {k: w for k, w in enumerate(sorted_vocab_quote)}
+    vocab_to_int_quotes = {w: k for k, w in int_to_vocab_quotes.items()}
+    n_vocab_quotes = len(int_to_vocab_quotes)
+    
+    print("Quote dict...")
+    
+    char_word_count = Counter(charList)
+    sorted_vocab_char = sorted(char_word_count, 
+                          key=char_word_count.get, reverse=True)
+    int_to_vocab_char = {k: w for k, w in enumerate(sorted_vocab_char)}
+    vocab_to_int_char = {w: k for k, w in int_to_vocab_char.items()}
+    n_vocab_char = len(int_to_vocab_char)
+    
+    print("Char dict...")
+    
+    curId = None
+    embedList = []
+    for index, row in df.iterrows():
+        if curId is None:
+            curId = row['EpisodeID']
+            embedList.append(["START", ""])
+        elif curId != row['EpisodeID']:
+            curId = row['EpisodeID']
+            embedList.append(["END", ""])
+        quote = row['Quote']
+        char = row['Character']
+        quote = quote.replace("♪", "")
+        quote = quote.strip()
+        qList = quote.split(" ")
+        for word in qList:
+            embedList.append([char, word])
+    
+    print("Embed list finished...")
+    
+    int_text = [[vocab_to_int_char[w[0]], vocab_to_int_quotes[w[1]]] for w in embedList]
+
     num_batches = int(len(int_text) / (seq_size * batch_size))
     in_text = int_text[:num_batches * batch_size * seq_size]
     out_text = np.zeros_like(in_text)
@@ -75,73 +129,74 @@ def predict(device, net, words, n_vocab, vocab_to_int, int_to_vocab, top_k=5):
     
 
 if __name__ == '__main__':
-    batch_size = 16
-    seq_size = 32
-    lstm_size=64
-    embedding_size=64
-    gradients_norm=5
-    initial_words=['Wonderful', 'day', 'Patrick']
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    int_to_vocab, vocab_to_int, n_vocab, in_text, out_text = get_data_from_file(
-        batch_size, seq_size)
+    get_data_from_file(64,32)
+    # batch_size = 16
+    # seq_size = 32
+    # lstm_size=64
+    # embedding_size=64
+    # gradients_norm=5
+    # initial_words=['Wonderful', 'day', 'Patrick']
+    # device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    # int_to_vocab, vocab_to_int, n_vocab, in_text, out_text = get_data_from_file(
+    #     batch_size, seq_size)
 
-    net = TextGenModel(n_vocab, seq_size,
-                    flags.embedding_size, flags.lstm_size)
-    net = net.to(device)
+    # net = TextGenModel(n_vocab, seq_size,
+    #                 flags.embedding_size, flags.lstm_size)
+    # net = net.to(device)
 
-    criterion, optimizer = get_loss_and_train_op(net, 0.01)
+    # criterion, optimizer = get_loss_and_train_op(net, 0.01)
     
 
-    iteration = 0
-    for e in range(50):
-        batches = get_batches(in_text, out_text, batch_size, seq_size)
-        state_h, state_c = net.zero_state(batch_size)
+    # iteration = 0
+    # for e in range(50):
+    #     batches = get_batches(in_text, out_text, batch_size, seq_size)
+    #     state_h, state_c = net.zero_state(batch_size)
         
-        # Transfer data to GPU
-        state_h = state_h.to(device)
-        state_c = state_c.to(device)
-        for x, y in batches:
-            iteration += 1
+    #     # Transfer data to GPU
+    #     state_h = state_h.to(device)
+    #     state_c = state_c.to(device)
+    #     for x, y in batches:
+    #         iteration += 1
             
-            # Tell it we are in training mode
-            net.train()
+    #         # Tell it we are in training mode
+    #         net.train()
 
-            # Reset all gradients
-            optimizer.zero_grad()
+    #         # Reset all gradients
+    #         optimizer.zero_grad()
 
-            # Transfer data to GPU
-            x = torch.tensor(x).to(device)
-            y = torch.tensor(y).to(device)
+    #         # Transfer data to GPU
+    #         x = torch.tensor(x).to(device)
+    #         y = torch.tensor(y).to(device)
 
-            logits, (state_h, state_c) = net(x, (state_h, state_c))
-            loss = criterion(logits.transpose(1, 2), y)
+    #         logits, (state_h, state_c) = net(x, (state_h, state_c))
+    #         loss = criterion(logits.transpose(1, 2), y)
 
-            state_h = state_h.detach()
-            state_c = state_c.detach()
+    #         state_h = state_h.detach()
+    #         state_c = state_c.detach()
 
-            loss_value = loss.item()
+    #         loss_value = loss.item()
 
-            # Perform back-propagation
-            loss.backward()
+    #         # Perform back-propagation
+    #         loss.backward()
 
-            # Update the network's parameters
-            optimizer.step()
-            loss.backward()
+    #         # Update the network's parameters
+    #         optimizer.step()
+    #         loss.backward()
 
-            _ = torch.nn.utils.clip_grad_norm_(
-                net.parameters(), gradients_norm)
+    #         _ = torch.nn.utils.clip_grad_norm_(
+    #             net.parameters(), gradients_norm)
 
-            optimizer.step()
-            if iteration % 100 == 0:
-                print('Epoch: {}/{}'.format(e, 200),
-                      'Iteration: {}'.format(iteration),
-                      'Loss: {}'.format(loss_value))
+    #         optimizer.step()
+    #         if iteration % 100 == 0:
+    #             print('Epoch: {}/{}'.format(e, 200),
+    #                   'Iteration: {}'.format(iteration),
+    #                   'Loss: {}'.format(loss_value))
 
-            if iteration % 1000 == 0:
-                predict(device, net, initial_words, n_vocab,
-                        vocab_to_int, int_to_vocab, top_k=5)
-                torch.save(net.state_dict(),
-                           'checkpoint_pt/model-{}.pth'.format(iteration))
+    #         if iteration % 1000 == 0:
+    #             predict(device, net, initial_words, n_vocab,
+    #                     vocab_to_int, int_to_vocab, top_k=5)
+    #             torch.save(net.state_dict(),
+    #                        'checkpoint_pt/model-{}.pth'.format(iteration))
     
     
 
